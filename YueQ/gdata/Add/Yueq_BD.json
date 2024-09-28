@@ -1,7 +1,0 @@
-{
-    "Yueq_BD": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "变调*",
-        "Desc": "下次触发残响必定触发对应项,一名角色同一时刻只存在一种."
-    }
-}

@@ -1,8 +1,0 @@
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rumia\bin\Debug\System.Core.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rumia\obj\Debug\Rumia.csprojAssemblyReference.cache
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rumia\obj\Debug\Rumia.csproj.CoreCompileInputs.cache
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rumia\obj\Debug\Rumia.csproj.CopyComplete
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rumia\bin\Debug\Rumia2024623191119.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rumia\bin\Debug\Rumia2024623191119.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rumia\obj\Debug\Rumia2024623191119.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rumia\obj\Debug\Rumia2024623191119.pdb

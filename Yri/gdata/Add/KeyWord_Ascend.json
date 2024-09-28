@@ -1,7 +1,0 @@
-{
-    "KeyWord_Ascend": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "Ascend",
-        "Desc": "Activate when not Airborne. Gain Airborne and additional effects."
-    }
-}
