@@ -1,0 +1,23 @@
+{
+    "S_FKaguya_6_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/SwimDLC/Water hit",
+        "Target": "enemy",
+        "NotCount": true,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Description": "本回合内可重复释放一次。\n\n<color=purple>难题</color> - 这个回合自身受到的伤害大于自身最大生命值的20%(&a)。",
+        "Name": "难题「燕的子安贝　-永命线-」",
+        "Rare": false,
+        "UseAp": 1,
+        "Except": true,
+        "Effect_Target": "SE_T_S_FKaguya_6_0",
+        "Image_0": "S_FKaguya_6_0\\S_FKaguya_6_0_Image_0.png",
+        "Image_1": "S_FKaguya_6_0\\S_FKaguya_6_0_Image_1.png",
+        "Image_2": "S_FKaguya_6_0\\S_FKaguya_6_0_Image_2.png",
+        "SkillExtended": [
+            "HouraisanKaguya.S_FKaguya_6_0"
+        ]
+    }
+}

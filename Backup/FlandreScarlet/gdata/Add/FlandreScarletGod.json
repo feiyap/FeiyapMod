@@ -1,0 +1,20 @@
+{
+    "FlandreScarletGod": {
+        "Character": "FlandreScarlet",
+        "_gdeType_Character": "Character",
+        "_gdeType_SkinName": "String",
+        "SkinName": "幼小的破坏神",
+        "_gdeSchema": "Character_Skin",
+        "SelectInfo": "啊，好开心……真是太有趣了……",
+        "CampSD": [
+            "FlandreScarlet\\FlandreScarletCampSD0.png",
+            "FlandreScarlet\\FlandreScarletCampSD1.png",
+            "FlandreScarlet\\FlandreScarletCampSD2.png",
+            "FlandreScarlet\\FlandreScarletCampSD3.png"
+        ],
+        "FaceSprite": "FlandreScarletGod\\FlandreScarletGodBattleFace.png",
+        "CollectionSprite_Cover": "FlandreScarletGod\\FlandreScarletGodCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "FlandreScarletGod\\FlandreScarletGodCollectionSprite_SkillFace.png",
+        "SkinDesc": "仿佛听到了声音。那是释放内心冲动的……耳语。\n毫无顾忌地按照本能前行，心怀兴奋，她摧毁一切阻碍之物。\n她的身影正如“破坏神”一般。幻想乡的天空被绝望的红色染成一片。"
+    }
+}

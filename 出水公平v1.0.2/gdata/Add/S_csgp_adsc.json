@@ -1,0 +1,36 @@
+{
+    "S_csgp_adsc": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "Misc",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": true,
+        "Track": false,
+        "Fatal": false,
+        "NoDrop": true,
+        "User": "kohei_lzumi",
+        "Name": "子弹生成",
+        "Description": "从<color=#1E90FF>通常弹/特殊弹</color>中随机展示三张，选择一张拿到手中，并附带<color=#FF6347>放逐、2回合后弃牌",
+        "Image_0": "S_csgp_adsc\\S_csgp_adsc_Image_0.png",
+        "Image_1": "S_csgp_adsc\\S_csgp_adsc_Image_1.png",
+        "Image_2": "S_csgp_adsc\\S_csgp_adsc_Image_2.png",
+        "PlusKeyWords": [
+            "csgp_test"
+        ],
+        "PlusSkillView": "S_csgp_hornet",
+        "SkillExtended": [
+            "Kohei.S_Kohei_zdsc"
+        ],
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "S_Ralmia_9_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "锋锐的创造物",
+        "Description": "超额恢复自己%a点体力值。",
+        "Particle": "Particle/Ilya/Ilya_4",
+        "Target": "enemy",
+        "Effect_Target": "SE_T_S_Ralmia_9_2",
+        "Image_0": "S_Ralmia_9_2\\S_Ralmia_9_2_Image_0.png",
+        "Image_1": "S_Ralmia_9_2\\S_Ralmia_9_2_Image_1.png",
+        "Image_2": "S_Ralmia_9_2\\S_Ralmia_9_2_Image_2.png",
+        "SkillExtended": [
+            "Ralmia.S_Ralmia_9_2"
+        ],
+        "UseAp": 6,
+        "Effect_Self": "SE_S_S_Ralmia_9_2",
+        "PlusKeyWords": [
+            "KeyWord_Artifact"
+        ],
+        "SKillExtendedItem": [
+            "SkillEn_Ralmia_0"
+        ]
+    }
+}

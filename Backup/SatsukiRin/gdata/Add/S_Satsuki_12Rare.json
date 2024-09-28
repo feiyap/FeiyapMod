@@ -1,0 +1,24 @@
+{
+    "S_Satsuki_12Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_28",
+        "Rare": true,
+        "Target": "ally",
+        "NotCount": false,
+        "Name": "「False Promise」",
+        "Description": "解除所有减益状态。",
+        "User": "SatsukiRin",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Satsuki_12Rare",
+        "Image_0": "S_Satsuki_12Rare\\S_Satsuki_12Rare_Image_0.png",
+        "Image_1": "S_Satsuki_12Rare\\S_Satsuki_12Rare_Image_1.png",
+        "Image_2": "S_Satsuki_12Rare\\S_Satsuki_12Rare_Image_2.png",
+        "NoBasicSkill": true,
+        "HealSkill": true,
+        "SkillExtended": [
+            "SatsukiRin.S_Satsuki_12Rare"
+        ],
+        "Disposable": false
+    }
+}

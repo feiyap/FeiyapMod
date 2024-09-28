@@ -1,0 +1,15 @@
+{
+    "B_Inaba_8_0": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "ClassName": "Inaba.B_Inaba_8_0",
+        "BuffTag": "Debuff",
+        "Description": "",
+        "Name": "因幡/兔怒",
+        "LifeTime": 6,
+        "MaxStack": 5,
+        "Debuff": true,
+        "TagPer": 120,
+        "Icon": "B_Inaba_8_0\\B_Inaba_8_0_Icon.png"
+    }
+}

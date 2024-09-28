@@ -1,0 +1,283 @@
+{
+    "Mokou": {
+        "_gdeType_name": "String",
+        "name": "藤原妹红",
+        "Skills": [
+            
+        ],
+        "_gdeType_Skills": "Skill",
+        "_gdeIsList_Skills": 1,
+        "_gdeType_Illust_NoGlass": "Sprite",
+        "Illust_NoGlass": "",
+        "_gdeType_face": "Sprite",
+        "face": "Mokou\\MokouBattleFace.png",
+        "_gdeType_PassiveClassName": "String",
+        "PassiveClassName": "Mokou.P_Mokou",
+        "_gdeType_PassiveName": "String",
+        "PassiveName": "不老不死程度的能力",
+        "_gdeType_PassiveDes": "String",
+        "PassiveDes": "每次被击中时，如果受到伤害大于1，获得1层<color=purple>烧伤痛苦减益</color>。\n每次体力低于0受到致命伤害时，无效此伤害，清除自身所有DEBUFF并提升全属性，然后恢复全部生命值，一场战斗最多生效等级除以2（向上取整）的次数。",
+        "_gdeType_BattleChar": "GameObject",
+        "BattleChar": "Mokou\\MokouBattleFace.png",
+        "_gdeType_FaceOriginChar": "GameObject",
+        "FaceOriginChar": "Mokou\\MokouBattleFace.png",
+        "_gdeType_MAXHP": "Vector2",
+        "MAXHP": {
+            "x": 12,
+            "y": 22
+        },
+        "_gdeType_ATK": "Vector2",
+        "ATK": {
+            "x": 12,
+            "y": 22
+        },
+        "_gdeType_DEF": "Vector2",
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "_gdeType_CRI": "Vector2",
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "_gdeType_DODGE": "Vector2",
+        "DODGE": {
+            "x": -10,
+            "y": 2
+        },
+        "_gdeType_HIT": "Vector2",
+        "HIT": {
+            "x": 97,
+            "y": 118
+        },
+        "_gdeType_HIT_DOT": "Vector2",
+        "HIT_DOT": {
+            "x": 5,
+            "y": 45
+        },
+        "_gdeType_REG": "Vector2",
+        "REG": {
+            "x": 8,
+            "y": 14
+        },
+        "_gdeType_RES_CC": "Vector2",
+        "RES_CC": {
+            "x": -5,
+            "y": 35
+        },
+        "_gdeType_RES_DEBUFF": "Vector2",
+        "RES_DEBUFF": {
+            "x": -5,
+            "y": 35
+        },
+        "_gdeType_HIT_CC": "Vector2",
+        "HIT_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "_gdeType_HIT_DEBUFF": "Vector2",
+        "HIT_DEBUFF": {
+            "x": -10,
+            "y": 30
+        },
+        "_gdeType_RES_DOT": "Vector2",
+        "RES_DOT": {
+            "x": -10,
+            "y": 30
+        },
+        "_gdeType_PassiveIcon": "Sprite",
+        "PassiveIcon": "Mokou\\MokouPassiveIcon.png",
+        "_gdeType_Lock": "Bool",
+        "Lock": false,
+        "_gdeType_SelectInfo": "String",
+        "SelectInfo": "藤原妹红曾经是人类,在吃了蓬莱仙药后变得不老不死,受到了人们的恐惧和排挤。经过近千年颠沛流离,最后隐居在迷途竹林中,过着苦行僧一样的生活来磨练自己。因为与蓬莱山辉夜的赌注加入了方舟计划。\n不怎么擅长与人相处也不愿与别人说自己的身世,但是却喜欢听人类家族的故事。\n\n藤原妹红可以在战场上浴火重生，并向敌人施加烧伤痛苦减益。还可以通过提前触发自己身上的烧伤痛苦减益让技能获得强大的额外效果，同时拥有强大的进攻与生存能力。",
+        "Role": "Role_Tank",
+        "_gdeType_Role": "CharRole",
+        "_gdeType_NameAfter1": "String",
+        "NameAfter1": "",
+        "_gdeType_NameAfter2": "String",
+        "NameAfter2": "",
+        "_gdeType_UnlockString": "String",
+        "UnlockString": "",
+        "_gdeType_FirstSkill": "Skill",
+        "FirstSkill": "S_Mokou_1",
+        "_gdeIsList_CampSD": 1,
+        "_gdeType_CampSD": "Sprite",
+        "_gdeType_Face_NoGlass": "Sprite",
+        "Face_NoGlass": "",
+        "_gdeIsList_Text_Battle_Idle": 1,
+        "_gdeType_Text_Battle_Idle": "String",
+        "_gdeIsList_Text_Battle_ND": 1,
+        "_gdeType_Text_Battle_ND": "String",
+        "_gdeIsList_Text_Battle_AllyND": 1,
+        "_gdeType_Text_Battle_AllyND": "String",
+        "_gdeIsList_Text_Battle_Kill": 1,
+        "_gdeType_Text_Battle_Kill": "String",
+        "_gdeIsList_Text_Battle_Start": 1,
+        "_gdeType_Text_Battle_Start": "String",
+        "Text_Battle_Start": [
+            "好吧，那就让战斗开始吧！"
+        ],
+        "_gdeIsList_Text_Battle_Cri": 1,
+        "_gdeType_Text_Battle_Cri": "String",
+        "Text_Battle_Cri": [
+            "把这一切焚烧殆尽吧！"
+        ],
+        "_gdeIsList_Text_Battle_Healed": 1,
+        "_gdeType_Text_Battle_Healed": "String",
+        "Text_Battle_Healed": [
+            "咳咳咳嗯，呃…谢谢…",
+            "那么复活就留到需要的时候吧"
+        ],
+        "_gdeIsList_Text_Field_Idle": 1,
+        "_gdeType_Text_Field_Idle": "String",
+        "Text_Field_Idle": [
+            "稍事歇息就继续上路吧",
+            "扭曲之地如此恐怖的气氛，和幻想乡差多了啊"
+        ],
+        "_gdeIsList_Text_Field_GetItem": 1,
+        "_gdeType_Text_Field_GetItem": "String",
+        "Text_Field_GetItem": [
+            "留给更需要的人吧",
+            "我不需要"
+        ],
+        "_gdeIsList_Text_Field_Potion_N": 1,
+        "_gdeType_Text_Field_Potion_N": "String",
+        "Text_Field_Potion_N": [
+            "呼，体力恢复了"
+        ],
+        "_gdeIsList_Text_Field_Potion_P": 1,
+        "_gdeType_Text_Field_Potion_P": "String",
+        "Text_Field_Potion_P": [
+            "还行吧，味道不错",
+            "再配一点清酒就更好了"
+        ],
+        "_gdeIsList_Text_Character": 1,
+        "_gdeType_Text_Character": "String",
+        "Text_Character": [
+            
+        ],
+        "_gdeType_Off": "Bool",
+        "Off": false,
+        "_gdeSchema": "Character",
+        "_gdeType_Text_PharosLeader": "String",
+        "_gdeIsList_Text_PharosLeader": 1,
+        "StatView_Atk": 1,
+        "_gdeType_StatView_Atk": "Int",
+        "_gdeIsList_StatView_Atk": 0,
+        "StatView_Sup": 1,
+        "_gdeType_StatView_Sup": "Int",
+        "_gdeIsList_StatView_Sup": 0,
+        "StatView_Def": 3,
+        "_gdeType_StatView_Def": "Int",
+        "_gdeIsList_StatView_Def": 0,
+        "StatView_Dot": 3,
+        "_gdeType_StatView_Dot": "Int",
+        "_gdeIsList_StatView_Dot": 0,
+        "StatView_CC": 1,
+        "_gdeType_StatView_CC": "Int",
+        "_gdeIsList_StatView_CC": 0,
+        "StatView_Debuff": 0,
+        "_gdeType_StatView_Debuff": "Int",
+        "_gdeIsList_StatView_Debuff": 0,
+        "StatView_Difficult": 1,
+        "_gdeType_StatView_Difficult": "Int",
+        "_gdeIsList_StatView_Difficult": 0,
+        "CollectionSprite_Cover": "Mokou\\MokouCollectionSprite_Cover.png",
+        "_gdeType_CollectionSprite_Cover": "Sprite",
+        "_gdeIsList_CollectionSprite_Cover": 0,
+        "StatView_Heal": 1,
+        "_gdeType_StatView_Heal": "Int",
+        "_gdeIsList_StatView_Heal": 0,
+        "PassiveUnlockLV1": true,
+        "_gdeType_PassiveUnlockLV1": "Bool",
+        "_gdeIsList_PassiveUnlockLV1": 0,
+        "_gdeIsList_Gender": 0,
+        "_gdeType_Gender": "Int",
+        "Gender": 1,
+        "CollectionSprite_SkillFace": "Mokou\\MokouCollectionSprite_SkillFace.png",
+        "_gdeType_CollectionSprite_SkillFace": "Sprite",
+        "_gdeIsList_CollectionSprite_SkillFace": 0,
+        "_gdeType_CanFriendShip": "Bool",
+        "_gdeIsList_CanFriendShip": 0,
+        "Dialogue_NomalGiftTalk": [
+            
+        ],
+        "Dialogue_GoodGiftTalks": [
+            
+        ],
+        "GoodGift": [
+            "Drink_Vo",
+            "Drink_Sa",
+            "Drink_Be",
+            "Drink_Wi"
+        ],
+        "CanFriendShip": true,
+        "_gdeType_GoodGift": "Item_Friendship",
+        "_gdeIsList_GoodGift": 1,
+        "_gdeType_Dialogue_GoodGiftTalks": "String",
+        "_gdeIsList_Dialogue_GoodGiftTalks": 1,
+        "_gdeType_Dialogue_NomalGiftTalk": "String",
+        "_gdeIsList_Dialogue_NomalGiftTalk": 0,
+        "Dialogue_FriendShipLVTalks": [
+            
+        ],
+        "_gdeType_Dialogue_FriendShipLVTalks": "String",
+        "_gdeIsList_Dialogue_FriendShipLVTalks": 1,
+        "_gdeType_FriendShipSprite": "Sprite",
+        "_gdeIsList_FriendShipSprite": 0,
+        "FixedBasicSkill": "null",
+        "_gdeType_FixedBasicSkill": "Skill",
+        "_gdeType_CampSelectWord": "String",
+        "_gdeIsList_CampSelectWord": 0,
+        "Dialogue_LastStory": "",
+        "_gdeType_Dialogue_LastStory": "String",
+        "_gdeIsList_Dialogue_LastStory": 0,
+        "_gdeType_FaceSmallChar": "GameObject",
+        "_gdeIsList_FaceSmallChar": 0,
+        "Dialogue_TrueEnd": [
+            
+        ],
+        "_gdeType_Dialogue_TrueEnd": "String",
+        "_gdeIsList_Dialogue_TrueEnd": 1,
+        "_gdeIsList_Text_MasterTarget": 0,
+        "Text_MasterTarget": "原来如此，这就是真正的死亡啊……",
+        "_gdeType_Text_MasterTarget": "String",
+        "_gdeType_Dialogue_Final": "String",
+        "_gdeIsList_Dialogue_Final": 0,
+        "Text_Witch": [
+            "老子可是不死之身啊，犹豫什么呢！",
+            "就让我来独自承伤这份痛楚吧"
+        ],
+        "_gdeType_Text_Witch": "String",
+        "_gdeIsList_Text_Witch": 1,
+        "CampSelectWord": "轮到我了吗，那就久违的活动活动身子吧",
+        "Text_Battle_Idle": [
+            "没事，慢慢想，反正我有无尽的时间",
+            "在战斗中发呆可是会全灭的啊"
+        ],
+        "Text_Battle_ND": [
+            "安心吧小子，老子可是不死之身。",
+            "虽然不会死，但老子还是会痛的啊可恶"
+        ],
+        "Text_PharosLeader": [
+            "把一切都烧光就可以了吧……",
+            "额，抱歉，烧到你了吧",
+            "烧吧…烧吧！"
+        ],
+        "Text_Battle_AllyND": [
+            "要死也别在我面前死啊…",
+            "站在我身后就好"
+        ],
+        "CampSD": [
+            "Mokou\\MokouCampSD0.png",
+            "Mokou\\MokouCampSD1.png",
+            "Mokou\\MokouCampSD2.png",
+            "Mokou\\MokouCampSD3.png"
+        ],
+        "Text_Battle_Kill": [
+            "哦呀？这就结束了吗？"
+        ]
+    }
+}

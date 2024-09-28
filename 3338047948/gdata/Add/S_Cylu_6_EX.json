@@ -1,0 +1,8 @@
+{
+    "S_Cylu_6_EX": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "ClassName": "BOSSLucy.S_Cylu_6_EX"
+    }
+}

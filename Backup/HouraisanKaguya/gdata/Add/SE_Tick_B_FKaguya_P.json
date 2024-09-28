@@ -1,0 +1,7 @@
+{
+    "SE_Tick_B_FKaguya_P": {
+        "_gdeSchema": "SkillEffect",
+        "DMG_Base": 0,
+        "DMG_Per": 10
+    }
+}

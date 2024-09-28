@@ -1,0 +1,38 @@
+{
+    "S_Reisen_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunman_0",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "波符「赤眼催眠(Mind Shaker)」",
+        "Description": "<color=red>幻象/狂气</color> - 必定暴击。",
+        "User": "Reisen",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Reisen_0",
+        "Image_0": "S_Reisen_0\\S_Reisen_0_Image_0.png",
+        "Image_1": "S_Reisen_0\\S_Reisen_0_Image_1.png",
+        "Image_2": "S_Reisen_0\\S_Reisen_0_Image_2.png",
+        "Effect_Self": "SE_S_S_Reisen_0",
+        "PlusKeyWords": [
+            "Keyword_Insane"
+        ],
+        "SkillExtended": [
+            "Reisen.S_Reisen_0"
+        ]
+    }
+}

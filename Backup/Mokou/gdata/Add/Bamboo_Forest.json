@@ -1,0 +1,30 @@
+{
+    "Bamboo_Forest": {
+        "_gdeSchema": "RandomEvent",
+        "Script": "Mokou.Bamboo_Forest",
+        "RareEvent": true,
+        "SpecialAppearance": true,
+        "ItemSlotView": false,
+        "Name": "迷途竹林",
+        "Desc_3Stage": "",
+        "EventDetails": "一片广阔的竹林，竹子都以一种奇怪的姿态斜斜地生长。\n天上高高悬着的圆月将皎洁的月光洒向大地，月光又被竹叶切得细碎之后照映在地上。\n如此美好的景色吸引着我向深处走去。\n\n（可与特殊BOSS-“蓬莱山辉夜”战斗\n“蓬莱山辉夜”代替当前区域的BOSS出场。\n若已经和当前区域的BOSS结束战斗，此事件无效。）",
+        "Desc_2Stage": "",
+        "UseButtonTooltip": [
+            "与特殊BOSS“蓬莱山辉夜”战斗。",
+            "与特殊BOSS“蓬莱山辉夜”战斗。"
+        ],
+        "UseButton": [
+            "跟着圆月的指引，往月亮的方向前行。",
+            "妹红：“这里是，迷途竹林？我对这里熟，就让我来带路吧”"
+        ],
+        "OrderStrings": [
+            "跟随着指引，我来到了竹林中的一片稍微开阔的空地上。\n眼前的人仿佛已经在这里等待了许久。",
+            "我漫步在竹林之中，朦胧的月光洒下，这里只是一片平平无奇的小竹林。\n虽然看到了美丽的景色，但是我有启动钟楼的重任，是时候继续启程了。",
+            "我漫步在竹林之中，朦胧的月光洒下，这里只是一片平平无奇的小竹林。\n虽然看到了美丽的景色，但是我还要阻止阿扎尔的计划，是时候继续启程了。"
+        ],
+        "Desc": "可与特殊BOSS-“蓬莱山辉夜”战斗\n“蓬莱山辉夜”代替当前区域的BOSS出场。\n若已经和当前区域的BOSS结束战斗，此事件无效。",
+        "MainImage": "Bamboo_Forest\\Bamboo_ForestMainImage.png",
+        "MainImage_2Stage": "Bamboo_Forest\\Bamboo_ForestMainImage_2Stage.png",
+        "MainImage_3Stage": "Bamboo_Forest\\Bamboo_ForestMainImage_3Stage.png"
+    }
+}

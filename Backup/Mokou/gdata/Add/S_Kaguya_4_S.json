@@ -1,0 +1,38 @@
+{
+    "S_Kaguya_4_S": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": true,
+        "NotChuck": true,
+        "Except": true,
+        "NoBasicSkill": true,
+        "Name": "难题「燕的子安贝 -永命线-」",
+        "Description": "本回合内造成的伤害：&a\n每回合结束时，如果本回合内造成的伤害大于辉夜最大生命值的20%（&b），则解除所有友军的干扰减益与辉夜的“无限的生命之泉”增益状态；反之随机对1个不处于眩晕状态的友方角色造成无法抵抗的眩晕。",
+        "UseAp": 1,
+        "AutoDelete": 1,
+        "PlusKeyWords": [
+            "conundrum"
+        ],
+        "User": "",
+        "LucyPartyDraw": "",
+        "Image_0": "S_Kaguya_4_S\\S_Kaguya_4_S_Image_0.png",
+        "Image_1": "S_Kaguya_4_S\\S_Kaguya_4_S_Image_1.png",
+        "Image_2": "S_Kaguya_4_S\\S_Kaguya_4_S_Image_2.png",
+        "SkillExtended": [
+            "Mokou.S_Kaguya_4_S"
+        ],
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Rare": true,
+        "NODOD": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false
+    }
+}

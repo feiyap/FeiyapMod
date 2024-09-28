@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Asuna_P": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Asuna_P"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

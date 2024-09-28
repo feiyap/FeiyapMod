@@ -1,0 +1,23 @@
+{
+    "myKey": "SR_TH6_Sakuya",
+    "myField": "Face",
+    "myValues": {
+        "path": "SR_TH6_Sakuya\\SR_TH6_SakuyaFace.png",
+        "offsetMax": {
+            "x": 240.542572,
+            "y": 150.680908
+        },
+        "offsetMin": {
+            "x": -335.457428,
+            "y": -1049.31909
+        },
+        "pivot": {
+            "x": 0.5788635,
+            "y": 0.869774461
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

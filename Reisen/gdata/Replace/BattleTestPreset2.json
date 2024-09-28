@@ -1,0 +1,52 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Priest",
+            "Reisen"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_Reisen_P"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Reisen_4",
+                "S_Reisen_8",
+                "S_Reisen_2",
+                "S_Reisen_2"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            
+        ],
+        "AP": 10
+    }
+}

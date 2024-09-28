@@ -1,0 +1,32 @@
+{
+    "S_BOSSLucy_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Lucy/MoneyPower",
+        "Target": "all_enemy",
+        "EnemyPreview": true,
+        "Name": "资本的力量",
+        "Effect_Target": "SE_T_S_BOSSLucy_3",
+        "Track": true,
+        "Fatal": true,
+        "Description": "对目标造成相当于所持金币数 2.5%的&a点伤害（最高不超过30点）。",
+        "SkillExtended": [
+            "BOSSLucy.S_BOSSLucy_3"
+        ],
+        "Image_0": "S_BOSSLucy_3\\S_BOSSLucy_3_Image_0.png",
+        "Image_1": "S_BOSSLucy_3\\S_BOSSLucy_3_Image_1.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "UnknownTarget": false,
+        "Counting": 1
+    }
+}

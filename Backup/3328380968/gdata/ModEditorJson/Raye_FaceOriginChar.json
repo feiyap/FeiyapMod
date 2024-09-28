@@ -1,0 +1,23 @@
+{
+    "myKey": "Raye",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Raye\\RayeFaceOriginChar.png",
+        "pivot": {
+            "x": 0.405195177,
+            "y": 0.867145956
+        },
+        "offsetMin": {
+            "x": -920.219849,
+            "y": -1492.41785
+        },
+        "offsetMax": {
+            "x": 1347.3783,
+            "y": 222.453491
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

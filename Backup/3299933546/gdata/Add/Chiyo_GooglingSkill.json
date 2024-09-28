@@ -1,0 +1,36 @@
+{
+    "Chiyo_GooglingSkill": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "Chiyo",
+        "LucyPartyDraw": "",
+        "Name": "Search Engine",
+        "Description": "Pay &SkillGoldCost Gold to draw a skill.\r\n\nCreate a 0 cost Swiftness 'Search Engine' in hand.\r\nThe created skill can only be cast this turn and costs &NextGoldCost Gold.\r",
+        "UseAp": 1,
+        "Effect_Self": "null",
+        "Effect_Target": "null",
+        "SkillExtended": [
+            "Chiyo.Chiyo_GooglingSkill"
+        ],
+        "Image_0": "Chiyo_GooglingSkill\\Chiyo_GooglingSkill_Image_0.png",
+        "Image_1": "Chiyo_GooglingSkill\\Chiyo_GooglingSkill_Image_1.png",
+        "Image_2": "Chiyo_GooglingSkill\\Chiyo_GooglingSkill_Image_2.png"
+    }
+}

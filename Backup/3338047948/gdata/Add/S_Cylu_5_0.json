@@ -1,0 +1,30 @@
+{
+    "S_Cylu_5_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/slash4",
+        "Target": "all_enemy",
+        "NotCount": true,
+        "Name": "断汝魂灵",
+        "UseAp": 3,
+        "Track": true,
+        "Fatal": true,
+        "Effect_Target": "SE_T_S_Cylu_5_0",
+        "AutoDelete": 2,
+        "User": "Cylu",
+        "NoDrop": true,
+        "Image_0": "S_Cylu_5_0\\S_Cylu_5_0_Image_0.png",
+        "Image_1": "S_Cylu_5_0\\S_Cylu_5_0_Image_1.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

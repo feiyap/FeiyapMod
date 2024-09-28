@@ -1,0 +1,17 @@
+{
+    "S_Sakuya_0_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "skill",
+        "NotCount": true,
+        "Disposable": true,
+        "Name": "调换魔术·黑",
+        "Description": "将技能放在手牌顶。",
+        "Image_0": "S_Sakuya_0_1\\S_Sakuya_0_1_Image_0.png",
+        "SkillExtended": [
+            "IzayoiSakuya.S_Sakuya_0_1"
+        ],
+        "Except": true
+    }
+}

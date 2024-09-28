@@ -1,0 +1,17 @@
+{
+    "B_Shameimaru_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "ShameimaruAya.B_Shameimaru_1",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "风来的山麓",
+        "Description": "暴击时消耗1层增益，生成1个[北风灵]。",
+        "LifeTime": 2,
+        "Icon": "B_Shameimaru_1\\B_Shameimaru_1_Icon.png",
+        "MaxStack": 3
+    }
+}

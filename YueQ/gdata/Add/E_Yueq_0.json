@@ -1,0 +1,10 @@
+{
+    "E_Yueq_0": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Unique",
+        "name": "\"演奏\"",
+        "Description": "战斗开始时,给予牌库中自身部分技能\"交响\"效果.\n自身的技能进入手牌时同样添加.\r\n交响:指向友军的治疗技能为其添加30%治疗量的余音(回合结束回复体力并衰减80%);指向敌人的伤害技能对行动最晚的目标伤害提升至115%.",
+        "image": "Item\\E_Yueq_0_image.png",
+        "Equip_Script": "YueQ.E_Yueq_0"
+    }
+}

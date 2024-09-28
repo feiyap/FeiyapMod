@@ -1,0 +1,26 @@
+{
+    "S_Mokou_LucyD_1": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": false,
+        "Fatal": false,
+        "Name": "烈火汲取",
+        "PlusKeyWords": [
+            "exburn"
+        ],
+        "Description": "<color=orange>过热：2——抽取1个技能并恢复1点法力值。</color>\n抽取1个技能并恢复1点法力值。",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "Mokou",
+        "SkillExtended": [
+            "Mokou.S_Mokou_LucyD_1"
+        ],
+        "Image_0": "S_Mokou_LucyD_1\\S_Mokou_LucyD_1_Image_0.png",
+        "Image_1": "S_Mokou_LucyD_1\\S_Mokou_LucyD_1_Image_1.png",
+        "IgnoreTaunt": false,
+        "Basic": false
+    }
+}

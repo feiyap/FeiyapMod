@@ -1,0 +1,33 @@
+{
+    "S_Eirin_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Control/Control_2",
+        "Target": "enemy",
+        "HealSkill": false,
+        "Name": "操神「思兼装置」",
+        "Description": "改变目标的嘲讽状态。那之后，根据目标当前的嘲讽状态：\n嘲讽 - 使目标获得[月人/月使]。\n非嘲讽 - 使所有友军获得[月人/操神]。",
+        "User": "Eirin",
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Image_0": "S_Eirin_3\\S_Eirin_3_Image_0.png",
+        "Image_1": "S_Eirin_3\\S_Eirin_3_Image_1.png",
+        "Image_2": "S_Eirin_3\\S_Eirin_3_Image_2.png",
+        "Effect_Target": "SE_T_S_Eirin_3",
+        "SkillExtended": [
+            "Eirin.S_Eirin_3"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

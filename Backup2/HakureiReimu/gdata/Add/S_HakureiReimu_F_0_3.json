@@ -1,0 +1,24 @@
+{
+    "S_HakureiReimu_F_0_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/Master_0",
+        "Target": "enemy",
+        "IgnoreTaunt": true,
+        "Track": true,
+        "Name": "灵符「梦想封印　散」",
+        "Description": "<b><color=#B22222>符卡等级3</color></b> - 这个技能造成伤害的30%将会转化为自己的保护罩。",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_HakureiReimu_F_0_3",
+        "Image_0": "S_HakureiReimu_F_0_3\\S_HakureiReimu_F_0_3_Image_0.png",
+        "Image_1": "S_HakureiReimu_F_0_3\\S_HakureiReimu_F_0_3_Image_1.png",
+        "Image_2": "S_HakureiReimu_F_0_3\\S_HakureiReimu_F_0_3_Image_2.png",
+        "Effect_Self": "SE_S_S_HakureiReimu_F_0_3",
+        "PlusSkillView": "S_HakureiReimu_F_0_4",
+        "NotCount": false,
+        "SkillExtended": [
+            "HakureiReimu.S_HakureiReimu_F_0_3"
+        ],
+        "NoDrop": true
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "B_SomBaseball_guard": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomBaseball_guard",
+        "BuffTag": "null",
+        "Name": "保护罩",
+        "Description": "",
+        "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_03",
+        "LifeTime": 1,
+        "Cantdisable": false
+    }
+}

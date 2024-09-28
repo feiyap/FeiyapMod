@@ -1,0 +1,16 @@
+{
+    "B_SomLian_R1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomLian_R1",
+        "BuffTag": "null",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (9)",
+        "LifeTime": 3,
+        "Name": "障路",
+        "Description": "受到大于4点的伤害时，伤害减少4点。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

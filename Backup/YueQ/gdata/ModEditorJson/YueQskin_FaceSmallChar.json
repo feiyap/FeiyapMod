@@ -1,0 +1,23 @@
+{
+    "myKey": "YueQskin",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Yueq_Skin\\Yueq_SkinFaceSmallChar.png",
+        "offsetMax": {
+            "x": 203.582855,
+            "y": 192.588165
+        },
+        "offsetMin": {
+            "x": -285.90036,
+            "y": -767.649353
+        },
+        "pivot": {
+            "x": 0.5799347,
+            "y": 0.793615758
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

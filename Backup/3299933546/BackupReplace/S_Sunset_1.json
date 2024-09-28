@@ -1,0 +1,10 @@
+{
+    "S_Sunset_1": {
+        "_gdeSchema": "Skill",
+        "NotCount": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false
+    }
+}

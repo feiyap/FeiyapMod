@@ -1,0 +1,37 @@
+{
+    "S_Yri_Ascension": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Name": "Ascension",
+        "Description": "Ascend: Add 1 Skill to hand, prioritizing Yri skills. ",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Target": "null",
+        "Effect_Self": "SE_S_S_Yri_Ascension",
+        "PlusSkillView": "",
+        "SkillExtended": [
+            "Yri_Char.S_Yri_Ascension"
+        ],
+        "Image_0": "S_Yri_Ascension\\S_Yri_Ascension_Image_0.png",
+        "Image_1": "S_Yri_Ascension\\S_Yri_Ascension_Image_1.png",
+        "Image_2": "S_Yri_Ascension\\S_Yri_Ascension_Image_2.png",
+        "PlusKeyWords": [
+            "KeyWord_Ascend"
+        ]
+    }
+}

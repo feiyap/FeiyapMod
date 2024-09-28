@@ -1,0 +1,33 @@
+{
+    "S_Raye_LinkageToken": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "self",
+        "NotCount": true,
+        "Disposable": true,
+        "Name": "Linkage!",
+        "AutoDelete": 1,
+        "Image_0": "S_Raye_LinkageToken\\S_Raye_LinkageToken_Image_0.png",
+        "Image_2": "S_Raye_LinkageToken\\S_Raye_LinkageToken_Image_2.png",
+        "Image_1": "S_Raye_LinkageToken\\S_Raye_LinkageToken_Image_1.png",
+        "Description": "Discard the top skill in hand. Link into a Striker form . Draw 1 card.\r",
+        "Effect_Self": "SE_S_S_Raye_LinkageToken",
+        "SkillExtended": [
+            "SkyStriker.S_Raye_LinkageToken"
+        ],
+        "NoBasicSkill": true,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "S_HakureiReimu_F_10Rare_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/Master_0",
+        "Target": "random_enemy",
+        "NotCount": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Name": "梦想天生",
+        "Description": "",
+        "HealSkill": false,
+        "Effect_Target": "SE_T_S_HakureiReimu_F_10Rare_0",
+        "NoBasicSkill": false
+    }
+}

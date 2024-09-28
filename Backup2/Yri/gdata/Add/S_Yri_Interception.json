@@ -1,0 +1,37 @@
+{
+    "S_Yri_Interception": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Target": "enemy",
+        "Name": "Aerial Interception",
+        "Description": "Can only be used while Airborne.\nDescend: Draw 1 card.",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Yri_Interception",
+        "Effect_Self": "SE_S_S_Yri_Interception",
+        "SkillExtended": [
+            "Yri_Char.S_Yri_Interception"
+        ],
+        "Image_0": "S_Yri_Interception\\S_Yri_Interception_Image_0.png",
+        "Image_1": "S_Yri_Interception\\S_Yri_Interception_Image_1.png",
+        "Image_2": "S_Yri_Interception\\S_Yri_Interception_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Particle": "Particle/impact",
+        "PlusKeyWords": [
+            "KeyWord_Descend"
+        ]
+    }
+}

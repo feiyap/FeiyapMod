@@ -1,0 +1,18 @@
+{
+    "b_csgp_missdown": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Kohei.B_Kohei_d",
+        "Debuff": true,
+        "BuffTag": "Debuff",
+        "TagPer": 110,
+        "Name": "闪避率减少",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (22)",
+        "Description": "",
+        "LifeTime": 3,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

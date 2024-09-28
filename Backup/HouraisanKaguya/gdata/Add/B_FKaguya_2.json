@@ -1,0 +1,17 @@
+{
+    "B_FKaguya_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HouraisanKaguya.B_FKaguya_2",
+        "BuffTag": "null",
+        "Name": "佛御石之钵",
+        "Description": "",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newicons (13)",
+        "MaxStack": 0,
+        "LifeTime": 2,
+        "Hide": false,
+        "Cantdisable": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

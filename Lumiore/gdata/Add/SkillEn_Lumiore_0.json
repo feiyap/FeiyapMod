@@ -1,0 +1,16 @@
+{
+    "SkillEn_Lumiore_0": {
+        "_gdeSchema": "SkillExtended",
+        "Drop": true,
+        "Debuff": false,
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "NeedCharacter": "Lumiore",
+        "Name": "打出后最大法力值+1。",
+        "Des": "",
+        "ClassName": "Lumiore.SkillEn_Lumiore_0",
+        "EnforceString": "",
+        "IsIcon": "",
+        "Particle": ""
+    }
+}

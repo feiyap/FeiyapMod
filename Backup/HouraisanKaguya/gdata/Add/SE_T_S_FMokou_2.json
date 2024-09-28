@@ -1,0 +1,13 @@
+{
+    "SE_T_S_FMokou_2": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 0,
+        "Buffs": [
+            "B_FMokou_2"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

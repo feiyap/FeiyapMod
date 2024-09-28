@@ -1,0 +1,17 @@
+{
+    "B_HakureiReimu_F_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "符卡等级",
+        "Description": "",
+        "MaxStack": 5,
+        "Icon": "B_HakureiReimu_F_P\\B_HakureiReimu_F_P_Icon.png",
+        "Tick": "null"
+    }
+}

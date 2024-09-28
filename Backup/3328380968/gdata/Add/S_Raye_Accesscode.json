@@ -1,0 +1,37 @@
+{
+    "S_Raye_Accesscode": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Johan/Johan_R1",
+        "Rare": true,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": true,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "Access Integration!",
+        "Description": "Recast this skill on a random enemy for each Link lockout effect on the caster.",
+        "User": "Raye",
+        "UseAp": 3,
+        "Effect_Target": "SE_T_S_Raye_Accesscode",
+        "Image_0": "S_Raye_Accesscode\\S_Raye_Accesscode_Image_0.png",
+        "Image_1": "S_Raye_Accesscode\\S_Raye_Accesscode_Image_1.png",
+        "Image_2": "S_Raye_Accesscode\\S_Raye_Accesscode_Image_2.png",
+        "SkillExtended": [
+            "SkyStriker.S_Raye_Accesscode"
+        ],
+        "SKillExtendedItem": [
+            
+        ]
+    }
+}

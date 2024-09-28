@@ -1,0 +1,117 @@
+{
+    "Sunmeitian": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "Sunmeitian.P_Sunmeitian",
+        "PassiveUnlockLV1": true,
+        "name": "孙美天",
+        "face": "Sunmeitian\\SunmeitianBattleFace.png",
+        "MAXHP": {
+            "x": 24,
+            "y": 44
+        },
+        "ATK": {
+            "x": 14,
+            "y": 28
+        },
+        "CRI": {
+            "x": 1,
+            "y": 10
+        },
+        "DODGE": {
+            "x": 1,
+            "y": 10
+        },
+        "DEF": {
+            "x": 1,
+            "y": 10
+        },
+        "REG": {
+            "x": 7,
+            "y": 14
+        },
+        "HIT": {
+            "x": 97,
+            "y": 113
+        },
+        "RES_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DEBUFF": {
+            "x": -5,
+            "y": 35
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "PassiveName": "火眼金睛",
+        "PassiveDes": "该被动在1级生效。\n你可以一直看到清晰的地图。\n所有物品不再需要鉴定。",
+        "CollectionSprite_Cover": "Sunmeitian\\SunmeitianCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Sunmeitian\\SunmeitianCollectionSprite_SkillFace.png",
+        "StatView_Atk": 2,
+        "StatView_CC": 2,
+        "StatView_Def": 1,
+        "CampSelectWord": "幻想乡的齐天大圣就是我！\r\n你可给我记好了——",
+        "Gender": 1,
+        "SelectInfo": "孙美天是基础而扎实的输出型角色。\n\n拥有不错的削弱和干扰敌人的手段；然而比起敌人，孙美天更能够以丰富的手段强化自己。\n\n用手中的棍子扫清天下一切吧！",
+        "FirstSkill": "S_Sunmeitian_0",
+        "Text_Field_Idle": [
+            "我看见狗就烦！\r\n自说自话的狗那就是烦上加烦！",
+            "嘘，在鬼杰组里要说我是从被雷劈中的石头里诞生的！以后别人问起你就这么说哦。"
+        ],
+        "Text_Battle_Idle": [
+            "幻想乡的天就是我！"
+        ],
+        "Text_Battle_AllyND": [
+            "别急！我马上去销毁生死簿！"
+        ],
+        "Text_Battle_ND": [
+            "呜哇……我才不会死咧……"
+        ],
+        "Text_Battle_Kill": [
+            "吃俺老孙一棒！",
+            "咦？好弱哦！"
+        ],
+        "Text_Battle_Start": [
+            "啊，果然要打一架啊。",
+            "取经之路漫漫……",
+            "终于要开始进攻地上了吗？"
+        ],
+        "Text_Battle_Cri": [
+            "妖孽！哪里跑！"
+        ],
+        "Text_Battle_Healed": [
+            "嘿嘿，多谢高人相助。"
+        ],
+        "Text_Field_GetItem": [
+            "发现宝物啦！有没有厉害的法宝呢？"
+        ],
+        "Text_Field_Potion_P": [
+            "总感觉比某个医生的药还难喝……"
+        ],
+        "Text_PharosLeader": [
+            "我不是天……我是……",
+            "……咦？咦咦？！",
+            "我是混世魔王！"
+        ],
+        "Text_Witch": [
+            "就用我金刚不坏之身硬顶过去吧！",
+            "我、我是金刚不坏之身……吗……？"
+        ],
+        "PassiveIcon": "Sunmeitian\\SunmeitianPassiveIcon.png"
+    }
+}

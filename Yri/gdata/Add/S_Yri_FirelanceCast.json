@@ -1,0 +1,29 @@
+{
+    "S_Yri_FirelanceCast": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Target": "enemy",
+        "IgnoreTaunt": true,
+        "NoBasicSkill": true,
+        "Track": false,
+        "Fatal": false,
+        "Name": "FM999 \"Firelance\" - Lock On!",
+        "Description": "Can only be used while Airborne.\nCast FM 999 \"Firelance\" with 99 Countdown.\nUser cannot use skills for the rest of the turn.\nIf Lethal, draw 2 card.",
+        "Particle": "Particle/Enemy/Witch_1",
+        "UseAp": 3,
+        "User": "Yri",
+        "Basic": false,
+        "Image_0": "S_Yri_FirelanceCast\\S_Yri_FirelanceCast_Image_0.png",
+        "Image_1": "S_Yri_FirelanceCast\\S_Yri_FirelanceCast_Image_1.png",
+        "Image_2": "S_Yri_FirelanceCast\\S_Yri_FirelanceCast_Image_2.png",
+        "Effect_Self": "SE_S_S_Yri_FirelanceCast",
+        "PlusSkillView": "S_Yri_Firelance",
+        "SkillExtended": [
+            "Yri_Char.S_Yri_FirelanceCast"
+        ],
+        "NotCount": false,
+        "Except": false,
+        "Rare": false,
+        "Disposable": false
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "B_Kirito_12Rare": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Kirito.B_Kirito_12Rare",
+        "BuffTag": "null",
+        "Name": "二刀流",
+        "Description": "攻击额外附带1次伤害。",
+        "Icon": "B_Kirito_12Rare\\B_Kirito_12Rare_Icon.png",
+        "Cantdisable": false,
+        "MaxStack": 1,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "LifeTime": 2
+    }
+}

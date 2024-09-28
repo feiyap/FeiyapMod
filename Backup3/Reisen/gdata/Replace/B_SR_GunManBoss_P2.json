@@ -1,0 +1,7 @@
+{
+    "B_SR_GunManBoss_P2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "UseSkillDebuff": false
+    }
+}

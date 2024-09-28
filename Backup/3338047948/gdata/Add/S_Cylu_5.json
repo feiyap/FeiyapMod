@@ -1,0 +1,31 @@
+{
+    "S_Cylu_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "self",
+        "NotCount": true,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Name": "舍吾幻身",
+        "User": "Cylu",
+        "Counting": 2,
+        "AutoDelete": 2,
+        "Effect_Target": "SE_T_S_Cylu_5",
+        "UseAp": 1,
+        "Track": false,
+        "Fatal": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_Cylu_5\\S_Cylu_5_Image_0.png",
+        "Image_1": "S_Cylu_5\\S_Cylu_5_Image_1.png"
+    }
+}

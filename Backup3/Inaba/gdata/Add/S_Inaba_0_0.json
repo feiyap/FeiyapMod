@@ -1,0 +1,15 @@
+{
+    "S_Inaba_0_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "Name": "高速的白影",
+        "Effect_Target": "SE_T_S_Inaba_0_0",
+        "NotCount": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoDrop": true
+    }
+}

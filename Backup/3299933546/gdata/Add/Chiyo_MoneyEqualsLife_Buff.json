@@ -1,0 +1,16 @@
+{
+    "Chiyo_MoneyEqualsLife_Buff": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": true,
+        "Cantdisable": false,
+        "ClassName": "Chiyo.Chiyo_MoneyEqualsLife_Buff",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (24)",
+        "Name": "Money = Life",
+        "Description": "Remove one stack after you gain or lose gold.\nHeal all other allies by &HealAmount after you gain gold.\nDeal &DamageAmount damage to a random enemy after you lose gold.\nHealing and damage are boosted when at Death's Door.",
+        "MaxStack": 10
+    }
+}

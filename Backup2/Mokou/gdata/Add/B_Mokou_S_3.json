@@ -1,0 +1,15 @@
+{
+    "B_Mokou_S_3": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Mokou.B_Mokou_S_3",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "正直者的试炼",
+        "Description": "如果倒计时内没有受到攻击，则将一张aoe攻击置入手中；如果受到攻击，对双方施加2层烧伤（&a%）。",
+        "Icon": "B_Mokou_S_3\\B_Mokou_S_3_Icon.png"
+    }
+}

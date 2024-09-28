@@ -1,0 +1,25 @@
+{
+    "S_FMokou_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_R1",
+        "Target": "enemy",
+        "NoDrop": true,
+        "Name": "灭罪「正直者之死」",
+        "Description": "倒计时期间，如果敌人使用攻击技能以外的技能，变为&a伤害。\n\n<color=orange>过热：5 - 施加3层<color=purple>烧伤</color>。</color>",
+        "Counting": 3,
+        "PlusKeyWords": [
+            "exburn"
+        ],
+        "Effect_Target": "SE_T_S_FMokou_4",
+        "Image_0": "S_FMokou_4\\S_FMokou_4_Image_0.png",
+        "Image_1": "S_FMokou_4\\S_FMokou_4_Image_1.png",
+        "Image_2": "S_FMokou_4\\S_FMokou_4_Image_2.png",
+        "EnemyPreview": true,
+        "SkillExtended": [
+            "HouraisanKaguya.S_FMokou_4"
+        ],
+        "IgnoreTaunt": false,
+        "UnknownTarget": false
+    }
+}

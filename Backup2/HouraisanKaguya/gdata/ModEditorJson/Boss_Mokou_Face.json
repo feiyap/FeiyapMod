@@ -1,0 +1,23 @@
+{
+    "myKey": "Boss_Mokou",
+    "myField": "Face",
+    "myValues": {
+        "path": "Boss_Mokou\\Boss_MokouFace.png",
+        "offsetMax": {
+            "x": 583.8194,
+            "y": 283.2892
+        },
+        "offsetMin": {
+            "x": -614.6418,
+            "y": -1665.428
+        },
+        "pivot": {
+            "x": 0.5111636,
+            "y": 0.851759434
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "B_Queen_9_T": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

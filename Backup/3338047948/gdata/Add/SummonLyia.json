@@ -1,0 +1,16 @@
+{
+    "SummonLyia": {
+        "_gdeSchema": "Enemy",
+        "hit": 107,
+        "name": "反转调查员·伊利亚",
+        "Boss": true,
+        "maxhp": 200,
+        "spd": 2,
+        "atk": 20,
+        "reg": 10,
+        "cri": 3,
+        "RES_DEBUFF": 15,
+        "RES_CC": 25,
+        "RES_DOT": 25
+    }
+}

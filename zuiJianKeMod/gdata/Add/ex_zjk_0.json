@@ -1,0 +1,12 @@
+{
+    "Ex_zjk_0": {
+        "_gdeSchema": "SkillExtended",
+        "ClassName": "zuiJianKeMod.Ex_zjk_0",
+        "Name": "<color=#9400D3>磔诛",
+        "AlwaysParticle": false,
+        "IsOnesInit": true,
+        "Particle": "",
+        "Des": "<color=#9400D3>未命中时造成一半的伤害\n千剜加身，皮肉皆散",
+        "IsIcon": "Ex_zjk_0\\Ex_zjk_0_Icon.png"
+    }
+}

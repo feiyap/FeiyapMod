@@ -1,0 +1,23 @@
+{
+    "myKey": "KochiyaSanaeSkin",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "KochiyaSanaeSkin\\KochiyaSanaeSkinBattleChar.png",
+        "offsetMax": {
+            "x": 310.8465,
+            "y": 623.497131
+        },
+        "offsetMin": {
+            "x": -860.062561,
+            "y": -1491.04822
+        },
+        "pivot": {
+            "x": 0.7345255,
+            "y": 0.7051389
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

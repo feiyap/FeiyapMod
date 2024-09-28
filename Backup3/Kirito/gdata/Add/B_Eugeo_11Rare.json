@@ -1,0 +1,17 @@
+{
+    "B_Eugeo_11Rare": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Kirito.B_Eugeo_11Rare",
+        "BuffTag": "null",
+        "Description": "受到痛苦伤害翻倍。",
+        "Name": "星爆气流",
+        "MaxStack": 1,
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_05",
+        "LifeTime": 1,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

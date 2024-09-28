@@ -1,0 +1,13 @@
+{
+    "SkillEn_Mokou_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "<color=orange>过热2：——抽取1个技能，回复1点法力值。</color>",
+        "Des": "",
+        "Drop": true,
+        "EnforceString": "1费及以上的技能",
+        "NeedCharacter": "Mokou",
+        "ClassName": "Mokou.SkillEn_Mokou_0"
+    }
+}

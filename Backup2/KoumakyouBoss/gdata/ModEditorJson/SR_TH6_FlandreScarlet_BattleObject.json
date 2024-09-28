@@ -1,0 +1,28 @@
+{
+    "myKey": "SR_TH6_FlandreScarlet",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SR_TH6_FlandreScarlet\\SR_TH6_FlandreScarletMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.476160854,
+            "y": 0.0142398775
+        },
+        "Head": {
+            "x": 0.505901039,
+            "y": 0.9669093
+        },
+        "Center": {
+            "x": 0.506016135,
+            "y": 0.9906024
+        },
+        "UI": {
+            "x": 0.494099438,
+            "y": 0.0237522721
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

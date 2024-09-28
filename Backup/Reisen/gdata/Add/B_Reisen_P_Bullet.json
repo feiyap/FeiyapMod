@@ -1,0 +1,12 @@
+{
+    "B_Reisen_P_Bullet": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "子弹",
+        "Description": "",
+        "LifeTime": 0,
+        "MaxStack": 6,
+        "Icon": "B_Reisen_P_Bullet\\B_Reisen_P_Bullet_Icon.png"
+    }
+}

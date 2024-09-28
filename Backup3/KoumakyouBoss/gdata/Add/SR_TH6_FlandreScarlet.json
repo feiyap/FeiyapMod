@@ -1,0 +1,29 @@
+{
+    "SR_TH6_FlandreScarlet": {
+        "_gdeSchema": "Enemy",
+        "hit": 96,
+        "Passives": [
+            "B_RemiliaScarlet_P"
+        ],
+        "Skills": [
+            "S_FlandreScarlet_0"
+        ],
+        "atk": 17,
+        "cri": 10,
+        "RES_CC": 25,
+        "RES_DEBUFF": 25,
+        "RES_DOT": 25,
+        "maxhp": 80,
+        "spd": 1,
+        "reg": 8,
+        "def": 0,
+        "CollactionSprite_Cover": "SR_TH6_FlandreScarlet\\SR_TH6_FlandreScarletCollactionSprite_Cover.png",
+        "CollactionEnemy": 5,
+        "SubName": "芙兰朵露·斯卡雷特",
+        "name": "芙兰朵露",
+        "EnemyStory": "「你们见过那个樱花树吗？」\n……别开玩笑了，这种地方怎么可能会有樱花树。\n「不对哦。那家伙正在收集这里的“春”，等待着下一次盛开。」\n红魔馆的主人饶有兴致地看着荒野的地平线。",
+        "PlusActCount": [
+            1
+        ]
+    }
+}

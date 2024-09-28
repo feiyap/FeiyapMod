@@ -1,0 +1,10 @@
+{
+    "TestQueue": {
+        "_gdeSchema": "EnemyQueue",
+        "Enemys": [
+            "S1_Pharos_Mage",
+            "S1_Pharos_Mage",
+            "S1_Pharos_Mage"
+        ]
+    }
+}

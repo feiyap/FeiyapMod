@@ -1,0 +1,17 @@
+{
+    "B_Sunmeitian_11Rare": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Sunmeitian.B_Sunmeitian_11Rare",
+        "BuffTag": "null",
+        "Icon": "B_Sunmeitian_11Rare\\B_Sunmeitian_11Rare_Icon.png",
+        "Name": "猴子猴孙",
+        "Description": "敌人每次行动前，对其造成&a(100%)伤害。",
+        "MaxStack": 0,
+        "LifeTime": 3,
+        "Cantdisable": true,
+        "IsFieldBuff": false,
+        "Hide": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

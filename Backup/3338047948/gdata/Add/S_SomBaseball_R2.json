@@ -1,0 +1,29 @@
+{
+    "S_SomBaseball_R2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Rare": true,
+        "Target": "ally",
+        "NotCount": true,
+        "Disposable": true,
+        "NoDrop": true,
+        "Name": "风暴天使",
+        "Description": "解除所有友军随机1个减益。",
+        "Effect_Target": "SE_T_S_SomBaseball_R2",
+        "Effect_Self": "SE_S_S_SomBaseball_R2",
+        "SkillExtended": [
+            "BOSSLucy.S_SomBaseball_R2"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Track": false,
+        "Fatal": false,
+        "Image_0": "S_SomBaseball_R2\\S_SomBaseball_R2_Image_0.png",
+        "Image_1": "S_SomBaseball_R2\\S_SomBaseball_R2_Image_1.png",
+        "Image_2": "S_SomBaseball_R2\\S_SomBaseball_R2_Image_2.png",
+        "UseAp": 3
+    }
+}

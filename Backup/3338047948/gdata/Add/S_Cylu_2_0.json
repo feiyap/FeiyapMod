@@ -1,0 +1,11 @@
+{
+    "S_Cylu_2_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Lucy/LucyC_3",
+        "Target": "Misc",
+        "IgnoreTaunt": false,
+        "NotCount": false,
+        "NoDrop": true
+    }
+}

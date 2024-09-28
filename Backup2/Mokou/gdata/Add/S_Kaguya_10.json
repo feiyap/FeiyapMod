@@ -1,0 +1,15 @@
+{
+    "S_Kaguya_10": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/slash1",
+        "Target": "all_enemy",
+        "EnemyPreview": true,
+        "Image_0": "S_Kaguya_10\\S_Kaguya_10_Image_0.png",
+        "Image_1": "S_Kaguya_10\\S_Kaguya_10_Image_1.png",
+        "Image_2": "S_Kaguya_10\\S_Kaguya_10_Image_2.png",
+        "Effect_Target": "SE_T_S_Kaguya_10",
+        "Name": "刀弹",
+        "NoDrop": true
+    }
+}

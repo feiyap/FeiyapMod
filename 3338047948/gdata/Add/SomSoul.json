@@ -1,0 +1,16 @@
+{
+    "SomSoul": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "无尽的灵魂",
+        "NotCursed": true,
+        "maxhp": 100,
+        "Passives": [
+            "B_SomSoul",
+            "B_SomSoul_Dead"
+        ],
+        "Skills": [
+            "S_Idle"
+        ]
+    }
+}

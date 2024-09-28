@@ -1,0 +1,33 @@
+{
+    "S_FlandreScarlet_14Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/Hein_new_1",
+        "Target": "enemy",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "Name": "红魔符「Bloody Catastrophe」",
+        "Description": "击杀敌人后，回复2点法力值，获得2点永久最大体力值、1%永久暴击率加成、2%永久受到治疗量加成和3%永久暴击伤害加成。这场战斗中无法再从技能中获得属性加成。",
+        "UseAp": 1,
+        "Rare": true,
+        "Effect_Target": "SE_T_S_FlandreScarlet_14Rare",
+        "Track": true,
+        "Fatal": true,
+        "Image_0": "S_FlandreScarlet_14Rare\\S_FlandreScarlet_14Rare_Image_0.png",
+        "Image_1": "S_FlandreScarlet_14Rare\\S_FlandreScarlet_14Rare_Image_1.png",
+        "Image_2": "S_FlandreScarlet_14Rare\\S_FlandreScarlet_14Rare_Image_2.png",
+        "SkillExtended": [
+            "FlandreScarlet.S_FlandreScarlet_14Rare"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

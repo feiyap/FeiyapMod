@@ -1,0 +1,19 @@
+{
+    "HouraisanKaguyaEVO": {
+        "Character": "HouraisanKaguya",
+        "_gdeType_Character": "Character",
+        "_gdeType_SkinName": "String",
+        "SkinName": "月球的公主",
+        "_gdeSchema": "Character_Skin",
+        "FaceSprite": "HouraisanKaguyaEVO\\HouraisanKaguyaEVOBattleFace.png",
+        "CollectionSprite_Cover": "HouraisanKaguyaEVO\\HouraisanKaguyaEVOCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "HouraisanKaguyaEVO\\HouraisanKaguyaEVOCollectionSprite_SkillFace.png",
+        "SkinDesc": "那就让满月从此消失于地上好了。\n如此一来，月球和地上就不能往来了。\n地上，就成为一个巨大的密室了。",
+        "CampSD": [
+            "HouraisanKaguyaEVO\\HouraisanKaguyaEVOCampSD0.png",
+            "HouraisanKaguyaEVO\\HouraisanKaguyaEVOCampSD1.png",
+            "HouraisanKaguyaEVO\\HouraisanKaguyaEVOCampSD2.png",
+            "HouraisanKaguyaEVO\\HouraisanKaguyaEVOCampSD3.png"
+        ]
+    }
+}

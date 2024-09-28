@@ -1,0 +1,38 @@
+{
+    "S_Yri_Blizzard2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunner_0",
+        "Target": "enemy",
+        "NotCount": true,
+        "NoDrop": true,
+        "Name": "Continuous Fire",
+        "Description": "Descend: Discard the top card in hand. Draw 1 card.\r\n",
+        "UseAp": 1,
+        "IgnoreTaunt": true,
+        "Track": false,
+        "Except": false,
+        "Image_0": "S_Yri_Blizzard2\\S_Yri_Blizzard2_Image_0.png",
+        "Image_1": "S_Yri_Blizzard2\\S_Yri_Blizzard2_Image_1.png",
+        "Image_2": "S_Yri_Blizzard2\\S_Yri_Blizzard2_Image_2.png",
+        "NoBasicSkill": true,
+        "Fatal": false,
+        "LucyPartyDraw": "",
+        "PlusKeyWords": [
+            "KeyWord_Descend"
+        ],
+        "Effect_Self": "SE_S_S_Yri_Blizzard2",
+        "Effect_Target": "SE_T_S_Yri_Blizzard2",
+        "SkillExtended": [
+            "Yri_Char.S_Yri_Blizzard2"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

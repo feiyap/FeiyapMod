@@ -1,0 +1,15 @@
+{
+    "Item_Yueq_0": {
+        "_gdeSchema": "Item_Consume",
+        "itemClass": "Unique",
+        "active_battle": false,
+        "active_field": true,
+        "name": "CD",
+        "image": "Item\\Item_Yueq_0_image.png",
+        "Stack": 1,
+        "Price": 550,
+        "FieldUse": "YueQ.Item_Yueq_0",
+        "Target": "ally",
+        "Description": "从两个特定强化中选择一个为目标友军的技能赋予"
+    }
+}

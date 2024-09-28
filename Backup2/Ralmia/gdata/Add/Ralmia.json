@@ -1,0 +1,76 @@
+{
+    "Ralmia": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveUnlockLV1": false,
+        "name": "洛菈米娅",
+        "face": "Ralmia\\RalmiaBattleFace.png",
+        "FirstSkill": "S_Ralmia_0",
+        "Gender": 1,
+        "SelectInfo": "最快速的進步，完成了最快速的機械。她超越音速，接近光速。那是肉身所不能及的速度。已經沒有任何一人一物能夠追上她。",
+        "MAXHP": {
+            "x": 18,
+            "y": 36
+        },
+        "ATK": {
+            "x": 13,
+            "y": 26
+        },
+        "CRI": {
+            "x": 5,
+            "y": 15
+        },
+        "DODGE": {
+            "x": 10,
+            "y": 21
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 8,
+            "y": 15
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": -5,
+            "y": 35
+        },
+        "HIT_DEBUFF": {
+            "x": -5,
+            "y": 35
+        },
+        "HIT_DOT": {
+            "x": -5,
+            "y": 35
+        },
+        "PassiveName": "突破音速",
+        "PassiveDes": "每个回合开始时，获得一张【突破音速】。",
+        "PassiveIcon": "Ralmia\\RalmiaPassiveIcon.png",
+        "StatView_Atk": 3,
+        "StatView_Heal": 0,
+        "StatView_Sup": 1,
+        "StatView_Debuff": 0,
+        "StatView_Difficult": 2,
+        "CollectionSprite_Cover": "Ralmia\\RalmiaCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Ralmia\\RalmiaCollectionSprite_SkillFace.png",
+        "CampSelectWord": "「光學機動，昇華完畢！就算是光我也能追過喔！」",
+        "PassiveClassName": "Ralmia.P_Ralmia"
+    }
+}

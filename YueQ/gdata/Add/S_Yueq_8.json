@@ -1,0 +1,38 @@
+{
+    "S_Yueq_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Charon/ShadowPriest_3",
+        "Target": "all_ally",
+        "HealSkill": false,
+        "NoBasicSkill": false,
+        "Name": "回声屏障",
+        "Description": "每触发一次残响，此技能本次战斗法力消耗-1.\r\n共鸣*Any:解除目标一个减益.",
+        "User": "YueQ",
+        "UseAp": 3,
+        "Effect_Target": "SE_T_S_Yueq_8",
+        "PlusKeyWords": [
+            "Yueq_GM"
+        ],
+        "SkillExtended": [
+            "YueQ.S_Yueq_8"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_Yueq_8\\S_Yueq_8_Image_0.png",
+        "Image_1": "S_Yueq_8\\S_Yueq_8_Image_1.png",
+        "Image_2": "S_Yueq_8\\S_Yueq_8_Image_2.png",
+        "Effect_Self": "SE_S_S_Yueq_8"
+    }
+}

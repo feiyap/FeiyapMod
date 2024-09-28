@@ -1,0 +1,16 @@
+{
+    "id": "HatsuneMiku",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "【CN/EN】初音ミク",
+    "Author": "绯夜氏",
+    "Version": "1.5",
+    "Description": "被所有人喜爱的歌姬，如今也要将那歌声传达进超时空方舟之中。\n世界第一的公主殿下，现在出击！\n定位辅助的角色。不断使用歌声叠加各种增益，增益越多治疗效果越强，以强大的音感将战斗推向最高潮！\n包含1个角色。",
+    "Cover": "HatsuneMikuCover.png",
+    "WorkShopId": "3222505203",
+    "ChangeNote": "2024/4/15\r\nv1.1\r\n清理了mod内的冗余图片。\r\n削弱：角色基础属性和大部分技能倍率。\r\n削弱：太阳系DISCO叠加被动层数：9→3。\r\n\r\nv1.2\r\n增强：略微提升了各治疗卡的倍率。\r\n增强：太阳系DISCO叠加被动层数：3→5。\r\n\r\n2024/5/9\r\nv1.3\r\n新增了EN文本。\r\n\r\n2024/5/30\r\nv1.4\r\n削弱：再次降低了大部分技能的倍率和费用。\r\n削弱：恋是战争+25%攻击力→+15%攻击力。\r\n削弱：太阳系DISCO叠加被动层数：5→3，太阳系DISCO攻击力：每层+1→每2层+1。\r\n削弱：MELT不再是基本功。\r\n削弱：深海少女不再是迅速，现在是一次性、非固定能力。",
+    "TagList": [
+        "Characters"
+    ],
+    "OnlyUploadFiles": false
+}

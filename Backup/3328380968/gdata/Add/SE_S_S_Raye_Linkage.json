@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Raye_Linkage": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Raye_Linkage"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

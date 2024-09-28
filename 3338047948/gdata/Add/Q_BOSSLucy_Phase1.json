@@ -1,0 +1,31 @@
+{
+    "Q_BOSSLucy_Phase1": {
+        "_gdeSchema": "EnemyQueue",
+        "CustomBGM": false,
+        "UseCustomPosition": true,
+        "Pos": [
+            {
+                "x": -4.0,
+                "y": 4.0,
+                "z": -2.0
+            },
+            {
+                "x": 4.0,
+                "y": 4.0,
+                "z": -2.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        ],
+        "Enemys": [
+            "SomShield",
+            "SomClock",
+            "BOSSLucy"
+        ],
+        "CustomeFogTurn": 30,
+        "Wave2Turn": 0
+    }
+}

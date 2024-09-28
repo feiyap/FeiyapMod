@@ -1,0 +1,16 @@
+{
+    "SomSun": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "太阳碎片",
+        "NotCursed": true,
+        "Passives": [
+            "B_SomSunP",
+            "B_SomSunP_Dead"
+        ],
+        "maxhp": 100,
+        "Skills": [
+            "S_Idle"
+        ]
+    }
+}

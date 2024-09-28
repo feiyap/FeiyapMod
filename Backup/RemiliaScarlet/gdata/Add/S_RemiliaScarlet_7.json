@@ -1,0 +1,35 @@
+{
+    "S_RemiliaScarlet_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": true,
+        "Track": false,
+        "Fatal": false,
+        "Name": "狱符「千根针的针山」",
+        "Description": "这个技能造成伤害的250%将会超额治疗自己。",
+        "UseAp": 0,
+        "Particle": "Particle/Enemy/Bite",
+        "User": "RemiliaScarlet",
+        "Target": "otherally",
+        "Effect_Target": "SE_T_S_RemiliaScarlet_7",
+        "SkillExtended": [
+            "RemiliaScarlet.S_RemiliaScarlet_7"
+        ],
+        "Image_0": "S_RemiliaScarlet_7\\S_RemiliaScarlet_7_Image_0.png",
+        "Image_1": "S_RemiliaScarlet_7\\S_RemiliaScarlet_7_Image_1.png",
+        "Image_2": "S_RemiliaScarlet_7\\S_RemiliaScarlet_7_Image_2.png",
+        "Effect_Self": "null",
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "S_HakureiReimu_F_0_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/Master_0",
+        "Target": "enemy",
+        "IgnoreTaunt": true,
+        "Track": true,
+        "Name": "神灵「梦想封印　瞬」",
+        "Description": "<b><color=#B22222>符卡等级4</color></b> - 这个技能造成伤害的40%将会转化为自己的保护罩。",
+        "UseAp": 1,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_HakureiReimu_F_0_4",
+        "Image_0": "S_HakureiReimu_F_0_4\\S_HakureiReimu_F_0_4_Image_0.png",
+        "Image_1": "S_HakureiReimu_F_0_4\\S_HakureiReimu_F_0_4_Image_1.png",
+        "Image_2": "S_HakureiReimu_F_0_4\\S_HakureiReimu_F_0_4_Image_2.png",
+        "Effect_Self": "SE_S_S_HakureiReimu_F_0_4",
+        "PlusSkillView": "S_HakureiReimu_F_0_5",
+        "SkillExtended": [
+            "HakureiReimu.S_HakureiReimu_F_0_4"
+        ],
+        "NoDrop": true
+    }
+}

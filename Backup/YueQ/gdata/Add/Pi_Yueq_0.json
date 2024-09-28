@@ -1,0 +1,9 @@
+{
+    "Pi_Yueq_0": {
+        "_gdeSchema": "Item_Passive",
+        "name": "\"今声\"",
+        "Description": "调查员受到伤害时,若有体力极限,在本次伤害后回复相当于一半极限的体力并获得相当于一半极限的回声护盾.\n每回合限一次.",
+        "image": "Item\\Pi_Yueq_0_image.png",
+        "passive_script": "YueQ.Pi_Yueq_0"
+    }
+}

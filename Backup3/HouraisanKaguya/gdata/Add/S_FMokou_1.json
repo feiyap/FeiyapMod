@@ -1,0 +1,24 @@
+{
+    "S_FMokou_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_2",
+        "Target": "enemy",
+        "NoDrop": true,
+        "EnemyPreview": true,
+        "Name": "藤原「灭罪寺院伤」",
+        "Description": "<color=orange>过热：3 - 改为指向所有敌人。</color>",
+        "UseAp": 0,
+        "Image_0": "S_FMokou_1\\S_FMokou_1_Image_0.png",
+        "Image_1": "S_FMokou_1\\S_FMokou_1_Image_1.png",
+        "Image_2": "S_FMokou_1\\S_FMokou_1_Image_2.png",
+        "Effect_Target": "SE_T_S_FMokou_1",
+        "PlusKeyWords": [
+            "exburn"
+        ],
+        "UnknownTarget": true,
+        "SkillExtended": [
+            "HouraisanKaguya.S_FMokou_1"
+        ]
+    }
+}

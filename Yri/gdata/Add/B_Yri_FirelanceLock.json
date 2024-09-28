@@ -1,0 +1,19 @@
+{
+    "B_Yri_FirelanceLock": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Yri_Char.B_Yri_FirelanceLock",
+        "BuffTag": "null",
+        "UseSkillDebuff": true,
+        "Caution": true,
+        "Name": "Aiming Down Sights",
+        "Description": "Sniping with Firelance from the air. Cannot use skills until the start of the next turn.",
+        "MaxStack": 1,
+        "LifeTime": 1,
+        "Debuff": false,
+        "TagPer": 0,
+        "Icon": "B_Yri_FirelanceLock\\B_Yri_FirelanceLock_Icon.png"
+    }
+}

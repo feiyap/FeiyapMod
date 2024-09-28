@@ -1,0 +1,23 @@
+{
+    "myKey": "Revil_Feiyap",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Revil_Feiyap\\Revil_FeiyapFaceSmallChar.png",
+        "offsetMax": {
+            "x": 150.7421,
+            "y": 114.373894
+        },
+        "offsetMin": {
+            "x": -172.701385,
+            "y": -347.930176
+        },
+        "pivot": {
+            "x": 0.5276635,
+            "y": 0.7405093
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

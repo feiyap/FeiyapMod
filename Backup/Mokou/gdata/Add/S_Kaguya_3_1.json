@@ -1,0 +1,24 @@
+{
+    "S_Kaguya_3_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_0",
+        "Target": "enemy",
+        "EnemyPreview": true,
+        "Name": "椭圆玉弹-自机狙",
+        "Description": "对目标重复释放3次。\n自机狙\n优先攻击最后一个出手的技能的角色（露西除外），如果该技能不是攻击技能，命中率大幅降低。",
+        "PlusKeyWords": [
+            "Trace_barrage"
+        ],
+        "Image_0": "S_Kaguya_3_1\\S_Kaguya_3_1_Image_0.png",
+        "Image_1": "S_Kaguya_3_1\\S_Kaguya_3_1_Image_1.png",
+        "Image_2": "S_Kaguya_3_1\\S_Kaguya_3_1_Image_2.png",
+        "UnknownTarget": true,
+        "Effect_Target": "SE_T_S_Kaguya_3_1",
+        "SkillExtended": [
+            "Mokou.S_Kaguya_3_1"
+        ],
+        "UseAp": 0,
+        "NoDrop": true
+    }
+}

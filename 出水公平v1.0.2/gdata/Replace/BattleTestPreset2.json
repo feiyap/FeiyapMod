@@ -1,0 +1,39 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Hein",
+            "kohei_lzumi"
+        ],
+        "PartyBasicSkill": [
+            "S_MissChain_3",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                "S_Control_5",
+                "S_Sizz_3",
+                "S_Sizz_1"
+            ],
+            [
+                "S_csgp_asteroid",
+                "S_csgp_meteora",
+                "S_csgp_viper",
+                "S_csgp_adsc",
+                "S_csgp_specialist",
+                "S_csgp_cj",
+                "S_csgp_gjzt",
+                "S_csgp_yg",
+                "S_csgp_tomahawk"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ]
+        ]
+    }
+}

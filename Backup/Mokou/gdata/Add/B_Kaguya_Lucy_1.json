@@ -1,0 +1,15 @@
+{
+    "B_Kaguya_Lucy_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Mokou.B_Kaguya_Lucy_1",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "神宝「耀眼的龙玉」",
+        "Description": "每回合结束时，超额治疗所有友方6点体力值。\n\n<color=#919191>完成了难题「龙颈之玉　-五色的弹丸-」获得的奖励。</color>",
+        "Icon": "B_Kaguya_Lucy_1\\B_Kaguya_Lucy_1_Icon.png"
+    }
+}

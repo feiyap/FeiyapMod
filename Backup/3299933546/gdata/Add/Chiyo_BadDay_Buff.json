@@ -1,0 +1,16 @@
+{
+    "Chiyo_BadDay_Buff": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Chiyo.Chiyo_BadDay_Buff",
+        "BuffTag": "null",
+        "Description": "Resist all <color=purple>Pain damage</color>. ",
+        "Name": "Just Another Painful Day",
+        "Icon": "Chiyo_BadDay_Buff\\Chiyo_BadDay_Buff_Icon.png",
+        "LifeTime": 3,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

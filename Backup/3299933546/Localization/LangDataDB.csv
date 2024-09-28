@@ -1,0 +1,153 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/Chiyo_BadDay_Buff_Description,Text,,,Resist all <color=purple>Pain damage</color>. ,,免疫所有<color=purple>痛苦伤害</color>。 ,
+Buff/Chiyo_BadDay_Buff_Name,Text,,,Just Another Painful Day,,只是另一个痛苦的一天,
+Buff/Chiyo_Freelancing_Buff_Description,Text,,,"Remove one stack at the start of the turn and earn &EarnGold Gold.
+Earn additional &BonusGold Gold if at Death's Door.
+Scales based on Attack Power and Healing Power.",,"回合开始时，移除1层该增益并获得&EarnGold金币。
+如果自身处于濒死状态，获得额外&BonusGold金币。
+基于自身攻击力和治疗力，提升获得金币的数量。",
+Buff/Chiyo_Freelancing_Buff_Name,Text,,,Freelancing,,自由职业,
+Buff/Chiyo_HardwareAcceleration_Buff_Name,Text,,,Hardware Acceleration,,硬件加速,
+Buff/Chiyo_MoneyEqualsLife_Buff_Description,Text,,,"Remove one stack after you gain or lose gold.
+Heal all other allies by &HealAmount after you gain gold.
+Deal &DamageAmount damage to a random enemy after you lose gold.
+Healing and damage are boosted when at Death's Door.",,"获得或失去金币时移除1层。
+获得金币时，治疗所有其他友军&HealAmount点体力。
+失去金币时，对1个随机敌人造成&DamageAmount点伤害。
+如果自身处于濒死状态，治疗和伤害会获得增幅。",
+Buff/Chiyo_MoneyEqualsLife_Buff_Name,Text,,,Money = Life,,金钱 = 生命,
+Character/Chiyo_CampSelectWord,Text,,,"Phew, finally a break!",,呼，总算可以休息一下！,
+Character/Chiyo_PassiveDes,Text,,,"Create a 'Breadwinner' skill when the <b>party earns gold during battle</b>.
+
+Create an 'Emergency Hack' skill when <b>Chiyo reaches Death's Door</b>.
+
+This passive can be activated up to 5 times per turn.",,"当<b>战斗中获得金币时</b>，生成1张“养家糊口”加入手中。
+当<b>七曜进入濒死状态时</b>，生成1张“紧急骇客”加入手中。
+
+该被动效果1回合仅能生效5次。",
+Character/Chiyo_PassiveName,Text,,,Hacker's Life,,骇客生活,
+Character/Chiyo_SelectInfo,Text,,,"Chiyo is an Ark researcher with a sussy background and a sassy attitude. She is a lazy genius who only gets serious when danger knocks on her door.
+
+She is adept at earning money due to her unique ""career experience"". Furthermore, she can leverage what she has earned to gain additional benefits.",,"七曜是一个背景可疑、态度尖酸的方舟调查员。她是一个懒惰成性的天才，当且仅当危险到来时才愿意全力以赴。
+
+由于她独特的“职业经历”，她擅长赚取金币；此外，她还能够使用赚到的金币获取更多的好处。",
+Character/Chiyo_Text_Battle_AllyND_0,Text,,,Are you really going to kick the bucket before I do?,,你不会比我先死吧？,
+Character/Chiyo_Text_Battle_AllyND_1,Text,,,I guess there are fates worse than mine...,,怎么会有人的运气比我还差啊……,
+Character/Chiyo_Text_Battle_Cri_0,Text,,,Git owned!,,你逊爆了！,
+Character/Chiyo_Text_Battle_Cri_1,Text,,,Probability theory strikes again!,,概率论又一次生效了！,
+Character/Chiyo_Text_Battle_Healed_0,Text,,,Thankies~!,,谢谢亲~！,
+Character/Chiyo_Text_Battle_Healed_1,Text,,,Phew. Really needed that.,,呼。我太需要了。,
+Character/Chiyo_Text_Battle_Idle_0,Text,,,"Time is money, and money is life.",,时间就是金钱，然后金钱就是生命。,
+Character/Chiyo_Text_Battle_Idle_1,Text,,,"If you overthink it, you'll end up forgetting something.",,如果你总是钻牛角尖，你就容易忘掉其他的事。,
+Character/Chiyo_Text_Battle_Kill_0,Text,,,Deleted.,,——已删除。,
+Character/Chiyo_Text_Battle_Kill_1,Text,,,Anybody around here buying corpses?,,嘿，这儿有人想买尸体吗？,
+Character/Chiyo_Text_Battle_ND_0,Text,,,"Meh, I've had worse days.",,呃……我经历过更糟糕的日子。,
+Character/Chiyo_Text_Battle_ND_1,Text,,,Death's Door? That's like my second name.,,“濒死”？简直就是我的称号嘛。,
+Character/Chiyo_Text_Battle_Start_0,Text,,,Time to earn some money~!,,赚钱的好时机到啦~！,
+Character/Chiyo_Text_Battle_Start_1,Text,,,Behold the super hacka!,,超级骇客登~场！,
+Character/Chiyo_Text_Field_GetItem_0,Text,,,"Yay, goodies~",,耶！战利品~,
+Character/Chiyo_Text_Field_GetItem_1,Text,,,I wonder how much I can sell this for?,,我想知道这玩意儿能卖多少钱？,
+Character/Chiyo_Text_Field_Idle_0,Text,,,If only I could stop time...,,要是我能停止时间就好了……,
+Character/Chiyo_Text_Field_Idle_1,Text,,,Time's a-wastin'.,,我们这是在浪费时间。,
+Character/Chiyo_Text_Field_Potion_P_0,Text,,,Nice!,,漂亮！,
+Character/Chiyo_Text_PharosLeader_0,Text,,,This is some advanced mind hacking...,,这是一种高端思维骇入……,
+Character/Chiyo_Text_PharosLeader_1,Text,,,The mind virus is gone! Hooray!,,思维病毒已解除。万岁！,
+Character/Chiyo_Text_PharosLeader_2,Text,,,Whoopise~,,哎呀~~,
+Character/Chiyo_Text_Witch_0,Text,,,I better get paid for this.,,我最好能拿到点赔偿费……,
+Character/Chiyo_Text_Witch_1,Text,,,Don't you dare misclicking over here.,,别在我头上乱点。,
+Character/Chiyo_name,Text,,,Chiyo,,七曜,
+Item_Consume/BagOfGoldForTests_Description,Text,,,Gives gold. Used for tests.,,给点金币。用来测试。,
+Item_Consume/BagOfGoldForTests_name,Text,,,BagOfGold,,一袋金币,
+Item_Consume/DeathDoorEnablerForTests_Description,Text,,,Put the target at Death's Door.,,让目标陷入濒死状态。,
+Item_Consume/DeathDoorEnablerForTests_name,Text,,,Death's Door Enabler,,濒死状态启动器,
+Skill/Chiyo_AngraMainyu_Description,Text,,,"The user receives &SelfPainDamage <color=purple>Pain damage</color> (equal to their remaining health).
+Deal &EnemyPainDamage damage to all enemies (equal to &DamagePercent% of the user's remaining health).",,"受到&SelfPainDamage<color=purple>痛苦伤害</color>（等量于自身剩余体力）。
+对所有敌人造成&EnemyPainDamage伤害（等量于&DamagePercent%自身剩余体力）。",
+Skill/Chiyo_AngraMainyu_Name,Text,,,Angra Mainyu,,安格拉·曼纽,
+Skill/Chiyo_BadDay_Description,Text,,,"The target receives &SelfPainDamage <color=purple>Pain damage</color> (equal to their remaining health).
+Draw 1 skill if the target was already at Death's Door.<color=#0000FF></color>",,"受到&SelfPainDamage<color=purple>痛苦伤害</color>（等量于自身剩余体力）。
+如果自身处于濒死状态，抽取1个技能。",
+Skill/Chiyo_BadDay_Name,Text,,,Painful Day,,痛苦的一天,
+Skill/Chiyo_BreadWinner_Description,Text,,,,,,
+Skill/Chiyo_BreadWinner_Name,Text,,,Breadwinner,,养家糊口,
+Skill/Chiyo_DroneAssault_Description,Text,,,"Pay &SkillGoldCost Gold to cast this skill. Deal &ExtraDamage additional damage when the user is at Death's Door.
+
+Create a 1 cost Swiftness 'Drone Assault' in hand.
+It can only be cast this turn and costs &NextGoldCost Gold.",,"消耗&SkillGoldCost金币才能使用。
+如果自身处于濒死状态，造成&ExtraDamage额外伤害。
+
+生成1张费用为1、附带迅速、1回合后弃牌的“无人机强袭”加入手中，且消耗金币改为&NextGoldCost。",
+Skill/Chiyo_DroneAssault_Name,Text,,,Drone Assault,,无人机强袭,
+Skill/Chiyo_EmergencyHack_Description,Text,,,Gain &GoldGain Gold.,,获得&GoldGain金币。,
+Skill/Chiyo_EmergencyHack_Name,Text,,,Emergency Hack,,紧急骇客,
+Skill/Chiyo_Freelancing_Description,Text,,,,,,
+Skill/Chiyo_Freelancing_Name,Text,,,Freelancing,,自由职业,
+Skill/Chiyo_GooglingSkill_Description,Text,,,"Pay &SkillGoldCost Gold to draw a skill.
+
+Create a 0 cost Swiftness 'Search Engine' in hand.
+The created skill can only be cast this turn and costs &NextGoldCost Gold.",,"消耗&SkillGoldCost金币，抽取1个技能。
+
+生成1张费用为0、附带迅速、1回合后弃牌的“搜索引擎”加入手中，且消耗金币改为&NextGoldCost。",
+Skill/Chiyo_GooglingSkill_Name,Text,,,Search Engine,,搜索引擎,
+Skill/Chiyo_HardwareAcceleration_BudgetGPU_Description,Text,,,Draw 1 skill.,,抽取1个技能。,
+Skill/Chiyo_HardwareAcceleration_BudgetGPU_Name,Text,,,Budget GPU,,廉价GPU,
+Skill/Chiyo_HardwareAcceleration_CuttingEdgeGPU_Description,Text,,,"Draw 3 skills.
+Pay &SkillGoldCost Gold to cast this skill.  ",,"抽取3个技能。
+消耗&SkillGoldCost金币才能使用。",
+Skill/Chiyo_HardwareAcceleration_CuttingEdgeGPU_Name,Text,,,Cutting Edge GPU,,尖端GPU,
+Skill/Chiyo_HardwareAcceleration_Description,Text,,,"Choose between a 'Budget GPU' and a 'Cutting Edge GPU'.
+If the user is at Death's Door, acquire the 'Cutting Edge GPU' for free (through legal means... or maybe not!)",,"选择 - “廉价GPU”或“尖端GPU”。
+如果自身处于濒死状态，可以免费使用“尖端GPU”。（通过合法手段……也许不是！）",
+Skill/Chiyo_HardwareAcceleration_Name,Text,,,Hardware Acceleration,,硬件加速,
+Skill/Chiyo_ImmortalityPotion_Buy_Description,Text,,,Pay &GoldCost Gold to avoid excluding the used 'Immortality Potion'.,,消耗&GoldCost金币，不放逐“不朽药剂”。,
+Skill/Chiyo_ImmortalityPotion_Buy_Name,Text,,,Cough Up the Money,,乖乖付钱,
+Skill/Chiyo_ImmortalityPotion_Description,Text,,,"If the user is at Death's Door, additionally heal all allies by &ExtraHealAmount.
+&NonExcludeDescStart This skill is excluded after it is used unless you pay &GoldCost Gold.
+If you choose to pay, the price will increase by &GoldIncrease Gold for this battle. &NonExcludeDescEnd",,"如果自身处于濒死状态，额外治疗所有友军&ExtraHealAmount体力值。
+&NonExcludeDescStart 如果你不消耗&GoldCost金币，放逐这个技能。
+如果你选择付钱，这场战斗中这个价格会提升&GoldIncrease金币。 &NonExcludeDescEnd",
+Skill/Chiyo_ImmortalityPotion_Name,Text,,,Immortality Potion,,不朽药剂,
+Skill/Chiyo_ImmortalityPotion_Skip_Description,Text,,,Do not buy another potion. The used 'Immortality Potion' will be excluded.,,不买多余的药剂。“不朽药剂”将被放逐。,
+Skill/Chiyo_ImmortalityPotion_Skip_Name,Text,,,"Sorry, I'm Broke...",,对不起，我没钱了……,
+Skill/Chiyo_LifeFormula_Description,Text,,,"Restore all other allies' health gauges by paying &SkillGoldCost Gold (equal to &GoldCostPercent% of restored health).
+Restore &ManaRestore Mana if the user is at Death's Door.",,"消耗&SkillGoldCost金币，治疗所有其他友军的体力极限（等量于剩余体力的&GoldCostPercent%）。
+如果自身处于濒死状态，回复&ManaRestore点法力值。",
+Skill/Chiyo_LifeFormula_Name,Text,,,Life's Formula,,生命方程式,
+Skill/Chiyo_PhoenixCoin_Description,Text,,,"Deal &GoldDamage additional damage (equal to &GoldPercent% of your current Gold, capped at &MaxBaseDamage damage).
+Additional damage becomes &DeathDoorDamage and hits all enemies if the user is at Death's Door.",,"造成&GoldDamage额外伤害（等量于当前金币的&GoldPercent%，上限为&MaxBaseDamage额外伤害）。
+如果自身处于濒死状态，额外伤害变为&DeathDoorDamage并且指向所有敌人。",
+Skill/Chiyo_PhoenixCoin_Name,Text,,,Madam Phoenix,,凤凰女士,
+Skill/Chiyo_SlaveDriver_Description,Text,,,"Draw &DrawAmount skills.
+Earn &GoldAmount Gold (scales with Lucy's Mana Level and Draw Level).",,基于露西的最大法力值和抽牌等级，抽取&DrawAmount个技能，获得&GoldAmount金币。,
+Skill/Chiyo_SlaveDriver_Name,Text,,,Slave Driver,,奴隶主,
+Skill/Chiyo_SoftwareDevelopment_Description,Text,,,"Pay &SkillGoldCost Gold to create a random common skill in hand with Exclude.
+Reduce its cost by 1, or by 2 if the user is at Death's Door.
+
+Create a 0 cost Swiftness 'Software Development' in hand.
+It can only be cast this turn and costs &NextGoldCost Gold.",,"消耗&SkillGoldCost金币，生成1个附带放逐的随机通用技能加入手中，使其费用-1。
+如果自身处于濒死状态，改为使其费用-2。
+
+生成1张费用为0、1回合后弃牌的“软件开发”加入手中，且消耗金币改为&NextGoldCost。",
+Skill/Chiyo_SoftwareDevelopment_Name,Text,,,Software Development,,软件开发,
+Skill/Chiyo_SwimInCash_Description,Text,,,"Create a party barrier of &BarrierSize (equal to &BarrierPercent% of current gold, capped at barrier size of &BarrierMaxSize).",,生成&BarrierSize防护墙（等量于当前金币的&BarrierPercent%，上限为&BarrierMaxSize防护墙）。,
+Skill/Chiyo_SwimInCash_Name,Text,,,Swimming in Cash,,钱池游泳,
+Skill/Chiyo_TimelineReset_Description,Text,,,"The user receives &SelfPainDamage <color=purple>Pain damage</color> (equal to their remaining health).
+Heal all other allies by &AllyHeal (equal to &HealPercent% of the user's remaining health).
+Draw 1 skill if the user was already at Death's Door.",,"受到&SelfPainDamage<color=purple>痛苦伤害</color>（等量于剩余体力）。
+治疗其他友军&AllyHeal体力值（等量于自身剩余体力的&HealPercent%）。
+如果自身处于濒死状态，抽取1个技能。",
+Skill/Chiyo_TimelineReset_Name,Text,,,Timeline Reset,,重置时间线,
+Skill/Chiyo_TransferMoney_Description,Text,,,"Earn Gold equal to the target's remaining HP (capped at &GoldCap Gold).
+This skill gains <b>Once</b> when the user is not at Death's Door.",,"获得等量于目标剩余体力的金币（上限为&GoldCap金币）。
+如果自身不处于濒死状态，附带<b>一次性</b>。",
+Skill/Chiyo_TransferMoney_Name,Text,,,Money Transfer,,金钱转移,
+Skill/Test_DeathDoorEnabler_Description,Text,,,,,,
+Skill/Test_DeathDoorEnabler_Name,Text,,,Death's Door Enabler,,濒死状态启动器,
+Skill/Test_GainGold_Description,Text,,,Gives gold for tests,,测试赚钱,
+Skill/Test_GainGold_Name,Text,,,GainGold,,赚钱,
+SkillExtended/Chiyo_SynergyUpgrade_DeathDoorCost_Des,Text,,,,,,
+SkillExtended/Chiyo_SynergyUpgrade_DeathDoorCost_EnforceString,Text,,,A skill without Swiftness,,迅速技能以外的技能,
+SkillExtended/Chiyo_SynergyUpgrade_DeathDoorCost_Name,Text,,,Reduce the skill's cost by 2 when the user is at Death's Door.,,技能拥有者处于濒死状态时，费用-2。,
+SkillExtended/Chiyo_SynergyUpgrade_GainGold_Des,Text,,,,,,
+SkillExtended/Chiyo_SynergyUpgrade_GainGold_EnforceString,Text,,,,,,
+SkillExtended/Chiyo_SynergyUpgrade_GainGold_Name,Text,,,"When played, earn 30 Gold * the skill's cost.",,打出时，每点费用获得30金币。,

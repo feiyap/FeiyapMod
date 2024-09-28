@@ -1,0 +1,34 @@
+{
+    "S_csgp_specialist": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "Name": "合成弹专家",
+        "Description": "使用时<color=#FFA500>刷新固定能力</color>\n若固定能力处于<color=#B10DC9>可用状态</color>，<color=#FFA500>恢复一点法力值</color>\n若<color=#B10DC9>不可用</color>，则额外为所有友军施加<color=#1E90FF>Trion恢复</color><color=#1E90FF>（增益、无限Turn；</color><color=#FFA500>固定能力费用-1；</color><color=#FF6347>释放固定能力后解除）</color>",
+        "User": "kohei_lzumi",
+        "Image_0": "S_csgp_specialist\\S_csgp_specialist_Image_0.png",
+        "Image_1": "S_csgp_specialist\\S_csgp_specialist_Image_1.png",
+        "Image_2": "S_csgp_specialist\\S_csgp_specialist_Image_2.png",
+        "Effect_Self": "SE_S_S_csgp_specialist",
+        "Except": false,
+        "SkillExtended": [
+            "Kohei.S_Kohei_specialist"
+        ],
+        "Track": false,
+        "Fatal": false,
+        "Disposable": true,
+        "UseAp": 3,
+        "Rare": true,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

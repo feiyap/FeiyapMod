@@ -1,0 +1,59 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "PartySkills": [
+            [
+                "S_Yueq_R2",
+                "S_Yueq_1",
+                "S_Yueq_2",
+                "S_Yueq_3",
+                "S_Yueq_9",
+                "S_Yueq_9",
+                "S_Yueq_9"
+            ],
+            [
+                
+            ],
+            [
+                "S_MissChain_3"
+            ],
+            [
+                
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "Party": [
+            "YueQ",
+            "Hein",
+            "Hein",
+            "Hein"
+        ],
+        "PartyBasicSkill": [
+            "S_Yueq_8",
+            "S_Joey_0",
+            "S_LucyC_2",
+            "S_LucyC_2"
+        ],
+        "AP": 10,
+        "LucySkill": [
+            "S_Yueq_lucy0",
+            "S_Yueq_lucy2"
+        ],
+        "Passive": [
+            "Pi_Yueq_1"
+        ]
+    }
+}

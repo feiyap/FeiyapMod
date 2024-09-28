@@ -1,0 +1,28 @@
+{
+    "myKey": "SummonTrisha",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SummonTrisha\\SummonTrishaMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.4433347,
+            "y": 0.055580467
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.443331838,
+            "y": 0.220069289
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

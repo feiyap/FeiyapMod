@@ -1,0 +1,153 @@
+{
+    "HouraisanKaguya": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Tank",
+        "PassiveClassName": "HouraisanKaguya.P_HouraisanKaguya",
+        "PassiveUnlockLV1": false,
+        "name": "蓬莱山辉夜",
+        "Gender": 1,
+        "FaceSprite": "HouraisanKaguya\\HouraisanKaguyaBattleFace.png",
+        "MAXHP": {
+            "x": 24,
+            "y": 48
+        },
+        "ATK": {
+            "x": 13,
+            "y": 24
+        },
+        "CRI": {
+            "x": 5,
+            "y": 16
+        },
+        "DODGE": {
+            "x": 1,
+            "y": 5
+        },
+        "DEF": {
+            "x": 1,
+            "y": 10
+        },
+        "REG": {
+            "x": 7,
+            "y": 15
+        },
+        "HIT": {
+            "x": 100,
+            "y": 110
+        },
+        "RES_CC": {
+            "x": 20,
+            "y": 60
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 20,
+            "y": 60
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "PassiveName": "永远和须臾的罪人",
+        "PassiveIcon": "HouraisanKaguya\\HouraisanKaguyaPassiveIcon.png",
+        "PassiveDes": "<b>竹取物语</b> - 蓬莱山辉夜的[难题]技能在达成某些条件时，会为自身赋予[辉夜/神宝]。蓬莱山辉夜的[神宝]技能通过消耗[辉夜/神宝]，能够追加额外效果。\n\n<b>永夜抄</b> - 蓬莱山辉夜受到攻击时，以100%的痛苦减益成功率对攻击来源施加1层[辉夜/永夜]。\n\n<b>永远与须臾</b> - 所有队友对没有行动倒计时的敌人造成的伤害+10%。",
+        "CollectionSprite_Cover": "HouraisanKaguya\\HouraisanKaguyaCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "HouraisanKaguya\\HouraisanKaguyaCollectionSprite_SkillFace.png",
+        "StatView_Atk": 2,
+        "StatView_Def": 2,
+        "StatView_Heal": 1,
+        "StatView_Sup": 2,
+        "StatView_Debuff": 1,
+        "StatView_Difficult": 3,
+        "CampSelectWord": "到现在为止，已经使无数人败退的这五个难题，你们能解开多少呢？",
+        "Text_Witch": [
+            "会赢的！",
+            "生命之泉的储备量还够吗……"
+        ],
+        "FirstSkill": "S_FKaguya_0",
+        "StatView_Dot": 1,
+        "StatView_CC": 1,
+        "SelectInfo": "蓬莱山辉夜是使用五种难题和神宝的全能型坦克。\n\n通过完成五种难题的独特任务，蓬莱山辉夜能够激活五种神宝的特殊效果，为自己和团队带来丰富的增益效果；即便不激活神宝的效果，五种难题和神宝也各自拥有奇特的效果。\n\n到现在为止，已经使无数人败退的这五个难题。你们能解开多少呢？",
+        "CampSD": [
+            "HouraisanKaguya\\HouraisanKaguyaCampSD0.png",
+            "HouraisanKaguya\\HouraisanKaguyaCampSD1.png",
+            "HouraisanKaguya\\HouraisanKaguyaCampSD2.png",
+            "HouraisanKaguya\\HouraisanKaguyaCampSD3.png"
+        ],
+        "Text_PharosLeader": [
+            "啊？催眠术？那种东西怎么可能对我有用。",
+            "……刚刚我没有被做色色的事情吧？",
+            "杂鱼♥杂鱼♥！"
+        ],
+        "Text_Battle_Start": [
+            "哼，战斗力只有5的渣渣……",
+            "已经没有什么好害怕的了。"
+        ],
+        "Text_Battle_Idle": [
+            "大家的笑容由我来守护。"
+        ],
+        "Text_Battle_ND": [
+            "连我爸爸都没有打过我！",
+            "这是一场「试炼」，我认为这就是一场为了战胜过去的「试炼」……"
+        ],
+        "Text_Battle_AllyND": [
+            "这家伙，有两把刷子……",
+            "不作死就不会死，为什么不明白？！"
+        ],
+        "Text_Field_Idle": [
+            "今天的风儿好喧嚣啊。",
+            "为什么不问问神奇海螺呢？"
+        ],
+        "Text_Battle_Kill": [
+            "在我说出“干掉你”的时候，实际上就已经完成了！",
+            "只要是活着的东西，就算是管理员也杀给你看！"
+        ],
+        "Text_Battle_Cri": [
+            "接招！半径二十米的「耀眼的龙玉」！",
+            "诵读俳句吧！"
+        ],
+        "Text_Field_GetItem": [
+            "诸君！我喜欢宝箱！"
+        ],
+        "Text_Battle_Healed": [
+            "我以前也是个输出职业，直到我的膝盖中了一箭……",
+            "这时候只要微笑就好了。"
+        ],
+        "GoodGift": [
+            "Drink_Be",
+            "Gift_Cartoon",
+            "Gift_DVD",
+            "Gift_Novel",
+            "Gift_SFNovel"
+        ],
+        "CanFriendShip": true,
+        "_gdeType_GoodGift": "Item_Friendship",
+        "_gdeIsList_GoodGift": 1,
+        "_gdeType_Dialogue_GoodGiftTalks": "String",
+        "_gdeIsList_Dialogue_GoodGiftTalks": 1,
+        "_gdeType_Dialogue_NomalGiftTalk": "String",
+        "_gdeIsList_Dialogue_NomalGiftTalk": 0,
+        "Dialogue_FriendShipLVTalks": [
+            
+        ],
+        "_gdeType_Dialogue_FriendShipLVTalks": "String",
+        "_gdeIsList_Dialogue_FriendShipLVTalks": 1,
+        "_gdeType_FriendShipSprite": "Sprite",
+        "_gdeIsList_FriendShipSprite": 0,
+        "_gdeType_Text_Witch": "String",
+        "_gdeIsList_Text_Witch": 1,
+        "Text_MasterTarget": "那种事情不要啊！至少要等十年之后——",
+        "face": "HouraisanKaguya\\HouraisanKaguyaBattleFace.png"
+    }
+}

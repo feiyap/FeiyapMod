@@ -1,0 +1,39 @@
+{
+    "S_Yueq_R0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/IronHeart/IronHeart_new_3",
+        "Rare": true,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "YueQ",
+        "Name": "次声波·星河",
+        "UseAp": 1,
+        "Description": "<color=#00FF7F>乐谱</color>\n延长目标所有减益持续1回合\n共鸣*All<color=#40E0D0></color>:目标每有弱化/痛苦/干扰/无色减益中的一种,对其造成&a点痛苦伤害.\n变调*<color=#FFD700>谢场</color>",
+        "Effect_Target": "SE_T_S_Yueq_R0",
+        "SkillExtended": [
+            "YueQ.S_Yueq_R0"
+        ],
+        "PlusKeyWords": [
+            "YueP",
+            "Yueq_GM",
+            "Yueq_BD"
+        ],
+        "Image_0": "S_Yueq_R0\\S_Yueq_R0_Image_0.png",
+        "Image_1": "S_Yueq_R0\\S_Yueq_R0_Image_1.png",
+        "Image_2": "S_Yueq_R0\\S_Yueq_R0_Image_2.png"
+    }
+}

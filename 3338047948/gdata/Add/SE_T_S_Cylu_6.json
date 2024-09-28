@@ -1,0 +1,14 @@
+{
+    "SE_T_S_Cylu_6": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 110,
+        "DMG_Per": 120,
+        "DMG_Base": 5,
+        "HEAL_MaxHpPer": 0,
+        "HEAL_Per": 0,
+        "HEAL_Base": 0,
+        "CRI": 10,
+        "ForceHeal": false,
+        "ChainHeal": false
+    }
+}

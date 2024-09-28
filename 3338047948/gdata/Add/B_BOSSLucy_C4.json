@@ -1,0 +1,16 @@
+{
+    "B_BOSSLucy_C4": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "BOSSLucy.B_BOSSLucy_C4",
+        "BuffTag": "null",
+        "Name": "切风筝",
+        "Icon": "B_BOSSLucy_C4\\B_BOSSLucy_C4_Icon.png",
+        "Description": "每当使用附带空转减益的技能时，对技能拥有者造成10点痛苦伤害。\n抽取的非露西技能附带空转减益。\n",
+        "LifeTime": 4,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

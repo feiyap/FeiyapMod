@@ -1,0 +1,11 @@
+{
+    "B_SomMoon_R1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomMoon_R1",
+        "BuffTag": "null",
+        "Name": "海月",
+        "Description": "当友军的任意增益被解除时，恢复目标5点体力值。",
+        "LifeTime": 4,
+        "Icon": "B_SomMoon_R1\\B_SomMoon_R1_Icon.png"
+    }
+}

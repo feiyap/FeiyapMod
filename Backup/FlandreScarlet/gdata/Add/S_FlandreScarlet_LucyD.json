@@ -1,0 +1,23 @@
+{
+    "S_FlandreScarlet_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "ally",
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "禁忌「禁果」",
+        "Description": "",
+        "UseAp": 0,
+        "User": "LucyDraw",
+        "LucyPartyDraw": "FlandreScarlet",
+        "Image_0": "S_FlandreScarlet_LucyD\\S_FlandreScarlet_LucyD_Image_0.png",
+        "Image_1": "S_FlandreScarlet_LucyD\\S_FlandreScarlet_LucyD_Image_1.png",
+        "Image_2": "S_FlandreScarlet_LucyD\\S_FlandreScarlet_LucyD_Image_2.png",
+        "NotCount": false,
+        "Disposable": false,
+        "Effect_Target": "SE_T_S_FlandreScarlet_LucyD"
+    }
+}

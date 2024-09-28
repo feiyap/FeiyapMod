@@ -1,0 +1,7 @@
+{
+    "S_ProgramMaster_LucyAttack": {
+        "_gdeSchema": "Skill",
+        "NoDrop": false,
+        "EnemyPreview": false
+    }
+}

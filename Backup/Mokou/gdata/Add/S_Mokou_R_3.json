@@ -1,0 +1,35 @@
+{
+    "S_Mokou_R_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Shiranui/S_Shiranui_0",
+        "Rare": true,
+        "Target": "all_enemy",
+        "NotCount": true,
+        "Disposable": true,
+        "Name": "不死「火鸟 -凤翼天翔-」",
+        "Description": "使用后立即触发一次重生，如果自身已经无法继续重生，则无法释放。\n自身每受到一次伤害，手中的此卡减少1点费用。\n这张卡只造成25%的伤害。",
+        "UseAp": 7,
+        "Effect_Self": "SE_S_S_Mokou_R_3",
+        "Effect_Target": "SE_T_S_Mokou_R_3",
+        "User": "Mokou",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": true,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "Mokou.S_Mokou_R_3"
+        ],
+        "Image_0": "S_Mokou_R_3\\S_Mokou_R_3_Image_0.png",
+        "Image_1": "S_Mokou_R_3\\S_Mokou_R_3_Image_1.png",
+        "Image_2": "S_Mokou_R_3\\S_Mokou_R_3_Image_2.png"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "S_Kirito_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "十字格挡",
+        "Description": "",
+        "User": "Kirito",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "Effect_Target": "SE_T_S_Kirito_9",
+        "Image_0": "S_Kirito_9\\S_Kirito_9_Image_0.png",
+        "Image_1": "S_Kirito_9\\S_Kirito_9_Image_1.png",
+        "Image_2": "S_Kirito_9\\S_Kirito_9_Image_2.png",
+        "UseAp": 2,
+        "SkillExtended": [
+            "Kirito.S_Kirito_9"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "S_zjk_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/S_Hein_1",
+        "Target": "enemy",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "<color=#DC143C>肉斩</color>",
+        "Description": "<color=#87CEEB>【呼吸法】</color>\n若在倒计时期间有敌人将要发动攻击，则立刻转而释放<color=#DC143C>肉斩骨断</color>，且本场战斗过载+1\n\n<color=#DC143C>剔骨剔肉，肉斩骨断</color>",
+        "UseAp": 2,
+        "User": "zjk",
+        "Counting": 1,
+        "Effect_Target": "SE_T_S_zjk_7",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "zuiJianKeMod.Extended_zjk_7",
+            "zuiJianKeMod.S_zjk_1_0"
+        ],
+        "PlusKeyWords": [
+            
+        ],
+        "PlusSkillView": "S_zjk_7_2",
+        "Image_0": "S_zjk_7\\S_zjk_7_Image_0.png",
+        "Image_1": "S_zjk_7\\S_zjk_7_Image_1.png",
+        "Image_2": "S_zjk_7\\S_zjk_7_Image_2.png"
+    }
+}

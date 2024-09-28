@@ -1,0 +1,18 @@
+{
+    "S_BOSSLucy_Final": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "all_enemy",
+        "NotCount": false,
+        "NoDrop": true,
+        "Except": false,
+        "Name": "垂死挣扎",
+        "Effect_Target": "SE_T_S_BOSSLucy_Final",
+        "EnemyPreview": true,
+        "Counting": 10,
+        "Image_0": "S_BOSSLucy_Final\\S_BOSSLucy_Final_Image_0.png",
+        "Image_1": "S_BOSSLucy_Final\\S_BOSSLucy_Final_Image_1.png"
+    }
+}

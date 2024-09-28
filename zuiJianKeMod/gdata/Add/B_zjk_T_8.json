@@ -1,0 +1,20 @@
+{
+    "B_zjk_T_8": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "DOT",
+        "Name": "出血",
+        "Description": "",
+        "MaxStack": 10,
+        "LifeTime": 2,
+        "Debuff": true,
+        "TagPer": 95,
+        "Icon": "B_zjk_T_8\\B_zjk_T_8_Icon.png",
+        "Tick": "SE_Tick_B_zjk_T_8",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

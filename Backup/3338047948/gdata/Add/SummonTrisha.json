@@ -1,0 +1,17 @@
+{
+    "SummonTrisha": {
+        "_gdeSchema": "Enemy",
+        "hit": 110,
+        "name": "反转调查员·特丽莎",
+        "maxhp": 170,
+        "spd": 3,
+        "atk": 22,
+        "reg": 11,
+        "dodge": 21,
+        "cri": 16,
+        "RES_CC": 25,
+        "RES_DEBUFF": 25,
+        "RES_DOT": 25,
+        "Boss": true
+    }
+}

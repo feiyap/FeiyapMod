@@ -1,0 +1,9 @@
+{
+    "R_Reisen_0": {
+        "_gdeSchema": "Item_Passive",
+        "name": "兔肉火锅",
+        "Description": "战斗结束后，超额治疗所有队员6点体力值。",
+        "image": "Item\\R_Reisen_0_image.png",
+        "passive_script": "Reisen.R_Reisen_0"
+    }
+}

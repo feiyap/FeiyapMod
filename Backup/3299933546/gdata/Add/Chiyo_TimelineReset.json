@@ -1,0 +1,33 @@
+{
+    "Chiyo_TimelineReset": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/timeMagicSlow",
+        "Target": "all_ally",
+        "NotCount": true,
+        "HealSkill": true,
+        "Except": false,
+        "Name": "Timeline Reset",
+        "Description": "The user receives &SelfPainDamage <color=purple>Pain damage</color> (equal to their remaining health).\r\nHeal all other allies by &AllyHeal (equal to &HealPercent% of the user's remaining health).\nDraw 1 skill if the user was already at Death's Door.",
+        "UseAp": 1,
+        "User": "Chiyo",
+        "Track": false,
+        "Image_0": "Chiyo_TimelineReset\\Chiyo_TimelineReset_Image_0.png",
+        "Image_1": "Chiyo_TimelineReset\\Chiyo_TimelineReset_Image_1.png",
+        "Image_2": "Chiyo_TimelineReset\\Chiyo_TimelineReset_Image_2.png",
+        "SkillExtended": [
+            "Chiyo.Chiyo_TimelineReset"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

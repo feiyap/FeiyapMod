@@ -1,0 +1,10 @@
+{
+    "B_HakureiReimu_F_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_4",
+        "BuffTag": "null",
+        "Name": "恶灵退散",
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_16",
+        "LifeTime": 3
+    }
+}

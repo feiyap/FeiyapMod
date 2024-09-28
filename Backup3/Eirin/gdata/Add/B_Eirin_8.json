@@ -1,0 +1,12 @@
+{
+    "B_Eirin_8": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Eirin.B_Eirin_8",
+        "BuffTag": "null",
+        "Name": "月人/永琳",
+        "Description": "每个回合开始时，随机生成1张附带放逐、一次性的自己的专属技能。",
+        "LifeTime": 0,
+        "Icon": "B_Eirin_8\\B_Eirin_8_Icon.png"
+    }
+}

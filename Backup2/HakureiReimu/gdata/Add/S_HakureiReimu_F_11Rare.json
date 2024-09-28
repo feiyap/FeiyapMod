@@ -1,0 +1,34 @@
+{
+    "S_HakureiReimu_F_11Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Name": "无题「飞翔于天空的不可思议的巫女」",
+        "Description": "战斗开始时，放在牌库的最上方。",
+        "UseAp": 2,
+        "Rare": true,
+        "Disposable": true,
+        "Image_0": "S_HakureiReimu_F_11Rare\\S_HakureiReimu_F_11Rare_Image_0.png",
+        "Image_1": "S_HakureiReimu_F_11Rare\\S_HakureiReimu_F_11Rare_Image_1.png",
+        "Image_2": "S_HakureiReimu_F_11Rare\\S_HakureiReimu_F_11Rare_Image_2.png",
+        "NotCount": false,
+        "NoDrop": false,
+        "SkillExtended": [
+            "HakureiReimu.S_HakureiReimu_F_11Rare"
+        ],
+        "Effect_Self": "SE_S_S_HakureiReimu_F_11Rare",
+        "User": "HakureiReimu",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

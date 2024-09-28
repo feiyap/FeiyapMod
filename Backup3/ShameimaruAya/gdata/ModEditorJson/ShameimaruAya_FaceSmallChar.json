@@ -1,0 +1,23 @@
+{
+    "myKey": "ShameimaruAya",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "ShameimaruAya\\ShameimaruAyaFaceSmallChar.png",
+        "offsetMax": {
+            "x": 112.984711,
+            "y": 87.3048
+        },
+        "offsetMin": {
+            "x": -172.8443,
+            "y": -518.2218
+        },
+        "pivot": {
+            "x": 0.5976029,
+            "y": 0.84658885
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

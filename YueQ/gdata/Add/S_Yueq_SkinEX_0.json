@@ -1,0 +1,9 @@
+{
+    "S_Yueq_SkinEX_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "费用-1",
+        "ClassName": "YueQ.S_Yueq_SkinEX_0"
+    }
+}

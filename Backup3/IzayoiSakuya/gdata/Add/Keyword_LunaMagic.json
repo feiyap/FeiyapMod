@@ -1,0 +1,7 @@
+{
+    "Keyword_LunaMagic": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "月魔术",
+        "Desc": "该技能在位于手牌顶或手牌底被打出时拥有额外效果。"
+    }
+}

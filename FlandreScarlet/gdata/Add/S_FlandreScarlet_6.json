@@ -1,0 +1,21 @@
+{
+    "S_FlandreScarlet_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_0",
+        "Target": "ally",
+        "Name": "禁弹「刻着过去的钟表」",
+        "Description": "受到&a(50%当前体力值)的痛苦伤害。",
+        "UseAp": 0,
+        "User": "FlandreScarlet",
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_FlandreScarlet_6",
+        "Image_0": "S_FlandreScarlet_6\\S_FlandreScarlet_6_Image_0.png",
+        "Image_1": "S_FlandreScarlet_6\\S_FlandreScarlet_6_Image_1.png",
+        "Image_2": "S_FlandreScarlet_6\\S_FlandreScarlet_6_Image_2.png",
+        "Disposable": false,
+        "SkillExtended": [
+            "FlandreScarlet.S_FlandreScarlet_6"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "HatsuneMiku",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "HatsuneMiku\\HatsuneMikuFaceOriginChar.png",
+        "offsetMax": {
+            "x": 537.7074,
+            "y": 418.7603
+        },
+        "offsetMin": {
+            "x": -588.6926,
+            "y": -707.6397
+        },
+        "pivot": {
+            "x": 0.521389,
+            "y": 0.623460233
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

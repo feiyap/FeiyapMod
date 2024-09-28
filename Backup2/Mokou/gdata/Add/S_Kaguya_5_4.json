@@ -1,0 +1,24 @@
+{
+    "S_Kaguya_5_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/Master_0",
+        "Target": "enemy",
+        "EnemyPreview": true,
+        "UnknownTarget": false,
+        "Name": "神宝「蓬莱的玉枝　-梦色之乡-」",
+        "Description": "对目标两侧的角色造成50%的溅射伤害。",
+        "Image_0": "S_Kaguya_5_4\\S_Kaguya_5_4_Image_0.png",
+        "Image_1": "S_Kaguya_5_4\\S_Kaguya_5_4_Image_1.png",
+        "Image_2": "S_Kaguya_5_4\\S_Kaguya_5_4_Image_2.png",
+        "Effect_Target": "SE_T_S_Kaguya_5_4",
+        "SkillExtended": [
+            "Mokou.S_Kaguya_5_4"
+        ],
+        "NotCount": false,
+        "NotChuck": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "NoDrop": true
+    }
+}

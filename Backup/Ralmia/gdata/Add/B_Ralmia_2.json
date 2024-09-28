@@ -1,0 +1,19 @@
+{
+    "B_Ralmia_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Ralmia.B_Ralmia_7",
+        "Debuff": false,
+        "BuffTag": "null",
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "创造术",
+        "Description": "回合结束时抽取一张技能。",
+        "MaxStack": 1,
+        "Icon": "B_Ralmia_2\\B_Ralmia_2_Icon.png",
+        "LifeTime": 0
+    }
+}

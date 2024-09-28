@@ -1,0 +1,35 @@
+{
+    "S_zjk_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/S_Hein_3",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "行步穿",
+        "UseAp": 1,
+        "Description": "本技能命中时，本回合内可再次释放，任意技能暴击时，该技能获得<color=#87CEEB>呼吸法</color>。\n",
+        "IgnoreTaunt": true,
+        "Fatal": true,
+        "Effect_Target": "SE_T_S_zjk_3",
+        "SkillExtended": [
+            "zuiJianKeMod.Extended_zjk_3",
+            "zuiJianKeMod.Ex_zjk_0"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "zjk",
+        "Image_0": "S_zjk_3\\S_zjk_3_Image_0.png",
+        "Image_1": "S_zjk_3\\S_zjk_3_Image_1.png",
+        "Image_2": "S_zjk_3\\S_zjk_3_Image_2.png"
+    }
+}

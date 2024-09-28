@@ -1,0 +1,14 @@
+{
+    "B_Kaguya_T_9": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "DOT",
+        "Tick": "SE_Tick_B_Kaguya_T_9",
+        "Icon": "Image/Buff/Skill_Icon_Pack/violet/violet_24",
+        "MaxStack": 3,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 100,
+        "Name": "体力值削减"
+    }
+}

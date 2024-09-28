@@ -1,0 +1,18 @@
+{
+    "B_zjk_T_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "zuiJianKeMod.B_zjk_T_1",
+        "BuffTag": "Debuff",
+        "Name": "裂袍",
+        "MaxStack": 5,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 110,
+        "Icon": "B_zjk_T_1\\B_zjk_T_1_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

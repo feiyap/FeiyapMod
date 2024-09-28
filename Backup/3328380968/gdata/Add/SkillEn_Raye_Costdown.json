@@ -1,0 +1,11 @@
+{
+    "SkillEn_Raye_Costdown": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "If the User has 3 or more skills in Discard, reduce cost by 2.",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "Raye",
+        "Des": "",
+        "ClassName": "SkyStriker.SkillEn_Raye_Costdown"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Yueq_9_0": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Yueq_7_0"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

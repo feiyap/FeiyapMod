@@ -1,0 +1,12 @@
+{
+    "SE_T_Chiyo_HardwareAcceleration_BudgetGPU": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "Chiyo_HardwareAcceleration_Buff"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

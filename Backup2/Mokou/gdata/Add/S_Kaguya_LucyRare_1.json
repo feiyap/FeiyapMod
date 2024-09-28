@@ -1,0 +1,25 @@
+{
+    "S_Kaguya_LucyRare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "Misc",
+        "NotCount": false,
+        "NoDrop": true,
+        "Except": false,
+        "Name": "「永夜归返」-储存的角色列表",
+        "Description": "费用：&a\n&b\n&c\n&d\n&e",
+        "SkillExtended": [
+            "Mokou.S_Kaguya_LucyRare_1"
+        ],
+        "Image_0": "S_Kaguya_LucyRare_1\\S_Kaguya_LucyRare_1_Image_0.png",
+        "Image_1": "S_Kaguya_LucyRare_1\\S_Kaguya_LucyRare_1_Image_1.png",
+        "Image_2": "S_Kaguya_LucyRare_1\\S_Kaguya_LucyRare_1_Image_2.png",
+        "NotChuck": false,
+        "NoBasicSkill": false,
+        "PlusSkillView": "S_Kaguya_LucyRare_2",
+        "User": "",
+        "LucyPartyDraw": ""
+    }
+}

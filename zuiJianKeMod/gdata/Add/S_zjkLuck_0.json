@@ -1,0 +1,33 @@
+{
+    "S_zjkLuck_0": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "IgnoreTaunt": false,
+        "Fatal": false,
+        "Name": "共饮",
+        "UseAp": 1,
+        "Description": "从牌库中优先抽取2个攻击技能，使技能拥有者获得1<color=#FFD700>快意</color>",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "zjk",
+        "Disposable": false,
+        "SkillExtended": [
+            "zuiJianKeMod.S_zjkLuck_0"
+        ],
+        "NotCount": false,
+        "Basic": false,
+        "Image_0": "S_zjkLuck_0\\S_zjkLuck_0_Image_0.png",
+        "Image_1": "S_zjkLuck_0\\S_zjkLuck_0_Image_1.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

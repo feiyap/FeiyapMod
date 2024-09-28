@@ -1,0 +1,8 @@
+{
+    "SE_T_S_Sakuya_1": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 150,
+        "CRI": 10
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "B_Sakuya_5_new": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "IzayoiSakuya.B_Sakuya_5_new",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "完美空间",
+        "Description": "每次触发「月魔术」的额外效果时，抽取1个技能。",
+        "MaxStack": 0,
+        "LifeTime": 1,
+        "Icon": "Image/Buff/Skill_Icon_Pack/Buff"
+    }
+}

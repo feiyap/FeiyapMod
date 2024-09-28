@@ -1,0 +1,23 @@
+{
+    "myKey": "Kaguya",
+    "myField": "Face",
+    "myValues": {
+        "path": "Kaguya\\KaguyaFace.png",
+        "offsetMax": {
+            "x": 491.1852,
+            "y": 119.261452
+        },
+        "offsetMin": {
+            "x": -383.360168,
+            "y": -944.3749
+        },
+        "pivot": {
+            "x": 0.43603012,
+            "y": 0.882618546
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

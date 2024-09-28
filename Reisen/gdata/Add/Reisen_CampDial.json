@@ -1,0 +1,109 @@
+{
+    "CampDial_Reisen_Hein": {
+        "CharA": "Reisen",
+        "CharB": "Hein",
+        "Dialogues": [
+            "[B]喂，兔子，快用你那双眼睛让我变得更疯狂些吧！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Reisen_SilverStein": {
+        "CharA": "Reisen",
+        "CharB": "SilverStein",
+        "Dialogues": [
+            "[B]你到底是从哪里发射子弹的？",
+            "[A]欸欸、毕竟我自己就是「兵器」嘛。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Reisen_Patchouli": {
+        "CharA": "Reisen",
+        "CharB": "Patchouli",
+        "Dialogues": [
+            "[A]你眼睛不好？",
+            "[A]其实啊，眼睛不好的人才更能看到许多其他的东西呢。",
+            "[B]啊啊，比起眼睛不好，你该先去看看脑子呢。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Reisen_Mokou": {
+        "CharA": "Reisen",
+        "CharB": "Mokou",
+        "Dialogues": [
+            "[A]这次还是来永远亭看月亮么，不来玩玩吗？辉夜大人这么说了哟。",
+            "[B]是吗。……有空的时候吧，有空的时候。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Reisen_IzayoiSakuya": {
+        "CharA": "Reisen",
+        "CharB": "IzayoiSakuya",
+        "Dialogues": [
+            "[A]就算你停止时间，不还是躲不过幻觉吗？",
+            "[B]真正的魔术师就算闭上眼睛也不会停止手上的动作哦。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Reisen_FlandreScarlet": {
+        "CharA": "Reisen",
+        "CharB": "FlandreScarlet",
+        "Dialogues": [
+            "[A]怎么回事？ 看到我也不会发狂？ 啊—，原来早就疯了啊……",
+            "[B]嗯？怎么了吗？",
+            "[A]不，没什么哦。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Reisen_SatsukiRin": {
+        "CharA": "Reisen",
+        "CharB": "SatsukiRin",
+        "Dialogues": [
+            "[A]麒麟小姐……我听师父……八意永琳提起过您。",
+            "[B]不用对我这么拘谨。其实我也只是普通的少女而已哦。",
+            "[A]呜，就、就算这么说……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Reisen_Youmu": {
+        "CharA": "Reisen",
+        "CharB": "Youmu",
+        "Dialogues": [
+            "[A]人类所见到的幽灵大概只有三分之一是因为恐怖感所造成的幻觉。",
+            "[A]只不过，几乎所有人都把其中九成当成是幻觉。",
+            "[B]明明相信着月球上有月兔？",
+            "[A]是这样呢。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Reisen_RemiliaScarlet": {
+        "CharA": "Reisen",
+        "CharB": "RemiliaScarlet",
+        "Dialogues": [
+            "[A]你不再考虑去月球了吗？听说了哦，火箭的详情。",
+            "[B]嘛。月球的事情，好像比想象中的更复杂。",
+            "[B]等尘埃落定之后再做打算吧。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Reisen_TouhouAlice": {
+        "CharA": "Reisen",
+        "CharB": "TouhouAlice",
+        "Dialogues": [
+            "[A]你啊，特地给人偶还装上了眼睛是吧？",
+            "[A]人偶们能看得见吗？",
+            "[B]有看到过嘴上有个叉的兔子玩偶哦。",
+            "[B]那个叉是兔子闭嘴的意思吗？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Reisen_Eirin": {
+        "CharA": "Reisen",
+        "CharB": "Eirin",
+        "Dialogues": [
+            "[A]有师父在身边就特别安心呢。",
+            "[B]啊，铃仙，要不要试试新开发的药？",
+            "[A]啊、那个……………………"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    }
+}

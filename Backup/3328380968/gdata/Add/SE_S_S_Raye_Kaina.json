@@ -1,0 +1,13 @@
+{
+    "SE_S_S_Raye_Kaina": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Raye_Kaina",
+            "B_Raye_KainaLock"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

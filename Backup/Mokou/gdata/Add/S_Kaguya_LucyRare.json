@@ -1,0 +1,35 @@
+{
+    "S_Kaguya_LucyRare": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/timeMagicFast",
+        "Target": "all_ally",
+        "EnemyPreview": false,
+        "Rare": true,
+        "User": "Lucy",
+        "LucyPartyDraw": "",
+        "Name": "「永夜归返」",
+        "Description": "记录下当前法力值、全队的HP、体力极限、增益状态、减益状态。将一张2费的使用后放逐的「永夜归返　-世间开明-」加入手卡。",
+        "Except": false,
+        "Disposable": true,
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "NoDrop": true,
+        "Image_0": "S_Kaguya_LucyRare\\S_Kaguya_LucyRare_Image_0.png",
+        "Image_1": "S_Kaguya_LucyRare\\S_Kaguya_LucyRare_Image_1.png",
+        "Image_2": "S_Kaguya_LucyRare\\S_Kaguya_LucyRare_Image_2.png",
+        "SkillExtended": [
+            "Mokou.S_Kaguya_LucyRare"
+        ],
+        "PlusSkillView": "S_Kaguya_LucyRare_0",
+        "NotChuck": false,
+        "UseAp": 0,
+        "NODOD": false,
+        "HealSkill": false,
+        "IgnoreTaunt": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "UnknownTarget": false
+    }
+}

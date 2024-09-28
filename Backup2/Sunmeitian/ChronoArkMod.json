@@ -1,0 +1,15 @@
+{
+    "id": "Sunmeitian",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "【CN】孙美天 ~ 东方兽王园",
+    "Author": "绯夜氏",
+    "Version": "v1.2",
+    "Cover": "SunmeitianCover.png",
+    "Description": "孙美天是基础而扎实的输出型角色。\n\n拥有不错的削弱和干扰敌人的手段；然而比起敌人，孙美天更能够以丰富的手段强化自己。\n\n用手中的棍子扫清天下一切吧！\n\n包含1个角色。拥有8个基础技能，2个稀有技能，1个露西抽牌技能。",
+    "TagList": [
+        "Characters"
+    ],
+    "WorkShopId": "3314711645",
+    "ChangeNote": "2024/8/23\nv1.2\n修复了带倒计时的乾坤之跃不生效的BUG。"
+}

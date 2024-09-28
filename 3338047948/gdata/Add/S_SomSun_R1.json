@@ -1,0 +1,21 @@
+{
+    "S_SomSun_R1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/ST4/Fireball",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": false,
+        "NoDrop": true,
+        "Except": false,
+        "Track": false,
+        "Name": "烈阳黑子",
+        "Disposable": true,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_SomSun_R1",
+        "UseAp": 2,
+        "Image_0": "S_SomSun_R1\\S_SomSun_R1_Image_0.png",
+        "Image_1": "S_SomSun_R1\\S_SomSun_R1_Image_1.png",
+        "Image_2": "S_SomSun_R1\\S_SomSun_R1_Image_2.png"
+    }
+}

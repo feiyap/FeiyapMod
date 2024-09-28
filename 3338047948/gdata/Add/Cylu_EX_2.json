@@ -1,0 +1,10 @@
+{
+    "Cylu_EX_2": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "释放技能时，为自身施加与技能费用相等层数的预借减益，使指向目标一回合内防御力减少75%。",
+        "Drop": true,
+        "EnforceString": "攻击技能且费用大于等于2",
+        "NeedCharacter": "Cylu",
+        "ClassName": "BOSSLucy.Cylu_EX_2"
+    }
+}

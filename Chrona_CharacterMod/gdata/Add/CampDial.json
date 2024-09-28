@@ -1,0 +1,220 @@
+{
+    "CampDial_Chrona_Hein": {
+        "CharA": "Chrona",
+        "CharB": "Hein",
+        "Dialogues": [
+            "[A]请问您是怎样看待自己身上的“狂气”的？",
+            "[B]多亏了它，我才能更快更猛烈地撕碎那些带着面具的家伙啊！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Joey": {
+        "CharA": "Chrona",
+        "CharB": "Joey",
+        "Dialogues": [
+            "[B]给，刚调制出来的药水，看看能不能更好地缓解你那些疑难杂症。",
+            "[A]谢谢——好独特的味道。",
+            "[B]混合浆果口味，本天才的最新配方！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Sizz": {
+        "CharA": "Chrona",
+        "CharB": "Sizz",
+        "Dialogues": [
+            "[B]刚才的战斗，我应该没有拖后腿吧？",
+            "[A]没有没有，西斯你的援助很及时呢！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Trisha": {
+        "CharA": "Chrona",
+        "CharB": "Trisha",
+        "Dialogues": [
+            "[A]总感觉特丽莎小姐的行动很难预料到呢。",
+            "[B]让敌人难以发现自己的行动踪迹是刺客的基本功。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Miss": {
+        "CharA": "Chrona",
+        "CharB": "MissChain",
+        "Dialogues": [
+            "[A]链锯小姐，您是怎么想到在电锯里塞喷火器的呢？",
+            "[B]不觉得这样很有意思吗？",
+            "[A]……为什么感觉这个回答很合理呢？",
+            "[B]欸嘿！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Azar": {
+        "CharA": "Chrona",
+        "CharB": "Azar",
+        "Dialogues": [
+            "[B]一点小小的“异常”不会对整个世界造成什么影响。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Lian": {
+        "CharA": "Chrona",
+        "CharB": "Lian",
+        "Dialogues": [
+            "[B]你也逐渐能熟练使用那把武器了呢。",
+            "[A]嗯，多亏了您的指导。",
+            "[B]不过考虑到你的情况……要想成为能独当一面的调查员并不容易。",
+            "[A]习惯就好了吧……大概。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Pheonix": {
+        "CharA": "Chrona",
+        "CharB": "Pheonix",
+        "Dialogues": [
+            "[B]啊~吃饱喝足完总会感觉羽毛有点乱啊~",
+            "[B]克罗娜，来帮我梳一下羽毛！",
+            "[A]好~"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Priest": {
+        "CharA": "Chrona",
+        "CharB": "Priest",
+        "Dialogues": [
+            "[B]主啊，请为那蒙受了无妄之灾的孩子驱散厄运……",
+            "[A]普瑞斯特小姐，今天也在祈祷啊。",
+            "[B]是的，刚刚的祈祷是为你而做的。",
+            "[A]……谢谢。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Iron": {
+        "CharA": "Chrona",
+        "CharB": "Prime",
+        "Dialogues": [
+            "[B]我可是佣兵团的团长，保护队友是……",
+            "[A]停！——",
+            "[A]啊，我不是故意打断的，但是直觉告诉我一旦您说完这句话就会导致某种不详的可能性发生……",
+            "[B]也就是说，所谓的“Flag”，对吧？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Charon": {
+        "CharA": "Chrona",
+        "CharB": "ShadowPriest",
+        "Dialogues": [
+            "[B]御使黑暗之力的我与身受诅咒之力的你，能够在此相遇……",
+            "[B]我想，或许是有什么缘分在其中。",
+            "[A]欸？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_SilverStein": {
+        "CharA": "Chrona",
+        "CharB": "SilverStein",
+        "Dialogues": [
+            "[B]作为远程攻击手，不仅要打得准、狠，还要快！",
+            "[B]只有这样，才能让你在这鬼地方活得更久。",
+            "[A]也就是说只要能保证能在敌人真正行动之前命中的话……",
+            "[B]你明白就好。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Huz": {
+        "CharA": "Chrona",
+        "CharB": "Queen",
+        "Dialogues": [
+            "[A]能治疗人的鞭子……确实是很奇特的武器呢。",
+            "[B]要说奇特的话，还是你的更奇特一点？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Red": {
+        "CharA": "Chrona",
+        "CharB": "TW_Red",
+        "Dialogues": [
+            "[B]说起来，我们的经历还挺相似的呢！",
+            "[B]在某个地方遇上了改变了自己一生的东西，但是刚开始却承受不住那个东西带来的影响之类的。",
+            "[A]真的？",
+            "[B]比如说，刚捡到魔石那几天，我因为魔力暴走而不小心烧到了赛琳娜的衣服……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Blue": {
+        "CharA": "Chrona",
+        "CharB": "TW_Blue",
+        "Dialogues": [
+            "[A]据说在很久很久以前，人们经常会把月亮跟历法联系上呢。",
+            "[B]毕竟从这里能看到的最显眼的天体，除了太阳就是月亮了。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Narhan": {
+        "CharA": "Chrona",
+        "CharB": "Control",
+        "Dialogues": [
+            "[A]能读取他人的思维……也就是说您不必担心会在无意间冒犯他人。",
+            "[B]一个人的理性与感情并非总能在同一方向上前行。",
+            "[B]但你无需惧怕自己的能力——能窥见未来意味着有规避最差结果的可能性。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Johan": {
+        "CharA": "Chrona",
+        "CharB": "Mement",
+        "Dialogues": [
+            "[A]唔呃……",
+            "[A]抱歉，您说的那位爱人……我还是“看”不见……",
+            "[B]……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Ilya": {
+        "CharA": "Chrona",
+        "CharB": "Ilya",
+        "Dialogues": [
+            "[A]大家都说您的实力很强。",
+            "[B]也就那样吧，都是过去的事了。",
+            "[B]现在的我只不过是一无是处的胆小鬼而已……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Leryn": {
+        "CharA": "Chrona",
+        "CharB": "Leryn",
+        "Dialogues": [
+            "[B]她身上的情况……绝对不是一句“诅咒武器”就能解释的。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Momori": {
+        "CharA": "Chrona",
+        "CharB": "Momori",
+        "Dialogues": [
+            "[B]哇~☆好可爱的孩子！而且穿搭也很时尚~☆",
+            "[A]诶……诶？",
+            "[B]让人忍不住有恶作剧的冲动呢~☆来，笑一个☆",
+            "[A]诶——卜、卜药辣醉角啦……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_North": {
+        "CharA": "Chrona",
+        "CharB": "Camera",
+        "Dialogues": [
+            "[A]我看见的“未来”，将会变成你拍到的“过去”……",
+            "[A]时间就是这样一种东西呢。",
+            "[B]“未来”的我们，也应该会和“现在”一样坐在这里吧，就像“现在”的我能看到“过去”的篝火在熊熊燃烧。",
+            "[B]直到无限的时间，每一个时刻都值得以这样的方式纪念。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_Chrona_Amethyst": {
+        "CharA": "Chrona",
+        "CharB": "Amethyst",
+        "Dialogues": [
+            "[B]天上的星星到底有多少呢？",
+            "[A]大概……跟地上沙子的数量差不多吧。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    }
+}

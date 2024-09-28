@@ -1,0 +1,16 @@
+{
+    "S_Sakuya_4_new": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "random_enemy",
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "Fatal": false,
+        "Name": "奇术「永恒的温柔」",
+        "Effect_Target": "SE_T_S_Sakuya_4_new",
+        "Image_0": "S_Sakuya_4_new\\S_Sakuya_4_new_Image_0.png",
+        "Image_1": "S_Sakuya_4_new\\S_Sakuya_4_new_Image_1.png",
+        "Image_2": "S_Sakuya_4_new\\S_Sakuya_4_new_Image_2.png"
+    }
+}

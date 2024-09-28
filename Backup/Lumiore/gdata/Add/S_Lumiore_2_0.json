@@ -1,0 +1,32 @@
+{
+    "S_Lumiore_2_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Name": "金刚钻厚头龙",
+        "Target": "random_enemy",
+        "UseAp": 0,
+        "Effect_Target": "SE_T_S_Lumiore_2_0",
+        "Image_0": "S_Lumiore_2\\S_Lumiore_2_Image_0.png",
+        "Image_1": "S_Lumiore_2\\S_Lumiore_2_Image_1.png",
+        "Image_2": "S_Lumiore_2\\S_Lumiore_2_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Description": "若[本回合中，丢弃手牌的次数]大于等于1次，对随机敌人造成&a伤害。",
+        "Effect_Self": "null",
+        "SkillExtended": [
+            
+        ],
+        "Particle": "Particle/impact"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "S_FKaguya_9_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/Master_0",
+        "Target": "enemy",
+        "Disposable": false,
+        "NoDrop": true,
+        "Name": "蓬莱的玉枝",
+        "Description": "",
+        "Effect_Target": "SE_T_S_FKaguya_9_0",
+        "IgnoreTaunt": false
+    }
+}

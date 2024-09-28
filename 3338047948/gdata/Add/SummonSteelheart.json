@@ -1,0 +1,17 @@
+{
+    "SummonSteelheart": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "反转调查员·钢铁之心",
+        "Boss": true,
+        "maxhp": 270,
+        "atk": 19,
+        "reg": 11,
+        "cri": 6,
+        "def": 16,
+        "dodge": 3,
+        "RES_CC": 35,
+        "RES_DEBUFF": 25,
+        "RES_DOT": 25
+    }
+}

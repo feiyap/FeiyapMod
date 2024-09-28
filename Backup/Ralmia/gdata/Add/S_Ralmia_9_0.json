@@ -1,0 +1,32 @@
+{
+    "S_Ralmia_9_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "典范转移",
+        "Description": "持有在手上时，每打出1个创造物技能，减少1点费用。\n选择 - 从[守御的创造物] [锋锐的创造物] [迅袭的创造物] 中选1张打出。",
+        "Target": "choiceskill",
+        "Effect_Target": "null",
+        "Image_0": "S_Ralmia_9_0\\S_Ralmia_9_0_Image_0.png",
+        "Image_1": "S_Ralmia_9_0\\S_Ralmia_9_0_Image_1.png",
+        "Image_2": "S_Ralmia_9_0\\S_Ralmia_9_0_Image_2.png",
+        "UseAp": 7,
+        "SkillExtended": [
+            "Ralmia.S_Ralmia_9_0"
+        ],
+        "User": "",
+        "Particle": "Particle/Joey/Joey_0"
+    }
+}

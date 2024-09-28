@@ -1,0 +1,27 @@
+{
+    "S_Sakuya_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/slash2",
+        "Target": "enemy",
+        "Name": "伤符「铭刻于红魂」",
+        "Description": "月魔术 - 指定全部敌人。",
+        "UseAp": 1,
+        "User": "IzayoiSakuya",
+        "PlusKeyWords": [
+            "Keyword_LunaMagic"
+        ],
+        "Effect_Target": "SE_T_S_Sakuya_2",
+        "Image_0": "S_Sakuya_2\\S_Sakuya_2_Image_0.png",
+        "Image_1": "S_Sakuya_2\\S_Sakuya_2_Image_1.png",
+        "Image_2": "S_Sakuya_2\\S_Sakuya_2_Image_2.png",
+        "SkillExtended": [
+            "IzayoiSakuya.S_Sakuya_2"
+        ],
+        "SKillExtendedItem": [
+            "SE_Sakuya_P"
+        ],
+        "IgnoreTaunt": false,
+        "NotCount": false
+    }
+}

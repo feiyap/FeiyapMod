@@ -1,0 +1,43 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "HatsuneMiku"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_HatsuneMiku_7",
+                "S_HatsuneMiku_8",
+                "S_HatsuneMiku_8",
+                "S_HatsuneMiku_8",
+                "S_HatsuneMiku_8"
+            ]
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_HatsuneMiku_0"
+        ],
+        "PartyEquip": [
+            [
+                "WhitePriestCloth"
+            ],
+            [
+                "WhitePriestCloth"
+            ],
+            [
+                
+            ]
+        ],
+        "AP": 10,
+        "Level": 6
+    }
+}

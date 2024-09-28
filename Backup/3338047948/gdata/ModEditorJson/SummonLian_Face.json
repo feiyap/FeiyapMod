@@ -1,0 +1,23 @@
+{
+    "myKey": "SummonLian",
+    "myField": "Face",
+    "myValues": {
+        "path": "SummonLian\\SummonLianFace.png",
+        "offsetMax": {
+            "x": 1784.983,
+            "y": 383.570679
+        },
+        "offsetMin": {
+            "x": -1241.76477,
+            "y": -1545.65955
+        },
+        "pivot": {
+            "x": 0.40959233,
+            "y": 0.798282
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

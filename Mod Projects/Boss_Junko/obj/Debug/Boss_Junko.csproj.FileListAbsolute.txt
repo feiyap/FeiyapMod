@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Boss_Junko\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Boss_Junko\obj\Debug\Boss_Junko.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Boss_Junko\obj\Debug\Boss_Junko.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Boss_Junko\obj\Debug\Boss_Junko.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Boss_Junko\bin\Debug\Boss_Junko202498194701.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Boss_Junko\bin\Debug\Boss_Junko202498194701.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Boss_Junko\obj\Debug\Boss_Junko202498194701.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Boss_Junko\obj\Debug\Boss_Junko202498194701.pdb

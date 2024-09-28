@@ -1,0 +1,10 @@
+{
+    "B_SomShield": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomShield",
+        "BuffTag": "null",
+        "Name": "盾牌",
+        "Icon": "B_SomShield\\B_SomShield_Icon.png",
+        "Description": ""
+    }
+}

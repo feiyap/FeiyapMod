@@ -1,0 +1,13 @@
+{
+    "Zjk_Ex_0": {
+        "_gdeSchema": "SkillExtended",
+        "Drop": true,
+        "EnforceString": "低于的1费攻击技能",
+        "NeedCharacter": "zjk",
+        "ClassName": "zuiJianKeMod.Zjk_Ex_0",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "技能命中，对目标施加一层<color=#dda0dd>血绽红梅</color>",
+        "Des": ""
+    }
+}

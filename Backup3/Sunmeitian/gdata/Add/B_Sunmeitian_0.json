@@ -1,0 +1,14 @@
+{
+    "B_Sunmeitian_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Sunmeitian.B_Sunmeitian_0",
+        "BuffTag": "Debuff",
+        "Name": "甲盾碎裂",
+        "Description": "",
+        "Debuff": true,
+        "TagPer": 130,
+        "Icon": "B_Sunmeitian_0\\B_Sunmeitian_0_Icon.png",
+        "LifeTime": 3,
+        "MaxStack": 1
+    }
+}

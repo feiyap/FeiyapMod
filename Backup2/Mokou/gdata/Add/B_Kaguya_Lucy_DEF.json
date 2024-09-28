@@ -1,0 +1,11 @@
+{
+    "B_Kaguya_Lucy_DEF": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Mokou.B_Kaguya_Lucy_DEF",
+        "BuffTag": "null",
+        "Icon": "B_Kaguya_Lucy_DEF\\B_Kaguya_Lucy_DEF_Icon.png",
+        "Name": "神宝「火蜥蜴之盾」",
+        "Description": "",
+        "LifeTime": 1
+    }
+}

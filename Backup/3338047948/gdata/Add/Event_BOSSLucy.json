@@ -1,0 +1,21 @@
+{
+    "Event_BOSSLucy": {
+        "_gdeSchema": "RandomEvent",
+        "Script": "BOSSLucy.Event_BOSSLucy",
+        "RareEvent": true,
+        "SpecialAppearance": false,
+        "ItemSlotView": false,
+        "Name": "反转之镜",
+        "EventDetails": "“不许……再往前了……”",
+        "UseButton": [
+            "触摸镜面（开始战斗）",
+            "保持观望"
+        ],
+        "MainImage": "Event_BOSSLucy\\Event_BOSSLucyMainImage.png",
+        "MainImage_2Stage": "Event_BOSSLucy\\Event_BOSSLucyMainImage_2Stage.png",
+        "MainImage_3Stage": "Event_BOSSLucy\\Event_BOSSLucyMainImage_3Stage.png",
+        "UseButtonTooltip": [
+            
+        ]
+    }
+}

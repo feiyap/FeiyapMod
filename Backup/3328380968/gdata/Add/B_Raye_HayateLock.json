@@ -1,0 +1,14 @@
+{
+    "B_Raye_HayateLock": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "Hayate Recharging",
+        "Description": "Cannot Link into Hayate.",
+        "Icon": "B_Raye_HayateLock\\B_Raye_HayateLock_Icon.png",
+        "MaxStack": 1,
+        "Debuff": true,
+        "TagPer": 0,
+        "Cantdisable": true
+    }
+}

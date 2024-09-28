@@ -1,0 +1,18 @@
+{
+    "B_Raye_Multirole": {
+        "_gdeSchema": "Buff",
+        "ClassName": "SkyStriker.B_Raye_Multirole",
+        "BuffTag": "null",
+        "Icon": "B_Raye_Multirole\\B_Raye_Multirole_Icon.png",
+        "Name": "Multirole Reload",
+        "Description": "At 3 stacks, remove all Link Recharging effects.",
+        "MaxStack": 3,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

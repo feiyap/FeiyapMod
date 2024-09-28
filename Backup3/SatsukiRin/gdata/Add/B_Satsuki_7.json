@@ -1,0 +1,18 @@
+{
+    "B_Satsuki_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "SatsukiRin.B_Satsuki_7",
+        "BuffTag": "null",
+        "Name": "丰年瑞雪",
+        "Description": "",
+        "Tick": "SE_Tick_B_Satsuki_7",
+        "MaxStack": 1,
+        "LifeTime": 2,
+        "Icon": "B_Satsuki_7\\B_Satsuki_7_Icon.png",
+        "Cantdisable": false,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

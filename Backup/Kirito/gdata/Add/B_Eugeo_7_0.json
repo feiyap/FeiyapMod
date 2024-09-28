@@ -1,0 +1,12 @@
+{
+    "B_Eugeo_7_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Kirito.B_Eugeo_7_0",
+        "BuffTag": "null",
+        "Name": "切换",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_82/5",
+        "Description": "受到攻击时随机释放手中的技能。",
+        "MaxStack": 1,
+        "LifeTime": 1
+    }
+}

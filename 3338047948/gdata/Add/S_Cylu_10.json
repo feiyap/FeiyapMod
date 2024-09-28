@@ -1,0 +1,22 @@
+{
+    "S_Cylu_10": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Momori/Momori_8",
+        "Target": "enemy",
+        "NotCount": false,
+        "User": "Cylu",
+        "UseAp": 3,
+        "Name": "忘我的决斗",
+        "Description": "每当有技能被交换或丢弃时，此技能的费用减少1点。\n此技能被交换时，恢复相当于费用的法力值。\n此技能被赋予灵动/魔动增益时，灵动/魔动增益效果变为使技能获得迅速、追踪、致命、无视嘲讽与10额外伤害。",
+        "Effect_Target": "SE_T_S_Cylu_10",
+        "IgnoreTaunt": true,
+        "SkillExtended": [
+            "BOSSLucy.S_Cylu_10"
+        ],
+        "NotChuck": false,
+        "Disposable": false,
+        "Image_0": "S_Cylu_10\\S_Cylu_10_Image_0.png",
+        "Image_1": "S_Cylu_10\\S_Cylu_10_Image_1.png"
+    }
+}

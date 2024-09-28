@@ -1,0 +1,35 @@
+{
+    "S_HatsuneMiku_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "深海少女",
+        "Description": "从弃牌堆将1个技能加入手卡。自己获得AP相同数字层数的[未来之音]。\n音律3：使那个技能AP-1。\n音律9：使那个技能AP-10。",
+        "UseAp": 0,
+        "User": "HatsuneMiku",
+        "Target": "Misc",
+        "Effect_Target": "SE_T_S_HatsuneMiku_8",
+        "SkillExtended": [
+            "HatsuneMiku.S_HatsuneMiku_8"
+        ],
+        "Image_0": "S_HatsuneMiku_8\\S_HatsuneMiku_8_Image_0.png",
+        "Image_1": "S_HatsuneMiku_8\\S_HatsuneMiku_8_Image_1.png",
+        "Image_2": "S_HatsuneMiku_8\\S_HatsuneMiku_8_Image_2.png",
+        "Particle": "Particle/impact",
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Self": "null"
+    }
+}

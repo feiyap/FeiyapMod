@@ -1,0 +1,11 @@
+{
+    "Skill_Yueq_SkinR2_T": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "传动",
+        "Des": "共鸣*Any:我方释放其它传动技能时,费用-1;释放时若手上有同名的传动技能,再次释放.",
+        "IsIcon": "Image/Buff/Skill_Icon_Pack/FriendShip",
+        "ClassName": "YueQ.Skill_Yueq_SkinR2_T",
+        "AlwaysParticle": false,
+        "IsOnesInit": false
+    }
+}

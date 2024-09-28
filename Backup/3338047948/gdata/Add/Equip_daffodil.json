@@ -1,0 +1,11 @@
+{
+    "Equip_daffodil": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "name": "水仙",
+        "NoDrop": false,
+        "Description": "从手中释放费用小于等于1的技能时，重复释放。\n\n<color #00FFFF>这朵花，献给你。-西露</color></color>",
+        "image": "Item\\Equip_daffodil_image.png",
+        "Equip_Script": "BOSSLucy.Equip_daffodil"
+    }
+}

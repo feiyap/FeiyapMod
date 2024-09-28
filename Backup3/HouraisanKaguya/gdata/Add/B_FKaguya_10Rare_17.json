@@ -1,0 +1,16 @@
+{
+    "B_FKaguya_10Rare_17": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newicons (13)",
+        "Name": "永夜归返",
+        "Description": "",
+        "LifeTime": 3
+    }
+}

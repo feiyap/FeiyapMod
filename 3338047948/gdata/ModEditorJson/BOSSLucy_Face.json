@@ -1,0 +1,23 @@
+{
+    "myKey": "BOSSLucy",
+    "myField": "Face",
+    "myValues": {
+        "path": "BOSSLucy\\BOSSLucyFace.png",
+        "pivot": {
+            "x": 0.5000541,
+            "y": 0.85536927
+        },
+        "offsetMin": {
+            "x": -799.320862,
+            "y": -1369.39478
+        },
+        "offsetMax": {
+            "x": 795.084167,
+            "y": 225.010223
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

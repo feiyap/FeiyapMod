@@ -1,0 +1,14 @@
+{
+    "SE_T_S_BOSSLucy_C5": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Armor_P_1",
+            "B_BOSSLucy_C5"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

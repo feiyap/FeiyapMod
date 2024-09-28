@@ -1,0 +1,27 @@
+{
+    "S_Shameimaru_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_2",
+        "Target": "enemy",
+        "Name": "旋符「红叶扇风」",
+        "Description": "重复释放2次。重复释放的这个技能无视防御。\n暴击时生成1个[北风灵]。\n\n<b><color=green>连击8</color></b> - 将弃牌堆最上方的技能放回牌堆顶，抽取1个技能。",
+        "User": "ShameimaruAya",
+        "NotCount": true,
+        "PlusKeyWords": [
+            "Keyword_Combo"
+        ],
+        "Effect_Target": "SE_T_S_Shameimaru_2",
+        "PlusSkillView": "S_Shameimaru_P",
+        "Image_0": "S_Shameimaru_2\\S_Shameimaru_2_Image_0.png",
+        "Image_1": "S_Shameimaru_2\\S_Shameimaru_2_Image_1.png",
+        "Image_2": "S_Shameimaru_2\\S_Shameimaru_2_Image_2.png",
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "UseAp": 2,
+        "NoDrop": false,
+        "SkillExtended": [
+            "ShameimaruAya.S_Shameimaru_2"
+        ]
+    }
+}

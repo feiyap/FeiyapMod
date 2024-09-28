@@ -1,0 +1,21 @@
+{
+    "S_HakureiReimu_F_2_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "光灵「神灵宝珠」",
+        "Description": "<b><color=#B22222>符卡等级3</color></b> - 同时指定1个血量最低的敌人。\n使用这个技能击杀敌人时，回复1点法力值。",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_HakureiReimu_F_2_3",
+        "Image_0": "S_HakureiReimu_F_2_3\\S_HakureiReimu_F_2_3_Image_0.png",
+        "Image_1": "S_HakureiReimu_F_2_3\\S_HakureiReimu_F_2_3_Image_1.png",
+        "Image_2": "S_HakureiReimu_F_2_3\\S_HakureiReimu_F_2_3_Image_2.png",
+        "SkillExtended": [
+            "HakureiReimu.S_HakureiReimu_F_2_3"
+        ],
+        "Effect_Self": "SE_S_S_HakureiReimu_F_2_3",
+        "NoDrop": false
+    }
+}

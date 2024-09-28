@@ -1,0 +1,15 @@
+{
+    "SE_T_S_RemiliaScarlet_1": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            
+        ],
+        "BuffPlusTagPer": [
+            
+        ],
+        "DMG_Per": 40,
+        "CRI": 10,
+        "DMG_Base": 2
+    }
+}

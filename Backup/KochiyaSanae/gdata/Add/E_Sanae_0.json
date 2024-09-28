@@ -1,0 +1,10 @@
+{
+    "E_Sanae_0": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "name": "奇迹于你",
+        "Description": "每个回合第1次使用0费的技能时，生成1个那个的复制，并附加暴击率+100%。",
+        "image": "Item\\E_Sanae_0_image.png",
+        "Equip_Script": "KochiyaSanae.E_Sanae_0"
+    }
+}

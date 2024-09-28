@@ -1,0 +1,17 @@
+{
+    "B_HakureiReimu_F_P_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_P_1",
+        "BuffTag": "null",
+        "Name": "博丽结界",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newicons (13)",
+        "Description": "受到伤害后解除。",
+        "MaxStack": 4,
+        "IsFieldBuff": false,
+        "LifeTime": 0,
+        "Hide": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

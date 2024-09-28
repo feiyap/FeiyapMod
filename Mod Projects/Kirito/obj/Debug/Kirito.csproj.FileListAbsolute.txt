@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Kirito\obj\Debug\Kirito.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Kirito\obj\Debug\Kirito.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Kirito\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Kirito\obj\Debug\Kirito.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Kirito\bin\Debug\Kirito2024528113003.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Kirito\bin\Debug\Kirito2024528113003.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Kirito\obj\Debug\Kirito2024528113003.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Kirito\obj\Debug\Kirito2024528113003.pdb

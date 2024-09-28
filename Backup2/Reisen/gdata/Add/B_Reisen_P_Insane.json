@@ -1,0 +1,11 @@
+{
+    "B_Reisen_P_Insane": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "狂气",
+        "Description": "",
+        "Icon": "B_Reisen_P_Insane\\B_Reisen_P_Insane_Icon.png",
+        "MaxStack": 4
+    }
+}

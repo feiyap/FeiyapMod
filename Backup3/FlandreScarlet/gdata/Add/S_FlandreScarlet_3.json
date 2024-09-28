@@ -1,0 +1,38 @@
+{
+    "S_FlandreScarlet_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/Hein_new_2",
+        "Target": "enemy",
+        "Name": "禁弹「折反射」",
+        "Description": "技能出手时，受到&a(20%)痛苦伤害。\r\n如果自身处于濒死状态，不会受到痛苦伤害。\n\n狂乱2 - 生成1张附带放逐、2回合后弃牌的禁弹「反折射」加入手中。",
+        "UseAp": 2,
+        "User": "FlandreScarlet",
+        "NotCount": true,
+        "PlusKeyWords": [
+            "Keyword_Frenzies"
+        ],
+        "Effect_Target": "SE_T_S_FlandreScarlet_3",
+        "Image_0": "S_FlandreScarlet_3\\S_FlandreScarlet_3_Image_0.png",
+        "Image_1": "S_FlandreScarlet_3\\S_FlandreScarlet_3_Image_1.png",
+        "Image_2": "S_FlandreScarlet_3\\S_FlandreScarlet_3_Image_2.png",
+        "PlusSkillView": "S_FlandreScarlet_3_0",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "FlandreScarlet.S_FlandreScarlet_3"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "B_Raye_Linkage": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "SkyStriker.B_Raye_Linkage",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "Engage! Linkage!",
+        "Icon": "B_Raye_Linkage\\B_Raye_Linkage_Icon.png",
+        "Description": "At the start of every turn, add 1 Linkage! to hand.",
+        "MaxStack": 1
+    }
+}

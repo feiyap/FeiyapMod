@@ -1,0 +1,18 @@
+{
+    "SomShield": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "远古盾牌",
+        "Passives": [
+            "B_EnemyTaunt",
+            "B_SomShield",
+            "B_SomShield_Dead"
+        ],
+        "def": 0,
+        "maxhp": 100,
+        "NotCursed": true,
+        "Skills": [
+            "S_Idle"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "S_Sunmeitian_11Rare_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_3",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "猴子猴孙",
+        "Effect_Target": "SE_T_S_Sunmeitian_11Rare_0"
+    }
+}

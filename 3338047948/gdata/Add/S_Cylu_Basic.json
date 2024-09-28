@@ -1,0 +1,24 @@
+{
+    "S_Cylu_Basic": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Lucy/LucyC_2",
+        "Rare": false,
+        "Target": "enemy",
+        "NotCount": true,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "IgnoreTaunt": true,
+        "Name": "急速灵动",
+        "Description": "若自身拥有预借减益，则使预借层数变为一半。",
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Cylu_Basic",
+        "User": "Cylu",
+        "SkillExtended": [
+            "BOSSLucy.S_Cylu_Basic"
+        ],
+        "Image_0": "S_Cylu_Basic\\S_Cylu_Basic_Image_0.png",
+        "Image_1": "S_Cylu_Basic\\S_Cylu_Basic_Image_1.png",
+        "Image_2": "S_Cylu_Basic\\S_Cylu_Basic_Image_2.png"
+    }
+}

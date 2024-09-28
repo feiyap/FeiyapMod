@@ -1,0 +1,15 @@
+{
+    "B_FKaguya_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HouraisanKaguya.B_FKaguya_7",
+        "BuffTag": "null",
+        "Name": "辉夜/月人",
+        "Description": "在濒死状态下受到伤害时，抵消这次伤害，恢复所有体力，之后获得1层[辉夜/蓬莱]并解除这个增益。",
+        "MaxStack": 1,
+        "LifeTime": 0,
+        "Cantdisable": false,
+        "IsFieldBuff": true,
+        "Icon": "B_FKaguya_7\\B_FKaguya_7_Icon.png",
+        "Hide": false
+    }
+}

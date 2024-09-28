@@ -1,0 +1,17 @@
+{
+    "B_Eirin_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Eirin.B_Eirin_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "月人/新月",
+        "Description": "使用指向单体的攻击技能时，消耗一层[月人/新月]，八意永琳会对目标进行一次[月人/乱箭]，视作追加攻击。\n这个伤害的75%会转化为对自己的连锁治疗。",
+        "MaxStack": 3,
+        "LifeTime": 0,
+        "Icon": "B_Eirin_P\\B_Eirin_P_Icon.png"
+    }
+}

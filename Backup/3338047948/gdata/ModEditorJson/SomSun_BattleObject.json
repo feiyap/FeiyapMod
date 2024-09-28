@@ -1,0 +1,28 @@
+{
+    "myKey": "SomSun",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SomSun\\SomSunMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.528561532,
+            "y": 0.0269747376
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.5000029,
+            "y": -0.639068365
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

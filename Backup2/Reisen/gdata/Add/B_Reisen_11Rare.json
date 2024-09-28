@@ -1,0 +1,17 @@
+{
+    "B_Reisen_11Rare": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "ClassName": "Reisen.B_Reisen_11Rare",
+        "BuffTag": "null",
+        "Name": "幻象/狂梦",
+        "Description": "不会减少[狂气]的层数。",
+        "MaxStack": 1,
+        "LifeTime": 1,
+        "Hide": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_Reisen_11Rare\\B_Reisen_11Rare_Icon.png"
+    }
+}

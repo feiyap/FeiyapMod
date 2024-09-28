@@ -1,0 +1,23 @@
+{
+    "myKey": "Kirito",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Kirito\\KiritoFaceOriginChar.png",
+        "offsetMax": {
+            "x": 185.105347,
+            "y": 176.9937
+        },
+        "offsetMin": {
+            "x": -368.079041,
+            "y": -606.5986
+        },
+        "pivot": {
+            "x": 0.6628514,
+            "y": 0.767267
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_BOSSLucy_test",
+                "S_BOSSLucy_test",
+                "S_BOSSLucy_test",
+                "S_BOSSLucy_test",
+                "S_BOSSLucy_test",
+                "S_BOSSLucy_test",
+                "S_BOSSLucy_test"
+            ],
+            [
+                "S_LucyC_3",
+                "S_Cylu_R3",
+                "S_Cylu_R4",
+                "S_BOSSLucy_Choice_2",
+                "S_BOSSLucy_Choice_2"
+            ]
+        ],
+        "Party": [
+            "Phoenix",
+            "Leryn",
+            "MissChain",
+            "Cylu"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_LucyC_2",
+            "S_Leryn_10_Rare",
+            "S_Cylu_Basic"
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "Equip_daffodil"
+            ],
+            [
+                "Equip_despair"
+            ]
+        ],
+        "LucySkill": [
+            "S_Lucy_0",
+            "S_Cylu_draw1",
+            "S_Cylu_draw2",
+            "S_Cylu_draw2",
+            "S_Cylu_draw2"
+        ],
+        "Passive": [
+            "OldRule",
+            "Superconductor"
+        ],
+        "ConsumeItems": [
+            "Bread",
+            "Potion_Fairy",
+            "Potion_Fairy",
+            "Potion_Fairy",
+            "Potion_Fairy",
+            "Potion_Fairy"
+        ]
+    }
+}

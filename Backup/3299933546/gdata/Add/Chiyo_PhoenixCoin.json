@@ -1,0 +1,36 @@
+{
+    "Chiyo_PhoenixCoin": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Lucy/MoneyPower",
+        "Target": "enemy",
+        "NotCount": true,
+        "Basic": false,
+        "Name": "Madam Phoenix",
+        "Description": "Deal &GoldDamage additional damage (equal to &GoldPercent% of your current Gold, capped at &MaxBaseDamage damage).\nAdditional damage becomes &DeathDoorDamage and hits all enemies if the user is at Death's Door.\r",
+        "UseAp": 3,
+        "Rare": true,
+        "User": "Chiyo",
+        "NoBasicSkill": true,
+        "Counting": 0,
+        "Effect_Target": "SE_T_Chiyo_PhoenixCoin",
+        "SkillExtended": [
+            "Chiyo.Chiyo_PhoenixCoin"
+        ],
+        "LucyPartyDraw": "",
+        "HealSkill": false,
+        "Image_0": "Chiyo_PhoenixCoin\\Chiyo_PhoenixCoin_Image_0.png",
+        "Image_1": "Chiyo_PhoenixCoin\\Chiyo_PhoenixCoin_Image_1.png",
+        "Image_2": "Chiyo_PhoenixCoin\\Chiyo_PhoenixCoin_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

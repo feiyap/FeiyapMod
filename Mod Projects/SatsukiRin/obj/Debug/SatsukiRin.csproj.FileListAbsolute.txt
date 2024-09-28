@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\SatsukiRin\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\SatsukiRin\obj\Debug\SatsukiRin.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\SatsukiRin\obj\Debug\SatsukiRin.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\SatsukiRin\obj\Debug\SatsukiRin.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\SatsukiRin\bin\Debug\SatsukiRin202471814658.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\SatsukiRin\bin\Debug\SatsukiRin202471814658.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\SatsukiRin\obj\Debug\SatsukiRin202471814658.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\SatsukiRin\obj\Debug\SatsukiRin202471814658.pdb

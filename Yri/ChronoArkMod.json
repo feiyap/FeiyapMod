@@ -1,0 +1,18 @@
+{
+    "id": "Yri_Char",
+    "Uploader": "Yri",
+    "Visibility": "Public",
+    "Title": "(EN) Yri the Avali",
+    "Author": "Yridyl",
+    "Version": "1.0.5",
+    "Description": "Play as a Fluffy Space Raptor!\r\n\r\nAdds an evasion, stance-dance, combo based DPS/Tank character.\r\n\r\nIncludes 10 Skills, 2 Rare Skills, 1 Lucy Draw Skill, and 2 Upgrades.\r\n\r\nImages are from a mix of edited stock images, Todd’s Avali Lore Book, TERA Online, and my messy digital art skills. \r\n\r\nHuge thanks to LULZDOSH for helping with skill concepts and balancing.\r\n\r\n\r\nReport any bugs, balancing issues, or suggestions to me via Workshop comments or Discord.\r\nDiscord: yridyl\r\n",
+    "Cover": "Yri_CharCover.png",
+    "ChangeNote": "1.0.5\nAdded CN support.  Credit and massive thanks to Feiyap",
+    "WorkShopId": "3320942573",
+    "OnlyUploadFiles": true,
+    "TagList": [
+        "Characters"
+    ],
+    "NeedRestartWhenSettingChanged": false,
+    "NeedReloadAllWhenEnabled": false
+}

@@ -1,0 +1,12 @@
+{
+    "B_Raye_HornetBuff": {
+        "_gdeSchema": "Buff",
+        "ClassName": "SkyStriker.B_Raye_HornetBuff",
+        "BuffTag": "null",
+        "Name": "Drone Support",
+        "Description": "",
+        "Icon": "B_Raye_HornetBuff\\B_Raye_HornetBuff_Icon.png",
+        "MaxStack": 1,
+        "LifeTime": 2
+    }
+}

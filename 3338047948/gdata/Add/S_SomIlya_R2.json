@@ -1,0 +1,27 @@
+{
+    "S_SomIlya_R2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_8_Rare",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": true,
+        "NoDrop": true,
+        "IgnoreTaunt": true,
+        "Track": true,
+        "Fatal": false,
+        "Name": "霹雳冰魄斩",
+        "NoBasicSkill": true,
+        "Disposable": true,
+        "Counting": 2,
+        "Description": "若出手时消耗的法力值大于2点，且指向目标体力值不足50%，则将目标体力值变为0。",
+        "UseAp": 6,
+        "Effect_Target": "SE_T_S_SomIlya_R2",
+        "SkillExtended": [
+            "BOSSLucy.S_SomIlya_R2"
+        ],
+        "Image_0": "S_SomIlya_R2\\S_SomIlya_R2_Image_0.png",
+        "Image_1": "S_SomIlya_R2\\S_SomIlya_R2_Image_1.png",
+        "Image_2": "S_SomIlya_R2\\S_SomIlya_R2_Image_2.png"
+    }
+}

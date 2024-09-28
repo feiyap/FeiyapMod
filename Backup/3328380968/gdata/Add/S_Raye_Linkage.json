@@ -1,0 +1,35 @@
+{
+    "S_Raye_Linkage": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Name": "Mobilize! Linkage!",
+        "User": "Raye",
+        "Description": "Create 1 Linkage! in hand.",
+        "UseAp": 1,
+        "NotCount": true,
+        "Effect_Self": "SE_S_S_Raye_Linkage",
+        "Image_0": "S_Raye_Linkage\\S_Raye_Linkage_Image_0.png",
+        "Image_1": "S_Raye_Linkage\\S_Raye_Linkage_Image_1.png",
+        "Image_2": "S_Raye_Linkage\\S_Raye_Linkage_Image_2.png",
+        "Disposable": true,
+        "NoBasicSkill": false,
+        "PlusSkillView": "S_Raye_LinkageToken",
+        "SkillExtended": [
+            "SkyStriker.S_Raye_Linkage"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

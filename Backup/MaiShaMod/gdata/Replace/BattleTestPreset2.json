@@ -1,0 +1,31 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "MaiSha",
+            "Priest"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                "S_Azar_1",
+                "S_Azar_3",
+                "S_Azar_9"
+            ],
+            [
+                "S_DebugSkill"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                "WhitePriestCloth"
+            ],
+            [
+                
+            ]
+        ]
+    }
+}

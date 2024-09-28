@@ -1,0 +1,10 @@
+{
+    "E_Yueq_1": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Unique",
+        "name": "\"四分\"",
+        "Description": "治疗后若未超过体力极限,为受治疗的目标施加其剩余极限50%的回声屏障.",
+        "image": "Item\\E_Yueq_1_image.png",
+        "Equip_Script": "YueQ.E_Yueq_1"
+    }
+}

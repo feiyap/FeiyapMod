@@ -1,0 +1,23 @@
+{
+    "myKey": "KochiyaSanae",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "KochiyaSanae\\KochiyaSanaeFaceOriginChar.png",
+        "offsetMax": {
+            "x": 411.9164,
+            "y": 171.165329
+        },
+        "offsetMin": {
+            "x": -492.283539,
+            "y": -1126.83472
+        },
+        "pivot": {
+            "x": 0.5428927,
+            "y": 0.8639912
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

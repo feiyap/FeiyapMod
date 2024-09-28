@@ -1,0 +1,23 @@
+{
+    "myKey": "MaiSha",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "MaiSha\\MaiShaFaceOriginChar.png",
+        "offsetMax": {
+            "x": 573.737366,
+            "y": 324.831543
+        },
+        "offsetMin": {
+            "x": -554.9507,
+            "y": -1038.11255
+        },
+        "pivot": {
+            "x": 0.490437239,
+            "y": 0.7577262
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

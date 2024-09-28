@@ -1,0 +1,31 @@
+{
+    "S_Yueq_BD_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NoDrop": true,
+        "Name": "变调-肃穆",
+        "Description": "下次残响必定触发<color=#FF00FF>肃穆</color>\n<color=#FF00FF>肃穆</color>：本回合所有人防御+15%。",
+        "PlusKeyWords": [
+            "Yueq_BD"
+        ],
+        "Image_0": "S_Yueq_BD_5\\S_Yueq_BD_5_Image_0.png",
+        "Image_1": "S_Yueq_BD_5\\S_Yueq_BD_5_Image_1.png",
+        "Image_2": "S_Yueq_BD_5\\S_Yueq_BD_5_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

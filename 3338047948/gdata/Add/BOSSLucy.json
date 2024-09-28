@@ -1,0 +1,47 @@
+{
+    "BOSSLucy": {
+        "_gdeSchema": "Enemy",
+        "hit": 108,
+        "name": "反转命运者·露西",
+        "Boss": true,
+        "Passives": [
+            "B_BOSSLucy_action",
+            "B_BOSSLucy_M0",
+            "B_BOSSLucy_Hide",
+            "B_BOSSLucy_Speak",
+            "B_BOSSLucy_Speak2"
+        ],
+        "Skills": [
+            "S_BOSSLucy_0",
+            "S_BOSSLucy_1",
+            "S_BOSSLucy_2",
+            "S_BOSSLucy_3",
+            "S_BOSSLucy_4",
+            "S_BOSSLucy_5",
+            "S_BOSSLucy_Attack",
+            "S_BOSSLucy_C0",
+            "S_BOSSLucy_C1",
+            "S_BOSSLucy_C2",
+            "S_BOSSLucy_C3",
+            "S_BOSSLucy_C4",
+            "S_BOSSLucy_C5",
+            "S_BOSSLucy_R1",
+            "S_BOSSLucy_R2",
+            "S_BOSSLucy_R3",
+            "S_BOSSLucy_Final"
+        ],
+        "maxhp": 3200,
+        "atk": 21,
+        "reg": 17,
+        "dodge": 16,
+        "RES_DEBUFF": 35,
+        "RES_CC": 25,
+        "RES_DOT": 25,
+        "spd": 2,
+        "PlusActCount": [
+            1,
+            3
+        ],
+        "AI": "BOSSLucy.BOSSLucy"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "B_Yueq_3": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "Cantdisable": false,
+        "ClassName": "YueQ.B_Yueq_3",
+        "BuffTag": "null",
+        "Name": "周而复始",
+        "MaxStack": 2,
+        "LifeTime": 3,
+        "Description": "触发残响时,连锁治疗&a点体力,并消耗一层.\r\n",
+        "Icon": "B_Yueq_3\\B_Yueq_3_Icon.png"
+    }
+}

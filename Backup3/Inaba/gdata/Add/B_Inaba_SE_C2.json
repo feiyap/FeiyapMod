@@ -1,0 +1,13 @@
+{
+    "B_Inaba_SE_C2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Inaba.B_Inaba_SE_C2",
+        "BuffTag": "Debuff",
+        "Name": "因幡/协运",
+        "Description": "受到的追加攻击伤害+100%。",
+        "Icon": "B_Inaba_SE_C2\\B_Inaba_SE_C2_Icon.png",
+        "LifeTime": 1,
+        "Debuff": true,
+        "TagPer": 150
+    }
+}

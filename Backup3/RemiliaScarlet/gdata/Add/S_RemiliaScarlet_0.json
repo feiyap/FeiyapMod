@@ -1,0 +1,38 @@
+{
+    "S_RemiliaScarlet_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "红符「红色不夜城」",
+        "Target": "all_enemy",
+        "User": "RemiliaScarlet",
+        "Description": "命中后使目标身上的[绯夜]立即结算一次伤害，并将[绯夜]延长1回合。",
+        "UseAp": 1,
+        "Particle": "Particle/Twins/HeliaEffect_2",
+        "Image_0": "S_RemiliaScarlet_0\\S_RemiliaScarlet_0_Image_0.png",
+        "Image_1": "S_RemiliaScarlet_0\\S_RemiliaScarlet_0_Image_1.png",
+        "Image_2": "S_RemiliaScarlet_0\\S_RemiliaScarlet_0_Image_2.png",
+        "Effect_Target": "SE_T_S_RemiliaScarlet_0",
+        "PlusKeyWords": [
+            
+        ],
+        "Effect_Self": "null",
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "RemiliaScarlet.S_RemiliaScarlet_0"
+        ]
+    }
+}

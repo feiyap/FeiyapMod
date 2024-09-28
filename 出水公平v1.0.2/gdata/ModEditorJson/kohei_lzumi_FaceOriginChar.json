@@ -1,0 +1,23 @@
+{
+    "myKey": "kohei_lzumi",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "kohei_lzumi\\kohei_lzumiFaceOriginChar.png",
+        "pivot": {
+            "x": 0.458425432,
+            "y": 0.79589057
+        },
+        "offsetMin": {
+            "x": -668.2006,
+            "y": -1163.03308
+        },
+        "offsetMax": {
+            "x": 786.344849,
+            "y": 291.512329
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "S_Yueq_9_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Charon/ShadowPriest_1",
+        "Target": "all_enemy",
+        "Name": "送葬的丧曲",
+        "Description": "<color=#00FF7F>乐谱</color>",
+        "Effect_Target": "SE_T_S_Yueq_9_1",
+        "PlusKeyWords": [
+            "YueP"
+        ],
+        "NoDrop": true,
+        "PlusSkillView": "S_Yueq_9_2",
+        "Effect_Self": "SE_S_S_Yueq_9_1",
+        "SkillExtended": [
+            "YueQ.S_Yueq_9_1"
+        ],
+        "HealSkill": false,
+        "Image_0": "S_Yueq_9_1\\S_Yueq_9_1_Image_0.png",
+        "Image_1": "S_Yueq_9_1\\S_Yueq_9_1_Image_1.png",
+        "Image_2": "S_Yueq_9_1\\S_Yueq_9_1_Image_2.png",
+        "Rare": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

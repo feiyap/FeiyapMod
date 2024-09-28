@@ -1,0 +1,12 @@
+{
+    "B_Kaguya_S_Fail": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Mokou.B_Kaguya_S_Fail",
+        "BuffTag": "null",
+        "Name": "难题未完成",
+        "Description": "未成功完成了辉夜的难题，辉夜获得增益。",
+        "MaxStack": 5,
+        "Icon": "B_Kaguya_S_Fail\\B_Kaguya_S_Fail_Icon.png",
+        "Cantdisable": false
+    }
+}

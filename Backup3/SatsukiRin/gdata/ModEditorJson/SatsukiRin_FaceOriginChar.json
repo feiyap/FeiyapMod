@@ -1,0 +1,23 @@
+{
+    "myKey": "SatsukiRin",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "SatsukiRin\\SatsukiRinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 485.6295,
+            "y": 254.572311
+        },
+        "offsetMin": {
+            "x": -512.620544,
+            "y": -1161.12781
+        },
+        "pivot": {
+            "x": 0.51211673,
+            "y": 0.8163831
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

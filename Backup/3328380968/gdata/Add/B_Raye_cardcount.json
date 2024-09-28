@@ -1,0 +1,18 @@
+{
+    "B_Raye_cardcount": {
+        "_gdeSchema": "Buff",
+        "ClassName": "SkyStriker.B_Raye_cardcount",
+        "BuffTag": "null",
+        "Name": "Striker's Armory",
+        "Description": "Has &a skill(s) in Discard.",
+        "Icon": "B_Raye_cardcount\\B_Raye_cardcount_Icon.png",
+        "MaxStack": 99,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "S_Yueq_BD_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NoDrop": true,
+        "PlusKeyWords": [
+            "Yueq_BD"
+        ],
+        "Name": "变调-谢场",
+        "Description": "下次残响必定触发<color=#FFD700>谢场</color>\n<color=#FFD700>谢场</color>：随机打赏普通道具.",
+        "Image_0": "S_Yueq_BD_4\\S_Yueq_BD_4_Image_0.png",
+        "Image_1": "S_Yueq_BD_4\\S_Yueq_BD_4_Image_1.png",
+        "Image_2": "S_Yueq_BD_4\\S_Yueq_BD_4_Image_2.png"
+    }
+}

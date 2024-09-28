@@ -1,0 +1,27 @@
+{
+    "S_Raye_KainaCounter": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Target": "SE_T_S_Raye_KainaCounter",
+        "Name": "Kaina Counter",
+        "Image_0": "S_Raye_KainaCounter\\S_Raye_KainaCounter_Image_0.png",
+        "Description": ""
+    }
+}

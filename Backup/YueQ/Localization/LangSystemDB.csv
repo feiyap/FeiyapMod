@@ -1,0 +1,18 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+B_Yueq_BD_State_0,Text,,,,,<color=#FF8C00>噪音</color>,
+B_Yueq_BD_State_1,Text,,,,,<color=#1E90FF>清醒</color>,
+B_Yueq_BD_State_2,Text,,,,,<color=#FF4500>激昂</color>,
+B_Yueq_BD_State_3,Text,,,,,<color=#40E0D0>舒缓</color>,
+B_Yueq_BD_State_4,Text,,,,,<color=#FFD700>谢场</color>,
+B_Yueq_BD_State_5,Text,,,,,<color=#FF00FF>肃穆</color>,
+B_Yueq_BD_State_6,Text,,,,,<color=#FF4500>R</color><color=#FF00FF>e</color><color=#1E90FF>m</color><color=#00FFFF>i</color><color=#FFD700>x</color>,
+P_YueQSkin_Des,Text,,,,,"其它友军使用技能时,展示牌堆顶的3个技能,若有与使用的技能:
+使用次数相同(同名也算)、原始费用相同、类型相同
+中至少两项的技能,抽取最上方的一个.
+然后根据剩余技能费用之和获得等量层残响收集.
+每回合每名友军限1次.",
+P_YueQSkin_Name,Text,,,,,传声,
+System/Yueq_Select_0,Text,,,,,选择释放的<color=#00FF7F>乐谱</color>技能,
+System/Yueq_Select_1,Text,,,,,变调,
+System/Yueq_Select_2,Text,,,,,选择置入牌堆底的技能(可以不选),
+System/Yueq_Select_3,Text,,,,,选择加入手牌的技能,

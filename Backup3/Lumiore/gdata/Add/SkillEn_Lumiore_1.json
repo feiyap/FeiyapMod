@@ -1,0 +1,15 @@
+{
+    "SkillEn_Lumiore_1": {
+        "_gdeSchema": "SkillExtended",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "Lumiore",
+        "Name": "觉醒：费用-2。",
+        "ClassName": "Lumiore.SkillEn_Lumiore_1",
+        "Des": "",
+        "Particle": "",
+        "AlwaysParticle": false,
+        "IsIcon": "",
+        "IsOnesInit": false
+    }
+}

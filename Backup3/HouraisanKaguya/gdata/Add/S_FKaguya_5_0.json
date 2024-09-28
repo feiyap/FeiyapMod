@@ -1,0 +1,12 @@
+{
+    "S_FKaguya_5_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/ST4/Fireball",
+        "Target": "enemy",
+        "Name": "神宝「火蜥蜴之盾」",
+        "Effect_Target": "SE_T_S_FKaguya_5_0",
+        "NoDrop": true,
+        "NotCount": false
+    }
+}

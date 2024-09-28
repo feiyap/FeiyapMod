@@ -1,0 +1,33 @@
+{
+    "S_FKaguya_10Rare_19": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/ProgramMaster_Attack",
+        "Rare": true,
+        "Target": "all_enemy",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "「永夜归返  -世间开明-」",
+        "Description": "这个伤害的25%超额治疗自己。\n这个伤害的25%转化为自己的保护罩。\n重复释放1次。\n\n<color=yellow><i>永夜归返光初露，\n世间开明渐破晓。</i></color>",
+        "Effect_Target": "SE_T_S_FKaguya_10Rare_19",
+        "Image_0": "S_FKaguya_10Rare_0\\S_FKaguya_10Rare_0_Image_0.png",
+        "Image_1": "S_FKaguya_10Rare_0\\S_FKaguya_10Rare_0_Image_1.png",
+        "Image_2": "S_FKaguya_10Rare_0\\S_FKaguya_10Rare_0_Image_2.png",
+        "SkillExtended": [
+            "HouraisanKaguya.S_FKaguya_10Rare_19"
+        ],
+        "UseAp": 1
+    }
+}

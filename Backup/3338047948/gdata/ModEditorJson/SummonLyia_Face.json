@@ -1,0 +1,23 @@
+{
+    "myKey": "SummonLyia",
+    "myField": "Face",
+    "myValues": {
+        "path": "SummonLyia\\SummonLyiaFace.png",
+        "offsetMax": {
+            "x": 1714.635,
+            "y": 270.5038
+        },
+        "offsetMin": {
+            "x": -1947.73022,
+            "y": -2063.865
+        },
+        "pivot": {
+            "x": 0.5312682,
+            "y": 0.8817267
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

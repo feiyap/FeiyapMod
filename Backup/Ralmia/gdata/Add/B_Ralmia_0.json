@@ -1,0 +1,20 @@
+{
+    "B_Ralmia_0": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 1,
+        "Name": "机械解放",
+        "Description": "每次打出创造物技能时，获得1点费用，抽1张技能。",
+        "Icon": "B_Ralmia_0\\B_Ralmia_0_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 1,
+        "ClassName": "Ralmia.B_Ralmia_0"
+    }
+}

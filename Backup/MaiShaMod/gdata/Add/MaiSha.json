@@ -1,0 +1,71 @@
+{
+    "MaiSha": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveUnlockLV1": true,
+        "name": "梅希亚",
+        "SelectInfo": "梅希亚是《超时空方舟》中临时加入调查团的一员。她擅于通过全队的持续进攻为爆发做铺垫，并通过“悲怆”增加队伍在极端环境中的生存与爆发能力。",
+        "MAXHP": {
+            "x": 16,
+            "y": 32
+        },
+        "ATK": {
+            "x": 14,
+            "y": 28
+        },
+        "CRI": {
+            "x": 10,
+            "y": 20
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 10
+        },
+        "HIT": {
+            "x": 95,
+            "y": 135
+        },
+        "REG": {
+            "x": 8,
+            "y": 13
+        },
+        "RES_CC": {
+            "x": -20,
+            "y": 20
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": -10,
+            "y": 30
+        },
+        "HIT_DOT": {
+            "x": -10,
+            "y": 30
+        },
+        "PassiveIcon": "MaiSha\\MaiShaPassiveIcon.png",
+        "face": "MaiSha\\MaiShaBattleFace.png",
+        "CollectionSprite_Cover": "MaiSha\\MaiShaCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "MaiSha\\MaiShaCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Sup": 2,
+        "StatView_Heal": 0,
+        "StatView_Debuff": 1,
+        "StatView_Dot": 0,
+        "StatView_Difficult": 2,
+        "PassiveName": "无法纯粹的悲伤",
+        "PassiveDes": "队友无法行动或进入濒死状态时，给手中最上面的技能添加悲怆增益，当释放或丢弃拥有悲怆增益的技能时，为下方技能添加悲怆增益，当拥有悲怆技能的队友受到致命伤害时，免疫此次伤害，并放逐对应角色拥有悲怆增益的最上面的技能。\n(每场战斗中，积累造成10次非痛苦伤害后，觉醒。)",
+        "Gender": 1,
+        "PassiveClassName": "MaiShaMod.P_MaiSha"
+    }
+}

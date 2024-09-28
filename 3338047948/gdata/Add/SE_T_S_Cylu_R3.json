@@ -1,0 +1,13 @@
+{
+    "SE_T_S_Cylu_R3": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 100,
+        "Buffs": [
+            
+        ],
+        "BuffPlusTagPer": [
+            
+        ]
+    }
+}

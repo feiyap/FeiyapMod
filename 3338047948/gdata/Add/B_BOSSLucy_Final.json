@@ -1,0 +1,12 @@
+{
+    "B_BOSSLucy_Final": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

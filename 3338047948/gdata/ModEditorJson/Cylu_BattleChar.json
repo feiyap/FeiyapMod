@@ -1,0 +1,23 @@
+{
+    "myKey": "Cylu",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Cylu\\CyluBattleChar.png",
+        "pivot": {
+            "x": 0.5607868,
+            "y": 0.7885108
+        },
+        "offsetMin": {
+            "x": -420.8218,
+            "y": -1077.84863
+        },
+        "offsetMax": {
+            "x": 329.5914,
+            "y": 289.0935
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

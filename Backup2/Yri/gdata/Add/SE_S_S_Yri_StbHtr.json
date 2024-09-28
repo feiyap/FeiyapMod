@@ -1,0 +1,13 @@
+{
+    "SE_S_S_Yri_StbHtr": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Yri_StarboundHunter",
+            "B_Yri_StarboundTenacity"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

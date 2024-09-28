@@ -1,0 +1,35 @@
+{
+    "S_Kirito_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "愤怒刺击",
+        "Description": "如果是本回合第1个使用的技能，费用-2。击杀敌人后抽取1张自己的技能。",
+        "UseAp": 2,
+        "Effect_Self": "null",
+        "Image_0": "S_Kirito_4\\S_Kirito_4_Image_0.png",
+        "Image_1": "S_Kirito_4\\S_Kirito_4_Image_1.png",
+        "Image_2": "S_Kirito_4\\S_Kirito_4_Image_2.png",
+        "User": "Kirito",
+        "Particle": "Particle/LastBoss/LastBossCutSkill_Plushit",
+        "Target": "enemy",
+        "Effect_Target": "SE_T_S_Kirito_4",
+        "SkillExtended": [
+            "Kirito.S_Kirito_4"
+        ],
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

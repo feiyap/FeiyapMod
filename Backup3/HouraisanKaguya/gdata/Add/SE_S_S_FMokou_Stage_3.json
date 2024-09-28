@@ -1,0 +1,11 @@
+{
+    "SE_S_S_FMokou_Stage_3": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_FMokou_Stage_3"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

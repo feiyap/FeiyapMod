@@ -1,0 +1,8 @@
+{
+    "SE_T_S_Kirito_11Rare": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 40,
+        "CRI": 30
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "B_Kaguya_S_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "出手标记",
+        "Description": "这个角色是最后一次使用的手牌的角色。",
+        "Debuff": true,
+        "TagPer": 0,
+        "Cantdisable": true,
+        "UseSkillDebuff": true,
+        "LifeTime": 1,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_82/1",
+        "AllyBuffEffect": "",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Caution": false
+    }
+}

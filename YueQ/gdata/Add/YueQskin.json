@@ -1,0 +1,20 @@
+{
+    "YueQskin": {
+        "Character": "YueQ",
+        "_gdeType_Character": "Character",
+        "_gdeType_SkinName": "String",
+        "SkinName": "言语",
+        "_gdeSchema": "Character_Skin",
+        "FaceSprite": "Yueq_Skin/Yueq_SkinBattleFace.png",
+        "CollectionSprite_Cover": "Yueq_Skin/Yueq_SkinCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Yueq_Skin/Yueq_SkinCollectionSprite_SkillFace.png",
+        "PassiveIcon": "Yueq_Skin\\1skinpassive.png",
+        "SkinDesc": "越祺在天道办事厅工作时的穿着\n*更换被动且使掌声效果发生变化",
+        "CampSD": [
+            "YueqCamp\\YueqCampCampSD0.png",
+            "YueqCamp\\YueqCampCampSD1.png",
+            "YueqCamp\\YueqCampCampSD2.png",
+            "YueqCamp\\YueqCampCampSD3.png"
+        ]
+    }
+}

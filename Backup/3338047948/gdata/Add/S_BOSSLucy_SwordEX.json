@@ -1,0 +1,11 @@
+{
+    "S_BOSSLucy_SwordEX": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "IsIcon": "S_BOSSLucy_SwordEX\\S_BOSSLucy_SwordEX_Icon.png",
+        "Des": "释放此技能时，技能拥有者的过载+1，反转命运者·露西以倒计时2使用技能普通攻击。",
+        "Name": "空转",
+        "ClassName": "BOSSLucy.S_BOSSLucy_SwordEX"
+    }
+}

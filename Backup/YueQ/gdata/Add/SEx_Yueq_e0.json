@@ -1,0 +1,11 @@
+{
+    "SEx_Yueq_e0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "交响",
+        "IsIcon": "SEx_Yueq_e0\\SEx_Yueq_e0_Icon.png",
+        "Des": "指向友军的治疗技能治疗友军时令其每回合结束回复治疗量30%的体力(每回合衰减80%);指向敌人的伤害技能对行动最晚的目标伤害提升至115%.",
+        "ClassName": "YueQ.SEx_Yueq_e0"
+    }
+}

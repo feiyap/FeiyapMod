@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Musoutensei_Youmu": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Musoutensei_Youmu_0"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

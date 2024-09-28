@@ -1,0 +1,16 @@
+{
+    "B_zjk_T_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "zuiJianKeMod.B_zjk_T_0",
+        "BuffTag": "null",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "<color=#FFD700>快意</color>",
+        "Description": "",
+        "Icon": "B_zjk_T_0\\B_zjk_T_0_Icon.png",
+        "MaxStack": 10
+    }
+}

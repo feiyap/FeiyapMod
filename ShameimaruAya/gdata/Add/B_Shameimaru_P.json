@@ -1,0 +1,11 @@
+{
+    "B_Shameimaru_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "ShameimaruAya.B_Shameimaru_P",
+        "BuffTag": "null",
+        "Name": "操纵风程度的能力",
+        "Hide": true,
+        "Cantdisable": true,
+        "MaxStack": 99
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "S_Yri_SSupdraft": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_2_Cutani_0",
+        "Target": "enemy",
+        "Name": "Solarium Blade - Updraft",
+        "Description": "Ascend: Create a Solarium Blade: Stormfall that Excludes when played or at end of turn.",
+        "UseAp": 1,
+        "NoDrop": false,
+        "Track": true,
+        "Effect_Target": "SE_T_S_Yri_SSupdraft",
+        "Image_0": "S_Yri_SSupdraft\\S_Yri_SSupdraft_Image_0.png",
+        "Image_1": "S_Yri_SSupdraft\\S_Yri_SSupdraft_Image_1.png",
+        "Image_2": "S_Yri_SSupdraft\\S_Yri_SSupdraft_Image_2.png",
+        "NotCount": true,
+        "Disposable": false,
+        "Except": true,
+        "PlusKeyWords": [
+            "KeyWord_Ascend"
+        ],
+        "IgnoreTaunt": true,
+        "SkillExtended": [
+            "Yri_Char.S_Yri_SSupdraft"
+        ],
+        "Fatal": false,
+        "Effect_Self": "SE_S_S_Yri_SSupdraft",
+        "NoBasicSkill": false,
+        "PlusSkillView": "S_Yri_Stormfall",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

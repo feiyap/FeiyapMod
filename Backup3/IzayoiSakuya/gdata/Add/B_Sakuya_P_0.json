@@ -1,0 +1,17 @@
+{
+    "B_Sakuya_P_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "IzayoiSakuya.B_Sakuya_P_0",
+        "BuffTag": "null",
+        "Name": "时钟停摆",
+        "Description": "每叠加4层，将1张[时计「月时计」]加入手中。",
+        "Icon": "B_Sakuya_P_0\\B_Sakuya_P_0_Icon.png",
+        "MaxStack": 99,
+        "LifeTime": 0,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

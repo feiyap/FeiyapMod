@@ -1,0 +1,16 @@
+{
+    "Chiyo_ImmortalityPotion_Buy": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "HealSkill": false,
+        "Name": "Cough Up the Money",
+        "Description": "Pay &GoldCost Gold to avoid excluding the used 'Immortality Potion'.",
+        "Image_0": "Chiyo_ImmortalityPotion_Buy\\Chiyo_ImmortalityPotion_Buy_Image_0.png",
+        "SkillExtended": [
+            "Chiyo.Chiyo_ImmortalityPotion_Buy"
+        ],
+        "NotCount": false
+    }
+}

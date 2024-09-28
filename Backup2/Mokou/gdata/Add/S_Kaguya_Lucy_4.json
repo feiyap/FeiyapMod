@@ -1,0 +1,32 @@
+{
+    "S_Kaguya_Lucy_4": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "NoDrop": true,
+        "Except": true,
+        "Name": "露西的复现-神宝「蓬莱的玉枝　-梦色之乡-」",
+        "Description": "<color=#919191>你是一个值得尊敬的对手，但是，我们也有不能不完成的使命！——露西</color>",
+        "User": "Lucy",
+        "LucyPartyDraw": "",
+        "AutoDelete": 1,
+        "Image_0": "S_Kaguya_Lucy_4\\S_Kaguya_Lucy_4_Image_0.png",
+        "Image_1": "S_Kaguya_Lucy_4\\S_Kaguya_Lucy_4_Image_1.png",
+        "Image_2": "S_Kaguya_Lucy_4\\S_Kaguya_Lucy_4_Image_2.png",
+        "Effect_Target": "SE_T_S_Kaguya_Lucy_4",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

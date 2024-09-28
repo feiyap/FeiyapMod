@@ -1,0 +1,21 @@
+{
+    "S_Sanae_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": true,
+        "Name": "开海「海水分开之日」",
+        "Description": "从弃牌堆将1张1费或以下的技能拿回手中。",
+        "User": "KochiyaSanae",
+        "UseAp": 1,
+        "Effect_Target": "null",
+        "Image_0": "S_Sanae_7\\S_Sanae_7_Image_0.png",
+        "Image_1": "S_Sanae_7\\S_Sanae_7_Image_1.png",
+        "Image_2": "S_Sanae_7\\S_Sanae_7_Image_2.png",
+        "SkillExtended": [
+            "KochiyaSanae.S_Sanae_7"
+        ]
+    }
+}

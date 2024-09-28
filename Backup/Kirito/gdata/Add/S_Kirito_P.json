@@ -1,0 +1,33 @@
+{
+    "S_Kirito_P": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "剑技连携",
+        "Target": "enemy",
+        "Description": "根据本回合释放的技能数量，重复释放本技能(&a次)。最大不超过10次。",
+        "UseAp": 0,
+        "Particle": "Particle/slash2",
+        "Effect_Target": "SE_T_S_Kirito_P",
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "Kirito.S_Kirito_P"
+        ],
+        "Image_0": "S_Kirito_P\\S_Kirito_P_Image_0.png",
+        "Image_1": "S_Kirito_P\\S_Kirito_P_Image_1.png",
+        "Image_2": "S_Kirito_P\\S_Kirito_P_Image_2.png"
+    }
+}

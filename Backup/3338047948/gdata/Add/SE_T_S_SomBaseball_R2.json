@@ -1,0 +1,14 @@
+{
+    "SE_T_S_SomBaseball_R2": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Priest_11_T_0",
+            "B_Priest_11_T_1"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "KochiyaSanaeSkin": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "face": "KochiyaSanaeSkin\\KochiyaSanaeSkinBattleFace.png",
+        "CollectionSprite_Cover": "KochiyaSanaeSkin\\KochiyaSanaeSkinCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "KochiyaSanaeSkin\\KochiyaSanaeSkinCollectionSprite_SkillFace.png"
+    }
+}

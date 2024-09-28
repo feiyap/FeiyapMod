@@ -1,0 +1,15 @@
+{
+    "B_Musoutensei_Youmu_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "天人合一",
+        "Description": "受到伤害降低为0。并且，每次受到伤害时，3回合内攻击力增加10%。",
+        "LifeTime": 1
+    }
+}

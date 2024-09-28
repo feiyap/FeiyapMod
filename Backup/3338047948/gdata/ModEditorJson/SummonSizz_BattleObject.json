@@ -1,0 +1,28 @@
+{
+    "myKey": "SummonSizz",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SummonSizz\\SummonSizzMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.4776964,
+            "y": 0.02209881
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.468816,
+            "y": 0.143570483
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

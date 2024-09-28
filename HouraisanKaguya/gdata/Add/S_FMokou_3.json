@@ -1,0 +1,35 @@
+{
+    "S_FMokou_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Pharos_witch",
+        "Target": "all_enemy",
+        "NoDrop": true,
+        "Name": "炎符「自灭火焰大旋风」",
+        "Description": "<color=orange>过热：2 - 以倒计时1重复释放1次。</color>",
+        "Effect_Target": "SE_T_S_FMokou_3",
+        "Image_0": "S_FMokou_3\\S_FMokou_3_Image_0.png",
+        "Image_1": "S_FMokou_3\\S_FMokou_3_Image_1.png",
+        "Image_2": "S_FMokou_3\\S_FMokou_3_Image_2.png",
+        "EnemyPreview": true,
+        "SkillExtended": [
+            "HouraisanKaguya.S_FMokou_3"
+        ],
+        "PlusKeyWords": [
+            "exburn"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "UnknownTarget": false
+    }
+}

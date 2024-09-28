@@ -1,0 +1,23 @@
+{
+    "myKey": "Revil_Feiyap",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Revil_Feiyap\\Revil_FeiyapFaceOriginChar.png",
+        "offsetMax": {
+            "x": 367.687744,
+            "y": 274.8106
+        },
+        "offsetMin": {
+            "x": -394.975281,
+            "y": -815.2785
+        },
+        "pivot": {
+            "x": 0.516054,
+            "y": 0.7429708
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

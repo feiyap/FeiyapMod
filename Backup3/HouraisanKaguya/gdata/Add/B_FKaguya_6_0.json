@@ -1,0 +1,14 @@
+{
+    "B_FKaguya_6_0": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "燕的子安贝",
+        "Description": ""
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "myKey": null,
+    "myField": "RandomEventList",
+    "myValues": {
+        "RE_Key": "Bamboo_Forest"
+    },
+    "MyChangeType": "RandomEventInStage",
+    "myKeys": [
+        "Stage3"
+    ]
+}

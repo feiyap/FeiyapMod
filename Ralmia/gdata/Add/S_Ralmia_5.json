@@ -1,0 +1,33 @@
+{
+    "S_Ralmia_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "加速装置",
+        "Description": "",
+        "UseAp": 1,
+        "Particle": "Particle/Buff",
+        "User": "Ralmia",
+        "Target": "self",
+        "Effect_Target": "null",
+        "SkillExtended": [
+            
+        ],
+        "Image_0": "S_Ralmia_5\\S_Ralmia_5_Image_0.png",
+        "Image_1": "S_Ralmia_5\\S_Ralmia_5_Image_1.png",
+        "Image_2": "S_Ralmia_5\\S_Ralmia_5_Image_2.png",
+        "Effect_Self": "SE_S_S_Ralmia_5"
+    }
+}

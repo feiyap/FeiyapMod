@@ -1,0 +1,31 @@
+{
+    "S_Eirin_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_0",
+        "Rare": false,
+        "Target": "ally",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": true,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "药符「蝴蝶梦丸噩梦」",
+        "UseAp": 1,
+        "User": "Eirin",
+        "Effect_Target": "SE_T_S_Eirin_0",
+        "Description": "",
+        "Image_0": "S_Eirin_0\\S_Eirin_0_Image_0.png",
+        "Image_1": "S_Eirin_0\\S_Eirin_0_Image_1.png",
+        "Image_2": "S_Eirin_0\\S_Eirin_0_Image_2.png"
+    }
+}

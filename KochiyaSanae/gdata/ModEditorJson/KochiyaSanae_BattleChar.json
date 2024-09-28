@@ -1,0 +1,23 @@
+{
+    "myKey": "KochiyaSanae",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "KochiyaSanae\\KochiyaSanaeBattleChar.png",
+        "offsetMax": {
+            "x": 420.253174,
+            "y": 274.0854
+        },
+        "offsetMin": {
+            "x": -574.3668,
+            "y": -1153.7146
+        },
+        "pivot": {
+            "x": 0.57747364,
+            "y": 0.808036566
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

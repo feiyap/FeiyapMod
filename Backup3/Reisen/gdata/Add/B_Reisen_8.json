@@ -1,0 +1,17 @@
+{
+    "B_Reisen_8": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Reisen.B_Reisen_8",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "幻象/幻爆",
+        "Description": "",
+        "MaxStack": 1,
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/Debuff"
+    }
+}

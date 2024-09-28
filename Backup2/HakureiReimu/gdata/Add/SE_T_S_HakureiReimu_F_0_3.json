@@ -1,0 +1,8 @@
+{
+    "SE_T_S_HakureiReimu_F_0_3": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 95,
+        "CRI": 15
+    }
+}

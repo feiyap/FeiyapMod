@@ -1,0 +1,35 @@
+{
+    "S_zjk_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "ally",
+        "Name": "神仙酿",
+        "Description": "若目标为队友，令其额外获得一层<color=#FFD700>快意</color>",
+        "UseAp": 1,
+        "User": "zjk",
+        "Disposable": true,
+        "NotCount": true,
+        "Effect_Self": "SE_S_S_zjk_6",
+        "Effect_Target": "SE_T_S_zjk_6",
+        "NoBasicSkill": false,
+        "IgnoreTaunt": false,
+        "Fatal": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_zjk_6\\S_zjk_6_Image_0.png",
+        "Image_1": "S_zjk_6\\S_zjk_6_Image_1.png",
+        "Image_2": "S_zjk_6\\S_zjk_6_Image_2.png",
+        "SkillExtended": [
+            "zuiJianKeMod.Extended_zjk_6"
+        ]
+    }
+}

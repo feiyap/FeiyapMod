@@ -1,0 +1,34 @@
+{
+    "S_Yueq_R1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "self",
+        "IgnoreTaunt": false,
+        "Description": "战斗开始时放在牌库最上方\n释放时,获得一层充能;若已有充能,从<color=#00FF7F>乐谱</color>技能中选择一个加入手牌",
+        "Name": "谱曲",
+        "User": "YueQ",
+        "UseAp": 1,
+        "NotCount": true,
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_Yueq_R1",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "YueQ.S_Yueq_R1"
+        ],
+        "Image_0": "S_Yueq_R1\\S_Yueq_R1_Image_0.png",
+        "Image_1": "S_Yueq_R1\\S_Yueq_R1_Image_1.png",
+        "Image_2": "S_Yueq_R1\\S_Yueq_R1_Image_2.png"
+    }
+}

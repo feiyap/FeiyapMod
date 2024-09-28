@@ -1,0 +1,16 @@
+{
+    "Chiyo_HardwareAcceleration_Buff": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": true,
+        "ClassName": "Chiyo.Chiyo_HardwareAcceleration_Buff",
+        "BuffTag": "null",
+        "Name": "Hardware Acceleration",
+        "Icon": "Chiyo_HardwareAcceleration_Buff\\Chiyo_HardwareAcceleration_Buff_Icon.png",
+        "MaxStack": 3,
+        "LifeTime": 5,
+        "Hide": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

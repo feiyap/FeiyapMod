@@ -1,0 +1,8 @@
+{
+    "SE_T_S_Mokou_8_0": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Base": 1,
+        "DMG_Per": 0
+    }
+}

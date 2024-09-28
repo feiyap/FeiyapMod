@@ -1,0 +1,19 @@
+{
+    "B_Reisen_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Reisen.B_Reisen_7",
+        "Description": "每个回合开始时，获得3颗[子弹]。",
+        "Name": "真实/幻象",
+        "MaxStack": 0,
+        "LifeTime": 3,
+        "Debuff": false,
+        "BuffTag": "null",
+        "Icon": "B_Reisen_7\\B_Reisen_7_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": true,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "TagPer": 0
+    }
+}

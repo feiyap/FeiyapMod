@@ -1,0 +1,16 @@
+{
+    "S_Inaba_P_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Momori/Momori_3",
+        "Target": "enemy",
+        "Name": "铁锤砸下",
+        "Description": "",
+        "NoDrop": true,
+        "Except": true,
+        "Counting": 2,
+        "Effect_Target": "SE_T_S_Inaba_P_4",
+        "Image_1": "S_Inaba_P_4\\S_Inaba_P_4_Image_1.png",
+        "Image_0": "S_Inaba_P_4\\S_Inaba_P_4_Image_0.png"
+    }
+}

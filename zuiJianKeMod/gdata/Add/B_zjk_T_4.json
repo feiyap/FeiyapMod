@@ -1,0 +1,17 @@
+{
+    "B_zjk_T_4": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "zuiJianKeMod.B_zjk_T_4",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "肉斩骨断",
+        "MaxStack": 1,
+        "LifeTime": 1,
+        "Description": "易碎品 勿触",
+        "Tick": "null"
+    }
+}

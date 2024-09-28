@@ -1,0 +1,16 @@
+{
+    "B_FlandreScarlet_P_K": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "禁忌狂乱",
+        "Description": "芙兰朵露受到来自自己或队友的伤害累计一定次数后，部分技能会获得额外效果。",
+        "MaxStack": 15,
+        "Icon": "B_FlandreScarlet_P_K\\B_FlandreScarlet_P_K_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

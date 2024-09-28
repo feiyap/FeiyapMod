@@ -1,0 +1,18 @@
+{
+    "B_Inaba_P_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Inaba.B_Inaba_P_5",
+        "BuffTag": "null",
+        "Name": "炸弹？！",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (65)",
+        "Description": "回合结束时，造成40伤害。攻击后将此减益转移至目标身上。",
+        "Cantdisable": true,
+        "LifeTime": 0,
+        "Debuff": true,
+        "TagPer": 0,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "B_HakureiReimu_F_0_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_0_2",
+        "BuffTag": "null",
+        "Name": "灵力狂涌",
+        "Description": "下个回合开始时，优先抽取1个自己的技能；触发后移除。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_HakureiReimu_F_0_2\\B_HakureiReimu_F_0_2_Icon.png"
+    }
+}

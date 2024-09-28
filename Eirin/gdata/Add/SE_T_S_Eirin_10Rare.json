@@ -1,0 +1,14 @@
+{
+    "SE_T_S_Eirin_10Rare": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 0,
+        "DMG_Base": 0,
+        "HEAL_MaxHpPer": 100,
+        "HEAL_Per": 0,
+        "HEAL_Base": 0,
+        "CRI": 0,
+        "ForceHeal": true,
+        "ChainHeal": false
+    }
+}

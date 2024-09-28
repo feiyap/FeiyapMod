@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Yri_Blizzard2": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Yri_BlizzardBuff"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

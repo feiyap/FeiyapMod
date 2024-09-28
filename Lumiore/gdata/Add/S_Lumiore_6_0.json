@@ -1,0 +1,38 @@
+{
+    "S_Lumiore_6_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": true,
+        "Name": "黑白乱舞·诺尔与卜朗",
+        "Description": "觉醒 - 改为造成&a伤害。获得1回合BUFF：保护体力极限。全抗性增加。",
+        "Target": "enemy",
+        "Particle": "Particle/Trisha/Trisha_slash",
+        "UseAp": 0,
+        "Effect_Target": "SE_T_S_Lumiore_6_0",
+        "Image_0": "S_Lumiore_6\\S_Lumiore_6_Image_0.png",
+        "Image_1": "S_Lumiore_6\\S_Lumiore_6_Image_1.png",
+        "Image_2": "S_Lumiore_6\\S_Lumiore_6_Image_2.png",
+        "PlusKeyWords": [
+            "KeyWord_LumioreWake"
+        ],
+        "Effect_Self": "null",
+        "PlusSkillView": "",
+        "SkillExtended": [
+            "Lumiore.S_Lumiore_6_0"
+        ],
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

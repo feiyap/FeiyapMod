@@ -1,0 +1,19 @@
+{
+    "SE_T_S_Eirin_2": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "HEAL_Per": 180,
+        "Buffs": [
+            "B_Eirin_2",
+            "B_Eirin_1",
+            "B_Eirin_3"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0
+        ],
+        "ForceHeal": false,
+        "ChainHeal": true
+    }
+}

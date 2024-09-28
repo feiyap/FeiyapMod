@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Satsuki_3": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Satsuki_3"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

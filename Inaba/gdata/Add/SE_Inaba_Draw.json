@@ -1,0 +1,12 @@
+{
+    "SE_Inaba_Draw": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "<color=#FFD700>帝的豪华奖池</color>",
+        "Drop": false,
+        "EnforceString": "",
+        "NeedCharacter": "",
+        "ClassName": "Inaba.SE_Inaba_Draw"
+    }
+}

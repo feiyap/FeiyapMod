@@ -1,0 +1,12 @@
+{
+    "B_FMokou_Stage_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HouraisanKaguya.B_FMokou_Stage_1",
+        "BuffTag": "null",
+        "Name": "「蓬莱人形」",
+        "LifeTime": 0,
+        "Description": "妹红受到伤害时，会对自己和来源施加1层<color=purple>烧伤</color>。",
+        "Icon": "B_FMokou_Stage_1\\B_FMokou_Stage_1_Icon.png",
+        "Cantdisable": true
+    }
+}

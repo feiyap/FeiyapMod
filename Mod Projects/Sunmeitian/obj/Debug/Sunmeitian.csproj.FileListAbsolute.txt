@@ -1,0 +1,15 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\obj\Debug\Sunmeitian.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\obj\Debug\Sunmeitian.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\obj\Debug\Sunmeitian.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\bin\Debug\0Harmony.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\bin\Debug\Mono.Cecil.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\bin\Debug\Mono.Cecil.Mdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\bin\Debug\Mono.Cecil.Pdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\bin\Debug\Mono.Cecil.Rocks.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\bin\Debug\MonoMod.RuntimeDetour.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\bin\Debug\MonoMod.Utils.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\bin\Debug\Sunmeitian2024823225150.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\bin\Debug\Sunmeitian2024823225150.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\obj\Debug\Sunmeitian2024823225150.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Sunmeitian\obj\Debug\Sunmeitian2024823225150.pdb

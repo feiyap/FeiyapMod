@@ -1,0 +1,17 @@
+{
+    "B_zjk_T_9": {
+        "_gdeSchema": "Buff",
+        "ClassName": "zuiJianKeMod.B_zjk_T_9",
+        "BuffTag": "null",
+        "Name": "<color=#778899>无名剑术</color>",
+        "Icon": "B_zjk_T_9\\B_zjk_T_9_Icon.png",
+        "MaxStack": 1,
+        "LifeTime": 0,
+        "Cantdisable": true,
+        "Description": "致命攻击引发会心暴击（会心基础120%增伤，溢出的暴击率直接加在这部分，<color=#dda0dd>血绽红梅</color>仅提供20%）。\n<color=#778899>天下无双，何足挂齿</color>",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

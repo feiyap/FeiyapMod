@@ -1,0 +1,10 @@
+{
+    "SE_HakureiReimu_C_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "使博丽灵梦获得2层<color=#B22222>符卡等级</color>。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "HakureiReimu",
+        "ClassName": "HakureiReimu.SE_HakureiReimu_C_1"
+    }
+}

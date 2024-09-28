@@ -1,0 +1,39 @@
+{
+    "S_Shameimaru_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_2",
+        "Target": "enemy",
+        "Name": "风神「二百十日」",
+        "Description": "生成2个[北风灵]。\n\n<b><color=green>连击4</color></b> - 获得[风来的山麓]。",
+        "User": "ShameimaruAya",
+        "UseAp": 2,
+        "PlusKeyWords": [
+            "Keyword_Combo"
+        ],
+        "Effect_Target": "SE_T_S_Shameimaru_1",
+        "PlusSkillView": "S_Shameimaru_P",
+        "Image_0": "S_Shameimaru_1\\S_Shameimaru_1_Image_0.png",
+        "Image_1": "S_Shameimaru_1\\S_Shameimaru_1_Image_1.png",
+        "Image_2": "S_Shameimaru_1\\S_Shameimaru_1_Image_2.png",
+        "NotCount": false,
+        "Effect_Self": "SE_S_S_Shameimaru_1",
+        "SkillExtended": [
+            "ShameimaruAya.S_Shameimaru_1"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

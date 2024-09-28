@@ -1,0 +1,16 @@
+{
+    "B_FKaguya_11Rare": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "HouraisanKaguya.B_FKaguya_11Rare",
+        "BuffTag": "null",
+        "Name": "辉夜/蓬莱",
+        "Icon": "B_FKaguya_11Rare\\B_FKaguya_11Rare_Icon.png",
+        "Description": "每回合结束时，对所有敌人施加3次[辉夜/永夜]，每次1层。\n每次敌人被施加超过层数上限的[辉夜/永夜]时，对其进行1次&a(50%)伤害的追加攻击。",
+        "MaxStack": 0,
+        "Hide": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

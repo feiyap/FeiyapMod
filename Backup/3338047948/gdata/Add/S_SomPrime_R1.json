@@ -1,0 +1,20 @@
+{
+    "S_SomPrime_R1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Shield",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "Disposable": true,
+        "NoDrop": true,
+        "Name": "绝对不破",
+        "Description": "生成防御40点伤害的防护墙。\n队伍中每有一名处于濒死状态的队员，增加10点防护墙。",
+        "Image_0": "S_SomPrime_R1\\S_SomPrime_R1_Image_0.png",
+        "Image_1": "S_SomPrime_R1\\S_SomPrime_R1_Image_1.png",
+        "Image_2": "S_SomPrime_R1\\S_SomPrime_R1_Image_2.png",
+        "SkillExtended": [
+            "BOSSLucy.S_SomPrime_R1"
+        ]
+    }
+}

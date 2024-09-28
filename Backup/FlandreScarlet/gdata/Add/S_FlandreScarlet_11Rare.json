@@ -1,0 +1,25 @@
+{
+    "S_FlandreScarlet_11Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "NoBasicSkill": true,
+        "Track": false,
+        "Fatal": false,
+        "Name": "QED「495年的波纹」",
+        "Description": "当手中的技能数量为0（不计入带有“放逐”词条的技能），将这个技能从牌库中抽取到手中。",
+        "User": "FlandreScarlet",
+        "NotCount": true,
+        "Disposable": true,
+        "Effect_Self": "SE_S_S_FlandreScarlet_11Rare",
+        "Image_0": "S_FlandreScarlet_11Rare\\S_FlandreScarlet_11Rare_Image_0.png",
+        "Image_1": "S_FlandreScarlet_11Rare\\S_FlandreScarlet_11Rare_Image_1.png",
+        "Image_2": "S_FlandreScarlet_11Rare\\S_FlandreScarlet_11Rare_Image_2.png",
+        "SkillExtended": [
+            "FlandreScarlet.S_FlandreScarlet_11Rare"
+        ],
+        "IgnoreTaunt": false
+    }
+}

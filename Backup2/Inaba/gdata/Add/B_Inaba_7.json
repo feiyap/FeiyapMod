@@ -1,0 +1,12 @@
+{
+    "B_Inaba_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Inaba.B_Inaba_7",
+        "BuffTag": "null",
+        "Name": "因幡/逃逸",
+        "Description": "受到伤害时，转移给拥有[因幡/误导]的单位；\n解除时优先抽取1个自己的技能。",
+        "LifeTime": 1,
+        "Icon": "B_Inaba_7\\B_Inaba_7_Icon.png",
+        "Cantdisable": true
+    }
+}

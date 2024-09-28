@@ -1,0 +1,12 @@
+{
+    "B_Yri_DCounter": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Yri_Char.B_Yri_DCounter",
+        "BuffTag": "null",
+        "Name": "Interception",
+        "Description": "Counterattack when attacked, dealing &a damage.",
+        "MaxStack": 6,
+        "LifeTime": 2,
+        "Icon": "B_Yri_DCounter\\B_Yri_DCounter_Icon.png"
+    }
+}

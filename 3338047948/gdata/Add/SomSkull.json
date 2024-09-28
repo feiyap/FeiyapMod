@@ -1,0 +1,15 @@
+{
+    "SomSkull": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "黑魔法师的骷髅",
+        "NotCursed": true,
+        "maxhp": 100,
+        "Passives": [
+            "B_SomSkull"
+        ],
+        "Skills": [
+            "S_Idle"
+        ]
+    }
+}

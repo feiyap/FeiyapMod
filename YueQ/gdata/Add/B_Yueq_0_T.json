@@ -1,0 +1,11 @@
+{
+    "B_Yueq_0_T": {
+        "_gdeSchema": "Buff",
+        "ClassName": "YueQ.B_Yueq_0_T",
+        "BuffTag": "null",
+        "Name": "循环治疗",
+        "Description": "回合结束时,回复&a点生命.(每回合衰减40%))",
+        "LifeTime": 3,
+        "Icon": "B_Yueq_0_T\\B_Yueq_0_T_Icon.png"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "SE_T_S_Yueq_9_1": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 99,
+        "DMG_Per": 77,
+        "DMG_Base": 7,
+        "CRI": 9,
+        "Buffs": [
+            "B_Yueq_9"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

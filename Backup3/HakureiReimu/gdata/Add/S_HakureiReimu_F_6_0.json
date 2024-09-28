@@ -1,0 +1,13 @@
+{
+    "S_HakureiReimu_F_6_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_1",
+        "Target": "all_enemy",
+        "NotCount": false,
+        "Description": "",
+        "Name": "境界「二重弹幕结界」",
+        "Effect_Target": "SE_T_S_HakureiReimu_F_6_0",
+        "NoDrop": true
+    }
+}

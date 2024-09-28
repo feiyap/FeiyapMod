@@ -1,0 +1,10 @@
+{
+    "SE_Satsuki_0": {
+        "_gdeSchema": "SkillExtended",
+        "IsOnesInit": false,
+        "Name": "薰风",
+        "Des": "下1次造成的治疗效果+50%。",
+        "ClassName": "SatsukiRin.SE_Satsuki_0",
+        "IsIcon": "SE_Satsuki_0\\SE_Satsuki_0_Icon.png"
+    }
+}

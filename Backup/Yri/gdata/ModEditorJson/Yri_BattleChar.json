@@ -1,0 +1,23 @@
+{
+    "myKey": "Yri",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Yri\\YriBattleChar.png",
+        "offsetMax": {
+            "x": 1462.93152,
+            "y": 349.936066
+        },
+        "offsetMin": {
+            "x": -789.8683,
+            "y": -514.664063
+        },
+        "pivot": {
+            "x": 0.350616276,
+            "y": 0.5952625
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

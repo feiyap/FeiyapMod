@@ -1,0 +1,23 @@
+{
+    "myKey": "FlandreScarletGod",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "FlandreScarletGod\\FlandreScarletGodBattleChar.png",
+        "pivot": {
+            "x": 0.4824307,
+            "y": 0.6542012
+        },
+        "offsetMin": {
+            "x": -1063.908,
+            "y": -1442.71472
+        },
+        "offsetMax": {
+            "x": 1141.39941,
+            "y": 762.592651
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

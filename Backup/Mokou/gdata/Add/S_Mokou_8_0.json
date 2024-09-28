@@ -1,0 +1,33 @@
+{
+    "S_Mokou_8_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "「不死之身的舍身击」",
+        "Description": "造成相当于自身最大体力值75%（&a）的额外伤害。",
+        "IgnoreTaunt": true,
+        "Except": true,
+        "Effect_Target": "SE_T_S_Mokou_8_0",
+        "SkillExtended": [
+            "Mokou.S_Mokou_8_0"
+        ],
+        "Image_0": "S_Mokou_8_0\\S_Mokou_8_0_Image_0.png",
+        "Image_1": "S_Mokou_8_0\\S_Mokou_8_0_Image_1.png",
+        "Image_2": "S_Mokou_8_0\\S_Mokou_8_0_Image_2.png",
+        "Effect_Self": "SE_S_S_Mokou_8_0",
+        "NoDrop": true,
+        "Basic": false,
+        "Particle": "Particle/impact",
+        "NotChuck": false,
+        "NoBasicSkill": false,
+        "Rare": false,
+        "NODOD": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "B_SomClock": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomClock",
+        "BuffTag": "null",
+        "Name": "流转",
+        "Description": "按下等待键时，所有队员的过载+3。\n",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_SomClock\\B_SomClock_Icon.png"
+    }
+}

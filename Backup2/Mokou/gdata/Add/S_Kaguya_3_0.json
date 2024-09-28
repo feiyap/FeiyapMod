@@ -1,0 +1,20 @@
+{
+    "S_Kaguya_3_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "all_enemy",
+        "NotCount": false,
+        "NotChuck": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Name": "神宝「火蜥蜴之盾」",
+        "EnemyPreview": true,
+        "Image_0": "S_Kaguya_3_0\\S_Kaguya_3_0_Image_0.png",
+        "Image_1": "S_Kaguya_3_0\\S_Kaguya_3_0_Image_1.png",
+        "Image_2": "S_Kaguya_3_0\\S_Kaguya_3_0_Image_2.png",
+        "Effect_Target": "SE_T_S_Kaguya_3_0",
+        "UnknownTarget": false,
+        "NoDrop": true
+    }
+}

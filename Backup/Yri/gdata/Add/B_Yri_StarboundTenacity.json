@@ -1,0 +1,12 @@
+{
+    "B_Yri_StarboundTenacity": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Yri_Char.B_Yri_StarboundTenacity",
+        "BuffTag": "null",
+        "Name": "Starbound Tenacity",
+        "MaxStack": 2,
+        "LifeTime": 0,
+        "Description": "At 2 stacks, add 1 of your own cards from Discard to Hand",
+        "Icon": "B_Yri_StarboundTenacity\\B_Yri_StarboundTenacity_Icon.png"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "B_FMokou_P_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HouraisanKaguya.B_FMokou_P_0",
+        "BuffTag": "null",
+        "Name": "「不死鸟重生」",
+        "Description": "妹红死亡时，有概率获得战斗胜利；\n否则妹红复活并恢复所有体力值，那之后，概率翻倍。\n<color=orange>当前概率为：&a%</color>",
+        "Icon": "B_FMokou_P_0\\B_FMokou_P_0_Icon.png",
+        "MaxStack": 10,
+        "Cantdisable": true,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

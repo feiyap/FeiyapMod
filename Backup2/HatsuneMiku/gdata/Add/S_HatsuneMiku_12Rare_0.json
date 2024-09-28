@@ -1,0 +1,31 @@
+{
+    "S_HatsuneMiku_12Rare_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": true,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "アンノウン・マザーグース",
+        "Description": "赋予[未来之音]，直到和场上拥有[未来之音]层数的角色层数相同为止。",
+        "Particle": "Particle/flare_lv1",
+        "Target": "all_ally",
+        "Effect_Target": "null",
+        "Image_0": "S_HatsuneMiku_12Rare_0\\S_HatsuneMiku_12Rare_0_Image_0.png",
+        "Image_1": "S_HatsuneMiku_12Rare_0\\S_HatsuneMiku_12Rare_0_Image_1.png",
+        "Image_2": "S_HatsuneMiku_12Rare_0\\S_HatsuneMiku_12Rare_0_Image_2.png",
+        "SkillExtended": [
+            "HatsuneMiku.S_HatsuneMiku_12Rare_0"
+        ],
+        "UseAp": 0
+    }
+}

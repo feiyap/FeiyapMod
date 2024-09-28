@@ -1,0 +1,8 @@
+{
+    "SE_T_S_FlandreScarlet_10Rare": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 150,
+        "DMG_Per": 40,
+        "CRI": 10
+    }
+}

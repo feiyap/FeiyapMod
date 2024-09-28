@@ -1,0 +1,14 @@
+{
+    "B_Raye_ShizukuLock": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "Shizuku Recharging",
+        "Description": "Cannot Link into Shizuku.",
+        "Icon": "B_Raye_ShizukuLock\\B_Raye_ShizukuLock_Icon.png",
+        "MaxStack": 1,
+        "Cantdisable": true,
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

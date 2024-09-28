@@ -1,0 +1,9 @@
+{
+    "SE_T_Chiyo_AngraMainyu": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 150,
+        "CRI": 20,
+        "DMG_Base": 0
+    }
+}

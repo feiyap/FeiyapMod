@@ -1,0 +1,11 @@
+{
+    "B_HakureiReimu_F_E_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_E_2",
+        "BuffTag": "null",
+        "Name": "渴求鲜血的阴阳玉",
+        "Icon": "B_HakureiReimu_F_E_2\\B_HakureiReimu_F_E_2_Icon.png",
+        "Description": "下1个技能造成的伤害增加25%。",
+        "MaxStack": 2
+    }
+}

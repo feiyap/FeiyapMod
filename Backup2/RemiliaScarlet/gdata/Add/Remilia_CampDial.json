@@ -1,0 +1,324 @@
+{
+    "CampDial_RemiliaScarlet_Hein": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Hein",
+        "Dialogues": [
+            "[B]啊啊？吸血鬼？冲着我的血来的吗？",
+            "[A]可惜，不是煮好的人血我是不喝的呢。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Joey": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Joey",
+        "Dialogues": [
+            "[A]用名贵红茶做实验……也太浪费了吧。",
+            "[B]哼，你们贵族就乖乖待在卧室里品茶，少来指手画脚的！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Sizz": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Sizz",
+        "Dialogues": [
+            "[A]操纵人偶的女孩……哼嗯……",
+            "[B]咦？怎么了？",
+            "[A]……不，没什么。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Trisha": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Trisha",
+        "Dialogues": [
+            "[B]听说银质小刀对吸血鬼有特效，是真的吗？",
+            "[A]哎呀，百闻不如一见，要试试吗？",
+            "[B]……抱歉，请饶了我吧。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Miss": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "MissChain",
+        "Dialogues": [
+            "[B]嗨——吸血鬼大人，一起并肩作战吧！",
+            "[A]感觉干劲都像被她吸走了一样……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Azar": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Azar",
+        "Dialogues": [
+            "[B]……吸血鬼？为什么扭曲之地会……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Lian": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Lian",
+        "Dialogues": [
+            "[A]一直戒备着我，不累吗？",
+            "[B]你的目标不明，太可疑了。",
+            "[A]随便你吧。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Pheonix": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Pheonix",
+        "Dialogues": [
+            "[A]不死鸟凤凰？嘿欸——",
+            "[B]嘿！是不是看本凤凰华丽的羽毛看入迷了——",
+            "[A]再发出鸟鸟怪叫的话就把你做成炸鸡哦。",
+            "[B]嗯？！！抱、抱歉……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Priest": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Priest",
+        "Dialogues": [
+            "[A]是修女啊。怎么样，要审判我吗？",
+            "[B]呵呵呵，主自已定下命运，等到时机到来之日……",
+            "[A]……「命运」吗？不过是我掌中的玩物罢了。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Iron": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Prime",
+        "Dialogues": [
+            "[A]保护他人的骑士吗？有种莫名的亲切感呢。",
+            "[B]实在称不上「骑士」，只不过是一介收钱办事的佣兵而已。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Charon": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "ShadowPriest",
+        "Dialogues": [
+            "[B]哦哦！是货真价实的吸血鬼啊！！快让我仔细看看——",
+            "[A]喂、喂！",
+            "[B]——这正宗的恶魔之翼！这正宗的恶魔之牙！天呐——",
+            "[A]——离我远点！！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_SilverStein": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "SilverStein",
+        "Dialogues": [
+            "[A]明明是大叔，却很怕死呢。",
+            "[B]毕竟人类的生命只有一次啊，吸血鬼大人。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Huz": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Queen",
+        "Dialogues": [
+            "[B]用鞭子抽吸血鬼什么的……请原谅我吧！",
+            "[A]无妨。但是总感觉非常微妙啊……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Red": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "TW_Red",
+        "Dialogues": [
+            "[A]能不能离我远点……",
+            "[B]哦？吸血鬼会害怕火焰吗？从没听说过呢！",
+            "[A]不是，太热了啦！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Blue": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "TW_Blue",
+        "Dialogues": [
+            "[A]血月的力量？跟本小姐真搭呢。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Narhan": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Control",
+        "Dialogues": [
+            "[A]又是读心的能力？",
+            "[B]又？",
+            "[A]唉……不，没什么……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Johan": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Mement",
+        "Dialogues": [
+            "[A]奇怪……你和所谓的「爱丽丝」的命运……",
+            "[B]也就是说，爱丽丝还活着对吗？",
+            "[A]…………………………或许吧。",
+            "[B]我一定会………………"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Ilya": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Ilya",
+        "Dialogues": [
+            "[B]美丽！强大！不老不死！",
+            "[B]能把我也变成吸血鬼吗？求你了！",
+            "[A]不，才不要啊……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Leryn": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Leryn",
+        "Dialogues": [
+            "[B]活着的吸血鬼？真想好好研究一番。",
+            "[A]难道还有“死了的吸血鬼”一说吗……？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Momori": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Momori",
+        "Dialogues": [
+            "[B]嘿！要加入伟大的桃梨会吗☆？",
+            "[A]才不要。话说，你说话一定要带个星星吗？",
+            "[B]咦？诶、啊……那个……",
+            "[A]……总感觉像在欺负人。抱歉，是我不好。忘了吧。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Patchouli": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Patchouli",
+        "Dialogues": [
+            "[A]身体情况怎么样，帕琪？",
+            "[B]承蒙关照。现在还算健康……咳。",
+            "[A]如果有不舒服的话，稍微躲在后面偷懒也没关系哦。",
+            "[A]我会把他们全部打飞的。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Mokou": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Mokou",
+        "Dialogues": [
+            "[A]呀，这不是死不掉的人类吗？你也被困到这里了？",
+            "[B]咦？原来这浓雾不是你操控的吗？我还以为是你引起的异变呢。",
+            "[A]我才想说。比起红雾，这里更像让人迷路的迷途竹林吧。",
+            "[B]结果摸不着头脑的事情又增多了呢。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_IzayoiSakuya": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "IzayoiSakuya",
+        "Dialogues": [
+            "[A]这个地方的时间异常，连你的能力也没有办法吗，咲夜？",
+            "[B]是的，大小姐。有点棘手呢。",
+            "[A]真没办法。那就老老实实跟在我后面吧。",
+            "[B]我会尽全力辅佐您的。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_FlandreScarlet": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "FlandreScarlet",
+        "Dialogues": [
+            "[A]芙兰，到休息时间了。",
+            "[B]姐姐，可是……",
+            "[A]一会儿可以把看到的东西都破坏哦？",
+            "[B]最~喜欢姐姐大人了！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_SatsukiRin": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "SatsukiRin",
+        "Dialogues": [
+            "[A]这还是第一次见面……传说中的麒麟小姐。",
+            "[B]虽然对我来说并非第一次……不过初次见面，贵安，红魔馆的大小姐。",
+            "[A]请让我见识一下幻兽的力量吧。",
+            "[B]不是什么特别了不起的力量哦。不过，稍微期待一下吧。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Youmu": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Youmu",
+        "Dialogues": [
+            "[A]又见面了呢，白玉楼的随从。你的大人呢？",
+            "[B]啊，您好……幽幽子大人好像不在这里。",
+            "[A]哼……嗯……很可疑呢。不过暂时先好好合作吧。",
+            "[B]啊、啊哈哈，承蒙关照……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Reisen": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Reisen",
+        "Dialogues": [
+            "[A]啊，卖丸子的。给我来点丸子串。",
+            "[B]才不卖丸子！我是卖药的啊！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_TouhouAlice": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "TouhouAlice",
+        "Dialogues": [
+            "[A]最近爱丽丝太多了啊，根本记不住谁是谁。",
+            "[B]就是说啊，为什么这里会有这么多爱丽丝呢？",
+            "[A]哦呀？你是？",
+            "[B]喂！别把我也给忘了啊！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Eirin": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Eirin",
+        "Dialogues": [
+            "[A]你那小偷小摸的连锁治疗也太抠门了。",
+            "[B]聚集起来的砂砾才能堆成堡垒哦。",
+            "[A]唉，真是和你合不来。不管是「这里」还是「外面」。",
+            "[B]哈哈。在抵达钟楼前尽可能好好相处吧。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_HouraisanKaguya": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "HouraisanKaguya",
+        "Dialogues": [
+            "[A]月人的血，喝起来会是什么味道的呢？",
+            "[B]想喝吗？我把心脏挖出来给你喝一点？",
+            "[A]唉……一下子没胃口了……",
+            "[B]嘻嘻。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Cirno": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Cirno",
+        "Dialogues": [
+            "[A]喂，那边的冰妖精。稍微安静一点如何。",
+            "[B]没关系哦！因为琪露诺是最强的！",
+            "[A]不是，所以说……",
+            "[B]琪露诺是最强的哦！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_RemiliaScarlet_Daiyousei": {
+        "CharA": "RemiliaScarlet",
+        "CharB": "Daiyousei",
+        "Dialogues": [
+            "[A]我不需要你的照料。把你的治疗留给别人吧。",
+            "[B]嘿嘿。蕾米莉亚大人也是很温柔的人呢。",
+            "[A]说、说什么呢？才不是……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "SE_T_S_Yueq_1": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Yueq_1"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ],
+        "HEAL_Per": 145
+    }
+}

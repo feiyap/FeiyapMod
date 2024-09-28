@@ -1,0 +1,28 @@
+{
+    "myKey": "SomClock",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SomClock\\SomClockMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.5649884,
+            "y": 0.03195992
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.5000066,
+            "y": -0.5222573
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

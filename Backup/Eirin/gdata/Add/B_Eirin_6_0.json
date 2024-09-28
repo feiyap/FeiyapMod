@@ -1,0 +1,11 @@
+{
+    "B_Eirin_6_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Eirin.B_Eirin_6_0",
+        "BuffTag": "null",
+        "Name": "月人/污秽",
+        "Icon": "B_Eirin_6_0\\B_Eirin_6_0_Icon.png",
+        "LifeTime": 2,
+        "Cantdisable": true
+    }
+}

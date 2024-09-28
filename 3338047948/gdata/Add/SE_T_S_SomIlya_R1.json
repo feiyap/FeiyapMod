@@ -1,0 +1,8 @@
+{
+    "SE_T_S_SomIlya_R1": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 150,
+        "CRI": 50
+    }
+}

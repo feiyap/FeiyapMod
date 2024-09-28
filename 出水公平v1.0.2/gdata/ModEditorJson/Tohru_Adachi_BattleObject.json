@@ -1,0 +1,12 @@
+{
+    "myKey": "Tohru_Adachi",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "",
+        "Animation": "None"
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

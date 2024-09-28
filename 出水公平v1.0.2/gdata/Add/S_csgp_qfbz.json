@@ -1,0 +1,34 @@
+{
+    "S_csgp_qfbz": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "enemy",
+        "Name": "千发百中",
+        "UseAp": 1,
+        "User": "kohei_lzumi",
+        "Description": "<color=#FFA500>改变目标的嘲讽状态</color>\n使用时<color=#FFA500>刷新自身固定能力</color>并<color=#FFA500>优先抽取一个自身的技能</color>\n若固定能力处于<color=#B10DC9>可使用状态</color>，则随机生成3个自身可用的<color=#1E90FF>通常弹/特殊弹</color>，附带<color=#FF6347>放逐，2回合后弃牌</color>，而后使固定能力进入<color=#FF6347>一回合的冷却",
+        "Rare": false,
+        "Disposable": false,
+        "Image_0": "S_csgp_qfbz\\S_csgp_qfbz_Image_0.png",
+        "Image_1": "S_csgp_qfbz\\S_csgp_qfbz_Image_1.png",
+        "Image_2": "S_csgp_qfbz\\S_csgp_qfbz_Image_2.png",
+        "Effect_Self": "SE_S_S_csgp_qfbz",
+        "NotCount": false,
+        "SkillExtended": [
+            "Kohei.S_Kohei_Rare"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

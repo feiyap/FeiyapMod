@@ -1,0 +1,9 @@
+{
+    "Pi_Yueq_1": {
+        "_gdeSchema": "Item_Passive",
+        "name": "破碎海报",
+        "image": "Item\\Pi_Yueq_1_image.png",
+        "Description": "我方受到干扰减益时,获得6点保护罩;\n敌方的干扰减益完全解除时,解除随机1名调查员的所有减益,此效果一回合最多触发一次.",
+        "passive_script": "YueQ.Pi_Yueq_1"
+    }
+}

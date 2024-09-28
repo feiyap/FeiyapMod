@@ -1,0 +1,33 @@
+{
+    "S_FMokou_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Pharos_witch",
+        "Rare": false,
+        "Target": "all_enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": true,
+        "UnknownTarget": false,
+        "Name": "不死「火鸟　-凤翼天翔-」",
+        "Description": "倒计时3后，再次释放[不死「火鸟　-凤翼天翔-」]。",
+        "Counting": 0,
+        "Effect_Target": "SE_T_S_FMokou_0",
+        "Image_0": "S_FMokou_0\\S_FMokou_0_Image_0.png",
+        "Image_1": "S_FMokou_0\\S_FMokou_0_Image_1.png",
+        "Image_2": "S_FMokou_0\\S_FMokou_0_Image_2.png",
+        "SkillExtended": [
+            "HouraisanKaguya.S_FMokou_0"
+        ]
+    }
+}

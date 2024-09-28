@@ -1,0 +1,42 @@
+{
+    "S_Chrona_7": {
+        "UseAp": 2,
+        "Target": "enemy",
+        "Particle": "Particle/Public/Public_3",
+        "Effect_Target": "SE_Chrona_7_T",
+        "Name": "异空追斩",
+        "SkillExtended": [
+            "Chrona.S_Chrona_7"
+        ],
+        "PlusKeyWords": [
+            "KeyWord_Chrona"
+        ],
+        "Description": "追溯·逆：命中时，根据造成的伤害的一半追加攻击。追加攻击无视防御且必定命中。",
+        "User": "Chrona",
+        "Counting": 2,
+        "_gdeSchema": "Skill"
+    },
+    "SE_Chrona_7_T": {
+        "DMG_Per": 165,
+        "HIT": 105,
+        "_gdeSchema": "SkillEffect"
+    },
+    "S_Chrona_7_Plus": {
+        "Target": "enemy",
+        "Particle": "Particle/Public/Public_3",
+        "Effect_Target": "SE_Chrona_7_Plus_T",
+        "Name": "异空追斩",
+        "NoDrop": true,
+        "SkillExtended": [
+            
+        ],
+        "User": "",
+        "IgnoreTaunt": true,
+        "_gdeSchema": "Skill"
+    },
+    "SE_Chrona_7_Plus_T": {
+        "DMG_Base": 1,
+        "HIT": 105,
+        "_gdeSchema": "SkillEffect"
+    }
+}

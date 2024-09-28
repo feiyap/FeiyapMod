@@ -1,0 +1,38 @@
+{
+    "S_HatsuneMiku_13Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": true,
+        "Name": "初音ミクの消失",
+        "Description": "使所有队友解除所有减益。\n赋予39层[未来之音]。\n自己死亡。",
+        "UseAp": 0,
+        "Particle": "Particle/Public/Public_28",
+        "Target": "all_ally",
+        "User": "HatsuneMiku",
+        "Effect_Self": "null",
+        "Effect_Target": "null",
+        "NotCount": true,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Image_0": "S_HatsuneMiku_13Rare\\S_HatsuneMiku_13Rare_Image_0.png",
+        "Image_1": "S_HatsuneMiku_13Rare\\S_HatsuneMiku_13Rare_Image_1.png",
+        "Image_2": "S_HatsuneMiku_13Rare\\S_HatsuneMiku_13Rare_Image_2.png",
+        "PlusKeyWords": [
+            
+        ],
+        "SkillExtended": [
+            "HatsuneMiku.S_HatsuneMiku_13Rare"
+        ],
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "B_Ralmia_10Rare": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 1,
+        "Name": "*宇宙之翼·洛菈米娅",
+        "Description": "",
+        "Icon": "B_Ralmia_11Rare\\B_Ralmia_10Rare_Icon.png",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 0,
+        "ClassName": ""
+    }
+}

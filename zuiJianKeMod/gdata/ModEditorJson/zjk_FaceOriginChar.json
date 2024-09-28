@@ -1,0 +1,23 @@
+{
+    "myKey": "zjk",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "zjk\\zjkFaceOriginChar.png",
+        "pivot": {
+            "x": 0.3477445,
+            "y": 0.6086776
+        },
+        "offsetMin": {
+            "x": -189.5112,
+            "y": -478.231079
+        },
+        "offsetMax": {
+            "x": 351.435425,
+            "y": 298.628357
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

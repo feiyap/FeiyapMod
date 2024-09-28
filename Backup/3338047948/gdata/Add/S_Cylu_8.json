@@ -1,0 +1,22 @@
+{
+    "S_Cylu_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "self",
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Name": "紧握执念",
+        "User": "Cylu",
+        "UseAp": 0,
+        "NotCount": true,
+        "NotChuck": false,
+        "Description": "若自身拥有预借减益，则使其层数减少2层。\n释放技能时，增加1张同名技能到牌库中。",
+        "Effect_Target": "SE_T_S_Cylu_8",
+        "SkillExtended": [
+            "BOSSLucy.S_Cylu_8"
+        ],
+        "Image_0": "S_Cylu_8\\S_Cylu_8_Image_0.png",
+        "Image_1": "S_Cylu_8\\S_Cylu_8_Image_1.png"
+    }
+}

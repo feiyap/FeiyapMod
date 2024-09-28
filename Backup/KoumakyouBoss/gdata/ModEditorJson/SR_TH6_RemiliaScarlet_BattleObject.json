@@ -1,0 +1,28 @@
+{
+    "myKey": "SR_TH6_RemiliaScarlet",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SR_TH6_RemiliaScarlet\\SR_TH6_RemiliaScarletMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.505386233,
+            "y": 0.0140791535
+        },
+        "Head": {
+            "x": 0.3665408,
+            "y": 0.972182453
+        },
+        "Center": {
+            "x": 0.382599473,
+            "y": 0.5650158
+        },
+        "UI": {
+            "x": 0.510669,
+            "y": -0.0322653651
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

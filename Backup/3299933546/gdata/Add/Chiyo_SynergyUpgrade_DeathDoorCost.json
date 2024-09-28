@@ -1,0 +1,13 @@
+{
+    "Chiyo_SynergyUpgrade_DeathDoorCost": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Drop": true,
+        "EnforceString": "A skill without Swiftness",
+        "NeedCharacter": "Chiyo",
+        "Name": "Reduce the skill's cost by 2 when the user is at Death's Door.",
+        "Des": "",
+        "ClassName": "Chiyo.Chiyo_SynergyUpgrade_DeathDoorCost"
+    }
+}

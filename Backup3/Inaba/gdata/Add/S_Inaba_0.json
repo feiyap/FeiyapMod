@@ -1,0 +1,34 @@
+{
+    "S_Inaba_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_4",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "速符「高速的白影」",
+        "Description": "如果目标身上有2个以上弱化减益，额外追加攻击2次，每次造成&a(30%)伤害。",
+        "User": "Inaba",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Inaba_0",
+        "Image_0": "S_Inaba_0\\S_Inaba_0_Image_0.png",
+        "Image_1": "S_Inaba_0\\S_Inaba_0_Image_1.png",
+        "Image_2": "S_Inaba_0\\S_Inaba_0_Image_2.png",
+        "SkillExtended": [
+            "Inaba.S_Inaba_0"
+        ]
+    }
+}

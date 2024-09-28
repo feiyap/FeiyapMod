@@ -1,0 +1,12 @@
+{
+    "BagOfGoldForTests": {
+        "_gdeSchema": "Item_Consume",
+        "itemClass": "Unique",
+        "active_battle": true,
+        "active_field": false,
+        "name": "BagOfGold",
+        "Description": "Gives gold. Used for tests.",
+        "BattleUse": "Test_GainGold",
+        "image": "Image/ItemIcon/NewIcons/GoldenApple"
+    }
+}

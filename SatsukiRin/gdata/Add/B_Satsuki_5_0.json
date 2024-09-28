@@ -1,0 +1,20 @@
+{
+    "B_Satsuki_5_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "SatsukiRin.B_Satsuki_5_0",
+        "BuffTag": "CrowdControl",
+        "Name": "盛夏流颪",
+        "Description": "造成的伤害变为0。生效1次后移除。",
+        "MaxStack": 1,
+        "LifeTime": 2,
+        "Icon": "B_Satsuki_5_0\\B_Satsuki_5_0_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Debuff": true,
+        "TagPer": 150,
+        "Tick": "null"
+    }
+}

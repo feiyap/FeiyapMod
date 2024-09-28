@@ -1,0 +1,22 @@
+{
+    "Boss_Shizhen": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "\"失真\"",
+        "Boss": true,
+        "atk": 15,
+        "reg": 20,
+        "def": 18,
+        "cri": 0,
+        "dodge": 15,
+        "RES_DEBUFF": 30,
+        "RES_CC": 30,
+        "RES_DOT": 30,
+        "maxhp": 400,
+        "spd": 1,
+        "CollactionSprite_Cover": "Boss_Shizhen\\Boss_ShizhenCollactionSprite_Cover.png",
+        "CollactionEnemy": 3,
+        "SubName": "\"失真\"",
+        "EnemyStory": "从无边黑雾中诞生的未知生物,受当前道主影响在常人面前显现为越祺的姿态,但其内在实则为扭曲的黑暗.\n\n遇到了通知我们就好----莫舒\n你在干嘛呢----越祺"
+    }
+}

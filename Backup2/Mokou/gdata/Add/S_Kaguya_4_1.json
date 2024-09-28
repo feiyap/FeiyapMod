@@ -1,0 +1,33 @@
+{
+    "S_Kaguya_4_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/SnowGiant_0",
+        "Target": "all_enemy",
+        "EnemyPreview": true,
+        "UnknownTarget": true,
+        "Name": "限位小玉弹",
+        "Description": "",
+        "Image_0": "S_Kaguya_4_1\\S_Kaguya_4_1_Image_0.png",
+        "Image_1": "S_Kaguya_4_1\\S_Kaguya_4_1_Image_1.png",
+        "Image_2": "S_Kaguya_4_1\\S_Kaguya_4_1_Image_2.png",
+        "Effect_Target": "SE_T_S_Kaguya_4_1",
+        "SkillExtended": [
+            "Mokou.S_Kaguya_4_1"
+        ],
+        "Track": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemySkillSpeed": 1
+    }
+}

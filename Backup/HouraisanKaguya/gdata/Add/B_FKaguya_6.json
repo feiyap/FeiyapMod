@@ -1,0 +1,15 @@
+{
+    "B_FKaguya_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HouraisanKaguya.B_FKaguya_6",
+        "BuffTag": "CrowdControl",
+        "Name": "辉夜/子安贝",
+        "Description": "无法攻击&target以外的目标。\r\n攻击目标时解除。",
+        "MaxStack": 1,
+        "LifeTime": 2,
+        "Debuff": true,
+        "TagPer": 120,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newIcons_Taunt",
+        "Cantdisable": false
+    }
+}

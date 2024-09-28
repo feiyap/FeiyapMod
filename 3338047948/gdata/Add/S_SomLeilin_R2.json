@@ -1,0 +1,19 @@
+{
+    "S_SomLeilin_R2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Shield",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "Disposable": true,
+        "NoDrop": true,
+        "NoBasicSkill": false,
+        "Name": "巨球",
+        "Effect_Target": "SE_T_S_SomLeilin_R2",
+        "Image_0": "S_SomLeilin_R2\\S_SomLeilin_R2_Image_0.png",
+        "Image_1": "S_SomLeilin_R2\\S_SomLeilin_R2_Image_1.png",
+        "Image_2": "S_SomLeilin_R2\\S_SomLeilin_R2_Image_2.png",
+        "UseAp": 1
+    }
+}

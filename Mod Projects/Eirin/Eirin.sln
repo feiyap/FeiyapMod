@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eirin", "Eirin.csproj", "{72E7B1F9-C856-4CDE-9EF8-08318DAE5CE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E7B1F9-C856-4CDE-9EF8-08318DAE5CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E7B1F9-C856-4CDE-9EF8-08318DAE5CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2645D4FC-882F-496A-8029-39FEF9F69EFF}
+	EndGlobalSection
+EndGlobal

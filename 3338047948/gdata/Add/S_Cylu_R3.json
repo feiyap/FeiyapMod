@@ -1,0 +1,30 @@
+{
+    "S_Cylu_R3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Assets/Cylu/R3/Anime_Cylu_R3.prefab",
+        "Target": "enemy",
+        "Disposable": true,
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Name": "追风筝",
+        "NotCount": true,
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Cylu_R3",
+        "Rare": true,
+        "NoDrop": false,
+        "Effect_Self": "SE_S_S_Cylu_R3",
+        "NotChuck": false,
+        "Image_0": "S_Cylu_R3\\S_Cylu_R3_Image_0.png",
+        "Image_1": "S_Cylu_R3\\S_Cylu_R3_Image_1.png",
+        "NODOD": false,
+        "HealSkill": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "Cylu"
+    }
+}

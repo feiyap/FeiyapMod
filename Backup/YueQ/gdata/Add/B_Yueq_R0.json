@@ -1,0 +1,18 @@
+{
+    "B_Yueq_R0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "YueQ.B_Yueq_R0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "瓦解",
+        "LifeTime": 9,
+        "Debuff": true,
+        "TagPer": 0,
+        "Description": "触发残响或受到<color=#00FF7F>乐谱</color>技能攻击时,持续时间减少1回合。\r\n解除此效果时,受到90点伤害。\r\n每当瓦解的持续时间减少2回合,受到伤害+5%，防御-5%。\r\n若再次被施加瓦解,立刻受到90点伤害。",
+        "Icon": "B_Yueq_R0\\B_Yueq_R0_Icon.png"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "Skillen_Yueq_2": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "释放时若有体力极限,获得相当于50%极限的回声屏障(最多40%最大体力)",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "YueQ",
+        "ClassName": "YueQ.Skillen_Yueq_2"
+    }
+}

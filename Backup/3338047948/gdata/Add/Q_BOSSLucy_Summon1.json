@@ -1,0 +1,42 @@
+{
+    "Q_BOSSLucy_Summon1": {
+        "_gdeSchema": "EnemyQueue",
+        "CustomBGM": false,
+        "UseCustomPosition": true,
+        "Pos": [
+            {
+                "x": -8.0,
+                "y": 0.0,
+                "z": -2.0
+            },
+            {
+                "x": -4.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 4.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 8.0,
+                "y": 0.0,
+                "z": -2.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        ],
+        "CustomeFogTurn": 0,
+        "Enemys": [
+            "SummonLian",
+            "SummonSun",
+            "SummonMoon",
+            "SummonHuz",
+            "BOSSLucy"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "S_Raye_EagleBooster": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "Name": "Mecha S015 - Eagle Booster",
+        "Description": "If the user has Armory Armed!: Increases target's resistances by 100% for 1 turns.\r\nExcluded after 3 uses.",
+        "User": "Raye",
+        "NotCount": true,
+        "Disposable": false,
+        "Effect_Target": "SE_T_S_Raye_EagleBooster",
+        "NoBasicSkill": true,
+        "SKillExtendedItem": [
+            "Trisha_5_Ex"
+        ],
+        "SkillExtended": [
+            "SkyStriker.S_Raye_EagleBooster"
+        ],
+        "Image_0": "S_Raye_EagleBooster\\S_Raye_EagleBooster_Image_0.png",
+        "Image_1": "S_Raye_EagleBooster\\S_Raye_EagleBooster_Image_1.png",
+        "Image_2": "S_Raye_EagleBooster\\S_Raye_EagleBooster_Image_2.png",
+        "Rare": false,
+        "IgnoreTaunt": false,
+        "Track": false
+    }
+}

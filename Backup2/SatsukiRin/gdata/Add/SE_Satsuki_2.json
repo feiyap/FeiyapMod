@@ -1,0 +1,12 @@
+{
+    "SE_Satsuki_2": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "打出时，血量最低的友军受到冴月麟50%治疗量的恢复。",
+        "Drop": true,
+        "EnforceString": "费用 >=  1",
+        "NeedCharacter": "SatsukiRin",
+        "ClassName": "SatsukiRin.SE_Satsuki_2"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "RE_EnforceCrystal": {
+        "_gdeSchema": "RandomEvent",
+        "RareEvent": false,
+        "SpecialAppearance": false,
+        "ItemSlotView": false
+    }
+}

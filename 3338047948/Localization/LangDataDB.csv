@@ -1,0 +1,519 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_BOSSLucy_0_Description,Text,,,"At the start of the turn, draw only 1 skill.",,回合开始后抽取技能时，只能抽取1个技能。,
+Buff/B_BOSSLucy_0_Name,Text,,,Slow +,,减速+,
+Buff/B_BOSSLucy_C2_Description,Text,,,"When the turn ends, based on the total overload of all allies this turn, deal additional attacks to a random enemy, each deal 4 damage, then remove this buff.
+(Chase Count: &a)",,"按下结束回合键时，根据本回合内所有调查员过载总和对随机敌人追加攻击，每次造成4点伤害，随后移除此增益。
+(追击次数：&a)",
+Buff/B_BOSSLucy_C2_Name,Text,,,Imageless Drift,,无想空转,
+Buff/B_BOSSLucy_C4_Description,Text,,,"Whenever a skill with an included [Drift] debuff is used, deal 10 pain damage to the skill owner.
+Drawn non-Lucy skills gain a [Drift] debuff.",,"每当使用附带空转减益的技能时，对技能拥有者造成10点痛苦伤害。
+抽取的非露西技能附带空转减益。",
+Buff/B_BOSSLucy_C4_Name,Text,,,Cutting Kite,,切风筝,
+Buff/B_BOSSLucy_C5_Name,Text,,,Shallow Sigh,,浅悠叹,
+Buff/B_BOSSLucy_Furure_0_Description,Text,,,Immune to effects from the [Tribute] buff.,,免疫来自祭奠增益的效果。,
+Buff/B_BOSSLucy_Furure_0_Name,Text,,,Embrace the Future,,拥抱未来,
+Buff/B_BOSSLucy_Future_Description,Text,,,"At the begin of the turn, all allies take pain damage equal to their remaining health.
+At the end of the turn, all allies lose their healing gauge.
+When future Lucy is present, ""The Fate Reverser"" Lucy cannot die.",,"回合开始时，所有队员受到相当于剩余体力值的痛苦伤害。
+回合结束时，所有队员失去体力极限。
+未来的露西在场时，反转命运者·露西不会死亡。",
+Buff/B_BOSSLucy_Future_Name,Text,,,Tribute,,祭奠,
+Buff/B_BOSSLucy_Hide_Name,Text,,,,,,
+Buff/B_BOSSLucy_LucyAttack_Description,Text,,,"When play a Lucy skill, Lucy automatically attacks ""The Fate Reverser"" Lucy.",,使用露西技能时，露西自动向反转命运者·露西发动攻击。,
+Buff/B_BOSSLucy_LucyAttack_Name,Text,,,Lucy’s Support,,露西的支援,
+Buff/B_BOSSLucy_M0_Description,Text,,,"Whenever using potion, ""The Fate Reverser"" Lucy randomly selects a skill from Super Healing Potion, Super Purification Potion, Super Smoke Bomb, or Super Gear as an additional action.",,每当使用药水时，反转命运者·露西从超级治疗药水、超级净化药水、超级烟雾弹、超级齿轮中随机选择一个技能作为增加的行动。,
+Buff/B_BOSSLucy_M0_Name,Text,,,Virtual Potion,,虚拟药水,
+Buff/B_BOSSLucy_M1_Name,Text,,,Super Purification,,超级净化,
+Buff/B_BOSSLucy_M2_Description,Text,,,Evade all attacks.,,闪避所有攻击。,
+Buff/B_BOSSLucy_M2_Name,Text,,,Super Smoke,,超级烟雾,
+Buff/B_BOSSLucy_NO2_Description,Text,,,Remove this buff when cast [Self-Duel].,,使用技能自我的对决后移除此增益。,
+Buff/B_BOSSLucy_NO2_Name,Text,,,Invincible,,无敌,
+Buff/B_BOSSLucy_NO3_Description,Text,,,Remove this buff when cast [Superego-Duel].,,使用技能超我的对决后移除此增益。,
+Buff/B_BOSSLucy_NO3_Name,Text,,,Invincible,,无敌,
+Buff/B_BOSSLucy_NO_Description,Text,,,Remove this buff when cast [Sword Retrieval].,,使用技能拾剑后移除此增益。,
+Buff/B_BOSSLucy_NO_Name,Text,,,Invincible,,无敌,
+Buff/B_BOSSLucy_Past_0_Description,Text,,,"Immune to effects from the [Howling] buff.
+At the begin of the turn, mana will not decrease due to the [Howling] buff.",,"免疫来自嚎哭增益的效果。
+回合开始时法力值不会因嚎哭增益减少。",
+Buff/B_BOSSLucy_Past_0_Name,Text,,,Wipe Away Tears,,拭去泪水,
+Buff/B_BOSSLucy_Past_Description,Text,,,"At the begin of the turn, all allies lose 1 level (minimum level 2).
+At the end of the turn, if there are remaining skills, calculate their number; at the start of the next turn, lose mana equal to that number.
+When past Lucy is present, ""The Fate Reverser"" Lucy cannot die.",,"回合开始时，所有队员的等级下降1级（最低2级）。
+回合结束时若手中有剩余技能，则计算其数量，下一回合开始时失去与数量等值的法力值。
+过去的露西在场时，反转命运者·露西不会死亡。",
+Buff/B_BOSSLucy_Past_Name,Text,,,Howling,,嚎哭,
+Buff/B_BOSSLucy_Star_Description,Text,,,<color #00FFFF>"The Fate Reverser" Lucy WILL NOT GIVE UP.</color>,,<color #00FFFF>反转命运者·露西不会放弃。</color>,
+Buff/B_BOSSLucy_Star_Name,Text,,,Gathering Wishes,,聚集的祈愿,
+Buff/B_BOSSLucy_Sword_Description,Text,,,"At the begin of the turn, apply 1 stack of [Sword Saint Lucy] to self.
+At the begin of each turn, randomly mark a non-Lucy skill in hand permanently with a [Drift] debuff.
+When releasing a skill with a [Drift] debuff, the skill owner’s overload +1, and ""The Fate Reverser"" Lucy cast Normal Attack with a countdown of 2.
+When health drops below one-third of maxhp, recover to one-third and destroy all monsters except for self.
+In the next turn, ""The Fate Reverser"" Lucy will definitely use the skill [Self-Duel] and becomes Invincible and gain [Gathering Wishes].",,"回合开始时，为自身施加1层剑圣露西。
+每回合开始时，随机永久标记手牌中的一个非露西技能赋予空转减益。释放被赋予空转减益的技能时，技能拥有者的过载+1，反转命运者·露西以倒计时2使用技能普通攻击。
+当自身的体力值降低至上限三分之一以下时恢复至三分之一，破坏所有除自己以外的怪物。下回合反转命运者·露西固定使用技能本我的对决，并为自身施加无敌与聚集的祈愿增益。",
+Buff/B_BOSSLucy_Sword_Name,Text,,,Sword Saint Lucy,,剑圣露西,
+Buff/B_BOSSLucy_action_Description,Text,,,"Health will not drop below two-thirds of maxhp.
+When any of the following conditions are met, in the next turn, ""The Fate Reverser"" Lucy will definitely use the skill [Sword Retrieval] and becomes Invincible and gain [Sword Saint Lucy]. Then remove this buff.
+
+1.At the end of the turn, there are no other monsters on the battlefield besides self.
+2.Self health drops to two-thirds of the limit.
+3.The next turn is the sixth turn.",,"自身的体力值不会降低至上限三分之二以下。
+当满足以下任意条件时，下回合反转命运者·露西固定使用技能拾剑，并为自身施加无敌与剑圣露西增益。随后移除此增益。
+1.回合结束时，战场上不存在自身外的其他怪物。
+2.自身的体力值降低至上限三分之二。
+3.下回合为第六回合。",
+Buff/B_BOSSLucy_action_Name,Text,,,Reverse Lucy,,反转露西,
+Buff/B_BOSSLucy_mana_Description,Text,,,"Whenever an enemy consumes mana, gains equal stacks of action points; whenever an enemy recovers mana, loses equal stacks of action points.",,每当敌人消耗法力值时，自身获得相等层数的行动点；每当敌人恢复法力值时，自身失去相等层数的行动点。,
+Buff/B_BOSSLucy_mana_Name,Text,,,Anti-energy,,反能量,
+Buff/B_Cylu_0_Description,Text,,,"Whenever a skill is exchanged, all action countdowns +1.
+When Standby, all action countdowns additionally -1.
+When taking damage, take additional damage equal to the next action's countdown of &a (maximum 5).",,"每当有技能被交换时，所有行动倒计时+1。
+按下等待键时，所有行动倒计时额外-1。
+受到伤害时，额外受到相当于下一次行动的行动倒计时的&a点伤害（最高不超过5点）。",
+Buff/B_Cylu_0_Name,Text,,,Delayed Reaction,,差时症,
+Buff/B_Cylu_1_Description,Text,,,"At the end of turn, add attacks &a times to a random enemy based on the stacks number of [Borrowing], each dealing &b [50% ATK] damage.",,按下结束回合键时，根据自身预借层数对随机敌人追加攻击&a次，每次造成&b [50%攻击力] 点伤害。,
+Buff/B_Cylu_1_Name,Text,,,Swift and Agile,,迅捷灵动,
+Buff/B_Cylu_4_Description,Text,,,"Whenever Cylu receives [Borrowing] debuff, take &a [20% ATK] pain damage.",,每当西露获得预借减益时，受到&a [20%攻击力] 点痛苦伤害。,
+Buff/B_Cylu_4_Name,Text,,,Turnaround Victory,,反败为胜,
+Buff/B_Cylu_5_Description,Text,,,"When attacked by an enemy, create [So I Broke Your Spirit] in hand, then remove this buff.",,受到敌人攻击时，在手中生成1张技能断汝魂灵，随后移除此增益。,
+Buff/B_Cylu_5_Name,Text,,,So I Lost Myself,,舍吾幻身,
+Buff/B_Cylu_7_Description,Text,,,"When using a skill, change the targeted enemy to a random enemy.",,释放技能时，指向敌人的目标改为随机敌人。,
+Buff/B_Cylu_7_Name,Text,,,INVINCIBLE FIRE WHEEL,,无敌风火轮,
+Buff/B_Cylu_EX_2_Description,Text,,,,,,
+Buff/B_Cylu_EX_2_Name,Text,,,Armor Reduced,,防御力减少,
+Buff/B_Cylu_R3_Description,Text,,,"Whenever you play a skill owned by Cylu or Lucy, deal &a [40% ATK] damage to a random enemy (considered an additional attack) and draw 1 skill.",,每当使用拥有者为西露或露西的技能时，对随机敌人造成&a [40%攻击力] 点伤害（视为追加攻击），并抽取1个技能。,
+Buff/B_Cylu_R3_Name,Text,,,Chasing Kite,,追风筝,
+Buff/B_Cylu_R4_Description,Text,,,"Cannot take action.
+When this debuff is removed, restore all Health Gauge.",,"无法行动。
+该减益被移除时，恢复自身所有体力极限。",
+Buff/B_Cylu_R4_Name,Text,,,Breathing Method,,呼吸法,
+Buff/B_Cylu_draw2_Description,Text,,,"When attacked, draw 1 skill; all action countdowns +1. Maximum trigger 10 times. (Now triggered &b times)
+At the end of turn, take pain damage equal to the next action's countdown of &a.",,"被攻击时，抽取1个技能，所有行动倒计时+1。最多触发10次。（已触发&b次）
+按下结束回合键时，受到相当于下一次行动倒计时的痛苦伤害&a点。",
+Buff/B_Cylu_draw2_Name,Text,,,Vague,,渺茫,
+Buff/B_Cylu_lend_Description,Text,,,"At the begin of the turn, mana reduces by &a.",,回合开始时，法力值减少&a点。,
+Buff/B_Cylu_lend_Name,Text,,,Borrowing,,预借,
+Buff/B_SomBaseball_R1_Description,Text,,,"Whenever skills are drawn through exchange, randomly gain one of the following buffs:
+10 Shields; Angel's Blessing; Absolute Defense; Pain & Weaken success rate increased; Transit Pain.",,"每当通过交换能力抽取技能时，随机获得以下增益中的一个：
+10保护罩；天使的祝福；绝对防御；痛苦、弱化成功率增加；痛苦转换。",
+Buff/B_SomBaseball_R1_Name,Text,,,Judgment Wing,,制裁之翼,
+Buff/B_SomBaseball_R2_Description,Text,,,"At the start of each turn, bring an 'Angel's Hunting' skill to hand.",,每回合开始时生成一个天使的狂猎。,
+Buff/B_SomBaseball_R2_Name,Text,,,Storm Angel,,风暴天使,
+Buff/B_SomBaseball_guard_Description,Text,,,,,,
+Buff/B_SomBaseball_guard_Name,Text,,,Barrier,,保护罩,
+Buff/B_SomClock_Dead_Description,Text,,,"When dies, summon a Enchanted Lock to the battlefield.",,自身死亡时，召唤魔力锁到战场上。,
+Buff/B_SomClock_Dead_Name,Text,,,Relic Resonance,,遗物共鸣,
+Buff/B_SomClock_Description,Text,,,"When Standby, all allies' overload +3.",,按下等待键时，所有队员的过载+3。,
+Buff/B_SomClock_Name,Text,,,Flow,,流转,
+Buff/B_SomFogstick_Description,Text,,,"At the end of the turn, if mana equals 0 and Black Fog turn is greater than the current turn, reduce Black Fog turn by 2.",,回合结束时，若法力值等于0且黑色迷雾回合大于当前回合，则黑色迷雾减少2回合。,
+Buff/B_SomFogstick_Name,Text,,,Fog Totem,,图腾,
+Buff/B_SomHuz_R1_Description,Text,,,"When you take <color=purple>Pain damage</color>, convert half of that damage into a party barrier instead of taking damage.",,受到痛苦伤害时，不会受到伤害，而是将该伤害的一半转换为防护墙。,
+Buff/B_SomHuz_R1_Name,Text,,,Enjoy Pain,,享受痛苦,
+Buff/B_SomJohn_R1_Description,Text,,,"Your fixed ability gains 'Innate'.
+Fixed ability is refreshed every time you play a skill from hand that costs 1 or more.",,使固定能力附带基本功，每当从手中释放1费或以上的技能时，将固定技能重新变为可用状态。,
+Buff/B_SomJohn_R1_Name,Text,,,egariM,,楼蜃市海,
+Buff/B_SomLeilin_R1_Description,Text,,,"Whenever using 6 skills, apply 1 stack of unresistable stun for 1 turn to all enemies.
+(Released skills: &a)",,"每当主动释放6个技能时，为所有敌人施加1层无法抵抗的眩晕1回合。
+（已释放技能：&a个）",
+Buff/B_SomLeilin_R1_Name,Text,,,Achilles' Tortoise,,阿基里斯龟,
+Buff/B_SomLeilin_R2_Description,Text,,,"When attacked, reduce by 2 stacks.",,受到攻击时，减少2层。,
+Buff/B_SomLeilin_R2_Name,Text,,,Semi-Circle Guardian Ball,,半圆守护球,
+Buff/B_SomLeilin_dizzy_Description,Text,,,Cannot take action.,,无法行动。,
+Buff/B_SomLeilin_dizzy_Name,Text,,,Stun,,眩晕,
+Buff/B_SomLian_R1_Description,Text,,,"When taking damage greater than 4, reduce damage by 4.",,受到大于4点的伤害时，伤害减少4点。,
+Buff/B_SomLian_R1_Name,Text,,,edacirraB,,障路,
+Buff/B_SomLock_Dead_Description,Text,,,"When dies, summon a Moon Shard to the battlefield.",,自身死亡时，召唤月亮碎片到战场上。,
+Buff/B_SomLock_Dead_Name,Text,,,Relic Resonance,,遗物共鸣,
+Buff/B_SomLock_Description,Text,,,"When drawing and creating skills, if the skill cost is greater than 2, the skill cannot be used.",,抽取与生成技能时，若技能费用大于2点，则该技能无法使用。,
+Buff/B_SomLock_Name,Text,,,Heart Lock,,心锁,
+Buff/B_SomMoonP_Dead_Description,Text,,,"When dies, summon a Dark Magician's Skull to the battlefield.",,自身死亡时，召唤黑魔法师的骷髅到战场上。,
+Buff/B_SomMoonP_Dead_Name,Text,,,Relic Resonance,,遗物共鸣,
+Buff/B_SomMoonP_Description,Text,,,"Apply a debuff to all skills in hand that reduces healing by 3.
+When both Moon Shard and Sun Shard are on the battlefield, all skills in hand have healing reduced by 6.",,"赋予手中所有技能恢复量减少3点的减益。
+当月亮碎片和太阳碎片都在战场上时，手中所有技能的恢复量减少6点。",
+Buff/B_SomMoonP_Name,Text,,,Moon,,月亮,
+Buff/B_SomMoon_R1_Description,Text,,,Allies are healed by 5 whenever every buff is removed.,,当友军的任意增益被解除时，恢复目标5点体力值。,
+Buff/B_SomMoon_R1_Name,Text,,,eraM ranuL,,海月,
+Buff/B_SomShield_Dead_Description,Text,,,"When dies, summon a Dark Magician's Skull to the battlefield.",,自身死亡时，召唤无尽的灵魂到战场上。,
+Buff/B_SomShield_Dead_Name,Text,,,Relic Resonance,,遗物共鸣,
+Buff/B_SomShield_Description,Text,,,,,,
+Buff/B_SomShield_Name,Text,,,Shield,,盾牌,
+Buff/B_SomSizz_R2_Description,Text,,,"Cannot take action.
+At the begin of the turn, automatically cast all skills in hand of that ally.",,"无法行动。
+回合开始时，自动释放手中该队员的所有技能。",
+Buff/B_SomSizz_R2_Name,Text,,,Automaton,,自动人偶,
+Buff/B_SomSkull_Description,Text,,,"At the end of the turn, if the number of skills in hand is greater than 3 and Black Fog turn is greater than the current turn, reduce Black Fog turn by 2.",,回合结束时，若手中技能数大于3且黑色迷雾回合大于当前回合，则黑色迷雾减少2回合。,
+Buff/B_SomSkull_Name,Text,,,Skull,,骷髅,
+Buff/B_SomSoul_Dead_Description,Text,,,"When dies, summon a Dark Magician's Skull to the battlefield.",,自身死亡时，召唤太阳碎片到战场上。,
+Buff/B_SomSoul_Dead_Name,Text,,,Relic Resonance,,遗物共鸣,
+Buff/B_SomSoul_Description,Text,,,"Whenever taking damage, immediately lose 1 mana.",,每当受到伤害时，立即失去1点法力值。,
+Buff/B_SomSoul_Name,Text,,,Endless,,无尽,
+Buff/B_SomSunP_Dead_Description,Text,,,"When dies, summon a Dark Magician's Skull to the battlefield.",,自身死亡时，召唤迷雾图腾到战场上。,
+Buff/B_SomSunP_Dead_Name,Text,,,Relic Resonance,,遗物共鸣,
+Buff/B_SomSunP_Description,Text,,,"Apply a debuff to all skills in hand that reduces damage by 5.
+When both Moon Shard and Sun Shard are on the battlefield, all skills in hand have damage reduced by 10.",,"赋予手中所有技能伤害量减少5点的减益。
+当月亮碎片和太阳碎片都在战场上时，手中所有技能的伤害量减少10点。",
+Buff/B_SomSunP_Name,Text,,,Sun,,太阳,
+Buff/B_SomSun_R1_Description,Text,,,"When attacked, gain 1 stack of [Wrath].
+At the begin of the turn, the stacks of [Wrath] decreases equals to the current turn.",,"受到攻击时，为自身施加1层怒焰。
+回合开始时，怒焰层数减少相当于当前回合的层数。",
+Buff/B_SomSun_R1_Name,Text,,,Wrath,,怒焰,
+Character/Cylu_CampSelectWord,Text,,,...Choose me.,,…………选我。,
+Character/Cylu_PassiveDes,Text,,,"Reverse Lucy stepping out from the reverse mirror.
+Holds beliefs entirely different from the prophet girl but as gentle as her.
+
+When Cylu's skill cost is greater than the remaining mana, she can still use skills from hand, at the cost of gaining [Borrowing] debuffs equal to the difference in cost and mana.
+While [Borrowing] debuffs exist, at the begin of the turn, mana decreases according to the stacks of [Borrowing].
+Cylu’s passive cannot be lost for any reason.",,"从反转之镜中走出的反转露西。
+拥有与预言少女截然不同的信念与一莲托生的温柔。
+
+当西露拥有的技能费用大于剩余法力值时，依然可以从手中释放技能，代价是自身获得相当于技能费用与法力值差值层数的预借减益。
+预借减益持续期间，回合开始时，法力值相应预借层数减少。
+西露的被动不会因任何原因失去。",
+Character/Cylu_PassiveName,Text,,,Reverser Girl,,逆反少女,
+Character/Cylu_SelectInfo,Text,,,"The other side of Lucy reflected in the reverse mirror, harboring complex feelings towards the real Lucy—hatred for the fear of losing the value of existence, and uncontrollable love.
+To fulfill the king's ideals, decided to uphold self-will to assist the investigation team.
+
+Cylu possesses terrifying suppression power that exceeds mana limits, continuously releasing skills. But if taken too far, it can easily restrict the performance of other investigators.",,"从反转之镜中映照的露西的另一面，对真正的露西怀揣着复杂的感情----害怕被夺走生存价值的仇恨，与无法抑制的爱意。为了实现王的理想，决定秉持自我的意志帮助调查团。
+
+西露拥有超越法力值限制，不断释放技能的恐怖压制力。但如果太过头的话，很容易限制其他调查员的发挥。",
+Character/Cylu_Text_Battle_AllyND_0,Text,,,Something is wrong.,,有情况……,
+Character/Cylu_Text_Battle_AllyND_1,Text,,,I’ll buy time.,,我来争取时间。,
+Character/Cylu_Text_Battle_AllyND_2,Text,,,"Keep an eye on the battlefield, Lucy.",,留意战局，露西。,
+Character/Cylu_Text_Battle_Cri_0,Text,,,Reverse.,,逆转。,
+Character/Cylu_Text_Battle_Cri_1,Text,,,Feels good.,,手感很好。,
+Character/Cylu_Text_Battle_Cri_2,Text,,,Grasp the time difference just now…,,掌握住刚才的时差……,
+Character/Cylu_Text_Battle_Healed_0,Text,,,Very comfortable.,,很舒服。,
+Character/Cylu_Text_Battle_Healed_1,Text,,,Thank you.,,谢谢。,
+Character/Cylu_Text_Battle_Healed_2,Text,,,There is trouble.,,麻烦了。,
+Character/Cylu_Text_Battle_Idle_0,Text,,,...Hmm.,,…………嗯。,
+Character/Cylu_Text_Battle_Idle_1,Text,,,...Come on.,,…………来吧。,
+Character/Cylu_Text_Battle_Idle_2,Text,,,...Okay.,,…………好。,
+Character/Cylu_Text_Battle_Kill_0,Text,,,"I, am very strong.",,我，很强哦。,
+Character/Cylu_Text_Battle_Kill_1,Text,,,One.,,一匹。,
+Character/Cylu_Text_Battle_Kill_2,Text,,,...Do you like strong fighters?,,……你喜欢打架厉害的人么？,
+Character/Cylu_Text_Battle_ND_0,Text,,,Uh...,,呜……,
+Character/Cylu_Text_Battle_ND_1,Text,,,Don't mind me.,,别管我。,
+Character/Cylu_Text_Battle_ND_2,Text,,,I'm not that weak.,,我，才没有这么弱。,
+Character/Cylu_Text_Battle_Start_0,Text,,,I don't see you as my kind.,,我并不把你们视为同类。,
+Character/Cylu_Text_Battle_Start_1,Text,,,"For my father's ideals, I will adapt to this...",,为了父亲的理想，我会适应这种事……,
+Character/Cylu_Text_Battle_Start_2,Text,,,The time has come.,,时机已至。,
+Character/Cylu_Text_Character_0,Text,,,Don't rush; we have plenty of time.,,别急，我们拥有着很多时间。,
+Character/Cylu_Text_Character_1,Text,,,Let's go straight ahead.,,笔直的向前吧。,
+Character/Cylu_Text_Field_GetItem_0,Text,,,Rank doesn’t mean everything.,,品级并不意味着一切。,
+Character/Cylu_Text_Field_GetItem_1,Text,,,I always find some equipment rank is strange...,,总觉得有些装备的品级设定很奇怪……,
+Character/Cylu_Text_Field_GetItem_2,Text,,,"Lucy, what kind of rings do you like?",,露西，你喜欢什么种类的戒指？,
+Character/Cylu_Text_Field_Idle_0,Text,,,Your companions are really similar to mine... Or opposite?,,你的同伴与我的同伴真的很相似呢……不，该说是反过来吗？,
+Character/Cylu_Text_Field_Idle_1,Text,,,"If possible, I hope you can see me as an independent individual. That way, I can...",,可以的话，希望你能把我看做一个独立的个体。这样的话，我就能……,
+Character/Cylu_Text_Field_Idle_2,Text,,,"Do you know about Narcissus's curse? Don't know? You’re lying... Everything I know, you should know too.",,你知道纳喀索斯的诅咒吗？不知道？骗人……我知道的所有事，你也应该知道才对。,
+Character/Cylu_Text_Field_Idle_3,Text,,,Please come a little closer; it's dangerous here.,,请再靠近我一点，这里很危险。,
+Character/Cylu_Text_Field_Potion_P_0,Text,,,I feel much better.,,感觉好多了。,
+Character/Cylu_Text_Field_Potion_P_1,Text,,,...Hmm~,,………………嗯~,
+Character/Cylu_Text_Field_Potion_P_2,Text,,,"Breathe in, breathe out...",,吸呼吸呼……,
+Character/Cylu_Text_PharosLeader_0,Text,,,I am ultimately an illusion that cannot coexist with heaven and earth!,,我，终究是天地不容的幻象！,
+Character/Cylu_Text_PharosLeader_1,Text,,,...Don't torment me anymore.,,……不要再，折磨我了。,
+Character/Cylu_Text_PharosLeader_2,Text,,,Another you is much stronger!,,另一个你可要厉害多了！,
+Character/Cylu_Text_Witch_0,Text,,,"Curse me, curse yourself.",,诅咒我，诅咒你自己。,
+Character/Cylu_Text_Witch_1,Text,,,"I understand your pain, so go ahead and make your move.",,我理解你的痛苦，所以，动手吧。,
+Character/Cylu_UnlockString,Text,,,"Defeat the Sanctuary BOSS, ""The Fate Reverser"" Lucy by the special skill [Drop Your Weapon].",,以特殊技能放下武器击败圣域BOSS反转命运者·露西。,
+Character/Cylu_name,Text,,,Cylu,,西露,
+Enemy/BOSSLucy_Future_name,Text,,,future Lucy,,未来的露西,
+Enemy/BOSSLucy_Past_name,Text,,,past Lucy,,过去的露西,
+Enemy/BOSSLucy_name,Text,,,"""The Fate Reverser"" Lucy",,反转命运者·露西,
+Enemy/SomClock_name,Text,,,Antique Pocket Watch,,古老的怀表,
+Enemy/SomFogstick_name,Text,,,Fog Totem,,迷雾图腾,
+Enemy/SomLock_name,Text,,,Enchanted Lock,,魔力锁,
+Enemy/SomMoon_name,Text,,,Moon Shard,,月亮碎片,
+Enemy/SomShield_name,Text,,,Ancient Shield,,远古盾牌,
+Enemy/SomSkull_name,Text,,,Dark Magician's Skull,,黑魔法师的骷髅,
+Enemy/SomSoul_name,Text,,,Endless Souls,,无尽的灵魂,
+Enemy/SomSun_name,Text,,,Sun Shard,,太阳碎片,
+Enemy/SummonHuz_name,Text,,,Reversal Investigator Huz,,反转调查员·卉子,
+Enemy/SummonJohn_name,Text,,,Reversal Investigator John,,反转调查员·约翰,
+Enemy/SummonLeilin_name,Text,,,Reversal Investigator Leryn,,反转调查员·蕾琳,
+Enemy/SummonLian_name,Text,,,Reversal Investigator Lian,,反转调查员·莉安,
+Enemy/SummonLyia_name,Text,,,Reversal Investigator Ilya,,反转调查员·伊利亚,
+Enemy/SummonMomori_name,Text,,,Reversal Investigator Momori,,反转调查员·桃梨,
+Enemy/SummonMoon_name,Text,,,Reversal Investigator Selina,,反转调查员·赛琳娜,
+Enemy/SummonPrime_name,Text,,,Reversal Investigator Priest,,反转调查员·普瑞斯特,
+Enemy/SummonSizz_name,Text,,,,,,
+Enemy/SummonSteelheart_name,Text,,,Reversal Investigator Iron Heart,,反转调查员·钢铁之心,
+Enemy/SummonSun_name,Text,,,Reversal Investigator Helia,,反转调查员·海拉,
+Enemy/SummonTrisha_name,Text,,,Reversal Investigator Trisha,,反转调查员·特丽莎,
+Item_Equip/Equip_22_Description,Text,,,,,,
+Item_Equip/Equip_22_name,Text,,,Dark Sword +22,,暗剑+22,
+Item_Equip/Equip_daffodil_Description,Text,,,"Whenever you play a skill with a cost of 1 or less from your hand, repeat it.
+
+<color #00FFFF>This flower is for you. - Cylu</color></color>""",,"从手中释放费用小于等于1的技能时，重复释放。
+
+<color #00FFFF>这朵花，献给你。-西露</color></color>",
+Item_Equip/Equip_daffodil_name,Text,,,Narcissus,,水仙,
+Item_Equip/Equip_despair_Description,Text,,,"At the end of odd-numbered rounds, take pain damage equal to your remaining health.
+At the end of even-numbered rounds, lose all health gauge.
+At the end of the tenth round, faint and can never be revived.
+
+<color #FF0000>This life, I give back to you. - Cylu</color>""",,"单数回合结束时，受到与剩余体力值相等的痛苦伤害。
+双数回合结束时，失去所有体力极限。
+第十回合结束时，自身死亡且永远无法复活。
+
+<color #FF0000>这条命，还给你。-西露</color>",
+Item_Equip/Equip_despair_name,Text,,,Despair,,绝望,
+Item_Passive/Brokenmirror_Description,Text,,,"At the end of the round, if the investigator has no health gauge, take 5 pain damage; if they have health gauge, recover 5 health over the limit; if the number of skills in hand is less than 5, draw up to 5 cards; if it's more than 5, discard all skills; if Cylu is among the ally, negative effects won't activate.",,回合结束时，若调查员没有体力极限，则受到5点痛苦伤害；若调查员拥有体力极限，则超额恢复5点体力；若手中技能数小于5张，则抽取至5张；若手中技能数大于5张，则丢弃所有技能；若队员中存在西露，则负面效果不会发动。,
+Item_Passive/Brokenmirror_name,Text,,,Shard of the Reversal Mirror,,反转之镜的碎片,
+RandomEvent/Event_BOSSLucy_EventDetails,Text,,,"""Don't... move forward anymore...""",,“不许……再往前了……”,
+RandomEvent/Event_BOSSLucy_Name,Text,,,Reversal Mirror,,反转之镜,
+RandomEvent/Event_BOSSLucy_UseButton_0,Text,,,Touch the mirror surface (begin battle),,触摸镜面（开始战斗）,
+RandomEvent/Event_BOSSLucy_UseButton_1,Text,,,Stand by.,,保持观望,
+SimpleCampDialogue/CampDial_Cylu_Azar_Dialogues_0,Text,,,,,[A]……哼。,
+SimpleCampDialogue/CampDial_Cylu_Azar_Dialogues_1,Text,,,,,[B]毫不掩饰自己的敌意呢。安心吧，我对你也有没来由的厌恶感。,
+SimpleCampDialogue/CampDial_Cylu_Azar_Dialogues_2,Text,,,,,[A]……同性相斥。,
+SimpleCampDialogue/CampDial_Cylu_Azar_Dialogues_3,Text,,,,,[B]？,
+SimpleCampDialogue/CampDial_Cylu_Blue_Dialogues_0,Text,,,,,[B]很像……就像我和海拉一样。,
+SimpleCampDialogue/CampDial_Cylu_Blue_Dialogues_1,Text,,,,,[A]有些事还是不要太早察觉为好哦。,
+SimpleCampDialogue/CampDial_Cylu_Charon_Dialogues_0,Text,,,,,[B]哇哦！黑暗版的露西！真酷！,
+SimpleCampDialogue/CampDial_Cylu_Charon_Dialogues_1,Text,,,,,[A]谢谢，你也很酷。,
+SimpleCampDialogue/CampDial_Cylu_Hein_Dialogues_0,Text,,,,,[B]小鬼变成两个了么？真麻烦啊。,
+SimpleCampDialogue/CampDial_Cylu_Hein_Dialogues_1,Text,,,,,[A]……我不是很喜欢你。,
+SimpleCampDialogue/CampDial_Cylu_Huz_Dialogues_0,Text,,,,,[B]抽打这么小的孩子实在有点……,
+SimpleCampDialogue/CampDial_Cylu_Huz_Dialogues_1,Text,,,,,[A]没关系，我很能忍痛的。,
+SimpleCampDialogue/CampDial_Cylu_Ilya_Dialogues_0,Text,,,,,[A]我不喜欢你。,
+SimpleCampDialogue/CampDial_Cylu_Ilya_Dialogues_1,Text,,,,,[B]……被直球讨厌了啊，呜呜呜。,
+SimpleCampDialogue/CampDial_Cylu_Iron_Dialogues_0,Text,,,,,[A]我认识的你是个性格更加有趣的人呢。,
+SimpleCampDialogue/CampDial_Cylu_Iron_Dialogues_1,Text,,,,,[A]顺带一提还很宠老婆。啊，老婆指的是另一个雷琳小姐哦。,
+SimpleCampDialogue/CampDial_Cylu_Iron_Dialogues_2,Text,,,,,[B]……不要再冲击我的精神了。,
+SimpleCampDialogue/CampDial_Cylu_Joey_Dialogues_0,Text,,,,,[A]不必总是偷偷盯着我看。尽情满足你的好奇心就是了。,
+SimpleCampDialogue/CampDial_Cylu_Joey_Dialogues_1,Text,,,,,[B]……哼，毕竟这种场面可不多见啊。,
+SimpleCampDialogue/CampDial_Cylu_Johan_Dialogues_0,Text,,,,,[A]你的女朋友……她其实不在扭曲之地。,
+SimpleCampDialogue/CampDial_Cylu_Johan_Dialogues_1,Text,,,,,[B]你说什么？那……那她到底在哪里！,
+SimpleCampDialogue/CampDial_Cylu_Johan_Dialogues_2,Text,,,,,[A]嗯…………,
+SimpleCampDialogue/CampDial_Cylu_Leryn_Dialogues_0,Text,,,,,[B]复制人……怎么会，难道是管理员拷贝了露西的意识吗？,
+SimpleCampDialogue/CampDial_Cylu_Leryn_Dialogues_1,Text,,,,,[A]与那个人无关。我大概算是自然诞生的吧。,
+SimpleCampDialogue/CampDial_Cylu_Leryn_Dialogues_2,Text,,,,,[A]在其他轮回中，走投无路的露西的残渣……那就是我。,
+SimpleCampDialogue/CampDial_Cylu_Leryn_Dialogues_3,Text,,,,,[B]……我可以抱抱你吗？,
+SimpleCampDialogue/CampDial_Cylu_Lian_Dialogues_0,Text,,,,,[B]西露吗……真是令人敬畏的力量。,
+SimpleCampDialogue/CampDial_Cylu_Lian_Dialogues_1,Text,,,,,[A]要不是露西得在后面指挥，她可比我厉害多了。,
+SimpleCampDialogue/CampDial_Cylu_Miss_Dialogues_0,Text,,,,,[A]呼噜噜……,
+SimpleCampDialogue/CampDial_Cylu_Miss_Dialogues_1,Text,,,,,[B]啊啦啦！黑露西已经睡了么？这个睡相可不太好！,
+SimpleCampDialogue/CampDial_Cylu_Miss_Dialogues_2,Text,,,,,[B]来，姐姐帮你塞个电锯当枕头！,
+SimpleCampDialogue/CampDial_Cylu_Miss_Dialogues_3,Text,,,,,[A]呼噜噜……人家叫西露啦……（梦话）,
+SimpleCampDialogue/CampDial_Cylu_Momori_Dialogues_0,Text,,,,,[B]有两个露西！好耶！桃梨团会员+1！☆,
+SimpleCampDialogue/CampDial_Cylu_Momori_Dialogues_1,Text,,,,,[A]啊，免了吧。另外我的名字是西露，主推是露西。,
+SimpleCampDialogue/CampDial_Cylu_Momori_Dialogues_2,Text,,,,,[B]……这很奇怪哎！☆,
+SimpleCampDialogue/CampDial_Cylu_Narhan_Dialogues_0,Text,,,,,[A]呼……呼……,
+SimpleCampDialogue/CampDial_Cylu_Narhan_Dialogues_1,Text,,,,,[B]即使睡着了也能读到纷繁的思绪与想法吗？有趣。,
+SimpleCampDialogue/CampDial_Cylu_Pheonix_Dialogues_0,Text,,,,,[B]想不通……扭曲之地的怪物怎么会变成调查团的人呢？,
+SimpleCampDialogue/CampDial_Cylu_Pheonix_Dialogues_1,Text,,,,,[B]这不合设定啊！,
+SimpleCampDialogue/CampDial_Cylu_Pheonix_Dialogues_2,Text,,,,,[A]爱的力量能超越一切……开玩笑的。,
+SimpleCampDialogue/CampDial_Cylu_Priest_Dialogues_0,Text,,,,,[B]你的存在本身，说不定就是神创造的奇迹呢。,
+SimpleCampDialogue/CampDial_Cylu_Priest_Dialogues_1,Text,,,,,[A]……其实我只是想陪在露西身边。,
+SimpleCampDialogue/CampDial_Cylu_Red_Dialogues_0,Text,,,,,[B]哇！你是露西的姐姐吗！还是妹妹？我猜是姐姐！,
+SimpleCampDialogue/CampDial_Cylu_Red_Dialogues_1,Text,,,,,[A]嗯……严格意义来讲的话，应该算是义妹吧。,
+SimpleCampDialogue/CampDial_Cylu_SilverStein_Dialogues_0,Text,,,,,[A]你已经见过另一个自己了吧。感觉如何？,
+SimpleCampDialogue/CampDial_Cylu_SilverStein_Dialogues_1,Text,,,,,[B]……五味杂陈。,
+SimpleCampDialogue/CampDial_Cylu_Sizz_Dialogues_0,Text,,,,,[B]真、真的一模一样，太神奇了！,
+SimpleCampDialogue/CampDial_Cylu_Sizz_Dialogues_1,Text,,,,,[A]因为是镜子对面的存在。我曾经也有和你长得一模一样的同伴。,
+SimpleCampDialogue/CampDial_Cylu_Sizz_Dialogues_2,Text,,,,,[B]是、是吗？那孩子也有自己的伊芙吗？,
+SimpleCampDialogue/CampDial_Cylu_Sizz_Dialogues_3,Text,,,,,[A]……你还是不知道为好。,
+SimpleCampDialogue/CampDial_Cylu_Trisha_Dialogues_0,Text,,,,,[B]我可以把你当做露西的影子吗？,
+SimpleCampDialogue/CampDial_Cylu_Trisha_Dialogues_1,Text,,,,,[A]我更希望你把我当做一个独立的名为西露的存在。,
+SimpleCampDialogue/CampDial_Cylu_Wang_Dialogues_0,Text,,,,,[B]………………,
+SimpleCampDialogue/CampDial_Cylu_Wang_Dialogues_1,Text,,,,,[A]不必紧张，把我当做很像你女儿的旁人就行。,
+SimpleCampDialogue/CampDial_Cylu_Wang_Dialogues_2,Text,,,,,[B]唉……………,
+Skill/S_BOSSLucy_0_Name,Text,,,Slow +,,减速+,
+Skill/S_BOSSLucy_1_0_Description,Text,,,"Discard the 2nd and 3rd skills in hand. If the number of skills in hand is less than 3, all allies take 20 of pain damage.",,丢弃手中第2、3个技能。若手中技能数少于3个，则改为所有队员受到20点痛苦伤害。,
+Skill/S_BOSSLucy_1_0_Name,Text,,,Fury,,狂怒,
+Skill/S_BOSSLucy_1_1_Description,Text,,,"Draw 2 skills, and all allies' health becomes 0.",,抽取2个技能，所有队员的体力变为0点。,
+Skill/S_BOSSLucy_1_1_Name,Text,,,Endurance,,忍耐,
+Skill/S_BOSSLucy_1_Description,Text,,,"Choose:
+1.Discard the 2nd and 3rd skills in hand. If the number of skills in hand is less than 3, all allies take 20 of pain damage.
+2.Draw 2 skills, and all allies' health becomes 0.",,"选择：
+1.丢弃手中第2、3个技能。若手中技能数少于3个，则改为所有队员受到20点痛苦伤害。
+2.抽取2个技能，所有队员的体力变为0点。",
+Skill/S_BOSSLucy_1_Name,Text,,,Fury,,狂怒,
+Skill/S_BOSSLucy_2_Description,Text,,,Shuffle into the deck [10 - number of skills in hand] sacrificed knowledge.,,在牌库中洗入相当于[10-手中技能数]个牺牲的知识技能。,
+Skill/S_BOSSLucy_2_Name,Text,,,Ponder,,苦思,
+Skill/S_BOSSLucy_3_Description,Text,,,Deal damage to the target equal to 2.5% of the gold held &a (up to 30).,,对目标造成相当于所持金币数 2.5%的&a点伤害（最高不超过30点）。,
+Skill/S_BOSSLucy_3_Name,Text,,,Power of Capital,,资本的力量,
+Skill/S_BOSSLucy_4_Description,Text,,,The cost of all skills in hand increases by 1.,,手中所有技能的费用增加1点。,
+Skill/S_BOSSLucy_4_Name,Text,,,Mass Moderation,,超减速,
+Skill/S_BOSSLucy_5_Description,Text,,,"Each time Exchange this turn, the final damage increases by &a [50% of skill base damage].",,本回合内每交换一次技能，最终伤害增加&a [50%技能基础伤害] 点。,
+Skill/S_BOSSLucy_5_Name,Text,,,One Thousand Troops Strike,,千军一击,
+Skill/S_BOSSLucy_Attack_Name,Text,,,Normal Attack,,普通攻击,
+Skill/S_BOSSLucy_C0_Name,Text,,,Chaotic Impact,,混乱冲击,
+Skill/S_BOSSLucy_C1_Description,Text,,,Critical hit if target's overload is not 0.,,指向目标过载大于0时，以暴击形式命中。,
+Skill/S_BOSSLucy_C1_Name,Text,,,Time Slash,,差时斩击,
+Skill/S_BOSSLucy_C2_0_Name,Text,,,Imageless Drift,,无想空转,
+Skill/S_BOSSLucy_C2_Name,Text,,,Imageless Drift,,无想空转,
+Skill/S_BOSSLucy_C3_Description,Text,,,"For every 2 stacks of buffs on the target, lose 1 mana.",,目标每有2层增益，失去1点法力值。,
+Skill/S_BOSSLucy_C3_Name,Text,,,Rapid Dexterity,,急速魔动,
+Skill/S_BOSSLucy_C4_Name,Text,,,Cutting Kite,,切风筝,
+Skill/S_BOSSLucy_C5_Description,Text,,,,,,
+Skill/S_BOSSLucy_C5_Name,Text,,,Shallow Sigh,,浅悠叹,
+Skill/S_BOSSLucy_Choice_1_Description,Text,,,"Completely defeat ""The Fate Reverser"" Lucy, to achieve victory in battle.",,彻底粉碎反转命运者·露西，获得战斗胜利。,
+Skill/S_BOSSLucy_Choice_1_Name,Text,,,Complete Destruction,,彻底粉碎,
+Skill/S_BOSSLucy_Choice_2_Description,Text,,,"Persuade ""The Fate Reverser"" Lucy, and achieve victory in battle.",,感化反转命运者·露西，获得战斗胜利。,
+Skill/S_BOSSLucy_Choice_2_Name,Text,,,Drop Your Weapon,,放下武器,
+Skill/S_BOSSLucy_Final_Name,Text,,,Desperate Struggle,,垂死挣扎,
+Skill/S_BOSSLucy_Future_Description,Text,,,"Can only be used immediately after drawing it; otherwise, it cannot be used.",,只能拿到手中后立即使用，否则无法使用。,
+Skill/S_BOSSLucy_Future_Name,Text,,,Embrace the Future,,拥抱未来,
+Skill/S_BOSSLucy_M0_Name,Text,,,Super Healing Potion,,超级治疗药水,
+Skill/S_BOSSLucy_M1_Description,Text,,,Remove all debuffs from the targeted ally.,,解除指向目标的所有减益。,
+Skill/S_BOSSLucy_M1_Name,Text,,,Super Purification Potion,,超级净化药水,
+Skill/S_BOSSLucy_M2_Description,Text,,,,,,
+Skill/S_BOSSLucy_M2_Name,Text,,,Super Smoke Bomb,,超级烟雾弹,
+Skill/S_BOSSLucy_M3_Description,Text,,,Forcibly end the turn.,,回合强制结束。,
+Skill/S_BOSSLucy_M3_Name,Text,,,Super Gear,,超级齿轮,
+Skill/S_BOSSLucy_Past_Description,Text,,,"Can only be used immediately after drawing it; otherwise, it cannot be used.",,只能拿到手中后立即使用，否则无法使用。,
+Skill/S_BOSSLucy_Past_Name,Text,,,Wipe Away Tears,,拭去泪水,
+Skill/S_BOSSLucy_R1_Description,Text,,,"""The Fate Reverser"" Lucy will switch to battle mode.",,反转命运者·露西将切换为战斗姿态。,
+Skill/S_BOSSLucy_R1_Name,Text,,,Sword Retrieval,,拾剑,
+Skill/S_BOSSLucy_R2_Description,Text,,,Lucy and "The Fate Reverser" Lucy will duel!,,露西与反转命运者·露西展开决斗！,
+Skill/S_BOSSLucy_R2_Name,Text,,,Self-Duel,,自我的对决,
+Skill/S_BOSSLucy_R3_Description,Text,,,"Lucy and ""The Fate Reverser"" Lucy engage in the final duel!
+Lucy loses all of her support buffs, and the past and future versions of Lucy are summoned to the battlefield.",,"露西与反转命运者·露西展开最终决斗！
+使露西失去露西的支援增益，召唤过去的露西与未来的露西到战场上。",
+Skill/S_BOSSLucy_R3_Name,Text,,,Superego-Duel,,超我的决斗,
+Skill/S_BOSSLucy_test_Name,Text,,,111,,111,
+Skill/S_Cylu_0_Description,Text,,,"When played, gain 1 Exchange for this turn.
+Applies [Agility/Dexterity] to the bottom skill.",,"释放时，技能交换次数+1。
+为最下方的技能施加灵动/魔动增益。",
+Skill/S_Cylu_0_Name,Text,,,Time Slash,,差时斩击,
+Skill/S_Cylu_10_Description,Text,,,"Each time a skill is exchanged or discarded, this skill's cost is reduced by 1.
+When exchanged, restore mana equal to its cost.
+If given [Agility/Dexterity], it gains Swiftness, Tracking, Fatal, Ignores Taunt, and +10 extra damage.",,"每当有技能被交换或丢弃时，此技能的费用减少1点。
+此技能被交换时，恢复相当于费用的法力值。
+此技能被赋予灵动/魔动增益时，灵动/魔动增益效果变为使技能获得迅速、追踪、致命、无视嘲讽与10额外伤害。",
+Skill/S_Cylu_10_Name,Text,,,Selflessness-Duel,,忘我的决斗,
+Skill/S_Cylu_11_Description,Text,,,"Exclude the targeted skill, create a copy of it.
+Applies [Agility/Dexterity] to the top skill.",,"放逐指向的技能，在手中生成1个拥有者为自身的指向技能的复制（露西技能的拥有者不会改变）。
+为手中最上方的技能施加灵动/魔动增益。",
+Skill/S_Cylu_11_Name,Text,,,Destroy Reversal Mirror,,摧毁反转镜,
+Skill/S_Cylu_1_Name,Text,,,Rapid Agility,,迅捷灵动,
+Skill/S_Cylu_2_Description,Text,,,"For each Exchange this turn, deal &a [50% ATK] extra damage.",,本回合内每交换一次技能，造成&a [50%攻击力] 点额外伤害。,
+Skill/S_Cylu_2_Name,Text,,,Converging Strike,,聚合一击,
+Skill/S_Cylu_3_Description,Text,,,"Grants [Agility/Dexterity] to the top and bottom skills in hand, and prioritizes drawing one of your own skills.",,使手中最上面与最下面的技能获得“灵动/魔动”增益，并优先抽取1个自身的技能。,
+Skill/S_Cylu_3_Name,Text,,,Chaotic Impact,,混沌轰击,
+Skill/S_Cylu_4_Description,Text,,,Draw 3 skills if this skill defeats an enemy.,,击杀敌人时抽取3个技能。,
+Skill/S_Cylu_4_Name,Text,,,Turnaround Victory,,反败为胜,
+Skill/S_Cylu_5_0_Name,Text,,,So I Broke Your Spirit,,断汝魂灵,
+Skill/S_Cylu_5_Name,Text,,,So I Lost Myself,,舍吾幻身,
+Skill/S_Cylu_6_Description,Text,,,"Below effect is activated whenever a different skill is played from hand.
+If the played skill is above Intercept, Intercept moves upwards per cost of skill. If skill is below Deflect, Deflect moves downwards.
+While this skill is in hand, all skills below this skill gain [Agility/Dexterity].
+Recover 1 mana when this skill is discarded.",,"当此技能握在手中时，若释放手中其它技能，则触发以下效果：释放的技能在此技能上面时，根据释放技能的费用点数向上移动，在此技能下面时，则向下移动。
+握在手中时，位于此技能下方的所有技能获得灵动/魔动增益。
+丢弃此技能时恢复1点法力值。",
+Skill/S_Cylu_6_Name,Text,,,Intercept,,截击,
+Skill/S_Cylu_7_Description,Text,,,"Select 2 skills from the deck and add them to your hand. Exclude Tumble and 2 of 4 random skills from the deck, gain 2 stacks of [INVINCIBLE FIRE WHEEL].
+If there is [Borrowing] debuffs, exclude 4 skills from the deck and apply 4 stacks of [INVINCIBLE FIRE WHEEL]. (INVINCIBLE FIRE WHEEL: +1 ATK, when casting skills, target changes to a random enemy.)",,"从牌库中抽取2个想要的技能，并从牌库的随机4个技能中选择2个技能放逐，为自身施加2层无敌风火轮。
+若自身拥有预借减益，则改为直接从牌库中放逐4个技能，为自身施加4层无敌风火轮。
+（无敌风火轮：攻击力+1，释放技能时，指向敌人的目标改为随机敌人。）",
+Skill/S_Cylu_7_Name,Text,,,ROLLING GIRL,,ROLLING GIRL,
+Skill/S_Cylu_8_Description,Text,,,"If there is [Borrowing] debuffs, reduce stacks by 2. When casting skills, add 1 same-named skill to the deck.",,"若自身拥有预借减益，则使其层数减少2层。
+释放技能时，增加1张同名技能到牌库中。",
+Skill/S_Cylu_8_Name,Text,,,Firm Grip of Obsession,,紧握执念,
+Skill/S_Cylu_9_Description,Text,,,"Increases skill exchange count by +1.
+Applies [Agility/Dexterity] to the bottom skill.",,"释放时，技能交换次数+1。
+为最下方的技能施加灵动/魔动增益。",
+Skill/S_Cylu_9_Name,Text,,,Cylu's Duel,,西露的决斗,
+Skill/S_Cylu_Basic_Description,Text,,,Halve the stacks of borrowing.,,若自身拥有预借减益，则使预借层数变为一半。,
+Skill/S_Cylu_Basic_Name,Text,,,Quick Agility,,急速灵动,
+Skill/S_Cylu_R1_Description,Text,,,View all rare skills from the Reverse Series and choose 1 to draw.,,查看所有反转系列的稀有技能，并选择其中 1 个技能抽取。,
+Skill/S_Cylu_R1_Name,Text,,,Turn the Thoughts Around!,,把思路反转过来！,
+Skill/S_Cylu_R2_Description,Text,,,"Discard all skills in hand, then draw 8 skills from the deck, prioritizing those owned by Cylu.",,丢弃手中的所有技能，随后从牌库中抽取8个技能，优先抽取拥有者为西露的技能。,
+Skill/S_Cylu_R2_Name,Text,,,"Blood Mist Frenzy, Corpses in the Field",,血雾狂乱，尸陈于野,
+Skill/S_Cylu_R3_Name,Text,,,Chasing Kite,,追风筝,
+Skill/S_Cylu_R4_Description,Text,,,"This skill can be played while stunned.
+Remove all debuffs from the user.
+Gain &a Exchange, restore &a Mana, and draw &a skills.
+Effect depends on the stacks of [Borrowing] debuff. (&a)",,"此技能可在无法行动状态下使用。
+解除自身所有减益，根据预借层数&a触发以下效果：技能交换次数+&a，获得&a点法力值，抽取&a个技能。",
+Skill/S_Cylu_R4_Name,Text,,,Breathing Method,,呼吸法,
+Skill/S_Cylu_draw1_Description,Text,,,"Draw a number of skills equal to the number of monsters present.
+If fewer than two skills are drawn, clear all debuffs from the targeted ally.",,"抽取与在场怪物数量相等的技能。
+若抽取的技能小于两张，则清除指向队员身上的所有减益。",
+Skill/S_Cylu_draw1_Name,Text,,,Imageless Draw,,无想转牌,
+Skill/S_Cylu_draw2_Name,Text,,,Reconciliation with Self,,与自我的和解,
+Skill/S_SomBaseball_R1_Description,Text,,,,,,
+Skill/S_SomBaseball_R1_Name,Text,,,Judgment Wing,,制裁之翼,
+Skill/S_SomBaseball_R2_0_Name,Text,,,Angel's Hunting,,天使的狂猎,
+Skill/S_SomBaseball_R2_Description,Text,,,Remove all allies' random debuff.,,解除所有友军随机1个减益。,
+Skill/S_SomBaseball_R2_Name,Text,,,Storm Angel,,风暴天使,
+Skill/S_SomHuz_R1_Name,Text,,,Happiness Equals Pain!,,快乐并痛着！,
+Skill/S_SomHuz_R2_Description,Text,,,Deal &a [100% ATK] additional damage for each stack of buff on the target.,,目标每有1层增益，造成&a[100%攻击力]点额外伤害。,
+Skill/S_SomHuz_R2_Name,Text,,,hsinuP,,罚惩,
+Skill/S_SomIlya_R1_Description,Text,,,"If the number of skills in the deck is even, add 1 [rednuhT ylnevaeH] to the deck.",,释放技能时，若牌库中的技能数量为偶数，则增加1张光闪雷天到牌库中。,
+Skill/S_SomIlya_R1_Name,Text,,,rednuhT ylnevaeH,,光闪雷天,
+Skill/S_SomIlya_R2_Description,Text,,,"If the mana cost when used is greater than 2 and the target's health is below 50%, reduce the target’s health to 0.",,若出手时消耗的法力值大于2点，且指向目标体力值不足50%，则将目标体力值变为0。,
+Skill/S_SomIlya_R2_Name,Text,,,Lightinghail Strike,,霹雳冰魄斩,
+Skill/S_SomJohn_R1_Name,Text,,,egariM,,楼蜃市海,
+Skill/S_SomLeilin_R2_Name,Text,,,Giant Ball,,巨球,
+Skill/S_SomLian_R1_Name,Text,,,edacirraB,,障路,
+Skill/S_SomLian_R2_Description,Text,,,Makes all attack skills in the deck gain a countdown of 1-3 and +15 extra damage.,,使牌库中所有攻击技能获得倒计时1~3，以及15点额外伤害。,
+Skill/S_SomLian_R2_Name,Text,,,tabmoC dnammoC,,斗战挥指,
+Skill/S_SomMomori_R1_Description,Text,,,"Discard all skills without Swiftness from hand, draw skills based on the number discarded.
+If any ally takes damage, reduce the damage to 1 and increase this skill's cost by 1.
+When this skill's cost reaches 4, exclude it.",,"将手中的所有非迅速技能丢弃，根据丢弃的数量抽取技能。
+握在手中时，若任意友军受到伤害，则使伤害变为1，此技能费用增加1点。当此技能的费用到达4点时，从手中放逐此技能。",
+Skill/S_SomMomori_R1_Name,Text,,,Momori Victory!!!,,桃梨大胜利！！！,
+Skill/S_SomMomori_R2_Description,Text,,,"For each time any ally is attacked, this skill gains extra damage equal to the attack damage.",,握在手中时，每当任意友军受到攻击，则此技能增加相当于攻击伤害的额外伤害。,
+Skill/S_SomMomori_R2_Name,Text,,,Don't Hit Me~Ah☆Dong!,,不要打我~啊★咚！,
+Skill/S_SomMoon_R1_Description,Text,,,,,,
+Skill/S_SomMoon_R1_Name,Text,,,eraM ranuL,,海月,
+Skill/S_SomMoon_R2_Description,Text,,,"Based on the number of allies at Death's Door, create [noileneleS] at the top of the deck.",,根据当前濒死状态的队员数量，在牌库的最上方生成落月食带技能。,
+Skill/S_SomMoon_R2_Name,Text,,,Tears of the Dark Moon,,暗月之泪,
+Skill/S_SomPrime_R1_Description,Text,,,"Create a party barrier by 40.
+For each ally at Death's Door, increases the party barrier by 10.",,"生成防御40点伤害的防护墙。
+队伍中每有一名处于濒死状态的队员，增加10点防护墙。",
+Skill/S_SomPrime_R1_Name,Text,,,Absolutely Unbreakable,,绝对不破,
+Skill/S_SomPrime_R2_Description,Text,,,"Whenever a ally receives healing, this skill's damage becomes 120% of current value.",,握在手中时，每当队员受到治疗时，此技能伤害量变为当前的120%。,
+Skill/S_SomPrime_R2_Name,Text,,,Shield Overdrive:,,护盾过冲,
+Skill/S_SomSizz_R1_Description,Text,,,"Remove Overload from all allies and Lucy, restore all Mana, and gain Exchange equal to the number of alive Allies.",,消除所有友军和露西的过载，恢复所有法力值，获得相当于存活友军数量的技能交换次数。,
+Skill/S_SomSizz_R1_Name,Text,,,etaF fo daerhT,,团线的运命,
+Skill/S_SomSizz_R2_Name,Text,,,Automaton,,自动人偶,
+Skill/S_SomSunMoonfall_Name,Text,,,noileneleS,,落月食带,
+Skill/S_SomSun_R1_Name,Text,,,Solar Flare,,烈阳黑子,
+Skill/S_SomSun_R2_Description,Text,,,"Cannot be used.
+At the end of the turn, if remaining mana is greater than this skill's cost, cast this skill.
+View the next 3 skills to be drawn, and recast this skill per total Mana cost of the skills.
+Repeated Solar Rain deal halved damage.",,"无法使用。
+回合结束时，若剩余法力值大于此技能费用，则释放此技能。
+查看牌库中最上面的3个技能，根据3个技能的费用之和重复释放此技能。
+重复释放的烈日骤雨伤害减少一半。",
+Skill/S_SomSun_R2_Name,Text,,,Solar Rain,,烈日骤雨,
+Skill/S_SomTrisha_R1_Description,Text,,,"Draw 1 skill.
+If you play the drawn skill this turn,draw 1 skill and recover 1 mana.",,"抽取1个技能。
+若在本回合内释放因该效果抽取到的技能，则再抽取1个技能，恢复1点法力值，并为新抽取的技能施加相同的增益。",
+Skill/S_SomTrisha_R1_Name,Text,,,batS knilB,,刺影,
+Skill/S_SomTrisha_R2_Description,Text,,,"View random Rare skills and select one to create in hand.
+Create a random Lucy Rare Skill in hand.",,"展示相当于队员数量的所有调查队员的随机稀有技能，选择1个技能生成。
+随机生成一个露西的稀有技能。",
+Skill/S_SomTrisha_R2_Name,Text,,,Shadow upon Shadow,,暗影重重,
+Skill/S_Somjohn_R2_Description,Text,,,"Deal 5 damage for each skill in the discard pile.
+When cast, discard the bottom skill in hand.",,"弃牌库中每有1个技能，造成5点额外伤害。
+释放时，丢弃手中最下面的技能。",
+Skill/S_Somjohn_R2_Name,Text,,,worrA lleH,,箭狱地,
+Skill/S_SomoLeilin_R1_Name,Text,,,Achilles' Tortoise,,阿基里斯龟,
+SkillExtended/Cylu_EX_1_EnforceString,Text,,,Attack Skill,,攻击技能,
+SkillExtended/Cylu_EX_1_Name,Text,,,"When played, Exchange + 1.",,释放技能时，技能交换次数+1。,
+SkillExtended/Cylu_EX_2_EnforceString,Text,,,<sprite name="비용2"><sprite name="이상"> and Attack Skill,,攻击技能且费用大于等于2,
+SkillExtended/Cylu_EX_2_Name,Text,,,"When played, gains [Borrowing] stacks equal to the cost of the skill, apply Decreasing Armor by 75%",,释放技能时，为自身施加与技能费用相等层数的预借减益，使指向目标一回合内防御力减少75%。,
+SkillExtended/S_BOSSLucy_SwordEX_Des,Text,,,"When played, Overloaded by 1.
+""The Fate Reverser"" Lucy cast Normal Attack with a countdown of 2.",,释放此技能时，技能拥有者的过载+1，反转命运者·露西以倒计时2使用技能普通攻击。,
+SkillExtended/S_BOSSLucy_SwordEX_Name,Text,,,Imageless,,空转,
+SkillExtended/S_Cylu_3_EX_Des,Text,,,"Agility - If not Swiftness, gain Swiftness and Ignore Taunt.
+Dexterity - If Swiftness, gain Tracking and Fatal.",,"灵动：若此技能为非迅速技能，则获得迅速与无视嘲讽。
+魔动：若此技能为倒计时技能，则获得追踪与致命。",
+SkillExtended/S_Cylu_3_EX_Name,Text,,,Agility/Dexterity,,灵动/魔动,
+SkillExtended/S_Cylu_lend_Name,Text,,,Borrowing,,预借,
+SkillExtended/S_MoonP_EX_Des,Text,,,"Reduces healing by 3.
+When both Moon Shard and Sun Shard are on the battlefield, all skills in hand have healing reduced by 6.",,"恢复量减少3点。
+当月亮碎片和太阳碎片都在战场上时，恢复量减少6点。",
+SkillExtended/S_MoonP_EX_Name,Text,,,Moon,,月亮,
+SkillExtended/S_SunP_EX_Des,Text,,,"Reduces damage by 5.
+When both Moon Shard and Sun Shard are on the battlefield, all skills in hand have damage reduced by 10.",,"伤害量减少5点。
+当月亮碎片和太阳碎片都在战场上时，伤害量减少10点。",
+SkillExtended/S_SunP_EX_Name,Text,,,Sun,,太阳,
+SkillExtended/Somtrisha_Ex_Des,Text,,,"Draw 1 skill, recover 1 mana.",,抽取1个技能，恢复1点法力值。,
+SkillExtended/Somtrisha_Ex_Name,Text,,,batS knilB,,刺影,
+UnlockWindow/Unlock_Cylu_UnlockString,Text,,,,,,

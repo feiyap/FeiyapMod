@@ -1,0 +1,13 @@
+{
+    "SE_S_S_FKaguya_7": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_FKaguya_7",
+            "B_FKaguya_7_0"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

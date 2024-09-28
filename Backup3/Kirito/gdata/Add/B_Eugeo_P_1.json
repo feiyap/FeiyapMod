@@ -1,0 +1,20 @@
+{
+    "B_Eugeo_P_1": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 1,
+        "Name": "血色蔷薇之剑",
+        "Description": "攻击力+40%。每次攻击恢复100%攻击力体力。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 0,
+        "Icon": "B_Eugeo_P_1\\B_Eugeo_P_1_Icon.png",
+        "ClassName": "Kirito.B_Eugeo_P_1"
+    }
+}

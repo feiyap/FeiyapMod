@@ -1,0 +1,13 @@
+{
+    "B_Kirito_9": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Kirito.B_Kirito_9",
+        "BuffTag": "null",
+        "Name": "十字格挡",
+        "Description": "受到攻击时反击。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_41",
+        "MaxStack": 1,
+        "LifeTime": 1,
+        "Cantdisable": false
+    }
+}

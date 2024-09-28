@@ -1,0 +1,12 @@
+{
+    "B_Inaba_P_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Inaba.B_Inaba_P_1",
+        "BuffTag": "null",
+        "Name": "因幡/地运",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
+        "Description": "",
+        "LifeTime": 3,
+        "Cantdisable": false
+    }
+}

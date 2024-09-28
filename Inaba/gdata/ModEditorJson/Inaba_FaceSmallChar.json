@@ -1,0 +1,23 @@
+{
+    "myKey": "Inaba",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Inaba\\InabaFaceSmallChar.png",
+        "offsetMax": {
+            "x": 175.243317,
+            "y": 131.583923
+        },
+        "offsetMin": {
+            "x": -170.361481,
+            "y": -585.5801
+        },
+        "pivot": {
+            "x": 0.487057537,
+            "y": 0.8087276
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

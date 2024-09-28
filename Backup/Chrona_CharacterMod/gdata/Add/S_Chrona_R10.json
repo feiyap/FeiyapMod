@@ -1,0 +1,34 @@
+{
+    "S_Chrona_R10": {
+        "Target": "enemy",
+        "UseAp": 1,
+        "Particle": "Particle/Public/Public_3",
+        "Effect_Target": "SE_Chrona_R10_T",
+        "Name": "R.E.",
+        "Description": "抽取时，随机变更该技能在手中的位置。\n根据本次战斗期间该技能的释放次数造成额外伤害。\n追溯·顺/逆：解除追溯，该技能释放后回到牌库的概率增加50%；超出100%的百分比的一半将变更为“释放后，再次抽取该技能”的概率。（当前：&b%/&c%） ",
+        "SkillExtended": [
+            "Chrona.S_Chrona_R10"
+        ],
+        "PlusKeyWords": [
+            "KeyWord_Chrona"
+        ],
+        "NotCount": true,
+        "User": "Chrona",
+        "Counting": 1,
+        "Rare": true,
+        "IgnoreTaunt": true,
+        "Fatal": true,
+        "Track": true,
+        "NoBasicSkill": true,
+        "_gdeSchema": "Skill"
+    },
+    "SE_Chrona_R10_T": {
+        "DMG_Per": 100,
+        "HIT": 105,
+        "_gdeSchema": "SkillEffect"
+    },
+    "Ex_Chrona_R10": {
+        "ClassName": "Chrona.Ex_Chrona_R10",
+        "_gdeSchema": "SkillExtended"
+    }
+}

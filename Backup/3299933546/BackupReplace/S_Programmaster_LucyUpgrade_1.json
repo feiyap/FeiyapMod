@@ -1,0 +1,8 @@
+{
+    "S_Programmaster_LucyUpgrade_1": {
+        "_gdeSchema": "Skill",
+        "Particle": "Particle/impact",
+        "NoBasicSkill": false,
+        "HealSkill": false
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "SR_TH6_RemiliaScarlet",
+    "myField": "Face",
+    "myValues": {
+        "path": "SR_TH6_RemiliaScarlet\\SR_TH6_RemiliaScarletFace.png",
+        "offsetMax": {
+            "x": 569.3557,
+            "y": 263.8651
+        },
+        "offsetMin": {
+            "x": -366.644257,
+            "y": -816.1349
+        },
+        "pivot": {
+            "x": 0.391713947,
+            "y": 0.755680442
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

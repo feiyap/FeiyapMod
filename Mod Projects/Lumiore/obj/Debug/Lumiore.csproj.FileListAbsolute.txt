@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Lumiore\obj\Debug\Lumiore.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Lumiore\obj\Debug\Lumiore.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Lumiore\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Lumiore\obj\Debug\Lumiore.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Lumiore\bin\Debug\Lumiore202483110440.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Lumiore\bin\Debug\Lumiore202483110440.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Lumiore\obj\Debug\Lumiore202483110440.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Lumiore\obj\Debug\Lumiore202483110440.pdb

@@ -1,0 +1,34 @@
+{
+    "S_Lumiore_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "翱翔的龙人",
+        "Target": "enemy",
+        "User": "Lumiore",
+        "Description": "丢弃1个手中最下面的技能，抽1个技能。",
+        "UseAp": 1,
+        "Particle": "Particle/slash2",
+        "Image_0": "S_Lumiore_0\\S_Lumiore_0_Image_0.png",
+        "Image_1": "S_Lumiore_0\\S_Lumiore_0_Image_1.png",
+        "Image_2": "S_Lumiore_0\\S_Lumiore_0_Image_2.png",
+        "Effect_Target": "SE_T_S_Lumiore_0",
+        "SkillExtended": [
+            "Lumiore.S_Lumiore_0"
+        ],
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

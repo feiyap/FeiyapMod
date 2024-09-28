@@ -1,0 +1,15 @@
+{
+    "SE_T_S_Raye_SharkCannon": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Raye_SharkCannonshred",
+            "B_Raye_SharkCannonshred"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ],
+        "DMG_Per": 90
+    }
+}

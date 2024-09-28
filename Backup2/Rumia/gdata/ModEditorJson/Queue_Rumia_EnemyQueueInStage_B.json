@@ -1,0 +1,11 @@
+{
+    "myKey": null,
+    "myField": "Bosses",
+    "myValues": {
+        "Queue_Key": "Queue_Rumia"
+    },
+    "MyChangeType": "EnemyQueueInStage",
+    "myKeys": [
+        "Stage1_1"
+    ]
+}

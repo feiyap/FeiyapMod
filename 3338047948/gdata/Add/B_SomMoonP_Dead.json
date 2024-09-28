@@ -1,0 +1,10 @@
+{
+    "B_SomMoonP_Dead": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomMoonP_Dead",
+        "BuffTag": "null",
+        "Name": "遗物共鸣",
+        "Icon": "B_SomMoonP_Dead\\B_SomMoonP_Dead_Icon.png",
+        "Description": "自身死亡时，召唤黑魔法师的骷髅到战场上。"
+    }
+}

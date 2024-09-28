@@ -1,0 +1,47 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Raye",
+            "Priest"
+        ],
+        "PartyBasicSkill": [
+            "S_Raye_Multirole",
+            "S_Azar_5"
+        ],
+        "PartySkills": [
+            [
+                "S_Raye_Afterburners",
+                "S_Raye_Linkage",
+                "S_Raye_Hornet",
+                "S_Raye_Hornet",
+                "S_Raye_Hornet",
+                "S_Raye_Hornet",
+                "S_Raye_Hornet"
+            ],
+            [
+                "S_Priest_6",
+                "S_Priest_6",
+                "S_Priest_6",
+                "S_Priest_6"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                "WhitePriestCloth"
+            ],
+            [
+                "WhitePriestCloth"
+            ]
+        ],
+        "LucySkill": [
+            "S_Lucy_0",
+            "S_LucySwimDLC_0",
+            "S_Raye_LucyEngage",
+            "S_Raye_LucyEngage",
+            "S_Raye_LucyEngage",
+            "S_Raye_LucyEngage",
+            "S_Raye_LucyEngage"
+        ]
+    }
+}

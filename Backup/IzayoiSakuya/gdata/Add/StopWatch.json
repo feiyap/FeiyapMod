@@ -1,0 +1,10 @@
+{
+    "StopWatch": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Unique",
+        "name": "时停怀表",
+        "Description": "每场战斗仅有1次，在体力值为0点及以下的状态下受到伤害时，抵挡该伤害。",
+        "image": "Item\\StopWatch_image.png",
+        "Equip_Script": "IzayoiSakuya.StopWatch"
+    }
+}

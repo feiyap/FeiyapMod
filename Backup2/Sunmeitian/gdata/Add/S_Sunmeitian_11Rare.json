@@ -1,0 +1,21 @@
+{
+    "S_Sunmeitian_11Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": false,
+        "Disposable": true,
+        "Name": "猴子猴孙",
+        "Description": "",
+        "Rare": true,
+        "User": "Sunmeitian",
+        "UseAp": 2,
+        "Counting": 1,
+        "Effect_Self": "SE_S_S_Sunmeitian_11Rare",
+        "Image_0": "S_Sunmeitian_11Rare\\S_Sunmeitian_11Rare_Image_0.png",
+        "Image_1": "S_Sunmeitian_11Rare\\S_Sunmeitian_11Rare_Image_1.png",
+        "Image_2": "S_Sunmeitian_11Rare\\S_Sunmeitian_11Rare_Image_2.png",
+        "NoBasicSkill": false
+    }
+}

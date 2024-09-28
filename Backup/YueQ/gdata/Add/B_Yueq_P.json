@@ -1,0 +1,16 @@
+{
+    "B_Yueq_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "YueQ.B_Yueq_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "充能",
+        "Description": "释放<color=#00FF7F>乐谱</color>技能时,消耗一层并触发以下效果的随机一种.\n<color=#FF8C00>噪音</color>：所有人被眩晕(130%)。\r\n<color=#1E90FF>清醒</color>：解除所有调查员的各一个干扰减益,若未解除,回复1点法力\r\n<color=#FF4500>激昂</color>：本回合所有人攻击力+20%。\r\n<color=#40E0D0>舒缓</color>：回复所有调查员3点生命。\r\n<color=#FFD700>谢场</color>：随机打赏普通道具.\n<color=#FF00FF>肃穆</color>：本回合所有人防御+15%。\r\n<color=#FF4500>R</color><color=#FF00FF>e</color><color=#1E90FF>m</color><color=#00FFFF>i</color><color=#FFD700>x</color>：以随机顺序触发其它效果.",
+        "MaxStack": 2,
+        "Icon": "B_Yueq_P\\B_Yueq_P_Icon.png"
+    }
+}

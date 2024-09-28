@@ -1,0 +1,35 @@
+{
+    "S_Kaguya_Lucy_0": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_ally",
+        "NoDrop": true,
+        "User": "Lucy",
+        "LucyPartyDraw": "",
+        "Image_0": "S_Kaguya_Lucy_0\\S_Kaguya_Lucy_0_Image_0.png",
+        "Image_1": "S_Kaguya_Lucy_0\\S_Kaguya_Lucy_0_Image_1.png",
+        "Image_2": "S_Kaguya_Lucy_0\\S_Kaguya_Lucy_0_Image_2.png",
+        "Name": "露西的复现-神宝「耀眼的龙玉」",
+        "Description": "<color=#919191>你是一个值得尊敬的对手，但是，我们也有不能不完成的使命！——露西</color>",
+        "Effect_Target": "SE_T_S_Kaguya_Lucy_0",
+        "NotCount": true,
+        "Except": true,
+        "AutoDelete": 1,
+        "SkillExtended": [
+            "Mokou.S_Kaguya_Lucy_0"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "SatsukiRin": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Support",
+        "PassiveClassName": "SatsukiRin.P_SatsukiRin",
+        "PassiveUnlockLV1": true,
+        "name": "冴月麟",
+        "SelectInfo": "冴月麟是拥有丰富治疗和干扰手段的辅助型角色。在技能出手时，能够自由灵活地选择是对友方施加增益、亦或是对敌方施加干扰。除此之外，冴月麟能够以自己的最大体力值为代价，复活阵亡的友军。",
+        "Gender": 1,
+        "face": "SatsukiRin\\SatsukiRinBattleFace.png",
+        "MAXHP": {
+            "x": 1,
+            "y": 9
+        },
+        "ATK": {
+            "x": 12,
+            "y": 21
+        },
+        "CRI": {
+            "x": 1,
+            "y": 9
+        },
+        "DODGE": {
+            "x": 1,
+            "y": 9
+        },
+        "DEF": {
+            "x": 1,
+            "y": 9
+        },
+        "REG": {
+            "x": 12,
+            "y": 21
+        },
+        "HIT": {
+            "x": 100,
+            "y": 110
+        },
+        "RES_CC": {
+            "x": 10,
+            "y": 45
+        },
+        "RES_DEBUFF": {
+            "x": 10,
+            "y": 45
+        },
+        "RES_DOT": {
+            "x": 10,
+            "y": 45
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "CollectionSprite_Cover": "SatsukiRin\\SatsukiRinCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "SatsukiRin\\SatsukiRinCollectionSprite_SkillFace.png",
+        "StatView_Atk": 1,
+        "StatView_Def": 0,
+        "StatView_Heal": 2,
+        "StatView_Sup": 3,
+        "StatView_Difficult": 3,
+        "GoodGift": [
+            "Gift_Art",
+            "Gift_DVD",
+            "Drink_Sa",
+            "Gift_Violin"
+        ],
+        "CanFriendShip": true,
+        "_gdeType_GoodGift": "Item_Friendship",
+        "_gdeIsList_GoodGift": 1,
+        "_gdeType_Dialogue_GoodGiftTalks": "String",
+        "_gdeIsList_Dialogue_GoodGiftTalks": 1,
+        "_gdeType_Dialogue_NomalGiftTalk": "String",
+        "_gdeIsList_Dialogue_NomalGiftTalk": 0,
+        "Dialogue_FriendShipLVTalks": [
+            
+        ],
+        "_gdeType_Dialogue_FriendShipLVTalks": "String",
+        "_gdeIsList_Dialogue_FriendShipLVTalks": 1,
+        "_gdeType_FriendShipSprite": "Sprite",
+        "_gdeIsList_FriendShipSprite": 0,
+        "CampSelectWord": "在这里相遇真是奇遇呢。就让我来帮你一臂之力吧。",
+        "PassiveName": "未存于世的幻想",
+        "PassiveDes": "战斗开始时，冴月麟获得20/23/26/29/32/35层[幻光]。每层[幻光]会增加1点最大体力值。\n\n每当体力低于0时，触发幻灭10 - 将体力恢复至体力上限。\n\n幻灭X：当冴月麟身上的[幻光]层数不小于X层时，使用技能时会消耗对应层数的[幻光]，触发额外效果。",
+        "PassiveIcon": "SatsukiRin\\SatsukiRinPassiveIcon.png",
+        "FirstSkill": "S_Satsuki_6",
+        "Text_Battle_Idle": [
+            "我已经习惯了等待哦。"
+        ],
+        "Text_Battle_Kill": [
+            "抱歉呢，这是为了……必要的牺牲。"
+        ],
+        "Text_Battle_Start": [
+            "异变肃清开始！……呵呵，很早就想这么喊着试试看了呢。"
+        ],
+        "Text_Battle_Healed": [
+            "抱歉，让你担心了。"
+        ],
+        "Text_Field_Idle": [
+            "四处……兜兜……转转……逛逛……",
+            "这就是「外面」吗？很新鲜的体验呢。"
+        ],
+        "Text_Field_GetItem": [
+            "咦？宝物吗？"
+        ],
+        "Text_Field_Potion_P": [
+            "谢谢你。"
+        ],
+        "Text_PharosLeader": [
+            "宣誓……效忠……",
+            "呜……到底是……？",
+            "……一切都是为了……"
+        ],
+        "Text_Battle_Cri": [
+            "这样！如何呢？",
+            "花鸟风月……散！"
+        ],
+        "Text_Witch": [
+            "诅咒吗？非常新奇……但是还是稍微有点害怕呢……稍微。"
+        ],
+        "_gdeType_Text_Witch": "String",
+        "_gdeIsList_Text_Witch": 1,
+        "Text_MasterTarget": "抱歉。前面的路，就没法陪你再走下去了。要加油哦。",
+        "Text_Battle_AllyND": [
+            "马上就会救你的！马上……！"
+        ],
+        "CampSD": [
+            "SatsukiRin\\SatsukiRinCampSD0.png",
+            "SatsukiRin\\SatsukiRinCampSD1.png",
+            "SatsukiRin\\SatsukiRinCampSD2.png",
+            "SatsukiRin\\SatsukiRinCampSD3.png"
+        ],
+        "StatView_Dot": 1,
+        "StatView_Debuff": 0,
+        "StatView_CC": 1
+    }
+}

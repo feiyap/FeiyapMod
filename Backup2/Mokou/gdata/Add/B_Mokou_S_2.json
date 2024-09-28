@@ -1,0 +1,17 @@
+{
+    "B_Mokou_S_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Mokou.B_Mokou_S_2",
+        "BuffTag": "null",
+        "Name": "火焰身躯",
+        "Description": "被击中时给双方施加2层<color=purple>烧伤痛苦减益（&a%）</color>。",
+        "Icon": "B_Mokou_S_2\\B_Mokou_S_2_Icon.png",
+        "LifeTime": 2,
+        "MaxStack": 0,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

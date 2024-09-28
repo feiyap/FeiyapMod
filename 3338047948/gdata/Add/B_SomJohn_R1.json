@@ -1,0 +1,16 @@
+{
+    "B_SomJohn_R1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "BOSSLucy.B_SomJohn_R1",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "LifeTime": 1,
+        "Description": "使固定能力附带基本功，每当从手中释放1费或以上的技能时，将固定技能重新变为可用状态。",
+        "Name": "楼蜃市海",
+        "Icon": "B_SomJohn_R1\\B_SomJohn_R1_Icon.png"
+    }
+}

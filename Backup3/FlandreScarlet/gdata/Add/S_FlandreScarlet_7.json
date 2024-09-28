@@ -1,0 +1,21 @@
+{
+    "S_FlandreScarlet_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "Name": "禁忌「被禁止的游戏」",
+        "Description": "受到&a(50%当前体力值)的痛苦伤害。下个回合开始时，优先抽取1个自己的技能。\n如果自身处于濒死状态，不会受到痛苦伤害。",
+        "User": "FlandreScarlet",
+        "Disposable": true,
+        "Effect_Self": "SE_S_S_FlandreScarlet_7",
+        "Image_0": "S_FlandreScarlet_7\\S_FlandreScarlet_7_Image_0.png",
+        "Image_1": "S_FlandreScarlet_7\\S_FlandreScarlet_7_Image_1.png",
+        "Image_2": "S_FlandreScarlet_7\\S_FlandreScarlet_7_Image_2.png",
+        "SkillExtended": [
+            "FlandreScarlet.S_FlandreScarlet_7"
+        ],
+        "UseAp": 0
+    }
+}

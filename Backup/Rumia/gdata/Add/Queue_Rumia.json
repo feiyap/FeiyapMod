@@ -1,0 +1,18 @@
+{
+    "Queue_Rumia": {
+        "_gdeSchema": "EnemyQueue",
+        "Pos": [
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        ],
+        "CustomeFogTurn": 6,
+        "Enemys": [
+            "Rumia_Feiyap"
+        ],
+        "CustomBGM": false,
+        "UseCustomPosition": false
+    }
+}

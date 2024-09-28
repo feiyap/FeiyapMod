@@ -1,0 +1,11 @@
+{
+    "SE_Sanae_Rare10": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "开海的奇迹",
+        "Des": "造成&a(20%)额外伤害或&b(20%)额外治疗。",
+        "IsIcon": "SE_Sanae_Rare10\\SE_Sanae_Rare10_Icon.png",
+        "ClassName": "KochiyaSanae.SE_Sanae_Rare10",
+        "AlwaysParticle": false,
+        "IsOnesInit": false
+    }
+}

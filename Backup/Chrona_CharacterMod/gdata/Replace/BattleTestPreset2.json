@@ -1,0 +1,47 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Chrona",
+            "Mement",
+            "Hein"
+        ],
+        "PartyBasicSkill": [
+            "S_Chrona_2",
+            "S_Mement_P",
+            "S_Hein_10"
+        ],
+        "PartySkills": [
+            [
+                "S_Chrona_4",
+                "S_Chrona_7",
+                "S_Chrona_R10"
+            ],
+            [
+                "S_Public_0",
+                "S_Public_0",
+                "S_Public_0",
+                "S_Public_0",
+                "S_Public_0"
+            ],
+            [
+                
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            "S_Chrona_LucyD"
+        ],
+        "Level": 1
+    }
+}

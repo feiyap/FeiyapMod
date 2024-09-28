@@ -1,0 +1,257 @@
+ManifestFileVersion: 0
+CRC: 3013476765
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5be33f4ebe94ec576201749e1a50e1ea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bf335bf7238423118c4bfea8a5448cdf
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -722592445, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+- Class: 114
+  Script: {fileID: 963764591, guid: a6a460bc9cda68a8c89553f1ec5be757, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 320
+  Script: {instanceID: 0}
+Assets:
+- Assets/001/GYH-03.mat
+- Assets/001/1daoguang_fly 3.prefab
+- Assets/Chrona/Character/Chrona_Camp_1_Light.png
+- Assets/Chrona/Skill/5/B_Chrona_5_T.png
+- Assets/Chrona/Skill/LucyD/S_Chrona_LucyD_0_2.png
+- Assets/Scenes/sheji/Tex/Particle_Glow01.png
+- Assets/Scenes/sheji/Tex/Tex_Ring19A.png
+- Assets/001/01shalou.prefab
+- Assets/001/Water026.png
+- Assets/001/01gongjian.prefab
+- Assets/001/Glow010.png
+- Assets/001/Mask042.tga
+- Assets/Chrona/Character/Chrona_ST_Think_1.png
+- Assets/001/Mask071.tga
+- Assets/001/shalou 3.mat
+- Assets/Chrona/Character/Chrona_ST_Sad_1.png
+- Assets/001/Circle128.png
+- Assets/001/glow_gyh_01.mat
+- Assets/Scenes/sheji/Tex/wave_04.png
+- Assets/Chrona/Skill/1/S_Chrona_1_1_0.png
+- Assets/001/glow_gyh_07.mat
+- Assets/Scenes/sheji/Tex/Ring_001.png
+- Assets/Chrona/Character/Chrona_Face.png
+- Assets/001/Trail158.tga
+- Assets/Chrona/Skill/5/S_Chrona_5_2.png
+- Assets/001/daoguang_gyh_10.mat
+- Assets/Scenes/sheji/Tex/Eff_Noise_05.png
+- Assets/Chrona/Character/Chrona_Colle.png
+- Assets/001/GYH-01.mat
+- Assets/Chrona/Character/B_Chrona_P_S.png
+- Assets/001/a4.png
+- Assets/Chrona/Skill/1/S_Chrona_1_0_1.png
+- Assets/Chrona/Skill/3/S_Chrona_3_1.png
+- Assets/001/gongjian.mat
+- Assets/001/a2.png
+- Assets/Chrona/Skill/7/Audio_Chrona_7.mp3
+- Assets/001/QUAN 2.mat
+- Assets/001/QUAN 1.mat
+- Assets/Scenes/sheji/ReflectionProbe-1.exr
+- Assets/001/Flare210.tga
+- Assets/Scenes/sheji/Material/fashe.mat
+- Assets/Scenes/sheji/Material/baozhalizi2.mat
+- Assets/001/glow_gyh_09.mat
+- Assets/Scenes/sheji/Material/fashedian.mat
+- Assets/001/Noise524.png
+- Assets/Chrona/Skill/2/B_Chrona_2_S.png
+- Assets/Chrona/Skill/3/SP_Chrona_3.prefab
+- Assets/Chrona/Character/Chrona_ST_Think_2.png
+- Assets/Scenes/sheji/Material/fashehuan.mat
+- Assets/001/Trail095.png
+- Assets/001/glow_gyh_04.mat
+- Assets/Scenes/sheji/Mesh/Bend plane(nuv 1.fbx
+- Assets/Scenes/sheji/Material/baozhaci.mat
+- Assets/001/Mask134.png
+- Assets/Scenes/sheji/Material/baozhadian2.mat
+- Assets/Chrona/Character/Chrona_ST_Sad_2.png
+- Assets/001/1gongjian_fly_1.prefab
+- Assets/001/Flare032.tga
+- Assets/001/1gongjian_fly.prefab
+- Assets/Scenes/sheji/Tex/Tur_C196.png
+- Assets/Scenes/sheji/Tex/Glow1.png
+- Assets/Chrona/Skill/LucyD/S_Chrona_LucyD_1_2.png
+- Assets/Scenes/sheji/Tex/Eff_Glow_12.png
+- Assets/001/Noise456.png
+- Assets/Chrona/Character/Chrona.png
+- Assets/Chrona/Skill/1/S_Chrona_1_0.png
+- Assets/Chrona/Skill/4/S_Chrona_4_1.png
+- Assets/Chrona/Skill/R11/SP_Chrona_R11.prefab
+- Assets/001/glow_gyh_08.mat
+- Assets/Chrona/Character/Chrona.prefab
+- Assets/001/shalou 1.mat
+- Assets/Scenes/sheji/Material/fashebaodian.mat
+- Assets/001/1gongjian_hit_1.prefab
+- Assets/001/gongjian 1.mat
+- Assets/Chrona/Skill/1/S_Chrona_1_1.png
+- Assets/Chrona/Skill/1/S_Chrona_1_0_0.png
+- Assets/Chrona/Skill/7/SP_Chrona_7.prefab
+- Assets/Chrona/Skill/1/B_Chrona_1_T.png
+- Assets/001/Water020.png
+- Assets/001/1gongjian.prefab
+- Assets/001/1gongjian_1.prefab
+- Assets/001/Daoguang046.png
+- Assets/001/New Material.mat
+- Assets/001/Circle096.png
+- Assets/Chrona/Skill/1/S_Chrona_1_2.png
+- Assets/001/Light017.tga
+- Assets/Chrona/Character/Chrona_ST_Common_1.png
+- Assets/001/Daoguang046_gy04.png
+- Assets/001/1gongjian_hit.prefab
+- Assets/Scenes/sheji/Tex/Eff_Turbulence_03.png
+- Assets/Chrona/Skill/6/S_Chrona_6_0.png
+- Assets/Chrona/Skill/2/S_Chrona_2_1.png
+- Assets/Chrona/Character/Chrona_ST_Shy.png
+- Assets/001/glow_gyh_03.mat
+- Assets/Scenes/sheji/Material/baozhaci3.mat
+- Assets/Chrona/Skill/LucyD/S_Chrona_LucyD_0_0.png
+- Assets/001/Noise021.png
+- Assets/001/New Material 1.mat
+- Assets/Chrona/Skill/LucyD/S_Chrona_LucyD_0.png
+- Assets/001/a3.png
+- Assets/Chrona/Skill/5/S_Chrona_5_0.png
+- Assets/Scenes/sheji/Material/baozhalizi.mat
+- Assets/Scenes/sheji/SHEJI.prefab
+- Assets/Chrona/Character/Chrona_Camp_2_Light.png
+- Assets/001/Noise027.png
+- Assets/Chrona/Skill/1/S_Chrona_1_0_2.png
+- Assets/Scenes/sheji/Mesh/Plane_L25.FBX
+- Assets/Scenes/sheji/SHEJITimeline.playable
+- Assets/Chrona/Character/Chrona_FaceOrigin.prefab
+- Assets/001/glow_gyh_06.mat
+- Assets/001/ci86.png
+- Assets/Chrona/Skill/LucyD/S_Chrona_LucyD_1.png
+- Assets/Scenes/sheji/Tex/lizi.png
+- Assets/Chrona/Skill/1/S_Chrona_1_1_2.png
+- Assets/Chrona/Character/Chrona_Camp_2.png
+- Assets/001/a1.png
+- Assets/001/01jiguang.prefab
+- Assets/Chrona/Character/Chrona_ST_Surprise.png
+- Assets/001/lizi_gyh.mat
+- Assets/Chrona/Character/Chrona_FaceSmall.prefab
+- Assets/Scenes/sheji/Material/fashebaodianguang.mat
+- Assets/001/01jiguang_fly_6.prefab
+- Assets/Chrona/Skill/8/SP_Chrona_8.prefab
+- Assets/Chrona/Skill/LucyD/S_Chrona_LucyD_2.png
+- Assets/001/Mask035.tga
+- Assets/001/Mask076.png
+- Assets/001/Ci088.png
+- Assets/001/QUAN.mat
+- Assets/Scenes/sheji/Tex/XulieLizi004.png
+- Assets/Scenes/sheji/Material/fasheqiu.mat
+- Assets/001/glow_09.png
+- Assets/Chrona/Skill/6/S_Chrona_6_1.png
+- Assets/001/Trail026.png
+- Assets/001/shalou 2.mat
+- Assets/Scenes/sheji/Material/baozhalizi3.mat
+- Assets/Chrona/Character/B_Chrona_P_0_T.png
+- Assets/Scenes/sheji/Tex/Tex_Mask01J.png
+- Assets/001/glow_gyh_10.mat
+- Assets/001/GYH-02.mat
+- Assets/Scenes/sheji/Tex/Glo_c168.png
+- Assets/Chrona/Skill/2/S_Chrona_2_0.png
+- Assets/001/daoguang_gyh_07.mat
+- Assets/001/daoguang_gyh_04.mat
+- Assets/Chrona/Skill/LucyD/S_Chrona_LucyD_0_1.png
+- Assets/001/V2.3/Pandavfx_v2.3.shader
+- Assets/001/Noise106.png
+- Assets/Scenes/sheji/Tex/Smoke_008 1.png
+- Assets/001/quan_gyh_01.mat
+- Assets/Chrona/Skill/1/S_Chrona_1_1_1.png
+- Assets/Chrona/Skill/5/S_Chrona_5_1.png
+- Assets/Chrona/Skill/4/SP_Chrona_4.prefab
+- Assets/Scenes/sheji/Tex/Path044.png
+- Assets/Chrona/Character/Chrona_Colleface.png
+- Assets/001/1daoguang_hit.prefab
+- Assets/Chrona/Skill/LucyD/S_Chrona_LucyD_1_1.png
+- Assets/001/glow_gyh_12.mat
+- Assets/001/Trail086.png
+- Assets/Scenes/sheji/Material/fasheglow.mat
+- Assets/001/daoguang02_gy.FBX
+- Assets/001/daoguang_gyh_05.mat
+- Assets/001/glow_gyh_05.mat
+- Assets/001/Daoguang046_gy.png
+- Assets/001/glow_gyh_11.mat
+- Assets/Scenes/sheji/Sky.mat
+- Assets/001/Noise103.png
+- Assets/Scenes/sheji/Material/baozhaci2.mat
+- Assets/001/Flare050.png
+- Assets/001/Glow007.png
+- Assets/Chrona/Skill/4/S_Chrona_4_2.png
+- Assets/001/shalou.mat
+- Assets/Chrona/Character/Chrona_Camp_1.png
+- Assets/Chrona/Skill/4/S_Chrona_4_0.png
+- Assets/Chrona/Skill/3/S_Chrona_3_2.png
+- Assets/Scenes/sheji/Tex/Mas_C179.png
+- Assets/001/Line072.png
+- Assets/001/daoguang_gyh_08.mat
+- Assets/Chrona/Skill/8/B_Chrona_8_T.png
+- Assets/001/glow_gyh_13.mat
+- Assets/001/Noise025.png
+- Assets/Chrona/Skill/LucyD/S_Chrona_LucyD_1_0.png
+- Assets/Chrona/Character/Chrona_ST_Laugh.png
+- Assets/001/Circle057.png
+- Assets/Scenes/sheji/Material/baozhahuan.mat
+- Assets/Chrona/Skill/2/S_Chrona_2_2.png
+- Assets/Chrona/Character/Chrona_Passive.png
+- Assets/001/shalou 4.mat
+- Assets/001/Daoguang046_gy02.png
+- Assets/Scenes/sheji/Material/baozhahuan2.mat
+- Assets/Chrona/Character/Chrona_ST_Common_2.png
+- Assets/001/New Material 8.mat
+- Assets/Chrona/Equip&Relic/Equip_Chrona.png
+- Assets/Scenes/sheji/Tex/path_glow.png
+- Assets/Scenes/sheji/Shader/Doyo_VFX_Shader_V1.shader
+- Assets/Chrona/Skill/6/B_Chrona_6_S.png
+- Assets/Scenes/sheji/Material/baozhaglow3.mat
+- Assets/001/glow_gyh_02.mat
+- Assets/Chrona/Skill/3/S_Chrona_3_0.png
+- Assets/Chrona/Skill/6/S_Chrona_6_2.png
+Dependencies: []

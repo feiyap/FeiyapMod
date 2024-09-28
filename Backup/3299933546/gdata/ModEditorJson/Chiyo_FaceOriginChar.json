@@ -1,0 +1,23 @@
+{
+    "myKey": "Chiyo",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Chiyo\\ChiyoFaceOriginChar.png",
+        "pivot": {
+            "x": 0.512730837,
+            "y": 0.8330641
+        },
+        "offsetMin": {
+            "x": -368.8,
+            "y": -1050.013
+        },
+        "offsetMax": {
+            "x": 347.7553,
+            "y": 203.958817
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

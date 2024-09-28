@@ -1,0 +1,14 @@
+{
+    "B_HakureiReimu_F_E_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_E_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "博丽符札",
+        "Icon": "B_HakureiReimu_F_E_0\\B_HakureiReimu_F_E_0_Icon.png"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "myKey": "Event_BOSSLucy",
+    "myField": "MainImage_2Stage",
+    "myValues": {
+        "pivot01": {
+            "x": 0.5270026,
+            "y": -0.0455188751
+        }
+    },
+    "MyChangeType": "RandomEventImage",
+    "myKeys": [
+        
+    ]
+}

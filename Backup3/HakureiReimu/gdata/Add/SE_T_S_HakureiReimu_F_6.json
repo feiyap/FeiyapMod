@@ -1,0 +1,13 @@
+{
+    "SE_T_S_HakureiReimu_F_6": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 100,
+        "Buffs": [
+            "B_HakureiReimu_F_6_0"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

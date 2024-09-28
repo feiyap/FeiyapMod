@@ -1,0 +1,22 @@
+{
+    "S_HakureiReimu_F_5_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Reaper_0",
+        "Target": "enemy",
+        "NotCount": true,
+        "NoDrop": true,
+        "IgnoreTaunt": true,
+        "Track": true,
+        "Name": "神技「八方龙杀阵」",
+        "Description": "<b><color=#B22222>符卡等级5</color></b> - 如果目标身上的减益效果不少于2种，以30%效率重复释放2次。",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_HakureiReimu_F_5_5",
+        "Image_0": "S_HakureiReimu_F_5_5\\S_HakureiReimu_F_5_5_Image_0.png",
+        "Image_1": "S_HakureiReimu_F_5_5\\S_HakureiReimu_F_5_5_Image_1.png",
+        "Image_2": "S_HakureiReimu_F_5_5\\S_HakureiReimu_F_5_5_Image_2.png",
+        "SkillExtended": [
+            "HakureiReimu.S_HakureiReimu_F_5_5"
+        ]
+    }
+}

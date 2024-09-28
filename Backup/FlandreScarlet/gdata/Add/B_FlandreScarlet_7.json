@@ -1,0 +1,11 @@
+{
+    "B_FlandreScarlet_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "禁忌时机",
+        "Description": "所有技能都能触发[禁忌欲望]的额外效果。",
+        "LifeTime": 2,
+        "Icon": "B_FlandreScarlet_7\\B_FlandreScarlet_7_Icon.png"
+    }
+}

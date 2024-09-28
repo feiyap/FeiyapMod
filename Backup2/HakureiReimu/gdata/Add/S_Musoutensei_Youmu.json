@@ -1,0 +1,19 @@
+{
+    "S_Musoutensei_Youmu": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "self",
+        "Disposable": true,
+        "Name": "魂灵符「一念成佛丶一念逍遥」",
+        "Description": "灵梦和妖梦获得[天人合一]。",
+        "UseAp": 1,
+        "NotCount": false,
+        "Effect_Target": "null",
+        "Effect_Self": "SE_S_S_Musoutensei_Youmu",
+        "Image_0": "S_Musoutensei_Youmu\\S_Musoutensei_Youmu_Image_0.png",
+        "Image_1": "S_Musoutensei_Youmu\\S_Musoutensei_Youmu_Image_1.png",
+        "Image_2": "S_Musoutensei_Youmu\\S_Musoutensei_Youmu_Image_2.png"
+    }
+}

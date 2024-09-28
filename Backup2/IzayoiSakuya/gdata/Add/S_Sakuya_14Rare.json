@@ -1,0 +1,34 @@
+{
+    "S_Sakuya_14Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/LastBoss/LBossFirst_2",
+        "Rare": true,
+        "Target": "enemy",
+        "Disposable": false,
+        "Name": "幻红符「永恒红昼狂想曲」",
+        "Description": "这个伤害的50%超额治疗自己。\n将1张[时符「调换魔法」]加入手中。\n获得1层[吸血鬼之心]。",
+        "UseAp": 1,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Sakuya_14Rare",
+        "Image_0": "S_Sakuya_14Rare\\S_Sakuya_14Rare_Image_0.png",
+        "Image_1": "S_Sakuya_14Rare\\S_Sakuya_14Rare_Image_1.png",
+        "Image_2": "S_Sakuya_14Rare\\S_Sakuya_14Rare_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": true,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": true,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Self": "null",
+        "SkillExtended": [
+            "IzayoiSakuya.S_Sakuya_14Rare"
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "B_HakureiReimu_F_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_3",
+        "BuffTag": "null",
+        "Name": "灵力激荡",
+        "Description": "",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
+        "LifeTime": 3,
+        "MaxStack": 5
+    }
+}

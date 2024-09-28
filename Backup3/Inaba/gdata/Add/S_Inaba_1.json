@@ -1,0 +1,34 @@
+{
+    "S_Inaba_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "Name": "瞬符「瞬间的闪光」",
+        "Description": "改变目标的嘲讽状态。",
+        "UseAp": 1,
+        "User": "Inaba",
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Inaba_1",
+        "Image_0": "S_Inaba_1\\S_Inaba_1_Image_0.png",
+        "Image_1": "S_Inaba_1\\S_Inaba_1_Image_1.png",
+        "Image_2": "S_Inaba_1\\S_Inaba_1_Image_2.png",
+        "SkillExtended": [
+            "Inaba.S_Inaba_1"
+        ],
+        "NoBasicSkill": false,
+        "Track": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

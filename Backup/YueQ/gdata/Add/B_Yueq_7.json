@@ -1,0 +1,18 @@
+{
+    "B_Yueq_7": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "YueQ.B_Yueq_7",
+        "BuffTag": "CrowdControl",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "魅了！",
+        "Debuff": true,
+        "TagPer": 75,
+        "LifeTime": 2,
+        "Description": "无法行动\r\n效果解除后，获得\"狂暴幻觉\"增益",
+        "Icon": "B_Yueq_7\\B_Yueq_7_Icon.png"
+    }
+}

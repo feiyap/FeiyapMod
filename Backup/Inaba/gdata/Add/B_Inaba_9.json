@@ -1,0 +1,12 @@
+{
+    "B_Inaba_9": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Inaba.B_Inaba_9",
+        "BuffTag": "null",
+        "Name": "幻象/因幡",
+        "Description": "触发追加攻击/反击时，&target会同时对目标进行一次&a(30%)伤害的追加攻击（不会触发[辉夜/梦乡]）。",
+        "Icon": "B_Inaba_9\\B_Inaba_9_Icon.png",
+        "MaxStack": 0,
+        "LifeTime": 2
+    }
+}

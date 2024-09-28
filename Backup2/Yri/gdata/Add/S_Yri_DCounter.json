@@ -1,0 +1,27 @@
+{
+    "S_Yri_DCounter": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_0",
+        "Target": "enemy",
+        "Name": "",
+        "Effect_Target": "SE_T_S_Yri_DCounter",
+        "Description": "",
+        "UseAp": 0,
+        "Basic": false,
+        "NotCount": false,
+        "Disposable": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "SummonMoon",
+    "myField": "Face",
+    "myValues": {
+        "path": "SummonMoon\\SummonMoonFace.png",
+        "offsetMax": {
+            "x": 1016.08087,
+            "y": 249.653473
+        },
+        "offsetMin": {
+            "x": -1257.95972,
+            "y": -1199.80566
+        },
+        "pivot": {
+            "x": 0.552289,
+            "y": 0.8239045
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

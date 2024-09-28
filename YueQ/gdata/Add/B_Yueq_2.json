@@ -1,0 +1,16 @@
+{
+    "B_Yueq_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "YueQ.B_Yueq_2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "苍之回响",
+        "Description": "回合结束时,若体力极限不为0,获得&a点回声屏障.",
+        "LifeTime": 2,
+        "Icon": "B_Yueq_2\\B_Yueq_2_Icon.png"
+    }
+}

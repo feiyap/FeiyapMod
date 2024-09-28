@@ -1,0 +1,11 @@
+{
+    "B_Kaguya_Lucy_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Mokou.B_Kaguya_Lucy_4",
+        "BuffTag": "null",
+        "Icon": "B_Kaguya_Lucy_4\\B_Kaguya_Lucy_4_Icon.png",
+        "Name": "神宝「无限的生命之泉」",
+        "Description": "所有友方获得「无限的生命之泉」增益状态。\n\n<color=#919191>完成了难题「燕的子安贝　-永命线-」获得的奖励。</color>",
+        "Cantdisable": false
+    }
+}

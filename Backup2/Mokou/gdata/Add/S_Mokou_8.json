@@ -1,0 +1,38 @@
+{
+    "S_Mokou_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "self",
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Name": "惜命「不死之身的舍身击」",
+        "Description": "<color=orange>过热：2——额外加入一张「不死之身的舍身击」加入手牌。</color>\n给予自身2层<color=purple>烧伤痛苦减益</color>，将一张「不死之身的舍身击」加入手牌。",
+        "UseAp": 1,
+        "NotCount": true,
+        "User": "Mokou",
+        "SkillExtended": [
+            "Mokou.S_Mokou_8"
+        ],
+        "Image_0": "S_Mokou_8\\S_Mokou_8_Image_0.png",
+        "Image_1": "S_Mokou_8\\S_Mokou_8_Image_1.png",
+        "Image_2": "S_Mokou_8\\S_Mokou_8_Image_2.png",
+        "Track": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "PlusSkillView": "S_Mokou_8_0",
+        "PlusKeyWords": [
+            "exburn"
+        ],
+        "Effect_Self": "SE_S_S_Mokou_8"
+    }
+}

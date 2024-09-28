@@ -1,0 +1,7 @@
+{
+    "Name": "BGM_Kaguya_End",
+    "path": "AudioFiles\\BGM_Kaguya_End.mp3",
+    "AssetBundlePath": "",
+    "Loop": true,
+    "Bus": "BGM"
+}

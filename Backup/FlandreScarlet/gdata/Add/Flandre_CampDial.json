@@ -1,0 +1,238 @@
+{
+    "CampDial_FlandreScarlet_Hein": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Hein",
+        "Dialogues": [
+            "[B]跟我一起冲进去砍人吧！",
+            "[A]好耶！跟耍大刀的大哥哥一起冲！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Sizz": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Sizz",
+        "Dialogues": [
+            "[A]玩人偶的小姐姐！你会同时控制十个人偶吗？",
+            "[B]不、不行啦，那个应该没有人能做到……",
+            "[A]那控制超级巨大的巨型人偶呢？",
+            "[B]呜呜呜……我不是动画片里的角色啦……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Trisha": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Trisha",
+        "Dialogues": [
+            "[B]你……浑身上下都散发着危险的气息……",
+            "[A]因为芙兰只知道破坏东西的方法哦。大家都这么说我。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Miss": {
+        "CharA": "FlandreScarlet",
+        "CharB": "MissChain",
+        "Dialogues": [
+            "[A]用链锯的小姐姐！谢谢你保护我！",
+            "[B]啊哈哈！那就拜托你喀嚓喀嚓地干掉敌人咯！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Azar": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Azar",
+        "Dialogues": [
+            "[B]……破坏一切的力量？如果好好利用她的话……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Priest": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Priest",
+        "Dialogues": [
+            "[A]棒球棍的大姐姐！你那根棒球棍看起来好厉害哦！",
+            "[A]嘭的一下就把敌人揍飞了！",
+            "[B]那不是……唉……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Iron": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Prime",
+        "Dialogues": [
+            "[A]穿铠甲的大哥哥！盾牌的攻击力比芙兰还厉害呢！",
+            "[B]最好的防御就是进攻嘛。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Charon": {
+        "CharA": "FlandreScarlet",
+        "CharB": "ShadowPriest",
+        "Dialogues": [
+            "[A]很暗黑的小姐姐！你也是用禁忌的力量吗？",
+            "[B]没错！这就是我们暗黑祭祀与吸血鬼的禁忌组合技呀！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_SilverStein": {
+        "CharA": "FlandreScarlet",
+        "CharB": "SilverStein",
+        "Dialogues": [
+            "[A]用猎枪的叔叔！有好好吃饭吗？",
+            "[B]有啊……不是，为啥我非得被小鬼担心不可。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Huz": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Queen",
+        "Dialogues": [
+            "[A]用鞭子的小姐姐！请多多鞭打芙兰哦！",
+            "[B]……啊、啊哈哈，这还是第一次有人这么对我说。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Narhan": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Control",
+        "Dialogues": [
+            "[A]会读心的大哥哥！你能猜猜芙兰现在在想什么吗？",
+            "[B]我不会对小孩子用这么危险的魔法哦。",
+            "[A]诶~真遗憾！",
+            "[B]（……完全看不清她在想什么，到底……）"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Johan": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Mement",
+        "Dialogues": [
+            "[A]用弓箭的大哥哥！分你个苹果吃！",
+            "[B]诶、啊？谢谢。……你是第一个不跟我说爱丽丝话题的人。",
+            "[A]爱丽丝？芙兰不知道~"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Ilya": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Ilya",
+        "Dialogues": [
+            "[B]美丽！强大！不老不死！",
+            "[B]能把我也变成吸血鬼吗？求你了！",
+            "[A]会把小哥哥先喀嚓喀嚓地破坏掉！再变成吸血鬼哦？",
+            "[B]啊、啊……那就算了……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Leryn": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Leryn",
+        "Dialogues": [
+            "[B]活着的吸血鬼？真想好好研究一番。",
+            "[A]戴眼镜的大姐姐！想要怎么研究芙兰呀？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Momori": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Momori",
+        "Dialogues": [
+            "[B]嘿！要加入伟大的桃梨会吗☆？",
+            "[B]现在加入的话，就是桃梨会的高级会员哦☆！",
+            "[A]哦——！好呀！芙兰是高级会员——☆！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Patchouli": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Patchouli",
+        "Dialogues": [
+            "[A]帕秋莉大人！芙兰也想学魔法！",
+            "[B]啊。是吗。那先把这几摞书都背下来吧。",
+            "[A]……芙兰不喜欢看魔法书……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Mokou": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Mokou",
+        "Dialogues": [
+            "[A]啊！是死不掉的发火大姐姐！",
+            "[B]谁是发火大姐姐啊。",
+            "[A]今天也要陪芙兰玩吗？",
+            "[B]嗯……突然想起来稍微有点事……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_RemiliaScarlet": {
+        "CharA": "FlandreScarlet",
+        "CharB": "RemiliaScarlet",
+        "Dialogues": [
+            "[A]姐姐姐姐，那里的刺猬可以拿来烧烤吗？",
+            "[B]不行，刺猬浑身上下都是病毒哦。",
+            "[A]病毒是什么？可以吃吗？",
+            "[B]……帕琪……帕琪在哪里……？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_IzayoiSakuya": {
+        "CharA": "FlandreScarlet",
+        "CharB": "IzayoiSakuya",
+        "Dialogues": [
+            "[A]咲夜~咲夜听我说~",
+            "[B]嗯。",
+            "[A]谢谢咲夜每天给我做好吃的！",
+            "[B]嗯……嗯？嗯？！？！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_SatsukiRin": {
+        "CharA": "FlandreScarlet",
+        "CharB": "SatsukiRin",
+        "Dialogues": [
+            "[A]大姐姐，你是谁呀？",
+            "[B]我呀？我只是个普通的二胡乐师而已哦。",
+            "[A]看不见呢……大姐姐的「点」。",
+            "[B]哎呀……毕竟，根本「不存在过」嘛。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Youmu": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Youmu",
+        "Dialogues": [
+            "[A]是咲夜说的用刀很厉害的人！",
+            "[B]咦？说的是我吗？诶嘿嘿、怪不好意思的……",
+            "[A]咲夜说你唰唰唰——就能把刚刚还活着的鸡做成香喷喷的鸡汤！",
+            "[B]诶？！说的是这方面吗？！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Reisen": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Reisen",
+        "Dialogues": [
+            "[A]啊，兔子小姐，你好啊。",
+            "[B]呜呜呜……就没有人能叫对我的名字吗……",
+            "[A]兔子小姐的名字太长啦。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_TouhouAlice": {
+        "CharA": "FlandreScarlet",
+        "CharB": "TouhouAlice",
+        "Dialogues": [
+            "[A]十个小人偶，为了吃饭去奔走；噎死一个没法救，十个只剩九~",
+            "[B]不要唱这么渗人的歌啊……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Eirin": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Eirin",
+        "Dialogues": [
+            "[A]医生姐姐，芙兰不想打针……",
+            "[B]号称破坏神的吸血鬼也会害怕打针吗？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "Reisen",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Reisen\\ReisenBattleChar.png",
+        "offsetMax": {
+            "x": 374.561035,
+            "y": 489.868164
+        },
+        "offsetMin": {
+            "x": -455.9831,
+            "y": -1240.43188
+        },
+        "pivot": {
+            "x": 0.5490173,
+            "y": 0.7168883
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

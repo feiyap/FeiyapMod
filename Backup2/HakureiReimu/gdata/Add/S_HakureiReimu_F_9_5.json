@@ -1,0 +1,31 @@
+{
+    "S_HakureiReimu_F_9_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "Name": "回灵「梦想封印　侘」",
+        "NoDrop": true,
+        "Description": "<color=#B22222>符卡等级5</color> - 使自己身上的所有增益效果延长1回合。\n从牌库选择1个自己的技能抽取到手中。",
+        "Disposable": false,
+        "Image_0": "S_HakureiReimu_F_9_5\\S_HakureiReimu_F_9_5_Image_0.png",
+        "Image_1": "S_HakureiReimu_F_9_5\\S_HakureiReimu_F_9_5_Image_1.png",
+        "Image_2": "S_HakureiReimu_F_9_5\\S_HakureiReimu_F_9_5_Image_2.png",
+        "SkillExtended": [
+            "HakureiReimu.S_HakureiReimu_F_9_5"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

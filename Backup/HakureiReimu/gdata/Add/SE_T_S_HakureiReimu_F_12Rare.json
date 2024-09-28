@@ -1,0 +1,15 @@
+{
+    "SE_T_S_HakureiReimu_F_12Rare": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 111,
+        "DMG_Per": 111,
+        "DMG_Base": 1,
+        "CRI": 11,
+        "Buffs": [
+            
+        ],
+        "BuffPlusTagPer": [
+            
+        ]
+    }
+}

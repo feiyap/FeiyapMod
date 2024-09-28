@@ -1,0 +1,72 @@
+ManifestFileVersion: 0
+CRC: 1130599326
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 501b2d3bfd82e94f817e6de0d6e58768
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2f3bcec56c74a18697bea7ce657d08c7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -399918634, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+- Class: 114
+  Script: {fileID: -722592445, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 328
+  Script: {instanceID: 0}
+- Class: 329
+  Script: {instanceID: 0}
+Assets:
+- Assets/BOSSLucy/Anime/Anime_BOSSLucy_3.prefab
+- Assets/BOSSLucy/Anime/Anime_BOSSLucy_Choice1.prefab
+- Assets/Cylu/R3/Anime_Cylu_R3.prefab
+- Assets/Cylu/R1/Anime_Cylu_R1.prefab
+- Assets/Cylu/R4/Anime_Cylu_R4.prefab
+- Assets/BOSSLucy/Anime/Anime_BOSSLucy_Choice2.prefab
+- Assets/BOSSLucy/Anime/Anime_BOSSLucy_2.prefab
+- Assets/BOSSLucy/Anime/Anime_BOSSLucy_1.prefab
+- Assets/BOSSLucy/AlterMana/wind.prefab
+- Assets/Cylu/R2/Anime_Cylu_R2.prefab
+- Assets/Cylu/Anime_Cylu_2.prefab
+Dependencies: []

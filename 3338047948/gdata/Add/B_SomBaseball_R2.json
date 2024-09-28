@@ -1,0 +1,10 @@
+{
+    "B_SomBaseball_R2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomBaseball_R2",
+        "BuffTag": "null",
+        "Name": "风暴天使",
+        "Description": "每回合开始时生成一个天使的狂猎。",
+        "Icon": "B_SomBaseball_R2\\B_SomBaseball_R2_Icon.png"
+    }
+}

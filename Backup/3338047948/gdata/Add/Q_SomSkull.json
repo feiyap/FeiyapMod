@@ -1,0 +1,16 @@
+{
+    "Q_SomSkull": {
+        "_gdeSchema": "EnemyQueue",
+        "UseCustomPosition": true,
+        "Pos": [
+            {
+                "x": 4.0,
+                "y": 4.0,
+                "z": -2.0
+            }
+        ],
+        "Enemys": [
+            "SomSkull"
+        ]
+    }
+}

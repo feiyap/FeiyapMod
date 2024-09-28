@@ -1,0 +1,16 @@
+{
+    "B_Eirin_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "月人/月药",
+        "LifeTime": 2,
+        "Tick": "SE_Tick_B_Eirin_2",
+        "Icon": "B_Eirin_2\\B_Eirin_2_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

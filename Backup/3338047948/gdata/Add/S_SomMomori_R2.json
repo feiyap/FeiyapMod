@@ -1,0 +1,26 @@
+{
+    "S_SomMomori_R2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Momori/Momori_2",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": true,
+        "NoDrop": true,
+        "Name": "不要打我~啊★咚！",
+        "UseAp": 3,
+        "NoBasicSkill": true,
+        "Track": true,
+        "Disposable": false,
+        "Counting": 1,
+        "Effect_Target": "SE_T_S_SomMomori_R2",
+        "Description": "握在手中时，每当任意友军受到攻击，则此技能增加相当于攻击伤害的额外伤害。",
+        "Image_0": "S_SomMomori_R2\\S_SomMomori_R2_Image_0.png",
+        "Image_1": "S_SomMomori_R2\\S_SomMomori_R2_Image_1.png",
+        "Image_2": "S_SomMomori_R2\\S_SomMomori_R2_Image_2.png",
+        "SkillExtended": [
+            "BOSSLucy.S_SomMomori_R2"
+        ],
+        "AutoDelete": 2
+    }
+}

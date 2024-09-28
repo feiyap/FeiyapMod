@@ -1,0 +1,13 @@
+{
+    "B_FKaguya_7_0": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": true,
+        "Cantdisable": true,
+        "ClassName": "HouraisanKaguya.B_FKaguya_7_0",
+        "BuffTag": "null",
+        "Name": "辉夜/蓬莱",
+        "Description": "",
+        "MaxStack": 3,
+        "Icon": "B_FKaguya_7_0\\B_FKaguya_7_0_Icon.png"
+    }
+}

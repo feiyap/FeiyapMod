@@ -1,0 +1,13 @@
+{
+    "SE_T_S_Kaguya_End_aoe": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 40,
+        "Buffs": [
+            "B_Kaguya_T_5_0"
+        ],
+        "BuffPlusTagPer": [
+            88
+        ]
+    }
+}

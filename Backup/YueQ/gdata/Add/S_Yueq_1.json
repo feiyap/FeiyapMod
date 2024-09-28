@@ -1,0 +1,39 @@
+{
+    "S_Yueq_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "ally",
+        "HealSkill": true,
+        "Name": "鼓·战阵",
+        "User": "YueQ",
+        "Description": "<color=#00FF7F>乐谱</color>\r\n如果目标是输出职业，额外给予一层增益\r\n共鸣*<color=#FF4500>激昂</color>:抽取一个目标的技能.\n变调*<color=#FF4500>激昂</color>",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Yueq_1",
+        "PlusKeyWords": [
+            "YueP",
+            "Yueq_GM",
+            "Yueq_BD"
+        ],
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "SkillExtended": [
+            "YueQ.S_Yueq_1"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_Yueq_1\\S_Yueq_1_Image_0.png",
+        "Image_1": "S_Yueq_1\\S_Yueq_1_Image_1.png",
+        "Image_2": "S_Yueq_1\\S_Yueq_1_Image_2.png"
+    }
+}

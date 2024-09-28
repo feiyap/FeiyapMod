@@ -1,0 +1,25 @@
+{
+    "Chiyo_SwimInCash": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "Misc",
+        "NotCount": false,
+        "NoBasicSkill": true,
+        "Name": "Swimming in Cash",
+        "Description": "Create a party barrier of &BarrierSize (equal to &BarrierPercent% of current gold, capped at barrier size of &BarrierMaxSize).",
+        "User": "Chiyo",
+        "UseAp": 4,
+        "Disposable": false,
+        "Except": true,
+        "Image_0": "Chiyo_SwimInCash\\Chiyo_SwimInCash_Image_0.png",
+        "Image_1": "Chiyo_SwimInCash\\Chiyo_SwimInCash_Image_1.png",
+        "Image_2": "Chiyo_SwimInCash\\Chiyo_SwimInCash_Image_2.png",
+        "SkillExtended": [
+            "Chiyo.Chiyo_SwimInCash"
+        ],
+        "IgnoreTaunt": false,
+        "Basic": false
+    }
+}

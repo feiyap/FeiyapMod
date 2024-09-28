@@ -1,0 +1,23 @@
+{
+    "myKey": "HouraisanKaguyaEVO",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "HouraisanKaguyaEVO\\HouraisanKaguyaEVOFaceSmallChar.png",
+        "offsetMax": {
+            "x": 415.8624,
+            "y": 130.421143
+        },
+        "offsetMin": {
+            "x": -384.137665,
+            "y": -819.578857
+        },
+        "pivot": {
+            "x": 0.477632,
+            "y": 0.856830657
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

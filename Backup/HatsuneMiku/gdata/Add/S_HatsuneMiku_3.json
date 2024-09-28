@@ -1,0 +1,36 @@
+{
+    "S_HatsuneMiku_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "千本桜",
+        "Target": "all_enemy",
+        "Description": "每命中1个敌人，为自己施加2层[未来之音]。\n音律3：额外造成&a伤害。\n音律9：再次释放一次。",
+        "Effect_Target": "SE_T_S_HatsuneMiku_3",
+        "Effect_Self": "SE_S_S_HatsuneMiku_3",
+        "User": "HatsuneMiku",
+        "Image_0": "S_HatsuneMiku_3\\S_HatsuneMiku_3_Image_0.png",
+        "Image_1": "S_HatsuneMiku_3\\S_HatsuneMiku_3_Image_1.png",
+        "Image_2": "S_HatsuneMiku_3\\S_HatsuneMiku_3_Image_2.png",
+        "SkillExtended": [
+            "HatsuneMiku.S_HatsuneMiku_3"
+        ],
+        "Particle": "Particle/skill",
+        "UseAp": 2,
+        "PlusKeyWords": [
+            
+        ]
+    }
+}

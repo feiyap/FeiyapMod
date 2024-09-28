@@ -1,0 +1,25 @@
+{
+    "S_Sunmeitian_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "Name": "七十二变",
+        "User": "Sunmeitian",
+        "Description": "倒计时期间免疫伤害。\n释放时抽取1个技能。",
+        "AutoDelete": 0,
+        "Counting": 1,
+        "Disposable": true,
+        "Effect_Target": "null",
+        "Effect_Self": "null",
+        "Image_0": "S_Sunmeitian_6\\S_Sunmeitian_6_Image_0.png",
+        "Image_1": "S_Sunmeitian_6\\S_Sunmeitian_6_Image_1.png",
+        "Image_2": "S_Sunmeitian_6\\S_Sunmeitian_6_Image_2.png",
+        "SkillExtended": [
+            "Sunmeitian.S_Sunmeitian_6"
+        ],
+        "Rare": false
+    }
+}

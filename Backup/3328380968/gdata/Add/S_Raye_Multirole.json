@@ -1,0 +1,31 @@
+{
+    "S_Raye_Multirole": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "self",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": true,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "Multirole Modules",
+        "Description": "Can be used again for 1 cost more per turn. \nRaye links into one of her Link forms.",
+        "Image_0": "S_Raye_Multirole\\S_Raye_Multirole_Image_0.png",
+        "Image_1": "S_Raye_Multirole\\S_Raye_Multirole_Image_1.png",
+        "Image_2": "S_Raye_Multirole\\S_Raye_Multirole_Image_2.png",
+        "SkillExtended": [
+            "SkyStriker.S_Raye_Multirole"
+        ]
+    }
+}

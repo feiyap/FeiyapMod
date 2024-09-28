@@ -1,0 +1,16 @@
+{
+    "B_Sakuya_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "IzayoiSakuya.B_Sakuya_5",
+        "BuffTag": "null",
+        "Name": "时符「完美空间」",
+        "MaxStack": 1,
+        "LifeTime": 1,
+        "Hide": true,
+        "Description": "",
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "B_FMokou_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HouraisanKaguya.B_FMokou_2",
+        "BuffTag": "null",
+        "Name": "不死鸟附体",
+        "Description": "释放技能时，在倒计时栏添加[「不死鸟附体 -凤凰奥义-」]。",
+        "LifeTime": 1,
+        "Icon": "B_FMokou_2\\B_FMokou_2_Icon.png",
+        "Debuff": true,
+        "TagPer": 0,
+        "Cantdisable": true
+    }
+}

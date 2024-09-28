@@ -1,0 +1,38 @@
+{
+    "S_Ralmia_13Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "Name": "守卫的创造物",
+        "Description": "免疫受伤1次。恢复%a点体力值。",
+        "UseAp": 0,
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "Effect_Self": "SE_S_S_Ralmia_13Rare_1",
+        "Effect_Target": "SE_T_S_Ralmia_13Rare_1",
+        "NotCount": true,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Image_0": "S_Ralmia_13Rare_1\\S_Ralmia_13Rare_1_Image_0.png",
+        "Image_1": "S_Ralmia_13Rare_1\\S_Ralmia_13Rare_1_Image_1.png",
+        "Image_2": "S_Ralmia_13Rare_1\\S_Ralmia_13Rare_1_Image_2.png",
+        "PlusKeyWords": [
+            "KeyWord_Artifact"
+        ],
+        "SkillExtended": [
+            "Ralmia.S_Ralmia_13Rare_1"
+        ],
+        "SKillExtendedItem": [
+            "SkillEn_Ralmia_0"
+        ]
+    }
+}

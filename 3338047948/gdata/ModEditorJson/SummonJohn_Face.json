@@ -1,0 +1,23 @@
+{
+    "myKey": "SummonJohn",
+    "myField": "Face",
+    "myValues": {
+        "path": "SummonJohn\\SummonJohnFace.png",
+        "offsetMax": {
+            "x": 1833.326,
+            "y": 303.294739
+        },
+        "offsetMin": {
+            "x": -1829.03918,
+            "y": -2031.07385
+        },
+        "pivot": {
+            "x": 0.498859882,
+            "y": 0.867679656
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

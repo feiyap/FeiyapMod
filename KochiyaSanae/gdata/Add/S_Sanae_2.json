@@ -1,0 +1,24 @@
+{
+    "S_Sanae_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "Name": "奇迹「白昼的客星」",
+        "Description": "生成1个[风灵]。\n\n<b><color=green>连击2</color></b> - 额外恢复&a(20%)体力。\n<b><color=green>连击4</color></b> - 施加[奇迹于你]。",
+        "User": "KochiyaSanae",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Sanae_2",
+        "Image_0": "S_Sanae_2\\S_Sanae_2_Image_0.png",
+        "Image_1": "S_Sanae_2\\S_Sanae_2_Image_1.png",
+        "Image_2": "S_Sanae_2\\S_Sanae_2_Image_2.png",
+        "PlusSkillView": "S_FSL_Common",
+        "NotCount": false,
+        "SkillExtended": [
+            "KochiyaSanae.S_Sanae_2"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Combo"
+        ]
+    }
+}

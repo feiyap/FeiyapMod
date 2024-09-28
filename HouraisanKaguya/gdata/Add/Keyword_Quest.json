@@ -1,0 +1,7 @@
+{
+    "Keyword_Quest": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "难题",
+        "Desc": "在达成某些条件时，会为自身赋予[辉夜/神宝]增益。"
+    }
+}

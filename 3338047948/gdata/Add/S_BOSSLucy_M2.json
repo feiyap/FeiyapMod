@@ -1,0 +1,16 @@
+{
+    "S_BOSSLucy_M2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_6",
+        "Target": "self",
+        "NoDrop": true,
+        "EnemyPreview": true,
+        "Name": "超级烟雾弹",
+        "Counting": 1,
+        "Description": "",
+        "Effect_Target": "SE_T_S_BOSSLucy_M2",
+        "Image_0": "S_BOSSLucy_M2\\S_BOSSLucy_M2_Image_0.png",
+        "Image_1": "S_BOSSLucy_M2\\S_BOSSLucy_M2_Image_1.png"
+    }
+}

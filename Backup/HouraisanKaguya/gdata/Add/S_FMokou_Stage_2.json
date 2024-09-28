@@ -1,0 +1,14 @@
+{
+    "S_FMokou_Stage_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "self",
+        "NoDrop": true,
+        "Name": "诅咒「上吊的蓬莱人形」",
+        "Effect_Self": "SE_S_S_FMokou_Stage_2",
+        "Image_0": "S_FMokou_Stage_2\\S_FMokou_Stage_2_Image_0.png",
+        "Image_1": "S_FMokou_Stage_2\\S_FMokou_Stage_2_Image_1.png",
+        "Image_2": "S_FMokou_Stage_2\\S_FMokou_Stage_2_Image_2.png"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "Boss_Yueq_P_P1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "混沌初生",
+        "Icon": "Boss_Yueq_P_P1\\Boss_Yueq_P_P1_Icon.png",
+        "Description": "每回合开始时,回复记录数值一半的体力,然后清空记录.\r\n受到的伤害会被记录.\r\n当失真越祺的体力首次低于45%时,回复等同于记录的体力,然后失去此增益\r\n当前:\n<Hard>:不会失去此增益."
+    }
+}

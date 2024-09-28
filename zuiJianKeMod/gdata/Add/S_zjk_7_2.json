@@ -1,0 +1,19 @@
+{
+    "S_zjk_7_2": {
+        "_gdeSchema": "Skill",
+        "Category": "DefultSkill",
+        "Particle": "Particle/Ilya/Ilya_3",
+        "Target": "Misc",
+        "Name": "<color=#DC143C>骨断</color>",
+        "User": "",
+        "LucyPartyDraw": "",
+        "SkillExtended": [
+            "zuiJianKeMod.S_zjk_1_0"
+        ],
+        "Effect_Target": "SE_T_S_zjk_7_2",
+        "NotCount": false,
+        "Fatal": false,
+        "Description": "<color=#87CEEB>【呼吸法】</color>\n重复<color=#DC143C>肉斩</color>消耗费用次攻击",
+        "Image_0": "S_zjk_7_2\\S_zjk_7_2_Image_0.png"
+    }
+}

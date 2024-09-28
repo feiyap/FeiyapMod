@@ -1,0 +1,15 @@
+{
+    "id": "Chrona",
+    "Title": "【CN/EN/KR】克罗娜 Chrona 角色MOD",
+    "DefaultAssetBundlePath": "chrona.asset",
+    "Author": "蒼の狩人",
+    "Cover": "Chrona_Preview.png",
+    "Description": "",
+    "Visibility": "Public",
+    "OnlyUploadFiles": false,
+    "TagList": [
+        "Characters"
+    ],
+    "Uploader": "蒼の狩人",
+    "WorkShopId": "3104121701"
+}

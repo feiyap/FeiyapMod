@@ -1,0 +1,16 @@
+{
+    "B_Raye_threeingrave": {
+        "_gdeSchema": "Buff",
+        "ClassName": "SkyStriker.B_Raye_threeingrave",
+        "BuffTag": "null",
+        "Name": "Armory Armed!",
+        "Description": "Currently have 3 or more Skills in Discard.",
+        "MaxStack": 1,
+        "LifeTime": 0,
+        "Icon": "B_Raye_threeingrave\\B_Raye_threeingrave_Icon.png",
+        "Debuff": true,
+        "TagPer": 0,
+        "Tick": "null",
+        "Cantdisable": true
+    }
+}

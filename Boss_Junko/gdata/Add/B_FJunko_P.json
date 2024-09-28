@@ -1,0 +1,14 @@
+{
+    "B_FJunko_P": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "Boss_Junko.B_FJunko_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "纯狐被动",
+        "Description": "总被动"
+    }
+}

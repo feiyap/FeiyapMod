@@ -1,0 +1,15 @@
+{
+    "SE_T_S_Reisen_4": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 180,
+        "Buffs": [
+            "B_Reisen_4",
+            "B_Reisen_4_0"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

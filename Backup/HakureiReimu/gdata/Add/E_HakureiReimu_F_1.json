@@ -1,0 +1,10 @@
+{
+    "E_HakureiReimu_F_1": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Unique",
+        "name": "封魔针",
+        "Description": "每个回合第一次攻击命中时，随机使敌人攻击力、防御力、命中率、减益成功率中的一项在3回合内降低15%。",
+        "image": "Item\\E_HakureiReimu_F_1_image.png",
+        "Equip_Script": "HakureiReimu.E_HakureiReimu_F_1"
+    }
+}

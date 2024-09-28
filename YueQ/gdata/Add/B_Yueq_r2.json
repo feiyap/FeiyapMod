@@ -1,0 +1,16 @@
+{
+    "B_Yueq_r2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "YueQ.B_Yueq_r2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "道在我手",
+        "Icon": "B_Yueq_r2\\B_Yueq_r2_Icon.png",
+        "Description": "持续期间所有加入手牌的技能的共鸣特效均变为可用",
+        "LifeTime": 2
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": "Inaba",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "【CN/JP/EN/KR】因幡帝 ~ 东方永夜抄",
+    "Description": "因幡帝是擅长制造各种麻烦的输出型角色。\n\n帝擅长对敌人施加各种各样的弱化减益，从各种方面来削弱对手，让对手苦不堪言，而她自己也能从多样的弱化减益中获益。\n\n除此之外，帝自己偷偷拥有着一个宝库，她能从宝库中选出各种各样的东西来打击对手！……或是队友？\n\n包含1个角色。拥有10个基础技能，3个稀有技能，1个露西抽牌技能。\n包含1个遗物。",
+    "Cover": "InabaCover.png",
+    "Author": "绯夜氏",
+    "Version": "v1.1",
+    "TagList": [
+        "Characters"
+    ],
+    "WorkShopId": "3332677044",
+    "ChangeNote": "2024/9/26\nv1.1\n更新了JP、EN、KR文本。感谢参与翻译的支持者们。",
+    "OnlyUploadFiles": true
+}

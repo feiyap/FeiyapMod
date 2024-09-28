@@ -1,0 +1,20 @@
+{
+    "B_Asuna_P_0": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 1,
+        "Name": "准备开饭",
+        "Description": "回合开始时，消耗1层恢复5点体力。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 0,
+        "Icon": "B_Asuna_P_0\\B_Asuna_P_0_Icon.png",
+        "ClassName": "Kirito.B_Asuna_P_0"
+    }
+}

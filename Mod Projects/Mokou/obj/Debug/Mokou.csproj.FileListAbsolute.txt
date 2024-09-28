@@ -1,0 +1,8 @@
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Mokou\obj\Debug\Mokou.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Mokou\obj\Debug\Mokou.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Mokou\bin\Debug\System.Core.dll
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Mokou\obj\Debug\Mokou.csproj.Up2Date
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Mokou\bin\Debug\Mokou2024426150020.dll
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Mokou\bin\Debug\Mokou2024426150020.pdb
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Mokou\obj\Debug\Mokou2024426150020.dll
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Mokou\obj\Debug\Mokou2024426150020.pdb

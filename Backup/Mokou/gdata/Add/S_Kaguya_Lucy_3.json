@@ -1,0 +1,22 @@
+{
+    "S_Kaguya_Lucy_3": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Target": "all_ally",
+        "NoDrop": true,
+        "EnemyPreview": false,
+        "Name": "露西的复现-神宝「无限的生命之泉」",
+        "Description": "<color=#919191>你是一个值得尊敬的对手，但是，我们也有不能不完成的使命！——露西</color>",
+        "Image_0": "S_Kaguya_Lucy_3\\S_Kaguya_Lucy_3_Image_0.png",
+        "Image_1": "S_Kaguya_Lucy_3\\S_Kaguya_Lucy_3_Image_1.png",
+        "Image_2": "S_Kaguya_Lucy_3\\S_Kaguya_Lucy_3_Image_2.png",
+        "NotCount": true,
+        "AutoDelete": 1,
+        "Except": true,
+        "Effect_Target": "SE_T_S_Kaguya_Lucy_3",
+        "Rare": true,
+        "User": "Lucy",
+        "LucyPartyDraw": ""
+    }
+}

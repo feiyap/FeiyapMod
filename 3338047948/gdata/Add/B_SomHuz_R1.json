@@ -1,0 +1,12 @@
+{
+    "B_SomHuz_R1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomHuz_R1",
+        "BuffTag": "null",
+        "Name": "享受痛苦",
+        "LifeTime": 2,
+        "Description": "受到痛苦伤害时，不会受到伤害，而是将该伤害的一半转换为防护墙。",
+        "Icon": "B_SomHuz_R1\\B_SomHuz_R1_Icon.png",
+        "Tick": "null"
+    }
+}

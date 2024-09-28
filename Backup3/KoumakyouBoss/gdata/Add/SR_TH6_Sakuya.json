@@ -1,0 +1,38 @@
+{
+    "SR_TH6_Sakuya": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "十六夜咲夜",
+        "Passives": [
+            "B_RemiliaScarlet_P"
+        ],
+        "Skills": [
+            "S_Sakuya_0",
+            "S_Sakuya_1",
+            "S_Sakuya_2",
+            "S_Sakuya_3",
+            "S_Sakuya_4",
+            "S_Sakuya_5",
+            "S_Sakuya_6",
+            "S_Sakuya_7",
+            "S_Sakuya_8"
+        ],
+        "maxhp": 60,
+        "atk": 17,
+        "RES_CC": 55,
+        "RES_DEBUFF": 25,
+        "RES_DOT": 25,
+        "spd": 2,
+        "PlusActCount": [
+            1
+        ],
+        "reg": 0,
+        "def": 10,
+        "dodge": 15,
+        "cri": 15,
+        "CollactionSprite_Cover": "SR_TH6_Sakuya\\SR_TH6_SakuyaCollactionSprite_Cover.png",
+        "SubName": "十六夜咲夜",
+        "CollactionEnemy": 5,
+        "EnemyStory": "……战胜她们之后，她们才说清缘由。似乎在她们原本的世界中，见面就开始战斗是规则一般的存在。\n\n然而，她们来到红色荒野似乎在寻找着什么人？"
+    }
+}

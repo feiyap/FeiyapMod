@@ -1,0 +1,16 @@
+{
+    "B_YueP_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "YueQ.B_YueP_0",
+        "BuffTag": "null",
+        "Name": "渐入佳境",
+        "Description": "造成的伤害+&a%\n产生的治疗+&a%",
+        "Cantdisable": false,
+        "MaxStack": 2,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_YueP_0\\B_YueP_0_Icon.png"
+    }
+}

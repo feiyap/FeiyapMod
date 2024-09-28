@@ -1,0 +1,38 @@
+{
+    "S_Yueq_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "乐谱的一角",
+        "Description": "从[魅惑的魔音],[送葬的丧曲],[同庆的欢喜]中选择一个释放.\n共鸣*<color=#FF4500>R</color><color=#FF00FF>e</color><color=#1E90FF>m</color><color=#00FFFF>i</color><color=#FFD700>x</color>:暂时失去一次性.",
+        "UseAp": 2,
+        "User": "YueQ",
+        "NoBasicSkill": true,
+        "PlusKeyWords": [
+            "Yueq_GM"
+        ],
+        "Effect_Target": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "PlusSkillView": "S_Yueq_9_0",
+        "SkillExtended": [
+            "YueQ.S_Yueq_9"
+        ],
+        "Image_0": "S_Yueq_9\\S_Yueq_9_Image_0.png",
+        "Image_1": "S_Yueq_9\\S_Yueq_9_Image_1.png",
+        "Image_2": "S_Yueq_9\\S_Yueq_9_Image_2.png"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "SummonSun",
+    "myField": "Face",
+    "myValues": {
+        "path": "SummonSun\\SummonSunFace.png",
+        "offsetMax": {
+            "x": 1080.096,
+            "y": 190.544861
+        },
+        "offsetMin": {
+            "x": -987.2135,
+            "y": -1127.14514
+        },
+        "pivot": {
+            "x": 0.476552457,
+            "y": 0.8511527
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

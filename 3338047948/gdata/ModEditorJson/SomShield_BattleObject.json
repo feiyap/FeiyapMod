@@ -1,0 +1,28 @@
+{
+    "myKey": "SomShield",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SomShield\\SomShieldMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.500006,
+            "y": 0.08867395
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.500026941,
+            "y": -0.6178976
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

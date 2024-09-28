@@ -1,0 +1,17 @@
+{
+    "SummonHuz": {
+        "_gdeSchema": "Enemy",
+        "hit": 112,
+        "name": "反转调查员·卉子",
+        "Boss": true,
+        "maxhp": 240,
+        "atk": 18,
+        "reg": 17,
+        "dodge": 11,
+        "cri": 6,
+        "RES_DOT": 25,
+        "RES_CC": 35,
+        "RES_DEBUFF": 35,
+        "spd": 1
+    }
+}

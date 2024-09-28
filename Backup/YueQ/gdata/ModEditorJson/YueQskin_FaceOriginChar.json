@@ -1,0 +1,23 @@
+{
+    "myKey": "YueQskin",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Yueq_Skin\\Yueq_SkinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 663.0659,
+            "y": 576.405457
+        },
+        "offsetMin": {
+            "x": -873.1426,
+            "y": -2437.23169
+        },
+        "pivot": {
+            "x": 0.5674637,
+            "y": 0.806951046
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

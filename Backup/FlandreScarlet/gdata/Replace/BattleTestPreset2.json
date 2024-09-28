@@ -1,0 +1,54 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Control",
+            "MissChain",
+            "Priest",
+            "FlandreScarlet"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_FlandreScarlet_11Rare"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_FlandreScarlet_6",
+                "S_FlandreScarlet_8"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            "S_FlandreScarlet_LucyD"
+        ],
+        "Level": 5,
+        "AP": 10,
+        "ConsumeItems": [
+            
+        ]
+    }
+}

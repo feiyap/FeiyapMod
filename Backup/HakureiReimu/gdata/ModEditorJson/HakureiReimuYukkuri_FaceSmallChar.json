@@ -1,0 +1,23 @@
+{
+    "myKey": "HakureiReimuYukkuri",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "HakureiReimuYukkuri\\HakureiReimuYukkuriFaceSmallChar.png",
+        "offsetMax": {
+            "x": 86.43964,
+            "y": 82.46887
+        },
+        "offsetMin": {
+            "x": -64.8393555,
+            "y": -68.81011
+        },
+        "pivot": {
+            "x": 0.415175349,
+            "y": 0.4179059
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "SE_S_S_Raye_Shizuku": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Raye_Shizuku",
+            "B_Raye_ShizukuLock"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

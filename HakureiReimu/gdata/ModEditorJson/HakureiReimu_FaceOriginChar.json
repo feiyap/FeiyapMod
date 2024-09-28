@@ -1,0 +1,23 @@
+{
+    "myKey": "HakureiReimu",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "HakureiReimu\\HakureiReimuFaceOriginChar.png",
+        "offsetMax": {
+            "x": 575.695251,
+            "y": 409.648071
+        },
+        "offsetMin": {
+            "x": -368.7074,
+            "y": -1289.07471
+        },
+        "pivot": {
+            "x": 0.388930917,
+            "y": 0.755685747
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

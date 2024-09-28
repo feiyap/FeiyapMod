@@ -1,0 +1,77 @@
+{
+    "HatsuneMiku": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Support",
+        "PassiveUnlockLV1": false,
+        "name": "初音ミク",
+        "face": "HatsuneMiku\\HatsuneMikuBattleFace.png",
+        "FirstSkill": "S_HatsuneMiku_0",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 21,
+            "y": 41
+        },
+        "ATK": {
+            "x": 11,
+            "y": 25
+        },
+        "CRI": {
+            "x": 0,
+            "y": 15
+        },
+        "DODGE": {
+            "x": 5,
+            "y": 15
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 11,
+            "y": 22
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "RES_CC": {
+            "x": 10,
+            "y": 59
+        },
+        "RES_DEBUFF": {
+            "x": 10,
+            "y": 59
+        },
+        "RES_DOT": {
+            "x": 10,
+            "y": 59
+        },
+        "HIT_CC": {
+            "x": 10,
+            "y": 35
+        },
+        "HIT_DEBUFF": {
+            "x": 10,
+            "y": 35
+        },
+        "HIT_DOT": {
+            "x": 10,
+            "y": 35
+        },
+        "PassiveName": "最初之音",
+        "PassiveDes": "战斗开始时，为所有队友施加2层[未来之音]。\n\n未来之音：回合结束时，恢复等量于层数的体力。那之后，消耗1层[未来之音]。\n\n音弦X：初音ミク的技能对拥有身上已有X层[未来之音]的角色释放会触发额外效果。\n\n音律X：初音ミク身上有X层[未来之音]时会触发额外效果。",
+        "PassiveIcon": "HatsuneMiku\\HatsuneMikuPassiveIcon.png",
+        "StatView_Atk": 1,
+        "StatView_Heal": 2,
+        "StatView_Sup": 2,
+        "StatView_Debuff": 0,
+        "StatView_Difficult": 1,
+        "CollectionSprite_Cover": "HatsuneMiku\\HatsuneMikuCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "HatsuneMiku\\HatsuneMikuCollectionSprite_SkillFace.png",
+        "CampSelectWord": "「欢迎来到我的演唱会！今天的曲目，就从……」",
+        "PassiveClassName": "HatsuneMiku.P_HatsuneMiku",
+        "StatView_Def": 1,
+        "SelectInfo": "不断使用歌声叠加各种增益，\n增益越多治疗效果越强，\n以强大的音感将战斗推向最高潮！"
+    }
+}

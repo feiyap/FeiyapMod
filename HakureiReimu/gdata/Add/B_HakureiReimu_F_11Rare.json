@@ -1,0 +1,16 @@
+{
+    "B_HakureiReimu_F_11Rare": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_11Rare",
+        "BuffTag": "null",
+        "Name": "地之色乃黄色",
+        "Description": "<color=#B22222>符卡等级</color>的效果变更为“每层提供4%攻击力和防御力”。",
+        "LifeTime": 0,
+        "Icon": "B_HakureiReimu_F_11Rare\\B_HakureiReimu_F_11Rare_Icon.png",
+        "Cantdisable": true,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

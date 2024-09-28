@@ -1,0 +1,23 @@
+{
+    "myKey": "Kirito",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Kirito\\KiritoBattleChar.png",
+        "offsetMax": {
+            "x": 244.12294,
+            "y": 359.495453
+        },
+        "offsetMin": {
+            "x": -565.7944,
+            "y": -787.762146
+        },
+        "pivot": {
+            "x": 0.6985829,
+            "y": 0.686648
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

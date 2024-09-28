@@ -1,0 +1,11 @@
+{
+    "SE_Eirin_1": {
+        "_gdeSchema": "SkillExtended",
+        "Des": "",
+        "Name": "使目标获得[月人/月使]：6回合内，受到的追加攻击/反击伤害增加(20%治疗力)点。",
+        "Drop": true,
+        "EnforceString": "指向单体的攻击技能",
+        "NeedCharacter": "Eirin",
+        "ClassName": "Eirin.SE_Eirin_1"
+    }
+}

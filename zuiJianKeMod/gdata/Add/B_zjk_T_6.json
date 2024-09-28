@@ -1,0 +1,18 @@
+{
+    "B_zjk_T_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "zuiJianKeMod.B_zjk_T_6",
+        "BuffTag": "CrowdControl",
+        "Name": "力竭",
+        "MaxStack": 1,
+        "Cantdisable": true,
+        "Description": "每回合过载+1",
+        "Debuff": true,
+        "TagPer": 500,
+        "Icon": "B_zjk_T_6\\B_zjk_T_6_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

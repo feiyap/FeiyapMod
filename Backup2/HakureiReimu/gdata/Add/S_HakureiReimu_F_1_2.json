@@ -1,0 +1,24 @@
+{
+    "S_HakureiReimu_F_1_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/AzParticle/Lian/Lian_7r_new_1_hit",
+        "Target": "enemy",
+        "Description": "<b><color=#B22222>符卡等级2</color></b> - 自身每有1种增益效果，进行1次追加攻击，造成&a(30%)伤害。",
+        "Name": "宝具「阴阳鬼神玉」",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_HakureiReimu_F_1_2",
+        "Effect_Self": "SE_S_S_HakureiReimu_F_1_2",
+        "Image_0": "S_HakureiReimu_F_1_2\\S_HakureiReimu_F_1_2_Image_0.png",
+        "Image_1": "S_HakureiReimu_F_1_2\\S_HakureiReimu_F_1_2_Image_1.png",
+        "Image_2": "S_HakureiReimu_F_1_2\\S_HakureiReimu_F_1_2_Image_2.png",
+        "PlusSkillView": "S_HakureiReimu_F_1_5",
+        "SkillExtended": [
+            "HakureiReimu.S_HakureiReimu_F_1_2"
+        ],
+        "NotCount": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Track": false
+    }
+}

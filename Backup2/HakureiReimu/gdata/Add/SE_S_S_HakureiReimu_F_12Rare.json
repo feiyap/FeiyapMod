@@ -1,0 +1,17 @@
+{
+    "SE_S_S_HakureiReimu_F_12Rare": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_HakureiReimu_F_0_2",
+            "B_HakureiReimu_F_1",
+            "B_HakureiReimu_F_2",
+            "B_HakureiReimu_F_3"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0,
+            0
+        ]
+    }
+}

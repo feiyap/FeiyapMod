@@ -1,0 +1,12 @@
+{
+    "B_Yueq_7_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "YueQ.B_Yueq_7_0",
+        "BuffTag": "null",
+        "Name": "狂暴幻觉",
+        "MaxStack": 0,
+        "LifeTime": 4,
+        "Description": "如果被施加魅了,令魅了持续减少1回合.\n造成伤害时,若未使目标濒死,受到等同于造成伤害2倍的痛苦伤害.",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (16)"
+    }
+}

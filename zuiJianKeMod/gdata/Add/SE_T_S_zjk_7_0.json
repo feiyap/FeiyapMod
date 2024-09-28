@@ -1,0 +1,14 @@
+{
+    "SE_T_S_zjk_7_0": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 40,
+        "Buffs": [
+            
+        ],
+        "BuffPlusTagPer": [
+            
+        ],
+        "CRI": 40
+    }
+}

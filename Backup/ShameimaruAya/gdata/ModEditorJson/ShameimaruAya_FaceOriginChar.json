@@ -1,0 +1,23 @@
+{
+    "myKey": "ShameimaruAya",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "ShameimaruAya\\ShameimaruAyaFaceOriginChar.png",
+        "offsetMax": {
+            "x": 266.087341,
+            "y": 220.046814
+        },
+        "offsetMin": {
+            "x": -407.8827,
+            "y": -1207.7533
+        },
+        "pivot": {
+            "x": 0.60311687,
+            "y": 0.8421201
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

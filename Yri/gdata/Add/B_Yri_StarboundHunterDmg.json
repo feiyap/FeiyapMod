@@ -1,0 +1,17 @@
+{
+    "B_Yri_StarboundHunterDmg": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Yri_Char.B_Yri_StarboundHunterDmg",
+        "BuffTag": "null",
+        "Name": "Apex Predation",
+        "Icon": "B_Yri_StarboundHunterDmg\\B_Yri_StarboundHunterDmg_Icon.png",
+        "Description": "",
+        "MaxStack": 5,
+        "LifeTime": 1,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

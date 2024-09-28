@@ -1,0 +1,14 @@
+{
+    "SE_T_S_Lumiore_13Rare_0": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 200,
+        "DMG_Base": 0,
+        "Buffs": [
+            
+        ],
+        "BuffPlusTagPer": [
+            
+        ]
+    }
+}

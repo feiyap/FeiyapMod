@@ -1,0 +1,31 @@
+using UnityEngine;
+using UnityEngine.UI;
+using System;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+using GameDataEditor;
+using I2.Loc;
+using DarkTonic.MasterAudio;
+using ChronoArkMod;
+using ChronoArkMod.Plugin;
+using ChronoArkMod.Template;
+using Debug = UnityEngine.Debug;
+namespace Lumiore
+{
+	/// <summary>
+	/// 黑白乱舞
+	/// 保护体力极限。全抗性增加。
+	/// </summary>
+    public class B_Lumiore_6:Buff
+    {
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.Strength = true;
+            this.PlusStat.RES_CC = (float)(100 * base.StackNum);
+            this.PlusStat.RES_DEBUFF = (float)(100 * base.StackNum);
+            this.PlusStat.RES_DOT = (float)(100 * base.StackNum);
+        }
+    }
+}

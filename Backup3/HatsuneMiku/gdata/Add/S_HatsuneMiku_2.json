@@ -1,0 +1,36 @@
+{
+    "S_HatsuneMiku_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Name": "砂の惑星",
+        "Target": "enemy",
+        "User": "HatsuneMiku",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_HatsuneMiku_2",
+        "Image_0": "S_HatsuneMiku_2\\S_HatsuneMiku_2_Image_0.png",
+        "Image_1": "S_HatsuneMiku_2\\S_HatsuneMiku_2_Image_1.png",
+        "Image_2": "S_HatsuneMiku_2\\S_HatsuneMiku_2_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": true,
+        "Fatal": false,
+        "Description": "自己身上每有1层[未来之音]，暴击率提升10%。额外暴击率：&a\n音律3：自己身上每有2层[未来之音]，额外造成1伤害。额外伤害：&b\n音律9：将这张卡放回手卡中。",
+        "Effect_Self": "null",
+        "PlusKeyWords": [
+            
+        ],
+        "SkillExtended": [
+            "HatsuneMiku.S_HatsuneMiku_2"
+        ],
+        "Particle": "Particle/Enemy/Attack"
+    }
+}

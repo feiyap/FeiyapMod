@@ -1,0 +1,11 @@
+{
+    "SE_S_S_csgp_specialist": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "b_csgp_specialist"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

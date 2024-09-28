@@ -1,0 +1,10 @@
+{
+    "B_Yuep_T0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "YueQ.B_Yuep_T0",
+        "BuffTag": "null",
+        "Name": "点到为止",
+        "Description": "本回合已经触发过<color=#00FF7F>乐谱</color>加成了.",
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_01"
+    }
+}

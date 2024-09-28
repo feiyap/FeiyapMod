@@ -1,0 +1,15 @@
+{
+    "B_Eirin_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Eirin.B_Eirin_3",
+        "BuffTag": "null",
+        "Name": "月人/操神",
+        "LifeTime": 2,
+        "Icon": "B_Eirin_3\\B_Eirin_3_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

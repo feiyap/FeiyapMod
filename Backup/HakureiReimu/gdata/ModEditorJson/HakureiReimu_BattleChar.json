@@ -1,0 +1,23 @@
+{
+    "myKey": "HakureiReimu",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "HakureiReimu\\HakureiReimuBattleChar.png",
+        "pivot": {
+            "x": 0.427351356,
+            "y": 0.709727049
+        },
+        "offsetMin": {
+            "x": -488.346069,
+            "y": -1458.81177
+        },
+        "offsetMax": {
+            "x": 654.3812,
+            "y": 596.6429
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

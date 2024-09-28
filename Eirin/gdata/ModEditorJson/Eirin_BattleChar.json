@@ -1,0 +1,23 @@
+{
+    "myKey": "Eirin",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Eirin\\EirinBattleChar.png",
+        "offsetMax": {
+            "x": 687.24884,
+            "y": 292.490479
+        },
+        "offsetMin": {
+            "x": -330.5936,
+            "y": -1318.01953
+        },
+        "pivot": {
+            "x": 0.3247984,
+            "y": 0.818386436
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

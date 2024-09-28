@@ -1,0 +1,18 @@
+{
+    "SE_T_S_HatsuneMiku_5": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "HEAL_Per": 90,
+        "CRI": 0,
+        "Buffs": [
+            "B_HatsuneMiku_P",
+            "B_HatsuneMiku_P",
+            "B_HatsuneMiku_5"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0
+        ]
+    }
+}

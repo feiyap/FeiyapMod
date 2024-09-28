@@ -1,0 +1,10 @@
+{
+    "B_BOSSLucy_C5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_BOSSLucy_C5",
+        "BuffTag": "null",
+        "Name": "浅悠叹",
+        "Icon": "B_BOSSLucy_C5\\B_BOSSLucy_C5_Icon.png",
+        "LifeTime": 6
+    }
+}

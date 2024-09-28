@@ -1,0 +1,38 @@
+{
+    "S_Satsuki_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "all_onetarget",
+        "NotCount": true,
+        "Basic": false,
+        "Name": "春之花「漫天流樱」",
+        "UseAp": 1,
+        "User": "SatsukiRin",
+        "PlusKeyWords": [
+            
+        ],
+        "Effect_Target": "SE_T_S_Satsuki_4",
+        "Image_0": "S_Satsuki_4\\S_Satsuki_4_Image_0.png",
+        "Image_1": "S_Satsuki_4\\S_Satsuki_4_Image_1.png",
+        "Image_2": "S_Satsuki_4\\S_Satsuki_4_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": true,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Description": "随机驱散1个减益效果。对随机敌人造成%a(60%)伤害。\n\n可以对敌人释放。对敌人释放时，造成%a(60%)伤害，驱散目标身上的[流金叠翠]，恢复随机队友%b(130%)点体力。",
+        "SkillExtended": [
+            "SatsukiRin.S_Satsuki_4"
+        ],
+        "Counting": 1
+    }
+}

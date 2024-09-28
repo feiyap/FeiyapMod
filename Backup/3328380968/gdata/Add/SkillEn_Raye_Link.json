@@ -1,0 +1,10 @@
+{
+    "SkillEn_Raye_Link": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "If played, Raye creates 1 Linkage! in hand.",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "Raye",
+        "ClassName": "SkyStriker.SkillEn_Raye_Link"
+    }
+}

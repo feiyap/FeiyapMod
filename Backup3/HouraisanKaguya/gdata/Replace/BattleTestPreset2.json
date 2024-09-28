@@ -1,0 +1,78 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "LucySkill": [
+            "S_LucyD_12",
+            "S_LucyD_13",
+            "S_LucyD_14",
+            "S_LucyD_15",
+            "S_LucyD_17_SwimDLC"
+        ],
+        "PartySkills": [
+            [
+                "S_SilverStein_7",
+                "S_SilverStein_7",
+                "S_SilverStein_7",
+                "S_SilverStein_10",
+                "S_SilverStein_10",
+                "S_SilverStein_10"
+            ],
+            [
+                "S_Priest_0",
+                "S_Priest_0",
+                "S_Priest_11",
+                "S_Priest_1",
+                "S_Priest_6",
+                "S_Priest_8",
+                "S_Priest_8"
+            ],
+            [
+                "S_Control_6",
+                "S_Control_4",
+                "S_Control_4",
+                "S_Control_2",
+                "S_Control_11",
+                "S_Control_11"
+            ],
+            [
+                "S_Azar_10",
+                "S_Azar_13",
+                "S_Azar_3",
+                "S_Azar_9",
+                "S_Azar_9",
+                "S_Azar_13",
+                "S_FKaguya_10Rare_19"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                "Deadeye",
+                "HolySwordKarsaga"
+            ],
+            [
+                "BloodyMary",
+                "WaterMelon_SwimDLC"
+            ],
+            [
+                "SweetPotato_1"
+            ],
+            [
+                "Swimsuit_SwimDLC"
+            ]
+        ],
+        "Party": [
+            "SilverStein",
+            "Priest",
+            "Control",
+            "Azar"
+        ],
+        "PartyBasicSkill": [
+            "S_SilverStein_6",
+            "S_Priest_4",
+            "S_Control_8",
+            "S_Azar_11"
+        ],
+        "AP": 7,
+        "Level": 4
+    }
+}

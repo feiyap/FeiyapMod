@@ -1,0 +1,23 @@
+{
+    "myKey": "HouraisanKaguyaEVO",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "HouraisanKaguyaEVO\\HouraisanKaguyaEVOBattleChar.png",
+        "offsetMax": {
+            "x": 711.6216,
+            "y": 320.306915
+        },
+        "offsetMin": {
+            "x": -705.627258,
+            "y": -1362.67639
+        },
+        "pivot": {
+            "x": 0.4978852,
+            "y": 0.8096791
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

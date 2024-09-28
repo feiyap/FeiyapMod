@@ -1,0 +1,37 @@
+{
+    "S_csgp_viper": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/IronHeart/IronHeart_new_1",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "毒蛇",
+        "Description": "———————————————\r\n<color=#228B22>合成\r\n</color>将此技能握在手中时，若<color=#B10DC9>未释放过其它技能</color>，该技能<color=#FFA500>获得迅速\r\n</color>\r以倒计时2优先对目标<color=#B10DC9>再次使用该技能",
+        "UseAp": 1,
+        "PlusKeyWords": [
+            "csgp_synthesis",
+            "csgp_viper_test"
+        ],
+        "Image_0": "S_csgp_viper\\S_csgp_viper_Image_0.png",
+        "Image_1": "S_csgp_viper\\S_csgp_viper_Image_1.png",
+        "Image_2": "S_csgp_viper\\S_csgp_viper_Image_2.png",
+        "Effect_Target": "SE_T_S_csgp_viper",
+        "IgnoreTaunt": true,
+        "Counting": 1,
+        "User": "kohei_lzumi",
+        "Except": false,
+        "SkillExtended": [
+            "Kohei.S_Kohei_viper"
+        ],
+        "Track": false,
+        "Fatal": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "NoBasicSkill": false,
+        "Basic": false
+    }
+}

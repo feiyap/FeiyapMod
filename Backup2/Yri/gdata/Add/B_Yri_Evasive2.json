@@ -1,0 +1,12 @@
+{
+    "B_Yri_Evasive2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Yri_Char.B_Yri_Evasive2",
+        "BuffTag": "null",
+        "Name": "Offensive Stratagem",
+        "Description": "Remove 1 stack when attacking.",
+        "Icon": "B_Yri_Evasive2\\B_Yri_Evasive2_Icon.png",
+        "MaxStack": 3,
+        "LifeTime": 3
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "S_HakureiReimu_F_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_1",
+        "Target": "all_enemy",
+        "Name": "境界「二重弹幕结界」",
+        "Description": "以倒计时2的形式重复释放1次。",
+        "UseAp": 3,
+        "User": "HakureiReimu",
+        "NotCount": false,
+        "Effect_Target": "SE_T_S_HakureiReimu_F_6",
+        "Image_0": "S_HakureiReimu_F_6\\S_HakureiReimu_F_6_Image_0.png",
+        "Image_1": "S_HakureiReimu_F_6\\S_HakureiReimu_F_6_Image_1.png",
+        "Image_2": "S_HakureiReimu_F_6\\S_HakureiReimu_F_6_Image_2.png",
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Track": false,
+        "PlusSkillView": "S_HakureiReimu_F_6_4",
+        "SkillExtended": [
+            "HakureiReimu.S_HakureiReimu_F_6"
+        ],
+        "Disposable": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

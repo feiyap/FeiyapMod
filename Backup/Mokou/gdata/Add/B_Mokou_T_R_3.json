@@ -1,0 +1,19 @@
+{
+    "B_Mokou_T_R_3": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Mokou.B_Mokou_T_R_3",
+        "BuffTag": "CrowdControl",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_01",
+        "EnemyBuffEffect": "BuffEffect/Enemy/Stun",
+        "LifeTime": 2,
+        "Debuff": true,
+        "TagPer": 0,
+        "Name": "眩晕",
+        "Description": "无法行动"
+    }
+}

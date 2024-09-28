@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Kirito_13Rare": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Kirito_13Rare"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

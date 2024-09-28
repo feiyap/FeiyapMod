@@ -1,0 +1,9 @@
+{
+    "SE_T_Chiyo_DroneAssault": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 80,
+        "CRI": 10,
+        "DMG_Base": 0
+    }
+}

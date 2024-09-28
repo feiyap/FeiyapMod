@@ -1,0 +1,17 @@
+{
+    "S_Eirin_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": true,
+        "HealSkill": true,
+        "Name": "苏生「Rising Game」",
+        "UseAp": 2,
+        "User": "Eirin",
+        "Effect_Target": "SE_T_S_Eirin_6",
+        "Image_0": "S_Eirin_6\\S_Eirin_6_Image_0.png",
+        "Image_1": "S_Eirin_6\\S_Eirin_6_Image_1.png",
+        "Image_2": "S_Eirin_6\\S_Eirin_6_Image_2.png"
+    }
+}

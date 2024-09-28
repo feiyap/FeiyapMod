@@ -1,0 +1,38 @@
+{
+    "S_Sanae_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "NotCount": true,
+        "Name": "奇迹「弘安的神风」",
+        "Description": "<b><color=green>连击2</color></b> - 生成1个[东风灵]。",
+        "UseAp": 1,
+        "User": "KochiyaSanae",
+        "Effect_Target": "SE_T_S_Sanae_5",
+        "PlusSkillView": "S_Sanae_P",
+        "Image_0": "S_Sanae_5\\S_Sanae_5_Image_0.png",
+        "Image_1": "S_Sanae_5\\S_Sanae_5_Image_1.png",
+        "Image_2": "S_Sanae_5\\S_Sanae_5_Image_2.png",
+        "SkillExtended": [
+            "KochiyaSanae.S_Sanae_5"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Combo"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

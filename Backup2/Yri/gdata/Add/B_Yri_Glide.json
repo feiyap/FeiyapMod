@@ -1,0 +1,11 @@
+{
+    "B_Yri_Glide": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "Glide",
+        "Description": "Dodge the next attack.",
+        "MaxStack": 2,
+        "Icon": "B_Yri_Glide\\B_Yri_Glide_Icon.png"
+    }
+}

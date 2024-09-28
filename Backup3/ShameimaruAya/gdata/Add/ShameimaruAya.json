@@ -1,0 +1,73 @@
+{
+    "ShameimaruAya": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "ShameimaruAya.P_ShameimaruAya",
+        "PassiveUnlockLV1": false,
+        "name": "射命丸文",
+        "face": "ShameimaruAya\\ShameimaruAyaBattleFace.png",
+        "SelectInfo": "射命丸文是以快速使用技能为核心的连击型输出。\n\n射命丸文的能力使得她能够从“连击”数中增强自己的能力，并解锁技能的额外效果。连续不断地使用技能生成“北风灵”，再消耗“北风灵”来堆叠“连击”数，以此形成狂风一般的连续攻势。\n\n试着结合风灵系的调查员，在扭曲之地刮起幻想的风吧！",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 23,
+            "y": 35
+        },
+        "ATK": {
+            "x": 14,
+            "y": 25
+        },
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 7,
+            "y": 14
+        },
+        "HIT": {
+            "x": 96,
+            "y": 107
+        },
+        "RES_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DEBUFF": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DOT": {
+            "x": 5,
+            "y": 45
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "PassiveName": "传统的幻想记者",
+        "CollectionSprite_Cover": "ShameimaruAya\\ShameimaruAyaCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "ShameimaruAya\\ShameimaruAyaCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Difficult": 2,
+        "CampSelectWord": "绝佳的新闻素材！请务必带上我出发吧。",
+        "PassiveIcon": "ShameimaruAya\\ShameimaruAyaPassiveIcon.png",
+        "PassiveDes": "<b>风神少女</b> - 每使用3个手中的技能后，使下1个出手的自己的技能附带迅速。\n\n<b>操纵风程度的能力</b> - 每次使用手中的技能后，射命丸文这个回合内会获得额外5%暴击率。\n\n<b><color=green>连击X</color></b> - 每个回合中使用过的技能大于X个时，可以触发额外效果。",
+        "FirstSkill": "S_Shameimaru_0"
+    }
+}

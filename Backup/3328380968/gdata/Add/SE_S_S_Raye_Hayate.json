@@ -1,0 +1,13 @@
+{
+    "SE_S_S_Raye_Hayate": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Raye_Hayate",
+            "B_Raye_HayateLock"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

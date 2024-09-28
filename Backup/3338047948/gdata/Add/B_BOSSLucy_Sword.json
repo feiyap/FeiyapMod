@@ -1,0 +1,16 @@
+{
+    "B_BOSSLucy_Sword": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_BOSSLucy_Sword",
+        "BuffTag": "null",
+        "Name": "剑圣露西",
+        "Description": "回合开始时，为自身施加1层剑圣露西。\n每回合开始时，随机永久标记手牌中的一个非露西技能赋予空转减益。释放被赋予空转减益的技能时，技能拥有者的过载+1，反转命运者·露西以倒计时2使用技能普通攻击。\n当自身的体力值降低至上限三分之一以下时恢复至三分之一，破坏所有除自己以外的怪物。下回合反转命运者·露西固定使用技能本我的对决，并为自身施加无敌与聚集的祈愿增益。",
+        "Icon": "B_BOSSLucy_Sword\\B_BOSSLucy_Sword_Icon.png",
+        "MaxStack": 30,
+        "Cantdisable": true,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

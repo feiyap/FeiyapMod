@@ -1,0 +1,12 @@
+{
+    "B_HakureiReimu_F_E_1_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_E_1_3",
+        "BuffTag": "Debuff",
+        "Name": "封魔针-运",
+        "Icon": "Image/Buff/Skill_Icon_Pack/Debuff",
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 100
+    }
+}

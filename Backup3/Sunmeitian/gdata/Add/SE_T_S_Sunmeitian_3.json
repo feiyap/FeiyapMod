@@ -1,0 +1,14 @@
+{
+    "SE_T_S_Sunmeitian_3": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 100,
+        "CRI": 100,
+        "Buffs": [
+            "B_Sunmeitian_3"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

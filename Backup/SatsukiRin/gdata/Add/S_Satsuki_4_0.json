@@ -1,0 +1,12 @@
+{
+    "S_Satsuki_4_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flashy-hit-1",
+        "Target": "random_enemy",
+        "Name": "春之花「漫天流樱」",
+        "Effect_Target": "SE_T_S_Satsuki_4_0",
+        "NotCount": false,
+        "HealSkill": false
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "S_Reisen_3_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Shotgun_0",
+        "Rare": false,
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "惑视「离圆花冠(Corolla Vision)」",
+        "IgnoreTaunt": false,
+        "Effect_Target": "SE_T_S_Reisen_3_0"
+    }
+}

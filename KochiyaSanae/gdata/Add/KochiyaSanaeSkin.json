@@ -1,0 +1,19 @@
+{
+    "KochiyaSanaeSkin": {
+        "Character": "KochiyaSanae",
+        "_gdeType_Character": "Character",
+        "_gdeType_SkinName": "String",
+        "SkinName": "现代人的现人神",
+        "_gdeSchema": "Character_Skin",
+        "FaceSprite": "KochiyaSanaeSkin\\KochiyaSanaeSkinBattleFace.png",
+        "CollectionSprite_Cover": "KochiyaSanaeSkin\\KochiyaSanaeSkinCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "KochiyaSanaeSkin\\KochiyaSanaeSkinCollectionSprite_SkillFace.png",
+        "CampSD": [
+            "KochiyaSanaeSkin\\KochiyaSanaeSkinCampSD0.png",
+            "KochiyaSanaeSkin\\KochiyaSanaeSkinCampSD1.png",
+            "KochiyaSanaeSkin\\KochiyaSanaeSkinCampSD2.png",
+            "KochiyaSanaeSkin\\KochiyaSanaeSkinCampSD3.png"
+        ],
+        "SkinDesc": "在那风中，仿若看到了于风中起舞的祝仪少女，得以从中窥见那个幻想世界的冰山一角，以妖怪命名的山自平地而起。\n等到反应过来时，眼前却又什么都没有。\n刚才看见的，大概，是风吧。"
+    }
+}

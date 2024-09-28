@@ -1,0 +1,12 @@
+{
+    "S_HakureiReimu_F_1_EX": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_new_1_hit",
+        "Target": "enemy",
+        "Name": "阴阳玉攻击",
+        "UseAp": 2,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_HakureiReimu_F_1_EX"
+    }
+}

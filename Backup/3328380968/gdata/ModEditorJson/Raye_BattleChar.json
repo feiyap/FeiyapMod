@@ -1,0 +1,23 @@
+{
+    "myKey": "Raye",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Raye\\RayeBattleChar.png",
+        "pivot": {
+            "x": 0.411453843,
+            "y": 0.8029644
+        },
+        "offsetMin": {
+            "x": -848.1927,
+            "y": -1251.80054
+        },
+        "offsetMax": {
+            "x": 1213.26013,
+            "y": 307.17337
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

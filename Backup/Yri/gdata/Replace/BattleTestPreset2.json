@@ -1,0 +1,53 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Yri",
+            "SilverStein",
+            "LucyC"
+        ],
+        "PartyBasicSkill": [
+            "S_Yri_Ascension",
+            "S_Azar_5",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                "S_Yri_HunterAura",
+                "S_Yri_FeatherWall",
+                "S_Yri_Defender",
+                "S_Yri_Blizzard",
+                "S_Yri_Chirp",
+                "S_Yri_Chirp",
+                "S_Yri_StbHtr",
+                "S_Yri_StbHtr"
+            ],
+            [
+                "S_SilverStein_3",
+                "S_SilverStein_3",
+                "S_ShadowPriest_5",
+                "S_ShadowPriest_5"
+            ],
+            [
+                "S_DebugSkill"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            "S_Yri_Lucydraw",
+            "S_Lucy_21",
+            "S_Lucy_21",
+            "S_Lucy_21"
+        ]
+    }
+}

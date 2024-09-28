@@ -1,0 +1,34 @@
+{
+    "S_Eirin_10Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "all_ally",
+        "Name": "天呪「Apollo 13」",
+        "Description": "每次使用手中的技能时，或是自身或队友触发追加攻击/反击时，这个技能费用-1。",
+        "UseAp": 13,
+        "User": "Eirin",
+        "Rare": true,
+        "NotCount": true,
+        "HealSkill": true,
+        "Effect_Target": "SE_T_S_Eirin_10Rare",
+        "Image_0": "S_Eirin_10Rare\\S_Eirin_10Rare_Image_0.png",
+        "Image_1": "S_Eirin_10Rare\\S_Eirin_10Rare_Image_1.png",
+        "Image_2": "S_Eirin_10Rare\\S_Eirin_10Rare_Image_2.png",
+        "SkillExtended": [
+            "Eirin.S_Eirin_10Rare"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

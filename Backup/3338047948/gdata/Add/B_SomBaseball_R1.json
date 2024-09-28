@@ -1,0 +1,11 @@
+{
+    "B_SomBaseball_R1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomBaseball_R1",
+        "BuffTag": "null",
+        "Name": "制裁之翼",
+        "Description": "每当通过交换能力抽取技能时，随机获得以下增益中的一个：\n10保护罩；天使的祝福；绝对防御；痛苦、弱化成功率增加；痛苦转换。",
+        "LifeTime": 4,
+        "Icon": "B_SomBaseball_R1\\B_SomBaseball_R1_Icon.png"
+    }
+}

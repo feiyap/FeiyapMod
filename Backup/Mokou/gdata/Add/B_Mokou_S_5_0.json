@@ -1,0 +1,16 @@
+{
+    "B_Mokou_S_5_0": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "ClassName": "Mokou.B_Mokou_S_5_0",
+        "BuffTag": "null",
+        "Name": "妹红的保护",
+        "LifeTime": 2,
+        "Icon": "B_Mokou_S_5_0\\B_Mokou_S_5_0_Icon.png",
+        "Description": "",
+        "Hide": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

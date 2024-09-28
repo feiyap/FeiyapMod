@@ -1,0 +1,12 @@
+{
+    "myKey": "MBoss2_0_0",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "",
+        "Animation": "None"
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

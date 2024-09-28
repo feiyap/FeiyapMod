@@ -1,0 +1,13 @@
+{
+    "S_Kirito_LucyD_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "回3",
+        "SkillExtended": [
+            "Kirito.S_Kirito_LucyD_1"
+        ],
+        "Description": ""
+    }
+}

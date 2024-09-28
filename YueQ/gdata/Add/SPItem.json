@@ -1,0 +1,13 @@
+{
+    "SPItem": {
+        "_gdeType_Moded": "Bool",
+        "aModed": true,
+        "_gdeIsList_Sprites": 1,
+        "_gdeType_Sprites": "Sprite",
+        "Sprites": [
+            "1yanse.png",
+            "yanse1.png"
+        ],
+        "_gdeSchema": "ImageDatas"
+    }
+}

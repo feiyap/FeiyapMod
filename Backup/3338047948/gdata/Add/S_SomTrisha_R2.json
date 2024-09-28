@@ -1,0 +1,23 @@
+{
+    "S_SomTrisha_R2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "Misc",
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Description": "展示相当于队员数量的所有调查队员的随机稀有技能，选择1个技能生成。\n随机生成一个露西的稀有技能。",
+        "Name": "暗影重重",
+        "Image_0": "S_SomTrisha_R2\\S_SomTrisha_R2_Image_0.png",
+        "Image_1": "S_SomTrisha_R2\\S_SomTrisha_R2_Image_1.png",
+        "Image_2": "S_SomTrisha_R2\\S_SomTrisha_R2_Image_2.png",
+        "SkillExtended": [
+            "BOSSLucy.S_SomTrisha_R2"
+        ],
+        "Disposable": true,
+        "NotCount": true,
+        "UseAp": 3
+    }
+}

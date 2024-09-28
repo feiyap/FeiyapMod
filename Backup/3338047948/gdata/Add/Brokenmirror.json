@@ -1,0 +1,9 @@
+{
+    "Brokenmirror": {
+        "_gdeSchema": "Item_Passive",
+        "name": "反转之镜的碎片",
+        "Description": "回合结束时，若调查员没有体力极限，则受到5点痛苦伤害；若调查员拥有体力极限，则超额恢复5点体力；若手中技能数小于5张，则抽取至5张；若手中技能数大于5张，则丢弃所有技能；若队员中存在西露，则负面效果不会发动。\n",
+        "image": "Item\\Brokenmirror_image.png",
+        "passive_script": "BOSSLucy.Brokenmirror"
+    }
+}

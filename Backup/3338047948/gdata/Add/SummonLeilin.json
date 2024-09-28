@@ -1,0 +1,17 @@
+{
+    "SummonLeilin": {
+        "_gdeSchema": "Enemy",
+        "hit": 107,
+        "name": "反转调查员·蕾琳",
+        "Boss": true,
+        "atk": 20,
+        "reg": 16,
+        "maxhp": 210,
+        "spd": 1,
+        "dodge": 11,
+        "cri": 6,
+        "RES_DEBUFF": 35,
+        "RES_CC": 20,
+        "RES_DOT": 20
+    }
+}

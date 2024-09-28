@@ -1,0 +1,8 @@
+{
+    "S_LucyD_13": {
+        "_gdeSchema": "Skill",
+        "Particle": "Particle/impact",
+        "Basic": false,
+        "IgnoreTaunt": false
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "SE_T_S_Raye_Afterburners2": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 80,
+        "Buffs": [
+            "B_Raye_BurningWounds"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

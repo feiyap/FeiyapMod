@@ -1,0 +1,19 @@
+{
+    "Chiyo_HardwareAcceleration_CuttingEdgeGPU": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Name": "Cutting Edge GPU",
+        "Description": "Draw 3 skills.\nPay &SkillGoldCost Gold to cast this skill.  ",
+        "Effect_Target": "SE_T_Chiyo_HardwareAcceleration_CuttingEdgeGPU",
+        "SkillExtended": [
+            "Chiyo.Chiyo_HardwareAcceleration_CuttingEdgeGPU"
+        ],
+        "Disposable": false,
+        "Image_0": "Chiyo_HardwareAcceleration_CuttingEdgeGPU\\Chiyo_HardwareAcceleration_CuttingEdgeGPU_Image_0.png",
+        "Image_1": "Chiyo_HardwareAcceleration_CuttingEdgeGPU\\Chiyo_HardwareAcceleration_CuttingEdgeGPU_Image_1.png",
+        "Image_2": "Chiyo_HardwareAcceleration_CuttingEdgeGPU\\Chiyo_HardwareAcceleration_CuttingEdgeGPU_Image_2.png",
+        "NotCount": false
+    }
+}

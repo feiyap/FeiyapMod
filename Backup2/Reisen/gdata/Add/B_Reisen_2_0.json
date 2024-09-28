@@ -1,0 +1,16 @@
+{
+    "B_Reisen_2_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Reisen.B_Reisen_2_0",
+        "BuffTag": "Debuff",
+        "Name": "幻象/狂视",
+        "Description": "[幻象/乱弹]对目标的暴击率提升100%。",
+        "LifeTime": 6,
+        "MaxStack": 1,
+        "Debuff": true,
+        "TagPer": 150,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_82/1",
+        "Cantdisable": false,
+        "UseSkillDebuff": false
+    }
+}

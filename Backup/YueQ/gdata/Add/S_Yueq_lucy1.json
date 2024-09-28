@@ -1,0 +1,22 @@
+{
+    "S_Yueq_lucy1": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "YueQ",
+        "Name": "音缘",
+        "Description": "抽取一个技能\r\n若有调查员存在体力极限,抽取一个技能,然后回复其中一名调查员的所有体力极限。\r\n若本次调查期间,所有调查员均因此效果回复过体力极限,再抽取一个技能。\n当前已结缘:&a",
+        "UseAp": 0,
+        "SkillExtended": [
+            "YueQ.S_Yueq_lucy1"
+        ],
+        "Image_0": "S_Yueq_lucy1\\S_Yueq_lucy1_Image_0.png",
+        "Image_1": "S_Yueq_lucy1\\S_Yueq_lucy1_Image_1.png",
+        "Image_2": "S_Yueq_lucy1\\S_Yueq_lucy1_Image_2.png",
+        "Rare": false,
+        "NotCount": false,
+        "Disposable": false
+    }
+}

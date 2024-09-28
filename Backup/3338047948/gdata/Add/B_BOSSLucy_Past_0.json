@@ -1,0 +1,12 @@
+{
+    "B_BOSSLucy_Past_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "拭去泪水",
+        "Description": "免疫来自嚎哭增益的效果。\n回合开始时法力值不会因嚎哭增益减少。",
+        "Icon": "B_BOSSLucy_Past_0\\B_BOSSLucy_Past_0_Icon.png",
+        "LifeTime": 2
+    }
+}

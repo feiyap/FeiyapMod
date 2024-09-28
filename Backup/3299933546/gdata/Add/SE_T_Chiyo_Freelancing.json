@@ -1,0 +1,14 @@
+{
+    "SE_T_Chiyo_Freelancing": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "Chiyo_Freelancing_Buff",
+            "Chiyo_Freelancing_Buff"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

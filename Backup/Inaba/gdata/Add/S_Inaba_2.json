@@ -1,0 +1,22 @@
+{
+    "S_Inaba_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_2",
+        "Target": "enemy",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "Name": "兔符「因幡的白兔」",
+        "User": "Inaba",
+        "UseAp": 1,
+        "Description": "从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。",
+        "Effect_Target": "SE_T_S_Inaba_2",
+        "Track": true,
+        "Image_0": "S_Inaba_2\\S_Inaba_2_Image_0.png",
+        "Image_1": "S_Inaba_2\\S_Inaba_2_Image_1.png",
+        "Image_2": "S_Inaba_2\\S_Inaba_2_Image_2.png",
+        "SkillExtended": [
+            "Inaba.S_Inaba_2"
+        ]
+    }
+}

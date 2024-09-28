@@ -1,0 +1,23 @@
+{
+    "myKey": "SummonTrisha",
+    "myField": "Face",
+    "myValues": {
+        "path": "SummonTrisha\\SummonTrishaFace.png",
+        "offsetMax": {
+            "x": 1941.956,
+            "y": 275.192963
+        },
+        "offsetMin": {
+            "x": -1387.4668,
+            "y": -1846.96033
+        },
+        "pivot": {
+            "x": 0.416118562,
+            "y": 0.8676897
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

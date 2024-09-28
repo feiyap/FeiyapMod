@@ -1,0 +1,10 @@
+{
+    "B_SomLock_Dead": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomLock_Dead",
+        "BuffTag": "null",
+        "Icon": "B_SomLock_Dead\\B_SomLock_Dead_Icon.png",
+        "Name": "遗物共鸣",
+        "Description": "自身死亡时，召唤月亮碎片到战场上。"
+    }
+}

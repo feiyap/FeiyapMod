@@ -1,0 +1,13 @@
+{
+    "SE_S_S_Eugeo_P": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Eugeo_P",
+            "B_Eugeo_P_0"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "S_FlandreScarlet_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/S_Hein_1",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "禁弹「星弧破碎」",
+        "Description": "技能出手时，受到&a(20%)痛苦伤害。\n\r如果自身处于濒死状态，不会受到痛苦伤害。\n\n禁忌 - 额外造成&b(80%)伤害。这个技能暴击率和命中率+30%。",
+        "UseAp": 2,
+        "User": "FlandreScarlet",
+        "Effect_Target": "SE_T_S_FlandreScarlet_0",
+        "Image_0": "S_FlandreScarlet_0\\S_FlandreScarlet_0_Image_0.png",
+        "Image_1": "S_FlandreScarlet_0\\S_FlandreScarlet_0_Image_1.png",
+        "Image_2": "S_FlandreScarlet_0\\S_FlandreScarlet_0_Image_2.png",
+        "SkillExtended": [
+            "FlandreScarlet.S_FlandreScarlet_0"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Revenge"
+        ]
+    }
+}

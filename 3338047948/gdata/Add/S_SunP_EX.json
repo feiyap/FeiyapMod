@@ -1,0 +1,9 @@
+{
+    "S_SunP_EX": {
+        "_gdeSchema": "SkillExtended",
+        "Des": "伤害量减少5点。\n当月亮碎片和太阳碎片都在战场上时，伤害量减少10点。",
+        "Name": "太阳",
+        "IsIcon": "S_SunP_EX\\S_SunP_EX_Icon.png",
+        "ClassName": "BOSSLucy.S_SunP_EX"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "B_Raye_Kagari": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "SkyStriker.B_Raye_Kagari",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "X003 - Kagari",
+        "Icon": "B_Raye_Kagari\\B_Raye_Kagari_Icon.png",
+        "MaxStack": 1,
+        "LifeTime": 0,
+        "Debuff": false,
+        "TagPer": 0,
+        "Description": "While in Kagari, Attacks that do not kill the enemy will inflict Burning Wounds (<sprite=1>&a%)."
+    }
+}

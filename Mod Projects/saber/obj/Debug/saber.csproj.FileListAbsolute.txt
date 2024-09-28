@@ -1,0 +1,8 @@
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\saber\bin\Debug\System.Core.dll
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\saber\obj\Debug\saber.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\saber\obj\Debug\saber.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\saber\obj\Debug\saber.csproj.Up2Date
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\saber\bin\Debug\saber09132024163152.dll
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\saber\bin\Debug\saber09132024163152.pdb
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\saber\obj\Debug\saber09132024163152.dll
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\saber\obj\Debug\saber09132024163152.pdb

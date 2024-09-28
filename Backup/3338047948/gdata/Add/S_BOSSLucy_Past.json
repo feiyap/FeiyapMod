@@ -1,0 +1,34 @@
+{
+    "S_BOSSLucy_Past": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/flare_lv1",
+        "Rare": true,
+        "Target": "all_ally",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "拭去泪水",
+        "User": "Lucy",
+        "LucyPartyDraw": "",
+        "AutoDelete": 1,
+        "Description": "只能拿到手中后立即使用，否则无法使用。",
+        "Effect_Target": "SE_T_S_BOSSLucy_Past",
+        "SkillExtended": [
+            "BOSSLucy.S_BOSSLucy_Past"
+        ],
+        "Image_0": "S_BOSSLucy_Past\\S_BOSSLucy_Past_Image_0.png",
+        "Image_1": "S_BOSSLucy_Past\\S_BOSSLucy_Past_Image_1.png"
+    }
+}

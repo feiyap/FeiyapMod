@@ -1,0 +1,33 @@
+{
+    "S_Lumiore_13Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": true,
+        "Name": "金色威信·璐米欧儿",
+        "Description": "回复2点AP。\n若[本场战斗中，丢弃手牌的次数]大于4次，丢弃2个技能，抽取3个技能。",
+        "UseAp": 5,
+        "Particle": "Particle/Public/Public_28",
+        "Target": "enemy",
+        "User": "Lumiore",
+        "Effect_Self": "SE_S_S_Lumiore_13Rare",
+        "Effect_Target": "SE_T_S_Lumiore_13Rare",
+        "NotCount": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Image_0": "S_Lumiore_13Rare\\S_Lumiore_13Rare_Image_0.png",
+        "Image_1": "S_Lumiore_13Rare\\S_Lumiore_13Rare_Image_1.png",
+        "Image_2": "S_Lumiore_13Rare\\S_Lumiore_13Rare_Image_2.png",
+        "SkillExtended": [
+            "Lumiore.S_Lumiore_13Rare"
+        ]
+    }
+}

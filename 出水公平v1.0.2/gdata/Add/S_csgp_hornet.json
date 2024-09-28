@@ -1,0 +1,39 @@
+{
+    "S_csgp_hornet": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/Hel_2",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": true,
+        "Fatal": false,
+        "Name": "黄蜂",
+        "UseAp": 2,
+        "Description": "———————————————\r\n<color=#FFA500>必定命中</color>\r<color=#FF6347></color><color=#B10DC9></color>\n根据<color=#FFA500>溢出的命中率*2[技能命中率-100％-目标闪避率]</color>增加该技能的基础伤害<color=#B10DC9>(最多200％)</color>\r\n若场上只有一个敌人，<color=#B10DC9>则再次使用该技能\r",
+        "Counting": 1,
+        "Image_0": "S_csgp_hornet\\S_csgp_hornet_Image_0.png",
+        "Image_1": "S_csgp_hornet\\S_csgp_hornet_Image_1.png",
+        "Image_2": "S_csgp_hornet\\S_csgp_hornet_Image_2.png",
+        "PlusKeyWords": [
+            "csgp_hornet_test"
+        ],
+        "Effect_Target": "SE_T_S_csgp_hornet",
+        "PlusSkillView": "S_csgp_salamander",
+        "SkillExtended": [
+            "Kohei.S_Kohei_hornet"
+        ],
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "AutoDelete": 2
+    }
+}

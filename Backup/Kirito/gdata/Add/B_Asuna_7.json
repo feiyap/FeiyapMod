@@ -1,0 +1,17 @@
+{
+    "B_Asuna_7": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Kirito.B_Asuna_7",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
+        "Name": "切换",
+        "Description": "桐人会以一半的效果重复释放打出的技能。",
+        "MaxStack": 1,
+        "LifeTime": 1
+    }
+}

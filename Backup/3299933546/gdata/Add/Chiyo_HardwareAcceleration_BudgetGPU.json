@@ -1,0 +1,33 @@
+{
+    "Chiyo_HardwareAcceleration_BudgetGPU": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Disposable": false,
+        "Name": "Budget GPU",
+        "Description": "Draw 1 skill.",
+        "Effect_Target": "SE_T_Chiyo_HardwareAcceleration_BudgetGPU",
+        "PlusSkillView": "Chiyo_HardwareAcceleration_CuttingEdgeGPU",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "Chiyo_HardwareAcceleration_BudgetGPU\\Chiyo_HardwareAcceleration_BudgetGPU_Image_0.png",
+        "Image_1": "Chiyo_HardwareAcceleration_BudgetGPU\\Chiyo_HardwareAcceleration_BudgetGPU_Image_1.png",
+        "Image_2": "Chiyo_HardwareAcceleration_BudgetGPU\\Chiyo_HardwareAcceleration_BudgetGPU_Image_2.png",
+        "SkillExtended": [
+            "Chiyo.Chiyo_HardwareAcceleration_BudgetGPU"
+        ]
+    }
+}

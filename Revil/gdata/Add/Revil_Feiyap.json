@@ -1,0 +1,31 @@
+{
+    "Revil_Feiyap": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "name": "拉薇儿",
+        "SelectInfo": "",
+        "face": "Revil_Feiyap\\Revil_FeiyapBattleFace.png",
+        "CollectionSprite_Cover": "Revil_Feiyap\\Revil_FeiyapCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Revil_Feiyap\\Revil_FeiyapCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Sup": 1,
+        "StatView_Debuff": 1,
+        "StatView_CC": 1,
+        "StatView_Dot": 1,
+        "StatView_Difficult": 2,
+        "MAXHP": {
+            "x": 20,
+            "y": 50
+        },
+        "ATK": {
+            "x": 15,
+            "y": 27
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 0
+        }
+    }
+}

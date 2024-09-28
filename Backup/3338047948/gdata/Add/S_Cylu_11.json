@@ -1,0 +1,33 @@
+{
+    "S_Cylu_11": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/LastBoss/LBossFirst_2",
+        "Target": "skill",
+        "IgnoreTaunt": false,
+        "Name": "摧毁反转镜",
+        "UseAp": 0,
+        "Description": "放逐指向的技能，在手中生成1个拥有者为自身的指向技能的复制（露西技能的拥有者不会改变）。\n为手中最上方的技能施加灵动/魔动增益。",
+        "User": "Cylu",
+        "Disposable": true,
+        "NotChuck": true,
+        "Effect_Target": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "BOSSLucy.S_Cylu_11"
+        ],
+        "Image_0": "S_Cylu_11\\S_Cylu_11_Image_0.png",
+        "Image_1": "S_Cylu_11\\S_Cylu_11_Image_1.png"
+    }
+}

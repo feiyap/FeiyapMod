@@ -1,0 +1,23 @@
+{
+    "myKey": "SR_TH6_FlandreScarlet",
+    "myField": "Face",
+    "myValues": {
+        "path": "SR_TH6_FlandreScarlet\\SR_TH6_FlandreScarletFace.png",
+        "offsetMax": {
+            "x": 450.458282,
+            "y": 198.001816
+        },
+        "offsetMin": {
+            "x": -387.541718,
+            "y": -861.998169
+        },
+        "pivot": {
+            "x": 0.462460279,
+            "y": 0.813205838
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

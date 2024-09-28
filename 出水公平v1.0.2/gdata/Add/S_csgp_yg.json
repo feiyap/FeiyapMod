@@ -1,0 +1,32 @@
+{
+    "S_csgp_yg": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "NotCount": true,
+        "Disposable": false,
+        "Name": "佯攻",
+        "Description": "<color=#FFA500>恢复一点法力值</color>\n复制并生成本回合最后从手中使用的<color=#1E90FF>合成弹</color></color>",
+        "UseAp": 0,
+        "User": "kohei_lzumi",
+        "IgnoreTaunt": false,
+        "Image_0": "S_csgp_yg\\S_csgp_yg_Image_0.png",
+        "Image_1": "S_csgp_yg\\S_csgp_yg_Image_1.png",
+        "Image_2": "S_csgp_yg\\S_csgp_yg_Image_2.png",
+        "Rare": false,
+        "Effect_Target": "SE_T_S_csgp_yg",
+        "SkillExtended": [
+            "Kohei.S_Kohei_yg"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false
+    }
+}

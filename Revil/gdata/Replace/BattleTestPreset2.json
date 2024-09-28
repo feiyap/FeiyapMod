@@ -1,0 +1,24 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Revil_Feiyap"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1"
+        ],
+        "PartySkills": [
+            [
+                
+            ]
+        ],
+        "PartyEquip": [
+            [
+                "WhitePriestCloth"
+            ]
+        ],
+        "LucySkill": [
+            
+        ]
+    }
+}

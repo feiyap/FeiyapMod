@@ -1,0 +1,35 @@
+{
+    "S_HatsuneMiku_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "太陽系デスコ",
+        "Description": "",
+        "UseAp": 3,
+        "Particle": "Particle/Buff",
+        "User": "HatsuneMiku",
+        "Target": "all_ally",
+        "Effect_Target": "SE_T_S_HatsuneMiku_7",
+        "SkillExtended": [
+            
+        ],
+        "Image_0": "S_HatsuneMiku_7\\S_HatsuneMiku_7_Image_0.png",
+        "Image_1": "S_HatsuneMiku_7\\S_HatsuneMiku_7_Image_1.png",
+        "Image_2": "S_HatsuneMiku_7\\S_HatsuneMiku_7_Image_2.png",
+        "Effect_Self": "null",
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

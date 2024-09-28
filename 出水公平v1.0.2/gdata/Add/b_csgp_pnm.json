@@ -1,0 +1,18 @@
+{
+    "b_csgp_pnm": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Kohei.B_Kohei_pnm",
+        "BuffTag": "null",
+        "Name": "...骗你们的。",
+        "Description": "当敌人瞄准自身时，在敌人攻击后触发以下效果\r\n对敌人施加\"发现敌人咯\"(弱化，120％，效果:闪避率-(攻击力*1.5)\n复制手牌顺位最下方的一张通常弹/特殊弹并对其使用(复制效果最多触发两次)\r\n当前触发&x次",
+        "LifeTime": 2,
+        "Icon": "b_csgp_pnm\\b_csgp_pnm_Icon.png",
+        "Debuff": false,
+        "TagPer": 0,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

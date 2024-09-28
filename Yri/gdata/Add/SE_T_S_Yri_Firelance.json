@@ -1,0 +1,9 @@
+{
+    "SE_T_S_Yri_Firelance": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 150,
+        "DMG_Per": 210,
+        "CRI": 70,
+        "DMG_Base": 15
+    }
+}

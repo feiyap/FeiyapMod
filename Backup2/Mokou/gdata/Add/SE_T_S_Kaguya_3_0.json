@@ -1,0 +1,17 @@
+{
+    "SE_T_S_Kaguya_3_0": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Mokou_T_1",
+            "B_Mokou_T_1",
+            "B_Mokou_T_1"
+        ],
+        "BuffPlusTagPer": [
+            -2,
+            -2,
+            -2
+        ],
+        "DMG_Per": 70
+    }
+}

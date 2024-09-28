@@ -1,0 +1,25 @@
+{
+    "S_Kaguya_3_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Priest/Priest_new_1",
+        "Target": "enemy",
+        "EnemyPreview": true,
+        "UnknownTarget": true,
+        "Description": "对目标重复释放1次。\n自机狙\n优先攻击最后一个出手的技能的角色（露西除外），如果该技能不是攻击技能，命中率大幅降低。",
+        "Name": "限位激光-自机狙",
+        "Image_0": "S_Kaguya_3_2\\S_Kaguya_3_2_Image_0.png",
+        "Image_1": "S_Kaguya_3_2\\S_Kaguya_3_2_Image_1.png",
+        "Image_2": "S_Kaguya_3_2\\S_Kaguya_3_2_Image_2.png",
+        "Effect_Target": "SE_T_S_Kaguya_3_2",
+        "PlusKeyWords": [
+            "Trace_barrage"
+        ],
+        "SkillExtended": [
+            "Mokou.S_Kaguya_3_2"
+        ],
+        "NotCount": false,
+        "EnemySkillSpeed": 1,
+        "NoDrop": true
+    }
+}

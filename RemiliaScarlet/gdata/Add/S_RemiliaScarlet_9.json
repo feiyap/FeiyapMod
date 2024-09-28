@@ -1,0 +1,31 @@
+{
+    "S_RemiliaScarlet_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/ST4/ThunderDochi",
+        "Rare": false,
+        "Target": "enemy_PlusRandom",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": true,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "命运「Miserable Fate」",
+        "Description": "同时攻击1个目标以外的随机敌人。",
+        "User": "RemiliaScarlet",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_RemiliaScarlet_9",
+        "Image_0": "S_RemiliaScarlet_9\\S_RemiliaScarlet_9_Image_0.png",
+        "Image_1": "S_RemiliaScarlet_9\\S_RemiliaScarlet_9_Image_1.png",
+        "Image_2": "S_RemiliaScarlet_9\\S_RemiliaScarlet_9_Image_2.png"
+    }
+}

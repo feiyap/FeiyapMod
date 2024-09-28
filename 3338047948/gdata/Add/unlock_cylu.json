@@ -1,0 +1,7 @@
+{
+    "Unlock_Cylu": {
+        "UnlockString": "",
+        "UnlockSprite": "Cylu/UnlockCyluface.png",
+        "_gdeSchema": "UnlockWindow"
+    }
+}

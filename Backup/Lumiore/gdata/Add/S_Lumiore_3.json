@@ -1,0 +1,38 @@
+{
+    "S_Lumiore_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "碎石龙",
+        "Target": "all_enemy",
+        "Description": "激奏1 - 丢弃1个技能，抽取1个技能。\n觉醒 - 改为抽取2个技能。",
+        "Effect_Target": "SE_T_S_Lumiore_3",
+        "Effect_Self": "null",
+        "User": "Lumiore",
+        "Image_0": "S_Lumiore_3\\S_Lumiore_3_Image_0.png",
+        "Image_1": "S_Lumiore_3\\S_Lumiore_3_Image_1.png",
+        "Image_2": "S_Lumiore_3\\S_Lumiore_3_Image_2.png",
+        "SkillExtended": [
+            "Lumiore.S_Lumiore_3"
+        ],
+        "Particle": "Particle/Enemy/SnowGiant_0",
+        "UseAp": 9,
+        "PlusSkillView": "S_Lumiore_3_0",
+        "PlusKeyWords": [
+            "KeyWord_LumioreWake",
+            "KeyWord_Excitement"
+        ]
+    }
+}

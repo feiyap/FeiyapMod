@@ -1,0 +1,8 @@
+{
+    "SE_T_Chiyo_TransferMoney": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 100,
+        "DMG_Base": 0
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "S_Lumiore_7_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "拜迪的爪牙",
+        "Description": "对随机一个敌人造成&a伤害。",
+        "UseAp": 0,
+        "Particle": "Particle/Trisha/Trisha_new_2",
+        "Target": "random_enemy",
+        "Effect_Target": "SE_T_S_Lumiore_7_1",
+        "SkillExtended": [
+            "Lumiore.S_Lumiore_7_1"
+        ],
+        "Image_0": "S_Lumiore_7_1\\S_Lumiore_7_1_Image_0.png",
+        "Image_1": "S_Lumiore_7_1\\S_Lumiore_7_1_Image_1.png",
+        "Image_2": "S_Lumiore_7_1\\S_Lumiore_7_1_Image_2.png",
+        "Effect_Self": "null"
+    }
+}

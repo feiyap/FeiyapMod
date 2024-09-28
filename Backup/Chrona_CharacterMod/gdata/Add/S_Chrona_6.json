@@ -1,0 +1,53 @@
+{
+    "S_Chrona_6": {
+        "UseAp": 1,
+        "Target": "all_ally",
+        "Particle": "Particle/Public/Public_3",
+        "Effect_Target": "SE_Chrona_6_T",
+        "Effect_Self": "SE_Chrona_6_S",
+        "Name": "概率复现",
+        "Description": "选择一个处于倒计时期间的技能(无视露西技能、稀有技能)，复制所选技能并释放。",
+        "SkillExtended": [
+            "Chrona.S_Chrona_6"
+        ],
+        "NotCount": true,
+        "Disposable": true,
+        "User": "Chrona",
+        "Image_2": "Assets/Chrona/Skill/6/S_Chrona_6_2.png",
+        "Image_1": "Assets/Chrona/Skill/6/S_Chrona_6_1.png",
+        "Image_0": "Assets/Chrona/Skill/6/S_Chrona_6_0.png",
+        "SKillExtendedItem": [
+            
+        ],
+        "NoBasicSkill": true,
+        "_gdeSchema": "Skill"
+    },
+    "SE_Chrona_6_T": {
+        "_gdeSchema": "SkillEffect"
+    },
+    "SE_Chrona_6_S": {
+        "Buffs": [
+            "B_Chrona_6_S"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ],
+        "_gdeSchema": "SkillEffect"
+    },
+    "B_Chrona_6_S": {
+        "Name": "时域干涉",
+        "ClassName": "Chrona.B_Chrona_6_S",
+        "LifeTime": 2,
+        "MaxStack": 1,
+        "Description": "所有友军使用倒计时技能时，使其伤害/治疗量+24%。",
+        "Icon": "Assets/Chrona/Skill/2/B_Chrona_2_S.png",
+        "Hide": false,
+        "Tick": "null",
+        "BuffTag": "null",
+        "_gdeSchema": "Buff"
+    },
+    "Ex_Chrona_6_Plus": {
+        "ClassName": "Chrona.Ex_Chrona_6_Plus",
+        "_gdeSchema": "SkillExtended"
+    }
+}

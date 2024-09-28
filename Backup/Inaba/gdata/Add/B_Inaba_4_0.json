@@ -1,0 +1,13 @@
+{
+    "B_Inaba_4_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Inaba.B_Inaba_4_0",
+        "BuffTag": "Debuff",
+        "Name": "因幡/药毒",
+        "Description": "",
+        "Debuff": true,
+        "TagPer": 130,
+        "Icon": "Image/Buff/Skill_Icon_Pack/Debuff",
+        "LifeTime": 3
+    }
+}

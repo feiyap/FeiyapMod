@@ -1,0 +1,13 @@
+{
+    "SE_T_S_Raye_WidowAnchor": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 85,
+        "Buffs": [
+            
+        ],
+        "BuffPlusTagPer": [
+            
+        ]
+    }
+}

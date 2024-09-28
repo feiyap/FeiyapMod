@@ -1,0 +1,41 @@
+{
+    "S_Sakuya_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/slash2",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "女仆秘技「杀人玩偶」",
+        "Description": "月魔术 - 将1张[时符「调换魔法」]加入手中。",
+        "User": "IzayoiSakuya",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Sakuya_0",
+        "Image_0": "S_Sakuya_0\\S_Sakuya_0_Image_0.png",
+        "Image_1": "S_Sakuya_0\\S_Sakuya_0_Image_1.png",
+        "Image_2": "S_Sakuya_0\\S_Sakuya_0_Image_2.png",
+        "PlusSkillView": "S_Sakuya_0_0",
+        "SkillExtended": [
+            "IzayoiSakuya.S_Sakuya_0"
+        ],
+        "PlusKeyWords": [
+            "Keyword_LunaMagic"
+        ],
+        "SKillExtendedItem": [
+            "SE_Sakuya_P"
+        ]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "Lumiore": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveUnlockLV1": false,
+        "name": "璐米欧儿",
+        "face": "Lumiore\\LumioreBattleFace.png",
+        "FirstSkill": "S_Lumiore_0",
+        "Gender": 1,
+        "SelectInfo": "單翼就是不尋常，這句話我都聽膩了呢。\r\n但是……不尋常就代表是最特別的！\r\n就由我來證明。作為姊姊、作為大家的範本！\r\n那麼，可愛的弟妹們！之後就交給姊姊大人我吧！",
+        "MAXHP": {
+            "x": 20,
+            "y": 40
+        },
+        "ATK": {
+            "x": 12,
+            "y": 24
+        },
+        "CRI": {
+            "x": 6,
+            "y": 18
+        },
+        "DODGE": {
+            "x": 8,
+            "y": 17
+        },
+        "DEF": {
+            "x": 1,
+            "y": 1
+        },
+        "REG": {
+            "x": 8,
+            "y": 15
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "PassiveName": "龙之启示",
+        "PassiveDes": "战斗开始时，获得1点最大法力值。如果觉醒（最大法力值超过7点），部分卡片会有额外效果。\n觉醒：战斗开始时，额外抽取1张技能。",
+        "PassiveIcon": "Lumiore\\LumiorePassiveIcon.png",
+        "StatView_Atk": 3,
+        "StatView_Heal": 1,
+        "StatView_Sup": 1,
+        "StatView_Debuff": 0,
+        "StatView_Difficult": 2,
+        "CollectionSprite_Cover": "Lumiore\\LumioreCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Lumiore\\LumioreCollectionSprite_SkillFace.png",
+        "CampSelectWord": "",
+        "PassiveClassName": "Lumiore.P_Lumiore"
+    }
+}

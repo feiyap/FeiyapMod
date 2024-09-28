@@ -1,0 +1,16 @@
+{
+    "B_Shameimaru_Rare10": {
+        "_gdeSchema": "Buff",
+        "ClassName": "ShameimaruAya.B_Shameimaru_Rare10",
+        "BuffTag": "null",
+        "Name": "风来的幻想",
+        "Icon": "B_Shameimaru_Rare10\\B_Shameimaru_Rare10_Icon.png",
+        "LifeTime": 1,
+        "Cantdisable": true,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Description": "这个回合中，“连击”数等于指定数量时（当前为&b），触发以下效果：\n4 - 恢复2点法力值。\n8 - 自身获得3回合内25%攻击力和治疗力提升。\n12 - 优先抽取2个自己的技能。\n16 - 手中所有技能费用-1。\n20 - 对所有敌人造成&a(300%)伤害。"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "S_BOSSLucy_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "self",
+        "EnemyPreview": true,
+        "Name": "狂怒",
+        "Description": "选择：\n1.丢弃手中第2、3个技能。若手中技能数少于3个，则改为所有队员受到20点痛苦伤害。\n2.抽取2个技能，所有队员的体力变为0点。\n",
+        "Image_0": "S_BOSSLucy_1\\S_BOSSLucy_1_Image_0.png",
+        "Image_1": "S_BOSSLucy_1\\S_BOSSLucy_1_Image_1.png",
+        "SkillExtended": [
+            "BOSSLucy.S_BOSSLucy_1"
+        ],
+        "Counting": 1
+    }
+}

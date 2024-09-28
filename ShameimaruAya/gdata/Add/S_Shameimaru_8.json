@@ -1,0 +1,21 @@
+{
+    "S_Shameimaru_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "skill",
+        "NotCount": false,
+        "Disposable": true,
+        "Name": "抓拍「Fast Shot」",
+        "Description": "使目标技能变为0费，且附带迅速。额外消耗那个技能原本费用的法力值。（无法指定露西技能）",
+        "UseAp": 1,
+        "User": "ShameimaruAya",
+        "AutoDelete": 1,
+        "Image_0": "S_Shameimaru_8\\S_Shameimaru_8_Image_0.png",
+        "Image_1": "S_Shameimaru_8\\S_Shameimaru_8_Image_1.png",
+        "Image_2": "S_Shameimaru_8\\S_Shameimaru_8_Image_2.png",
+        "SkillExtended": [
+            "ShameimaruAya.S_Shameimaru_8"
+        ]
+    }
+}

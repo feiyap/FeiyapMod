@@ -1,0 +1,149 @@
+{
+    "Cylu": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "BOSSLucy.P_Cylu",
+        "PassiveUnlockLV1": true,
+        "name": "西露",
+        "SelectInfo": "从反转之镜中映照的露西的另一面，对真正的露西怀揣着复杂的感情----害怕被夺走生存价值的仇恨，与无法抑制的爱意。为了实现王的理想，决定秉持自我的意志帮助调查团。\n\n西露拥有超越法力值限制，不断释放技能的恐怖压制力。但如果太过头的话，很容易限制其他调查员的发挥。",
+        "PassiveIcon": "Cylu\\CyluPassiveIcon.png",
+        "PassiveName": "逆反少女",
+        "PassiveDes": "从反转之镜中走出的反转露西。\n拥有与预言少女截然不同的信念与一莲托生的温柔。\n\n当西露拥有的技能费用大于剩余法力值时，依然可以从手中释放技能，代价是自身获得相当于技能费用与法力值差值层数的预借减益。\n预借减益持续期间，回合开始时，法力值相应预借层数减少。\n西露的被动不会因任何原因失去。",
+        "face": "Cylu\\CyluBattleFace.png",
+        "CollectionSprite_Cover": "Cylu\\CyluCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Cylu\\CyluCollectionSprite_SkillFace.png",
+        "MAXHP": {
+            "x": 19,
+            "y": 35
+        },
+        "REG": {
+            "x": 11,
+            "y": 21
+        },
+        "ATK": {
+            "x": 14,
+            "y": 26
+        },
+        "DODGE": {
+            "x": 10,
+            "y": 20
+        },
+        "CRI": {
+            "x": 5,
+            "y": 15
+        },
+        "HIT_CC": {
+            "x": 10,
+            "y": 50
+        },
+        "HIT_DEBUFF": {
+            "x": 10,
+            "y": 50
+        },
+        "HIT_DOT": {
+            "x": 10,
+            "y": 50
+        },
+        "HIT": {
+            "x": 98,
+            "y": 115
+        },
+        "RES_DEBUFF": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "Lock": true,
+        "UnlockString": "以特殊技能放下武器击败圣域BOSS反转命运者·露西。",
+        "FixedBasicSkill": "S_Cylu_Basic",
+        "StatView_Atk": 3,
+        "StatView_Def": 1,
+        "StatView_Heal": 1,
+        "StatView_Debuff": 1,
+        "StatView_CC": 1,
+        "StatView_Dot": 1,
+        "StatView_Difficult": 2,
+        "CampSelectWord": "…………选我。",
+        "CampSD": [
+            "Cylu\\CyluCampSD0.png",
+            "Cylu\\CyluCampSD1.png",
+            "Cylu\\CyluCampSD2.png",
+            "Cylu\\CyluCampSD3.png"
+        ],
+        "Text_MasterTarget": [
+            "这条命，还给你。这颗心，献给你！"
+        ],
+        "Text_Battle_Idle": [
+            "…………嗯。",
+            "…………来吧。",
+            "…………好。"
+        ],
+        "Text_Battle_ND": [
+            "呜……",
+            "别管我。",
+            "我，才没有这么弱。"
+        ],
+        "Text_Battle_AllyND": [
+            "有情况……",
+            "我来争取时间。",
+            "留意战局，露西。"
+        ],
+        "Text_Battle_Kill": [
+            "我，很强哦。",
+            "一匹。",
+            "……你喜欢打架厉害的人么？"
+        ],
+        "Text_Battle_Start": [
+            "我并不把你们视为同类。",
+            "为了父亲的理想，我会适应这种事……",
+            "时机已至。"
+        ],
+        "Text_Battle_Cri": [
+            "逆转。",
+            "手感很好。",
+            "掌握住刚才的时差……"
+        ],
+        "Text_Battle_Healed": [
+            "很舒服。",
+            "谢谢。",
+            "麻烦了。"
+        ],
+        "Text_Field_Idle": [
+            "你的同伴与我的同伴真的很相似呢……不，该说是反过来吗？",
+            "可以的话，希望你能把我看做一个独立的个体。这样的话，我就能……",
+            "你知道纳喀索斯的诅咒吗？不知道？骗人……我知道的所有事，你也应该知道才对。",
+            "请再靠近我一点，这里很危险。"
+        ],
+        "Text_Field_GetItem": [
+            "品级并不意味着一切。",
+            "总觉得有些装备的品级设定很奇怪……",
+            "露西，你喜欢什么种类的戒指？"
+        ],
+        "Text_Field_Potion_P": [
+            "感觉好多了。",
+            "………………嗯~",
+            "吸呼吸呼……"
+        ],
+        "Text_Character": [
+            "别急，我们拥有着很多时间。",
+            "笔直的向前吧。"
+        ],
+        "Text_PharosLeader": [
+            "我，终究是天地不容的幻象！",
+            "……不要再，折磨我了。",
+            "另一个你可要厉害多了！"
+        ],
+        "Text_Witch": [
+            "诅咒我，诅咒你自己。",
+            "我理解你的痛苦，所以，动手吧。"
+        ],
+        "Gender": 1
+    }
+}

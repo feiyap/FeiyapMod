@@ -1,0 +1,14 @@
+{
+    "B_Yueq_Did": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "YueQ.B_Yueq_Did",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "残响(已触发)",
+        "Description": ""
+    }
+}

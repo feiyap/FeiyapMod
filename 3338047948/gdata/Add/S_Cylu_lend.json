@@ -1,0 +1,9 @@
+{
+    "S_Cylu_lend": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "预借",
+        "ClassName": "BOSSLucy.S_Cylu_lend"
+    }
+}

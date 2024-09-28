@@ -1,0 +1,40 @@
+{
+    "S_Sakuya_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Joker_1",
+        "Target": "enemy",
+        "Name": "幻在「钟表的残骸」",
+        "Description": "倒计时1后，再造成%a伤害，抽取1个技能。\n月魔术 - 倒计时延长为3，额外造成%b伤害。倒计时期间，目标受到的伤害增加15%。",
+        "UseAp": 1,
+        "User": "IzayoiSakuya",
+        "PlusKeyWords": [
+            "Keyword_LunaMagic"
+        ],
+        "Effect_Target": "SE_T_S_Sakuya_3",
+        "Image_0": "S_Sakuya_3\\S_Sakuya_3_Image_0.png",
+        "Image_1": "S_Sakuya_3\\S_Sakuya_3_Image_1.png",
+        "Image_2": "S_Sakuya_3\\S_Sakuya_3_Image_2.png",
+        "SkillExtended": [
+            "IzayoiSakuya.S_Sakuya_3"
+        ],
+        "Rare": false,
+        "NotCount": false,
+        "Disposable": false,
+        "SKillExtendedItem": [
+            "SE_Sakuya_P"
+        ],
+        "IgnoreTaunt": true,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

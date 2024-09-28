@@ -1,0 +1,34 @@
+{
+    "S_Eirin_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Johan/Johan_6",
+        "Target": "enemy",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "Name": "神脑「思兼之脑」",
+        "Description": "消耗场上所有的[月人/新月]，对目标释放[消耗层数+2]次数的[月人/乱箭]。\n依此法释放的[月人/乱箭]无视防御、必定命中。",
+        "UseAp": 2,
+        "User": "Eirin",
+        "Effect_Target": "SE_T_S_Eirin_4",
+        "Image_0": "S_Eirin_4\\S_Eirin_4_Image_0.png",
+        "Image_1": "S_Eirin_4\\S_Eirin_4_Image_1.png",
+        "Image_2": "S_Eirin_4\\S_Eirin_4_Image_2.png",
+        "SkillExtended": [
+            "Eirin.S_Eirin_4"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

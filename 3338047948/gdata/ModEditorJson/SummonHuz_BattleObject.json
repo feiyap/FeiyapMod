@@ -1,0 +1,28 @@
+{
+    "myKey": "SummonHuz",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SummonHuz\\SummonHuzMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.4511597,
+            "y": 0.0467050374
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.473360181,
+            "y": 0.219864488
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

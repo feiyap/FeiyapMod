@@ -1,0 +1,11 @@
+{
+    "B_Yueq_P_T1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "YueQ.B_Yueq_P_T1",
+        "BuffTag": "null",
+        "Name": "激情",
+        "LifeTime": 0,
+        "Description": "回合结束时解除",
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_42"
+    }
+}

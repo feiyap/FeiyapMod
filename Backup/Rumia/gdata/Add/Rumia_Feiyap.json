@@ -1,0 +1,27 @@
+{
+    "Rumia_Feiyap": {
+        "_gdeSchema": "Enemy",
+        "hit": 110,
+        "name": "露米娅",
+        "Boss": true,
+        "atk": 15,
+        "def": 0,
+        "dodge": 5,
+        "cri": 10,
+        "RES_CC": 25,
+        "RES_DEBUFF": 25,
+        "RES_DOT": 25,
+        "maxhp": 100,
+        "spd": 5,
+        "CollactionSprite_Cover": "Rumia_Feiyap\\Rumia_FeiyapCollactionSprite_Cover.png",
+        "SubName": "露米娅",
+        "EnemyStory": "在妖怪之中，露米娅属于弱小的一类，但即使是白天，她的能力也会让身边陷入夜晚般的黑暗。\n她的外表像是年幼的少女，红眼，金发上系着红缎带，据说她是为了融入黑暗中而穿黑衣服，不过她总是处在黑暗之中所以难以确认。其实头发上缠绕的丝带是灵符，就算想取下丝带，但那丝带就连露米娅自己都接触不到。因为大家都知道她是黑暗的妖怪，人人都害怕她，不过在看到她真实姿态的人，会对极为年幼的少女外表诧异不已。可能将身形包裹在黑暗之中就是为了隐藏她的外貌。",
+        "Skills": [
+            "S_Rumia_0",
+            "S_Rumia_1",
+            "S_Rumia_2"
+        ],
+        "AI": "Rumia.Rumia_Feiyap",
+        "CollactionEnemy": 1
+    }
+}

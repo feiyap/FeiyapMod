@@ -1,0 +1,34 @@
+{
+    "Chiyo_AngraMainyu": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/Hein_new_1",
+        "Target": "enemy",
+        "NotCount": true,
+        "Basic": false,
+        "Name": "Angra Mainyu",
+        "Description": "The user receives &SelfPainDamage <color=purple>Pain damage</color> (equal to their remaining health).\r\nDeal &EnemyPainDamage damage to all enemies (equal to &DamagePercent% of the user's remaining health).",
+        "UseAp": 3,
+        "User": "Chiyo",
+        "Effect_Target": "SE_T_Chiyo_AngraMainyu",
+        "SkillExtended": [
+            "Chiyo.Chiyo_AngraMainyu"
+        ],
+        "Image_0": "Chiyo_AngraMainyu\\Chiyo_AngraMainyu_Image_0.png",
+        "Image_1": "Chiyo_AngraMainyu\\Chiyo_AngraMainyu_Image_1.png",
+        "Image_2": "Chiyo_AngraMainyu\\Chiyo_AngraMainyu_Image_2.png",
+        "HealSkill": false,
+        "Rare": false,
+        "NoBasicSkill": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Track": true,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

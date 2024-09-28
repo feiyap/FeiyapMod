@@ -1,0 +1,25 @@
+{
+    "S_FKaguya_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all",
+        "Name": "神宝「火蜥蜴之盾」",
+        "User": "HouraisanKaguya",
+        "UseAp": 2,
+        "PlusKeyWords": [
+            "Keyword_Sinnpou"
+        ],
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_FKaguya_5",
+        "Image_0": "S_FKaguya_5\\S_FKaguya_5_Image_0.png",
+        "Image_1": "S_FKaguya_5\\S_FKaguya_5_Image_1.png",
+        "Image_2": "S_FKaguya_5\\S_FKaguya_5_Image_2.png",
+        "Effect_Self": "null",
+        "Description": "解除目标所有痛苦减益。\n若目标为敌方单位，依据自身最大生命值，每层被解除的痛苦减益造成&a(20%)伤害，视作追加攻击。\n\n<color=#ffc1c1>神宝</color> - 若目标为友方单位，施加[辉夜/火蜥蜴]。",
+        "SkillExtended": [
+            "HouraisanKaguya.S_FKaguya_5"
+        ],
+        "Basic": false
+    }
+}

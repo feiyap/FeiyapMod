@@ -1,0 +1,13 @@
+{
+    "SE_T_S_Kaguya_8": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 66,
+        "Buffs": [
+            
+        ],
+        "BuffPlusTagPer": [
+            
+        ]
+    }
+}

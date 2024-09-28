@@ -1,0 +1,33 @@
+{
+    "S_RemiliaScarlet_11Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": true,
+        "Name": "神术「吸血鬼幻想」",
+        "Description": "本回合内技能交换次数增加10次。抽2个技能。",
+        "UseAp": 0,
+        "Target": "Misc",
+        "User": "RemiliaScarlet",
+        "Effect_Self": "null",
+        "Effect_Target": "null",
+        "NotCount": true,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Image_0": "S_RemiliaScarlet_11Rare\\S_RemiliaScarlet_11Rare_Image_0.png",
+        "Image_1": "S_RemiliaScarlet_11Rare\\S_RemiliaScarlet_11Rare_Image_1.png",
+        "Image_2": "S_RemiliaScarlet_11Rare\\S_RemiliaScarlet_11Rare_Image_2.png",
+        "SkillExtended": [
+            "RemiliaScarlet.S_RemiliaScarlet_11Rare"
+        ],
+        "Particle": "Particle/impact"
+    }
+}

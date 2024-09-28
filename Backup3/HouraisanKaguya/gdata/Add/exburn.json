@@ -1,0 +1,7 @@
+{
+    "exburn": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "过热",
+        "Desc": "妹红拥有标识层数的<color=purple>[烧伤]</color>时，结算并移除标识层数的<color=purple>[烧伤]</color>，触发后续的额外效果。"
+    }
+}

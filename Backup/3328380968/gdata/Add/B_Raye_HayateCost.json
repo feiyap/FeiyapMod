@@ -1,0 +1,11 @@
+{
+    "B_Raye_HayateCost": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "Maximum Output",
+        "Des": "Cost increased by 1 while in Hayate.",
+        "IsIcon": "B_Raye_HayateCost\\B_Raye_HayateCost_Icon.png",
+        "ClassName": "SkyStriker.B_Raye_HayateCost"
+    }
+}

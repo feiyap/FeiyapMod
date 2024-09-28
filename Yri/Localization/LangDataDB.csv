@@ -1,0 +1,193 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Yri_Airborne_Description,Text,,,Remove when hit.,,受攻击时解除。,
+Buff/B_Yri_Airborne_Name,Text,,,Airborne,,飞升,
+Buff/B_Yri_BlizzardBuff_Description,Text,,,"At 3 stacks, consume buff and apply the following effect based on Self buffs:
+Starbound Hunter: Gain 1 stack of Starbound Tenacity + 1 mana.
+
+Defender of Avalon: Gain up to 2 Feather Guard + 1 mana.
+
+If neither is active, draw 1 card. 
+
+(If both are active, activate Starbound Hunter's effect)",,"达到3层时，消耗这个增益，并根据自身拥有的增益获得以下效果：
+星界猎人：获得1层[星界韧性]，恢复1点法力值。
+阿瓦隆守护者：获得2层[羽翼守卫]，恢复1点法力值。
+
+如果两种都未拥有，抽取1个技能。
+（如果两种都拥有，仅触发星界猎人的效果）",
+Buff/B_Yri_BlizzardBuff_Name,Text,,,Reload,,重新装填,
+Buff/B_Yri_Chirp_Description,Text,,,"Distracted by a cute fluffy space raptor!
+Forgets to take next action.",,"被可爱、毛茸茸的太空迅猛龙分散注意力！
+忘记下一个动作。",
+Buff/B_Yri_Chirp_Name,Text,,,Aww! Cute!,,哎呀！真可爱！,
+Buff/B_Yri_DCounter_Description,Text,,,"Counterattack when attacked, dealing &a damage.",,受到攻击时反击，造成&a伤害。,
+Buff/B_Yri_DCounter_Name,Text,,,Interception,,拦截,
+Buff/B_Yri_DStance_Description,Text,,,,,,
+Buff/B_Yri_DStance_Name,Text,,,Defensive Stance,,防御姿态,
+Buff/B_Yri_DefenderAggro_Description,Text,,,Must only attack &target. Remove a stack upon attacking.,,"无法攻击除&target以外的目标。
+ 攻击目标时解除。",
+Buff/B_Yri_DefenderAggro_Name,Text,,,Intimidation,,威吓,
+Buff/B_Yri_Defender_Description,Text,,,"Each turn, add a Feather Guard to hand.",,每个回合将1张[羽翼守卫]加入手中。,
+Buff/B_Yri_Defender_Name,Text,,,Defender of Avalon,,阿瓦隆守护者,
+Buff/B_Yri_Evasive1_Description,Text,,,"For every attack dodged, Gain 1 Stack of Offensive Strategem, increasing Damage of 1 attack by 30%.",,每次闪避攻击后，获得1层[进攻策略]：每层增加30%攻击力。,
+Buff/B_Yri_Evasive1_Name,Text,,,Evasive Maneuvers,,闪避操作,
+Buff/B_Yri_Evasive2_Description,Text,,,Remove 1 stack when attacking.,,攻击时移除1层。,
+Buff/B_Yri_Evasive2_Name,Text,,,Offensive Stratagem,,进攻策略,
+Buff/B_Yri_FeatherGuard_Description,Text,,,Removed after successful Dodge.,,成功闪避后解除。,
+Buff/B_Yri_FeatherGuard_Name,Text,,,Feather Guard,,羽翼守卫,
+Buff/B_Yri_FirelanceLock_Description,Text,,,Sniping with Firelance from the air. Cannot use skills until the start of the next turn.,,"从空中用火矛狙击。
+直到下个回合开始前，无法使用技能。",
+Buff/B_Yri_FirelanceLock_Name,Text,,,Aiming Down Sights,,瞄准低处,
+Buff/B_Yri_Glide_Description,Text,,,Dodge the next attack.,,闪避下一次攻击。,
+Buff/B_Yri_Glide_Name,Text,,,Glide,,滑翔,
+Buff/B_Yri_HuntersAura_Description,Text,,,,,,
+Buff/B_Yri_HuntersAura_Name,Text,,,Hunter's Aura,,猎人印记,
+Buff/B_Yri_ShotgunAcc_Description,Text,,,,,,
+Buff/B_Yri_ShotgunAcc_Name,Text,,,Infernal Flash,,地狱闪光,
+Buff/B_Yri_StarboundHunterDmg_Description,Text,,,,,,
+Buff/B_Yri_StarboundHunterDmg_Name,Text,,,Apex Predation,,顶级捕食,
+Buff/B_Yri_StarboundHunter_Description,Text,,,"Gain 10% Attack Power for every skill created in hand per turn.
+At the end of every 2 turns, add gain 1 Starbound Tenacity.",,"每个回合为手中的技能+10%攻击力。
+每第2个回合结束时，额外获得1层[星界韧性]。",
+Buff/B_Yri_StarboundHunter_Name,Text,,,Starbound Hunter,,星界猎人,
+Buff/B_Yri_StarboundTenacity_Description,Text,,,"At 2 stacks, add 1 of your own cards from Discard to Hand",,叠加2层时，从弃牌堆将1个自己的技能拿回手中。,
+Buff/B_Yri_StarboundTenacity_Name,Text,,,Starbound Tenacity,,星界韧性,
+Buff/B_Yri_YriDetermination_Description,Text,,,Invincible when HP hits 0,,当HP降至0时无敌。,
+Buff/B_Yri_YriDetermination_Name,Text,,,Yri's Determination,,依芮的决心,
+Character/Yri_CampSelectWord,Text,,,Hi~ I'm Yri! Let's get along!  *chirp*,,嗨~我是依芮！好好相处吧！ *啾*,
+Character/Yri_PassiveDes,Text,,,"The fixed skill becomes Ascension. Fixed skill cannot be changed
+
+Yri can gain Airborne from skills, which enhances skill effects. Airborne also increases Evade by 50%, but decreases Armor by -25%, and is lost when getting hit.
+
+Descend skills consume Airborne for effects.
+Ascend skills apply Airborne if it is not active and applies additional effects.
+",,"固有技能改变为[飞空]。固有技能无法被替换。
+
+依芮能够从技能中获得[飞升]增益，以此来强化技能效果。[飞升]增益还给依芮提供50%闪避率，但会降低25%防御力，受到攻击时解除。
+
+[坠击]技能会消耗[飞升]增益来触发额外效果。
+如果身上没有[飞升]增益，[升空]技能会提供[飞升]并触发额外效果。",
+Character/Yri_PassiveName,Text,,,Starbound Hunter of Avalon,,阿瓦隆的星界猎人,
+Character/Yri_SelectInfo,Text,,,"Fluffy Space Raptor!
+
+Frail but fast, Yri leads the charge with powerful draw and search skills. She can then take on the role of primary offense with her Solarium Blade and various firearms, or support the team with Feather Guards.
+
+Yri's style revolves around being Airborne, where she then Descends with powerful additional effects. While Airborne, she becomes significantly harder to hit, but will take massive damage when she does take a blow.",,"毛茸茸的太空迅猛龙！
+
+脆弱，但是迅捷！依芮用强大的抽牌能力和检索能力引领着队伍冲锋。她能够使用她的日光之刃和各种火器担任主输出位，或是用她的羽翼保护队友。
+
+依芮的特性围绕着[飞升]增益展开，在这个状态下，她能够[坠击]并触发额外效果。同时，处在[飞升]状态下时，她变得难以被击中，不过一旦受到攻击就会承受大量伤害。",
+Character/Yri_Text_Battle_AllyND_0,Text,,,Oh no! We need help!,,喔不！我们需要帮助！,
+Character/Yri_Text_Battle_Cri_0,Text,,,A chance!,,机会来了！,
+Character/Yri_Text_Battle_Cri_1,Text,,,Hah!,,哈！,
+Character/Yri_Text_Battle_Healed_0,Text,,,Thank you!,,谢谢你！,
+Character/Yri_Text_Battle_Healed_1,Text,,,Thanks for the support!,,感谢帮忙！,
+Character/Yri_Text_Battle_Idle_0,Text,,,"Breathe, Lucy. Do your best!",,深呼吸，露西。尽力而为！,
+Character/Yri_Text_Battle_Idle_1,Text,,,*sigh* I can do this...,,*呼吸*我能做到的，我能做到的……,
+Character/Yri_Text_Battle_Kill_0,Text,,,Rest in peace...,,安息吧……,
+Character/Yri_Text_Battle_Kill_1,Text,,,Farewell...,,永别了……,
+Character/Yri_Text_Battle_ND_0,Text,,,*yelp* I-I messed up...,,呃，我、我搞砸了……,
+Character/Yri_Text_Battle_ND_1,Text,,,Aaah! Help! Help!,,啊！救救我！,
+Character/Yri_Text_Battle_Start_0,Text,,,"*sigh* Focus, Yri... focus...",,*叹气*要集中，依芮……要集中……,
+Character/Yri_Text_Battle_Start_1,Text,,,Whew! Let's do this!,,呼！要上了！,
+Character/Yri_Text_Field_GetItem_0,Text,,,Oooo! Treasure!,,噢噢噢！是宝藏！,
+Character/Yri_Text_Field_GetItem_1,Text,,,What a find!,,看看我发现了什么！,
+Character/Yri_Text_Field_Idle_0,Text,,,Have you heard of Avalon? It's my home world!,,你听过阿瓦隆吗？那是我的故乡。,
+Character/Yri_Text_Field_Idle_1,Text,,,This world is quite strange... I feel like I've been here before...,,这个世界有点奇怪……我感觉我以前来过这儿……,
+Character/Yri_Text_Field_Potion_P_0,Text,,,What a strange concoction...,,奇怪的混合物……,
+Character/Yri_Text_Field_Potion_P_1,Text,,,Ack! I-it tastes weird...,,呃……它的味道很怪……,
+Character/Yri_Text_PharosLeader_0,Text,,,*HISS!!!*,,*嘶嘶声！！*,
+Character/Yri_Text_PharosLeader_1,Text,,,I-I'm sorry! I lost focus!,,我、我很抱歉！我失去意识了……,
+Character/Yri_Text_PharosLeader_2,Text,,,*SCREEE!!!*,,*尖叫声！！*,
+Character/Yri_Text_Witch_0,Text,,,I... I can take it!,,我……我能承受住！,
+Character/Yri_Text_Witch_1,Text,,,Hnn... If you say so...,,呜……如果你这么说的话……,
+Character/Yri_name,Text,,,Yri,,依芮,
+Skill/S_Yri_Ascension_Description,Text,,,"Ascend: Add 1 Skill to hand, prioritizing Yri skills. ",,飞升 - 优先抽取1个自己的技能。,
+Skill/S_Yri_Ascension_Name,Text,,,Ascension,,飞空,
+Skill/S_Yri_Blizzard2_Description,Text,,,"Descend: Discard the top card in hand. Draw 1 card.
+",,坠击 - 丢弃手中最下方的技能。抽取1个技能。,
+Skill/S_Yri_Blizzard2_Name,Text,,,Continuous Fire,,持续开火,
+Skill/S_Yri_Blizzard_Description,Text,,,Descend: Create 2 Continuous Fire in hand. Gain 1 Mana,,坠击 - 生成2个[持续开火]。恢复1点法力值。,
+Skill/S_Yri_Blizzard_Name,Text,,,"AR301 ""Blizzard""",,AR301“暴风雪”,
+Skill/S_Yri_Chirp_Description,Text,,,"Only usable while not Airborne.
+Ascend.",,"处于[飞升]时无法使用。
+升空。",
+Skill/S_Yri_Chirp_Name,Text,,,Chirp!,,啾啾！,
+Skill/S_Yri_DCounter_Description,Text,,,,,,
+Skill/S_Yri_DCounter_Name,Text,,,,,,
+Skill/S_Yri_Defender_Description,Text,,,"Move to the top of the deck at the start of combat.
+Fixed skill becomes Aerial Interception.",,"战斗开始时，置于牌堆最上方。
+固定技能变为[空中拦截]。",
+Skill/S_Yri_Defender_Name,Text,,,Defender of Avalon,,阿瓦隆守护者,
+Skill/S_Yri_Evasive_Description,Text,,,,,,
+Skill/S_Yri_Evasive_Name,Text,,,Evasive Maneuvers,,闪避操作,
+Skill/S_Yri_FeatherGuard_Description,Text,,,"Ascend.
+Give the target Feather Guard.",,"升空。
+施加[羽翼守卫]。",
+Skill/S_Yri_FeatherGuard_Name,Text,,,Feather Guard,,羽翼守卫,
+Skill/S_Yri_FeatherWall_Description,Text,,,Add 2 Feather Guard to your hand.,,将2张[羽翼守卫]加入手中。,
+Skill/S_Yri_FeatherWall_Name,Text,,,Feather Wall,,羽翼之墙,
+Skill/S_Yri_FirelanceCast_Description,Text,,,"Can only be used while Airborne.
+Cast FM 999 ""Firelance"" with 99 Countdown.
+User cannot use skills for the rest of the turn.
+If Lethal, draw 2 card.",,"处于[飞升]时才能使用。
+以倒计时99释放[FM999“火矛”]。
+直到下个回合开始前，自己无法使用技能。
+击杀时抽取2个技能。",
+Skill/S_Yri_FirelanceCast_Name,Text,,,"FM999 ""Firelance"" - Lock On!",,FM999“火矛”-锁定！,
+Skill/S_Yri_Firelance_Description,Text,,,"Ignore Armor. 
+If Lethal, draw 2 cards.",,"无视防御。
+击杀时抽取2个技能。",
+Skill/S_Yri_Firelance_Name,Text,,,FM999 “Firelance”,,FM999“火矛”,
+Skill/S_Yri_Glide_Description,Text,,,"Ascend: Create a Glide that Excludes in 2 turns.
+If already Airborne, dodge the next attack. Gain 1 Mana",,"飞升 - 生成1个附带放逐、2回合后弃牌的[滑翔]。
+如果已处于[飞升]，闪避下一次攻击，并恢复1点法力值。",
+Skill/S_Yri_Glide_Name,Text,,,Glide,,滑翔,
+Skill/S_Yri_HunterAura_Description,Text,,,Descend: Draw 2 Attack skills.,,坠击 - 优先抽取2个攻击技能。,
+Skill/S_Yri_HunterAura_Name,Text,,,Hunter's Aura,,猎人印记,
+Skill/S_Yri_Inferno_Description,Text,,,Descend: Add 1 Feather Guard to hand.,,坠击 - 生成1个[羽翼守卫]。,
+Skill/S_Yri_Inferno_Name,Text,,,"QRC Type-8 ""Inferno""",,QRC 8型“地狱火”,
+Skill/S_Yri_Interception_Description,Text,,,"Can only be used while Airborne.
+Descend: Draw 1 card.",,"处于[飞升]时才能使用。
+坠击 - 抽取1个技能。",
+Skill/S_Yri_Interception_Name,Text,,,Aerial Interception,,空中拦截,
+Skill/S_Yri_Lucydraw_Description,Text,,,"Target either:
+Ascend: Gain 2 mana
+Descend: Draw 2 cards
+",,"目标处于[飞升]时：抽取2个技能，并使其[坠击]；
+否则恢复2点法力值，并使其[升空]。",
+Skill/S_Yri_Lucydraw_Name,Text,,,Fatebound Versatility,,命运多舛,
+Skill/S_Yri_Role_Description,Text,,,"Apply the following effects based on Self buffs:
+Starbound Hunter: This skill becomes Blizzard. Immediately gain 2 Starbound Tenacity and 1 Mana
+
+Defender of Avalon: This skill becomes Evasive Maneuvers. Gain 1 Yri's Determination and 1 Mana
+
+Neither: Lose 1 mana (if any). Draw 2 cards. 
+
+(If both are active, activate Starbound Hunter's effect)",,"根据自身拥有的增益获得以下效果：
+星界猎人：这个技能变为[AR301“暴风雪”]。立即获得2层[星界韧性]和1点法力值。
+阿瓦隆守护者：这个技能变为[闪避操作]。获得1层[依芮的决心]和1点法力值。
+
+如果两种都未拥有，失去1点法力值，抽取2个技能。
+（如果两种都拥有，仅触发星界猎人的效果）",
+Skill/S_Yri_Role_Name,Text,,,Role Acknowledged!,,角色确认！,
+Skill/S_Yri_SSmain_Description,Text,,,Create a Solarium Blade - Updraft or Solarium Blade - Stormfall to hand.,,"选择 - 生成1个[日光之刃 - 上升气流]；
+或生成1个[日光之刃 - 风暴降临]。",
+Skill/S_Yri_SSmain_Name,Text,,,Solarium Blade - Engage!,,日光之刃 - 交战！,
+Skill/S_Yri_SSupdraft_Description,Text,,,Ascend: Create a Solarium Blade: Stormfall that Excludes when played or at end of turn.,,飞升 - 生成1个附带放逐、1回合后弃牌的[日光之刃 - 风暴降临]。,
+Skill/S_Yri_SSupdraft_Name,Text,,,Solarium Blade - Updraft,,日光之刃 - 上升气流,
+Skill/S_Yri_StbHtr_Description,Text,,,,,,
+Skill/S_Yri_StbHtr_Name,Text,,,Starbound Hunter,,星界猎人,
+Skill/S_Yri_Stormfall_Description,Text,,,"Can only be played when Airborne.
+Descend.",,"处于[飞升]时才能使用。
+坠击。",
+Skill/S_Yri_Stormfall_Name,Text,,,Solarium Blade - Stormfall,,日光之刃 - 风暴降临,
+SkillExtended/SkillEn_Yri_0_Des,Text,,,,,,
+SkillExtended/SkillEn_Yri_0_EnforceString,Text,,,,,,
+SkillExtended/SkillEn_Yri_0_Name,Text,,,"When played, Yri creates 1 Feather Guard.",,使用时，依芮获得1层[羽翼守卫]。,
+SkillExtended/SkillEn_Yri_1_Des,Text,,,,,,
+SkillExtended/SkillEn_Yri_1_EnforceString,Text,,,,,,
+SkillExtended/SkillEn_Yri_1_Name,Text,,,"If Yri is Airborne, increase damage by 40% and Yri Descends",,如果依芮处于[飞升]时，增加40%伤害并使依芮[坠击]。,
+SkillKeyword/KeyWord_Ascend_Desc,Text,,,Activate when not Airborne. Gain Airborne and additional effects.,,未处于[飞升]时生效。[飞升]，并触发额外效果。,
+SkillKeyword/KeyWord_Ascend_Name,Text,,,Ascend,,升空,
+SkillKeyword/KeyWord_Descend_Desc,Text,,,Activate when Airborne. Lose airborne and gain additional effects.,,处于[飞升]时生效。失去[飞升]，并触发额外效果。,
+SkillKeyword/KeyWord_Descend_Name,Text,,,Descend,,坠击,

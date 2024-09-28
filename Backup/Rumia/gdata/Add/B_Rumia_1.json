@@ -1,0 +1,10 @@
+{
+    "B_Rumia_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Rumia.B_Rumia_1",
+        "BuffTag": "null",
+        "Name": "月之暗面",
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_02"
+    }
+}

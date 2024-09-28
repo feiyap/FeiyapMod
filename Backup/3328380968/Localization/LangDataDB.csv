@@ -1,0 +1,154 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Raye_AnchorTaunt_Description,Text,,,Must attack &target and is removed upon attacking &target.,,"无法攻击&target以外的目标。
+ 攻击目标时解除。",
+Buff/B_Raye_AnchorTaunt_Name,Text,,,Empowered Widow Anchor,,强化 - 黑寡妇锚,
+Buff/B_Raye_BurningWounds_Name,Text,,,Burning Wounds,,灼伤,
+Buff/B_Raye_EagleBooster_Description,Text,,,,,,
+Buff/B_Raye_EagleBooster_Name,Text,,,Full Throttle,,动力全开,
+Buff/B_Raye_HayateLock_Description,Text,,,Cannot Link into Hayate.,,无法链接为闪刀姬 - 飒。,
+Buff/B_Raye_HayateLock_Name,Text,,,Hayate Recharging,,飒 - 充能中,
+Buff/B_Raye_Hayate_Description,Text,,,"Attacks gain Ignore Taunt. 
+While in Hayate, Fixed Skill costs 1 less. Skills in hand cost 1 more.",,"攻击技能获得无视嘲讽。
+处于飒装甲中，固定技能降低1点费用，手中的技能额外消耗1点费用。",
+Buff/B_Raye_Hayate_Name,Text,,,X004 - Hayate,,X004 - 飒,
+Buff/B_Raye_HornetBuff_Description,Text,,,,,,
+Buff/B_Raye_HornetBuff_Name,Text,,,Drone Support,,无人机支援,
+Buff/B_Raye_KagariLock_Description,Text,,,Cannot Link into Kagari.,,无法链接为闪刀姬 - 篝。,
+Buff/B_Raye_KagariLock_Name,Text,,,Kagari Recharging,,篝 - 充能中,
+Buff/B_Raye_Kagari_Description,Text,,,"While in Kagari, Attacks that do not kill the enemy will inflict Burning Wounds (<sprite=1>&a%).",,处于篝装甲中，攻击会施加灼伤(<sprite=1>&a%)。,
+Buff/B_Raye_Kagari_Name,Text,,,X003 - Kagari,,X003 - 篝,
+Buff/B_Raye_KainaLock_Description,Text,,,Cannot Link into Kaina.,,无法链接为闪刀姬 - 腕。,
+Buff/B_Raye_KainaLock_Name,Text,,,Kaina Recharging,,腕 - 充能中,
+Buff/B_Raye_Kaina_Description,Text,,,"Counterattack with Kaina Counter when attacked. 
+While in Kaina, whenever the party plays a skill from hand, Chain Heal the caster by &a per mana cost of skill.
+",,"受到攻击时，闪刀姬 - 腕会进行一次反击。
+处于腕装甲中，使用手中的技能时，每点消耗的费用连锁治疗使用者&a。",
+Buff/B_Raye_Kaina_Name,Text,,,X005 - Kaina,,X005 - 腕,
+Buff/B_Raye_Linkage_Description,Text,,,"At the start of every turn, add 1 Linkage! to hand.",,每个回合开始时，将1个[闪刀启动 - 连闪]加入手中。,
+Buff/B_Raye_Linkage_Name,Text,,,Engage! Linkage!,,交闪！连闪！,
+Buff/B_Raye_Multirole_Description,Text,,,"At 3 stacks, remove all Link Recharging effects.",,到达3层时，移除所有链接充能减益。,
+Buff/B_Raye_Multirole_Name,Text,,,Multirole Reload,,多用途战机重启,
+Buff/B_Raye_SharkCannonshred_Description,Text,,,Lose 1 stack when attacked.,,受到攻击时移除1层。,
+Buff/B_Raye_SharkCannonshred_Name,Text,,,Position Displaced,,位置移位,
+Buff/B_Raye_ShizukuLock_Description,Text,,,Cannot Link into Shizuku.,,无法链接为闪刀姬 - 雫。,
+Buff/B_Raye_ShizukuLock_Name,Text,,,Shizuku Recharging,,雫 - 充能中,
+Buff/B_Raye_Shizuku_Description,Text,,,"While in Shizuku, when attacked, deploy a Team Barrier with HP equal to 0.5 x the damage taken. When Barrier is already active, Team Barrier is increased before taking damage.",,处于雫装甲时，受到攻击时，获得50%伤害值的防护墙。如果已有防护墙，新的防护墙会在受到伤害前生成。,
+Buff/B_Raye_Shizuku_Name,Text,,,X002 - Shizuku,,X002 - 雫,
+Buff/B_Raye_cardcount_Description,Text,,,Has &a skill(s) in Discard.,,弃牌堆已有&a个技能。,
+Buff/B_Raye_cardcount_Name,Text,,,Striker's Armory,,闪刀武装,
+Buff/B_Raye_threeingrave_Description,Text,,,Currently have 3 or more Skills in Discard.,,弃牌堆已有3个以上的技能。,
+Buff/B_Raye_threeingrave_Name,Text,,,Armory Armed!,,武装就绪！,
+Character/Raye_PassiveDes,Text,,,"Fixed skill becomes Multirole Modules.
+
+Raye can Link into her 4 Link forms, gaining effects and triggering Link effects. Upon Linking into a new form, Raye gains an effect that prevents her from gaining the same link again. 
+
+
+Passive: Raye's Multirole refreshes at the start of every 3 turns, removing all Link Form lockout effects. Gain the Striker's Armory effect, which counts the number of Raye skills in Discard and applies Armory Armed! at 3 stacks, enhancing Raye's skills.",,"固定技能变为[多用途战机]。
+
+零衣能够链接为4种不同的链接形态，获得额外效果，并触发链接效果。一旦她链接为某种新形态，零衣在短暂时间内不再能链接为相同的形态。
+
+被动 - 零衣的多用途战机每3个回合会重启，移除她身上所有的链接限制。零衣的闪刀武装会在弃牌堆拥有3个以上自己的技能时赋予她[武装就绪！]，在这个状态下，她的技能会触发额外效果。",
+Character/Raye_PassiveName,Text,,,The Sky Striker,,闪刀姬,
+Character/Raye_SelectInfo,Text,,,"It's time to Mobilize! Engage!
+Raye is a human created and raised by machines in a post-apocalyptic world razed by war. She set out on a journey to bring life back to a ruined world... when she stumbles across an ancient cryogenic chamber labled ""ARK""...
+
+Raye is a jack-of-all-trades character who switches between her 4 Link forms using her Sky Striker Modules to adapt to any situation. 
+Many of Raye's skills gain extra effects when there are 3 or more of her own skills in the Discard. ",,"闪刀启动！交闪！
+零衣是一个在被战争摧毁的后启示录世界中由机器创造和抚养的人类少女。为了将生命带回被毁灭的世界，她踏上了旅程……直到她偶然发现一个标有“ARK”的古老低温室时……
+
+零衣是一个全能型角色，她使用闪刀机在4种链接形式之间切换，以适应任何情况。
+当弃牌堆中有3个或更多零衣自己的技能时，她的大部分技能都会获得额外的效果。",
+Character/Raye_Text_Battle_AllyND_0,Text,,,Oh no!,,不要！,
+Character/Raye_Text_Battle_Cri_0,Text,,,Yes!,,太好了！,
+Character/Raye_Text_Battle_Cri_1,Text,,,A clean hit!,,干净利落！,
+Character/Raye_Text_Battle_Healed_0,Text,,,I'm fine. Continuing the mission.,,我还好。作战继续！,
+Character/Raye_Text_Battle_Idle_0,Text,,,Multirole System: Standby,,闪刀系统已就绪。,
+Character/Raye_Text_Battle_Idle_1,Text,,,"""A Sky Striker's power... comes from fighting with their heart...""",,“闪刀姬的力量……来自她们与内心的斗争……”,
+Character/Raye_Text_Battle_Kill_0,Text,,,For the future that awaits us!,,为了我们所期盼的未来！,
+Character/Raye_Text_Battle_Kill_1,Text,,,We fight to live!,,为了生存而战！,
+Character/Raye_Text_Battle_ND_0,Text,,,Not good... Performance dropping to critical values...,,不好……性能降低至临界值……,
+Character/Raye_Text_Battle_Start_0,Text,,,For the future of Karma! Engage!,,为了未来！闪刀启动！,
+Character/Raye_Text_Battle_Start_1,Text,,,In the name of Humanity! Engage!,,以人类之名！闪刀启动！,
+Character/Raye_Text_Field_GetItem_0,Text,,,Woah! What's this?,,咦？这是什么？,
+Character/Raye_Text_Field_Idle_0,Text,,,Have you heard of apples? They're juicy and delicious!,,你听说过“苹果”吗？它们甜美、而又多汁。,
+Character/Raye_Text_Field_Idle_1,Text,,,Was this what the world was like before the War? ,,在战争之前，这个世界是什么样子的呢？,
+Character/Raye_Text_Field_Idle_2,Text,,,Have you seen Roze around?,,你在附近见过露世吗？,
+Character/Raye_Text_Field_Potion_P_0,Text,,,Tastes like apples!,,是苹果的味道！,
+Character/Raye_Text_PharosLeader_0,Text,,,I will not let you harm my friends!,,我不会允许你伤害我的朋友的！,
+Character/Raye_Text_PharosLeader_1,Text,,,A brainwashing ability... what a terrifying thing!,,洗脑能力……好可怕的能力……,
+Character/Raye_Text_PharosLeader_2,Text,,,Your heart is weak!,,心脏部位是弱点！,
+Character/Raye_Text_Witch_0,Text,,,"I can take it! Quick, Lucy!",,让我来！快点，露西！,
+Character/Raye_Text_Witch_1,Text,,,Hnng... I'll protect my friends! Give it!,,呜……我一定会保护大家！,
+Character/Raye_name,Text,,,Raye,,零衣,
+Skill/S_Raye_Accesscode1_Name,Text,,,Access Integration!,,访问、集成！,
+Skill/S_Raye_Accesscode_Description,Text,,,Recast this skill on a random enemy for each Link lockout effect on the caster.,,每拥有1个被锁定的链接形态，对随机敌人重复释放1次。,
+Skill/S_Raye_Accesscode_Name,Text,,,Access Integration!,,访问、集成！,
+Skill/S_Raye_Afterburners2_Name,Text,,,Empowered Afterburners,,强化 - 烈火重燃,
+Skill/S_Raye_Afterburners_Description,Text,,,"Also attack the enemy with the least HP. 
+If the user has Armory Armed!: Deal an additional instance of damage to a random enemy.
+",,"同时指向体力值最低的敌人。
+武装就绪！ - 额外对1个随机敌人造成伤害。",
+Skill/S_Raye_Afterburners_Name,Text,,,Maneuver - Afterburners!,,闪刀术式 - 烈火重燃,
+Skill/S_Raye_EagleBooster_Description,Text,,,"If the user has Armory Armed!: Increases target's resistances by 100% for 1 turns.
+Excluded after 3 uses.",,"武装就绪！ - 使目标在1回合内获得100%减益抵抗。
+使用3次后放逐。",
+Skill/S_Raye_EagleBooster_Name,Text,,,Mecha S015 - Eagle Booster,,闪刀机S015 - 鹰式推进器,
+Skill/S_Raye_Hayate_Description,Text,,,"On Link,  send one of user's non-rare skills from Deck to Discard.",,链接召唤成功的场合，从卡组将1个自己的技能送入弃牌堆。,
+Skill/S_Raye_Hayate_Name,Text,,,X004 - Hayate,,X004 - 飒,
+Skill/S_Raye_Hornet_Description,Text,,,"Remove 1 Link lockout effect.
+If the user has Armory Armed!: Increase user's attack power by 15% for 2 turns
+",,"移除1个被锁定的链接形态。
+武装就绪！ - 提升15%攻击力。",
+Skill/S_Raye_Hornet_Name,Text,,,Mecha S018 - Hornet Drones,,闪刀机S018 - 大黄蜂无人机,
+Skill/S_Raye_JammingWaves_Description,Text,,,"Gain party barrier equal to damage dealt. 
+If the user has Armory Armed!: Gain Party Barrier equal to Healing Power (&a).
+",,"获得等量于造成伤害值的防护墙。
+武装就绪！ - 获得等量于治疗力(&a)的防护墙。",
+Skill/S_Raye_JammingWaves_Name,Text,,,Maneuver - Jamming Waves!,,闪刀术式 - 干扰波,
+Skill/S_Raye_Kagari_Description,Text,,,"On Link, add one of user's non-rare skills from Discard to Hand.",,链接召唤成功的场合，从弃牌堆将1个自己的技能拿回手中。,
+Skill/S_Raye_Kagari_Name,Text,,,X003 - Kagari,,X003 - 篝,
+Skill/S_Raye_KainaCounter_Description,Text,,,,,,
+Skill/S_Raye_KainaCounter_Name,Text,,,Kaina Counter,,腕的反击,
+Skill/S_Raye_Kaina_Description,Text,,,"On link, apply 2 taunts randomly to enemies with an extremely high success rate.",,链接召唤成功的场合，以非常高的成功率对2个随机敌人进行嘲讽。,
+Skill/S_Raye_Kaina_Name,Text,,,X005 - Kaina,,X005 - 腕,
+Skill/S_Raye_LinkageToken_Description,Text,,,Discard the top skill in hand. Link into a Striker form . Draw 1 card.,,丢弃手中最上面的技能。进行一次链接召唤。抽取1个技能。,
+,,,,,,,
+Skill/S_Raye_LinkageToken_Name,Text,,,Linkage!,,连闪！,
+Skill/S_Raye_Linkage_Description,Text,,,Create 1 Linkage! in hand.,,将1个[连闪！]加入手中。,
+Skill/S_Raye_Linkage_Name,Text,,,Mobilize! Linkage!,,闪刀启动 - 连闪,
+Skill/S_Raye_LucyEngage_Description,Text,,,"Search 1 skill from Deck.
+If played with 3 Lucy skills in discard, Draw 2 skills.
+",,"从卡组选择1个技能抽取。
+如果弃牌堆中有3个以上露西技能，额外抽取2个技能。",
+Skill/S_Raye_LucyEngage_Name,Text,,,Mobilize! Engage!,,闪刀启动 - 交闪,
+Skill/S_Raye_Multirole_Description,Text,,,"Can be used again for 1 cost more per turn. 
+Raye links into one of her Link forms.",,"进行一次链接召唤。
+能够额外消耗1点费用再次使用。",
+Skill/S_Raye_Multirole_Name,Text,,,Multirole Modules,,闪刀机关 - 多用途战机,
+Skill/S_Raye_Scissors_Description,Text,,,"If this skill would go to Discard when played, it is sent there before triggering the following effect.
+Link into a Striker form. This Link ignores the restrictions of Modules (but still may apply restrictions, if applicable)
+If the user has Armory Armed!: activate the Link effect again.
+(Cannot select Maneuver - Scissors Cross for Link effects triggered by this card)",,"如果这个技能没有被放逐，那么它在生效前就会进入弃牌堆。
+进行一次链接召唤。这次链接召唤无视链接限制，但仍旧会产生链接限制。
+武装就绪！ - 再次触发链接召唤的效果。（但不能用链接召唤的效果选择这个技能为目标）",
+Skill/S_Raye_Scissors_Name,Text,,,Maneuver - Scissors Cross!,,闪刀术式 - 剪除交刃,
+Skill/S_Raye_SharkCannon_Description,Text,,,If the user has Armory Armed!: Apply 2 additional stacks of Position Displaced. ,,武装就绪！ - 额外施加2层[位置移位]。,
+Skill/S_Raye_SharkCannon_Name,Text,,,Mecha S020 - Shark Cannon,,闪刀机S020 - 鲨鱼加农炮,
+Skill/S_Raye_Shizuku_Description,Text,,,"On Link, if you have 1 mana, use it and add one of user's non-rare skills from Deck to Hand. ",,链接召唤成功的场合，如果拥有1点法力值，消耗1点法力值并从卡组抽取1个自己的非稀有技能。,
+Skill/S_Raye_Shizuku_Name,Text,,,X002 - Shizuku,,X002 - 雫,
+Skill/S_Raye_Vector_Description,Text,,,"Gain 2 Skill Exchange. 
+If the user has Armory Armed!: delay action by 3. 
+",,"获得2次交换次数。
+武装就绪！ - 延后目标的行动倒计时。",
+Skill/S_Raye_Vector_Name,Text,,,Maneuver - Vector Blast,,闪刀术式 - 矢量冲击波,
+Skill/S_Raye_WidowAnchor_Description,Text,,,"Switches enemy Taunt Status
+If the user has Armory Armed!: Taunt enemy for 2 attacks and decrease attack by 20%",,"改变目标的嘲讽状态。
+武装就绪！ - 嘲讽目标，持续2次攻击，并且攻击力提升20%。",
+Skill/S_Raye_WidowAnchor_Name,Text,,,Mecha S061 - Widow Anchor,,闪刀机S061 - 黑寡妇锚,
+SkillExtended/B_Raye_HayateCost_Des,Text,,,Cost increased by 1 while in Hayate.,,因处于飒形态，费用消耗提升1点。,
+SkillExtended/B_Raye_HayateCost_Name,Text,,,Maximum Output,,全功率输出,
+SkillExtended/SkillEn_Raye_Costdown_Des,Text,,,,,,
+SkillExtended/SkillEn_Raye_Costdown_EnforceString,Text,,,,,,
+SkillExtended/SkillEn_Raye_Costdown_Name,Text,,,"If the User has 3 or more skills in Discard, reduce cost by 2.",,弃牌堆中拥有3个以上自身技能时，降低2点费用。,
+SkillExtended/SkillEn_Raye_Link_EnforceString,Text,,,,,,
+SkillExtended/SkillEn_Raye_Link_Name,Text,,,"If played, Raye creates 1 Linkage! in hand.",,释放时，零衣生成1张[连闪！]加入手中。,

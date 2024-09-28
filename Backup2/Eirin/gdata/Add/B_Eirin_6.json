@@ -1,0 +1,11 @@
+{
+    "B_Eirin_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Eirin.B_Eirin_6",
+        "BuffTag": "null",
+        "Name": "月人/狂命",
+        "Description": "受到的伤害变为0。",
+        "LifeTime": 1,
+        "Icon": "B_Eirin_6\\B_Eirin_6_Icon.png"
+    }
+}

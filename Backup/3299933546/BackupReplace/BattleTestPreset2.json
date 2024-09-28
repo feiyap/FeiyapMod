@@ -1,0 +1,39 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Chiyo",
+            "Prime"
+        ],
+        "PartyBasicSkill": [
+            "Chiyo_BadDay",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                "Chiyo_DroneAssault",
+                "Chiyo_GooglingSkill",
+                "Chiyo_LifeFormula"
+            ],
+            [
+                
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            "Chiyo_SlaveDriver"
+        ],
+        "ConsumeItems": [
+            "BagOfGoldForTests",
+            "DeathDoorEnablerForTests"
+        ],
+        "AP": 5
+    }
+}

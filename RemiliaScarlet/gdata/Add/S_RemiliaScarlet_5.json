@@ -1,0 +1,34 @@
+{
+    "S_RemiliaScarlet_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "恶魔「Remilia Stretch」",
+        "Description": "依据自身最大体力值，额外造成&a(50%)伤害。倒计时期间，自身获得50%受伤减免和100%减益抵抗。",
+        "UseAp": 3,
+        "Particle": "Particle/Enemy/Golem_2",
+        "User": "RemiliaScarlet",
+        "Target": "enemy",
+        "Effect_Target": "SE_T_S_RemiliaScarlet_5",
+        "SkillExtended": [
+            "RemiliaScarlet.S_RemiliaScarlet_5"
+        ],
+        "Image_0": "S_RemiliaScarlet_5\\S_RemiliaScarlet_5_Image_0.png",
+        "Image_1": "S_RemiliaScarlet_5\\S_RemiliaScarlet_5_Image_1.png",
+        "Image_2": "S_RemiliaScarlet_5\\S_RemiliaScarlet_5_Image_2.png",
+        "Effect_Self": "null",
+        "Counting": 3
+    }
+}

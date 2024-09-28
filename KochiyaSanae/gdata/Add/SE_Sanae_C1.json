@@ -1,0 +1,12 @@
+{
+    "SE_Sanae_C1": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "<color=green>连击2</color> - 生成1个[风灵]。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "KochiyaSanae",
+        "ClassName": "KochiyaSanae.SE_Sanae_C1"
+    }
+}

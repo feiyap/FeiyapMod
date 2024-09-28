@@ -1,0 +1,34 @@
+{
+    "S_Eugeo_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "绽放吧！蓝蔷薇",
+        "Target": "enemy",
+        "Image_0": "S_Eugeo_0\\S_Eugeo_0_Image_0.png",
+        "Image_1": "S_Eugeo_0\\S_Eugeo_0_Image_1.png",
+        "Image_2": "S_Eugeo_0\\S_Eugeo_0_Image_2.png",
+        "Effect_Target": "SE_T_S_Eugeo_0",
+        "Particle": "Particle/Azar/Azar_1_NewAni",
+        "Effect_Self": "null",
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "UseAp": 2,
+        "Description": "依据自身最大体力值，额外造成&a(300%)伤害。自己会受到数值一半的痛苦伤害，这个伤害不会让自己致死。",
+        "SkillExtended": [
+            "Kirito.S_Eugeo_0"
+        ]
+    }
+}

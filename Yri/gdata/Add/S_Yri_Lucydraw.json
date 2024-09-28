@@ -1,0 +1,36 @@
+{
+    "S_Yri_Lucydraw": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Track": false,
+        "Name": "Fatebound Versatility",
+        "Description": "Target either:\r\nAscend: Gain 2 mana\r\nDescend: Draw 2 cards\r\n",
+        "NoDrop": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "LucyDraw",
+        "LucyPartyDraw": "Yri",
+        "SkillExtended": [
+            "Yri_Char.S_Yri_Lucydraw"
+        ],
+        "Image_0": "S_Yri_Lucydraw\\S_Yri_Lucydraw_Image_0.png",
+        "Image_1": "S_Yri_Lucydraw\\S_Yri_Lucydraw_Image_1.png",
+        "PlusKeyWords": [
+            "KeyWord_Ascend",
+            "KeyWord_Descend"
+        ]
+    }
+}

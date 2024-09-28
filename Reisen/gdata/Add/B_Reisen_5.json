@@ -1,0 +1,13 @@
+{
+    "B_Reisen_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Reisen.B_Reisen_5",
+        "BuffTag": "null",
+        "Name": "幻象/视差",
+        "Description": "闪避下1次受到的伤害。",
+        "MaxStack": 1,
+        "LifeTime": 0,
+        "IsFieldBuff": true,
+        "Icon": "Image/Buff/Skill_Icon_Pack/2"
+    }
+}

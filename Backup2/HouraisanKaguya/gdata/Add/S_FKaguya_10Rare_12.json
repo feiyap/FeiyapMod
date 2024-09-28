@@ -1,0 +1,33 @@
+{
+    "S_FKaguya_10Rare_12": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/ProgramMaster_Attack",
+        "Rare": true,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": true,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "「永夜归返  -寅之刻-」",
+        "Description": "将1张升级后的「永夜归返」加入弃牌堆。\n\n每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+        "Effect_Target": "SE_T_S_FKaguya_10Rare_12",
+        "Image_0": "S_FKaguya_10Rare_0\\S_FKaguya_10Rare_0_Image_0.png",
+        "Image_1": "S_FKaguya_10Rare_0\\S_FKaguya_10Rare_0_Image_1.png",
+        "Image_2": "S_FKaguya_10Rare_0\\S_FKaguya_10Rare_0_Image_2.png",
+        "SkillExtended": [
+            "HouraisanKaguya.S_FKaguya_10Rare_12"
+        ],
+        "UseAp": 2
+    }
+}

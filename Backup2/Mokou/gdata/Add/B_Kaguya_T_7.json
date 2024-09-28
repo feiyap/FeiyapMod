@@ -1,0 +1,19 @@
+{
+    "B_Kaguya_T_7": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Mokou.B_Kaguya_T_7",
+        "BuffTag": "Debuff",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "星星灼烧",
+        "Description": "",
+        "MaxStack": 5,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 0,
+        "Icon": "Image/Buff/Skill_Icon_Pack/Debuff"
+    }
+}

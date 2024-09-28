@@ -1,0 +1,26 @@
+{
+    "S_Raye_Afterburners2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Pharos_witch",
+        "Target": "enemy",
+        "Track": true,
+        "Name": "Empowered Afterburners",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Raye_Afterburners2",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

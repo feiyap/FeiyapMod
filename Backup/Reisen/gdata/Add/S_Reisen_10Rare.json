@@ -1,0 +1,25 @@
+{
+    "S_Reisen_10Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunner_0",
+        "Target": "enemy",
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Name": "「幻胧月睨(Lunatic Red Eyes)」",
+        "Description": "必定命中。\n使用这个技能击杀敌人时，从牌库和弃牌堆挑选1张自己的技能加入手中。",
+        "User": "Reisen",
+        "Rare": true,
+        "UseAp": 1,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_Reisen_10Rare",
+        "Image_0": "S_Reisen_10Rare\\S_Reisen_10Rare_Image_0.png",
+        "Image_1": "S_Reisen_10Rare\\S_Reisen_10Rare_Image_1.png",
+        "Image_2": "S_Reisen_10Rare\\S_Reisen_10Rare_Image_2.png",
+        "Effect_Self": "SE_S_S_Reisen_10Rare",
+        "SkillExtended": [
+            "Reisen.S_Reisen_10Rare"
+        ],
+        "Fatal": false
+    }
+}

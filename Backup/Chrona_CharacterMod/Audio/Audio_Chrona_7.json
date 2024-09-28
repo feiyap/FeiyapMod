@@ -1,0 +1,7 @@
+{
+    "Name": "Audio_Chrona_7",
+    "path": "Assets/Chrona/Skill/7/Audio_Chrona_7.mp3",
+    "AssetBundlePath": "chrona.asset",
+    "Loop": false,
+    "Bus": "SE"
+}

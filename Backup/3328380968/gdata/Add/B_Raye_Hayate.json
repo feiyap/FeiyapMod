@@ -1,0 +1,18 @@
+{
+    "B_Raye_Hayate": {
+        "_gdeSchema": "Buff",
+        "ClassName": "SkyStriker.B_Raye_Hayate",
+        "BuffTag": "null",
+        "Name": "X004 - Hayate",
+        "Description": "Attacks gain Ignore Taunt. \nWhile in Hayate, Fixed Skill costs 1 less. Skills in hand cost 1 more.",
+        "Icon": "B_Raye_Hayate\\B_Raye_Hayate_Icon.png",
+        "MaxStack": 1,
+        "Cantdisable": true,
+        "Debuff": false,
+        "TagPer": 0,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

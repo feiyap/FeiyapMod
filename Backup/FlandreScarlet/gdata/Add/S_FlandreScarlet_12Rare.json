@@ -1,0 +1,37 @@
+{
+    "S_FlandreScarlet_12Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/Hein_new_2",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": false,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Name": "禁忌「莱瓦汀」",
+        "Description": "使用此技能击杀后增加1%永久暴击率，回复2点法力值，这场战斗中无法再从技能中获得永久暴击率加成。\n\n禁忌 - 额外造成&a(75%)伤害，这个技能+10%暴击率。",
+        "UseAp": 2,
+        "User": "FlandreScarlet",
+        "IgnoreTaunt": true,
+        "Fatal": true,
+        "Track": false,
+        "PlusKeyWords": [
+            "Keyword_Revenge"
+        ],
+        "Effect_Target": "SE_T_S_FlandreScarlet_12Rare",
+        "Image_0": "S_FlandreScarlet_12Rare\\S_FlandreScarlet_12Rare_Image_0.png",
+        "Image_1": "S_FlandreScarlet_12Rare\\S_FlandreScarlet_12Rare_Image_1.png",
+        "Image_2": "S_FlandreScarlet_12Rare\\S_FlandreScarlet_12Rare_Image_2.png",
+        "SkillExtended": [
+            "FlandreScarlet.S_FlandreScarlet_12Rare"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

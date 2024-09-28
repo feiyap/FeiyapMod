@@ -1,0 +1,21 @@
+{
+    "S_Sunmeitian_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "all",
+        "Disposable": true,
+        "Name": "化缘求斋",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "Sunmeitian",
+        "Description": "每有一个体力值为满的单位，抽取1个技能（最大不超过4张）。\n超过4张的部分转化为获得等量法力值。",
+        "NotCount": true,
+        "Image_0": "S_Sunmeitian_LucyD\\S_Sunmeitian_LucyD_Image_0.png",
+        "Image_1": "S_Sunmeitian_LucyD\\S_Sunmeitian_LucyD_Image_1.png",
+        "Image_2": "S_Sunmeitian_LucyD\\S_Sunmeitian_LucyD_Image_2.png",
+        "SkillExtended": [
+            "Sunmeitian.S_Sunmeitian_LucyD"
+        ]
+    }
+}

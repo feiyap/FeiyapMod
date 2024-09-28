@@ -1,0 +1,34 @@
+{
+    "S_Eirin_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "HealSkill": true,
+        "Name": "天丸「壶中的天地」",
+        "UseAp": 2,
+        "Description": "如果目标身上有减益效果，则解除目标身上随机1个减益效果。\n\n依据解除的减益效果的种类：\n痛苦减益 - 施加[月人/月药]。\n弱化减益 - 施加[月人/乾坤]。\n干扰减益 - 施加[月人/操神]。",
+        "User": "Eirin",
+        "Effect_Target": "SE_T_S_Eirin_2",
+        "Image_0": "S_Eirin_2\\S_Eirin_2_Image_0.png",
+        "Image_1": "S_Eirin_2\\S_Eirin_2_Image_1.png",
+        "Image_2": "S_Eirin_2\\S_Eirin_2_Image_2.png",
+        "SkillExtended": [
+            "Eirin.S_Eirin_2"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

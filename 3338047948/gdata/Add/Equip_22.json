@@ -1,0 +1,10 @@
+{
+    "Equip_22": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "name": "暗剑+22",
+        "image": "Item\\Equip_22_image.png",
+        "Description": "",
+        "Equip_Script": "BOSSLucy.Equip_22"
+    }
+}

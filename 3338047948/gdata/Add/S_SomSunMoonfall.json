@@ -1,0 +1,29 @@
+{
+    "S_SomSunMoonfall": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/TW_RR",
+        "Target": "enemy",
+        "NotCount": true,
+        "Disposable": false,
+        "NoDrop": true,
+        "Name": "落月食带",
+        "Rare": true,
+        "UseAp": 1,
+        "Except": true,
+        "Track": true,
+        "Effect_Target": "SE_T_S_SomSunMoonfall",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_SomSunMoonfall\\S_SomSunMoonfall_Image_0.png",
+        "Image_1": "S_SomSunMoonfall\\S_SomSunMoonfall_Image_1.png",
+        "Image_2": "S_SomSunMoonfall\\S_SomSunMoonfall_Image_2.png"
+    }
+}

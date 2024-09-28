@@ -1,0 +1,23 @@
+{
+    "myKey": "HatsuneMiku",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "HatsuneMiku\\HatsuneMikuBattleChar.png",
+        "offsetMax": {
+            "x": 722.3502,
+            "y": 604.901062
+        },
+        "offsetMin": {
+            "x": -970.2117,
+            "y": -1087.66089
+        },
+        "pivot": {
+            "x": 0.5732208,
+            "y": 0.642612159
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

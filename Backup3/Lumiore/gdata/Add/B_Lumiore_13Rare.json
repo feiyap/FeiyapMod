@@ -1,0 +1,20 @@
+{
+    "B_Lumiore_13Rare": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 1,
+        "Name": "金色威信",
+        "Description": "每次手中的技能被交换/丢弃时，对所有敌人造成 %a 点伤害。1回合最多触发20次。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 1,
+        "ClassName": "Lumiore.B_Lumiore_13Rare",
+        "Icon": "B_Lumiore_13Rare\\B_Lumiore_13Rare_Icon.png"
+    }
+}

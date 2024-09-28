@@ -1,0 +1,13 @@
+{
+    "B_Sakuya_10Rare": {
+        "_gdeSchema": "Buff",
+        "ClassName": "IzayoiSakuya.B_Sakuya_10Rare",
+        "BuffTag": "null",
+        "Name": "时符「个人空间」",
+        "Description": "",
+        "Hide": false,
+        "MaxStack": 1,
+        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_01",
+        "LifeTime": 2
+    }
+}

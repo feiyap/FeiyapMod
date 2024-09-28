@@ -1,0 +1,33 @@
+{
+    "S_zjk_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Target": "skill",
+        "NotCount": true,
+        "Name": "九宫步",
+        "Description": "选择一个技能变为迅速\n若手中没有自己的技能，则抽1个自己的技能。\n在手中打出时，改为优先抽取1个攻击技能，并将自身放逐，若可消耗1<color=#FFD700>快意</color>，则消耗，多抽1张攻击牌。",
+        "UseAp": 0,
+        "User": "zjk",
+        "SkillExtended": [
+            "zuiJianKeMod.Extended_zjk_5"
+        ],
+        "Fatal": false,
+        "Rare": false,
+        "IgnoreTaunt": false,
+        "Disposable": false,
+        "Particle": "Particle/impact",
+        "Image_0": "S_zjk_5\\S_zjk_5_Image_0.png",
+        "Image_1": "S_zjk_5\\S_zjk_5_Image_1.png",
+        "Image_2": "S_zjk_5\\S_zjk_5_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": true,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "B_Shameimaru_Rare11": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "ShameimaruAya.B_Shameimaru_Rare11",
+        "BuffTag": "null",
+        "Name": "风来的少女",
+        "Description": "使用0费的技能时，恢复1点法力值。",
+        "Icon": "B_Shameimaru_Rare11\\B_Shameimaru_Rare11_Icon.png",
+        "LifeTime": 1
+    }
+}

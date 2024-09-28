@@ -1,0 +1,18 @@
+{
+    "B_Kaguya_S_2": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "Name": "两难选择",
+        "Icon": "Image/Buff/Skill_Icon_Pack/2_0/freeze",
+        "UseSkillDebuff": true,
+        "Description": "被选定为难题「佛御石之钵　-不碎的意志-」的目标。",
+        "MaxStack": 0,
+        "LifeTime": 1,
+        "Cantdisable": true,
+        "Debuff": true,
+        "TagPer": 0,
+        "Hide": false,
+        "ClassName": "",
+        "AllyBuffEffect": "BuffEffect/Ally/Effect_TimeFreeze"
+    }
+}

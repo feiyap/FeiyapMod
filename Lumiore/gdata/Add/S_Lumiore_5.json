@@ -1,0 +1,33 @@
+{
+    "S_Lumiore_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "银色清纯·雅尔贞特",
+        "Description": "打出时舍弃自己2个技能，使自己最大法力值+1。\n若[这张战斗中，丢弃手牌的次数]大于2次（不包括这个技能），则会抽取3个技能。",
+        "UseAp": 3,
+        "Particle": "Particle/Buff",
+        "User": "Lumiore",
+        "Target": "enemy",
+        "Effect_Target": "SE_T_S_Lumiore_5",
+        "SkillExtended": [
+            "Lumiore.S_Lumiore_5"
+        ],
+        "Image_0": "S_Lumiore_5\\S_Lumiore_5_Image_0.png",
+        "Image_1": "S_Lumiore_5\\S_Lumiore_5_Image_1.png",
+        "Image_2": "S_Lumiore_5\\S_Lumiore_5_Image_2.png",
+        "Effect_Self": "null"
+    }
+}

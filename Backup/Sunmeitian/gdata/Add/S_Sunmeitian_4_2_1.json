@@ -1,0 +1,33 @@
+{
+    "S_Sunmeitian_4_2_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "乾坤之跃",
+        "Description": "",
+        "Disposable": false,
+        "Counting": 1,
+        "Effect_Target": "SE_T_S_Sunmeitian_4_2_1",
+        "Image_0": "S_Sunmeitian_4_2_1\\S_Sunmeitian_4_2_1_Image_0.png",
+        "Image_1": "S_Sunmeitian_4_2_1\\S_Sunmeitian_4_2_1_Image_1.png",
+        "Image_2": "S_Sunmeitian_4_2_1\\S_Sunmeitian_4_2_1_Image_2.png",
+        "SkillExtended": [
+            "Sunmeitian.S_Sunmeitian_4_2_1"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

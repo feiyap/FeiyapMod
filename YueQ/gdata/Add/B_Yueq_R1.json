@@ -1,0 +1,16 @@
+{
+    "B_Yueq_R1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "YueQ.B_Yueq_R1",
+        "BuffTag": "null",
+        "Name": "残响回收",
+        "Description": "每回合开始时,进行1次变调(除<color=#FF4500>R</color><color=#FF00FF>e</color><color=#1E90FF>m</color><color=#00FFFF>i</color><color=#FFD700>x</color>)\r\n获得充能时,随机生成一个带放逐的<color=#00FF7F>乐谱</color>技能(10%概率生成稀有技能),且本回合令此技能费用-1.",
+        "LifeTime": 6,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_Yueq_R1\\B_Yueq_R1_Icon.png"
+    }
+}

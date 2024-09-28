@@ -1,0 +1,11 @@
+{
+    "B_HakureiReimu_F_LucyD_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "健康祈愿",
+        "LifeTime": 3,
+        "Tick": "SE_Tick_B_HakureiReimu_F_LucyD_2",
+        "Icon": "Image/Buff/Skill_Icon_Pack/green/green_20"
+    }
+}

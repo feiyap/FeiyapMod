@@ -1,0 +1,13 @@
+{
+    "Chiyo_SynergyUpgrade_GainGold": {
+        "_gdeSchema": "SkillExtended",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "Chiyo",
+        "Name": "When played, earn 30 Gold * the skill's cost.",
+        "Des": "",
+        "ClassName": "Chiyo.Chiyo_SynergyUpgrade_GainGold",
+        "AlwaysParticle": false,
+        "IsOnesInit": false
+    }
+}

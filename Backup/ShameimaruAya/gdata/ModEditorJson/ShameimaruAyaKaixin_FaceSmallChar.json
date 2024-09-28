@@ -1,0 +1,23 @@
+{
+    "myKey": "ShameimaruAyaKaixin",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "ShameimaruAyaKaixin\\ShameimaruAyaKaixinFaceSmallChar.png",
+        "offsetMax": {
+            "x": 191.722137,
+            "y": 61.90618
+        },
+        "offsetMin": {
+            "x": -155.875061,
+            "y": -285.691
+        },
+        "pivot": {
+            "x": 0.442589939,
+            "y": 0.8058215
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

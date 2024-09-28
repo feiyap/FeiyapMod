@@ -1,0 +1,31 @@
+{
+    "S_Raye_Kaina": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "X005 - Kaina",
+        "Description": "On link, apply 2 taunts randomly to enemies with an extremely high success rate.",
+        "Effect_Self": "SE_S_S_Raye_Kaina",
+        "Image_0": "S_Raye_Kaina\\S_Raye_Kaina_Image_0.png",
+        "Image_1": "S_Raye_Kaina\\S_Raye_Kaina_Image_1.png",
+        "Image_2": "S_Raye_Kaina\\S_Raye_Kaina_Image_2.png",
+        "PlusSkillView": "S_Raye_KainaCounter",
+        "UseAp": 0,
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

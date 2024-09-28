@@ -1,0 +1,9 @@
+{
+    "SE_Sanae_Rare12": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "神风的奇迹",
+        "Des": "暴击率+100%。",
+        "IsIcon": "SE_Sanae_Rare12\\SE_Sanae_Rare12_Icon.png",
+        "ClassName": "KochiyaSanae.SE_Sanae_Rare12"
+    }
+}

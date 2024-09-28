@@ -1,0 +1,16 @@
+{
+    "B_Reisen_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Reisen.B_Reisen_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "幻象/赤月",
+        "Description": "每次触发[幻象/乱弹]时失去1层[狂气]，使[幻象/乱弹]的命中率提升为75%。\n当[狂气]层数归零时、或是按下[等待]按钮时，[幻象/赤月]状态解除。",
+        "Icon": "B_Reisen_P\\B_Reisen_P_Icon.png",
+        "MaxStack": 1
+    }
+}

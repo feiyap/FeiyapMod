@@ -1,0 +1,12 @@
+{
+    "B_Inaba_Rare11": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Inaba.B_Inaba_Rare11",
+        "BuffTag": "null",
+        "Name": "国士无双？",
+        "Description": "",
+        "Icon": "B_Inaba_Rare11\\B_Inaba_Rare11_Icon.png",
+        "LifeTime": 0,
+        "Cantdisable": false
+    }
+}

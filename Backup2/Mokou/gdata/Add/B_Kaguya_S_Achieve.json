@@ -1,0 +1,15 @@
+{
+    "B_Kaguya_S_Achieve": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Mokou.B_Kaguya_S_Achieve",
+        "BuffTag": "null",
+        "Name": "「无限的生命之泉」",
+        "Description": "成功完成了辉夜的难题「燕的子安贝　-永命线-」，全体友方获得增益。",
+        "MaxStack": 0,
+        "Icon": "B_Kaguya_S_Achieve\\B_Kaguya_S_Achieve_Icon.png",
+        "UseSkillDebuff": false,
+        "Hide": false
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "B_SR_Remilia_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "DOT",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "绯夜",
+        "Description": "",
+        "Tick": "SE_Tick_B_SR_Remilia_0",
+        "LifeTime": 3,
+        "MaxStack": 3,
+        "Icon": "B_SR_Remilia_0\\B_SR_Remilia_0_Icon.png",
+        "Debuff": true,
+        "TagPer": 120
+    }
+}

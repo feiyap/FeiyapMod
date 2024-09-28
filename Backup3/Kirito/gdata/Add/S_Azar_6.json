@@ -1,0 +1,9 @@
+{
+    "S_Azar_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "IgnoreTaunt": false
+    }
+}

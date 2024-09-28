@@ -1,0 +1,8 @@
+{
+    "SE_T_S_Sunmeitian_4_2_3": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 140,
+        "DMG_Base": 1
+    }
+}

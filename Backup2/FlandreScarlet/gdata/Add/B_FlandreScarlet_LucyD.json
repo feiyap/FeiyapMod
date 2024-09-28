@@ -1,0 +1,16 @@
+{
+    "B_FlandreScarlet_LucyD": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "FlandreScarlet.B_FlandreScarlet_LucyD",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "禁忌果实",
+        "Description": "受到伤害时恢复25%伤害量的体力，每次受到伤害抽取1个技能（最多触发4次）。",
+        "LifeTime": 1,
+        "Icon": "B_FlandreScarlet_LucyD\\B_FlandreScarlet_LucyD_Icon.png"
+    }
+}

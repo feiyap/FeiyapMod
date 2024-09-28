@@ -1,0 +1,97 @@
+{
+    "FlandreScarlet": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "FlandreScarlet.P_FlandreScarlet",
+        "PassiveUnlockLV1": false,
+        "name": "芙兰朵露",
+        "Gender": 1,
+        "face": "FlandreScarlet\\FlandreScarletBattleFace.png",
+        "PassiveName": "U.N.OWEN就是她吗？",
+        "PassiveDes": "芙兰朵露拥有将一切悉数破坏程度的能力。每1级额外增加自己10%暴击伤害。\n\n禁忌欲望 - 芙兰朵露在体力值低于最大体力值的一半时，部分技能会获得额外效果。\n\n禁忌狂乱 - 芙兰朵露受到来自自己或队友的伤害累计一定次数后，部分技能会获得额外效果。",
+        "PassiveIcon": "FlandreScarlet\\FlandreScarletPassiveIcon.png",
+        "CollectionSprite_Cover": "FlandreScarlet\\FlandreScarletCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "FlandreScarlet\\FlandreScarletCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Heal": 1,
+        "StatView_Dot": 0,
+        "StatView_Debuff": 1,
+        "StatView_Difficult": 3,
+        "MAXHP": {
+            "x": 24,
+            "y": 44
+        },
+        "ATK": {
+            "x": 15,
+            "y": 27
+        },
+        "REG": {
+            "x": 7,
+            "y": 11
+        },
+        "DODGE": {
+            "x": -5,
+            "y": 10
+        },
+        "CRI": {
+            "x": 1,
+            "y": 10
+        },
+        "HIT": {
+            "x": 93,
+            "y": 115
+        },
+        "RES_CC": {
+            "x": -5,
+            "y": 30
+        },
+        "RES_DEBUFF": {
+            "x": -5,
+            "y": 30
+        },
+        "RES_DOT": {
+            "x": -5,
+            "y": 30
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 30
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 30
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 30
+        },
+        "SelectInfo": "芙兰朵露是极具进攻性的输出型角色。\r\n她在低体力值的情况下，能够获得更加强大的输出能力；而通过频繁地对自己造成伤害后，同样能够解锁新的招式效果。\r\n想要掌控她的强大破坏力，需要精准地控制她的体力值才行。",
+        "FirstSkill": "S_FlandreScarlet_0",
+        "CampSelectWord": "我也想到外面的世界去，看看所谓的人长得什么样子~",
+        "Text_Battle_Idle": [
+            "能陪我一起玩吗？"
+        ],
+        "Text_Battle_Cri": [
+            "找——到——啦——",
+            "了结你！"
+        ],
+        "Text_Battle_Start": [
+            "什么嘛，这些家伙看起来挺弱的。"
+        ],
+        "Text_Battle_Kill": [
+            "坏孩子不用回家也可以哦~"
+        ],
+        "Text_Battle_ND": [
+            "攻击好像不起效……"
+        ],
+        "Text_Field_Idle": [
+            "好——无聊，好无聊。没有什么可以破坏的吗？"
+        ],
+        "CampSD": [
+            "FlandreScarlet\\FlandreScarletCampSD0.png",
+            "FlandreScarlet\\FlandreScarletCampSD1.png",
+            "FlandreScarlet\\FlandreScarletCampSD2.png",
+            "FlandreScarlet\\FlandreScarletCampSD3.png"
+        ]
+    }
+}

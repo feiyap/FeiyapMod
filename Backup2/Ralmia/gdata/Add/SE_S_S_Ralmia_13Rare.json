@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Ralmia_13Rare": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Ralmia_13Rare"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

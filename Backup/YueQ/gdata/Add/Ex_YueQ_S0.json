@@ -1,0 +1,11 @@
+{
+    "Ex_YueQ_S0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "绕梁",
+        "Des": "",
+        "ClassName": "YueQ.Ex_YueQ_S0",
+        "IsIcon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (72)"
+    }
+}

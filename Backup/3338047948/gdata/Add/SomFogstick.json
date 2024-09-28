@@ -1,0 +1,14 @@
+{
+    "SomFogstick": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "迷雾图腾",
+        "Passives": [
+            "B_SomFogstick"
+        ],
+        "maxhp": 100,
+        "Skills": [
+            "S_Idle"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "myKey": "SummonPrime",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SummonPrime\\SummonPrimeMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.5028322,
+            "y": 0.0555806756
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.4943397,
+            "y": 0.237831444
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "B_Sakuya_1": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "ClassName": "IzayoiSakuya.B_Sakuya_1",
+        "BuffTag": "CrowdControl",
+        "Name": "光速「光速跃迁」",
+        "MaxStack": 1,
+        "Debuff": true,
+        "TagPer": 999,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_01"
+    }
+}

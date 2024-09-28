@@ -1,0 +1,18 @@
+{
+    "S_SR_Remilia_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "NotCount": false,
+        "EnemyPreview": true,
+        "Name": "必杀「Heart Break」",
+        "Description": "额外造成20%自身最大体力值的伤害。这个技能的100%将会超额治疗自己。",
+        "Effect_Target": "SE_T_S_SR_Remilia_1",
+        "Image_0": "S_SR_Remilia_1\\S_SR_Remilia_1_Image_0.png",
+        "Image_1": "S_SR_Remilia_1\\S_SR_Remilia_1_Image_1.png",
+        "Image_2": "S_SR_Remilia_1\\S_SR_Remilia_1_Image_2.png",
+        "UnknownTarget": true,
+        "UseAp": 1
+    }
+}

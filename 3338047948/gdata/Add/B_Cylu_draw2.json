@@ -1,0 +1,13 @@
+{
+    "B_Cylu_draw2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_Cylu_draw2",
+        "BuffTag": "null",
+        "Name": "渺茫",
+        "Icon": "B_Cylu_draw2\\B_Cylu_draw2_Icon.png",
+        "LifeTime": 3,
+        "Description": "被攻击时，抽取1个技能，所有行动倒计时+1。最多触发10次。（已触发&b次）\n按下结束回合键时，受到相当于下一次行动倒计时的痛苦伤害&a点。",
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

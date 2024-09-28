@@ -1,0 +1,27 @@
+{
+    "S_Satsuki_11Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "「那无法成为幻想的某物」",
+        "Description": "幻灭X - 获得X点防护墙。X为自身一半的[幻光]层数（向下取整）（当前为%a）。",
+        "User": "SatsukiRin",
+        "UseAp": 1,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_Satsuki_11Rare",
+        "Image_0": "S_Satsuki_11Rare\\S_Satsuki_11Rare_Image_0.png",
+        "Image_1": "S_Satsuki_11Rare\\S_Satsuki_11Rare_Image_1.png",
+        "Image_2": "S_Satsuki_11Rare\\S_Satsuki_11Rare_Image_2.png",
+        "SkillExtended": [
+            "SatsukiRin.S_Satsuki_11Rare"
+        ],
+        "HealSkill": false,
+        "PlusKeyWords": [
+            "Keyword_Disillusion"
+        ]
+    }
+}

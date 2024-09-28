@@ -1,0 +1,14 @@
+{
+    "S_Raye_Accesscode1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Johan/Johan_R1",
+        "Rare": false,
+        "Target": "enemy",
+        "IgnoreTaunt": false,
+        "Track": true,
+        "Name": "Access Integration!",
+        "Effect_Target": "SE_T_S_Raye_Accesscode1",
+        "UseAp": 3
+    }
+}

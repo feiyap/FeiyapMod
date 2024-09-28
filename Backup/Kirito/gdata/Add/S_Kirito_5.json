@@ -1,0 +1,34 @@
+{
+    "S_Kirito_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": true,
+        "Fatal": true,
+        "Name": "绝命重击",
+        "Description": "每使用1张自己的技能，倒计时-1。依据选择的后宫团成员获得额外效果：\n-亚丝娜：降低1点费用。打出时选择1张手中的技能，生成一张附带放逐的复制，放入牌堆最上方。\n-诗乃：触发1次100%暴击的[狙击支援]，并且溢出的暴击率转化成额外爆伤。。\n-尤吉欧：生成1张[绽放吧！蓝蔷薇]加入手中，恢复1点法力值。",
+        "UseAp": 5,
+        "Particle": "Particle/Public/Public_4",
+        "User": "Kirito",
+        "Target": "enemy",
+        "Effect_Target": "SE_T_S_Kirito_5",
+        "Image_0": "S_Kirito_5\\S_Kirito_5_Image_0.png",
+        "Image_1": "S_Kirito_5\\S_Kirito_5_Image_1.png",
+        "Image_2": "S_Kirito_5\\S_Kirito_5_Image_2.png",
+        "Effect_Self": "null",
+        "Counting": 2,
+        "SkillExtended": [
+            "Kirito.S_Kirito_5"
+        ]
+    }
+}

@@ -1,0 +1,654 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_FKaguya_0_Description,Text,,"추가공격/반격을 받은 후, 받는피해량이 5%증가합니다.","After receiving Additional Attacks/CounterAttacks, increase the damage taken by 5%.",追加攻撃/反撃によってダメージを受けるたび、受けるダメージが5%増加する。,受到追加攻击/反击后，增加5%受到的伤害。,
+Buff/B_FKaguya_0_Name,Text,,카구야/용옥,Kaguya/Dragon Jewel,輝夜/龍玉,辉夜/龙玉,
+Buff/B_FKaguya_10Rare_17_Description,Text,,,,,,
+Buff/B_FKaguya_10Rare_17_Name,Text,,영야 되돌리기,End of Imperishable Night,永夜返し,永夜归返,
+Buff/B_FKaguya_11Rare_Description,Text,,"매 턴 종료 시, 모든 적에게 [카구야/영야]를 3회, 1중첩씩 부여합니다.
+적이 중첩 상한을 초과하는 [카구야/영야]에 걸릴때마다 적에게 &a(50%)의 추가 공격을 합니다.","At the end of each turn, apply 3 stacks of [Kaguya/Eternal Night] to all enemies.
+Each time an enemy receives more stacks of [Kaguya/Eternal Night] than the limit, perform an additional attack dealing &a(50%) damage.","毎ターン終了時、敵全体に[輝夜/永夜]を1ストック3回与える。
+ストック数の上限を超えて[輝夜/永夜]を得るたびに、対象に&a(50%)ダメージの追加攻撃を与える。","每回合结束时，对所有敌人施加3次[辉夜/永夜]，每次1层。
+每次敌人被施加超过层数上限的[辉夜/永夜]时，对其进行1次&a(50%)伤害的追加攻击。",
+Buff/B_FKaguya_11Rare_Name,Text,,카구야/봉래,Kaguya/Hourai,輝夜/蓬莱,辉夜/蓬莱,
+Buff/B_FKaguya_2_Description,Text,,,,,,
+Buff/B_FKaguya_2_Name,Text,,부처의 석발,Buddha's Stone Bowl,仏の御石の鉢,佛御石之钵,
+Buff/B_FKaguya_4_Name,Text,,카구야/불쥐,Kaguya/Fire Rat,輝夜/火鼠,辉夜/火鼠,
+Buff/B_FKaguya_5_Description,Text,,"고통피해를 2배로 받습니다.
+고통피해를 제외한 받는 피해량이 절반으로 감소합니다.","Doubled pain damage;
+Non-pain damage is halved.","受ける苦痛ダメージが倍になる。
+苦痛でないダメージは半分になる。","受到痛苦伤害翻倍；
+受到非痛苦伤害减半。",
+Buff/B_FKaguya_5_Name,Text,,카구야/샐러맨더,Kaguya/Salamander Shield,輝夜/火蜥蜴,辉夜/火蜥蜴,
+Buff/B_FKaguya_6_0_Description,Text,,,,,,
+Buff/B_FKaguya_6_0_Name,Text,,제비의 자안패,Swallow's Cowrie Shell,燕の子安貝,燕的子安贝,
+Buff/B_FKaguya_6_Description,Text,,"&target이외의 대상은 공격 할 수 없습니다.
+대상 공격 시 제거됩니다.","Can only target &target.
+Removed when this character attacks &target.","&target以外には攻撃できない。
+攻撃時に除去される。","无法攻击&target以外的目标。
+攻击目标时解除。",
+Buff/B_FKaguya_6_Name,Text,,카구야/자안패,Kaguya/Kizanbe,輝夜/子安貝,辉夜/子安贝,
+Buff/B_FKaguya_7_0_Description,Text,,,,,,
+Buff/B_FKaguya_7_0_Name,Text,,카구야/봉래,Kaguya/Hourai,輝夜/蓬莱,辉夜/蓬莱,
+Buff/B_FKaguya_7_Description,Text,,"빈사상태에서 피해를 입으면 피해를 무효화하고 모든 체력이 회복된 후, 
+[카구야/봉래] 1중첩을 얻고 이 버프를 제거합니다.","When attacked at Death's Door, prevent incoming damage and survive at max Health, gain [Kaguya/Hourai].",瀕死状態でダメージを受けると、そのダメージを無効にして体力を全回復する。その後[輝夜/蓬莱]を1ストック得て、これを除去する。,在濒死状态下受到伤害时，抵消这次伤害，恢复所有体力，之后获得1层[辉夜/蓬莱]并解除这个增益。,
+Buff/B_FKaguya_7_Name,Text,,카구야/월인,Kaguya/Mooner,輝夜/月人,辉夜/月人,
+Buff/B_FKaguya_9_Description,Text,,"추가 공격/반격을 받았을 때, 
+카구야가 절반의 피해량으로 추가공격을 1회 시전합니다.
+(반복 발동하지 않습니다.)","Upon receiving additional attacks/counterattacks, Kaguya performs an additional attack with half the value (will not trigger again).",追加攻撃/反撃を受けたとき、輝夜がそのダメージの半分のダメージの追加攻撃を行う（繰り返し発動しない）。,受到追加攻击/反击时，辉夜对其进行一次一半数值的追加攻击（不会重复触发）。,
+Buff/B_FKaguya_9_Name,Text,,카구야/꿈의고향,Kaguya/Dreamlike Paradise,輝夜/夢郷,辉夜/梦乡,
+Buff/B_FKaguya_Co1_Description,Text,,<i><color=#696969>진실한 달의 광기에 굴복해라! </color></i>,<i><color=#696969>Bow before the madness of the true moon!</color></i>,<i><color=#696969>真の月の狂気を崇めよ！</color></i>,<i><color=#696969>拜倒在真实之月的狂气之下吧！</color></i>,
+Buff/B_FKaguya_Co1_Name,Text,,영원/정하,Eternal/Under the Pavilion,永遠/別棟,永远/亭下,
+Buff/B_FKaguya_Co2_Description,Text,,"각 턴 시작 시, 현재 라운드의 절반만큼 최대 체력이 증가합니다.","At the start of each turn, gain an increase in maximum health equal to half the current turn number.",毎ターン開始時に、最大体力が現在のターン数の半分増加する。,每个回合开始时，获得等同于当前回合数一半的最大体力值提升。,
+Buff/B_FKaguya_Co2_Name,Text,,우주의 종말을 향해,To the Ends of the Universe,宇宙の果てまで,向那宇宙尽头,
+Buff/B_FKaguya_P_0_Description,Text,,행동 카운트가 없는 적에게 주는 피해량+10%,Damage dealt to enemies without an action countdown +10%.,行動カウントを持たない敵に与えるダメージ+10%,对没有行动倒计时的敌人造成的伤害+10%,
+Buff/B_FKaguya_P_0_Name,Text,,영원과 수유,Eternal and Momentary,永遠と須臾,永远与须臾,
+Buff/B_FKaguya_P_Description,Text,,,,,,
+Buff/B_FKaguya_P_Name,Text,,카구야/영야,Kaguya/Eternal Night,輝夜/永夜,辉夜/永夜,
+Buff/B_FKaguya_Sinnpou_Description,Text,,지금까지 몇 명이나 되는 인간이 풀지 못하고 물러난 5개의 문제. 당신들은 몇 개나 풀 수 있을까?,The five challenges that have defeated countless people so far. How many can you solve?,これまで多くの人間が果たせなかった私の5つの難題。あなた達はいくつ達成できる？,到现在为止，已经使无数人败退的这五个难题。你们能解开多少呢？,
+Buff/B_FKaguya_Sinnpou_Name,Text,,카구야/신보,Kaguya/Divine Treasure,輝夜/神宝,辉夜/神宝,
+Buff/B_FMokou_1_Description,Text,,턴 시작 시 해당 캐릭터의 공격 스킬이 패에 있다면 마나를 소모하여 그 스킬을 강제로 시전합니다.,Remaining attack skills will be used by consuming Mana at the start of the turn.,ターン開始時にこれを持つ味方の攻撃スキルが手札にある場合、マナを消費してそのスキルを強制発動する。,回合开始时若手中有本角色的攻击技能，则消耗法力值强制释放该技能。,
+Buff/B_FMokou_1_Name,Text,,격노,Fury,激怒,激怒,
+Buff/B_FMokou_2_Description,Text,,"스킬 시전 시, 카운트 란에 [「퍼제스트 바이 피닉스 -봉황오의-」]를 추가합니다.","Upon using a skill, add [Possessed by Phoenix - Phoenix's Secret] to the countdown bar.",スキルを発動すると、カウントダウン欄に「不死鳥憑依 -鳳凰奥義-」を追加する。,释放技能时，在倒计时栏添加[「不死鸟附体 -凤凰奥义-」]。,
+Buff/B_FMokou_2_Name,Text,,퍼제스트 바이 피닉스,Possessed by Phoenix,パゼストバイフェニックス,不死鸟附体,
+Buff/B_FMokou_P_0_Description,Text,,"모코우가 죽을 시, 확률적으로 전투에서 승리합니다.
+그렇지 않으면 모코우가 부활하여 체력을 모두 회복하고, 
+승리확률이 2배가 됩니다.
+<color=orange>현재 확률: &a%</color>","When Mokou dies, there is a chance to win the battle; otherwise, Mokou revives and restores all health, and the chance doubles.
+<color=orange>Current chance: &a%</color>","藤原妹紅が死亡したとき、確率で戦闘に勝利する
+そうでない場合、藤原妹紅は復活し体力を全回復し、その後勝利する確率が2倍になる。
+<color=orange>現在の確率：&a%</color>","妹红死亡时，有概率获得战斗胜利；
+否则妹红复活并恢复所有体力值，那之后，概率翻倍。
+<color=orange>当前概率为：&a%</color>",
+Buff/B_FMokou_P_0_Name,Text,,「피닉스 재탄생」,「Phoenix Rebirth」,「フェニックス再誕」,「不死鸟重生」,
+Buff/B_FMokou_P_1_Description,Text,,"부활할 때마다 최대체력+20%, 공격력+20%, 적중률+10%","Each time after revival, gain +20% maximum health, +20% attack power, +10% accuracy.",復活する度に、最大体力+20%、攻撃力+20%、命中率+10%。,每次复活后，获得+20%最大体力，+20%攻击力，+10%命中率。,
+Buff/B_FMokou_P_1_Name,Text,,「임페리셔블 슈팅」,「Imperishable Shooting」,「インペリシャブルシューティング」,「不朽的弹幕」,
+Buff/B_FMokou_P_Description,Text,,,,,,
+Buff/B_FMokou_P_Name,Text,,후지와라노 모코우 패시브,Mokou's Passive,藤原妹紅のパッシブ,藤原妹红被动,
+Buff/B_FMokou_Reward_Description,Text,,"피해를 입을 때, 33%확률로 무효화하고 2배의 피해량으로 적에게 되돌려줍니다.",33% chance to nullify damage and return double to the source when receiving damage.,ダメージを受けたとき、33％の確率でそのダメージを無効にし、その2倍のダメージで反撃する。,受到伤害时有33%几率抵消这次伤害，并双倍返还给来源。,
+Buff/B_FMokou_Reward_Name,Text,,봉래/불후,Hourai/Immortal,蓬莱/不滅,蓬莱/不朽,
+Buff/B_FMokou_Stage_1_Description,Text,,모코우가 피해를 입으면 자신 및 상대방에게 <color=purple>화상</color>을 1중첩 부여합니다.,"When Mokou receives damage, apply 1 stack of <color=purple>Burning</color> to both herself and the source.",藤原妹紅がダメージを受けたとき、自身とその攻撃者に<color=purple>灼熱</color>を1ストック与える。,妹红受到伤害时，会对自己和来源施加1层<color=purple>烧伤</color>。,
+Buff/B_FMokou_Stage_1_Name,Text,,「봉래인형」,「Hourai Doll」,「蓬莱人形」,「蓬莱人形」,
+Buff/B_FMokou_Stage_2_0_Description,Text,,이 디버프의 보유자 및 시전자는 서로에게 받는 피해량이 50%감소합니다.,Damage dealt between debuff holder and applier is reduced by 50%.,このデバフを持つ者と自身は互いに与えるダメージが50%減少する。 ,减益持有者和施加者对互相造成的伤害-50%。,
+Buff/B_FMokou_Stage_2_0_Name,Text,,츠키노 이와카사의 저주,Curse of Tsuki-no-Iwakasa,月のいはかさの呪い,月岩笠的诅咒,
+Buff/B_FMokou_Stage_2_Description,Text,,"한턴에 한번, 모코우가 피해를 입으면 자신 및 상대방에게 <color=purple>화상</color>을 3중첩 부여하고,
+그동안 그녀 및 상대방이 서로에게 입히는 피해량이 50%감소합니다.","Once per turn, when Reisen receives damage, apply 3 stacks of <color=purple>Burning</color> to herself and the source, and damage dealt between them is reduced by 50% for the turn.",1ターンに1回、藤原妹紅がダメージを受けたとき、自身と攻撃者に<color=purple>灼熱</color>を3スタック与え、そのターン中は自身と攻撃者が互いに与えるダメージが50％減少する。,1回合1次，妹红受到伤害时，会对自己和来源施加3层<color=purple>烧伤</color>，并且本回合内自己和来源对互相造成的伤害-50%。,
+Buff/B_FMokou_Stage_2_Name,Text,,시효「츠키노 이와카사의 저주」,Prescribed「Curse of Tsuki-no-Iwakasa」,時効「月のいはかさの呪い」,时效「月岩笠的诅咒」,
+Buff/B_FMokou_Stage_3_Description,Text,,"턴 종료 시, 모든 적에게 <color=purple>화상</color><color=purple></color>을 3중첩 부여합니다.","At the end of the turn, apply 3 stacks of <color=purple>Burning</color> to all enemies.",ターン終了ボタンを押すと、敵全員に<color=purple>灼熱</color>を3ストック与える。,按下回合结束按钮时，向所有敌人施加3层<color=purple>烧伤</color>。,
+Buff/B_FMokou_Stage_3_Name,Text,,"「몇 번째인지도 모르는 이 목숨, 다 불탈 때까지」","「Until This Life, Repeated Countless Times, Burns Away」",「この何度目かの命、燃え尽きるまで」,「这不知是第几次的生命，燃烧殆尽吧」,
+Buff/B_FMokou_Stage_4_Description,Text,,"받는 피해량이 0이 됩니다.
+턴 당 행동횟수+2
+3턴이 지나면 <color=red>즉사</color><color=red><color=red></color=red>후 부활하지 않습니다.</color></color>","Damage received becomes 0.
++2 actions per turn.
+After 3 turns, <color=red>die and cannot be revived.</color>","受けるダメージが0になる。
+毎ターン、行動回数+2。
+3ターン後に<color=red>死亡し復活しなくなる</color>","受到伤害变为0。
+每回合行动次数+2。
+3个回合后，<color=red>死亡并且不再复活。</color>",
+Buff/B_FMokou_Stage_4_Name,Text,,허인「우」,Hollow Being「Wu」,虚人「無」,虚人「无」,
+Buff/B_Mokou_T_1_Description,Text,,,,,,
+Buff/B_Mokou_T_1_Name,Text,,화상,Burning,灼熱,烧伤,
+Character/HouraisanKaguya_CampSelectWord,Text,,지금까지 몇 명이나 되는 인간이 풀지 못하고 물러난 5개의 문제. 당신들은 몇 개나 풀 수 있을까?,The five challenges that have defeated countless people so far. How many can you solve?,これまで多くの人間が果たせなかった私の5つの難題。あなた達はいくつ達成できる？ ,到现在为止，已经使无数人败退的这五个难题，你们能解开多少呢？,
+Character/HouraisanKaguya_PassiveDes,Text,,"<b>타케토리모노가타리</b> - 특정 조건이 충족되면 호라이산 카구야의 [난제] 스킬이 자신에게 [카구야/신보]를 부여합니다. 
+호라이산 카구야의 [신보]스킬은 [카구야/신보]를 소모하여 추가 효과를 발동할 수 있습니다. 
+
+<b>영야</b> - 호라이샨 카구야가 공격당하면 공격자에게 [카구야/영야]가 1중첩 부여됩니다.(회피불가)  
+
+<b>영원과 수유</b> - 모든 아군이 행동 카운트가 없는 적에게 주는 피해량이 10%증가합니다.","<b>Taketori Monogatari</b> - The [Impossible Request] skill will grant [Kaguya/Divine Treasure] under certain conditions. The [Divine Treasure] skill can add extra effects by consuming [Kaguya/Divine Treasure].
+
+<b>Eternal Night Vignette</b> - When Kaguya Houraisan is attacked, apply 1 stack of [Kaguya/Eternal Night] to the attacker with a 100% success rate of the pain debuff.
+
+<b>Eternal and Momentary</b> - All allies' damage to enemies without an action countdown +10%.","<b>竹取物語</b> - 蓬莱山輝夜の「難題」スキルは特定の条件が満たされると，自身に[輝夜/神宝]を与える。蓬莱山輝夜の「神宝」スキルは[輝夜/神宝]を消費して追加効果を発動する。
+
+<b>永夜抄</b> - 蓬莱山輝夜が攻撃を受けたとき、攻撃者に成功率100%の苦痛デバフ[輝夜/永夜]を1ストック与える。
+
+<b>永遠と須臾</b> - すべての味方は行動カウントを持たない敵に与えるダメージ+10％を得る。","<b>竹取物语</b> - 蓬莱山辉夜的[难题]技能在达成某些条件时，会为自身赋予[辉夜/神宝]。蓬莱山辉夜的[神宝]技能通过消耗[辉夜/神宝]，能够追加额外效果。
+
+<b>永夜抄</b> - 蓬莱山辉夜受到攻击时，以100%的痛苦减益成功率对攻击来源施加1层[辉夜/永夜]。
+
+<b>永远与须臾</b> - 所有队友对没有行动倒计时的敌人造成的伤害+10%。",
+Character/HouraisanKaguya_PassiveName,Text,,영원과 수유의 죄인,Eternal and Momentary Sinner,永遠と須臾の罪人,永远和须臾的罪人,
+Character/HouraisanKaguya_SelectInfo,Text,,"지금까지 몇 명이나 되는 인간이 풀지 못하고 물러난 5개의 문제. 당신들은 몇 개나 풀 수 있을까?
+
+호라이산 카구야는 5가지 유형의 '난제'와 '신보'를 사용하는 만능 탱커입니다.
+
+그녀는 다섯가지 난제의 고유임무를 완료함으로써 다섯가지 신보의 특수 효과를 활성화 할 수 있습니다.
+신보의 효과가 활성화되지 않더라도 자신 및 팀에게 풍부한 이득을 제공합니다.
+보물은 각기 다른 고유한 효과를 가집니다.","Kaguya Houraisan is an all-purpose tank using the five challenges and divine treasures.
+
+By completing the unique tasks of the five challenges, Kaguya can activate special effects of the five divine treasures, bringing abundant benefits to herself and her team. Even without activating divine treasure effects, the five challenges and divine treasures have their own unique effects.
+
+The five challenges that have defeated countless people so far. How many can you solve?","蓬莱山輝夜は、5種類の難題と神宝を駆使する万能型である。
+
+5つの難題の特定の条件を満たすことで、蓬莱山輝夜は5つの神宝の特殊効果を発動させることができ、自身と味方に豊富な恩恵をもたらす。神宝の効果を発動させなくても、5つの難題と神宝にはそれぞれ特有の効果がある。
+
+これまで多くの人間が果たせなかった私の5つの難題。あなた達はいくつ達成できる？","蓬莱山辉夜是使用五种难题和神宝的全能型坦克。
+
+通过完成五种难题的独特任务，蓬莱山辉夜能够激活五种神宝的特殊效果，为自己和团队带来丰富的增益效果；即便不激活神宝的效果，五种难题和神宝也各自拥有奇特的效果。
+
+到现在为止，已经使无数人败退的这五个难题。你们能解开多少呢？",
+Character/HouraisanKaguya_Text_Battle_AllyND_0,Text,,이 녀석 붓이 2개인데....,"This guy, he's got some skill...",こいつ、2、3のトリックを隠しているわ......。,这家伙，有两把刷子……,
+Character/HouraisanKaguya_Text_Battle_AllyND_1,Text,,"죽음을 구하지 않으면 죽지 않아, 이해가 안되는거야?!","If you don't cause trouble, you won't die. Why don't you understand?!",死を求めなければ死なないのをなぜ理解しないの？ ！,不作死就不会死，为什么不明白？！,
+Character/HouraisanKaguya_Text_Battle_Cri_0,Text,,받아라! 반경 20미터의 「브릴리언트 드래곤 바레트」!,Take this! The ‘Brilliant Dragon Jewel’ with a twenty-meter radius!,これを食らいなさい！,接招！半径二十米的「耀眼的龙玉」！,
+Character/HouraisanKaguya_Text_Battle_Cri_1,Text,,하이쿠를 읊어라!,Recite Haiku!,俳句を詠みなさい！,诵读俳句吧！,
+Character/HouraisanKaguya_Text_Battle_Healed_0,Text,,"무릎에 화살을 맞기 전까진, 나도 딜러였는데....",I used to be a damage dealer until an arrow hit my knee...,私も膝に矢を受けるまでは、ダメージディーラーだったのですが......。,我以前也是个输出职业，直到我的膝盖中了一箭……,
+Character/HouraisanKaguya_Text_Battle_Healed_1,Text,,이럴 땐 그냥 웃으세요,Just smile now.,今はただ微笑んでいればいいのです。,这时候只要微笑就好了。,
+Character/HouraisanKaguya_Text_Battle_Idle_0,Text,,모두의 미소를 지켜 주겠어.,I'll protect everyone's smiles.,みんなの笑顔は私が守ります。,大家的笑容由我来守护。,
+Character/HouraisanKaguya_Text_Battle_Kill_0,Text,,내가 '너는 이미 죽어있다.'라고 말할 때 쯤이면 이미 모든게 끝난 이후이다!,"When I say ‘I'll defeat you,’ it’s already done!",私が 「殺してやる 」と言った時にはすでに死んでいます！,在我说出“干掉你”的时候，实际上就已经完成了！,
+Character/HouraisanKaguya_Text_Battle_Kill_1,Text,,"살아있는 한, 신이라도 너를 위해 죽이겠어!","As long as something is alive, even the administrator will be killed!",生きているなら、管理者であっても殺せる！,只要是活着的东西，就算是管理员也杀给你看！,
+Character/HouraisanKaguya_Text_Battle_ND_0,Text,,아버지에게도 맞은 적 없는데!,Not even my dad has hit me!,父でさえ私を殴ったことはないのに！,连我爸爸都没有打过我！,
+Character/HouraisanKaguya_Text_Battle_ND_1,Text,,이것은 「시련」. 과거를 극복하라는「시련」으로 나는 받아들였다....,"This is a ‘trial,’ I see it as a trial to overcome the past...",これは「試練」、過去を乗り越えるための「試練」のはずです…。,这是一场「试炼」，我认为这就是一场为了战胜过去的「试炼」……,
+Character/HouraisanKaguya_Text_Battle_Start_0,Text,,"흥, 전투력이 고작 5? 쓰레기네....","Hmph, trash with a combat power of 5...",戦闘力5のゴミね......。,哼，战斗力只有5的渣渣……,
+Character/HouraisanKaguya_Text_Battle_Start_1,Text,,이제 아무것도 두렵지 않아.,There's nothing left to fear.,もう恐れるものは何もありません。,已经没有什么好害怕的了。,
+Character/HouraisanKaguya_Text_Field_GetItem_0,Text,,제군! 나는 보물이 좋다!,Everyone! I like treasure chests!,皆さん！私は宝箱が大好きです！,诸君！我喜欢宝箱！,
+Character/HouraisanKaguya_Text_Field_Idle_0,Text,,오늘 바람이 너무 소란스럽군,The wind today is so noisy.,今日の風はとても騒々しいですね。,今天的风儿好喧嚣啊。,
+Character/HouraisanKaguya_Text_Field_Idle_1,Text,,마법의 소라고동에게 물어보는게 어때?,Why not ask the mysterious conch?,魔法の巻き貝について聞いてみませんか？,为什么不问问神奇海螺呢？,
+Character/HouraisanKaguya_Text_MasterTarget,Text,,그런 짓은 하지 마! 기다리려면 적어도 10년은 걸린다고——,Don’t do that! At least wait ten years—,そんなことしないで！少なくとも10年は待ちます——,那种事情不要啊！至少要等十年之后——,
+Character/HouraisanKaguya_Text_PharosLeader_0,Text,,아? 최면술? 그런건 나한테 별 도움이 안되는데.,Ah? Hypnosis? How could that possibly work on me.,え？ 催眠術？ そんなものが私に効くわけがないわ。,啊？催眠术？那种东西怎么可能对我有用。,
+Character/HouraisanKaguya_Text_PharosLeader_1,Text,,...나 아직 야한짓은 안했지?,"...I wasn't just subjected to inappropriate things, right?",......私にエッチなことした？,……刚刚我没有被做色色的事情吧？,
+Character/HouraisanKaguya_Text_PharosLeader_2,Text,,허접♥허접♥！,Loser♥ Loser♥,ざーこ♥ざーこ♥！,杂鱼♥杂鱼♥！,
+Character/HouraisanKaguya_Text_Witch_0,Text,,이겨!,We will win!,勝ちますよ！ ,会赢的！,
+Character/HouraisanKaguya_Text_Witch_1,Text,,생명의 샘의 비축량은 충분한가.....,Is the reserve of the Fountain of Life enough?,生命の泉の埋蔵量はまだ十分でしょうか……,生命之泉的储备量还够吗……,
+Character/HouraisanKaguya_name,Text,,호라이산 카구야,Houraisan Kaguya,蓬莱山輝夜,蓬莱山辉夜,
+Enemy/Boss_Mokou_EnemyStory,Text,,"...홍마관의 세 사람과 사츠키 린에게 작별인사를 한 후, 영원정 일행은 <b>[데이터 말소]</b>를 막기 위해 하얀 묘지에 도착했습니다.
+
+앞으로 나아가기 위해 '다른 호라이잔 카구야'를 쓰러뜨린 뒤, 그녀들 앞에 나타난 것은 '후지와라노 모코우'였습니다.
+환상향에서 몇명이나 길을 잃고 모여든 걸까요? 야쿠모 유카리는 무슨 계획을 세우고 있는 걸까요?
+아무도 이 질문에 대한 답을 주지 않습니다.
+우리가 알고 있는 유일한 것은 우리 앞에 있는 후지와라가 쉽게 지나보내 줄 생각이 없다는 것 뿐입니다.
+
+이제 남은 건, 쳐부수는 일 뿐입니다.","…After bidding farewell to the three at the Scarlet Devil Mansion and Satsuki Rin, the group arrived at the White Graveyard. To stop <b>[data deleted]</b>, they must race against time.
+
+After defeating ‘Another  Houraisan Kaguya,’ what appeared was Fujiwara no Mokou. How many people in Gensokyo have been caught up in this? What is Yukari Yakumo plotting? These answers are still unknown, but one thing is clear: Fujiwara no Mokou seems unwilling to let us pass easily. 
+
+At this point, the only option left is to defeat her."," ...紅魔館の三人と冴月凛に別れを告げた後、 永遠亭一行は<b>[データ削除]</b>を止めるために白い墓地に到着した。
+
+“もう一人の蓬莱山輝夜”を倒した彼女の前に現れたのは、藤原妹紅だった。幻想郷の何人が巻き込まれたのか？八雲紫はいったい何を企んでいるのか？その答えはまだわからないが、ただひとつわかっているのは、藤原妹紅は私たちを通す気はなさそうだということだ。
+この時点で、残された道は倒すしかない。","……告别了红魔馆三人和冴月麟后，永远亭一行人来到了白色墓地，为了阻止<b>[数据删除]</b>，必须争分夺秒地前进。
+
+打倒「另一个蓬莱山辉夜」之后，出现在面前的却是藤原妹红。幻想乡究竟有多少人被卷入其中了？八云紫究竟在谋划些什么？这些问题的答案目前还不得而知，唯一知道的是，面前的藤原妹红似乎并不打算轻易放我们过去。
+
+事到如今，只剩下击败一途。",
+Enemy/Boss_Mokou_SubName,Text,,봉래의 인형,Figure of the Person of Hourai,蓬莱の人形,蓬莱的人之形,
+Enemy/Boss_Mokou_name,Text,,후지와라노 모코우,Fujiwara no Mokou,藤原妹紅,藤原妹红,
+Item_Consume/Item_FMokou_Revive_Description,Text,,모든 아군을 부활시키고 최대 체력의 절반을 회복시킵니다.,Revive all allies. Restore all allies' health to half of their maximum health.,味方全員を復活させる。 味方全員の体力を最大体力の半分まで回復する。,复活所有队友。使所有队友体力恢复最大生命值的一半。,
+Item_Consume/Item_FMokou_Revive_name,Text,,피닉스 판타지,Phoenix Fantasy,不死鳥の狂想,不死鸟狂想,
+Item_Consume/Item_Skill_FMokou_Reward_Description,Text,,[「임페리셔블 슈팅」]스킬을 배울 수 있습니다<b></b>.,Learn the skill [Imperishable Shooting].,スキル「インペリシャブルシューティング」を習得できる<b></b>。,可以学习技能[「不朽的弹幕」]<b></b>。,
+Item_Consume/Item_Skill_FMokou_Reward_name,Text,,스킬북 : 「임페리셔블 슈팅」,Skill Book: Imperishable Shooting,スキル書：不滅の弾幕,技能书：不朽的弹幕,
+Item_Consume/SkillBookLucy_Description,Text,,[「임페리셔블 슈팅」]을 배울 수 있습니다<b></b>.,Learn the skill [Imperishable Shooting].,「不滅の弾幕」を習得できる<b></b>。,可以学习[「不朽的弹幕」]<b></b>。,
+Item_Consume/SkillBookLucy_name,Text,,스킬북 : 「임페리셔블 슈팅」,Skill Book: Imperishable Shooting,スキル書：不滅の弾幕,技能书：不朽的弹幕,
+Item_Equip/Equip_FMokou_Spell_Description,Text,,스킬로 피해를 입힐 시 <color=purple>화상</color>을 부여합니다.,"When using a skill to deal damage, apply <color=purple>Burning</color> to the enemy.",スキルを使用してダメージを与えるとき、対象に<color=purple>灼熱</color>を与える。,使用技能造成伤害时，对敌人施加<color=purple>烧伤。,
+Item_Equip/Equip_FMokou_Spell_name,Text,,무차별 발화의 부적,Indiscriminately Ignited Cards,無差別放火の符,无差别放火之符,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Cirno_Dialogues_0,Text,,,[A]琪露诺，给我来十箱棒冰！,[A]琪露诺，给我来十箱棒冰！,[A]琪露诺，给我来十箱棒冰！,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Cirno_Dialogues_1,Text,,,[B]咱可不是什么移动冰箱啊……,[B]咱可不是什么移动冰箱啊……,[B]咱可不是什么移动冰箱啊……,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Daiyousei_Dialogues_0,Text,,,[A]诶、那个，你叫什么名字来着？,[A]诶、那个，你叫什么名字来着？,[A]诶、那个，你叫什么名字来着？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Daiyousei_Dialogues_1,Text,,,[B]我没有名字，大家都叫我大妖精。,[B]我没有名字，大家都叫我大妖精。,[B]我没有名字，大家都叫我大妖精。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Daiyousei_Dialogues_2,Text,,,[A]嗯……跟我家的因幡们很像呢。,[A]嗯……跟我家的因幡们很像呢。,[A]嗯……跟我家的因幡们很像呢。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Eirin_Dialogues_0,Text,,"[A]에이린. 월인을 가장 싫어하는건 분명 너인데, 왜 레이무를 속여서 순호에게 가게 한거야?",[A]永琳，明明你是最讨厌月都的人，却把灵梦骗到纯狐那里去了吧？,[A]永琳，明明你是最讨厌月都的人，却把灵梦骗到纯狐那里去了吧？,[A]永琳，明明你是最讨厌月都的人，却把灵梦骗到纯狐那里去了吧？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Eirin_Dialogues_1,Text,,"[B]... 죄송합니다, 공주님. 아무래도 거기는...",[B]……对不起，公主大人。不管怎么说，那里都是……,[B]……对不起，公主大人。不管怎么说，那里都是……,[B]……对不起，公主大人。不管怎么说，那里都是……,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Eirin_Dialogues_2,Text,,"[A]글쎄, 그건 별로 중요하지 않아. 레이무가 그 문제를 해결만 하면 다 괜찮다구.",[A]嘛，对我来说都无所谓。只要灵梦解决了那桩事怎么都好啦。,[A]嘛，对我来说都无所谓。只要灵梦解决了那桩事怎么都好啦。,[A]嘛，对我来说都无所谓。只要灵梦解决了那桩事怎么都好啦。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_FlandreScarlet_Dialogues_0,Text,,"[A]플랑, 우리 집에 와서 비디오 게임이나 할래?",[A]芙兰，要不要来我家打电动？,[A]芙兰，要不要来我家打电动？,[A]芙兰，要不要来我家打电动？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_FlandreScarlet_Dialogues_1,Text,,[B]으……응？！,[B]嗯……嗯？！,[B]嗯……嗯？！,[B]嗯……嗯？！,
+SimpleCampDialogue/CampDial_HouraisanKaguya_FlandreScarlet_Dialogues_2,Text,,[B]언니는 카구야에게 속아서 영원정에 가면 안된다고 했어..,[B]姐姐说不能被辉夜骗到永远亭去……,[B]姐姐说不能被辉夜骗到永远亭去……,[B]姐姐说不能被辉夜骗到永远亭去……,
+SimpleCampDialogue/CampDial_HouraisanKaguya_IzayoiSakuya_Dialogues_0,Text,,[A]달시계의 메이드.. 우리집이랑 잘 어울리는거 같아.,[A]月时计的女仆……听起来很适合我家的氛围哦。,[A]月时计的女仆……听起来很适合我家的氛围哦。,[A]月时计的女仆……听起来很适合我家的氛围哦。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_IzayoiSakuya_Dialogues_1,Text,,[B]……미안하지만 아직 직업을 바꿀 계획은 없어.,[B]……抱歉，现在还没有跳槽的打算。,[B]……抱歉，现在还没有跳槽的打算。,[B]……抱歉，现在还没有跳槽的打算。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_IzayoiSakuya_Dialogues_2,Text,,"[A]아하하, 농담이야 농담. 우리집엔 레이센 한명이면 충분해.",[A]啊哈哈，开玩笑的啦。我家有一个铃仙就够了。,[A]啊哈哈，开玩笑的啦。我家有一个铃仙就够了。,[A]啊哈哈，开玩笑的啦。我家有一个铃仙就够了。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Mokou_Dialogues_0,Text,,"[A]모코우, 어젯밤 일은.…",[A]妹红，昨天晚上的事……,[A]妹红，昨天晚上的事……,[A]妹红，昨天晚上的事……,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Mokou_Dialogues_1,Text,,"[B]아.. 미안, 아프진 않지?",[B]啊……抱歉，把你弄疼了吧？,[B]啊……抱歉，把你弄疼了吧？,[B]啊……抱歉，把你弄疼了吧？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Mokou_Dialogues_2,Text,,[A]뱃 속 내장이 여기저기 뒤엉켜서 너무 아팠다구. 밤새 잠을 못잤어.,[A]超疼的啊，肠子和胃都弄了一地，整晚都睡不着啊。,[A]超疼的啊，肠子和胃都弄了一地，整晚都睡不着啊。,[A]超疼的啊，肠子和胃都弄了一地，整晚都睡不着啊。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Mokou_Dialogues_3,Text,,"[B]그런 말은 좀 조용히 해, 루시가 듣겠어.",[B]这种事情说小声点，别让露西听到了啊喂。,[B]这种事情说小声点，别让露西听到了啊喂。,[B]这种事情说小声点，别让露西听到了啊喂。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Reisen_Dialogues_0,Text,,"[A]레이센, 이번엔 내가 널 지켜줄게.",[A]铃仙，这次就由我来掩护你。,[A]铃仙，这次就由我来掩护你。,[A]铃仙，这次就由我来掩护你。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Reisen_Dialogues_1,Text,,"[B]공주님？！괘, 괜찮으신가요？",[B]公主大人？！不、不要紧吗？,[B]公主大人？！不、不要紧吗？,[B]公主大人？！不、不要紧吗？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Reisen_Dialogues_2,Text,,"[A]아, 오해하지마. 모코우가 탱커이기 때문에 녀석이랑 승자를 결정해야하거든.",[A]倒也不是。因为妹红是坦克职所以我一定要跟她分出胜负而已啦。,[A]倒也不是。因为妹红是坦克职所以我一定要跟她分出胜负而已啦。,[A]倒也不是。因为妹红是坦克职所以我一定要跟她分出胜负而已啦。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_RemiliaScarlet_Dialogues_0,Text,,"[A]안녕, 레밀. 비디오게임이나 같이 할래?",[A]呀，蕾米，要来一起打电动吗？,[A]呀，蕾米，要来一起打电动吗？,[A]呀，蕾米，要来一起打电动吗？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_RemiliaScarlet_Dialogues_1,Text,,[B]무료하긴 한데... 무슨 게임을 하고 싶은건데?,[B]今天就免啦……不过你又想玩什么游戏？,[B]今天就免啦……不过你又想玩什么游戏？,[B]今天就免啦……不过你又想玩什么游戏？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_RemiliaScarlet_Dialogues_2,Text,,[A]《뱀파이어 러브 어드벤쳐》야.,[A]《吸血鬼恋爱冒险》哦。,[A]《吸血鬼恋爱冒险》哦。,[A]《吸血鬼恋爱冒险》哦。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_RemiliaScarlet_Dialogues_3,Text,,[B]때릴까？,[B]揍你哦？,[B]揍你哦？,[B]揍你哦？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_SatsukiRin_Dialogues_0,Text,,"[A]영원보다 더 오랜시간이 지나..... 처음만났네요, 기린여사. ",[A]比永远更加长久……初次见面，麒麟女士。,[A]比永远更加长久……初次见面，麒麟女士。,[A]比永远更加长久……初次见面，麒麟女士。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_SatsukiRin_Dialogues_1,Text,,"[B]처음뵙네요, 달의 공주님.",[B]初次见面哦，月都的公主大人。,[B]初次见面哦，月都的公主大人。,[B]初次见面哦，月都的公主大人。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_SatsukiRin_Dialogues_2,Text,,[A]..... 와서 같이 비디오 게임 할래?,[A]……要不要来一起打电动？,[A]……要不要来一起打电动？,[A]……要不要来一起打电动？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_SatsukiRin_Dialogues_3,Text,,[B]……응? 이런 전개가 맞나?,[B]……咦？应该是这个展开吗？,[B]……咦？应该是这个展开吗？,[B]……咦？应该是这个展开吗？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_TouhouAlice_Dialogues_0,Text,,[A]그래서 저번엔 너와 마리사가 무력으로 날 데리고 나갔지.,[A]所以上次还是被你和魔理沙用强硬手段带出去了呢。,[A]所以上次还是被你和魔理沙用强硬手段带出去了呢。,[A]所以上次还是被你和魔理沙用强硬手段带出去了呢。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_TouhouAlice_Dialogues_1,Text,,[B]그건 나랑 별 관련이 없어. 대부분의 일은 마리사가 벌였는걸.,[B]和我可没关系哦。大部分都是魔理沙干的嘛。,[B]和我可没关系哦。大部分都是魔理沙干的嘛。,[B]和我可没关系哦。大部分都是魔理沙干的嘛。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_TouhouAlice_Dialogues_2,Text,,[A]네가 없었으면 그 녀석은 미쳐버렸을걸?,[A]没有你在旁边的话，那家伙恐怕早就发狂了吧？,[A]没有你在旁边的话，那家伙恐怕早就发狂了吧？,[A]没有你在旁边的话，那家伙恐怕早就发狂了吧？,
+SimpleCampDialogue/CampDial_HouraisanKaguya_TouhouAlice_Dialogues_3,Text,,"[B]눈치 챘어? 아, 그녀석 분명 숨기고 싶어하던 것 같은데",[B]被注意到了吗？哎呀，明明想一直隐藏起来的。,[B]被注意到了吗？哎呀，明明想一直隐藏起来的。,[B]被注意到了吗？哎呀，明明想一直隐藏起来的。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Youmu_Dialogues_0,Text,,[A]지난번 영원정에서 너희들이 야식을 찾느라 큰 소란을 피웠지?,[A]结果你们上次大闹了一通永远亭，只是想找夜宵而已啊。,[A]结果你们上次大闹了一通永远亭，只是想找夜宵而已啊。,[A]结果你们上次大闹了一通永远亭，只是想找夜宵而已啊。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Youmu_Dialogues_1,Text,,"[B]아, 아하하, 미안합니다……",[B]啊、啊哈哈，对不起……,[B]啊、啊哈哈，对不起……,[B]啊、啊哈哈，对不起……,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Youmu_Dialogues_2,Text,,[A]괜찮아. 다음엔 스낵과 전자기기를 가지고 백옥루를 방문할게.,[A]无妨。下次我会带着点心和电动拜访白玉楼的。,[A]无妨。下次我会带着点心和电动拜访白玉楼的。,[A]无妨。下次我会带着点心和电动拜访白玉楼的。,
+SimpleCampDialogue/CampDial_HouraisanKaguya_Youmu_Dialogues_3,Text,,"[B]그럼 먼저 유유코님을 대신해서 감사를... 엣, 전자기기요?",[B]那我先替幽幽子大人感谢……咦、电动？,[B]那我先替幽幽子大人感谢……咦、电动？,[B]那我先替幽幽子大人感谢……咦、电动？,
+Skill/S_FKaguya_0_Description,Text,,"피해를 입지 않은 적에게 시전시, 스킬 1장을 뽑습니다.
+
+<color=purple>난제</color> - 회복게이지가 없는 아군의 수가 회복게이지가 있는 아군의 수 이상입니다.","Draw 1 skill if used on an enemy with full health.
+
+<color=purple>Impossible Request</color> - The number of allies without maximum health limits is at least as many as those with maximum health limits.","ダメージを受けていない敵に使用時、スキルを1枚引く。
+
+<color=purple>難題</color> - 回復ゲージを持つ味方の人数が、回復ゲージを持たない味方の人数未満である。","向未受伤的敌人释放时，抽取1个技能。
+
+<color=purple>难题</color> - 己方未拥有体力极限的人数不少于拥有体力极限的人数。",
+Skill/S_FKaguya_0_Name,Text,,난제「용 목의 구슬 -오색의 탄환-」,Impossible Request「Jewel from the Dragon's Neck -Five-Colored Shots-」,難題「龍の頸の玉 -五色の弾丸-」,难题「龙颈之玉　-五色的弹丸-」,
+Skill/S_FKaguya_10Rare_0_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_0_Name,Text,,「영야 되돌리기 -초승달-」,「End of Imperishable Night -New Moon-」,「永夜返し -初月-」,「永夜归返  -初月-」,
+Skill/S_FKaguya_10Rare_10_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+強化された「永夜返し」を1枚捨て札に加える。
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+将1张升级后的「永夜归返」加入弃牌堆。
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_10_Name,Text,,「영야 되돌리기 -축시 3각-」,「End of Imperishable Night -Dead of Night」,「永夜返し -丑三つ時-」,「永夜归返  -丑时三刻-」,
+Skill/S_FKaguya_10Rare_11_Description,Text,,"버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Add an upgraded 「End of Imperishable Night」 to the discard pile.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","強化された「永夜返し」を1枚捨て札に加える。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","将1张升级后的「永夜归返」加入弃牌堆。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_11_Name,Text,,「영야 되돌리기 -축시 4각-」,「End of Imperishable Night -Half Past 2-」,「永夜返し -丑の四つ-」,「永夜归返  -丑时四刻-」,
+Skill/S_FKaguya_10Rare_12_Description,Text,,"버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Add an upgraded 「End of Imperishable Night」 to the discard pile.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","強化された「永夜返し」を1枚捨て札に加える。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","将1张升级后的「永夜归返」加入弃牌堆。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_12_Name,Text,,「영야 되돌리기 -인시-」,「End of Imperishable Night -3 o' Clock」,「永夜返し -寅の刻-」,「永夜归返  -寅之刻-」,
+Skill/S_FKaguya_10Rare_13_Description,Text,,"버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Add an upgraded 「End of Imperishable Night」 to the discard pile.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","強化された「永夜返し」を1枚捨て札に加える。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","将1张升级后的「永夜归返」加入弃牌堆。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_13_Name,Text,,「영야 되돌리기 -인시 2각-」,「End of Imperishable Night -Half Past 3-」,「永夜归返  -寅时二刻-」,「永夜归返  -寅时二刻-」,
+Skill/S_FKaguya_10Rare_14_Description,Text,,"버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Add an upgraded 「End of Imperishable Night」 to the discard pile.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","強化された「永夜返し」を1枚捨て札に加える。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","将1张升级后的「永夜归返」加入弃牌堆。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_14_Name,Text,,「영야 되돌리기 -인시 3각-」,"「End of Imperishable Night ""4 o' Clock」",「永夜返し -寅の三つ-」,「永夜归返  -寅时三刻-」,
+Skill/S_FKaguya_10Rare_15_Description,Text,,"버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Add an upgraded 「End of Imperishable Night」 to the discard pile.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","強化された「永夜返し」を1枚捨て札える。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","将1张升级后的「永夜归返」加入弃牌堆。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_15_Name,Text,,「영야 되돌리기 -인시 4각-」,「End of Imperishable Night -Half Past 4-」,「永夜返し -寅の四つ-」,「永夜归返  -寅时四刻-」,
+Skill/S_FKaguya_10Rare_16_Description,Text,,"버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+이 공격으로 가한 피해량의 25%로 자신을 초과치유합니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Add an upgraded 「End of Imperishable Night」 to the discard pile.
+25% of this damage will overheal yourself.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","強化された「永夜返し」を1枚捨て札に加える。
+与えたダメージの25％で自身をオーバーヒールする。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","将1张升级后的「永夜归返」加入弃牌堆。
+这个伤害的25%超额治疗自己。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_16_Name,Text,,「영야 되돌리기 -아침 아지랑이-」,「End of Imperishable Night -Morning Mist-」,「永夜返し -朝靄-」,「永夜归返  -朝霭-」,
+Skill/S_FKaguya_10Rare_17_Description,Text,,"버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+이 공격으로 가한 피해량의 25%로 자신을 초과치유합니다.
+이 공격으로 가한 피해량의 25%만큼의 보호막을 얻습니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Add an upgraded 「End of Imperishable Night」 to the discard pile.
+25% of this damage will overheal yourself.
+25% of this damage is converted into your barrier.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","強化された「永夜返し」を1枚捨て札に加える。
+与えたダメージの25％で自身をオーバーヒールする。
+自身は与えたダメージの25％のバリアを得る。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","将1张升级后的「永夜归返」加入弃牌堆。
+这个伤害的25%超额治疗自己。
+这个伤害的25%转化为自己的保护罩。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_17_Name,Text,,「영야 되돌리기 -새벽-」,「End of Imperishable Night -Dawn-」,「永夜返し -夜明け-」,「永夜归返  -拂晓-」,
+Skill/S_FKaguya_10Rare_18_Description,Text,,"버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+이 공격으로 가한 피해량의 25%로 자신을 초과치유합니다.
+이 공격으로 가한 피해량의 25%만큼의 보호막을 얻습니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Add an upgraded 「End of Imperishable Night」 to the discard pile.
+25% of this damage will overheal yourself.
+25% of this damage is converted into your barrier.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","強化された「永夜返し」を1枚捨て札に加える。
+与えたダメージの25％で自身をオーバーヒールする。
+自身は与えたダメージの25％のバリアを得る。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","将1张升级后的「永夜归返」加入弃牌堆。
+这个伤害的25%超额治疗自己。
+这个伤害的25%转化为自己的保护罩。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_18_Name,Text,,「영야 되돌리기 -새벽의 명성-」,「End of Imperishable Night -Morning Star-」,「永夜返し -明けの明星-」,「永夜归返  -破晓明星-」,
+Skill/S_FKaguya_10Rare_19_Description,Text,,"이 공격으로 가한 피해량의 25%로 자신을 초과치유합니다.
+이 공격으로 가한 피해량의 25%만큼의 보호막을 얻습니다.
+1회 추가로 시전됩니다.
+
+<color=yellow><i>영원한 밤은 아침이슬에 맻힌 빛에 물러가고, 깨달음이 세상에 밝아오고 있습니다. </i></color>","Add an upgraded 「End of Imperishable Night」 to the discard pile.
+25% of this damage will overheal yourself.
+25% of this damage is converted into your barrier.
+Repeat once.
+
+<color=yellow><i>Eternal Night Returns' light emerges,
+The world begins to brighten.</i></color>","与えたダメージの25％で自身をオーバーヒールする。
+自身は与えたダメージの25％のバリアを得る。
+もう1度発動する。
+
+<color=yellow><i>永遠の夜から光が戻る。
+世界が開き、夜が明ける。</i></color>","这个伤害的25%超额治疗自己。
+这个伤害的25%转化为自己的保护罩。
+重复释放1次。
+
+<color=yellow><i>永夜归返光初露，
+世间开明渐破晓。</i></color>",
+Skill/S_FKaguya_10Rare_19_Name,Text,,「영야 되돌리기 -밝아오는 세계-」,「End of Imperishable Night -Rising World-」,「永夜返し -世明け-」,「永夜归返  -世间开明-」,
+Skill/S_FKaguya_10Rare_1_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_1_Name,Text,,「영야 되돌리기 -초승달-」,「End of Imperishable Night -Crescent Moon-」,「永夜返し -三日月-」,「永夜归返  -新月-」,
+Skill/S_FKaguya_10Rare_2_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_2_Name,Text,,「영야 되돌리기 -상현달-」,「End of Imperishable Night -1st Quarter's Moon-」,「永夜返し -上つ弓張-」,「永夜归返  -上弦月-」,
+Skill/S_FKaguya_10Rare_3_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_3_Name,Text,,「영야 되돌리기 -온달-」,「End of Imperishable Night -Matsuyoi-」,「永夜返し -待宵-」,「永夜归返  -待宵-」,
+Skill/S_FKaguya_10Rare_4_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_4_Name,Text,,「영야 되돌리기 -자시-」,「End of Imperishable Night -11 o' Clock-」,「永夜返し -子の刻-」,「永夜归返  -子之刻-」,
+Skill/S_FKaguya_10Rare_5_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[辉夜/神宝]を消費する。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_5_Name,Text,,「영야 되돌리기 -자시 2각-」,「End of Imperishable Night -Half to Midnight-」,「永夜归返  -子时二刻-」,「永夜归返  -子时二刻-」,
+Skill/S_FKaguya_10Rare_6_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_6_Name,Text,,「영야 되돌리기 -자시 3각-」,「End of Imperishable Night -Midnight-」,「永夜返し -子の三つ-」,「永夜归返  -子时三刻-」,
+Skill/S_FKaguya_10Rare_7_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_7_Name,Text,,「영야 되돌리기 -자시 4각-」,「End of Imperishable Night -Half Past Midnight-」,「永夜返し -子の四つ-」,「永夜归返  -子时四刻-」,
+Skill/S_FKaguya_10Rare_8_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+強化された「永夜返し」を1枚捨て札に加える。
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+将1张升级后的「永夜归返」加入弃牌堆。
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_8_Name,Text,,「영야 되돌리기 -축시-」,「End of Imperishable Night -1 o' Clock-」,「永夜返し -丑の刻-」,「永夜归返  -丑之刻-」,
+Skill/S_FKaguya_10Rare_9_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+버려진 덱에 강화된 「영야 되돌리기」를 1개 추가합니다.
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+強化された「永夜返し」を1枚捨て札に加える。
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+将1张升级后的「永夜归返」加入弃牌堆。
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_9_Name,Text,,「영야 되돌리기 -축시 2각-」,「End of Imperishable Night -Half Past 1-」,「永夜返し -丑の二つ-」,「永夜归返  -丑时二刻-」,
+Skill/S_FKaguya_10Rare_Description,Text,,"[카구야/신보]가 있을 때에만 사용가능.
+시전 시 [카구야/신보]가 소모됩니다.
+
+「영야 되돌리기」를 시전할 때마다 「영야 되돌리기」가 영구적으로 강화됩니다.","Can only be used if you have [Kaguya/Divine Treasure]. Consumes [Kaguya/Divine Treasure] upon use.
+
+Each time 「End of Imperishable Night」 is used, it gains a permanent enhancement.","自身が[輝夜/神宝]を持つ時のみ使用可能。使用時に[輝夜/神宝]を消費する。
+
+「永夜返し」を使用するたびに、「永夜返し」は永続的な強化を得る。","仅在自身拥有[辉夜/神宝]时才可使用，释放时消耗[辉夜/神宝]。
+
+每次使用「永夜归返」后，「永夜归返」会获得永久增强。",
+Skill/S_FKaguya_10Rare_Name,Text,,「영야 되돌리기」,「End of Imperishable Night」,「永夜返し」,「永夜归返」,
+Skill/S_FKaguya_11Rare_0_Name,Text,,봉래의 수해,Hourai's Sea of Trees,蓬莱の樹海,蓬莱的树海,
+Skill/S_FKaguya_11Rare_Name,Text,,「봉래의 수해」,「Hourai's Sea of Trees」,「蓬莱の樹海」,「蓬莱的树海」,
+Skill/S_FKaguya_12Rare_Description,Text,,대상 아군의 희귀 스킬 중 하나를 선택하고 '제외'를 부여하여 패에 추가합니다.,"Choose 1 rare skill from the target ally, create it and give it Exclude.",対象の味方のすべてのレアスキルから1つ選び、除外を与えて生成する。,从目标调查员所有的稀有技能中选择1张并生成，附带放逐。,
+Skill/S_FKaguya_12Rare_Name,Text,,신난제「에이자의 적석」,New Impossible Request「Red Stone of Aja」,新難題「エイジャの赤石」,新难题「艾哲红石」,
+Skill/S_FKaguya_1_Description,Text,,"대상이 가지고 있는 고통 및 약화 디버프의 지속시간이 1턴 증가합니다.
+
+<color=#ffc1c1>신보</color> - 모든 아군의 체력을 &a(자신의 최대 체력의 20%)만큼 초과회복합니다.","Increase the duration of pain and weakening debuffs on the target by 1 turn.
+
+<color=#ffc1c1>Divine Treasure</color> - Overheal all allies' &a (20% of own max health) health.","対象の持つ苦痛デバフと衰弱デバフの持続時間を1ターン延長する。
+
+<color=#ffc1c1>神宝</color> -すべての味方を&a(自身の最大体力の20%)オーバーヒールする。","使目标身上的痛苦、弱化减益效果持续时间增加1回合。
+
+<color=#ffc1c1>神宝</color> - 超额恢复所有友军&a(自身20%最大体力值)体力。",
+Skill/S_FKaguya_1_Name,Text,,신보「브릴리언트 드래곤 바레트」,Divine Treasure「Brilliant Dragon Bullet」,神宝「ブリリアントドラゴンバレッタ」,神宝「耀眼的龙玉」,
+Skill/S_FKaguya_2_Description,Text,,"사용 시 즉시 &a(7+최대체력의35%)의 보호막을 얻습니다.
+카운트가 끝나면 보호막이 제거되고, 보호막이 사라지면 카운트가 즉시 종료됩니다.
+
+<color=purple>난제</color> - 카운트 중, 자신 이외의 아군이 패의 스킬을 사용하지 않습니다.","Apply a shield of &a (7+35% of max health) immediately upon use.
+When the countdown ends, remove the shield; when the shield is emptied, the countdown ends immediately.
+
+<color=purple>Impossible Request</color> - During the countdown, allies other than yourself cannot use their skills.","使用時、即座に&a(7+最大体力の35%)のバリアを得る。
+カウントダウンが終了したときバリアを除去する。バリアが除去されたとき、このスキルのカウントダウンは0になる。
+
+<color=purple>難題</color> - カウントダウン中、自身以外の味方のスキルを手札からを使用しない。","使用时立即施加&a(7+35%最大体力值)的保护罩。
+倒计时结束时，移除保护罩；保护罩被清空时，倒计时立即结束。
+
+<color=purple>难题</color> - 倒计时期间，除了自己以外的友军不使用手中的技能。",
+Skill/S_FKaguya_2_Name,Text,,난제「부처의 석발 -꺾이지 않는 의지-」,Impossible Request「Buddha's Stone Bowl -Indomitable Will-」,難題「仏の御石の鉢 -砕けぬ意思-」,难题「佛御石之钵　-不碎的意志-」,
+Skill/S_FKaguya_3_Description,Text,,"치명타 발생 시, 80%피해량으로 스킬을 반복시전합니다.
+이는 추가공격으로 간주되며, 최대 5회까지 반복시전 가능합니다.
+
+<color=#ffc1c1>신보</color> - &a(60%)의 추가피해를 주고, 치명타율을 25% 증가시킵니다.","If a critical hit occurs, repeat the skill with 80% efficiency, treated as an additional attack; up to 5 times.
+
+<color=#ffc1c1>Divine Treasure</color> - Deal an extra &a (60%) damage and increase critical hit rate by 25%.","クリティカル発生時、80%の効率で追加攻撃を行う。追加攻撃は最大5回まで発動する。 
+
+<color=#ffc1c1>神宝</color> - &a(60%)のダメージを追加で与え、クリティカル率が25%増加する。 ","如果暴击，以80%效率重复释放这个技能，视作追加攻击；最多重复释放5次。
+
+<color=#ffc1c1>神宝</color> - 额外造成&a(60%)伤害，暴击率提升25%。",
+Skill/S_FKaguya_3_Name,Text,,신보「부디스트 다이아몬드」,Divine Treasure「Buddhist Diamond」,神宝「ブディストダイアモンド」,神宝「佛体的金刚石」,
+Skill/S_FKaguya_4_Description,Text,,"대상의 도발 상태를 변경합니다.
+
+<color=purple>난제</color> - 패에 이 스킬이외의 자신의 스킬이 없습니다.","Change the target’s taunting state.
+
+<color=purple>Impossible Request</color> - No skills other than this one are present in your hand.","対象の挑発状態を変更する。
+
+<color=purple>難題</color> - 手札にこれ以外の自身のスキルがない。","改变目标的嘲讽状态。
+
+<color=purple>难题</color> - 手中没有这个技能以外的、属于自己的技能。",
+Skill/S_FKaguya_4_Name,Text,,난제「불쥐의 가죽옷 -침착한 마음-」,Impossible Request「Robe of Fire Rat -Unhurried Mind-」,難題「火鼠の皮衣 -焦れぬ心-」,难题「火鼠的皮衣　-不焦躁的内心-」,
+Skill/S_FKaguya_5_0_Name,Text,,신보「샐러맨더 실드」,Divine Treasure「Salamander Shield」,神宝「サラマンダーシールド」,神宝「火蜥蜴之盾」,
+Skill/S_FKaguya_5_Description,Text,,"대상의 모든 고통디버프를 제거합니다.
+대상이 적일 경우, 제거된 고통디버프 1중첩당 자신의 최대 체력에 비례한 &a(20%)의 피해를 입히며, 이 피해는 추가피해로 간주됩니다.
+
+<color=#ffc1c1>신보</color> - 대상이 아군인 경우 [카구야/샐러맨더]를 적용합니다.","Remove all pain debuffs from the target.
+If the target is an enemy, each stack of removed pain debuff deals &a (20%) damage, treated as an additional attack.
+
+<color=#ffc1c1>Divine Treasure</color> - If the target is an ally, apply [Kaguya/Salamander Shield].","対象の持つ苦痛デバフを除去する。
+敵を対象とする場合、除去した苦痛デバフのストック数１ごとに、 &a(自身の最大体力 20%)のダメージ を与え、これは追加攻撃とみなされる。 
+
+<color=#ffc1c1>神宝</color> - 味方を対象とする場合、対象に[輝夜/火蜥蜴]を与える。","解除目标所有痛苦减益。
+若目标为敌方单位，依据自身最大生命值，每层被解除的痛苦减益造成&a(20%)伤害，视作追加攻击。
+
+<color=#ffc1c1>神宝</color> - 若目标为友方单位，施加[辉夜/火蜥蜴]。",
+Skill/S_FKaguya_5_Name,Text,,신보「샐러맨더 실드」,Divine Treasure「Salamander Shield」,神宝「サラマンダーシールド」,神宝「火蜥蜴之盾」,
+Skill/S_FKaguya_6_0_Description,Text,,"이번 턴에 한번 더 추가 시전할 수 있습니다.
+
+<color=purple>난제</color> - 이번 턴, 입은 피해량이 최대 생명력의 20%(&a)보다 큽니다.","Can be used again in this turn.
+
+<color=purple>Impossible Request</color> - Damage received this turn exceeds 20% of own maximum health (&a).","このターン中にもう1度発動できる。
+
+<color=purple>難題</color> - このターン中に受けたダメージが自身の最大体力の20%(&a)以上である。","本回合内可重复释放一次。
+
+<color=purple>难题</color> - 这个回合自身受到的伤害大于自身最大生命值的20%(&a)。",
+Skill/S_FKaguya_6_0_Name,Text,,난제「제비의 자안패 -영명선-」,Impossible Request「Swallow's Cowrie Shell -Everlasting Life-」,難題「燕の子安貝 -永命線-」,难题「燕的子安贝　-永命线-」,
+Skill/S_FKaguya_6_Description,Text,,"이번 턴에 한번 더 추가 시전할 수 있습니다.
+
+<color=purple>난제</color> - 이번 턴, 입은 피해량이 최대 생명력의 20%(&a)보다 큽니다.","Can be used again in this turn.
+
+<color=purple>Impossible Request</color> - Damage received this turn exceeds 20% of own maximum health (&a).","このターン中にもう1度発動できる。
+
+<color=purple>難題</color> - このターン中に受けたダメージが自身の最大体力の20%(&a)以上である。","本回合内可重复释放一次。
+
+<color=purple>难题</color> - 这个回合自身受到的伤害大于自身最大生命值的20%(&a)。",
+Skill/S_FKaguya_6_Name,Text,,난제「제비의 자안패 -영명선-」,Impossible Request「Swallow's Cowrie Shell -Everlasting Life-」,難題「燕の子安貝 -永命線-」,难题「燕的子安贝　-永命线-」,
+Skill/S_FKaguya_7_Description,Text,,<color=#ffc1c1>신보</color> - 행동불가 상태일 때 시전할 수 있습니다. 모든 방해 디버프를 제거한 후 마나를 2 회복합니다.,<color=#ffc1c1>Divine Treasure</color> - Can be used when unable to act. Remove all interference debuffs and restore 2 mana points.,<color=#ffc1c1>神宝</color> - 行動不能時でも使用できる。 すべての妨害デバフを除去し、マナを2回復する。,<color=#ffc1c1>神宝</color> - 可以在无法行动时使用。解除所有干扰减益，恢复2点法力值。,
+Skill/S_FKaguya_7_Name,Text,,신보「라이프스프링 인피니티」,Divine Treasure「Life Spring Infinity」,神宝「ライフスプリングインフィニティ」,神宝「无限的生命之泉」,
+Skill/S_FKaguya_8_Description,Text,,"무작위 강화' 및 '제외'가 부여된 대상의 무작위 전용스킬을 생성합니다.
+
+<color=purple>난제</color> - 마지막으로 스킬을 사용한 아군이 왼쪽 혹은 오른쪽에 있습니다.","Randomly create a target's skill, with random enhancement and Exclude.
+
+<color=purple>Impossible Request</color> - The last user of the skill is positioned to the left or right of you.","対象の専用スキルをランダムに1つ生成し、ランダムな強化と除外を与える。
+
+<color=purple>難題</color> - 最後に使用したスキルの所有者が自身の左か右に居る。","随机生成1个目标的专属技能，附带随机强化和放逐。
+
+<color=purple>难题</color> - 上个使用技能的持有者位于自身的左边或右边。",
+Skill/S_FKaguya_8_Name,Text,,난제「봉래의 탄의 가지 -무지개빛 탄막-」,Impossible Request「Bullet Branch of Hourai -Rainbow Danmaku-」,難題「蓬莱の弾の枝 -虹色の弾幕-」,难题「蓬莱的弹枝　-七色的弹幕-」,
+Skill/S_FKaguya_9_0_Description,Text,,,,,,
+Skill/S_FKaguya_9_0_Name,Text,,봉래의 옥의 가지,Jeweled Branch of Hourai,蓬莱の弾の枝,蓬莱的玉枝,
+Skill/S_FKaguya_9_1_Name,Text,,꿈빛 고향,Dreamlike Paradise,夢色の郷,梦色之乡,
+Skill/S_FKaguya_9_Description,Text,,"대상의 양쪽에 있는 캐릭터에게 50%의 범위피해를 줍니다.
+
+<color=#ffc1c1>신보</color> - [카구야/꿈의고향]을 부여합니다.","Deal 50% splash damage to characters on either side of the target.
+
+<color=#ffc1c1>Divine Treasure</color> - Apply [Kaguya/Dreamlike Paradise].","対象の左右にダメージの50%を同時に与える。
+
+<color=#ffc1c1>神宝</color> - [輝夜/夢郷]を与える。","对目标两侧的角色造成50%的溅射伤害。
+
+<color=#ffc1c1>神宝</color> - 施加[辉夜/梦乡]。",
+Skill/S_FKaguya_9_Name,Text,,신보「봉래의 옥의 가지 -꿈빛 고향-」,Divine Treasure「Jeweled Branch of Hourai -Dreamlike Paradise-」,神宝「蓬莱の玉の枝 -夢色の郷-」,神宝「蓬莱的玉枝　-梦色之乡-」,
+Skill/S_FKaguya_Co1_Description,Text,,<i><color=#696969>영원정이 한 곳에 모였을 때 나타나는 스펠카드<i></color>,<i><color=#696969>Only appears when the Eternity Pavilion is united.</color></i>,<i><color=#696969>永遠亭のメンバーがすべて揃っているときにのみ現れるスペルカード<i></color>,<i><color=#696969>仅当永远亭齐聚一心时才会出现的符卡。<i></color>,
+Skill/S_FKaguya_Co1_Name,Text,,영야「닫힌 세계의 하늘에 떠있는 달」,Eternal Night「The Moon of the Sealed World」,永夜「世界を閉じる空の月」,永夜「闭锁世界的天之月」,
+Skill/S_FKaguya_Co2_Description,Text,,"후지와라모코우는 [*이런 세상은 다 불타버려!*], 호라이산 카구야는 [카구야/봉래]를 얻습니다.
+
+그 후, 두명에게[우주의 종말을 향해]가 부여됩니다.","Fujiwara no Mokou gains [*Burn the World to the Ground! *], and Kaguya Houraisan gains [Kaguya/Hourai].
+
+Then both sides gain [To the Ends of the Universe].","藤原妹紅は「こんな世は燃え尽きてしまえ! 」を得て、蓬莱山輝夜は[輝夜/蓬莱]を得る。
+その後、両者は[宇宙の果てまで]を得る。","藤原妹红获得[＊这种世道赶紧烧个精光吧！＊]，蓬莱山辉夜获得[辉夜/蓬莱]。
+那之后，双方获得[向那宇宙尽头]。",
+Skill/S_FKaguya_Co2_Name,Text,,편년사「천년환상향」,Chronicle「Thousand Years of Gensokyo」,編年史「千年幻想郷」,编年史「千年幻想乡」,
+Skill/S_FKaguya_LucyD_Description,Text,,"스킬 2장을 뽑습니다.
+대상이 가지고있는 버프의 최대지속시간이 2턴 이상일 경우 1턴 연장합니다.
+대상이 가지고있는 디버프의 최대지속시간이 2턴 이상일 경우 1턴 감소합니다.","Draw 2 skills.
+Extend the duration of any beneficial effects on the target with a maximum duration of at least 2 turns by 1 turn.
+Reduce the duration of any debuffs on the target with a maximum duration of at least 2 turns by 1 turn.","スキルを2枚引く。
+対象の持つ最大持続時間が2ターン以下のバフの持続時間を1ターン延長する。
+対象の持つ最大持続時間が2ターン以下のデバフの持続時間を1ターン短縮する。","抽取2个技能。
+使目标身上最大持续时间不低于2回合的增益延长1回合。
+使目标身上最大持续时间不低于2回合的减益降低1回合。",
+Skill/S_FKaguya_LucyD_Name,Text,,신난제「미스테리움」,New Impossible Request「Mysterium」,新難題「ミステリウム」,新难题「Mysterium」,
+Skill/S_FMokou_0_Description,Text,,"3 카운트 후, 불사「불새 -봉익천상-」이 재시전됩니다.",,カウントダウン3で「不死-火の鳥 -鳳翼天翔-」を再度発動する。,倒计时3后，再次释放[不死「火鸟　-凤翼天翔-」]。,
+Skill/S_FMokou_0_Name,Text,,불사「불새 -봉익천상-」,,不死「火の鳥 -鳳翼天翔-」,不死「火鸟　-凤翼天翔-」,
+Skill/S_FMokou_1_Description,Text,,<color=orange>과열: 3 - 모든 적을 대상으로 합니다. </color>,<color=orange>Overheat: 3 - Change to target all enemies.</color>,<color=orange>オーバーヒート：3 - 対象を敵全体に変更する。</color>,<color=orange>过热：3 - 改为指向所有敌人。</color>,
+Skill/S_FMokou_1_Name,Text,,후지와라「멸죄사원상」,Fujiwara「Wounds of Metsuzai Temple」,藤原「滅罪寺院傷」,藤原「灭罪寺院伤」,
+Skill/S_FMokou_2_0_Name,Text,,「퍼제스트 바이 피닉스 -봉황오의-」,「Possessed by Phoenix -Phonix,「パゼストバイフェニックス -鳳凰奥義-」,「不死鸟附体 -凤凰奥义-」,
+Skill/S_FMokou_2_Description,Text,,<color=orange>과열: 4 - 모든 적을 대상으로 합니다. </color>,<color=orange>Overheat: 4 - Change to target all enemies.</color>,<color=orange>オーバーヒート：4 - 対象を敵全体に変更する。</color>,<color=orange>过热：4 - 改为指向所有敌人。</color>,
+Skill/S_FMokou_2_Name,Text,,「퍼제스트 바이 피닉스」,「Possessed by Phoenix」,「パゼストバイフェニックス」,「不死鸟附体」,
+Skill/S_FMokou_3_Description,Text,,<color=orange>과열: 2 - 카운트1로 재시전 합니다.</color>,<color=orange>Overheat: 2 - Repeat once with a countdown of 1.</color>,<color=orange>オーバーヒート：2 – カウントダウン1で再発動する。</color>,<color=orange>过热：2 - 以倒计时1重复释放1次。</color>,
+Skill/S_FMokou_3_Name,Text,,염부「자멸 화염 대선풍」,Blaze Sign「Self-Destruction Giant Flame Whirlwind」,焔符「自滅火焔大旋風」,炎符「自灭火焰大旋风」,
+Skill/S_FMokou_4_Description,Text,,"카운트 중 적이 공격 스킬 이외의 스킬을 사용 시 피해량이 &a가 됩니다.
+
+ <color=orange>과열: 5 - <color=purple>화상</color>을 3회 부여합니다. </color>","During the countdown, if the enemy uses a non-attack skill, change it to &a damage.
+
+<color=orange>Overheat: 5 - Apply 3 layers of <color=purple>Burn</color>.</color>","カウントダウン中、敵が攻撃スキル以外のスキルを使用するとダメージが&aに変更される。
+
+<color=orange>オーバーヒート：5 - <color=purple>灼熱</color>を3ストック与える。</color>","倒计时期间，如果敌人使用攻击技能以外的技能，变为&a伤害。
+
+<color=orange>过热：5 - 施加3层<color=purple>烧伤</color>。</color>",
+Skill/S_FMokou_4_Name,Text,,멸죄「정직한 자의 죽음」,Expiation「Honest Man's Death」,滅罪「正直者の死」,灭罪「正直者之死」,
+Skill/S_FMokou_5_Description,Text,,"<color=purple>화상</color>중첩이 가장 많은 적을 대상으로 시전됩니다.
+대상의 <color=purple>화상</color>중첩 수에 따라 반복시전됩니다.
+그 후, 자신 및 대상의 모든 <color=purple>화상</color>중첩이 제거됩니다.","Target the enemy with the most <color=purple>Burn</color> stacks.
+Repeat this skill according to the number of <color=purple>Burn</color> stacks on the target.
+Then, clear all <color=purple>Burn</color> layers on both yourself and the target.","<color=purple>灼熱</color>のストック数が最も多い敵を対象にする。
+対象の持つ<color=purple>灼熱</color>のストック数と同じ回数、これを繰り返し発動する。
+その後、自身と対象の持つ<color=purple>灼熱</color>をすべて除去する。","指向<color=purple>烧伤</color>层数最多的敌人。
+根据目标身上的<color=purple>烧伤</color>层数，重复释放这个技能。
+那之后，清空自己和目标身上所有的<color=purple>烧伤</color>。",
+Skill/S_FMokou_5_Name,Text,,봉래「개풍쾌청 -후지야마 볼케이노-」,"Hourai「South Wind, Clear Sky -Fujiyama Volcano-」",蓬莱「凱風快晴 -フジヤマヴォルケイノ-」,蓬莱「凯风快晴 -Fujiyama Volcano-」,
+Skill/S_FMokou_Reward_Name,Text,,「임페리셔블 슈팅」,「Imperishable Shooting」,「インペリシャブルシューティング」,「不朽的弹幕」,
+Skill/S_FMokou_Stage_1_Description,Text,,,,,,
+Skill/S_FMokou_Stage_1_Name,Text,,「봉래인형」,「Hourai Doll」,「蓬莱人形」,「蓬莱人形」,
+Skill/S_FMokou_Stage_2_Name,Text,,주저「목 매단 봉래인형」,,咒詛「首吊り蓬莱人形」,诅咒「上吊的蓬莱人形」,
+Skill/S_FMokou_Stage_3_Description,Text,,,,,,
+Skill/S_FMokou_Stage_3_Name,Text,,"「몇 번째인지도 모르는 이 목숨, 다 불탈 때까지」","「Until This Life, Repeated Countless Times, Burns Away」",「この何度目かの命、燃え尽きるまで」,「这不知是第几次的生命，燃烧殆尽吧」,
+Skill/S_FMokou_Stage_4_Description,Text,,,,,,
+Skill/S_FMokou_Stage_4_Name,Text,,허인「우」,Hollow Being「Wu」,虚人「無」,虚人「无」,
+Skill/S_FMokou_Xufu_Name,Text,,불사「서복시공」,Undying「Xu Fu's Dimension」,不死「徐福時空」,不死「徐福时空」,
+SkillExtended/SkillExtended_10Rare_Name,Text,,영야 되돌리기 -강화-,End of Imperishable Night -Upgrade-,永夜返し -強化-,永夜归返 -强化-,
+SkillKeyword/Keyword_Quest_Desc,Text,,특정 조건을 만족 시 [카구야/신보]가 자신에게 부여됩니다.,Will grant [Kaguya/Divine Treasure] under certain conditions.,特定の条件を満たしたとき、自身に[輝夜/神宝]を与える。,在达成某些条件时，会为自身赋予[辉夜/神宝]增益。,
+SkillKeyword/Keyword_Quest_Name,Text,,난제,Impossible Request,難題,难题,
+SkillKeyword/Keyword_Sinnpou_Desc,Text,,[카구야/신보]를 소모하여 추가 효과를 발동할 수 있습니다.,Add extra effects by consuming [Kaguya/Divine Treasure].,[輝夜/神宝]を消費することで、追加効果を発動する。,通过消耗[辉夜/神宝]增益，能够追加额外效果。,
+SkillKeyword/Keyword_Sinnpou_Name,Text,,신보,Divine Treasure,神宝,神宝,
+SkillKeyword/exburn_Desc,Text,,"모코우가 조건에 맞는 <color=purple>[화상]</color>중첩을 가지고 있는 경우 해당 중첩만큼의 <color=purple>[화상]</color>피해를 입고 중첩을 제거 한 후, 후속 추가효과가 발동됩니다.","When Mokou has burn stacks of <color=purple>[Burn]</color>, calculate and remove the burn layers, triggering subsequent additional effects.",藤原妹紅が持つ<color=purple>灼熱</color>のストック数が指定された数以上のとき、指定された数<color=purple>灼熱</color>のストックを消費して追加効果を発動する。,妹红拥有标识层数的<color=purple>[烧伤]</color>时，结算并移除标识层数的<color=purple>[烧伤]</color>，触发后续的额外效果。,
+SkillKeyword/exburn_Name,Text,,과열,Overheat,オーバーヒート,过热,

@@ -1,0 +1,17 @@
+{
+    "S_Inaba_P_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_1",
+        "Target": "enemy",
+        "NoDrop": true,
+        "Name": "小兔叽",
+        "Description": "",
+        "Except": true,
+        "Counting": 5,
+        "Track": true,
+        "Effect_Target": "SE_T_S_Inaba_P_2",
+        "Image_1": "S_Inaba_P_2\\S_Inaba_P_2_Image_1.png",
+        "Image_0": "S_Inaba_P_2\\S_Inaba_P_2_Image_0.png"
+    }
+}

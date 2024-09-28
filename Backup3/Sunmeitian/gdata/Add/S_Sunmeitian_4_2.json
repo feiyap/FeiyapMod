@@ -1,0 +1,34 @@
+{
+    "S_Sunmeitian_4_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "choiceskill",
+        "Name": "乾坤之跃",
+        "Description": "选择 - 立即释放；\n倒计时1，额外造成&a(60%)伤害；\n倒计时2，额外造成&b(100%)伤害；\n倒计时3，额外造成&c(120%)伤害。\n释放时，如果自身拥有[真假猴王]，将1张[丛林之舞]加入手中。",
+        "UseAp": 0,
+        "NotCount": true,
+        "Except": true,
+        "AutoDelete": 1,
+        "Effect_Target": "SE_T_S_Sunmeitian_4_2",
+        "Image_0": "S_Sunmeitian_4_2\\S_Sunmeitian_4_2_Image_0.png",
+        "Image_1": "S_Sunmeitian_4_2\\S_Sunmeitian_4_2_Image_1.png",
+        "Image_2": "S_Sunmeitian_4_2\\S_Sunmeitian_4_2_Image_2.png",
+        "SkillExtended": [
+            "Sunmeitian.S_Sunmeitian_4_2"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

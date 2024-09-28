@@ -1,0 +1,35 @@
+{
+    "S_Kirito_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "切换",
+        "Description": "使用此技能不会发动[我还能更快]的被动效果。\n-亚丝娜：选择一名其他队友获得1回合BUFF[切换]：重复释放该队友释放的技能。但此回合自己无法行动。\n-诗乃：自身获得1回合BUFF[影光G4]：+50%无视防御。\n-尤吉欧：嘲讽所有敌人1回合。此回合自身受到攻击后随机使用手牌中的普通技能。",
+        "UseAp": 2,
+        "User": "Kirito",
+        "Target": "Misc",
+        "Effect_Target": "null",
+        "Image_0": "S_Kirito_7\\S_Kirito_7_Image_0.png",
+        "Image_1": "S_Kirito_7\\S_Kirito_7_Image_1.png",
+        "Image_2": "S_Kirito_7\\S_Kirito_7_Image_2.png",
+        "Effect_Self": "null",
+        "Particle": "Particle/Buff",
+        "SkillExtended": [
+            "Kirito.S_Kirito_7"
+        ],
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

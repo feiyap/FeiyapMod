@@ -1,0 +1,18 @@
+{
+    "B_Mokou_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Mokou.B_Mokou_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": true,
+        "Name": "「不灭赤魂」",
+        "Description": "每重生一次，层数+1。每拥有一层「不灭赤魂」，生命上限+12；攻击力、治疗力+1；受到的伤害-1；命中率、暴击率、debuff成功率、抵抗率+5%；回合结束时对所有敌人施加赤魂层数的烧伤。",
+        "MaxStack": 3,
+        "EnemyBuffEffect": "",
+        "AllyBuffEffect": "",
+        "Icon": "B_Mokou_0\\B_Mokou_0_Icon.png"
+    }
+}

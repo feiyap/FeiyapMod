@@ -1,0 +1,21 @@
+{
+    "S_SomJohn_R1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Name": "楼蜃市海",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_SomJohn_R1",
+        "Image_0": "S_SomJohn_R1\\S_SomJohn_R1_Image_0.png",
+        "Image_1": "S_SomJohn_R1\\S_SomJohn_R1_Image_1.png",
+        "Image_2": "S_SomJohn_R1\\S_SomJohn_R1_Image_2.png"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "Chiyo_BadDay": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Mboss2_0_2",
+        "Target": "self",
+        "Name": "Painful Day",
+        "Description": "The target receives &SelfPainDamage <color=purple>Pain damage</color> (equal to their remaining health).\nDraw 1 skill if the target was already at Death's Door.<color=#0000FF></color>",
+        "User": "Chiyo",
+        "Basic": false,
+        "NotCount": true,
+        "SkillExtended": [
+            "Chiyo.Chiyo_BadDay"
+        ],
+        "Disposable": false,
+        "UseAp": 1,
+        "Rare": false,
+        "NoBasicSkill": false,
+        "Image_0": "Chiyo_BadDay\\Chiyo_BadDay_Image_0.png",
+        "Image_1": "Chiyo_BadDay\\Chiyo_BadDay_Image_1.png",
+        "Image_2": "Chiyo_BadDay\\Chiyo_BadDay_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Target": "SE_T_Chiyo_BadDay"
+    }
+}

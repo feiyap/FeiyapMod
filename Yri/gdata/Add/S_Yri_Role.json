@@ -1,0 +1,34 @@
+{
+    "S_Yri_Role": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Name": "Role Acknowledged!",
+        "NotCount": true,
+        "Description": "Apply the following effects based on Self buffs:\r\nStarbound Hunter: This skill becomes Blizzard. Immediately gain 2 Starbound Tenacity and 1 Mana\r\n\nDefender of Avalon: This skill becomes Evasive Maneuvers. Gain 1 Yri's Determination and 1 Mana\r\n\nNeither: Lose 1 mana (if any). Draw 2 cards. \r\n\n(If both are active, activate Starbound Hunter's effect)\r",
+        "SkillExtended": [
+            "Yri_Char.S_Yri_Role"
+        ],
+        "NoBasicSkill": false,
+        "UseAp": 0,
+        "Disposable": true,
+        "PlusSkillView": "S_Yri_Evasive",
+        "Image_0": "S_Yri_Role\\S_Yri_Role_Image_0.png",
+        "Image_2": "S_Yri_Role\\S_Yri_Role_Image_2.png",
+        "Image_1": "S_Yri_Role\\S_Yri_Role_Image_1.png",
+        "IgnoreTaunt": false,
+        "User": "Yri",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

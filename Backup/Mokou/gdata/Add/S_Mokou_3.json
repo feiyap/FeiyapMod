@@ -1,0 +1,35 @@
+{
+    "S_Mokou_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Phoenix/Phoenix_3",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Description": "使用时，给予目标‘发怒！’。如果倒计时内没有受到攻击，则将一张本回合内0费，指向所有敌人的附带迅速的灭罪「正直者之死」置入手中，附带一回合后放逐；如果受到攻击，则对双方施加3层烧伤（仅生效一次）。",
+        "Name": "灭罪「正直者之死」",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Mokou_3",
+        "Counting": 1,
+        "SkillExtended": [
+            "Mokou.S_Mokou_3"
+        ],
+        "User": "Mokou",
+        "Image_0": "S_Mokou_3\\S_Mokou_3_Image_0.png",
+        "Image_1": "S_Mokou_3\\S_Mokou_3_Image_1.png",
+        "Image_2": "S_Mokou_3\\S_Mokou_3_Image_2.png"
+    }
+}

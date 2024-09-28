@@ -1,0 +1,19 @@
+{
+    "B_Cylu_lend": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_Cylu_lend",
+        "BuffTag": "null",
+        "Icon": "B_Cylu_lend\\B_Cylu_lend_Icon.png",
+        "Name": "预借",
+        "Cantdisable": true,
+        "Debuff": true,
+        "TagPer": 0,
+        "MaxStack": 10,
+        "LifeTime": 2,
+        "Description": "回合开始时，法力值减少&a点。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

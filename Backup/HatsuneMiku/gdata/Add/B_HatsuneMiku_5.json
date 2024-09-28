@@ -1,0 +1,20 @@
+{
+    "B_HatsuneMiku_5": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 2,
+        "Name": "恋は戦争",
+        "Description": "",
+        "Icon": "B_HatsuneMiku_5\\B_HatsuneMiku_5_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 2,
+        "ClassName": "HatsuneMiku.B_HatsuneMiku_5"
+    }
+}

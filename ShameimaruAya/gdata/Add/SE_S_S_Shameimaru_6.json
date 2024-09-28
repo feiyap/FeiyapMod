@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Shameimaru_6": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Shameimaru_6"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "myKey": "SummonSun",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SummonSun\\SummonSunMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.460315049,
+            "y": 0.0600278378
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.45748347,
+            "y": 0.1532706
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

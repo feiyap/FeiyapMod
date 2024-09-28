@@ -1,0 +1,11 @@
+{
+    "SE_Sakuya_7_0": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "吾刃回归",
+        "Des": "费用减少1点、附带迅速。",
+        "IsIcon": "SE_Sakuya_7_0\\SE_Sakuya_7_0_Icon.png",
+        "ClassName": "IzayoiSakuya.SE_Sakuya_7_0",
+        "AlwaysParticle": false,
+        "IsOnesInit": false
+    }
+}

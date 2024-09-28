@@ -1,0 +1,6 @@
+{
+    "MSBuildPath": "I:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\MSBuild\\15.0\\Bin\\MSBuild.exe",
+    "dnSpyPath": "I:\\dnSpy-net-win64\\dnSpy.exe",
+    "ChronoArkPath": "H:/SteamLibrary/steamapps/common/Chrono Ark/ChronoArk_Data/Managed",
+    "ConsoleConfig": "[LogShowLog][AssertShowLog][WarningShowLog][ErrorShowLog][ExceptionShowLog][ExceptionShowStackTrace]"
+}

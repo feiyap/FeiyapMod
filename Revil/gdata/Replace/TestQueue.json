@@ -1,0 +1,10 @@
+{
+    "TestQueue": {
+        "_gdeSchema": "EnemyQueue",
+        "Enemys": [
+            "Enemy_emoshechu",
+            "Enemy_emoshechu",
+            "Enemy_emoshechu"
+        ]
+    }
+}

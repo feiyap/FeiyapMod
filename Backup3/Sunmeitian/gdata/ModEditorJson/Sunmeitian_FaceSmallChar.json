@@ -1,0 +1,23 @@
+{
+    "myKey": "Sunmeitian",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Sunmeitian\\SunmeitianFaceSmallChar.png",
+        "offsetMax": {
+            "x": 275.6159,
+            "y": 129.934174
+        },
+        "offsetMin": {
+            "x": -304.9455,
+            "y": -607.7203
+        },
+        "pivot": {
+            "x": 0.52175957,
+            "y": 0.816277266
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

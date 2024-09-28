@@ -1,0 +1,17 @@
+{
+    "SE_S_S_Satsuki_10Rare": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Satsuki_0",
+            "B_Satsuki_1",
+            "B_Satsuki_2",
+            "B_Satsuki_3"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0,
+            0
+        ]
+    }
+}

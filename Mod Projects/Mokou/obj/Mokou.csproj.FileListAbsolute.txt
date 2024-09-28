@@ -1,0 +1,2 @@
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Mokou\obj\Mokou.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Mokou\obj\Mokou.csproj.CoreCompileInputs.cache

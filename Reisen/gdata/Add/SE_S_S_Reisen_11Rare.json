@@ -1,0 +1,13 @@
+{
+    "SE_S_S_Reisen_11Rare": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Reisen_6",
+            "B_Reisen_11Rare"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

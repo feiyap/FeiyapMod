@@ -1,0 +1,37 @@
+{
+    "S_Mokou_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "self",
+        "NotCount": false,
+        "Basic": false,
+        "Description": "使用后，不灭赤魂层数减少1层（可以再次复活1次）。",
+        "Name": "不死「徐福时空」",
+        "UseAp": 2,
+        "Disposable": true,
+        "NoBasicSkill": true,
+        "PlusKeyWords": [
+            "exburn"
+        ],
+        "User": "Mokou",
+        "Track": false,
+        "SkillExtended": [
+            "Mokou.S_Mokou_6"
+        ],
+        "Rare": false,
+        "Image_0": "S_Mokou_6\\S_Mokou_6_Image_0.png",
+        "Image_1": "S_Mokou_6\\S_Mokou_6_Image_1.png",
+        "Image_2": "S_Mokou_6\\S_Mokou_6_Image_2.png",
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Effect_Self": "SE_S_S_Mokou_6",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

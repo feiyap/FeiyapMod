@@ -1,0 +1,10 @@
+{
+    "B_FlandreScarlet_P_V": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "禁忌欲望",
+        "Description": "芙兰朵露在体力值低于最大体力值的一半时，部分技能会获得额外效果。",
+        "Icon": "B_FlandreScarlet_P_V\\B_FlandreScarlet_P_V_Icon.png"
+    }
+}

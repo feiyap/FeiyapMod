@@ -1,0 +1,33 @@
+{
+    "S_Cylu_R4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Assets/Cylu/R4/Anime_Cylu_R4.prefab",
+        "Rare": true,
+        "Target": "self",
+        "NotCount": true,
+        "Disposable": true,
+        "Name": "呼吸法",
+        "NoBasicSkill": true,
+        "AutoDelete": 2,
+        "Description": "此技能可在无法行动状态下使用。\r\n解除自身所有减益，根据预借层数&a触发以下效果：技能交换次数+&a，获得&a点法力值，抽取&a个技能。",
+        "Effect_Target": "SE_T_S_Cylu_R4",
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "SkillExtended": [
+            "BOSSLucy.S_Cylu_R4"
+        ],
+        "Image_0": "S_Cylu_R4\\S_Cylu_R4_Image_0.png",
+        "Image_1": "S_Cylu_R4\\S_Cylu_R4_Image_1.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "Cylu"
+    }
+}

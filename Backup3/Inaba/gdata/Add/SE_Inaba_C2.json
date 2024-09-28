@@ -1,0 +1,11 @@
+{
+    "SE_Inaba_C2": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "使目标受到的追加攻击伤害+100%，持续1回合。",
+        "Drop": true,
+        "EnforceString": "<sprite name=\"비용1\"><sprite name=\"이하\">",
+        "NeedCharacter": "Inaba",
+        "Des": "",
+        "ClassName": "Inaba.SE_Inaba_C2"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "S_FlandreScarlet_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/Hein_new_1",
+        "Target": "enemy",
+        "Name": "「掌中的破坏者」",
+        "Description": "自身每有1层[禁忌狂乱]，随机从下列效果中生效1项（能多次生效）：\n1，这个技能造成&a(40%)点额外伤害；\n2，超额治疗自己4点体力；\n3，这个技能的命中率和暴击率提升10%。",
+        "UseAp": 3,
+        "User": "FlandreScarlet",
+        "Effect_Target": "SE_T_S_FlandreScarlet_5",
+        "Image_0": "S_FlandreScarlet_5\\S_FlandreScarlet_5_Image_0.png",
+        "Image_1": "S_FlandreScarlet_5\\S_FlandreScarlet_5_Image_1.png",
+        "Image_2": "S_FlandreScarlet_5\\S_FlandreScarlet_5_Image_2.png",
+        "NotCount": false,
+        "SkillExtended": [
+            "FlandreScarlet.S_FlandreScarlet_5"
+        ],
+        "IgnoreTaunt": true
+    }
+}

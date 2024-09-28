@@ -1,0 +1,133 @@
+{
+    "Yri": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "Yri_Char.P_Yri",
+        "PassiveUnlockLV1": true,
+        "name": "Yri",
+        "SelectInfo": "Fluffy Space Raptor!\n\nFrail but fast, Yri leads the charge with powerful draw and search skills. She can then take on the role of primary offense with her Solarium Blade and various firearms, or support the team with Feather Guards.\n\nYri's style revolves around being Airborne, where she then Descends with powerful additional effects. While Airborne, she becomes significantly harder to hit, but will take massive damage when she does take a blow.",
+        "Gender": 1,
+        "FirstSkill": "S_Yri_Blizzard",
+        "face": "Yri\\YriBattleFace.png",
+        "MAXHP": {
+            "x": 18,
+            "y": 34
+        },
+        "ATK": {
+            "x": 15,
+            "y": 29
+        },
+        "CRI": {
+            "x": 0,
+            "y": 20
+        },
+        "DODGE": {
+            "x": 8,
+            "y": 20
+        },
+        "DEF": {
+            "x": -15,
+            "y": 0
+        },
+        "REG": {
+            "x": 8,
+            "y": 18
+        },
+        "HIT": {
+            "x": 95,
+            "y": 130
+        },
+        "RES_CC": {
+            "x": 10,
+            "y": 40
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": -5,
+            "y": 25
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 30
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 30
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 30
+        },
+        "PassiveName": "Starbound Hunter of Avalon",
+        "PassiveIcon": "Yri\\YriPassiveIcon.png",
+        "PassiveDes": "The fixed skill becomes Ascension. Fixed skill cannot be changed\n\nYri can gain Airborne from skills, which enhances skill effects. Airborne also increases Evade by 50%, but decreases Armor by -25%, and is lost when getting hit.\n\nDescend skills consume Airborne for effects.\r\nAscend skills apply Airborne if it is not active and applies additional effects.\n",
+        "CollectionSprite_Cover": "Yri\\YriCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Yri\\YriCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Def": 2,
+        "StatView_Difficult": 3,
+        "CampSelectWord": "Hi~ I'm Yri! Let's get along!  *chirp*",
+        "Text_PharosLeader": [
+            "*HISS!!!*",
+            "I-I'm sorry! I lost focus!",
+            "*SCREEE!!!*"
+        ],
+        "Text_Witch": [
+            "I... I can take it!",
+            "Hnn... If you say so..."
+        ],
+        "Text_Battle_Idle": [
+            "Breathe, Lucy. Do your best!",
+            "*sigh* I can do this..."
+        ],
+        "Text_Battle_ND": [
+            "*yelp* I-I messed up...",
+            "Aaah! Help! Help!"
+        ],
+        "Text_Battle_AllyND": [
+            "Oh no! We need help!"
+        ],
+        "Text_Battle_Kill": [
+            "Rest in peace...",
+            "Farewell..."
+        ],
+        "Text_Battle_Start": [
+            "*sigh* Focus, Yri... focus...",
+            "Whew! Let's do this!"
+        ],
+        "Text_Battle_Cri": [
+            "A chance!",
+            "Hah!"
+        ],
+        "Text_Battle_Healed": [
+            "Thank you!",
+            "Thanks for the support!"
+        ],
+        "Text_Field_Idle": [
+            "Have you heard of Avalon? It's my home world!",
+            "This world is quite strange... I feel like I've been here before..."
+        ],
+        "Text_Field_GetItem": [
+            "Oooo! Treasure!",
+            "What a find!"
+        ],
+        "Text_Field_Potion_P": [
+            "What a strange concoction...",
+            "Ack! I-it tastes weird..."
+        ],
+        "StatView_Debuff": 1,
+        "FixedBasicSkill": "S_Yri_Ascension",
+        "StatView_Dot": 0,
+        "StatView_CC": 1,
+        "StatView_Sup": 2,
+        "CampSD": [
+            "Yri\\YriCampSD0.png",
+            "Yri\\YriCampSD1.png",
+            "Yri\\YriCampSD2.png",
+            "Yri\\YriCampSD3.png"
+        ]
+    }
+}

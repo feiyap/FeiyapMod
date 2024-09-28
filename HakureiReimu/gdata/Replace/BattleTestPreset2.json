@@ -1,0 +1,58 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Priest",
+            "HakureiReimu"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_HakureiReimu_F_11Rare"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_HakureiReimu_F_0",
+                "S_HakureiReimu_F_0",
+                "S_HakureiReimu_F_1",
+                "S_HakureiReimu_F_9",
+                "S_HakureiReimu_F_7"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "E_HakureiReimu_F_1",
+                "E_HakureiReimu_F_2"
+            ]
+        ],
+        "LucySkill": [
+            "S_HakureiReimu_F_LucyD"
+        ],
+        "AP": 10,
+        "Level": 6,
+        "Passive": [
+            "R_HakureiReimu_F_0"
+        ]
+    }
+}

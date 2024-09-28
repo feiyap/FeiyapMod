@@ -1,0 +1,21 @@
+{
+    "S_Raye_LucyEngage": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "Mobilize! Engage!",
+        "Description": "Search 1 skill from Deck.\r\nIf played with 3 Lucy skills in discard, Draw 2 skills.\r\n",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "Raye",
+        "Image_0": "S_Raye_LucyEngage\\S_Raye_LucyEngage_Image_0.png",
+        "Image_1": "S_Raye_LucyEngage\\S_Raye_LucyEngage_Image_1.png",
+        "Image_2": "S_Raye_LucyEngage\\S_Raye_LucyEngage_Image_2.png",
+        "SkillExtended": [
+            "SkyStriker.S_Raye_LucyEngage"
+        ]
+    }
+}

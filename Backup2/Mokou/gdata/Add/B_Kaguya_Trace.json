@@ -1,0 +1,13 @@
+{
+    "B_Kaguya_Trace": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Mokou.B_Kaguya_Trace",
+        "BuffTag": "null",
+        "Name": "自机狙目标改变",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_82/1",
+        "Debuff": true,
+        "TagPer": 0,
+        "Cantdisable": false,
+        "Hide": true
+    }
+}

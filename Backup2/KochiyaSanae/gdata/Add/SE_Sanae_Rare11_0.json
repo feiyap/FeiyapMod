@@ -1,0 +1,9 @@
+{
+    "SE_Sanae_Rare11_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "五角星的奇迹",
+        "ClassName": "KochiyaSanae.SE_Sanae_Rare11_0"
+    }
+}

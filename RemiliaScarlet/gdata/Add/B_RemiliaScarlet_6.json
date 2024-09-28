@@ -1,0 +1,12 @@
+{
+    "B_RemiliaScarlet_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "饱足",
+        "Description": "蕾米莉亚从血肉中获得了满足。暂时无法提升最大生命值。",
+        "Icon": "B_RemiliaScarlet_6\\B_RemiliaScarlet_6_Icon.png",
+        "MaxStack": 1,
+        "Cantdisable": true
+    }
+}

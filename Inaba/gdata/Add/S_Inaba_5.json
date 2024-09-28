@@ -1,0 +1,21 @@
+{
+    "S_Inaba_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": false,
+        "Name": "兔符「开运大纹」",
+        "Description": "从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。\n可在本回合内再次使用。",
+        "User": "Inaba",
+        "Effect_Target": "null",
+        "Image_0": "S_Inaba_5\\S_Inaba_5_Image_0.png",
+        "Image_1": "S_Inaba_5\\S_Inaba_5_Image_1.png",
+        "Image_2": "S_Inaba_5\\S_Inaba_5_Image_2.png",
+        "NoBasicSkill": false,
+        "SkillExtended": [
+            "Inaba.S_Inaba_5"
+        ],
+        "IgnoreTaunt": false
+    }
+}

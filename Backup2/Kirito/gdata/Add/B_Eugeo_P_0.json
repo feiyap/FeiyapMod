@@ -1,0 +1,20 @@
+{
+    "B_Eugeo_P_0": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 1,
+        "Name": "蓝蔷薇之剑",
+        "Description": "对敌人造成伤害时附加1层[冻伤]。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 0,
+        "Icon": "B_Eugeo_P_0\\B_Eugeo_P_0_Icon.png",
+        "ClassName": "Kirito.B_Eugeo_P_0"
+    }
+}

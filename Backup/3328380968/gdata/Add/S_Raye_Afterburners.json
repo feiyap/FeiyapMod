@@ -1,0 +1,37 @@
+{
+    "S_Raye_Afterburners": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Pharos_witch",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": true,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "Maneuver - Afterburners!",
+        "UseAp": 2,
+        "Description": "Also attack the enemy with the least HP. \nIf the user has Armory Armed!: Deal an additional instance of damage to a random enemy.\r\n",
+        "User": "Raye",
+        "Image_0": "S_Raye_Afterburners\\S_Raye_Afterburners_Image_0.png",
+        "Image_1": "S_Raye_Afterburners\\S_Raye_Afterburners_Image_1.png",
+        "Image_2": "S_Raye_Afterburners\\S_Raye_Afterburners_Image_2.png",
+        "Effect_Target": "SE_T_S_Raye_Afterburners",
+        "SkillExtended": [
+            "SkyStriker.S_Raye_Afterburners"
+        ],
+        "SKillExtendedItem": [
+            
+        ]
+    }
+}

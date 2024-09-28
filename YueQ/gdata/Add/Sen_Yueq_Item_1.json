@@ -1,0 +1,14 @@
+{
+    "Sen_Yueq_Item_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "使用时,从第x回合我方使用过的与此技能类型相同且非一次性的专属技能中选择一个复制并加入手牌,附带放逐(如果没有回复1点法力).(x为本回合我方使用过的技能数+1)",
+        "Des": "",
+        "ClassName": "YueQ.Sen_Yueq_Item_1",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "IsIcon": "",
+        "Drop": true,
+        "EnforceString": "<sprite name=\"비용2\"><sprite name=\"이상\">",
+        "NeedCharacter": "NOdrop"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "S_csgp_gimlet": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/PharosDPS_1",
+        "Target": "enemy",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "PlusKeyWords": [
+            "csgp_gimlet_test"
+        ],
+        "Name": "钢锥",
+        "Description": "———————————————\n<color=#FFA500>无视防御</color>\n额外造成<color=#FFA500>目标最大生命值20%</color>的伤害<color=#B10DC9>(额外伤害不超过自身攻击力*130％)<color=#9400d3></color>\n</color>若未能击杀敌人，</color><color=#B10DC9>则再追加释放一次</color>",
+        "UseAp": 3,
+        "Image_0": "S_csgp_gimlet\\S_csgp_gimlet_Image_0.png",
+        "Image_1": "S_csgp_gimlet\\S_csgp_gimlet_Image_1.png",
+        "Image_2": "S_csgp_gimlet\\S_csgp_gimlet_Image_2.png",
+        "Effect_Target": "SE_T_S_csgp_gimlet",
+        "PlusSkillView": "S_csgp_cobra",
+        "SkillExtended": [
+            "Kohei.S_Kohei_gimlet"
+        ],
+        "Track": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": true,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "AutoDelete": 2
+    },
+    "S_csgp_gimlet2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/PharosDPS_1",
+        "Target": "enemy",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "PlusKeyWords": [
+            "csgp_gimlet_test"
+        ],
+        "Name": "钢锥",
+        "Description": "",
+        "UseAp": 3,
+        "Image_0": "S_csgp_gimlet\\S_csgp_gimlet_Image_0.png",
+        "Image_1": "S_csgp_gimlet\\S_csgp_gimlet_Image_1.png",
+        "Image_2": "S_csgp_gimlet\\S_csgp_gimlet_Image_2.png",
+        "Effect_Target": "SE_T_S_csgp_gimlet2",
+        "PlusSkillView": "S_csgp_cobra",
+        "SkillExtended": [
+            "Kohei.S_Kohei_gimlet2"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": true,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

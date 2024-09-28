@@ -1,0 +1,23 @@
+{
+    "myKey": "YueQskin",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Yueq_Skin\\Yueq_SkinBattleChar.png",
+        "offsetMax": {
+            "x": 407.164124,
+            "y": 496.358337
+        },
+        "offsetMin": {
+            "x": -546.7004,
+            "y": -1374.87341
+        },
+        "pivot": {
+            "x": 0.5731426,
+            "y": 0.734742463
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

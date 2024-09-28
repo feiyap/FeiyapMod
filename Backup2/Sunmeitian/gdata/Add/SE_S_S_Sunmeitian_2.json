@@ -1,0 +1,13 @@
+{
+    "SE_S_S_Sunmeitian_2": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Sunmeitian_2",
+            "B_Sunmeitian_2"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

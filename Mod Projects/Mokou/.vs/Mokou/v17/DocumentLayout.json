@@ -1,0 +1,741 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|e:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\mokou\\buff\\b_kaguya_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_kaguya_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_kaguya_p_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_kaguya_p_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_kaguya_s_fail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_kaguya_s_fail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_kaguya_s_achieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_kaguya_s_achieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_kaguya_p_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_kaguya_p_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_t_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_t_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_s_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_s_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\ex_ability\\ex_ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:ex_ability\\ex_ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_r_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_r_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_r_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_r_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\character\\p_mokou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:character\\p_mokou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_kaguya_1_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_kaguya_1_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_kaguya_1_right.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_kaguya_1_right.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\randomevent\\bamboo_forest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:randomevent\\bamboo_forest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\enemy\\kaguya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:enemy\\kaguya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_s_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_s_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\sp_kaguya_changephase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\sp_kaguya_changephase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_lucyd_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_lucyd_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\item_equip\\mokou_plume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:item_equip\\mokou_plume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\item_passive\\mokou_legacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:item_passive\\mokou_legacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_kaguya_1_left.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_kaguya_1_left.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_8_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_8_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_t_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_t_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_t_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_t_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_s_r_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_s_r_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_s_r_2_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_s_r_2_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_s_r_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_s_r_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_s_r_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_s_r_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_s_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_s_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_s_5_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_s_5_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\buff\\b_mokou_s_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:buff\\b_mokou_s_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skillextended\\skillen_mokou_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skillextended\\skillen_mokou_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skillextended\\skillen_mokou_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skillextended\\skillen_mokou_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_r_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_r_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\skill\\s_mokou_1_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1BF166-F794-4E0C-B0CE-1DFB034A9940}|Mokou.csproj|solutionrelative:skill\\s_mokou_1_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "B_Kaguya_S_Fail.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Kaguya_S_Fail.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Kaguya_S_Fail.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Kaguya_S_Fail.cs",
+              "RelativeToolTip": "Buff\\B_Kaguya_S_Fail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T06:51:30.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "B_Kaguya_S_Achieve.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Kaguya_S_Achieve.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Kaguya_S_Achieve.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Kaguya_S_Achieve.cs",
+              "RelativeToolTip": "Buff\\B_Kaguya_S_Achieve.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T06:51:20.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "B_Mokou_S_3.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_3.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_S_3.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_3.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_S_3.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:11:26.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "S_Mokou_4.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_4.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_4.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_4.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_4.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwE4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:51:23.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "S_Mokou_5.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_5.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_5.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_5.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_5.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T03:57:50.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "B_Mokou_0.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_0.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_0.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_0.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_0.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwD4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T18:44:25.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "B_Kaguya_P_1.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Kaguya_P_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Kaguya_P_1.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Kaguya_P_1.cs",
+              "RelativeToolTip": "Buff\\B_Kaguya_P_1.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwDkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T05:57:49.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "B_Kaguya_P.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Kaguya_P.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Kaguya_P.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Kaguya_P.cs",
+              "RelativeToolTip": "Buff\\B_Kaguya_P.cs",
+              "ViewState": "AQIAALsAAAAAAAAAAADwv8kAAACCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:34:01.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "S_Mokou_3.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_3.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_3.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_3.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_3.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwBcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:52:47.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "S_Mokou_R_3.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_R_3.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_R_3.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_R_3.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_R_3.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwEMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:03:20.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "B_Mokou_T_1.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_T_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_T_1.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_T_1.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_T_1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T13:09:11.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "B_Kaguya_P_0.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Kaguya_P_0.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Kaguya_P_0.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Kaguya_P_0.cs",
+              "RelativeToolTip": "Buff\\B_Kaguya_P_0.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvxwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:39:12.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "S_Mokou_R_2.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_R_2.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_R_2.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_R_2.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_R_2.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwB0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T12:14:19.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EX_ability.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\EX_ability\\EX_ability.cs",
+              "RelativeDocumentMoniker": "EX_ability\\EX_ability.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\EX_ability\\EX_ability.cs",
+              "RelativeToolTip": "EX_ability\\EX_ability.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAiwD0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:09:36.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "S_Mokou_1.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_1.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_1.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_1.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_1.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwC0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T17:49:05.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "P_Mokou.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Character\\P_Mokou.cs",
+              "RelativeDocumentMoniker": "Character\\P_Mokou.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Character\\P_Mokou.cs",
+              "RelativeToolTip": "Character\\P_Mokou.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAFcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T17:42:28.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "S_Kaguya_1_S.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Kaguya_1_S.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Kaguya_1_S.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Kaguya_1_S.cs",
+              "RelativeToolTip": "Skill\\S_Kaguya_1_S.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T14:47:16.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "S_Kaguya_1_Right.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Kaguya_1_Right.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Kaguya_1_Right.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Kaguya_1_Right.cs",
+              "RelativeToolTip": "Skill\\S_Kaguya_1_Right.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAUwC4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T14:00:57.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Bamboo_Forest.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\RandomEvent\\Bamboo_Forest.cs",
+              "RelativeDocumentMoniker": "RandomEvent\\Bamboo_Forest.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\RandomEvent\\Bamboo_Forest.cs",
+              "RelativeToolTip": "RandomEvent\\Bamboo_Forest.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwv0QAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T09:33:12.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "B_Mokou_S_2.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_2.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_S_2.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_2.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_S_2.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwBsAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:22:44.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SP_Kaguya_ChangePhase.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\SP_Kaguya_ChangePhase.cs",
+              "RelativeDocumentMoniker": "Skill\\SP_Kaguya_ChangePhase.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\SP_Kaguya_ChangePhase.cs",
+              "RelativeToolTip": "Skill\\SP_Kaguya_ChangePhase.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:08:52.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "S_Mokou_LucyD_1.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_LucyD_1.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_LucyD_1.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_LucyD_1.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_LucyD_1.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAmwDIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:35:02.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Kaguya.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Enemy\\Kaguya.cs",
+              "RelativeDocumentMoniker": "Enemy\\Kaguya.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Enemy\\Kaguya.cs",
+              "RelativeToolTip": "Enemy\\Kaguya.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAcwFQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T12:20:46.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Mokou_Plume.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Item_Equip\\Mokou_Plume.cs",
+              "RelativeDocumentMoniker": "Item_Equip\\Mokou_Plume.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Item_Equip\\Mokou_Plume.cs",
+              "RelativeToolTip": "Item_Equip\\Mokou_Plume.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T18:02:27.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Mokou_Legacy.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Item_Passive\\Mokou_Legacy.cs",
+              "RelativeDocumentMoniker": "Item_Passive\\Mokou_Legacy.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Item_Passive\\Mokou_Legacy.cs",
+              "RelativeToolTip": "Item_Passive\\Mokou_Legacy.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T10:20:12.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "S_Kaguya_1_Left.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Kaguya_1_Left.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Kaguya_1_Left.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Kaguya_1_Left.cs",
+              "RelativeToolTip": "Skill\\S_Kaguya_1_Left.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA2wDIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:43:47.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SkillEn_Mokou_1.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\SkillExtended\\SkillEn_Mokou_1.cs",
+              "RelativeDocumentMoniker": "SkillExtended\\SkillEn_Mokou_1.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\SkillExtended\\SkillEn_Mokou_1.cs",
+              "RelativeToolTip": "SkillExtended\\SkillEn_Mokou_1.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwCMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:51:14.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "B_Mokou_S_6.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_6.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_S_6.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_6.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_S_6.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T03:56:47.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "B_Mokou_T_9.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_T_9.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_T_9.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_T_9.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_T_9.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T04:47:28.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SkillEn_Mokou_0.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\SkillExtended\\SkillEn_Mokou_0.cs",
+              "RelativeDocumentMoniker": "SkillExtended\\SkillEn_Mokou_0.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\SkillExtended\\SkillEn_Mokou_0.cs",
+              "RelativeToolTip": "SkillExtended\\SkillEn_Mokou_0.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwCgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:41:40.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "B_Mokou_S_R_3.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_R_3.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_S_R_3.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_R_3.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_S_R_3.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:22:55.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "B_Mokou_S_R_2.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_R_2.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_S_R_2.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_R_2.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_S_R_2.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T12:36:30.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "B_Mokou_S_R_2_1.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_R_2_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_S_R_2_1.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_R_2_1.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_S_R_2_1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T12:26:14.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "S_Mokou_6.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_6.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_6.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_6.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_6.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:10:51.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "S_Mokou_7.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_7.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_7.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_7.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_7.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwDMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T07:48:07.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "S_Mokou_8.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_8.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_8.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_8.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_8.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwC0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:41:13.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "B_Mokou_T_2.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_T_2.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_T_2.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_T_2.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_T_2.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIAwwBQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:10:42.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "S_Mokou_2.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_2.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_2.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_2.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_2.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAiwDQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T03:28:07.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "S_Mokou_9.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_9.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_9.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_9.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_9.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:16:39.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "B_Mokou_S_5_0.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_5_0.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_S_5_0.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_5_0.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_S_5_0.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T04:12:37.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "S_Mokou_R_1.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_R_1.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_R_1.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_R_1.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_R_1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:49:40.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "B_Mokou_S_R_1.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_R_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_S_R_1.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_R_1.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_S_R_1.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:49:45.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "S_Mokou_8_0.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_8_0.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_8_0.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_8_0.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_8_0.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:49:06.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "B_Mokou_S_5.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_5.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Mokou_S_5.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Buff\\B_Mokou_S_5.cs",
+              "RelativeToolTip": "Buff\\B_Mokou_S_5.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T03:49:40.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "S_Mokou_1_0.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_1_0.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Mokou_1_0.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Mokou\\Skill\\S_Mokou_1_0.cs",
+              "RelativeToolTip": "Skill\\S_Mokou_1_0.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwDEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T17:52:15.103Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

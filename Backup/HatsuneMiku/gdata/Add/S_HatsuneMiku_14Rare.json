@@ -1,0 +1,36 @@
+{
+    "S_HatsuneMiku_14Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": true,
+        "Name": "ワールドイズマイン",
+        "Description": "使用时没有效果。只要这张卡在手中：\n每个回合结束时，为所有队友赋予2层[未来之音]。\n音律3：额外赋予2层[未来之音]。\n音律9：对所有敌人造成自己[未来之音]层数*&a的伤害。",
+        "UseAp": 39,
+        "Particle": "Particle/Public/Public_28",
+        "Target": "Misc",
+        "User": "HatsuneMiku",
+        "Effect_Self": "null",
+        "Effect_Target": "null",
+        "NotCount": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Image_0": "S_HatsuneMiku_14Rare\\S_HatsuneMiku_14Rare_Image_0.png",
+        "Image_1": "S_HatsuneMiku_14Rare\\S_HatsuneMiku_14Rare_Image_1.png",
+        "Image_2": "S_HatsuneMiku_14Rare\\S_HatsuneMiku_14Rare_Image_2.png",
+        "PlusKeyWords": [
+            
+        ],
+        "SkillExtended": [
+            "HatsuneMiku.S_HatsuneMiku_14Rare"
+        ]
+    }
+}

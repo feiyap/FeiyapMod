@@ -1,0 +1,34 @@
+{
+    "S_FKaguya_12Rare": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "ally",
+        "NotCount": false,
+        "Disposable": true,
+        "Name": "新难题「艾哲红石」",
+        "User": "HouraisanKaguya",
+        "Description": "从目标调查员所有的稀有技能中选择1张并生成，附带放逐。",
+        "UseAp": 1,
+        "Image_0": "S_FKaguya_12Rare\\S_FKaguya_12Rare_Image_0.png",
+        "Image_1": "S_FKaguya_12Rare\\S_FKaguya_12Rare_Image_1.png",
+        "Image_2": "S_FKaguya_12Rare\\S_FKaguya_12Rare_Image_2.png",
+        "SkillExtended": [
+            "HouraisanKaguya.S_FKaguya_12Rare"
+        ],
+        "NoBasicSkill": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Self": "SE_S_S_FKaguya_12Rare"
+    }
+}

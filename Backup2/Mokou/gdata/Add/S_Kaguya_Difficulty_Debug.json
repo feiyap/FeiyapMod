@@ -1,0 +1,14 @@
+{
+    "S_Kaguya_Difficulty_Debug": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "Debug模式",
+        "Description": "死吧辉夜，这就是管理员的力量！",
+        "Image_0": "S_Kaguya_Difficulty_Debug\\S_Kaguya_Difficulty_Debug_Image_0.png",
+        "Image_1": "S_Kaguya_Difficulty_Debug\\S_Kaguya_Difficulty_Debug_Image_1.png",
+        "Image_2": "S_Kaguya_Difficulty_Debug\\S_Kaguya_Difficulty_Debug_Image_2.png",
+        "NoDrop": true
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Boss_Junko": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "Passives": [
+            "B_FJunko_P"
+        ]
+    }
+}

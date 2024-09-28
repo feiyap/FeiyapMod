@@ -1,0 +1,32 @@
+{
+    "S_Kaguya_End_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_R1",
+        "Target": "all_enemy",
+        "EnemyPreview": true,
+        "Name": "「永夜归返　-世间开明-」",
+        "Image_0": "S_Kaguya_End_5\\S_Kaguya_End_5_Image_0.png",
+        "Image_1": "S_Kaguya_End_5\\S_Kaguya_End_5_Image_1.png",
+        "Image_2": "S_Kaguya_End_5\\S_Kaguya_End_5_Image_2.png",
+        "Effect_Target": "SE_T_S_Kaguya_End_5",
+        "Description": "使用时，结算并移除本回合之前所有弹幕所施加的痛苦减益。",
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "Mokou.S_Kaguya_End_5"
+        ],
+        "Rare": true,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false
+    }
+}

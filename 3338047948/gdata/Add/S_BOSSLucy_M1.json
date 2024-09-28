@@ -1,0 +1,19 @@
+{
+    "S_BOSSLucy_M1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "self",
+        "EnemyPreview": true,
+        "Counting": 1,
+        "Name": "超级净化药水",
+        "Description": "解除指向目标的所有减益。",
+        "SkillExtended": [
+            "BOSSLucy.S_BOSSLucy_M1"
+        ],
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_BOSSLucy_M1",
+        "Image_0": "S_BOSSLucy_M1\\S_BOSSLucy_M1_Image_0.png",
+        "Image_1": "S_BOSSLucy_M1\\S_BOSSLucy_M1_Image_1.png"
+    }
+}

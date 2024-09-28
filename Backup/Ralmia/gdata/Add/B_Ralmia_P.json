@@ -1,0 +1,20 @@
+{
+    "B_Ralmia_P": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 99,
+        "Name": "创造物种类",
+        "Description": "",
+        "Icon": "B_Ralmia_P\\B_Ralmia_P_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 0,
+        "ClassName": "Ralmia.B_Ralmia_P"
+    }
+}

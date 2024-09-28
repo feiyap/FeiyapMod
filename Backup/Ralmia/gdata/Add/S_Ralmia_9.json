@@ -1,0 +1,33 @@
+{
+    "S_Ralmia_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "创造物的同步",
+        "Description": "选择 - 从[解析的创造物] [古老的创造物] [绚烂的创造物] [典范转移] 中选1张加入手牌。",
+        "User": "Ralmia",
+        "Particle": "Particle/flare_lv1",
+        "Target": "Misc",
+        "Effect_Target": "null",
+        "Image_0": "S_Ralmia_9\\S_Ralmia_9_Image_0.png",
+        "Image_1": "S_Ralmia_9\\S_Ralmia_9_Image_1.png",
+        "Image_2": "S_Ralmia_9\\S_Ralmia_9_Image_2.png",
+        "SkillExtended": [
+            "Ralmia.S_Ralmia_9"
+        ],
+        "UseAp": 1,
+        "PlusSkillView": "S_Ralmia_9_0"
+    }
+}

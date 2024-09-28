@@ -1,0 +1,15 @@
+{
+    "B_Shameimaru_Rare10_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "Cantdisable": false,
+        "ClassName": "ShameimaruAya.B_Shameimaru_Rare10_0",
+        "BuffTag": "null",
+        "Name": "风靡的幻想",
+        "LifeTime": 3,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "S_Kirito_6": {
+        "UseAp": 2,
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "_gdeSchema": "Skill",
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "攻略开始",
+        "Description": "<b>每场战斗使用2次后放逐</b>\n选择：优先抽取1张自己的稀有技能；或者生成3张自身技能、附带放逐。",
+        "SkillExtended": [
+            "Kirito.S_Kirito_6"
+        ],
+        "SKillExtendedItem": [
+            "SE_Kirito_6"
+        ],
+        "Image_0": "S_Kirito_6\\S_Kirito_6_Image_0.png",
+        "Image_1": "S_Kirito_6\\S_Kirito_6_Image_1.png",
+        "Image_2": "S_Kirito_6\\S_Kirito_6_Image_2.png",
+        "User": "Kirito",
+        "Rare": false,
+        "NotCount": false,
+        "Disposable": false
+    }
+}

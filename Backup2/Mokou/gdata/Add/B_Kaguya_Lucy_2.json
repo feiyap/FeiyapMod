@@ -1,0 +1,15 @@
+{
+    "B_Kaguya_Lucy_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Mokou.B_Kaguya_Lucy_2",
+        "BuffTag": "null",
+        "Name": "神宝「佛体的金刚石」",
+        "Description": "每回合开始时，额外回复1点费用。\n\n<color=#919191>完成了难题「佛御石之钵　-不碎的意志-」获得的奖励。</color>",
+        "Icon": "B_Kaguya_Lucy_2\\B_Kaguya_Lucy_2_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

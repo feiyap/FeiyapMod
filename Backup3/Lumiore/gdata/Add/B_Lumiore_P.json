@@ -1,0 +1,20 @@
+{
+    "B_Lumiore_P": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 99,
+        "Name": "弃牌次数",
+        "Description": "",
+        "Icon": "B_Lumiore_P\\B_Lumiore_P_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 0,
+        "ClassName": "Lumiore.B_Lumiore_P"
+    }
+}

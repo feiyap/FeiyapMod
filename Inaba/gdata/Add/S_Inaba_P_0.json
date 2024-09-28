@@ -1,0 +1,18 @@
+{
+    "S_Inaba_P_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "all_enemy",
+        "Name": "兔群冲锋",
+        "Description": "",
+        "NoDrop": true,
+        "Counting": 2,
+        "Effect_Target": "SE_T_S_Inaba_P_0",
+        "Image_0": "S_Inaba_P_0\\S_Inaba_P_0_Image_0.png",
+        "Image_1": "S_Inaba_P_0\\S_Inaba_P_0_Image_1.png",
+        "Image_2": "S_Inaba_P_0\\S_Inaba_P_0_Image_2.png",
+        "Except": true,
+        "Track": false
+    }
+}

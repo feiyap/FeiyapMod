@@ -1,0 +1,38 @@
+{
+    "S_RemiliaScarlet_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "夜符「Demon King Cradle」",
+        "Target": "enemy",
+        "Description": "同时攻击所有附带[绯夜]减益的敌人。\n每个受到攻击的敌人会使自身获得1层[摇篮曲]。\n如果一次攻击到3个或以上的单位，获得1层[吸血鬼之心]。",
+        "Effect_Target": "SE_T_S_RemiliaScarlet_3",
+        "Effect_Self": "SE_S_S_RemiliaScarlet_3",
+        "User": "RemiliaScarlet",
+        "Image_0": "S_RemiliaScarlet_3\\S_RemiliaScarlet_3_Image_0.png",
+        "Image_1": "S_RemiliaScarlet_3\\S_RemiliaScarlet_3_Image_1.png",
+        "Image_2": "S_RemiliaScarlet_3\\S_RemiliaScarlet_3_Image_2.png",
+        "SkillExtended": [
+            "RemiliaScarlet.S_RemiliaScarlet_3"
+        ],
+        "Particle": "Particle/Trisha/Trisha_new_1",
+        "UseAp": 1,
+        "PlusKeyWords": [
+            
+        ],
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

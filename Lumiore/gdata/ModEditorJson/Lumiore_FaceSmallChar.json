@@ -1,0 +1,23 @@
+{
+    "myKey": "Lumiore",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Lumiore\\LumioreFaceSmallChar.png",
+        "offsetMax": {
+            "x": 192.310669,
+            "y": 144.440369
+        },
+        "offsetMin": {
+            "x": -202.485565,
+            "y": -250.3559
+        },
+        "pivot": {
+            "x": 0.5077392,
+            "y": 0.619981
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

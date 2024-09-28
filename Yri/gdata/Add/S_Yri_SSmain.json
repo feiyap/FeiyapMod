@@ -1,0 +1,34 @@
+{
+    "S_Yri_SSmain": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "Solarium Blade - Engage!",
+        "Description": "Create a Solarium Blade - Updraft or Solarium Blade - Stormfall to hand.",
+        "UseAp": 0,
+        "NoDrop": false,
+        "NotCount": true,
+        "Image_0": "S_Yri_SSmain\\S_Yri_SSmain_Image_0.png",
+        "Image_1": "S_Yri_SSmain\\S_Yri_SSmain_Image_1.png",
+        "Image_2": "S_Yri_SSmain\\S_Yri_SSmain_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "Yri",
+        "SkillExtended": [
+            "Yri_Char.S_Yri_SSmain"
+        ],
+        "PlusSkillView": "S_Yri_SSupdraft"
+    }
+}

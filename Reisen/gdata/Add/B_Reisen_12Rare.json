@@ -1,0 +1,12 @@
+{
+    "B_Reisen_12Rare": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Reisen.B_Reisen_12Rare",
+        "BuffTag": "null",
+        "Name": "国士无双",
+        "Description": "叠加4层后对自己和所有敌人造成100%最大体力值的伤害。",
+        "MaxStack": 4,
+        "Icon": "B_Reisen_12Rare\\B_Reisen_12Rare_Icon.png",
+        "Hide": false
+    }
+}

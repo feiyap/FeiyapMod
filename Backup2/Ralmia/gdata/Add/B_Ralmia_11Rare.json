@@ -1,0 +1,20 @@
+{
+    "B_Ralmia_11Rare": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 1,
+        "Name": "绝高无上",
+        "Description": "回合结束时，会对随机敌人造成「本次对战中已被打出的创造物种类数量」*攻击力的伤害。",
+        "Icon": "B_Ralmia_11Rare\\B_Ralmia_11Rare_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 0,
+        "ClassName": "Ralmia.B_Ralmia_11Rare"
+    }
+}

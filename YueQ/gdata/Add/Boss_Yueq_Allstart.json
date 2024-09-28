@@ -1,0 +1,11 @@
+{
+    "Boss_Yueq_Allstart": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Hide": true,
+        "Name": "规划",
+        "Description": ""
+    }
+}

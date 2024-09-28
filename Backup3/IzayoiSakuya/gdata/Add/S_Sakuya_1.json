@@ -1,0 +1,40 @@
+{
+    "S_Sakuya_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/slash1",
+        "Target": "enemy",
+        "Name": "速符「闪光弹跳」",
+        "UseAp": 2,
+        "Description": "月魔术 - 降低1点费用、附带无视嘲讽。立刻获得2层[时钟停摆]。",
+        "User": "IzayoiSakuya",
+        "PlusKeyWords": [
+            "Keyword_LunaMagic"
+        ],
+        "Effect_Target": "SE_T_S_Sakuya_1",
+        "NotCount": false,
+        "Disposable": false,
+        "Image_0": "S_Sakuya_1\\S_Sakuya_1_Image_0.png",
+        "Image_1": "S_Sakuya_1\\S_Sakuya_1_Image_1.png",
+        "Image_2": "S_Sakuya_1\\S_Sakuya_1_Image_2.png",
+        "SkillExtended": [
+            "IzayoiSakuya.S_Sakuya_1"
+        ],
+        "SKillExtendedItem": [
+            "SE_Sakuya_P"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "B_SomSkull": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomSkull",
+        "BuffTag": "null",
+        "Description": "回合结束时，若手中技能数大于3且黑色迷雾回合大于当前回合，则黑色迷雾减少2回合。",
+        "Name": "骷髅",
+        "Icon": "B_SomSkull\\B_SomSkull_Icon.png"
+    }
+}

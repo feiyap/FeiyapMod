@@ -1,0 +1,21 @@
+{
+    "S_Sakuya_6_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Description": "",
+        "Name": "奇术「幻惑误导」",
+        "User": "",
+        "NotCount": false,
+        "Disposable": false,
+        "Image_0": "S_Sakuya_6_0\\S_Sakuya_6_0_Image_0.png",
+        "Image_1": "S_Sakuya_6_0\\S_Sakuya_6_0_Image_1.png",
+        "Image_2": "S_Sakuya_6_0\\S_Sakuya_6_0_Image_2.png",
+        "SkillExtended": [
+            "IzayoiSakuya.S_Sakuya_6_0"
+        ],
+        "Rare": false,
+        "Effect_Target": "SE_T_S_Sakuya_6_0",
+        "Particle": "Particle/Enemy/Reaper_0",
+        "Target": "all_enemy"
+    }
+}

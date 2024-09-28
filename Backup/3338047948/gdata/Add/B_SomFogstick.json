@@ -1,0 +1,15 @@
+{
+    "B_SomFogstick": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "BOSSLucy.B_SomFogstick",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "图腾",
+        "Description": "回合结束时，若法力值等于0且黑色迷雾回合大于当前回合，则黑色迷雾减少2回合。",
+        "Icon": "B_SomFogstick\\B_SomFogstick_Icon.png"
+    }
+}

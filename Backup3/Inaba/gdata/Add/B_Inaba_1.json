@@ -1,0 +1,19 @@
+{
+    "B_Inaba_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Inaba.B_Inaba_1",
+        "BuffTag": "Debuff",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "因幡/遮眼",
+        "Icon": "Image/Buff/Skill_Icon_Pack/Debuff",
+        "Description": "",
+        "MaxStack": 1,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 100
+    }
+}

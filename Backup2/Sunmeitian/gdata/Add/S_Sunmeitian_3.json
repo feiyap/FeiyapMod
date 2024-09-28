@@ -1,0 +1,20 @@
+{
+    "S_Sunmeitian_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Lian/Lian_7",
+        "Rare": false,
+        "Target": "all_enemy",
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "Name": "棒击大地",
+        "Description": "必定命中。",
+        "UseAp": 2,
+        "User": "Sunmeitian",
+        "NODOD": true,
+        "Effect_Target": "SE_T_S_Sunmeitian_3",
+        "Image_0": "S_Sunmeitian_3\\S_Sunmeitian_3_Image_0.png",
+        "Image_1": "S_Sunmeitian_3\\S_Sunmeitian_3_Image_1.png",
+        "Image_2": "S_Sunmeitian_3\\S_Sunmeitian_3_Image_2.png"
+    }
+}

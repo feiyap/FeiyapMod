@@ -1,0 +1,10 @@
+{
+    "B_SomSoul": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BOSSLucy.B_SomSoul",
+        "BuffTag": "null",
+        "Name": "无尽",
+        "Description": "每当受到伤害时，立即失去1点法力值。",
+        "Icon": "B_SomSoul\\B_SomSoul_Icon.png"
+    }
+}

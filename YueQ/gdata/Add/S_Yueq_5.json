@@ -1,0 +1,34 @@
+{
+    "S_Yueq_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/Sel_0",
+        "Rare": false,
+        "Target": "otherally",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": true,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "对唱",
+        "Description": "随机生成一个<color=#00FF7F>乐谱</color>技能,附带放逐.",
+        "UseAp": 1,
+        "User": "YueQ",
+        "Effect_Target": "SE_T_S_Yueq_5",
+        "SkillExtended": [
+            "YueQ.S_Yueq_5"
+        ],
+        "Image_0": "S_Yueq_5\\S_Yueq_5_Image_0.png",
+        "Image_1": "S_Yueq_5\\S_Yueq_5_Image_1.png",
+        "Image_2": "S_Yueq_5\\S_Yueq_5_Image_2.png"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "S_Sunmeitian_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "choiceskill",
+        "NODOD": false,
+        "Name": "丛林之舞",
+        "User": "Sunmeitian",
+        "Description": "选择 - 使所有敌人行动倒计时+1；\n或使所有敌人行动倒计时-1。\n将1张[乾坤之跃]加入手中。",
+        "UseAp": 1,
+        "NotCount": true,
+        "Image_0": "S_Sunmeitian_4\\S_Sunmeitian_4_Image_0.png",
+        "Image_1": "S_Sunmeitian_4\\S_Sunmeitian_4_Image_1.png",
+        "Image_2": "S_Sunmeitian_4\\S_Sunmeitian_4_Image_2.png",
+        "Disposable": false,
+        "PlusSkillView": "S_Sunmeitian_4_2",
+        "Rare": false,
+        "NoBasicSkill": false,
+        "SkillExtended": [
+            "Sunmeitian.S_Sunmeitian_4"
+        ],
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

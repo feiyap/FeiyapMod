@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Ralmia_5": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Ralmia_1"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

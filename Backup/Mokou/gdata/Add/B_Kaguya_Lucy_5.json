@@ -1,0 +1,15 @@
+{
+    "B_Kaguya_Lucy_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Mokou.B_Kaguya_Lucy_5",
+        "BuffTag": "null",
+        "Icon": "B_Kaguya_Lucy_5\\B_Kaguya_Lucy_5_Icon.png",
+        "Name": "神宝「蓬莱的玉枝　-梦色之乡-」",
+        "Description": "每次使用手牌时，连锁治疗使用者4点体力值。\n\n<color=#919191>完成了难题难题「蓬莱的弹枝　-七色的弹幕-」获得的奖励。</color>",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "SE_T_S_Cylu_Plus": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 50
+    }
+}

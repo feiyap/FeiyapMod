@@ -1,0 +1,11 @@
+{
+    "SkillEn_Yri_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "If Yri is Airborne, increase damage by 40% and Yri Descends",
+        "Des": "",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "Yri",
+        "ClassName": "Yri_Char.SkillEn_Yri_1"
+    }
+}

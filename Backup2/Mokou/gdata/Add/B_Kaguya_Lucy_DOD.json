@@ -1,0 +1,10 @@
+{
+    "B_Kaguya_Lucy_DOD": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Mokou.B_Kaguya_Lucy_DOD",
+        "BuffTag": "null",
+        "Name": "神宝「无限的生命之泉」",
+        "Icon": "B_Kaguya_Lucy_DOD\\B_Kaguya_Lucy_DOD_Icon.png",
+        "LifeTime": 1
+    }
+}

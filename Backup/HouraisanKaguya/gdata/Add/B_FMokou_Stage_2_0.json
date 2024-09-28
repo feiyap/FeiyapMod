@@ -1,0 +1,14 @@
+{
+    "B_FMokou_Stage_2_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "HouraisanKaguya.B_FMokou_Stage_2_0",
+        "BuffTag": "null",
+        "Name": "月岩笠的诅咒",
+        "Icon": "B_FMokou_Stage_2_0\\B_FMokou_Stage_2_0_Icon.png",
+        "Debuff": true,
+        "TagPer": 0,
+        "Description": "减益持有者和施加者对互相造成的伤害-50%。",
+        "LifeTime": 1
+    }
+}

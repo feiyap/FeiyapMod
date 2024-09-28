@@ -1,0 +1,33 @@
+{
+    "S_Lumiore_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "银冰龙人·菲琳",
+        "Description": "增加1张[银冰吐息]到手牌中。",
+        "User": "Lumiore",
+        "Particle": "Particle/flare_lv1",
+        "Target": "enemy",
+        "Effect_Target": "SE_T_S_Lumiore_9",
+        "Image_0": "S_Lumiore_9\\S_Lumiore_9_Image_0.png",
+        "Image_1": "S_Lumiore_9\\S_Lumiore_9_Image_1.png",
+        "Image_2": "S_Lumiore_9\\S_Lumiore_9_Image_2.png",
+        "SkillExtended": [
+            "Lumiore.S_Lumiore_9"
+        ],
+        "UseAp": 1,
+        "PlusSkillView": "S_Lumiore_9_0"
+    }
+}

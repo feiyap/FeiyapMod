@@ -1,0 +1,23 @@
+{
+    "myKey": "SummonSteelheart",
+    "myField": "Face",
+    "myValues": {
+        "path": "SummonSteelheart\\SummonSteelheartFace.png",
+        "offsetMax": {
+            "x": 1381.255,
+            "y": 356.86377
+        },
+        "offsetMin": {
+            "x": -1120.18945,
+            "y": -1664.48755
+        },
+        "pivot": {
+            "x": 0.447004646,
+            "y": 0.820687532
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

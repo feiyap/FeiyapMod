@@ -1,0 +1,27 @@
+{
+    "S_SomIlya_R1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_9_First",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": true,
+        "NoDrop": true,
+        "IgnoreTaunt": true,
+        "NoBasicSkill": false,
+        "Disposable": false,
+        "Track": true,
+        "Fatal": true,
+        "Effect_Target": "SE_T_S_SomIlya_R1",
+        "UseAp": 2,
+        "Name": "光闪雷天",
+        "Description": "释放技能时，若牌库中的技能数量为偶数，则增加1张光闪雷天到牌库中。",
+        "Image_0": "S_SomIlya_R1\\S_SomIlya_R1_Image_0.png",
+        "Image_1": "S_SomIlya_R1\\S_SomIlya_R1_Image_1.png",
+        "Image_2": "S_SomIlya_R1\\S_SomIlya_R1_Image_2.png",
+        "PlusSkillView": "",
+        "SkillExtended": [
+            "BOSSLucy.S_SomIlya_R1"
+        ]
+    }
+}

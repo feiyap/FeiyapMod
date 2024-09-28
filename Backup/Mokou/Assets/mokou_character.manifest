@@ -1,0 +1,103 @@
+ManifestFileVersion: 0
+CRC: 3953876800
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3a26f687036c99bf28e032a6249d1460
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0a2eb74e0559ef57955f05c62a3fc9bf
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Mokou/Character/Mokou_DOWN_shy_laugh1.prefab
+- Assets/Mokou/Character/Mokou_DOWN_surprise1.prefab
+- Assets/Mokou/Character/Mokou_UP_surprise1.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_frown1.png
+- Assets/Mokou/Character/Mokou_UP_worry1.prefab
+- Assets/Mokou/Character/Mokou_DOWN_shy_worry1.prefab
+- Assets/Mokou/Picture/Mokou_UP_smile1.png
+- Assets/Mokou/Picture/Mokou_UP_shy_smile2.png
+- Assets/Mokou/Character/Mokou_DOWN_laugh1.prefab
+- Assets/Mokou/Character/Mokou_DOWN_shy_cry2.prefab
+- Assets/Mokou/Character/Mokou_DOWN_smile2.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_shy_surprise1.png
+- Assets/Mokou/Character/Mokou_DOWN_shy_smile3.prefab
+- Assets/Mokou/Picture/Mokou_UP_shy_silent1.png
+- Assets/Mokou/Picture/Mokou_UP_shy_laugh1.png
+- Assets/Mokou/Character/Mokou_UP_smile3.prefab
+- Assets/Mokou/Character/Mokou_UP_shy_smile3.prefab
+- Assets/Mokou/Character/Mokou_UP_shy_cry2.prefab
+- Assets/Mokou/Character/Mokou_DOWN_cry1.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_surprise1.png
+- Assets/Mokou/Character/Mokou_DOWN_worry1.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_shy_speechle1.png
+- Assets/Mokou/Picture/Mokou_UP_laugh1.png
+- Assets/Mokou/Character/Mokou_UP_shy_smile2.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_smile1.png
+- Assets/Mokou/Picture/Mokou_UP_shy_speechle1.png
+- Assets/Mokou/Character/Mokou_DOWN_smile1.prefab
+- Assets/Mokou/Character/Mokou_DOWN_slient1.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_smile3.png
+- Assets/Mokou/Picture/Mokou_UP_cry1.png
+- Assets/Mokou/Picture/Mokou_UP_worry1.png
+- Assets/Mokou/Picture/Mokou_DOWN_laugh1.png
+- Assets/Mokou/Character/Mokou_UP_smile1.prefab
+- Assets/Mokou/Picture/Mokou_UP_frown1.png
+- Assets/Mokou/Picture/Mokou_DOWN_shy_smile2.png
+- Assets/Mokou/Character/Mokou_DOWN_shy_smile1.prefab
+- Assets/Mokou/Character/Mokou_DOWN_frown1.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_cry1.png
+- Assets/Mokou/Picture/Mokou_DOWN_speechle1.png
+- Assets/Mokou/Picture/Mokou_DOWN_smile2.png
+- Assets/Mokou/Character/Mokou_DOWN_shy_speechle1.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_worry1.png
+- Assets/Mokou/Character/Mokou_UP_shy_silent1.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_slient1.png
+- Assets/Mokou/Character/Mokou_DOWN_shy_surprise1.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_shy_cry2.png
+- Assets/Mokou/Character/Mokou_UP_smile2.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_shy_smile1.png
+- Assets/Mokou/Picture/Mokou_UP_shy_cry1.png
+- Assets/Mokou/Character/Mokou_UP_shy_laugh1.prefab
+- Assets/Mokou/Picture/Mokou_DOWN_shy_laugh1.png
+- Assets/Mokou/Character/Mokou_UP_shy_surprise1.prefab
+- Assets/Mokou/Picture/Mokou_UP_smile2.png
+- Assets/Mokou/Picture/Mokou_DOWN_shy_cry1.png
+- Assets/Mokou/Character/Mokou_UP_shy_smile1.prefab
+- Assets/Mokou/Character/Mokou_DOWN_speechle1.prefab
+- Assets/Mokou/Picture/Mokou_UP_shy_smile1.png
+- Assets/Mokou/Character/Mokou_UP_silent1.prefab
+- Assets/Mokou/Character/Mokou_UP_cry1.prefab
+- Assets/Mokou/Picture/Mokou_UP_smile3.png
+- Assets/Mokou/Character/Mokou_UP_shy_speechle1.prefab
+- Assets/Mokou/Picture/Mokou_UP_shy_cry2.png
+- Assets/Mokou/Character/Mokou_UP_speechle1.prefab
+- Assets/Mokou/Picture/Mokou_UP_shy_surprise1.png
+- Assets/Mokou/Character/Mokou_DOWN_shy_smile2.prefab
+- Assets/Mokou/Character/Mokou_UP_shy_cry1.prefab
+- Assets/Mokou/Picture/Mokou_UP_slient1.png
+- Assets/Mokou/Picture/Mokou_UP_shy_smile3.png
+- Assets/Mokou/Character/Mokou_UP_laugh1.prefab
+- Assets/Mokou/Character/Mokou_DOWN_smile3.prefab
+- Assets/Mokou/Character/Mokou_DOWN_shy_cry1.prefab
+- Assets/Mokou/Character/Mokou_UP_frown1.prefab
+- Assets/Mokou/Picture/Mokou_UP_surprise1.png
+- Assets/Mokou/Picture/Mokou_DOWN_shy_worry1.png
+- Assets/Mokou/Picture/Mokou_UP_speechle1.png
+- Assets/Mokou/Picture/Mokou_DOWN_shy_smile3.png
+Dependencies: []

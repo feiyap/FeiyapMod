@@ -1,0 +1,20 @@
+{
+    "S_Cylu_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Lucy/LucyC_7",
+        "Target": "enemy",
+        "IgnoreTaunt": true,
+        "Name": "反败为胜",
+        "UseAp": 2,
+        "NoBasicSkill": true,
+        "Track": true,
+        "Effect_Target": "SE_T_S_Cylu_4",
+        "Description": "击杀敌人时抽取3个技能。",
+        "SkillExtended": [
+            "BOSSLucy.S_Cylu_4"
+        ],
+        "Image_0": "S_Cylu_4\\S_Cylu_4_Image_0.png",
+        "Image_1": "S_Cylu_4\\S_Cylu_4_Image_1.png"
+    }
+}

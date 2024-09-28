@@ -1,0 +1,20 @@
+{
+    "B_HatsuneMiku_P": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 39,
+        "Name": "未来之音",
+        "Description": "回合结束时，恢复等量于层数的体力。\n那之后，消耗1层[未来之音]。",
+        "Icon": "B_HatsuneMiku_P\\B_HatsuneMiku_P_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 0,
+        "ClassName": "HatsuneMiku.B_HatsuneMiku_P"
+    }
+}

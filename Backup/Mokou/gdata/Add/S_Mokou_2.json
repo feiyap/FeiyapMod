@@ -1,0 +1,38 @@
+{
+    "S_Mokou_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_2",
+        "Rare": false,
+        "Target": "all_enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "藤原「灭罪寺院伤」",
+        "Description": "<color=orange>过热：3——对具有烧伤的目标施加‘灭罪’而非‘发怒！’。两回合内，如果自身有烧伤，获得体力极限保护。</color>\n给与所有敌人‘发怒！’（持续3回合）。\n如果指向的目标只有1个敌人，给予的层数+1。",
+        "UseAp": 2,
+        "User": "Mokou",
+        "Effect_Target": "SE_T_S_Mokou_2",
+        "Effect_Self": "SE_S_S_Mokou_2",
+        "SkillExtended": [
+            "Mokou.S_Mokou_2"
+        ],
+        "Image_0": "S_Mokou_2\\S_Mokou_2_Image_0.png",
+        "Image_1": "S_Mokou_2\\S_Mokou_2_Image_1.png",
+        "Image_2": "S_Mokou_2\\S_Mokou_2_Image_2.png",
+        "PlusKeyWords": [
+            "exburn"
+        ]
+    }
+}

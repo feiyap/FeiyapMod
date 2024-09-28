@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Yri_Ascension": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Yri_Airborne"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

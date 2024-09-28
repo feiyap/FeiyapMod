@@ -1,0 +1,23 @@
+{
+    "myKey": "Ralmia",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Ralmia\\RalmiaFaceSmallChar.png",
+        "offsetMax": {
+            "x": 284.5884,
+            "y": 237.353241
+        },
+        "offsetMin": {
+            "x": -351.234955,
+            "y": -398.4701
+        },
+        "pivot": {
+            "x": 0.5492137,
+            "y": 0.617908061
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

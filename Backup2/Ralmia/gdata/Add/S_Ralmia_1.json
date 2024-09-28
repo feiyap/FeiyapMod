@@ -1,0 +1,39 @@
+{
+    "S_Ralmia_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "古老的创造物",
+        "Description": "创造物。",
+        "UseAp": 1,
+        "Particle": "Particle/Azar/Azar_S_0",
+        "User": "Ralmia",
+        "Target": "enemy",
+        "Effect_Target": "SE_T_S_Ralmia_1",
+        "SkillExtended": [
+            "Ralmia.S_Ralmia_1"
+        ],
+        "Image_0": "S_Ralmia_1\\S_Ralmia_1_Image_0.png",
+        "Image_1": "S_Ralmia_1\\S_Ralmia_1_Image_1.png",
+        "Image_2": "S_Ralmia_1\\S_Ralmia_1_Image_2.png",
+        "PlusKeyWords": [
+            "KeyWord_Artifact"
+        ],
+        "Effect_Self": "SE_S_S_Ralmia_1",
+        "SKillExtendedItem": [
+            "SkillEn_Ralmia_0"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "S_Inaba_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "skill",
+        "Name": "幸符「幸运的白色魔法」",
+        "Description": "这场战斗中仅有一次，目标技能的暴击率+50%，并在释放时从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。",
+        "User": "Inaba",
+        "UseAp": 1,
+        "NotCount": true,
+        "Disposable": true,
+        "Effect_Target": "null",
+        "Image_0": "S_Inaba_6\\S_Inaba_6_Image_0.png",
+        "Image_1": "S_Inaba_6\\S_Inaba_6_Image_1.png",
+        "Image_2": "S_Inaba_6\\S_Inaba_6_Image_2.png",
+        "SkillExtended": [
+            "Inaba.S_Inaba_6"
+        ],
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false
+    }
+}

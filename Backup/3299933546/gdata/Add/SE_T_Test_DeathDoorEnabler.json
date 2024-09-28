@@ -1,0 +1,12 @@
+{
+    "SE_T_Test_DeathDoorEnabler": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Potion_Poison"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

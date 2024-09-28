@@ -1,0 +1,24 @@
+{
+    "S_Shameimaru_Rare12": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_1",
+        "Rare": true,
+        "Target": "enemy",
+        "Disposable": false,
+        "Name": "龙卷「天孙降临的道标」",
+        "User": "ShameimaruAya",
+        "UseAp": 1,
+        "Description": "<b><color=green>连击2</color></b> - 附加无视嘲讽。\n<b><color=green>连击4</color></b> - 费用增加1点。附加迅速、致命。\n<b><color=green>连击6</color></b> - 改为指向所有敌人。\n<b><color=green>连击8</color></b> - 费用增加1点。如果仅有1个目标，额外造成&a(150%)伤害。\n<b><color=green>连击10</color></b> - 额外造成&a(75%)伤害。",
+        "PlusKeyWords": [
+            "Keyword_Combo"
+        ],
+        "Effect_Target": "SE_T_S_Shameimaru_Rare12",
+        "Image_0": "S_Shameimaru_Rare12\\S_Shameimaru_Rare12_Image_0.png",
+        "Image_1": "S_Shameimaru_Rare12\\S_Shameimaru_Rare12_Image_1.png",
+        "Image_2": "S_Shameimaru_Rare12\\S_Shameimaru_Rare12_Image_2.png",
+        "SkillExtended": [
+            "ShameimaruAya.S_Shameimaru_Rare12"
+        ]
+    }
+}

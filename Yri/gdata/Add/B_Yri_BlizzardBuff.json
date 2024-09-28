@@ -1,0 +1,17 @@
+{
+    "B_Yri_BlizzardBuff": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Yri_Char.B_Yri_BlizzardBuff",
+        "BuffTag": "null",
+        "Icon": "B_Yri_BlizzardBuff\\B_Yri_BlizzardBuff_Icon.png",
+        "Name": "Reload",
+        "Description": "At 3 stacks, consume buff and apply the following effect based on Self buffs:\nStarbound Hunter: Gain 1 stack of Starbound Tenacity + 1 mana.\n\nDefender of Avalon: Gain up to 2 Feather Guard + 1 mana.\n\nIf neither is active, draw 1 card. \r\n\n(If both are active, activate Starbound Hunter's effect)",
+        "MaxStack": 3,
+        "LifeTime": 1,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "S_Ralmia_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": true,
+        "Fatal": true,
+        "Name": "绚烂的创造物",
+        "Target": "enemy",
+        "Description": "创造物。\n打出后抽取1个技能。",
+        "Effect_Target": "SE_T_S_Ralmia_3",
+        "Effect_Self": "SE_S_S_Ralmia_3",
+        "User": "Ralmia",
+        "Image_0": "S_Ralmia_3\\S_Ralmia_3_Image_0.png",
+        "Image_1": "S_Ralmia_3\\S_Ralmia_3_Image_1.png",
+        "Image_2": "S_Ralmia_3\\S_Ralmia_3_Image_2.png",
+        "SkillExtended": [
+            "Ralmia.S_Ralmia_3"
+        ],
+        "Particle": "Particle/Enemy/Wilderness/Gunman_2",
+        "UseAp": 3,
+        "PlusKeyWords": [
+            "KeyWord_Artifact"
+        ],
+        "SKillExtendedItem": [
+            "SkillEn_Ralmia_0"
+        ]
+    }
+}

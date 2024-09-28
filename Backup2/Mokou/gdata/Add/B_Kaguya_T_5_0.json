@@ -1,0 +1,16 @@
+{
+    "B_Kaguya_T_5_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Mokou.B_Kaguya_T_5_0",
+        "BuffTag": "Debuff",
+        "LifeTime": 3,
+        "MaxStack": 3,
+        "Debuff": true,
+        "TagPer": 0,
+        "Icon": "B_Kaguya_T_5_0\\B_Kaguya_T_5_0_Icon.png",
+        "Name": "符卡封位",
+        "Description": "走位被封住了！要撞子弹了！",
+        "Cantdisable": false,
+        "UseSkillDebuff": false
+    }
+}

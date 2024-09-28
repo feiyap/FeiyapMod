@@ -1,0 +1,20 @@
+{
+    "S_Kaguya_1_Right": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/LastBoss/LBoss_P3_0",
+        "Target": "enemy",
+        "EnemyPreview": true,
+        "Description": "使用后，继续对目标右边的角色使用此技能，但是技能倍率减少25%，重复3次。",
+        "Name": "神宝「耀眼的龙玉」",
+        "Effect_Target": "SE_T_S_Kaguya_1_Right",
+        "EnemySkillSpeed": 0,
+        "Image_0": "S_Kaguya_1_Right\\S_Kaguya_1_Right_Image_0.png",
+        "Image_1": "S_Kaguya_1_Right\\S_Kaguya_1_Right_Image_1.png",
+        "Image_2": "S_Kaguya_1_Right\\S_Kaguya_1_Right_Image_2.png",
+        "SkillExtended": [
+            "Mokou.S_Kaguya_1_Right"
+        ],
+        "NoDrop": true
+    }
+}

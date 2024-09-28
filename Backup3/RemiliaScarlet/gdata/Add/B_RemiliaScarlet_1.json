@@ -1,0 +1,20 @@
+{
+    "B_RemiliaScarlet_1": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "MaxStack": 4,
+        "Name": "摇篮曲",
+        "Description": "受击时减少1层，赋予敌人1层[绯夜]。",
+        "Icon": "B_RemiliaScarlet_1\\B_RemiliaScarlet_1_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": true,
+        "Cantdisable": false,
+        "Debuff": false,
+        "TagPer": 0,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Tick": "null",
+        "LifeTime": 0,
+        "ClassName": "RemiliaScarlet.B_RemiliaScarlet_1"
+    }
+}

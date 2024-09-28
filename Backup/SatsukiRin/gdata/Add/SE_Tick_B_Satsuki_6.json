@@ -1,0 +1,9 @@
+{
+    "SE_Tick_B_Satsuki_6": {
+        "_gdeSchema": "SkillEffect",
+        "HEAL_Per": 110,
+        "DMG_Per": 0,
+        "DMG_Base": 0,
+        "HEAL_Base": 0
+    }
+}

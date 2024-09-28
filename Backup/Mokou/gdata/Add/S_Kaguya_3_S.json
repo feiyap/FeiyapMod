@@ -1,0 +1,37 @@
+{
+    "S_Kaguya_3_S": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": true,
+        "NotChuck": true,
+        "Except": true,
+        "NoBasicSkill": true,
+        "Name": "难题「火鼠的皮衣 -不焦躁的内心-」",
+        "Description": "每回合结束时，如果最后出牌的人没有手牌，则清除所有友方的烧伤debuff；反之，再对所有友方施加2层烧伤debuff。",
+        "User": "",
+        "LucyPartyDraw": "",
+        "PlusKeyWords": [
+            "conundrum"
+        ],
+        "Image_0": "S_Kaguya_3_S\\S_Kaguya_3_S_Image_0.png",
+        "Image_1": "S_Kaguya_3_S\\S_Kaguya_3_S_Image_1.png",
+        "Image_2": "S_Kaguya_3_S\\S_Kaguya_3_S_Image_2.png",
+        "SkillExtended": [
+            "Mokou.S_Kaguya_3_S"
+        ],
+        "EnemyPreview": false,
+        "Rare": true,
+        "NODOD": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "UnknownTarget": false,
+        "AutoDelete": 1
+    }
+}

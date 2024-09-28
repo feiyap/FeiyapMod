@@ -1,0 +1,28 @@
+{
+    "myKey": "SummonMoon",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "SummonMoon\\SummonMoonMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.516979754,
+            "y": 0.055580467
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.5340272,
+            "y": 0.202101648
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

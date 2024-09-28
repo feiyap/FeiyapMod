@@ -1,0 +1,16 @@
+{
+    "S_Inaba_P_5_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Boss/BombClown_0",
+        "Target": "self",
+        "NoDrop": true,
+        "Except": true,
+        "Name": "炸弹爆炸",
+        "Effect_Target": "SE_T_S_Inaba_P_5_0",
+        "Rare": false,
+        "NotCount": false,
+        "Description": "",
+        "Image_1": "S_Inaba_P_5_0\\S_Inaba_P_5_0_Image_1.png"
+    }
+}

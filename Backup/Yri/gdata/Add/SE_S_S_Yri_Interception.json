@@ -1,0 +1,15 @@
+{
+    "SE_S_S_Yri_Interception": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Yri_DCounter",
+            "B_Yri_DCounter",
+            "B_Public_30_T"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "YueP": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "<color=#00FF7F>乐谱</color>",
+        "Desc": "持有充能时,释放触发残响;\n每个回合内首次连续释放2次<color=#00FF7F>乐谱</color>技能后,释放者获得1层渐入佳境(产生的伤害和治疗量+7%,上限2层).\r\n"
+    }
+}

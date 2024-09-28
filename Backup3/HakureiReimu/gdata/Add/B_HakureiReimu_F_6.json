@@ -1,0 +1,14 @@
+{
+    "B_HakureiReimu_F_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_6",
+        "BuffTag": "Debuff",
+        "Name": "博丽结界",
+        "Description": "受到的痛苦伤害+35%。",
+        "LifeTime": 4,
+        "MaxStack": 0,
+        "Debuff": true,
+        "TagPer": 110,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (9)"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "Lumiore",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Lumiore\\LumioreBattleChar.png",
+        "offsetMax": {
+            "x": 752.5717,
+            "y": 606.0269
+        },
+        "offsetMin": {
+            "x": -939.9902,
+            "y": -1086.535
+        },
+        "pivot": {
+            "x": 0.5553653,
+            "y": 0.641947
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

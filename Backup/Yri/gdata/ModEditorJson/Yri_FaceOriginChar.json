@@ -1,0 +1,23 @@
+{
+    "myKey": "Yri",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Yri\\YriFaceOriginChar.png",
+        "pivot": {
+            "x": 0.338198155,
+            "y": 0.6741747
+        },
+        "offsetMin": {
+            "x": -839.4821,
+            "y": -646.5547
+        },
+        "offsetMax": {
+            "x": 1638.5979,
+            "y": 304.5053
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

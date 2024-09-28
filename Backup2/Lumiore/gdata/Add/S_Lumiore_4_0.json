@@ -1,0 +1,29 @@
+{
+    "S_Lumiore_4_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "魔石巨蟹（激奏）",
+        "Description": "丢弃1个技能，抽取1个技能。",
+        "UseAp": 2,
+        "Effect_Self": "null",
+        "Image_0": "S_Lumiore_4\\S_Lumiore_4_Image_0.png",
+        "Image_1": "S_Lumiore_4\\S_Lumiore_4_Image_1.png",
+        "Image_2": "S_Lumiore_4\\S_Lumiore_4_Image_2.png",
+        "Target": "skill",
+        "Effect_Target": "null",
+        "Particle": "Particle/impact"
+    }
+}

@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FlandreScarlet\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FlandreScarlet\obj\Debug\FlandreScarlet.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FlandreScarlet\obj\Debug\FlandreScarlet.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FlandreScarlet\obj\Debug\FlandreScarlet.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FlandreScarlet\bin\Debug\FlandreScarlet2024717140233.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FlandreScarlet\bin\Debug\FlandreScarlet2024717140233.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FlandreScarlet\obj\Debug\FlandreScarlet2024717140233.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FlandreScarlet\obj\Debug\FlandreScarlet2024717140233.pdb

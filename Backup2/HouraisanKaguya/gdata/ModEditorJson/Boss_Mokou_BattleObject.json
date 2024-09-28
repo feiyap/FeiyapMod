@@ -1,0 +1,28 @@
+{
+    "myKey": "Boss_Mokou",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Boss_Mokou\\Boss_MokouMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.5216491,
+            "y": 0.02658084
+        },
+        "Head": {
+            "x": 0.4945872,
+            "y": 0.9734192
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.9734192
+        },
+        "UI": {
+            "x": 0.5216644,
+            "y": -0.009964764
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

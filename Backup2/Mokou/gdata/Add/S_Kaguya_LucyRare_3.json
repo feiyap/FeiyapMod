@@ -1,0 +1,34 @@
+{
+    "S_Kaguya_LucyRare_3": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "「永夜归返」-储存的Debuff列表",
+        "Description": "&a\n&b\n&c\n&d",
+        "Image_0": "S_Kaguya_LucyRare_3\\S_Kaguya_LucyRare_3_Image_0.png",
+        "Image_1": "S_Kaguya_LucyRare_3\\S_Kaguya_LucyRare_3_Image_1.png",
+        "Image_2": "S_Kaguya_LucyRare_3\\S_Kaguya_LucyRare_3_Image_2.png",
+        "SkillExtended": [
+            "Mokou.S_Kaguya_LucyRare_3"
+        ],
+        "PlusSkillView": "S_Kaguya_LucyRare_1",
+        "Rare": true,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "",
+        "LucyPartyDraw": ""
+    }
+}

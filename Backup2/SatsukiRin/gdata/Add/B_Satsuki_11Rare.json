@@ -1,0 +1,17 @@
+{
+    "B_Satsuki_11Rare": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "SatsukiRin.B_Satsuki_11Rare",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "幻想天生",
+        "Description": "",
+        "MaxStack": 1,
+        "LifeTime": 2,
+        "Icon": "B_Satsuki_11Rare\\B_Satsuki_11Rare_Icon.png"
+    }
+}

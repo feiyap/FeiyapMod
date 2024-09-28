@@ -1,0 +1,11 @@
+{
+    "B_FMokou_Stage_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HouraisanKaguya.B_FMokou_Stage_2",
+        "BuffTag": "null",
+        "Name": "时效「月岩笠的诅咒」",
+        "Description": "1回合1次，妹红受到伤害时，会对自己和来源施加3层<color=purple>烧伤</color>，并且本回合内自己和来源对互相造成的伤害-50%。",
+        "Icon": "B_FMokou_Stage_2\\B_FMokou_Stage_2_Icon.png",
+        "Cantdisable": true
+    }
+}

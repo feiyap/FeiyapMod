@@ -1,0 +1,47 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Kirito"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_Kirito_P"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Kirito_9",
+                "S_Public_29",
+                "S_Kirito_1",
+                "S_Kirito_2",
+                "S_Kirito_11Rare",
+                "S_Kirito_12Rare"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            
+        ],
+        "AP": 10,
+        "Level": 5
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "S_BOSSLucy_Future": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/flare_lv1",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "NoDrop": true,
+        "Except": true,
+        "Name": "拥抱未来",
+        "User": "Lucy",
+        "LucyPartyDraw": "",
+        "AutoDelete": 1,
+        "Effect_Target": "SE_T_S_BOSSLucy_Future",
+        "Description": "只能拿到手中后立即使用，否则无法使用。",
+        "Image_0": "S_BOSSLucy_Future\\S_BOSSLucy_Future_Image_0.png",
+        "Image_1": "S_BOSSLucy_Future\\S_BOSSLucy_Future_Image_1.png",
+        "SkillExtended": [
+            "BOSSLucy.S_BOSSLucy_Future"
+        ]
+    }
+}

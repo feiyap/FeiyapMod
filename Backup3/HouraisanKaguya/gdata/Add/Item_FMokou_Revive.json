@@ -1,0 +1,17 @@
+{
+    "Item_FMokou_Revive": {
+        "_gdeSchema": "Item_Consume",
+        "itemClass": "Unique",
+        "active_battle": false,
+        "active_field": true,
+        "name": "不死鸟狂想",
+        "Description": "复活所有队友。使所有队友体力恢复最大生命值的一半。",
+        "Stack": 1,
+        "Price": 900,
+        "BattleUse": "",
+        "NoDrop": 0,
+        "FieldUse": "HouraisanKaguya.Item_FMokou_Revive",
+        "Target": "ally",
+        "image": "Item\\Item_FMokou_Revive_image.png"
+    }
+}

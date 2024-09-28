@@ -1,0 +1,16 @@
+{
+    "S_BOSSLucy_C2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar_4",
+        "Target": "self",
+        "NoDrop": true,
+        "EnemyPreview": true,
+        "Name": "无想空转",
+        "Effect_Target": "SE_T_S_BOSSLucy_C2",
+        "Image_0": "S_BOSSLucy_C2\\S_BOSSLucy_C2_Image_0.png",
+        "Image_1": "S_BOSSLucy_C2\\S_BOSSLucy_C2_Image_1.png",
+        "Effect_Self": "SE_S_S_BOSSLucy_C2",
+        "Counting": 1
+    }
+}

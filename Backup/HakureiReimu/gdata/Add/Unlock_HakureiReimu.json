@@ -1,0 +1,9 @@
+{
+    "Unlock_HakureiReimu": {
+        "_gdeType_UnlockString": "String",
+        "UnlockString": "새로운 파티원 사용가능!",
+        "_gdeType_UnlockSprite": "Sprite",
+        "UnlockSprite": "HakureiReimu\\Unlock_HakureiReimu.png",
+        "_gdeSchema": "UnlockWindow"
+    }
+}

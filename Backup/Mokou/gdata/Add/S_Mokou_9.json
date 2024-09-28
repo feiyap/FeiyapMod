@@ -1,0 +1,37 @@
+{
+    "S_Mokou_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Phoenix/Phoenix_new_2",
+        "Target": "enemy",
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "Name": "不死「凯风快晴飞翔蹴」",
+        "Description": "<color=orange>过热：1——将一张一回合后放逐的这张牌置入手中。</color>",
+        "UseAp": 1,
+        "User": "Mokou",
+        "NoBasicSkill": false,
+        "Basic": true,
+        "Effect_Target": "SE_T_S_Mokou_9",
+        "SkillExtended": [
+            "Mokou.S_Mokou_9"
+        ],
+        "PlusKeyWords": [
+            "exburn"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_Mokou_9\\S_Mokou_9_Image_0.png",
+        "Image_1": "S_Mokou_9\\S_Mokou_9_Image_1.png",
+        "Image_2": "S_Mokou_9\\S_Mokou_9_Image_2.png"
+    }
+}

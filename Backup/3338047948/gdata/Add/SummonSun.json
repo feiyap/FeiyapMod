@@ -1,0 +1,18 @@
+{
+    "SummonSun": {
+        "_gdeSchema": "Enemy",
+        "hit": 109,
+        "name": "反转调查员·海拉",
+        "Boss": true,
+        "def": 0,
+        "maxhp": 190,
+        "spd": 2,
+        "atk": 21,
+        "reg": 11,
+        "dodge": 16,
+        "cri": 11,
+        "RES_CC": 25,
+        "RES_DEBUFF": 25,
+        "RES_DOT": 25
+    }
+}

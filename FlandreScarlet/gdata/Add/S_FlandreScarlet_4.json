@@ -1,0 +1,25 @@
+{
+    "S_FlandreScarlet_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/Hein_new_2",
+        "Target": "all_enemy",
+        "NotCount": false,
+        "Name": "禁忌「恋之迷宫」",
+        "Description": "技能出手时，受到&a(20%)痛苦伤害。\n\n禁忌 - 不再受到痛苦伤害。造成&b(40%)点额外伤害。\n\n狂乱4 - 场上每有1个敌人，造成&c(20%)点额外伤害。",
+        "UseAp": 2,
+        "User": "FlandreScarlet",
+        "Effect_Target": "SE_T_S_FlandreScarlet_4",
+        "Image_0": "S_FlandreScarlet_4\\S_FlandreScarlet_4_Image_0.png",
+        "Image_1": "S_FlandreScarlet_4\\S_FlandreScarlet_4_Image_1.png",
+        "Image_2": "S_FlandreScarlet_4\\S_FlandreScarlet_4_Image_2.png",
+        "Disposable": false,
+        "PlusKeyWords": [
+            "Keyword_Revenge",
+            "Keyword_Frenzies"
+        ],
+        "SkillExtended": [
+            "FlandreScarlet.S_FlandreScarlet_4"
+        ]
+    }
+}

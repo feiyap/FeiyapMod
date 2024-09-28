@@ -1,0 +1,12 @@
+{
+    "Equip_FMokou_Spell": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Unique",
+        "name": "无差别放火之符",
+        "Description": "使用技能造成伤害时，对敌人施加<color=purple>烧伤。",
+        "Off": true,
+        "NoDrop": true,
+        "image": "Item\\Equip_FMokou_Spell_image.png",
+        "Equip_Script": "HouraisanKaguya.Equip_FMokou_Spell"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "SummonHuz",
+    "myField": "Face",
+    "myValues": {
+        "path": "SummonHuz\\SummonHuzFace.png",
+        "offsetMax": {
+            "x": 1244.26587,
+            "y": 377.772583
+        },
+        "offsetMin": {
+            "x": -877.8874,
+            "y": -1744.38074
+        },
+        "pivot": {
+            "x": 0.4127201,
+            "y": 0.8193522
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

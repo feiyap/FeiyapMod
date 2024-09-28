@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Shino_P": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Shino_P"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

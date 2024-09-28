@@ -1,0 +1,17 @@
+{
+    "S_Kaguya_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_0",
+        "Target": "all_enemy",
+        "EnemyPreview": true,
+        "Name": "椭弹",
+        "Image_0": "S_Kaguya_8\\S_Kaguya_8_Image_0.png",
+        "Image_1": "S_Kaguya_8\\S_Kaguya_8_Image_1.png",
+        "Image_2": "S_Kaguya_8\\S_Kaguya_8_Image_2.png",
+        "Effect_Target": "SE_T_S_Kaguya_8",
+        "UnknownTarget": false,
+        "Rare": false,
+        "NoDrop": true
+    }
+}
