@@ -225,5 +225,14 @@
             "[B]不要唱这么渗人的歌啊……"
         ],
         "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_FlandreScarlet_Eirin": {
+        "CharA": "FlandreScarlet",
+        "CharB": "Eirin",
+        "Dialogues": [
+            "[A]医生姐姐，芙兰不想打针……",
+            "[B]号称破坏神的吸血鬼也会害怕打针吗？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
     }
 }

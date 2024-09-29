@@ -35,7 +35,7 @@ namespace FlandreScarlet
         public override void Init()
         {
             base.Init();
-            this.PlusStat.def = 1f;
+            this.PlusStat.def = -10f;
         }
     }
 }

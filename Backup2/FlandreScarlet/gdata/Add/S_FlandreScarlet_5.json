@@ -16,6 +16,19 @@
         "SkillExtended": [
             "FlandreScarlet.S_FlandreScarlet_5"
         ],
-        "IgnoreTaunt": true
+        "IgnoreTaunt": true,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

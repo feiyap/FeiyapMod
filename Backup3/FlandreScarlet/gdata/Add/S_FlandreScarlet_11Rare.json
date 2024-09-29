@@ -9,7 +9,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "QED「495年的波纹」",
-        "Description": "当手中的技能数量为0（不计入带有“放逐”词条的技能），将这个技能从牌库中抽取到手中。",
+        "Description": "优先抽取2个自己的技能。",
         "User": "FlandreScarlet",
         "NotCount": true,
         "Disposable": true,
@@ -20,6 +20,7 @@
         "SkillExtended": [
             "FlandreScarlet.S_FlandreScarlet_11Rare"
         ],
-        "IgnoreTaunt": false
+        "IgnoreTaunt": false,
+        "UseAp": 1
     }
 }

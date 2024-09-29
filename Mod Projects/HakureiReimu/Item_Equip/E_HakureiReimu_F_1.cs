@@ -39,6 +39,7 @@ namespace HakureiReimu
         {
             if (DMG >= 1 && count == 0)
             {
+                count++;
                 int ran = RandomManager.RandomInt(this.BChar.GetRandomClass().Main, 0, 4);
                 switch (ran)
                 {

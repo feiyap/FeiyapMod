@@ -29,14 +29,14 @@ namespace FlandreScarlet
 
         public override string DescExtended()
         {
-            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.maxhp * 0.5)).ToString());
+            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.maxhp * 0.33)).ToString());
         }
 
         public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
         {
-            if (Dmg > this.BChar.GetStat.maxhp * 0.5)
+            if (Dmg > this.BChar.GetStat.maxhp * 0.33)
             {
-                Dmg = (int)(this.BChar.GetStat.maxhp * 0.5);
+                Dmg = (int)(this.BChar.GetStat.maxhp * 0.33);
             }
             return Dmg;
         }

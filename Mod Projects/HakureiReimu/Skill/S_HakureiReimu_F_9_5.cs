@@ -28,7 +28,7 @@ namespace HakureiReimu
             list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck);
             for (int i = 0; i < list.Count; i++)
             {
-                if (list[i].Master.IsLucyNoC || list[i].MySkill.Rare)
+                if (list[i].Master.IsLucyNoC || list[i].Master != this.BChar)
                 {
                     list.RemoveAt(i);
                     i--;

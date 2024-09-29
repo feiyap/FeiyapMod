@@ -48,7 +48,7 @@ namespace FlandreScarlet
                 {
                     return 0;
                 }
-                return (int)((float)(0 + this.BChar.GetStat.atk * 0.4f));
+                return (int)((float)(0 + this.BChar.GetStat.atk * 0.2f));
             }
         }
 
@@ -73,13 +73,6 @@ namespace FlandreScarlet
         {
             base.SkillUseSingle(SkillD, Targets);
             useflag = true;
-
-            if (!(this.BChar.BuffFind("B_FlandreScarlet_P_V", false)
-                || this.BChar.BuffFind("B_FlandreScarlet_7", false)
-                || this.BChar.BuffFind("B_FlandreScarlet_11Rare", false)))
-            {
-                this.BChar.Damage(this.BChar, PlusDmg, false, true, false, 0, false, false, false);
-            }
         }
 
         public override void FixedUpdate()

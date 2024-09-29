@@ -33,6 +33,7 @@ namespace HakureiReimu
                 count++;
                 if (count >= 7)
                 {
+                    MasterAudio.PlaySound("Musoutensei", 1f, null, 0f, null, null, false, false);
                     for (int i = 0; i < 20; i++)
                     {
                         BattleSystem.DelayInput(this.Effect());

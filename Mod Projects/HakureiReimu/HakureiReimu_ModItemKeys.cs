@@ -158,6 +158,8 @@ namespace HakureiReimu
 		/// 每层<color=#B22222>符卡等级</color>提供2%命中率和闪避率，并会解锁技能的额外效果。最多拥有5层<color=#B22222>符卡等级</color>。
 		/// </summary>
         public static string Character_HakureiReimu = "HakureiReimu";
+        public static string Character_Skin_HakureiReimuEclipse = "HakureiReimuEclipse";
+        public static string Character_Skin_HakureiReimuYukkuri = "HakureiReimuYukkuri";
         public static string SimpleCampDialogue_CampDial_HakureiReimu_Hein = "CampDial_HakureiReimu_Hein";
         public static string SimpleCampDialogue_CampDial_HakureiReimu_Joey = "CampDial_HakureiReimu_Joey";
         public static string SimpleCampDialogue_CampDial_HakureiReimu_Sizz = "CampDial_HakureiReimu_Sizz";

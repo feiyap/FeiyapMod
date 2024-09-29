@@ -1,0 +1,19 @@
+{
+    "HakureiReimuEclipse": {
+        "Character": "HakureiReimu",
+        "_gdeType_Character": "Character",
+        "_gdeType_SkinName": "String",
+        "SkinName": "飞翔于天空的不可思议的巫女",
+        "_gdeSchema": "Character_Skin",
+	"CampSD": [
+            "HakureiReimu\\HakureiReimuCampSD0.png",
+            "HakureiReimu\\HakureiReimuCampSD1.png",
+            "HakureiReimu\\HakureiReimuCampSD2.png",
+            "HakureiReimu\\HakureiReimuCampSD3.png"
+        ],
+        "FaceSprite": "HakureiReimuEclipse\\HakureiReimuEclipseBattleFace.png",
+        "CollectionSprite_Cover": "HakureiReimuEclipse\\HakureiReimuEclipseCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "HakureiReimuEclipse\\HakureiReimuEclipseCollectionSprite_SkillFace.png",
+        "SkinDesc": "如果你不老实听话，那我只有一个办法。妖怪，我会来消灭你！"
+    }
+}

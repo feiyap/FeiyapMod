@@ -19,46 +19,10 @@ namespace FlandreScarlet
 	/// </summary>
     public class S_FlandreScarlet_11Rare:Skill_Extended
     {
-        public override void FixedUpdate()
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (!this.flag)
-            {
-                return;
-            }
-            this.flame++;
-            if (this.flame >= 20 && this.flag)
-            {
-                base.FixedUpdate();
-                this.flame = 0;
-                if (!BattleSystem.instance.DelayWait && BattleSystem.instance.ActWindow.On && this.SkillListCheck())
-                {
-                    this.flag = false;
-                    List<BattleTeam.DrawInput> dd = null;
-                    this.BChar.MyTeam.ForceDraw(this.BChar.MyTeam.Skills_Deck.Find((Skill a) => a.MySkill.Key == "S_FlandreScarlet_11Rare"), dd);
-                }
-            }
+            BattleSystem.instance.AllyTeam.CharacterDraw(this.BChar, null);
+            BattleSystem.instance.AllyTeam.CharacterDraw(this.BChar, null);
         }
-
-        public bool SkillListCheck()
-        {
-            if (BattleSystem.instance.AllyTeam.Skills.Count == 0)
-            {
-                return true;
-            }
-            using (List<Skill>.Enumerator enumerator = BattleSystem.instance.AllyTeam.Skills.GetEnumerator())
-            {
-                while (enumerator.MoveNext())
-                {
-                    if (!enumerator.Current.isExcept)
-                    {
-                        return false;
-                    }
-                }
-            }
-            return true;
-        }
-        
-        private int flame;
-        public bool flag;
     }
 }

@@ -19,7 +19,7 @@ namespace HakureiReimu
     /// <b>在空中飞翔的不可思议的巫女</b> - 回合开始时，博丽灵梦获得1层[博丽结界]：所有增益抵抗+100%，受到攻击时解除1层，最大3层。
     /// <b>符卡等级</b> - 博丽灵梦每次使用与上次卡名不同的技能时，获得1层[符卡等级]；否则失去所有[符卡等级]。每层[符卡等级] 提供2%命中率和闪避率，并会解锁技能的额外效果。最多拥有5层[符卡等级]。
 	/// </summary>
-    public class P_HakureiReimu:Passive_Char, IP_PlayerTurn, IP_SkillUseHand_Team
+    public class P_HakureiReimu:Passive_Char, IP_PlayerTurn, IP_SkillUseHand_Team, IP_BattleEnd
     {
         public override void Init()
         {
@@ -49,6 +49,18 @@ namespace HakureiReimu
                     }
                 }
             }
+        }
+
+        public void BattleEnd()
+        {
+            this.BGMEnd();
+        }
+
+        public void BGMEnd()
+        {
+            MasterAudio.StopBus("BGM");
+            MasterAudio.FadeBusToVolume("BGM", 1f, 1f, null, false, false);
+            MasterAudio.FadeBusToVolume("BattleBGM", 0f, 0.5f, null, false, false);
         }
     }
 }

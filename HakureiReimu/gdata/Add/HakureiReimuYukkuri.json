@@ -5,9 +5,15 @@
         "_gdeType_SkinName": "String",
         "SkinName": "油库里",
         "_gdeSchema": "Character_Skin",
+	"CampSD": [
+            "HakureiReimu\\HakureiReimuCampSD0.png",
+            "HakureiReimu\\HakureiReimuCampSD1.png",
+            "HakureiReimu\\HakureiReimuCampSD2.png",
+            "HakureiReimu\\HakureiReimuCampSD3.png"
+        ],
         "FaceSprite": "HakureiReimuYukkuri\\HakureiReimuYukkuriBattleFace.png",
         "CollectionSprite_Cover": "HakureiReimuYukkuri\\HakureiReimuYukkuriCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "HakureiReimuYukkuri\\HakureiReimuYukkuriCollectionSprite_SkillFace.png",
-	"SkinDesc": "ゆっくりしていってね！"
+        "SkinDesc": "ゆっくりしていってね！"
     }
 }

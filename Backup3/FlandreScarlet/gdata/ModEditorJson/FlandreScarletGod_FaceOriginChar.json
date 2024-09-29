@@ -1,0 +1,23 @@
+{
+    "myKey": "FlandreScarletGod",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "FlandreScarletGod\\FlandreScarletGodFaceOriginChar.png",
+        "pivot": {
+            "x": 0.475816965,
+            "y": 0.6951802
+        },
+        "offsetMin": {
+            "x": -868.6088,
+            "y": -1272.38733
+        },
+        "offsetMax": {
+            "x": 953.959167,
+            "y": 550.1808
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

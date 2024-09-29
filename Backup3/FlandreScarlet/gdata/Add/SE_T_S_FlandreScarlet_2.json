@@ -2,12 +2,14 @@
     "SE_T_S_FlandreScarlet_2": {
         "_gdeSchema": "SkillEffect",
         "HIT": 120,
-        "DMG_Per": 85,
+        "DMG_Per": 45,
         "Buffs": [
             "B_FlandreScarlet_2",
+            "B_FlandreScarlet_0",
             "B_FlandreScarlet_0"
         ],
         "BuffPlusTagPer": [
+            0,
             0,
             0
         ],

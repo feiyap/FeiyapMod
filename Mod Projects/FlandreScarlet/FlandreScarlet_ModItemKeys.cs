@@ -9,7 +9,7 @@ namespace FlandreScarlet
         public static string Buff_B_FlandreScarlet_0 = "B_FlandreScarlet_0";
 		/// <summary>
 		/// 禁忌孤独
-		/// 所有技能都能触发[禁忌欲望]和[禁忌狂乱]的额外效果。受到伤害时，如果伤害超过&a(50%最大体力值)，降低至&a。
+		/// 所有技能都能触发[禁忌欲望]和[禁忌狂乱]的额外效果。受到伤害时，如果伤害超过&a(33%最大体力值)，降低至&a。
 		/// </summary>
         public static string Buff_B_FlandreScarlet_11Rare = "B_FlandreScarlet_11Rare";
 		/// <summary>
@@ -19,7 +19,7 @@ namespace FlandreScarlet
         public static string Buff_B_FlandreScarlet_12Rare = "B_FlandreScarlet_12Rare";
 		/// <summary>
 		/// 红莓陷阱
-		/// &a每次对其造成伤害时，超额治疗&a1点体力。
+		/// &a每次对其造成伤害时，超额治疗&a3点体力。
 		/// </summary>
         public static string Buff_B_FlandreScarlet_2 = "B_FlandreScarlet_2";
 		/// <summary>
@@ -71,6 +71,7 @@ namespace FlandreScarlet
 		/// 禁忌狂乱 - 芙兰朵露受到来自自己或队友的伤害累计一定次数后，部分技能会获得额外效果。
 		/// </summary>
         public static string Character_FlandreScarlet = "FlandreScarlet";
+        public static string Character_Skin_FlandreScarletGod = "FlandreScarletGod";
         public static string SimpleCampDialogue_CampDial_FlandreScarlet_Hein = "CampDial_FlandreScarlet_Hein";
         public static string SimpleCampDialogue_CampDial_FlandreScarlet_Sizz = "CampDial_FlandreScarlet_Sizz";
         public static string SimpleCampDialogue_CampDial_FlandreScarlet_Trisha = "CampDial_FlandreScarlet_Trisha";
@@ -94,6 +95,7 @@ namespace FlandreScarlet
         public static string SimpleCampDialogue_CampDial_FlandreScarlet_Youmu = "CampDial_FlandreScarlet_Youmu";
         public static string SimpleCampDialogue_CampDial_FlandreScarlet_Reisen = "CampDial_FlandreScarlet_Reisen";
         public static string SimpleCampDialogue_CampDial_FlandreScarlet_TouhouAlice = "CampDial_FlandreScarlet_TouhouAlice";
+        public static string SimpleCampDialogue_CampDial_FlandreScarlet_Eirin = "CampDial_FlandreScarlet_Eirin";
 		/// <summary>
 		/// 狂乱
 		/// 芙兰朵露受到来自自己或队友的伤害累计一定次数后，部分技能会获得额外效果。
@@ -152,7 +154,7 @@ namespace FlandreScarlet
         public static string Skill_S_FlandreScarlet_10Rare_1 = "S_FlandreScarlet_10Rare_1";
 		/// <summary>
 		/// QED「495年的波纹」
-		/// 当手中的技能数量为0（不计入带有“放逐”词条的技能），将这个技能从牌库中抽取到手中。
+		/// 优先抽取2个自己的技能。
 		/// </summary>
         public static string Skill_S_FlandreScarlet_11Rare = "S_FlandreScarlet_11Rare";
 		/// <summary>
@@ -191,7 +193,7 @@ namespace FlandreScarlet
 		/// <summary>
 		/// 禁忌「恋之迷宫」
 		/// 技能出手时，受到&a(20%)痛苦伤害。
-		/// 禁忌 - 不再受到痛苦伤害。造成&b(40%)点额外伤害。
+		/// 禁忌 - 造成&b(20%)点额外伤害。
 		/// 狂乱4 - 场上每有1个敌人，造成&c(20%)点额外伤害。
 		/// </summary>
         public static string Skill_S_FlandreScarlet_4 = "S_FlandreScarlet_4";

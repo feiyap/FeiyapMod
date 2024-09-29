@@ -12,7 +12,7 @@
         "Image_0": "S_HakureiReimu_F_11Rare\\S_HakureiReimu_F_11Rare_Image_0.png",
         "Image_1": "S_HakureiReimu_F_11Rare\\S_HakureiReimu_F_11Rare_Image_1.png",
         "Image_2": "S_HakureiReimu_F_11Rare\\S_HakureiReimu_F_11Rare_Image_2.png",
-        "NotCount": false,
+        "NotCount": true,
         "NoDrop": false,
         "SkillExtended": [
             "HakureiReimu.S_HakureiReimu_F_11Rare"

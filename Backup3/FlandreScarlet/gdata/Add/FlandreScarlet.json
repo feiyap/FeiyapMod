@@ -92,6 +92,32 @@
             "FlandreScarlet\\FlandreScarletCampSD1.png",
             "FlandreScarlet\\FlandreScarletCampSD2.png",
             "FlandreScarlet\\FlandreScarletCampSD3.png"
-        ]
+        ],
+        "GoodGift": [
+            "Drink_Tea",
+            "Gift_Cake",
+            "Gift_DVD",
+            "Gift_Doll"
+        ],
+        "CanFriendShip": true,
+        "_gdeType_GoodGift": "Item_Friendship",
+        "_gdeIsList_GoodGift": 1,
+        "_gdeType_Dialogue_GoodGiftTalks": "String",
+        "_gdeIsList_Dialogue_GoodGiftTalks": 1,
+        "_gdeType_Dialogue_NomalGiftTalk": "String",
+        "_gdeIsList_Dialogue_NomalGiftTalk": 0,
+        "Dialogue_FriendShipLVTalks": [
+            
+        ],
+        "_gdeType_Dialogue_FriendShipLVTalks": "String",
+        "_gdeIsList_Dialogue_FriendShipLVTalks": 1,
+        "_gdeType_FriendShipSprite": "Sprite",
+        "_gdeIsList_FriendShipSprite": 0,
+        "Text_Witch": [
+            "芙兰要把你们全部破坏掉！"
+        ],
+        "_gdeType_Text_Witch": "String",
+        "_gdeIsList_Text_Witch": 1,
+        "Text_MasterTarget": "不要，芙兰不想死——"
     }
 }

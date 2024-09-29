@@ -330,8 +330,10 @@
         "CharA": "HakureiReimu",
         "CharB": "KochiyaSanae",
         "Dialogues": [
-            "[A]",
-            "[A]只要你别把炸弹到处乱扔就行……"
+            "[B]灵梦，这次就放下竞争关系，我们并肩作战吧！",
+            "[A]好吧……可别拖我后腿哦？",
+            "[B]才、才不会！……一定会超越给你看！",
+            "[A]喂，不是说好了不竞争了吗？！"
         ],
         "_gdeSchema": "SimpleCampDialogue"
     },

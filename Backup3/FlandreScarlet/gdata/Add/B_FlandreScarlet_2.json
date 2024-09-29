@@ -4,7 +4,7 @@
         "ClassName": "FlandreScarlet.B_FlandreScarlet_2",
         "BuffTag": "null",
         "Name": "红莓陷阱",
-        "Description": "&a每次对其造成伤害时，超额治疗&a1点体力。",
+        "Description": "&a每次对其造成伤害时，超额治疗&a3点体力。",
         "MaxStack": 0,
         "LifeTime": 3,
         "Hide": false,

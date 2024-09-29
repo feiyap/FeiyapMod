@@ -5,7 +5,7 @@
         "Particle": "Particle/LastBoss/LBoss_Blast",
         "Rare": true,
         "Target": "enemy",
-        "Disposable": true,
+        "Disposable": false,
         "Name": "梦符「幻想一重」",
         "User": "HakureiReimu",
         "UseAp": 1,
@@ -16,6 +16,8 @@
         "Image_2": "S_HakureiReimu_F_12Rare\\S_HakureiReimu_F_12Rare_Image_2.png",
         "Description": "<color=#696969><i>比赤色更红的梦。</i></color>",
         "Effect_Self": "SE_S_S_HakureiReimu_F_12Rare",
-        "NoBasicSkill": true
+        "NoBasicSkill": true,
+        "Track": false,
+        "NODOD": true
     }
 }

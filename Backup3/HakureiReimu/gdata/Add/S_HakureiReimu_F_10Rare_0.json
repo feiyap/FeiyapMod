@@ -11,6 +11,7 @@
         "Name": "梦想天生",
         "Description": "",
         "HealSkill": false,
-        "Effect_Target": "SE_T_S_HakureiReimu_F_10Rare_0"
+        "Effect_Target": "SE_T_S_HakureiReimu_F_10Rare_0",
+        "NoBasicSkill": false
     }
 }

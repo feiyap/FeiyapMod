@@ -6,7 +6,7 @@
         "Target": "all_enemy",
         "NotCount": false,
         "Name": "禁忌「恋之迷宫」",
-        "Description": "技能出手时，受到&a(20%)痛苦伤害。\n\n禁忌 - 不再受到痛苦伤害。造成&b(40%)点额外伤害。\n\n狂乱4 - 场上每有1个敌人，造成&c(20%)点额外伤害。",
+        "Description": "技能出手时，受到&a(20%)痛苦伤害。\n\n禁忌 - 造成&b(20%)点额外伤害。\n\n狂乱4 - 场上每有1个敌人，造成&c(20%)点额外伤害。",
         "UseAp": 2,
         "User": "FlandreScarlet",
         "Effect_Target": "SE_T_S_FlandreScarlet_4",
@@ -20,6 +20,7 @@
         ],
         "SkillExtended": [
             "FlandreScarlet.S_FlandreScarlet_4"
-        ]
+        ],
+        "IgnoreTaunt": false
     }
 }

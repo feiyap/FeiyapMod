@@ -20,6 +20,7 @@
         ],
         "IgnoreTaunt": false,
         "Track": false,
-        "NoBasicSkill": true
+        "NoBasicSkill": true,
+        "NoDrop": false
     }
 }

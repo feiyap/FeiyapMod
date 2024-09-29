@@ -137,7 +137,7 @@ namespace FlandreScarlet
             base.SkillKill(SP);
             if (!this.BChar.BuffFind("B_FlandreScarlet_12Rare", false))
             {
-                this.BChar.Info.OriginStat.cri += 1;
+                this.BChar.Info.OriginStat.cri += 2;
                 this.BChar.BuffAdd("B_FlandreScarlet_12Rare", this.BChar);
             }
             this.BChar.MyTeam.AP += 2;
