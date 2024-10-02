@@ -33,14 +33,35 @@ namespace HakureiReimu
                 count++;
                 if (count >= 7)
                 {
-                    MasterAudio.PlaySound("Musoutensei", 1f, null, 0f, null, null, false, false);
-                    for (int i = 0; i < 20; i++)
-                    {
-                        BattleSystem.DelayInput(this.Effect());
-                    }
-                    SelfDestroy();
+                    BattleSystem.DelayInputAfter(this.Del());
                 }
             }
+        }
+
+        public IEnumerator Del()
+        {
+            yield return new WaitForFixedUpdate();
+            
+            yield return this.TalkEnd();
+
+            yield break;
+        }
+
+        public IEnumerator TalkEnd()
+        {
+            yield return new WaitForFixedUpdate();
+
+            MasterAudio.PlaySound("Musoutensei", 1f, null, 0f, null, null, false, false);
+
+            yield return BattleText.InstBattleTextAlly_Co(this.BChar, ModManager.getModInfo("HakureiReimu").localizationInfo.SystemLocalizationUpdate("BattleDia/Musoutensei/Text1"), false);
+
+            for (int i = 0; i < 20; i++)
+            {
+                BattleSystem.DelayInput(this.Effect());
+            }
+            SelfDestroy();
+
+            yield break;
         }
 
         public IEnumerator Effect()

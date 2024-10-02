@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 4118705602
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d34f5d50781de68fcbe909b8d20ce5f2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/HakureiReimu/Reimu_RedHan.png
+- Assets/HakureiReimu/Reimu_RedSmallHurt.png
+- Assets/HakureiReimu/Reimu_Smile.png
+- Assets/HakureiReimu/Reimu_Happy.png
+- Assets/HakureiReimu/Reimu_RedCry.png
+- Assets/HakureiReimu/Reimu_Angry.png
+- Assets/HakureiReimu/Reimu_RedHurt.png
+- Assets/HakureiReimu/Reimu_Emm.png
+- Assets/HakureiReimu/Reimu_Bad.png
+- Assets/HakureiReimu/Reimu_RedSmallCry.png
+- Assets/HakureiReimu/Reimu_RedSmallHappy.png
+- Assets/HakureiReimu/Reimu_Surprise.png
+- Assets/HakureiReimu/Reimu_SmallAngry.png
+- Assets/HakureiReimu/Reimu_SmallCry.png
+- Assets/HakureiReimu/Reimu_Han.png
+- Assets/HakureiReimu/Reimu_BigHappy.png
+- Assets/HakureiReimu/Reimu_RedSmile.png
+- Assets/HakureiReimu/Reimu_Cry.png
+- Assets/HakureiReimu/Reimu_RedSurprise.png
+- Assets/HakureiReimu/Reimu_RedSmallSmile.png
+- Assets/HakureiReimu/Reimu_Hurt.png
+- Assets/HakureiReimu/Reimu_RedAngry.png
+- Assets/HakureiReimu/Reimu_Normal.png
+- Assets/HakureiReimu/Reimu_RedSad.png
+- Assets/HakureiReimu/Reimu_RedHappy.png
+- Assets/HakureiReimu/Reimu_SmallHurt.png
+- Assets/HakureiReimu/Reimu_RedEmm.png
+Dependencies: []

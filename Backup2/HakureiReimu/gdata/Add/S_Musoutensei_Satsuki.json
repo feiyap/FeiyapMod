@@ -1,0 +1,21 @@
+{
+    "S_Musoutensei_Satsuki": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "Disposable": true,
+        "NoDrop": true,
+        "Name": "红楼「原初之一」",
+        "Description": "<color=#FFD700>*「梦想天生」+「那无法成为幻想的某物」*</color>\n使所有手中和牌库中的攻击技能获得造成伤害+50%。",
+        "UseAp": 2,
+        "Rare": true,
+        "NotCount": true,
+        "SkillExtended": [
+            "HakureiReimu.S_Musoutensei_Satsuki"
+        ],
+        "Image_0": "S_Musoutensei_Satsuki\\S_Musoutensei_Satsuki_Image_0.png",
+        "Image_1": "S_Musoutensei_Satsuki\\S_Musoutensei_Satsuki_Image_1.png",
+        "Image_2": "S_Musoutensei_Satsuki\\S_Musoutensei_Satsuki_Image_2.png"
+    }
+}

@@ -19,8 +19,24 @@ namespace HakureiReimu
 	/// 消耗所有法力值。丢弃所有手中的技能。抽取X个技能。恢复法力值至X点。清除所有队友的过载。所有队友获得X层[幻梦终焉]：3回合内，攻击力+10%，治疗力+10%。效果解除时，立即死亡。
 	/// X为这个技能消耗的法力值。
 	/// </summary>
-    public class S_Musoutensei_Satsuki:Skill_Extended
+    public class S_Musoutensei_Satsuki: SkillExtended_Reimu
     {
-
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills)
+            {
+                if (skill.IsDamage)
+                {
+                    skill.ExtendedAdd("SE_Musoutensei_Satsuki_0");
+                }
+            }
+            foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills_Deck)
+            {
+                if (skill.IsDamage)
+                {
+                    skill.ExtendedAdd("SE_Musoutensei_Satsuki_0");
+                }
+            }
+        }
     }
 }

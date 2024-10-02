@@ -5,6 +5,12 @@
         "_gdeType_SkinName": "String",
         "SkinName": "飞翔于天空的不可思议的巫女",
         "_gdeSchema": "Character_Skin",
+        "CampSD": [
+            "HakureiReimu\\HakureiReimuCampSD0.png",
+            "HakureiReimu\\HakureiReimuCampSD1.png",
+            "HakureiReimu\\HakureiReimuCampSD2.png",
+            "HakureiReimu\\HakureiReimuCampSD3.png"
+        ],
         "FaceSprite": "HakureiReimuEclipse\\HakureiReimuEclipseBattleFace.png",
         "CollectionSprite_Cover": "HakureiReimuEclipse\\HakureiReimuEclipseCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "HakureiReimuEclipse\\HakureiReimuEclipseCollectionSprite_SkillFace.png",

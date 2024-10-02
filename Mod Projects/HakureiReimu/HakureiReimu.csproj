@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>HakureiReimu09292024235349</AssemblyName>
+    <AssemblyName>HakureiReimu10012024185838</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -405,11 +405,12 @@
 <!-- Extra Reference End-->
   </ItemGroup>
   
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="HakureiReimu_ModDefinition.cs" />
     <Compile Include="HakureiReimu_ModItemKeys.cs" />
     <Compile Include="HakureiReimu_Plugin.cs" />
+    <Compile Include="LockSkin_Plugin.cs" />
     <Compile Include="Unlock_Plugin.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_0.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_0_2.cs" />
@@ -425,6 +426,7 @@
     <Compile Include="Buff\B_HakureiReimu_F_6_0.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_7.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_8.cs" />
+    <Compile Include="Buff\B_HakureiReimu_F_C_0.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_E_0.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_E_1_0.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_E_1_1.cs" />
@@ -436,9 +438,20 @@
     <Compile Include="Buff\B_HakureiReimu_F_LucyD_3.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_P.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_P_1.cs" />
+    <Compile Include="Buff\B_Musoutensei_Flandre_0.cs" />
     <Compile Include="Buff\B_Musoutensei_Satsuki_0.cs" />
     <Compile Include="Buff\B_Musoutensei_Youmu_0.cs" />
     <Compile Include="Character\P_HakureiReimu.cs" />
+    <Compile Include="Dialogue\DiaNormal.cs" />
+    <Compile Include="Dialogue\Dia_Cake.cs" />
+    <Compile Include="Dialogue\Dia_FishingRod.cs" />
+    <Compile Include="Dialogue\Dia_Mugwort.cs" />
+    <Compile Include="Dialogue\Dia_Reimu_Lv1.cs" />
+    <Compile Include="Dialogue\Dia_Reimu_Lv2.cs" />
+    <Compile Include="Dialogue\Dia_Reimu_Lv3.cs" />
+    <Compile Include="Dialogue\Dia_Sake.cs" />
+    <Compile Include="Dialogue\ReimuCharacter.cs" />
+    <Compile Include="Dialogue\ReimuDialogue_Def.cs" />
     <Compile Include="Item_Equip\E_HakureiReimu_F_0.cs" />
     <Compile Include="Item_Equip\E_HakureiReimu_F_1.cs" />
     <Compile Include="Item_Equip\E_HakureiReimu_F_2.cs" />
@@ -476,12 +489,17 @@
     <Compile Include="Skill\S_HakureiReimu_F_9.cs" />
     <Compile Include="Skill\S_HakureiReimu_F_9_5.cs" />
     <Compile Include="Skill\S_HakureiReimu_F_LucyD.cs" />
+    <Compile Include="Skill\S_Musoutensei_Flandre.cs" />
+    <Compile Include="Skill\S_Musoutensei_Kaguya.cs" />
+    <Compile Include="Skill\S_Musoutensei_Reisen.cs" />
     <Compile Include="Skill\S_Musoutensei_Remilia.cs" />
+    <Compile Include="Skill\S_Musoutensei_Sakuya.cs" />
     <Compile Include="Skill\S_Musoutensei_Satsuki.cs" />
     <Compile Include="SkillExtended\SE_HakureiReimu_2.cs" />
     <Compile Include="SkillExtended\SE_HakureiReimu_C_0.cs" />
     <Compile Include="SkillExtended\SE_HakureiReimu_C_1.cs" />
     <Compile Include="SkillExtended\SE_HakureiReimu_E_2.cs" />
+    <Compile Include="SkillExtended\SE_Musoutensei_Satsuki_0.cs" />
     <Compile Include="SkillExtended\SkillExtended_Reimu.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->

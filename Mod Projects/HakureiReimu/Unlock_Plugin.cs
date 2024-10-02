@@ -12,6 +12,7 @@ using HarmonyLib;
 
 namespace HakureiReimu
 {
+    //露西睡醒、移动至卧室中央后，判断角色通关条件，解锁博丽灵梦或皮肤
     [HarmonyPatch(typeof(ArkCode))]
     [HarmonyPatch("MoveTutorial")]
     public static class Unlock_Plugin
@@ -52,36 +53,17 @@ namespace HakureiReimu
             foreach (string charaName in TouhouChara)
             {
                 Statistics_Character charData = SaveManager.NowData.statistics.GetCharData(charaName);
-                if (SaveManager.NowData.GameOptions.CasualMode)
+
+                if (charData.HopeExpertClear >= 1 || 
+                    charData.HopeNomalClear >= 1 || 
+                    charData.ExpertClear >= 1 ||
+                    charData.NomalClear >= 1 ||
+                    charData.CasualClear >= 1)
                 {
-                    if (charData.HopeExpertClear >= 1)
+                    UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
+                    if (charaName == "HakureiReimu" && !SaveManager.IsUnlock("HakureiReimuEclipse"))
                     {
-                        UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
-                        return;
-                    }
-                    if (charData.HopeNomalClear >= 1)
-                    {
-                        UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
-                        return;
-                    }
-                    return;
-                }
-                else
-                {
-                    if (charData.ExpertClear >= 1)
-                    {
-                        UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
-                        return;
-                    }
-                    if (charData.NomalClear >= 1)
-                    {
-                        UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
-                        return;
-                    }
-                    if (charData.CasualClear >= 1)
-                    {
-                        UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
-                        return;
+                        SaveManager.NowData.unlockList.UnlockItems.Add("HakureiReimuEclipse");
                     }
                     return;
                 }

@@ -1,0 +1,16 @@
+{
+    "S_Musoutensei_Eirin": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "all_ally",
+        "NODOD": false,
+        "NotCount": true,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Name": "天月下「地上的大密室」",
+        "Description": "<color=#FFD700>*「梦想天生」+秘术「天文密葬法」*</color>",
+        "UseAp": 3
+    }
+}

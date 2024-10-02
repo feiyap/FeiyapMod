@@ -2,15 +2,15 @@
     "S_Musoutensei_Remilia": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Hein/Hein_new_1",
         "Rare": true,
         "Target": "enemy",
         "NODOD": false,
-        "NotCount": false,
+        "NotCount": true,
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": false,
-        "NoDrop": false,
+        "NoDrop": true,
         "IgnoreTaunt": true,
         "Except": false,
         "NoBasicSkill": false,
@@ -19,13 +19,15 @@
         "Fatal": true,
         "EnemyPreview": false,
         "UnknownTarget": false,
-        "Name": "红灵符「翱翔天际丶绯色夜空」",
-        "Description": "*「梦想天生」+神枪「冈格尼尔之枪」\n倒计时期间，灵梦和蕾米莉亚获得100%受伤减免，但不能使用手中的技能。",
+        "Name": "红梦「翱翔天际丶绯色夜空」",
+        "Description": "<color=#FFD700>*「梦想天生」+神枪「冈格尼尔之枪」*</color>\n自身每有1层[吸血鬼之心]，额外造成20%伤害。\n这个技能击杀敌人时，获得永久2%暴击率，恢复2点法力值。",
         "UseAp": 2,
-        "Counting": 2,
         "Effect_Target": "SE_T_S_Musoutensei_Remilia",
         "Image_0": "S_Musoutensei_Remilia\\S_Musoutensei_Remilia_Image_0.png",
         "Image_1": "S_Musoutensei_Remilia\\S_Musoutensei_Remilia_Image_1.png",
-        "Image_2": "S_Musoutensei_Remilia\\S_Musoutensei_Remilia_Image_2.png"
+        "Image_2": "S_Musoutensei_Remilia\\S_Musoutensei_Remilia_Image_2.png",
+        "SkillExtended": [
+            "HakureiReimu.S_Musoutensei_Remilia"
+        ]
     }
 }

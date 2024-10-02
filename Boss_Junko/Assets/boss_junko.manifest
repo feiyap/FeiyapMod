@@ -1,0 +1,62 @@
+ManifestFileVersion: 0
+CRC: 2721437900
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28362955c2315e6e4e8482ecd00a4484
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f558879d680969b69c19d26e09a9e16f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -1086786121, guid: 29486fe0b871ffeca76cef1777c919bd, type: 3}
+- Class: 114
+  Script: {fileID: 825941888, guid: 29486fe0b871ffeca76cef1777c919bd, type: 3}
+- Class: 114
+  Script: {fileID: -267237239, guid: 29486fe0b871ffeca76cef1777c919bd, type: 3}
+- Class: 114
+  Script: {fileID: 1938751104, guid: 29486fe0b871ffeca76cef1777c919bd, type: 3}
+- Class: 114
+  Script: {fileID: 2046309494, guid: 29486fe0b871ffeca76cef1777c919bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e10727ccb486c1f43bceb6684fd5c3a6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b1e4458eb10a9a44fac34dd0703078b6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ModAssets/Junko/Reimu_Cry.png
+- Assets/ModAssets/ModDialogues/Dia_Event_Junko.asset
+- Assets/ModAssets/Junko/Reimu_Bad.png
+- Assets/ModAssets/Junko/Reimu_RedHappy.png
+- Assets/ModAssets/Junko/Reimu_Angry.png
+- Assets/ModAssets/Junko/Reimu_RedSmile.png
+- Assets/ModAssets/Junko/Reimu_SmallAngry.png
+- Assets/ModAssets/Junko/Reimu_Emm.png
+- Assets/ModAssets/Junko/Reimu_RedSad.png
+- Assets/ModAssets/Junko/Reimu_Hurt.png
+- Assets/ModAssets/Junko/Reimu_RedSmallSmile.png
+- Assets/ModAssets/Junko/Reimu_RedCry.png
+- Assets/ModAssets/Junko/Reimu_RedHan.png
+- Assets/ModAssets/Junko/Reimu_RedAngry.png
+- Assets/ModAssets/Junko/Reimu_SmallCry.png
+- Assets/ModAssets/ModDialogues/001.asset
+- Assets/ModAssets/Junko/Reimu_Smile.png
+- Assets/ModAssets/Junko/Reimu_Han.png
+- Assets/ModAssets/Junko/Reimu_RedEmm.png
+- Assets/ModAssets/Junko/Reimu_RedHurt.png
+- Assets/ModAssets/Junko/Reimu_Surprise.png
+- Assets/ModAssets/Junko/Reimu_BigHappy.png
+- Assets/ModAssets/Junko/Reimu_Normal.png
+- Assets/ModAssets/Junko/Reimu_RedSurprise.png
+- Assets/ModAssets/Junko/Reimu_RedSmallHurt.png
+- Assets/ModAssets/Junko/Reimu_RedSmallHappy.png
+- Assets/ModAssets/Junko/Reimu_SmallHurt.png
+- Assets/ModAssets/Junko/Reimu_RedSmallCry.png
+- Assets/ModAssets/Junko/Reimu_Happy.png
+Dependencies: []

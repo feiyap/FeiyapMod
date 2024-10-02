@@ -1,0 +1,16 @@
+{
+    "B_HakureiReimu_F_C_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HakureiReimu.B_HakureiReimu_F_C_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "灵力庇护",
+        "Description": "",
+        "Icon": "B_HakureiReimu_F_C_0\\B_HakureiReimu_F_C_0_Icon.png",
+        "LifeTime": 3
+    }
+}

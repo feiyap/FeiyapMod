@@ -24,11 +24,9 @@
                 
             ],
             [
+                "S_HakureiReimu_F_4",
                 "S_HakureiReimu_F_0",
-                "S_HakureiReimu_F_0",
-                "S_HakureiReimu_F_1",
-                "S_HakureiReimu_F_9",
-                "S_HakureiReimu_F_7"
+                "S_HakureiReimu_F_12Rare"
             ]
         ],
         "PartyEquip": [
@@ -42,7 +40,7 @@
                 
             ],
             [
-                "E_HakureiReimu_F_1",
+                "E_HakureiReimu_F_0",
                 "E_HakureiReimu_F_2"
             ]
         ],

@@ -17,6 +17,9 @@ namespace HakureiReimu
     {
         public void SkillChange(string target)
         {
+            UnityEngine.Object obj = UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkillEffect"), this.MySkill.MyButton.transform);
+            UnityEngine.Object.Destroy(obj, 1f);
+
             foreach (Skill_Extended skill_Extended in this.MySkill.AllExtendeds)
             {
                 foreach (string text in this.MySkill.MySkill.SkillExtended)
@@ -31,10 +34,10 @@ namespace HakureiReimu
             Type type = Type.GetType("HakureiReimu." + target);
 
             SkillExtended_Reimu extended = (SkillExtended_Reimu)Activator.CreateInstance(type);
-
             GDESkillData gdeskillData = new GDESkillData(target);
             gdeskillData.KeyID = target;
-            gdeskillData.AutoDelete = this.MySkill.MySkill.AutoDelete;
+            gdeskillData.AutoDelete = this.MySkill.AutoDelete;
+            gdeskillData.Except = this.MySkill.isExcept;
 
             this.MySkill.Init(gdeskillData, this.BChar, this.BChar.MyTeam);
 
@@ -121,7 +124,8 @@ namespace HakureiReimu
 
             GDESkillData gdeskillData = new GDESkillData(target);
             gdeskillData.KeyID = target;
-            gdeskillData.AutoDelete = this.MySkill.MySkill.AutoDelete;
+            gdeskillData.AutoDelete = this.MySkill.AutoDelete;
+            gdeskillData.Except = this.MySkill.isExcept;
 
             this.MySkill.Init(gdeskillData, this.BChar, this.BChar.MyTeam);
 

@@ -74,6 +74,10 @@ namespace HakureiReimu
 		/// </summary>
         public static string Buff_B_HakureiReimu_F_8 = "B_HakureiReimu_F_8";
 		/// <summary>
+		/// 灵力庇护
+		/// </summary>
+        public static string Buff_B_HakureiReimu_F_C_0 = "B_HakureiReimu_F_C_0";
+		/// <summary>
 		/// 博丽符札
 		/// </summary>
         public static string Buff_B_HakureiReimu_F_E_0 = "B_HakureiReimu_F_E_0";
@@ -125,6 +129,11 @@ namespace HakureiReimu
 		/// 受到伤害后解除。
 		/// </summary>
         public static string Buff_B_HakureiReimu_F_P_1 = "B_HakureiReimu_F_P_1";
+		/// <summary>
+		/// 绯生一文字
+		/// 造成伤害时，额外造成50%的痛苦伤害。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Flandre_0 = "B_Musoutensei_Flandre_0";
 		/// <summary>
 		/// 幻梦终焉
 		/// 效果解除时，立即死亡。
@@ -205,7 +214,7 @@ namespace HakureiReimu
 		/// </summary>
         public static string SkillExtended_SE_HakureiReimu_2 = "SE_HakureiReimu_2";
 		/// <summary>
-		/// 使目标3回合内受到的伤害降低25%。
+		/// 使目标3回合内受到的伤害降低15%。
 		/// 指向单体的治疗技能
 		/// </summary>
         public static string SkillExtended_SE_HakureiReimu_C_0 = "SE_HakureiReimu_C_0";
@@ -217,6 +226,10 @@ namespace HakureiReimu
 		/// 伤害增加25%。
 		/// </summary>
         public static string SkillExtended_SE_HakureiReimu_E_2 = "SE_HakureiReimu_E_2";
+		/// <summary>
+		/// 造成的伤害提升50%。
+		/// </summary>
+        public static string SkillExtended_SE_Musoutensei_Satsuki_0 = "SE_Musoutensei_Satsuki_0";
         public static string SkillEffect_SE_S_S_HakureiReimu_F_0 = "SE_S_S_HakureiReimu_F_0";
         public static string SkillEffect_SE_S_S_HakureiReimu_F_0_1 = "SE_S_S_HakureiReimu_F_0_1";
         public static string SkillEffect_SE_S_S_HakureiReimu_F_0_2 = "SE_S_S_HakureiReimu_F_0_2";
@@ -234,7 +247,7 @@ namespace HakureiReimu
         public static string SkillEffect_SE_S_S_HakureiReimu_F_4_3 = "SE_S_S_HakureiReimu_F_4_3";
         public static string SkillEffect_SE_S_S_HakureiReimu_F_4_5 = "SE_S_S_HakureiReimu_F_4_5";
         public static string SkillEffect_SE_S_S_HakureiReimu_F_8_3 = "SE_S_S_HakureiReimu_F_8_3";
-        public static string SkillEffect_SE_S_S_Musoutensei_Mokou = "SE_S_S_Musoutensei_Mokou";
+        public static string SkillEffect_SE_S_S_Musoutensei_Flandre = "SE_S_S_Musoutensei_Flandre";
         public static string SkillEffect_SE_S_S_Musoutensei_Youmu = "SE_S_S_Musoutensei_Youmu";
         public static string SkillEffect_SE_Tick_B_HakureiReimu_F_6_0 = "SE_Tick_B_HakureiReimu_F_6_0";
         public static string SkillEffect_SE_Tick_B_HakureiReimu_F_LucyD_2 = "SE_Tick_B_HakureiReimu_F_LucyD_2";
@@ -265,8 +278,9 @@ namespace HakureiReimu
         public static string SkillEffect_SE_T_S_HakureiReimu_F_6_4 = "SE_T_S_HakureiReimu_F_6_4";
         public static string SkillEffect_SE_T_S_HakureiReimu_F_7 = "SE_T_S_HakureiReimu_F_7";
         public static string SkillEffect_SE_T_S_HakureiReimu_F_7_3 = "SE_T_S_HakureiReimu_F_7_3";
-        public static string SkillEffect_SE_T_S_Musoutensei_Mokou = "SE_T_S_Musoutensei_Mokou";
+        public static string SkillEffect_SE_T_S_Musoutensei_Reisen = "SE_T_S_Musoutensei_Reisen";
         public static string SkillEffect_SE_T_S_Musoutensei_Remilia = "SE_T_S_Musoutensei_Remilia";
+        public static string SkillEffect_SE_T_S_Musoutensei_Sakuya = "SE_T_S_Musoutensei_Sakuya";
         public static string SkillEffect_SE_T_S_Musoutensei_Satsuki = "SE_T_S_Musoutensei_Satsuki";
         public static string SkillExtended_SkillExtended_Reimu = "SkillExtended_Reimu";
 		/// <summary>
@@ -454,6 +468,22 @@ namespace HakureiReimu
 		/// </summary>
         public static string Skill_S_HakureiReimu_F_LucyD = "S_HakureiReimu_F_LucyD";
 		/// <summary>
+		/// 天月下「地上的大密室」
+		/// <color=#FFD700>*「梦想天生」+秘术「天文密葬法」*</color>
+		/// </summary>
+        public static string Skill_S_Musoutensei_Eirin = "S_Musoutensei_Eirin";
+		/// <summary>
+		/// 绯狱「绯生一文字」
+		/// <color=#FFD700>*「梦想天生」+禁忌「莱瓦汀」*</color>
+		/// </summary>
+        public static string Skill_S_Musoutensei_Flandre = "S_Musoutensei_Flandre";
+		/// <summary>
+		/// 新难题「幻想乡的至宝」
+		/// <color=#FFD700>*「梦想天生」+新难题「艾哲红石」*</color>
+		/// 生成目标的所有稀有技能。
+		/// </summary>
+        public static string Skill_S_Musoutensei_Kaguya = "S_Musoutensei_Kaguya";
+		/// <summary>
 		/// 「这不知是第几次的生命，梦想封印吧」
 		/// 藤原妹红立即获得1次额外复活上限，然后死亡。
 		/// 那之后，根据藤原妹红当前[不灭赤魂]的层数，每层对所有敌人施加3层[烧伤]痛苦减益（超过上限的层数被施加时立即结算1次[烧伤]痛苦减益，但伤害减半），并造成%a(博丽灵梦150%攻击力)的伤害。
@@ -461,11 +491,30 @@ namespace HakureiReimu
 		/// </summary>
         public static string Skill_S_Musoutensei_Mokou = "S_Musoutensei_Mokou";
 		/// <summary>
-		/// 红灵符「翱翔天际丶绯色夜空」
-		/// *「梦想天生」+神枪「冈格尼尔之枪」
-		/// 倒计时期间，灵梦和蕾米莉亚获得100%受伤减免，但不能使用手中的技能。
+		/// 狂灵「你知道今夜的月球为何是红色的吗？」
+		/// <color=#FFD700>*「梦想天生」+「幻胧月睨」*</color>
+		/// 造成3倍于敌人的攻击力的伤害。
+		/// 这个技能无视防御，必定命中。
+		/// </summary>
+        public static string Skill_S_Musoutensei_Reisen = "S_Musoutensei_Reisen";
+		/// <summary>
+		/// 红梦「翱翔天际丶绯色夜空」
+		/// <color=#FFD700>*「梦想天生」+神枪「冈格尼尔之枪」*</color>
+		/// 自身每有1层[吸血鬼之心]，额外造成20%伤害。
+		/// 这个技能击杀敌人时，获得永久2%暴击率，恢复2点法力值。
 		/// </summary>
         public static string Skill_S_Musoutensei_Remilia = "S_Musoutensei_Remilia";
+		/// <summary>
+		/// 梦时「梦违停止世界」
+		/// <color=#FFD700>*「梦想天生」+时符「完美时空」*</color>
+		/// </summary>
+        public static string Skill_S_Musoutensei_Sakuya = "S_Musoutensei_Sakuya";
+		/// <summary>
+		/// 红楼「原初之一」
+		/// <color=#FFD700>*「梦想天生」+「那无法成为幻想的某物」*</color>
+		/// 使所有手中和牌库中的攻击技能获得造成伤害+50%。
+		/// </summary>
+        public static string Skill_S_Musoutensei_Satsuki = "S_Musoutensei_Satsuki";
 		/// <summary>
 		/// 魂灵符「一念成佛丶一念逍遥」
 		/// 灵梦和妖梦获得[天人合一]。
@@ -477,6 +526,26 @@ namespace HakureiReimu
 
     public static class ModLocalization
     {
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Spell Out! Innate Dream!
+		/// Japanese:
+		/// Chinese:
+		/// 符卡解放！「梦想天生」！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaMusoutenseiText1 => ModManager.getModInfo("HakureiReimu").localizationInfo.SystemLocalizationUpdate("BattleDia/Musoutensei/Text1");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Lend me your strength!
+		/// Japanese:
+		/// Chinese:
+		/// 你的力量，借给我用一下吧！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaMusoutenseiText2 => ModManager.getModInfo("HakureiReimu").localizationInfo.SystemLocalizationUpdate("BattleDia/Musoutensei/Text2");
 
     }
 }

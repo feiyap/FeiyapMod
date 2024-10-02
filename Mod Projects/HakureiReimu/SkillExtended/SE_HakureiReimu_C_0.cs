@@ -33,7 +33,7 @@ namespace HakureiReimu
         {
             base.SkillUseSingle(SkillD, Targets);
 
-            Targets[0].BuffAdd("B_HakureiReimu_C_0", this.BChar);
+            Targets[0].BuffAdd("B_HakureiReimu_F_C_0", this.BChar);
         }
     }
 }

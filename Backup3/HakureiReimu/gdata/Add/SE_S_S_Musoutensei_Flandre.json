@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Musoutensei_Flandre": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Musoutensei_Flandre_0"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}
