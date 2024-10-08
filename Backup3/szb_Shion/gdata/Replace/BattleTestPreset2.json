@@ -1,0 +1,32 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "szb_Shion"
+        ],
+        "PartyBasicSkill": [
+            "S_Shion_Tactics_0"
+        ],
+        "PartySkills": [
+            [
+                "S_Shion_Tactics_4",
+                "S_Shion_Tactics_0",
+                "S_Shion_Tactics_0"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            
+        ],
+        "AP": 10,
+        "Passive": [
+            "ShiningOrb",
+            "ShadowOrb"
+        ],
+        "Level": 4
+    }
+}

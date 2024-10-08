@@ -1,0 +1,18 @@
+{
+    "b_csgp_hit": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Kohei.B_Kohei_hit",
+        "BuffTag": "Debuff",
+        "Name": "中弹",
+        "LifeTime": 2,
+        "Debuff": true,
+        "TagPer": 120,
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_39",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "MaxStack": 5
+    }
+}

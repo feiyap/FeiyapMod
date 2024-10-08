@@ -5,7 +5,7 @@
         "_gdeType_SkinName": "String",
         "SkinName": "现代人的现人神",
         "_gdeSchema": "Character_Skin",
-        "face": "KochiyaSanaeSkin\\KochiyaSanaeSkinBattleFace.png",
+        "FaceSprite": "KochiyaSanaeSkin\\KochiyaSanaeSkinBattleFace.png",
         "CollectionSprite_Cover": "KochiyaSanaeSkin\\KochiyaSanaeSkinCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "KochiyaSanaeSkin\\KochiyaSanaeSkinCollectionSprite_SkillFace.png",
         "CampSD": [

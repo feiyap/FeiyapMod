@@ -1,0 +1,25 @@
+{
+    "S_HolySaber_1__Ex": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Name": "<color=#FFA500>虹蛇</color>",
+        "UseAp": 1,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_HolySaber_1__Ex",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extended",
+            "SE_HolySaber_Defend"
+        ],
+        "Image_0": "S_HolySaber_1__Ex\\S_HolySaber_1__Ex_Image_0.png",
+        "Image_1": "S_HolySaber_1__Ex\\S_HolySaber_1__Ex_Image_1.png",
+        "Image_2": "S_HolySaber_1__Ex\\S_HolySaber_1__Ex_Image_2.png",
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_1__Ex"
+        ],
+        "Effect_Self": "SE_S_S_HolySaber_1__Ex"
+    }
+}

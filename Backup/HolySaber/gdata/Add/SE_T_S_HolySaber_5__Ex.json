@@ -1,0 +1,7 @@
+{
+    "SE_T_S_HolySaber_5__Ex": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 130
+    }
+}

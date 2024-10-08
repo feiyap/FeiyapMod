@@ -1,0 +1,16 @@
+{
+    "B_HolySaber_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "进化点",
+        "Description": "<i><color=#FFA500>进化</color>是通向胜利的关键！</i>",
+        "MaxStack": 3,
+        "Icon": "B_HolySaber_P\\B_HolySaber_P_Icon.png"
+    }
+}

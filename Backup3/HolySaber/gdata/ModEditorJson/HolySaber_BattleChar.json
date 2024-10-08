@@ -1,0 +1,23 @@
+{
+    "myKey": "HolySaber",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "HolySaber\\HolySaberBattleChar.png",
+        "offsetMax": {
+            "x": 758.2998,
+            "y": 607.3116
+        },
+        "offsetMin": {
+            "x": -780.3928,
+            "y": -931.381042
+        },
+        "pivot": {
+            "x": 0.507179141,
+            "y": 0.605306745
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

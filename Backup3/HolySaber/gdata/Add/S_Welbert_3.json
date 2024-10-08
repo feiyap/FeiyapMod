@@ -1,0 +1,15 @@
+{
+    "S_Welbert_3": {
+        "_gdeSchema": "Skill",
+        "MySkill": "S_HolySaber_3",
+        "_gdeType_MySkill": "Skill",
+        "Particle": "Particle/IronHeart/IronHeart_new_3",
+        "_gdeType_Particle": "GameObject",
+        "SkillImage": [
+            "S_Welbert_3\\S_Welbert_3_Image_0.png",
+            "S_Welbert_3\\S_Welbert_3_Image_1.png",
+            "S_Welbert_3\\S_Welbert_3_Image_2.png"
+        ],
+        "PlusSkillView": "S_Welbert_3__Ex"
+    }
+}

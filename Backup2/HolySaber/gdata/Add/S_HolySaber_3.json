@@ -1,0 +1,43 @@
+{
+    "S_HolySaber_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/IronHeart/IronHeart_new_3",
+        "Target": "enemy",
+        "NotCount": true,
+        "User": "HolySaber",
+        "UseAp": 2,
+        "Name": "光灿圣骑士·维尔伯特",
+        "Description": "生成1个[圣骑士]。\n<color=#4876FF>守护5</color> - 使手中这个技能<color=#FFA500>进化</color>。\n<color=#4876FF>守护10</color> - 额外获得[光灿圣骑]。\n<color=#FFA500>\n进化</color> - 附带无视嘲讽。额外造成&a(50%)伤害。",
+        "Effect_Target": "SE_T_S_HolySaber_3",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extend",
+            "SE_HolySaber_Defend"
+        ],
+        "PlusSkillView": "S_HolySaber_3__Ex",
+        "Image_0": "S_HolySaber_3\\S_HolySaber_3_Image_0.png",
+        "Image_1": "S_HolySaber_3\\S_HolySaber_3_Image_1.png",
+        "Image_2": "S_HolySaber_3\\S_HolySaber_3_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_3"
+        ],
+        "Effect_Self": "SE_S_S_HolySaber_3",
+        "PlusKeyWords": [
+            "Keyword_Defend"
+        ]
+    }
+}

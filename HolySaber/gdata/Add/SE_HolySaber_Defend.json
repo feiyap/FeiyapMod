@@ -1,0 +1,9 @@
+{
+    "SE_HolySaber_Defend": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "守护",
+        "ClassName": "HolySaber.SE_HolySaber_Defend"
+    }
+}

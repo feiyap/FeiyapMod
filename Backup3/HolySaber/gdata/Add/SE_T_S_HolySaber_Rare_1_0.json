@@ -1,0 +1,8 @@
+{
+    "SE_T_S_HolySaber_Rare_1_0": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 0,
+        "DMG_Base": 1
+    }
+}

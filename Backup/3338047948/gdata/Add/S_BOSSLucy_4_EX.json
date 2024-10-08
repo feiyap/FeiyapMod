@@ -1,8 +1,0 @@
-{
-    "S_BOSSLucy_4_EX": {
-        "_gdeSchema": "SkillExtended",
-        "AlwaysParticle": false,
-        "IsOnesInit": false,
-        "ClassName": "BOSSLucy.S_BOSSLucy_4_EX"
-    }
-}

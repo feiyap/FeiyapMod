@@ -1,0 +1,14 @@
+{
+    "SE_T_S_HolySaber_0": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 100,
+        "CRI": -5,
+        "Buffs": [
+            "B_HolySaber_Def"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

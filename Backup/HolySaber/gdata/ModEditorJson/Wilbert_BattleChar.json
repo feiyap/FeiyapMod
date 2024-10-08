@@ -1,0 +1,23 @@
+{
+    "myKey": "Wilbert",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Wilbert\\WilbertBattleChar.png",
+        "offsetMax": {
+            "x": 796.2862,
+            "y": 618.569
+        },
+        "offsetMin": {
+            "x": -896.2757,
+            "y": -1073.99292
+        },
+        "pivot": {
+            "x": 0.5295379,
+            "y": 0.634536862
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

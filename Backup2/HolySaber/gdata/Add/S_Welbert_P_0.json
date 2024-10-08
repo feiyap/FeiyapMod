@@ -1,0 +1,16 @@
+{
+    "S_Welbert_P_0": {
+        "_gdeSchema": "Skill",
+        "MySkill": "S_HolySaber_P_0",
+        "_gdeType_MySkill": "Skill",
+        "VFX": true,
+        "Particle": "Assets/HolySaberSpine/WelbertEx.prefab",
+        "_gdeType_Particle": "GameObject",
+        "Name": "英雄的号令",
+        "SkillImage": [
+            "S_Welbert_P_0\\S_Welbert_P_0_Image_0.png",
+            "S_Welbert_P_0\\S_Welbert_P_0_Image_1.png",
+            "S_Welbert_P_0\\S_Welbert_P_0_Image_2.png"
+        ]
+    }
+}

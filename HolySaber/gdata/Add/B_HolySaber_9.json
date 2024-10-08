@@ -1,0 +1,17 @@
+{
+    "B_HolySaber_9": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HolySaber.B_HolySaber_9",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "开眼者",
+        "Description": "受到的伤害降低&a点。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/Iron_5",
+        "LifeTime": 0,
+        "MaxStack": 5
+    }
+}

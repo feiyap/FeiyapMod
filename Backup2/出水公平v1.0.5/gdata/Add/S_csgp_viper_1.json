@@ -1,0 +1,12 @@
+{
+    "S_csgp_viper_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "IgnoreTaunt": false,
+        "Description": "使用后以倒计时2再次使用该技能\r",
+        "Name": "预设轨道",
+        "Image_0": "S_csgp_viper_1\\S_csgp_viper_1_Image_0.png"
+    }
+}

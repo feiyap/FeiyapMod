@@ -1,0 +1,11 @@
+{
+    "B_Shion_chess_king": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Icon": "B_Shion_chess_king\\B_Shion_chess_king_Icon.png",
+        "Name": "神秘国王",
+        "Description": "本场战斗中“奇幻士兵”造成的伤害翻倍，自身死亡时游戏结束。",
+        "Hide": false
+    }
+}

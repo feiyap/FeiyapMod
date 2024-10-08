@@ -1,0 +1,13 @@
+{
+    "S_csgp_hound_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": false,
+        "Description": "根据目标的<color=#FFA500>闪避率*2.5</color>增加该技能的基础伤害量<color=#9400d3>(负数也会增加，最大+60%)",
+        "Name": "追尾弹",
+        "Image_0": "S_csgp_hound_2\\S_csgp_hound_2_Image_0.png",
+        "Track": false
+    }
+}

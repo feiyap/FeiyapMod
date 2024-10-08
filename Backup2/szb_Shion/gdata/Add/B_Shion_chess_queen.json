@@ -1,0 +1,15 @@
+{
+    "B_Shion_chess_queen": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "szb_Shion.B_Shion_chess_queen",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_Shion_chess_queen\\B_Shion_chess_queen_Icon.png",
+        "Name": "神秘皇后",
+        "Description": "每回合第一次使用“奇幻士兵”时，将一张附带放逐的“奇幻战略”加入手牌，每回合第一次使用“奇幻战略”时，将一张“奇幻士兵”加入手牌本场战斗中使用第16张“奇幻士兵时”，将一张“女皇终局”加入手牌"
+    }
+}

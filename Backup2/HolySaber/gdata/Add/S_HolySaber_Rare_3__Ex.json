@@ -1,0 +1,25 @@
+{
+    "S_HolySaber_Rare_3__Ex": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "NotCount": true,
+        "Disposable": true,
+        "Name": "<color=#FFA500>光辉现世·拉</color>",
+        "Description": "使当前回合数+2。",
+        "UseAp": 3,
+        "Effect_Self": "SE_S_S_HolySaber_Rare_3__Ex",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extended"
+        ],
+        "Image_0": "S_HolySaber_Rare_3__Ex\\S_HolySaber_Rare_3__Ex_Image_0.png",
+        "Image_1": "S_HolySaber_Rare_3__Ex\\S_HolySaber_Rare_3__Ex_Image_1.png",
+        "Image_2": "S_HolySaber_Rare_3__Ex\\S_HolySaber_Rare_3__Ex_Image_2.png",
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_Rare_3__Ex"
+        ],
+        "NoDrop": true
+    }
+}

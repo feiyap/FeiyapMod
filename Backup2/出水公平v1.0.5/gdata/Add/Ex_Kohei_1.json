@@ -1,0 +1,14 @@
+{
+    "Ex_Kohei_1": {
+        "_gdeSchema": "SkillExtended",
+        "Drop": true,
+        "Debuff": false,
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "NeedCharacter": "kohei_lzumi",
+        "EnforceString": "费用2及以上",
+        "ClassName": "Kohei.Ex_Kohei_1",
+        "Name": "握在手中时，每次成功合成子弹后，费用减少1点。",
+        "Des": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "S_Shion_Tactics_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "弃兵",
+        "UseAp": 1,
+        "Description": "将一张“奇幻士兵”加入手牌，若本回合进行过弃牌，改为将一张“奇幻骑士”加入手牌",
+        "User": "szb_Shion",
+        "Image_0": "S_Shion_Tactics_5\\S_Shion_Tactics_5_Image_0.png",
+        "Image_1": "S_Shion_Tactics_5\\S_Shion_Tactics_5_Image_1.png",
+        "Image_2": "S_Shion_Tactics_5\\S_Shion_Tactics_5_Image_2.png",
+        "SkillExtended": [
+            "szb_Shion.S_Shion_Tactics_5"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "B_HolySaber_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HolySaber.B_HolySaber_1",
+        "BuffTag": "null",
+        "Name": "虹蛇",
+        "Description": "打出带有<color=#4876FF>守护</color>减益的技能时，获得1点进化点。",
+        "LifeTime": 1,
+        "Icon": "B_HolySaber_1\\B_HolySaber_1_Icon.png"
+    }
+}

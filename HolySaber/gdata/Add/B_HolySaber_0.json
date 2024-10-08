@@ -1,0 +1,15 @@
+{
+    "B_HolySaber_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HolySaber.B_HolySaber_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "神威独角兽",
+        "Description": "回合结束时，若自己的体力值为3的倍数，对随机敌人造成&a(90%)伤害；\n若自己体力值为4的倍数，抽取1个技能。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (15)"
+    }
+}

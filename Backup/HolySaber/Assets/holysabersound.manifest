@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 2945839379
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 89f102445c5b7e136bf873825582500b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/HolySaberSound/S_HolySaber_2__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_Token.mp3
+- Assets/HolySaberSound/S_HolySaber_9__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_9_Ex.mp3
+- Assets/HolySaberSound/S_Welbert_4.mp3
+- Assets/HolySaberSound/S_HolySaber_Rare_2_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_4__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_6_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_0__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_5.mp3
+- Assets/HolySaberSound/S_HolySaber_5_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_4.mp3
+- Assets/HolySaberSound/S_HolySaber_Rare_1.mp3
+- Assets/HolySaberSound/S_HolySaber_1__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_6.mp3
+- Assets/HolySaberSound/S_HolySaber_0_Ex.mp3
+- Assets/HolySaberSound/S_Welbert_3.mp3
+- Assets/HolySaberSound/S_HolySaber_Token_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_8.mp3
+- Assets/HolySaberSound/S_HolySaber_0.mp3
+- Assets/HolySaberSound/S_HolySaber_Rare_1__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_3_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_4_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_2_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_6__Ex.mp3
+- Assets/HolySaberSound/S_Welbert_3_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_1.mp3
+- Assets/HolySaberSound/S_HolySaber_P_0.mp3
+- Assets/HolySaberSound/S_HolySaber_LucyD.mp3
+- Assets/HolySaberSound/S_Welbert_3__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_Rare_3.mp3
+- Assets/HolySaberSound/S_HolySaber_Rare_2__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_8__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_Rare_2.mp3
+- Assets/HolySaberSound/S_HolySaber_8_0.mp3
+- Assets/HolySaberSound/S_HolySaber_Rare_3__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_9.mp3
+- Assets/HolySaberSound/S_HolySaber_Rare_1_Ex.mp3
+- Assets/HolySaberSound/S_Welbert_4_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_8_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_2.mp3
+- Assets/HolySaberSound/S_HolySaber_1_Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_5__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_Token__Ex.mp3
+- Assets/HolySaberSound/S_Welbert_4__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_Rare_3_Ex.mp3
+- Assets/HolySaberSound/S_Welbert_P_0.mp3
+- Assets/HolySaberSound/S_HolySaber_3__Ex.mp3
+- Assets/HolySaberSound/S_HolySaber_3.mp3
+Dependencies: []

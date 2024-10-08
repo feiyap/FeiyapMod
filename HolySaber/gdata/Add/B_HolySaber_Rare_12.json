@@ -1,0 +1,10 @@
+{
+    "B_HolySaber_Rare_12": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HolySaber.B_HolySaber_Rare_12",
+        "BuffTag": "null",
+        "Name": "光辉现世",
+        "Description": "回合结束时，对所有敌人造成&a(当前回合数 x 6)痛苦伤害。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newicons (3)"
+    }
+}

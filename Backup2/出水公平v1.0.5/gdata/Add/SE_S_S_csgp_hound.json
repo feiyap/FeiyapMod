@@ -1,0 +1,11 @@
+{
+    "SE_S_S_csgp_hound": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "b_csgp_up"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

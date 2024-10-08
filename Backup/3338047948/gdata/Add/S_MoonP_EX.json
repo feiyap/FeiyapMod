@@ -1,9 +1,0 @@
-{
-    "S_MoonP_EX": {
-        "_gdeSchema": "SkillExtended",
-        "Name": "月亮",
-        "IsIcon": "S_MoonP_EX\\S_MoonP_EX_Icon.png",
-        "Des": "恢复量减少3点。\n当月亮碎片和太阳碎片都在战场上时，恢复量减少6点。",
-        "ClassName": "BOSSLucy.S_MoonP_EX"
-    }
-}

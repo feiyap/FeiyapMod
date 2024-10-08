@@ -1,0 +1,39 @@
+{
+    "S_HolySaber_Rare_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "IgnoreTaunt": false,
+        "Name": "光辉现世·拉",
+        "Description": "<color=#FFA500>进化</color> - 使当前回合数+2。",
+        "UseAp": 3,
+        "NotCount": true,
+        "Disposable": true,
+        "Effect_Target": "null",
+        "Effect_Self": "SE_S_S_HolySaber_Rare_3",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extend"
+        ],
+        "Image_0": "S_HolySaber_Rare_3\\S_HolySaber_Rare_3_Image_0.png",
+        "Image_1": "S_HolySaber_Rare_3\\S_HolySaber_Rare_3_Image_1.png",
+        "Image_2": "S_HolySaber_Rare_3\\S_HolySaber_Rare_3_Image_2.png",
+        "NoDrop": false,
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_Rare_3"
+        ],
+        "PlusSkillView": "S_HolySaber_Rare_3__Ex",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "HolySaber"
+    }
+}

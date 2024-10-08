@@ -1,8 +1,0 @@
-{
-    "S_Lock_EX": {
-        "_gdeSchema": "SkillExtended",
-        "AlwaysParticle": false,
-        "IsOnesInit": false,
-        "ClassName": "BOSSLucy.S_Lock_EX"
-    }
-}

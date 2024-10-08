@@ -1,0 +1,13 @@
+{
+    "S_csgp_viper_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "IgnoreTaunt": false,
+        "Description": "同时对其他血量≤50%的敌人使用该技能，根据其数量增加该技能的倒计时",
+        "Name": "自设轨道",
+        "Image_0": "S_csgp_viper_2\\S_csgp_viper_2_Image_0.png",
+        "User": ""
+    }
+}

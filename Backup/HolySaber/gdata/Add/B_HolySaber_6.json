@@ -1,0 +1,11 @@
+{
+    "B_HolySaber_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HolySaber.B_HolySaber_6",
+        "BuffTag": "null",
+        "Name": "完美守护",
+        "Description": "受到攻击后解除。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_20",
+        "LifeTime": 0
+    }
+}

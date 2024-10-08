@@ -1,0 +1,18 @@
+{
+    "B_HolySaber_Def": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HolySaber.B_HolySaber_Def",
+        "BuffTag": "CrowdControl",
+        "Name": "<color=#4876FF>守护</color>",
+        "Description": "优先攻击&target。\n攻击该目标时解除。",
+        "LifeTime": 3,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newIcons_Taunt",
+        "Debuff": true,
+        "TagPer": 100,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "RemiliaScarletLord": {
+        "Character": "RemiliaScarlet",
+        "_gdeType_Character": "Character",
+        "_gdeType_SkinName": "String",
+        "SkinName": "飞翔于天空的不可思议的巫女",
+        "_gdeSchema": "Character_Skin",
+        "FaceSprite": "RemiliaScarletLord\\RemiliaScarletLordBattleFace.png",
+        "CollectionSprite_Cover": "RemiliaScarletLord\\RemiliaScarletLordCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "RemiliaScarletLord\\RemiliaScarletLordCollectionSprite_SkillFace.png",
+        "CampSD": [
+            "RemiliaScarletLord\\RemiliaScarletLordCampSD0.png",
+            "RemiliaScarletLord\\RemiliaScarletLordCampSD1.png",
+            "RemiliaScarletLord\\RemiliaScarletLordCampSD2.png",
+            "RemiliaScarletLord\\RemiliaScarletLordCampSD3.png"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "S_csgp_tomahawk_c2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "向右攻击",
+        "Image_0": "S_csgp_cobra_c2\\S_csgp_cobra_c2_Image_0.png"
+    }
+}

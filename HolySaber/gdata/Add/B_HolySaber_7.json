@@ -1,0 +1,10 @@
+{
+    "B_HolySaber_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HolySaber.B_HolySaber_7",
+        "BuffTag": "null",
+        "Name": "神的告诫",
+        "Description": "每回合第1次使用自己的技能时，获得1点进化点。",
+        "Icon": "B_HolySaber_7\\B_HolySaber_7_Icon.png"
+    }
+}

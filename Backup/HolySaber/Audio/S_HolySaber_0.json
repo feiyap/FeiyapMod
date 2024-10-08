@@ -1,0 +1,7 @@
+{
+    "Name": "S_HolySaber_0",
+    "path": "Assets/HolySaberSound/S_HolySaber_0.mp3",
+    "AssetBundlePath": "holysabersound",
+    "Loop": false,
+    "Bus": "SE"
+}

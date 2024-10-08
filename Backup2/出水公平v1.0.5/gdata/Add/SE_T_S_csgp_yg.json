@@ -1,0 +1,14 @@
+{
+    "SE_T_S_csgp_yg": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "b_csgp_missdown",
+            "B_Taunt"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            20
+        ]
+    }
+}

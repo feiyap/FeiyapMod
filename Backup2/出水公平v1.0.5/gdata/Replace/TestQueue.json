@@ -1,0 +1,9 @@
+{
+    "TestQueue": {
+        "_gdeSchema": "EnemyQueue",
+        "Enemys": [
+            "sandbox",
+            "S1_Maid"
+        ]
+    }
+}

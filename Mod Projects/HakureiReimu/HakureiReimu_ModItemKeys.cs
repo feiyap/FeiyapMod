@@ -531,6 +531,7 @@ namespace HakureiReimu
 		/// English:
 		/// Spell Out! Innate Dream!
 		/// Japanese:
+		/// スペルカード!「夢想天生」！
 		/// Chinese:
 		/// 符卡解放！「梦想天生」！
 		/// Chinese-TW:
@@ -541,6 +542,7 @@ namespace HakureiReimu
 		/// English:
 		/// Lend me your strength!
 		/// Japanese:
+		/// あなたの力、貸しなさい！
 		/// Chinese:
 		/// 你的力量，借给我用一下吧！
 		/// Chinese-TW:

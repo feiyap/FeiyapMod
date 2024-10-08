@@ -1,0 +1,33 @@
+{
+    "S_HolySaber_Token": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "enemy",
+        "NotCount": true,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Name": "圣骑士",
+        "Description": "<color=#FFA500>进化</color> - 额外造成&a(50%)伤害。",
+        "Except": true,
+        "Effect_Target": "SE_T_S_HolySaber_Token",
+        "Image_0": "S_HolySaber_Token\\S_HolySaber_Token_Image_0.png",
+        "Image_1": "S_HolySaber_Token\\S_HolySaber_Token_Image_1.png",
+        "Image_2": "S_HolySaber_Token\\S_HolySaber_Token_Image_2.png",
+        "PlusSkillView": "S_HolySaber_Token__Ex",
+        "PlusKeyWords": [
+            
+        ],
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extend",
+            "SE_HolySaber_Defend"
+        ],
+        "Basic": false,
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_Token"
+        ],
+        "NoBasicSkill": false
+    }
+}

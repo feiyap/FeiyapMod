@@ -1,0 +1,11 @@
+{
+    "SE_S_S_csgp_gjzt": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "b_csgp_pnm"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

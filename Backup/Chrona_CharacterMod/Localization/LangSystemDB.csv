@@ -1,7 +1,0 @@
-Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-CharText/Chrona/6_and_12,Text,,"카운트 되는 동안, 적의 시간의 모래 중첩이 6 또는 12가 되면 즉시 시전됩니다.","During the countdown, if an enemy's Sand of Time stacks become 6 or 12, immediately cast.",,倒计时期间若有敌人的时之砂层数变为6或12则立即释放。,
-CharText/Chrona/S_Chrona_2,Text,,"스킬 1개를 선택해 카운트 2, 신속, 도발무시를 부여합니다. 취소하려면 “뒤로”를 클릭하세요.","Choose 1 skill in hand to give it a countdown of 2, Swiftness, and ignore taunt. Click 'Return' to cancel this effect.",,选择手中的1个技能赋予倒计时2、迅速、无视嘲讽。点击“返回”可取消该效果。,
-CharText/Enemy/Light/Ally/Chrona,Text,,더 많은 가능성이 밝혀졌어!,More possibilities are illuminated!,,更多的可能性被照亮了！,
-CharText/Enemy/Time/Ally/Chrona,Text,,시간이 흐름이... 느려져가...,The flow of time... feels so slow...,,时间的流速……变得好慢……,
-CharText/Enemy/Witch/Ally/Chrona,Text,,내 몸에 저주 하나 쯤 더 있어도 상관 없어... 이길 수만 있다면.,I don't mind having another curse on me temporarily... as long as it means winning.,,我不介意身上暂时再多一份诅咒……只要能赢的话。,
-CharText/Enemy/Witch/Ally/Chrona_Low,Text,,국면이... 점점 Bad Ending으로 흘러가네...,The situation... seems to be gradually heading towards a Bad Ending...,,局势……逐渐向Bad Ending发展了呢……,

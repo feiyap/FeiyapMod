@@ -1,0 +1,34 @@
+{
+    "S_Shion_chess_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Name": "奇幻城堡",
+        "Description": "将两张“奇幻士兵”加入手牌",
+        "UseAp": 2,
+        "Effect_Self": "SE_S_S_Shion_chess_1",
+        "NoBasicSkill": false,
+        "Image_0": "S_Shion_chess_1\\S_Shion_chess_1_Image_0.png",
+        "Image_1": "S_Shion_chess_1\\S_Shion_chess_1_Image_1.png",
+        "Image_2": "S_Shion_chess_1\\S_Shion_chess_1_Image_2.png",
+        "SkillExtended": [
+            "szb_Shion.S_Shion_chess_1"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "szb_Shion"
+    }
+}

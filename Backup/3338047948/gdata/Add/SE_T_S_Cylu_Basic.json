@@ -1,8 +1,0 @@
-{
-    "SE_T_S_Cylu_Basic": {
-        "_gdeSchema": "SkillEffect",
-        "HIT": 100,
-        "DMG_Per": 90,
-        "DMG_Base": 1
-    }
-}

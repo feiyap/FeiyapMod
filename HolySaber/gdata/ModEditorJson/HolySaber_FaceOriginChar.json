@@ -1,0 +1,23 @@
+{
+    "myKey": "HolySaber",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "HolySaber\\HolySaberFaceOriginChar.png",
+        "offsetMax": {
+            "x": 651.545837,
+            "y": 447.5548
+        },
+        "offsetMin": {
+            "x": -620.100952,
+            "y": -824.091858
+        },
+        "pivot": {
+            "x": 0.486535221,
+            "y": 0.6438249
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

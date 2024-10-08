@@ -1,0 +1,11 @@
+{
+    "S_HolySaber_Rare_1_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar_4",
+        "Target": "enemy",
+        "NoDrop": true,
+        "Name": "尊荣骑士",
+        "Effect_Target": "SE_T_S_HolySaber_Rare_1_0"
+    }
+}

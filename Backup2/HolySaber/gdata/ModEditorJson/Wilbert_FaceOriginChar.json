@@ -1,0 +1,23 @@
+{
+    "myKey": "Wilbert",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Wilbert\\WilbertFaceOriginChar.png",
+        "offsetMax": {
+            "x": 986.3209,
+            "y": 652.3953
+        },
+        "offsetMin": {
+            "x": -1061.67908,
+            "y": -1395.60474
+        },
+        "pivot": {
+            "x": 0.5177144,
+            "y": 0.678823531
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

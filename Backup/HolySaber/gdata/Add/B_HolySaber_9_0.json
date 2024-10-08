@@ -1,0 +1,16 @@
+{
+    "B_HolySaber_9_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HolySaber.B_HolySaber_9_0",
+        "BuffTag": "null",
+        "Name": "一伐枪",
+        "Description": "",
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_20",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

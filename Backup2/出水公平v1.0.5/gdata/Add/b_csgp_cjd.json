@@ -1,0 +1,14 @@
+{
+    "b_csgp_cjd": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Kohei.B_Kohei_cjd",
+        "Debuff": false,
+        "BuffTag": "null",
+        "TagPer": 0,
+        "Name": "穿甲弹",
+        "Description": "暴击率+100%",
+        "LifeTime": 1,
+        "Tick": "null",
+        "Icon": "b_csgp_cjd\\b_csgp_cjd_Icon.png"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "HolySaberImage": {
+        "_gdeType_Moded": "Bool",
+        "aModed": true,
+        "_gdeIsList_Sprites": 1,
+        "_gdeType_Sprites": "Sprite",
+        "Sprites": [
+            "HolySaberBattleFace.png",
+            "HolySaberBattleFace2.png"
+        ],
+        "_gdeSchema": "ImageDatas"
+    }
+}

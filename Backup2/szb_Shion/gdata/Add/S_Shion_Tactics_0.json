@@ -1,0 +1,22 @@
+{
+    "S_Shion_Tactics_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "Disposable": false,
+        "Name": "奇幻战略",
+        "Description": "将1张“奇幻士兵”加入手牌,若本场战斗中已使用的“奇幻士兵”为8张以上，改为2张。抽1张牌。（本场战斗当前已使用&a张“奇幻士兵”）",
+        "UseAp": 2,
+        "NotCount": true,
+        "Image_0": "S_Shion_Tactics_0\\S_Shion_Tactics_0_Image_0.png",
+        "Image_1": "S_Shion_Tactics_0\\S_Shion_Tactics_0_Image_1.png",
+        "Image_2": "S_Shion_Tactics_0\\S_Shion_Tactics_0_Image_2.png",
+        "SkillExtended": [
+            "szb_Shion.S_Shion_Tactics_0"
+        ],
+        "NoDrop": false,
+        "User": "szb_Shion"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "S_HolySaber_5__Ex": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_S_0",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "<color=#FFA500>狐耳圣骑士</color>",
+        "Description": "生成2个[圣骑士]。\n<color=#4876FF>守护5</color> - 使生成的[圣骑士]<color=#FFA500>进化</color>。\n<color=#4876FF>守护10</color> - 使生成的[圣骑士]附带无视嘲讽和致命。",
+        "UseAp": 2,
+        "PlusKeyWords": [
+            "Keyword_Defend"
+        ],
+        "Effect_Target": "SE_T_S_HolySaber_5__Ex",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extended"
+        ],
+        "Image_0": "S_HolySaber_5__Ex\\S_HolySaber_5__Ex_Image_0.png",
+        "Image_1": "S_HolySaber_5__Ex\\S_HolySaber_5__Ex_Image_1.png",
+        "Image_2": "S_HolySaber_5__Ex\\S_HolySaber_5__Ex_Image_2.png",
+        "PlusSkillView": "S_HolySaber_Token",
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_5__Ex"
+        ],
+        "NoDrop": true
+    }
+}

@@ -51,6 +51,8 @@ namespace HakureiReimu
         {
             yield return new WaitForFixedUpdate();
 
+            MasterAudio.StopBus("BGM");
+            MasterAudio.StopBus("BattleBGM");
             MasterAudio.PlaySound("Musoutensei", 1f, null, 0f, null, null, false, false);
 
             yield return BattleText.InstBattleTextAlly_Co(this.BChar, ModManager.getModInfo("HakureiReimu").localizationInfo.SystemLocalizationUpdate("BattleDia/Musoutensei/Text1"), false);

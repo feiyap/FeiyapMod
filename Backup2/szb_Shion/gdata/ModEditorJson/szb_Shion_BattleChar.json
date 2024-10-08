@@ -1,0 +1,23 @@
+{
+    "myKey": "szb_Shion",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "szb_Shion\\szb_ShionBattleChar.png",
+        "pivot": {
+            "x": 0.6055282,
+            "y": 0.781062067
+        },
+        "offsetMin": {
+            "x": -364.527954,
+            "y": -1171.59314
+        },
+        "offsetMax": {
+            "x": 237.472031,
+            "y": 328.4069
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

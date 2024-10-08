@@ -1,0 +1,31 @@
+{
+    "S_HolySaber_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_4",
+        "Target": "all_enemy",
+        "NotCount": false,
+        "NoDrop": false,
+        "Except": false,
+        "Name": "尊荣骑士·维尔伯特",
+        "Description": "生成2个[圣骑士]。\n\n<color=#FFA500>进化</color> - 额外获得[防御降临]。",
+        "UseAp": 3,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_HolySaber_Rare_1",
+        "Effect_Self": "SE_S_S_HolySaber_Rare_1",
+        "Image_0": "S_HolySaber_Rare_1\\S_HolySaber_Rare_1_Image_0.png",
+        "Image_1": "S_HolySaber_Rare_1\\S_HolySaber_Rare_1_Image_1.png",
+        "Image_2": "S_HolySaber_Rare_1\\S_HolySaber_Rare_1_Image_2.png",
+        "Rare": true,
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_Rare_1"
+        ],
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extend",
+            "SE_HolySaber_Defend"
+        ],
+        "User": "HolySaber",
+        "PlusSkillView": "S_HolySaber_Rare_1__Ex",
+        "Basic": false
+    }
+}

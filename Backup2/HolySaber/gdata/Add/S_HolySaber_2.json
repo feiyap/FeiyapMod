@@ -1,0 +1,27 @@
+{
+    "S_HolySaber_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_3",
+        "Target": "enemy",
+        "Name": "着魔的圣战士",
+        "Description": "<color=#FFA500>进化</color> - 依据这个回合中从手中打出的拥有<color=#4876FF>守护</color>减益的技能数，抽取那个数量的技能。",
+        "UseAp": 2,
+        "User": "HolySaber",
+        "Effect_Target": "SE_T_S_HolySaber_2",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extend",
+            "SE_HolySaber_Defend"
+        ],
+        "Image_0": "S_HolySaber_2\\S_HolySaber_2_Image_0.png",
+        "Image_1": "S_HolySaber_2\\S_HolySaber_2_Image_1.png",
+        "Image_2": "S_HolySaber_2\\S_HolySaber_2_Image_2.png",
+        "NoDrop": false,
+        "PlusSkillView": "S_HolySaber_2__Ex",
+        "NotCount": false,
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_2"
+        ],
+        "IgnoreTaunt": false
+    }
+}

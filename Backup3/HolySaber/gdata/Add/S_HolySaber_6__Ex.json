@@ -1,0 +1,24 @@
+{
+    "S_HolySaber_6__Ex": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": true,
+        "Disposable": false,
+        "Name": "<color=#FFA500>导引之钟·叮咚天使</color>",
+        "Description": "抽取2个技能。",
+        "UseAp": 0,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_HolySaber_6__Ex",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extended"
+        ],
+        "Image_0": "S_HolySaber_6__Ex\\S_HolySaber_6__Ex_Image_0.png",
+        "Image_1": "S_HolySaber_6__Ex\\S_HolySaber_6__Ex_Image_1.png",
+        "Image_2": "S_HolySaber_6__Ex\\S_HolySaber_6__Ex_Image_2.png",
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_6__Ex"
+        ]
+    }
+}

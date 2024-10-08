@@ -1,0 +1,37 @@
+{
+    "S_HolySaber_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": true,
+        "Name": "导引之钟·叮咚天使",
+        "Description": "抽取1个技能。\n\n<color=#FFA500>进化</color> - 额外抽取1个技能。",
+        "User": "HolySaber",
+        "Disposable": false,
+        "Effect_Target": "SE_T_S_HolySaber_6",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extend"
+        ],
+        "Image_0": "S_HolySaber_6\\S_HolySaber_6_Image_0.png",
+        "Image_1": "S_HolySaber_6\\S_HolySaber_6_Image_1.png",
+        "Image_2": "S_HolySaber_6\\S_HolySaber_6_Image_2.png",
+        "NoDrop": false,
+        "PlusSkillView": "S_HolySaber_6__Ex",
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_6"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

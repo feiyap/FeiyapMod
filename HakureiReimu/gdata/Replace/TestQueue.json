@@ -2,9 +2,7 @@
     "TestQueue": {
         "_gdeSchema": "EnemyQueue",
         "Enemys": [
-            "S2_Horse",
-            "S2_Horse",
-            "S2_Horse"
+            "S3_Boss_Pope"
         ]
     }
 }

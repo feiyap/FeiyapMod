@@ -1,0 +1,11 @@
+{
+    "SE_S_S_HolySaber_0__Ex": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_HolySaber_0"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

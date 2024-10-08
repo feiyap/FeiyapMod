@@ -1,9 +1,0 @@
-{
-    "Ex_Yueq_Yuep": {
-        "_gdeSchema": "SkillExtended",
-        "AlwaysParticle": false,
-        "IsOnesInit": false,
-        "Name": "乐谱",
-        "ClassName": "YueQ.Ex_Yueq_Yuep"
-    }
-}

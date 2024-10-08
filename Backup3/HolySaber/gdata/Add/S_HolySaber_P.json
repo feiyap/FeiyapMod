@@ -1,0 +1,32 @@
+{
+    "S_HolySaber_P": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "skill",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": true,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "进化",
+        "Description": "拥有<color=#FFA500>进化点</color>时才可使用。\n消耗1个<color=#FFA500>进化点</color>，使手中一个可<color=#FFA500>进化</color>的技能触发<color=#FFA500>进化</color>效果。",
+        "UseAp": -1,
+        "Image_0": "S_HolySaber_P\\S_HolySaber_P_Image_0.png",
+        "Image_1": "S_HolySaber_P\\S_HolySaber_P_Image_1.png",
+        "Image_2": "S_HolySaber_P\\S_HolySaber_P_Image_2.png",
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_P"
+        ]
+    }
+}

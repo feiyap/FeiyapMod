@@ -1,0 +1,16 @@
+{
+    "B_Shion_chess_queen_end": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "szb_Shion.B_Shion_chess_queen_end",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": true,
+        "Icon": "B_Shion_chess_queen_end\\B_Shion_chess_queen_end_Icon.png",
+        "Description": "攻击力+30%",
+        "Tick": "null",
+        "Name": "女皇终局"
+    }
+}

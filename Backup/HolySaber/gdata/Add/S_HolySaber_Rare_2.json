@@ -1,0 +1,41 @@
+{
+    "S_HolySaber_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_5",
+        "Rare": true,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "神谕的启程·贞德",
+        "UseAp": 2,
+        "User": "HolySaber",
+        "Effect_Target": "SE_T_S_HolySaber_Rare_2",
+        "Description": "<color=#FFA500>进化</color> - 使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extend",
+            "SE_HolySaber_Defend",
+            "SE_HolySaber_Defend"
+        ],
+        "Image_0": "S_HolySaber_Rare_2\\S_HolySaber_Rare_2_Image_0.png",
+        "Image_1": "S_HolySaber_Rare_2\\S_HolySaber_Rare_2_Image_1.png",
+        "Image_2": "S_HolySaber_Rare_2\\S_HolySaber_Rare_2_Image_2.png",
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_Rare_2"
+        ],
+        "PlusSkillView": "S_HolySaber_Rare_2__Ex",
+        "Effect_Self": "SE_S_S_HolySaber_Rare_2"
+    }
+}

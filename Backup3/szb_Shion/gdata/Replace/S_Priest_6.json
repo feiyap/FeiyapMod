@@ -1,0 +1,8 @@
+{
+    "S_Priest_6": {
+        "_gdeSchema": "Skill",
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

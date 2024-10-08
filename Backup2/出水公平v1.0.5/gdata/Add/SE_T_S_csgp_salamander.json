@@ -1,0 +1,24 @@
+{
+    "SE_T_S_csgp_salamander": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 60,
+        "Buffs": [
+            "b_csgp_hit"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    },
+    "SE_T_S_csgp_salamander2": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 30,
+        "Buffs": [
+            "b_csgp_hit"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

@@ -1,0 +1,166 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_HolySaber_0_Description,Text,,,,,"回合结束时，若自己的体力值为3的倍数，对随机敌人造成&a(90%)伤害；
+若自己体力值为4的倍数，抽取1个技能。",
+Buff/B_HolySaber_0_Name,Text,,,,,神威独角兽,
+Buff/B_HolySaber_1_Description,Text,,,,,打出带有<color=#4876FF>守护</color>减益的技能时，获得1点进化点。,
+Buff/B_HolySaber_1_Name,Text,,,,,虹蛇,
+Buff/B_HolySaber_3_Description,Text,,,,,回合结束时，对随机敌人造成&a(手牌中拥有[守护]减益的技能数 x 75%防御力)的伤害。,
+Buff/B_HolySaber_3_Name,Text,,,,,光灿圣骑,
+Buff/B_HolySaber_6_Description,Text,,,,,受到攻击后解除。,
+Buff/B_HolySaber_6_Name,Text,,,,,完美守护,
+Buff/B_HolySaber_7_Description,Text,,,,,每回合第1次使用自己的技能时，获得1点进化点。,
+Buff/B_HolySaber_7_Name,Text,,,,,神的告诫,
+Buff/B_HolySaber_8_0_Description,Text,,,,,,
+Buff/B_HolySaber_8_0_Name,Text,,,,,守护神威,
+Buff/B_HolySaber_8_Description,Text,,,,,"每次使用带有<color=#4876FF>守护</color>减益的技能时，减少1回合持续时间（不能低于1回合）。
+效果解除时，对所有敌人造成&a(150%)伤害，并施加<color=#4876FF>守护</color>。",
+Buff/B_HolySaber_8_Name,Text,,,,,双炮神罚,
+Buff/B_HolySaber_9_0_Description,Text,,,,,,
+Buff/B_HolySaber_9_0_Name,Text,,,,,一伐枪,
+Buff/B_HolySaber_9_Description,Text,,,,,受到的伤害降低&a点。,
+Buff/B_HolySaber_9_Name,Text,,,,,开眼者,
+Buff/B_HolySaber_Def_Description,Text,,,,,"优先攻击&target。
+攻击该目标时解除。",
+Buff/B_HolySaber_Def_Name,Text,,,,,<color=#4876FF>守护</color>,
+Buff/B_HolySaber_P_0_Description,Text,,,,,受到的痛苦伤害降低为0。,
+Buff/B_HolySaber_P_0_Name,Text,,,,,圣女的号令,
+Buff/B_HolySaber_P_Description,Text,,,,,<i><color=#FFA500>进化</color>是通向胜利的关键！</i>,
+Buff/B_HolySaber_P_Name,Text,,,,,进化点,
+Buff/B_HolySaber_Rare_10_0_Description,Text,,,,,,
+Buff/B_HolySaber_Rare_10_0_Name,Text,,,,,防御降临,
+Buff/B_HolySaber_Rare_10_Description,Text,,,,,当自己受到伤害时，对来源造成&a(50%防御力)的伤害。,
+Buff/B_HolySaber_Rare_10_Name,Text,,,,,尊荣骑士,
+Buff/B_HolySaber_Rare_11_Description,Text,,,,,使抽到的可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。,
+Buff/B_HolySaber_Rare_11_Name,Text,,,,,神谕启程,
+Buff/B_HolySaber_Rare_12_0_Description,Text,,,,,,
+Buff/B_HolySaber_Rare_12_0_Name,Text,,,,,拉的信仰,
+Buff/B_HolySaber_Rare_12_Description,Text,,,,,回合结束时，对所有敌人造成&a(当前回合数 x 6)痛苦伤害。,
+Buff/B_HolySaber_Rare_12_Name,Text,,,,,光辉现世,
+Character/HolySaber_CampSelectWord,Text,,,,,我有必须追求的大义，还有必须成就的目的。,
+Character/HolySaber_PassiveDes,Text,,,,,"<b>进化</b> - 战斗开始时，获得3个<color=#FFA500>进化点</color>。固定能力变更为[进化]：消耗1个<color=#FFA500>进化点</color>，使手中一个可<color=#FFA500>进化</color>的技能触发<color=#FFA500>进化</color>效果。
+
+<b>圣女的号令</b> - 回合开始时，若<color=#FFC125>进化5</color>，将一张[圣女的号令]加入手中。这个效果1场战斗只能触发1次。
+
+<color=#FFC125><b>进化X</b></color> - 本场战斗中，已发动的<color=#FFA500>进化</color>的次数大于X次时，可以触发额外效果。
+
+<color=#4876FF><b>守护X</b></color> - 本场战斗中，已使用过带有<color=#4876FF>守护</color>减益的技能的次数大于X次时，可以触发额外效果。",
+Character/HolySaber_PassiveName,Text,,,,,进化,
+Character/HolySaber_SelectInfo,Text,,,,,"圣辉女剑士是精通多种嘲讽技巧的防御型角色。
+
+圣辉女剑士的大部分技能附带“守护”减益，被命中的敌人无法选择她之外的调查员作为攻击目标。除此之外，圣辉女剑士拥有独特的进化技能的能力。在每个回合，她能够进化手中的技能，使技能发挥更强大的效果；在累计进化数次后，部分技能还会解锁额外效果。
+
+以此身为盾，斩落敌人吧！",
+Character/HolySaber_name,Text,,,,,圣辉女剑士,
+Character_Skin/Wilbert_SkinDesc,Text,,,,,"吾早已明白己身的邪恶。
+人们的脆弱即吾的罪过，而吾的脆弱是一切的元凶。
+在噩梦中与其对峙也已有多次。吾的心不期望安眠。
+──安息试炼，吾接受挑战。",
+Character_Skin/Wilbert_SkinName,Text,,,,,光耀圣骑士·维尔伯特,
+Skill/S_HolySaber_0_0_Name,Text,,,,,神威独角兽,
+Skill/S_HolySaber_0_Description,Text,,,,,<color=#FFA500>进化</color> - 额外造成&a(50%)伤害。获得[神威独角兽]。,
+Skill/S_HolySaber_0_Name,Text,,,,,神威独角兽,
+Skill/S_HolySaber_0__Ex_Description,Text,,,,,,
+Skill/S_HolySaber_0__Ex_Name,Text,,,,,<color=#FFA500>神威独角兽</color>,
+Skill/S_HolySaber_1_Description,Text,,,,,<color=#FFA500>进化</color> - 额外造成&a(50%)伤害。额外施加<color=#4876FF>守护</color>。,
+Skill/S_HolySaber_1_Name,Text,,,,,虹蛇,
+Skill/S_HolySaber_1__Ex_Name,Text,,,,,<color=#FFA500>虹蛇</color>,
+Skill/S_HolySaber_2_Description,Text,,,,,<color=#FFA500>进化</color> - 依据这个回合中从手中打出的拥有<color=#4876FF>守护</color>减益的技能数，抽取那个数量的技能。,
+Skill/S_HolySaber_2_Name,Text,,,,,着魔的圣战士,
+Skill/S_HolySaber_2__Ex_Description,Text,,,,,依据这个回合中从手中打出的拥有<color=#4876FF>守护</color>减益的技能数，抽取那个数量的技能。,
+Skill/S_HolySaber_2__Ex_Name,Text,,,,,<color=#FFA500>着魔的圣战士</color>,
+Skill/S_HolySaber_3_Description,Text,,,,,"生成1个[圣骑士]。
+<color=#4876FF>守护5</color> - 使手中这个技能<color=#FFA500>进化</color>。
+<color=#4876FF>守护10</color> - 额外获得[光灿圣骑]。
+<color=#FFA500>
+进化</color> - 附带无视嘲讽。额外造成&a(50%)伤害。",
+Skill/S_HolySaber_3_Name,Text,,,,,光灿圣骑士·维尔伯特,
+Skill/S_HolySaber_3__Ex_Description,Text,,,,,"生成1个[圣骑士]。
+<color=#4876FF>守护10</color> - 额外获得[光灿圣骑]。",
+Skill/S_HolySaber_3__Ex_Name,Text,,,,,<color=#FFA500>光灿圣骑士·维尔伯特</color>,
+Skill/S_HolySaber_4_Description,Text,,,,,"<b><color=red>无法使用进化点<color=#FFA500>进化</color>。</b></color>
+<color=#FFC125>进化5</color> - 恢复2点法力值。
+<color=#FFC125>进化10</color> - 将一张[圣女的号令]加入手中。
+
+<color=#FFA500>进化</color> - 额外造成&a(200%)伤害。",
+Skill/S_HolySaber_4_Name,Text,,,,,圣辉女剑士,
+Skill/S_HolySaber_4__Ex_Description,Text,,,,,"<color=#FFC125>进化5</color> - 恢复2点法力值。
+<color=#FFC125>进化10</color> - 将一张[圣女的号令]加入手中。",
+Skill/S_HolySaber_4__Ex_Name,Text,,,,,<color=#FFA500>圣辉女剑士</color>,
+Skill/S_HolySaber_5_0_Description,Text,,,,,,
+Skill/S_HolySaber_5_0_Name,Text,,,,,光灿圣骑,
+Skill/S_HolySaber_5_Description,Text,,,,,"生成2个[圣骑士]。
+<color=#4876FF>守护5</color> - 使生成的[圣骑士]<color=#FFA500>进化</color>。
+<color=#4876FF>守护10</color> - 使生成的[圣骑士]附带无视嘲讽和致命。
+
+<color=#FFA500>进化</color> - 额外造成&a(50%)伤害。",
+Skill/S_HolySaber_5_Name,Text,,,,,狐耳圣骑士,
+Skill/S_HolySaber_5__Ex_Description,Text,,,,,"生成2个[圣骑士]。
+<color=#4876FF>守护5</color> - 使生成的[圣骑士]<color=#FFA500>进化</color>。
+<color=#4876FF>守护10</color> - 使生成的[圣骑士]附带无视嘲讽和致命。",
+Skill/S_HolySaber_5__Ex_Name,Text,,,,,<color=#FFA500>狐耳圣骑士</color>,
+Skill/S_HolySaber_6_Description,Text,,,,,"抽取1个技能。
+
+<color=#FFA500>进化</color> - 额外抽取1个技能。",
+Skill/S_HolySaber_6_Name,Text,,,,,导引之钟·叮咚天使,
+Skill/S_HolySaber_6__Ex_Description,Text,,,,,抽取2个技能。,
+Skill/S_HolySaber_6__Ex_Name,Text,,,,,<color=#FFA500>导引之钟·叮咚天使</color>,
+Skill/S_HolySaber_7_Description,Text,,,,,<color=#FFA500>进化</color> - 指定一个敌人，对其造成&a(150%)伤害，并施加<color=#4876FF>守护</color>。,
+Skill/S_HolySaber_7_Name,Text,,,,,亚必迭,
+Skill/S_HolySaber_7__Ex_Description,Text,,,,,,
+Skill/S_HolySaber_7__Ex_Name,Text,,,,,<color=#FFA500>亚必迭</color>,
+Skill/S_HolySaber_8_0_Description,Text,,,,,,
+Skill/S_HolySaber_8_0_Name,Text,,,,,双炮神罚,
+Skill/S_HolySaber_8_Description,Text,,,,,"<i>这个技能被视作带有<color=#4876FF>守护</color>减益的技能。</i>
+
+<color=#FFA500>进化</color> - 额外获得[守护神威]。",
+Skill/S_HolySaber_8_Name,Text,,,,,双炮神罚·安维特,
+Skill/S_HolySaber_8__Ex_Description,Text,,,,,<i>这个技能被视作带有<color=#4876FF>守护</color>减益的技能。</i>,
+Skill/S_HolySaber_8__Ex_Name,Text,,,,,<color=#FFA500>双炮神罚·安维特</color>,
+Skill/S_HolySaber_9_Description,Text,,,,,"<color=#FFC125>进化5</color> - 额外施加[开眼者]。
+<color=#FFA500>进化</color> - 额外施加[一伐枪]。",
+Skill/S_HolySaber_9_Name,Text,,,,,开眼者·乌诺,
+Skill/S_HolySaber_9__Ex_Description,Text,,,,,<color=#FFC125>进化5</color> - 额外施加[开眼者]。,
+Skill/S_HolySaber_9__Ex_Name,Text,,,,,<color=#FFA500>开眼者·乌诺</color>,
+Skill/S_HolySaber_LucyD_Description,Text,,,,,"抽取2个技能。
+若圣辉女剑士存活，生成1个持有者为圣辉女剑士的[圣骑士]。
+
+<color=#696969><i>——这世间是泪水，啜泣之海。</i></color>",
+Skill/S_HolySaber_LucyD_Name,Text,,,,,悖理盾·杰诺,
+Skill/S_HolySaber_P_0_Description,Text,,,,,"使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。
+
+<i><color=#FFA500>见识一下吧！这就是真实的我！</color></i>",
+Skill/S_HolySaber_P_0_Name,Text,,,,,圣女的号令,
+Skill/S_HolySaber_P_Description,Text,,,,,"拥有<color=#FFA500>进化点</color>时才可使用。
+消耗1个<color=#FFA500>进化点</color>，使手中一个可<color=#FFA500>进化</color>的技能触发<color=#FFA500>进化</color>效果。",
+Skill/S_HolySaber_P_Name,Text,,,,,进化,
+Skill/S_HolySaber_Rare_1_0_Name,Text,,,,,尊荣骑士,
+Skill/S_HolySaber_Rare_1_Description,Text,,,,,"生成2个[圣骑士]。
+
+<color=#FFA500>进化</color> - 额外获得[防御降临]。",
+Skill/S_HolySaber_Rare_1_Name,Text,,,,,尊荣骑士·维尔伯特,
+Skill/S_HolySaber_Rare_1__Ex_Description,Text,,,,,生成2个[圣骑士]。,
+Skill/S_HolySaber_Rare_1__Ex_Name,Text,,,,,<color=#FFA500>尊荣骑士·维尔伯特</color>,
+Skill/S_HolySaber_Rare_2_Description,Text,,,,,<color=#FFA500>进化</color> - 使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。,
+Skill/S_HolySaber_Rare_2_Name,Text,,,,,神谕的启程·贞德,
+Skill/S_HolySaber_Rare_2__Ex_Description,Text,,,,,使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。,
+Skill/S_HolySaber_Rare_2__Ex_Name,Text,,,,,<color=#FFA500>神谕的启程·贞德</color>,
+Skill/S_HolySaber_Rare_3_0_Description,Text,,,,,,
+Skill/S_HolySaber_Rare_3_0_Name,Text,,,,,拉的神罚,
+Skill/S_HolySaber_Rare_3_Description,Text,,,,,<color=#FFA500>进化</color> - 使当前回合数+2。,
+Skill/S_HolySaber_Rare_3_Name,Text,,,,,光辉现世·拉,
+Skill/S_HolySaber_Rare_3__Ex_Description,Text,,,,,使当前回合数+2。,
+Skill/S_HolySaber_Rare_3__Ex_Name,Text,,,,,<color=#FFA500>光辉现世·拉</color>,
+Skill/S_HolySaber_Token_Description,Text,,,,,<color=#FFA500>进化</color> - 额外造成&a(50%)伤害。,
+Skill/S_HolySaber_Token_Name,Text,,,,,圣骑士,
+Skill/S_HolySaber_Token__Ex_Name,Text,,,,,<color=#FFA500>圣骑士</color>,
+Skill/S_Welbert_3__Ex_Description,Text,,,,,,
+Skill/S_Welbert_P_0_Name,Text,,,,,英雄的号令,
+SkillExtended/SE_HolySaber_Defend_Name,Text,,,,,守护,
+SkillExtended/SE_HolySaber_Extend_Des,Text,,,,,,
+SkillExtended/SE_HolySaber_Extend_Name,Text,,,,,进化,
+SkillExtended/SE_HolySaber_Extended_Name,Text,,,,,已进化,
+SkillExtended/SkillExtended_HolySaber_Name,Text,,,,,圣辉女剑士,
+SkillKeyword/Keyword_Defend_Desc,Text,,,,,本场战斗中，已使用过带有<color=#4876FF>守护</color>减益的技能的次数大于X次时，可以触发额外效果。,
+SkillKeyword/Keyword_Defend_Name,Text,,,,,<color=#4876FF>守护X</color>,
+SkillKeyword/Keyword_Extend_Desc,Text,,,,,本场战斗中，已发动的<color=#FFA500>进化</color>的次数大于X次时，可以触发额外效果。,
+SkillKeyword/Keyword_Extend_Name,Text,,,,,<color=#FFC125>进化X</color>,

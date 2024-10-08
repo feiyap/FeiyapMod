@@ -109,26 +109,10 @@ namespace HakureiReimu
             "S_Musoutensei_Remilia",
             "S_Sakuya_10Rare",
             "S_Musoutensei_Sakuya",
-            "S_Satsuki_10Rare",
+            "S_Satsuki_11Rare",
             "S_Musoutensei_Satsuki",
             "S_FlandreScarlet_12Rare",
-            "S_Musoutensei_Flandre",
-            "S_Reisen_10Rare",
-            "S_Musoutensei_Reisen",
-            "S_Eirin_11Rare",
-            "S_Musoutensei_Eirin",
-            "S_HouraisanKaguya_12Rare",
-            "S_Musoutensei_Kaguya",
-            "S_Inaba_10Rare",
-            "S_Musoutensei_Inaba",
-            "S_KochiyaSanae_12Rare",
-            "S_Musoutensei_Sanae",
-            "S_ShameimaruAya_10Rare",
-            "S_Musoutensei_Shameimaru",
-            "S_Mokou_R_1",
-            "S_Musoutensei_Mokou",
-            "S_Youmu_R_2",
-            "S_Musoutensei_Youmu"
+            "S_Musoutensei_Flandre"
         };
     }
 }

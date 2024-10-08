@@ -5,10 +5,10 @@
         "DMG_Per": 75,
         "DMG_Base": 0,
         "Buffs": [
-            
+            "B_RemiliaScarlet_0"
         ],
         "BuffPlusTagPer": [
-            
+            0
         ]
     }
 }

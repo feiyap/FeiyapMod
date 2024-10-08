@@ -1,0 +1,16 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\obj\Debug\HolySaber.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\obj\Debug\HolySaber.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\obj\Debug\HolySaber.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\0Harmony.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\ChronoArkMod.HakureiReimu.ModAssembly.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\Mono.Cecil.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\Mono.Cecil.Mdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\Mono.Cecil.Pdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\Mono.Cecil.Rocks.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\MonoMod.RuntimeDetour.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\MonoMod.Utils.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\HolySaber10072024180309.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\HolySaber10072024180309.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\obj\Debug\HolySaber10072024180309.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\obj\Debug\HolySaber10072024180309.pdb

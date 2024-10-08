@@ -1,9 +1,0 @@
-{
-    "B_BOSSLucy_Speak": {
-        "_gdeSchema": "Buff",
-        "Cantdisable": true,
-        "ClassName": "BOSSLucy.B_BOSSLucy_Speak",
-        "BuffTag": "null",
-        "Hide": true
-    }
-}

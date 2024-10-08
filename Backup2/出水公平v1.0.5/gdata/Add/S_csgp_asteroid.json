@@ -1,0 +1,41 @@
+{
+    "S_csgp_asteroid": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/BlackSpark 1",
+        "Target": "enemy",
+        "NotCount": false,
+        "Basic": false,
+        "Name": "小行星",
+        "Description": "———————————————\r\n<color=#228B22>合成</color>\r\n使用时若固定能力处于<color=#B10DC9>可使用状态</color>，生成一张小行星拿到手中并<color=#FFA500>附带迅速</color>、<color=#FF6347>放逐、1回合后弃牌",
+        "User": "kohei_lzumi",
+        "Effect_Target": "SE_T_S_csgp_asteroid",
+        "Desc": "合成列表:\n小行星+毒蛇=眼镜蛇\r\n小行星+小行星=钢锥",
+        "PlusKeyWords": [
+            "csgp_synthesis",
+            "csgp_asteroid_test"
+        ],
+        "Counting": 1,
+        "Image_0": "S_csgp_asteroid\\S_csgp_asteroid_Image_0.png",
+        "Image_1": "S_csgp_asteroid\\S_csgp_asteroid_Image_1.png",
+        "Image_2": "S_csgp_asteroid\\S_csgp_asteroid_Image_2.png",
+        "PlusSkillView": "S_csgp_asteroid2",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Fatal": false,
+        "SkillExtended": [
+            "Kohei.S_Kohei_asteroid"
+        ],
+        "UseAp": 1,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

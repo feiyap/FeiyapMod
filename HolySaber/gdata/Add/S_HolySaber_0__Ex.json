@@ -1,0 +1,38 @@
+{
+    "S_HolySaber_0__Ex": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_1",
+        "Target": "enemy",
+        "HealSkill": false,
+        "NoDrop": true,
+        "Name": "<color=#FFA500>神威独角兽</color>",
+        "Description": "",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_HolySaber_0__Ex",
+        "Effect_Self": "SE_S_S_HolySaber_0__Ex",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extended",
+            "SE_HolySaber_Defend"
+        ],
+        "Image_0": "S_HolySaber_0__Ex\\S_HolySaber_0__Ex_Image_0.png",
+        "Image_1": "S_HolySaber_0__Ex\\S_HolySaber_0__Ex_Image_1.png",
+        "Image_2": "S_HolySaber_0__Ex\\S_HolySaber_0__Ex_Image_2.png",
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_0__Ex"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

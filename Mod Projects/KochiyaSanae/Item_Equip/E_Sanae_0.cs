@@ -44,6 +44,7 @@ namespace KochiyaSanae
             {
                 this.count++;
                 Skill tmpSkill = Skill.TempSkill(skill.MySkill.KeyID, this.BChar, this.BChar.MyTeam);
+                tmpSkill.isExcept = true;
                 skill.ExtendedAdd(Skill_Extended.DataToExtended("SE_Sanae_E_0"));
                 BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
             }

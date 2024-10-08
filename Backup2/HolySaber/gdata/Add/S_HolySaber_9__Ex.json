@@ -1,0 +1,27 @@
+{
+    "S_HolySaber_9__Ex": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all_ally",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Description": "<color=#FFC125>进化5</color> - 额外施加[开眼者]。",
+        "Name": "<color=#FFA500>开眼者·乌诺</color>",
+        "Rare": false,
+        "PlusKeyWords": [
+            "Keyword_Extend"
+        ],
+        "Effect_Target": "SE_T_S_HolySaber_9__Ex",
+        "Effect_Self": "SE_S_S_HolySaber_9__Ex",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extended"
+        ],
+        "Image_0": "S_HolySaber_9__Ex\\S_HolySaber_9__Ex_Image_0.png",
+        "Image_1": "S_HolySaber_9__Ex\\S_HolySaber_9__Ex_Image_1.png",
+        "Image_2": "S_HolySaber_9__Ex\\S_HolySaber_9__Ex_Image_2.png",
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_9__Ex"
+        ]
+    }
+}

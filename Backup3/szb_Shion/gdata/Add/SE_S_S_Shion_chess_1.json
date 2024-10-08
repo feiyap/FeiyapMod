@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Shion_chess_1": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Shion_chess_1"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

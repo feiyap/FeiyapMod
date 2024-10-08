@@ -1,5 +1,8 @@
 {
     "TestQueue": {
-        "_gdeSchema": "EnemyQueue"
+        "_gdeSchema": "EnemyQueue",
+        "Enemys": [
+            "S3_Boss_Pope"
+        ]
     }
 }

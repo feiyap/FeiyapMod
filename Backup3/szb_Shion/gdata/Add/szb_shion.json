@@ -1,0 +1,74 @@
+{
+    "szb_Shion": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "szb_Shion.P_szb_Shion",
+        "PassiveUnlockLV1": false,
+        "face": "szb_Shion\\szb_ShionBattleFace.png",
+        "CollectionSprite_Cover": "szb_Shion\\szb_ShionCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "szb_Shion\\szb_ShionCollectionSprite_SkillFace.png",
+        "StatView_Difficult": 1,
+        "name": "乙坂紫苑",
+        "SelectInfo": "",
+        "Gender": 1,
+        "FirstSkill": "S_Shion_Tactics_0",
+        "MAXHP": {
+            "x": 18,
+            "y": 40
+        },
+        "ATK": {
+            "x": 14,
+            "y": 26
+        },
+        "CRI": {
+            "x": 5,
+            "y": 5
+        },
+        "DODGE": {
+            "x": 5,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 8,
+            "y": 14
+        },
+        "HIT": {
+            "x": 102,
+            "y": 121
+        },
+        "RES_CC": {
+            "x": 5,
+            "y": 20
+        },
+        "RES_DEBUFF": {
+            "x": 5,
+            "y": 20
+        },
+        "RES_DOT": {
+            "x": 5,
+            "y": 20
+        },
+        "HIT_CC": {
+            "x": 5,
+            "y": 20
+        },
+        "HIT_DEBUFF": {
+            "x": 5,
+            "y": 20
+        },
+        "HIT_DOT": {
+            "x": 5,
+            "y": 20
+        },
+        "PassiveName": "奇幻战术",
+        "PassiveDes": "每个回合开始时，将一张“奇幻士兵”加入手牌。",
+        "PassiveIcon": "szb_Shion\\szb_ShionPassiveIcon.png",
+        "FixedBasicSkill": "null",
+        "StatView_Atk": 2,
+        "StatView_Def": 1
+    }
+}

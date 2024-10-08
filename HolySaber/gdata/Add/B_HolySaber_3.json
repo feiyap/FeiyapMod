@@ -1,0 +1,15 @@
+{
+    "B_HolySaber_3": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HolySaber.B_HolySaber_3",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "光灿圣骑",
+        "Description": "回合结束时，对随机敌人造成&a(手牌中拥有[守护]减益的技能数 x 75%防御力)的伤害。",
+        "Icon": "B_HolySaber_3\\B_HolySaber_3_Icon.png"
+    }
+}

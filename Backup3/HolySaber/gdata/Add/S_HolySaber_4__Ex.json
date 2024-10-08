@@ -1,0 +1,29 @@
+{
+    "S_HolySaber_4__Ex": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S_TheLight_4",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "<color=#FFA500>圣辉女剑士</color>",
+        "Description": "<color=#FFC125>进化5</color> - 恢复2点法力值。\n<color=#FFC125>进化10</color> - 将一张[圣女的号令]加入手中。",
+        "UseAp": 3,
+        "Effect_Target": "SE_T_S_HolySaber_4__Ex",
+        "SKillExtendedItem": [
+            "SE_HolySaber_Extended",
+            "SE_HolySaber_Defend"
+        ],
+        "Image_0": "S_HolySaber_4__Ex\\S_HolySaber_4__Ex_Image_0.png",
+        "Image_1": "S_HolySaber_4__Ex\\S_HolySaber_4__Ex_Image_1.png",
+        "Image_2": "S_HolySaber_4__Ex\\S_HolySaber_4__Ex_Image_2.png",
+        "SkillExtended": [
+            "HolySaber.S_HolySaber_4__Ex"
+        ],
+        "IgnoreTaunt": false,
+        "NoDrop": true,
+        "PlusSkillView": "S_HolySaber_P_0",
+        "PlusKeyWords": [
+            "Keyword_Extend"
+        ]
+    }
+}

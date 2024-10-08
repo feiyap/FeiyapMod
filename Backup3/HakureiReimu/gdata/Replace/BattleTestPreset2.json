@@ -3,7 +3,7 @@
         "_gdeSchema": "Preset",
         "Party": [
             "Phoenix",
-            "MissChain",
+            "Prime",
             "Priest",
             "HakureiReimu"
         ],
@@ -11,7 +11,7 @@
             "S_Ilya_1",
             "S_Azar_5",
             "S_TW_Blue_5",
-            "S_HakureiReimu_F_10Rare"
+            "S_HakureiReimu_F_11Rare"
         ],
         "PartySkills": [
             [
@@ -24,9 +24,12 @@
                 
             ],
             [
-                "S_HakureiReimu_F_4",
                 "S_HakureiReimu_F_0",
-                "S_HakureiReimu_F_12Rare"
+                "S_HakureiReimu_F_1",
+                "S_HakureiReimu_F_2",
+                "S_HakureiReimu_F_3",
+                "S_HakureiReimu_F_4",
+                "S_HakureiReimu_F_5"
             ]
         ],
         "PartyEquip": [
