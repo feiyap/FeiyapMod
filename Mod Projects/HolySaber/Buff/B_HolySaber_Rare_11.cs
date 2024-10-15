@@ -62,15 +62,15 @@ namespace HolySaber
 
             target.Init(gdeskillData, this.BChar, this.BChar.MyTeam);
 
-            if (target.MySkill.Target.Key == GDEItemKeys.s_targettype_ally)
-            {
-                target.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
-            }
+            //if (target.MySkill.Target.Key == GDEItemKeys.s_targettype_ally)
+            //{
+            //    target.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
+            //}
 
-            if (target.MySkill.Target.Key == GDEItemKeys.s_targettype_all_ally)
-            {
-                target.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
-            }
+            //if (target.MySkill.Target.Key == GDEItemKeys.s_targettype_all_ally)
+            //{
+            //    target.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
+            //}
 
             if (gdeskillData.Effect_Target != null)
             {

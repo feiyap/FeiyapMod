@@ -1,0 +1,23 @@
+{
+    "myKey": "Suwako",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Suwako\\SuwakoFaceOriginChar.png",
+        "offsetMax": {
+            "x": 396.9354,
+            "y": 355.3708
+        },
+        "offsetMin": {
+            "x": -356.410675,
+            "y": -1108.72925
+        },
+        "pivot": {
+            "x": 0.47124517,
+            "y": 0.7536064
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

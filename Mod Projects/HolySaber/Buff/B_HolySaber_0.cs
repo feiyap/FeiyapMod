@@ -35,5 +35,10 @@ namespace HolySaber
                 BattleSystem.instance.AllyTeam.Draw();
             }
         }
+
+        public override string DescExtended()
+        {
+            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.9)).ToString());
+        }
     }
 }

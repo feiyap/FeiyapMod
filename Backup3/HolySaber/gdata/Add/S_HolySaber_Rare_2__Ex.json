@@ -17,7 +17,7 @@
         "Image_0": "S_HolySaber_Rare_2__Ex\\S_HolySaber_Rare_2__Ex_Image_0.png",
         "Image_1": "S_HolySaber_Rare_2__Ex\\S_HolySaber_Rare_2__Ex_Image_1.png",
         "Image_2": "S_HolySaber_Rare_2__Ex\\S_HolySaber_Rare_2__Ex_Image_2.png",
-        "NotCount": false,
+        "NotCount": true,
         "Disposable": false,
         "NoDrop": true,
         "SkillExtended": [

@@ -199,14 +199,14 @@ Skill/S_Inaba_Rare12_Description,Text,,"이 스킬은 이번 턴에 발동한 �
 Current count: &a","このターン中、発動した追加攻撃/反撃の回数、このスキルを繰り返して発動する。 (このスキルが手札に加わってからカウントする）
 現在のカウント：&a","根据这个回合中发动过的追加攻击/反击的次数，重复释放这个技能。（该技能加入手中后才开始计数）
 当前次数：&a",
-Skill/S_Inaba_Rare12_Name,Text,,「데우스 엑스 마키나」,「Mechanical Divine Descent」,「デウス?エクス?マキナ」,「机械降神」,
+Skill/S_Inaba_Rare12_Name,Text,,「데우스 엑스 마키나」,「Mechanical Divine Descent」,「デウス·エクス·マキナ」,「机械降神」,
 SkillExtended/SE_Inaba_6_Des,Text,,시전 시 <color=#FFD700>테위의 럭셔리 보너스</color>의 효과 중 1개를 무작위로 발동합니다.,Randomly triggers one effect from <color=#FFD700>Tewi's Luxurious Jackpot</color>.,使用時、<color=#FFD700>てゐの豪華商品</color>の中からランダムに1つ発動させる。,释放时从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。,
 SkillExtended/SE_Inaba_6_Name,Text,,행운의 백마법,Lucky White Magic,幸運を呼ぶ白魔法,幸运的白色魔法,
 SkillExtended/SE_Inaba_C1_Des,Text,,,,,,
-SkillExtended/SE_Inaba_C1_EnforceString,Text,,<sprite name="비용2"><sprite name="이상">,<sprite name="??2"><sprite name="??">,<sprite name="??2"><sprite name="??">,<sprite name="??2"><sprite name="??">,
+SkillExtended/SE_Inaba_C1_EnforceString,Text,,<sprite name="비용2"><sprite name="이상">,<sprite name="비용2"><sprite name="이상">,<sprite name="비용2"><sprite name="이상">,<sprite name="비용2"><sprite name="이상">,
 SkillExtended/SE_Inaba_C1_Name,Text,,<color=#FFD700>테위의 럭셔리 보너스</color>의 효과 중 1개를 무작위로 발동합니다.,Randomly triggers one effect from <color=#FFD700>Tewi's Luxurious Jackpot</color>.,<color=#FFD700>てゐの豪華商品</color>の中からランダムに1つ発動させる。,从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。,
 SkillExtended/SE_Inaba_C2_Des,Text,,,,,,
-SkillExtended/SE_Inaba_C2_EnforceString,Text,,<sprite name="비용1"><sprite name="이하">,<sprite name="??1"><sprite name="??">,<sprite name="??1"><sprite name="??">,<sprite name="??1"><sprite name="??">,
+SkillExtended/SE_Inaba_C2_EnforceString,Text,,<sprite name="비용1"><sprite name="이하">,<sprite name="비용1"><sprite name="이하">,<sprite name="비용1"><sprite name="이하">,<sprite name="비용1"><sprite name="이하">,
 SkillExtended/SE_Inaba_C2_Name,Text,,1턴 동안 대상의 추가 공격의 피해량이 100%증가합니다.,Increases the additional attack damage received by the target by 100% for one turn.,1ターンの間、対象に「追加攻撃を受けるとそのダメージが100%増加する」を与える。,使目标受到的追加攻击伤害+100%，持续1回合。,
 SkillExtended/SE_Inaba_Draw_EnforceString,Text,,,,,,
 SkillExtended/SE_Inaba_Draw_Name,Text,,<color=#FFD700>테위의 럭셔리 보너스</color>,<color=#FFD700>Tewi's Luxurious Jackpot</color>,<color=#FFD700>てゐの豪華商品</color>,<color=#FFD700>帝的豪华奖池</color>,

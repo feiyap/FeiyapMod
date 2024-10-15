@@ -29,8 +29,8 @@ namespace HolySaber
                     this.StackInfo[i].RemainTime--;
                     if (this.StackInfo[i].RemainTime == 0)
                     {
-                        this.DestroyByTurn();
-                        this.StackInfo.RemoveAt(i);
+                        Attack();
+                        this.SelfStackDestroy();
                         i--;
                     }
                 }
@@ -40,6 +40,10 @@ namespace HolySaber
         public override void SelfdestroyPlus()
         {
             base.SelfdestroyPlus();
+        }
+
+        public void Attack()
+        {
             Skill skill = Skill.TempSkill("S_HolySaber_8_0", this.BChar, this.BChar.MyTeam);
             skill.isExcept = true;
             skill.FreeUse = true;

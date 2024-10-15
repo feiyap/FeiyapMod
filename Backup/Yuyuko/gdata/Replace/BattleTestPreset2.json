@@ -1,0 +1,49 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "YuyukoF"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                "S_Azar_1",
+                "S_Azar_3",
+                "S_Azar_9"
+            ],
+            [
+                "S_Azar_0"
+            ],
+            [
+                "S_MissChain_7",
+                "S_MissChain_3"
+            ],
+            [
+                "S_Azar_0"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                "WhitePriestCloth"
+            ],
+            [
+                "WhitePriestCloth"
+            ],
+            [
+                "Ilya_Sword_0",
+                "Ilya_Sword_1"
+            ],
+            [
+                
+            ]
+        ]
+    }
+}

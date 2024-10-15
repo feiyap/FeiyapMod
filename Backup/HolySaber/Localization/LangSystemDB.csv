@@ -1,4 +1,5 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/Wilbert_P_0_Name,Text,,,,,英雄的号令,
 Character/HolySaber_PassiveDes,Text,,,,,"<b>进化</b> - 战斗开始时，获得3个<color=#FFA500>进化点</color>。固定能力变更为[进化]：消耗1个<color=#FFA500>进化点</color>，使手中一个可<color=#FFA500>进化</color>的技能触发<color=#FFA500>进化</color>效果。
 
 <b>圣女的号令</b> - 回合开始时，若<color=#FFC125>进化5</color>，将一张[圣女的号令]加入手中。这个效果1场战斗只能触发1次。
@@ -7,7 +8,12 @@ Character/HolySaber_PassiveDes,Text,,,,,"<b>进化</b> - 战斗开始时，获�
 
 <color=#4876FF><b>守护X</b></color> - 本场战斗中，已使用过带有<color=#4876FF>守护</color>减益的技能的次数大于X次时，可以触发额外效果。",
 Character/HolySaber_PassiveName,Text,,,,,进化,
+Character/WilbertBattleFace,Text,,,,,WilbertBattleFace.png,
+Character/WilbertCollectionSprite_Cover,Text,,,,,WilbertCollectionSprite_Cover.png,
+Character/WilbertCollectionSprite_SkillFace,Text,,,,,WilbertCollectionSprite_SkillFace.png,
+Character/WilbertPassiveIcon,Text,,,,,WilbertPassiveIcon.png,
 Character/Wilbert_CampSelectWord,Text,,,,,不容许此身拥有任何幸福。吾不允许。,
+Character/Wilbert_Name,Text,,,,,维尔伯特,
 Character/Wilbert_PassiveDes,Text,,,,,"<b>进化</b> - 战斗开始时，获得3个<color=#FFA500>进化点</color>。固定能力变更为[进化]：消耗1个<color=#FFA500>进化点</color>，使手中一个可<color=#FFA500>进化</color>的技能触发<color=#FFA500>进化</color>效果。
 
 <b>英雄的号令</b> - 回合开始时，若<color=#FFC125>进化5</color>，将一张[英雄的号令]加入手中。这个效果1场战斗只能触发1次。
@@ -16,4 +22,12 @@ Character/Wilbert_PassiveDes,Text,,,,,"<b>进化</b> - 战斗开始时，获得3
 
 <color=#4876FF><b>守护X</b></color> - 本场战斗中，已使用过带有<color=#4876FF>守护</color>减益的技能的次数大于X次时，可以触发额外效果。",
 Character/Wilbert_PassiveName,Text,,,,,进化,
-Character/Wilbert_name,Text,,,,,维尔伯特,
+Character/Wilbert_SelectInfo,Text,,,,,"维尔伯特是精通多种嘲讽技巧的防御型角色。
+
+维尔伯特的大部分技能附带“守护”减益，被命中的敌人无法选择他之外的调查员作为攻击目标。除此之外，维尔伯特拥有独特的进化技能的能力。在每个回合，他能够进化手中的技能，使技能发挥更强大的效果；在累计进化数次后，部分技能还会解锁额外效果。
+
+以此身为盾，斩落敌人吧！",
+Skill/Wilbert_P_0_Desc,Text,,,,,"使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。
+
+<i><color=#4876FF>不容许此身拥有任何幸福。吾不允许。</color></i>",
+Skill/Wilbert_P_0_Name,Text,,,,,英雄的号令,

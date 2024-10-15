@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\blackrabbitdoll\bin\Debug\blackrabbitdoll20241014235238.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\blackrabbitdoll\bin\Debug\blackrabbitdoll20241014235238.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\blackrabbitdoll\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\blackrabbitdoll\obj\Debug\blackrabbitdoll.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\blackrabbitdoll\obj\Debug\blackrabbitdoll.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\blackrabbitdoll\obj\Debug\blackrabbitdoll.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\blackrabbitdoll\obj\Debug\blackrabbitdoll20241014235238.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\blackrabbitdoll\obj\Debug\blackrabbitdoll20241014235238.pdb

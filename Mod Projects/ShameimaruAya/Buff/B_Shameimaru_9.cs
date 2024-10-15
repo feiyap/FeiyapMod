@@ -17,7 +17,7 @@ namespace ShameimaruAya
 	/// 风来的奇迹
 	/// 下次使用技能时，根据支付的费用，在手中生成相应数量的[北风灵]，移除这个增益。
 	/// </summary>
-    public class B_Shameimaru_9:Buff, IP_SkillUse_Team
+    public class B_Shameimaru_9:Buff, IP_SkillUse_Team, IP_Dodge
     {
         public override void Init()
         {
@@ -43,6 +43,14 @@ namespace ShameimaruAya
 
             yield return new WaitForSecondsRealtime(0.3f);
             yield break;
+        }
+
+        public void Dodge(BattleChar Char, SkillParticle SP)
+        {
+            if (Char == this.BChar)
+            {
+                this.SelfDestroy();
+            }
         }
     }
 }

@@ -1,0 +1,23 @@
+{
+    "myKey": "YuyukoF",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "",
+        "offsetMax": {
+            "x": 202.110291,
+            "y": 115.971848
+        },
+        "offsetMin": {
+            "x": -220.737061,
+            "y": -629.133667
+        },
+        "pivot": {
+            "x": 0.5172198,
+            "y": 0.8368532
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

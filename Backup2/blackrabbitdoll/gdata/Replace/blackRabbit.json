@@ -1,0 +1,7 @@
+{
+    "blackRabbit": {
+        "_gdeSchema": "Item_Passive",
+        "Description": "获得之前所有调查中未使用的金币的80%。\n（最多4000金币）\n获得金币后减少等量的累计金币。\n累积的金币：&a金币",
+        "passive_script": "blackrabbitdoll.blackRabbit"
+    }
+}

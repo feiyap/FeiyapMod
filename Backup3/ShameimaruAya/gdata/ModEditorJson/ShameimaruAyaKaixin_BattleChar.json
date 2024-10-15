@@ -1,0 +1,23 @@
+{
+    "myKey": "ShameimaruAyaKaixin",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "ShameimaruAyaKaixin\\ShameimaruAyaKaixinBattleChar.png",
+        "offsetMax": {
+            "x": 553.4323,
+            "y": 269.761475
+        },
+        "offsetMin": {
+            "x": -537.476746,
+            "y": -821.1476
+        },
+        "pivot": {
+            "x": 0.492687047,
+            "y": 0.7527186
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

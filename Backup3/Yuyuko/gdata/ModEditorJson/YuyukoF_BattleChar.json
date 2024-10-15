@@ -1,0 +1,23 @@
+{
+    "myKey": "YuyukoF",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "YuyukoF\\YuyukoFBattleChar.png",
+        "offsetMax": {
+            "x": 370.172119,
+            "y": 327.8326
+        },
+        "offsetMin": {
+            "x": -453.837952,
+            "y": -1124.16748
+        },
+        "pivot": {
+            "x": 0.5507675,
+            "y": 0.77422
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

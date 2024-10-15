@@ -1,0 +1,13 @@
+{
+    "SE_HolySaber_C_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "对拥有<color=#4876FF>守护</color>减益的敌人造成的伤害+30%。",
+        "Drop": true,
+        "EnforceString": "攻击技能",
+        "NeedCharacter": "HolySaber",
+        "Des": "",
+        "ClassName": "HolySaber.SE_HolySaber_C_0"
+    }
+}

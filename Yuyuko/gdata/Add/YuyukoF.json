@@ -1,0 +1,73 @@
+{
+    "YuyukoF": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "name": "西行寺幽幽子",
+        "PassiveName": "天衣无缝的亡灵",
+        "PassiveDes": "<b>操纵死亡程度的能力</b> - 西行寺幽幽子模糊了生与死的界限，部分技能会增加或减少<color=#FFB6C1>返魂值</color>。\n\n<b><color=#FF1493>华胥</color></b> - 当<color=#FFB6C1>返魂值</color>的进度超过50时，西行寺幽幽子进入<color=#FF1493>华胥</color>状态：获得10%的攻击力和防御力加成，同时技能会获得加强。\n\n<b><color=#8B008B>永眠</color></b> - 当<color=#FFB6C1>返魂值</color>的进度超过100时，西行寺幽幽子进入<color=#8B008B>永眠</color>状态：无法行动，直到<color=#FFB6C1>返魂值</color>降低为0；<color=#8B008B>永眠</color>状态下，任何调查员使用技能时失去20<color=#FFB6C1>返魂值</color>。\n\n<b>幽雅地绽放吧，墨染之樱</b> - 每个回合开始时，西行寺幽幽子失去20<color=#FFB6C1>返魂值</color>。",
+        "MAXHP": {
+            "x": 20,
+            "y": 32
+        },
+        "ATK": {
+            "x": 14,
+            "y": 24
+        },
+        "CRI": {
+            "x": 0,
+            "y": 6
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 0
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 7,
+            "y": 12
+        },
+        "HIT": {
+            "x": 96,
+            "y": 115
+        },
+        "RES_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DEBUFF": {
+            "x": -10,
+            "y": 30
+        },
+        "RES_DOT": {
+            "x": -10,
+            "y": 30
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": -10,
+            "y": 30
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "face": "YuyukoF\\YuyukoFBattleFace.png",
+        "CollectionSprite_Cover": "YuyukoF\\YuyukoFCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "YuyukoF\\YuyukoFCollectionSprite_SkillFace.png",
+        "StatView_Atk": 2,
+        "StatView_Def": 1,
+        "StatView_Sup": 1,
+        "StatView_Debuff": 2,
+        "StatView_Dot": 1,
+        "StatView_Difficult": 2,
+        "Gender": 1
+    }
+}

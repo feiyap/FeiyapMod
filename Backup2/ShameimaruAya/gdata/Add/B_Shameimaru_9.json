@@ -5,7 +5,12 @@
         "BuffTag": "null",
         "Name": "风来的奇迹",
         "Icon": "B_Shameimaru_9\\B_Shameimaru_9_Icon.png",
-        "Description": "下次使用技能时，根据支付的费用，在手中生成相应数量的[北风灵]，移除这个增益。",
-        "LifeTime": 0
+        "Description": "下次使用技能时，根据支付的费用，在手中生成相应数量的[北风灵]。\n使用技能和触发闪避都会移除这个增益。",
+        "LifeTime": 0,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

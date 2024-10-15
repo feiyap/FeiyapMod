@@ -1,0 +1,23 @@
+{
+    "myKey": "Suwako",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "",
+        "pivot": {
+            "x": 0.464305162,
+            "y": 0.7657892
+        },
+        "offsetMin": {
+            "x": -136.8883,
+            "y": -437.857727
+        },
+        "offsetMax": {
+            "x": 153.559174,
+            "y": 126.616142
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

@@ -68,6 +68,12 @@
         "CampSelectWord": "绝佳的新闻素材！请务必带上我出发吧。",
         "PassiveIcon": "ShameimaruAya\\ShameimaruAyaPassiveIcon.png",
         "PassiveDes": "<b>风神少女</b> - 每使用3个手中的技能后，使下1个出手的自己的技能附带迅速。\n\n<b>操纵风程度的能力</b> - 每次使用手中的技能后，射命丸文这个回合内会获得额外5%暴击率。\n\n<b><color=green>连击X</color></b> - 每个回合中使用过的技能大于X个时，可以触发额外效果。",
-        "FirstSkill": "S_Shameimaru_0"
+        "FirstSkill": "S_Shameimaru_0",
+        "CampSD": [
+            "ShameimaruAya\\ShameimaruAyaCampSD0.png",
+            "ShameimaruAya\\ShameimaruAyaCampSD1.png",
+            "ShameimaruAya\\ShameimaruAyaCampSD2.png",
+            "ShameimaruAya\\ShameimaruAyaCampSD3.png"
+        ]
     }
 }

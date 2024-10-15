@@ -31,7 +31,7 @@ namespace HolySaber
         public static string Buff_B_HolySaber_7 = "B_HolySaber_7";
 		/// <summary>
 		/// 双炮神罚
-		/// 每次使用带有<color=#4876FF>守护</color>减益的技能时，减少1回合持续时间（不能低于1回合）。
+		/// 每次使用带有<color=#4876FF>守护</color>减益的技能时，减少1回合持续时间。
 		/// 效果解除时，对所有敌人造成&a(150%)伤害，并施加<color=#4876FF>守护</color>。
 		/// </summary>
         public static string Buff_B_HolySaber_8 = "B_HolySaber_8";
@@ -107,6 +107,20 @@ namespace HolySaber
 		/// 本场战斗中，已发动的<color=#FFA500>进化</color>的次数大于X次时，可以触发额外效果。
 		/// </summary>
         public static string SkillKeyword_Keyword_Extend = "Keyword_Extend";
+		/// <summary>
+		/// 对拥有<color=#4876FF>守护</color>减益的敌人造成的伤害+30%。
+		/// 攻击技能
+		/// </summary>
+        public static string SkillExtended_SE_HolySaber_C_0 = "SE_HolySaber_C_0";
+		/// <summary>
+		/// 施加<color=#4876FF>守护</color>减益。<i>这个技能被视作带有<color=#4876FF>守护</color>减益的技能。</i>
+		/// 攻击技能
+		/// </summary>
+        public static string SkillExtended_SE_HolySaber_C_1 = "SE_HolySaber_C_1";
+		/// <summary>
+		/// 根据支付的费用，在手中生成相应数量的[圣骑士]。
+		/// </summary>
+        public static string SkillExtended_SE_HolySaber_C_2 = "SE_HolySaber_C_2";
 		/// <summary>
 		/// 守护
 		/// </summary>
@@ -385,6 +399,15 @@ namespace HolySaber
 		/// English:
 		/// Japanese:
 		/// Chinese:
+		/// 英雄的号令
+		/// Chinese-TW:
+		/// </summary>
+        public static string BuffWilbert_P_0_Name => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Buff/Wilbert_P_0_Name");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
 		/// <b>进化</b> - 战斗开始时，获得3个<color=#FFA500>进化点</color>。固定能力变更为[进化]：消耗1个<color=#FFA500>进化点</color>，使手中一个可<color=#FFA500>进化</color>的技能触发<color=#FFA500>进化</color>效果。
 		/// <b>圣女的号令</b> - 回合开始时，若<color=#FFC125>进化5</color>，将一张[圣女的号令]加入手中。这个效果1场战斗只能触发1次。
 		/// <color=#FFC125><b>进化X</b></color> - 本场战斗中，已发动的<color=#FFA500>进化</color>的次数大于X次时，可以触发额外效果。
@@ -406,10 +429,55 @@ namespace HolySaber
 		/// English:
 		/// Japanese:
 		/// Chinese:
+		/// WilbertBattleFace.png
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterWilbertBattleFace => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Character/WilbertBattleFace");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// WilbertCollectionSprite_Cover.png
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterWilbertCollectionSprite_Cover => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Character/WilbertCollectionSprite_Cover");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// WilbertCollectionSprite_SkillFace.png
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterWilbertCollectionSprite_SkillFace => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Character/WilbertCollectionSprite_SkillFace");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// WilbertPassiveIcon.png
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterWilbertPassiveIcon => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Character/WilbertPassiveIcon");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
 		/// 不容许此身拥有任何幸福。吾不允许。
 		/// Chinese-TW:
 		/// </summary>
         public static string CharacterWilbert_CampSelectWord => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Character/Wilbert_CampSelectWord");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 维尔伯特
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterWilbert_Name => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Character/Wilbert_Name");
 		/// <summary>
 		/// Korean:
 		/// English:
@@ -436,10 +504,31 @@ namespace HolySaber
 		/// English:
 		/// Japanese:
 		/// Chinese:
-		/// 维尔伯特
+		/// 维尔伯特是精通多种嘲讽技巧的防御型角色。
+		/// 维尔伯特的大部分技能附带“守护”减益，被命中的敌人无法选择他之外的调查员作为攻击目标。除此之外，维尔伯特拥有独特的进化技能的能力。在每个回合，他能够进化手中的技能，使技能发挥更强大的效果；在累计进化数次后，部分技能还会解锁额外效果。
+		/// 以此身为盾，斩落敌人吧！
 		/// Chinese-TW:
 		/// </summary>
-        public static string CharacterWilbert_name => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Character/Wilbert_name");
+        public static string CharacterWilbert_SelectInfo => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Character/Wilbert_SelectInfo");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。
+		/// <i><color=#4876FF>不容许此身拥有任何幸福。吾不允许。</color></i>
+		/// Chinese-TW:
+		/// </summary>
+        public static string SkillWilbert_P_0_Desc => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Skill/Wilbert_P_0_Desc");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 英雄的号令
+		/// Chinese-TW:
+		/// </summary>
+        public static string SkillWilbert_P_0_Name => ModManager.getModInfo("HolySaber").localizationInfo.SystemLocalizationUpdate("Skill/Wilbert_P_0_Name");
 
     }
 }

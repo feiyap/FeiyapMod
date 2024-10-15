@@ -53,13 +53,12 @@ namespace Lumiore
 		/// 觉醒：战斗开始时，额外抽取1张技能。
 		/// </summary>
         public static string Character_Lumiore = "Lumiore";
-        public static string SkillEffect_SE_S_S_Lumiore_11Rare = "SE_S_S_Lumiore_11Rare";
         public static string SkillEffect_SE_S_S_Lumiore_12Rare = "SE_S_S_Lumiore_12Rare";
         public static string SkillEffect_SE_S_S_Lumiore_13Rare = "SE_S_S_Lumiore_13Rare";
         public static string SkillEffect_SE_S_S_Lumiore_6 = "SE_S_S_Lumiore_6";
         public static string SkillEffect_SE_T_S_Lumiore_0 = "SE_T_S_Lumiore_0";
         public static string SkillEffect_SE_T_S_Lumiore_1 = "SE_T_S_Lumiore_1";
-        public static string SkillEffect_SE_T_S_Lumiore_10Rare = "SE_T_S_Lumiore_10Rare";
+        public static string SkillEffect_SE_T_S_Lumiore_10 = "SE_T_S_Lumiore_10";
         public static string SkillEffect_SE_T_S_Lumiore_12Rare = "SE_T_S_Lumiore_12Rare";
         public static string SkillEffect_SE_T_S_Lumiore_12Rare_0 = "SE_T_S_Lumiore_12Rare_0";
         public static string SkillEffect_SE_T_S_Lumiore_13Rare = "SE_T_S_Lumiore_13Rare";

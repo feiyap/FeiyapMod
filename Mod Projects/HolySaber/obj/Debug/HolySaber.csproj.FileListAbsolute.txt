@@ -10,7 +10,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\Mono.Cecil.Rocks.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\MonoMod.RuntimeDetour.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\MonoMod.Utils.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\HolySaber10072024180309.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\HolySaber10072024180309.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\obj\Debug\HolySaber10072024180309.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\obj\Debug\HolySaber10072024180309.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\HolySaber20241014141425.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\bin\Debug\HolySaber20241014141425.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\obj\Debug\HolySaber20241014141425.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HolySaber\obj\Debug\HolySaber20241014141425.pdb

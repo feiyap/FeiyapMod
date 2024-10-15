@@ -1,0 +1,23 @@
+{
+    "myKey": "RemiliaScarletLord",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "RemiliaScarletLord\\RemiliaScarletLordBattleChar.png",
+        "pivot": {
+            "x": 0.5013108,
+            "y": 0.688441038
+        },
+        "offsetMin": {
+            "x": -527.7239,
+            "y": -1013.99432
+        },
+        "offsetMax": {
+            "x": 524.9641,
+            "y": 458.890442
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

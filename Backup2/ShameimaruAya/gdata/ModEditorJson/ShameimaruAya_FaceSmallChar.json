@@ -4,11 +4,11 @@
     "myValues": {
         "path": "ShameimaruAya\\ShameimaruAyaFaceSmallChar.png",
         "offsetMax": {
-            "x": 112.984711,
+            "x": 112.984726,
             "y": 87.3048
         },
         "offsetMin": {
-            "x": -172.8443,
+            "x": -172.84433,
             "y": -518.2218
         },
         "pivot": {

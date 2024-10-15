@@ -108,7 +108,22 @@ namespace HolySaber
             }
             else
             {
-                PlaySkillSound(this.MySkill.MySkill.KeyID, 1);
+                if (this.MySkill.MySkill.KeyID == "S_HolySaber_P_0")
+                {
+                    GDECharacter_SkinData skinData = CharacterSkinData.GetSkinData(this.BChar.Info.KeyData);
+                    if (skinData.Key == "Wilbert")
+                    {
+                        PlaySkillSound("S_Welbert_P_0", 1);
+                    }
+                    else
+                    {
+                        PlaySkillSound(this.MySkill.MySkill.KeyID, 1);
+                    }
+                }
+                else
+                {
+                    PlaySkillSound(this.MySkill.MySkill.KeyID, 1);
+                }
             }
         }
 

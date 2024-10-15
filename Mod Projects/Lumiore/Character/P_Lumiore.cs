@@ -19,7 +19,7 @@ namespace Lumiore
 	/// 战斗开始时，获得1点最大法力值。如果觉醒（最大法力值超过7点），部分卡片会有额外效果。
 	/// 觉醒：战斗开始时，额外抽取1张技能。
 	/// </summary>
-    public class P_Lumiore:Passive_Char, IP_Discard, IP_BattleStart_Ones
+    public class P_Lumiore:Passive_Char, IP_Discard, IP_PlayerTurn
     {
         public override void Init()
         {
@@ -27,12 +27,15 @@ namespace Lumiore
             this.OnePassive = true;
         }
 
-        public void BattleStart(BattleSystem Ins)
+        public void Turn()
         {
-            BattleSystem.instance.AllyTeam.LucyChar.BuffAdd("B_Lumiore_5", BattleSystem.instance.AllyTeam.LucyChar, false, 0, false, -1, false);
-            if (this.BChar.MyTeam.MAXAP >= 7)
+            if (BattleSystem.instance.TurnNum == 1)
             {
-                BattleSystem.instance.AllyTeam.Draw();
+                BattleSystem.instance.AllyTeam.LucyChar.BuffAdd("B_Lumiore_5", BattleSystem.instance.AllyTeam.LucyChar, false, 0, false, -1, false);
+                if (this.BChar.MyTeam.MAXAP >= 7)
+                {
+                    BattleSystem.instance.AllyTeam.Draw();
+                }
             }
         }
 

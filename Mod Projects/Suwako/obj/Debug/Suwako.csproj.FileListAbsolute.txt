@@ -1,0 +1,13 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\obj\Debug\Suwako.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\obj\Debug\Suwako.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\obj\Debug\Suwako.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\BasicMethods.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\0Harmony.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\Mono.Cecil.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\MonoMod.Utils.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\MonoMod.RuntimeDetour.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\Suwako2024109234339.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\Suwako2024109234339.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\obj\Debug\Suwako2024109234339.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\obj\Debug\Suwako2024109234339.pdb

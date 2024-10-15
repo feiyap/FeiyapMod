@@ -2,7 +2,7 @@
     "S_Shameimaru_P": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Public/Public_1",
         "Target": "enemy",
         "NotCount": true,
         "Name": "北风灵",

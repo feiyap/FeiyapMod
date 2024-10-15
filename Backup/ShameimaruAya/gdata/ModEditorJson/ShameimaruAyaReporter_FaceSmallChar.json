@@ -1,0 +1,23 @@
+{
+    "myKey": "ShameimaruAyaReporter",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Reporter\\ReporterFaceSmallChar.png",
+        "offsetMax": {
+            "x": 236.624054,
+            "y": 265.336639
+        },
+        "offsetMin": {
+            "x": -323.2314,
+            "y": -776.8874
+        },
+        "pivot": {
+            "x": 0.573718369,
+            "y": 0.7400498
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "Suwako": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "name": "洩矢诹访子",
+        "face": "Suwako\\SuwakoBattleFace.png",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 20,
+            "y": 32
+        },
+        "ATK": {
+            "x": 14,
+            "y": 24
+        },
+        "CRI": {
+            "x": 0,
+            "y": 5
+        },
+        "REG": {
+            "x": 7,
+            "y": 14
+        },
+        "HIT": {
+            "x": 96,
+            "y": 114
+        },
+        "RES_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DEBUFF": {
+            "x": -10,
+            "y": 30
+        },
+        "RES_DOT": {
+            "x": -10,
+            "y": 30
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": -10,
+            "y": 30
+        },
+        "PassiveName": "土著神的顶点"
+    }
+}

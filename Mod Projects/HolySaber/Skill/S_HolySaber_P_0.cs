@@ -31,8 +31,11 @@ namespace HolySaber
                 }
             }
 
-            GDEImageDatasData gdeimageDatasData = new GDEImageDatasData("HolySaberImage");
-            AddressableLoadManager.LoadAsyncAction(gdeimageDatasData.Sprites_Path[1], AddressableLoadManager.ManageType.Character, this.BChar.UI.CharImage.GetComponent<Image>());
+            if (SaveManager.NowData.EnableSkins.Any((SkinData v) => v.skinKey != "Wilbert"))
+            {
+                GDEImageDatasData gdeimageDatasData = new GDEImageDatasData("HolySaberImage");
+                AddressableLoadManager.LoadAsyncAction(gdeimageDatasData.Sprites_Path[1], AddressableLoadManager.ManageType.Character, this.BChar.UI.CharImage.GetComponent<Image>());
+            }
         }
     }
 }

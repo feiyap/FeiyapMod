@@ -1,4 +1,4 @@
-﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
 Buff/B_HolySaber_0_Description,Text,,,,,"回合结束时，若自己的体力值为3的倍数，对随机敌人造成&a(90%)伤害；
 若自己体力值为4的倍数，抽取1个技能。",
 Buff/B_HolySaber_0_Name,Text,,,,,神威独角兽,
@@ -17,7 +17,7 @@ Buff/B_HolySaber_8_Description,Text,,,,,"每次使用带有<color=#4876FF>守护
 Buff/B_HolySaber_8_Name,Text,,,,,双炮神罚,
 Buff/B_HolySaber_9_0_Description,Text,,,,,,
 Buff/B_HolySaber_9_0_Name,Text,,,,,一伐枪,
-Buff/B_HolySaber_9_Description,Text,,,,,受到的伤害降低1点。,
+Buff/B_HolySaber_9_Description,Text,,,,,受到的伤害降低&a点。,
 Buff/B_HolySaber_9_Name,Text,,,,,开眼者,
 Buff/B_HolySaber_Def_Description,Text,,,,,"优先攻击&target。
 攻击该目标时解除。",
@@ -37,7 +37,6 @@ Buff/B_HolySaber_Rare_12_0_Name,Text,,,,,拉的信仰,
 Buff/B_HolySaber_Rare_12_Description,Text,,,,,回合结束时，对所有敌人造成&a(当前回合数 x 6)痛苦伤害。,
 Buff/B_HolySaber_Rare_12_Name,Text,,,,,光辉现世,
 Character/HolySaber_CampSelectWord,Text,,,,,我有必须追求的大义，还有必须成就的目的。,
-,,,,,,,
 Character/HolySaber_PassiveDes,Text,,,,,"<b>进化</b> - 战斗开始时，获得3个<color=#FFA500>进化点</color>。固定能力变更为[进化]：消耗1个<color=#FFA500>进化点</color>，使手中一个可<color=#FFA500>进化</color>的技能触发<color=#FFA500>进化</color>效果。
 
 <b>圣女的号令</b> - 回合开始时，若<color=#FFC125>进化5</color>，将一张[圣女的号令]加入手中。这个效果1场战斗只能触发1次。

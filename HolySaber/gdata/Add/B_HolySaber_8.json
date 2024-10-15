@@ -4,7 +4,7 @@
         "ClassName": "HolySaber.B_HolySaber_8",
         "BuffTag": "null",
         "Name": "双炮神罚",
-        "Description": "每次使用带有<color=#4876FF>守护</color>减益的技能时，减少1回合持续时间（不能低于1回合）。\n效果解除时，对所有敌人造成&a(150%)伤害，并施加<color=#4876FF>守护</color>。",
+        "Description": "每次使用带有<color=#4876FF>守护</color>减益的技能时，减少1回合持续时间。\n效果解除时，对所有敌人造成&a(150%)伤害，并施加<color=#4876FF>守护</color>。",
         "Icon": "B_HolySaber_8\\B_HolySaber_8_Icon.png",
         "MaxStack": 3,
         "LifeTime": 5,
