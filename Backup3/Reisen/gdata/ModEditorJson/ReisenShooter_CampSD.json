@@ -1,0 +1,18 @@
+{
+    "myKey": "ReisenShooter",
+    "myField": "CampSD",
+    "myValues": {
+        "pivot01": {
+            "x": 0.5056907,
+            "y": 0.01937884
+        },
+        "pivot23": {
+            "x": 0.5170721,
+            "y": 0.0228874683
+        }
+    },
+    "MyChangeType": "CampSD",
+    "myKeys": [
+        
+    ]
+}

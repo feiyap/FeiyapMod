@@ -5,8 +5,8 @@
         "Particle": "Particle/Joey/Joey_2",
         "Target": "enemy",
         "Name": "懒符「生神停止(Idling Wave)」",
-        "Description": "获得1次[等待]次数。施加[幻象/怠波]。\n\n<color=red>幻象/狂气</color> - 额外获得1次[等待]次数。改为施加[幻象/懒冻]。",
-        "UseAp": 0,
+        "Description": "获得1次[等待]次数。施加[幻象/怠波]。\n\n<color=#FF00FF>幻象/狂气</color> - 额外获得1次[等待]次数。改为施加[幻象/懒冻]。",
+        "UseAp": 1,
         "User": "Reisen",
         "PlusKeyWords": [
             "Keyword_Insane"

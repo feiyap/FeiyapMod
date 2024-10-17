@@ -5,7 +5,7 @@
         "ClassName": "Reisen.B_Reisen_11Rare",
         "BuffTag": "null",
         "Name": "幻象/狂梦",
-        "Description": "不会减少[狂气]的层数。",
+        "Description": "不会减少<color=#FF00FF>狂气</color>的层数。",
         "MaxStack": 1,
         "LifeTime": 1,
         "Hide": false,

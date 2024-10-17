@@ -1,0 +1,19 @@
+{
+    "ReisenShooter": {
+        "Character": "Reisen",
+        "_gdeType_Character": "Character",
+        "_gdeType_SkinName": "String",
+        "SkinName": "月兔之所在",
+        "_gdeSchema": "Character_Skin",
+        "CampSD": [
+            "ReisenShooter\\ReisenShooterCampSD0.png",
+            "ReisenShooter\\ReisenShooterCampSD1.png",
+            "ReisenShooter\\ReisenShooterCampSD2.png",
+            "ReisenShooter\\ReisenShooterCampSD3.png"
+        ],
+        "FaceSprite": "ReisenShooter\\ReisenShooterBattleFace.png",
+        "CollectionSprite_Cover": "ReisenShooter\\ReisenShooterCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "ReisenShooter\\ReisenShooterCollectionSprite_SkillFace.png",
+        "SkinDesc": "你知道今夜的月为何如此之红吗？"
+    }
+}

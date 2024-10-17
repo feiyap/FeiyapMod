@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>ShameimaruAya202492201941</AssemblyName>
+    <AssemblyName>ShameimaruAya2024101814726</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -384,11 +384,12 @@
 <!-- Extra Reference End-->
   </ItemGroup>
   
-                                                                                                                                                                          <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                    <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="ShameimaruAya_ModDefinition.cs" />
     <Compile Include="ShameimaruAya_ModItemKeys.cs" />
     <Compile Include="ShameimaruAya_Plugin.cs" />
+    <Compile Include="Buff\B_E_ShameimaruAya_0.cs" />
     <Compile Include="Buff\B_Shameimaru_1.cs" />
     <Compile Include="Buff\B_Shameimaru_4.cs" />
     <Compile Include="Buff\B_Shameimaru_6.cs" />
@@ -399,6 +400,7 @@
     <Compile Include="Buff\B_Shameimaru_Rare10_0.cs" />
     <Compile Include="Buff\B_Shameimaru_Rare11.cs" />
     <Compile Include="Character\P_ShameimaruAya.cs" />
+    <Compile Include="Item_Equip\E_ShameimaruAya_0.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -420,6 +422,8 @@
     <Compile Include="Skill\S_Shameimaru_Rare12.cs" />
     <Compile Include="SkillExtended\SE_Shameimaru_8.cs" />
     <Compile Include="SkillExtended\SE_Shameimaru_Combo.cs" />
+    <Compile Include="SkillExtended\SE_Shameimaru_C_0.cs" />
+    <Compile Include="SkillExtended\SE_Shameimaru_C_1.cs" />
     <Compile Include="SkillExtended\SE_Shameimaru_P_0.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->

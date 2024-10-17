@@ -6,7 +6,7 @@
         "Target": "enemy",
         "Fatal": false,
         "Name": "幻弹「幻想视差(Bluff Barrage)」",
-        "Description": "受到<color=purple>&a(20%最大体力值)的痛苦伤害</color>。\n\n<color=red>幻象/狂气</color> - 抽取1个自己的技能。",
+        "Description": "受到<color=purple>&a(20%最大体力值)的痛苦伤害</color>。\n\n<color=#FF00FF>幻象/狂气</color> - 抽取1个自己的技能。",
         "UseAp": 0,
         "User": "Reisen",
         "PlusKeyWords": [

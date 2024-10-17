@@ -39,14 +39,14 @@ namespace Reisen
         {
             if (!Target.Info.Ally && (SkillD.PlusHit || SkillD.ExtendedFind("Lian_Ex_Counter", true) != null))
             {
-                Damage += Damage * (int)base.Usestate_L.GetStat.atk / 100;
+                Damage += (int)base.Usestate_L.GetStat.atk * 33 / 100;
             }
             return Damage;
         }
 
         public override string DescExtended()
         {
-            return base.DescExtended().Replace("&a", ((float)((int)base.Usestate_L.GetStat.atk) * 0.2f).ToString());
+            return base.DescExtended().Replace("&a", ((float)((int)base.Usestate_L.GetStat.atk) * 0.33f).ToString());
         }
     }
 }

@@ -20,7 +20,7 @@
         "EnemyPreview": false,
         "UnknownTarget": false,
         "Name": "波符「赤眼催眠(Mind Shaker)」",
-        "Description": "<color=red>幻象/狂气</color> - 必定暴击。",
+        "Description": "<color=#FF00FF>幻象/狂气</color> - 必定暴击。",
         "User": "Reisen",
         "UseAp": 2,
         "Effect_Target": "SE_T_S_Reisen_0",

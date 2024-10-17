@@ -6,7 +6,7 @@
         "Target": "self",
         "Name": "赤眼「望见圆月(Lunatic Blast)」",
         "User": "Reisen",
-        "Description": "如果有[幻象/赤月]状态，解除[幻象/赤月]状态。",
+        "Description": "如果有<color=#FF4500>幻象/赤月</color>状态，解除<color=#FF4500>幻象/赤月</color>状态。",
         "NotCount": true,
         "Effect_Self": "SE_S_S_Reisen_6",
         "Image_0": "S_Reisen_6\\S_Reisen_6_Image_0.png",

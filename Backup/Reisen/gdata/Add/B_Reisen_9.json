@@ -9,6 +9,7 @@
         "LifeTime": 3,
         "Icon": "Image/Buff/Skill_Icon_Pack/1_82/1",
         "Debuff": true,
-        "TagPer": 130
+        "TagPer": 130,
+        "IsFieldBuff": false
     }
 }

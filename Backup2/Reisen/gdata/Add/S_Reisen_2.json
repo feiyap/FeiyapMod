@@ -5,7 +5,7 @@
         "Particle": "Particle/Charon/ShadowPriest_7",
         "Target": "enemy",
         "Name": "狂符「幻视调律(Visionary Tuning)」",
-        "Description": "获得1次[等待]次数。施加[幻象/调律]。\n\n<color=red>幻象/狂气</color> - 额外施加[幻象/狂视]。",
+        "Description": "获得1次[等待]次数。施加[幻象/调律]。\n\n<color=#FF00FF>幻象/狂气</color> - 额外施加[幻象/狂视]。",
         "User": "Reisen",
         "NotCount": true,
         "Effect_Target": "SE_T_S_Reisen_2",
@@ -32,6 +32,7 @@
         "Track": false,
         "EnemyPreview": false,
         "UnknownTarget": false,
-        "Effect_Self": "SE_S_S_Reisen_2"
+        "Effect_Self": "SE_S_S_Reisen_2",
+        "UseAp": 0
     }
 }

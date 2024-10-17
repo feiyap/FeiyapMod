@@ -23,14 +23,14 @@ namespace ShameimaruAya
         {
             if (!Target.Info.Ally && ((!SkillD.NotCount && SkillD.AP <= 1) || SkillD.AP <= 0))
             {
-                Damage += (int)(Damage * 0.15 * this.StackNum);
+                Damage += (int)(Damage * 0.25 * this.StackNum);
             }
             return Damage;
         }
 
         public override string DescExtended()
         {
-            return base.DescExtended().Replace("&a", ((int)(15 * this.StackNum)).ToString());
+            return base.DescExtended().Replace("&a", ((int)(25 * this.StackNum)).ToString());
         }
     }
 }

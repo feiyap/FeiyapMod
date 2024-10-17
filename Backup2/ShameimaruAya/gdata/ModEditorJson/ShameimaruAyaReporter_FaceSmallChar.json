@@ -2,7 +2,7 @@
     "myKey": "ShameimaruAyaReporter",
     "myField": "FaceSmallChar",
     "myValues": {
-        "path": "",
+        "path": "Reporter\\ReporterFaceSmallChar.png",
         "offsetMax": {
             "x": 236.624054,
             "y": 265.336639

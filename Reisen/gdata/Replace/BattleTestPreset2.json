@@ -2,37 +2,39 @@
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
         "Party": [
-            "Phoenix",
-            "MissChain",
-            "Priest",
-            "Reisen"
+            "Reisen",
+            "Eirin",
+            "HouraisanKaguya",
+            "Inaba"
         ],
         "PartyBasicSkill": [
-            "S_Ilya_1",
-            "S_Azar_5",
-            "S_TW_Blue_5",
-            "S_Reisen_P"
+            "S_Reisen_P",
+            "S_Eirin_12Rare",
+            "S_FKaguya_0",
+            "S_Inaba_0"
         ],
         "PartySkills": [
             [
-                
-            ],
-            [
-                
-            ],
-            [
-                
-            ],
-            [
-                "S_Reisen_4",
-                "S_Reisen_8",
+                "S_Reisen_3",
                 "S_Reisen_2",
-                "S_Reisen_2"
+                "S_Reisen_9",
+                "S_Reisen_6",
+                "S_Reisen_0"
+            ],
+            [
+                "S_Eirin_3"
+            ],
+            [
+                
+            ],
+            [
+                "S_Inaba_8"
             ]
         ],
         "PartyEquip": [
             [
-                
+                "ShadowDagger",
+                "ShadowDagger"
             ],
             [
                 
@@ -45,8 +47,19 @@
             ]
         ],
         "LucySkill": [
+            "S_Reisen_LucyD",
+            "S_Reisen_LucyD",
+            "S_Reisen_LucyD"
+        ],
+        "AP": 10,
+        "ConsumeItems": [
             
         ],
-        "AP": 10
+        "Passive": [
+            "R_Inaba_0",
+            "UnlimitedButton",
+            "MoneyBag_CasinoDLC"
+        ],
+        "Level": 6
     }
 }

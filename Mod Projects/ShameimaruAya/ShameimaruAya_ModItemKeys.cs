@@ -4,6 +4,11 @@ namespace ShameimaruAya
     public static class ModItemKeys
     {
 		/// <summary>
+		/// 风来的山风
+		/// 叠加至6层时，生成1个[北风灵]。
+		/// </summary>
+        public static string Buff_B_E_ShameimaruAya_0 = "B_E_ShameimaruAya_0";
+		/// <summary>
 		/// 风来的山麓
 		/// 暴击时消耗1层增益，生成1个[北风灵]。
 		/// </summary>
@@ -20,7 +25,8 @@ namespace ShameimaruAya
         public static string Buff_B_Shameimaru_6 = "B_Shameimaru_6";
 		/// <summary>
 		/// 风来的奇迹
-		/// 下次使用技能时，根据支付的费用，在手中生成相应数量的[北风灵]，移除这个增益。
+		/// 下次使用技能时，根据支付的费用，在手中生成相应数量的[北风灵]。
+		/// 使用技能和触发闪避都会移除这个增益。
 		/// </summary>
         public static string Buff_B_Shameimaru_9 = "B_Shameimaru_9";
 		/// <summary>
@@ -52,6 +58,11 @@ namespace ShameimaruAya
 		/// </summary>
         public static string Buff_B_Shameimaru_Rare11 = "B_Shameimaru_Rare11";
 		/// <summary>
+		/// 天狗团扇
+		/// 所有队友每使用6个技能，生成1个[北风灵]。
+		/// </summary>
+        public static string Item_Equip_E_ShameimaruAya_0 = "E_ShameimaruAya_0";
+		/// <summary>
 		/// <color=green>连击</color></b>
 		/// 每个回合中使用过的技能大于X个时，可以触发额外效果。
 		/// </summary>
@@ -64,6 +75,15 @@ namespace ShameimaruAya
 		/// 连击
 		/// </summary>
         public static string SkillExtended_SE_Shameimaru_Combo = "SE_Shameimaru_Combo";
+		/// <summary>
+		/// <color=green>连击2</color> - 生成1个[风灵]。
+		/// </summary>
+        public static string SkillExtended_SE_Shameimaru_C_0 = "SE_Shameimaru_C_0";
+		/// <summary>
+		/// <color=green>连击4</color> - 费用降低1点。
+		/// 治疗技能
+		/// </summary>
+        public static string SkillExtended_SE_Shameimaru_C_1 = "SE_Shameimaru_C_1";
 		/// <summary>
 		/// 风神少女
 		/// </summary>
@@ -94,6 +114,8 @@ namespace ShameimaruAya
 		/// <b><color=green>连击X</color></b> - 每个回合中使用过的技能大于X个时，可以触发额外效果。
 		/// </summary>
         public static string Character_ShameimaruAya = "ShameimaruAya";
+        public static string Character_Skin_ShameimaruAyaKaixin = "ShameimaruAyaKaixin";
+        public static string Character_Skin_ShameimaruAyaReporter = "ShameimaruAyaReporter";
 		/// <summary>
 		/// 风灵
 		/// 指向敌人时，造成&a(40%)伤害。指向友军时，恢复&b(65%)体力。

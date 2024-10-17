@@ -1,0 +1,12 @@
+{
+    "SE_Shameimaru_C_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "<color=green>连击2</color> - 生成1个[风灵]。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "ShameimaruAya",
+        "ClassName": "ShameimaruAya.SE_Shameimaru_C_0"
+    }
+}

@@ -9,7 +9,7 @@ namespace Reisen
         public static string Buff_B_Reisen_1 = "B_Reisen_1";
 		/// <summary>
 		/// 幻象/狂梦
-		/// 不会减少[狂气]的层数。
+		/// 不会减少<color=#FF00FF>狂气</color>的层数。
 		/// </summary>
         public static string Buff_B_Reisen_11Rare = "B_Reisen_11Rare";
 		/// <summary>
@@ -34,7 +34,7 @@ namespace Reisen
         public static string Buff_B_Reisen_2_0 = "B_Reisen_2_0";
 		/// <summary>
 		/// 幻象/花冠
-		/// 造成的追加攻击/反击伤害+&a(20%)。
+		/// 造成的追加攻击/反击伤害+&a(33%)。
 		/// </summary>
         public static string Buff_B_Reisen_3 = "B_Reisen_3";
 		/// <summary>
@@ -51,14 +51,14 @@ namespace Reisen
 		/// </summary>
         public static string Buff_B_Reisen_5 = "B_Reisen_5";
 		/// <summary>
-		/// 幻象/望月
-		/// 每次触发[幻象/乱弹]时失去1层[狂气]，使[幻象/乱弹]的伤害提升为&a(45%)，命中率提升为100%。
-		/// 当[狂气]层数归零时，[幻象/望月]状态解除。
+		/// <color=#FF0000>幻象/望月</color>
+		/// 每次触发<color=#B22222>幻象/乱弹</color>时失去1层<color=#FF00FF>狂气</color>，使<color=#B22222>幻象/乱弹</color>的伤害提升为&a(75%)，命中率提升为100%。
+		/// 当<color=#FF00FF>狂气</color>层数归零时，<color=#FF0000>幻象/望月</color>状态解除。
 		/// </summary>
         public static string Buff_B_Reisen_6 = "B_Reisen_6";
 		/// <summary>
 		/// 真实/幻象
-		/// 每个回合开始时，获得3颗[子弹]。
+		/// 每个回合开始时，获得3颗<color=#B22222>子弹</color>。
 		/// </summary>
         public static string Buff_B_Reisen_7 = "B_Reisen_7";
 		/// <summary>
@@ -70,17 +70,21 @@ namespace Reisen
 		/// </summary>
         public static string Buff_B_Reisen_9 = "B_Reisen_9";
 		/// <summary>
-		/// 幻象/赤月
-		/// 每次触发[幻象/乱弹]时失去1层[狂气]，使[幻象/乱弹]的命中率提升为75%。
-		/// 当[狂气]层数归零时、或是按下[等待]按钮时，[幻象/赤月]状态解除。
+		/// <color=#FF4500>幻象/赤月</color>
+		/// 每次触发<color=#B22222>幻象/乱弹</color>时失去1层<color=#FF00FF>狂气</color>，使<color=#B22222>幻象/乱弹</color>的命中率提升为100%。
+		/// 当<color=#FF00FF>狂气</color>层数归零时、或是按下[等待]按钮时，<color=#FF4500>幻象/赤月</color>状态解除。
 		/// </summary>
         public static string Buff_B_Reisen_P = "B_Reisen_P";
 		/// <summary>
-		/// 子弹
+		/// <color=#B22222>子弹</color>
+		/// 消耗<color=#B22222>子弹</color>来触发<color=#B22222>幻象/乱弹</color>。
+		/// <i><color=#CDC9C9>开枪需要消耗子弹。这是常识。</color></i>
 		/// </summary>
         public static string Buff_B_Reisen_P_Bullet = "B_Reisen_P_Bullet";
 		/// <summary>
-		/// 狂气
+		/// <color=#FF00FF>狂气</color>
+		/// 消耗<color=#FF00FF>狂气</color>来加强技能的效果。
+		/// <i><color=#CDC9C9>究竟是铃仙控制了狂气，还是狂气控制了铃仙？</color></i>
 		/// </summary>
         public static string Buff_B_Reisen_P_Insane = "B_Reisen_P_Insane";
 		/// <summary>
@@ -91,13 +95,15 @@ namespace Reisen
 		/// <summary>
 		/// 铃仙
 		/// Passive:
-		/// <b>幻象/乱弹</b> - 战斗开始时，获得6颗[子弹]。每次按下[等待]按钮时，获得1颗[子弹]。
-		/// 铃仙使用攻击技能指向敌人时，自动消耗1颗[子弹]，对目标进行1次[幻象/乱弹]。
-		/// <b>幻象/狂气</b> - 战斗开始时，获得4层[狂气]。每个回合开始时，获得1层[狂气]。
-		/// 铃仙的固定技能被替换为[长视「赤月下(Infrared Moon)」]：消耗1层[狂气]，进入[幻象/赤月]状态。
-		/// 在[幻象/赤月]状态下，铃仙的[幻象/乱弹]和手中的技能获得增强和额外效果，但使用技能时会消耗[狂气]的层数。[狂气]层数清空时退出[幻象/赤月]状态。
+		/// <b><color=#B22222>幻象/乱弹</color></b> - 战斗开始时，获得6颗<color=#B22222>子弹</color>。每次按下[等待]按钮时，获得1颗<color=#B22222>子弹</color>。
+		/// 铃仙使用攻击技能指向单个敌人时，自动消耗1颗<color=#B22222>子弹</color>，对目标进行1次<color=#B22222>幻象/乱弹</color>的追加攻击。
+		/// <b><color=#FF00FF>幻象/狂气</color></b> - 战斗开始时，获得4层<color=#FF00FF>幻象/狂气</color>。每个回合开始时，获得1层<color=#FF00FF>幻象/狂气</color>。
+		/// 铃仙的固定技能被替换为[长视「赤月下(Infrared Moon)」]：消耗1层<color=#FF00FF>幻象/狂气</color>，进入<color=#FF4500>幻象/赤月</color>状态。
+		/// <b><color=#FF4500>幻象/赤月</color></b> - 在这个状态下，铃仙的<color=#B22222>幻象/乱弹</color>和手中的技能获得增强和额外效果，但使用技能时会消耗<color=#FF00FF>幻象/狂气</color>的层数。<color=#FF00FF>幻象/狂气</color>层数清空时退出<color=#FF4500>幻象/赤月</color>状态。
 		/// </summary>
         public static string Character_Reisen = "Reisen";
+        public static string Character_Skin_ReisenEVO = "ReisenEVO";
+        public static string Character_Skin_ReisenShooter = "ReisenShooter";
         public static string SimpleCampDialogue_CampDial_Reisen_Hein = "CampDial_Reisen_Hein";
         public static string SimpleCampDialogue_CampDial_Reisen_SilverStein = "CampDial_Reisen_SilverStein";
         public static string SimpleCampDialogue_CampDial_Reisen_Patchouli = "CampDial_Reisen_Patchouli";
@@ -151,13 +157,13 @@ namespace Reisen
         public static string SkillEffect_SE_T_S_Reisen_P_2 = "SE_T_S_Reisen_P_2";
 		/// <summary>
 		/// 波符「赤眼催眠(Mind Shaker)」
-		/// <color=red>幻象/狂气</color> - 必定暴击。
+		/// <color=#FF00FF>幻象/狂气</color> - 必定暴击。
 		/// </summary>
         public static string Skill_S_Reisen_0 = "S_Reisen_0";
 		/// <summary>
 		/// 懒符「生神停止(Idling Wave)」
 		/// 获得1次[等待]次数。施加[幻象/怠波]。
-		/// <color=red>幻象/狂气</color> - 额外获得1次[等待]次数。改为施加[幻象/懒冻]。
+		/// <color=#FF00FF>幻象/狂气</color> - 额外获得1次[等待]次数。改为施加[幻象/懒冻]。
 		/// </summary>
         public static string Skill_S_Reisen_1 = "S_Reisen_1";
 		/// <summary>
@@ -183,7 +189,7 @@ namespace Reisen
 		/// <summary>
 		/// 狂符「幻视调律(Visionary Tuning)」
 		/// 获得1次[等待]次数。施加[幻象/调律]。
-		/// <color=red>幻象/狂气</color> - 额外施加[幻象/狂视]。
+		/// <color=#FF00FF>幻象/狂气</color> - 额外施加[幻象/狂视]。
 		/// </summary>
         public static string Skill_S_Reisen_2 = "S_Reisen_2";
 		/// <summary>
@@ -201,18 +207,18 @@ namespace Reisen
 		/// <summary>
 		/// 弱心「丧心丧意(Demotivation)」
 		/// 施加[幻象/丧心]。
-		/// <color=red>幻象/狂气</color> - 额外施加[幻象/疮痍]。
+		/// <color=#FF00FF>幻象/狂气</color> - 额外施加[幻象/疮痍]。
 		/// </summary>
         public static string Skill_S_Reisen_4 = "S_Reisen_4";
 		/// <summary>
 		/// 幻弹「幻想视差(Bluff Barrage)」
 		/// 受到<color=purple>&a(20%最大体力值)的痛苦伤害</color>。
-		/// <color=red>幻象/狂气</color> - 抽取1个自己的技能。
+		/// <color=#FF00FF>幻象/狂气</color> - 抽取1个自己的技能。
 		/// </summary>
         public static string Skill_S_Reisen_5 = "S_Reisen_5";
 		/// <summary>
 		/// 赤眼「望见圆月(Lunatic Blast)」
-		/// 如果有[幻象/赤月]状态，解除[幻象/赤月]状态。
+		/// 如果有<color=#FF4500>幻象/赤月</color>状态，解除<color=#FF4500>幻象/赤月</color>状态。
 		/// </summary>
         public static string Skill_S_Reisen_6 = "S_Reisen_6";
 		/// <summary>
@@ -238,7 +244,7 @@ namespace Reisen
 		/// <summary>
 		/// 长视「赤月下(Infrared Moon)」
 		/// 每当使用手中的技能时，可再次使用此技能。
-		/// 在[幻象/赤月]或[幻象/望月]状态下使用时，或是[狂气]层数等于0时使用时，不再造成伤害和消耗，改为解除[幻象/赤月]状态或[幻象/望月]状态，并获得1层[狂气]。
+		/// 在<color=#FF4500>幻象/赤月</color>或<color=#FF0000>幻象/望月</color>状态下使用时，或是<color=#FF00FF>狂气</color>层数等于0时使用时，不再造成伤害，改为解除<color=#FF4500>幻象/赤月</color>状态或<color=#FF0000>幻象/望月</color>状态，并获得2层<color=#FF00FF>狂气</color>。
 		/// </summary>
         public static string Skill_S_Reisen_P = "S_Reisen_P";
 		/// <summary>

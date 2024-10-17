@@ -30,7 +30,7 @@ namespace Reisen
 
         public override string DescExtended()
         {
-            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.45)).ToString());
+            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.75)).ToString());
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Reisen
         {
             get
             {
-                return (int)((float)(0 + this.BChar.GetStat.atk * 0.35f));
+                return (int)((float)(0 + this.BChar.GetStat.atk * 0.3f));
             }
         }
 
@@ -32,13 +32,11 @@ namespace Reisen
             
             if (this.BChar.BuffFind("B_Reisen_P", false) || this.BChar.BuffFind("B_Reisen_6", false) || !this.BChar.BuffFind("B_Reisen_P_Insane", false))
             {
-                this.MySkill.APChange = -1;
                 this.SkillBasePlus.Target_BaseDMG = 0;
                 this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_self);
             }
             else
             {
-                this.MySkill.APChange = 0;
                 this.SkillBasePlus.Target_BaseDMG = PlusDmg;
                 this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
             }
@@ -55,26 +53,25 @@ namespace Reisen
             {
                 this.BChar.BuffRemove("B_Reisen_P", false);
                 this.BChar.BuffAdd("B_Reisen_P_Insane", this.BChar, false, 0, false, -1, false);
-                //this.SkillBuffAdd("B_Reisen_P_Insane", this.BChar);
+                this.BChar.BuffAdd("B_Reisen_P_Insane", this.BChar, false, 0, false, -1, false);
                 return;
             }
             if (this.BChar.BuffFind("B_Reisen_6", false))
             {
                 this.BChar.BuffRemove("B_Reisen_6", false);
                 this.BChar.BuffAdd("B_Reisen_P_Insane", this.BChar, false, 0, false, -1, false);
-                //this.SkillBuffAdd("B_Reisen_P_Insane", this.BChar);
+                this.BChar.BuffAdd("B_Reisen_P_Insane", this.BChar, false, 0, false, -1, false);
                 return;
             }
             if (!this.BChar.BuffFind("B_Reisen_P_Insane", false))
             {
                 this.BChar.BuffAdd("B_Reisen_P_Insane", this.BChar, false, 0, false, -1, false);
-                //this.SkillBuffAdd("B_Reisen_P_Insane", this.BChar);
+                this.BChar.BuffAdd("B_Reisen_P_Insane", this.BChar, false, 0, false, -1, false);
                 return;
             }
 
             this.SkillBasePlus.Target_BaseDMG = PlusDmg;
             this.BChar.BuffAdd("B_Reisen_P", this.BChar, false, 0, false, -1, false);
-            //this.SkillBuffAdd("B_Reisen_P", this.BChar);
             return;
         }
     }

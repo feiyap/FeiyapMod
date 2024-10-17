@@ -35,7 +35,7 @@
             "x": 100,
             "y": 125
         },
-        "PassiveDes": "<b>幻象/乱弹</b> - 战斗开始时，获得6颗[子弹]。每次按下[等待]按钮时，获得1颗[子弹]。\n铃仙使用攻击技能指向敌人时，自动消耗1颗[子弹]，对目标进行1次[幻象/乱弹]。\n\n<b>幻象/狂气</b> - 战斗开始时，获得4层[狂气]。每个回合开始时，获得1层[狂气]。\n铃仙的固定技能被替换为[长视「赤月下(Infrared Moon)」]：消耗1层[狂气]，进入[幻象/赤月]状态。\n在[幻象/赤月]状态下，铃仙的[幻象/乱弹]和手中的技能获得增强和额外效果，但使用技能时会消耗[狂气]的层数。[狂气]层数清空时退出[幻象/赤月]状态。",
+        "PassiveDes": "<b><color=#B22222>幻象/乱弹</color></b> - 战斗开始时，获得6颗<color=#B22222>子弹</color>。每次按下[等待]按钮时，获得1颗<color=#B22222>子弹</color>。\n铃仙使用攻击技能指向单个敌人时，自动消耗1颗<color=#B22222>子弹</color>，对目标进行1次<color=#B22222>幻象/乱弹</color>的追加攻击。\n\n<b><color=#FF00FF>幻象/狂气</color></b> - 战斗开始时，获得4层<color=#FF00FF>幻象/狂气</color>。每个回合开始时，获得1层<color=#FF00FF>幻象/狂气</color>。\n铃仙的固定技能被替换为[长视「赤月下(Infrared Moon)」]：消耗1层<color=#FF00FF>幻象/狂气</color>，进入<color=#FF4500>幻象/赤月</color>状态。\n\n<b><color=#FF4500>幻象/赤月</color></b> - 在这个状态下，铃仙的<color=#B22222>幻象/乱弹</color>和手中的技能获得增强和额外效果，但使用技能时会消耗<color=#FF00FF>幻象/狂气</color>的层数。<color=#FF00FF>幻象/狂气</color>层数清空时退出<color=#FF4500>幻象/赤月</color>状态。",
         "PassiveName": "狂气的赤瞳",
         "PassiveIcon": "Reisen\\ReisenPassiveIcon.png",
         "CollectionSprite_Cover": "Reisen\\ReisenCollectionSprite_Cover.png",

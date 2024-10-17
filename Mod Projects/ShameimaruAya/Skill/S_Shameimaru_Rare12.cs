@@ -32,7 +32,7 @@ namespace ShameimaruAya
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (CheckUsedSkills(2))
+            if (CheckUsedSkills(20))
             {
                 base.SkillParticleOn();
             }
@@ -41,75 +41,22 @@ namespace ShameimaruAya
                 base.SkillParticleOff();
             }
 
-            if (CheckUsedSkills(2))
-            {
-                this.IgnoreTaunt = true;
-            }
+            this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.15f) * BattleSystem.instance.BattleLogs.getSkills((BattleLog log) => log.WhoUse.Info.Ally, (Skill skill) => !skill.FreeUse, BattleSystem.instance.TurnNum).Count;
 
-            if (CheckUsedSkills(4))
-            {
-                this.APChange = 1;
-                this.NotCount = true;
-                this.Fatal = true;
-            }
-
-            if (CheckUsedSkills(6))
+            if (CheckUsedSkills(20))
             {
                 this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
-            }
-
-            if (CheckUsedSkills(8))
-            {
-                this.APChange = 2;
-            }
-
-            if (CheckUsedSkills(10))
-            {
-                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.75f);
             }
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (CheckUsedSkills(2))
-            {
-
-            }
-
-            if (CheckUsedSkills(4))
-            {
-
-            }
-
-            if (CheckUsedSkills(6))
-            {
-
-            }
-
-            if (CheckUsedSkills(8))
-            {
-                if (Targets.Count == 1)
-                {
-                    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 1.5f);
-                }
-            }
-
-            if (CheckUsedSkills(10))
-            {
-                if (Targets.Count == 1)
-                {
-                    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 2.25f);
-                }
-                else
-                {
-                    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.75f);
-                }
-            }
+            this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.15f) * BattleSystem.instance.BattleLogs.getSkills((BattleLog log) => log.WhoUse.Info.Ally, (Skill skill) => !skill.FreeUse, BattleSystem.instance.TurnNum).Count;
         }
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 1.5f)).ToString()).Replace("&b", ((int)(this.BChar.GetStat.atk * 0.75f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.15f)).ToString());
         }
     }
 }

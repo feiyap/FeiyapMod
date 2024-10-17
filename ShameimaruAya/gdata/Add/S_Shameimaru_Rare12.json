@@ -8,8 +8,8 @@
         "Disposable": false,
         "Name": "龙卷「天孙降临的道标」",
         "User": "ShameimaruAya",
-        "UseAp": 1,
-        "Description": "<b><color=green>连击2</color></b> - 附加无视嘲讽。\n<b><color=green>连击4</color></b> - 费用增加1点。附加迅速、致命。\n<b><color=green>连击6</color></b> - 改为指向所有敌人。\n<b><color=green>连击8</color></b> - 费用增加1点。如果仅有1个目标，额外造成&a(150%)伤害。\n<b><color=green>连击10</color></b> - 额外造成&a(75%)伤害。",
+        "UseAp": 2,
+        "Description": "这个回合中，每次使用技能会使这个技能造成额外&a(15%)伤害。\n\n<b><color=green>连击20</color></b> - 改为指向所有敌人。",
         "PlusKeyWords": [
             "Keyword_Combo"
         ],
@@ -19,6 +19,19 @@
         "Image_2": "S_Shameimaru_Rare12\\S_Shameimaru_Rare12_Image_2.png",
         "SkillExtended": [
             "ShameimaruAya.S_Shameimaru_Rare12"
-        ]
+        ],
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

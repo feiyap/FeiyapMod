@@ -16,6 +16,8 @@
         "NotCount": true,
         "SkillExtended": [
             "Reisen.S_Reisen_9"
-        ]
+        ],
+        "Track": false,
+        "Fatal": false
     }
 }

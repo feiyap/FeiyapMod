@@ -28,6 +28,7 @@
         "SkillExtended": [
             "Reisen.S_Reisen_P"
         ],
-        "Description": "每当使用手中的技能时，可再次使用此技能。\n在[幻象/赤月]或[幻象/望月]状态下使用时，或是[狂气]层数等于0时使用时，不再造成伤害和消耗，改为解除[幻象/赤月]状态或[幻象/望月]状态，并获得1层[狂气]。"
+        "Description": "每当使用手中的技能时，可再次使用此技能。\n在<color=#FF4500>幻象/赤月</color>或<color=#FF0000>幻象/望月</color>状态下使用时，或是<color=#FF00FF>狂气</color>层数等于0时使用时，不再造成伤害，改为解除<color=#FF4500>幻象/赤月</color>状态或<color=#FF0000>幻象/望月</color>状态，并获得2层<color=#FF00FF>狂气</color>。",
+        "UseAp": -1
     }
 }

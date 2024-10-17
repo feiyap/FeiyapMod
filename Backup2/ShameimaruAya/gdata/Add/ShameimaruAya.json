@@ -74,6 +74,49 @@
             "ShameimaruAya\\ShameimaruAyaCampSD1.png",
             "ShameimaruAya\\ShameimaruAyaCampSD2.png",
             "ShameimaruAya\\ShameimaruAyaCampSD3.png"
-        ]
+        ],
+        "Text_PharosLeader": [
+            "今日头条……法洛斯教主莅临……",
+            "呜哇！这样的报纸根本卖不出去嘛？！",
+            "你就成为头条的脚注吧！"
+        ],
+        "Text_Battle_Idle": [
+            "真想知道怪物们在想着什么。可以去采访他们吗？",
+            "嗯……嗯……闲得都想睡觉了。"
+        ],
+        "Text_Battle_ND": [
+            "呜哇！",
+            "我才不想登上明天报纸的头条……"
+        ],
+        "Text_Battle_AllyND": [
+            "别掉队了！"
+        ],
+        "Text_Battle_Kill": [
+            "不觉得太慢了吗？你。",
+            "下次有机会再采访你哦。"
+        ],
+        "Text_Battle_Start": [
+            "来拍摄点有趣的内容吧。大英雄露西的登场，如何？",
+            "对了，要不要来做个扭曲之地的连载呢？"
+        ],
+        "Text_Battle_Cri": [
+            "号外~号外~！",
+            "虽然没有什么大事件但还是要号外！"
+        ],
+        "Text_Battle_Healed": [
+            "多谢多谢。"
+        ],
+        "Text_Field_Idle": [
+            "我就是众所周知的射命丸啦。由我来报道今天的新闻。",
+            "我觉得，你表情再可怕一点的话作为报道内容来说会更有趣。"
+        ],
+        "Text_Field_GetItem": [
+            "回头要不要在报纸上刊登一下今天的幸运五行呢？"
+        ],
+        "Text_Witch": [
+            "英勇的射命丸舍身为友……嗯嗯，就这么写。",
+            "……报纸上不能出现自己的样子才对啦……"
+        ],
+        "Text_MasterTarget": "替我跟椛说一声。明天的头条，一定得是我哟。"
     }
 }

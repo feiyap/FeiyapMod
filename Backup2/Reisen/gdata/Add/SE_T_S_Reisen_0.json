@@ -2,7 +2,7 @@
     "SE_T_S_Reisen_0": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 120,
+        "DMG_Per": 135,
         "CRI": 0
     }
 }

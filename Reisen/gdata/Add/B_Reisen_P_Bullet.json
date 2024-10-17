@@ -3,8 +3,8 @@
         "_gdeSchema": "Buff",
         "ClassName": "",
         "BuffTag": "null",
-        "Name": "子弹",
-        "Description": "",
+        "Name": "<color=#B22222>子弹</color>",
+        "Description": "消耗<color=#B22222>子弹</color>来触发<color=#B22222>幻象/乱弹</color>。\n\n<i><color=#CDC9C9>开枪需要消耗子弹。这是常识。</color></i>",
         "LifeTime": 0,
         "MaxStack": 6,
         "Icon": "B_Reisen_P_Bullet\\B_Reisen_P_Bullet_Icon.png"
