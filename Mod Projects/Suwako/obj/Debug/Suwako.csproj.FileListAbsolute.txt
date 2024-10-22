@@ -7,7 +7,8 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\0H
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\Mono.Cecil.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\MonoMod.Utils.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\MonoMod.RuntimeDetour.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\Suwako2024109234339.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\Suwako2024109234339.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\obj\Debug\Suwako2024109234339.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\obj\Debug\Suwako2024109234339.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\DynamicEmitAPI.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\Suwako20241019182105.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\bin\Debug\Suwako20241019182105.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\obj\Debug\Suwako20241019182105.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Suwako\obj\Debug\Suwako20241019182105.pdb

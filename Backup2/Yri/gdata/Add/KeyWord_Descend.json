@@ -1,7 +1,0 @@
-{
-    "KeyWord_Descend": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "Descend",
-        "Desc": "Activate when Airborne. Lose airborne and gain additional effects."
-    }
-}

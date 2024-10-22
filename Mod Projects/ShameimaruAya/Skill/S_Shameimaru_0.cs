@@ -25,16 +25,22 @@ namespace ShameimaruAya
             this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
         }
 
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (CheckUsedSkills(2))
+            if (fixCount >= 12)
             {
-                base.SkillParticleOn();
-            }
-            else
-            {
-                base.SkillParticleOff();
+                fixCount = 0;
+                if (CheckUsedSkills(2))
+                {
+                    base.SkillParticleOn();
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                }
             }
         }
 

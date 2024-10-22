@@ -2,7 +2,7 @@
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
         "Party": [
-            "Phoenix",
+            "Priest",
             "MissChain",
             "Hein",
             "Suwako"
@@ -25,25 +25,28 @@
             ],
             [
                 "S_Suwako_0",
-                "S_Suwako_0",
-                "S_Suwako_0",
+                "S_Suwako_1",
                 "S_Suwako_0"
             ]
         ],
         "PartyEquip": [
             [
-                "WhitePriestCloth"
+                
             ],
             [
-                "WhitePriestCloth"
+                
             ],
             [
-                "Ilya_Sword_0",
-                "Ilya_Sword_1"
+                
             ],
             [
                 
             ]
-        ]
+        ],
+        "LucySkill": [
+            "S_Suwako_LucyD"
+        ],
+        "AP": 10,
+        "Level": 6
     }
 }

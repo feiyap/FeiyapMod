@@ -1,7 +1,0 @@
-{
-    "Keyword_Combo": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "<color=green>连击</color></b>",
-        "Desc": "每个回合中使用过的技能大于X个时，可以触发额外效果。"
-    }
-}

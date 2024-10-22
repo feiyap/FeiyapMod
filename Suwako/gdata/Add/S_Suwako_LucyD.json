@@ -1,0 +1,21 @@
+{
+    "S_Suwako_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "开宴「二拜二拍一拜」",
+        "Description": "将手中最下面的技能放回牌库，抽取3个技能。",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "Suwako",
+        "Image_0": "S_Suwako_LucyD\\S_Suwako_LucyD_Image_0.png",
+        "Image_1": "S_Suwako_LucyD\\S_Suwako_LucyD_Image_1.png",
+        "Image_2": "S_Suwako_LucyD\\S_Suwako_LucyD_Image_2.png",
+        "IgnoreTaunt": false,
+        "SkillExtended": [
+            "Suwako.S_Suwako_LucyD"
+        ]
+    }
+}

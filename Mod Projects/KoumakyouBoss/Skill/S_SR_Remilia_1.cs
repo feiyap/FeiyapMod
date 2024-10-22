@@ -19,6 +19,44 @@ namespace KoumakyouBoss
 	/// </summary>
     public class S_SR_Remilia_1:Skill_Extended
     {
+        public int PlusDmg
+        {
+            get
+            {
+                if (BattleSystem.instance == null || BattleSystem.instance.BattleLogs == null || BattleSystem.instance.TurnNum <= 0)
+                {
+                    return 0;
+                }
+                return (int)((float)(0 + this.BChar.GetStat.maxhp * 0.2));
+            }
+        }
 
+        public override void Init()
+        {
+            base.Init();
+            this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
+        }
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
+        }
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
+            this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
+        }
+
+        public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
+        {
+            this.BChar.Heal(this.BChar, (float)((int)((float)DMG * 1.0f)), this.BChar.GetCri(), true, null);
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", (this.PlusDmg).ToString());
+        }
     }
 }

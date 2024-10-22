@@ -1,0 +1,10 @@
+{
+    "B_Suwako_8": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "风雨欲来",
+        "Description": "下次触发旋回效果时，使被旋回的技能在本场战斗中增加&a(40%)伤害或&b(65%)治疗量。",
+        "Icon": "B_Suwako_8\\B_Suwako_8_Icon.png"
+    }
+}

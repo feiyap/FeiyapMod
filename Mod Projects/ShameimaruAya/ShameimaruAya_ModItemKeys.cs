@@ -116,6 +116,21 @@ namespace ShameimaruAya
         public static string Character_ShameimaruAya = "ShameimaruAya";
         public static string Character_Skin_ShameimaruAyaKaixin = "ShameimaruAyaKaixin";
         public static string Character_Skin_ShameimaruAyaReporter = "ShameimaruAyaReporter";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_HakureiReimu = "CampDial_ShameimaruAya_HakureiReimu";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_RemiliaScarlet = "CampDial_ShameimaruAya_RemiliaScarlet";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_IzayoiSakuya = "CampDial_ShameimaruAya_IzayoiSakuya";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_FlandreScarlet = "CampDial_ShameimaruAya_FlandreScarlet";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_SatsukiRin = "CampDial_ShameimaruAya_SatsukiRin";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_Mokou = "CampDial_ShameimaruAya_Mokou";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_Youmu = "CampDial_ShameimaruAya_Youmu";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_TouhouAlice = "CampDial_ShameimaruAya_TouhouAlice";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_Reisen = "CampDial_ShameimaruAya_Reisen";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_Eirin = "CampDial_ShameimaruAya_Eirin";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_HouraisanKaguya = "CampDial_ShameimaruAya_HouraisanKaguya";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_Inaba = "CampDial_ShameimaruAya_Inaba";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_KochiyaSanae = "CampDial_ShameimaruAya_KochiyaSanae";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_Cirno = "CampDial_ShameimaruAya_Cirno";
+        public static string SimpleCampDialogue_CampDial_ShameimaruAya_Daiyousei = "CampDial_ShameimaruAya_Daiyousei";
 		/// <summary>
 		/// 风灵
 		/// 指向敌人时，造成&a(40%)伤害。指向友军时，恢复&b(65%)体力。
@@ -147,7 +162,7 @@ namespace ShameimaruAya
 		/// <summary>
 		/// 风符「天狗道的开风」
 		/// 使用这个技能击杀敌人后，将1张0费的[风符「天狗道的开风」]加入手中。
-		/// <b><color=green>连击12</color></b> - 额外造成&a(125%)伤害。
+		/// <b><color=green>连击12</color></b> - 额外造成&a(100%)伤害。
 		/// </summary>
         public static string Skill_S_Shameimaru_3 = "S_Shameimaru_3";
 		/// <summary>
@@ -205,16 +220,13 @@ namespace ShameimaruAya
         public static string Skill_S_Shameimaru_Rare10_0 = "S_Shameimaru_Rare10_0";
 		/// <summary>
 		/// 「无双风神」
-		/// 生成3个[北风灵]。
+		/// 生成2个[北风灵]。
 		/// </summary>
         public static string Skill_S_Shameimaru_Rare11 = "S_Shameimaru_Rare11";
 		/// <summary>
 		/// 龙卷「天孙降临的道标」
-		/// <b><color=green>连击2</color></b> - 附加无视嘲讽。
-		/// <b><color=green>连击4</color></b> - 费用增加1点。附加迅速、致命。
-		/// <b><color=green>连击6</color></b> - 改为指向所有敌人。
-		/// <b><color=green>连击8</color></b> - 费用增加1点。如果仅有1个目标，额外造成&a(150%)伤害。
-		/// <b><color=green>连击10</color></b> - 额外造成&a(75%)伤害。
+		/// 这个回合中，每次使用技能会使这个技能造成额外&a(15%)伤害。
+		/// <b><color=green>连击20</color></b> - 改为指向所有敌人。
 		/// </summary>
         public static string Skill_S_Shameimaru_Rare12 = "S_Shameimaru_Rare12";
 

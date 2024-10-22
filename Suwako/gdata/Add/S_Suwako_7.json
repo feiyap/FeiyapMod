@@ -1,0 +1,26 @@
+{
+    "S_Suwako_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "NotCount": true,
+        "NoBasicSkill": false,
+        "Name": "土著神「七石七木」",
+        "Description": "生成1个[风灵]和1个[南风灵]。\n\n<color=#008B45>旋回</color> - 生成1个[南风灵]。",
+        "User": "Suwako",
+        "PlusKeyWords": [
+            "Keyword_Return"
+        ],
+        "Disposable": true,
+        "Effect_Target": "null",
+        "Image_0": "S_Suwako_7\\S_Suwako_7_Image_0.png",
+        "Image_1": "S_Suwako_7\\S_Suwako_7_Image_1.png",
+        "Image_2": "S_Suwako_7\\S_Suwako_7_Image_2.png",
+        "Rare": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Track": false,
+        "Fatal": false
+    }
+}

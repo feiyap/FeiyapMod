@@ -1,0 +1,161 @@
+{
+    "CampDial_ShameimaruAya_HakureiReimu": {
+        "CharA": "ShameimaruAya",
+        "CharB": "HakureiReimu",
+        "Dialogues": [
+            "[B]为什么，报纸的照片里还会把你自己拍进去？",
+            "[B]难道说先按快门然后用超高速移动什么的？……这样就能拍到自己吗？",
+            "[A]嗯……我觉得幻想乡里只有你和紫那家伙没法这么说我。",
+            "[A]你们不都是能把手伸到很远的地方去的那种人吗？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_RemiliaScarlet": {
+        "CharA": "ShameimaruAya",
+        "CharB": "RemiliaScarlet",
+        "Dialogues": [
+            "[A]我觉得，你表情再可怕一点的话作为报道内容来说会更有趣。",
+            "[A]再努力一下看看？",
+            "[B]小心我把你变成今日头条哦。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_IzayoiSakuya": {
+        "CharA": "ShameimaruAya",
+        "CharB": "IzayoiSakuya",
+        "Dialogues": [
+            "[A]太厉害了！以前都不知道你如此精通于飞刀魔术啊！",
+            "[A]来拍摄一期魔术专辑吧，怎么样？",
+            "[B]我还有清扫的任务，就先告辞了。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_FlandreScarlet": {
+        "CharA": "ShameimaruAya",
+        "CharB": "FlandreScarlet",
+        "Dialogues": [
+            "[B]飞的很快的天狗姐姐，今天也要来采访芙兰吗？",
+            "[A]不哦。就算是我这么勤快的记者，偶尔也会想休息几天嘛。",
+            "[A]对了，来比比谁飞的更快怎么样？",
+            "[B]好耶！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_SatsukiRin": {
+        "CharA": "ShameimaruAya",
+        "CharB": "SatsukiRin",
+        "Dialogues": [
+            "[A]您好您好，哎呀，能见到麟小姐本人，这绝对、肯定是独家新闻啦！",
+            "[B]呵呵……请为我专门做一个专辑，可以吗？",
+            "[A]那当然是求之不得！就让我用报纸留下您的身姿吧！",
+            "[B]谢谢你，射命丸小姐。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_Mokou": {
+        "CharA": "ShameimaruAya",
+        "CharB": "Mokou",
+        "Dialogues": [
+            "[B]喂，下次少做辉夜那边的报道啊。",
+            "[B]一直有人看了报纸、想要到永远亭那边去，结果在竹林里迷路。",
+            "[A]那就以永远走不出去的竹林为爆点，做一期报道怎么样？",
+            "[B]你到底听没听人讲话啊！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_Youmu": {
+        "CharA": "ShameimaruAya",
+        "CharB": "Youmu",
+        "Dialogues": [
+            "[A]地表最速VS空中最速……哼哼，我可是不会输的。",
+            "[B]新闻记者啊，就能这样干涉被采访的对象吗？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_TouhouAlice": {
+        "CharA": "ShameimaruAya",
+        "CharB": "TouhouAlice",
+        "Dialogues": [
+            "[A]下次啊，一定要让我去你那采访一次。",
+            "[A]非常想看看你是怎么往人偶里装火药的！",
+            "[B]那个鼻子会伸长的人偶的故事说的什么来着？",
+            "[B]……和天狗无关的吗。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_Reisen": {
+        "CharA": "ShameimaruAya",
+        "CharB": "Reisen",
+        "Dialogues": [
+            "[A]兔子什么的要出现在报纸上，总感觉报纸就会变得很低俗的样子呢……",
+            "[B]我听说最近山里在开发什么现代兵器啊。",
+            "[B]真有够傻。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_Eirin": {
+        "CharA": "ShameimaruAya",
+        "CharB": "Eirin",
+        "Dialogues": [
+            "[B]射命丸，我要刊登广告。关于这次的新药……",
+            "[A]好的好的，一切都包在我射命丸身上吧！",
+            "[A]如果允许的话，给我一点试用品也是可以的哟？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_HouraisanKaguya": {
+        "CharA": "ShameimaruAya",
+        "CharB": "HouraisanKaguya",
+        "Dialogues": [
+            "[A]辉夜大人，今年的博览会打算展出些什么呢？",
+            "[B]原来是天狗记者。哼哼，暂时就保密。",
+            "[B]不过，等到了合适的时机，会事先联系你们这些记者来炒热场子的。",
+            "[A]那在下可就满怀期待地等着独家报道啦。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_Inaba": {
+        "CharA": "ShameimaruAya",
+        "CharB": "Inaba",
+        "Dialogues": [
+            "[A]最近的妖怪兔们好像在谋划着什么。是你出的主意吗？",
+            "[B]说是谋划也太过了啦。咱只是想提升一点兔子们的地位哟。",
+            "[B]首先要从学习知识做起呢。先订一百份报纸如何？",
+            "[A]哎呀哎呀~！有什么在下能帮得上的，请尽管使唤！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_KochiyaSanae": {
+        "CharA": "ShameimaruAya",
+        "CharB": "KochiyaSanae",
+        "Dialogues": [
+            "[A]啊，不提供新闻的巫女。",
+            "[A]最近还在为了那个什么山四处奔走吗？",
+            "[B]最近，看报纸的人越来越少了。",
+            "[B]感觉快成旧时代的遗物了。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_Cirno": {
+        "CharA": "ShameimaruAya",
+        "CharB": "Cirno",
+        "Dialogues": [
+            "[A]其实，妖精干的事情是最有趣的。",
+            "[A]所以，妖精最有趣。",
+            "[B]多记录点哟~",
+            "[B]那些发生了和还没发生的事！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_ShameimaruAya_Daiyousei": {
+        "CharA": "ShameimaruAya",
+        "CharB": "Daiyousei",
+        "Dialogues": [
+            "[A]英勇的冰之勇者拯救了妖精公主……唔姆唔姆……",
+            "[B]那个、那个……",
+            "[A]——哎呀！完美的报道就写完了！号外~号外~！",
+            "[B]不、不要无视我呀——"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    }
+}

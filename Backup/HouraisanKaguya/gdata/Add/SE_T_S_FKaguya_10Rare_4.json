@@ -1,9 +1,0 @@
-{
-    "SE_T_S_FKaguya_10Rare_4": {
-        "_gdeSchema": "SkillEffect",
-        "HIT": 100,
-        "DMG_Per": 100,
-        "DMG_Base": 10,
-        "CRI": 5
-    }
-}

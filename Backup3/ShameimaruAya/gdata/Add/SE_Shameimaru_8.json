@@ -1,9 +1,0 @@
-{
-    "SE_Shameimaru_8": {
-        "_gdeSchema": "SkillExtended",
-        "AlwaysParticle": false,
-        "IsOnesInit": false,
-        "Name": "快照",
-        "ClassName": "ShameimaruAya.SE_Shameimaru_8"
-    }
-}

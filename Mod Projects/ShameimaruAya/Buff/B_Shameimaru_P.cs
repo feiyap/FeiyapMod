@@ -16,11 +16,16 @@ namespace ShameimaruAya
 	/// <summary>
 	/// 操纵风程度的能力
 	/// </summary>
-    public class B_Shameimaru_P:Buff
+    public class B_Shameimaru_P:Buff, IP_PlayerTurn
     {
         public override void Init()
         {
             this.PlusStat.cri = 5 * StackNum;
+        }
+
+        public void Turn()
+        {
+            SelfDestroy();
         }
     }
 }

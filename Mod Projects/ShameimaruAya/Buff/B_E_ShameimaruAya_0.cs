@@ -19,12 +19,18 @@ namespace ShameimaruAya
 	/// </summary>
     public class B_E_ShameimaruAya_0:Buff
     {
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (base.StackNum >= 6)
+            if (fixCount >= 12)
             {
-                base.SelfDestroy(false);
+                fixCount = 0;
+                if (base.StackNum >= 6)
+                {
+                    base.SelfDestroy(false);
+                }
             }
         }
         

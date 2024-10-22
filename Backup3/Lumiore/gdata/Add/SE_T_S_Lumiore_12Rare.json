@@ -1,8 +1,0 @@
-{
-    "SE_T_S_Lumiore_12Rare": {
-        "_gdeSchema": "SkillEffect",
-        "HIT": 100,
-        "DMG_Per": 165,
-        "CRI": 10
-    }
-}

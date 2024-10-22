@@ -29,23 +29,29 @@ namespace ShameimaruAya
             this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
         }
 
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (CheckUsedSkills(20))
+            if (fixCount >= 12)
             {
-                base.SkillParticleOn();
-            }
-            else
-            {
-                base.SkillParticleOff();
-            }
+                fixCount = 0;
+                if (CheckUsedSkills(20))
+                {
+                    base.SkillParticleOn();
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                }
 
-            this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.15f) * BattleSystem.instance.BattleLogs.getSkills((BattleLog log) => log.WhoUse.Info.Ally, (Skill skill) => !skill.FreeUse, BattleSystem.instance.TurnNum).Count;
+                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.15f) * BattleSystem.instance.BattleLogs.getSkills((BattleLog log) => log.WhoUse.Info.Ally, (Skill skill) => !skill.FreeUse, BattleSystem.instance.TurnNum).Count;
 
-            if (CheckUsedSkills(20))
-            {
-                this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
+                if (CheckUsedSkills(20))
+                {
+                    this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
+                }
             }
         }
 

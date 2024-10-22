@@ -27,6 +27,7 @@
         "UnknownTarget": false,
         "SkillExtended": [
             "ShameimaruAya.S_Shameimaru_P"
-        ]
+        ],
+        "AutoDelete": 2
     }
 }

@@ -1,9 +1,0 @@
-{
-    "SE_Inaba_6": {
-        "_gdeSchema": "SkillExtended",
-        "Name": "幸运的白色魔法",
-        "ClassName": "Inaba.SE_Inaba_6",
-        "IsIcon": "SE_Inaba_6\\SE_Inaba_6_Icon.png",
-        "Des": "释放时从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。"
-    }
-}

@@ -9,7 +9,7 @@
         "Name": "「无双风神」",
         "UseAp": 4,
         "User": "ShameimaruAya",
-        "Description": "生成3个[北风灵]。",
+        "Description": "生成2个[北风灵]。",
         "Disposable": true,
         "PlusKeyWords": [
             
@@ -21,6 +21,7 @@
         "Image_2": "S_Shameimaru_Rare11\\S_Shameimaru_Rare11_Image_2.png",
         "SkillExtended": [
             "ShameimaruAya.S_Shameimaru_Rare11"
-        ]
+        ],
+        "NoBasicSkill": true
     }
 }

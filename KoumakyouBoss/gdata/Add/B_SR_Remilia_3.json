@@ -1,0 +1,11 @@
+{
+    "B_SR_Remilia_3": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "ClassName": "KoumakyouBoss.B_SR_Remilia_3",
+        "BuffTag": "null",
+        "Name": "恶女",
+        "Description": "",
+        "Hide": true
+    }
+}

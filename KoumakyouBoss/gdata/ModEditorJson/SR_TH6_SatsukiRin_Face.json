@@ -1,0 +1,23 @@
+{
+    "myKey": "SR_TH6_SatsukiRin",
+    "myField": "Face",
+    "myValues": {
+        "path": "SR_TH6_SatsukiRin\\SR_TH6_SatsukiRinFace.png",
+        "offsetMax": {
+            "x": 380.0,
+            "y": 222.84053
+        },
+        "offsetMin": {
+            "x": -380.0,
+            "y": -917.1595
+        },
+        "pivot": {
+            "x": 0.5,
+            "y": 0.804525852
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

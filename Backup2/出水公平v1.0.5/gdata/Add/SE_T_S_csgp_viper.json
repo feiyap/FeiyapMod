@@ -1,7 +1,0 @@
-{
-    "SE_T_S_csgp_viper": {
-        "_gdeSchema": "SkillEffect",
-        "HIT": 100,
-        "DMG_Per": 60
-    }
-}

@@ -1,0 +1,24 @@
+{
+    "S_Suwako_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/S_Hein_0",
+        "Target": "enemy",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Name": "土著神「宝永四年的赤蛙」",
+        "Description": "倒计时期间，每次触发<color=#008B45>旋回</color>，或是每使用4个技能，对所有敌人造成40%伤害。\n\n<color=#008B45>旋回</color> - 对所有敌人施加“防御力降低30%”，持续1回合。",
+        "User": "Suwako",
+        "UseAp": 2,
+        "Track": true,
+        "Counting": 2,
+        "PlusKeyWords": [
+            "Keyword_Return"
+        ],
+        "Effect_Target": "SE_T_S_Suwako_4",
+        "Image_0": "S_Suwako_4\\S_Suwako_4_Image_0.png",
+        "Image_1": "S_Suwako_4\\S_Suwako_4_Image_1.png",
+        "Image_2": "S_Suwako_4\\S_Suwako_4_Image_2.png"
+    }
+}

@@ -1,13 +1,18 @@
 {
     "SR_TH6": {
         "_gdeSchema": "EnemyQueue",
-        "CustomBGM": false,
-        "UseCustomPosition": false,
+        "CustomBGM": true,
+        "UseCustomPosition": true,
         "Pos": [
             {
-                "x": 0.0,
+                "x": 10.0,
                 "y": 0.0,
-                "z": 0.0
+                "z": 2.0
+            },
+            {
+                "x": 5.0,
+                "y": 0.0,
+                "z": 2.0
             },
             {
                 "x": 0.0,
@@ -15,15 +20,16 @@
                 "z": 0.0
             },
             {
-                "x": 0.0,
+                "x": -5.0,
                 "y": 0.0,
-                "z": 0.0
+                "z": 2.0
             }
         ],
         "Enemys": [
+            "SR_TH6_FlandreScarlet",
+            "SR_TH6_SatsukiRin",
             "SR_TH6_RemiliaScarlet",
-            "SR_TH6_Sakuya",
-            "SR_TH6_FlandreScarlet"
+            "SR_TH6_Sakuya"
         ]
     }
 }

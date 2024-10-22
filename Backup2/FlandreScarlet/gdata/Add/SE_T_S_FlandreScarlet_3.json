@@ -1,8 +1,0 @@
-{
-    "SE_T_S_FlandreScarlet_3": {
-        "_gdeSchema": "SkillEffect",
-        "HIT": 110,
-        "DMG_Per": 160,
-        "CRI": 5
-    }
-}

@@ -4,7 +4,7 @@
         "Hide": false,
         "IsFieldBuff": false,
         "Cantdisable": false,
-        "ClassName": "",
+        "ClassName": "KoumakyouBoss.B_SR_Remilia_0",
         "BuffTag": "DOT",
         "UseSkillDebuff": false,
         "Caution": false,

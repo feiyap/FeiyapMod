@@ -1,0 +1,22 @@
+{
+    "SR_TH6_SatsukiRin": {
+        "_gdeSchema": "Enemy",
+        "hit": 110,
+        "NotCursed": true,
+        "PlusActCount": [
+            2
+        ],
+        "atk": 5,
+        "spd": 2,
+        "RES_CC": 50,
+        "RES_DEBUFF": 15,
+        "RES_DOT": 15,
+        "maxhp": 80,
+        "reg": 15,
+        "def": 15,
+        "dodge": 10,
+        "CollactionSprite_Cover": "SR_TH6_SatsukiRin\\SR_TH6_SatsukiRinCollactionSprite_Cover.png",
+        "CollactionEnemy": 5,
+        "SubName": "冴月麟"
+    }
+}

@@ -1,7 +1,9 @@
 {
     "SE_T_S_Shameimaru_Rare12": {
         "_gdeSchema": "SkillEffect",
-        "HIT": 100,
-        "DMG_Per": 60
+        "HIT": 110,
+        "DMG_Per": 60,
+        "CRI": 0,
+        "DMG_Base": 0
     }
 }

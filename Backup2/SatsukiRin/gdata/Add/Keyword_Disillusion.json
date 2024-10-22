@@ -1,7 +1,0 @@
-{
-    "Keyword_Disillusion": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "幻灭",
-        "Desc": "当使用者身上的[幻光]层数不小于X层时，使用技能时会消耗对应层数的[幻光]，触发额外效果。"
-    }
-}

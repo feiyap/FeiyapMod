@@ -3,7 +3,7 @@
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
         "DMG_Per": 25,
-        "DMG_Base": 4,
+        "DMG_Base": 0,
         "Buffs": [
             "B_SR_Remilia_0"
         ],

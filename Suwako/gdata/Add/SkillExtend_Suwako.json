@@ -1,0 +1,10 @@
+{
+    "SkillExtend_Suwako": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "诹访子基类",
+        "ClassName": "Suwako.SkillExtend_Suwako",
+        "Particle": ""
+    }
+}

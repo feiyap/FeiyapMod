@@ -1,0 +1,14 @@
+{
+    "B_SR_Remilia_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "KoumakyouBoss.B_SR_Remilia_2",
+        "BuffTag": "null",
+        "Name": "摇篮曲",
+        "Description": "受击时赋予1层[绯夜]。",
+        "Icon": "B_SR_Remilia_2\\B_SR_Remilia_2_Icon.png",
+        "MaxStack": 4,
+        "IsFieldBuff": true,
+        "Hide": false
+    }
+}

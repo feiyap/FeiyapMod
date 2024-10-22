@@ -4,18 +4,10 @@
         "hit": 100,
         "name": "十六夜咲夜",
         "Passives": [
-            "B_RemiliaScarlet_P"
+            
         ],
         "Skills": [
-            "S_Sakuya_0",
-            "S_Sakuya_1",
-            "S_Sakuya_2",
-            "S_Sakuya_3",
-            "S_Sakuya_4",
-            "S_Sakuya_5",
-            "S_Sakuya_6",
-            "S_Sakuya_7",
-            "S_Sakuya_8"
+            
         ],
         "maxhp": 60,
         "atk": 17,

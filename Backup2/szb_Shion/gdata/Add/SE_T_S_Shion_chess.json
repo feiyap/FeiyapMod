@@ -1,8 +1,0 @@
-{
-    "SE_T_S_Shion_chess": {
-        "_gdeSchema": "SkillEffect",
-        "HIT": 100,
-        "DMG_Per": 50,
-        "DMG_Base": 2
-    }
-}

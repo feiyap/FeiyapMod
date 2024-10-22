@@ -3,10 +3,10 @@
     "myField": "BattleObject",
     "myValues": {
         "path": "SR_TH6_Sakuya\\SR_TH6_SakuyaMainImage.png",
-        "Animation": "Move Up and Down",
+        "Animation": "None",
         "Pivot": {
             "x": 0.5725454,
-            "y": 0.0333326459
+            "y": 0.238835812
         },
         "Head": {
             "x": 0.52636,
@@ -17,8 +17,8 @@
             "y": 0.7124883
         },
         "UI": {
-            "x": 0.5725454,
-            "y": 0.02080661
+            "x": 0.5637568,
+            "y": 0.2569096
         }
     },
     "MyChangeType": "EnemyBattleObject",

@@ -2,7 +2,7 @@
     "SE_T_S_Shameimaru_2_0": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 40,
+        "DMG_Per": 45,
         "CRI": 0
     }
 }

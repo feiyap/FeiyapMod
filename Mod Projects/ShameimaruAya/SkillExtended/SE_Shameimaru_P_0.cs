@@ -24,16 +24,22 @@ namespace ShameimaruAya
             this.NotCount = true;
         }
 
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (!this.Use && !this.MySkill.IsNowCasting)
+            if (fixCount >= 12)
             {
-                if (!(this.BChar.MyTeam.AliveChars.Find((BattleChar a) => a.BuffFind("B_Shameimaru_P_0", false)) == null))
+                fixCount = 0;
+                if (!this.Use && !this.MySkill.IsNowCasting)
                 {
-                    return;
+                    if (!(this.BChar.MyTeam.AliveChars.Find((BattleChar a) => a.BuffFind("B_Shameimaru_P_0", false)) == null))
+                    {
+                        return;
+                    }
+                    this.SelfDestroy();
                 }
-                this.SelfDestroy();
             }
         }
 

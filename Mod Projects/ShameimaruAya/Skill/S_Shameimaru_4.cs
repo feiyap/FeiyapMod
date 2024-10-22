@@ -29,16 +29,22 @@ namespace ShameimaruAya
             OnePassive = true;
         }
 
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (CheckUsedSkills(3))
+            if (fixCount >= 12)
             {
-                base.SkillParticleOn();
-            }
-            else
-            {
-                base.SkillParticleOff();
+                fixCount = 0;
+                if (CheckUsedSkills(3))
+                {
+                    base.SkillParticleOn();
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                }
             }
         }
 
@@ -47,6 +53,7 @@ namespace ShameimaruAya
             if (CheckUsedSkills(3))
             {
                 Skill tmpSkill = Skill.TempSkill("S_Shameimaru_4", this.BChar, this.BChar.MyTeam);
+                tmpSkill.isExcept = true;
                 BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
             }
         }

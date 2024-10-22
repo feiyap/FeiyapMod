@@ -1,8 +1,0 @@
-{
-    "SE_T_S_Sakuya_14Rare": {
-        "_gdeSchema": "SkillEffect",
-        "HIT": 100,
-        "DMG_Per": 150,
-        "CRI": 10
-    }
-}

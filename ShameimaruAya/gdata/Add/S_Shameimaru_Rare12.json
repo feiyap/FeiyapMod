@@ -29,7 +29,7 @@
         "Except": false,
         "NoBasicSkill": false,
         "Basic": false,
-        "Track": false,
+        "Track": true,
         "Fatal": false,
         "EnemyPreview": false,
         "UnknownTarget": false

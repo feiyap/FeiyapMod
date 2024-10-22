@@ -1,7 +1,0 @@
-{
-    "Trace_barrage": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "自机狙",
-        "Desc": "优先攻击最后一个出手的技能的角色（露西除外），如果该技能不是攻击技能，命中率大幅降低。"
-    }
-}

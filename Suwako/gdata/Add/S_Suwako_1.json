@@ -1,0 +1,22 @@
+{
+    "S_Suwako_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_0",
+        "Target": "enemy",
+        "IgnoreTaunt": true,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Name": "源符「诹访清水」",
+        "Description": "<color=#008B45>旋回</color> - 对随机敌人释放后抽取1个技能。",
+        "UseAp": 1,
+        "User": "Suwako",
+        "Effect_Target": "SE_T_S_Suwako_1",
+        "Image_0": "S_Suwako_1\\S_Suwako_1_Image_0.png",
+        "Image_1": "S_Suwako_1\\S_Suwako_1_Image_1.png",
+        "Image_2": "S_Suwako_1\\S_Suwako_1_Image_2.png",
+        "SkillExtended": [
+            "Suwako.S_Suwako_1"
+        ]
+    }
+}

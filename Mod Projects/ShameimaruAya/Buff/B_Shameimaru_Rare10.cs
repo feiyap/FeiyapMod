@@ -34,45 +34,51 @@ namespace ShameimaruAya
             flag5 = false;
         }
 
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-
-            if (CheckUsedSkills(4) && !flag1)
+            if (fixCount >= 12)
             {
-                flag1 = true;
-                BattleSystem.instance.AllyTeam.AP += 2;
-            }
+                fixCount = 0;
 
-            if (CheckUsedSkills(8) && !flag2)
-            {
-                flag2 = true;
-                this.BChar.BuffAdd("B_Shameimaru_Rare10_0", this.BChar);
-            }
-
-            if (CheckUsedSkills(12) && !flag3)
-            {
-                flag3 = true;
-                for (int i = 0; i < 2; i++)
+                if (CheckUsedSkills(4) && !flag1)
                 {
-                    BattleSystem.instance.AllyTeam.CharacterDraw(this.BChar, null);
+                    flag1 = true;
+                    BattleSystem.instance.AllyTeam.AP += 2;
                 }
-            }
 
-            if (CheckUsedSkills(16) && !flag4)
-            {
-                flag4 = true;
-                foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills)
+                if (CheckUsedSkills(8) && !flag2)
                 {
-                    Extended_Lucy_3_1 extended = new Extended_Lucy_3_1();
-                    skill.ExtendedAdd(extended);
+                    flag2 = true;
+                    this.BChar.BuffAdd("B_Shameimaru_Rare10_0", this.BChar);
                 }
-            }
 
-            if (CheckUsedSkills(20) && !flag5)
-            {
-                flag5 = true;
-                BattleSystem.DelayInputAfter(this.Ienum());
+                if (CheckUsedSkills(12) && !flag3)
+                {
+                    flag3 = true;
+                    for (int i = 0; i < 2; i++)
+                    {
+                        BattleSystem.instance.AllyTeam.CharacterDraw(this.BChar, null);
+                    }
+                }
+
+                if (CheckUsedSkills(16) && !flag4)
+                {
+                    flag4 = true;
+                    foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills)
+                    {
+                        Extended_Lucy_3_1 extended = new Extended_Lucy_3_1();
+                        skill.ExtendedAdd(extended);
+                    }
+                }
+
+                if (CheckUsedSkills(20) && !flag5)
+                {
+                    flag5 = true;
+                    BattleSystem.DelayInputAfter(this.Ienum());
+                }
             }
         }
 

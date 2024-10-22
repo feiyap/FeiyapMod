@@ -1,0 +1,21 @@
+{
+    "S_SR_Remilia_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Golem_2",
+        "Target": "enemy",
+        "NoDrop": true,
+        "Name": "恶魔「Remilia Stretch」",
+        "Description": "额外造成25%自身最大体力值的伤害。\n倒计时期间，自身获得+100%减益抵抗，+50%伤害减免。",
+        "UseAp": 3,
+        "Effect_Target": "SE_T_S_SR_Remilia_3",
+        "Image_0": "S_SR_Remilia_3\\S_SR_Remilia_3_Image_0.png",
+        "Image_1": "S_SR_Remilia_3\\S_SR_Remilia_3_Image_1.png",
+        "Image_2": "S_SR_Remilia_3\\S_SR_Remilia_3_Image_2.png",
+        "EnemyPreview": true,
+        "SkillExtended": [
+            "KoumakyouBoss.S_SR_Remilia_3"
+        ],
+        "NotCount": false
+    }
+}

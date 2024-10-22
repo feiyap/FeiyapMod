@@ -1,7 +1,0 @@
-{
-    "Name": "S_HolySaber_Rare_2_Ex",
-    "path": "Assets/HolySaberSound/S_HolySaber_Rare_2_Ex.mp3",
-    "AssetBundlePath": "holysabersound",
-    "Loop": false,
-    "Bus": "SE"
-}

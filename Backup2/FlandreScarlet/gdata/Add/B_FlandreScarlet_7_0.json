@@ -1,9 +1,0 @@
-{
-    "B_FlandreScarlet_7_0": {
-        "_gdeSchema": "Buff",
-        "ClassName": "FlandreScarlet.B_FlandreScarlet_7_0",
-        "BuffTag": "null",
-        "Name": "禁忌游戏",
-        "Hide": true
-    }
-}

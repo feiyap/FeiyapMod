@@ -6,7 +6,7 @@
         "Target": "enemy",
         "NotCount": false,
         "Name": "风符「天狗道的开风」",
-        "Description": "使用这个技能击杀敌人后，将1张0费的[风符「天狗道的开风」]加入手中。\n\n<b><color=green>连击12</color></b> - 额外造成&a(125%)伤害。",
+        "Description": "使用这个技能击杀敌人后，将1张0费的[风符「天狗道的开风」]加入手中。\n\n<b><color=green>连击12</color></b> - 额外造成&a(100%)伤害。",
         "User": "ShameimaruAya",
         "PlusKeyWords": [
             "Keyword_Combo"

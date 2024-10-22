@@ -28,18 +28,24 @@ namespace KochiyaSanae
             this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
         }
 
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (BattleSystem.instance.BattleLogs.getSkills((BattleLog log) => log.WhoUse.Info.Ally, (Skill skill) => !skill.FreeUse, BattleSystem.instance.TurnNum).Count >= 2)
+            if (fixCount >= 12)
             {
-                base.SkillParticleOn();
-                this.Disposable = true;
-            }
-            else
-            {
-                base.SkillParticleOff();
-                this.Disposable = false;
+                fixCount = 0;
+                if (BattleSystem.instance.BattleLogs.getSkills((BattleLog log) => log.WhoUse.Info.Ally, (Skill skill) => !skill.FreeUse, BattleSystem.instance.TurnNum).Count >= 2)
+                {
+                    base.SkillParticleOn();
+                    this.Disposable = true;
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                    this.Disposable = false;
+                }
             }
         }
 

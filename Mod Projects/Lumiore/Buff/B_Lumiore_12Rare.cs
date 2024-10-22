@@ -73,7 +73,7 @@ namespace Lumiore
 
         public override string DescExtended()
         {
-            return base.DescExtended().Replace("%a", (this.BChar.GetStat.atk * 1.0f).ToString()).Replace("%b", (this.BChar.GetStat.atk * 0.5f).ToString());
+            return base.DescExtended().Replace("%a", ((int)(this.BChar.GetStat.atk * 1.0f)).ToString()).Replace("%b", ((int)(this.BChar.GetStat.atk * 0.5f)).ToString());
         }
     }
 }

@@ -2,7 +2,7 @@
     "B_Lumiore_P": {
         "_gdeSchema": "Buff",
         "BuffTag": "null",
-        "MaxStack": 99,
+        "MaxStack": 5,
         "Name": "弃牌次数",
         "Description": "",
         "Icon": "B_Lumiore_P\\B_Lumiore_P_Icon.png",

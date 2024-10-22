@@ -35,10 +35,11 @@ namespace KochiyaSanae
 		/// 东风谷早苗
 		/// Passive:
 		/// <b>信仰是为了虚幻之人</b> - 每个回合开始时，生成1个[东风灵]。
-		/// <b>引发奇迹程度的能力</b> - 每使用4个0费的技能，获得1点法力值。
+		/// <b>引发奇迹程度的能力</b> - 每使用4个自己的0费技能，获得1点法力值。
 		/// <b><color=green>连击X</color></b> - 每个回合中使用过的技能大于X个时，可以触发额外效果。
 		/// </summary>
         public static string Character_KochiyaSanae = "KochiyaSanae";
+        public static string Character_Skin_KochiyaSanaeSkin = "KochiyaSanaeSkin";
         public static string SimpleCampDialogue_CampDial_KochiyaSanae_Azar = "CampDial_KochiyaSanae_Azar";
         public static string SimpleCampDialogue_CampDial_KochiyaSanae_Priest = "CampDial_KochiyaSanae_Priest";
         public static string SimpleCampDialogue_CampDial_KochiyaSanae_Momori = "CampDial_KochiyaSanae_Momori";

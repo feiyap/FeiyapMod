@@ -1,8 +1,0 @@
-{
-    "SE_T_S_Kirito_P": {
-        "_gdeSchema": "SkillEffect",
-        "HIT": 100,
-        "DMG_Per": 25,
-        "CRI": 3
-    }
-}

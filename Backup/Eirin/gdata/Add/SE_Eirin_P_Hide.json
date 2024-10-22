@@ -1,9 +1,0 @@
-{
-    "SE_Eirin_P_Hide": {
-        "_gdeSchema": "SkillExtended",
-        "AlwaysParticle": false,
-        "IsOnesInit": false,
-        "Name": "无缺/月人",
-        "ClassName": "Eirin.SE_Eirin_P_Hide"
-    }
-}

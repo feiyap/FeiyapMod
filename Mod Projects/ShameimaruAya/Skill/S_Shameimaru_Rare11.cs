@@ -26,9 +26,6 @@ namespace ShameimaruAya
 
             Skill tmpSkill2 = Skill.TempSkill("S_Shameimaru_P", this.BChar, this.BChar.MyTeam);
             BattleSystem.instance.AllyTeam.Add(tmpSkill2, true);
-
-            Skill tmpSkill3 = Skill.TempSkill("S_Shameimaru_P", this.BChar, this.BChar.MyTeam);
-            BattleSystem.instance.AllyTeam.Add(tmpSkill3, true);
         }
     }
 }

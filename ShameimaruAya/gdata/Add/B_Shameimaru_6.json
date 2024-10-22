@@ -5,7 +5,12 @@
         "BuffTag": "null",
         "Name": "风来的暗鸦",
         "Description": "每次使用0费的技能时，对随机敌人造成&a(30%)伤害。",
-        "LifeTime": 3,
-        "Icon": "B_Shameimaru_6\\B_Shameimaru_6_Icon.png"
+        "LifeTime": 2,
+        "Icon": "B_Shameimaru_6\\B_Shameimaru_6_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

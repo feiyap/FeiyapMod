@@ -24,20 +24,26 @@ namespace KochiyaSanae
             base.Init();
             this.PlusSkillStat.cri = 100f;
         }
-        
+
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (!this.Use && !this.MySkill.IsNowCasting)
+            if (fixCount >= 12)
             {
-                if (this.MySkill.AP == 0)
+                fixCount = 0;
+                if (!this.Use && !this.MySkill.IsNowCasting)
                 {
-                    if (!(this.BChar.MyTeam.AliveChars.Find((BattleChar a) => a.BuffFind("B_Sanae_Rare12", false)) == null))
+                    if (this.MySkill.AP == 0)
                     {
-                        return;
+                        if (!(this.BChar.MyTeam.AliveChars.Find((BattleChar a) => a.BuffFind("B_Sanae_Rare12", false)) == null))
+                        {
+                            return;
+                        }
                     }
+                    this.SelfDestroy();
                 }
-                this.SelfDestroy();
             }
         }
         

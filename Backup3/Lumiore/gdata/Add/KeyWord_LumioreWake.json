@@ -1,7 +1,0 @@
-{
-    "KeyWord_LumioreWake": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "觉醒",
-        "Desc": "带有[觉醒]词缀的技能在最大法力值大于等于7时获得额外效果。"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "KeyWord_LumioreWaste": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "弃牌",
-        "Desc": "带有[弃牌]词缀的技能在被丢弃时会触发额外效果。"
-    }
-}

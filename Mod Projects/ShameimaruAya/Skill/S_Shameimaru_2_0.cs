@@ -20,7 +20,7 @@ namespace ShameimaruAya
     {
         public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
         {
-            if (Cri)
+            if (Cri && SP.SkillKey == this.MySkill.MySkill.KeyID)
             {
                 Skill tmpSkill = Skill.TempSkill("S_Shameimaru_P", this.BChar, this.BChar.MyTeam);
                 BattleSystem.instance.AllyTeam.Add(tmpSkill, true);

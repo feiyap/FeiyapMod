@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KoumakyouBoss\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KoumakyouBoss\obj\Debug\KoumakyouBoss.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KoumakyouBoss\obj\Debug\KoumakyouBoss.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KoumakyouBoss\obj\Debug\KoumakyouBoss.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KoumakyouBoss\bin\Debug\KoumakyouBoss20241020101854.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KoumakyouBoss\bin\Debug\KoumakyouBoss20241020101854.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KoumakyouBoss\obj\Debug\KoumakyouBoss20241020101854.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KoumakyouBoss\obj\Debug\KoumakyouBoss20241020101854.pdb

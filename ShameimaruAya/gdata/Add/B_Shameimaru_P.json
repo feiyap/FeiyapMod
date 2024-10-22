@@ -5,7 +5,11 @@
         "BuffTag": "null",
         "Name": "操纵风程度的能力",
         "Hide": true,
-        "Cantdisable": true,
-        "MaxStack": 99
+        "Cantdisable": false,
+        "MaxStack": 20,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "LifeTime": 1
     }
 }

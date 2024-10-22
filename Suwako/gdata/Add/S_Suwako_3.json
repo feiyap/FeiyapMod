@@ -1,0 +1,22 @@
+{
+    "S_Suwako_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Johan/Johan_6 1",
+        "Target": "enemy",
+        "NotCount": true,
+        "Fatal": false,
+        "Name": "土著神「御射军神大人」",
+        "Description": "<color=#008B45>旋回</color> - 放逐这个技能，恢复2点法力值。",
+        "User": "Suwako",
+        "UseAp": 3,
+        "IgnoreTaunt": true,
+        "Except": true,
+        "Effect_Target": "SE_T_S_Suwako_3",
+        "Image_0": "S_Suwako_3\\S_Suwako_3_Image_0.png",
+        "Image_1": "S_Suwako_3\\S_Suwako_3_Image_1.png",
+        "Image_2": "S_Suwako_3\\S_Suwako_3_Image_2.png",
+        "Effect_Self": "SE_S_S_Suwako_3",
+        "Disposable": false
+    }
+}

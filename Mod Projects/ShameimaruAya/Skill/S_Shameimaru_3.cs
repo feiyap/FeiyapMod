@@ -28,7 +28,7 @@ namespace ShameimaruAya
                 {
                     return 0;
                 }
-                return (int)((float)(0 + this.BChar.GetStat.atk * 1.25));
+                return (int)((float)(0 + this.BChar.GetStat.atk * 1.0));
             }
         }
 
@@ -38,18 +38,24 @@ namespace ShameimaruAya
             this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
         }
 
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (CheckUsedSkills(12))
+            if (fixCount >= 12)
             {
-                base.SkillParticleOn();
-                this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
-            }
-            else
-            {
-                base.SkillParticleOff();
-                this.SkillBasePlus.Target_BaseDMG = 0;
+                fixCount = 0;
+                if (CheckUsedSkills(12))
+                {
+                    base.SkillParticleOn();
+                    this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                    this.SkillBasePlus.Target_BaseDMG = 0;
+                }
             }
         }
 

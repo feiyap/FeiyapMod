@@ -2,19 +2,25 @@
     "S_SR_Remilia_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Hein/S_Hein_3",
         "Target": "enemy",
-        "NotCount": true,
+        "NotCount": false,
         "EnemyPreview": false,
-        "Name": "神枪「Spear the Gungnir」",
-        "Description": "额外造成40%自身最大体力值的伤害。",
-        "Rare": true,
+        "Name": "夜王「Dracula Cradle」",
+        "Description": "",
+        "Rare": false,
         "UseAp": 2,
-        "IgnoreTaunt": true,
-        "NODOD": true,
+        "IgnoreTaunt": false,
+        "NODOD": false,
         "Effect_Target": "SE_T_S_SR_Remilia_2",
         "Image_0": "S_SR_Remilia_2\\S_SR_Remilia_2_Image_0.png",
         "Image_1": "S_SR_Remilia_2\\S_SR_Remilia_2_Image_1.png",
-        "Image_2": "S_SR_Remilia_2\\S_SR_Remilia_2_Image_2.png"
+        "Image_2": "S_SR_Remilia_2\\S_SR_Remilia_2_Image_2.png",
+        "NoDrop": true,
+        "UnknownTarget": false,
+        "Effect_Self": "SE_S_S_SR_Remilia_2",
+        "SkillExtended": [
+            "KoumakyouBoss.S_SR_Remilia_2"
+        ]
     }
 }

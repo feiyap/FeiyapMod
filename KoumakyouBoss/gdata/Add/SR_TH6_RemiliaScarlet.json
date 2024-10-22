@@ -1,25 +1,26 @@
 {
     "SR_TH6_RemiliaScarlet": {
         "_gdeSchema": "Enemy",
-        "hit": 100,
+        "hit": 93,
         "name": "蕾米莉亚",
         "Passives": [
-            "B_RemiliaScarlet_P"
+            "B_SR_Remilia_P"
         ],
         "Skills": [
             "S_SR_Remilia_0",
             "S_SR_Remilia_1",
-            "S_SR_Remilia_2"
+            "S_SR_Remilia_2",
+            "S_SR_Remilia_3"
         ],
-        "maxhp": 100,
-        "spd": 0,
-        "RES_CC": 25,
-        "RES_DEBUFF": 25,
+        "maxhp": 80,
+        "spd": 1,
+        "RES_CC": 15,
+        "RES_DEBUFF": 15,
         "RES_DOT": 35,
         "atk": 13,
         "cri": 0,
         "def": -10,
-        "dodge": 0,
+        "dodge": -2,
         "reg": 0,
         "PlusActCount": [
             1
@@ -27,6 +28,7 @@
         "CollactionEnemy": 5,
         "CollactionSprite_Cover": "SR_TH6_RemiliaScarlet\\SR_TH6_RemiliaScarletCollactionSprite_Cover.png",
         "SubName": "蕾米莉亚·斯卡雷特",
-        "EnemyStory": "……在前往红色荒野的路上，遇到的红魔馆主人以及其随从们。\n\n看上去她们正在调查发生在扭曲之地的异变。但不知为何就向这边发起攻击了——"
+        "EnemyStory": "……在前往红色荒野的路上，遇到的红魔馆主人以及其随从们。\n\n看上去她们正在调查发生在扭曲之地的异变。但不知为何就向这边发起攻击了——",
+        "AI": "KoumakyouBoss.SR_TH6_RemiliaScarlet"
     }
 }

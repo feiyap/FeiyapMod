@@ -1,9 +1,0 @@
-{
-    "R_HakureiReimu_F_0": {
-        "_gdeSchema": "Item_Passive",
-        "name": "红白巫女的蝴蝶结",
-        "Description": "战斗开始时，使所有调查员受到的第一次伤害减少75%。",
-        "image": "Item\\R_HakureiReimu_F_0_image.png",
-        "passive_script": "HakureiReimu.R_HakureiReimu_F_0"
-    }
-}

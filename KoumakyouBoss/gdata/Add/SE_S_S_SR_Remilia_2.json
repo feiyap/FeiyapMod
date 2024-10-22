@@ -1,0 +1,17 @@
+{
+    "SE_S_S_SR_Remilia_2": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_SR_Remilia_2",
+            "B_SR_Remilia_2",
+            "B_SR_Remilia_2",
+            "B_SR_Remilia_2"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0,
+            0
+        ]
+    }
+}

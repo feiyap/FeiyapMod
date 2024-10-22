@@ -1,8 +1,0 @@
-{
-    "SE_T_S_Lumiore_4": {
-        "_gdeSchema": "SkillEffect",
-        "HIT": 100,
-        "DMG_Per": 200,
-        "CRI": 10
-    }
-}

@@ -1,0 +1,11 @@
+{
+    "B_SR_Remilia_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "KoumakyouBoss.B_SR_Remilia_P",
+        "BuffTag": "null",
+        "Icon": "B_SR_Remilia_P\\B_SR_Remilia_P_Icon.png",
+        "Name": "永幼之赤月",
+        "Description": "存活时，其他队友受到的伤害降低30%。",
+        "Cantdisable": true
+    }
+}

@@ -1,7 +1,0 @@
-{
-    "Keyword_Extend": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "<color=#FFC125>进化X</color>",
-        "Desc": "本场战斗中，已发动的<color=#FFA500>进化</color>的次数大于X次时，可以触发额外效果。"
-    }
-}

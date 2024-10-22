@@ -26,26 +26,32 @@ namespace ShameimaruAya
             this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
         }
 
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (CheckUsedSkills(4))
+            if (fixCount >= 12)
             {
-                base.SkillParticleOn();
-            }
-            else
-            {
-                base.SkillParticleOff();
-            }
-            int num = 0;
-            for (int i = 0; i < this.BChar.MyTeam.Skills.Count; i++)
-            {
-                if (this.BChar.MyTeam.Skills[i] != this.MySkill)
+                fixCount = 0;
+                if (CheckUsedSkills(4))
                 {
-                    num++;
+                    base.SkillParticleOn();
                 }
+                else
+                {
+                    base.SkillParticleOff();
+                }
+                int num = 0;
+                for (int i = 0; i < this.BChar.MyTeam.Skills.Count; i++)
+                {
+                    if (this.BChar.MyTeam.Skills[i] != this.MySkill)
+                    {
+                        num++;
+                    }
+                }
+                this.SkillBasePlus.Target_BaseDMG = (int)((double)num * 0.1 * (double)this.BChar.GetStat.atk);
             }
-            this.SkillBasePlus.Target_BaseDMG = (int)((double)num * 0.1 * (double)this.BChar.GetStat.atk);
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)

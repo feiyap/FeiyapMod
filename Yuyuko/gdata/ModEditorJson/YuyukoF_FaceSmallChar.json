@@ -2,18 +2,18 @@
     "myKey": "YuyukoF",
     "myField": "FaceSmallChar",
     "myValues": {
-        "path": "",
-        "offsetMax": {
-            "x": 202.110291,
-            "y": 115.971848
+        "path": "YuyukoF\\YuyukoFFaceSmallChar.png",
+        "pivot": {
+            "x": 0.514861047,
+            "y": 0.8353106
         },
         "offsetMin": {
-            "x": -220.737061,
-            "y": -629.133667
+            "x": -219.739685,
+            "y": -627.984253
         },
-        "pivot": {
-            "x": 0.5172198,
-            "y": 0.8368532
+        "offsetMax": {
+            "x": 203.107666,
+            "y": 117.121269
         }
     },
     "MyChangeType": "FaceSmallChar",

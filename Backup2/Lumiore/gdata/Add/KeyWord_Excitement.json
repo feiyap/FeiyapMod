@@ -1,7 +1,0 @@
-{
-    "KeyWord_Excitement": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "激奏",
-        "Desc": "带有[激奏]词缀的技能在当前法力值不足时，可以以低法力值释放较弱的技能效果。"
-    }
-}

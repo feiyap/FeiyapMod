@@ -27,16 +27,22 @@ namespace ShameimaruAya
             this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
         }
 
+        public int fixCount = 0;
+
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (CheckUsedSkills(8))
+            if (fixCount >= 12)
             {
-                base.SkillParticleOn();
-            }
-            else
-            {
-                base.SkillParticleOff();
+                fixCount = 0;
+                if (CheckUsedSkills(8))
+                {
+                    base.SkillParticleOn();
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                }
             }
         }
 
@@ -81,7 +87,7 @@ namespace ShameimaruAya
 
         public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
         {
-            if (Cri)
+            if (Cri && SP.SkillKey == this.MySkill.MySkill.KeyID)
             {
                 Skill tmpSkill = Skill.TempSkill("S_Shameimaru_P", this.BChar, this.BChar.MyTeam);
                 BattleSystem.instance.AllyTeam.Add(tmpSkill, true);

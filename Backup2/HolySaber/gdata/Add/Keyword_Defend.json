@@ -1,7 +1,0 @@
-{
-    "Keyword_Defend": {
-        "_gdeSchema": "SkillKeyword",
-        "Name": "<color=#4876FF>守护X</color>",
-        "Desc": "本场战斗中，已使用过带有<color=#4876FF>守护</color>减益的技能的次数大于X次时，可以触发额外效果。"
-    }
-}

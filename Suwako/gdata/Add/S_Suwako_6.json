@@ -1,0 +1,17 @@
+{
+    "S_Suwako_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "IgnoreTaunt": false,
+        "Name": "土著神「洩矢神」",
+        "Description": "将手中最上方的技能放回牌库，抽取1个技能。\n\n<color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。",
+        "User": "Suwako",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Image_0": "S_Suwako_6\\S_Suwako_6_Image_0.png",
+        "Image_1": "S_Suwako_6\\S_Suwako_6_Image_1.png",
+        "Image_2": "S_Suwako_6\\S_Suwako_6_Image_2.png"
+    }
+}

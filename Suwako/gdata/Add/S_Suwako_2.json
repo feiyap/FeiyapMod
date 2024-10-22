@@ -1,0 +1,21 @@
+{
+    "S_Suwako_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/SwimDLC/Lucy_WaterAll",
+        "Target": "enemy",
+        "IgnoreTaunt": false,
+        "Name": "源符「厌川的翡翠」",
+        "Description": "生成1个[南风灵]。\n\n<color=#008B45>旋回</color> - 生成2个[风灵]。",
+        "UseAp": 2,
+        "User": "Suwako",
+        "NotCount": true,
+        "Fatal": true,
+        "Effect_Target": "SE_T_S_Suwako_2",
+        "Image_0": "S_Suwako_2\\S_Suwako_2_Image_0.png",
+        "Image_1": "S_Suwako_2\\S_Suwako_2_Image_1.png",
+        "Image_2": "S_Suwako_2\\S_Suwako_2_Image_2.png",
+        "Disposable": false,
+        "PlusSkillView": "S_Suwako_P"
+    }
+}

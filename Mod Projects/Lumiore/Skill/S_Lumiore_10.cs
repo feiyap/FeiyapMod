@@ -35,6 +35,7 @@ namespace Lumiore
                 return;
             }
             base.FixedUpdate();
+
             if (this.BChar.MyTeam.MAXAP >= 7)
             {
                 this.isSpecies = true;

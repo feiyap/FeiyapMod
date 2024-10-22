@@ -11,7 +11,7 @@
             "S_Ilya_1",
             "S_Azar_5",
             "S_TW_Blue_5",
-            "S_Shameimaru_Rare12"
+            "S_Shameimaru_2"
         ],
         "PartySkills": [
             [
@@ -24,16 +24,9 @@
                 
             ],
             [
-                "S_Shameimaru_0",
-                "S_Shameimaru_1",
-                "S_Shameimaru_2",
-                "S_Shameimaru_3",
-                "S_Shameimaru_4",
-                "S_Shameimaru_5",
-                "S_Shameimaru_6",
-                "S_Shameimaru_7",
-                "S_Shameimaru_8",
-                "S_Shameimaru_9"
+                "S_Shameimaru_P",
+                "S_Shameimaru_P",
+                "S_Shameimaru_P"
             ]
         ],
         "PartyEquip": [
@@ -47,7 +40,8 @@
                 
             ],
             [
-                
+                "BlackMoonSword",
+                "BlackMoonSword"
             ]
         ],
         "LucySkill": [
