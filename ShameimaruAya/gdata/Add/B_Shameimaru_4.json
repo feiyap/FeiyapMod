@@ -6,7 +6,7 @@
         "Name": "风来的瀑流",
         "Description": "使用0费技能造成的伤害+&a%。",
         "Icon": "B_Shameimaru_4\\B_Shameimaru_4_Icon.png",
-        "LifeTime": 5,
+        "LifeTime": 4,
         "MaxStack": 4,
         "Hide": false,
         "IsFieldBuff": false,

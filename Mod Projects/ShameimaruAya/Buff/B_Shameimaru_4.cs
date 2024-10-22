@@ -17,7 +17,7 @@ namespace ShameimaruAya
 	/// 风来的瀑流
 	/// 使用0费技能造成的伤害+15%。
 	/// </summary>
-    public class B_Shameimaru_4:Buff
+    public class B_Shameimaru_4:Buff, IP_DamageChange
     {
         public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
         {

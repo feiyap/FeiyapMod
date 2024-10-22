@@ -35,6 +35,7 @@ namespace ShameimaruAya
         public override void FixedUpdate()
         {
             base.FixedUpdate();
+            fixCount++;
             if (fixCount >= 12)
             {
                 fixCount = 0;
