@@ -36,5 +36,10 @@ namespace ShameimaruAya
             }
             return isLucyD;
         }
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            BattleSystem.instance.AllyTeam.Draw(2);
+        }
     }
 }

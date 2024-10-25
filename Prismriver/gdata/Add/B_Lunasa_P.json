@@ -1,0 +1,15 @@
+{
+    "B_Lunasa_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "骚灵现象",
+        "Description": "回合开始时，有50%几率降低1点法力值。",
+        "Icon": "B_Lunasa_P\\B_Lunasa_P_Icon.png"
+    }
+}

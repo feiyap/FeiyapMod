@@ -75,6 +75,7 @@ namespace ShameimaruAya
             base.SkillKill(SP);
             Skill tmpSkill = Skill.TempSkill("S_Shameimaru_3", this.BChar, this.BChar.MyTeam);
             tmpSkill.APChange -= 3;
+            tmpSkill.isExcept = true;
             BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
         }
 

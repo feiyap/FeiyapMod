@@ -1,0 +1,28 @@
+{
+    "myKey": "Lyrica",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Lyrica\\LyricaMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.470441878,
+            "y": 0.219052792
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.455669463,
+            "y": 0.5587591
+        },
+        "UI": {
+            "x": 0.485222161,
+            "y": 0.215694875
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "B_Lyrica_P": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Icon": "B_Lyrica_P\\B_Lyrica_P_Icon.png",
+        "Name": "骚灵现象",
+        "Description": "技能有50%几率指向错乱的目标。"
+    }
+}

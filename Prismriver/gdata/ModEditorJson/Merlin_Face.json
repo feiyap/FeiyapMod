@@ -1,0 +1,23 @@
+{
+    "myKey": "Merlin",
+    "myField": "Face",
+    "myValues": {
+        "path": "Merlin\\MerlinFace.png",
+        "offsetMax": {
+            "x": 420.974548,
+            "y": 289.4282
+        },
+        "offsetMin": {
+            "x": -297.7655,
+            "y": -968.971863
+        },
+        "pivot": {
+            "x": 0.411460936,
+            "y": 0.7655611
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

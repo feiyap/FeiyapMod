@@ -1,0 +1,25 @@
+{
+    "Lyrica": {
+        "_gdeSchema": "Enemy",
+        "hit": 103,
+        "name": "莉莉卡·普莉兹姆利巴",
+        "Boss": true,
+        "maxhp": 400,
+        "atk": 22,
+        "spd": 0,
+        "def": 15,
+        "RES_CC": 30,
+        "RES_DEBUFF": 30,
+        "RES_DOT": 45,
+        "cri": 5,
+        "PlusActCount": [
+            1
+        ],
+        "CollactionSprite_Cover": "Lyrica\\LyricaCollactionSprite_Cover.png",
+        "SubName": "骚灵键盘手",
+        "CollactionEnemy": 2,
+        "Passives": [
+            "B_Lyrica_P"
+        ]
+    }
+}

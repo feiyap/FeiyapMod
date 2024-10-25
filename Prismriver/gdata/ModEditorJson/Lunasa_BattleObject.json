@@ -1,0 +1,28 @@
+{
+    "myKey": "Lunasa",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Lunasa\\LunasaMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.412892342,
+            "y": 0.155157417
+        },
+        "Head": {
+            "x": 0.363254964,
+            "y": 0.6520579
+        },
+        "Center": {
+            "x": 0.379920244,
+            "y": 0.6286905
+        },
+        "UI": {
+            "x": 0.400601923,
+            "y": 0.172508925
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

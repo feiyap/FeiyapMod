@@ -1,0 +1,24 @@
+{
+    "Lunasa": {
+        "_gdeSchema": "Enemy",
+        "hit": 103,
+        "name": "露娜萨·普莉兹姆利巴",
+        "Boss": true,
+        "CollactionSprite_Cover": "Lunasa\\LunasaCollactionSprite_Cover.png",
+        "SubName": "骚灵提琴手",
+        "maxhp": 400,
+        "spd": 2,
+        "atk": 18,
+        "RES_CC": 45,
+        "RES_DEBUFF": 30,
+        "RES_DOT": 30,
+        "PlusActCount": [
+            1
+        ],
+        "cri": -5,
+        "def": 15,
+        "Passives": [
+            "B_Lunasa_P"
+        ]
+    }
+}

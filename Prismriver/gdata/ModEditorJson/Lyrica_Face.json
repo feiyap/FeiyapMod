@@ -1,0 +1,23 @@
+{
+    "myKey": "Lyrica",
+    "myField": "Face",
+    "myValues": {
+        "path": "Lyrica\\LyricaFace.png",
+        "offsetMax": {
+            "x": 458.2126,
+            "y": 334.149841
+        },
+        "offsetMin": {
+            "x": -359.7475,
+            "y": -900.050232
+        },
+        "pivot": {
+            "x": 0.4373263,
+            "y": 0.724728942
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

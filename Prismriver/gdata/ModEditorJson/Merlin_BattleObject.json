@@ -1,0 +1,28 @@
+{
+    "myKey": "Merlin",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Merlin\\MerlinMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.488784879,
+            "y": 0.189139932
+        },
+        "Head": {
+            "x": 0.443938762,
+            "y": 0.592945
+        },
+        "Center": {
+            "x": 0.455154568,
+            "y": 0.564215064
+        },
+        "UI": {
+            "x": 0.483181417,
+            "y": 0.1988416
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

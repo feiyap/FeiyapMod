@@ -1,0 +1,25 @@
+{
+    "Merlin": {
+        "_gdeSchema": "Enemy",
+        "hit": 103,
+        "name": "梅露兰·普莉兹姆利巴",
+        "Boss": true,
+        "atk": 12,
+        "reg": 0,
+        "spd": 1,
+        "cri": -5,
+        "RES_CC": 30,
+        "RES_DEBUFF": 45,
+        "RES_DOT": 30,
+        "maxhp": 400,
+        "PlusActCount": [
+            1
+        ],
+        "CollactionSprite_Cover": "Merlin\\MerlinCollactionSprite_Cover.png",
+        "SubName": "骚灵小号手",
+        "CollactionEnemy": 2,
+        "Passives": [
+            "B_Merlin_P"
+        ]
+    }
+}

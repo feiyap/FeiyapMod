@@ -1,0 +1,11 @@
+{
+    "B_Merlin_P": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Icon": "B_Merlin_P\\B_Merlin_P_Icon.png",
+        "Description": "回合结束时，有50%几率丢弃所有手牌，抽取那个数量-1的技能。",
+        "Name": "骚灵现象"
+    }
+}

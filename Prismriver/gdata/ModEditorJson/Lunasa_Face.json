@@ -1,0 +1,23 @@
+{
+    "myKey": "Lunasa",
+    "myField": "Face",
+    "myValues": {
+        "path": "Lunasa\\LunasaFace.png",
+        "offsetMax": {
+            "x": 680.242737,
+            "y": 267.692749
+        },
+        "offsetMin": {
+            "x": -391.212341,
+            "y": -1249.64734
+        },
+        "pivot": {
+            "x": 0.363225967,
+            "y": 0.8198937
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}
