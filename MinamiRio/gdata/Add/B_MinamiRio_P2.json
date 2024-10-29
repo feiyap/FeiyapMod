@@ -1,0 +1,12 @@
+{
+    "B_MinamiRio_P2": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": true,
+        "Cantdisable": true,
+        "ClassName": "MinamiRio.B_MinamiRio_P2",
+        "BuffTag": "null",
+        "Name": "<color=#FFD700>和弓</color>",
+        "Description": "当前<color=#FA8072>穿甲</color>：&a<color=#FFD700></color>",
+        "Icon": "B_MinamiRio_P2\\B_MinamiRio_P2_Icon.png"
+    }
+}

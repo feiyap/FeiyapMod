@@ -1,0 +1,14 @@
+{
+    "B_Suwako_Rare2": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Suwako.B_Suwako_Rare2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "蛙休",
+        "MaxStack": 10
+    }
+}

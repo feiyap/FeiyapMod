@@ -1,0 +1,23 @@
+{
+    "myKey": "SuwakoEclips",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "SuwakoEclipse\\SuwakoEclipseBattleChar.png",
+        "offsetMax": {
+            "x": 1014.76495,
+            "y": 826.867737
+        },
+        "offsetMin": {
+            "x": -1046.68787,
+            "y": -1234.58508
+        },
+        "pivot": {
+            "x": 0.5077428,
+            "y": 0.5988908
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "B_MinamiRio_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "MinamiRio.B_MinamiRio_2",
+        "BuffTag": "null",
+        "Name": "全神贯注",
+        "Description": "使自身下1个2费以上的技能造成的伤害提升25%。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/4",
+        "MaxStack": 0,
+        "IsFieldBuff": true
+    }
+}

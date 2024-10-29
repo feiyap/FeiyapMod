@@ -1,0 +1,27 @@
+{
+    "S_Suwako_Rare_3_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "choiceskill",
+        "NoDrop": true,
+        "Name": "蛙符「涂有鲜血的赤蛙塚」",
+        "SkillExtended": [
+            "Suwako.S_Suwako_Rare_3_3"
+        ],
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

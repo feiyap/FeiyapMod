@@ -2,18 +2,18 @@
     "myKey": "Suwako",
     "myField": "FaceSmallChar",
     "myValues": {
-        "path": "",
+        "path": "Suwako\\SuwakoFaceSmallChar.png",
         "pivot": {
-            "x": 0.464305162,
-            "y": 0.7657892
+            "x": 0.4700552,
+            "y": 0.7735675
         },
         "offsetMin": {
-            "x": -136.8883,
-            "y": -437.857727
+            "x": -165.1795,
+            "y": -402.552124
         },
         "offsetMax": {
-            "x": 153.559174,
-            "y": 126.616142
+            "x": 181.901947,
+            "y": 110.605942
         }
     },
     "MyChangeType": "FaceSmallChar",

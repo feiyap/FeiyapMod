@@ -1,0 +1,24 @@
+{
+    "S_MinamiRio_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Johan/Johan_8",
+        "Target": "enemy",
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Name": "分离",
+        "Description": "<color=#48D1CC>单弓</color> - 变为指向所有敌人。施加<color=#54FF9F>风伤</color>。\n<color=#FFD700>和弓</color> - 额外造成&a(35%)伤害。如果目标拥有嘲讽状态，则同时指定所有非嘲讽状态的敌人。",
+        "UseAp": 2,
+        "User": "MinamiRio",
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_MinamiRio_4",
+        "Image_0": "S_MinamiRio_4\\S_MinamiRio_4_Image_0.png",
+        "Image_1": "S_MinamiRio_4\\S_MinamiRio_4_Image_1.png",
+        "Image_2": "S_MinamiRio_4\\S_MinamiRio_4_Image_2.png",
+        "NotCount": false,
+        "Basic": false,
+        "SkillExtended": [
+            "MinamiRio.S_MinamiRio_4"
+        ]
+    }
+}

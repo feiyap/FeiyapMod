@@ -20,12 +20,33 @@ namespace Suwako
 	/// <color=green>连击8</color> - 效果变为“打出时，将手中最下方的1个技能放回牌库。那之后，从牌库中选择1个技能抽取。”。
 	/// <color=#008B45>旋回</color> - 展示牌堆最下方的3个技能，选择1个加入手中。使选择的技能获得迅速、致命。
 	/// </summary>
-    public class S_Suwako_5:Skill_Extended
+    public class S_Suwako_5: SkillExtend_Suwako, IP_SkillSelfToDeck
     {
         public override void Init()
         {
             base.Init();
             this.OnePassive = true;
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
+        }
+
+        public int fixCount = 0;
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            fixCount++;
+            if (fixCount >= 12)
+            {
+                fixCount = 0;
+                if (CheckUsedSkills(8))
+                {
+                    base.SkillParticleOn();
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                }
+            }
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
@@ -45,7 +66,14 @@ namespace Suwako
                 //list[list.Count - 1].Delete(false);
                 BattleSystem.DelayInputAfter(this.Return(list[list.Count - 1]));
             }
-            BattleSystem.DelayInputAfter(this.Draw());
+            if (CheckUsedSkills(8))
+            {
+                BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(BattleSystem.instance.AllyTeam.Skills_Deck, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
+            }
+            else
+            {
+                BattleSystem.DelayInputAfter(this.Draw());
+            }
         }
 
         public IEnumerator Return(Skill skill)
@@ -62,6 +90,28 @@ namespace Suwako
 
             yield return null;
             yield break;
+        }
+
+        public void Del(SkillButton Mybutton)
+        {
+            Mybutton.Myskill.Master.MyTeam.ForceDraw(Mybutton.Myskill);
+        }
+
+        public void SelfAddToDeck(SkillLocation skillLoaction)
+        {
+            List<Skill> list = new List<Skill>();
+            List<Skill> list2 = new List<Skill>();
+            list2.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck);
+            list2.Reverse();
+            int num = 0;
+            int num2 = 0;
+            while (num2 < list2.Count && num < 3)
+            {
+                list.Add(list2[num2]);
+                num++;
+                num2++;
+            }
+            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
         }
     }
 }

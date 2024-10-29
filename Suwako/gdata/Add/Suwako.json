@@ -2,7 +2,7 @@
     "Suwako": {
         "_gdeSchema": "Character",
         "Role": "Role_DPS",
-        "PassiveClassName": "",
+        "PassiveClassName": "Suwako.P_Suwako",
         "PassiveUnlockLV1": false,
         "name": "洩矢诹访子",
         "face": "Suwako\\SuwakoBattleFace.png",
@@ -52,7 +52,21 @@
             "y": 30
         },
         "PassiveName": "土著神的顶点",
-        "PassiveDes": "<b>明日之盛，昨日之俗</b> - 战斗开始时，将技能组第1个技能放在牌堆顶。\n\n<b>创造坤程度的能力</b> - 回合结束时，若手牌底的技能是洩矢诹访子的技能，使其返回牌组，并抽取1个技能。\n\n<b><color=green>连击X</color></b> - 每个回合中使用过的技能大于X个时，可以触发额外效果。\n\n<b><color=#008B45>旋回</color></b> - 洩矢诹访子的部分技能从手牌或弃牌堆回到牌库时，会触发额外效果。",
-        "PassiveIcon": "Suwako\\SuwakoPassiveIcon.png"
+        "PassiveDes": "<b>明日之盛，昨日之俗</b> - 战斗开始时，将技能组第1个技能放在牌堆顶。\n\n<b>创造坤程度的能力</b> - 回合结束时，将手中最上方的技能放回牌库最上方，那之后，抽取1个技能。\n\n<b><color=green>连击X</color></b> - 每个回合中使用过的技能大于X个时，可以触发额外效果。\n\n<b><color=#008B45>旋回</color></b> - 洩矢诹访子的部分技能从手牌或弃牌堆回到牌库时，会触发额外效果。",
+        "PassiveIcon": "Suwako\\SuwakoPassiveIcon.png",
+        "FirstSkill": "S_Suwako_0",
+        "CampSD": [
+            "Suwako\\SuwakoCampSD0.png",
+            "Suwako\\SuwakoCampSD1.png",
+            "Suwako\\SuwakoCampSD2.png",
+            "Suwako\\SuwakoCampSD3.png"
+        ],
+        "CollectionSprite_Cover": "Suwako\\SuwakoCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Suwako\\SuwakoCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Sup": 1,
+        "StatView_Debuff": 1,
+        "StatView_Difficult": 3,
+        "SelectInfo": "洩矢诹访子是拥有独特玩法“旋回”的连击型输出。\n\n洩矢诹访子不仅拥有能从“连击”中获益的能力，还拥有“旋回”能力：藉由不断返回牌库，她手中的铁轮能够无限积累伤害，逐渐成长为可怕的怪物。\n\n试着结合风灵系的调查员，在扭曲之地刮起旋回的风吧！"
     }
 }

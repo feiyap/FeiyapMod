@@ -1,0 +1,11 @@
+{
+    "SE_Suwako_Rare2": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "造成&a(40%)额外伤害或&b(65%)额外治疗。",
+        "Des": "",
+        "ClassName": "Suwako.SE_Suwako_Rare2",
+        "IsIcon": ""
+    }
+}

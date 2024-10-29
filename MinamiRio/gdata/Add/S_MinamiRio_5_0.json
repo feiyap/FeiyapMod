@@ -1,0 +1,19 @@
+{
+    "S_MinamiRio_5_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": false,
+        "Basic": false,
+        "Name": "箭越（向前）",
+        "Description": "使所有敌人行动倒计时-1。",
+        "Image_0": "S_MinamiRio_5_0\\S_MinamiRio_5_0_Image_0.png",
+        "Image_1": "S_MinamiRio_5_0\\S_MinamiRio_5_0_Image_1.png",
+        "Image_2": "S_MinamiRio_5_0\\S_MinamiRio_5_0_Image_2.png",
+        "SkillExtended": [
+            "MinamiRio.S_MinamiRio_5_0"
+        ],
+        "NoDrop": true
+    }
+}

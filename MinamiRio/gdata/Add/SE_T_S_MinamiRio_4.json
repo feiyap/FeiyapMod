@@ -1,0 +1,13 @@
+{
+    "SE_T_S_MinamiRio_4": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 100,
+        "Buffs": [
+            "B_MinamiRio_4"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

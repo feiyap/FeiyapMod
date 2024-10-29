@@ -1,0 +1,23 @@
+{
+    "S_MinamiRio_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "choiceskill",
+        "NoBasicSkill": false,
+        "Name": "箭越",
+        "Description": "选择 - 使所有敌人行动倒计时+1；\n使所有敌人行动倒计时-1。\n那之后，对行动倒计时最低的敌人造成&a(50%)伤害，抽取1个技能，使自身切换<color=#48D1CC>单弓</color>/<color=#FFD700>和弓</color>状态。",
+        "User": "MinamiRio",
+        "NotCount": true,
+        "Effect_Target": "null",
+        "Image_0": "S_MinamiRio_5\\S_MinamiRio_5_Image_0.png",
+        "Image_1": "S_MinamiRio_5\\S_MinamiRio_5_Image_1.png",
+        "Image_2": "S_MinamiRio_5\\S_MinamiRio_5_Image_2.png",
+        "Basic": false,
+        "Effect_Self": "SE_S_S_MinamiRio_5",
+        "Track": false,
+        "SkillExtended": [
+            "MinamiRio.S_MinamiRio_5"
+        ]
+    }
+}

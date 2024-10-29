@@ -1,0 +1,11 @@
+{
+    "SE_S_S_MinamiRio_2": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_MinamiRio_2"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

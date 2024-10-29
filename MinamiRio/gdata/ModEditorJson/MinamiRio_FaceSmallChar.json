@@ -1,0 +1,23 @@
+{
+    "myKey": "MinamiRio",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "MinamiRio\\MinamiRioFaceSmallChar.png",
+        "offsetMax": {
+            "x": 585.277954,
+            "y": 160.856018
+        },
+        "offsetMin": {
+            "x": -566.2488,
+            "y": -990.6707
+        },
+        "pivot": {
+            "x": 0.48997277,
+            "y": 0.8554565
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

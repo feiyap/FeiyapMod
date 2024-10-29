@@ -2,20 +2,25 @@
     "S_Suwako_Rare_3_0": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/Hein/Hein_new_1",
+        "Particle": "Particle/Charon/Charon_CutAni_0",
         "Rare": true,
         "Target": "enemy",
         "NotCount": true,
         "Name": "祟神「赤口大人」",
         "Description": "这个技能必定命中，无视防御。",
         "UseAp": 2,
-        "Track": true,
-        "Fatal": true,
+        "Track": false,
+        "Fatal": false,
         "IgnoreTaunt": true,
         "Except": true,
         "Effect_Target": "SE_T_S_Suwako_Rare_3_0",
         "Image_0": "S_Suwako_Rare_3_0\\S_Suwako_Rare_3_0_Image_0.png",
         "Image_1": "S_Suwako_Rare_3_0\\S_Suwako_Rare_3_0_Image_1.png",
-        "Image_2": "S_Suwako_Rare_3_0\\S_Suwako_Rare_3_0_Image_2.png"
+        "Image_2": "S_Suwako_Rare_3_0\\S_Suwako_Rare_3_0_Image_2.png",
+        "NODOD": true,
+        "NoDrop": true,
+        "SkillExtended": [
+            "Suwako.S_Suwako_Rare_3_0"
+        ]
     }
 }

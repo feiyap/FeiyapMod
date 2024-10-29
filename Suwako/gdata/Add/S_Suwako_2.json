@@ -16,6 +16,12 @@
         "Image_1": "S_Suwako_2\\S_Suwako_2_Image_1.png",
         "Image_2": "S_Suwako_2\\S_Suwako_2_Image_2.png",
         "Disposable": false,
-        "PlusSkillView": "S_Suwako_P"
+        "PlusSkillView": "S_Suwako_P",
+        "SkillExtended": [
+            "Suwako.S_Suwako_2"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Return"
+        ]
     }
 }

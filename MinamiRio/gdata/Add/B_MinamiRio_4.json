@@ -1,0 +1,17 @@
+{
+    "B_MinamiRio_4": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "MinamiRio.B_MinamiRio_4",
+        "BuffTag": "Debuff",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "<color=#54FF9F>风伤</color>",
+        "Icon": "B_MinamiRio_4\\B_MinamiRio_4_Icon.png",
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 100
+    }
+}

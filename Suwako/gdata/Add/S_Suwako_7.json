@@ -21,6 +21,9 @@
         "IgnoreTaunt": false,
         "Except": false,
         "Track": false,
-        "Fatal": false
+        "Fatal": false,
+        "SkillExtended": [
+            "Suwako.S_Suwako_7"
+        ]
     }
 }

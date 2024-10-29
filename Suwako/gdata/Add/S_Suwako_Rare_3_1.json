@@ -1,0 +1,20 @@
+{
+    "S_Suwako_Rare_3_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "skill",
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "Name": "重复释放",
+        "Description": "重复释放1次，然后抽取1个技能，并使这个技能获得1层[苏醒]。",
+        "NoDrop": true,
+        "Image_0": "S_Suwako_Rare_3_1\\S_Suwako_Rare_3_1_Image_0.png",
+        "Image_1": "S_Suwako_Rare_3_1\\S_Suwako_Rare_3_1_Image_1.png",
+        "Image_2": "S_Suwako_Rare_3_1\\S_Suwako_Rare_3_1_Image_2.png",
+        "SkillExtended": [
+            "Suwako.S_Suwako_Rare_3_1"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "S_MinamiRio_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Johan/Johan_6 1",
+        "Target": "enemy",
+        "Track": true,
+        "Name": "瞄准射击",
+        "Description": "从[全神贯注]获得的提升翻倍。\n\n<color=#48D1CC>单弓</color> - 使自身下1个技能降低2点费用。\n<color=#FFD700>和弓</color> - 从<color=#FA8072>穿甲</color>获得的提升翻倍。",
+        "User": "MinamiRio",
+        "Effect_Target": "SE_T_S_MinamiRio_3",
+        "Image_0": "S_MinamiRio_3\\S_MinamiRio_3_Image_0.png",
+        "Image_1": "S_MinamiRio_3\\S_MinamiRio_3_Image_1.png",
+        "Image_2": "S_MinamiRio_3\\S_MinamiRio_3_Image_2.png",
+        "AutoDelete": 0,
+        "Counting": 1,
+        "IgnoreTaunt": true,
+        "UseAp": 3,
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "MinamiRio.S_MinamiRio_3"
+        ]
+    }
+}

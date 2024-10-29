@@ -11,6 +11,7 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
+using BasicMethods;
 namespace Suwako
 {
 	/// <summary>
@@ -21,6 +22,30 @@ namespace Suwako
 	/// </summary>
     public class S_Suwako_Rare_2:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            foreach (Skill skill in this.BChar.MyTeam.Skills)
+            {
+                BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(skill, 0, true));
+                Skill tmpSkill = Skill.TempSkill("S_FSL_Common", this.BChar, this.BChar.MyTeam);
+                BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
+                this.BChar.BuffAdd("B_Suwako_Rare2", this.BChar, true);
+            }
 
+            foreach (Skill skill in this.BChar.MyTeam.Skills)
+            {
+                if ((skill.TargetDamage >= 1 || skill.TargetHeal >= 1) &&
+                    (
+                    skill.MySkill.KeyID == "S_FSL_Common" ||
+                    skill.MySkill.KeyID == "S_Sanae_P" ||
+                    skill.MySkill.KeyID == "S_Kanako_P" ||
+                    skill.MySkill.KeyID == "S_Suwako_P" ||
+                    skill.MySkill.KeyID == "S_Shameimaru_P"
+                    ))
+                {
+                    skill.ExtendedAdd(Skill_Extended.DataToExtended("SE_Suwako_Rare2"));
+                }
+            }
+        }
     }
 }

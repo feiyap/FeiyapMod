@@ -1,0 +1,14 @@
+{
+    "B_MinamiRio_7": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "MinamiRio.B_MinamiRio_7",
+        "BuffTag": "null",
+        "Name": "百发百中",
+        "Description": "攻击时若命中率超过100%，则超出的数值将增加到暴击率。",
+        "Icon": "B_MinamiRio_7\\B_MinamiRio_7_Icon.png",
+        "MaxStack": 1,
+        "LifeTime": 3
+    }
+}

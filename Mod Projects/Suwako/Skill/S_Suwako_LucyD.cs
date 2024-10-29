@@ -40,10 +40,35 @@ namespace Suwako
             }
             if (list.Count >= 1)
             {
-                //list[list.Count - 1].Delete(false);
-                BattleSystem.DelayInputAfter(this.Return(list[list.Count - 1]));
+                //BattleSystem.DelayInputAfter(this.Return(list[list.Count - 1]));
+                BattleSystem.instance.StartCoroutine(this.EffectDelaysCo(SkillD));
             }
             //BattleSystem.DelayInputAfter(this.Draw());
+        }
+
+        private IEnumerator EffectDelaysCo(Skill SkillD)
+        {
+            List<Skill> list = new List<Skill>();
+            list.AddRange(this.MySkill.Master.MyTeam.Skills);
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i] == SkillD)
+                {
+                    list.RemoveAt(i);
+                    break;
+                }
+            }
+            if (list.Count >= 1)
+            {
+                yield return CustomMethods.I_SkillBackToDeck(list[list.Count - 1], 0, true);
+            }
+
+            while (BattleSystem.instance.ListWait || BattleSystem.instance.Particles.Count != 0 || GameObject.FindGameObjectsWithTag("EffectView").Length != 0 || GameObject.FindGameObjectsWithTag("Tutorial").Length != 0 || BattleSystem.instance.DelayWait)
+            {
+                yield return new WaitForFixedUpdate();
+            }
+
+            yield return this.BChar.MyTeam._Draw(3);
         }
 
         public IEnumerator Return(Skill skill)

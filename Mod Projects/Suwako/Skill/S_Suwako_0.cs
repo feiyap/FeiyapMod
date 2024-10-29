@@ -19,7 +19,7 @@ namespace Suwako
     /// <color=green>连击4</color> - 释放后返回牌组。
     /// <color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(30%)点。
     /// </summary>
-    public class S_Suwako_0 : SkillExtend_Suwako, IP_SkillSelfToDeck, IP_SkillSelfLeaveHand
+    public class S_Suwako_0 : SkillExtend_Suwako, IP_SkillSelfToDeck
     {
         public override string DescExtended(string desc)
         {
@@ -30,29 +30,58 @@ namespace Suwako
         {
             base.Init();
             this.OnePassive = true;
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
         }
+
+        public int fixCount = 0;
 
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (BattleSystem.instance.GetBattleValue<BV_Suwako_0>() == null)
+            fixCount++;
+            if (fixCount >= 12)
             {
-                BattleSystem.instance.BattleValues.Add(new BV_Suwako_0());
-                return;
+                fixCount = 0;
+                if (CheckUsedSkills(2))
+                {
+                    base.SkillParticleOn();
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                }
+
+                if (BattleSystem.instance.GetBattleValue<BV_Suwako_0>() == null)
+                {
+                    BattleSystem.instance.BattleValues.Add(new BV_Suwako_0());
+                    return;
+                }
+                this.PlusAtk = (int)(this.BChar.GetStat.atk * 0.3);
+                this.SkillBasePlus.Target_BaseDMG = BattleSystem.instance.GetBattleValue<BV_Suwako_0>().UseNum * this.PlusAtk;
             }
-            this.PlusAtk = (int)(this.BChar.GetStat.atk * 0.3);
-            this.SkillBasePlus.Target_BaseDMG = BattleSystem.instance.GetBattleValue<BV_Suwako_0>().UseNum * this.PlusAtk;
         }
 
-        public bool SelfLeaveHand(bool isUsed)
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (CheckUsedSkills(4) && isUsed)
+            if (CheckUsedSkills(2))
             {
-                BattleSystem.instance.AllyTeam.Skills_Deck.Add(this.MySkill);
-                BattleSystem.instance.AllyTeam.Skills.Remove(this.MySkill);
-                return false;
+                this.MySkill.isExcept = true;
             }
-            return true;
+        }
+
+        public override void SkillUseSingleAfter(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingleAfter(SkillD, Targets);
+
+            if (CheckUsedSkills(4))
+            {
+                Skill skill = this.MySkill.CloneSkill(true, this.BChar, null, false);
+                skill.isExcept = false;
+                if (!this.MySkill.FreeUse)
+                {
+                    BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(skill, -1, false));
+                }
+            }
         }
 
         public void SelfAddToDeck(SkillLocation skillLoaction)

@@ -1,0 +1,12 @@
+{
+    "B_MinamiRio_P1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "MinamiRio.B_MinamiRio_P1",
+        "BuffTag": "null",
+        "Name": "<color=#48D1CC>单弓</color>",
+        "Description": "手中的攻击技能获得无视嘲讽。\n当前<color=#FA8072>穿甲</color>：&a",
+        "Icon": "B_MinamiRio_P1\\B_MinamiRio_P1_Icon.png",
+        "Cantdisable": true,
+        "IsFieldBuff": true
+    }
+}

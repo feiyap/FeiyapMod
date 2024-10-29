@@ -1,0 +1,22 @@
+{
+    "S_MinamiRio_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Johan/Johan_P",
+        "Target": "enemy",
+        "NotCount": true,
+        "Basic": false,
+        "Name": "快射",
+        "Description": "<color=#48D1CC>单弓</color> - 本回合内可再次释放1次。\n<color=#FFD700>和弓</color> - 降低1点费用。",
+        "User": "MinamiRio",
+        "UseAp": 1,
+        "NoBasicSkill": false,
+        "Effect_Target": "SE_T_S_MinamiRio_1",
+        "Image_0": "S_MinamiRio_1\\S_MinamiRio_1_Image_0.png",
+        "Image_1": "S_MinamiRio_1\\S_MinamiRio_1_Image_1.png",
+        "Image_2": "S_MinamiRio_1\\S_MinamiRio_1_Image_2.png",
+        "SkillExtended": [
+            "MinamiRio.S_MinamiRio_1"
+        ]
+    }
+}

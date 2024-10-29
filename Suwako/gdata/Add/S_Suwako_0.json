@@ -21,7 +21,7 @@
         "UnknownTarget": false,
         "Name": "神具「洩矢的铁轮」",
         "UseAp": 1,
-        "Description": "<color=green>连击4</color> - 释放后返回牌组。\n<color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(30%)点。",
+        "Description": "<color=green>连击2</color> - 释放后返回牌组。\n<color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(30%)点。",
         "User": "Suwako",
         "Effect_Target": "SE_T_S_Suwako_0",
         "Image_0": "S_Suwako_0\\S_Suwako_0_Image_0.png",
@@ -29,6 +29,10 @@
         "Image_2": "S_Suwako_0\\S_Suwako_0_Image_2.png",
         "SkillExtended": [
             "Suwako.S_Suwako_0"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Combo",
+            "Keyword_Return"
         ]
     }
 }

@@ -8,7 +8,6 @@
         "NoBasicSkill": false,
         "Name": "神樱「湛樱花吹雪」",
         "Description": "从手牌和弃牌库中各选择1个技能，将它们放回牌堆，再抽取到手中。\n\n<color=#008B45>旋回</color> - 将弃牌库中最上面的1个技能放回牌堆，再抽取到手中。",
-        "User": "Suwako",
         "UseAp": 1,
         "Disposable": true,
         "PlusKeyWords": [
@@ -16,6 +15,21 @@
         ],
         "Image_0": "S_Suwako_9\\S_Suwako_9_Image_0.png",
         "Image_1": "S_Suwako_9\\S_Suwako_9_Image_1.png",
-        "Image_2": "S_Suwako_9\\S_Suwako_9_Image_2.png"
+        "Image_2": "S_Suwako_9\\S_Suwako_9_Image_2.png",
+        "SkillExtended": [
+            "Suwako.S_Suwako_9"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

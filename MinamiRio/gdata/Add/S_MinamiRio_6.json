@@ -1,0 +1,22 @@
+{
+    "S_MinamiRio_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Debuff",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "追踪术",
+        "Description": "可以指向不能被指定的单位。",
+        "User": "MinamiRio",
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_MinamiRio_6",
+        "Image_0": "S_MinamiRio_6\\S_MinamiRio_6_Image_0.png",
+        "Image_1": "S_MinamiRio_6\\S_MinamiRio_6_Image_1.png",
+        "Image_2": "S_MinamiRio_6\\S_MinamiRio_6_Image_2.png",
+        "NoDrop": false,
+        "SkillExtended": [
+            "MinamiRio.S_MinamiRio_6"
+        ],
+        "Basic": false
+    }
+}

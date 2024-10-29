@@ -1,0 +1,16 @@
+{
+    "B_MinamiRio_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "MinamiRio.B_MinamiRio_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "<color=#DC143C>皆中</color>",
+        "Description": "攻击命中时获得1层<color=#DC143C>皆中</color>。\r\n<color=#48D1CC>单弓</color> - 层数达到上限时，移除该增益并优先抽取1个自己的技能。\r\n<color=#FFD700>和弓</color> - 层数达到上限时，移除该增益并获得[全神贯注]。",
+        "MaxStack": 4,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (22)"
+    }
+}

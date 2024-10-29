@@ -12,6 +12,9 @@
         "Effect_Self": "SE_S_S_Suwako_8",
         "Image_0": "S_Suwako_8\\S_Suwako_8_Image_0.png",
         "Image_1": "S_Suwako_8\\S_Suwako_8_Image_1.png",
-        "Image_2": "S_Suwako_8\\S_Suwako_8_Image_2.png"
+        "Image_2": "S_Suwako_8\\S_Suwako_8_Image_2.png",
+        "SkillExtended": [
+            "Suwako.S_Suwako_8"
+        ]
     }
 }

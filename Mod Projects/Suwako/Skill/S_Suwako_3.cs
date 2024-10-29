@@ -22,7 +22,7 @@ namespace Suwako
     {
         public void SelfAddToDeck(SkillLocation skillLoaction)
         {
-            this.MySkill.Except();
+            BattleSystem.instance.AllyTeam.Skills_Deck.Remove(this.MySkill);
             BattleSystem.instance.AllyTeam.AP += 2;
         }
     }

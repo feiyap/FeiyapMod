@@ -1,0 +1,23 @@
+{
+    "myKey": "SuwakoEclips",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "SuwakoEclipse\\SuwakoEclipseFaceSmallChar.png",
+        "offsetMax": {
+            "x": 642.993042,
+            "y": 452.275452
+        },
+        "offsetMin": {
+            "x": -637.006958,
+            "y": -827.724548
+        },
+        "pivot": {
+            "x": 0.49766168,
+            "y": 0.6466598
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

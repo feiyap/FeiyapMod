@@ -13,6 +13,8 @@
         "Disposable": true,
         "Image_0": "S_Suwako_Rare_2\\S_Suwako_Rare_2_Image_0.png",
         "Image_1": "S_Suwako_Rare_2\\S_Suwako_Rare_2_Image_1.png",
-        "Image_2": "S_Suwako_Rare_2\\S_Suwako_Rare_2_Image_2.png"
+        "Image_2": "S_Suwako_Rare_2\\S_Suwako_Rare_2_Image_2.png",
+        "NoBasicSkill": false,
+        "NoDrop": false
     }
 }
