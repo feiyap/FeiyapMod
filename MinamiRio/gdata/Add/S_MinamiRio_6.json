@@ -17,6 +17,17 @@
         "SkillExtended": [
             "MinamiRio.S_MinamiRio_6"
         ],
-        "Basic": false
+        "Basic": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

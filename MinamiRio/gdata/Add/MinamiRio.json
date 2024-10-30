@@ -7,24 +7,73 @@
         "name": "莉央",
         "Gender": 1,
         "MAXHP": {
-            "x": 20,
-            "y": 40
+            "x": 23,
+            "y": 35
         },
         "PassiveName": "箭与其反",
         "PassiveDes": "<b>锚点</b> - 莉央无法造成暴击，但是升级时获得远超常人的命中率提升。莉央超过100%的那部分命中率转化为50%的<color=#FA8072>穿甲</color>。\r\n\r\n<b><color=#FA8072>穿甲</color></b> - 莉央攻击时视作目标减少等量于<color=#FA8072>穿甲</color>的防御力。\r\n\r\n<b><color=#48D1CC>单弓</color></b> - 莉央在<color=#48D1CC>单弓</color>形态下手中的攻击技能获得无视嘲讽；且部分技能会触发额外效果。\r\n\r\n<b><color=#FFD700>和弓</color></b> - 莉央在<color=#FFD700>和弓</color>形态下增加20%命中率；且部分技能会触发额外效果。",
         "face": "MinamiRio\\MinamiRioBattleFace.png",
         "ATK": {
-            "x": 15,
-            "y": 15
+            "x": 14,
+            "y": 25
         },
         "HIT": {
-            "x": 150,
-            "y": 150
+            "x": 100,
+            "y": 180
         },
         "PassiveIcon": "MinamiRio\\MinamiRioPassiveIcon.png",
         "CollectionSprite_Cover": "MinamiRio\\MinamiRioCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "MinamiRio\\MinamiRioCollectionSprite_SkillFace.png",
         "StatView_Atk": 3,
-        "StatView_Difficult": 1
+        "StatView_Difficult": 1,
+        "CRI": {
+            "x": 0,
+            "y": 0
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 7,
+            "y": 14
+        },
+        "RES_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DEBUFF": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DOT": {
+            "x": 5,
+            "y": 45
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "StatView_Debuff": 1,
+        "StatView_CC": 0,
+        "CampSelectWord": "我的箭会找到真相。",
+        "CampSD": [
+            "MinamiRio\\MinamiRioCampSD0.png",
+            "MinamiRio\\MinamiRioCampSD1.png",
+            "MinamiRio\\MinamiRioCampSD2.png",
+            "MinamiRio\\MinamiRioCampSD3.png"
+        ]
     }
 }

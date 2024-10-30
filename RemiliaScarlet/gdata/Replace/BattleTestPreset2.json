@@ -15,9 +15,7 @@
             ],
             [
                 "S_RemiliaScarlet_0",
-                "S_RemiliaScarlet_4",
                 "S_RemiliaScarlet_3",
-                "S_RemiliaScarlet_12Rare",
                 "S_RemiliaScarlet_9"
             ]
         ],
@@ -38,7 +36,12 @@
             ]
         ],
         "LucySkill": [
-            
+            "S_Lucy_30_SwimDLC"
+        ],
+        "AP": 10,
+        "Level": 6,
+        "ConsumeItems": [
+            "Potion_Target"
         ]
     }
 }

@@ -3,12 +3,12 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>MinamiRio2024102914611</AssemblyName>
+    <AssemblyName>MinamiRio20241030110154</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <ReferencePath>E:/steam/steamapps/common/Chrono Ark/ChronoArk_Data/Managed</ReferencePath>
+    <ReferencePath>H:/SteamLibrary/steamapps/common/Chrono Ark/ChronoArk_Data/Managed</ReferencePath>
     <ProjectGuid>{F4436765-444E-4115-8E48-04FC36F82218}</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
@@ -408,7 +408,7 @@
     </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                                                                            <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                    <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BV_MinamiRio_P.cs" />
     <Compile Include="Characterget_statPatch.cs" />
@@ -419,9 +419,13 @@
     <Compile Include="Buff\B_MinamiRio_0.cs" />
     <Compile Include="Buff\B_MinamiRio_2.cs" />
     <Compile Include="Buff\B_MinamiRio_4.cs" />
+    <Compile Include="Buff\B_MinamiRio_6.cs" />
     <Compile Include="Buff\B_MinamiRio_7.cs" />
     <Compile Include="Buff\B_MinamiRio_P1.cs" />
     <Compile Include="Buff\B_MinamiRio_P2.cs" />
+    <Compile Include="Buff\B_MinamiRio_Rare_1.cs" />
+    <Compile Include="Buff\B_MinamiRio_Rare_1_0.cs" />
+    <Compile Include="Buff\B_MinamiRio_Rare_2.cs" />
     <Compile Include="Character\P_MinamiRio.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
@@ -436,6 +440,7 @@
     <Compile Include="Skill\S_MinamiRio_5_1.cs" />
     <Compile Include="Skill\S_MinamiRio_6.cs" />
     <Compile Include="Skill\S_MinamiRio_7.cs" />
+    <Compile Include="Skill\S_MinamiRio_Rare_2.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

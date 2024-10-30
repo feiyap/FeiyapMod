@@ -1,0 +1,15 @@
+{
+    "RemiliaScarletEclipse": {
+        "_gdeSchema": "Character_Skin",
+        "FaceSprite": "RemiliaScarletEclips\\RemiliaScarletEclipsBattleFace.png",
+        "CampSD": [
+            "RemiliaScarletEclips\\RemiliaScarletEclipsCampSD0.png",
+            "RemiliaScarletEclips\\RemiliaScarletEclipsCampSD1.png",
+            "RemiliaScarletEclips\\RemiliaScarletEclipsCampSD2.png",
+            "RemiliaScarletEclips\\RemiliaScarletEclipsCampSD3.png"
+        ],
+        "SkinName": "永幼之赤月",
+        "Character": "RemiliaScarlet",
+        "SkinDesc": "<color=#FF0000>在如此鲜红的月亮之下，\r\n我真的会杀掉你哦。</color>"
+    }
+}

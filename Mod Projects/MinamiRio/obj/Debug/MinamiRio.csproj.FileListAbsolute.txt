@@ -24,7 +24,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\bin\Debug
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\bin\Debug\MonoMod.Utils.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\bin\Debug\System.Core.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\obj\Debug\MinamiRio.csproj.CopyComplete
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\bin\Debug\MinamiRio2024102914611.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\bin\Debug\MinamiRio2024102914611.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\obj\Debug\MinamiRio2024102914611.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\obj\Debug\MinamiRio2024102914611.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\bin\Debug\MinamiRio20241030110154.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\bin\Debug\MinamiRio20241030110154.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\obj\Debug\MinamiRio20241030110154.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\MinamiRio\obj\Debug\MinamiRio20241030110154.pdb

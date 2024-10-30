@@ -1,7 +1,7 @@
 {
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
-        "AP": 10,
+        "AP": 9,
         "Level": 6,
         "Party": [
             "Phoenix",
@@ -26,14 +26,9 @@
                 
             ],
             [
-                "S_MinamiRio_0",
-                "S_MinamiRio_1",
                 "S_MinamiRio_2",
-                "S_MinamiRio_3",
-                "S_MinamiRio_4",
-                "S_MinamiRio_5",
-                "S_MinamiRio_6",
-                "S_MinamiRio_7"
+                "S_MinamiRio_2",
+                "S_MinamiRio_3"
             ]
         ],
         "PartyEquip": [

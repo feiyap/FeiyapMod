@@ -37,13 +37,13 @@ namespace MinamiRio
             {
                 Fixed_count = 0;
 
-                if (this.BChar.BuffFind("B_MinamiRio_P2"))
-                {
-                    this.APChange = -1;
-                }
-                else
+                if (this.BChar.BuffFind("B_MinamiRio_P1"))
                 {
                     this.APChange = 0;
+                }
+                else if (this.BChar.BuffFind("B_MinamiRio_P2"))
+                {
+                    this.APChange = -1;
                 }
             }
         }

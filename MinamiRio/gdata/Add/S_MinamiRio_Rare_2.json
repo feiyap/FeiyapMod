@@ -1,0 +1,26 @@
+{
+    "S_MinamiRio_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Johan/Johan_0",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": true,
+        "Disposable": false,
+        "Name": "连矢",
+        "Description": "<color=#48D1CC>单弓</color> - 重复释放2次。如果目标拥有嘲讽状态，使其失去嘲讽状态；否则使其(<sprite=2>&a%)眩晕1回合。\n<color=#FFD700>和弓</color> - 额外造成&b(200%)伤害。本回合内，自身造成伤害提升35%。",
+        "User": "MinamiRio",
+        "UseAp": 3,
+        "IgnoreTaunt": true,
+        "Track": true,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_MinamiRio_Rare_2",
+        "Image_0": "S_MinamiRio_Rare_2\\S_MinamiRio_Rare_2_Image_0.png",
+        "Image_1": "S_MinamiRio_Rare_2\\S_MinamiRio_Rare_2_Image_1.png",
+        "Image_2": "S_MinamiRio_Rare_2\\S_MinamiRio_Rare_2_Image_2.png",
+        "NoDrop": false,
+        "SkillExtended": [
+            "MinamiRio.S_MinamiRio_Rare_2"
+        ]
+    }
+}

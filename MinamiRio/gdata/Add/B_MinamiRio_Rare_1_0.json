@@ -1,0 +1,12 @@
+{
+    "B_MinamiRio_Rare_1_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "MinamiRio.B_MinamiRio_Rare_1_0",
+        "BuffTag": "null",
+        "Name": "射手印记",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (22)",
+        "Description": "&user可以无视嘲讽攻击这个单位。",
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

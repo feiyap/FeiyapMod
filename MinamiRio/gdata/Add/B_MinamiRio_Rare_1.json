@@ -1,0 +1,16 @@
+{
+    "B_MinamiRio_Rare_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "MinamiRio.B_MinamiRio_Rare_1",
+        "BuffTag": "null",
+        "Name": "Robinhood",
+        "Description": "攻击时会向目标施加[射手印记]：施加者可以无视嘲讽攻击[射手印记]的目标；\n再次命中拥有[射手印记]的敌人时，消除场上所有[射手印记]，本次造成伤害翻倍，并且抽取1个功能。",
+        "Icon": "B_MinamiRio_Rare_1\\B_MinamiRio_Rare_1_Icon.png",
+        "LifeTime": 3,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

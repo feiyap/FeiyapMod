@@ -2,7 +2,7 @@
     "B_Reisen_7": {
         "_gdeSchema": "Buff",
         "ClassName": "Reisen.B_Reisen_7",
-        "Description": "每个回合开始时，获得3颗<color=#B22222>子弹</color>。",
+        "Description": "每个回合开始时，获得3颗<sprite name=\"Reisen_bullet\"><color=#B22222>子弹</color>。",
         "Name": "真实/幻象",
         "MaxStack": 0,
         "LifeTime": 3,

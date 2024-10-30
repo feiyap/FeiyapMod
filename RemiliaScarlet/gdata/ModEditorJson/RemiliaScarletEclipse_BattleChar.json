@@ -1,0 +1,23 @@
+{
+    "myKey": "RemiliaScarletEclipse",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "RemiliaScarletEclips\\RemiliaScarletEclipsBattleChar.png",
+        "offsetMax": {
+            "x": 959.246643,
+            "y": 838.405945
+        },
+        "offsetMin": {
+            "x": -1170.50537,
+            "y": -1226.883
+        },
+        "pivot": {
+            "x": 0.549597,
+            "y": 0.5940491
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

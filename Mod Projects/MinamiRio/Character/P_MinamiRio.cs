@@ -13,15 +13,15 @@ using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 namespace MinamiRio
 {
-	/// <summary>
-	/// 莉央
-	/// Passive:
-	/// <b>锚点</b> - 莉央无法造成暴击，但是升级时获得远超常人的命中率提升。莉央超过100%的那部分命中率转化为50%的<color=#FA8072>穿甲</color>。
-	/// <b><color=#FA8072>穿甲</color></b> - 莉央攻击时视作目标减少等量于<color=#FA8072>穿甲</color>的防御力。
-	/// <b><color=#FFD700>单弓</color></b> - 莉央在<color=#FFD700>单弓</color>形态下手中的攻击技能获得无视嘲讽；且部分技能会触发额外效果。
-	/// <b><color=#F0FFFF>和弓</color></b> - 莉央在<color=#F0FFFF>和弓</color>形态下增加20%命中率；且部分技能会触发额外效果。
-	/// </summary>
-    public class P_MinamiRio:Passive_Char, IP_PlayerTurn
+    /// <summary>
+    /// 莉央
+    /// Passive:
+    /// <b>锚点</b> - 莉央无法造成暴击，但是升级时获得远超常人的命中率提升。莉央超过100%的那部分命中率转化为50%的<color=#FA8072>穿甲</color>。
+    /// <b><color=#FA8072>穿甲</color></b> - 莉央攻击时视作目标减少等量于<color=#FA8072>穿甲</color>的防御力。
+    /// <b><color=#FFD700>单弓</color></b> - 莉央在<color=#FFD700>单弓</color>形态下手中的攻击技能获得无视嘲讽；且部分技能会触发额外效果。
+    /// <b><color=#F0FFFF>和弓</color></b> - 莉央在<color=#F0FFFF>和弓</color>形态下增加20%命中率；且部分技能会触发额外效果。
+    /// </summary>
+    public class P_MinamiRio : Passive_Char, IP_PlayerTurn, IP_DamageChange
     {
         public override void Init()
         {
@@ -38,6 +38,14 @@ namespace MinamiRio
             }
 
             BattleSystem.instance.GetBattleValue<BV_MinamiRio_P>().ArmorPiercing = (int)((this.BChar.GetStat.hit - 100) / 2);
+        }
+
+        public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
+        {
+            Cri = false;
+            Debug.Log("P");
+            Debug.Log(Damage);
+            return Damage;
         }
 
         public void Turn()

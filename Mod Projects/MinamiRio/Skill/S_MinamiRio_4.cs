@@ -42,7 +42,7 @@ namespace MinamiRio
                     this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
                     this.SkillBasePlus.Target_BaseDMG = 0;
                 }
-                else
+                else if (this.BChar.BuffFind("B_MinamiRio_P2"))
                 {
                     this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
                     this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.35f);

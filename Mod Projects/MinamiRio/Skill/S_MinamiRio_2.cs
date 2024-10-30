@@ -42,7 +42,7 @@ namespace MinamiRio
                     this.SkillBasePlus.Target_BaseDMG = 0;
                     this.NotCount = true;
                 }
-                else
+                else if (this.BChar.BuffFind("B_MinamiRio_P2"))
                 {
                     this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.35f);
                     this.NotCount = false;

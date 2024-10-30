@@ -20,6 +20,44 @@ namespace MinamiRio
 		/// </summary>
         public static string Buff_B_MinamiRio_4 = "B_MinamiRio_4";
 		/// <summary>
+		/// 追踪术
+		/// 目标可以无条件被指定为技能目标；
+		/// 目标死亡时，获得200金币。
+		/// </summary>
+        public static string Buff_B_MinamiRio_6 = "B_MinamiRio_6";
+		/// <summary>
+		/// 百发百中
+		/// 攻击时若命中率超过100%，则超出的数值将增加到暴击率。
+		/// </summary>
+        public static string Buff_B_MinamiRio_7 = "B_MinamiRio_7";
+		/// <summary>
+		/// <color=#48D1CC>单弓</color>
+		/// 手中的攻击技能获得无视嘲讽。
+		/// 当前<color=#FA8072>穿甲</color>：&a
+		/// </summary>
+        public static string Buff_B_MinamiRio_P1 = "B_MinamiRio_P1";
+		/// <summary>
+		/// <color=#FFD700>和弓</color>
+		/// 当前<color=#FA8072>穿甲</color>：&a<color=#FFD700></color>
+		/// </summary>
+        public static string Buff_B_MinamiRio_P2 = "B_MinamiRio_P2";
+		/// <summary>
+		/// Robinhood
+		/// 攻击时会向目标施加[射手印记]：施加者可以无视嘲讽攻击[射手印记]的目标；
+		/// 再次命中拥有[射手印记]的敌人时，消除场上所有[射手印记]，本次造成伤害翻倍，并且抽取1个功能。
+		/// </summary>
+        public static string Buff_B_MinamiRio_Rare_1 = "B_MinamiRio_Rare_1";
+		/// <summary>
+		/// 射手印记
+		/// &user可以无视嘲讽攻击这个单位。
+		/// </summary>
+        public static string Buff_B_MinamiRio_Rare_1_0 = "B_MinamiRio_Rare_1_0";
+		/// <summary>
+		/// 正射必中
+		/// 自身造成伤害提升35%。
+		/// </summary>
+        public static string Buff_B_MinamiRio_Rare_2 = "B_MinamiRio_Rare_2";
+		/// <summary>
 		/// 莉央
 		/// Passive:
 		/// <b>锚点</b> - 莉央无法造成暴击，但是升级时获得远超常人的命中率提升。莉央超过100%的那部分命中率转化为50%的<color=#FA8072>穿甲</color>。
@@ -31,12 +69,16 @@ namespace MinamiRio
         public static string SkillEffect_SE_S_S_MinamiRio_0 = "SE_S_S_MinamiRio_0";
         public static string SkillEffect_SE_S_S_MinamiRio_2 = "SE_S_S_MinamiRio_2";
         public static string SkillEffect_SE_S_S_MinamiRio_5 = "SE_S_S_MinamiRio_5";
+        public static string SkillEffect_SE_S_S_MinamiRio_Rare_1 = "SE_S_S_MinamiRio_Rare_1";
         public static string SkillEffect_SE_T_S_MinamiRio_1 = "SE_T_S_MinamiRio_1";
         public static string SkillEffect_SE_T_S_MinamiRio_2 = "SE_T_S_MinamiRio_2";
         public static string SkillEffect_SE_T_S_MinamiRio_3 = "SE_T_S_MinamiRio_3";
         public static string SkillEffect_SE_T_S_MinamiRio_4 = "SE_T_S_MinamiRio_4";
+        public static string SkillEffect_SE_T_S_MinamiRio_5_2 = "SE_T_S_MinamiRio_5_2";
         public static string SkillEffect_SE_T_S_MinamiRio_6 = "SE_T_S_MinamiRio_6";
         public static string SkillEffect_SE_T_S_MinamiRio_7 = "SE_T_S_MinamiRio_7";
+        public static string SkillEffect_SE_T_S_MinamiRio_Rare_2 = "SE_T_S_MinamiRio_Rare_2";
+        public static string SkillEffect_SE_T_S_MinamiRio_Rare_2_0 = "SE_T_S_MinamiRio_Rare_2_0";
 		/// <summary>
 		/// 替弓
 		/// 使自身切换<color=#48D1CC>单弓</color>/<color=#FFD700>和弓</color>状态。
@@ -58,8 +100,8 @@ namespace MinamiRio
 		/// <summary>
 		/// 瞄准射击
 		/// 从[全神贯注]获得的提升翻倍。
-		/// <color=#48D1CC>单弓</color> - 使自身下1个技能降低2点费用。
-		/// <color=#FFD700>和弓</color> - 从<color=#FA8072>穿甲</color>获得的提升翻倍。
+		/// <color=#48D1CC>单弓</color> - 如果击杀敌人，消除自身的过载，返还1点法力值。
+		/// <color=#FFD700>和弓</color> - 附带倒计时1。从<color=#FA8072>穿甲</color>获得的提升翻倍。
 		/// </summary>
         public static string Skill_S_MinamiRio_3 = "S_MinamiRio_3";
 		/// <summary>
@@ -76,27 +118,6 @@ namespace MinamiRio
 		/// </summary>
         public static string Skill_S_MinamiRio_5 = "S_MinamiRio_5";
 		/// <summary>
-		/// 追踪术
-		/// 可以指向不能被指定的单位。
-		/// </summary>
-        public static string Skill_S_MinamiRio_6 = "S_MinamiRio_6";
-		/// <summary>
-		/// 百发百中
-		/// 抽取1个技能。
-		/// </summary>
-        public static string Skill_S_MinamiRio_7 = "S_MinamiRio_7";
-		/// <summary>
-		/// <color=#48D1CC>单弓</color>
-		/// 手中的攻击技能获得无视嘲讽。
-		/// 当前<color=#FA8072>穿甲</color>：&a
-		/// </summary>
-        public static string Buff_B_MinamiRio_P1 = "B_MinamiRio_P1";
-		/// <summary>
-		/// <color=#FFD700>和弓</color>
-		/// 当前<color=#FA8072>穿甲</color>：&a<color=#FFD700></color>
-		/// </summary>
-        public static string Buff_B_MinamiRio_P2 = "B_MinamiRio_P2";
-		/// <summary>
 		/// 箭越（向前）
 		/// 使所有敌人行动倒计时-1。
 		/// </summary>
@@ -110,17 +131,53 @@ namespace MinamiRio
 		/// 箭越
 		/// </summary>
         public static string Skill_S_MinamiRio_5_2 = "S_MinamiRio_5_2";
-        public static string SkillEffect_SE_T_S_MinamiRio_5_2 = "SE_T_S_MinamiRio_5_2";
+		/// <summary>
+		/// 追踪术
+		/// 可以指向不能被指定的单位。
+		/// </summary>
+        public static string Skill_S_MinamiRio_6 = "S_MinamiRio_6";
 		/// <summary>
 		/// 百发百中
-		/// 攻击时若命中率超过100%，则超出的数值将增加到暴击率。
+		/// 抽取1个技能。
 		/// </summary>
-        public static string Buff_B_MinamiRio_7 = "B_MinamiRio_7";
+        public static string Skill_S_MinamiRio_7 = "S_MinamiRio_7";
+		/// <summary>
+		/// Robinhood
+		/// </summary>
+        public static string Skill_S_MinamiRio_Rare_1 = "S_MinamiRio_Rare_1";
+		/// <summary>
+		/// 连矢
+		/// <color=#48D1CC>单弓</color> - 重复释放2次。如果目标拥有嘲讽状态，使其失去嘲讽状态；否则使其(<sprite=2>&a%)眩晕1回合。
+		/// <color=#FFD700>和弓</color> - 额外造成&b(200%)伤害。本回合内，自身造成伤害提升35%。
+		/// </summary>
+        public static string Skill_S_MinamiRio_Rare_2 = "S_MinamiRio_Rare_2";
+		/// <summary>
+		/// <color=#48D1CC>连矢</color>
+		/// </summary>
+        public static string Skill_S_MinamiRio_Rare_2_0 = "S_MinamiRio_Rare_2_0";
 
     }
 
     public static class ModLocalization
     {
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// <color=#48D1CC>连矢</color>
+		/// Chinese-TW:
+		/// </summary>
+        public static string S_MinamiRio_Rare_2_1 => ModManager.getModInfo("MinamiRio").localizationInfo.SystemLocalizationUpdate("S_MinamiRio_Rare_2_1");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// <color=#FFD700>正射必中</color>
+		/// Chinese-TW:
+		/// </summary>
+        public static string S_MinamiRio_Rare_2_2 => ModManager.getModInfo("MinamiRio").localizationInfo.SystemLocalizationUpdate("S_MinamiRio_Rare_2_2");
 
     }
 }

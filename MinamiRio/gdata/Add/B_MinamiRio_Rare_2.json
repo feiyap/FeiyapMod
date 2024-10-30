@@ -1,0 +1,13 @@
+{
+    "B_MinamiRio_Rare_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "MinamiRio.B_MinamiRio_Rare_2",
+        "BuffTag": "null",
+        "Name": "正射必中",
+        "Description": "自身造成伤害提升35%。",
+        "LifeTime": 1,
+        "MaxStack": 0,
+        "Cantdisable": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_51/1_51Buff (4)"
+    }
+}

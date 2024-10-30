@@ -1,8 +1,5 @@
 {
     "TestQueue": {
-        "_gdeSchema": "EnemyQueue",
-        "Enemys": [
-            "Sandbag"
-        ]
+        "_gdeSchema": "EnemyQueue"
     }
 }

@@ -23,8 +23,16 @@ namespace MinamiRio
         {
             if (SkillD.AP >= 2)
             {
-                this.SelfDestroy();
-                return (int)(Damage * 1.25);
+                if (SkillD.MySkill.KeyID == "S_MinamiRio_3")
+                {
+                    this.SelfDestroy();
+                    return (int)(Damage * 1.5);
+                }
+                else
+                {
+                    this.SelfDestroy();
+                    return (int)(Damage * 1.25);
+                }
             }
             return Damage;
         }

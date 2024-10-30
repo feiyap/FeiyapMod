@@ -17,6 +17,9 @@
         "Image_2": "S_MinamiRio_1\\S_MinamiRio_1_Image_2.png",
         "SkillExtended": [
             "MinamiRio.S_MinamiRio_1"
-        ]
+        ],
+        "Rare": false,
+        "IgnoreTaunt": false,
+        "Track": false
     }
 }

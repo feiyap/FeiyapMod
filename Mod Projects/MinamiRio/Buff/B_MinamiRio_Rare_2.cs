@@ -11,19 +11,16 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
-using ChronoArkMod.ModData;
 namespace MinamiRio
 {
-    public class MinamiRio_Plugin: ChronoArkPlugin
+	/// <summary>
+	/// 正射必中
+	/// </summary>
+    public class B_MinamiRio_Rare_2:Buff, IP_DamageChange
     {
-        public override void Dispose()
+        public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
         {
-            
-        }
-
-        public override void Initialize()
-        {
-            
+            return (int)(Damage * 1.35);
         }
     }
 }

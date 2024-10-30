@@ -1,8 +1,8 @@
 ﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
 Buff/B_RemiliaScarlet_0_Description,Text,,고통 피해를 입으면 이 디버프를 건 아군의 체력을 1중첩당 5 만큼 회복한다. 턴당 최대 1회 발동한다.,"When receiving pain damage, every stack heal Remilia by 5.
 Can affect 1 time per turn.",苦痛ダメージを受けた時、ストック数1毎に、これを与えた対象を5回復する。 1ターンに最大1回まで発動する。,受到痛苦伤害时，每1层层数会治疗施加者5点体力。1回合最多触发1次。,
-Buff/B_RemiliaScarlet_0_Name,Text,,붉은 달,Crimson Night,クリムゾン·ナイト,绯夜,
-Buff/B_RemiliaScarlet_1_Description,Text,,공격 받을 시 1중첩을 소모하여 적에게 [붉은 달] 1중첩을 부여합니다.,"Remove 1 stack when attacked, gain 1 [Crimson Night] to attacker.",攻撃を受ける確率がわずかに増加、防御力が25％増加し、攻撃を受けた時ストックが1減少し、対象に[クリムゾン·ナイト]を1ストック与える。,受击时减少1层，赋予敌人1层[绯夜]。,
+Buff/B_RemiliaScarlet_0_Name,Text,,붉은 달,Crimson Night,クリムゾン·ナイト,<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>,
+Buff/B_RemiliaScarlet_1_Description,Text,,공격 받을 시 1중첩을 소모하여 적에게 [붉은 달] 1중첩을 부여합니다.,"Remove 1 stack when attacked, gain 1 [Crimson Night] to attacker.",攻撃を受ける確率がわずかに増加、防御力が25％増加し、攻撃を受けた時ストックが1減少し、対象に[クリムゾン·ナイト]を1ストック与える。,受击时减少1层，赋予敌人1层<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>。,
 Buff/B_RemiliaScarlet_1_Name,Text,,자장가,Lullaby,ララバイ ,摇篮曲,
 Buff/B_RemiliaScarlet_2_Description,Text,,이 전투 중에는 더 이상 능력으로 영구적인 최대 체력을 얻을 수 없다.,Cant gain MaxHp from skill in this battle.,この戦闘中、パッシブによる最大体力を永久に増加させる効果を得られなくなった。,这场战斗中不能再从技能中获得永久最大生命值。,
 Buff/B_RemiliaScarlet_2_Name,Text,,포만감,Satisfy,満腹,饱足,
@@ -100,7 +100,7 @@ SimpleCampDialogue/CampDial_RemiliaScarlet_Johan_Dialogues_1,Text,,[B]앨리스�
 SimpleCampDialogue/CampDial_RemiliaScarlet_Johan_Dialogues_2,Text,,[A]..............................아마도.,[A]…………………………或许吧。,[A]…………………………或许吧。,[A]…………………………或许吧。,
 SimpleCampDialogue/CampDial_RemiliaScarlet_Johan_Dialogues_3,Text,,[B]저는 반드시..................,[B]我一定会………………,[B]我一定会………………,[B]我一定会………………,
 SimpleCampDialogue/CampDial_RemiliaScarlet_Leryn_Dialogues_0,Text,,[B]살아있는 흡혈귀? 연구해보고 싶은걸.,[B]活着的吸血鬼？真想好好研究一番。,[B]活着的吸血鬼？真想好好研究一番。,[B]活着的吸血鬼？真想好好研究一番。,
-SimpleCampDialogue/CampDial_RemiliaScarlet_Leryn_Dialogues_1,Text,,"[A]""죽은 흡혈귀""라는 게 있어......?",[A]难道还有“死了的吸血鬼”一说吗……？,[A]难道还有“死了的吸血鬼”一说吗……？,[A]难道还有“死了的吸血鬼”一说吗……？,
+SimpleCampDialogue/CampDial_RemiliaScarlet_Leryn_Dialogues_1,Text,,[A]"죽은 흡혈귀"라는 게 있어......?,[A]难道还有“死了的吸血鬼”一说吗……？,[A]难道还有“死了的吸血鬼”一说吗……？,[A]难道还有“死了的吸血鬼”一说吗……？,
 SimpleCampDialogue/CampDial_RemiliaScarlet_Lian_Dialogues_0,Text,,"[A]항상 경계하는 거, 안 지겨워?",[A]一直戒备着我，不累吗？,[A]一直戒备着我，不累吗？,[A]一直戒备着我，不累吗？,
 SimpleCampDialogue/CampDial_RemiliaScarlet_Lian_Dialogues_1,Text,,[B]넌 목표가 불분명하고 너무 의심스러워.,[B]你的目标不明，太可疑了。,[B]你的目标不明，太可疑了。,[B]你的目标不明，太可疑了。,
 SimpleCampDialogue/CampDial_RemiliaScarlet_Lian_Dialogues_2,Text,,[A]그러던지.,[A]随便你吧。,[A]随便你吧。,[A]随便你吧。,
@@ -153,7 +153,7 @@ SimpleCampDialogue/CampDial_RemiliaScarlet_Youmu_Dialogues_0,Text,,"[A]다시 �
 SimpleCampDialogue/CampDial_RemiliaScarlet_Youmu_Dialogues_1,Text,,[B]안녕하세요...... 유유코님은 안 계시는 것 같습니다.,[B]啊，您好……幽幽子大人好像不在这里。,[B]啊，您好……幽幽子大人好像不在这里。,[B]啊，您好……幽幽子大人好像不在这里。,
 SimpleCampDialogue/CampDial_RemiliaScarlet_Youmu_Dialogues_2,Text,,[A]흠...... 의심스럽네. 하지만 지금은 일단 협동합시다.,[A]哼……嗯……很可疑呢。不过暂时先好好合作吧。,[A]哼……嗯……很可疑呢。不过暂时先好好合作吧。,[A]哼……嗯……很可疑呢。不过暂时先好好合作吧。,
 SimpleCampDialogue/CampDial_RemiliaScarlet_Youmu_Dialogues_3,Text,,"[B]아, 아하하, 친절한 관심에 감사드립니다......",[B]啊、啊哈哈，承蒙关照……,[B]啊、啊哈哈，承蒙关照……,[B]啊、啊哈哈，承蒙关照……,
-Skill/S_RemiliaScarlet_0_Description,Text,,"적중 시, 대상의 [붉은 달]이 즉시 1 피해를 입히고 [붉은 달]의 지속 시간이 1턴 연장된다.","After hitting, immediately deal damage to the target's [Crimson Night] and last [Crimson Night] one more turn.",命中時、対象の持つ[クリムゾン·ナイト]のダメージを即座に発動させ、[クリムゾン·ナイト]の持続時間を1ターン延長する。,命中后使目标身上的[绯夜]立即结算一次伤害，并将[绯夜]延长1回合。,
+Skill/S_RemiliaScarlet_0_Description,Text,,"적중 시, 대상의 [붉은 달]이 즉시 1 피해를 입히고 [붉은 달]의 지속 시간이 1턴 연장된다.","After hitting, immediately deal damage to the target's [Crimson Night] and last [Crimson Night] one more turn.",命中時、対象の持つ[クリムゾン·ナイト]のダメージを即座に発動させ、[クリムゾン·ナイト]の持続時間を1ターン延長する。,命中后使目标身上的<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>立即结算一次伤害，并将<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>延长1回合。,
 Skill/S_RemiliaScarlet_0_Name,Text,,홍부 「불야성 레드」,Scarlet Sign「Red the Nightless Castle」,紅符「不夜城レッド」,红符「红色不夜城」,
 Skill/S_RemiliaScarlet_10Rare_Description,Text,,,,,,
 Skill/S_RemiliaScarlet_10Rare_Name,Text,,「홍색의 환상향」,「Scarlet Gensokyo」,「紅色の幻想郷」 ,「绯红色的幻想乡」,
@@ -175,7 +175,7 @@ Skill/S_RemiliaScarlet_3_Description,Text,,"[붉은 달] 디버프가 부여된 
 Each attacked enemy will gain 1 [Lullaby].
 If you attack 3 or more units at once, gain 1 [Vampire's Heart].","[クリムゾン·ナイト]を持つ対象を同時に攻撃する。
 攻撃を与えた敵1体ごとに、自身に[ララバイ]を1ストックずつ与える。
-一度に3体以上に攻撃を与えた場合、[吸血鬼の心]を1ストック得る。","同时攻击所有附带[绯夜]减益的敌人。
+一度に3体以上に攻撃を与えた場合、[吸血鬼の心]を1ストック得る。","同时攻击所有附带<sprite name=""RemiliaScarlet_blood""><color=#FF3030>绯夜</color>减益的敌人。
 每个受到攻击的敌人会使自身获得1层[摇篮曲]。
 如果一次攻击到3个或以上的单位，获得1层[吸血鬼之心]。",
 Skill/S_RemiliaScarlet_3_Name,Text,,야부「데몬 킹 크레이들」,Night Sign「Demon King Cradle」,夜符「デーモンキングクレイドル」,夜符「Demon King Cradle」,
