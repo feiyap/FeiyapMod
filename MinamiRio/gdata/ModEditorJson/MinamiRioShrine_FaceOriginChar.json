@@ -1,0 +1,23 @@
+{
+    "myKey": "MinamiRioShrine",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "MinamiRioShrin\\MinamiRioShrinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1146.38147,
+            "y": 536.372131
+        },
+        "offsetMin": {
+            "x": -1163.61853,
+            "y": -1773.62793
+        },
+        "pivot": {
+            "x": 0.5031249,
+            "y": 0.765477836
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "MinamiRioWinter",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "MinamiRioWinte\\MinamiRioWinteBattleChar.png",
+        "offsetMax": {
+            "x": 1039.71948,
+            "y": 391.404541
+        },
+        "offsetMin": {
+            "x": -796.644165,
+            "y": -1444.95911
+        },
+        "pivot": {
+            "x": 0.433816135,
+            "y": 0.7868589
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

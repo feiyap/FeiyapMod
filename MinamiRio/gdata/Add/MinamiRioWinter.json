@@ -1,0 +1,15 @@
+{
+    "MinamiRioWinter": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "星夜极光 莉央",
+        "Character": "MinamiRio",
+        "SkinDesc": "看！我的箭会发光！",
+        "FaceSprite": "MinamiRioWinte\\MinamiRioWinteBattleFace.png",
+        "CampSD": [
+            "MinamiRioWinte\\MinamiRioWinteCampSD0.png",
+            "MinamiRioWinte\\MinamiRioWinteCampSD1.png",
+            "MinamiRioWinte\\MinamiRioWinteCampSD2.png",
+            "MinamiRioWinte\\MinamiRioWinteCampSD3.png"
+        ]
+    }
+}

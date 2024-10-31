@@ -1,0 +1,10 @@
+{
+    "E_MinamiRio_0": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Unique",
+        "name": "哲别之弓",
+        "Description": "",
+        "image": "Item\\E_MinamiRio_0_image.png",
+        "Equip_Script": "MinamiRio.E_MinamiRio_0"
+    }
+}

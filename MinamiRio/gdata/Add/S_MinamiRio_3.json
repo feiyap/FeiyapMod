@@ -6,7 +6,7 @@
         "Target": "enemy",
         "Track": true,
         "Name": "瞄准射击",
-        "Description": "从[全神贯注]获得的提升翻倍。\n\n<color=#48D1CC>单弓</color> - 如果击杀敌人，消除自身的过载，返还1点法力值。\n<color=#FFD700>和弓</color> - 附带倒计时1。从<color=#FA8072>穿甲</color>获得的提升翻倍。",
+        "Description": "从[全神贯注]获得的提升翻倍。\n\n<color=#48D1CC>单弓</color> - 如果击杀敌人，消除自身的过载，返还1点法力值。\n<color=#FFD700>和弓</color> - 附带倒计时1。额外造成&a(50%)伤害。",
         "User": "MinamiRio",
         "Effect_Target": "SE_T_S_MinamiRio_3",
         "Image_0": "S_MinamiRio_3\\S_MinamiRio_3_Image_0.png",

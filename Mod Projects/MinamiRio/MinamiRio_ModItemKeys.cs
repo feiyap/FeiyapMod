@@ -58,6 +58,14 @@ namespace MinamiRio
 		/// </summary>
         public static string Buff_B_MinamiRio_Rare_2 = "B_MinamiRio_Rare_2";
 		/// <summary>
+		/// 哲别之弓
+		/// </summary>
+        public static string Item_Equip_E_MinamiRio_0 = "E_MinamiRio_0";
+		/// <summary>
+		/// 血之刻印
+		/// </summary>
+        public static string Item_Equip_E_MinamiRio_1 = "E_MinamiRio_1";
+		/// <summary>
 		/// 莉央
 		/// Passive:
 		/// <b>锚点</b> - 莉央无法造成暴击，但是升级时获得远超常人的命中率提升。莉央超过100%的那部分命中率转化为50%的<color=#FA8072>穿甲</color>。
@@ -66,6 +74,10 @@ namespace MinamiRio
 		/// <b><color=#FFD700>和弓</color></b> - 莉央在<color=#FFD700>和弓</color>形态下增加20%命中率；且部分技能会触发额外效果。
 		/// </summary>
         public static string Character_MinamiRio = "MinamiRio";
+        public static string Character_Skin_MinamiRioBunny = "MinamiRioBunny";
+        public static string Character_Skin_MinamiRioShrine = "MinamiRioShrine";
+        public static string Character_Skin_MinamiRioSwimsuit = "MinamiRioSwimsuit";
+        public static string Character_Skin_MinamiRioWinter = "MinamiRioWinter";
         public static string SkillEffect_SE_S_S_MinamiRio_0 = "SE_S_S_MinamiRio_0";
         public static string SkillEffect_SE_S_S_MinamiRio_2 = "SE_S_S_MinamiRio_2";
         public static string SkillEffect_SE_S_S_MinamiRio_5 = "SE_S_S_MinamiRio_5";
@@ -101,7 +113,7 @@ namespace MinamiRio
 		/// 瞄准射击
 		/// 从[全神贯注]获得的提升翻倍。
 		/// <color=#48D1CC>单弓</color> - 如果击杀敌人，消除自身的过载，返还1点法力值。
-		/// <color=#FFD700>和弓</color> - 附带倒计时1。从<color=#FA8072>穿甲</color>获得的提升翻倍。
+		/// <color=#FFD700>和弓</color> - 附带倒计时1。额外造成&a(50%)伤害。
 		/// </summary>
         public static string Skill_S_MinamiRio_3 = "S_MinamiRio_3";
 		/// <summary>
@@ -141,6 +153,12 @@ namespace MinamiRio
 		/// 抽取1个技能。
 		/// </summary>
         public static string Skill_S_MinamiRio_7 = "S_MinamiRio_7";
+		/// <summary>
+		/// KIOSK
+		/// 抽取2个技能。
+		/// 如果金币超过300，自动消耗300金币获得1个随机药水。
+		/// </summary>
+        public static string Skill_S_MinamiRio_LucyD = "S_MinamiRio_LucyD";
 		/// <summary>
 		/// Robinhood
 		/// </summary>

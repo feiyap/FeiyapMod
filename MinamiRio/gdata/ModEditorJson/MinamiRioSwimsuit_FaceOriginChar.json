@@ -1,0 +1,23 @@
+{
+    "myKey": "MinamiRioSwimsuit",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "MinamiRioSwin\\MinamiRioSwinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1122.1106,
+            "y": 448.22467
+        },
+        "offsetMin": {
+            "x": -1121.88953,
+            "y": -1795.77539
+        },
+        "pivot": {
+            "x": 0.499326855,
+            "y": 0.7978615
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

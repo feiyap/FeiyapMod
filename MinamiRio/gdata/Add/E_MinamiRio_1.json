@@ -1,0 +1,9 @@
+{
+    "E_MinamiRio_1": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "image": "Item\\E_MinamiRio_1_image.png",
+        "name": "血之刻印",
+        "Equip_Script": "MinamiRio.E_MinamiRio_1"
+    }
+}

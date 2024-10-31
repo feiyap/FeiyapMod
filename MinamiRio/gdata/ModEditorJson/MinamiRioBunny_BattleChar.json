@@ -1,0 +1,23 @@
+{
+    "myKey": "MinamiRioBunny",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "MinamiRioBunn\\MinamiRioBunnBattleChar.png",
+        "offsetMax": {
+            "x": 926.0984,
+            "y": 602.6388
+        },
+        "offsetMin": {
+            "x": -1153.90161,
+            "y": -1477.36121
+        },
+        "pivot": {
+            "x": 0.5547604,
+            "y": 0.7102698
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

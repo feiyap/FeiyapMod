@@ -41,10 +41,12 @@ namespace MinamiRio
                 if (this.BChar.BuffFind("B_MinamiRio_P1"))
                 {
                     this.Counting = 0;
+                    this.SkillBasePlus.Target_BaseDMG = 0;
                 }
                 else if (this.BChar.BuffFind("B_MinamiRio_P2"))
                 {
                     this.Counting = 1;
+                    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.5f);
                 }
             }
         }
@@ -57,7 +59,8 @@ namespace MinamiRio
             }
             else if (this.BChar.BuffFind("B_MinamiRio_P2"))
             {
-                //this.Counting = 1;
+                this.Counting = 1;
+                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.5f);
             }
         }
 
@@ -69,7 +72,11 @@ namespace MinamiRio
                 this.BChar.MyTeam.AP += 1;
                 this.BChar.Overload = 0;
             }
-            
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.5f)).ToString());
         }
     }
 }

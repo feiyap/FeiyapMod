@@ -1,0 +1,15 @@
+{
+    "MinamiRioSwimsuit": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "清凉一夏 莉央",
+        "Character": "MinamiRio",
+        "SkinDesc": "你挡住我晒太阳了。麻烦请让开！",
+        "FaceSprite": "MinamiRioSwin\\MinamiRioSwinBattleFace.png",
+        "CampSD": [
+            "MinamiRioSwin\\MinamiRioSwinCampSD0.png",
+            "MinamiRioSwin\\MinamiRioSwinCampSD1.png",
+            "MinamiRioSwin\\MinamiRioSwinCampSD2.png",
+            "MinamiRioSwin\\MinamiRioSwinCampSD3.png"
+        ]
+    }
+}

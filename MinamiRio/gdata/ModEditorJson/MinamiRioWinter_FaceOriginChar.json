@@ -1,0 +1,23 @@
+{
+    "myKey": "MinamiRioWinter",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "MinamiRioWinte\\MinamiRioWinteFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1176.31665,
+            "y": 331.449158
+        },
+        "offsetMin": {
+            "x": -843.6832,
+            "y": -1688.5509
+        },
+        "pivot": {
+            "x": 0.4169719,
+            "y": 0.8332558
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

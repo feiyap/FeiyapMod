@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>MinamiRio20241030110154</AssemblyName>
+    <AssemblyName>MinamiRio2024103115911</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -408,8 +408,9 @@
     </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                                                                                                                                                                    <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                              <!-- Compile ItemGroup Start-->
   <ItemGroup>
+    <Compile Include="BattleCharDamagePatch.cs" />
     <Compile Include="BV_MinamiRio_P.cs" />
     <Compile Include="Characterget_statPatch.cs" />
     <Compile Include="MinamiRio_ModDefinition.cs" />
@@ -427,6 +428,8 @@
     <Compile Include="Buff\B_MinamiRio_Rare_1_0.cs" />
     <Compile Include="Buff\B_MinamiRio_Rare_2.cs" />
     <Compile Include="Character\P_MinamiRio.cs" />
+    <Compile Include="Item_Equip\E_MinamiRio_0.cs" />
+    <Compile Include="Item_Equip\E_MinamiRio_1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -440,6 +443,7 @@
     <Compile Include="Skill\S_MinamiRio_5_1.cs" />
     <Compile Include="Skill\S_MinamiRio_6.cs" />
     <Compile Include="Skill\S_MinamiRio_7.cs" />
+    <Compile Include="Skill\S_MinamiRio_LucyD.cs" />
     <Compile Include="Skill\S_MinamiRio_Rare_2.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->

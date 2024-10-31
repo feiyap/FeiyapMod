@@ -18,8 +18,17 @@ namespace MinamiRio
 	/// 攻击时会向目标施加[射手印记]：施加者可以无视嘲讽攻击[射手印记]的目标；
 	/// 再次命中拥有[射手印记]的敌人时，消除场上所有[射手印记]，本次造成伤害翻倍，并且抽取1个功能。
 	/// </summary>
-    public class B_MinamiRio_Rare_1:Buff, IP_SkillUse_Target, IP_SpecialEnemyTargetSelect
+    public class B_MinamiRio_Rare_1:Buff, IP_SkillUse_Target, IP_SpecialEnemyTargetSelect, IP_DamageChange
     {
+        public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
+        {
+            if (Target.BuffFind("B_MinamiRio_Rare_1_0") && Damage > 1 && !View)
+            {
+                return (int)(Damage * 2);
+            }
+            return Damage;
+        }
+
         public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
         {
             if (hit.HP >= 1 && base.StackNum >= 1 && SP.SkillData.IsDamage && SP.SkillData.Master == this.BChar)
@@ -33,7 +42,6 @@ namespace MinamiRio
                             be.BuffReturn("B_MinamiRio_Rare_1_0").SelfDestroy();
                         }
                     }
-                    DMG *= 2;
                     BattleSystem.instance.AllyTeam.Draw();
                 }
                 else

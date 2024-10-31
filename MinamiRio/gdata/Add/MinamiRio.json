@@ -3,19 +3,19 @@
         "_gdeSchema": "Character",
         "Role": "Role_DPS",
         "PassiveClassName": "MinamiRio.P_MinamiRio",
-        "PassiveUnlockLV1": false,
+        "PassiveUnlockLV1": true,
         "name": "莉央",
         "Gender": 1,
         "MAXHP": {
-            "x": 23,
+            "x": 19,
             "y": 35
         },
         "PassiveName": "箭与其反",
         "PassiveDes": "<b>锚点</b> - 莉央无法造成暴击，但是升级时获得远超常人的命中率提升。莉央超过100%的那部分命中率转化为50%的<color=#FA8072>穿甲</color>。\r\n\r\n<b><color=#FA8072>穿甲</color></b> - 莉央攻击时视作目标减少等量于<color=#FA8072>穿甲</color>的防御力。\r\n\r\n<b><color=#48D1CC>单弓</color></b> - 莉央在<color=#48D1CC>单弓</color>形态下手中的攻击技能获得无视嘲讽；且部分技能会触发额外效果。\r\n\r\n<b><color=#FFD700>和弓</color></b> - 莉央在<color=#FFD700>和弓</color>形态下增加20%命中率；且部分技能会触发额外效果。",
         "face": "MinamiRio\\MinamiRioBattleFace.png",
         "ATK": {
-            "x": 14,
-            "y": 25
+            "x": 15,
+            "y": 29
         },
         "HIT": {
             "x": 100,
@@ -35,8 +35,8 @@
             "y": 10
         },
         "DEF": {
-            "x": 0,
-            "y": 0
+            "x": -10,
+            "y": -10
         },
         "REG": {
             "x": 7,
@@ -68,12 +68,57 @@
         },
         "StatView_Debuff": 1,
         "StatView_CC": 0,
-        "CampSelectWord": "我的箭会找到真相。",
+        "CampSelectWord": "我的箭可以看穿所有谎言。",
         "CampSD": [
             "MinamiRio\\MinamiRioCampSD0.png",
             "MinamiRio\\MinamiRioCampSD1.png",
             "MinamiRio\\MinamiRioCampSD2.png",
             "MinamiRio\\MinamiRioCampSD3.png"
+        ],
+        "SelectInfo": "莉央是拥有两种输出手段、脆弱但致命的技巧型射手。\n\n莉央无法造成暴击，并且拥有较低的生命值和防御力，但是升级时获得远超常人的命中率提升。她溢出的命中率将会转化为穿甲效果，攻击时视作目标减少等量的防御力。此外，莉央拥有“单弓”和“和弓”两种输出形态，在“单弓”形态下，她的攻击迅捷而轻巧；在“和弓”形态下，她的攻击猛烈且致命。\n\n合理地利用两种形态的切换，在队友的保护下编织出浓烈的火力网吧。",
+        "FirstSkill": "S_MinamiRio_1",
+        "Text_Field_GetItem": [
+            "姑且先打开吧。",
+            "要怎么才能打开呢？",
+            "稍微加工一下，能不能当弓来用呢？"
+        ],
+        "Text_Battle_Kill": [
+            "你逃不掉的！",
+            "这种情况，我还能说是正当防卫么。",
+            "呼吸，断掉了啊。"
+        ],
+        "Text_Battle_Idle": [
+            "我会好好看清你们的。",
+            "不管来什么样的目标都没关系。仅仅是将它射中而已。"
+        ],
+        "Text_Field_Idle": [
+            "好想吃土豆炖肉啊。"
+        ],
+        "Text_Battle_AllyND": [
+            "为什么……"
+        ],
+        "Text_Battle_ND": [
+            "动不……了了……"
+        ],
+        "Text_Battle_Start": [
+            "我的箭不会让你失望的。",
+            "嗯，我会给你展示正确的射法。"
+        ],
+        "Text_Battle_Healed": [
+            "非常感谢……"
+        ],
+        "Text_Field_Potion_P": [
+            "比起岛上的水来说……"
+        ],
+        "Text_PharosLeader": [
+            "千代……为什么那天你会……",
+            "唔……大家……对不起……",
+            "我会生存下去。继续拉起弓。"
+        ],
+        "Text_MasterTarget": "我不后悔。毕竟我已经尽了我的全力了。",
+        "Text_Witch": [
+            "认真地做好觉悟为妙。",
+            "还不能、至少、现在不行……"
         ]
     }
 }

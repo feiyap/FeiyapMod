@@ -26,6 +26,7 @@ namespace MinamiRio
         public override void Init()
         {
             base.Init();
+            this.OnePassive = true;
         }
 
         public override void FixedUpdate()
@@ -43,14 +44,12 @@ namespace MinamiRio
         public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
         {
             Cri = false;
-            Debug.Log("P");
-            Debug.Log(Damage);
             return Damage;
         }
 
         public void Turn()
         {
-            if (!this.BChar.BuffFind("B_MinamiRio_P1") && !this.BChar.BuffFind("B_MinamiRio_P1"))
+            if (!this.BChar.BuffFind("B_MinamiRio_P1") && !this.BChar.BuffFind("B_MinamiRio_P2"))
             {
                 this.BChar.BuffAdd("B_MinamiRio_P1", this.BChar);
             }

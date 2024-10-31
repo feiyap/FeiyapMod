@@ -1,0 +1,23 @@
+{
+    "myKey": "MinamiRioBunn",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "MinamiRioBunn\\MinamiRioBunnFaceOriginChar.png",
+        "offsetMax": {
+            "x": 949.133667,
+            "y": 522.622253
+        },
+        "offsetMin": {
+            "x": -1130.86633,
+            "y": -1557.37781
+        },
+        "pivot": {
+            "x": 0.543685734,
+            "y": 0.7487393
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

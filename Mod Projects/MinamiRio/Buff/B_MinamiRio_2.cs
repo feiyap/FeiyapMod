@@ -21,7 +21,7 @@ namespace MinamiRio
     {
         public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
         {
-            if (SkillD.AP >= 2)
+            if (SkillD.AP >= 2 && Damage > 1 && !View)
             {
                 if (SkillD.MySkill.KeyID == "S_MinamiRio_3")
                 {

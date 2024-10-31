@@ -1,0 +1,15 @@
+{
+    "MinamiRioBunny": {
+        "_gdeSchema": "Character_Skin",
+        "FaceSprite": "MinamiRioBunn\\MinamiRioBunnBattleFace.png",
+        "CampSD": [
+            "MinamiRioBunn\\MinamiRioBunnCampSD0.png",
+            "MinamiRioBunn\\MinamiRioBunnCampSD1.png",
+            "MinamiRioBunn\\MinamiRioBunnCampSD2.png",
+            "MinamiRioBunn\\MinamiRioBunnCampSD3.png"
+        ],
+        "SkinName": "害羞兔女郎",
+        "SkinDesc": "皇家同花顺！这就是我的实力~",
+        "Character": "MinamiRio"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "MinamiRioWinter",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "MinamiRioWinte\\MinamiRioWinteFaceSmallChar.png",
+        "offsetMax": {
+            "x": 550.185547,
+            "y": 149.487457
+        },
+        "offsetMin": {
+            "x": -392.159,
+            "y": -792.8571
+        },
+        "pivot": {
+            "x": 0.413996071,
+            "y": 0.835434735
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

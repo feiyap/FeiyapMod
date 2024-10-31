@@ -1,0 +1,15 @@
+{
+    "MinamiRioShrine": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "巫女 莉央",
+        "SkinDesc": "正义之矢将穿透所有邪恶。",
+        "Character": "MinamiRio",
+        "FaceSprite": "MinamiRioShrin\\MinamiRioShrinBattleFace.png",
+        "CampSD": [
+            "MinamiRioShrin\\MinamiRioShrinCampSD0.png",
+            "MinamiRioShrin\\MinamiRioShrinCampSD1.png",
+            "MinamiRioShrin\\MinamiRioShrinCampSD2.png",
+            "MinamiRioShrin\\MinamiRioShrinCampSD3.png"
+        ]
+    }
+}
