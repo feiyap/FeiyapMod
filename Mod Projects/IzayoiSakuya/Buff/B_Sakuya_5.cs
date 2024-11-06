@@ -33,7 +33,7 @@ namespace IzayoiSakuya
                     skill2.FreeUse = true;
                     skill2.PlusHit = true;
                     BattleTeam.SkillRandomUse(this.BChar, skill2, false, true, false);
-                    BattleSystem.instance.ActWindow.CastingWaste(castingSkill.skill);
+                    //BattleSystem.instance.ActWindow.CastingWaste(castingSkill.skill);
                     BattleSystem.instance.CastSkills.Remove(castingSkill);
                     BattleSystem.instance.SaveSkill.Remove(castingSkill);
                     base.SelfDestroy(false);
@@ -49,7 +49,7 @@ namespace IzayoiSakuya
                     skill2.FreeUse = true;
                     skill2.PlusHit = true;
                     BattleTeam.SkillRandomUse(this.BChar, skill2, false, true, false);
-                    BattleSystem.instance.ActWindow.CastingWaste(castingSkill2.skill);
+                    //BattleSystem.instance.ActWindow.CastingWaste(castingSkill2.skill);
                     BattleSystem.instance.CastSkills.Remove(castingSkill2);
                     BattleSystem.instance.SaveSkill.Remove(castingSkill2);
                     base.SelfDestroy(false);

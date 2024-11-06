@@ -1,0 +1,15 @@
+{
+    "InabaEclipse": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "幻想乡最聪明可爱的兔子",
+        "Character": "Inaba",
+        "SkinDesc": "无论什么比赛都看时机，而我是幸运之兔！",
+        "FaceSprite": "inabaEcpise\\inabaEcpiseBattleFace.png",
+        "CampSD": [
+            "inabaEcpise\\inabaEcpiseCampSD0.png",
+            "inabaEcpise\\inabaEcpiseCampSD1.png",
+            "inabaEcpise\\inabaEcpiseCampSD2.png",
+            "inabaEcpise\\inabaEcpiseCampSD3.png"
+        ]
+    }
+}

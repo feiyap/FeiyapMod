@@ -18,36 +18,8 @@ namespace IzayoiSakuya
 	/// 将1个技能放回牌堆底，抽取1个技能。
 	/// 月魔术 - 生成1张迅速、一次性、1回合后弃牌的[奇术「误导」]加入手中。这张[奇术「误导」]无法再触发月魔术。
 	/// </summary>
-    public class S_Sakuya_6:Skill_Extended
+    public class S_Sakuya_6: SkillExtended_Sakuya
     {
-        public bool flag;
-
-        public override void Init()
-        {
-            base.Init();
-            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
-        }
-
-        public override void FixedUpdate()
-        {
-            base.FixedUpdate();
-            if (BattleSystem.instance != null && BattleSystem.instance.AllyTeam.Skills.Count != 0)
-            {
-                flag = false;
-                base.SkillParticleOff();
-                this.MySkill.MySkill.Name = "奇术「误导」";
-                if (this.MySkill == BattleSystem.instance.AllyTeam.Skills[BattleSystem.instance.AllyTeam.Skills.Count - 1]
-                    || this.MySkill == BattleSystem.instance.AllyTeam.Skills[0]
-                    || this.MySkill.ExtendedFind_DataName("SE_Sakuya_7") != null
-                    || this.BChar.BuffFind("B_Sakuya_12Rare"))
-                {
-                    flag = true;
-                    base.SkillParticleOn();
-                    this.MySkill.MySkill.Name = "奇术「幻惑误导」";
-                }
-            }
-        }
-
         public override void SkillTargetSingle(List<Skill> Targets)
         {
             base.SkillTargetSingle(Targets);
@@ -55,7 +27,7 @@ namespace IzayoiSakuya
             int cost = Targets[0].AP;
             BattleSystem.DelayInputAfter(this.MoveUp(Targets[0]));
 
-            if (this.flag)
+            if (CheckLunaMagic())
             {
                 BattleSystem.instance.AllyTeam.Draw();
                 for (int i = 0; i < cost; i++)

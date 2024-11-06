@@ -21,7 +21,7 @@ namespace KochiyaSanae
     {
         public override string ExtendedDes()
         {
-            return base.ExtendedDes().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.2f)).ToString()).Replace("&b", ((int)(this.BChar.GetStat.reg * 0.2f)).ToString());
+            return base.ExtendedDes().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.3f)).ToString()).Replace("&b", ((int)(this.BChar.GetStat.reg * 0.3f)).ToString());
         }
 
         public override void Init()
@@ -29,11 +29,11 @@ namespace KochiyaSanae
             base.Init();
             if (this.MySkill.IsDamage)
             {
-                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.2f);
+                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.3f);
             }
             if (this.MySkill.IsHeal)
             {
-                this.SkillBasePlus.Target_BaseHeal = (int)(this.BChar.GetStat.reg * 0.2f);
+                this.SkillBasePlus.Target_BaseHeal = (int)(this.BChar.GetStat.reg * 0.3f);
             }
         }
     }

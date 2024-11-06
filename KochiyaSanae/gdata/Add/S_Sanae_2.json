@@ -19,6 +19,8 @@
         ],
         "PlusKeyWords": [
             "Keyword_Combo"
-        ]
+        ],
+        "NoDrop": false,
+        "Except": false
     }
 }

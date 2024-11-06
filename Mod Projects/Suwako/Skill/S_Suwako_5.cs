@@ -38,7 +38,7 @@ namespace Suwako
             if (fixCount >= 12)
             {
                 fixCount = 0;
-                if (CheckUsedSkills(8))
+                if (CheckUsedSkills(4))
                 {
                     base.SkillParticleOn();
                 }
@@ -66,7 +66,7 @@ namespace Suwako
                 //list[list.Count - 1].Delete(false);
                 BattleSystem.DelayInputAfter(this.Return(list[list.Count - 1]));
             }
-            if (CheckUsedSkills(8))
+            if (CheckUsedSkills(4))
             {
                 BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(BattleSystem.instance.AllyTeam.Skills_Deck, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
             }

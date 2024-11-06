@@ -21,7 +21,16 @@ namespace MinamiRio
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            BattleSystem.instance.AllyTeam.Draw();
+            //BattleSystem.instance.AllyTeam.Draw();
+            Skill skill2 = BattleSystem.instance.AllyTeam.Skills_Deck.Find((Skill skill) => (skill.Master == Targets[0]));
+            if (skill2 == null)
+            {
+                BattleSystem.instance.AllyTeam.Draw();
+            }
+            else
+            {
+                BattleSystem.instance.AllyTeam.ForceDraw(skill2);
+            }
         }
     }
 }

@@ -528,6 +528,7 @@ namespace HakureiReimu
     {
 		/// <summary>
 		/// Korean:
+		/// 스펠카드 발동! 「몽상천생」
 		/// English:
 		/// Spell Out! Innate Dream!
 		/// Japanese:
@@ -539,6 +540,7 @@ namespace HakureiReimu
         public static string BattleDiaMusoutenseiText1 => ModManager.getModInfo("HakureiReimu").localizationInfo.SystemLocalizationUpdate("BattleDia/Musoutensei/Text1");
 		/// <summary>
 		/// Korean:
+		/// 당신의 힘, 빌려가겠어!
 		/// English:
 		/// Lend me your strength!
 		/// Japanese:

@@ -14,6 +14,15 @@ namespace Suwako
 		/// </summary>
         public static string Buff_B_Suwako_8 = "B_Suwako_8";
 		/// <summary>
+		/// 风雨已至
+		/// 每次触发<color=#008B45>旋回</color>时，使该减益的伤害增加2点。
+		/// </summary>
+        public static string Buff_B_Suwako_Dot = "B_Suwako_Dot";
+		/// <summary>
+		/// 蛙休
+		/// </summary>
+        public static string Buff_B_Suwako_Rare2 = "B_Suwako_Rare2";
+		/// <summary>
 		/// <color=green>连击</color></b>
 		/// 每个回合中使用过的技能大于X个时，可以触发额外效果。
 		/// </summary>
@@ -30,6 +39,7 @@ namespace Suwako
         public static string SkillEffect_SE_S_S_Suwako_3 = "SE_S_S_Suwako_3";
         public static string SkillEffect_SE_S_S_Suwako_8 = "SE_S_S_Suwako_8";
         public static string SkillEffect_SE_Tick_B_Suwako_0 = "SE_Tick_B_Suwako_0";
+        public static string SkillEffect_SE_Tick_B_Suwako_Dot = "SE_Tick_B_Suwako_Dot";
         public static string SkillEffect_SE_T_S_FSL_Common = "SE_T_S_FSL_Common";
         public static string SkillEffect_SE_T_S_Suwako_0 = "SE_T_S_Suwako_0";
         public static string SkillEffect_SE_T_S_Suwako_1 = "SE_T_S_Suwako_1";
@@ -62,11 +72,12 @@ namespace Suwako
 		/// <summary>
 		/// 神具「洩矢的铁轮」
 		/// <color=green>连击2</color> - 释放后返回牌组。
-		/// <color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(30%)点。
+		/// <color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(60%)点。
 		/// </summary>
         public static string Skill_S_Suwako_0 = "S_Suwako_0";
 		/// <summary>
 		/// 源符「诹访清水」
+		/// <color=green>连击4</color> - 必定暴击。
 		/// <color=#008B45>旋回</color> - 对随机敌人释放后抽取1个技能。
 		/// </summary>
         public static string Skill_S_Suwako_1 = "S_Suwako_1";
@@ -83,14 +94,13 @@ namespace Suwako
         public static string Skill_S_Suwako_3 = "S_Suwako_3";
 		/// <summary>
 		/// 土著神「宝永四年的赤蛙」
-		/// 倒计时期间，每次触发<color=#008B45>旋回</color>，或是每使用4个技能，对所有敌人造成40%伤害。
-		/// <color=#008B45>旋回</color> - 对所有敌人施加“防御力降低30%”，持续1回合。
+		/// <color=#008B45>旋回</color> - 对随机敌人施加2层[风雨已至]。
 		/// </summary>
         public static string Skill_S_Suwako_4 = "S_Suwako_4";
 		/// <summary>
 		/// 土著神「手长足长大人」
 		/// 打出时，将手中最下方的1个技能放回牌库。那之后，抽取1个技能。
-		/// <color=green>连击8</color> - 效果变为“打出时，将手中最下方的1个技能放回牌库。那之后，从牌库中选择1个技能抽取。”。
+		/// <color=green>连击4</color> - 效果变为“打出时，将手中最下方的1个技能放回牌库。那之后，从牌库中选择1个技能抽取。”。
 		/// <color=#008B45>旋回</color> - 展示牌堆最下方的3个技能，选择1个加入手中。使选择的技能获得迅速、致命。
 		/// </summary>
         public static string Skill_S_Suwako_5 = "S_Suwako_5";
@@ -103,7 +113,7 @@ namespace Suwako
 		/// <summary>
 		/// 土著神「七石七木」
 		/// 生成1个[风灵]和1个[南风灵]。
-		/// <color=#008B45>旋回</color> - 生成1个[南风灵]。
+		/// <color=#008B45>旋回</color> - 选择手中1个技能放回牌库，抽取1个技能。
 		/// </summary>
         public static string Skill_S_Suwako_7 = "S_Suwako_7";
 		/// <summary>
@@ -128,7 +138,9 @@ namespace Suwako
         public static string Skill_S_Suwako_P = "S_Suwako_P";
 		/// <summary>
 		/// 蛙狩「蛙以口鸣，方致蛇祸」
-		/// <color=green>连击4</color> - 随机从牌库中释放4个自己的技能。那之后，将他们放回牌库最上方（不会触发<color=#008B45>旋回</color>）。
+		/// 这个技能握在手中时，每次触发<color=#008B45>旋回</color>时，恢复自己&a(20%)体力值，恢复1点法力值，并使这个技能向上移动一次。
+		/// 到达手牌最上方后，丢弃这个技能。
+		/// <color=#008B45>旋回</color> - 对随机敌人释放后，将这个技能抽回手中。
 		/// </summary>
         public static string Skill_S_Suwako_Rare_1 = "S_Suwako_Rare_1";
 		/// <summary>
@@ -140,10 +152,10 @@ namespace Suwako
         public static string Skill_S_Suwako_Rare_2 = "S_Suwako_Rare_2";
 		/// <summary>
 		/// 蛙符「涂有鲜血的赤蛙塚」
-		/// 这个技能释放后拿回手中。
-		/// 将目标技能放回牌库最下方。那之后，选择 - 重复释放1次，然后抽取1个技能，并使这个技能获得1层[苏醒]；或是什么都不做。
-		/// 当这个技能获得5层[苏醒]时，放逐这个技能，将1个[祟神「赤口大人」]加入手中。
-		/// 当前[苏醒]层数：&a
+		/// 将目标技能放回牌库最下方。释放后，将这个技能拿回手中。
+		/// 那之后，选择 - 重复释放1次，然后抽取1个技能，并使这个技能获得1层<color=#FF0000>苏醒</color>；或是丢弃这个技能。
+		/// 当这个技能获得5层<color=#FF0000>苏醒</color>时，放逐这个技能，将1个[蛙符「涂有鲜血的赤蛙塚」]置入弃牌库，将1个[祟神「赤口大人」]加入手中。
+		/// 当前<color=#FF0000>苏醒</color>层数：&a
 		/// &b
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3 = "S_Suwako_Rare_3";
@@ -154,22 +166,19 @@ namespace Suwako
         public static string Skill_S_Suwako_Rare_3_0 = "S_Suwako_Rare_3_0";
 		/// <summary>
 		/// 重复释放
-		/// 重复释放1次，然后抽取1个技能，并使这个技能获得1层[苏醒]。
+		/// 重复释放1次，然后抽取1个技能，并使这个技能获得1层<color=#FF0000>苏醒</color>。
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3_1 = "S_Suwako_Rare_3_1";
 		/// <summary>
 		/// 什么都不做
-		/// 什么都不做。
+		/// 丢弃这个技能。
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3_2 = "S_Suwako_Rare_3_2";
 		/// <summary>
 		/// 蛙符「涂有鲜血的赤蛙塚」
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3_3 = "S_Suwako_Rare_3_3";
-		/// <summary>
-		/// 蛙休
-		/// </summary>
-        public static string Buff_B_Suwako_Rare2 = "B_Suwako_Rare2";
+        public static string SkillEffect_SE_T_S_Suwako_Rare_1 = "SE_T_S_Suwako_Rare_1";
 
     }
 

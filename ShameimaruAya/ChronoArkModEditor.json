@@ -3,5 +3,6 @@
     "AssemblyName": "ShameimaruAya",
     "Namespace": "ShameimaruAya",
     "ModItemKeysPath": "ShameimaruAya_ModItemKeys.cs",
-    "TempAssemblyName": "ShameimaruAya2024102512437"
+    "TempAssemblyName": "ShameimaruAya2024102512437",
+    "KeyIDWithModID": false
 }

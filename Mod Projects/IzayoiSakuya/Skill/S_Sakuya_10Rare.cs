@@ -36,7 +36,7 @@ namespace IzayoiSakuya
             {
                 flag = 0;
                 base.SkillParticleOff();
-                this.MySkill.MySkill.Name = "时符「个人空间」";
+                this.MySkill.MySkill.Name = ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate(this.MySkill.MySkill.KeyID + "N");
                 this.Counting = 2;
                 if (this.MySkill == BattleSystem.instance.AllyTeam.Skills[0]
                     || this.MySkill.ExtendedFind_DataName("SE_Sakuya_7") != null
@@ -44,7 +44,7 @@ namespace IzayoiSakuya
                 {
                     flag = 1;
                     base.SkillParticleOn();
-                    this.MySkill.MySkill.Name = "「咲夜的世界」";
+                    this.MySkill.MySkill.Name = ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate(this.MySkill.MySkill.KeyID + "L");
                     this.Counting = 1;
                     return;
                 }
@@ -54,7 +54,7 @@ namespace IzayoiSakuya
                 {
                     flag = 2;
                     base.SkillParticleOn();
-                    this.MySkill.MySkill.Name = "「收缩的世界」";
+                    this.MySkill.MySkill.Name = ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate(this.MySkill.MySkill.KeyID + "H");
                     this.Counting = 0;
                     return;
                 }

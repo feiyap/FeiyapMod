@@ -49,13 +49,13 @@ namespace KochiyaSanae
         {
             if (CheckUsedSkills(4))
             {
-                this.SkillBasePlus.Target_BaseHeal = (int)(this.BChar.GetStat.reg * 0.35f);
+                this.SkillBasePlus.Target_BaseHeal = (int)(this.BChar.GetStat.reg * 0.45f);
             }
         }
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.reg * 0.35f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.reg * 0.45f)).ToString());
         }
     }
 }

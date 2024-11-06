@@ -29,10 +29,26 @@ namespace Suwako
 
         public void SelfAddToDeck(SkillLocation skillLoaction)
         {
-            Skill tmpSkill = Skill.TempSkill("S_FSL_Common", this.BChar, this.BChar.MyTeam);
-            BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
-            Skill tmpSkill2 = Skill.TempSkill("S_FSL_Common", this.BChar, this.BChar.MyTeam);
-            BattleSystem.instance.AllyTeam.Add(tmpSkill2, true);
+            BattleSystem.DelayInputAfter(Back());
+        }
+
+        public IEnumerator Back()
+        {
+            List<Skill> list = new List<Skill>();
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill i) => i != this.MySkill));
+
+            yield return BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.EffectSelect, false, true, true, false, true);
+
+            yield return BattleSystem.instance.StartCoroutine(BattleSystem.instance.ActWindow.Window.SkillInstantiate(BattleSystem.instance.AllyTeam, true));
+
+            yield return BattleSystem.instance.AllyTeam._Draw();
+
+            yield break;
+        }
+
+        public void Del(SkillButton Mybutton)
+        {
+            BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(Mybutton.Myskill, -1, false));
         }
     }
 }

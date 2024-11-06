@@ -16,29 +16,11 @@ namespace IzayoiSakuya
 	/// <summary>
 	/// 月魔术
 	/// </summary>
-    public class SE_Sakuya_P:Skill_Extended
+    public class SE_Sakuya_P: SkillExtended_Sakuya
     {
-        public bool flag;
-        
-        public override void FixedUpdate()
-        {
-            base.FixedUpdate();
-            flag = false;
-            if (BattleSystem.instance != null && BattleSystem.instance.AllyTeam.Skills.Count != 0)
-            {
-                if (this.MySkill == BattleSystem.instance.AllyTeam.Skills[BattleSystem.instance.AllyTeam.Skills.Count - 1]
-                    || this.MySkill == BattleSystem.instance.AllyTeam.Skills[0]
-                    || this.MySkill.ExtendedFind_DataName("SE_Sakuya_7") != null
-                    || this.BChar.BuffFind("B_Sakuya_12Rare"))
-                {
-                    flag = true;
-                }
-            }
-        }
-
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (this.flag)
+            if (CheckLunaMagic())
             {
                 checkLunaMagicEffect();
             }

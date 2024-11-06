@@ -30,7 +30,7 @@ namespace MinamiRio
                     BattleEnemy battleEnemy = enumerator.Current;
                     foreach (CastingSkill castingSkill in battleEnemy.SkillQueue)
                     {
-                        castingSkill._CastSpeed += 1;
+                        castingSkill._CastSpeed -= 1;
                     }
                 }
             }

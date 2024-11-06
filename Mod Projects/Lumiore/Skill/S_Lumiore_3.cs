@@ -68,7 +68,7 @@ namespace Lumiore
             }
 
             List<Skill> list = new List<Skill>();
-            list.Add(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill i) => i != this.MySkill));
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill i) => i != this.MySkill));
             BattleSystem.DelayInputAfter(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true));
         }
 

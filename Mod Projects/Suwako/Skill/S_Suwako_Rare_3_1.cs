@@ -20,35 +20,9 @@ namespace Suwako
 	/// </summary>
     public class S_Suwako_Rare_3_1:Skill_Extended
     {
-        public override bool SkillTargetSelectExcept(Skill ExceptSkill)
+        public override bool ButtonSelectTerms()
         {
-            bool isLucyD = false;
-            if (ExceptSkill == this.MySkill || ExceptSkill.MySkill.KeyID == "S_Suwako_Rare_3")
-            {
-                isLucyD = true;
-            }
-            return isLucyD;
-        }
-
-        public override void SkillTargetSingle(List<Skill> Targets)
-        {
-            base.SkillTargetSingle(Targets);
-
-            BattleSystem.instance.StartCoroutine(this.EffectDelaysCo(Targets[0]));
-
-            BattleSystem.instance.GetBattleValue<BV_Suwako_Rare3>().UseNum++;
-        }
-
-        private IEnumerator EffectDelaysCo(Skill Target)
-        {
-            yield return CustomMethods.I_SkillBackToDeck(Target, 0, true);
-
-            while (BattleSystem.instance.ListWait || BattleSystem.instance.Particles.Count != 0 || GameObject.FindGameObjectsWithTag("EffectView").Length != 0 || GameObject.FindGameObjectsWithTag("Tutorial").Length != 0 || BattleSystem.instance.DelayWait)
-            {
-                yield return new WaitForFixedUpdate();
-            }
-
-            yield return this.BChar.MyTeam._Draw();
+            return BattleSystem.instance.AllyTeam.Skills.FindAll((Skill i) => i.MySkill.KeyID != "S_Suwako_Rare_3").Count > 0;
         }
     }
 }

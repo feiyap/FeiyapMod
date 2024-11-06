@@ -7,7 +7,7 @@
         "NotCount": true,
         "Disposable": true,
         "Name": "百发百中",
-        "Description": "抽取1个技能。",
+        "Description": "优先抽取1个目标的攻击技能。",
         "User": "MinamiRio",
         "UseAp": 1,
         "NoBasicSkill": true,

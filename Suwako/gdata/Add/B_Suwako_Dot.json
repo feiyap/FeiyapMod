@@ -1,0 +1,20 @@
+{
+    "B_Suwako_Dot": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Suwako.B_Suwako_Dot",
+        "BuffTag": "DOT",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "风雨已至",
+        "Icon": "B_Suwako_Dot\\B_Suwako_Dot_Icon.png",
+        "Description": "每次触发<color=#008B45>旋回</color>时，使该减益的伤害增加2点。",
+        "Debuff": true,
+        "TagPer": 120,
+        "Tick": "SE_Tick_B_Suwako_Dot",
+        "LifeTime": 4,
+        "MaxStack": 3
+    }
+}

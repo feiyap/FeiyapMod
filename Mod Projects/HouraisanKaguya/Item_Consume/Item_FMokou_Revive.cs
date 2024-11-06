@@ -23,9 +23,9 @@ namespace HouraisanKaguya
         {
             foreach (Character character in PlayData.TSavedata.Party)
             {
-                character.Incapacitated = false;
-                if (character.Hp <= 0)
+                if (character.Incapacitated)
                 {
+                    character.Incapacitated = false;
                     character.Hp = 0;
                 }
                 character.HealHP((int)Misc.PerToNum((float)character.get_stat.maxhp, 50f), true);

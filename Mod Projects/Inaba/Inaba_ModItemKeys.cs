@@ -258,6 +258,7 @@ namespace Inaba
 		/// 机械降神
 		/// </summary>
         public static string Skill_S_Inaba_Rare12_0 = "S_Inaba_Rare12_0";
+        public static string Character_Skin_InabaEclipse = "InabaEclipse";
 
     }
 

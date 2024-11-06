@@ -45,7 +45,10 @@ namespace ShameimaruAya
 
         public void SKillUseHand_Team(Skill skill)
         {
-            this.SelfDestroy();
+            if (skill.Master == this.BChar)
+            {
+                this.SelfDestroy();
+            }
         }
     }
 }

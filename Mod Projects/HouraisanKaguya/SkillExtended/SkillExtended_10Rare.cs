@@ -42,7 +42,7 @@ namespace HouraisanKaguya
 
             if (nextSkillStr != "" && this.MySkill.Master.Info.KeyData == "HouraisanKaguya" && !this.MySkill.FreeUse && !this.MySkill.isExcept)
             {
-                CharInfoSkillData item = this.BChar.Info.SkillDatas.Find((CharInfoSkillData s) => s.Skill.KeyID == this.MySkill.MySkill.KeyID);
+                CharInfoSkillData item = this.BChar.Info.SkillDatas.Find((CharInfoSkillData s) => s.SkillInfo.KeyID == this.MySkill.MySkill.KeyID);
                 this.BChar.Info.SkillDatas.Remove(item);
 
                 Skill skill = Skill.TempSkill(nextSkillStr, this.BChar, BattleSystem.instance.AllyTeam);

@@ -18,40 +18,13 @@ namespace IzayoiSakuya
 	/// 倒计时1后，再造成%a伤害。
 	/// 月魔术 - 倒计时延长为3。倒计时期间，目标受到的伤害增加15%。
 	/// </summary>
-    public class S_Sakuya_3:Skill_Extended
+    public class S_Sakuya_3: SkillExtended_Sakuya
     {
-        public bool flag;
         public bool flag2;
-
-        public override void Init()
-        {
-            base.Init();
-            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
-        }
-
-        public override void FixedUpdate()
-        {
-            base.FixedUpdate();
-            if (BattleSystem.instance != null && BattleSystem.instance.AllyTeam.Skills.Count != 0)
-            {
-                flag = false;
-                base.SkillParticleOff();
-                this.MySkill.MySkill.Name = "幻在「钟表的残骸」";
-                if (this.MySkill == BattleSystem.instance.AllyTeam.Skills[BattleSystem.instance.AllyTeam.Skills.Count - 1]
-                    || this.MySkill == BattleSystem.instance.AllyTeam.Skills[0]
-                    || this.MySkill.ExtendedFind_DataName("SE_Sakuya_7") != null
-                    || this.BChar.BuffFind("B_Sakuya_12Rare"))
-                {
-                    flag = true;
-                    base.SkillParticleOn();
-                    this.MySkill.MySkill.Name = "幻幽「迷幻的杰克」";
-                }
-            }
-        }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (this.flag)
+            if (CheckLunaMagic())
             {
                 flag2 = true;
             }
@@ -70,7 +43,7 @@ namespace IzayoiSakuya
                 skill.FreeUse = true;
                 skill.PlusHit = true;
                 BattleSystem.DelayInput(BattleSystem.instance.ForceAction(skill, hit, false, false, true, null));
-                this.MySkill.MySkill.Name = "幻幽「迷幻的杰克」";
+                this.MySkill.MySkill.Name = ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate(this.MySkill.MySkill.KeyID + "L");
             }
             else
             {
@@ -79,7 +52,7 @@ namespace IzayoiSakuya
                 skill.FreeUse = true;
                 skill.PlusHit = true;
                 BattleSystem.DelayInput(BattleSystem.instance.ForceAction(skill, hit, false, false, true, null));
-                this.MySkill.MySkill.Name = "幻在「钟表的残骸」";
+                this.MySkill.MySkill.Name = ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate(this.MySkill.MySkill.KeyID + "N");
             }
         }
         

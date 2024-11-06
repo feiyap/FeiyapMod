@@ -11,7 +11,7 @@
         "Name": "梦想天生",
         "Description": "使用7个技能后，移除该增益，对随机敌人造成&a(600%)伤害。",
         "MaxStack": 0,
-        "LifeTime": 3,
+        "LifeTime": 4,
         "Icon": "B_HakureiReimu_F_10Rare\\B_HakureiReimu_F_10Rare_Icon.png"
     }
 }

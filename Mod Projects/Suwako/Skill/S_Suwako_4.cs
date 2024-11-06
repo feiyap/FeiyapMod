@@ -19,8 +19,13 @@ namespace Suwako
 	/// 倒计时期间，每次触发<color=#008B45>旋回</color>，或是每使用4个技能，对所有敌人造成40%伤害。
 	/// <color=#008B45>旋回</color> - 对所有敌人施加“防御力降低30%”，持续1回合。
 	/// </summary>
-    public class S_Suwako_4:Skill_Extended
+    public class S_Suwako_4:Skill_Extended, IP_SkillSelfToDeck
     {
-
+        public void SelfAddToDeck(SkillLocation skillLoaction)
+        {
+            BattleEnemy be = BattleSystem.instance.EnemyList.Random(BChar.GetRandomClass().Main);
+            be.BuffAdd("B_Suwako_Dot", this.BChar);
+            be.BuffAdd("B_Suwako_Dot", this.BChar);
+        }
     }
 }

@@ -272,9 +272,10 @@ namespace MinamiRio
             {
                 //flag = (ally == Target.Info.Ally || BattleSystem.TargetSelectCheck(Target, skill, flag));
                 //flag = (ally == Target.Info.Ally || Traverse.Create(__instance).Method("TargetSelectCheck", Target, skill, flag).GetValue<bool>());
+                bool flag10 = false;
                 if (skill.ForceAction)
                 {
-                    flag = true;
+                    flag10 = true;
                 }
                 else if (Target is BattleEnemy)
                 {
@@ -286,7 +287,7 @@ namespace MinamiRio
                             flag2 = true;
                             if (ip_ForceEnemyTargetSelect.ForceEnemyTargetSelect(skill, Target as BattleEnemy))
                             {
-                                flag = true;
+                                flag10 = true;
                                 break;
                             }
                             break;
@@ -298,10 +299,10 @@ namespace MinamiRio
                         {
                             if (ip_SpecialEnemyTargetSelect != null && ip_SpecialEnemyTargetSelect.SpecialEnemyTargetSelect(skill, Target as BattleEnemy))
                             {
-                                flag = true;
+                                flag10 = true;
                             }
                         }
-                        if (!flag)
+                        if (!flag10)
                         {
                             bool flag3 = false;
                             using (List<Skill_Extended>.Enumerator enumerator3 = skill.AllExtendeds.GetEnumerator())
@@ -317,11 +318,12 @@ namespace MinamiRio
                             }
                             if (flag3 || skill.IgnoreTaunt || !(Target as BattleEnemy).TauntNoTarget || Target.GetStat.IgnoreTaunt_EnemySelf)
                             {
-                                flag = true;
+                                flag10 = true;
                             }
                         }
                     }
                 }
+                flag = (ally == Target.Info.Ally || flag10);
             }
             if (targetTypeKey == GDEItemKeys.s_targettype_all)
             {

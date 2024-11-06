@@ -2,6 +2,8 @@
     "TestQueue": {
         "_gdeSchema": "EnemyQueue",
         "Enemys": [
+            "Sandbag",
+            "Sandbag",
             "Sandbag"
         ]
     }

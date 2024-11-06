@@ -8,7 +8,7 @@
         "NoBasicSkill": false,
         "Track": false,
         "Name": "源符「诹访清水」",
-        "Description": "<color=#008B45>旋回</color> - 对随机敌人释放后抽取1个技能。",
+        "Description": "<color=green>连击4</color> - 必定暴击。\n<color=#008B45>旋回</color> - 对随机敌人释放后抽取1个技能。",
         "UseAp": 1,
         "User": "Suwako",
         "Effect_Target": "SE_T_S_Suwako_1",
@@ -20,6 +20,18 @@
         ],
         "PlusKeyWords": [
             "Keyword_Return"
-        ]
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

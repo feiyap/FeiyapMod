@@ -61,6 +61,7 @@ namespace IzayoiSakuya
 		/// 月魔术：咲夜的部分技能在位于手牌顶或手牌底被打出时拥有额外效果。
 		/// </summary>
         public static string Character_IzayoiSakuya = "IzayoiSakuya";
+        public static string Character_Skin_IzayoiSakuyaBunny = "IzayoiSakuyaBunny";
 		/// <summary>
 		/// 月魔术
 		/// 该技能在位于手牌顶或手牌底被打出时拥有额外效果。
@@ -89,6 +90,9 @@ namespace IzayoiSakuya
         public static string SimpleCampDialogue_CampDial_IzayoiSakuya_FlandreScarlet = "CampDial_IzayoiSakuya_FlandreScarlet";
         public static string SimpleCampDialogue_CampDial_IzayoiSakuya_SatsukiRin = "CampDial_IzayoiSakuya_SatsukiRin";
         public static string SimpleCampDialogue_CampDial_IzayoiSakuya_Youmu = "CampDial_IzayoiSakuya_Youmu";
+        public static string SimpleCampDialogue_CampDial_IzayoiSakuya_Reisen = "CampDial_IzayoiSakuya_Reisen";
+        public static string SimpleCampDialogue_CampDial_IzayoiSakuya_TouhouAlice = "CampDial_IzayoiSakuya_TouhouAlice";
+        public static string SimpleCampDialogue_CampDial_IzayoiSakuya_Eirin = "CampDial_IzayoiSakuya_Eirin";
 		/// <summary>
 		/// 吾刃回归
 		/// 即使不在手牌顶或手牌底也能触发「月魔术」的额外效果。
@@ -251,11 +255,171 @@ namespace IzayoiSakuya
 		/// 时计「月时计」
 		/// </summary>
         public static string Skill_S_Sakuya_P = "S_Sakuya_P";
+		/// <summary>
+		/// 咲夜基类
+		/// </summary>
+        public static string SkillExtended_SkillExtended_Sakuya = "SkillExtended_Sakuya";
 
     }
 
     public static class ModLocalization
     {
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Maid Secret Skill "Killing Doll"
+		/// Japanese:
+		/// メイド秘技「殺人ドール」
+		/// Chinese:
+		/// 女仆秘技「杀人玩偶」
+		/// Chinese-TW:
+		/// 女仆秘技「杀人玩偶」
+		/// </summary>
+        public static string S0L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S0L");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Maid Secret Skill "Manipulating Doll"
+		/// Japanese:
+		/// メイド秘技「操りドール」
+		/// Chinese:
+		/// 女仆秘技「操弄玩偶」
+		/// Chinese-TW:
+		/// 女仆秘技「操弄玩偶」
+		/// </summary>
+        public static string S0N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S0N");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Light Speed "C. Ricochet"
+		/// Japanese:
+		/// 光速「Ｃ．　リコシェ」
+		/// Chinese:
+		/// 光速「光速跃迁」
+		/// Chinese-TW:
+		/// 光速「光速跃迁」
+		/// </summary>
+        public static string S1L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S1L");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Speed Sign "Luminous Ricochet"
+		/// Japanese:
+		/// 速符「ルミネスリコシェ」
+		/// Chinese:
+		/// 速符「闪光弹跳」
+		/// Chinese-TW:
+		/// 速符「闪光弹跳」
+		/// </summary>
+        public static string S1N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S1N");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Scarred Soul "Soul Sculpture"
+		/// Japanese:
+		/// 傷魂「ソウルスカルプチュア」
+		/// Chinese:
+		/// 伤魂「灵魂雕塑」
+		/// Chinese-TW:
+		/// 伤魂「灵魂雕塑」
+		/// </summary>
+        public static string S2L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S2L");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Wound Sign "Inscribe Red Soul"	
+		/// Japanese:
+		/// 傷符「インスクライブレッドソウル」
+		/// Chinese:
+		/// 伤符「铭刻于红魂」
+		/// Chinese-TW:
+		/// 伤符「铭刻于红魂」
+		/// </summary>
+        public static string S2N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S2N");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Illusion Phantom "Jack the Ludo Bile"
+		/// Japanese:
+		/// 幻幽「ジャック・ザ・ルドビレ」
+		/// Chinese:
+		/// 幻幽「迷幻的杰克」
+		/// Chinese-TW:
+		/// 幻幽「迷幻的杰克」
+		/// </summary>
+        public static string S3L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S3L");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Illusion Existence "Clock Corpse"	
+		/// Japanese:
+		/// 幻在「クロックコープス」
+		/// Chinese:
+		/// 幻在「钟表的残骸」
+		/// Chinese-TW:
+		/// 幻在「钟表的残骸」
+		/// </summary>
+        public static string S3N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S3N");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Conjuring "Mesmerizing Misdirection"
+		/// Japanese:
+		/// 奇術「幻惑ミスディレクション」
+		/// Chinese:
+		/// 奇术「幻惑误导」
+		/// Chinese-TW:
+		/// 奇术「幻惑误导」
+		/// </summary>
+        public static string S6L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S6L");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Conjuring "Misdirection"
+		/// Japanese:
+		/// 奇術「ミスディレクション」
+		/// Chinese:
+		/// 奇术「误导」
+		/// Chinese-TW:
+		/// 奇术「误导」
+		/// </summary>
+        public static string S6N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S6N");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// "Deflation World"
+		/// Japanese:
+		/// 「デフレーションワールド」
+		/// Chinese:
+		/// 「收缩的世界」
+		/// Chinese-TW:
+		/// 「收缩的世界」
+		/// </summary>
+        public static string SR1H => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("SR1H");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// "Sakuya's World"
+		/// Japanese:
+		/// 「咲夜の世界」
+		/// Chinese:
+		/// 「咲夜的世界」
+		/// Chinese-TW:
+		/// 「咲夜的世界」
+		/// </summary>
+        public static string SR1L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("SR1L");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Time Sign "Private Vision"
+		/// Japanese:
+		/// 時符「プライベートヴィジョン」
+		/// Chinese:
+		/// 时符「个人空间」
+		/// Chinese-TW:
+		/// 时符「个人空间」
+		/// </summary>
+        public static string SR1N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("SR1N");
 
     }
 }

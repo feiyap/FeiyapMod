@@ -14,6 +14,7 @@
         "Effect_Self": "SE_S_S_Sanae_Rare10",
         "Image_0": "S_Sanae_Rare10\\S_Sanae_Rare10_Image_0.png",
         "Image_1": "S_Sanae_Rare10\\S_Sanae_Rare10_Image_1.png",
-        "Image_2": "S_Sanae_Rare10\\S_Sanae_Rare10_Image_2.png"
+        "Image_2": "S_Sanae_Rare10\\S_Sanae_Rare10_Image_2.png",
+        "NoBasicSkill": false
     }
 }

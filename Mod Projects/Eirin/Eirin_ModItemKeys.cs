@@ -203,8 +203,11 @@ namespace Eirin
     {
 		/// <summary>
 		/// Korean:
+		/// 후.. 꼭 이렇게 되어야만 했던걸까?
 		/// English:
+		/// Ah... why did things have to turn out like this?
 		/// Japanese:
+		/// はあ...なぜこんなことになってしまったのか？ 
 		/// Chinese:
 		/// 唉……为什么事情一定要变成这样呢？
 		/// Chinese-TW:
@@ -212,20 +215,28 @@ namespace Eirin
         public static string BattleDiaEirinHideText1 => ModManager.getModInfo("Eirin").localizationInfo.SystemLocalizationUpdate("BattleDia/EirinHide/Text1");
 		/// <summary>
 		/// Korean:
+		/// 더럽고
 		/// English:
+		///  우둔한 지상의 인간들. 이럴 생각은 없었지만.....
 		/// Japanese:
+		/// The filthy and foolish people on the ground
 		/// Chinese:
-		/// 污秽、愚蠢的地上的人们啊，我本不想如此……
+		///  I didn't want to do this
 		/// Chinese-TW:
+		/// 薄汚い、愚かな地上の民よ、私はこんなことは望んでいなかった......。
 		/// </summary>
         public static string BattleDiaEirinHideText2 => ModManager.getModInfo("Eirin").localizationInfo.SystemLocalizationUpdate("BattleDia/EirinHide/Text2");
 		/// <summary>
 		/// Korean:
+		/// ...하지만 공주님은 여기에 안계셔
 		/// English:
+		///  그러니 여기서 죽어.
 		/// Japanese:
+		/// But since the princess is not here
 		/// Chinese:
-		/// ……但既然公主大人不在，就请你们死在这里吧。
+		///  please die here.
 		/// Chinese-TW:
+		/// ......でも、姫様がいらっしゃらないのですから、ここで死んでください。
 		/// </summary>
         public static string BattleDiaEirinHideText3 => ModManager.getModInfo("Eirin").localizationInfo.SystemLocalizationUpdate("BattleDia/EirinHide/Text3");
 

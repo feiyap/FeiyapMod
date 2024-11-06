@@ -150,7 +150,7 @@ namespace MinamiRio
         public static string Skill_S_MinamiRio_6 = "S_MinamiRio_6";
 		/// <summary>
 		/// 百发百中
-		/// 抽取1个技能。
+		/// 优先抽取1个目标的攻击技能。
 		/// </summary>
         public static string Skill_S_MinamiRio_7 = "S_MinamiRio_7";
 		/// <summary>
@@ -166,7 +166,7 @@ namespace MinamiRio
 		/// <summary>
 		/// 连矢
 		/// <color=#48D1CC>单弓</color> - 重复释放2次。如果目标拥有嘲讽状态，使其失去嘲讽状态；否则使其(<sprite=2>&a%)眩晕1回合。
-		/// <color=#FFD700>和弓</color> - 额外造成&b(200%)伤害。本回合内，自身造成伤害提升35%。
+		/// <color=#FFD700>和弓</color> - 额外造成&b(250%)伤害。本回合内，自身造成伤害提升35%。
 		/// </summary>
         public static string Skill_S_MinamiRio_Rare_2 = "S_MinamiRio_Rare_2";
 		/// <summary>

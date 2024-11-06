@@ -3,15 +3,14 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Hein/S_Hein_0",
-        "Target": "enemy",
+        "Target": "all_enemy",
         "NotCount": false,
         "IgnoreTaunt": false,
         "Except": false,
         "Name": "土著神「宝永四年的赤蛙」",
-        "Description": "倒计时期间，每次触发<color=#008B45>旋回</color>，或是每使用4个技能，对所有敌人造成40%伤害。\n\n<color=#008B45>旋回</color> - 对所有敌人施加“防御力降低30%”，持续1回合。",
+        "Description": "<color=#008B45>旋回</color> - 对随机敌人施加2层[风雨已至]。",
         "UseAp": 2,
         "Track": true,
-        "Counting": 2,
         "PlusKeyWords": [
             "Keyword_Return"
         ],

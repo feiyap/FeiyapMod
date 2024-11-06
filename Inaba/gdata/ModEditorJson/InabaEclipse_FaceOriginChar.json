@@ -1,0 +1,23 @@
+{
+    "myKey": "InabaEclipse",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "inabaEcpise\\inabaEcpiseFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1127.05774,
+            "y": 640.1923
+        },
+        "offsetMin": {
+            "x": -1002.69434,
+            "y": -1425.0968
+        },
+        "pivot": {
+            "x": 0.470145971,
+            "y": 0.6874208
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

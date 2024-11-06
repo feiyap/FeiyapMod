@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>Suwako20241027193044</AssemblyName>
+    <AssemblyName>Suwako202411600657</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -387,7 +387,7 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                                                                                                                                                                                                                                        <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                                                                                                                  <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BV_Suwako_0.cs" />
     <Compile Include="BV_Suwako_Rare3.cs" />
@@ -396,6 +396,7 @@
     <Compile Include="Suwako_Plugin.cs" />
     <Compile Include="Buff\B_Suwako_3.cs" />
     <Compile Include="Buff\B_Suwako_8.cs" />
+    <Compile Include="Buff\B_Suwako_Dot.cs" />
     <Compile Include="Buff\B_Suwako_Rare2.cs" />
     <Compile Include="Character\P_Suwako.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />

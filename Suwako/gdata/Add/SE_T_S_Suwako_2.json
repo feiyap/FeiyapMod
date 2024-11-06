@@ -2,7 +2,7 @@
     "SE_T_S_Suwako_2": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 120,
+        "DMG_Per": 145,
         "CRI": 5
     }
 }

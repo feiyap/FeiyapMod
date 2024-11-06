@@ -13,7 +13,7 @@ namespace KochiyaSanae
         public static string Buff_B_Sanae_5 = "B_Sanae_5";
 		/// <summary>
 		/// 开海的奇迹
-		/// 手中所有的0费技能获得迅速，造成&a(20%)额外伤害或&b(20%)额外治疗。
+		/// 手中所有的0费技能获得迅速，造成&a(30%)额外伤害或&b(30%)额外治疗。
 		/// </summary>
         public static string Buff_B_Sanae_Rare10 = "B_Sanae_Rare10";
 		/// <summary>
@@ -74,7 +74,7 @@ namespace KochiyaSanae
         public static string SkillExtended_SE_Sanae_E_0 = "SE_Sanae_E_0";
 		/// <summary>
 		/// 开海的奇迹
-		/// 造成&a(20%)额外伤害或&b(20%)额外治疗。
+		/// 造成&a(30%)额外伤害或&b(30%)额外治疗。
 		/// </summary>
         public static string SkillExtended_SE_Sanae_Rare10 = "SE_Sanae_Rare10";
 		/// <summary>
@@ -135,7 +135,7 @@ namespace KochiyaSanae
         public static string Skill_S_Sanae_2 = "S_Sanae_2";
 		/// <summary>
 		/// 奇迹「客星辉煌之夜」
-		/// <b><color=green>连击4</color></b> - 额外恢复&a(35%)体力。
+		/// <b><color=green>连击4</color></b> - 额外恢复&a(45%)体力。
 		/// </summary>
         public static string Skill_S_Sanae_3 = "S_Sanae_3";
 		/// <summary>

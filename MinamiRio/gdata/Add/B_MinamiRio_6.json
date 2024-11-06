@@ -10,7 +10,9 @@
         "Caution": false,
         "Name": "追踪术",
         "Description": "目标可以无条件被指定为技能目标；\n目标死亡时，获得200金币。",
-        "LifeTime": 6,
-        "Icon": "B_MinamiRio_6\\B_MinamiRio_6_Icon.png"
+        "LifeTime": 0,
+        "Icon": "B_MinamiRio_6\\B_MinamiRio_6_Icon.png",
+        "Debuff": true,
+        "TagPer": 0
     }
 }

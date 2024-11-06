@@ -1,0 +1,23 @@
+{
+    "myKey": "InabaEclipse",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "inabaEcpise\\inabaEcpiseBattleChar.png",
+        "offsetMax": {
+            "x": 1108.771,
+            "y": 717.052551
+        },
+        "offsetMin": {
+            "x": -1020.98096,
+            "y": -1348.23645
+        },
+        "pivot": {
+            "x": 0.4793896,
+            "y": 0.652807653
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

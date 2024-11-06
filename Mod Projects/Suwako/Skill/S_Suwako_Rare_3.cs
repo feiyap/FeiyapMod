@@ -22,16 +22,6 @@ namespace Suwako
 	/// </summary>
     public class S_Suwako_Rare_3:Skill_Extended, IP_SkillSelfLeaveHand
     {
-        public override bool SkillTargetSelectExcept(Skill ExceptSkill)
-        {
-            bool isLucyD = false;
-            if (ExceptSkill == this.MySkill)
-            {
-                isLucyD = true;
-            }
-            return isLucyD;
-        }
-
         public override void Init()
         {
             base.Init();
@@ -56,35 +46,94 @@ namespace Suwako
             }
         }
 
-        public override void SkillTargetSingle(List<Skill> Targets)
-        {
-            base.SkillTargetSingle(Targets);
-            
-            BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(Targets[0], -1, true));
+        public Skill thisSkill;
 
-            BattleSystem.instance.TargetSelecting = true;
-            BattleSystem.instance.SelectedSkill = this.MySkill;
-            BattleSystem.instance.ActionAlly = (this.MySkill.Master as BattleAlly);
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            thisSkill = SkillD;
+            BattleSystem.DelayInputAfter(Back());
+            BattleSystem.DelayInputAfter(Reply());
+        }
+
+        public IEnumerator Back()
+        {
             List<Skill> list = new List<Skill>();
-            list.Add(Skill.TempSkill("S_Suwako_Rare_3_1", this.MySkill.Master, this.MySkill.Master.MyTeam));
-            list.Add(Skill.TempSkill("S_Suwako_Rare_3_2", this.MySkill.Master, this.MySkill.Master.MyTeam));
-            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.EffectSelect, true, false, true, false, true));
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill i) => i != this.MySkill));
+
+            yield return BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.EffectSelect, false, true, true, false, true);
+
+            yield return BattleSystem.instance.StartCoroutine(BattleSystem.instance.ActWindow.Window.SkillInstantiate(BattleSystem.instance.AllyTeam, true));
+
+            yield break;
         }
 
         public void Del(SkillButton Mybutton)
         {
-            Skill skill = new Skill();
-            skill = Mybutton.Myskill.CloneSkill(true, null, null, true);
-            ChildClear.Clear(BattleSystem.instance.ActWindow.ItemSkillView);
-            GameObject gameObject = ToolTipWindow.SkillToolTip(BattleSystem.instance.ActWindow.ItemSkillView, skill, skill.Master, 0, 1, true, false, false);
-            gameObject.transform.SetParent(BattleSystem.instance.ActWindow.ItemSkillView);
-            gameObject.transform.Find("PlusTooltip").gameObject.SetActive(false);
-            gameObject.GetComponent<SkillToolTip>().LayerDown();
-            skill.OriginalSelectSkill = BattleSystem.instance.SelectedSkill;
-            BattleSystem.instance.ActionAlly = (Mybutton.Myskill.Master as BattleAlly);
-            ToolTipWindow.ToolTip = null;
-            BattleSystem.instance.ItemSelect = true;
-            BattleSystem.instance.TargetSelect(skill, skill.Master);
+            BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(Mybutton.Myskill, -1, false));
+        }
+
+        public IEnumerator Reply()
+        {
+            yield return null;
+
+            List<Skill> list = new List<Skill>();
+
+            list.Add(Skill.TempSkill("S_Suwako_Rare_3_1", this.BChar, this.BChar.MyTeam));
+            list.Add(Skill.TempSkill("S_Suwako_Rare_3_2", this.BChar, this.BChar.MyTeam));
+
+            BattleSystem.DelayInputAfter(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del2), ScriptLocalization.System_SkillSelect.EffectSelect, false, true, true, false, true));
+
+            yield return null;
+            yield break;
+        }
+
+        public void Del2(SkillButton Mybutton)
+        {
+            if (Mybutton.Myskill.MySkill.KeyID == "S_Suwako_Rare_3_1")
+            {
+                BattleSystem.DelayInputAfter(Back2());
+            }
+            if (Mybutton.Myskill.MySkill.KeyID == "S_Suwako_Rare_3_2")
+            {
+                thisSkill.Delete(false);
+            }
+        }
+
+        public IEnumerator Back2()
+        {
+            List<Skill> list = new List<Skill>();
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill i) => i != this.MySkill));
+
+            yield return BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.EffectSelect, false, true, true, false, true);
+
+            yield return BattleSystem.instance.StartCoroutine(BattleSystem.instance.ActWindow.Window.SkillInstantiate(BattleSystem.instance.AllyTeam, true));
+
+            yield return BattleSystem.instance.AllyTeam._Draw();
+
+            BattleSystem.instance.GetBattleValue<BV_Suwako_Rare3>().UseNum++;
+
+            if (BattleSystem.instance.GetBattleValue<BV_Suwako_Rare3>().UseNum >= 5)
+            {
+                thisSkill.Except();
+
+                Skill tmpSkill = Skill.TempSkill("S_Suwako_Rare_3_0", this.BChar, this.BChar.MyTeam);
+                Skill_Extended se = new Skill_Extended();
+                se.PlusSkillStat.Penetration = 100f;
+                se.IsDamage = true;
+                tmpSkill.ExtendedAdd(se);
+                BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
+
+                BattleSystem.instance.GetBattleValue<BV_Suwako_Rare3>().UseNum = 0;
+
+                Skill tmpSkill2 = Skill.TempSkill("S_Suwako_Rare_3", this.BChar, this.BChar.MyTeam);
+                BattleSystem.instance.AllyTeam.Skills_UsedDeck.InsertRandom(this.BChar.GetRandomClass().Main, tmpSkill2);
+            }
+            else
+            {
+                yield return BattleSystem.instance.AllyTeam._ForceDraw(thisSkill);
+            }
+
+            yield break;
         }
 
         public bool SelfLeaveHand(bool isUsed)
@@ -106,11 +155,10 @@ namespace Suwako
                 }
                 else
                 {
-                    //BattleSystem.instance.AllyTeam.Skills.Add(this.MySkill);
                     return false;
                 }
             }
-            
+
             return true;
         }
 

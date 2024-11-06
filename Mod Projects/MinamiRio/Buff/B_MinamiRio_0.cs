@@ -24,7 +24,7 @@ namespace MinamiRio
         public override void Init()
         {
             this.PlusStat.hit = 5 * StackNum;
-            if (base.StackNum == 3)
+            if (base.StackNum == 4)
             {
                 if (this.BChar.BuffFind("B_MinamiRio_P1"))
                 {

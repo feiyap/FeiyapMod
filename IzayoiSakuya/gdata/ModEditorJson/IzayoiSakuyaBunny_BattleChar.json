@@ -1,0 +1,23 @@
+{
+    "myKey": "IzayoiSakuyaBunny",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "SakuyaBunn\\SakuyaBunnBattleChar.png",
+        "offsetMax": {
+            "x": 1185.68323,
+            "y": 750.7823
+        },
+        "offsetMin": {
+            "x": -1019.62408,
+            "y": -1454.52515
+        },
+        "pivot": {
+            "x": 0.4623501,
+            "y": 0.6595566
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

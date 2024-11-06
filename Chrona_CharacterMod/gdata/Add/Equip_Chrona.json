@@ -1,0 +1,18 @@
+{
+    "Equip_Chrona": {
+        "name": "ReveR",
+        "image": "Assets/Chrona/Equip&Relic/Equip_Chrona.png",
+        "Description": "未按下回合结束按钮时，每经过1倒计时，暴击率+6%，暴击伤害+6%，至多叠加8层；回合开始开始时重置。\n\n<color=#919191>我迷失于时间的支流，于是窥见另一种愿景。</color>",
+        "Equip_Script": "Chrona.Equip_Chrona",
+        "Lock": false,
+        "TimeMoneyPrice": 0,
+        "Itemclass": "Legendary",
+        "EquipSkill": [
+            
+        ],
+        "Off": false,
+        "SpecialUnlock": false,
+        "NoDrop": false,
+        "_gdeSchema": "Item_Equip"
+    }
+}

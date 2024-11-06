@@ -40,7 +40,7 @@ namespace KochiyaSanae
 
         public override string DescExtended()
         {
-            return base.DescExtended().Replace("&a", ((int)(base.Usestate_L.GetStat.atk * 0.2f)).ToString()).Replace("&b", ((int)(base.Usestate_L.GetStat.reg * 0.2f)).ToString());
+            return base.DescExtended().Replace("&a", ((int)(base.Usestate_L.GetStat.atk * 0.3f)).ToString()).Replace("&b", ((int)(base.Usestate_L.GetStat.reg * 0.3f)).ToString());
         }
     }
 }

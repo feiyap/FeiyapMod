@@ -21,7 +21,7 @@ namespace MinamiRio
     {
         public override string DescExtended()
         {
-            return base.DescExtended().Replace("&a", this.Usestate_F.Info.Name);
+            return base.DescExtended().Replace("&user", this.Usestate_F.Info.Name);
         }
     }
 }

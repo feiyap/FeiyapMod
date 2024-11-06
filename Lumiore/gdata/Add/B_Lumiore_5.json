@@ -2,7 +2,7 @@
     "B_Lumiore_5": {
         "_gdeSchema": "Buff",
         "BuffTag": "null",
-        "MaxStack": 99,
+        "MaxStack": 5,
         "Name": "龙之启示",
         "Description": "",
         "Hide": true,

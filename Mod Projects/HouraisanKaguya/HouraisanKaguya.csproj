@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>HouraisanKaguya2024920184958</AssemblyName>
+    <AssemblyName>HouraisanKaguya2024112234935</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -384,7 +384,7 @@
 <!-- Extra Reference End-->
   </ItemGroup>
   
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="HouraisanKaguya_ModDefinition.cs" />
     <Compile Include="HouraisanKaguya_ModItemKeys.cs" />
@@ -466,6 +466,7 @@
     <Compile Include="Skill\S_FMokou_3.cs" />
     <Compile Include="Skill\S_FMokou_4.cs" />
     <Compile Include="Skill\S_FMokou_5.cs" />
+    <Compile Include="Skill\S_FMokou_Revive.cs" />
     <Compile Include="SkillExtended\SkillExtended_10Rare.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->

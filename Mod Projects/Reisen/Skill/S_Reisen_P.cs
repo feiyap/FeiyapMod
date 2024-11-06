@@ -33,11 +33,15 @@ namespace Reisen
             if (this.BChar.BuffFind("B_Reisen_P", false) || this.BChar.BuffFind("B_Reisen_6", false) || !this.BChar.BuffFind("B_Reisen_P_Insane", false))
             {
                 this.SkillBasePlus.Target_BaseDMG = 0;
+                this.IsHeal = true;
+                this.IsDamage = false;
                 this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_self);
             }
             else
             {
                 this.SkillBasePlus.Target_BaseDMG = PlusDmg;
+                this.IsHeal = false;
+                this.IsDamage = true;
                 this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
             }
         }

@@ -1,0 +1,15 @@
+{
+    "IzayoiSakuyaBunny": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "万圣节兔女仆",
+        "Character": "IzayoiSakuya",
+        "SkinDesc": "万圣节就快到了。\n一切准备就绪。\n大小姐、红魔馆，还有我。",
+        "FaceSprite": "SakuyaBunn\\SakuyaBunnBattleFace.png",
+        "CampSD": [
+            "SakuyaBunn\\SakuyaBunnCampSD0.png",
+            "SakuyaBunn\\SakuyaBunnCampSD1.png",
+            "SakuyaBunn\\SakuyaBunnCampSD2.png",
+            "SakuyaBunn\\SakuyaBunnCampSD3.png"
+        ]
+    }
+}

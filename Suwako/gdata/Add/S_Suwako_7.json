@@ -7,7 +7,7 @@
         "NotCount": true,
         "NoBasicSkill": false,
         "Name": "土著神「七石七木」",
-        "Description": "生成1个[风灵]和1个[南风灵]。\n\n<color=#008B45>旋回</color> - 生成1个[南风灵]。",
+        "Description": "生成1个[风灵]和1个[南风灵]。\n\n<color=#008B45>旋回</color> - 选择手中1个技能放回牌库，抽取1个技能。",
         "User": "Suwako",
         "PlusKeyWords": [
             "Keyword_Return"

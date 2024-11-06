@@ -1,0 +1,41 @@
+{
+    "S_Chrona_4": {
+        "UseAp": 3,
+        "Target": "enemy",
+        "Particle": "Particle/Public/Public_3",
+        "Effect_Target": "SE_Chrona_4_T",
+        "Name": "狩时之牙",
+        "Description": "该技能的倒计时将改为与目标行动倒计时相同（至多增加至10），并根据变动后的倒计时增加暴击率（10%/1倒计时）。\n因该技能的追溯效果而增加的额外伤害至多为&b点。\n<color=#43a7fc>追溯·顺：解除追溯，使该技能的额外伤害增加&a点。</color>\n<color=#dd30e0>追溯·逆：解除追溯，使该技能的额外伤害增加&a点，为手中随机一个技能赋予追溯支路。</color>",
+        "SkillExtended": [
+            "Chrona.S_Chrona_4"
+        ],
+        "PlusKeyWords": [
+            "KeyWord_Chrona"
+        ],
+        "Image_2": "Assets/Chrona/Skill/4/S_Chrona_4_2.png",
+        "Image_1": "Assets/Chrona/Skill/4/S_Chrona_4_1.png",
+        "Image_0": "Assets/Chrona/Skill/4/S_Chrona_4_0.png",
+        "User": "Chrona",
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Fatal": true,
+        "NoBasicSkill": true,
+        "Counting": 1,
+        "_gdeSchema": "Skill"
+    },
+    "SE_Chrona_4_T": {
+        "DMG_Per": 180,
+        "HIT": 110,
+        "Buffs": [
+            
+        ],
+        "BuffPlusTagPer": [
+            
+        ],
+        "_gdeSchema": "SkillEffect"
+    },
+    "Ex_Chrona_4": {
+        "ClassName": "Chrona.Ex_Chrona_4",
+        "_gdeSchema": "SkillExtended"
+    }
+}

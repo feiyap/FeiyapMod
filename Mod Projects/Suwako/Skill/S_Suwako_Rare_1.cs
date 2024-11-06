@@ -16,95 +16,73 @@ namespace Suwako
 {
 	/// <summary>
 	/// 蛙狩「蛙以口鸣，方致蛇祸」
-	/// <color=green>连击4</color> - 随机从牌库中释放4个自己的技能。那之后，将他们放回牌库最上方。
+	/// 这个技能握在手中时，每次触发<color=#008B45>旋回</color>时，恢复自己&a(20%)体力值，恢复1点法力值，并使这个技能向上移动一次。到达手牌最上方后，丢弃这个技能。
 	/// </summary>
-    public class S_Suwako_Rare_1: SkillExtend_Suwako
+    public class S_Suwako_Rare_1: SkillExtend_Suwako, IP_OnSkillAddToDeck
     {
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.2)).ToString());
+        }
+
+        private bool terms;
+
         public override void Init()
         {
             base.Init();
+            this.terms = false;
             this.OnePassive = true;
-            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
         }
 
-        public int fixCount = 0;
-
-        public override void FixedUpdate()
+        public IEnumerator OnSkillAddToDeck(Dictionary<Skill, SkillLocation> AddToDeck_Skills)
         {
-            base.FixedUpdate();
-            fixCount++;
-            if (fixCount >= 12)
+            yield return null;
+
+            this.BChar.Heal(this.BChar, (int)(this.BChar.GetStat.atk * 0.3), 0, 0);
+            BattleSystem.instance.AllyTeam.AP++;
+
+            int num2 = 0;
+            while (num2 < BattleSystem.instance.AllyTeam.Skills.Count && BattleSystem.instance.AllyTeam.Skills[num2] != this.MySkill)
             {
-                fixCount = 0;
-                if (CheckUsedSkills(4))
-                {
-                    base.SkillParticleOn();
-                }
-                else
-                {
-                    base.SkillParticleOff();
-                }
+                num2++;
             }
-        }
+            BattleSystem.DelayInputAfter(this.MoveUp(this.MySkill, num2, 1));
 
-        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
-        {
-            if (!CheckUsedSkills(4))
-            {
-                return;
-            }
-
-            new List<Skill>();
-            List<Skill> list = new List<Skill>();
-            list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck);
-            for (int i = 0; i < list.Count; i++)
-            {
-                if (list[i].Master.IsLucyNoC || list[i].Master != this.BChar)
-                {
-                    list.RemoveAt(i);
-                    i--;
-                }
-            }
-
-            int num = 0;
-            if (list.Count >= 4)
-            {
-                num = 4;
-            }
-            else
-            {
-                num = list.Count;
-            }
-
-            if (num <= 0)
-            {
-                return;
-            }
-
-            for (int i = 0; i < num; i++)
-            {
-                BattleSystem.DelayInput(this.Del(list[i]));
-            }
-        }
-
-        private IEnumerator Del(Skill skill)
-        {
-            yield return new WaitForFixedUpdate();
-
-            BattleSystem.DelayInputAfter(this.Draw(skill));
-            BattleSystem.DelayInputAfter(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
-            BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(skill, -1, true));
-
+            yield return null;
             yield break;
         }
 
-        public IEnumerator Draw(Skill skill)
+        public IEnumerator MoveUp(Skill Temp, int Originalpos, int MoveNum)
         {
-            yield return null;
+            if (MoveNum > 0 && BattleSystem.instance.AllyTeam.Skills.Remove(Temp))
+            {
+                yield return BattleSystem.instance.ActAfter();
+                int num = Originalpos - (MoveNum + 1);
+                if (num <= -1)
+                {
+                    num = 0;
+                }
+                yield return BattleSystem.instance.StartCoroutine(BattleSystem.instance.AllyTeam._Add(Temp, true, num));
+            }
+            yield break;
+        }
 
-            BattleSystem.instance.AllyTeam.ForceDraw(skill);
+        public override void TickUpdate()
+        {
+            base.TickUpdate();
+            if (!this.terms && BattleSystem.instance.AllyTeam.Skills.Count >= 1 && this.MySkill.MyButton.gameObject != null && BattleSystem.instance.AllyTeam.Skills[0] == this.MySkill)
+            {
+                BattleSystem.DelayInputAfter(this.Del());
+                this.terms = true;
+            }
+        }
+        
+        public IEnumerator Del()
+        {
+            yield return new WaitForFixedUpdate();
 
-            yield return null;
+            this.MySkill.Delete();
+
             yield break;
         }
     }

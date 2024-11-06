@@ -4,7 +4,7 @@ namespace RemiliaScarlet
     public static class ModItemKeys
     {
 		/// <summary>
-		/// 绯夜
+		/// <sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>
 		/// 受到痛苦伤害时，每1层层数会治疗施加者5点体力。1回合最多触发1次。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_0 = "B_RemiliaScarlet_0";
@@ -55,6 +55,8 @@ namespace RemiliaScarlet
 		/// （该被动在1级即生效。）
 		/// </summary>
         public static string Character_RemiliaScarlet = "RemiliaScarlet";
+        public static string Character_Skin_RemiliaScarletEclipse = "RemiliaScarletEclipse";
+        public static string Character_Skin_RemiliaScarletLord = "RemiliaScarletLord";
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Hein = "CampDial_RemiliaScarlet_Hein";
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Joey = "CampDial_RemiliaScarlet_Joey";
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Sizz = "CampDial_RemiliaScarlet_Sizz";
@@ -81,6 +83,12 @@ namespace RemiliaScarlet
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_FlandreScarlet = "CampDial_RemiliaScarlet_FlandreScarlet";
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_SatsukiRin = "CampDial_RemiliaScarlet_SatsukiRin";
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Youmu = "CampDial_RemiliaScarlet_Youmu";
+        public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Reisen = "CampDial_RemiliaScarlet_Reisen";
+        public static string SimpleCampDialogue_CampDial_RemiliaScarlet_TouhouAlice = "CampDial_RemiliaScarlet_TouhouAlice";
+        public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Eirin = "CampDial_RemiliaScarlet_Eirin";
+        public static string SimpleCampDialogue_CampDial_RemiliaScarlet_HouraisanKaguya = "CampDial_RemiliaScarlet_HouraisanKaguya";
+        public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Cirno = "CampDial_RemiliaScarlet_Cirno";
+        public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Daiyousei = "CampDial_RemiliaScarlet_Daiyousei";
 		/// <summary>
 		/// 特别定制的太阳伞
 		/// 当装备者给目标施加痛苦或弱化减益时，治疗自己10%最大体力。
@@ -102,6 +110,7 @@ namespace RemiliaScarlet
         public static string SkillEffect_SE_T_S_RemiliaScarlet_6 = "SE_T_S_RemiliaScarlet_6";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_7 = "SE_T_S_RemiliaScarlet_7";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_8 = "SE_T_S_RemiliaScarlet_8";
+        public static string SkillEffect_SE_T_S_RemiliaScarlet_9 = "SE_T_S_RemiliaScarlet_9";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_LucyD = "SE_T_S_RemiliaScarlet_LucyD";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_P = "SE_T_S_RemiliaScarlet_P";
 		/// <summary>
@@ -111,7 +120,7 @@ namespace RemiliaScarlet
         public static string SkillExtended_SkillEn_Remilia_0 = "SkillEn_Remilia_0";
 		/// <summary>
 		/// 红符「红色不夜城」
-		/// 命中后使目标身上的[绯夜]立即结算一次伤害，并将[绯夜]延长1回合。
+		/// 命中后使目标身上的<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>立即结算一次伤害，并将<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>延长1回合。
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_0 = "S_RemiliaScarlet_0";
 		/// <summary>
@@ -169,14 +178,14 @@ namespace RemiliaScarlet
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_8 = "S_RemiliaScarlet_8";
 		/// <summary>
+		/// 命运「Miserable Fate」
+		/// 同时攻击1个目标以外的随机敌人。
+		/// </summary>
+        public static string Skill_S_RemiliaScarlet_9 = "S_RemiliaScarlet_9";
+		/// <summary>
 		/// 「千年吸血鬼」
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_LucyD = "S_RemiliaScarlet_LucyD";
-		/// <summary>
-		/// 命运「Miserable Fate」
-		/// </summary>
-        public static string Skill_S_RemiliaScarlet_9 = "S_RemiliaScarlet_9";
-        public static string SkillEffect_SE_T_S_RemiliaScarlet_9 = "SE_T_S_RemiliaScarlet_9";
 
     }
 

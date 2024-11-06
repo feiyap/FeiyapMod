@@ -23,6 +23,8 @@
         ],
         "PlusKeyWords": [
             "Keyword_Return"
-        ]
+        ],
+        "Rare": false,
+        "Track": false
     }
 }

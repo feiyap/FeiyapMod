@@ -2,6 +2,12 @@
     "SE_T_S_Suwako_4": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 80
+        "DMG_Per": 75,
+        "Buffs": [
+            "B_Suwako_Dot"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
     }
 }

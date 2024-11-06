@@ -8,7 +8,7 @@
         "NotCount": true,
         "Disposable": false,
         "Name": "连矢",
-        "Description": "<color=#48D1CC>单弓</color> - 重复释放2次。如果目标拥有嘲讽状态，使其失去嘲讽状态；否则使其(<sprite=2>&a%)眩晕1回合。\n<color=#FFD700>和弓</color> - 额外造成&b(200%)伤害。本回合内，自身造成伤害提升35%。",
+        "Description": "<color=#48D1CC>单弓</color> - 重复释放2次。如果目标拥有嘲讽状态，使其失去嘲讽状态；否则使其(<sprite=2>&a%)眩晕1回合。\n<color=#FFD700>和弓</color> - 额外造成&b(250%)伤害。本回合内，自身造成伤害提升35%。",
         "User": "MinamiRio",
         "UseAp": 3,
         "IgnoreTaunt": true,
@@ -21,6 +21,14 @@
         "NoDrop": false,
         "SkillExtended": [
             "MinamiRio.S_MinamiRio_Rare_2"
-        ]
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

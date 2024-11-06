@@ -23,6 +23,7 @@
             "Suwako.S_Suwako_P"
         ],
         "NoBasicSkill": false,
-        "Except": true
+        "Except": true,
+        "Fatal": false
     }
 }

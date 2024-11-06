@@ -25,5 +25,34 @@ namespace Suwako
             BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, this.MySkill, false, true, false));
             BattleSystem.instance.AllyTeam.Draw();
         }
+
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
+        }
+
+        public int fixCount = 0;
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            fixCount++;
+            if (fixCount >= 12)
+            {
+                fixCount = 0;
+                if (CheckUsedSkills(2))
+                {
+                    base.SkillParticleOn();
+                    this.PlusSkillStat.cri = 100f;
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                    this.PlusSkillStat.cri = 0;
+                }
+            }
+        }
     }
 }

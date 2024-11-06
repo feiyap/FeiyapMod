@@ -22,7 +22,7 @@ namespace MinamiRio
     {
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.HIT_CC + 120)).ToString()).Replace("&b", ((int)(this.BChar.GetStat.atk * 2.0f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.HIT_CC + 120)).ToString()).Replace("&b", ((int)(this.BChar.GetStat.atk * 2.5f)).ToString());
         }
 
         public int Fixed_count = 0;
@@ -49,7 +49,7 @@ namespace MinamiRio
                 }
                 else if (this.BChar.BuffFind("B_MinamiRio_P2"))
                 {
-                    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 2.0f);
+                    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 2.5f);
                     this.MySkill.MySkill.Name = ModManager.getModInfo("MinamiRio").localizationInfo.SystemLocalizationUpdate("S_MinamiRio_Rare_2_2");
                 }
             }
@@ -76,7 +76,7 @@ namespace MinamiRio
             }
             else if (this.BChar.BuffFind("B_MinamiRio_P2"))
             {
-                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 2.0f);
+                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 2.5f);
                 this.BChar.BuffAdd("B_MinamiRio_Rare_2", this.BChar);
             }
         }

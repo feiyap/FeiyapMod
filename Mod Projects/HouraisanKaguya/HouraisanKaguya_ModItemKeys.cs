@@ -183,11 +183,6 @@ namespace HouraisanKaguya
 		/// </summary>
         public static string Item_Consume_Item_FMokou_Revive = "Item_FMokou_Revive";
 		/// <summary>
-		/// 技能书：不朽的弹幕
-		/// 可以学习技能[「不朽的弹幕」]<b></b>。
-		/// </summary>
-        public static string Item_Consume_Item_Skill_FMokou_Reward = "Item_Skill_FMokou_Reward";
-		/// <summary>
 		/// 难题
 		/// 在达成某些条件时，会为自身赋予[辉夜/神宝]增益。
 		/// </summary>
@@ -566,6 +561,11 @@ namespace HouraisanKaguya
 		/// 不死「徐福时空」
 		/// </summary>
         public static string Skill_S_FMokou_Xufu = "S_FMokou_Xufu";
+		/// <summary>
+		/// 不死鸟狂想
+		/// 复活所有队友。使所有队友体力恢复最大生命值的一半。
+		/// </summary>
+        public static string Skill_S_FMokou_Revive = "S_FMokou_Revive";
 
     }
 

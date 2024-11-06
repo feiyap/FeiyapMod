@@ -2,7 +2,7 @@
     "SE_T_S_Sanae_5": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "HEAL_Per": 140,
+        "HEAL_Per": 150,
         "ForceHeal": false,
         "ChainHeal": true,
         "CRI": 5,

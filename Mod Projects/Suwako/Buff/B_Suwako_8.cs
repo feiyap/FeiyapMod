@@ -20,6 +20,12 @@ namespace Suwako
 	/// </summary>
     public class B_Suwako_8:Buff, IP_OnSkillAddToDeck
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+        }
+
         public IEnumerator OnSkillAddToDeck(Dictionary<Skill, SkillLocation> AddToDeck_Skills)
         {
             foreach (KeyValuePair<Skill, SkillLocation> pair in AddToDeck_Skills)

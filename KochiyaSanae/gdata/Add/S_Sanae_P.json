@@ -24,6 +24,7 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "UseAp": 0
     }
 }

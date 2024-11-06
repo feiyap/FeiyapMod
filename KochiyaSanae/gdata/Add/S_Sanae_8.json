@@ -7,7 +7,7 @@
         "Disposable": false,
         "Name": "蛙符「操纵蛤蟆」",
         "Description": "使目标技能回到牌堆顶。那之后，根据目标技能的费用，生成相应数量的[风灵]（最少1个）。",
-        "UseAp": 1,
+        "UseAp": -1,
         "User": "KochiyaSanae",
         "NotCount": true,
         "Effect_Target": "null",
