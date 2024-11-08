@@ -16,7 +16,7 @@ namespace Suwako
 {
     /// <summary>
     /// 神具「洩矢的铁轮」
-    /// <color=green>连击4</color> - 释放后返回牌组。
+    /// <color=green>连击2</color> - 释放后返回牌组。
     /// <color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(30%)点。
     /// </summary>
     public class S_Suwako_0 : SkillExtend_Suwako, IP_SkillSelfToDeck

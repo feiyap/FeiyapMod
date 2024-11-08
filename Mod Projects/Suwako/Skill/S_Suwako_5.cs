@@ -17,7 +17,7 @@ namespace Suwako
 	/// <summary>
 	/// 土著神「手长足长大人」
 	/// 打出时，将手中最下方的1个技能放回牌库。那之后，抽取1个技能。
-	/// <color=green>连击8</color> - 效果变为“打出时，将手中最下方的1个技能放回牌库。那之后，从牌库中选择1个技能抽取。”。
+	/// <color=green>连击4</color> - 效果变为“打出时，将手中最下方的1个技能放回牌库。那之后，从牌库中选择1个技能抽取。”。
 	/// <color=#008B45>旋回</color> - 展示牌堆最下方的3个技能，选择1个加入手中。使选择的技能获得迅速、致命。
 	/// </summary>
     public class S_Suwako_5: SkillExtend_Suwako, IP_SkillSelfToDeck

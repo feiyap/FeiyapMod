@@ -14,37 +14,29 @@ using Debug = UnityEngine.Debug;
 using BasicMethods;
 namespace Suwako
 {
-	/// <summary>
-	/// 蛙休「总是能够冬眠」
-	/// 将手牌中所有[风灵]系以外的技能返回牌库最上方，生成等量的、对应持有者的[风灵]。
-	/// 那之后，使手中所有[风灵]系技能增加&a(40%)伤害或&b(65%)治疗量。
-	/// 回合结束时，抽取与返回技能数等量的技能。
-	/// </summary>
+    /// <summary>
+    /// 蛙休「总是能够冬眠」
+    /// 释放时如果场上没有[风雨已至]，使随机敌人获得1层[风雨已至]。
+    /// </summary>
     public class S_Suwako_Rare_2:Skill_Extended
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            foreach (Skill skill in this.BChar.MyTeam.Skills)
+            bool isExist = false;
+
+            foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
             {
-                BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(skill, 0, true));
-                Skill tmpSkill = Skill.TempSkill("S_FSL_Common", this.BChar, this.BChar.MyTeam);
-                BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
-                this.BChar.BuffAdd("B_Suwako_Rare2", this.BChar, true);
+                if (be.BuffFind("B_Suwako_Dot"))
+                {
+                    isExist = true;
+                    break;
+                }
             }
 
-            foreach (Skill skill in this.BChar.MyTeam.Skills)
+            if (!isExist)
             {
-                if ((skill.TargetDamage >= 1 || skill.TargetHeal >= 1) &&
-                    (
-                    skill.MySkill.KeyID == "S_FSL_Common" ||
-                    skill.MySkill.KeyID == "S_Sanae_P" ||
-                    skill.MySkill.KeyID == "S_Kanako_P" ||
-                    skill.MySkill.KeyID == "S_Suwako_P" ||
-                    skill.MySkill.KeyID == "S_Shameimaru_P"
-                    ))
-                {
-                    skill.ExtendedAdd(Skill_Extended.DataToExtended("SE_Suwako_Rare2"));
-                }
+                BattleEnemy be = BattleSystem.instance.EnemyList.Random(BChar.GetRandomClass().Main);
+                be.BuffAdd("B_Suwako_Dot", this.BChar);
             }
         }
     }

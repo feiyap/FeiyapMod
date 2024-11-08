@@ -17,7 +17,7 @@ namespace Suwako
 	/// <summary>
 	/// 风雨已至
 	/// </summary>
-    public class B_Suwako_Dot:Buff, IP_OnSkillAddToDeck
+    public class B_Suwako_Dot:Buff, IP_OnSkillAddToDeck, IP_SkillUse_Team
     {
         public int count;
 
@@ -32,10 +32,19 @@ namespace Suwako
             yield return null;
 
             count++;
-            this.PlusDamageTick = count * 2;
+            this.PlusDamageTick = count;
 
             yield return null;
             yield break;
+        }
+
+        public void SkillUseTeam(Skill skill)
+        {
+            if (((!skill.NotCount && skill.AP <= 1) || skill.AP <= 0))
+            {
+                count++;
+                this.PlusDamageTick = count;
+            }
         }
     }
 }
