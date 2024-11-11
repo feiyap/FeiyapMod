@@ -21,6 +21,33 @@ namespace Suwako
     /// </summary>
     public class S_Suwako_6 : SkillExtend_Suwako
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
+        }
+
+        public int fixCount = 0;
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            fixCount++;
+            if (fixCount >= 12)
+            {
+                fixCount = 0;
+                if (CheckUsedSkills(4))
+                {
+                    base.SkillParticleOn();
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                }
+            }
+        }
+
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             BattleSystem.instance.StartCoroutine(this.EffectDelaysCo());
@@ -38,6 +65,14 @@ namespace Suwako
         {
             List<Skill> list = new List<Skill>();
             list.AddRange(this.BChar.MyTeam.Skills);
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i] == this.MySkill)
+                {
+                    list.RemoveAt(i);
+                    break;
+                }
+            }
             if (list.Count >= 1)
             {
                 yield return CustomMethods.I_SkillBackToDeck(list[0], 0, true);

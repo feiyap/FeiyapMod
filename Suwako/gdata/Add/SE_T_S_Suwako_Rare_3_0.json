@@ -2,7 +2,7 @@
     "SE_T_S_Suwako_Rare_3_0": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 600,
+        "DMG_Per": 1024,
         "CRI": 50
     }
 }

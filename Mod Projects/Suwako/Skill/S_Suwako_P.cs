@@ -22,7 +22,11 @@ namespace Suwako
     {
         public void SelfAddToDeck(SkillLocation skillLoaction)
         {
-            BattleSystem.instance.AllyTeam.Skills_Deck.Remove(this.MySkill);
+            //BattleSystem.instance.AllyTeam.Skills_Deck.Remove(this.MySkill);
+            if (BattleSystem.instance.AllyTeam.Skills_Deck.Find((Skill a) => a.CharinfoSkilldata == this.MySkill.CharinfoSkilldata) != null)
+            {
+                BattleSystem.instance.AllyTeam.Skills_Deck.Remove(BattleSystem.instance.AllyTeam.Skills_Deck.Find((Skill a) => a.CharinfoSkilldata == this.MySkill.CharinfoSkilldata));
+            }
         }
     }
 }

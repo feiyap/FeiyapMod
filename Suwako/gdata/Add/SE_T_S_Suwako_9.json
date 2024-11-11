@@ -1,8 +1,10 @@
 {
-    "SE_S_S_Ralmia_13Rare_0": {
+    "SE_T_S_Suwako_9": {
         "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 85,
         "Buffs": [
-            "B_Ralmia_13Rare_0"
+            "B_Suwako_Dot"
         ],
         "BuffPlusTagPer": [
             0

@@ -16,12 +16,8 @@ namespace Suwako
 	/// <summary>
 	/// 蛙休
 	/// </summary>
-    public class B_Suwako_Rare2:Buff, IP_TurnEnd
+    public class B_Suwako_Rare2:Buff
     {
-        public void TurnEnd()
-        {
-            BattleSystem.instance.AllyTeam.Draw(this.StackNum);
-            this.SelfDestroy();
-        }
+
     }
 }

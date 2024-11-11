@@ -29,8 +29,7 @@ namespace Ralmia
         
         public IEnumerator Draw()
         {
-            Skill skill2 = BattleSystem.instance.AllyTeam.Skills_Deck.Find((Skill skill) => (skill.MySkill.KeyID == "S_Ralmia_0" || skill.MySkill.KeyID == "S_Ralmia_1" || skill.MySkill.KeyID == "S_Ralmia_2"
-            || skill.MySkill.KeyID == "S_Ralmia_3" || skill.MySkill.KeyID == "S_Ralmia_10Rare" || skill.MySkill.KeyID == "S_Ralmia_13Rare" || skill.MySkill.KeyID == "S_Ralmia_13Rare_0" || skill.MySkill.KeyID == "S_Ralmia_13Rare_1" || skill.MySkill.KeyID == "S_Ralmia_13Rare_2"));
+            Skill skill2 = BattleSystem.instance.AllyTeam.Skills_Deck.Find((Skill skill) => skill.ExtendedFind_DataName("SkillEn_Ralmia_2") != null);
             if (skill2 == null)
             {
                 BattleSystem.instance.AllyTeam.Draw();
@@ -42,6 +41,7 @@ namespace Ralmia
             {
                 yield return BattleSystem.instance.StartCoroutine(BattleSystem.instance.AllyTeam._ForceDraw(skill2, null));
             }
+
             yield return null;
             yield break;
         }

@@ -4,7 +4,7 @@
         "BuffTag": "null",
         "MaxStack": 1,
         "Name": "机械解放",
-        "Description": "每次打出创造物技能时，获得1点费用，抽1张技能。",
+        "Description": "每次打出<color=#97FFFF>创造物</color>技能时，恢复1点法力值，抽1张技能。",
         "Icon": "B_Ralmia_0\\B_Ralmia_0_Icon.png",
         "Hide": false,
         "IsFieldBuff": false,

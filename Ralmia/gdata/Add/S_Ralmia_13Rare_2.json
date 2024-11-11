@@ -4,11 +4,11 @@
         "Category": "null",
         "Rare": false,
         "Name": "加农的创造物",
-        "Description": "这个回合每打出1张创造物技能，额外造成&a点额外伤害。\n 当前额外伤害：&b",
+        "Description": "这个回合每打出1个<color=#97FFFF>创造物</color>技能，额外造成%a(25%)伤害。\n 当前额外伤害：&b",
         "UseAp": 1,
         "Particle": "Particle/Azar/Azar_0_new",
         "Target": "enemy",
-        "Effect_Self": "SE_S_S_Ralmia_13Rare_2",
+        "Effect_Self": "null",
         "Effect_Target": "SE_T_S_Ralmia_13Rare_2",
         "NotCount": true,
         "NODOD": false,
@@ -32,7 +32,7 @@
             "Ralmia.S_Ralmia_13Rare_2"
         ],
         "SKillExtendedItem": [
-            "SkillEn_Ralmia_0"
+            "SkillEn_Ralmia_2"
         ]
     }
 }

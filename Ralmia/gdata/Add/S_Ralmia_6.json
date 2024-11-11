@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "生命量产",
-        "Description": "选择手中的1个创造物技能。使其费用减少1点，生成3个附带放逐的复制到牌库中。",
+        "Description": "只能选择<color=#97FFFF>创造物</color>技能。\n使其费用减少1点，生成3张附带放逐的复制到牌库中。",
         "Target": "skill",
         "Particle": "Particle/Joey/Joey_4",
         "UseAp": 0,

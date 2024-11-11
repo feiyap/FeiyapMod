@@ -2,9 +2,9 @@
     "B_Ralmia_P": {
         "_gdeSchema": "Buff",
         "BuffTag": "null",
-        "MaxStack": 99,
-        "Name": "创造物种类",
-        "Description": "",
+        "MaxStack": 1,
+        "Name": "<color=#97FFFF>创造物</color>种类",
+        "Description": "本场战斗中，使用的<color=#97FFFF>创造物</color>种类为 &a 种。",
         "Icon": "B_Ralmia_P\\B_Ralmia_P_Icon.png",
         "Hide": false,
         "IsFieldBuff": false,

@@ -40,14 +40,16 @@ namespace Suwako
         private IEnumerator Del()
         {
             yield return new WaitForFixedUpdate();
+
             int num = 0;
             int num2;
             for (num2 = 0; num2 < BattleSystem.instance.AllyTeam.Skills.Count; num2++)
             {
-                BattleSystem.instance.AllyTeam.Skills[num2].Delete();
+                yield return CustomMethods.I_SkillBackToDeck(BattleSystem.instance.AllyTeam.Skills[num2], -1, true);
                 num++;
                 num2--;
             }
+
             yield return new WaitForFixedUpdate();
             yield return new WaitForSeconds(0.5f);
         }

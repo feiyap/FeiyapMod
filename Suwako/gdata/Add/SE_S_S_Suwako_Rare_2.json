@@ -1,8 +1,8 @@
 {
-    "SE_S_S_Ralmia_1": {
+    "SE_S_S_Suwako_Rare_2": {
         "_gdeSchema": "SkillEffect",
         "Buffs": [
-            "B_Ralmia_4"
+            "B_Suwako_Rare2"
         ],
         "BuffPlusTagPer": [
             0

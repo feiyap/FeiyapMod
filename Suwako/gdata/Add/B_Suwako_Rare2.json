@@ -1,14 +1,17 @@
 {
     "B_Suwako_Rare2": {
         "_gdeSchema": "Buff",
-        "Hide": true,
+        "Hide": false,
         "IsFieldBuff": false,
         "Cantdisable": false,
         "ClassName": "Suwako.B_Suwako_Rare2",
         "BuffTag": "null",
         "UseSkillDebuff": false,
         "Caution": false,
-        "Name": "蛙休",
-        "MaxStack": 10
+        "Name": "风雨皆息",
+        "MaxStack": 1,
+        "Description": "触发<color=#008B45>旋回</color>或释放手中的0费技能时，立即触发1次自己施加的[风雨已至]的伤害，但只造成50%的伤害量。",
+        "LifeTime": 5,
+        "Icon": "B_Suwako_Rare2\\B_Suwako_Rare2_Icon.png"
     }
 }

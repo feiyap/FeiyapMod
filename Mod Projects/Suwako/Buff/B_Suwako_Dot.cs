@@ -17,7 +17,7 @@ namespace Suwako
 	/// <summary>
 	/// 风雨已至
 	/// </summary>
-    public class B_Suwako_Dot:Buff, IP_OnSkillAddToDeck, IP_SkillUse_Team
+    public class B_Suwako_Dot:Buff, IP_OnSkillAddToDeck, IP_SkillUseHand_Team
     {
         public int count;
 
@@ -34,17 +34,35 @@ namespace Suwako
             count++;
             this.PlusDamageTick = count;
 
+            if (Usestate_F.BuffFind("B_Suwako_Rare2"))
+            {
+                BattleSystem.DelayInput(this.Damage());
+            }
+
             yield return null;
             yield break;
         }
 
-        public void SkillUseTeam(Skill skill)
+        public void SKillUseHand_Team(Skill skill)
         {
-            if (((!skill.NotCount && skill.AP <= 1) || skill.AP <= 0))
+            if ((!skill.NotCount && skill.AP <= 1) || skill.AP <= 0)
             {
                 count++;
                 this.PlusDamageTick = count;
+
+                if (Usestate_F.BuffFind("B_Suwako_Rare2"))
+                {
+                    BattleSystem.DelayInput(this.Damage());
+                }
             }
+        }
+
+        public IEnumerator Damage()
+        {
+            yield return new WaitForSeconds(0.07f);
+            AddressableLoadManager.Instantiate(new GDEGameobjectDatasData(GDEItemKeys.GameobjectDatas_StigmaExplosion).Gameobject_Path, AddressableLoadManager.ManageType.Character).transform.position = this.BChar.GetTopPos();
+            this.BChar.Damage(base.Usestate_F, (int)((base.Usestate_F.GetStat.atk * 0.2 + count) * this.StackNum / 2), false, true);
+            yield break;
         }
     }
 }

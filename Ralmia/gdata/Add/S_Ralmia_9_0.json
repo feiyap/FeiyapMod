@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "典范转移",
-        "Description": "持有在手上时，每打出1个创造物技能，减少1点费用。\n选择 - 从[守御的创造物] [锋锐的创造物] [迅袭的创造物] 中选1张打出。",
+        "Description": "握在手上时，每打出1张<color=#97FFFF>创造物</color>技能，减少1点费用。\n选择 - 从[守御的创造物] [锋锐的创造物] [迅袭的创造物] 中选1张打出。",
         "Target": "choiceskill",
         "Effect_Target": "null",
         "Image_0": "S_Ralmia_9_0\\S_Ralmia_9_0_Image_0.png",

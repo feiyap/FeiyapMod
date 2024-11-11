@@ -22,15 +22,7 @@ namespace Ralmia
         public override bool SkillTargetSelectExcept(Skill ExceptSkill)
         {
             bool isArtifact = false;
-            if (ExceptSkill.MySkill.KeyID == "S_Ralmia_0" ||
-                ExceptSkill.MySkill.KeyID == "S_Ralmia_1" ||
-                ExceptSkill.MySkill.KeyID == "S_Ralmia_2" ||
-                ExceptSkill.MySkill.KeyID == "S_Ralmia_3" ||
-                ExceptSkill.MySkill.KeyID == "S_Ralmia_10Rare" ||
-                ExceptSkill.MySkill.KeyID == "S_Ralmia_13Rare" ||
-                ExceptSkill.MySkill.KeyID == "S_Ralmia_13Rare_0" ||
-                ExceptSkill.MySkill.KeyID == "S_Ralmia_13Rare_1" ||
-                ExceptSkill.MySkill.KeyID == "S_Ralmia_13Rare_2")
+            if (ExceptSkill.ExtendedFind_DataName("SkillEn_Ralmia_2") != null)
             {
                 isArtifact = true;
             }

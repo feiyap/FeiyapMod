@@ -6,7 +6,7 @@
         "Target": "enemy",
         "User": "Ralmia",
         "UseAp": 2,
-        "Particle": "Particle/Buff",
+        "Particle": "Particle/flare_lv1",
         "Effect_Target": "SE_T_S_Ralmia_2",
         "Image_0": "S_Ralmia_2\\S_Ralmia_2_Image_0.png",
         "Image_1": "S_Ralmia_2\\S_Ralmia_2_Image_1.png",
@@ -24,8 +24,8 @@
         "Basic": false,
         "Track": false,
         "Fatal": false,
-        "Description": "创造物。\n打出后抽取1个技能。治疗自己%a点体力值。",
-        "Effect_Self": "SE_S_S_Ralmia_2",
+        "Description": "抽取1个技能。治疗自己%a点体力值。",
+        "Effect_Self": "null",
         "PlusKeyWords": [
             "KeyWord_Artifact"
         ],
@@ -33,7 +33,7 @@
             "Ralmia.S_Ralmia_2"
         ],
         "SKillExtendedItem": [
-            "SkillEn_Ralmia_0"
+            "SkillEn_Ralmia_2"
         ]
     }
 }

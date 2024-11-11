@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "创造物的扫描",
-        "Description": "从弃牌堆中选择2个技能拿回手牌。\n如果选择的是创造物技能，费用变为0。",
+        "Description": "从弃牌堆中选择2个技能到手牌。\n如果选择的是<color=#97FFFF>创造物</color>技能，使其费用变为0。",
         "User": "LucyDraw",
         "LucyPartyDraw": "Ralmia",
         "Target": "Misc",

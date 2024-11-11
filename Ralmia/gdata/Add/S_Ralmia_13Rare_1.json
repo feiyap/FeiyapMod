@@ -4,18 +4,18 @@
         "Category": "null",
         "Rare": false,
         "Name": "守卫的创造物",
-        "Description": "免疫受伤1次。恢复%a点体力值。",
+        "Description": "免疫下次受到的伤害。\n恢复%a(100%)点体力值。",
         "UseAp": 0,
         "Particle": "Particle/Buff",
         "Target": "ally",
-        "Effect_Self": "SE_S_S_Ralmia_13Rare_1",
+        "Effect_Self": "null",
         "Effect_Target": "SE_T_S_Ralmia_13Rare_1",
         "NotCount": true,
         "NODOD": false,
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": true,
-        "NoDrop": false,
+        "NoDrop": true,
         "IgnoreTaunt": false,
         "Except": true,
         "NoBasicSkill": false,
@@ -31,8 +31,9 @@
         "SkillExtended": [
             "Ralmia.S_Ralmia_13Rare_1"
         ],
+        "PlusSkillView": "S_Ralmia_13Rare_2",
         "SKillExtendedItem": [
-            "SkillEn_Ralmia_0"
+            "SkillEn_Ralmia_2"
         ]
     }
 }

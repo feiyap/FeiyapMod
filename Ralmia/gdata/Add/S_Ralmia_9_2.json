@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "锋锐的创造物",
-        "Description": "超额恢复自己%a点体力值。",
+        "Description": "超额恢复自己%a(150%)点体力值。",
         "Particle": "Particle/Ilya/Ilya_4",
         "Target": "enemy",
         "Effect_Target": "SE_T_S_Ralmia_9_2",
@@ -32,7 +32,7 @@
             "KeyWord_Artifact"
         ],
         "SKillExtendedItem": [
-            "SkillEn_Ralmia_0"
+            "SkillEn_Ralmia_2"
         ]
     }
 }

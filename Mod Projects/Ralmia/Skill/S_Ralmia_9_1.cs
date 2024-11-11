@@ -17,7 +17,7 @@ namespace Ralmia
 	/// 守御的创造物
 	/// 秒杀非精英和BOSS单位。
 	/// </summary>
-    public class S_Ralmia_9_1:Skill_Extended, IP_DamageChange
+    public class S_Ralmia_9_1: SkillEn_Ralmia_0, IP_DamageChange
     {
         public override void Special_PointerEnter(BattleChar Char)
         {
@@ -71,20 +71,6 @@ namespace Ralmia
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            if (this.BChar.BuffFind("B_Ralmia_0", false))
-            {
-                BattleSystem.instance.AllyTeam.Draw();
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
-
-            if (this.BChar.BuffFind("B_Ralmia_1", false))
-            {
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
         }
     }
 }

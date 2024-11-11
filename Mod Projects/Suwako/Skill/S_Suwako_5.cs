@@ -78,7 +78,7 @@ namespace Suwako
 
         public IEnumerator Return(Skill skill)
         {
-            yield return CustomMethods.I_SkillBackToDeck(skill);
+            yield return CustomMethods.I_SkillBackToDeck(skill, -1, true);
 
             yield return null;
             yield break;
@@ -95,6 +95,10 @@ namespace Suwako
         public void Del(SkillButton Mybutton)
         {
             Mybutton.Myskill.Master.MyTeam.ForceDraw(Mybutton.Myskill);
+            Skill_Extended se = new Skill_Extended();
+            se.Fatal = true;
+            se.NotCount = true;
+            Mybutton.Myskill.ExtendedAdd(se);
         }
 
         public void SelfAddToDeck(SkillLocation skillLoaction)

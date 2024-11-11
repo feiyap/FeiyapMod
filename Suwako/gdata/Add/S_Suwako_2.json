@@ -6,7 +6,7 @@
         "Target": "enemy",
         "IgnoreTaunt": false,
         "Name": "源符「厌川的翡翠」",
-        "Description": "生成1个[南风灵]。\n\n<color=#008B45>旋回</color> - 生成2个[风灵]。",
+        "Description": "生成2个[南风灵]。\n\n<color=#008B45>旋回</color> - 生成2个[风灵]。",
         "UseAp": 2,
         "User": "Suwako",
         "NotCount": true,
@@ -22,6 +22,17 @@
         ],
         "PlusKeyWords": [
             "Keyword_Return"
-        ]
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

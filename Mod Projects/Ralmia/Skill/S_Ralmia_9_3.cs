@@ -17,26 +17,11 @@ namespace Ralmia
 	/// 迅袭的创造物
 	/// 重复触发1次。
 	/// </summary>
-    public class S_Ralmia_9_3:Skill_Extended
+    public class S_Ralmia_9_3: SkillEn_Ralmia_0
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             BattleSystem.DelayInput(this.Damage(Targets[0]));
-
-            if (this.BChar.BuffFind("B_Ralmia_0", false))
-            {
-                BattleSystem.instance.AllyTeam.Draw();
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
-
-            if (this.BChar.BuffFind("B_Ralmia_1", false))
-            {
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
         }
 
         public IEnumerator Damage(BattleChar Target)

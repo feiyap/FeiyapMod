@@ -24,6 +24,14 @@
         "Fatal": false,
         "SkillExtended": [
             "Suwako.S_Suwako_7"
-        ]
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "PlusSkillView": "S_Suwako_P"
     }
 }

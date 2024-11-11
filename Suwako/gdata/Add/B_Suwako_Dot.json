@@ -10,11 +10,11 @@
         "Caution": false,
         "Name": "风雨已至",
         "Icon": "B_Suwako_Dot\\B_Suwako_Dot_Icon.png",
-        "Description": "每次触发<color=#008B45>旋回</color>时，使该减益的伤害增加2点。",
+        "Description": "每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加1点。",
         "Debuff": true,
         "TagPer": 120,
         "Tick": "SE_Tick_B_Suwako_Dot",
         "LifeTime": 4,
-        "MaxStack": 3
+        "MaxStack": 2
     }
 }

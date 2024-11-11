@@ -51,7 +51,7 @@ namespace Suwako
 
         public void Del(SkillButton Mybutton)
         {
-            BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(Mybutton.Myskill, -1, false));
+            BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(Mybutton.Myskill, -1, true));
         }
     }
 }

@@ -4,7 +4,7 @@
     "Visibility": "Public",
     "Title": "【CN】洩矢诹访子 ~ 东方风神录",
     "Author": "绯夜氏",
-    "Version": "v1.0",
+    "Version": "v1.3",
     "Dependencies": [
         "BasicMethods"
     ],
@@ -12,5 +12,8 @@
         "Characters"
     ],
     "Cover": "SuwakoCover.png",
-    "Description": ""
+    "Description": "[h1]本Mod基于“BasicMethods”Mod制作。应用本Mod之前，请先订阅“BasicMethods”Mod，并在游戏-创意工坊中将“BasicMethods”Mod置于所有Mod最上方（请至少放在本Mod上方）。感谢贰玖君为本Mod提供的大量技术支持。[/h1]\n\n洩矢诹访子是拥有独特玩法“旋回”的连击型输出。\n\n洩矢诹访子不仅拥有能从“连击”中获益的能力，还拥有“旋回”能力：藉由不断返回牌库，她手中的铁轮能够无限积累伤害，逐渐成长为可怕的怪物；而附着在敌人身上的“某种东西”，也会逐渐积累成一种诅咒。\n\n试着结合风灵系的调查员，在扭曲之地刮起旋回的风吧！\n\n包含1个角色。拥有10个基础技能，3个稀有技能，1个露西抽牌技能。",
+    "WorkShopId": "3362186120",
+    "OnlyUploadFiles": true,
+    "ChangeNote": "2024/11/10\nv1.3\n修复了部分已知BUG。\n修复了部分文本异常。"
 }

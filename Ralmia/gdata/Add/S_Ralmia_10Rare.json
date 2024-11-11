@@ -4,12 +4,12 @@
         "Category": "null",
         "Rare": true,
         "Name": "宇宙之翼·洛菈米娅",
-        "Description": "若[本场战斗中，使用的创造物种类]为6种以上，额外对所有敌人造成%a点伤害。",
+        "Description": "若 [本场战斗中，使用的<color=#97FFFF>创造物</color>种类] 为6种以上，额外对所有敌人造成%a(150%)点伤害。",
         "UseAp": 2,
         "Particle": "Particle/Twins/Sel_0",
         "Target": "enemy",
         "User": "Ralmia",
-        "Effect_Self": "SE_S_S_Ralmia_10Rare",
+        "Effect_Self": "null",
         "Effect_Target": "SE_T_S_Ralmia_10Rare",
         "NotCount": true,
         "NODOD": false,
@@ -33,7 +33,9 @@
             "Ralmia.S_Ralmia_10Rare"
         ],
         "SKillExtendedItem": [
-            "SkillEn_Ralmia_0"
-        ]
+            "SkillEn_Ralmia_2"
+        ],
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

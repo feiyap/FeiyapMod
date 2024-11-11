@@ -5,7 +5,7 @@
         "Particle": "Particle/Ilya/Ilya_9_First",
         "Target": "enemy",
         "Name": "蛙狩「蛙以口鸣，方致蛇祸」",
-        "Description": "这个技能握在手中时，每次触发<color=#008B45>旋回</color>时，恢复自己&a(20%)体力值，恢复1点法力值，并使这个技能向上移动一次。\n\n到达手牌最上方后，丢弃这个技能。\n\n<color=#008B45>旋回</color> - 对随机敌人释放后，将这个技能抽回手中。",
+        "Description": "使所有其他技能返回牌库。那之后，每个返回牌库的技能使这个技能造成额外&a(60%)伤害。",
         "Rare": true,
         "UseAp": 3,
         "NotCount": true,
@@ -31,6 +31,7 @@
         "PlusKeyWords": [
             "Keyword_Return"
         ],
-        "Effect_Target": "SE_T_S_Suwako_Rare_1"
+        "Effect_Target": "SE_T_S_Suwako_Rare_1",
+        "User": "Suwako"
     }
 }

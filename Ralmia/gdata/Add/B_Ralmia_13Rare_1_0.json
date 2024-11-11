@@ -8,13 +8,13 @@
         "Icon": "B_Ralmia_13Rare_1_0\\B_Ralmia_13Rare_1_0_Icon.png",
         "Hide": false,
         "IsFieldBuff": false,
-        "Cantdisable": true,
+        "Cantdisable": false,
         "Debuff": false,
         "TagPer": 0,
         "UseSkillDebuff": false,
         "Caution": false,
         "Tick": "null",
         "LifeTime": 0,
-        "ClassName": ""
+        "ClassName": "Ralmia.B_Ralmia_13Rare_1_0"
     }
 }

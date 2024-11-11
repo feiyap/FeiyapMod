@@ -14,15 +14,10 @@ using Debug = UnityEngine.Debug;
 namespace Ralmia
 {
 	/// <summary>
-	/// 创造术
-	/// 回合结束时抽取一张技能。
+	/// 创造物（标记）
 	/// </summary>
-    public class B_Ralmia_7:Buff, IP_TurnEnd
+    public class SkillEn_Ralmia_2:Skill_Extended
     {
-        public void TurnEnd()
-        {
-            BattleSystem.instance.AllyTeam.Draw();
-            base.SelfDestroy(false);
-        }
+
     }
 }

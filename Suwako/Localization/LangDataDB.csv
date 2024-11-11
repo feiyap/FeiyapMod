@@ -1,0 +1,113 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Suwako_3_Description,Text,,,,,每个回合使用第4个技能时，将1个0费的[土著神「御射军神大人」]加入手中。,
+Buff/B_Suwako_3_Name,Text,,,,,风雨御射,
+Buff/B_Suwako_8_Description,Text,,,,,下次触发<color=#008B45>旋回</color>效果时，使被<color=#008B45>旋回</color>的技能在本场战斗中增加&a(120%)伤害或&b(195%)治疗量。,
+Buff/B_Suwako_8_Name,Text,,,,,风雨欲来,
+Buff/B_Suwako_Dot_Description,Text,,,,,每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加1点。,
+Buff/B_Suwako_Dot_Name,Text,,,,,风雨已至,
+Buff/B_Suwako_Rare2_Description,Text,,,,,触发<color=#008B45>旋回</color>，或所有队友释放手中的0费技能时，立即触发1次自己施加的[风雨已至]的伤害，但只造成一半的伤害量。,
+Buff/B_Suwako_Rare2_Name,Text,,,,,风雨皆息,
+Character/Suwako_CampSelectWord,Text,,,,,更加地敬畏大地吧。不然被诅咒也说不定哟？嘿嘿。,
+Character/Suwako_PassiveDes,Text,,,,,"<b>明日之盛，昨日之俗</b> - 战斗开始时，将技能组第1个技能放在牌堆顶。
+
+<b>创造坤程度的能力</b> - 回合结束时，将手中最上方的技能放回牌库最上方，那之后，抽取1个技能。
+
+<b><color=green>连击X</color></b> - 每个回合中使用过的技能大于X个时，可以触发额外效果。
+
+<b><color=#008B45>旋回</color></b> - 洩矢诹访子的部分技能从手牌或弃牌堆回到牌库时，会触发额外效果。",
+Character/Suwako_PassiveName,Text,,,,,土著神的顶点,
+Character/Suwako_SelectInfo,Text,,,,,"洩矢诹访子是拥有独特玩法“旋回”的连击型输出。
+
+洩矢诹访子不仅拥有能从“连击”中获益的能力，还拥有“旋回”能力：藉由不断返回牌库，她手中的铁轮能够无限积累伤害，逐渐成长为可怕的怪物；而附着在敌人身上的“某种东西”，也会逐渐积累成一种诅咒。
+
+试着结合风灵系的调查员，在扭曲之地刮起旋回的风吧！",
+Character/Suwako_Text_Battle_AllyND_0,Text,,,,,神明可以通过信仰复生，但你可千万别死了哟？,
+Character/Suwako_Text_Battle_Cri_0,Text,,,,,感受神明的愤怒吧！,
+Character/Suwako_Text_Battle_Cri_1,Text,,,,,感受神明的愤怒吧！虽说我也没有很生气。,
+Character/Suwako_Text_Battle_Healed_0,Text,,,,,青蛙面对寒冷是很弱的啊——。那是不和自然相违背的最自然的生存方式哟。,
+Character/Suwako_Text_Battle_Idle_0,Text,,,,,再磨磨蹭蹭的，我可要冬眠了。,
+Character/Suwako_Text_Battle_Kill_0,Text,,,,,好了，消灭证据，消灭证据。被发现在这里欺负人可有损神明的威严呢。,
+Character/Suwako_Text_Battle_Kill_1,Text,,,,,快点快点，还有多余的时间！再战，再战！,
+Character/Suwako_Text_Battle_ND_0,Text,,,,,建立了一个国家的我，竟然会输……？,
+Character/Suwako_Text_Battle_Start_0,Text,,,,,啊，要不要玩玩看呢。“世界末日”。,
+Character/Suwako_Text_Battle_Start_1,Text,,,,,「祭典」别名是「歌舞奉神」，也就是神和人类一起玩！,
+Character/Suwako_Text_Field_Idle_0,Text,,,,,我们日本的神明可是来者不拒？都八百万了，还有什么好拒的。,
+Character/Suwako_Text_MasterTarget,Text,,,,,没事的啦。只要还有人记得我，我就永远不会消失。交给我吧。,
+Character/Suwako_Text_PharosLeader_0,Text,,,,,哎呀，你真的以为就凭你可以控制神明？,
+Character/Suwako_Text_PharosLeader_1,Text,,,,,啊，这就结束了？太无聊了。,
+Character/Suwako_Text_PharosLeader_2,Text,,,,,偶尔陪你们玩玩也不错呢。,
+Character/Suwako_Text_Witch_0,Text,,,,,居然敢对神明施加这种不洁的诅咒。胆子真大。,
+Character/Suwako_Text_Witch_1,Text,,,,,就算是神明，也是会吃不消的哟？,
+Character/Suwako_name,Text,,,,,洩矢诹访子,
+Character_Skin/SuwakoEclips_SkinDesc,Text,,,,,"乍看之下是可爱的女孩子，天真无邪的笑容让人感到亲切。
+但仔细盯着的话就会察觉笑容下隐藏的异质感。
+那只是模仿人类的行为。
+「神」不懂何为欢笑。
+「神」不懂何为人类。
+敬畏吧。",
+Character_Skin/SuwakoEclips_SkinName,Text,,,,,土著神的顶点,
+Skill/S_FSL_Common_Description,Text,,,,,"指向敌人时，造成&a(40%)伤害。指向友军时，恢复&b(65%)体力。
+
+<b><color=green>连击2</color></b> - 获得一次性。",
+Skill/S_FSL_Common_Name,Text,,,,,风灵,
+Skill/S_Suwako_0_Description,Text,,,,,"<color=green>连击2</color> - 释放后返回牌组。
+<color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(60%)点。",
+Skill/S_Suwako_0_Name,Text,,,,,神具「洩矢的铁轮」,
+Skill/S_Suwako_1_Description,Text,,,,,"<color=green>连击4</color> - 必定暴击。
+<color=#008B45>旋回</color> - 对随机敌人释放后抽取1个技能。",
+Skill/S_Suwako_1_Name,Text,,,,,源符「诹访清水」,
+Skill/S_Suwako_2_Description,Text,,,,,"生成2个[南风灵]。
+
+<color=#008B45>旋回</color> - 生成2个[风灵]。",
+Skill/S_Suwako_2_Name,Text,,,,,源符「厌川的翡翠」,
+Skill/S_Suwako_3_Description,Text,,,,,<color=#008B45>旋回</color> - 放逐这个技能，恢复2点法力值。,
+Skill/S_Suwako_3_Name,Text,,,,,土著神「御射军神大人」,
+Skill/S_Suwako_4_Description,Text,,,,,<color=#008B45>旋回</color> - 对随机敌人施加2层[风雨已至]。,
+Skill/S_Suwako_4_Name,Text,,,,,土著神「宝永四年的赤蛙」,
+Skill/S_Suwako_5_Description,Text,,,,,"打出时，将手中最下方的1个技能放回牌库。那之后，抽取1个技能。
+
+<color=green>连击4</color> - 效果变为“打出时，将手中最下方的1个技能放回牌库。那之后，从牌库中选择1个技能抽取。”。
+<color=#008B45>旋回</color> - 展示牌堆最下方的3个技能，选择1个加入手中。使选择的技能获得迅速、致命。",
+Skill/S_Suwako_5_Name,Text,,,,,土著神「手长足长大人」,
+Skill/S_Suwako_6_Description,Text,,,,,"将手中最上方的技能放回牌库，抽取1个技能。
+
+<color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。",
+Skill/S_Suwako_6_Name,Text,,,,,土著神「洩矢神」,
+Skill/S_Suwako_7_Description,Text,,,,,"生成1个[风灵]和1个[南风灵]。
+
+<color=#008B45>旋回</color> - 选择手中1个技能放回牌库，抽取1个技能。",
+Skill/S_Suwako_7_Name,Text,,,,,土著神「七石七木」,
+Skill/S_Suwako_8_Name,Text,,,,,土著神「小小青蛙不输风雨」,
+Skill/S_Suwako_9_Description,Text,,,,,<color=green>连击4</color> - 必定暴击。,
+Skill/S_Suwako_9_Name,Text,,,,,祟符「御社宫司大人」,
+Skill/S_Suwako_LucyD_Description,Text,,,,,将手中最下面的技能放回牌库，抽取3个技能。,
+Skill/S_Suwako_LucyD_Name,Text,,,,,开宴「二拜二拍一拜」,
+Skill/S_Suwako_P_Description,Text,,,,,<color=#008B45>旋回</color> - 放逐这个技能。,
+Skill/S_Suwako_P_Name,Text,,,,,南风灵,
+Skill/S_Suwako_Rare_1_Description,Text,,,,,使所有其他技能返回牌库。那之后，每个返回牌库的技能使这个技能造成额外&a(60%)伤害。,
+Skill/S_Suwako_Rare_1_Name,Text,,,,,蛙狩「蛙以口鸣，方致蛇祸」,
+Skill/S_Suwako_Rare_2_Description,Text,,,,,释放时如果场上没有[风雨已至]，使随机敌人获得1层[风雨已至]。,
+Skill/S_Suwako_Rare_2_Name,Text,,,,,蛙休「总是能够冬眠」,
+Skill/S_Suwako_Rare_3_0_Description,Text,,,,,这个技能必定命中，无视防御。,
+Skill/S_Suwako_Rare_3_0_Name,Text,,,,,祟神「赤口大人」,
+Skill/S_Suwako_Rare_3_1_Description,Text,,,,,重复释放1次，然后抽取1个技能，并使这个技能获得1层<color=#FF0000>苏醒</color>。,
+Skill/S_Suwako_Rare_3_1_Name,Text,,,,,重复释放,
+Skill/S_Suwako_Rare_3_2_Description,Text,,,,,丢弃这个技能。,
+Skill/S_Suwako_Rare_3_2_Name,Text,,,,,什么都不做,
+Skill/S_Suwako_Rare_3_3_Name,Text,,,,,蛙符「涂有鲜血的赤蛙塚」,
+Skill/S_Suwako_Rare_3_Description,Text,,,,,"将目标技能放回牌库最下方。释放后，将这个技能拿回手中。
+
+那之后，选择 - 重复释放1次，然后抽取1个技能，并使这个技能获得1层<color=#FF0000>苏醒</color>；或是丢弃这个技能。
+
+当这个技能获得5层<color=#FF0000>苏醒</color>时，放逐这个技能，将1个[蛙符「涂有鲜血的赤蛙塚」]置入弃牌库，将1个[祟神「赤口大人」]加入手中。
+
+当前<color=#FF0000>苏醒</color>层数：&a
+&b",
+Skill/S_Suwako_Rare_3_Name,Text,,,,,蛙符「涂有鲜血的赤蛙塚」,
+SkillExtended/SE_Suwako_Rare2_Des,Text,,,,,,
+SkillExtended/SE_Suwako_Rare2_Name,Text,,,,,造成&a(40%)额外伤害或&b(65%)额外治疗。,
+SkillExtended/SkillExtend_Suwako_Name,Text,,,,,诹访子基类,
+SkillKeyword/Keyword_Combo_Desc,Text,,,,,每个回合中使用过的技能大于X个时，可以触发额外效果。,
+SkillKeyword/Keyword_Combo_Name,Text,,,,,<color=green>连击</color></b>,
+SkillKeyword/Keyword_Return_Desc,Text,,,,,从手牌或弃牌库加入牌库时，会触发额外效果。,
+SkillKeyword/Keyword_Return_Name,Text,,,,,<color=#008B45>旋回</color>,

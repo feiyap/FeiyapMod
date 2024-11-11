@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "创造物的呼唤",
-        "Description": "优先抽取2个创造物技能。每少抽取1个创造物技能，回复1点费用。",
+        "Description": "优先抽取2个<color=#97FFFF>创造物</color>技能。\n每少抽取1个<color=#97FFFF>创造物</color>技能，回复1点费用。",
         "UseAp": 2,
         "Particle": "Particle/flare_lv1",
         "User": "Ralmia",

@@ -17,7 +17,7 @@ namespace Ralmia
 	/// 创世的创造物
 	/// 如果这张卡拥有迅速，将1张[守卫的创造物]和1张[防御的创造物]加入手卡。若[本场战斗中，使用的创造物种类」为6种以上，将2张[加农的创造物]加入手卡。
 	/// </summary>
-    public class S_Ralmia_13Rare:Skill_Extended
+    public class S_Ralmia_13Rare: SkillEn_Ralmia_0
     {
         private bool isSpecies;
         private bool useflag;
@@ -34,55 +34,10 @@ namespace Ralmia
             {
                 return;
             }
-            base.FixedUpdate();
             int count = 0;
-            if (this.BChar.BuffFind("B_Ralmia_3", false))
+            if (BattleSystem.instance.GetBattleValue<BV_Artifact>() != null)
             {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_4", false))
-            {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_5", false))
-            {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_6", false))
-            {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_7", false))
-            {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_8", false))
-            {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_9", false))
-            {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_10Rare", false))
-            {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_13Rare", false))
-            {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_13Rare_0", false))
-            {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_13Rare_1", false))
-            {
-                count++;
-            }
-            if (this.BChar.BuffFind("B_Ralmia_13Rare_2", false))
-            {
-                count++;
+                count = BattleSystem.instance.GetBattleValue<BV_Artifact>().UseNum;
             }
             if (count >= 6)
             {
@@ -107,20 +62,7 @@ namespace Ralmia
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (this.BChar.BuffFind("B_Ralmia_0", false))
-            {
-                BattleSystem.instance.AllyTeam.Draw();
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
-
-            if (this.BChar.BuffFind("B_Ralmia_1", false))
-            {
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
+            base.SkillUseSingle(SkillD, Targets);
 
             useflag = true;
             if (this.NotCount || this.MySkill.NotCount)

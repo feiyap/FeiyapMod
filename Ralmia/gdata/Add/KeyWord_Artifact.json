@@ -1,7 +1,7 @@
 {
     "KeyWord_Artifact": {
         "_gdeSchema": "SkillKeyword",
-        "Name": "创造物",
+        "Name": "<color=#97FFFF>创造物</color>",
         "Desc": "远古的神创造出的神器。"
     }
 }

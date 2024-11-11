@@ -4,16 +4,16 @@
     "myValues": {
         "path": "Ralmia\\RalmiaBattleChar.png",
         "offsetMax": {
-            "x": 651.8205,
-            "y": 566.437
+            "x": 655.814148,
+            "y": 558.449463
         },
         "offsetMin": {
-            "x": -886.872131,
-            "y": -972.2556
+            "x": -882.8785,
+            "y": -980.243164
         },
         "pivot": {
-            "x": 0.5763803,
-            "y": 0.6318712
+            "x": 0.5737848,
+            "y": 0.6370624
         }
     },
     "MyChangeType": "BattleChar",

@@ -4,6 +4,11 @@
         "AlwaysParticle": false,
         "Name": "创造物",
         "Des": "",
-        "IsIcon": ""
+        "IsIcon": "",
+        "IsOnesInit": false,
+        "ClassName": "Ralmia.SkillEn_Ralmia_0",
+        "Drop": false,
+        "EnforceString": "",
+        "NeedCharacter": ""
     }
 }

@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "古老的创造物",
-        "Description": "创造物。",
+        "Description": "很快。除此之外没什么特别的。",
         "UseAp": 1,
         "Particle": "Particle/Azar/Azar_S_0",
         "User": "Ralmia",
@@ -31,9 +31,9 @@
         "PlusKeyWords": [
             "KeyWord_Artifact"
         ],
-        "Effect_Self": "SE_S_S_Ralmia_1",
+        "Effect_Self": "null",
         "SKillExtendedItem": [
-            "SkillEn_Ralmia_0"
+            "SkillEn_Ralmia_2"
         ]
     }
 }

@@ -63,10 +63,49 @@
         ],
         "CollectionSprite_Cover": "Suwako\\SuwakoCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "Suwako\\SuwakoCollectionSprite_SkillFace.png",
-        "StatView_Atk": 3,
-        "StatView_Sup": 1,
-        "StatView_Debuff": 1,
+        "StatView_Atk": 2,
+        "StatView_Sup": 0,
+        "StatView_Debuff": 0,
         "StatView_Difficult": 3,
-        "SelectInfo": "洩矢诹访子是拥有独特玩法“旋回”的连击型输出。\n\n洩矢诹访子不仅拥有能从“连击”中获益的能力，还拥有“旋回”能力：藉由不断返回牌库，她手中的铁轮能够无限积累伤害，逐渐成长为可怕的怪物。\n\n试着结合风灵系的调查员，在扭曲之地刮起旋回的风吧！"
+        "SelectInfo": "洩矢诹访子是拥有独特玩法“旋回”的连击型输出。\n\n洩矢诹访子不仅拥有能从“连击”中获益的能力，还拥有“旋回”能力：藉由不断返回牌库，她手中的铁轮能够无限积累伤害，逐渐成长为可怕的怪物；而附着在敌人身上的“某种东西”，也会逐渐积累成一种诅咒。\n\n试着结合风灵系的调查员，在扭曲之地刮起旋回的风吧！",
+        "CampSelectWord": "更加地敬畏大地吧。不然被诅咒也说不定哟？嘿嘿。",
+        "Text_Battle_Kill": [
+            "好了，消灭证据，消灭证据。被发现在这里欺负人可有损神明的威严呢。",
+            "快点快点，还有多余的时间！再战，再战！"
+        ],
+        "Text_Battle_Start": [
+            "啊，要不要玩玩看呢。“世界末日”。",
+            "「祭典」别名是「歌舞奉神」，也就是神和人类一起玩！"
+        ],
+        "Text_Field_Idle": [
+            "我们日本的神明可是来者不拒？都八百万了，还有什么好拒的。"
+        ],
+        "Text_Battle_Healed": [
+            "青蛙面对寒冷是很弱的啊——。那是不和自然相违背的最自然的生存方式哟。"
+        ],
+        "Text_Battle_Idle": [
+            "再磨磨蹭蹭的，我可要冬眠了。"
+        ],
+        "Text_Battle_ND": [
+            "建立了一个国家的我，竟然会输……？"
+        ],
+        "Text_Battle_Cri": [
+            "感受神明的愤怒吧！",
+            "感受神明的愤怒吧！虽说我也没有很生气。"
+        ],
+        "Text_Battle_AllyND": [
+            "神明可以通过信仰复生，但你可千万别死了哟？"
+        ],
+        "Text_PharosLeader": [
+            "哎呀，你真的以为就凭你可以控制神明？",
+            "啊，这就结束了？太无聊了。",
+            "偶尔陪你们玩玩也不错呢。"
+        ],
+        "Text_Witch": [
+            "居然敢对神明施加这种不洁的诅咒。胆子真大。",
+            "就算是神明，也是会吃不消的哟？"
+        ],
+        "Text_MasterTarget": "没事的啦。只要还有人记得我，我就永远不会消失。交给我吧。",
+        "StatView_Dot": 2
     }
 }

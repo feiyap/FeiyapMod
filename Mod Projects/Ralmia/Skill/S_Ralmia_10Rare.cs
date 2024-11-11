@@ -17,7 +17,7 @@ namespace Ralmia
 	/// 宇宙之翼·洛菈米娅
 	/// 若[本场战斗中，使用的创造物种类」为6种以上，额外对所有敌人造成2倍攻击力的伤害。
 	/// </summary>
-    public class S_Ralmia_10Rare:Skill_Extended
+    public class S_Ralmia_10Rare: SkillEn_Ralmia_0
     {
         private bool isSpecies;
         private bool useflag;
@@ -34,8 +34,11 @@ namespace Ralmia
             {
                 return;
             }
-            base.FixedUpdate();
-            int count = this.BChar.BuffReturn("B_Ralmia_P", false).StackNum;
+            int count = 0;
+            if (BattleSystem.instance.GetBattleValue<BV_Artifact>() != null)
+            {
+                count = BattleSystem.instance.GetBattleValue<BV_Artifact>().UseNum;
+            }
             if (count >= 6)
             {
                 this.isSpecies = true;
@@ -59,20 +62,7 @@ namespace Ralmia
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (this.BChar.BuffFind("B_Ralmia_0", false))
-            {
-                BattleSystem.instance.AllyTeam.Draw();
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
-
-            if (this.BChar.BuffFind("B_Ralmia_1", false))
-            {
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
+            base.SkillUseSingle(SkillD, Targets);
 
             useflag = true;
             if (!this.isSpecies)

@@ -4,18 +4,18 @@
         "Category": "null",
         "Rare": false,
         "Name": "防御的创造物",
-        "Description": "目标恢复至当前体力极限。\n清除所有异常状态。",
+        "Description": "恢复目标的所有体力极限。\n解除所有减益效果。",
         "UseAp": 0,
         "Particle": "Particle/Buff",
         "Target": "ally",
-        "Effect_Self": "SE_S_S_Ralmia_13Rare_0",
+        "Effect_Self": "null",
         "Effect_Target": "SE_T_S_Ralmia_13Rare_0",
         "NotCount": true,
         "NODOD": false,
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": true,
-        "NoDrop": false,
+        "NoDrop": true,
         "IgnoreTaunt": false,
         "Except": true,
         "NoBasicSkill": false,
@@ -31,8 +31,9 @@
         "SkillExtended": [
             "Ralmia.S_Ralmia_13Rare_0"
         ],
+        "PlusSkillView": "S_Ralmia_13Rare_1",
         "SKillExtendedItem": [
-            "SkillEn_Ralmia_0"
+            "SkillEn_Ralmia_2"
         ]
     }
 }

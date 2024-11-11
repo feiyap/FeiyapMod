@@ -11,7 +11,7 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "加速装置",
-        "Description": "每次打出创造物技能时，获得1点费用。手中的创造物技能获得迅速。",
+        "Description": "每次打出<color=#97FFFF>创造物</color>技能时，恢复1点法力值。\n手中的<color=#97FFFF>创造物</color>技能获得迅速。",
         "Icon": "B_Ralmia_1\\B_Ralmia_1_Icon.png",
         "LifeTime": 3,
         "MaxStack": 1

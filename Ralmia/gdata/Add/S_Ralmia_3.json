@@ -17,9 +17,9 @@
         "Fatal": true,
         "Name": "绚烂的创造物",
         "Target": "enemy",
-        "Description": "创造物。\n打出后抽取1个技能。",
+        "Description": "抽取1个技能。",
         "Effect_Target": "SE_T_S_Ralmia_3",
-        "Effect_Self": "SE_S_S_Ralmia_3",
+        "Effect_Self": "null",
         "User": "Ralmia",
         "Image_0": "S_Ralmia_3\\S_Ralmia_3_Image_0.png",
         "Image_1": "S_Ralmia_3\\S_Ralmia_3_Image_1.png",
@@ -33,7 +33,7 @@
             "KeyWord_Artifact"
         ],
         "SKillExtendedItem": [
-            "SkillEn_Ralmia_0"
+            "SkillEn_Ralmia_2"
         ]
     }
 }

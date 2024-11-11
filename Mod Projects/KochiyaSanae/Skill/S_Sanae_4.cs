@@ -63,7 +63,7 @@ namespace KochiyaSanae
 
         public IEnumerator Draw(BattleChar battlechar)
         {
-            yield return BattleSystem.instance.AllyTeam._Draw(new BattleTeam.DrawInput(this.DrawInput));
+            yield return BattleSystem.instance.AllyTeam._Draw(1, new BattleTeam.DrawInput(this.DrawInput));
 
             yield return null;
             yield break;

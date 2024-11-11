@@ -18,49 +18,18 @@ namespace Ralmia
 	/// 创造物。
 	/// 打出后抽1张技能。
 	/// </summary>
-    public class S_Ralmia_2:Skill_Extended
+    public class S_Ralmia_2: SkillEn_Ralmia_0
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
+            base.SkillUseSingle(SkillD, Targets);
+
             BattleSystem.instance.AllyTeam.Draw();
-            this.BChar.Heal(this.BChar, (float)((int)((double)this.BChar.GetStat.atk * 1)), false, false, null);
-
-            if (this.BChar.BuffFind("B_Ralmia_0", false))
-            {
-                BattleSystem.instance.AllyTeam.Draw();
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
-
-            if (this.BChar.BuffFind("B_Ralmia_1", false))
-            {
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
-        }
-
-        public override void FixedUpdate()
-        {
-            base.FixedUpdate();
-            if (this.BChar.BuffFind("B_Ralmia_1", false))
-            {
-                if (!this.flag)
-                {
-                    this.flag = true;
-                    base.SkillParticleOn();
-                    this.NotCount = true;
-                    return;
-                }
-            }
         }
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("%a", ((int)(this.BChar.GetStat.atk * 1.0f)).ToString());
+            return base.DescExtended(desc).Replace("%a", ((int)(this.BChar.GetStat.atk * 1f)).ToString());
         }
-
-        public bool flag;
     }
 }

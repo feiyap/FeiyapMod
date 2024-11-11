@@ -11,6 +11,6 @@
         "Characters"
     ],
     "WorkShopId": "3337971709",
-    "ChangeNote": "2024/11/2\nv2.0\n略微提升了早苗的治疗技能倍率。\n更新以适配DLC2版本更新。",
+    "ChangeNote": "2024/11/10\nv2.1\n修复了[客星璀璨之夜]无法抽牌的BUG。",
     "OnlyUploadFiles": true
 }

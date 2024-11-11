@@ -20,7 +20,7 @@ namespace Suwako
     {
         public override string ExtendedDes()
         {
-            return base.ExtendedDes().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.4f)).ToString()).Replace("&b", ((int)(this.BChar.GetStat.reg * 0.65f)).ToString());
+            return base.ExtendedDes().Replace("&a", ((int)(this.BChar.GetStat.atk * 1.2f)).ToString()).Replace("&b", ((int)(this.BChar.GetStat.reg * 1.95f)).ToString());
         }
 
         public override void Init()
@@ -28,11 +28,11 @@ namespace Suwako
             base.Init();
             if (this.MySkill.IsDamage)
             {
-                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.4f);
+                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 1.2f);
             }
             if (this.MySkill.IsHeal)
             {
-                this.SkillBasePlus.Target_BaseHeal = (int)(this.BChar.GetStat.reg * 0.65f);
+                this.SkillBasePlus.Target_BaseHeal = (int)(this.BChar.GetStat.reg * 1.95f);
             }
         }
     }

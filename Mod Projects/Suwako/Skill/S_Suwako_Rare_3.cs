@@ -69,7 +69,7 @@ namespace Suwako
 
         public void Del(SkillButton Mybutton)
         {
-            BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(Mybutton.Myskill, -1, false));
+            BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(Mybutton.Myskill, -1, true));
         }
 
         public IEnumerator Reply()
@@ -165,14 +165,14 @@ namespace Suwako
         public override string DescExtended(string desc)
         {
             int num = 0;
-            if (BattleSystem.instance.GetBattleValue<BV_Suwako_Rare3>() != null)
+            if (BattleSystem.instance != null && BattleSystem.instance.GetBattleValue<BV_Suwako_Rare3>() != null)
             {
                 num = BattleSystem.instance.GetBattleValue<BV_Suwako_Rare3>().UseNum;
             }
             string str = "";
             str = ModManager.getModInfo("Suwako").localizationInfo.SystemLocalizationUpdate("S_Suwako_Rare_3/Text" + num);
 
-            if (!BattleSystem.instance)
+            if (BattleSystem.instance == null)
             {
                 return base.DescExtended(desc).Replace("&a", num.ToString()).Replace("&b", str);
             }

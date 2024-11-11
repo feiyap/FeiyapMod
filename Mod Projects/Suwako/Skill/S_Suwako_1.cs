@@ -42,7 +42,7 @@ namespace Suwako
             if (fixCount >= 12)
             {
                 fixCount = 0;
-                if (CheckUsedSkills(2))
+                if (CheckUsedSkills(4))
                 {
                     base.SkillParticleOn();
                     this.PlusSkillStat.cri = 100f;

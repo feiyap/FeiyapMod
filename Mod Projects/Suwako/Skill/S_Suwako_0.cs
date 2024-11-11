@@ -73,7 +73,7 @@ namespace Suwako
         {
             base.SkillUseSingleAfter(SkillD, Targets);
 
-            if (CheckUsedSkills(4))
+            if (CheckUsedSkills(2))
             {
                 Skill skill = this.MySkill.CloneSkill(true, this.BChar, null, false);
                 skill.isExcept = false;

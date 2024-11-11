@@ -10,16 +10,17 @@ namespace Suwako
         public static string Buff_B_Suwako_3 = "B_Suwako_3";
 		/// <summary>
 		/// 风雨欲来
-		/// 下次触发<color=#008B45>旋回</color>效果时，使被<color=#008B45>旋回</color>的技能在本场战斗中增加&a(40%)伤害或&b(65%)治疗量。
+		/// 下次触发<color=#008B45>旋回</color>效果时，使被<color=#008B45>旋回</color>的技能在本场战斗中增加&a(120%)伤害或&b(195%)治疗量。
 		/// </summary>
         public static string Buff_B_Suwako_8 = "B_Suwako_8";
 		/// <summary>
 		/// 风雨已至
-		/// 每次触发<color=#008B45>旋回</color>时，使该减益的伤害增加2点。
+		/// 每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加1点。
 		/// </summary>
         public static string Buff_B_Suwako_Dot = "B_Suwako_Dot";
 		/// <summary>
-		/// 蛙休
+		/// 风雨皆息
+		/// 触发<color=#008B45>旋回</color>或释放手中的0费技能时，立即触发1次自己施加的[风雨已至]的伤害，但只造成50%的伤害量。
 		/// </summary>
         public static string Buff_B_Suwako_Rare2 = "B_Suwako_Rare2";
 		/// <summary>
@@ -29,7 +30,7 @@ namespace Suwako
         public static string SkillKeyword_Keyword_Combo = "Keyword_Combo";
 		/// <summary>
 		/// <color=#008B45>旋回</color>
-		/// 从手牌或弃牌库加入牌库时，会触发额外效果。
+		/// 技能加入牌库时，会触发额外效果。
 		/// </summary>
         public static string SkillKeyword_Keyword_Return = "Keyword_Return";
 		/// <summary>
@@ -38,6 +39,7 @@ namespace Suwako
         public static string SkillExtended_SE_Suwako_Rare2 = "SE_Suwako_Rare2";
         public static string SkillEffect_SE_S_S_Suwako_3 = "SE_S_S_Suwako_3";
         public static string SkillEffect_SE_S_S_Suwako_8 = "SE_S_S_Suwako_8";
+        public static string SkillEffect_SE_S_S_Suwako_Rare_2 = "SE_S_S_Suwako_Rare_2";
         public static string SkillEffect_SE_Tick_B_Suwako_0 = "SE_Tick_B_Suwako_0";
         public static string SkillEffect_SE_Tick_B_Suwako_Dot = "SE_Tick_B_Suwako_Dot";
         public static string SkillEffect_SE_T_S_FSL_Common = "SE_T_S_FSL_Common";
@@ -47,7 +49,10 @@ namespace Suwako
         public static string SkillEffect_SE_T_S_Suwako_3 = "SE_T_S_Suwako_3";
         public static string SkillEffect_SE_T_S_Suwako_4 = "SE_T_S_Suwako_4";
         public static string SkillEffect_SE_T_S_Suwako_5 = "SE_T_S_Suwako_5";
+        public static string SkillEffect_SE_T_S_Suwako_9 = "SE_T_S_Suwako_9";
         public static string SkillEffect_SE_T_S_Suwako_P = "SE_T_S_Suwako_P";
+        public static string SkillEffect_SE_T_S_Suwako_Rare_1 = "SE_T_S_Suwako_Rare_1";
+        public static string SkillEffect_SE_T_S_Suwako_Rare_2 = "SE_T_S_Suwako_Rare_2";
         public static string SkillEffect_SE_T_S_Suwako_Rare_3_0 = "SE_T_S_Suwako_Rare_3_0";
 		/// <summary>
 		/// 诹访子基类
@@ -83,7 +88,7 @@ namespace Suwako
         public static string Skill_S_Suwako_1 = "S_Suwako_1";
 		/// <summary>
 		/// 源符「厌川的翡翠」
-		/// 生成1个[南风灵]。
+		/// 生成2个[南风灵]。
 		/// <color=#008B45>旋回</color> - 生成2个[风灵]。
 		/// </summary>
         public static string Skill_S_Suwako_2 = "S_Suwako_2";
@@ -121,9 +126,8 @@ namespace Suwako
 		/// </summary>
         public static string Skill_S_Suwako_8 = "S_Suwako_8";
 		/// <summary>
-		/// 神樱「湛樱花吹雪」
-		/// 从手牌和弃牌库中各选择1个技能，将它们放回牌堆，再抽取到手中。
-		/// <color=#008B45>旋回</color> - 将弃牌库中最上面的1个技能放回牌堆，再抽取到手中。
+		/// 祟符「御社宫司大人」
+		/// <color=green>连击4</color> - 必定暴击。
 		/// </summary>
         public static string Skill_S_Suwako_9 = "S_Suwako_9";
 		/// <summary>
@@ -138,16 +142,12 @@ namespace Suwako
         public static string Skill_S_Suwako_P = "S_Suwako_P";
 		/// <summary>
 		/// 蛙狩「蛙以口鸣，方致蛇祸」
-		/// 这个技能握在手中时，每次触发<color=#008B45>旋回</color>时，恢复自己&a(20%)体力值，恢复1点法力值，并使这个技能向上移动一次。
-		/// 到达手牌最上方后，丢弃这个技能。
-		/// <color=#008B45>旋回</color> - 对随机敌人释放后，将这个技能抽回手中。
+		/// 使所有其他技能返回牌库。那之后，每个返回牌库的技能使这个技能造成额外&a(60%)伤害。
 		/// </summary>
         public static string Skill_S_Suwako_Rare_1 = "S_Suwako_Rare_1";
 		/// <summary>
 		/// 蛙休「总是能够冬眠」
-		/// 将手牌中所有[风灵]系以外的技能返回牌库最上方，生成等量的、对应持有者的[风灵]。
-		/// 那之后，使手中所有[风灵]系技能增加&a(40%)伤害或&b(65%)治疗量。
-		/// 回合结束时，抽取与返回技能数等量的技能。
+		/// 释放时如果场上没有[风雨已至]，使随机敌人获得1层[风雨已至]。
 		/// </summary>
         public static string Skill_S_Suwako_Rare_2 = "S_Suwako_Rare_2";
 		/// <summary>
@@ -178,7 +178,6 @@ namespace Suwako
 		/// 蛙符「涂有鲜血的赤蛙塚」
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3_3 = "S_Suwako_Rare_3_3";
-        public static string SkillEffect_SE_T_S_Suwako_Rare_1 = "SE_T_S_Suwako_Rare_1";
 
     }
 

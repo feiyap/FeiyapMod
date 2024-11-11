@@ -17,45 +17,19 @@ namespace Ralmia
 	/// 守卫的创造物
 	/// 免疫受伤1次。恢复1倍攻击力血量。
 	/// </summary>
-    public class S_Ralmia_13Rare_1:Skill_Extended
+    public class S_Ralmia_13Rare_1: SkillEn_Ralmia_0
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
 
-            if (this.BChar.BuffFind("B_Ralmia_0", false))
-            {
-                BattleSystem.instance.AllyTeam.Draw();
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
-
-            if (this.BChar.BuffFind("B_Ralmia_1", false))
-            {
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
-
             Targets[0].BuffAdd("B_Ralmia_13Rare_1_0", this.BChar, false, 0, false, -1, false);
             Targets[0].Heal(this.BChar, (float)((int)((double)this.BChar.GetStat.atk * 1)), false, true, null);
         }
 
-        public override void FixedUpdate()
+        public override string DescExtended(string desc)
         {
-            base.FixedUpdate();
-            if (this.BChar.BuffFind("B_Ralmia_1", false))
-            {
-                if (!this.flag)
-                {
-                    this.flag = true;
-                    base.SkillParticleOn();
-                    this.NotCount = true;
-                    return;
-                }
-            }
+            return base.DescExtended(desc).Replace("%a", ((int)(this.BChar.GetStat.atk * 1f)).ToString());
         }
-        public bool flag;
     }
 }

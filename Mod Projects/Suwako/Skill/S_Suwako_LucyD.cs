@@ -73,7 +73,7 @@ namespace Suwako
 
         public IEnumerator Return(Skill skill)
         {
-            yield return CustomMethods.I_SkillBackToDeck(skill);
+            yield return CustomMethods.I_SkillBackToDeck(skill, -1, true);
 
             yield return null;
             yield break;

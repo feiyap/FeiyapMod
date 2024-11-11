@@ -18,7 +18,7 @@
         "Name": "解析的创造物",
         "Target": "enemy",
         "User": "Ralmia",
-        "Description": "创造物。\r\n打出后抽取1个技能。",
+        "Description": "抽取1个技能。",
         "UseAp": 1,
         "Image_0": "S_Ralmia_0\\S_Ralmia_0_Image_0.png",
         "Image_1": "S_Ralmia_0\\S_Ralmia_0_Image_1.png",
@@ -30,12 +30,12 @@
         "PlusKeyWords": [
             "KeyWord_Artifact"
         ],
-        "Effect_Self": "SE_S_S_Ralmia_0",
+        "Effect_Self": "null",
         "EnemyPreview": false,
         "UnknownTarget": false,
         "Particle": "Particle/impact",
         "SKillExtendedItem": [
-            "SkillEn_Ralmia_0"
+            "SkillEn_Ralmia_2"
         ]
     }
 }

@@ -8,7 +8,7 @@
         "NotCount": true,
         "Name": "祟神「赤口大人」",
         "Description": "这个技能必定命中，无视防御。",
-        "UseAp": 2,
+        "UseAp": 3,
         "Track": false,
         "Fatal": false,
         "IgnoreTaunt": true,

@@ -2,6 +2,6 @@
     "Keyword_Return": {
         "_gdeSchema": "SkillKeyword",
         "Name": "<color=#008B45>旋回</color>",
-        "Desc": "从手牌或弃牌库加入牌库时，会触发额外效果。"
+        "Desc": "技能加入牌库时，会触发额外效果。"
     }
 }
