@@ -59,5 +59,10 @@ namespace RemiliaScarlet
         {
             this.BChar.BuffAdd("B_RemiliaScarlet_4", this.BChar, false, 0, false, -1, false);
         }
+
+        public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
+        {
+            this.BChar.Heal(this.BChar, (float)((int)((float)DMG * 1.0f)), this.BChar.GetCri(), true, null);
+        }
     }
 }

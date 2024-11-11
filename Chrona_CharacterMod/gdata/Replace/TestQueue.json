@@ -1,9 +1,0 @@
-{
-    "TestQueue": {
-        "_gdeSchema": "EnemyQueue",
-        "Enemys": [
-            "S1_LittleMaid",
-            "TrialofStrength_Enemy"
-        ]
-    }
-}

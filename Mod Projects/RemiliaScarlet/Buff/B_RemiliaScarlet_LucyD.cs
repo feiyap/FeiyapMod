@@ -22,7 +22,6 @@ namespace RemiliaScarlet
         public override void Init()
         {
             base.Init();
-            this.PlusStat.def = -10f;
             count = 0;
         }
 

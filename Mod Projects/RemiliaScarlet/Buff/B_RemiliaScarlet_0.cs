@@ -44,5 +44,10 @@ namespace RemiliaScarlet
             }
             return Dmg;
         }
+
+        public override string DescExtended()
+        {
+            return this.BuffData.Description.Replace("&user", base.Usestate_L.Info.Name);
+        }
     }
 }

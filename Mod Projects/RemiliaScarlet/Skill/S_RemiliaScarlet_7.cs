@@ -15,7 +15,7 @@ namespace RemiliaScarlet
 {
 	/// <summary>
 	/// 狱符「千根针的针山」
-	/// 这个技能造成伤害的200%将会超额治疗自己。
+	/// 这个技能造成伤害的250%将会超额治疗自己。
 	/// </summary>
     public class S_RemiliaScarlet_7:Skill_Extended
     {

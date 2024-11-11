@@ -27,7 +27,7 @@ namespace RemiliaScarlet
                 {
                     return 0;
                 }
-                return (int)((float)(0 + this.BChar.GetStat.maxhp * 0.2));
+                return (int)((float)(0 + this.BChar.GetStat.maxhp * 0.25));
             }
         }
 
