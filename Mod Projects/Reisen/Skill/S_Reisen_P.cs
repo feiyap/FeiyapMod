@@ -32,7 +32,7 @@ namespace Reisen
             
             if (this.BChar.BuffFind("B_Reisen_P", false) || this.BChar.BuffFind("B_Reisen_6", false) || !this.BChar.BuffFind("B_Reisen_P_Insane", false))
             {
-                this.SkillBasePlus.Target_BaseDMG = 0;
+                this.SkillBasePlus.Target_BaseDMG = -999;
                 this.IsHeal = true;
                 this.IsDamage = false;
                 this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_self);
@@ -55,6 +55,8 @@ namespace Reisen
 
             if (this.BChar.BuffFind("B_Reisen_P", false))
             {
+                this.IsHeal = true;
+                this.IsDamage = false;
                 this.BChar.BuffRemove("B_Reisen_P", false);
                 this.BChar.BuffAdd("B_Reisen_P_Insane", this.BChar, false, 0, false, -1, false);
                 this.BChar.BuffAdd("B_Reisen_P_Insane", this.BChar, false, 0, false, -1, false);

@@ -1,0 +1,11 @@
+{
+    "ForgeTree_TreeOfLife": {
+        "_gdeSchema": "Item_Misc",
+        "Itemclass": "Unique",
+        "name": "生命树枝",
+        "Description": "特殊素材。用这个道具必定能合成出带有攻击力或暴击率加成的装备。",
+        "MaxStack": 1,
+        "Price": 900,
+        "image": "Item\\ForgeTree_TreeOfLife_image.png"
+    }
+}

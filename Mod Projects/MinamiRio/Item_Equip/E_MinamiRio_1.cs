@@ -22,7 +22,7 @@ namespace MinamiRio
         {
             this.PlusStat.atk = 4;
             this.PlusStat.cri = 15;
-            this.PlusStat.hit = 50;
+            this.PlusStat.hit = 100;
             this.PlusStat.HitMaximum = true;
         }
     }

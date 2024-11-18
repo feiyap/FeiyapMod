@@ -3,18 +3,18 @@
         "_gdeSchema": "Buff",
         "BuffTag": "null",
         "MaxStack": 1,
-        "Name": "饱足",
-        "Description": "这场战斗中不能再从技能中获得永久最大生命值。",
+        "Name": "绯色幻想",
+        "Description": "释放攻击技能时，对随机敌人重复释放1次。",
         "Icon": "B_RemiliaScarlet_2\\B_RemiliaScarlet_2_Icon.png",
         "Hide": false,
         "IsFieldBuff": false,
-        "Cantdisable": true,
+        "Cantdisable": false,
         "Debuff": false,
         "TagPer": 0,
         "UseSkillDebuff": false,
         "Caution": false,
         "Tick": "null",
-        "LifeTime": 0,
-        "ClassName": ""
+        "LifeTime": 2,
+        "ClassName": "RemiliaScarlet.B_RemiliaScarlet_2"
     }
 }

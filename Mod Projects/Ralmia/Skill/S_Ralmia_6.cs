@@ -22,7 +22,7 @@ namespace Ralmia
         public override bool SkillTargetSelectExcept(Skill ExceptSkill)
         {
             bool isArtifact = false;
-            if (ExceptSkill.ExtendedFind_DataName("SkillEn_Ralmia_2") != null)
+            if (ExceptSkill.ExtendedFind_DataName("SkillEn_Ralmia_2") != null || ExceptSkill.ExtendedFind_DataName("SE_Ralmia_C_0") != null)
             {
                 isArtifact = true;
             }

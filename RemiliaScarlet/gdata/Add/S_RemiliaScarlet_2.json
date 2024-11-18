@@ -23,7 +23,7 @@
         "Basic": false,
         "Track": false,
         "Fatal": true,
-        "Description": "依据自身最大体力值，额外造成&a(40%)伤害。使用此技能击杀后增加2点永久最大生命值，恢复2点行动力，这场战斗中无法再从技能中获取永久最大生命值。",
+        "Description": "依据自身最大体力值，额外造成&a(60%)伤害。使用此技能击杀后增加2点永久最大生命值，恢复2点行动力。",
         "Effect_Self": "null",
         "PlusKeyWords": [
             

@@ -16,7 +16,7 @@ namespace Suwako
 {
     /// <summary>
     /// 土著神「洩矢神」
-    /// 将手中最上方的技能放回牌库，抽取2个技能。
+    /// 将手中最上方的技能放回牌库，抽取1个技能。
     /// <color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。
     /// </summary>
     public class S_Suwako_6 : SkillExtend_Suwako
@@ -83,7 +83,7 @@ namespace Suwako
                 yield return new WaitForFixedUpdate();
             }
 
-            yield return this.BChar.MyTeam._Draw(2);
+            yield return this.BChar.MyTeam._Draw();
         }
     }
 }

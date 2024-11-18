@@ -2,36 +2,35 @@
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
         "Party": [
-            "Reisen"
+            "Reisen",
+            "Sizz"
         ],
         "PartyBasicSkill": [
-            "S_Reisen_P"
+            "S_Reisen_P",
+            "S_LucyC_2"
         ],
         "PartySkills": [
             [
-                "S_Reisen_7",
-                "S_Reisen_7"
+                
+            ],
+            [
+                "S_Sizz_0"
             ]
         ],
         "PartyEquip": [
             [
-                "ShadowDagger",
-                "ShadowDagger"
+                
+            ],
+            [
+                
             ]
         ],
         "LucySkill": [
-            "S_Reisen_LucyD",
-            "S_Reisen_LucyD",
-            "S_Reisen_LucyD"
+            
         ],
         "AP": 10,
         "ConsumeItems": [
             
-        ],
-        "Passive": [
-            "R_Inaba_0",
-            "UnlimitedButton",
-            "MoneyBag_CasinoDLC"
         ],
         "Level": 6
     }

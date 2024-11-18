@@ -1,0 +1,13 @@
+{
+    "SE_Ralmia_C_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "这个技能被视为<color=#97FFFF>创造物</color>。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "Ralmia",
+        "Des": "",
+        "ClassName": "Ralmia.SE_Ralmia_C_0"
+    }
+}

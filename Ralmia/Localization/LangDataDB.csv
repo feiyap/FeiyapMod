@@ -62,8 +62,8 @@ Skill/S_Ralmia_13Rare_2_Description,Text,,"이번 턴 동안 낸 아티팩트의
 
 아티팩트.","Deal &a additional damage for each Artifact skills played during this turn.
 Bonus damage: &b","このターンに、「アーティファクト·スキル」を使用した数だけ&aの追加ダメージを与える。
-追加ダメージ：&b","这个回合每打出1个<color=#97FFFF>创造物</color>技能，额外造成%a(25%)伤害。
- 当前额外伤害：&b","这个回合每打出1个<color=#97FFFF>创造物</color>技能，额外造成%a(25%)伤害。
+追加ダメージ：&b","这个回合每打出1个<color=#97FFFF>创造物</color>技能，额外造成&a(25%)伤害。
+ 当前额外伤害：&b","这个回合每打出1个<color=#97FFFF>创造物</color>技能，额外造成&a(25%)伤害。
  当前额外伤害：&b"
 Skill/S_Ralmia_13Rare_2_Name,Text,,캐논 아티팩트,Cannon Artifact,キャノンアーティファクト,加农的创造物,加农的创造物
 Skill/S_Ralmia_13Rare_Description,Text,,"[가드 아티팩트] 하나와 [디팬스 아티팩트] 하나를 패에 추가합니다.

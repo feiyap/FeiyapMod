@@ -1,0 +1,10 @@
+{
+    "SkillEn_Remilia_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "这个技能击杀敌人时，获得1点永久最大体力值，恢复2点法力值。1场战斗只能触发1次。",
+        "Drop": true,
+        "EnforceString": "攻击技能",
+        "NeedCharacter": "RemiliaScarlet",
+        "ClassName": "RemiliaScarlet.SkillEn_Remilia_1"
+    }
+}

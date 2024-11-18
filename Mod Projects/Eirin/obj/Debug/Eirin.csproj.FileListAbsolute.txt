@@ -2,7 +2,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\bin\Debug\Sys
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\obj\Debug\Eirin.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\obj\Debug\Eirin.csproj.CoreCompileInputs.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\obj\Debug\Eirin.csproj.CopyComplete
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\bin\Debug\Eirin202411101447.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\bin\Debug\Eirin202411101447.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\obj\Debug\Eirin202411101447.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\obj\Debug\Eirin202411101447.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\bin\Debug\Eirin2024111413216.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\bin\Debug\Eirin2024111413216.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\obj\Debug\Eirin2024111413216.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Eirin\obj\Debug\Eirin2024111413216.pdb

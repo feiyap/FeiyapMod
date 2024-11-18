@@ -27,6 +27,7 @@
             "Ralmia.S_Ralmia_9_0"
         ],
         "User": "",
-        "Particle": "Particle/Joey/Joey_0"
+        "Particle": "Particle/Joey/Joey_0",
+        "PlusSkillView": "S_Ralmia_9_1"
     }
 }

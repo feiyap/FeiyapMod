@@ -1,12 +1,16 @@
 {
     "B_RemiliaScarlet_6": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "RemiliaScarlet.B_RemiliaScarlet_6",
         "BuffTag": "null",
         "Name": "饱足",
-        "Description": "蕾米莉亚从血肉中获得了满足。暂时无法提升最大生命值。",
+        "Description": "&user从血肉中获得了满足。暂时无法提升最大生命值。",
         "Icon": "B_RemiliaScarlet_6\\B_RemiliaScarlet_6_Icon.png",
         "MaxStack": 1,
-        "Cantdisable": true
+        "Cantdisable": true,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

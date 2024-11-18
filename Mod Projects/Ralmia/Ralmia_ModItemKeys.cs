@@ -40,12 +40,13 @@ namespace Ralmia
 		/// 每个回合开始时，获得一张【突破音速】。
 		/// </summary>
         public static string Character_Ralmia = "Ralmia";
+		/// <summary>
+		/// 这个技能被视为<color=#97FFFF>创造物</color>。
+		/// </summary>
+        public static string SkillExtended_SE_Ralmia_C_0 = "SE_Ralmia_C_0";
         public static string SkillEffect_SE_S_S_Ralmia_11Rare = "SE_S_S_Ralmia_11Rare";
         public static string SkillEffect_SE_S_S_Ralmia_4 = "SE_S_S_Ralmia_4";
         public static string SkillEffect_SE_S_S_Ralmia_5 = "SE_S_S_Ralmia_5";
-        public static string SkillEffect_SE_S_S_Ralmia_9_1 = "SE_S_S_Ralmia_9_1";
-        public static string SkillEffect_SE_S_S_Ralmia_9_2 = "SE_S_S_Ralmia_9_2";
-        public static string SkillEffect_SE_S_S_Ralmia_9_3 = "SE_S_S_Ralmia_9_3";
         public static string SkillEffect_SE_T_S_Ralmia_0 = "SE_T_S_Ralmia_0";
         public static string SkillEffect_SE_T_S_Ralmia_1 = "SE_T_S_Ralmia_1";
         public static string SkillEffect_SE_T_S_Ralmia_10Rare = "SE_T_S_Ralmia_10Rare";
@@ -117,7 +118,7 @@ namespace Ralmia
         public static string Skill_S_Ralmia_13Rare_1 = "S_Ralmia_13Rare_1";
 		/// <summary>
 		/// 加农的创造物
-		/// 这个回合每打出1个<color=#97FFFF>创造物</color>技能，额外造成%a(25%)伤害。
+		/// 这个回合每打出1个<color=#97FFFF>创造物</color>技能，额外造成&a(25%)伤害。
 		///  当前额外伤害：&b
 		/// </summary>
         public static string Skill_S_Ralmia_13Rare_2 = "S_Ralmia_13Rare_2";

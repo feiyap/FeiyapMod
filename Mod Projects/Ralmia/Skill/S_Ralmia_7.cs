@@ -29,7 +29,7 @@ namespace Ralmia
         
         public IEnumerator Draw()
         {
-            Skill skill2 = BattleSystem.instance.AllyTeam.Skills_Deck.Find((Skill skill) => skill.ExtendedFind_DataName("SkillEn_Ralmia_2") != null);
+            Skill skill2 = BattleSystem.instance.AllyTeam.Skills_Deck.Find((Skill skill) => (skill.ExtendedFind_DataName("SkillEn_Ralmia_2") != null || skill.ExtendedFind_DataName("SE_Ralmia_C_0") != null));
             if (skill2 == null)
             {
                 BattleSystem.instance.AllyTeam.Draw();

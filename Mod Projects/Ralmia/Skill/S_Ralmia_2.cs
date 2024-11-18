@@ -25,6 +25,7 @@ namespace Ralmia
             base.SkillUseSingle(SkillD, Targets);
 
             BattleSystem.instance.AllyTeam.Draw();
+            this.BChar.Heal(this.BChar, (float)((int)((double)this.BChar.GetStat.atk * 1)), false, false, null);
         }
 
         public override string DescExtended(string desc)

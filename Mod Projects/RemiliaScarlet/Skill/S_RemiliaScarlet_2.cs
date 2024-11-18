@@ -55,7 +55,6 @@ namespace RemiliaScarlet
             if (!this.BChar.BuffFind("B_RemiliaScarlet_6", false))
             {
                 this.BChar.Info.OriginStat.maxhp += 2;
-                this.BChar.BuffAdd("B_RemiliaScarlet_6", this.BChar);
             }
             this.BChar.MyTeam.AP += 2;
         }

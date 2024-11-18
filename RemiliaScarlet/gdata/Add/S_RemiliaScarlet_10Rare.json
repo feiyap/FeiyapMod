@@ -4,13 +4,13 @@
         "Category": "null",
         "Rare": true,
         "Name": "「绯红色的幻想乡」",
-        "Description": "",
+        "Description": "战斗开始时，放在牌库最上方。",
         "UseAp": 2,
         "Particle": "Particle/Phoenix/Phoenix_0",
         "Target": "all_enemy",
         "User": "RemiliaScarlet",
         "Effect_Self": "SE_S_S_RemiliaScarlet_10Rare",
-        "Effect_Target": "SE_T_S_RemiliaScarlet_10",
+        "Effect_Target": "null",
         "NotCount": true,
         "NODOD": false,
         "NotChuck": false,
@@ -30,7 +30,7 @@
             
         ],
         "SkillExtended": [
-            
+            "RemiliaScarlet.S_RemiliaScarlet_10Rare"
         ],
         "EnemyPreview": false,
         "UnknownTarget": false

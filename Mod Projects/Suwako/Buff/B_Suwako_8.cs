@@ -41,7 +41,7 @@ namespace Suwako
 
         public override string DescExtended()
         {
-            return base.DescExtended().Replace("&a", ((int)(base.Usestate_L.GetStat.atk * 0.4f)).ToString()).Replace("&b", ((int)(base.Usestate_L.GetStat.reg * 0.65f)).ToString());
+            return base.DescExtended().Replace("&a", ((int)(base.Usestate_L.GetStat.atk * 0.8f)).ToString()).Replace("&b", ((int)(base.Usestate_L.GetStat.reg * 1.3f)).ToString());
         }
     }
 }

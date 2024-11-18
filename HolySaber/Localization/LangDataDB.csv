@@ -12,7 +12,7 @@ Buff/B_HolySaber_7_Description,Text,,,,,每回合第1次使用自己的技能时
 Buff/B_HolySaber_7_Name,Text,,,,,神的告诫,
 Buff/B_HolySaber_8_0_Description,Text,,,,,,
 Buff/B_HolySaber_8_0_Name,Text,,,,,守护神威,
-Buff/B_HolySaber_8_Description,Text,,,,,"每次使用带有<color=#4876FF>守护</color>减益的技能时，减少1回合持续时间（不能低于1回合）。
+Buff/B_HolySaber_8_Description,Text,,,,,"每次使用带有<color=#4876FF>守护</color>减益的技能时，减少1回合持续时间。
 效果解除时，对所有敌人造成&a(150%)伤害，并施加<color=#4876FF>守护</color>。",
 Buff/B_HolySaber_8_Name,Text,,,,,双炮神罚,
 Buff/B_HolySaber_9_0_Description,Text,,,,,,
@@ -140,7 +140,9 @@ Skill/S_HolySaber_Rare_1_Description,Text,,,,,"生成2个[圣骑士]。
 Skill/S_HolySaber_Rare_1_Name,Text,,,,,尊荣骑士·维尔伯特,
 Skill/S_HolySaber_Rare_1__Ex_Description,Text,,,,,生成2个[圣骑士]。,
 Skill/S_HolySaber_Rare_1__Ex_Name,Text,,,,,<color=#FFA500>尊荣骑士·维尔伯特</color>,
-Skill/S_HolySaber_Rare_2_Description,Text,,,,,<color=#FFA500>进化</color> - 使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。,
+Skill/S_HolySaber_Rare_2_Description,Text,,,,,"握在手中时，使用2个技能，会使这个技能<color=#FFA500>进化</color>。
+
+<color=#FFA500>进化</color> - 使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。",
 Skill/S_HolySaber_Rare_2_Name,Text,,,,,神谕的启程·贞德,
 Skill/S_HolySaber_Rare_2__Ex_Description,Text,,,,,使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。,
 Skill/S_HolySaber_Rare_2__Ex_Name,Text,,,,,<color=#FFA500>神谕的启程·贞德</color>,
@@ -155,6 +157,13 @@ Skill/S_HolySaber_Token_Name,Text,,,,,圣骑士,
 Skill/S_HolySaber_Token__Ex_Name,Text,,,,,<color=#FFA500>圣骑士</color>,
 Skill/S_Welbert_3__Ex_Description,Text,,,,,,
 Skill/S_Welbert_P_0_Name,Text,,,,,英雄的号令,
+SkillExtended/SE_HolySaber_C_0_Des,Text,,,,,,
+SkillExtended/SE_HolySaber_C_0_EnforceString,Text,,,,,攻击技能,
+SkillExtended/SE_HolySaber_C_0_Name,Text,,,,,对拥有<color=#4876FF>守护</color>减益的敌人造成的伤害+30%。,
+SkillExtended/SE_HolySaber_C_1_EnforceString,Text,,,,,攻击技能,
+SkillExtended/SE_HolySaber_C_1_Name,Text,,,,,施加<color=#4876FF>守护</color>减益。<i>这个技能被视作带有<color=#4876FF>守护</color>减益的技能。</i>,
+SkillExtended/SE_HolySaber_C_2_EnforceString,Text,,,,,,
+SkillExtended/SE_HolySaber_C_2_Name,Text,,,,,根据支付的费用，在手中生成相应数量的[圣骑士]。,
 SkillExtended/SE_HolySaber_Defend_Name,Text,,,,,守护,
 SkillExtended/SE_HolySaber_Extend_Des,Text,,,,,,
 SkillExtended/SE_HolySaber_Extend_Name,Text,,,,,进化,

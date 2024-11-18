@@ -8,7 +8,7 @@
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": false,
-        "NoDrop": false,
+        "NoDrop": true,
         "IgnoreTaunt": true,
         "Except": true,
         "NoBasicSkill": false,
@@ -27,12 +27,13 @@
             "Ralmia.S_Ralmia_9_2"
         ],
         "UseAp": 6,
-        "Effect_Self": "SE_S_S_Ralmia_9_2",
+        "Effect_Self": "null",
         "PlusKeyWords": [
             "KeyWord_Artifact"
         ],
         "SKillExtendedItem": [
             "SkillEn_Ralmia_2"
-        ]
+        ],
+        "PlusSkillView": "S_Ralmia_9_3"
     }
 }

@@ -6,10 +6,11 @@
         "Rare": true,
         "Target": "Misc",
         "NoDrop": true,
-        "Name": "什么都不做",
+        "Name": "丢弃这个技能",
         "Description": "丢弃这个技能。",
         "Image_0": "S_Suwako_Rare_3_2\\S_Suwako_Rare_3_2_Image_0.png",
         "Image_1": "S_Suwako_Rare_3_2\\S_Suwako_Rare_3_2_Image_1.png",
-        "Image_2": "S_Suwako_Rare_3_2\\S_Suwako_Rare_3_2_Image_2.png"
+        "Image_2": "S_Suwako_Rare_3_2\\S_Suwako_Rare_3_2_Image_2.png",
+        "NotCount": false
     }
 }

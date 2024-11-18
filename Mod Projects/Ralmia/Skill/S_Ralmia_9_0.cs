@@ -48,16 +48,10 @@ namespace Ralmia
                 skill.MySkill.KeyID == "S_Ralmia_13Rare" || skill.MySkill.KeyID == "S_Ralmia_13Rare_0" ||
                 skill.MySkill.KeyID == "S_Ralmia_13Rare_1" || skill.MySkill.KeyID == "S_Ralmia_13Rare_2")
                 */
-            if (skill.ExtendedFind_DataName("SkillEn_Ralmia_2") != null)
+            if ((skill.ExtendedFind_DataName("SkillEn_Ralmia_2") != null || skill.ExtendedFind_DataName("SE_Ralmia_C_0") != null))
             {
                 this.UseNum++;
             }
-        }
-
-        public override void DiscardSingle(bool Click)
-        {
-            BattleSystem.instance.AllyTeam.Draw();
-            base.DiscardSingle(Click);
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)

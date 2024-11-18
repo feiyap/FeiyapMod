@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>MinamiRio202411505028</AssemblyName>
+    <AssemblyName>MinamiRio2024111921438</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -408,11 +408,12 @@
     </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                                                                                                                                                                                                                          <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                                                                    <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BattleCharDamagePatch.cs" />
     <Compile Include="BV_MinamiRio_P.cs" />
     <Compile Include="Characterget_statPatch.cs" />
+    <Compile Include="ForgeTreePlugin.cs" />
     <Compile Include="MinamiRio_ModDefinition.cs" />
     <Compile Include="MinamiRio_ModItemKeys.cs" />
     <Compile Include="MinamiRio_Plugin.cs" />

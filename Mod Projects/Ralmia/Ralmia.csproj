@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>Ralmia2024111111812</AssemblyName>
+    <AssemblyName>Ralmia2024111722007</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -382,7 +382,7 @@
       <Private>False</Private>
     </Reference>
   </ItemGroup>
-                                                                                                                                                                                                        <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                    <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="Ralmia_ModItemKeys.cs" />
     <Compile Include="Buff\B_Ralmia_0.cs" />
@@ -416,6 +416,7 @@
     <Compile Include="Skill\S_Ralmia_9_3.cs" />
     <Compile Include="Skill\S_Ralmia_LucyD.cs" />
     <Compile Include="Skill\S_Ralmia_P.cs" />
+    <Compile Include="SkillExtended\SE_Ralmia_C_0.cs" />
     <Compile Include="SkillExtended\SkillEn_Ralmia_0.cs" />
     <Compile Include="SkillExtended\SkillEn_Ralmia_1.cs" />
     <Compile Include="SkillExtended\SkillEn_Ralmia_2.cs" />

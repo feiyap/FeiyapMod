@@ -27,6 +27,8 @@
         "SkillExtended": [
             "Ralmia.S_Ralmia_12"
         ],
-        "UseAp": 3
+        "UseAp": 3,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

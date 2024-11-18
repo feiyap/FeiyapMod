@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": true,
         "Name": "必杀「Heart Break」",
-        "Description": "依据自身最大体力值，额外造成&a(20%)伤害。这个技能的100%将会超额治疗自己。",
+        "Description": "依据自身最大体力值，额外造成&a(25%)伤害。这个技能的100%将会超额治疗自己。",
         "UseAp": 1,
         "User": "RemiliaScarlet",
         "Target": "enemy",

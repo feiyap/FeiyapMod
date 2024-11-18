@@ -23,7 +23,7 @@
         "UseAp": 2,
         "User": "HolySaber",
         "Effect_Target": "SE_T_S_HolySaber_Rare_2",
-        "Description": "<color=#FFA500>进化</color> - 使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。",
+        "Description": "握在手中时，使用2个技能，会使这个技能<color=#FFA500>进化</color>。\n\n<color=#FFA500>进化</color> - 使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。",
         "SKillExtendedItem": [
             "SE_HolySaber_Extend",
             "SE_HolySaber_Defend",

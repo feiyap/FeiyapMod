@@ -4,11 +4,11 @@
     "Visibility": "Public",
     "Title": "【CN/EN/JP/KR】音速机械·洛菈米娅",
     "Author": "绯夜氏",
-    "Version": "v2.0",
+    "Version": "v2.1",
     "Description": "最快速的進步，完成了最快速的機械。\n她超越音速，接近光速。\n那是肉身所不能及的速度。\n已經沒有任何一人一物能夠追上她。\n包含1个角色。",
     "Cover": "RalmiaCover.png",
     "WorkShopId": "3138055448",
-    "ChangeNote": "2024/11/11\nv2.0\n更新以适配DLC2的改动。\n重写部分逻辑。\n规范化文本描述。",
+    "ChangeNote": "2024/11/17\nv2.1\n修复已知BUG。",
     "TagList": [
         "Characters"
     ],

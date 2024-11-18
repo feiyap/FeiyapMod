@@ -58,7 +58,7 @@ namespace Reisen
         public static string Buff_B_Reisen_6 = "B_Reisen_6";
 		/// <summary>
 		/// 真实/幻象
-		/// 每个回合开始时，获得3颗<color=#B22222>子弹</color>。
+		/// 每个回合开始时，获得3颗<sprite name="Reisen_bullet"><color=#B22222>子弹</color>。
 		/// </summary>
         public static string Buff_B_Reisen_7 = "B_Reisen_7";
 		/// <summary>

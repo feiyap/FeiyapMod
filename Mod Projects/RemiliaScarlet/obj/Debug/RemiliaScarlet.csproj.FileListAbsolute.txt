@@ -2,7 +2,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\bin\
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\obj\Debug\RemiliaScarlet.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\obj\Debug\RemiliaScarlet.csproj.CoreCompileInputs.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\obj\Debug\RemiliaScarlet.csproj.CopyComplete
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\bin\Debug\RemiliaScarlet202411130436.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\bin\Debug\RemiliaScarlet202411130436.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\obj\Debug\RemiliaScarlet202411130436.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\obj\Debug\RemiliaScarlet202411130436.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\bin\Debug\RemiliaScarlet2024111212302.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\bin\Debug\RemiliaScarlet2024111212302.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\obj\Debug\RemiliaScarlet2024111212302.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\RemiliaScarlet\obj\Debug\RemiliaScarlet2024111212302.pdb

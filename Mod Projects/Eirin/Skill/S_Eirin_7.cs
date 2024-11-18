@@ -50,7 +50,7 @@ namespace Eirin
             Skill skill2 = BattleSystem.instance.AllyTeam.Skills_Deck.Find((Skill skill) => (skill.Master == battlechar));
             if (skill2 == null)
             {
-                yield return BattleSystem.instance.AllyTeam._Draw(new BattleTeam.DrawInput(this.DrawInput));
+                yield return BattleSystem.instance.AllyTeam._Draw(1, new BattleTeam.DrawInput(this.DrawInput));
             }
             else
             {

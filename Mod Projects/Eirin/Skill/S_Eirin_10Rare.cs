@@ -33,6 +33,11 @@ namespace Eirin
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             this.UseNum = 0;
+
+            foreach (BattleChar bc in Targets)
+            {
+                bc.Heal(this.BChar, bc.GetStat.maxhp, false, true);
+            }
         }
         
         public void SkillUseTeam(Skill skill)

@@ -27,7 +27,7 @@ namespace Ralmia
                 {
                     return 0;
                 }
-                return (int)((float)(0 + BattleSystem.instance.BattleLogs.getSkills((BattleLog log) => log.Turn >= BattleSystem.instance.TurnNum, (Skill skill) => (skill.ExtendedFind_DataName("SkillEn_Ralmia_2") != null), -1).Count) * (this.BChar.GetStat.atk * 0.25f));
+                return (int)((float)(0 + BattleSystem.instance.BattleLogs.getSkills((BattleLog log) => log.Turn >= BattleSystem.instance.TurnNum, (Skill skill) => (skill.ExtendedFind_DataName("SkillEn_Ralmia_2") != null || skill.ExtendedFind_DataName("SE_Ralmia_C_0") != null), -1).Count) * (this.BChar.GetStat.atk * 0.25f));
             }
         }
         

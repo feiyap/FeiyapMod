@@ -21,7 +21,7 @@ namespace MinamiRio
         public override void Init()
         {
             this.PlusStat.atk = 3;
-            this.PlusStat.hit = 25;
+            this.PlusStat.hit = 50;
         }
     }
 }

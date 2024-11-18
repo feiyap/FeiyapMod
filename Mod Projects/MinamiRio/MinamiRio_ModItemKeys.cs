@@ -66,6 +66,11 @@ namespace MinamiRio
 		/// </summary>
         public static string Item_Equip_E_MinamiRio_1 = "E_MinamiRio_1";
 		/// <summary>
+		/// 生命树枝
+		/// 特殊素材。用这个道具必定能合成出带有攻击力或暴击率加成的装备。
+		/// </summary>
+        public static string Item_Misc_ForgeTree_TreeOfLife = "ForgeTree_TreeOfLife";
+		/// <summary>
 		/// 莉央
 		/// Passive:
 		/// <b>锚点</b> - 莉央无法造成暴击，但是升级时获得远超常人的命中率提升。莉央超过100%的那部分命中率转化为50%的<color=#FA8072>穿甲</color>。
