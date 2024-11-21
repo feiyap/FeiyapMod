@@ -13,6 +13,8 @@
         "Disposable": true,
         "SkillExtended": [
             "HakureiReimu.S_Musoutensei_Kaguya"
-        ]
+        ],
+        "NODOD": false,
+        "IgnoreTaunt": false
     }
 }

@@ -10,7 +10,7 @@ namespace Suwako
         public static string Buff_B_Suwako_3 = "B_Suwako_3";
 		/// <summary>
 		/// 风雨欲来
-		/// 下次触发<color=#008B45>旋回</color>效果时，使被<color=#008B45>旋回</color>的技能在本场战斗中增加&a(120%)伤害或&b(195%)治疗量。
+		/// 下次触发<color=#008B45>旋回</color>效果时，使被<color=#008B45>旋回</color>的技能在本场战斗中增加&a(80%)伤害或&b(130%)治疗量。触发后解除。
 		/// </summary>
         public static string Buff_B_Suwako_8 = "B_Suwako_8";
 		/// <summary>
@@ -170,7 +170,7 @@ namespace Suwako
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3_1 = "S_Suwako_Rare_3_1";
 		/// <summary>
-		/// 什么都不做
+		/// 丢弃这个技能
 		/// 丢弃这个技能。
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3_2 = "S_Suwako_Rare_3_2";
@@ -178,6 +178,12 @@ namespace Suwako
 		/// 蛙符「涂有鲜血的赤蛙塚」
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3_3 = "S_Suwako_Rare_3_3";
+		/// <summary>
+		/// 土著神「洩矢神」
+		/// 将手中最上方的技能放回牌库，抽取1个技能。
+		/// <color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。
+		/// </summary>
+        public static string Skill_S_Suwako_6_0 = "S_Suwako_6_0";
 
     }
 
@@ -186,6 +192,7 @@ namespace Suwako
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// <i><color=#696969>You feel a chill, as if something has just entered your body...</color></i>
 		/// Japanese:
 		/// Chinese:
 		/// <i><color=#696969>身上好像有什么东西进来了一样的恶寒……</color></i>
@@ -195,6 +202,7 @@ namespace Suwako
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// <i><color=#696969>You feel an unpleasant sensation, writhing within your body...</color></i>
 		/// Japanese:
 		/// Chinese:
 		/// <i><color=#696969>身体中好像有什么在蠕动着的不快感……</color></i>
@@ -204,6 +212,7 @@ namespace Suwako
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// <i><color=#696969>You feel a prickling sensation, as if you were being pierced by pins and needles...</color></i>
 		/// Japanese:
 		/// Chinese:
 		/// <i><color=#696969>感觉身体的毛孔里好像被针扎进去一样地发冷……</color></i>
@@ -213,6 +222,7 @@ namespace Suwako
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// <i><color=#696969>A Snake... Just now, I saw a Snake.</color></i>
 		/// Japanese:
 		/// Chinese:
 		/// <i><color=#696969>……是虵。我看见虵了。</color></i>
@@ -222,6 +232,7 @@ namespace Suwako
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// <b><color=#FF0000>The Snake has marked you.</color></b>
 		/// Japanese:
 		/// Chinese:
 		/// <b><color=#FF0000>虵看见我了。</color></b>

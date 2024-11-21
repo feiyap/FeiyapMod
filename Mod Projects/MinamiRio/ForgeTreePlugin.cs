@@ -50,7 +50,7 @@ namespace MinamiRio
             }
             
             Item_Equip item_Equip;
-            if (__instance.InventoryItems.Find((ItemBase a) => a.itemkey == "ForgeTree_TreeOfLife") != null)
+            if (__instance.InventoryItems.Find((ItemBase a) => a.itemkey == ModItemKeys.Item_Misc_ForgeTree_TreeOfLife) != null)
             {
                 if (__instance.InventoryItems[0] is Item_Equip)
                 {
@@ -125,7 +125,7 @@ namespace MinamiRio
                 return;
             }
 
-            if (__instance.InventoryItems[0].itemkey == "ForgeTree_TreeOfLife")
+            if (__instance.InventoryItems[0].itemkey == ModItemKeys.Item_Misc_ForgeTree_TreeOfLife)
             {
                 if (__instance.InventoryItems[1] is Item_Equip)
                 {
@@ -134,7 +134,7 @@ namespace MinamiRio
                     __instance.CombineBtn.interactable = true;
                 }
             }
-            else if (__instance.InventoryItems[1].itemkey == "ForgeTree_TreeOfLife")
+            else if (__instance.InventoryItems[1].itemkey == ModItemKeys.Item_Misc_ForgeTree_TreeOfLife)
             {
                 if (__instance.InventoryItems[0] is Item_Equip)
                 {
@@ -149,7 +149,7 @@ namespace MinamiRio
         [HarmonyPatch("OnDropSlot")]
         public static bool OnDropSlot_Prefix(CampAnvilEvent __instance, ItemBase inputitem, ref bool __result)
         {
-            if (inputitem.itemkey == "ForgeTree_TreeOfLife")
+            if (inputitem.itemkey == ModItemKeys.Item_Misc_ForgeTree_TreeOfLife)
             {
                 __result = false;
                 return false;

@@ -54,9 +54,7 @@ namespace Suwako
 
             if (CheckUsedSkills(4))
             {
-                Skill tmpSkill = Skill.TempSkill("S_Suwako_6", this.BChar, this.BChar.MyTeam);
-                tmpSkill.isExcept = true;
-                tmpSkill.APChange = 1;
+                Skill tmpSkill = Skill.TempSkill("S_Suwako_6_0", this.BChar, this.BChar.MyTeam);
                 BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
             }
         }
@@ -75,7 +73,7 @@ namespace Suwako
             }
             if (list.Count >= 1)
             {
-                yield return CustomMethods.I_SkillBackToDeck(list[0], 0, true);
+                yield return CustomMethods.I_SkillBackToDeck(list[0], -1, true);
             }
 
             while (BattleSystem.instance.ListWait || BattleSystem.instance.Particles.Count != 0 || GameObject.FindGameObjectsWithTag("EffectView").Length != 0 || GameObject.FindGameObjectsWithTag("Tutorial").Length != 0 || BattleSystem.instance.DelayWait)

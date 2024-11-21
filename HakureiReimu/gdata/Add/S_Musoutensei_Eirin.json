@@ -11,6 +11,19 @@
         "IgnoreTaunt": false,
         "Name": "天月下「地上的大密室」",
         "Description": "<color=#FFD700>*「梦想天生」+秘术「天文密葬法」*</color>",
-        "UseAp": 3
+        "UseAp": 3,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_Musoutensei_Eirin\\S_Musoutensei_Eirin_Image_0.png",
+        "Image_1": "S_Musoutensei_Eirin\\S_Musoutensei_Eirin_Image_1.png",
+        "Image_2": "S_Musoutensei_Eirin\\S_Musoutensei_Eirin_Image_2.png"
     }
 }

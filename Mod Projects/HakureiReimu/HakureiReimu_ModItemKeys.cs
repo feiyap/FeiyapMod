@@ -135,6 +135,11 @@ namespace HakureiReimu
 		/// </summary>
         public static string Buff_B_Musoutensei_Flandre_0 = "B_Musoutensei_Flandre_0";
 		/// <summary>
+		/// 狂灵/绯色月
+		/// 每次&user使用技能时，铃仙会对目标发动一次免费的<color=#B22222>幻象/乱弹</color>。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Reisen_0 = "B_Musoutensei_Reisen_0";
+		/// <summary>
 		/// 幻梦终焉
 		/// 效果解除时，立即死亡。
 		/// </summary>
@@ -485,16 +490,13 @@ namespace HakureiReimu
         public static string Skill_S_Musoutensei_Kaguya = "S_Musoutensei_Kaguya";
 		/// <summary>
 		/// 「这不知是第几次的生命，梦想封印吧」
-		/// 藤原妹红立即获得1次额外复活上限，然后死亡。
-		/// 那之后，根据藤原妹红当前[不灭赤魂]的层数，每层对所有敌人施加3层[烧伤]痛苦减益（超过上限的层数被施加时立即结算1次[烧伤]痛苦减益，但伤害减半），并造成%a(博丽灵梦150%攻击力)的伤害。
-		/// 那之后，藤原妹红和博丽灵梦获得[灵力狂涌]。
+		/// <color=#FFD700>*「梦想天生」+「这不知是第几次的生命，燃烧殆尽吧」*</color>
+		/// 60%倍率。恢复1点法力值。
 		/// </summary>
         public static string Skill_S_Musoutensei_Mokou = "S_Musoutensei_Mokou";
 		/// <summary>
 		/// 狂灵「你知道今夜的月球为何是红色的吗？」
 		/// <color=#FFD700>*「梦想天生」+「幻胧月睨」*</color>
-		/// 造成3倍于敌人的攻击力的伤害。
-		/// 这个技能无视防御，必定命中。
 		/// </summary>
         public static string Skill_S_Musoutensei_Reisen = "S_Musoutensei_Reisen";
 		/// <summary>
@@ -521,6 +523,13 @@ namespace HakureiReimu
 		/// </summary>
         public static string Skill_S_Musoutensei_Youmu = "S_Musoutensei_Youmu";
         public static string UnlockWindow_Unlock_HakureiReimu = "Unlock_HakureiReimu";
+		/// <summary>
+		/// 「会，会，会，会，会出现什么呢？！」
+		/// <color=#FFD700>*「梦想天生」+「会，会，会出现什么呢？」*</color>
+		/// 从<color=#FFD700>帝的豪华奖池</color>中随机触发10个效果。
+		/// </summary>
+        public static string Skill_S_Musoutensei_Inaba = "S_Musoutensei_Inaba";
+        public static string SkillEffect_SE_T_S_Musoutensei_Mokou = "SE_T_S_Musoutensei_Mokou";
 
     }
 

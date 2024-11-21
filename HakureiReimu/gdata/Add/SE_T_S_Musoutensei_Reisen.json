@@ -2,6 +2,13 @@
     "SE_T_S_Musoutensei_Reisen": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Base": 1
+        "DMG_Base": 0,
+        "DMG_Per": 150,
+        "Buffs": [
+            "B_Musoutensei_Reisen_0"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
     }
 }
