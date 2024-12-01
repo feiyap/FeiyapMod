@@ -23,6 +23,10 @@ namespace HakureiReimu
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
+            MasterAudio.StopBus("BGM");
+            MasterAudio.StopBus("BattleBGM");
+            MasterAudio.PlaySound("Musoutensei_Satsuki", 1f, null, 0f, null, null, false, false);
+
             foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills)
             {
                 if (skill.IsDamage)

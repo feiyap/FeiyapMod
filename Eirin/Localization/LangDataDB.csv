@@ -203,7 +203,7 @@ Skill/S_Eirin_LucyD_Name,Text,,비약「선향옥토」,Secret Elixir「Lunar Ra
 Skill/S_Eirin_P_Description,Text,,,,,,
 Skill/S_Eirin_P_Name,Text,,월인/난전,Mooner/Arrows Rain,月人/乱矢,月人/乱箭,
 SkillExtended/SE_Eirin_0_EnforceString,Text,,단일 대상 공격 스킬,Single-Target Attack,単体を対象とする攻撃スキル,指向单体的攻击技能,
-SkillExtended/SE_Eirin_0_Name,Text,,"에이린이 존재하는 경우, 시전 시 마나 소모량에 비례하여 에이린이 대상에게 [환상/난전]을 시전합니다.","If played from hand, Eirin cast multiple [Mooner/Arrows Rain] equal to the cost of the skill.",使用時に、八意永琳が生存している場合、八意永琳がそのスキルのコストと同じ回数「月人/乱矢」を対象に発動する。,若八意永琳在场，释放时根据该技能的费用，八意永琳对目标进行多次[幻象/乱箭]。,
+SkillExtended/SE_Eirin_0_Name,Text,,"에이린이 존재하는 경우, 시전 시 마나 소모량에 비례하여 에이린이 대상에게 [환상/난전]을 시전합니다.","If played from hand, Eirin cast multiple [Mooner/Arrows Rain] equal to the cost of the skill.",使用時に、八意永琳が生存している場合、八意永琳がそのスキルのコストと同じ回数「月人/乱矢」を対象に発動する。,若八意永琳在场，释放时根据该技能的费用，八意永琳对目标进行多次[月人/乱箭]。,
 SkillExtended/SE_Eirin_1_Des,Text,,,,,,
 SkillExtended/SE_Eirin_1_EnforceString,Text,,단일 대상 공격 스킬,Single-Target Attack,単体を対象とする攻撃スキル,指向单体的攻击技能,
 SkillExtended/SE_Eirin_1_Name,Text,,"피격 대상에게 [월인/월사]를 부여합니다

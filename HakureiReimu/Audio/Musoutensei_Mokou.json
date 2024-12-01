@@ -1,0 +1,7 @@
+{
+    "Name": "Musoutensei_Mokou",
+    "path": "Assets/HakureiReimu/Musoutensei_Mokou.mp3",
+    "AssetBundlePath": "reimu_character",
+    "Loop": false,
+    "Bus": "BGM"
+}

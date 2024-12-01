@@ -1,0 +1,19 @@
+{
+    "S_KirisameMarisa_9_C": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": false,
+        "Name": "危险冲动",
+        "Description": "",
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_KirisameMarisa_9_C",
+        "Image_0": "S_KirisameMarisa_9_C\\S_KirisameMarisa_9_C_Image_0.png",
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_9_C"
+        ],
+        "Disposable": false,
+        "NoBasicSkill": false
+    }
+}

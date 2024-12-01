@@ -1,0 +1,14 @@
+{
+    "B_KirisameMarisa_DangerTrigger": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": true,
+        "Cantdisable": true,
+        "ClassName": "KirisameMarisa.B_KirisameMarisa_DangerTrigger",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "危险扳机",
+        "Description": "<color=#00BFFF>危险等级</color>上限+1。"
+    }
+}

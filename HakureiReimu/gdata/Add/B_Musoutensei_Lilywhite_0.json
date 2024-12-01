@@ -1,0 +1,16 @@
+{
+    "B_Musoutensei_Lilywhite_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "HakureiReimu.B_Musoutensei_Lilywhite_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "发热巫女",
+        "Description": "自身拥有的每种增益使这个增益获得“+5%攻击力、+5%暴击率、+5%暴击伤害”。",
+        "Icon": "B_Musoutensei_Lilywhite_0\\B_Musoutensei_Lilywhite_0_Icon.png",
+        "Tick": "SE_Tick_B_Musoutensei_Lilywhite_0"
+    }
+}

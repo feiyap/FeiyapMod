@@ -15,6 +15,18 @@
             "HakureiReimu.S_Musoutensei_Kaguya"
         ],
         "NODOD": false,
-        "IgnoreTaunt": false
+        "IgnoreTaunt": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_Musoutensei_Kaguya\\S_Musoutensei_Kaguya_Image_0.png",
+        "Image_1": "S_Musoutensei_Kaguya\\S_Musoutensei_Kaguya_Image_1.png",
+        "Image_2": "S_Musoutensei_Kaguya\\S_Musoutensei_Kaguya_Image_2.png"
     }
 }

@@ -1,0 +1,10 @@
+{
+    "B_KirisameMarisa_P_1": {
+        "_gdeSchema": "Buff",
+        "BuffTag": "null",
+        "Name": "超绝偷感",
+        "Description": "受到超过5点的伤害时解除。",
+        "Icon": "B_KirisameMarisa_P_1\\B_KirisameMarisa_P_1_Icon.png",
+        "ClassName": "KirisameMarisa.B_KirisameMarisa_P_1"
+    }
+}

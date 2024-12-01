@@ -1,0 +1,102 @@
+{
+    "KirisameMarisa": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "KirisameMarisa.P_KirisameMarisa",
+        "PassiveUnlockLV1": false,
+        "face": "KirisameMarisa\\KirisameMarisaBattleFace.png",
+        "name": "雾雨魔理沙",
+        "Gender": 1,
+        "SelectInfo": "屁股很大的魔法使。",
+        "MAXHP": {
+            "x": 25,
+            "y": 45
+        },
+        "PassiveName": "普通的魔法使",
+        "PassiveDes": "<b>东洋的西洋魔术师</b> - 回合开始时，雾雨魔理沙获得1层[超绝偷感]。\n\n<b><color=#00BFFF>危险等级</color></b> - 雾雨魔理沙每次使用攻击技能时，获得1层<color=#00BFFF>危险等级</color>。回合结束时，如果本回合雾雨魔理沙没有使用过技能，失去所有<color=#00BFFF>危险等级</color>。\n每层<color=#00BFFF>危险等级</color>提供2%攻击力和-2%防御力，并会解锁技能的额外效果。\n最多拥有4层<color=#00BFFF>危险等级</color>。",
+        "PassiveIcon": "KirisameMarisa\\KirisameMarisaPassiveIcon.png",
+        "CollectionSprite_Cover": "KirisameMarisa\\KirisameMarisaCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "KirisameMarisa\\KirisameMarisaCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Sup": 1,
+        "StatView_Debuff": 1,
+        "StatView_CC": 0,
+        "StatView_Difficult": 1,
+        "ATK": {
+            "x": 15,
+            "y": 27
+        },
+        "CRI": {
+            "x": 1,
+            "y": 10
+        },
+        "DODGE": {
+            "x": -10,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 7,
+            "y": 11
+        },
+        "HIT": {
+            "x": 92,
+            "y": 114
+        },
+        "RES_CC": {
+            "x": 5,
+            "y": 35
+        },
+        "RES_DEBUFF": {
+            "x": -5,
+            "y": 35
+        },
+        "RES_DOT": {
+            "x": -5,
+            "y": 35
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 35
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 35
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 35
+        },
+        "CampSD": [
+            "KirisameMarisa\\KirisameMarisaCampSD0.png",
+            "KirisameMarisa\\KirisameMarisaCampSD1.png",
+            "KirisameMarisa\\KirisameMarisaCampSD2.png",
+            "KirisameMarisa\\KirisameMarisaCampSD3.png"
+        ],
+        "Text_Field_GetItem": [
+            "在空无一人的房子里搜宝物是基本中的基本哦。",
+            "在有NPC的房子里搜宝物也是基本中的基本。",
+            "在有NPC的房子里搜宝物也是基本中的基本。"
+        ],
+        "Text_Field_Idle": [
+            "最近森林里的蘑菇长得太快，诡异得很呢。",
+            "什么大事都没发生弄得大家也没变化，好无聊啊。"
+        ],
+        "Text_Battle_Cri": [
+            "你的手段我已经全都看破了！"
+        ],
+        "Text_PharosLeader": [
+            "总而言之就是把这里那里全部轰平就可以了对吧？",
+            "八卦炉没能量了……真没劲……",
+            "魔炮可不长眼！"
+        ],
+        "Text_Witch": [
+            "区区诅咒，对本魔理沙大人来说不算什么啦！",
+            "回去以后一定要找灵梦给我驱驱邪……"
+        ],
+        "Text_MasterTarget": "回去告诉大家，英勇的魔理沙已经和管理员同归于尽了！"
+    }
+}

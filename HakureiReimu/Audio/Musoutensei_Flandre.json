@@ -1,0 +1,7 @@
+{
+    "Name": "Musoutensei_Flandre",
+    "path": "Assets/HakureiReimu/Musoutensei_Flandre.mp3",
+    "AssetBundlePath": "reimu_character",
+    "Loop": false,
+    "Bus": "BGM"
+}

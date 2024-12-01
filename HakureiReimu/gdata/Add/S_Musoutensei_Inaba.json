@@ -1,0 +1,20 @@
+{
+    "S_Musoutensei_Inaba": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "Misc",
+        "NotCount": true,
+        "NoDrop": true,
+        "Name": "「会，会，会，会，会出现什么呢？！」",
+        "Description": "<color=#FFD700>*「梦想天生」+「会，会，会出现什么呢？」*</color>\n从<color=#FFD700>帝的豪华奖池</color>中随机触发10个效果。",
+        "UseAp": 3,
+        "Effect_Target": "null",
+        "Image_0": "S_Musoutensei_Inaba\\S_Musoutensei_Inaba_Image_0.png",
+        "Image_1": "S_Musoutensei_Inaba\\S_Musoutensei_Inaba_Image_1.png",
+        "Image_2": "S_Musoutensei_Inaba\\S_Musoutensei_Inaba_Image_2.png",
+        "NODOD": false,
+        "IgnoreTaunt": false
+    }
+}

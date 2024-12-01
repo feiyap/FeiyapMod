@@ -1,0 +1,7 @@
+{
+    "Name": "Musoutensei_Inaba",
+    "path": "Assets/HakureiReimu/Musoutensei_Inaba.mp3",
+    "AssetBundlePath": "reimu_character",
+    "Loop": false,
+    "Bus": "BGM"
+}

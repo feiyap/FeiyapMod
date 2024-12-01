@@ -1,0 +1,17 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\obj\Debug\KirisameMarisa.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\obj\Debug\KirisameMarisa.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\obj\Debug\KirisameMarisa.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\0Harmony.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\BasicMethods.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\Mono.Cecil.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\Mono.Cecil.Mdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\Mono.Cecil.Pdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\Mono.Cecil.Rocks.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\MonoMod.RuntimeDetour.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\MonoMod.Utils.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\DynamicEmitAPI.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\KirisameMarisa202412204018.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\KirisameMarisa202412204018.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\obj\Debug\KirisameMarisa202412204018.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\obj\Debug\KirisameMarisa202412204018.pdb

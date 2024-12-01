@@ -17,6 +17,9 @@
         "Image_1": "S_Reisen_12Rare\\S_Reisen_12Rare_Image_1.png",
         "Image_2": "S_Reisen_12Rare\\S_Reisen_12Rare_Image_2.png",
         "IgnoreTaunt": false,
-        "NoBasicSkill": false
+        "NoBasicSkill": false,
+        "SkillExtended": [
+            "Reisen.S_Reisen_12Rare"
+        ]
     }
 }

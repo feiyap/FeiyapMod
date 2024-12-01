@@ -1,0 +1,35 @@
+{
+    "S_KirisameMarisa_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/Sel_0",
+        "Target": "enemy",
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Name": "星符「Meteonic Shower」",
+        "Description": "本回合内可重复释放。",
+        "User": "KirisameMarisa",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_KirisameMarisa_0",
+        "Image_0": "S_KirisameMarisa_0\\S_KirisameMarisa_0_Image_0.png",
+        "Image_1": "S_KirisameMarisa_0\\S_KirisameMarisa_0_Image_1.png",
+        "Image_2": "S_KirisameMarisa_0\\S_KirisameMarisa_0_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "PlusSkillView": "S_KirisameMarisa_0_4",
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_0"
+        ],
+        "UseAp": 1
+    }
+}

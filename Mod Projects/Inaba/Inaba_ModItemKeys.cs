@@ -80,6 +80,7 @@ namespace Inaba
 		/// <b><color=#FFD700>帝的豪华奖池</color></b> - 帝的部分技能会从豪华奖池中随机生成效果（所有伤害皆视为追加攻击）。
 		/// </summary>
         public static string Character_Inaba = "Inaba";
+        public static string Character_Skin_InabaEclipse = "InabaEclipse";
         public static string SimpleCampDialogue_CampDial_Inaba_Mokou = "CampDial_Inaba_Mokou";
         public static string SimpleCampDialogue_CampDial_Inaba_RemiliaScarlet = "CampDial_Inaba_RemiliaScarlet";
         public static string SimpleCampDialogue_CampDial_Inaba_IzayoiSakuya = "CampDial_Inaba_IzayoiSakuya";
@@ -258,7 +259,6 @@ namespace Inaba
 		/// 机械降神
 		/// </summary>
         public static string Skill_S_Inaba_Rare12_0 = "S_Inaba_Rare12_0";
-        public static string Character_Skin_InabaEclipse = "InabaEclipse";
 
     }
 

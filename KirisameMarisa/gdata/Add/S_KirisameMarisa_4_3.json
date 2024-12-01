@@ -1,0 +1,20 @@
+{
+    "S_KirisameMarisa_4_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/Hel_2",
+        "Target": "all_enemy",
+        "Description": "<color=#00BFFF>危险等级3</color> - 击杀敌人时，以一半的伤害量重复释放 1 次。",
+        "UseAp": 2,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_KirisameMarisa_4_3",
+        "Image_0": "S_KirisameMarisa_4_3\\S_KirisameMarisa_4_3_Image_0.png",
+        "Image_1": "S_KirisameMarisa_4_3\\S_KirisameMarisa_4_3_Image_1.png",
+        "Image_2": "S_KirisameMarisa_4_3\\S_KirisameMarisa_4_3_Image_2.png",
+        "NoDrop": true,
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_4_3"
+        ],
+        "Name": "恋风「Starlight Typhoon」"
+    }
+}

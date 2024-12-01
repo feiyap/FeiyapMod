@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Musoutensei_Lilywhite": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Musoutensei_Lilywhite_0"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

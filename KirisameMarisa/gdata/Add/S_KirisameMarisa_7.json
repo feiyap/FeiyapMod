@@ -1,0 +1,32 @@
+{
+    "S_KirisameMarisa_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "NotCount": true,
+        "Disposable": false,
+        "Name": "魔开「Open Universe」",
+        "Description": "本技能在弃牌库中时，费用增加4点。\n查看弃牌库最上面的3个技能，并选择其中1个技能。所选技能费用增加2点，并获得“无视防御，造成的伤害翻倍”的效果。",
+        "Image_0": "S_KirisameMarisa_7\\S_KirisameMarisa_7_Image_0.png",
+        "Image_1": "S_KirisameMarisa_7\\S_KirisameMarisa_7_Image_1.png",
+        "Image_2": "S_KirisameMarisa_7\\S_KirisameMarisa_7_Image_2.png",
+        "NoDrop": false,
+        "PlusSkillView": "S_KirisameMarisa_7_4",
+        "IgnoreTaunt": false,
+        "NoBasicSkill": true,
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_7"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "SkillBase_KirisameMarisa": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "魔理沙基类"
+    }
+}

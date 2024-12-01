@@ -2,9 +2,9 @@
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
         "Party": [
-            "Phoenix",
-            "Prime",
-            "Priest",
+            "Inaba",
+            "Eirin",
+            "Reisen",
             "HakureiReimu"
         ],
         "PartyBasicSkill": [
@@ -21,15 +21,10 @@
                 
             ],
             [
-                
+                "S_FKaguya_12Rare"
             ],
             [
-                "S_HakureiReimu_F_0",
-                "S_HakureiReimu_F_1",
-                "S_HakureiReimu_F_2",
-                "S_HakureiReimu_F_3",
-                "S_HakureiReimu_F_4",
-                "S_HakureiReimu_F_5"
+                "S_HakureiReimu_F_10Rare"
             ]
         ],
         "PartyEquip": [

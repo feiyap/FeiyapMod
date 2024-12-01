@@ -40,11 +40,17 @@ namespace HakureiReimu
             "HoanMeirin",
             "TouhouAlice",
             "Kogasa",
-            "Patchouli",
-            "Marisa",
-            "Koishi",
+            "Qinxin",
+            "CuteDog",
             "Kasen",
-            "Kurumi"
+            "Utuho",
+            "Rin",
+            "Touhou_LilyWhite",
+            "Touhou_LilyBlack",
+            "Kurumi",
+            "Marisa",
+            "Patchouli",
+            "Koishi"
         };
 
         [HarmonyPostfix]

@@ -1,0 +1,12 @@
+{
+    "SE_T_S_KirisameMarisa_9_A": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_KirisameMarisa_9"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

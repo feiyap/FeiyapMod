@@ -112,7 +112,23 @@ namespace HakureiReimu
             "S_Satsuki_11Rare",
             "S_Musoutensei_Satsuki",
             "S_FlandreScarlet_12Rare",
-            "S_Musoutensei_Flandre"
+            "S_Musoutensei_Flandre",
+            "S_Reisen_10Rare",
+            "S_Musoutensei_Reisen",
+            "S_Eirin_11Rare",
+            "S_Musoutensei_Eirin",
+            "S_FKaguya_12Rare",
+            "S_Musoutensei_Kaguya",
+            "S_Inaba_Rare10",
+            "S_Musoutensei_Inaba",
+            "S_Mokou_R_1",
+            "S_Musoutensei_Mokou",
+            "S_Touhoualice_R1",
+            "S_Musoutensei_Alice",
+            "S_Utuho_11",
+            "S_Musoutensei_Utuho",
+            "S_LilyWhite_Spring_Rare_2",
+            "S_Musoutensei_Lilywhite"
         };
     }
 }

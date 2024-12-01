@@ -1,0 +1,25 @@
+{
+    "RE_KirisameMarisa_0": {
+        "_gdeSchema": "RandomEvent",
+        "Script": "KirisameMarisa.RE_KirisameMarisa_0",
+        "RareEvent": true,
+        "SpecialAppearance": false,
+        "ItemSlotView": false,
+        "Name": "偶遇霖之助",
+        "Desc": "",
+        "UseButton": [
+            "获得露西稀有技能书“总攻！”。",
+            "花费2000金币，购买“危险扳机”。"
+        ],
+        "UseButtonTooltip": [
+            "霖之助：“这东西我留着用不了，就免费送你吧。”",
+            "霖之助：“这东西好像很契合魔理沙的样子……”"
+        ],
+        "Desc_3Stage": "你们在白色墓地遇到了森近霖之助。他在这里做什么？",
+        "EventDetails": "霖之助：“哦呀？这不是露西么。……我？有人委托我在这里寻宝来着……那个人的身份？是秘密哦。对了，我手里正好有些宝物，要来看看么？”",
+        "MainImage_3Stage": "RE_KirisameMarisa_0\\RE_KirisameMarisa_0MainImage_3Stage.png",
+        "OrderStrings": [
+            "霖之助继续他的委托去了……"
+        ]
+    }
+}

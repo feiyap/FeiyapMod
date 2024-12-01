@@ -1,0 +1,33 @@
+{
+    "S_KirisameMarisa_3_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_R1",
+        "Target": "enemy",
+        "Description": "<color=#00BFFF>危险等级2</color> - 重复释放 &a (2 + <color=#FF7A33>&b</color>) 次。\n速度小于0时，每少1点向随机敌人重复释放 1 次。",
+        "Name": "魔空「Asteroid Belt」",
+        "UseAp": 1,
+        "NoDrop": true,
+        "NotCount": false,
+        "Effect_Target": "SE_T_S_KirisameMarisa_3_2",
+        "Image_0": "S_KirisameMarisa_3_2\\S_KirisameMarisa_3_2_Image_0.png",
+        "Image_1": "S_KirisameMarisa_3_2\\S_KirisameMarisa_3_2_Image_1.png",
+        "Image_2": "S_KirisameMarisa_3_2\\S_KirisameMarisa_3_2_Image_2.png",
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_3_2"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

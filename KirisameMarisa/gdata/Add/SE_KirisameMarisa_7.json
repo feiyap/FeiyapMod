@@ -1,0 +1,9 @@
+{
+    "SE_KirisameMarisa_7": {
+        "_gdeSchema": "SkillExtended",
+        "IsOnesInit": false,
+        "Name": "无视防御，造成的伤害翻倍。",
+        "IsIcon": "SE_KirisameMarisa_7\\SE_KirisameMarisa_7_Icon.png",
+        "ClassName": "KirisameMarisa.SE_KirisameMarisa_7"
+    }
+}

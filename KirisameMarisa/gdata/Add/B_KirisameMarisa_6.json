@@ -1,0 +1,14 @@
+{
+    "B_KirisameMarisa_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "KirisameMarisa.B_KirisameMarisa_6",
+        "BuffTag": "Debuff",
+        "Name": "危险信号",
+        "Icon": "B_KirisameMarisa_6\\B_KirisameMarisa_6_Icon.png",
+        "Description": "受到攻击后减少一层。",
+        "Debuff": true,
+        "TagPer": 150,
+        "MaxStack": 2,
+        "LifeTime": 0
+    }
+}

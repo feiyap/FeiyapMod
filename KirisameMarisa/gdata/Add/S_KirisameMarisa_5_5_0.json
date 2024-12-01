@@ -1,0 +1,23 @@
+{
+    "S_KirisameMarisa_5_5_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S_TheLight_4",
+        "Target": "enemy",
+        "NoDrop": true,
+        "IgnoreTaunt": true,
+        "Track": true,
+        "Name": "魔恋「最初也是最后的Master Sparrrrrrrrrrrrk！」",
+        "UseAp": 5,
+        "Except": true,
+        "Effect_Target": "SE_T_S_KirisameMarisa_5_5_0",
+        "Image_0": "S_KirisameMarisa_5_5_0\\S_KirisameMarisa_5_5_0_Image_0.png",
+        "Image_1": "S_KirisameMarisa_5_5_0\\S_KirisameMarisa_5_5_0_Image_1.png",
+        "Image_2": "S_KirisameMarisa_5_5_0\\S_KirisameMarisa_5_5_0_Image_2.png",
+        "Counting": 1,
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_5_5_0"
+        ],
+        "Description": "<color=#00BFFF>危险等级5</color> - 自身的速度小于0时，每少1点使这个技能暴击率提升50%。\n当此技能的暴击率超过100%时，技能伤害按照超出暴击率百分比增加。"
+    }
+}

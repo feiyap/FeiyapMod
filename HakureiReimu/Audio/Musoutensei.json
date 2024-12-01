@@ -1,7 +1,7 @@
 {
     "Name": "Musoutensei",
-    "path": "AudioFiles\\Musoutensei.mp3",
-    "AssetBundlePath": "",
+    "path": "Assets/HakureiReimu/Musoutensei.mp3",
+    "AssetBundlePath": "reimu_character",
     "Loop": false,
     "Bus": "BGM"
 }

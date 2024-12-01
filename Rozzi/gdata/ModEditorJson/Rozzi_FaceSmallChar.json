@@ -1,0 +1,23 @@
+{
+    "myKey": "Rozzi",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Rozzi\\RozziFaceSmallChar.png",
+        "offsetMax": {
+            "x": 617.948,
+            "y": 110.955444
+        },
+        "offsetMin": {
+            "x": -593.1052,
+            "y": -1100.09778
+        },
+        "pivot": {
+            "x": 0.488065422,
+            "y": 0.90376544
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

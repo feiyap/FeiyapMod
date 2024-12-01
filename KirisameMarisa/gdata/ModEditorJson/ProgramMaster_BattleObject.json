@@ -1,0 +1,12 @@
+{
+    "myKey": "ProgramMaster",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "",
+        "Animation": "None"
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

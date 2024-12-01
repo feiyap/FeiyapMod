@@ -1,0 +1,17 @@
+{
+    "SE_T_S_Musoutensei_Mokou": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 60,
+        "Buffs": [
+            "B_HakureiReimu_F_6",
+            "B_Mokou_T_1",
+            "B_Mokou_T_1"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0
+        ]
+    }
+}

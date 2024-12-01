@@ -1,0 +1,15 @@
+{
+    "KirisameMarisaEclipse": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "奇妙的魔法使",
+        "Character": "KirisameMarisa",
+        "SkinDesc": "我会让你见识到地狱的见面礼……\n我特别准备了超强火力！",
+        "FaceSprite": "KirisameMarisaEclis\\KirisameMarisaEclisBattleFace.png",
+        "CampSD": [
+            "KirisameMarisaEclis\\KirisameMarisaEclisCampSD0.png",
+            "KirisameMarisaEclis\\KirisameMarisaEclisCampSD1.png",
+            "KirisameMarisaEclis\\KirisameMarisaEclisCampSD2.png",
+            "KirisameMarisaEclis\\KirisameMarisaEclisCampSD3.png"
+        ]
+    }
+}

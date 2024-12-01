@@ -1,0 +1,11 @@
+{
+    "B_KirisameMarisa_8": {
+        "_gdeSchema": "Buff",
+        "ClassName": "KirisameMarisa.B_KirisameMarisa_8",
+        "BuffTag": "null",
+        "Name": "危险改装",
+        "Icon": "B_KirisameMarisa_8\\B_KirisameMarisa_8_Icon.png",
+        "Description": "下一个“指向敌人”的技能获得“同时攻击所有敌人；且若目标只有一个，以暴击形式命中”的效果。",
+        "MaxStack": 2
+    }
+}

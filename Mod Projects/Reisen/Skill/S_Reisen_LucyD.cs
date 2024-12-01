@@ -26,13 +26,13 @@ namespace Reisen
             List<Buff> list = new List<Buff>();
             foreach (Buff buff in Targets[0].Buffs)
             {
-                if (buff.BuffData.MaxStack > 1 && !buff.BuffData.Cantdisable && !buff.BuffData.Hide && !buff.DestroyBuff)
+                if (buff.BuffData.MaxStack > 1 && !buff.BuffData.Hide && !buff.DestroyBuff)
                 {
                     if (!buff.BuffData.Debuff)
                     {
                         Targets[0].BuffAdd(buff.BuffData.Key, buff.Usestate_L, false, 0, false, -1, false);
                     }
-                    else
+                    else if (!buff.BuffData.Cantdisable)
                     {
                         Targets[0].BuffReturn(buff.BuffData.Key).SelfStackDestroy();
                     }

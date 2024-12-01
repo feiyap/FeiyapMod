@@ -1,0 +1,22 @@
+{
+    "S_KirisameMarisa_0_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/Sel_0",
+        "Target": "enemy",
+        "NoBasicSkill": true,
+        "Name": "星符「Polaris Unique」",
+        "Description": "<color=#00BFFF>危险等级4</color> - 本回合内可重复释放。",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_KirisameMarisa_0_4",
+        "Image_0": "S_KirisameMarisa_0_4\\S_KirisameMarisa_0_4_Image_0.png",
+        "Image_1": "S_KirisameMarisa_0_4\\S_KirisameMarisa_0_4_Image_1.png",
+        "Image_2": "S_KirisameMarisa_0_4\\S_KirisameMarisa_0_4_Image_2.png",
+        "NoDrop": true,
+        "NotCount": true,
+        "Effect_Self": "SE_S_S_KirisameMarisa_0_4",
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_0_4"
+        ]
+    }
+}

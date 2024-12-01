@@ -1,0 +1,23 @@
+{
+    "myKey": "KirisameMarisaEclipse",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "KirisameMarisaEclis\\KirisameMarisaEclisFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1052.20874,
+            "y": 655.0421
+        },
+        "offsetMin": {
+            "x": -1077.54321,
+            "y": -1410.247
+        },
+        "pivot": {
+            "x": 0.5052904,
+            "y": 0.6802306
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

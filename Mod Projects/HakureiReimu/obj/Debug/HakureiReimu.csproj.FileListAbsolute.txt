@@ -9,7 +9,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\De
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\Mono.Cecil.Rocks.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\MonoMod.RuntimeDetour.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\MonoMod.Utils.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\HakureiReimu202411101315.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\HakureiReimu202411101315.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu202411101315.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu202411101315.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\HakureiReimu20241126232805.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\HakureiReimu20241126232805.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu20241126232805.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu20241126232805.pdb

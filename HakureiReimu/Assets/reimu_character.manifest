@@ -1,15 +1,17 @@
 ManifestFileVersion: 0
-CRC: 4118705602
+CRC: 168268876
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d34f5d50781de68fcbe909b8d20ce5f2
+    Hash: 812005ff85428b6f7370309396484587
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+    Hash: ce5d292be67dd4f66c5e25bd4a35cf80
 HashAppended: 0
 ClassTypes:
 - Class: 28
+  Script: {instanceID: 0}
+- Class: 83
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
@@ -19,10 +21,17 @@ Assets:
 - Assets/HakureiReimu/Reimu_Smile.png
 - Assets/HakureiReimu/Reimu_Happy.png
 - Assets/HakureiReimu/Reimu_RedCry.png
+- Assets/HakureiReimu/Musoutensei_Lilywhite.mp3
+- Assets/HakureiReimu/Musoutensei_Flandre.mp3
 - Assets/HakureiReimu/Reimu_Angry.png
+- Assets/HakureiReimu/Musoutensei_Sakuya.mp3
 - Assets/HakureiReimu/Reimu_RedHurt.png
 - Assets/HakureiReimu/Reimu_Emm.png
+- Assets/HakureiReimu/Musoutensei_Reisen.mp3
+- Assets/HakureiReimu/Musoutensei_Mokou.mp3
 - Assets/HakureiReimu/Reimu_Bad.png
+- Assets/HakureiReimu/Musoutensei_Eirin2.mp3
+- Assets/HakureiReimu/Musoutensei_Inaba.mp3
 - Assets/HakureiReimu/Reimu_RedSmallCry.png
 - Assets/HakureiReimu/Reimu_RedSmallHappy.png
 - Assets/HakureiReimu/Reimu_Surprise.png
@@ -30,15 +39,22 @@ Assets:
 - Assets/HakureiReimu/Reimu_SmallCry.png
 - Assets/HakureiReimu/Reimu_Han.png
 - Assets/HakureiReimu/Reimu_BigHappy.png
+- Assets/HakureiReimu/Musoutensei_Satsuki.mp3
+- Assets/HakureiReimu/Musoutensei.mp3
 - Assets/HakureiReimu/Reimu_RedSmile.png
 - Assets/HakureiReimu/Reimu_Cry.png
 - Assets/HakureiReimu/Reimu_RedSurprise.png
 - Assets/HakureiReimu/Reimu_RedSmallSmile.png
 - Assets/HakureiReimu/Reimu_Hurt.png
 - Assets/HakureiReimu/Reimu_RedAngry.png
+- Assets/HakureiReimu/Musoutensei_Utuho.mp3
 - Assets/HakureiReimu/Reimu_Normal.png
+- Assets/HakureiReimu/Musoutensei_Remilia.mp3
+- Assets/HakureiReimu/Musoutensei_Kaguya.mp3
 - Assets/HakureiReimu/Reimu_RedSad.png
+- Assets/HakureiReimu/Musoutensei_Alice.mp3
 - Assets/HakureiReimu/Reimu_RedHappy.png
 - Assets/HakureiReimu/Reimu_SmallHurt.png
+- Assets/HakureiReimu/Musoutensei_Eirin.mp3
 - Assets/HakureiReimu/Reimu_RedEmm.png
 Dependencies: []

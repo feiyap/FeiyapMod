@@ -4,13 +4,13 @@
         "Category": "null",
         "Particle": "Particle/impact",
         "Rare": true,
-        "Target": "all_ally",
+        "Target": "all_enemy",
         "NODOD": false,
         "NotCount": true,
         "NoDrop": true,
         "IgnoreTaunt": false,
         "Name": "天月下「地上的大密室」",
-        "Description": "<color=#FFD700>*「梦想天生」+秘术「天文密葬法」*</color>",
+        "Description": "<color=#FFD700>*「梦想天生」+秘术「天文密葬法」*</color>\n随机对自身施加5种增益效果。\n那之后，自身每有1种增益效果，进行1次追加攻击，造成&a(30%)伤害，并连锁治疗自己&a(30%)体力值。",
         "UseAp": 3,
         "NotChuck": false,
         "HealSkill": false,
@@ -24,6 +24,10 @@
         "UnknownTarget": false,
         "Image_0": "S_Musoutensei_Eirin\\S_Musoutensei_Eirin_Image_0.png",
         "Image_1": "S_Musoutensei_Eirin\\S_Musoutensei_Eirin_Image_1.png",
-        "Image_2": "S_Musoutensei_Eirin\\S_Musoutensei_Eirin_Image_2.png"
+        "Image_2": "S_Musoutensei_Eirin\\S_Musoutensei_Eirin_Image_2.png",
+        "SkillExtended": [
+            "HakureiReimu.S_Musoutensei_Eirin"
+        ],
+        "Effect_Target": "SE_T_S_Musoutensei_Eirin"
     }
 }

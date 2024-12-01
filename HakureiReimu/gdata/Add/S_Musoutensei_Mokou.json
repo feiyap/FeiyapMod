@@ -2,16 +2,16 @@
     "S_Musoutensei_Mokou": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Miss/MissChain_4_1",
         "Rare": true,
         "Target": "all_enemy",
         "NotCount": true,
         "Disposable": false,
         "Name": "「这不知是第几次的生命，梦想封印吧」",
-        "Description": "<color=#FFD700>*「梦想天生」+「这不知是第几次的生命，燃烧殆尽吧」*</color>\n60%倍率。恢复1点法力值。",
-        "UseAp": 3,
+        "Description": "<color=#FFD700>*「梦想天生」+「这不知是第几次的生命，燃烧殆尽吧」*</color>",
+        "UseAp": 1,
         "Effect_Target": "SE_T_S_Musoutensei_Mokou",
-        "Effect_Self": "null",
+        "Effect_Self": "SE_S_S_Musoutensei_Mokou",
         "Image_0": "S_Musoutensei_Mokou\\S_Musoutensei_Mokou_Image_0.png",
         "Image_1": "S_Musoutensei_Mokou\\S_Musoutensei_Mokou_Image_1.png",
         "Image_2": "S_Musoutensei_Mokou\\S_Musoutensei_Mokou_Image_2.png",
@@ -26,6 +26,9 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "HakureiReimu.S_Musoutensei_Mokou"
+        ]
     }
 }

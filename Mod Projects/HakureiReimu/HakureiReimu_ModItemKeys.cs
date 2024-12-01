@@ -135,8 +135,13 @@ namespace HakureiReimu
 		/// </summary>
         public static string Buff_B_Musoutensei_Flandre_0 = "B_Musoutensei_Flandre_0";
 		/// <summary>
+		/// 发热巫女
+		/// 自身拥有的每种增益使这个增益获得“+5%攻击力、+5%暴击率、+5%暴击伤害”。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Lilywhite_0 = "B_Musoutensei_Lilywhite_0";
+		/// <summary>
 		/// 狂灵/绯色月
-		/// 每次&user使用技能时，铃仙会对目标发动一次免费的<color=#B22222>幻象/乱弹</color>。
+		/// 每次&user对其造成伤害时，铃仙会对目标发动一次免费的<color=#B22222>幻象/乱弹</color>。
 		/// </summary>
         public static string Buff_B_Musoutensei_Reisen_0 = "B_Musoutensei_Reisen_0";
 		/// <summary>
@@ -253,9 +258,12 @@ namespace HakureiReimu
         public static string SkillEffect_SE_S_S_HakureiReimu_F_4_5 = "SE_S_S_HakureiReimu_F_4_5";
         public static string SkillEffect_SE_S_S_HakureiReimu_F_8_3 = "SE_S_S_HakureiReimu_F_8_3";
         public static string SkillEffect_SE_S_S_Musoutensei_Flandre = "SE_S_S_Musoutensei_Flandre";
+        public static string SkillEffect_SE_S_S_Musoutensei_Lilywhite = "SE_S_S_Musoutensei_Lilywhite";
+        public static string SkillEffect_SE_S_S_Musoutensei_Mokou = "SE_S_S_Musoutensei_Mokou";
         public static string SkillEffect_SE_S_S_Musoutensei_Youmu = "SE_S_S_Musoutensei_Youmu";
         public static string SkillEffect_SE_Tick_B_HakureiReimu_F_6_0 = "SE_Tick_B_HakureiReimu_F_6_0";
         public static string SkillEffect_SE_Tick_B_HakureiReimu_F_LucyD_2 = "SE_Tick_B_HakureiReimu_F_LucyD_2";
+        public static string SkillEffect_SE_Tick_B_Musoutensei_Lilywhite_0 = "SE_Tick_B_Musoutensei_Lilywhite_0";
         public static string SkillEffect_SE_T_S_HakureiReimu_F_0 = "SE_T_S_HakureiReimu_F_0";
         public static string SkillEffect_SE_T_S_HakureiReimu_F_0_1 = "SE_T_S_HakureiReimu_F_0_1";
         public static string SkillEffect_SE_T_S_HakureiReimu_F_0_2 = "SE_T_S_HakureiReimu_F_0_2";
@@ -283,10 +291,13 @@ namespace HakureiReimu
         public static string SkillEffect_SE_T_S_HakureiReimu_F_6_4 = "SE_T_S_HakureiReimu_F_6_4";
         public static string SkillEffect_SE_T_S_HakureiReimu_F_7 = "SE_T_S_HakureiReimu_F_7";
         public static string SkillEffect_SE_T_S_HakureiReimu_F_7_3 = "SE_T_S_HakureiReimu_F_7_3";
+        public static string SkillEffect_SE_T_S_Musoutensei_Eirin = "SE_T_S_Musoutensei_Eirin";
+        public static string SkillEffect_SE_T_S_Musoutensei_Mokou = "SE_T_S_Musoutensei_Mokou";
         public static string SkillEffect_SE_T_S_Musoutensei_Reisen = "SE_T_S_Musoutensei_Reisen";
         public static string SkillEffect_SE_T_S_Musoutensei_Remilia = "SE_T_S_Musoutensei_Remilia";
         public static string SkillEffect_SE_T_S_Musoutensei_Sakuya = "SE_T_S_Musoutensei_Sakuya";
         public static string SkillEffect_SE_T_S_Musoutensei_Satsuki = "SE_T_S_Musoutensei_Satsuki";
+        public static string SkillEffect_SE_T_S_Musoutensei_Utuho = "SE_T_S_Musoutensei_Utuho";
         public static string SkillExtended_SkillExtended_Reimu = "SkillExtended_Reimu";
 		/// <summary>
 		/// 灵符「梦想妙珠」
@@ -473,8 +484,16 @@ namespace HakureiReimu
 		/// </summary>
         public static string Skill_S_HakureiReimu_F_LucyD = "S_HakureiReimu_F_LucyD";
 		/// <summary>
+		/// 魔符「幻想乡异闻录」
+		/// <color=#FFD700>*「梦想天生」+寿命论“星之梦”*</color>
+		/// 解除目标所有减益效果。每解除1个减益，抽取1个技能，恢复1点法力值。最多抽取4个技能。
+		/// </summary>
+        public static string Skill_S_Musoutensei_Alice = "S_Musoutensei_Alice";
+		/// <summary>
 		/// 天月下「地上的大密室」
 		/// <color=#FFD700>*「梦想天生」+秘术「天文密葬法」*</color>
+		/// 随机对自身施加5种增益效果。
+		/// 那之后，自身每有1种增益效果，进行1次追加攻击，造成&a(30%)伤害，并连锁治疗自己&a(30%)体力值。
 		/// </summary>
         public static string Skill_S_Musoutensei_Eirin = "S_Musoutensei_Eirin";
 		/// <summary>
@@ -483,15 +502,25 @@ namespace HakureiReimu
 		/// </summary>
         public static string Skill_S_Musoutensei_Flandre = "S_Musoutensei_Flandre";
 		/// <summary>
+		/// 「会，会，会，会，会出现什么呢？！」
+		/// <color=#FFD700>*「梦想天生」+「会，会，会出现什么呢？」*</color>
+		/// 从<color=#FFD700>帝的豪华奖池</color>中随机触发10个效果。
+		/// </summary>
+        public static string Skill_S_Musoutensei_Inaba = "S_Musoutensei_Inaba";
+		/// <summary>
 		/// 新难题「幻想乡的至宝」
 		/// <color=#FFD700>*「梦想天生」+新难题「艾哲红石」*</color>
 		/// 生成目标的所有稀有技能。
 		/// </summary>
         public static string Skill_S_Musoutensei_Kaguya = "S_Musoutensei_Kaguya";
 		/// <summary>
+		/// 立春「春眠不觉晓」
+		/// <color=#FFD700>*「梦想天生」+春符「告春」*</color>
+		/// </summary>
+        public static string Skill_S_Musoutensei_Lilywhite = "S_Musoutensei_Lilywhite";
+		/// <summary>
 		/// 「这不知是第几次的生命，梦想封印吧」
 		/// <color=#FFD700>*「梦想天生」+「这不知是第几次的生命，燃烧殆尽吧」*</color>
-		/// 60%倍率。恢复1点法力值。
 		/// </summary>
         public static string Skill_S_Musoutensei_Mokou = "S_Musoutensei_Mokou";
 		/// <summary>
@@ -518,18 +547,16 @@ namespace HakureiReimu
 		/// </summary>
         public static string Skill_S_Musoutensei_Satsuki = "S_Musoutensei_Satsuki";
 		/// <summary>
+		/// 核聚变「活殺自在·地獄暴走之心」
+		/// <color=#FFD700>*「梦想天生」+地狱的人造太阳*</color>
+		/// 立即结算3次目标身上的痛苦减益伤害。
+		/// </summary>
+        public static string Skill_S_Musoutensei_Utuho = "S_Musoutensei_Utuho";
+		/// <summary>
 		/// 魂灵符「一念成佛丶一念逍遥」
-		/// 灵梦和妖梦获得[天人合一]。
 		/// </summary>
         public static string Skill_S_Musoutensei_Youmu = "S_Musoutensei_Youmu";
         public static string UnlockWindow_Unlock_HakureiReimu = "Unlock_HakureiReimu";
-		/// <summary>
-		/// 「会，会，会，会，会出现什么呢？！」
-		/// <color=#FFD700>*「梦想天生」+「会，会，会出现什么呢？」*</color>
-		/// 从<color=#FFD700>帝的豪华奖池</color>中随机触发10个效果。
-		/// </summary>
-        public static string Skill_S_Musoutensei_Inaba = "S_Musoutensei_Inaba";
-        public static string SkillEffect_SE_T_S_Musoutensei_Mokou = "SE_T_S_Musoutensei_Mokou";
 
     }
 

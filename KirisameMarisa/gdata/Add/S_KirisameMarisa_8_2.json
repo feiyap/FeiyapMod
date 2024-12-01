@@ -1,0 +1,24 @@
+{
+    "S_KirisameMarisa_8_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "Name": "天仪「Orrery's Solar System」",
+        "Description": "<color=#00BFFF>危险等级2</color> - 获得2次等待次数。",
+        "Effect_Target": "null",
+        "Effect_Self": "SE_S_S_KirisameMarisa_8_2",
+        "Image_0": "S_KirisameMarisa_8_2\\S_KirisameMarisa_8_2_Image_0.png",
+        "Image_1": "S_KirisameMarisa_8_2\\S_KirisameMarisa_8_2_Image_1.png",
+        "Image_2": "S_KirisameMarisa_8_2\\S_KirisameMarisa_8_2_Image_2.png",
+        "PlusSkillView": "S_KirisameMarisa_8_4",
+        "Disposable": true,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": true,
+        "UseAp": 2,
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_8_2"
+        ]
+    }
+}

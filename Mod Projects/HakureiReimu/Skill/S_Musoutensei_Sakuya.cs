@@ -19,6 +19,13 @@ namespace HakureiReimu
 	/// </summary>
     public class S_Musoutensei_Sakuya: SkillExtended_Reimu
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
 
+            MasterAudio.StopBus("BGM");
+            MasterAudio.StopBus("BattleBGM");
+            MasterAudio.PlaySound("Musoutensei_Sakuya", 1f, null, 0f, null, null, false, false);
+        }
     }
 }

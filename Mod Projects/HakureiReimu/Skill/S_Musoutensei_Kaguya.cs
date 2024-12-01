@@ -23,6 +23,11 @@ namespace HakureiReimu
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
+
+            MasterAudio.StopBus("BGM");
+            MasterAudio.StopBus("BattleBGM");
+            MasterAudio.PlaySound("Musoutensei_Kaguya", 1f, null, 0f, null, null, false, false);
+
             List<Skill> list = new List<Skill>();
             using (List<GDESkillData>.Enumerator enumerator = PlayData.ALLRARESKILLLIST.GetEnumerator())
             {

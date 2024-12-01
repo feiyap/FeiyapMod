@@ -1,0 +1,16 @@
+{
+    "Item_KirisameMarisa_DangerTrigger": {
+        "_gdeSchema": "Item_Consume",
+        "itemClass": "Legendary",
+        "active_battle": false,
+        "active_field": true,
+        "image": "Item\\Item_KirisameMarisa_DangerTrigger_image.png",
+        "Stack": 1,
+        "Price": 2000,
+        "name": "危险扳机",
+        "Description": "使一个角色攻击力+3，防御力-15%。\n对雾雨魔理沙使用时，使她在本次轮回中<color=#00BFFF>危险等级</color>上限+1。",
+        "FieldUse": "KirisameMarisa.Item_KirisameMarisa_DangerTrigger",
+        "Target": "ally",
+        "BattleUse": ""
+    }
+}

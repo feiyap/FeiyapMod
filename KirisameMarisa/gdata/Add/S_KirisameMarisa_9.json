@@ -1,0 +1,34 @@
+{
+    "S_KirisameMarisa_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "choiceskill",
+        "NotCount": true,
+        "Name": "光符「Earth Light Ray」",
+        "Description": "选择 - 使一个队友获得“速度+2，速度大于0时，每多1点提供+10%暴击率，+10%暴击伤害”的增益，持续3回合；\n\n或使一个队友获得“速度-2，速度小于0时，每少1点提供+1最大法力值”的增益，持续3回合。",
+        "User": "KirisameMarisa",
+        "Effect_Target": "null",
+        "Image_0": "S_KirisameMarisa_9\\S_KirisameMarisa_9_Image_0.png",
+        "Image_1": "S_KirisameMarisa_9\\S_KirisameMarisa_9_Image_1.png",
+        "Image_2": "S_KirisameMarisa_9\\S_KirisameMarisa_9_Image_2.png",
+        "PlusSkillView": "S_KirisameMarisa_9_3",
+        "NoDrop": false,
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_9"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

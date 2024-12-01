@@ -1,0 +1,23 @@
+{
+    "S_KirisameMarisa_Rare_11": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Charon/Charon_CutAni_0",
+        "Target": "enemy",
+        "Name": "彗星「Blazing Star」",
+        "Description": "倒计时期间，自身处于无敌状态。\n释放时，速度大于0时，每有1点速度，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的50%)</color>。",
+        "Rare": true,
+        "UseAp": 2,
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "NoBasicSkill": true,
+        "Track": true,
+        "Counting": 3,
+        "Effect_Target": "SE_T_S_KirisameMarisa_Rare_11",
+        "Image_0": "S_KirisameMarisa_Rare_11\\S_KirisameMarisa_Rare_11_Image_0.png",
+        "Image_1": "S_KirisameMarisa_Rare_11\\S_KirisameMarisa_Rare_11_Image_1.png",
+        "Image_2": "S_KirisameMarisa_Rare_11\\S_KirisameMarisa_Rare_11_Image_2.png",
+        "NoDrop": false,
+        "Disposable": false
+    }
+}

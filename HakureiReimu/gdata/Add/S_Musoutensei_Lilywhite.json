@@ -1,0 +1,23 @@
+{
+    "S_Musoutensei_Lilywhite": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Fatal": false,
+        "Name": "立春「春眠不觉晓」",
+        "Description": "<color=#FFD700>*「梦想天生」+春符「告春」*</color>",
+        "NotCount": true,
+        "Disposable": true,
+        "Effect_Self": "SE_S_S_Musoutensei_Lilywhite",
+        "Image_0": "S_Musoutensei_Lilywhite\\S_Musoutensei_Lilywhite_Image_0.png",
+        "Image_1": "S_Musoutensei_Lilywhite\\S_Musoutensei_Lilywhite_Image_1.png",
+        "Image_2": "S_Musoutensei_Lilywhite\\S_Musoutensei_Lilywhite_Image_2.png",
+        "SkillExtended": [
+            "HakureiReimu.S_Musoutensei_Lilywhite"
+        ]
+    }
+}

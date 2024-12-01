@@ -19,6 +19,9 @@ namespace Reisen
 	/// </summary>
     public class S_Reisen_12Rare:Skill_Extended
     {
-
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            Targets[0].Heal(this.BChar, (int)(Targets[0].GetStat.maxhp * 0.5), false, false);
+        }
     }
 }

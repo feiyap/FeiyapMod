@@ -41,15 +41,15 @@ namespace HakureiReimu
 
             this.MySkill.Init(gdeskillData, this.BChar, this.BChar.MyTeam);
 
-            if (this.MySkill.MySkill.Target.Key == GDEItemKeys.s_targettype_ally)
-            {
-                this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
-            }
+            //if (this.MySkill.MySkill.Target.Key == GDEItemKeys.s_targettype_ally)
+            //{
+            //    this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
+            //}
 
-            if (this.MySkill.MySkill.Target.Key == GDEItemKeys.s_targettype_all_ally)
-            {
-                this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
-            }
+            //if (this.MySkill.MySkill.Target.Key == GDEItemKeys.s_targettype_all_ally)
+            //{
+            //    this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
+            //}
 
             if (gdeskillData.Effect_Target != null)
             {

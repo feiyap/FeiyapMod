@@ -1,0 +1,12 @@
+{
+    "B_KirisameMarisa_1": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "ClassName": "KirisameMarisa.B_KirisameMarisa_1",
+        "BuffTag": "null",
+        "Name": "危险冲刺",
+        "MaxStack": 3,
+        "Description": "每个回合开始时，获得2次等待次数。",
+        "Icon": "B_KirisameMarisa_1\\B_KirisameMarisa_1_Icon.png"
+    }
+}

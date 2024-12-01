@@ -23,7 +23,11 @@ namespace HakureiReimu
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            
+
+            MasterAudio.StopBus("BGM");
+            MasterAudio.StopBus("BattleBGM");
+            MasterAudio.PlaySound("Musoutensei_Remilia", 1f, null, 0f, null, null, false, false);
+
             if (this.BChar.BuffFind("B_RemiliaScarlet_5"))
             {
                 this.SkillBasePlus.Target_BaseDMG = this.BChar.BuffReturn("B_RemiliaScarlet_5").StackNum * 20 * this.MySkill.MySkill.Effect_Target.DMG_Per / 100;

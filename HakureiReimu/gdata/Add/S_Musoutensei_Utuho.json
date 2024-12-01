@@ -1,0 +1,24 @@
+{
+    "S_Musoutensei_Utuho": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/Hel_2",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": false,
+        "Disposable": false,
+        "NoDrop": true,
+        "Name": "核聚变「活殺自在·地獄暴走之心」",
+        "Description": "<color=#FFD700>*「梦想天生」+地狱的人造太阳*</color>\n立即结算3次目标身上的痛苦减益伤害。",
+        "UseAp": 2,
+        "IgnoreTaunt": true,
+        "Fatal": true,
+        "Effect_Target": "SE_T_S_Musoutensei_Utuho",
+        "Image_0": "S_Musoutensei_Utuho\\S_Musoutensei_Utuho_Image_0.png",
+        "Image_1": "S_Musoutensei_Utuho\\S_Musoutensei_Utuho_Image_1.png",
+        "Image_2": "S_Musoutensei_Utuho\\S_Musoutensei_Utuho_Image_2.png",
+        "SkillExtended": [
+            "HakureiReimu.S_Musoutensei_Utuho"
+        ]
+    }
+}

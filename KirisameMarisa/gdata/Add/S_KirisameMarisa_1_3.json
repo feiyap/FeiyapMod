@@ -1,0 +1,21 @@
+{
+    "S_KirisameMarisa_1_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Momori/Momori_8_1",
+        "Target": "enemy",
+        "Name": "星符「Dragon Meteor」",
+        "Description": "<color=#00BFFF>危险等级3</color> - 当前额外伤害：&a\n握在手中时，每次按下等待按钮，此技能的伤害增加&b点<color=#FF7A33>(攻击力的35%)</color>。",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_KirisameMarisa_1_3",
+        "Image_0": "S_KirisameMarisa_1_3\\S_KirisameMarisa_1_3_Image_0.png",
+        "Image_1": "S_KirisameMarisa_1_3\\S_KirisameMarisa_1_3_Image_1.png",
+        "Image_2": "S_KirisameMarisa_1_3\\S_KirisameMarisa_1_3_Image_2.png",
+        "NoDrop": true,
+        "NoBasicSkill": false,
+        "Effect_Self": "SE_S_S_KirisameMarisa_1_3",
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_1_3"
+        ]
+    }
+}

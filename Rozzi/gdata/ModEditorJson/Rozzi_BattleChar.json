@@ -1,0 +1,23 @@
+{
+    "myKey": "Rozzi",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Rozzi\\RozziBattleChar.png",
+        "offsetMax": {
+            "x": 964.021851,
+            "y": 293.798065
+        },
+        "offsetMin": {
+            "x": -986.391357,
+            "y": -1656.61511
+        },
+        "pivot": {
+            "x": 0.505734563,
+            "y": 0.849366248
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

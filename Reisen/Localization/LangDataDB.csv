@@ -158,7 +158,7 @@ Skill/S_Reisen_11Rare_Description,Text,,"[환상/적월] 상태인 경우, [환�
 
 <i>카드 게임에서 누군가가 내 머리에 총을 들이댄 이유는 무엇일까? </i>","If Reisen is in [Illusion/Red Moon], exit [Illusion/Red Moon] state.","[幻影/赤月]を持つなら、[幻影/赤月]を除去する。
 
-<i>スペルカードの代わりに銃を突き付けてどうするつもり？</i>","如果有[幻象/赤月]状态，解除[幻象/赤月]状态。
+<i>スペルカードの代わりに銃を突き付けてどうするつもり？</i>","如果有<color=#FF4500>幻象/赤月</color>状态，解除<color=#FF4500>幻象/赤月</color>状态。
 
 <i>怎么有人在卡牌游戏拿枪指着我的头？</i>",
 Skill/S_Reisen_11Rare_Name,Text,,광몽 「풍광의 꿈(Dream World)」,Mad Dream「Dream of Insanity (Dream World)」,狂夢「風狂の夢(ドリームワールド)」,狂梦「疯狂的梦(Dream World)」,
@@ -214,7 +214,7 @@ Skill/S_Reisen_6_Description,Text,,"[환상/적월]상태인 경우, [환상/적
 Skill/S_Reisen_6_Name,Text,,적안 「망견원월(Lunatic Blast)」,Red Eye「Viewing the Circle Moon (Lunatic Blast)」,赤眼「望見円月(ルナティックブラスト)」,赤眼「望见圆月(Lunatic Blast)」,
 Skill/S_Reisen_7_Description,Text,,[대기] 1을 얻는다.,,待機回数+1。,,
 Skill/S_Reisen_7_Name,Text,,산부 「진실의 달(Invisible Full Moon)」,Wave Sign「Moon of Illusion (Invisible Half-Moon)」,波符「幻の月(インビジブルハーフムーン)」,散符「真实之月(Invisible Full Moon)」,
-Skill/S_Reisen_8_Description,Text,,,,,,
+Skill/S_Reisen_8_Description,Text,,"[환상/적월]상태인 경우, [환상/적월] 상태를 제거한다.","If Reisen is in [Illusion/Red Moon], exit [Illusion/Red Moon] state.",[幻影/赤月]を持つなら、[幻影/赤月]を除去する。,如果有<color=#FF4500>幻象/赤月</color>状态，解除<color=#FF4500>幻象/赤月</color>状态。,
 Skill/S_Reisen_8_Name,Text,,환폭 「근시 불꽃(Mind Star Mine)」,Illusion Bomb「Myopic Firework (Mind Starmine)」,幻爆「近眼花火(マインドスターマイン)」,幻爆「近眼花火(Mind Star Mine)」,
 Skill/S_Reisen_9_Description,Text,,적의 도발 상태를 변경한다.,Change the Taunt status of a selected enemy.,敵の挑発状態を変更する。,改变敌人的嘲讽状态。,
 Skill/S_Reisen_9_Name,Text,,산부 「농월화간(Rocket in Mist)」,Spread Sign「Hazy Moon Flower Bookmark (Rocket in Mist)」,散符「朧月花栞(ロケット·イン·ミスト)」,散符「胧月花栞(Rocket in Mist)」,
@@ -240,7 +240,7 @@ If you are in [Illusion/Red Moon] or [Illusion/Lunatic Blast] state, or if [Madn
 在<color=#FF4500>幻象/赤月</color>或<color=#FF0000>幻象/望月</color>状态下使用时，或是<color=#FF00FF>狂气</color>层数等于0时使用时，不再造成伤害，改为解除<color=#FF4500>幻象/赤月</color>状态或<color=#FF0000>幻象/望月</color>状态，并获得2层<color=#FF00FF>狂气</color>。",
 Skill/S_Reisen_P_Name,Text,,장시 「적월하(Infrared Moon)」,Farsight「In the Red Moonlight (Infrared Moon)」,長視「赤月下(インフレアドムーン)」,长视「赤月下(Infrared Moon)」,
 SkillExtended/SE_Reisen_0_Des,Text,,,,,,
-SkillExtended/SE_Reisen_0_EnforceString,Text,,,,,单体目标攻击技能,
-SkillExtended/SE_Reisen_0_Name,Text,,,,,若铃仙在场，释放时根据该技能的费用，铃仙对目标进行多次[幻象/乱弹]。,
+SkillExtended/SE_Reisen_0_EnforceString,Text,,단일 대상 공격 스킬,Single-Target Attack,単体を対象とする攻撃スキル,指向单体的攻击技能,
+SkillExtended/SE_Reisen_0_Name,Text,,"레이센 존재하는 경우, 시전 시 마나 소모량에 비례하여 레이센 대상에게 [환상/난전]을 시전합니다.","If played from hand, Reisen cast multiple [Illusion/Random Shot] equal to the cost of the skill.",使用時に、鈴仙が生存している場合、鈴仙がそのスキルのコストと同じ回数「幻影/乱射」を対象に発動する。,若铃仙在场，释放时根据该技能的费用，铃仙对目标进行多次[幻象/乱弹]。,
 SkillKeyword/Keyword_Insane_Desc,Text,,[환상/적월] 또는 [환상/농월] 상태에서 스킬의 추가 효과를 발동할 수 있다.,,[幻影/赤月]か[幻影/望月]を持つとき、このスキルは追加効果を発動する。,在[幻象/赤月]状态或[幻象/望月]状态下，技能能够触发额外效果。,
 SkillKeyword/Keyword_Insane_Name,Text,,환상/광기,Illusion/Madness,幻影/狂気,幻象/狂气,

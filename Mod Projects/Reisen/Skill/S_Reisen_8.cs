@@ -18,6 +18,12 @@ namespace Reisen
 	/// </summary>
     public class S_Reisen_8:Skill_Extended
     {
-
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (this.BChar.BuffFind("B_Reisen_P") || this.BChar.BuffFind("B_Reisen_6", false))
+            {
+                this.BChar.BuffReturn("B_Reisen_P").SelfDestroy();
+            }
+        }
     }
 }

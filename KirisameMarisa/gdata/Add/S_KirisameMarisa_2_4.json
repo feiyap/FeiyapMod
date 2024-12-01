@@ -1,0 +1,20 @@
+{
+    "S_KirisameMarisa_2_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/IronHeart/IronHeart_new_2",
+        "Target": "enemy",
+        "NoDrop": true,
+        "IgnoreTaunt": true,
+        "Name": "黑魔「Event Horizon」",
+        "UseAp": 3,
+        "Effect_Target": "SE_T_S_KirisameMarisa_2_4",
+        "Image_0": "S_KirisameMarisa_2_4\\S_KirisameMarisa_2_4_Image_0.png",
+        "Image_1": "S_KirisameMarisa_2_4\\S_KirisameMarisa_2_4_Image_1.png",
+        "Image_2": "S_KirisameMarisa_2_4\\S_KirisameMarisa_2_4_Image_2.png",
+        "Description": "<color=#00BFFF>危险等级4</color> - 自身没有体力极限时，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的100%)</color>。\n这个技能暴击时，如果速度大于0点，每有1点速度增加25%暴击伤害。",
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_2_4"
+        ]
+    }
+}

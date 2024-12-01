@@ -1,0 +1,22 @@
+{
+    "S_KirisameMarisa_7_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": true,
+        "Disposable": false,
+        "Name": "魔十字「Grand Cross」",
+        "Description": "<color=#00BFFF>危险等级4</color> - 本技能在弃牌库中时，费用增加4点。\n查看弃牌库最上面的3个技能，并选择其中1个技能抽到手中。所选技能费用增加2点，获得“无视防御，造成的伤害翻倍”的效果。",
+        "UseAp": 0,
+        "NoDrop": true,
+        "Image_0": "S_KirisameMarisa_7_4\\S_KirisameMarisa_7_4_Image_0.png",
+        "Image_1": "S_KirisameMarisa_7_4\\S_KirisameMarisa_7_4_Image_1.png",
+        "Image_2": "S_KirisameMarisa_7_4\\S_KirisameMarisa_7_4_Image_2.png",
+        "Rare": false,
+        "NoBasicSkill": true,
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_7_4"
+        ]
+    }
+}

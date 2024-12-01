@@ -1,0 +1,11 @@
+{
+    "SE_KirisameMarisa_8": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "IsIcon": "SE_KirisameMarisa_8\\SE_KirisameMarisa_8_Icon.png",
+        "Des": "同时攻击所有敌人；且若目标只有一个，以暴击形式命中。",
+        "Name": "危险改装",
+        "ClassName": "KirisameMarisa.SE_KirisameMarisa_8"
+    }
+}

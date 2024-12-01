@@ -1,0 +1,35 @@
+{
+    "S_KirisameMarisa_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Momori/Momori_8_0",
+        "Target": "enemy",
+        "NoBasicSkill": false,
+        "Name": "星符「Escape Velocity」",
+        "Description": "当前额外伤害：&a\n握在手中时，每次按下等待按钮，此技能的伤害增加&b点<color=#FF7A33>(攻击力的35%)</color>。",
+        "User": "KirisameMarisa",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_KirisameMarisa_1",
+        "Image_0": "S_KirisameMarisa_1\\S_KirisameMarisa_1_Image_0.png",
+        "Image_1": "S_KirisameMarisa_1\\S_KirisameMarisa_1_Image_1.png",
+        "Image_2": "S_KirisameMarisa_1\\S_KirisameMarisa_1_Image_2.png",
+        "PlusSkillView": "S_KirisameMarisa_1_3",
+        "NoDrop": false,
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_1"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

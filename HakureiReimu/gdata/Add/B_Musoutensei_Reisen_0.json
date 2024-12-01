@@ -1,0 +1,17 @@
+{
+    "B_Musoutensei_Reisen_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "HakureiReimu.B_Musoutensei_Reisen_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "狂灵/绯色月",
+        "Description": "每次&user对其造成伤害时，铃仙会对目标发动一次免费的<color=#B22222>幻象/乱弹</color>。",
+        "Icon": "B_Musoutensei_Reisen_0\\B_Musoutensei_Reisen_0_Icon.png",
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

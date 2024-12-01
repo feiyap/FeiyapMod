@@ -1,0 +1,10 @@
+{
+    "E_KirisameMarisa_0": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "name": "开拓星空的八卦炉",
+        "image": "Item\\E_KirisameMarisa_0_image.png",
+        "Description": "攻击未暴击时，造成的伤害降低80%。",
+        "Equip_Script": "KirisameMarisa.E_KirisameMarisa_0"
+    }
+}

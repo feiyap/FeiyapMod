@@ -1,0 +1,33 @@
+{
+    "S_Musoutensei_Alice": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_ally",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "魔符「幻想乡异闻录」",
+        "Description": "<color=#FFD700>*「梦想天生」+寿命论“星之梦”*</color>\n解除目标所有减益效果。每解除1个减益，抽取1个技能，恢复1点法力值。最多抽取4个技能。",
+        "UseAp": 1,
+        "Effect_Target": "null",
+        "Image_0": "S_Musoutensei_Alice\\S_Musoutensei_Alice_Image_0.png",
+        "Image_1": "S_Musoutensei_Alice\\S_Musoutensei_Alice_Image_1.png",
+        "Image_2": "S_Musoutensei_Alice\\S_Musoutensei_Alice_Image_2.png",
+        "SkillExtended": [
+            "HakureiReimu.S_Musoutensei_Alice"
+        ]
+    }
+}

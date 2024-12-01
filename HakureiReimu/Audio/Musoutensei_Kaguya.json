@@ -1,0 +1,7 @@
+{
+    "Name": "Musoutensei_Kaguya",
+    "path": "Assets/HakureiReimu/Musoutensei_Kaguya.mp3",
+    "AssetBundlePath": "reimu_character",
+    "Loop": false,
+    "Bus": "BGM"
+}

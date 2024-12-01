@@ -1,0 +1,16 @@
+{
+    "S_KirisameMarisa_9_D": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NoDrop": true,
+        "Name": "危险本能",
+        "Effect_Target": "SE_T_S_KirisameMarisa_9_D",
+        "Image_0": "S_KirisameMarisa_9_D\\S_KirisameMarisa_9_D_Image_0.png",
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_9_D"
+        ],
+        "Description": ""
+    }
+}

@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>Reisen20241117230627</AssemblyName>
+    <AssemblyName>Reisen20241126104244</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -384,7 +384,7 @@
 <!-- Extra Reference End-->
   </ItemGroup>
   
-                                                                                                                                                                                                                                                                                                                                                                            <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                                                                                                                                  <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="Reisen_ModDefinition.cs" />
     <Compile Include="Reisen_ModItemKeys.cs" />

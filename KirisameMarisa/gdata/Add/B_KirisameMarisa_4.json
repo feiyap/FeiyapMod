@@ -1,0 +1,13 @@
+{
+    "B_KirisameMarisa_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "KirisameMarisa.B_KirisameMarisa_4",
+        "BuffTag": "Debuff",
+        "Name": "危险情感",
+        "Debuff": true,
+        "TagPer": 120,
+        "Icon": "B_KirisameMarisa_4\\B_KirisameMarisa_4_Icon.png",
+        "LifeTime": 3,
+        "MaxStack": 3
+    }
+}

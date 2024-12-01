@@ -1,0 +1,10 @@
+{
+    "E_KirisameMarisa_1": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "name": "普通的扫帚",
+        "Description": "战斗开始时，若放在第一格时，使速度+5；否则使速度-5。",
+        "image": "Item\\E_KirisameMarisa_1_image.png",
+        "Equip_Script": "KirisameMarisa.E_KirisameMarisa_1"
+    }
+}

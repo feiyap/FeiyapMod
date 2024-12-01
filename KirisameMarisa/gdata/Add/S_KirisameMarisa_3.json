@@ -1,0 +1,35 @@
+{
+    "S_KirisameMarisa_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_R1",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "魔符「Milky Way」",
+        "User": "KirisameMarisa",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_KirisameMarisa_3",
+        "Image_0": "S_KirisameMarisa_3\\S_KirisameMarisa_3_Image_0.png",
+        "Image_1": "S_KirisameMarisa_3\\S_KirisameMarisa_3_Image_1.png",
+        "Image_2": "S_KirisameMarisa_3\\S_KirisameMarisa_3_Image_2.png",
+        "Description": "重复释放 &a (2 + <color=#FF7A33>&b</color>) 次。\n速度小于0时，每少2点向随机敌人重复释放 1 次。",
+        "SkillExtended": [
+            "KirisameMarisa.S_KirisameMarisa_3"
+        ],
+        "PlusSkillView": "S_KirisameMarisa_3_2"
+    }
+}
