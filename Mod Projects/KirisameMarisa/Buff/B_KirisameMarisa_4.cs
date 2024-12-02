@@ -22,7 +22,7 @@ namespace KirisameMarisa
         {
             base.Init();
             this.PlusStat.spd = -1 * StackNum;
-            this.PlusStat.DMGTaken = 10 * StackNum;
+            this.PlusStat.DMGTaken = 5 * StackNum;
         }
     }
 }

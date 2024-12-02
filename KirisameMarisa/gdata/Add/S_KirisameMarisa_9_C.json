@@ -3,7 +3,7 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Buff",
-        "Target": "ally",
+        "Target": "self",
         "NotCount": false,
         "Name": "危险冲动",
         "Description": "",

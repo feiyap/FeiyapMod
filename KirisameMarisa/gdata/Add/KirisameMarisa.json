@@ -13,7 +13,7 @@
             "y": 45
         },
         "PassiveName": "普通的魔法使",
-        "PassiveDes": "<b>东洋的西洋魔术师</b> - 回合开始时，雾雨魔理沙获得1层[超绝偷感]。\n\n<b><color=#00BFFF>危险等级</color></b> - 雾雨魔理沙每次使用攻击技能时，获得1层<color=#00BFFF>危险等级</color>。回合结束时，如果本回合雾雨魔理沙没有使用过技能，失去所有<color=#00BFFF>危险等级</color>。\n每层<color=#00BFFF>危险等级</color>提供2%攻击力和-2%防御力，并会解锁技能的额外效果。\n最多拥有4层<color=#00BFFF>危险等级</color>。",
+        "PassiveDes": "<b>东洋的西洋魔术师</b> - 回合开始时，雾雨魔理沙获得1层[超绝偷感]。\n\n<b><color=#00BFFF>危险等级</color></b> - 雾雨魔理沙每次使用攻击技能时，获得1层<color=#00BFFF>危险等级</color>。进入濒死状态时，失去所有<color=#00BFFF>危险等级</color>。\n每层<color=#00BFFF>危险等级</color>提供2%攻击力和-2%防御力，并会解锁技能的额外效果。\n最多拥有4层<color=#00BFFF>危险等级</color>。",
         "PassiveIcon": "KirisameMarisa\\KirisameMarisaPassiveIcon.png",
         "CollectionSprite_Cover": "KirisameMarisa\\KirisameMarisaCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "KirisameMarisa\\KirisameMarisaCollectionSprite_SkillFace.png",

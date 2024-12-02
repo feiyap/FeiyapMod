@@ -28,7 +28,7 @@ namespace KirisameMarisa
         {
             if (PlayData.PartySpeed < 0)
             {
-                this.PlusSkillStat.cri = 50f * Math.Abs(PlayData.PartySpeed);
+                this.PlusSkillStat.cri = 25f * Math.Abs(PlayData.PartySpeed);
             }
             else
             {
@@ -48,7 +48,7 @@ namespace KirisameMarisa
             {
                 if (PlayData.PartySpeed < 0)
                 {
-                    this.PlusSkillStat.cri = 50f * Math.Abs(PlayData.PartySpeed);
+                    this.PlusSkillStat.cri = 25f * Math.Abs(PlayData.PartySpeed);
                     return;
                 }
                 this.PlusSkillStat.cri = 0f;

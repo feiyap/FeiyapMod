@@ -36,9 +36,14 @@ namespace KirisameMarisa
             {
                 Fixed_count = 0;
 
+                int count = -PlayData.PartySpeed;
+                if (count > 10)
+                {
+                    count = 10;
+                }
                 if (PlayData.PartySpeed < 0)
                 {
-                    this.PlusStat.MPR = -PlayData.PartySpeed;
+                    this.PlusStat.cri = count * 5;
                 }
             }
         }

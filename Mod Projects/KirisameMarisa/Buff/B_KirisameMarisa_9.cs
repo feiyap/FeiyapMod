@@ -43,7 +43,6 @@ namespace KirisameMarisa
                 }
                 if (PlayData.PartySpeed > 0)
                 {
-                    this.PlusStat.cri = count * 5;
                     this.PlusStat.PlusCriDmg = count * 5;
                 }
             }
