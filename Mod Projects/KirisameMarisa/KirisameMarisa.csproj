@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>KirisameMarisa202412204018</AssemblyName>
+    <AssemblyName>KirisameMarisa202412331400</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -406,9 +406,36 @@
       <Private>False</Private>
     </Reference>
     <!-- Extra Reference Start-->
+    <Reference Include="0Harmony">
+      <HintPath>..\..\KirisameMarisa\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicEmitAPI">
+      <HintPath>..\..\KirisameMarisa\Assemblies\DynamicEmitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\KirisameMarisa\Assemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>..\..\KirisameMarisa\Assemblies\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>..\..\KirisameMarisa\Assemblies\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>..\..\KirisameMarisa\Assemblies\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\KirisameMarisa\Assemblies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\KirisameMarisa\Assemblies\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\KirisameMarisa\Assemblies\System.Core.dll</HintPath>
+    </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-                      <!-- Compile ItemGroup Start-->
+                                                                        <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="KirisameMarisa_ModDefinition.cs" />
@@ -416,8 +443,11 @@
     <Compile Include="KirisameMarisa_Plugin.cs" />
     <Compile Include="Buff\B_KirisameMarisa_0.cs" />
     <Compile Include="Buff\B_KirisameMarisa_1.cs" />
+    <Compile Include="Buff\B_KirisameMarisa_3.cs" />
     <Compile Include="Buff\B_KirisameMarisa_4.cs" />
     <Compile Include="Buff\B_KirisameMarisa_6.cs" />
+    <Compile Include="Buff\B_KirisameMarisa_7.cs" />
+    <Compile Include="Buff\B_KirisameMarisa_7_1.cs" />
     <Compile Include="Buff\B_KirisameMarisa_8.cs" />
     <Compile Include="Buff\B_KirisameMarisa_9.cs" />
     <Compile Include="Buff\B_KirisameMarisa_9_1.cs" />

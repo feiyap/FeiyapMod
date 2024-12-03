@@ -3,7 +3,7 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Buff",
-        "Target": "self",
+        "Target": "ally",
         "NoDrop": true,
         "Name": "危险本能",
         "Effect_Target": "SE_T_S_KirisameMarisa_9_D",

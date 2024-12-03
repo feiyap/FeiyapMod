@@ -20,7 +20,7 @@
         "EnemyPreview": false,
         "UnknownTarget": false,
         "Name": "魔恋「最初也是最后的Master Sparrrrrrrrrrrrk！」",
-        "Description": "<color=#00BFFF>危险等级5</color> - 速度小于0时，每少1点使这个技能暴击率提升50%。\n当此技能的暴击率超过100%时，技能伤害按照超出暴击率百分比增加。\n命中时以造成的伤害值追加 1 次倒计时1的攻击。",
+        "Description": "<color=#00BFFF>危险等级5</color> - 目标每有1层减益，使这个技能暴击率提升40%。\n当此技能的暴击率超过100%时，技能伤害按照超出暴击率百分比增加。\n命中时以造成的伤害值追加 1 次倒计时1的攻击。",
         "UseAp": 3,
         "Effect_Target": "SE_T_S_KirisameMarisa_5_5",
         "Image_0": "S_KirisameMarisa_5_5\\S_KirisameMarisa_5_5_Image_0.png",

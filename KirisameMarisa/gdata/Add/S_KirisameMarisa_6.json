@@ -2,7 +2,7 @@
     "S_KirisameMarisa_6": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/IronHeart/Iron_CutEffect",
+        "Particle": "Particle/Lian/Lian_7",
         "Target": "enemy",
         "Name": "星符「Gravity Beat」",
         "User": "KirisameMarisa",
@@ -19,6 +19,8 @@
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_6"
         ],
-        "PlusSkillView": "S_KirisameMarisa_6_2"
+        "PlusSkillView": "S_KirisameMarisa_6_2",
+        "IgnoreTaunt": false,
+        "Track": false
     }
 }

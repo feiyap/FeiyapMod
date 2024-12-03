@@ -6,7 +6,7 @@
         "Target": "self",
         "NotCount": true,
         "Name": "天仪「Orrery's Solar System」",
-        "Description": "<color=#00BFFF>危险等级2</color> - 获得2次等待次数。",
+        "Description": "<color=#00BFFF>危险等级2</color> - 随机移除自己身上 1 个减益。",
         "Effect_Target": "null",
         "Effect_Self": "SE_S_S_KirisameMarisa_8_2",
         "Image_0": "S_KirisameMarisa_8_2\\S_KirisameMarisa_8_2_Image_0.png",

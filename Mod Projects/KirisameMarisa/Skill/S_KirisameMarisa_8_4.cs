@@ -23,6 +23,7 @@ namespace KirisameMarisa
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
+
             List<Skill> list = new List<Skill>();
             list.AddRange(this.BChar.MyTeam.Skills_UsedDeck);
             for (int i = 0; i < list.Count; i++)

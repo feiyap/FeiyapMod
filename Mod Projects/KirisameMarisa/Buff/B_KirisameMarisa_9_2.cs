@@ -17,21 +17,16 @@ namespace KirisameMarisa
 	/// 危险领域
 	/// 这个增益被施加时，提供“等量于当前速度”的速度。
 	/// </summary>
-    public class B_KirisameMarisa_9_2:Buff
+    public class B_KirisameMarisa_9_2:Buff, IP_HPChange
     {
-        public override void Init()
+        public void HPChange(BattleChar Char, bool Healed)
         {
-            base.Init();
-            int count = PlayData.PartySpeed;
-            if (count > 10)
+            if (Char.HP <= 0)
             {
-                count = 10;
+                Char.HP = 1;
+                Char.IsDead = false;
+                EffectView.SimpleTextout(Char.GetPos(), ScriptLocalization.UI_Battle.Endure, true, 1f, false, 1f);
             }
-            if (count < -10)
-            {
-                count = -10;
-            }
-            this.PlusStat.spd = count;
         }
     }
 }

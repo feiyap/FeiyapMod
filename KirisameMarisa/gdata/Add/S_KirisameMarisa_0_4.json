@@ -14,7 +14,7 @@
         "Image_2": "S_KirisameMarisa_0_4\\S_KirisameMarisa_0_4_Image_2.png",
         "NoDrop": true,
         "NotCount": true,
-        "Effect_Self": "SE_S_S_KirisameMarisa_0_4",
+        "Effect_Self": "null",
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_0_4"
         ]

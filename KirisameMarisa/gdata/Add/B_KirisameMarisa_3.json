@@ -1,0 +1,15 @@
+{
+    "B_KirisameMarisa_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "KirisameMarisa.B_KirisameMarisa_3",
+        "BuffTag": "DOT",
+        "Name": "危险银河",
+        "Icon": "B_KirisameMarisa_3\\B_KirisameMarisa_3_Icon.png",
+        "Description": "",
+        "MaxStack": 10,
+        "Debuff": true,
+        "TagPer": 110,
+        "Tick": "SE_Tick_B_KirisameMarisa_3",
+        "LifeTime": 4
+    }
+}

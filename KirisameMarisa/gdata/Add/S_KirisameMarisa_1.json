@@ -6,7 +6,7 @@
         "Target": "enemy",
         "NoBasicSkill": false,
         "Name": "星符「Escape Velocity」",
-        "Description": "当前额外伤害：&a\n握在手中时，每次按下等待按钮，此技能的伤害增加&b点<color=#FF7A33>(攻击力的35%)</color>。",
+        "Description": "自身每有1层增益，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的10%)</color>。",
         "User": "KirisameMarisa",
         "UseAp": 2,
         "Effect_Target": "SE_T_S_KirisameMarisa_1",

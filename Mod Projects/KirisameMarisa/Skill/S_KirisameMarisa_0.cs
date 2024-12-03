@@ -21,8 +21,6 @@ namespace KirisameMarisa
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            this.BChar.Overload -= 1;
-
             Skill tmpSkill = Skill.TempSkill("S_KirisameMarisa_0", this.BChar, this.BChar.MyTeam);
             tmpSkill.isExcept = true;
             tmpSkill.AutoDelete = 1;

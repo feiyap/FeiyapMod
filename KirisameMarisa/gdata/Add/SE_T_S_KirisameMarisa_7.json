@@ -1,8 +1,10 @@
 {
-    "SE_S_S_KirisameMarisa_0_4": {
+    "SE_T_S_KirisameMarisa_7": {
         "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 135,
         "Buffs": [
-            "B_KirisameMarisa_0"
+            "B_Priest_3_T_0"
         ],
         "BuffPlusTagPer": [
             0

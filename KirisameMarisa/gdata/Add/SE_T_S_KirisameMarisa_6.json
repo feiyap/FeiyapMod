@@ -2,7 +2,7 @@
     "SE_T_S_KirisameMarisa_6": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 60,
+        "DMG_Per": 90,
         "Buffs": [
             "B_KirisameMarisa_6"
         ],

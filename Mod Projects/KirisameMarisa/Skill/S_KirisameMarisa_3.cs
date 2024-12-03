@@ -18,31 +18,12 @@ namespace KirisameMarisa
 	/// </summary>
     public class S_KirisameMarisa_3: SkillBase_KirisameMarisa
     {
-        public override string DescExtended(string desc)
-        {
-            int count = 0;
-            if (PlayData.PartySpeed < 0)
-            {
-                count = -PlayData.PartySpeed / 2;
-            }
-
-            return base.DescExtended(desc).Replace("&a", (count + 2).ToString()).Replace("&b", (count).ToString());
-        }
-
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
 
-            if (PlayData.PartySpeed < 0)
-            {
-                int count = -PlayData.PartySpeed / 2 + 2;
-                BattleSystem.DelayInput(this.Effect(Targets[0], count));
-            }
-            else
-            {
-                int count = 2;
-                BattleSystem.DelayInput(this.Effect(Targets[0], count));
-            }
+            int count = 3;
+            BattleSystem.DelayInput(this.Effect(Targets[0], count));
         }
 
         public IEnumerator Effect(BattleChar Target, int Count)

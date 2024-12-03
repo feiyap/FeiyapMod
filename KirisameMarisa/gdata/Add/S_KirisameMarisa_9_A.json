@@ -3,7 +3,7 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Buff",
-        "Target": "self",
+        "Target": "ally",
         "NotCount": false,
         "Name": "危险冲动",
         "Description": "",
@@ -12,6 +12,7 @@
         "Image_0": "S_KirisameMarisa_9_A\\S_KirisameMarisa_9_A_Image_0.png",
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_9_A"
-        ]
+        ],
+        "Disposable": false
     }
 }

@@ -20,23 +20,6 @@ namespace KirisameMarisa
 	/// </summary>
     public class S_KirisameMarisa_7_4: S_KirisameMarisa_7
     {
-        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
-        {
-            List<Skill> list = new List<Skill>();
-            int num = 0;
-            int num2 = 0;
-            while (num2 < BattleSystem.instance.AllyTeam.Skills_UsedDeck.Count && num < 3)
-            {
-                list.Add(BattleSystem.instance.AllyTeam.Skills_UsedDeck[num2]);
-                num++;
-                num2++;
-            }
-            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del2), ModManager.getModInfo("KirisameMarisa").localizationInfo.SystemLocalizationUpdate("S_KirisameMarisa_7"), false, true, true, false, true));
-        }
 
-        private void Del2(SkillButton Mybutton)
-        {
-            Mybutton.Myskill.ExtendedAdd_Battle("SE_KirisameMarisa_7_0");
-        }
     }
 }

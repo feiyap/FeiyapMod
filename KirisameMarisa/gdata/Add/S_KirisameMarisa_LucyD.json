@@ -2,11 +2,11 @@
     "S_KirisameMarisa_LucyD": {
         "_gdeSchema": "Skill",
         "Category": "LucySkill",
-        "Particle": "Particle/impact",
-        "Target": "Misc",
+        "Particle": "Particle/Joey/Joey_0",
+        "Target": "enemy",
         "NotCount": false,
         "Name": "魔废「Deep Ecological Bomb」",
-        "Description": "抽取1个技能。依据当前速度：\n大于0：额外抽取1个技能，恢复1点法力值。\n等于0：额外抽取1个技能。\n小于0：恢复3点法力值。",
+        "Description": "抽取2个技能。随机施加2个减益。",
         "User": "LucyDraw",
         "LucyPartyDraw": "KirisameMarisa",
         "Image_0": "S_KirisameMarisa_LucyD\\S_KirisameMarisa_LucyD_Image_0.png",
@@ -28,6 +28,7 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "Effect_Target": "null"
     }
 }

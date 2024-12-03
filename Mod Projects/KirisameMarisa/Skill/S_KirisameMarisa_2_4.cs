@@ -16,7 +16,7 @@ namespace KirisameMarisa
 	/// <summary>
 	/// 黑魔「Event Horizon」
 	/// </summary>
-    public class S_KirisameMarisa_2_4: SkillBase_KirisameMarisa, IP_SomeDealCritical
+    public class S_KirisameMarisa_2_4: SkillBase_KirisameMarisa, IP_DamageChange_sumoperation
     {
         public override void Init()
         {
@@ -24,45 +24,51 @@ namespace KirisameMarisa
             this.OnePassive = true;
         }
 
-        public int Fixed_count2 = 0;
-
-        public override void FixedUpdate()
-        {
-            base.FixedUpdate();
-            Fixed_count2++;
-
-            if (Fixed_count2 >= 12)
-            {
-                Fixed_count2 = 0;
-
-                if (this.BChar.Recovery == this.BChar.HP)
-                {
-                    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 1.0f);
-                }
-            }
-        }
-
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 1.0f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.4f)).ToString());
         }
 
-        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        public void DamageChange_sumoperation(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View, ref int PlusDamage)
         {
-            base.SkillUseSingle(SkillD, Targets);
-
-            if (this.BChar.Recovery == this.BChar.HP)
+            int count = 0;
+            if (Target.GetBuffs(BattleChar.GETBUFFTYPE.DOT, false, false).Count > 0)
             {
-                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 1.0f);
+                count++;
             }
+            if (Target.GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false, false).Count > 0)
+            {
+                count++;
+            }
+            if (Target.GetBuffs(BattleChar.GETBUFFTYPE.CC, false, false).Count > 0)
+            {
+                count++;
+            }
+            PlusDamage = (int)(this.BChar.GetStat.atk * 0.4f) * count;
         }
 
-        public void SomeDealCritical(BattleChar Taker, SkillParticle SP, int DMG, int HEAL)
-        {
-            if (SP.SkillData == this.MySkill && PlayData.PartySpeed > 0)
-            {
-                DMG += (int)(PlayData.PartySpeed * 0.25 * DMG);
-            }
-        }
+        
+
+        //public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        //{
+        //    base.SkillUseSingle(SkillD, Targets);
+
+        //    int count = 0;
+        //    if (Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.DOT, false, false).Count > 0)
+        //    {
+        //        count++;
+        //    }
+        //    if (Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false, false).Count > 0)
+        //    {
+        //        count++;
+        //    }
+        //    if (Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.CC, false, false).Count > 0)
+        //    {
+        //        count++;
+        //    }
+        //    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.4f) * count;
+
+        //    this.BChar.Overload -= 2;
+        //}
     }
 }

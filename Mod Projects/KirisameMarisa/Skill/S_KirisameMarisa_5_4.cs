@@ -26,38 +26,31 @@ namespace KirisameMarisa
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
+            List<Buff> buffs = Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.ALLDEBUFF, false, false);
+            int num = 0;
+            foreach (Buff buff in buffs)
+            {
+                num += buff.StackNum * 20;
+            }
             if (PlayData.PartySpeed < 0)
             {
-                this.PlusSkillStat.cri = 25f * Math.Abs(PlayData.PartySpeed);
+                this.PlusSkillStat.cri = num;
             }
             else
             {
-                this.PlusSkillStat.cri = 0f;
-            }
-            this.useflag = true;
-        }
-
-        public override void FixedUpdate()
-        {
-            base.FixedUpdate();
-            if (this.BChar == null || this.BChar.MyTeam == null)
-            {
-                return;
-            }
-            if (!this.useflag)
-            {
-                if (PlayData.PartySpeed < 0)
-                {
-                    this.PlusSkillStat.cri = 25f * Math.Abs(PlayData.PartySpeed);
-                    return;
-                }
                 this.PlusSkillStat.cri = 0f;
             }
         }
 
         public void DamageChange_sumoperation(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View, ref int PlusDamage)
         {
-            float num = (float)this.MySkill.GetCriPer(Target, 0);
+            List<Buff> buffs = Target.GetBuffs(BattleChar.GETBUFFTYPE.ALLDEBUFF, false, false);
+            int num = 0;
+            foreach (Buff buff in buffs)
+            {
+                num += buff.StackNum * 20;
+            }
+            this.PlusSkillStat.cri = num;
             int num2 = 0;
             if (num > 100f)
             {
@@ -68,7 +61,5 @@ namespace KirisameMarisa
                 PlusDamage = BattleChar.CalculationResult((float)Damage, num2, 0);
             }
         }
-
-        private bool useflag;
     }
 }

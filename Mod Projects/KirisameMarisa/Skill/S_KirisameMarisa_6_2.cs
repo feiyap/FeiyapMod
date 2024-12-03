@@ -19,6 +19,22 @@ namespace KirisameMarisa
 	/// </summary>
     public class S_KirisameMarisa_6_2: SkillBase_KirisameMarisa
     {
+        public override void SkillKill(SkillParticle SP)
+        {
+            base.SkillKill(SP);
 
+            BattleSystem.DelayInput(this.Effect());
+        }
+
+        public IEnumerator Effect()
+        {
+            yield return new WaitForSeconds(0.15f);
+
+            BattleSystem.instance.EnemyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main).BuffAdd("B_KirisameMarisa_6", this.BChar);
+
+            yield return new WaitForSeconds(0.1f);
+
+            yield break;
+        }
     }
 }

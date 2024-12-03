@@ -7,14 +7,14 @@
         "Name": "魔符「Stardust Reverie」",
         "User": "KirisameMarisa",
         "UseAp": 3,
-        "IgnoreTaunt": true,
+        "IgnoreTaunt": false,
         "Effect_Target": "SE_T_S_KirisameMarisa_2",
         "Image_0": "S_KirisameMarisa_2\\S_KirisameMarisa_2_Image_0.png",
         "Image_1": "S_KirisameMarisa_2\\S_KirisameMarisa_2_Image_1.png",
         "Image_2": "S_KirisameMarisa_2\\S_KirisameMarisa_2_Image_2.png",
         "NoDrop": false,
         "PlusSkillView": "S_KirisameMarisa_2_2",
-        "Description": "自身没有体力极限时，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的60%)</color>。",
+        "Description": "目标身上每有1种减益（<sprite=0>弱化、<sprite=2>干扰、<sprite=1>痛苦），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的40%)</color>。",
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_2"
         ]

@@ -2,11 +2,11 @@
     "S_KirisameMarisa_6_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/IronHeart/Iron_CutEffect",
+        "Particle": "Particle/Lian/Lian_7",
         "Target": "enemy",
         "NotCount": true,
         "Disposable": true,
-        "Description": "<color=#00BFFF>危险等级2</color> - 额外施加一层[危险信号]。",
+        "Description": "<color=#00BFFF>危险等级2</color> - 击杀敌人时，使随机敌人获得1层[危险信号]。",
         "Name": "星符「Eccentric Asteroid」",
         "UseAp": 1,
         "Effect_Target": "SE_T_S_KirisameMarisa_6_2",

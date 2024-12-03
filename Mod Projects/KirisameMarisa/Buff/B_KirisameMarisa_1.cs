@@ -17,17 +17,14 @@ namespace KirisameMarisa
 	/// 危险冲刺
 	/// 每个回合开始时，获得2次等待次数。
 	/// </summary>
-    public class B_KirisameMarisa_1:Buff, IP_PlayerTurn
+    public class B_KirisameMarisa_1:Buff
     {
         public override void Init()
         {
             base.Init();
-            this.PlusStat.spd = 3;
-        }
-
-        public void Turn()
-        {
-            BattleSystem.instance.AllyTeam.WaitCount += 2;
+            this.PlusStat.HIT_CC = 25;
+            this.PlusStat.HIT_DEBUFF = 25;
+            this.PlusStat.HIT_DOT = 25;
         }
     }
 }

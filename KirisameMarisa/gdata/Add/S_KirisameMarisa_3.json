@@ -26,7 +26,7 @@
         "Image_0": "S_KirisameMarisa_3\\S_KirisameMarisa_3_Image_0.png",
         "Image_1": "S_KirisameMarisa_3\\S_KirisameMarisa_3_Image_1.png",
         "Image_2": "S_KirisameMarisa_3\\S_KirisameMarisa_3_Image_2.png",
-        "Description": "重复释放 &a (2 + <color=#FF7A33>&b</color>) 次。\n速度小于0时，每少2点向随机敌人重复释放 1 次。",
+        "Description": "向随机敌人重复释放 3 次。",
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_3"
         ],

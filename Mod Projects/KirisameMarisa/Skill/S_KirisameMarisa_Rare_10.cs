@@ -16,8 +16,13 @@ namespace KirisameMarisa
 	/// <summary>
 	/// 魔炮「Final Master Spark」
 	/// </summary>
-    public class S_KirisameMarisa_Rare_10:Skill_Extended, IP_SkillUseHand_Team
+    public class S_KirisameMarisa_Rare_10: TurnEnhancement, IP_SkillUseHand_Team
     {
+        public override bool Terms()
+        {
+            return this.Active;
+        }
+
         public void SKillUseHand_Team(Skill skill)
         {
             if (skill != this.MySkill)

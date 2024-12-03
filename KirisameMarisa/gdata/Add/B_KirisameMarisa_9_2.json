@@ -4,9 +4,9 @@
         "ClassName": "KirisameMarisa.B_KirisameMarisa_9_2",
         "BuffTag": "null",
         "Name": "危险领域",
-        "Description": "这个增益被施加时，提供“等量于当前速度”的速度（最多10点）。",
+        "Description": "当体力值降到0点及以下时体力值变成1点。",
         "Icon": "B_KirisameMarisa_9_2\\B_KirisameMarisa_9_2_Icon.png",
         "MaxStack": 0,
-        "LifeTime": 3
+        "LifeTime": 1
     }
 }

@@ -6,7 +6,7 @@
         "Target": "self",
         "NotCount": true,
         "Name": "天仪「Orrery's Universe」",
-        "Description": "<color=#00BFFF>危险等级4</color> - 获得2次等待次数。\n确认弃牌库中自己的技能，选择 1 个加入手中。",
+        "Description": "<color=#00BFFF>危险等级4</color> - 随机移除自己身上 1 个减益。\n确认弃牌库中自己的技能，选择 1 个加入手中。",
         "Effect_Target": "null",
         "Effect_Self": "SE_S_S_KirisameMarisa_8_4",
         "Image_0": "S_KirisameMarisa_8_4\\S_KirisameMarisa_8_4_Image_0.png",

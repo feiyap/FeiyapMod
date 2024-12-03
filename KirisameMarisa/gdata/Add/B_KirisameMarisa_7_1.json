@@ -1,0 +1,14 @@
+{
+    "B_KirisameMarisa_7_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "KirisameMarisa.B_KirisameMarisa_7_1",
+        "BuffTag": "CrowdControl",
+        "Name": "危险突破",
+        "Debuff": true,
+        "TagPer": 135,
+        "LifeTime": 4,
+        "MaxStack": 0,
+        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_07",
+        "Description": ""
+    }
+}

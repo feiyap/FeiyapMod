@@ -4,7 +4,7 @@
         "Category": "null",
         "Particle": "Particle/Twins/HeliaEffect_R1",
         "Target": "enemy",
-        "Description": "<color=#00BFFF>危险等级2</color> - 重复释放 &a (2 + <color=#FF7A33>&b</color>) 次。\n速度小于0时，每少1点向随机敌人重复释放 1 次。",
+        "Description": "向随机敌人重复释放 4 次。",
         "Name": "魔空「Asteroid Belt」",
         "UseAp": 1,
         "NoDrop": true,

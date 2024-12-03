@@ -22,7 +22,6 @@ namespace KirisameMarisa
         public override void Init()
         {
             base.Init();
-            this.PlusStat.spd = 2 * StackNum;
         }
 
         public int Fixed_count = 0;
@@ -36,14 +35,20 @@ namespace KirisameMarisa
             {
                 Fixed_count = 0;
 
-                int count = PlayData.PartySpeed;
+                int count = 0;
+                foreach (BattleAlly battleAlly in BattleSystem.instance.AllyList)
+                {
+                    count += battleAlly.GetBuffs(BattleChar.GETBUFFTYPE.BUFF, false, false).Count;
+                }
                 if (count > 10)
                 {
                     count = 10;
                 }
-                if (PlayData.PartySpeed > 0)
+                if (count > 0)
                 {
+                    this.PlusStat.cri = count * 5;
                     this.PlusStat.PlusCriDmg = count * 5;
+                    this.PlusStat.PlusCriHeal = count * 5;
                 }
             }
         }

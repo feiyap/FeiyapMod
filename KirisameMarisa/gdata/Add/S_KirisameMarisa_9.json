@@ -6,7 +6,7 @@
         "Target": "choiceskill",
         "NotCount": true,
         "Name": "光符「Earth Light Ray」",
-        "Description": "选择 - 使自身获得“速度+2，速度大于0时，每多1点提供+5%暴击伤害”的增益，持续3回合；\n\n或使自身获得“速度-2，速度小于0时，每少1点提供+5%暴击率”的增益，持续3回合。",
+        "Description": "选择 - 使一个友军获得“所有友军每有1个增益，提供+5%暴击率和+5%暴击伤害，最多10点”的增益，持续3回合；\n\n或使一个友军获得“所有敌人每有1个减益，提供+5%暴击率和+5%暴击伤害，最多10点”的增益，持续3回合。",
         "User": "KirisameMarisa",
         "Effect_Target": "null",
         "Image_0": "S_KirisameMarisa_9\\S_KirisameMarisa_9_Image_0.png",
@@ -29,6 +29,7 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "UseAp": 0
     }
 }
