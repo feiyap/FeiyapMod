@@ -1,0 +1,21 @@
+{
+    "S_Rozzi_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "IgnoreTaunt": false,
+        "NoBasicSkill": true,
+        "UseAp": 0,
+        "Name": "换弹",
+        "Description": "丢弃手中所有自己的技能。\n生成相同数量的通用攻击技能。\n抽取2个技能。",
+        "User": "Rozzi",
+        "NotCount": true,
+        "Disposable": true,
+        "Effect_Self": "SE_S_S_Rozzi_3",
+        "Effect_Target": "null",
+        "Image_0": "S_Rozzi_3\\S_Rozzi_3_Image_0.png",
+        "Image_1": "S_Rozzi_3\\S_Rozzi_3_Image_1.png",
+        "Image_2": "S_Rozzi_3\\S_Rozzi_3_Image_2.png"
+    }
+}

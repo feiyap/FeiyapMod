@@ -1,0 +1,18 @@
+{
+    "S_Rozzi_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunner_1",
+        "Rare": true,
+        "Target": "enemy",
+        "Name": "随意开火",
+        "Description": "使用这个技能击杀敌人时，获得1层[武器熟练度]。\n击杀诅咒或BOSS级敌人时，额外获得4层[武器熟练度]。",
+        "User": "Rozzi",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Rozzi_Rare_2",
+        "Image_0": "S_Rozzi_Rare_2\\S_Rozzi_Rare_2_Image_0.png",
+        "Image_1": "S_Rozzi_Rare_2\\S_Rozzi_Rare_2_Image_1.png",
+        "Image_2": "S_Rozzi_Rare_2\\S_Rozzi_Rare_2_Image_2.png",
+        "NotCount": false
+    }
+}

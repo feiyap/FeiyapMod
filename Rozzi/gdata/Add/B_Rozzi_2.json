@@ -1,0 +1,12 @@
+{
+    "B_Rozzi_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "CrowdControl",
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_01",
+        "LifeTime": 0,
+        "Name": "震晕",
+        "Debuff": true,
+        "TagPer": 120
+    }
+}

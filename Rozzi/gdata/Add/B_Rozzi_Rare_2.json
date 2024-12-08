@@ -1,0 +1,14 @@
+{
+    "B_Rozzi_Rare_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "武器熟练度",
+        "Icon": "B_Rozzi_Rare_2\\B_Rozzi_Rare_2_Icon.png",
+        "Description": "叠加到5层时解除该增益并获得1点永久攻击力。",
+        "LifeTime": 0,
+        "MaxStack": 5,
+        "IsFieldBuff": true,
+        "Cantdisable": true
+    }
+}

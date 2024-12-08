@@ -1,0 +1,10 @@
+{
+    "B_Rozzi_P_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "警惕",
+        "Icon": "B_Rozzi_P_1\\B_Rozzi_P_1_Icon.png",
+        "Description": "下2次造成伤害时会额外造成20%痛苦伤害。"
+    }
+}

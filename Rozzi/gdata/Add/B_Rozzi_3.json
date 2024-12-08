@@ -1,0 +1,10 @@
+{
+    "B_Rozzi_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "崭新出厂",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
+        "LifeTime": 2
+    }
+}

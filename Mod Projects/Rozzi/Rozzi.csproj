@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>Rozzi2024112402923</AssemblyName>
+    <AssemblyName>Rozzi2024128191929</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -384,12 +384,32 @@
 <!-- Extra Reference End-->
   </ItemGroup>
   
-      <!-- Compile ItemGroup Start-->
+                                                                                            <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="Rozzi_ModDefinition.cs" />
     <Compile Include="Rozzi_ModItemKeys.cs" />
     <Compile Include="Rozzi_Plugin.cs" />
+    <Compile Include="Buff\B_Rozzi_0.cs" />
+    <Compile Include="Buff\B_Rozzi_2.cs" />
+    <Compile Include="Buff\B_Rozzi_3.cs" />
+    <Compile Include="Buff\B_Rozzi_4.cs" />
+    <Compile Include="Buff\B_Rozzi_7.cs" />
+    <Compile Include="Buff\B_Rozzi_7_1.cs" />
+    <Compile Include="Buff\B_Rozzi_P.cs" />
+    <Compile Include="Buff\B_Rozzi_P_1.cs" />
+    <Compile Include="Buff\B_Rozzi_Rare_2.cs" />
     <Compile Include="Character\P_Rozzi.cs" />
+    <Compile Include="Skill\S_Rozzi_0.cs" />
+    <Compile Include="Skill\S_Rozzi_1.cs" />
+    <Compile Include="Skill\S_Rozzi_2.cs" />
+    <Compile Include="Skill\S_Rozzi_4.cs" />
+    <Compile Include="Skill\S_Rozzi_5.cs" />
+    <Compile Include="Skill\S_Rozzi_6.cs" />
+    <Compile Include="Skill\S_Rozzi_7.cs" />
+    <Compile Include="Skill\S_Rozzi_LucyD.cs" />
+    <Compile Include="Skill\S_Rozzi_Rare_1.cs" />
+    <Compile Include="Skill\S_Rozzi_Rare_2.cs" />
+    <Compile Include="Skill\S_Rozzi_Rare_3.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

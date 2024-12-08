@@ -1,0 +1,20 @@
+{
+    "S_Rozzi_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_0",
+        "Target": "all_enemy",
+        "Track": false,
+        "Fatal": false,
+        "Name": "恶意失真",
+        "UseAp": 1,
+        "User": "Rozzi",
+        "NotCount": true,
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_Rozzi_7",
+        "Effect_Self": "SE_S_S_Rozzi_7",
+        "Image_0": "S_Rozzi_7\\S_Rozzi_7_Image_0.png",
+        "Image_1": "S_Rozzi_7\\S_Rozzi_7_Image_1.png",
+        "Image_2": "S_Rozzi_7\\S_Rozzi_7_Image_2.png"
+    }
+}

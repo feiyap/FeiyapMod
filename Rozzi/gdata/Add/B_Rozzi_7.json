@@ -1,0 +1,14 @@
+{
+    "B_Rozzi_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "Debuff",
+        "Name": "失真",
+        "Description": "场上每有1个[失真]减益再减少6%攻击力。",
+        "LifeTime": 10,
+        "Debuff": true,
+        "TagPer": 200,
+        "Cantdisable": false,
+        "Icon": "B_Rozzi_7\\B_Rozzi_7_Icon.png"
+    }
+}

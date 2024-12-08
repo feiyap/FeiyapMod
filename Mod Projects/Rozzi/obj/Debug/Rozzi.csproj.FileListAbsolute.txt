@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rozzi\bin\Debug\Rozzi2024128191929.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rozzi\bin\Debug\Rozzi2024128191929.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rozzi\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rozzi\obj\Debug\Rozzi.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rozzi\obj\Debug\Rozzi.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rozzi\obj\Debug\Rozzi.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rozzi\obj\Debug\Rozzi2024128191929.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Rozzi\obj\Debug\Rozzi2024128191929.pdb

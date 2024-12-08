@@ -1,0 +1,18 @@
+{
+    "YasakaKanano": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Tank",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "face": "YasakaKanano\\YasakaKananoBattleFace.png",
+        "name": "八坂神奈子",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 40,
+            "y": 40
+        },
+        "CollectionSprite_Cover": "YasakaKanano\\YasakaKananoCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "YasakaKanano\\YasakaKananoCollectionSprite_SkillFace.png",
+        "StatView_Def": 2
+    }
+}

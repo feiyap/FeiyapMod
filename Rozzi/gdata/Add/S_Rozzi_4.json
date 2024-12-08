@@ -1,0 +1,19 @@
+{
+    "S_Rozzi_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunner_1",
+        "Target": "enemy",
+        "NotCount": true,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Name": "热诚烈弹",
+        "Description": "",
+        "UseAp": 2,
+        "User": "Rozzi",
+        "Effect_Target": "SE_T_S_Rozzi_4",
+        "Image_0": "S_Rozzi_4\\S_Rozzi_4_Image_0.png",
+        "Image_1": "S_Rozzi_4\\S_Rozzi_4_Image_1.png",
+        "Image_2": "S_Rozzi_4\\S_Rozzi_4_Image_2.png"
+    }
+}

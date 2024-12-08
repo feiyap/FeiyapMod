@@ -1,0 +1,19 @@
+{
+    "S_Rozzi_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunman_1",
+        "Target": "enemy",
+        "NotCount": true,
+        "Except": false,
+        "Name": "随意射击",
+        "User": "Rozzi",
+        "UseAp": 1,
+        "Description": "抽取1个技能。",
+        "Effect_Target": "SE_T_S_Rozzi_0",
+        "Image_0": "S_Rozzi_0\\S_Rozzi_0_Image_0.png",
+        "Image_1": "S_Rozzi_0\\S_Rozzi_0_Image_1.png",
+        "Image_2": "S_Rozzi_0\\S_Rozzi_0_Image_2.png",
+        "Effect_Self": "SE_S_S_Rozzi_0"
+    }
+}

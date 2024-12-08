@@ -1,0 +1,10 @@
+{
+    "B_Rozzi_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "双持",
+        "Icon": "B_Rozzi_P\\B_Rozzi_P_Icon.png",
+        "Description": "下1个使用的通用技能会释放2次，但每次只造成50%伤害。"
+    }
+}

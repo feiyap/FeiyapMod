@@ -1,0 +1,12 @@
+{
+    "B_Rozzi_Rare_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "Debuff",
+        "Name": "子弹附着",
+        "Description": "回合结束时爆炸，解除该减益并造成&a点伤害<color=#FF7A33>(攻击力的100%)</color>。\n受到5次伤害后立刻爆炸，解除该减益并额外造成&b点伤害<color=#FF7A33>(最大体力值的20%)</color>。\n当前受到伤害次数：&c",
+        "Icon": "B_Rozzi_Rare_1\\B_Rozzi_Rare_1_Icon.png",
+        "Debuff": true,
+        "TagPer": 500
+    }
+}

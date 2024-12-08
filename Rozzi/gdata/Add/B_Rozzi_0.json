@@ -1,0 +1,16 @@
+{
+    "B_Rozzi_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (23)",
+        "Name": "漫游步伐",
+        "Description": "",
+        "LifeTime": 3
+    }
+}

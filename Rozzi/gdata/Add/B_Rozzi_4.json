@@ -1,0 +1,13 @@
+{
+    "B_Rozzi_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "Debuff",
+        "Name": "银色回忆",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (13)",
+        "LifeTime": 6,
+        "Debuff": true,
+        "TagPer": 110,
+        "Description": "受到伤害时，使&user获得“+5%攻击力”，持续1回合。"
+    }
+}

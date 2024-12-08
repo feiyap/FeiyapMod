@@ -1,0 +1,19 @@
+{
+    "S_Rozzi_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Sniper_0",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "钟鸣厄至",
+        "User": "Rozzi",
+        "UseAp": 3,
+        "Description": "这场战斗中，每使用过1个通用技能，造成&a点额外伤害<color=#FF7A33>(攻击力的50%)</color>。",
+        "Effect_Target": "SE_T_S_Rozzi_6",
+        "Fatal": true,
+        "Track": true,
+        "Image_0": "S_Rozzi_6\\S_Rozzi_6_Image_0.png",
+        "Image_1": "S_Rozzi_6\\S_Rozzi_6_Image_1.png",
+        "Image_2": "S_Rozzi_6\\S_Rozzi_6_Image_2.png"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "YasakaKanano",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "YasakaKanano\\YasakaKananoFaceOriginChar.png",
+        "offsetMax": {
+            "x": 448.577026,
+            "y": 365.2002
+        },
+        "offsetMin": {
+            "x": -431.422974,
+            "y": -1174.7998
+        },
+        "pivot": {
+            "x": 0.488662481,
+            "y": 0.759367347
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

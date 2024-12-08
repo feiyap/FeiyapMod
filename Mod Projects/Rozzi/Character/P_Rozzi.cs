@@ -18,8 +18,14 @@ namespace Rozzi
 	/// Passive:
 	/// 洛兹使用自己的专属技能后，下1个使用的非专属技能会释放2次，但每次只造成70%伤害。
 	/// </summary>
-    public class P_Rozzi:Passive_Char
+    public class P_Rozzi:Passive_Char, IP_SkillUseHand_Team
     {
+        public void SKillUseHand_Team(Skill skill)
+        {
+            if (skill.Master == this.BChar && BattleSystem.instance.BattleLogs != null)
+            {
 
+            }
+        }
     }
 }

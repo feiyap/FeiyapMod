@@ -1,0 +1,23 @@
+{
+    "myKey": "YasakaKanano",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "YasakaKanano\\YasakaKananoBattleChar.png",
+        "offsetMax": {
+            "x": 467.697754,
+            "y": 481.44043
+        },
+        "offsetMin": {
+            "x": -500.302246,
+            "y": -1212.55945
+        },
+        "pivot": {
+            "x": 0.5168412,
+            "y": 0.715796649
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

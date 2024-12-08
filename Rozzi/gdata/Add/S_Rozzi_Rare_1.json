@@ -1,0 +1,16 @@
+{
+    "S_Rozzi_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Shotgun_0",
+        "Target": "enemy",
+        "Name": "塞姆汀高爆弹MK-II",
+        "UseAp": 2,
+        "User": "Rozzi",
+        "Rare": true,
+        "Effect_Target": "SE_T_S_Rozzi_Rare_1",
+        "Image_0": "S_Rozzi_Rare_1\\S_Rozzi_Rare_1_Image_0.png",
+        "Image_1": "S_Rozzi_Rare_1\\S_Rozzi_Rare_1_Image_1.png",
+        "Image_2": "S_Rozzi_Rare_1\\S_Rozzi_Rare_1_Image_2.png"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "S_Rozzi_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "高级会员卡",
+        "Description": "抽取2个技能。\n使露西减少2层过载。",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "Rozzi",
+        "Image_0": "S_Rozzi_LucyD\\S_Rozzi_LucyD_Image_0.png",
+        "Image_1": "S_Rozzi_LucyD\\S_Rozzi_LucyD_Image_1.png",
+        "Image_2": "S_Rozzi_LucyD\\S_Rozzi_LucyD_Image_2.png"
+    }
+}

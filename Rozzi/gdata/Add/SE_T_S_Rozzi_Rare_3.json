@@ -1,0 +1,7 @@
+{
+    "SE_T_S_Rozzi_Rare_3": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 30
+    }
+}
