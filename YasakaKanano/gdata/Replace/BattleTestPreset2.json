@@ -1,5 +1,58 @@
 {
     "BattleTestPreset2": {
-        "_gdeSchema": "Preset"
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "YasakaKanano"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_Kanano_7"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Kanano_0",
+                "S_Kanano_1",
+                "S_Kanano_2",
+                "S_Kanano_3",
+                "S_Kanano_4",
+                "S_Kanano_5",
+                "S_Kanano_6",
+                "S_Kanano_7",
+                "S_Kanano_8",
+                "S_Kanano_9",
+                "S_Kanano_10"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            "S_Kanano_LucyD"
+        ]
     }
 }

@@ -1,0 +1,33 @@
+{
+    "S_Kanano_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": true,
+        "Disposable": true,
+        "NoBasicSkill": true,
+        "Name": "「神明的威光」",
+        "Description": "从弃牌库中尽可能地将原始费用为0的技能拿回手中。",
+        "User": "YasakaKanano",
+        "Rare": true,
+        "UseAp": 2,
+        "Image_0": "S_Kanano_Rare_2\\S_Kanano_Rare_2_Image_0.png",
+        "Image_1": "S_Kanano_Rare_2\\S_Kanano_Rare_2_Image_1.png",
+        "Image_2": "S_Kanano_Rare_2\\S_Kanano_Rare_2_Image_2.png",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_Rare_2"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

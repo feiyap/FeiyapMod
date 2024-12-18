@@ -1,0 +1,25 @@
+{
+    "S_Kanano_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/LastBoss/LBossFirst_2",
+        "Target": "enemy",
+        "Name": "贽符「御射山御狩神事」",
+        "Description": "抽取1个技能。\n当目标体力值不足50%时，将目标体力值变为0点。若目标为Boss，则改为生成3个[西风灵]。\n\n<color=#CD5555>饥馑5</color> - 改为体力值不足100%时才会触发此效果。",
+        "UseAp": 3,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Kanano_6",
+        "Image_0": "S_Kanano_6\\S_Kanano_6_Image_0.png",
+        "Image_1": "S_Kanano_6\\S_Kanano_6_Image_1.png",
+        "Image_2": "S_Kanano_6\\S_Kanano_6_Image_2.png",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_6"
+        ],
+        "NotCount": false,
+        "Except": false,
+        "Track": true,
+        "PlusKeyWords": [
+            "Keyword_Famine"
+        ]
+    }
+}

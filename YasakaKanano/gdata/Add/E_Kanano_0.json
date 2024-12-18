@@ -1,0 +1,10 @@
+{
+    "E_Kanano_0": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Unique",
+        "name": "守矢护符",
+        "Description": "每次使用手中的技能时，本回合+5%防御力（最多3次）。",
+        "image": "Item\\E_Kanano_0_image.png",
+        "Equip_Script": "YasakaKanano.E_Kanano_0"
+    }
+}

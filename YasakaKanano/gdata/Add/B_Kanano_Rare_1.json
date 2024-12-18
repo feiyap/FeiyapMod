@@ -1,0 +1,15 @@
+{
+    "B_Kanano_Rare_1": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "ClassName": "YasakaKanano.B_Kanano_Rare_1",
+        "BuffTag": "null",
+        "Name": "风神之神德",
+        "Description": "可以同时设置2个[御柱]。",
+        "Cantdisable": true,
+        "Icon": "B_Kanano_Rare_1\\B_Kanano_Rare_1_Icon.png",
+        "Hide": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

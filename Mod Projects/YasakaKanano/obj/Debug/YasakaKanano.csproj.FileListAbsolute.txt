@@ -1,0 +1,9 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YasakaKanano\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YasakaKanano\obj\Debug\YasakaKanano.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YasakaKanano\obj\Debug\YasakaKanano.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YasakaKanano\obj\Debug\YasakaKanano.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YasakaKanano\bin\Debug\BasicMethods.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YasakaKanano\bin\Debug\YasakaKanano2024121821858.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YasakaKanano\bin\Debug\YasakaKanano2024121821858.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YasakaKanano\obj\Debug\YasakaKanano2024121821858.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YasakaKanano\obj\Debug\YasakaKanano2024121821858.pdb

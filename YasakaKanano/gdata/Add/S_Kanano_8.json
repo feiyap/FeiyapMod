@@ -1,0 +1,24 @@
+{
+    "S_Kanano_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "Basic": false,
+        "Name": "神秘「Yamato Torus」",
+        "Description": "每次使用手中的技能时，费用降低1点。\n生成2个[西风灵]。",
+        "UseAp": 7,
+        "User": "YasakaKanano",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "AutoDelete": 3,
+        "PlusSkillView": "S_Kanano_P",
+        "Image_0": "S_Kanano_8\\S_Kanano_8_Image_0.png",
+        "Image_1": "S_Kanano_8\\S_Kanano_8_Image_1.png",
+        "Image_2": "S_Kanano_8\\S_Kanano_8_Image_2.png",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_8"
+        ],
+        "Disposable": true
+    }
+}

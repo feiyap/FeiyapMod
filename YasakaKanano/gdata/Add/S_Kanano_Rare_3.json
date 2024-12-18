@@ -1,0 +1,24 @@
+{
+    "S_Kanano_Rare_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "choiceskill",
+        "NotCount": true,
+        "NoBasicSkill": false,
+        "Name": "「Mountain of Faith」",
+        "Description": "选择 - 从三个神符中选择一个生效。\n一场战斗中，一个神符只能选择一次。",
+        "User": "YasakaKanano",
+        "UseAp": 0,
+        "Basic": true,
+        "Image_0": "S_Kanano_Rare_3\\S_Kanano_Rare_3_Image_0.png",
+        "Image_1": "S_Kanano_Rare_3\\S_Kanano_Rare_3_Image_1.png",
+        "Image_2": "S_Kanano_Rare_3\\S_Kanano_Rare_3_Image_2.png",
+        "NoDrop": false,
+        "PlusSkillView": "S_Kanano_Rare_3_1",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_Rare_3"
+        ]
+    }
+}

@@ -2,17 +2,121 @@
     "YasakaKanano": {
         "_gdeSchema": "Character",
         "Role": "Role_Tank",
-        "PassiveClassName": "",
+        "PassiveClassName": "YasakaKanano.P_YasakaKanano",
         "PassiveUnlockLV1": false,
         "face": "YasakaKanano\\YasakaKananoBattleFace.png",
         "name": "八坂神奈子",
         "Gender": 1,
         "MAXHP": {
-            "x": 40,
-            "y": 40
+            "x": 27,
+            "y": 45
         },
         "CollectionSprite_Cover": "YasakaKanano\\YasakaKananoCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "YasakaKanano\\YasakaKananoCollectionSprite_SkillFace.png",
-        "StatView_Def": 2
+        "StatView_Def": 2,
+        "PassiveName": "山与湖的化身",
+        "PassiveDes": "<b>神圣庄严的古战场</b> - 回合结束时若有剩余法力值，则下一回合开始时额外获得等量的法力值。（最多2点）\n\n<b>创造乾程度的能力</b> - 八坂神奈子可以通过技能设置不同种类的[御柱]，但同一时间只能有1个[御柱]被设置。\n每当在战斗中通过特殊效果恢复1点法力值时，[御柱]的效果便会被触发1次。\n\n<b><color=green>连击X</color></b> - 每个回合中使用过的技能大于X个时，可以触发额外效果。\n\n<b><color=#FFC125>穗收X</color></b> - 打出时，如果牌库中的技能数量不小于X个，丢弃牌库最上方X个技能，可以触发额外效果。\n\n<b><color=#CD5555>饥馑X</color></b> - 打出时，如果牌库中的技能数量不大于X个，可以触发额外效果。",
+        "ATK": {
+            "x": 14,
+            "y": 22
+        },
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "DODGE": {
+            "x": -3,
+            "y": 5
+        },
+        "DEF": {
+            "x": 10,
+            "y": 15
+        },
+        "REG": {
+            "x": 7,
+            "y": 15
+        },
+        "HIT": {
+            "x": 97,
+            "y": 115
+        },
+        "RES_CC": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 10,
+            "y": 50
+        },
+        "StatView_Heal": 1,
+        "StatView_Sup": 2,
+        "StatView_CC": 1,
+        "StatView_Atk": 1,
+        "StatView_Difficult": 1,
+        "SelectInfo": "八坂神奈子是能够调整队伍法力值的功能性坦克。\n\n作为坦克职业，八坂神奈子几乎没有保护队友的手段。取而代之的是，她能够通过丢弃牌库中的技能来恢复队伍的法力值，为队友提供充足的费用来消耗。尽管恢复法力值的效果很诱人，但也要注意不要太过忘我，把牌库中的重要技能全部丢掉了哦。\n\n试着结合风灵系的调查员，在扭曲之地刮起丰收的风吧！",
+        "PassiveIcon": "YasakaKanano\\YasakaKananoPassiveIcon.png",
+        "CampSelectWord": "就让你领略一次——这摧枯拉朽的灵天神怒！",
+        "CampSD": [
+            "YasakaKanano\\YasakaKananoCampSD0.png",
+            "YasakaKanano\\YasakaKananoCampSD1.png",
+            "YasakaKanano\\YasakaKananoCampSD2.png",
+            "YasakaKanano\\YasakaKananoCampSD3.png"
+        ],
+        "FirstSkill": "S_Kanano_0",
+        "Text_Battle_Idle": [
+            "何人在呼唤我？"
+        ],
+        "Text_Field_Idle": [
+            "吾即为山，敬山之人便是吾之信众。",
+            "我想要唤回的，是众生对万事万物的信仰。"
+        ],
+        "Text_Battle_Start": [
+            "所谓信仰，也就是对其物的存在心生敬意。",
+            "你好，我是神。"
+        ],
+        "Text_Battle_Cri": [
+            "对于没有信仰的人来说，永远不会明白信仰的意义。"
+        ],
+        "Text_Battle_Kill": [
+            "就让你领略一次——这摧枯拉朽的灵天神怒！"
+        ],
+        "Text_Battle_ND": [
+            "信仰，在流失……"
+        ],
+        "Text_Battle_Healed": [
+            "感谢你的支援。"
+        ],
+        "Text_Field_GetItem": [
+            "哦？这个能拿去开宴会呢。"
+        ],
+        "Text_Field_Potion_P": [
+            "唔嗯……就没有酒可以喝吗？"
+        ],
+        "Text_PharosLeader": [
+            "我就是神，居然想让我信仰你……",
+            "……唉唉，神明也会有失手的时候。",
+            "就让你领略一次——这摧枯拉朽的灵天神怒！"
+        ],
+        "Text_Witch": [
+            "诅咒？这么些年我可是被诅咒惯了。",
+            "比起诹访子那家伙的，这个还是太轻了。"
+        ],
+        "Text_MasterTarget": "信仰我，记住我吧。只要还有信仰的话，我一定还会回到你身边——"
     }
 }

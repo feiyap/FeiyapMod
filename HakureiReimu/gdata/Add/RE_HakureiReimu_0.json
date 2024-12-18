@@ -1,0 +1,24 @@
+{
+    "RE_HakureiReimu_0": {
+        "_gdeSchema": "RandomEvent",
+        "Script": "",
+        "RareEvent": true,
+        "SpecialAppearance": false,
+        "ItemSlotView": false,
+        "Name": "赛钱箱",
+        "MainImage": "RE_HakureiReimu_0\\RE_HakureiReimu_0MainImage.png",
+        "MainImage_2Stage": "RE_HakureiReimu_0\\RE_HakureiReimu_0MainImage_2Stage.png",
+        "MainImage_3Stage": "RE_HakureiReimu_0\\RE_HakureiReimu_0MainImage_3Stage.png",
+        "UseButton": [
+            "塞钱400金币。",
+            "塞钱800金币。",
+            "塞钱1200金币。"
+        ],
+        "UseButtonTooltip": [
+            "所有队友恢复50%体力。",
+            "下1场战斗开始时所有敌人失去10%最大体力值。",
+            "永久提升1个调查员1攻击力和治疗力。"
+        ],
+        "Desc": ""
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "S_Kanano_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "神祭「扩展御柱」",
+        "User": "YasakaKanano",
+        "Description": "<color=#FFC125>穗收2</color> - 这个技能必定暴击。",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Kanano_0",
+        "Effect_Self": "SE_S_S_Kanano_0",
+        "Image_0": "S_Kanano_0\\S_Kanano_0_Image_0.png",
+        "Image_1": "S_Kanano_0\\S_Kanano_0_Image_1.png",
+        "Image_2": "S_Kanano_0\\S_Kanano_0_Image_2.png",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_0"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Harvest"
+        ]
+    }
+}

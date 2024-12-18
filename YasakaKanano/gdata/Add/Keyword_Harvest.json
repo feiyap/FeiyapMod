@@ -1,0 +1,7 @@
+{
+    "Keyword_Harvest": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "<color=#FFC125>穗收</color>",
+        "Desc": "打出时，如果牌库中的技能数量不小于X个，丢弃牌库最上方X个技能，可以触发额外效果。"
+    }
+}

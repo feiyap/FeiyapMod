@@ -1,0 +1,23 @@
+{
+    "myKey": "huimielongyin",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "huimielongyin\\huimielongyinBattleChar.png",
+        "offsetMax": {
+            "x": 403.2969,
+            "y": 493.164
+        },
+        "offsetMin": {
+            "x": -419.527374,
+            "y": -970.936
+        },
+        "pivot": {
+            "x": 0.509862661,
+            "y": 0.663162351
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

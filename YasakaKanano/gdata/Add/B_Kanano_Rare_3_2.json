@@ -1,0 +1,15 @@
+{
+    "B_Kanano_Rare_3_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "YasakaKanano.B_Kanano_Rare_3_2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "完美防御",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (19)",
+        "Description": "受到伤害后解除。"
+    }
+}

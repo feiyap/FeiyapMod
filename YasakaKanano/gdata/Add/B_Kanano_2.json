@@ -1,0 +1,10 @@
+{
+    "B_Kanano_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "YasakaKanano.B_Kanano_2",
+        "BuffTag": "null",
+        "Name": "流星之御柱",
+        "Description": "恢复百分比体力值最低的调查员 &a 点体力<color=#00E5EE>(自身最大体力值的&b)</color>。",
+        "Icon": "B_Kanano_2\\B_Kanano_2_Icon.png"
+    }
+}

@@ -1,1 +1,3 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+exceptSkillSelect,Text,,,,,选择放逐牌库中的1个技能拿回手中。,
+usedSkillSelect,Text,,,,,选择将本回合释放过的1个技能拿回手中。,

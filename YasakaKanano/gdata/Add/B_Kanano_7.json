@@ -1,0 +1,15 @@
+{
+    "B_Kanano_7": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "YasakaKanano.B_Kanano_7",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "冷冽之西风",
+        "Icon": "B_Kanano_7\\B_Kanano_7_Icon.png",
+        "Description": "回合结束时，若<color=#CD5555>饥馑5</color> - 选择本回合释放过的1个非放逐、非一次性技能，生成其复制；否则抽取1个技能。"
+    }
+}

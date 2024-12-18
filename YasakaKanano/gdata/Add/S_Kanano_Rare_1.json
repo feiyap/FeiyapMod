@@ -1,0 +1,35 @@
+{
+    "S_Kanano_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Pharos_witch",
+        "Target": "all_enemy",
+        "Name": "「风神之神德」",
+        "Description": "恢复所有法力值。",
+        "UseAp": 2,
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_Kanano_Rare_1",
+        "Rare": true,
+        "Basic": false,
+        "User": "YasakaKanano",
+        "Image_0": "S_Kanano_Rare_1\\S_Kanano_Rare_1_Image_0.png",
+        "Image_1": "S_Kanano_Rare_1\\S_Kanano_Rare_1_Image_1.png",
+        "Image_2": "S_Kanano_Rare_1\\S_Kanano_Rare_1_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Self": "SE_S_S_Kanano_Rare_1",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_Rare_1"
+        ]
+    }
+}

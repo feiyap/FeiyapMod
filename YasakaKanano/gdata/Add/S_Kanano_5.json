@@ -1,0 +1,26 @@
+{
+    "S_Kanano_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all_ally",
+        "NotCount": false,
+        "Name": "神谷「Divining Crop」",
+        "Description": "获得 &a 防护墙<color=#00E5EE>(自身最大体力值的25%)</color>。\n\n<color=#CD5555>饥馑5</color> - 施加的[庆典之西风]的持续回合数+1。",
+        "User": "YasakaKanano",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Kanano_5",
+        "Image_0": "S_Kanano_5\\S_Kanano_5_Image_0.png",
+        "Image_1": "S_Kanano_5\\S_Kanano_5_Image_1.png",
+        "Image_2": "S_Kanano_5\\S_Kanano_5_Image_2.png",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_5"
+        ],
+        "NoBasicSkill": false,
+        "PlusKeyWords": [
+            "Keyword_Famine"
+        ],
+        "IgnoreTaunt": false,
+        "Track": false
+    }
+}

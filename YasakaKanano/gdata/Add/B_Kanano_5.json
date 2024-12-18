@@ -1,0 +1,16 @@
+{
+    "B_Kanano_5": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "YasakaKanano.B_Kanano_5",
+        "BuffTag": "null",
+        "Name": "庆典之西风",
+        "Description": "&target每次使用手中的技能时，防御力+10%（最多40%）。",
+        "LifeTime": 1,
+        "Icon": "B_Kanano_5\\B_Kanano_5_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

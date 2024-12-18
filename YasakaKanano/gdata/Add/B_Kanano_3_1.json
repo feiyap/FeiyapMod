@@ -1,0 +1,13 @@
+{
+    "B_Kanano_3_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "YasakaKanano.B_Kanano_3_1",
+        "BuffTag": "CrowdControl",
+        "Name": "呼啸之西风",
+        "Debuff": true,
+        "TagPer": 110,
+        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_01",
+        "Description": "无法攻击&target以外的目标。\n 攻击后解除。",
+        "LifeTime": 0
+    }
+}

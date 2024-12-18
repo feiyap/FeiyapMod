@@ -1,0 +1,26 @@
+{
+    "S_Kanano_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_R1",
+        "Target": "enemy",
+        "Name": "御柱「流星般的御柱」",
+        "Description": "<color=#CD5555>饥馑10</color> - 这个技能造成伤害的100%连锁治疗自己。",
+        "User": "YasakaKanano",
+        "UseAp": 2,
+        "NotCount": true,
+        "Fatal": true,
+        "Effect_Target": "SE_T_S_Kanano_2",
+        "Effect_Self": "SE_S_S_Kanano_2",
+        "IgnoreTaunt": false,
+        "Image_0": "S_Kanano_2\\S_Kanano_2_Image_0.png",
+        "Image_1": "S_Kanano_2\\S_Kanano_2_Image_1.png",
+        "Image_2": "S_Kanano_2\\S_Kanano_2_Image_2.png",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_2"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Famine"
+        ]
+    }
+}

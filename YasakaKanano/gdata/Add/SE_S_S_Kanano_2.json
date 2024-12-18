@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Kanano_2": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Kanano_2"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

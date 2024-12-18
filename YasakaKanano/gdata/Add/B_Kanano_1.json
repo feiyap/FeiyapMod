@@ -1,0 +1,15 @@
+{
+    "B_Kanano_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "YasakaKanano.B_Kanano_1",
+        "BuffTag": "null",
+        "Name": "风雷之御柱",
+        "Description": "触发时，对随机敌人造成 &a 伤害<color=#FF7A33>(攻击力的&b)</color>。",
+        "Icon": "B_Kanano_1\\B_Kanano_1_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

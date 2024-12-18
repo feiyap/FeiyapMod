@@ -1,0 +1,155 @@
+{
+    "CampDial_YasakaKanano_HakureiReimu": {
+        "CharA": "YasakaKanano",
+        "CharB": "HakureiReimu",
+        "Dialogues": [
+            "[B]神奈子，你不是神明吗？而且还是神明里最会打仗的那类吧。",
+            "[B]为什么不直接施展神力把这个地方毁了呢？",
+            "[A]你啊……是不是忘了我们为什么要来扭曲之地了？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_RemiliaScarlet": {
+        "CharA": "YasakaKanano",
+        "CharB": "RemiliaScarlet",
+        "Dialogues": [
+            "[B]啊啊，是秋天的神。讨厌秋天。",
+            "[A]为什么讨厌秋天？",
+            "[B]到了秋天，花园里的花马上就会谢掉哦。",
+            "[A]世界上全是花也不太好吧？"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_IzayoiSakuya": {
+        "CharA": "YasakaKanano",
+        "CharB": "IzayoiSakuya",
+        "Dialogues": [
+            "[A]听说你是人类。和我家的巫女好好相处吧。",
+            "[B]现人神的人类……我不太明白怎么和拥有这种力量的人类相处。",
+            "[A]说什么呢。你不也是拥有奇怪的能力。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_FlandreScarlet": {
+        "CharA": "YasakaKanano",
+        "CharB": "FlandreScarlet",
+        "Dialogues": [
+            "[B]看着很严肃的神明姐姐！神明的「点」如果被碰到，也会死吗？",
+            "[A]只要还有信仰，神明就不会消亡。",
+            "[B]怎么这样——好狡猾——",
+            "[A]呵呵……反过来说，如果信仰消退的话，神明也会很轻易地死掉。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_SatsukiRin": {
+        "CharA": "YasakaKanano",
+        "CharB": "SatsukiRin",
+        "Dialogues": [
+            "[A]噢……幻兽小姐，也就只有在这里能一睹你的芳容了。",
+            "[B]神明大人，今后也请您多多关照了。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_Reisen": {
+        "CharA": "YasakaKanano",
+        "CharB": "Reisen",
+        "Dialogues": [
+            "[A]你就没有什么信仰可言吗？",
+            "[B]我只是只兔子，有什么好信仰的啊……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_Eirin": {
+        "CharA": "YasakaKanano",
+        "CharB": "Eirin",
+        "Dialogues": [
+            "[A]这次的伙伴居然是你啊，永琳。",
+            "[B]唉唉、你是不是有点放水过头了呢，神奈子？",
+            "[A]如果一个弹幕把这个地方毁了，那就没意思了吧。",
+            "[B]呵呵呵……没意思的事情还多着呢。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_HouraisanKaguya": {
+        "CharA": "YasakaKanano",
+        "CharB": "HouraisanKaguya",
+        "Dialogues": [
+            "[A]趁这个机会，要不要来信仰我试试看？",
+            "[B]信仰你能让怪物猎人新作早点发售的话我就试试。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_Inaba": {
+        "CharA": "YasakaKanano",
+        "CharB": "Inaba",
+        "Dialogues": [
+            "[B]哟哟，神明大人！咱今天的业绩也是满满的呢！",
+            "[A]唔嗯……虽说妖怪兔的信仰微乎其微，但聚沙成塔，总好过没有。",
+            "[B]那、与之相对的？",
+            "[A]既然是我的信徒，那我自然会庇护你们的。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_KochiyaSanae": {
+        "CharA": "YasakaKanano",
+        "CharB": "KochiyaSanae",
+        "Dialogues": [
+            "[B]有神奈子大人在身边的话，遇到什么怪物都不怕了呢。",
+            "[A]总是依赖我可不好哦？",
+            "[B]我是现人神的风祝诶，不依赖神明的话，那我要做什么啦。",
+            "[A]说的也是呢。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_Suwako": {
+        "CharA": "YasakaKanano",
+        "CharB": "Suwako",
+        "Dialogues": [
+            "[B]神奈子！一会要不要去练一练？今天我可不会输哦！",
+            "[A]你这家伙，喝醉了吧？你的国家都被我夺走了，还有什么好争的。",
+            "[B]啊哈哈，明明单挑输给我，用诡计才夺走国家的人~？",
+            "[A]……好，今天一定要把你揍到酒醒为止。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_Mokou": {
+        "CharA": "YasakaKanano",
+        "CharB": "Mokou",
+        "Dialogues": [
+            "[B]听说你是军神？在我看来不过如此嘛。",
+            "[A]军神的本领，在这里可施展不出来呀。"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_Youmu": {
+        "CharA": "YasakaKanano",
+        "CharB": "Youmu",
+        "Dialogues": [
+            "[A]既不是人类也不是幽灵，你到底是什么？",
+            "[B]就连神明大人也不知道的事情，我也不是很清楚啦……"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_Cirno": {
+        "CharA": "YasakaKanano",
+        "CharB": "Cirno",
+        "Dialogues": [
+            "[A]……",
+            "[B]嗯~你是那个山上的神吧？怎么了吗？",
+            "[A]没什么。只是看着你们这些妖精活蹦乱跳的，感觉自己的工作也有价值。",
+            "[B]哦！是你一直在守护大家吗？谢谢你！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    },
+    "CampDial_YasakaKanano_Daiyousei": {
+        "CharA": "YasakaKanano",
+        "CharB": "Daiyousei",
+        "Dialogues": [
+            "[A]现在在做信徒人口普查。你的名字是？",
+            "[B]那个、大、大妖精……",
+            "[A]不是职业而是名字。你们这些妖精呀……",
+            "[B]所以说、我就叫「大妖精」啦——！"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    }
+}

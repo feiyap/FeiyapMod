@@ -1,0 +1,11 @@
+{
+    "B_Kanano_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "YasakaKanano.B_Kanano_3",
+        "BuffTag": "null",
+        "Name": "狂热之御柱",
+        "Description": "每触发 &a 次时，抽取1个技能<color=#FF7A33>(&b)</color>。\n当前触发次数：&c",
+        "Icon": "B_Kanano_3\\B_Kanano_3_Icon.png",
+        "Cantdisable": false
+    }
+}

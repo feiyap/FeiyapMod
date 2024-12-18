@@ -1,0 +1,7 @@
+{
+    "Keyword_Famine": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "<color=#CD5555>饥馑</color>",
+        "Desc": "打出时，如果牌库中的技能数量不大于X个，可以触发额外效果。"
+    }
+}

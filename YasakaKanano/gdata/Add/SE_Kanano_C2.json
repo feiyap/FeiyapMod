@@ -1,0 +1,11 @@
+{
+    "SE_Kanano_C2": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "<color=#FFC125>穗收3</color> - 伤害增加30%。",
+        "Drop": true,
+        "EnforceString": "攻击技能",
+        "NeedCharacter": "YasakaKanano",
+        "Des": "",
+        "ClassName": "YasakaKanano.SE_Kanano_C2"
+    }
+}

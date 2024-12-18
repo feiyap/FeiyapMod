@@ -23,6 +23,10 @@
         "Image_0": "S_Kanano_P\\S_Kanano_P_Image_0.png",
         "Image_1": "S_Kanano_P\\S_Kanano_P_Image_1.png",
         "Image_2": "S_Kanano_P\\S_Kanano_P_Image_2.png",
-        "User": "YasakaKanano"
+        "Description": "<color=#FFC125>穗收1</color> - 恢复1点法力值。",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_P"
+        ],
+        "AutoDelete": 1
     }
 }

@@ -1,0 +1,18 @@
+{
+    "S_Kanano_Rare_3_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "skill",
+        "Name": "神符「神所踏足之御神渡」",
+        "Description": "无法指定露西技能和稀有技能。\n生成目标技能的复制，直到手牌上限为止。使那些技能附带放逐。",
+        "Rare": true,
+        "NoDrop": true,
+        "Image_0": "S_Kanano_Rare_3_3\\S_Kanano_Rare_3_3_Image_0.png",
+        "Image_1": "S_Kanano_Rare_3_3\\S_Kanano_Rare_3_3_Image_1.png",
+        "Image_2": "S_Kanano_Rare_3_3\\S_Kanano_Rare_3_3_Image_2.png",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_Rare_3_3"
+        ]
+    }
+}

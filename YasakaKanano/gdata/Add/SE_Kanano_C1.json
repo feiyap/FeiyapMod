@@ -1,0 +1,13 @@
+{
+    "SE_Kanano_C1": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "<color=#CD5555>饥馑10</color> - 伤害增加30%。",
+        "Drop": true,
+        "EnforceString": "攻击技能",
+        "NeedCharacter": "YasakaKanano",
+        "Des": "",
+        "ClassName": "YasakaKanano.SE_Kanano_C1"
+    }
+}

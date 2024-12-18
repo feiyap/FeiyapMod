@@ -1,0 +1,25 @@
+{
+    "huimielongyin": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "face": "huimielongyin\\huimielongyinBattleFace.png",
+        "name": "毁灭隆音",
+        "SelectInfo": "",
+        "MAXHP": {
+            "x": 20,
+            "y": 40
+        },
+        "PassiveName": "黑塔法师",
+        "PassiveDes": "释放【法术】技能时，弹出输入框，根据输入的咒语生成相应的技能。",
+        "CollectionSprite_Cover": "huimielongyin\\huimielongyinCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "huimielongyin\\huimielongyinCollectionSprite_SkillFace.png",
+        "StatView_Atk": 2,
+        "StatView_Def": 2,
+        "StatView_Sup": 2,
+        "StatView_Debuff": 2,
+        "StatView_CC": 1,
+        "StatView_Dot": 1
+    }
+}

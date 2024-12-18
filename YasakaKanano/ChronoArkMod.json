@@ -1,5 +1,18 @@
 {
     "id": "YasakaKanano",
     "Uploader": "Feiyap",
-    "Visibility": "Public"
+    "Visibility": "Public",
+    "Title": "【CN】八坂神奈子 ~ 东方风神录",
+    "Author": "绯夜氏",
+    "Version": "v1.0",
+    "Dependencies": [
+        "BasicMethods"
+    ],
+    "TagList": [
+        "Characters"
+    ],
+    "Cover": "YasakaKananoCover.png",
+    "Description": "[h1]本Mod基于“BasicMethods”Mod制作。应用本Mod之前，请先订阅“BasicMethods”Mod，并在游戏-创意工坊中将“BasicMethods”Mod置于所有Mod最上方（请至少放在本Mod上方）。感谢贰玖君为本Mod提供的大量技术支持。[/h1]\n\n八坂神奈子是能够调整队伍法力值的功能性坦克。\n\n作为坦克职业，八坂神奈子几乎没有保护队友的手段。取而代之的是，她能够通过丢弃牌库中的技能来恢复队伍的法力值，为队友提供充足的费用来消耗。尽管恢复法力值的效果很诱人，但也要注意不要太过忘我，把牌库中的重要技能全部丢掉了哦。\n\n试着结合风灵系的调查员，在扭曲之地刮起丰收的风吧！\n\n包含1个角色。拥有10个基础技能，3个稀有技能，1个露西抽牌技能。\n包含1个紫色装备。",
+    "WorkShopId": "3385317894",
+    "OnlyUploadFiles": true
 }

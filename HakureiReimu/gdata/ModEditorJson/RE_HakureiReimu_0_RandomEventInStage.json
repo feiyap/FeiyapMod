@@ -1,0 +1,14 @@
+{
+    "myKey": null,
+    "myField": "RandomEventList",
+    "myValues": {
+        "RE_Key": "RE_HakureiReimu_0"
+    },
+    "MyChangeType": "RandomEventInStage",
+    "myKeys": [
+        "Stage1_2",
+        "Stage2_1",
+        "Stage2_2",
+        "Stage3"
+    ]
+}

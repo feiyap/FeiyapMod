@@ -1,0 +1,36 @@
+{
+    "S_Kanano_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Target": "self",
+        "IgnoreTaunt": false,
+        "Name": "神秘「葛井之清水」",
+        "Description": "<color=#FFC125>穗收3</color> - 回合结束时，若<color=#CD5555>饥馑5</color> - 选择本回合释放过的1个非放逐、非一次性技能，生成其复制；否则抽取1个技能。\n<color=#CD5555>饥馑10</color> - 生成1个[西风灵]。",
+        "User": "YasakaKanano",
+        "Particle": "Particle/Buff",
+        "Basic": true,
+        "NotCount": false,
+        "Except": false,
+        "Image_0": "S_Kanano_7\\S_Kanano_7_Image_0.png",
+        "Image_1": "S_Kanano_7\\S_Kanano_7_Image_1.png",
+        "Image_2": "S_Kanano_7\\S_Kanano_7_Image_2.png",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_7"
+        ],
+        "Track": false,
+        "PlusKeyWords": [
+            "Keyword_Harvest",
+            "Keyword_Famine"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "NoBasicSkill": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

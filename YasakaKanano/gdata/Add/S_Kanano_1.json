@@ -1,0 +1,38 @@
+{
+    "S_Kanano_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_4",
+        "Target": "enemy",
+        "IgnoreTaunt": false,
+        "Name": "奇祭「目处梃子乱舞」",
+        "Description": "<color=#FFC125>穗收5</color> - 造成(100%成功率的)眩晕。",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Kanano_1",
+        "Effect_Self": "SE_S_S_Kanano_1",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "YasakaKanano",
+        "Image_0": "S_Kanano_1\\S_Kanano_1_Image_0.png",
+        "Image_1": "S_Kanano_1\\S_Kanano_1_Image_1.png",
+        "Image_2": "S_Kanano_1\\S_Kanano_1_Image_2.png",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_1"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Harvest"
+        ]
+    }
+}

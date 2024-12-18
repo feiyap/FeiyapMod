@@ -1,0 +1,12 @@
+{
+    "B_Kanano_10": {
+        "_gdeSchema": "Buff",
+        "ClassName": "YasakaKanano.B_Kanano_10",
+        "BuffTag": "null",
+        "Name": "天龙之西风",
+        "Description": "受到攻击时减少1层，恢复1点法力值。",
+        "MaxStack": 2,
+        "Icon": "B_Kanano_10\\B_Kanano_10_Icon.png",
+        "IsFieldBuff": true
+    }
+}

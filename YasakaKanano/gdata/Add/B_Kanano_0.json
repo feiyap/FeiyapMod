@@ -1,0 +1,15 @@
+{
+    "B_Kanano_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "YasakaKanano.B_Kanano_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "丰收之御柱",
+        "Description": "触发时，获得 &a 防护墙<color=#00E5EE>(自身最大体力值的&b)</color>。",
+        "Icon": "B_Kanano_0\\B_Kanano_0_Icon.png"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "S_Kanano_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "筒粥「神之粥」",
+        "Description": "优先丢弃牌库中目标友军的2个技能。抽取2个技能。",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "YasakaKanano",
+        "Image_0": "S_Kanano_LucyD\\S_Kanano_LucyD_Image_0.png",
+        "Image_1": "S_Kanano_LucyD\\S_Kanano_LucyD_Image_1.png",
+        "Image_2": "S_Kanano_LucyD\\S_Kanano_LucyD_Image_2.png",
+        "Rare": false,
+        "NoDrop": false,
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_LucyD"
+        ]
+    }
+}

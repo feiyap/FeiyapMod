@@ -1,0 +1,23 @@
+{
+    "S_Kanano_10": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all_ally",
+        "NotCount": true,
+        "Disposable": true,
+        "Name": "天龙「雨之源泉」",
+        "Description": "<color=#CD5555>饥馑5</color> - 额外施加1层。",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Kanano_10",
+        "Image_0": "S_Kanano_10\\S_Kanano_10_Image_0.png",
+        "Image_1": "S_Kanano_10\\S_Kanano_10_Image_1.png",
+        "Image_2": "S_Kanano_10\\S_Kanano_10_Image_2.png",
+        "SkillExtended": [
+            "YasakaKanano.S_Kanano_10"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Famine"
+        ]
+    }
+}

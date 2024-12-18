@@ -1,0 +1,23 @@
+{
+    "myKey": "huimielongyin",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "huimielongyin\\huimielongyinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 472.4694,
+            "y": 460.111816
+        },
+        "offsetMin": {
+            "x": -432.63736,
+            "y": -1150.39819
+        },
+        "pivot": {
+            "x": 0.4764492,
+            "y": 0.710969865
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}
