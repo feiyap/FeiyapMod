@@ -1,0 +1,15 @@
+{
+    "B_Tenshi_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "HinanawiTenshi.B_Tenshi_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "天人之体",
+        "Description": "当前拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>：&a",
+        "Icon": "B_Tenshi_P\\B_Tenshi_P_Icon.png"
+    }
+}

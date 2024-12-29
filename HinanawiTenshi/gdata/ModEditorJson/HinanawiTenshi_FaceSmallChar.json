@@ -1,0 +1,23 @@
+{
+    "myKey": "HinanawiTenshi",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "HinanawiTenshi\\HinanawiTenshiFaceSmallChar.png",
+        "offsetMax": {
+            "x": 460.6143,
+            "y": 250.373962
+        },
+        "offsetMin": {
+            "x": -474.651154,
+            "y": -684.8915
+        },
+        "pivot": {
+            "x": 0.5053315,
+            "y": 0.72631973
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

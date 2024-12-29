@@ -6,7 +6,7 @@
         "Target": "enemy",
         "NoBasicSkill": false,
         "Name": "星符「Escape Velocity」",
-        "Description": "自身每有1层增益，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的10%)</color>。",
+        "Description": "如果本回合没有受到伤害，以暴击形式命中。",
         "User": "KirisameMarisa",
         "UseAp": 2,
         "Effect_Target": "SE_T_S_KirisameMarisa_1",
@@ -30,6 +30,8 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "Counting": 1,
+        "Effect_Self": "SE_S_S_KirisameMarisa_1"
     }
 }

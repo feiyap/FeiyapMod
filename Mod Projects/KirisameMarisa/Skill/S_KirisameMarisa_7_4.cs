@@ -13,13 +13,35 @@ using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 namespace KirisameMarisa
 {
-	/// <summary>
-	/// 魔十字「Grand Cross」
-	/// <color=#00BFFF>危险等级4</color> - 本技能在弃牌库中时，费用增加4点。
-	/// 查看弃牌库最上面的3个技能，并选择其中1个技能。所选技能获得“无视防御，造成的伤害翻倍”的效果。
-	/// </summary>
+    /// <summary>
+    /// 魔十字「Grand Cross」
+    /// 如果自身已经拥有[危险空间]，则解除[危险空间]，抽取1个技能并恢复1点法力值。
+    /// </summary>
     public class S_KirisameMarisa_7_4: S_KirisameMarisa_7
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
 
+            List<Skill> list = new List<Skill>();
+            list.AddRange(this.BChar.MyTeam.Skills_UsedDeck);
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Master != this.BChar)
+                {
+                    list.RemoveAt(i);
+                    i--;
+                }
+            }
+            if (list.Count != 0)
+            {
+                BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
+            }
+        }
+
+        public void Del(SkillButton Mybutton)
+        {
+            Mybutton.Myskill.Master.MyTeam.ForceDrawF(Mybutton.Myskill);
+        }
     }
 }

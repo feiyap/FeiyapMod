@@ -26,25 +26,30 @@ namespace KirisameMarisa
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.4f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.25f)).ToString());
         }
 
         public void DamageChange_sumoperation(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View, ref int PlusDamage)
         {
             int count = 0;
-            if (Target.GetBuffs(BattleChar.GETBUFFTYPE.DOT, false, false).Count > 0)
+
+            List<CastingSkill>.Enumerator enumerator2 = (Target as BattleEnemy).SkillQueue.GetEnumerator();
+
+            while (enumerator2.MoveNext())
             {
-                count++;
+                if (enumerator2.Current.CastSpeed != 0)
+                {
+                    count = enumerator2.Current.CastSpeed;
+                    break;
+                }
             }
-            if (Target.GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false, false).Count > 0)
+
+            if (count > 7)
             {
-                count++;
+                count = 7;
             }
-            if (Target.GetBuffs(BattleChar.GETBUFFTYPE.CC, false, false).Count > 0)
-            {
-                count++;
-            }
-            PlusDamage = (int)(this.BChar.GetStat.atk * 0.4f) * count;
+
+            PlusDamage = (int)(this.BChar.GetStat.atk * 0.25f) * count;
         }
     }
 }

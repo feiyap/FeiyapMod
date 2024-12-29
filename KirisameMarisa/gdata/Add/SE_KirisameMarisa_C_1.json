@@ -1,0 +1,12 @@
+{
+    "SE_KirisameMarisa_C_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "费用+1，同时治疗所有队友。",
+        "Drop": true,
+        "EnforceString": "指向单体的治疗技能",
+        "NeedCharacter": "KirisameMarisa",
+        "Particle": "",
+        "AlwaysParticle": false,
+        "ClassName": "KirisameMarisa.SE_KirisameMarisa_C_1"
+    }
+}

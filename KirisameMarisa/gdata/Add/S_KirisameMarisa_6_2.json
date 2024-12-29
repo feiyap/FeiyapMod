@@ -5,8 +5,8 @@
         "Particle": "Particle/Lian/Lian_7",
         "Target": "enemy",
         "NotCount": true,
-        "Disposable": true,
-        "Description": "<color=#00BFFF>危险等级2</color> - 击杀敌人时，使随机敌人获得1层[危险信号]。",
+        "Disposable": false,
+        "Description": "<color=#00BFFF>危险等级2</color> - 如果目标处于嘲讽状态，解除嘲讽状态，并对所有非嘲讽状态的敌人发动追加攻击，造成&a伤害<color=#FF7A33>(攻击力的60%)</color>。",
         "Name": "星符「Eccentric Asteroid」",
         "UseAp": 1,
         "Effect_Target": "SE_T_S_KirisameMarisa_6_2",
@@ -16,6 +16,6 @@
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_6_2"
         ],
-        "IgnoreTaunt": true
+        "IgnoreTaunt": false
     }
 }

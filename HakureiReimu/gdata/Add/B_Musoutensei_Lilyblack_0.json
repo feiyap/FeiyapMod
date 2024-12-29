@@ -1,0 +1,11 @@
+{
+    "B_Musoutensei_Lilyblack_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "HakureiReimu.B_Musoutensei_Lilyblack_0",
+        "BuffTag": "null",
+        "Name": "凋叶棕",
+        "Description": "自身每次获得增益时，莉莉黑会对随机敌人发动一次&a伤害的追加攻击<color=#FF7A33>(攻击力的33%)</color>。",
+        "Icon": "B_Musoutensei_Lilyblack_0\\B_Musoutensei_Lilyblack_0_Icon.png"
+    }
+}

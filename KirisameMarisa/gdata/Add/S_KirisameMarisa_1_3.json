@@ -5,7 +5,7 @@
         "Particle": "Particle/Momori/Momori_8_1",
         "Target": "enemy",
         "Name": "星符「Dragon Meteor」",
-        "Description": "自身每有1层增益，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的15%)</color>。",
+        "Description": "<color=#00BFFF>危险等级3</color> - 不再持有倒计时1。\n如果本回合没有受到伤害，以暴击形式命中。",
         "UseAp": 2,
         "Effect_Target": "SE_T_S_KirisameMarisa_1_3",
         "Image_0": "S_KirisameMarisa_1_3\\S_KirisameMarisa_1_3_Image_0.png",

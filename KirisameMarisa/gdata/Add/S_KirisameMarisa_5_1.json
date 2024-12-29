@@ -14,7 +14,7 @@
         "Image_1": "S_KirisameMarisa_5_1\\S_KirisameMarisa_5_1_Image_1.png",
         "Image_2": "S_KirisameMarisa_5_1\\S_KirisameMarisa_5_1_Image_2.png",
         "NoDrop": true,
-        "Description": "<color=#00BFFF>危险等级1</color> - 目标每有1层减益，使这个技能暴击率提升8%。\n当此技能的暴击率超过100%时，技能伤害按照超出暴击率百分比增加。",
+        "Description": "<color=#00BFFF>危险等级1</color> - 速度小于0时，每少1点使这个技能暴击率提升17%。\n当此技能的暴击率超过17%时，技能伤害按照超出暴击率百分比增加。",
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_5_1"
         ],

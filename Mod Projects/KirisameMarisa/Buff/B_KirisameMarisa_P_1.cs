@@ -17,19 +17,20 @@ namespace KirisameMarisa
 	/// 超绝偷感
 	/// 受到超过5点的伤害时解除。
 	/// </summary>
-    public class B_KirisameMarisa_P_1:Buff, IP_SkillUse_User_After
+    public class B_KirisameMarisa_P_1:Buff, IP_SkillUse_Target
     {
         public override void Init()
         {
             base.Init();
-            this.PlusStat.cri = 100;
+            this.PlusStat.cri = 25 * StackNum;
+            this.PlusStat.PlusCriDmg = 25 * StackNum;
         }
 
-        public void SkillUseAfter(Skill SkillD)
+        public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
         {
-            if (SkillD.IsDamage)
+            if ((SP.SkillData.IsDamage || SP.SkillData.IsHeal) && Cri)
             {
-                base.SelfStackDestroy();
+                base.SelfDestroy(false);
             }
         }
     }

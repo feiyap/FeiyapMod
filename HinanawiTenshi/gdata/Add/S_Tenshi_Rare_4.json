@@ -1,0 +1,32 @@
+{
+    "S_Tenshi_Rare_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/LastBoss/ProgramMaster/MasterBeam",
+        "Target": "enemy",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Name": "＊大气圈尽在吾之手中＊",
+        "Description": "<color=#97FFFF>天启10</color> - 获得所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，并且持续时间变为永久。\n\n<color=#696969><i>在第一颗星的下方，神给予了无二的启示。\n面对再三再四造下罪业的人类， 要予以宽恕而非制裁。\n她颔首，并向神发誓将献上自己的五识。\n这个世界是神所创造出的巨大双六棋盘，而她是背负着七丈光芒的一颗渺小棋子。\n当八灾与试炼降临之际，闪烁的九曜星将予以指引，\n克服旅途中的一切苦难后，她最终可得十全之权能。</i></color>",
+        "Rare": true,
+        "Disposable": true,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Tenshi_Rare_4",
+        "SkillExtended": [
+            "HinanawiTenshi.S_Tenshi_Rare_4"
+        ],
+        "Image_0": "S_Tenshi_Rare_4\\S_Tenshi_Rare_4_Image_0.png",
+        "Image_1": "S_Tenshi_Rare_4\\S_Tenshi_Rare_4_Image_1.png",
+        "Image_2": "S_Tenshi_Rare_4\\S_Tenshi_Rare_4_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -128,7 +128,15 @@ namespace HakureiReimu
             "S_Utuho_11",
             "S_Musoutensei_Utuho",
             "S_LilyWhite_Spring_Rare_2",
-            "S_Musoutensei_Lilywhite"
+            "S_Musoutensei_Lilywhite",
+            "S_LilyBlack_Rare_3",
+            "S_Musoutensei_Lilyblack",
+            "S_Cirno_R_2",
+            "S_Musoutensei_Cirno",
+            "S_Daiyousei_R_2",
+            "S_Musoutensei_Daiyousei",
+            "S_Youmu_R_2",
+            "S_Musoutensei_Youmu"
         };
     }
 }

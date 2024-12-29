@@ -6,21 +6,22 @@
         "Target": "enemy",
         "Name": "星符「Gravity Beat」",
         "User": "KirisameMarisa",
-        "UseAp": 1,
+        "UseAp": 2,
         "NotCount": true,
-        "Disposable": true,
+        "Disposable": false,
         "Effect_Target": "SE_T_S_KirisameMarisa_6",
         "Image_0": "S_KirisameMarisa_6\\S_KirisameMarisa_6_Image_0.png",
         "Image_1": "S_KirisameMarisa_6\\S_KirisameMarisa_6_Image_1.png",
         "Image_2": "S_KirisameMarisa_6\\S_KirisameMarisa_6_Image_2.png",
         "NoDrop": false,
         "NoBasicSkill": false,
-        "Description": "",
+        "Description": "如果目标处于嘲讽状态，解除嘲讽状态，并对其发动追加攻击，造成&a伤害<color=#FF7A33>(攻击力的60%)</color>。",
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_6"
         ],
         "PlusSkillView": "S_KirisameMarisa_6_2",
         "IgnoreTaunt": false,
-        "Track": false
+        "Track": false,
+        "Except": false
     }
 }

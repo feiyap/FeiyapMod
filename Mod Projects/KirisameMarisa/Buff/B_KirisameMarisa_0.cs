@@ -21,7 +21,9 @@ namespace KirisameMarisa
         public override void Init()
         {
             base.Init();
-            this.PlusStat.def = -5 * StackNum;
+            this.PlusStat.spd = 1 * StackNum;
+            this.PlusStat.dod = 10 * StackNum;
+            this.PlusStat.DMGTaken = 15 * StackNum;
         }
     }
 }

@@ -1,0 +1,16 @@
+{
+    "S_Tenki_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "self",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "天气 - 快晴",
+        "NoDrop": true,
+        "Effect_Self": "SE_S_S_Tenki_1",
+        "Image_0": "S_Tenki_1\\S_Tenki_1_Image_0.png",
+        "PlusSkillView": "S_Tenki_2"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "HakureiReimuXmas": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "白银驰骋的巫女",
+        "Character": "HakureiReimu",
+        "SkinDesc": "幻想乡的雪空中，鲜艳的红白驰骋。那究竟是圣诞老人还是巫女？\r\n是……巫女圣诞老人！这件比平时更温暖的衣服，既像巫女又像圣诞老人。\r\n灵梦对下一个圣诞节能再次穿上它感到有些期待。",
+        "Text_Battle_Idle": [
+            "是巫女，也是圣诞老人！",
+            "明年也请多多拜托啦！"
+        ],
+        "Text_Battle_Kill": [
+            "圣诞快乐唷！"
+        ],
+        "Text_Battle_Start": [
+            "赶紧干完活回去睡觉吧！"
+        ],
+        "Text_Battle_Cri": [
+            "别客气别客气！"
+        ],
+        "Text_Field_Idle": [
+            "好冷好冷~为什么这么冷的天我还要工作啊？",
+            "嘿嘿，圣诞巫女来咯！"
+        ],
+        "Text_Field_GetItem": [
+            "是圣诞节礼物唷！"
+        ],
+        "FaceSprite": "HakureiReimuSD\\HakureiReimuSDBattleFace.png",
+        "CampSD": [
+            "HakureiReimuSD\\HakureiReimuSDCampSD0.png",
+            "HakureiReimuSD\\HakureiReimuSDCampSD1.png",
+            "HakureiReimuSD\\HakureiReimuSDCampSD2.png",
+            "HakureiReimuSD\\HakureiReimuSDCampSD3.png"
+        ]
+    }
+}

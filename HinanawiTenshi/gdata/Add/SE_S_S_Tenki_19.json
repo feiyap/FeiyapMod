@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Tenki_19": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Tenki_19"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

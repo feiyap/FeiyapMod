@@ -1,0 +1,13 @@
+{
+    "S_Tenki_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NoDrop": true,
+        "Name": "天气 - 雪",
+        "Effect_Self": "SE_S_S_Tenki_8",
+        "Image_0": "S_Tenki_8\\S_Tenki_8_Image_0.png",
+        "PlusSkillView": "S_Tenki_9"
+    }
+}

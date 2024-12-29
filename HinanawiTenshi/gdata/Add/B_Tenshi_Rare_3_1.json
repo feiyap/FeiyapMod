@@ -1,0 +1,11 @@
+{
+    "B_Tenshi_Rare_3_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenshi_Rare_3_1",
+        "BuffTag": "null",
+        "Name": "绯想天",
+        "Description": "每个回合开始时，为所有友军施加随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+        "Cantdisable": true,
+        "Icon": "B_Tenshi_Rare_3_1\\B_Tenshi_Rare_3_1_Icon.png"
+    }
+}

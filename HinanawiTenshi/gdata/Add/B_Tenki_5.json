@@ -1,0 +1,10 @@
+{
+    "B_Tenki_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenki_5",
+        "BuffTag": "null",
+        "Name": "天气 - 雹",
+        "Icon": "B_Tenki_5\\B_Tenki_5_Icon.png",
+        "LifeTime": 2
+    }
+}

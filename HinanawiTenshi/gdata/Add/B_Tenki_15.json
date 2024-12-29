@@ -1,0 +1,12 @@
+{
+    "B_Tenki_15": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenki_15",
+        "BuffTag": "null",
+        "Name": "天气 - 极光",
+        "Icon": "B_Tenki_15\\B_Tenki_15_Icon.png",
+        "Description": "获得随机天气的面板属性。每次使用技能后改变。\n当前生效的天气为：&a",
+        "LifeTime": 1,
+        "Cantdisable": false
+    }
+}

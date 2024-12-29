@@ -1,0 +1,10 @@
+{
+    "B_KirisameMarisa_Rare_11": {
+        "_gdeSchema": "Buff",
+        "ClassName": "KirisameMarisa.B_KirisameMarisa_Rare_11",
+        "BuffTag": "null",
+        "Name": "危险升空！",
+        "Description": "无敌。",
+        "Hide": true
+    }
+}

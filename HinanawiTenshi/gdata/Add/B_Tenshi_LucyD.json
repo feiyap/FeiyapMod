@@ -1,0 +1,16 @@
+{
+    "B_Tenshi_LucyD": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenshi_LucyD",
+        "BuffTag": "null",
+        "Name": "勇气凛凛",
+        "Description": "获得增益时抽取1个技能（最多触发4次）。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (1)",
+        "LifeTime": 1,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

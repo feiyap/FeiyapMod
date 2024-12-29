@@ -1,0 +1,11 @@
+{
+    "B_Tenki_10": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenki_10",
+        "BuffTag": "null",
+        "Name": "天气 - 疏雨",
+        "Description": "手中的稀有技能的费用降低1点。",
+        "Icon": "B_Tenki_10\\B_Tenki_10_Icon.png",
+        "LifeTime": 2
+    }
+}

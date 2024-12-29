@@ -1,0 +1,13 @@
+{
+    "S_Tenki_17": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NoDrop": true,
+        "Name": "天气 - 钻石尘",
+        "Effect_Self": "SE_S_S_Tenki_17",
+        "PlusSkillView": "S_Tenki_18",
+        "Image_0": "S_Tenki_17\\S_Tenki_17_Image_0.png"
+    }
+}

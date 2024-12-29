@@ -1,0 +1,11 @@
+{
+    "B_Musoutensei_Daiyousei_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "HakureiReimu.B_Musoutensei_Daiyousei_0",
+        "BuffTag": "null",
+        "Name": "幻想乡的守护者",
+        "Icon": "B_Musoutensei_Daiyousei_0\\B_Musoutensei_Daiyousei_0_Icon.png",
+        "Description": "受到伤害时，&user发起一次&a伤害的反击<color=#FF7A33>(攻击力的50%)</color>。"
+    }
+}

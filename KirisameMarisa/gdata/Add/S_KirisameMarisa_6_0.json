@@ -1,0 +1,12 @@
+{
+    "S_KirisameMarisa_6_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/IronHeart/IronHeart_new_3",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "星符「Gravity Beat」",
+        "UseAp": 0,
+        "Effect_Target": "SE_T_S_KirisameMarisa_6_0"
+    }
+}

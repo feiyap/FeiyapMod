@@ -20,7 +20,7 @@
         "EnemyPreview": false,
         "UnknownTarget": false,
         "Name": "恋符「Master Spark」",
-        "Description": "目标每有1层减益，使这个技能暴击率提升4%。\n当此技能的暴击率超过100%时，技能伤害按照超出暴击率百分比增加。",
+        "Description": "速度小于0时，每少1点使这个技能暴击率提升15%。\n当此技能的暴击率超过15%时，技能伤害按照超出暴击率百分比增加。",
         "UseAp": 3,
         "User": "KirisameMarisa",
         "Effect_Target": "SE_T_S_KirisameMarisa_5",

@@ -20,29 +20,6 @@ namespace KirisameMarisa
 	/// </summary>
     public class S_KirisameMarisa_8_4: S_KirisameMarisa_8_2
     {
-        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
-        {
-            base.SkillUseSingle(SkillD, Targets);
-
-            List<Skill> list = new List<Skill>();
-            list.AddRange(this.BChar.MyTeam.Skills_UsedDeck);
-            for (int i = 0; i < list.Count; i++)
-            {
-                if (list[i].Master != this.BChar)
-                {
-                    list.RemoveAt(i);
-                    i--;
-                }
-            }
-            if (list.Count != 0)
-            {
-                BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
-            }
-        }
-
-        public void Del(SkillButton Mybutton)
-        {
-            Mybutton.Myskill.Master.MyTeam.ForceDrawF(Mybutton.Myskill);
-        }
+        
     }
 }

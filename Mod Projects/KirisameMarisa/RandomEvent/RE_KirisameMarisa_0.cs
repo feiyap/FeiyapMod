@@ -29,7 +29,7 @@ namespace KirisameMarisa
 
         public override void UseButton2()
         {
-            base.UseButton1();
+            base.UseButton2();
             if (PlayData.Gold >= 2000)
             {
                 PlayData.Gold -= 2000;

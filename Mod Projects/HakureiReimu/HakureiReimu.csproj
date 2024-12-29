@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>HakureiReimu2024121614732</AssemblyName>
+    <AssemblyName>HakureiReimu2024122520204</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -405,7 +405,7 @@
 <!-- Extra Reference End-->
   </ItemGroup>
   
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="HakureiReimu_ModDefinition.cs" />
     <Compile Include="HakureiReimu_ModItemKeys.cs" />
@@ -438,11 +438,17 @@
     <Compile Include="Buff\B_HakureiReimu_F_LucyD_3.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_P.cs" />
     <Compile Include="Buff\B_HakureiReimu_F_P_1.cs" />
+    <Compile Include="Buff\B_Musoutensei_Cirno_0.cs" />
+    <Compile Include="Buff\B_Musoutensei_Daiyousei_0.cs" />
+    <Compile Include="Buff\B_Musoutensei_Daiyousei_1.cs" />
+    <Compile Include="Buff\B_Musoutensei_Daiyousei_2.cs" />
     <Compile Include="Buff\B_Musoutensei_Flandre_0.cs" />
+    <Compile Include="Buff\B_Musoutensei_Lilyblack_0.cs" />
     <Compile Include="Buff\B_Musoutensei_Lilywhite_0.cs" />
     <Compile Include="Buff\B_Musoutensei_Reisen_0.cs" />
     <Compile Include="Buff\B_Musoutensei_Satsuki_0.cs" />
     <Compile Include="Buff\B_Musoutensei_Youmu_0.cs" />
+    <Compile Include="Buff\B_RE_HakureiReimu_0.cs" />
     <Compile Include="Character\P_HakureiReimu.cs" />
     <Compile Include="Dialogue\DiaNormal.cs" />
     <Compile Include="Dialogue\Dia_Cake.cs" />
@@ -493,10 +499,13 @@
     <Compile Include="Skill\S_HakureiReimu_F_9_5.cs" />
     <Compile Include="Skill\S_HakureiReimu_F_LucyD.cs" />
     <Compile Include="Skill\S_Musoutensei_Alice.cs" />
+    <Compile Include="Skill\S_Musoutensei_Cirno.cs" />
+    <Compile Include="Skill\S_Musoutensei_Daiyousei.cs" />
     <Compile Include="Skill\S_Musoutensei_Eirin.cs" />
     <Compile Include="Skill\S_Musoutensei_Flandre.cs" />
     <Compile Include="Skill\S_Musoutensei_Inaba.cs" />
     <Compile Include="Skill\S_Musoutensei_Kaguya.cs" />
+    <Compile Include="Skill\S_Musoutensei_Lilyblack.cs" />
     <Compile Include="Skill\S_Musoutensei_Lilywhite.cs" />
     <Compile Include="Skill\S_Musoutensei_Mokou.cs" />
     <Compile Include="Skill\S_Musoutensei_Reisen.cs" />
@@ -504,10 +513,12 @@
     <Compile Include="Skill\S_Musoutensei_Sakuya.cs" />
     <Compile Include="Skill\S_Musoutensei_Satsuki.cs" />
     <Compile Include="Skill\S_Musoutensei_Utuho.cs" />
+    <Compile Include="Skill\S_Musoutensei_Youmu.cs" />
     <Compile Include="SkillExtended\SE_HakureiReimu_2.cs" />
     <Compile Include="SkillExtended\SE_HakureiReimu_C_0.cs" />
     <Compile Include="SkillExtended\SE_HakureiReimu_C_1.cs" />
     <Compile Include="SkillExtended\SE_HakureiReimu_E_2.cs" />
+    <Compile Include="SkillExtended\SE_Musoutensei_Daiyousei_0.cs" />
     <Compile Include="SkillExtended\SE_Musoutensei_Satsuki_0.cs" />
     <Compile Include="SkillExtended\SkillExtended_Reimu.cs" />
   </ItemGroup>

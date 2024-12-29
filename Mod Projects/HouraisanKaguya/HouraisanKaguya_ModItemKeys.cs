@@ -538,6 +538,11 @@ namespace HouraisanKaguya
 		/// </summary>
         public static string Skill_S_FMokou_5 = "S_FMokou_5";
 		/// <summary>
+		/// 不死鸟狂想
+		/// 复活所有队友。使所有队友体力恢复最大生命值的一半。
+		/// </summary>
+        public static string Skill_S_FMokou_Revive = "S_FMokou_Revive";
+		/// <summary>
 		/// 「不朽的弹幕」
 		/// </summary>
         public static string Skill_S_FMokou_Reward = "S_FMokou_Reward";
@@ -561,11 +566,6 @@ namespace HouraisanKaguya
 		/// 不死「徐福时空」
 		/// </summary>
         public static string Skill_S_FMokou_Xufu = "S_FMokou_Xufu";
-		/// <summary>
-		/// 不死鸟狂想
-		/// 复活所有队友。使所有队友体力恢复最大生命值的一半。
-		/// </summary>
-        public static string Skill_S_FMokou_Revive = "S_FMokou_Revive";
 
     }
 

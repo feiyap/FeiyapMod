@@ -1,0 +1,19 @@
+{
+    "SE_S_S_KirisameMarisa_Rare_11": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_KirisameMarisa_9_2",
+            "B_KirisameMarisa_P",
+            "B_KirisameMarisa_P",
+            "B_KirisameMarisa_P",
+            "B_KirisameMarisa_P"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    }
+}

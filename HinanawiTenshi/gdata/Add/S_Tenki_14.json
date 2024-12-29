@@ -1,0 +1,13 @@
+{
+    "S_Tenki_14": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NoDrop": true,
+        "Name": "天气 - 台风",
+        "Effect_Self": "SE_S_S_Tenki_14",
+        "Image_0": "S_Tenki_14\\S_Tenki_14_Image_0.png",
+        "PlusSkillView": "S_Tenki_15"
+    }
+}

@@ -14,7 +14,7 @@
         "Image_2": "S_KirisameMarisa_2\\S_KirisameMarisa_2_Image_2.png",
         "NoDrop": false,
         "PlusSkillView": "S_KirisameMarisa_2_2",
-        "Description": "目标身上每有1种减益（<sprite=0>弱化、<sprite=2>干扰、<sprite=1>痛苦），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的40%)</color>。",
+        "Description": "目标每有1点行动倒计时（最多计算5点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的20%)</color>。",
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_2"
         ]

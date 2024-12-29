@@ -1,0 +1,16 @@
+{
+    "B_Tenki_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "HinanawiTenshi.B_Tenki_1",
+        "BuffTag": "null",
+        "Name": "天气 - 快晴",
+        "Description": "",
+        "Icon": "B_Tenki_1\\B_Tenki_1_Icon.png",
+        "LifeTime": 2,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

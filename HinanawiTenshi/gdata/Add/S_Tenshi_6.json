@@ -1,0 +1,24 @@
+{
+    "S_Tenshi_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Attack",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "地符「一击震乾坤」",
+        "Description": "依据自身持有的增益数量，每个提升10%暴击率。\n\n<color=#97FFFF>天启6</color> - 额外造成&a点伤害<color=#FF7A33>(攻击力的70%)</color>。",
+        "User": "HinanawiTenshi",
+        "UseAp": 3,
+        "IgnoreTaunt": true,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_Tenshi_6",
+        "Image_0": "S_Tenshi_6\\S_Tenshi_6_Image_0.png",
+        "Image_1": "S_Tenshi_6\\S_Tenshi_6_Image_1.png",
+        "Image_2": "S_Tenshi_6\\S_Tenshi_6_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.S_Tenshi_6"
+        ],
+        "Rare": false,
+        "NoDrop": false
+    }
+}

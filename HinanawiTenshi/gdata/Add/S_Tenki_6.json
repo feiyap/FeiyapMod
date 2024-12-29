@@ -1,0 +1,17 @@
+{
+    "S_Tenki_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NoDrop": true,
+        "Name": "天气 - 花云",
+        "Effect_Self": "SE_S_S_Tenki_6",
+        "Image_0": "S_Tenki_6\\S_Tenki_6_Image_0.png",
+        "UseAp": 0,
+        "PlusSkillView": "S_Tenki_7",
+        "NoBasicSkill": false,
+        "Track": false,
+        "Description": ""
+    }
+}

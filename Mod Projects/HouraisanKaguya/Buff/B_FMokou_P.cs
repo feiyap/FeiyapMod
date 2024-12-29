@@ -405,7 +405,7 @@ namespace HouraisanKaguya
             MasterAudio.PlaySound("FMokou-S4", 1f, null, 0f, null, null, false, false);
             newMokou.BuffAdd("B_FMokou_Stage_4", newMokou);
 
-            BattleSystem.instance.Reward.Add(ItemBase.GetItem("Skill_FMokou_Reward"));
+            BattleSystem.instance.Reward.Add(ItemBase.GetItem(new GDESkillData("Skill_FMokou_Reward")));
 
             List<BattleChar> list = new List<BattleChar>();
             Skill skill = Skill.TempSkill("S_FMokou_3", newMokou, newMokou.MyTeam);

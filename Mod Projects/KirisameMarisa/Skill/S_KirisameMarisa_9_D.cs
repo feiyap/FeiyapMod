@@ -18,14 +18,6 @@ namespace KirisameMarisa
 	/// </summary>
     public class S_KirisameMarisa_9_D:Skill_Extended
     {
-        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
-        {
-            base.SkillUseSingle(SkillD, Targets);
 
-            if (Targets[0].BuffFind("B_KirisameMarisa_9_2"))
-            {
-                Targets[0].BuffReturn("B_KirisameMarisa_9_2").SelfDestroy();
-            }
-        }
     }
 }

@@ -1,0 +1,7 @@
+{
+    "SE_T_S_Tenshi_Rare_4": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 1000
+    }
+}

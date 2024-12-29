@@ -1,0 +1,143 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Tenki_10_Description,Text,,,,,手中的稀有技能的费用降低1点。,
+Buff/B_Tenki_10_Name,Text,,,,,天气 - 疏雨,
+Buff/B_Tenki_11_Description,Text,,,,,,
+Buff/B_Tenki_11_Name,Text,,,,,天气 - 风雨,
+Buff/B_Tenki_12_Description,Text,,,,,追加攻击/反击造成的伤害提升33%。,
+Buff/B_Tenki_12_Name,Text,,,,,天气 - 晴岚,
+Buff/B_Tenki_13_Description,Text,,,,,使手中的技能获得“无视嘲讽”。,
+Buff/B_Tenki_13_Name,Text,,,,,天气 - 川雾,
+Buff/B_Tenki_14_Name,Text,,,,,天气 - 台风,
+Buff/B_Tenki_15_Description,Text,,,,,"获得随机天气的面板属性。每次使用技能后改变。
+当前生效的天气为：&a",
+Buff/B_Tenki_15_Name,Text,,,,,天气 - 极光,
+Buff/B_Tenki_16_Description,Text,,,,,回合结束时，治疗10点体力。,
+Buff/B_Tenki_16_Name,Text,,,,,天气 - 凪,
+Buff/B_Tenki_17_Name,Text,,,,,天气 - 钻石尘,
+Buff/B_Tenki_18_Description,Text,,,,,,
+Buff/B_Tenki_18_Name,Text,,,,,天气 - 黄沙,
+Buff/B_Tenki_19_Description,Text,,,,,,
+Buff/B_Tenki_19_Name,Text,,,,,天气 - 烈日,
+Buff/B_Tenki_1_Description,Text,,,,,,
+Buff/B_Tenki_1_Name,Text,,,,,天气 - 快晴,
+Buff/B_Tenki_20_Description,Text,,,,,,
+Buff/B_Tenki_20_Name,Text,,,,,天气 - 梅雨,
+Buff/B_Tenki_2_Description,Text,,,,,,
+Buff/B_Tenki_2_Name,Text,,,,,天气 - 雾雨,
+Buff/B_Tenki_3_Description,Text,,,,,使手中最上方和最下方的技能的伤害量或治疗量提升6点。,
+Buff/B_Tenki_3_Name,Text,,,,,天气 - 云天,
+Buff/B_Tenki_4_Description,Text,,,,,本回合内每使用1个技能，获得“攻击力+1%、暴击率+1%、命中率+1%”。,
+Buff/B_Tenki_4_Name,Text,,,,,天气 - 苍天,
+Buff/B_Tenki_5_Name,Text,,,,,天气 - 雹,
+Buff/B_Tenki_6_Name,Text,,,,,天气 - 花云,
+Buff/B_Tenki_7_Description,Text,,,,,造成伤害的10%治疗自己。,
+Buff/B_Tenki_7_Name,Text,,,,,天气 - 浓雾,
+Buff/B_Tenki_8_Description,Text,,,,,,
+Buff/B_Tenki_8_Name,Text,,,,,天气 - 雪,
+Buff/B_Tenki_9_Description,Text,,,,,使固定技能附带基本功。,
+Buff/B_Tenki_9_Name,Text,,,,,天气 - 太阳雨,
+Buff/B_Tenshi_1_Description,Text,,,,,,
+Buff/B_Tenshi_1_Name,Text,,,,,<color=#97FFFF>气质</color>显现,
+Buff/B_Tenshi_4_Description,Text,,,,,下个回合开始时，展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。,
+Buff/B_Tenshi_4_Name,Text,,,,,气候操纵,
+Buff/B_Tenshi_7_Name,Text,,,,,无念无想,
+Buff/B_Tenshi_8_Description,Text,,,,,,
+Buff/B_Tenshi_8_Name,Text,,,,,气焰万丈,
+Buff/B_Tenshi_LucyD_Description,Text,,,,,获得增益时抽取1个技能（最多触发4次）。,
+Buff/B_Tenshi_LucyD_Name,Text,,,,,勇气凛凛,
+Buff/B_Tenshi_P_Description,Text,,,,,当前拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>：&a,
+Buff/B_Tenshi_P_Name,Text,,,,,天人之体,
+Buff/B_Tenshi_Rare_3_1_Description,Text,,,,,每个回合开始时，为所有友军施加随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。,
+Buff/B_Tenshi_Rare_3_1_Name,Text,,,,,绯想天,
+Buff/B_Tenshi_Rare_3_Description,Text,,,,,手中的技能附加迅速。,
+Buff/B_Tenshi_Rare_3_Name,Text,,,,,天气 - 绯想天,
+Character/HinanawiTenshi_CampSelectWord,Text,,,,,吾乃天！幻想之天！,
+Character/HinanawiTenshi_PassiveDes,Text,,,,,"<b>幼小的有顶天</b> - 当自己身上没有减益效果时，造成的伤害提升10%。
+
+<b>操纵大地程度的能力</b> - 自身被施加增益效果时，比那名居天子会获得1点<color=#97FFFF><color=#97FFFF>气质</color></color>。
+
+<b>天人之姿</b> - 受到的伤害降低1点。
+
+<b><color=#97FFFF>天启X</color></b> - 比那名居天子身上拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>超过X点时，释放技能会消耗X点<color=#97FFFF><color=#97FFFF>气质</color></color>，触发额外效果。
+
+<b><color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>权</color><color=#FFD700>能</color></b> - 比那名居天子仍然在修行之中，尚未解放真正的力量……",
+Character/HinanawiTenshi_PassiveName,Text,,,,,非想非非想天之女,
+Character/HinanawiTenshi_SelectInfo,Text,,,,,"比那名居天子是擅长调度增益的辅助型输出。
+
+比那名居天子拥有控制天气的能力，藉由施展技能，能够改变局部的天气，为自己和队友带来各种各样的增益效果。而在暖场结束后，比那名居天子可以释放全部的天气之力，带来毁灭性的攻击。
+
+天人一剑，大地震颤。以此<color=#97FFFF>气质</color>，<color=#B22222>绯</color><color=#00BFFF>想</color><color=#00FF7F>开</color><color=#FFD700>天</color>！",
+Character/HinanawiTenshi_name,Text,,,,,比那名居天子,
+Item_Equip/E_Tenshi_0_Description,Text,,,,,回合开始时，获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。,
+Item_Equip/E_Tenshi_0_name,Text,,,,,绯想之剑,
+Skill/S_Tenki_10_Name,Text,,,,,天气 - 疏雨,
+Skill/S_Tenki_11_Description,Text,,,,,,
+Skill/S_Tenki_11_Name,Text,,,,,天气 - 风雨,
+Skill/S_Tenki_12_Name,Text,,,,,天气 - 晴岚,
+Skill/S_Tenki_13_Name,Text,,,,,天气 - 川雾,
+Skill/S_Tenki_14_Name,Text,,,,,天气 - 台风,
+Skill/S_Tenki_15_Name,Text,,,,,天气 - 极光,
+Skill/S_Tenki_16_Description,Text,,,,,,
+Skill/S_Tenki_16_Name,Text,,,,,天气 - 凪,
+Skill/S_Tenki_17_Name,Text,,,,,天气 - 钻石尘,
+Skill/S_Tenki_18_Name,Text,,,,,天气 - 黄沙,
+Skill/S_Tenki_19_Name,Text,,,,,天气 - 烈日,
+Skill/S_Tenki_1_Name,Text,,,,,天气 - 快晴,
+Skill/S_Tenki_20_Name,Text,,,,,天气 - 梅雨,
+Skill/S_Tenki_2_Name,Text,,,,,天气 - 雾雨,
+Skill/S_Tenki_3_Name,Text,,,,,天气 - 云天,
+Skill/S_Tenki_4_Name,Text,,,,,天气 - 苍天,
+Skill/S_Tenki_5_Name,Text,,,,,天气 - 雹,
+Skill/S_Tenki_6_Name,Text,,,,,天气 - 花云,
+Skill/S_Tenki_7_Name,Text,,,,,天气 - 浓雾,
+Skill/S_Tenki_8_Name,Text,,,,,天气 - 雪,
+Skill/S_Tenki_9_Name,Text,,,,,天气 - 太阳雨,
+Skill/S_Tenshi_0_Description,Text,,,,,"自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+
+<color=#97FFFF>天启8</color> - 使所有队友获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。获得那个数量的<color=#97FFFF>气质</color>。",
+Skill/S_Tenshi_0_Name,Text,,,,,天符「天道是非之剑」,
+Skill/S_Tenshi_1_Description,Text,,,,,"如果自己身上有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，消耗1个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，使目标获得“受到伤害量+15%”，持续3回合。
+
+<color=#97FFFF>天启5</color> - 重复释放1次。",
+Skill/S_Tenshi_1_Name,Text,,,,,地符「不让土壤之剑」,
+Skill/S_Tenshi_2_Description,Text,,,,,"消耗自身所有<color=#97FFFF>气质</color>。每点消耗的<color=#97FFFF>气质</color>使这个技能造成的伤害提升1.1倍。
+当前提升的倍数为：&a
+当前造成的伤害为：&b",
+Skill/S_Tenshi_2_Name,Text,,,,,非想「非想非非想之剑」,
+Skill/S_Tenshi_3_Description,Text,,,,,"同时对目标左右的单位释放，造成一半的伤害。
+命中时，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+
+<color=#97FFFF>天启7</color> - 如果场上的敌人数量大于1，改为指向“所有敌人”。",
+Skill/S_Tenshi_3_Name,Text,,,,,天气「绯想天促」,
+Skill/S_Tenshi_4_Description,Text,,,,,"展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。
+
+<color=#97FFFF>天启4</color> - 下个回合开始时，展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。",
+Skill/S_Tenshi_4_Name,Text,,,,,气符「天启气象之剑」,
+Skill/S_Tenshi_5_Description,Text,,,,,"施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+如果自己身上有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，消耗1个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+
+<color=#97FFFF>天启1</color> - 额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+Skill/S_Tenshi_5_Name,Text,,,,,要石「天空之灵石」,
+Skill/S_Tenshi_6_Description,Text,,,,,"依据自身持有的增益数量，每个提升10%暴击率。
+
+<color=#97FFFF>天启6</color> - 额外造成&a点伤害<color=#FF7A33>(攻击力的70%)</color>。",
+Skill/S_Tenshi_6_Name,Text,,,,,地符「一击震乾坤」,
+Skill/S_Tenshi_7_Description,Text,,,,,"依据自身持有的增益数量，获得那个数量的<color=#97FFFF>气质</color>。
+
+<color=#97FFFF>天启3</color> - 解除自己持有的痛苦、弱化减益。",
+Skill/S_Tenshi_7_Name,Text,,,,,气符「无念无想的境界」,
+Skill/S_Tenshi_8_Description,Text,,,,,<color=#97FFFF>天启2</color> - 将自己持有的所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>施加给其他队友。获得那个数量的<color=#97FFFF>气质</color>。,
+Skill/S_Tenshi_8_Name,Text,,,,,剑技「气焰万丈之剑」,
+Skill/S_Tenshi_LucyD_Name,Text,,,,,气性「勇气凛凛之剑」,
+Skill/S_Tenshi_Rare_1_Description,Text,,,,,"消耗所有<color=#97FFFF>气质</color>，每点消耗的<color=#97FFFF>气质</color>使这个技能向随机敌人重复释放 1 次。
+每次释放，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+Skill/S_Tenshi_Rare_1_Name,Text,,,,,「全人类的绯想天」,
+Skill/S_Tenshi_Rare_2_Description,Text,,,,,"释放时，(150%干扰)眩晕目标。
+
+<color=#97FFFF>天启9</color> - 改为眩晕所有敌人。",
+Skill/S_Tenshi_Rare_2_Name,Text,,,,,地震「先忧后乐之剑」,
+Skill/S_Tenshi_Rare_3_Description,Text,,,,,战斗开始时，放在牌库最上方。,
+Skill/S_Tenshi_Rare_3_Name,Text,,,,,天地「俯瞰世界的遥远的大地啊」,
+SkillExtended/SE_Tenki_3_Name,Text,,,,,云天,
+SkillExtended/SE_Tenshi_Rare_3_Name,Text,,,,,绯想天,
+SkillExtended/SkillBase_Tenshi_Name,Text,,,,,天子基类,

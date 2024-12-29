@@ -2,7 +2,10 @@
     "TestQueue": {
         "_gdeSchema": "EnemyQueue",
         "Enemys": [
-            "TrialofStrength_Enemy"
+            "TrialofStrength_Enemy",
+            "S1_Pharos_Mage",
+            "S1_Pharos_Mage",
+            "S1_Pharos_Mage"
         ]
     }
 }

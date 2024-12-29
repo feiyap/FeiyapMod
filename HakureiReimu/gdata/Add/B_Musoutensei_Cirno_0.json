@@ -1,0 +1,15 @@
+{
+    "B_Musoutensei_Cirno_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "HakureiReimu.B_Musoutensei_Cirno_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "完美冻结巫女",
+        "Description": "自身可以在冻结状态下行动，造成伤害时额外施加1层[冻伤]。",
+        "Icon": "B_Musoutensei_Cirno_0\\B_Musoutensei_Cirno_0_Icon.png"
+    }
+}

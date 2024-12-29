@@ -7,7 +7,7 @@
         "face": "KirisameMarisa\\KirisameMarisaBattleFace.png",
         "name": "雾雨魔理沙",
         "Gender": 1,
-        "SelectInfo": "屁股很大的魔法使。",
+        "SelectInfo": "雾雨魔理沙是极致进攻化的超级攻击手。\n\n雾雨魔理沙通过使用技能来改变自身的速度，能够自在地在高速和低速两种模式中进行战斗。在高速模式下，雾雨魔理沙拥有较高的闪避能力，但也会承受更高的伤害，需要在敌人行动之前尽快解决敌人；在低速模式下，雾雨魔理沙能宛如固定炮台一般，以恐怖的火力将敌人歼灭。\n\n为了尽可能地发挥魔理沙的能力，请仔细挑选成长的路线、进攻的手段以及能够产生搭配的队友吧。",
         "MAXHP": {
             "x": 25,
             "y": 45
@@ -76,9 +76,24 @@
             "KirisameMarisa\\KirisameMarisaCampSD2.png",
             "KirisameMarisa\\KirisameMarisaCampSD3.png"
         ],
+        "GoodGift": [
+            "Drink_Sa",
+            "Gift_DVD",
+            "Gift_Gun",
+            "Gift_Mugwort"
+        ],
+        "CanFriendShip": true,
+        "_gdeType_GoodGift": "Item_Friendship",
+        "_gdeIsList_GoodGift": 1,
+        "_gdeType_Dialogue_GoodGiftTalks": "String",
+        "_gdeIsList_Dialogue_GoodGiftTalks": 1,
+        "_gdeType_Dialogue_NomalGiftTalk": "String",
+        "_gdeIsList_Dialogue_NomalGiftTalk": 0,
+        "Dialogue_FriendShipLVTalks": [
+            
+        ],
         "Text_Field_GetItem": [
             "在空无一人的房子里搜宝物是基本中的基本哦。",
-            "在有NPC的房子里搜宝物也是基本中的基本。",
             "在有NPC的房子里搜宝物也是基本中的基本。"
         ],
         "Text_Field_Idle": [
@@ -97,6 +112,26 @@
             "区区诅咒，对本魔理沙大人来说不算什么啦！",
             "回去以后一定要找灵梦给我驱驱邪……"
         ],
-        "Text_MasterTarget": "回去告诉大家，英勇的魔理沙已经和管理员同归于尽了！"
+        "Text_MasterTarget": "回去告诉大家，英勇的魔理沙已经和管理员同归于尽了！",
+        "StatView_Dot": 1,
+        "Text_Battle_ND": [
+            "呜……好痛啊……"
+        ],
+        "Text_Battle_Healed": [
+            "呼啊，谢谢你！"
+        ],
+        "Text_Battle_Kill": [
+            "GET DA☆ZE！"
+        ],
+        "Text_Battle_Idle": [
+            "在制定战术方案吗？",
+            "看啊！你头顶的星星在闪耀着！"
+        ],
+        "Text_Battle_Start": [
+            "我的魔炮已经饥渴难耐了！",
+            "八卦炉，全功率启动！"
+        ],
+        "FirstSkill": "S_KirisameMarisa_0",
+        "CampSelectWord": "呀嚯！我是雾雨魔理沙，是解决疑难杂症的专家！"
     }
 }

@@ -2,8 +2,8 @@
     "B_KirisameMarisa_0": {
         "_gdeSchema": "Buff",
         "ClassName": "KirisameMarisa.B_KirisameMarisa_0",
-        "BuffTag": "Debuff",
-        "Name": "危险激荡",
+        "BuffTag": "null",
+        "Name": "危险星空",
         "Description": "",
         "Icon": "B_KirisameMarisa_0\\B_KirisameMarisa_0_Icon.png",
         "MaxStack": 4,
@@ -13,7 +13,7 @@
         "Cantdisable": false,
         "UseSkillDebuff": false,
         "Caution": false,
-        "Debuff": true,
-        "TagPer": 110
+        "Debuff": false,
+        "TagPer": 0
     }
 }

@@ -12,7 +12,7 @@
         "Image_0": "S_KirisameMarisa_2_4\\S_KirisameMarisa_2_4_Image_0.png",
         "Image_1": "S_KirisameMarisa_2_4\\S_KirisameMarisa_2_4_Image_1.png",
         "Image_2": "S_KirisameMarisa_2_4\\S_KirisameMarisa_2_4_Image_2.png",
-        "Description": "<color=#00BFFF>危险等级4</color> - 目标身上每有1种减益（<sprite=0>弱化、<sprite=2>干扰、<sprite=1>痛苦），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的40%)</color>。\n使自身过载层数减少 2 层。",
+        "Description": "<color=#00BFFF>危险等级4</color> - 目标每有1点行动倒计时（最多计算9点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的30%)</color>。",
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_2_4"
         ]

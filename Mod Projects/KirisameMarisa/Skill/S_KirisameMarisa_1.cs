@@ -23,41 +23,31 @@ namespace KirisameMarisa
         public override void Init()
         {
             base.Init();
-            this.OnePassive = true;
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_10_Ex).Particle_Path;
         }
-
-        public override void FixedUpdate()
-        {
-            base.FixedUpdate();
-            Fixed_count++;
-
-            if (Fixed_count >= 12)
-            {
-                Fixed_count = 0;
-
-                int count = 0;
-                foreach (Buff buffs in this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.BUFF, false, false))
-                {
-                    count += buffs.StackNum;
-                }
-                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.1f) * count;
-            }
-        }
-
-        public override string DescExtended(string desc)
-        {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.1f)).ToString());
-        }
-
+        
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            int count = 0;
-            foreach (Buff buffs in this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.BUFF, false, false))
+            if (BattleSystem.instance.BattleLogs.getSkills((BattleLog log) => log.Targets.Any((BattleChar t) => t == this.BChar), (Skill skill) => skill.IsDamage, BattleSystem.instance.TurnNum).Count == 0)
             {
-                count += buffs.StackNum;
+                this.PlusSkillStat.cri = 100f;
+                return;
             }
-            this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.1f) * count;
+            this.PlusSkillStat.cri = 0f;
+        }
+        
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            if (BattleSystem.instance.BattleLogs.getSkills((BattleLog log) => log.Targets.Any((BattleChar t) => t == this.BChar), (Skill skill) => skill.IsDamage, BattleSystem.instance.TurnNum).Count == 0)
+            {
+                this.PlusSkillStat.cri = 100f;
+                base.SkillParticleOn();
+                return;
+            }
+            this.PlusSkillStat.cri = 0f;
+            base.SkillParticleOff();
         }
     }
 }

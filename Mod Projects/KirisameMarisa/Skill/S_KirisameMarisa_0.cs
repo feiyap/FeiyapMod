@@ -21,6 +21,11 @@ namespace KirisameMarisa
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
+            if (this.MySkill.isExcept == true && this.MySkill.AutoDelete == 1)
+            {
+                return;
+            }
+
             Skill tmpSkill = Skill.TempSkill("S_KirisameMarisa_0", this.BChar, this.BChar.MyTeam);
             tmpSkill.isExcept = true;
             tmpSkill.AutoDelete = 1;

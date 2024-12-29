@@ -1,0 +1,23 @@
+{
+    "S_Tenshi_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/IronHeart/IronHeart_new_2",
+        "Target": "enemy",
+        "Track": true,
+        "Name": "非想「非想非非想之剑」",
+        "User": "HinanawiTenshi",
+        "Description": "消耗自身所有<color=#97FFFF>气质</color>。每点消耗的<color=#97FFFF>气质</color>使这个技能造成的伤害提升1.1倍。\n当前提升的倍数为：&a\n当前造成的伤害为：&b",
+        "UseAp": 3,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_Tenshi_2",
+        "Image_0": "S_Tenshi_2\\S_Tenshi_2_Image_0.png",
+        "Image_1": "S_Tenshi_2\\S_Tenshi_2_Image_1.png",
+        "Image_2": "S_Tenshi_2\\S_Tenshi_2_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.S_Tenshi_2"
+        ],
+        "NotCount": false,
+        "IgnoreTaunt": false
+    }
+}

@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\obj\Debug\HinanawiTenshi.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\obj\Debug\HinanawiTenshi.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\obj\Debug\HinanawiTenshi.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\Debug\HinanawiTenshi20241228115304.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\Debug\HinanawiTenshi20241228115304.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\obj\Debug\HinanawiTenshi20241228115304.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\obj\Debug\HinanawiTenshi20241228115304.pdb

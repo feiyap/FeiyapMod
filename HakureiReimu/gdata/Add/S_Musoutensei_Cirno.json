@@ -1,0 +1,21 @@
+{
+    "S_Musoutensei_Cirno": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "NotCount": true,
+        "Disposable": false,
+        "NoDrop": false,
+        "Name": "梦符「Perfect Shrine Maiden」",
+        "Description": "<color=#FFD700>*「梦想天生」+冻符「Perfect Freeze」*</color>",
+        "Effect_Self": "SE_S_S_Musoutensei_Cirno",
+        "Image_0": "S_Musoutensei_Cirno\\S_Musoutensei_Cirno_Image_0.png",
+        "Image_1": "S_Musoutensei_Cirno\\S_Musoutensei_Cirno_Image_1.png",
+        "Image_2": "S_Musoutensei_Cirno\\S_Musoutensei_Cirno_Image_2.png",
+        "SkillExtended": [
+            "HakureiReimu.S_Musoutensei_Cirno"
+        ]
+    }
+}

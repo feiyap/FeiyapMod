@@ -1,0 +1,13 @@
+{
+    "B_Musoutensei_Daiyousei_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "HakureiReimu.B_Musoutensei_Daiyousei_1",
+        "BuffTag": "null",
+        "Name": "赤色杀人魔！",
+        "Icon": "B_Musoutensei_Daiyousei_1\\B_Musoutensei_Daiyousei_1_Icon.png",
+        "Description": "受到治疗后，下一次出手的技能的伤害增加10%。",
+        "LifeTime": 0,
+        "MaxStack": 0
+    }
+}

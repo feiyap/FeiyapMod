@@ -1,0 +1,10 @@
+{
+    "S_Musoutensei_Youmu_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_1_NewAni",
+        "Target": "enemy",
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Musoutensei_Youmu_2"
+    }
+}

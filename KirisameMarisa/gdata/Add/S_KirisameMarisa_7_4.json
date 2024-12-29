@@ -2,23 +2,24 @@
     "S_KirisameMarisa_7_4": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/Public/Public_4",
-        "Target": "enemy",
+        "Particle": "Particle/Buff",
+        "Target": "self",
         "NotCount": true,
         "Disposable": false,
         "Name": "魔十字「Grand Cross」",
-        "Description": "<color=#00BFFF>危险等级4</color> - 无视嘲讽。",
-        "UseAp": 2,
+        "Description": "如果自身已经拥有[危险空间]，则解除[危险空间]，抽取1个技能并恢复1点法力值。\n\n<color=#00BFFF>危险等级4</color> - 确认弃牌库中自己的技能，选择 1 个加入手中。",
+        "UseAp": 0,
         "NoDrop": true,
         "Image_0": "S_KirisameMarisa_7_4\\S_KirisameMarisa_7_4_Image_0.png",
         "Image_1": "S_KirisameMarisa_7_4\\S_KirisameMarisa_7_4_Image_1.png",
         "Image_2": "S_KirisameMarisa_7_4\\S_KirisameMarisa_7_4_Image_2.png",
         "Rare": false,
-        "NoBasicSkill": true,
+        "NoBasicSkill": false,
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_7_4"
         ],
-        "IgnoreTaunt": true,
-        "Effect_Target": "SE_T_S_KirisameMarisa_7_4"
+        "IgnoreTaunt": false,
+        "Effect_Target": "null",
+        "Effect_Self": "SE_S_S_KirisameMarisa_7_4"
     }
 }

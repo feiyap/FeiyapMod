@@ -1,7 +1,7 @@
 {
     "RE_HakureiReimu_0": {
         "_gdeSchema": "RandomEvent",
-        "Script": "",
+        "Script": "HakureiReimu.RE_HakureiReimu_0",
         "RareEvent": true,
         "SpecialAppearance": false,
         "ItemSlotView": false,
@@ -10,15 +10,15 @@
         "MainImage_2Stage": "RE_HakureiReimu_0\\RE_HakureiReimu_0MainImage_2Stage.png",
         "MainImage_3Stage": "RE_HakureiReimu_0\\RE_HakureiReimu_0MainImage_3Stage.png",
         "UseButton": [
-            "塞钱400金币。",
-            "塞钱800金币。",
-            "塞钱1200金币。"
+            "塞钱250金币。",
+            "塞钱500金币。",
+            "塞钱1000金币。"
         ],
         "UseButtonTooltip": [
             "所有队友恢复50%体力。",
-            "下1场战斗开始时所有敌人失去10%最大体力值。",
-            "永久提升1个调查员1攻击力和治疗力。"
+            "当前区域内每回合抽取的技能数量+1。",
+            "永久提升1个调查员1点攻击力和治疗力。"
         ],
-        "Desc": ""
+        "Desc": "你们在扭曲之地发现了一个赛钱箱。似乎往里投入金钱就有好运庇佑的样子。"
     }
 }

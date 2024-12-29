@@ -151,9 +151,14 @@ namespace HakureiReimu
         public static string Buff_B_Musoutensei_Satsuki_0 = "B_Musoutensei_Satsuki_0";
 		/// <summary>
 		/// 天人合一
-		/// 受到伤害降低为0。并且，每次受到伤害时，3回合内攻击力增加10%。
+		/// 受到敌人的攻击时，博丽灵梦和魂魄妖梦轮流对目标造成&a点伤害<color=#FF7A33>(攻击力的200%)</color>和&b伤害<color=#FF7A33>(攻击力的200%)</color>，并解除目标所有增益。那之后，解除该增益。
 		/// </summary>
         public static string Buff_B_Musoutensei_Youmu_0 = "B_Musoutensei_Youmu_0";
+		/// <summary>
+		/// 赛钱神力
+		/// 每回合抽取的技能数量+1。
+		/// </summary>
+        public static string Buff_B_RE_HakureiReimu_0 = "B_RE_HakureiReimu_0";
 		/// <summary>
 		/// 博丽符札
 		/// 战斗开始时，使自身攻击力提升2点。
@@ -178,6 +183,7 @@ namespace HakureiReimu
 		/// </summary>
         public static string Character_HakureiReimu = "HakureiReimu";
         public static string Character_Skin_HakureiReimuEclipse = "HakureiReimuEclipse";
+        public static string Character_Skin_HakureiReimuXmas = "HakureiReimuXmas";
         public static string Character_Skin_HakureiReimuYukkuri = "HakureiReimuYukkuri";
         public static string SimpleCampDialogue_CampDial_HakureiReimu_Hein = "CampDial_HakureiReimu_Hein";
         public static string SimpleCampDialogue_CampDial_HakureiReimu_Joey = "CampDial_HakureiReimu_Joey";
@@ -214,6 +220,13 @@ namespace HakureiReimu
         public static string SimpleCampDialogue_CampDial_HakureiReimu_Daiyousei = "CampDial_HakureiReimu_Daiyousei";
         public static string SimpleCampDialogue_CampDial_HakureiReimu_KochiyaSanae = "CampDial_HakureiReimu_KochiyaSanae";
         public static string SimpleCampDialogue_CampDial_HakureiReimu_Kasen = "CampDial_HakureiReimu_Kasen";
+		/// <summary>
+		/// 赛钱箱
+		/// 你们在扭曲之地发现了一个赛钱箱。似乎往里投入金钱就有好运庇佑的样子。
+		/// Button
+		/// ButtonToolTip
+		/// </summary>
+        public static string RandomEvent_RE_HakureiReimu_0 = "RE_HakureiReimu_0";
 		/// <summary>
 		/// 红白巫女的蝴蝶结
 		/// 战斗开始时，使所有调查员受到的第一次伤害减少75%。
@@ -554,21 +567,65 @@ namespace HakureiReimu
         public static string Skill_S_Musoutensei_Utuho = "S_Musoutensei_Utuho";
 		/// <summary>
 		/// 魂灵符「一念成佛丶一念逍遥」
+		/// <color=#FFD700>*「梦想天生」+炯眼剑*</color>
 		/// </summary>
         public static string Skill_S_Musoutensei_Youmu = "S_Musoutensei_Youmu";
         public static string UnlockWindow_Unlock_HakureiReimu = "Unlock_HakureiReimu";
 		/// <summary>
-		/// 赛钱箱
-		/// Button
-		/// 塞钱400金币。
-		/// 塞钱800金币。
-		/// 塞钱1200金币。
-		/// ButtonToolTip
-		/// 所有队友恢复50%体力。
-		/// 下1场战斗开始时所有敌人失去10%最大体力值。
-		/// 永久提升1个调查员1攻击力和治疗力。
+		/// 梦符「Perfect Shrine Maiden」
+		/// <color=#FFD700>*「梦想天生」+冻符「Perfect Freeze」*</color>
 		/// </summary>
-        public static string RandomEvent_RE_HakureiReimu_0 = "RE_HakureiReimu_0";
+        public static string Skill_S_Musoutensei_Cirno = "S_Musoutensei_Cirno";
+        public static string SkillEffect_SE_S_S_Musoutensei_Cirno = "SE_S_S_Musoutensei_Cirno";
+		/// <summary>
+		/// 完美冻结巫女
+		/// 自身可以在冻结状态下行动，造成伤害时额外施加1层[冻伤]。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Cirno_0 = "B_Musoutensei_Cirno_0";
+		/// <summary>
+		/// 结界「赤色的领域」
+		/// <color=#FFD700>*「梦想天生」+妖符「妖精的领域」*</color>
+		/// </summary>
+        public static string Skill_S_Musoutensei_Daiyousei = "S_Musoutensei_Daiyousei";
+        public static string SkillEffect_SE_T_S_Musoutensei_Daiyousei = "SE_T_S_Musoutensei_Daiyousei";
+        public static string SkillEffect_SE_S_S_Musoutensei_Daiyousei = "SE_S_S_Musoutensei_Daiyousei";
+		/// <summary>
+		/// 立秋「处处闻啼鸟」
+		/// <color=#FFD700>*「梦想天生」+秋告「无人知晓的告秋精」*</color>
+		/// </summary>
+        public static string Skill_S_Musoutensei_Lilyblack = "S_Musoutensei_Lilyblack";
+        public static string SkillEffect_SE_S_S_Musoutensei_Lilyblack = "SE_S_S_Musoutensei_Lilyblack";
+		/// <summary>
+		/// 凋叶棕
+		/// 自身每次获得增益时，莉莉黑会对随机敌人发动一次&a伤害的追加攻击<color=#FF7A33>(攻击力的33%)</color>。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Lilyblack_0 = "B_Musoutensei_Lilyblack_0";
+		/// <summary>
+		/// 幻想乡的守护者
+		/// 受到伤害时，&user发起一次&a伤害的反击<color=#FF7A33>(攻击力的50%)</color>。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Daiyousei_0 = "B_Musoutensei_Daiyousei_0";
+		/// <summary>
+		/// 赤色杀人魔！
+		/// 受到治疗后，下一次出手的技能的伤害增加10%。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Daiyousei_1 = "B_Musoutensei_Daiyousei_1";
+		/// <summary>
+		/// 赤色杀人魔！
+		/// 伤害增加&a%。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Daiyousei_2 = "B_Musoutensei_Daiyousei_2";
+		/// <summary>
+		/// 赤色杀人魔！
+		/// 伤害增加&a%。
+		/// </summary>
+        public static string SkillExtended_SE_Musoutensei_Daiyousei_0 = "SE_Musoutensei_Daiyousei_0";
+        public static string Skill_S_Musoutensei_Lilyblack_1 = "S_Musoutensei_Lilyblack_1";
+        public static string SkillEffect_SE_T_S_Musoutensei_Lilyblack_1 = "SE_T_S_Musoutensei_Lilyblack_1";
+        public static string Skill_S_Musoutensei_Youmu_1 = "S_Musoutensei_Youmu_1";
+        public static string SkillEffect_SE_T_S_Musoutensei_Youmu_1 = "SE_T_S_Musoutensei_Youmu_1";
+        public static string Skill_S_Musoutensei_Youmu_2 = "S_Musoutensei_Youmu_2";
+        public static string SkillEffect_SE_T_S_Musoutensei_Youmu_2 = "SE_T_S_Musoutensei_Youmu_2";
 
     }
 
@@ -598,6 +655,15 @@ namespace HakureiReimu
 		/// Chinese-TW:
 		/// </summary>
         public static string BattleDiaMusoutenseiText2 => ModManager.getModInfo("HakureiReimu").localizationInfo.SystemLocalizationUpdate("BattleDia/Musoutensei/Text2");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 这个增益已经获得过了……
+		/// Chinese-TW:
+		/// </summary>
+        public static string EventBuyed => ModManager.getModInfo("HakureiReimu").localizationInfo.SystemLocalizationUpdate("Event/Buyed");
 
     }
 }

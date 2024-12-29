@@ -1,13 +1,13 @@
 {
     "B_KirisameMarisa_7": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
-        "BuffTag": "CrowdControl",
+        "ClassName": "KirisameMarisa.B_KirisameMarisa_7",
+        "BuffTag": "null",
         "Icon": "Image/Buff/Skill_Icon_Pack/red/red_01",
-        "Name": "危险冲击",
-        "Description": "无法指定其他角色。",
-        "LifeTime": 4,
-        "Debuff": true,
-        "TagPer": 135
+        "Name": "危险空间",
+        "Description": "手中的技能无视嘲讽。\n根据当前的攻击力，获得防御力。\n进入濒死状态时解除。",
+        "LifeTime": 0,
+        "Debuff": false,
+        "TagPer": 0
     }
 }

@@ -1,0 +1,16 @@
+{
+    "B_Tenshi_8": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenshi_8",
+        "BuffTag": "null",
+        "Name": "气焰万丈",
+        "Icon": "B_Tenshi_8\\B_Tenshi_8_Icon.png",
+        "Description": "",
+        "LifeTime": 2,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

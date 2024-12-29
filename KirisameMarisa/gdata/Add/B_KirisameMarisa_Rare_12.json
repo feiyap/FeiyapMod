@@ -7,6 +7,6 @@
         "Description": "使用技能时减少一层，造成额外&a点伤害<color=#FF7A33>(攻击力的100%)</color>。",
         "Icon": "B_KirisameMarisa_Rare_12\\B_KirisameMarisa_Rare_12_Icon.png",
         "LifeTime": 4,
-        "MaxStack": 3
+        "MaxStack": 6
     }
 }

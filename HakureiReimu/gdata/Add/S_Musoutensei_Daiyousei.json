@@ -1,0 +1,22 @@
+{
+    "S_Musoutensei_Daiyousei": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "Name": "结界「赤色的领域」",
+        "Description": "<color=#FFD700>*「梦想天生」+妖符「妖精的领域」*</color>",
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Musoutensei_Daiyousei",
+        "Effect_Self": "SE_S_S_Musoutensei_Daiyousei",
+        "Image_0": "S_Musoutensei_Daiyousei\\S_Musoutensei_Daiyousei_Image_0.png",
+        "Image_1": "S_Musoutensei_Daiyousei\\S_Musoutensei_Daiyousei_Image_1.png",
+        "Image_2": "S_Musoutensei_Daiyousei\\S_Musoutensei_Daiyousei_Image_2.png",
+        "SkillExtended": [
+            "HakureiReimu.S_Musoutensei_Daiyousei"
+        ],
+        "Disposable": false
+    }
+}

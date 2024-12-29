@@ -1,0 +1,23 @@
+{
+    "S_Tenshi_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all_ally",
+        "NotCount": true,
+        "Name": "剑技「气焰万丈之剑」",
+        "UseAp": 2,
+        "User": "HinanawiTenshi",
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_Tenshi_8",
+        "Effect_Self": "null",
+        "Image_0": "S_Tenshi_8\\S_Tenshi_8_Image_0.png",
+        "Image_1": "S_Tenshi_8\\S_Tenshi_8_Image_1.png",
+        "Image_2": "S_Tenshi_8\\S_Tenshi_8_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.S_Tenshi_8"
+        ],
+        "IgnoreTaunt": false,
+        "Description": "<color=#97FFFF>天启2</color> - 将自己持有的所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>施加给其他队友。获得那个数量的<color=#97FFFF>气质</color>。"
+    }
+}

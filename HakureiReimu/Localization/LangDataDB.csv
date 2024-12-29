@@ -461,7 +461,7 @@ All attack skills in hand and in deck gain +50% damage.","<color=#FFD700>*「夢
 使所有手中和牌库中的攻击技能获得造成伤害+50%。","<color=#FFD700>*「夢想天生」+「那無法成為幻想的某物」*</color>
 使所有手中和牌庫裡的攻擊技能都獲得「造成的傷害增加50%」。"
 Skill/S_Musoutensei_Satsuki_Name,Text,,홍루「원초의 하나」,Scarlet Tower「The Primordial One」,紅楼「原初之一」,红楼「原初之一」,紅楼「原初之一」
-Skill/S_Musoutensei_Youmu_Description,Text,,레이무와 요우무는 「천인합일」 버프를 획득한다,Reimu and Youmu gain [Unity of Heaven and Man].,博麗霊夢と魂魄妖夢は[天人合一]を得る。,灵梦和妖梦获得[天人合一]。,靈夢和妖夢獲得「天人合一」。
+Skill/S_Musoutensei_Youmu_Description,Text,,,,,,
 Skill/S_Musoutensei_Youmu_Name,Text,,"혼령부「일념성불, 일념자유」","Soul Spirit Sign ""One Thought of Becoming Buddha, One Thought of Freedom""",魂霊符「一念成仏、一念自由」,魂灵符「一念成佛丶一念逍遥」,魂靈符「一念成佛丶一念逍遙」
 SkillExtended/SE_HakureiReimu_2_Name,Text,,피해가 50% 증가하고 방어력을 무시한다,Damage dealt +50% and ignores defense.,ダメージが50%増加し、防御力を無視する。,造成的伤害+50%并且无视防御。,無視目標防禦力，造成的傷害增加50%。
 SkillExtended/SE_HakureiReimu_C_0_EnforceString,Text,,단일 대상 치유 스킬,Single-target healing skill.,単体を対象とする回復スキル,指向单体的治疗技能,指向單體的治療技能

@@ -19,20 +19,6 @@ namespace KirisameMarisa
 	/// </summary>
     public class S_KirisameMarisa_8_2: S_KirisameMarisa_8
     {
-        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
-        {
-            List<Buff> list = new List<Buff>();
-            foreach (Buff buff in this.BChar.Buffs)
-            {
-                if (buff.BuffData.Debuff && !buff.BuffData.Cantdisable && !buff.BuffData.Hide && !buff.DestroyBuff)
-                {
-                    list.Add(buff);
-                }
-            }
-            if (list.Count != 0)
-            {
-                this.BChar.BuffRemove(list.Random(this.BChar.GetRandomClass().Main).BuffData.Key, false);
-            }
-        }
+
     }
 }

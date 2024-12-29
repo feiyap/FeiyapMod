@@ -1,0 +1,20 @@
+{
+    "S_Tenshi_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": true,
+        "Disposable": false,
+        "Name": "气性「勇气凛凛之剑」",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "HinanawiTenshi",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Tenshi_LucyD",
+        "Image_0": "S_Tenshi_LucyD\\S_Tenshi_LucyD_Image_0.png",
+        "Image_1": "S_Tenshi_LucyD\\S_Tenshi_LucyD_Image_1.png",
+        "Image_2": "S_Tenshi_LucyD\\S_Tenshi_LucyD_Image_2.png",
+        "Rare": false,
+        "NoBasicSkill": false
+    }
+}

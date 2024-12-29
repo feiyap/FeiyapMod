@@ -1,0 +1,16 @@
+{
+    "B_Tenshi_7": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HinanawiTenshi.B_Tenshi_7",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "无念无想",
+        "MaxStack": 0,
+        "LifeTime": 1,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (19)"
+    }
+}

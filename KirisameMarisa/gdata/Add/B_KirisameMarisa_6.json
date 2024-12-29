@@ -9,6 +9,11 @@
         "Debuff": true,
         "TagPer": 150,
         "MaxStack": 2,
-        "LifeTime": 0
+        "LifeTime": 0,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

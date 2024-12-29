@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>KirisameMarisa202412331400</AssemblyName>
+    <AssemblyName>KirisameMarisa20241229223937</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -435,7 +435,7 @@
     </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                        <!-- Compile ItemGroup Start-->
+                                                                                                      <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="KirisameMarisa_ModDefinition.cs" />
@@ -455,11 +455,13 @@
     <Compile Include="Buff\B_KirisameMarisa_DangerTrigger.cs" />
     <Compile Include="Buff\B_KirisameMarisa_P.cs" />
     <Compile Include="Buff\B_KirisameMarisa_P_1.cs" />
+    <Compile Include="Buff\B_KirisameMarisa_Rare_11.cs" />
     <Compile Include="Buff\B_KirisameMarisa_Rare_12.cs" />
     <Compile Include="Character\P_KirisameMarisa.cs" />
     <Compile Include="Item_Consume\Item_KirisameMarisa_DangerTrigger.cs" />
     <Compile Include="Item_Equip\E_KirisameMarisa_0.cs" />
     <Compile Include="Item_Equip\E_KirisameMarisa_1.cs" />
+    <Compile Include="Item_Passive\R_KirisameMarisa_0.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -501,6 +503,8 @@
     <Compile Include="Skill\S_KirisameMarisa_Rare_12.cs" />
     <Compile Include="SkillExtended\SE_KirisameMarisa_7.cs" />
     <Compile Include="SkillExtended\SE_KirisameMarisa_8.cs" />
+    <Compile Include="SkillExtended\SE_KirisameMarisa_C_0.cs" />
+    <Compile Include="SkillExtended\SE_KirisameMarisa_C_1.cs" />
     <Compile Include="SkillExtended\SkillBase_KirisameMarisa.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->

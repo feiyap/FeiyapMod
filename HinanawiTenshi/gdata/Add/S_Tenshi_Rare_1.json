@@ -1,0 +1,22 @@
+{
+    "S_Tenshi_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_R1",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "「全人类的绯想天」",
+        "User": "HinanawiTenshi",
+        "Rare": true,
+        "Description": "消耗所有<color=#97FFFF>气质</color>，每点消耗的<color=#97FFFF>气质</color>使这个技能向随机敌人重复释放 1 次。\n每次释放，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+        "UseAp": 3,
+        "Effect_Target": "SE_T_S_Tenshi_Rare_1",
+        "Image_0": "S_Tenshi_Rare_1\\S_Tenshi_Rare_1_Image_0.png",
+        "Image_1": "S_Tenshi_Rare_1\\S_Tenshi_Rare_1_Image_1.png",
+        "Image_2": "S_Tenshi_Rare_1\\S_Tenshi_Rare_1_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.S_Tenshi_Rare_1"
+        ],
+        "IgnoreTaunt": false
+    }
+}

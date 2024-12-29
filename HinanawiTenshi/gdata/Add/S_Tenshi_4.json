@@ -1,0 +1,23 @@
+{
+    "S_Tenshi_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/ST4/GreenSlash",
+        "Target": "enemy",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "Name": "气符「天启气象之剑」",
+        "Description": "展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。\n\n<color=#97FFFF>天启4</color> - 下个回合开始时，展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。",
+        "User": "HinanawiTenshi",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Tenshi_4",
+        "NoBasicSkill": false,
+        "Image_0": "S_Tenshi_4\\S_Tenshi_4_Image_0.png",
+        "Image_1": "S_Tenshi_4\\S_Tenshi_4_Image_1.png",
+        "Image_2": "S_Tenshi_4\\S_Tenshi_4_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.S_Tenshi_4"
+        ],
+        "Disposable": false
+    }
+}

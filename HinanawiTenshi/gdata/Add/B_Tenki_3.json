@@ -1,0 +1,11 @@
+{
+    "B_Tenki_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenki_3",
+        "BuffTag": "null",
+        "Name": "天气 - 云天",
+        "Icon": "B_Tenki_3\\B_Tenki_3_Icon.png",
+        "LifeTime": 2,
+        "Description": "使手中最上方和最下方的技能的伤害量或治疗量提升6点。"
+    }
+}

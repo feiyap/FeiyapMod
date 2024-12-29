@@ -1,0 +1,25 @@
+{
+    "S_Tenshi_Rare_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "NoBasicSkill": false,
+        "Name": "天地「俯瞰世界的遥远的大地啊」",
+        "Description": "战斗开始时，放在牌库最上方。",
+        "UseAp": 3,
+        "User": "HinanawiTenshi",
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_Tenshi_Rare_3",
+        "Effect_Self": "SE_S_S_Tenshi_Rare_3",
+        "Image_0": "S_Tenshi_Rare_3\\S_Tenshi_Rare_3_Image_0.png",
+        "Image_1": "S_Tenshi_Rare_3\\S_Tenshi_Rare_3_Image_1.png",
+        "Image_2": "S_Tenshi_Rare_3\\S_Tenshi_Rare_3_Image_2.png",
+        "PlusSkillView": "S_Tenki_1",
+        "SkillExtended": [
+            "HinanawiTenshi.S_Tenshi_Rare_3"
+        ]
+    }
+}

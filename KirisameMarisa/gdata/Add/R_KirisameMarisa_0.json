@@ -1,0 +1,9 @@
+{
+    "R_KirisameMarisa_0": {
+        "_gdeSchema": "Item_Passive",
+        "name": "黑白魔法使的帽子",
+        "Description": "战斗开始时，使所有调查员第一次攻击必定暴击，且这次暴击伤害+100%。",
+        "image": "Item\\R_KirisameMarisa_0_image.png",
+        "passive_script": "KirisameMarisa.R_KirisameMarisa_0"
+    }
+}

@@ -4,10 +4,10 @@
         "HIT": 100,
         "DMG_Per": 40,
         "Buffs": [
-            "B_KirisameMarisa_0"
+            
         ],
         "BuffPlusTagPer": [
-            0
+            
         ]
     }
 }

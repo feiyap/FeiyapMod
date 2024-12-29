@@ -1,0 +1,12 @@
+{
+    "SE_KirisameMarisa_C_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "释放时，雾雨魔理沙获得2层<color=#00BFFF>危险等级</color>。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "KirisameMarisa",
+        "ClassName": "KirisameMarisa.SE_KirisameMarisa_C_0"
+    }
+}

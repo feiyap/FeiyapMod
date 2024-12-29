@@ -1,0 +1,11 @@
+{
+    "B_Tenshi_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenshi_4",
+        "BuffTag": "null",
+        "Name": "气候操纵",
+        "Icon": "Image/Buff/Skill_Icon_Pack/2_0/regained power",
+        "Description": "下个回合开始时，展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。",
+        "LifeTime": 0
+    }
+}

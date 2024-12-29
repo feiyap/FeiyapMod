@@ -1,0 +1,19 @@
+{
+    "B_Tenshi_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HinanawiTenshi.B_Tenshi_1",
+        "BuffTag": "Debuff",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "<color=#97FFFF>气质</color>显现",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (9)",
+        "Description": "",
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 145,
+        "MaxStack": 2
+    }
+}

@@ -7,7 +7,7 @@
         "IgnoreTaunt": false,
         "Track": false,
         "Name": "星符「Meteonic Shower」",
-        "Description": "本回合内可重复释放。",
+        "Description": "本回合内可重复释放 1 次。",
         "User": "KirisameMarisa",
         "NotCount": true,
         "NoBasicSkill": true,

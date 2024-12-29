@@ -21,7 +21,20 @@ namespace KirisameMarisa
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            int count = 4;
+            int count = 2;
+
+            int addcount = 0;
+            if (PlayData.PartySpeed < 0)
+            {
+                addcount += -PlayData.PartySpeed;
+            }
+            if (addcount > 2)
+            {
+                addcount = 2;
+            }
+
+            count += addcount;
+
             BattleSystem.DelayInput(this.Effect(Targets[0], count));
         }
 

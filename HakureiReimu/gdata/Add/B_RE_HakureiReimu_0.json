@@ -1,0 +1,15 @@
+{
+    "B_RE_HakureiReimu_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": true,
+        "Cantdisable": true,
+        "ClassName": "HakureiReimu.B_RE_HakureiReimu_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "赛钱神力",
+        "Description": "每回合抽取的技能数量+1。",
+        "Icon": "B_RE_HakureiReimu_0\\B_RE_HakureiReimu_0_Icon.png"
+    }
+}

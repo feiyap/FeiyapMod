@@ -19,22 +19,45 @@ namespace KirisameMarisa
 	/// </summary>
     public class S_KirisameMarisa_6_2: SkillBase_KirisameMarisa
     {
-        public override void SkillKill(SkillParticle SP)
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            base.SkillKill(SP);
+            base.SkillUseSingle(SkillD, Targets);
+            if (Targets[0] is BattleEnemy && (Targets[0] as BattleEnemy).istaunt)
+            {
+                Targets[0].BuffScriptReturn("Common_Buff_EnemyTaunt").SelfDestroy(false);
 
-            BattleSystem.DelayInput(this.Effect());
+                BattleSystem.DelayInputAfter(this.Ienum(Targets[0]));
+
+                return;
+            }
         }
 
-        public IEnumerator Effect()
+        public IEnumerator Ienum(BattleChar hit)
         {
-            yield return new WaitForSeconds(0.15f);
+            Skill skill = Skill.TempSkill("S_KirisameMarisa_6_0", this.BChar, this.BChar.MyTeam);
 
-            BattleSystem.instance.EnemyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main).BuffAdd("B_KirisameMarisa_6", this.BChar);
+            skill.isExcept = true;
+            skill.FreeUse = true;
+            skill.PlusHit = true;
+            skill.NoAttackTimeWait = true;
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSecondsRealtime(0.1f);
+
+
+            foreach (BattleEnemy battleEnemy in BattleSystem.instance.EnemyList)
+            {
+                if (!battleEnemy.istaunt)
+                {
+                    this.BChar.ParticleOut(skill, battleEnemy);
+                }
+            }
 
             yield break;
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.6f)).ToString());
         }
     }
 }

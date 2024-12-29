@@ -1,0 +1,21 @@
+{
+    "S_Musoutensei_Lilyblack": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "NoDrop": true,
+        "Name": "立秋「处处闻啼鸟」",
+        "Description": "<color=#FFD700>*「梦想天生」+秋告「无人知晓的告秋精」*</color>",
+        "Rare": true,
+        "Effect_Self": "SE_S_S_Musoutensei_Lilyblack",
+        "Image_0": "S_Musoutensei_Lilyblack\\S_Musoutensei_Lilyblack_Image_0.png",
+        "Image_1": "S_Musoutensei_Lilyblack\\S_Musoutensei_Lilyblack_Image_1.png",
+        "Image_2": "S_Musoutensei_Lilyblack\\S_Musoutensei_Lilyblack_Image_2.png",
+        "UseAp": 0,
+        "SkillExtended": [
+            "HakureiReimu.S_Musoutensei_Lilyblack"
+        ]
+    }
+}

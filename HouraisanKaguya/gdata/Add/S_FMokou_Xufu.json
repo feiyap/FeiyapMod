@@ -10,7 +10,7 @@
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": false,
-        "NoDrop": false,
+        "NoDrop": true,
         "IgnoreTaunt": false,
         "Except": false,
         "NoBasicSkill": false,

@@ -1,0 +1,10 @@
+{
+    "SE_Musoutensei_Daiyousei_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "赤色杀人魔！",
+        "Des": "伤害增加&a%。",
+        "IsIcon": "SE_Musoutensei_Daiyousei_0\\SE_Musoutensei_Daiyousei_0_Icon.png"
+    }
+}

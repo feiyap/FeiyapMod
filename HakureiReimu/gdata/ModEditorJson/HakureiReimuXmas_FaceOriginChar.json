@@ -1,0 +1,23 @@
+{
+    "myKey": "HakureiReimuXmas",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "HakureiReimuSD\\HakureiReimuSDFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1340.52625,
+            "y": 784.1969
+        },
+        "offsetMin": {
+            "x": -1327.89587,
+            "y": -1884.22534
+        },
+        "pivot": {
+            "x": 0.4971087,
+            "y": 0.7041057
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

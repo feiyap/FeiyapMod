@@ -1,0 +1,11 @@
+{
+    "B_Tenki_16": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenki_16",
+        "BuffTag": "null",
+        "Name": "天气 - 凪",
+        "Description": "回合结束时，治疗10点体力。",
+        "Icon": "B_Tenki_16\\B_Tenki_16_Icon.png",
+        "LifeTime": 2
+    }
+}

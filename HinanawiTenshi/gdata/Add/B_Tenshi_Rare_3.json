@@ -1,0 +1,11 @@
+{
+    "B_Tenshi_Rare_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenshi_Rare_3",
+        "BuffTag": "null",
+        "Name": "天气 - 绯想天",
+        "Description": "手中的技能附加迅速。",
+        "LifeTime": 1,
+        "Icon": "B_Tenshi_Rare_3\\B_Tenshi_Rare_3_Icon.png"
+    }
+}

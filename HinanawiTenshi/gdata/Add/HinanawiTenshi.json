@@ -1,0 +1,71 @@
+{
+    "HinanawiTenshi": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "HinanawiTenshi.P_HinanawiTenshi",
+        "PassiveUnlockLV1": false,
+        "SelectInfo": "比那名居天子是擅长调度增益的辅助型输出。\n\n比那名居天子拥有控制天气的能力，藉由施展技能，能够改变局部的天气，为自己和队友带来各种各样的增益效果。而在暖场结束后，比那名居天子可以释放全部的天气之力，带来毁灭性的攻击。\n\n天人一剑，大地震颤。以此<color=#97FFFF>气质</color>，<color=#B22222>绯</color><color=#00BFFF>想</color><color=#00FF7F>开</color><color=#FFD700>天</color>！",
+        "face": "HinanawiTenshi\\HinanawiTenshiBattleFace.png",
+        "name": "比那名居天子",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 20,
+            "y": 35
+        },
+        "PassiveName": "非想非非想天之女",
+        "PassiveIcon": "HinanawiTenshi\\HinanawiTenshiPassiveIcon.png",
+        "CollectionSprite_Cover": "HinanawiTenshi\\HinanawiTenshiCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "HinanawiTenshi\\HinanawiTenshiCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Sup": 3,
+        "StatView_Debuff": 1,
+        "StatView_Difficult": 1,
+        "CampSelectWord": "吾乃天！幻想之天！",
+        "PassiveDes": "<b>幼小的有顶天</b> - 当自己身上没有减益效果时，造成的伤害提升10%。\n\n<b>操纵大地程度的能力</b> - 自身被施加增益效果时，比那名居天子会获得1点<color=#97FFFF><color=#97FFFF>气质</color></color>。\n\n<b>天人之姿</b> - 受到的伤害降低1点。\n\n<b><color=#97FFFF>天启X</color></b> - 比那名居天子身上拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>超过X点时，释放技能会消耗X点<color=#97FFFF><color=#97FFFF>气质</color></color>，触发额外效果。\n\n<b><color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>权</color><color=#FFD700>能</color></b> - 比那名居天子仍然在修行之中，尚未解放真正的力量……",
+        "ATK": {
+            "x": 14,
+            "y": 25
+        },
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 10
+        },
+        "REG": {
+            "x": 7,
+            "y": 14
+        },
+        "HIT": {
+            "x": 96,
+            "y": 114
+        },
+        "RES_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DEBUFF": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DOT": {
+            "x": 5,
+            "y": 45
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "FirstSkill": "S_Tenshi_0"
+    }
+}

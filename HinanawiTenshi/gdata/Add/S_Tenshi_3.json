@@ -1,0 +1,24 @@
+{
+    "S_Tenshi_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/LastBoss/LBoss_P3_0",
+        "Target": "enemy",
+        "NoBasicSkill": false,
+        "Track": false,
+        "Name": "天气「绯想天促」",
+        "Description": "同时对目标左右的单位释放，造成一半的伤害。\n命中时，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。\n\n<color=#97FFFF>天启7</color> - 如果场上的敌人数量大于1，改为指向“所有敌人”。",
+        "User": "HinanawiTenshi",
+        "UseAp": 2,
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Tenshi_3",
+        "Image_0": "S_Tenshi_3\\S_Tenshi_3_Image_0.png",
+        "Image_1": "S_Tenshi_3\\S_Tenshi_3_Image_1.png",
+        "Image_2": "S_Tenshi_3\\S_Tenshi_3_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.S_Tenshi_3"
+        ],
+        "NoDrop": false
+    }
+}

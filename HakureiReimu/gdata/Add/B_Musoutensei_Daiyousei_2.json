@@ -1,0 +1,12 @@
+{
+    "B_Musoutensei_Daiyousei_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "HakureiReimu.B_Musoutensei_Daiyousei_2",
+        "BuffTag": "null",
+        "Name": "赤色杀人魔！",
+        "Icon": "B_Musoutensei_Daiyousei_2\\B_Musoutensei_Daiyousei_2_Icon.png",
+        "Description": "伤害增加&a%。",
+        "MaxStack": 10
+    }
+}

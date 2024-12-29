@@ -1,0 +1,11 @@
+{
+    "B_Tenki_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenki_4",
+        "BuffTag": "null",
+        "Name": "天气 - 苍天",
+        "Icon": "B_Tenki_4\\B_Tenki_4_Icon.png",
+        "Description": "本回合内每使用1个技能，获得“攻击力+1%、暴击率+1%、命中率+1%”。",
+        "LifeTime": 2
+    }
+}

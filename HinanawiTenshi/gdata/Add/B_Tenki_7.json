@@ -1,0 +1,11 @@
+{
+    "B_Tenki_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenki_7",
+        "BuffTag": "null",
+        "Name": "天气 - 浓雾",
+        "Description": "造成伤害的10%治疗自己。",
+        "Icon": "B_Tenki_7\\B_Tenki_7_Icon.png",
+        "LifeTime": 2
+    }
+}

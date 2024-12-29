@@ -4,12 +4,13 @@
         "Hide": false,
         "IsFieldBuff": false,
         "Cantdisable": false,
-        "ClassName": "",
+        "ClassName": "HakureiReimu.B_Musoutensei_Youmu_0",
         "BuffTag": "null",
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "天人合一",
-        "Description": "受到伤害降低为0。并且，每次受到伤害时，3回合内攻击力增加10%。",
-        "LifeTime": 1
+        "Description": "受到敌人的攻击时，博丽灵梦和魂魄妖梦轮流对目标造成&a点伤害<color=#FF7A33>(攻击力的200%)</color>和&b伤害<color=#FF7A33>(攻击力的200%)</color>，并解除目标所有增益。那之后，解除该增益。",
+        "LifeTime": 0,
+        "Icon": "B_Musoutensei_Youmu_0\\B_Musoutensei_Youmu_0_Icon.png"
     }
 }

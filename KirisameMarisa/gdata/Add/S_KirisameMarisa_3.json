@@ -26,7 +26,7 @@
         "Image_0": "S_KirisameMarisa_3\\S_KirisameMarisa_3_Image_0.png",
         "Image_1": "S_KirisameMarisa_3\\S_KirisameMarisa_3_Image_1.png",
         "Image_2": "S_KirisameMarisa_3\\S_KirisameMarisa_3_Image_2.png",
-        "Description": "向随机敌人重复释放 3 次。",
+        "Description": "向随机敌人重复释放 2 次。",
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_3"
         ],

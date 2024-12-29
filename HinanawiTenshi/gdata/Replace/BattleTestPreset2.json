@@ -1,0 +1,48 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Tenshi_Rare_4"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "HinanawiTenshi"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_Tenshi_Rare_3"
+        ],
+        "LucySkill": [
+            
+        ]
+    }
+}

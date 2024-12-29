@@ -1,0 +1,36 @@
+{
+    "S_Tenshi_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Shatter",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "地震「先忧后乐之剑」",
+        "Description": "释放时，(150%干扰)眩晕目标。\n\n<color=#97FFFF>天启9</color> - 改为眩晕所有敌人。",
+        "UseAp": 2,
+        "NoBasicSkill": true,
+        "Counting": 3,
+        "Effect_Target": "SE_T_S_Tenshi_Rare_2",
+        "Image_0": "S_Tenshi_Rare_2\\S_Tenshi_Rare_2_Image_0.png",
+        "Image_1": "S_Tenshi_Rare_2\\S_Tenshi_Rare_2_Image_1.png",
+        "Image_2": "S_Tenshi_Rare_2\\S_Tenshi_Rare_2_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.S_Tenshi_Rare_2"
+        ],
+        "Disposable": false,
+        "NoDrop": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "HinanawiTenshi",
+        "PlusSkillView": "S_Tenshi_Rare_4"
+    }
+}

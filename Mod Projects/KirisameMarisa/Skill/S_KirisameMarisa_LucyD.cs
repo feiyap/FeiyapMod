@@ -24,24 +24,20 @@ namespace KirisameMarisa
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            BattleSystem.instance.AllyTeam.Draw(2);
+            BattleSystem.instance.AllyTeam.Draw(1);
 
-            List<string> list = new List<string>();
-            GDEDataManager.GetAllDataKeysBySchema(GDESchemaKeys.Buff, out list);
-            int buffcount = 0;
-            for (int i = 0; i < 200; i++)
+            if (PlayData.PartySpeed > 0)
             {
-                GDEBuffData gdebuffData = new GDEBuffData(RandomManager.Random<string>(list, BattleRandom.GetRandomClass(this.BChar).Main));
-                bool flag = !gdebuffData.Hide && gdebuffData.Debuff && gdebuffData.LifeTime > 0;
-                if (flag)
-                {
-                    Targets[0].BuffAdd(gdebuffData.Key, BattleSystem.instance.AllyList[0], false, 120, false, -1, false);
-                    buffcount++;
-                    if (buffcount >= 2)
-                    {
-                        break;
-                    }
-                }
+                BattleSystem.instance.AllyTeam.Draw(1);
+                BattleSystem.instance.AllyTeam.AP++;
+            }
+            else if (PlayData.PartySpeed < 0)
+            {
+                BattleSystem.instance.AllyTeam.AP += 3;
+            }
+            else
+            {
+                BattleSystem.instance.AllyTeam.Draw(1);
             }
         }
     }

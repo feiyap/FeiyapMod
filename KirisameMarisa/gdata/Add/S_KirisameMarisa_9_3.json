@@ -6,13 +6,13 @@
         "Target": "choiceskill",
         "NotCount": true,
         "Name": "光击「Shoot the Moon」",
-        "Description": "<color=#00BFFF>危险等级3</color> - 选择 - 使一个友军获得“所有友军每有1个增益，提供+5%暴击率和+5%暴击伤害，最多10点”的增益，持续3回合；\n\n或使一个友军获得“所有敌人每有1个减益，提供+5%暴击率和+5%暴击伤害，最多10点”的增益，持续3回合。\n\n额外使自身获得“本回合内体力值不会降低至1以下”的增益。",
+        "Description": "<color=#00BFFF>危险等级3</color> - 使一个友军获得“速度+2，速度大于0时，每多1点提供+10%暴击率，+10%暴击伤害，最多5点”的增益，持续3回合；\n\n或使一个友军获得“速度-2，速度小于0时，每少1点提供+10%暴击率，+10%暴击伤害，最多5点”的增益，持续3回合。\n\n额外使自身获得“本回合内体力值不会降低至1以下”的增益。",
         "Effect_Target": "null",
         "Image_0": "S_KirisameMarisa_9_3\\S_KirisameMarisa_9_3_Image_0.png",
         "Image_1": "S_KirisameMarisa_9_3\\S_KirisameMarisa_9_3_Image_1.png",
         "Image_2": "S_KirisameMarisa_9_3\\S_KirisameMarisa_9_3_Image_2.png",
         "NoDrop": false,
-        "Disposable": true,
+        "Disposable": false,
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_9_3"
         ]

@@ -1,0 +1,14 @@
+{
+    "S_Tenki_18": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NoDrop": true,
+        "Name": "天气 - 黄沙",
+        "HealSkill": false,
+        "Effect_Self": "SE_S_S_Tenki_18",
+        "PlusSkillView": "S_Tenki_19",
+        "Image_0": "S_Tenki_18\\S_Tenki_18_Image_0.png"
+    }
+}

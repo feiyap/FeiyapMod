@@ -1,0 +1,20 @@
+{
+    "S_Tenshi_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": true,
+        "NoBasicSkill": false,
+        "Name": "要石「天空之灵石」",
+        "Description": "施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。\n如果自己身上有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，消耗1个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。\n\n<color=#97FFFF>天启1</color> - 额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+        "User": "HinanawiTenshi",
+        "Effect_Target": "null",
+        "Image_0": "S_Tenshi_5\\S_Tenshi_5_Image_0.png",
+        "Image_1": "S_Tenshi_5\\S_Tenshi_5_Image_1.png",
+        "Image_2": "S_Tenshi_5\\S_Tenshi_5_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.S_Tenshi_5"
+        ]
+    }
+}

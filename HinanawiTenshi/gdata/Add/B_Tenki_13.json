@@ -1,0 +1,11 @@
+{
+    "B_Tenki_13": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenki_13",
+        "BuffTag": "null",
+        "Name": "天气 - 川雾",
+        "Icon": "B_Tenki_13\\B_Tenki_13_Icon.png",
+        "Description": "使手中的技能获得“无视嘲讽”。",
+        "LifeTime": 2
+    }
+}

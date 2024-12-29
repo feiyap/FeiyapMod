@@ -51,9 +51,9 @@ namespace KirisameMarisa
                 Fixed_count = 0;
 
                 this.MySkill.MySkill.Effect_Target.DMG_Per = 10000;
-                if (this.APChange < 0)
+                if (this.MySkill.AP < 9)
                 {
-                    for (int i = 0; i > this.APChange; i--)
+                    for (int i = 9; i > this.MySkill.AP; i--)
                     {
                         this.MySkill.MySkill.Effect_Target.DMG_Per /= 2;
                     }

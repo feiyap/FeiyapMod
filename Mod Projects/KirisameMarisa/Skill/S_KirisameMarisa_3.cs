@@ -22,7 +22,7 @@ namespace KirisameMarisa
         {
             base.SkillUseSingle(SkillD, Targets);
 
-            int count = 3;
+            int count = 2;
             BattleSystem.DelayInput(this.Effect(Targets[0], count));
         }
 

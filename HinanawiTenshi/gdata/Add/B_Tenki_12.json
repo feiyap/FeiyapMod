@@ -1,0 +1,11 @@
+{
+    "B_Tenki_12": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenki_12",
+        "BuffTag": "null",
+        "Name": "天气 - 晴岚",
+        "Description": "追加攻击/反击造成的伤害提升33%。",
+        "Icon": "B_Tenki_12\\B_Tenki_12_Icon.png",
+        "LifeTime": 2
+    }
+}

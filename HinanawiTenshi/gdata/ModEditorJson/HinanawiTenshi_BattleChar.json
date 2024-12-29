@@ -1,0 +1,23 @@
+{
+    "myKey": "HinanawiTenshi",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "HinanawiTenshi\\HinanawiTenshiBattleChar.png",
+        "offsetMax": {
+            "x": 1161.04626,
+            "y": 749.5639
+        },
+        "offsetMin": {
+            "x": -1264.79187,
+            "y": -1676.27417
+        },
+        "pivot": {
+            "x": 0.521383464,
+            "y": 0.69100827
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}
