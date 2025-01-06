@@ -1,0 +1,12 @@
+{
+    "LumioreSkin": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "金色威信",
+        "Character": "Lumiore",
+        "SkinDesc": "跟樸素的哥哥大人不同，姊姊大人今天依然耀眼啊！\r\n──銀色清純‧雅爾貞特\r\n如果覺得我是可愛的弟弟，那就別叫我去跑腿喔！？\r\n──擁有漆黑單翼的長男‧諾爾",
+        "VFXChangeSkill": [
+            "S_Lumiore_RareSkin_12"
+        ],
+        "FaceSprite": "Lumiore\\LumioreBattleFace.png"
+    }
+}

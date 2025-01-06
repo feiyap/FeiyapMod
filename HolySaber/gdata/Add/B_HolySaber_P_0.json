@@ -2,12 +2,16 @@
     "B_HolySaber_P_0": {
         "_gdeSchema": "Buff",
         "Cantdisable": false,
-        "ClassName": "",
+        "ClassName": "HolySaber.B_HolySaber_P_0",
         "BuffTag": "null",
         "Name": "圣女的号令",
         "Description": "受到的痛苦伤害降低为0。",
         "Icon": "B_HolySaber_P_0\\B_HolySaber_P_0_Icon.png",
         "MaxStack": 0,
-        "LifeTime": 2
+        "LifeTime": 2,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

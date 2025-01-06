@@ -1,0 +1,23 @@
+{
+    "myKey": "KirisameMarisa_Skin",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "KirisameMarisaSkin\\KirisameMarisaSkinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 699.146851,
+            "y": 414.102234
+        },
+        "offsetMin": {
+            "x": -580.853149,
+            "y": -1713.89783
+        },
+        "pivot": {
+            "x": 0.452697754,
+            "y": 0.802877665
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

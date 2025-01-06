@@ -15,9 +15,9 @@ using ChronoArkMod.ModData;
 using HarmonyLib;
 namespace KirisameMarisa
 {
+    [PluginConfig("KirisameMarisa", "Feiyap", "1.0.0")]
     public class KirisameMarisa_Plugin: ChronoArkPlugin
     {
-        [PluginConfig("KirisameMarisa", "Feiyap", "1.0.0")]
         private Harmony harmony;
         public override void Dispose()
         {

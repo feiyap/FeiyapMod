@@ -1,0 +1,23 @@
+{
+    "myKey": "KirisameMarisaChrist",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "KirisameMarisaEscape\\KirisameMarisaEscapeBattleChar.png",
+        "offsetMax": {
+            "x": 755.967834,
+            "y": 745.5889
+        },
+        "offsetMin": {
+            "x": -1309.67249,
+            "y": -1242.10291
+        },
+        "pivot": {
+            "x": 0.634027362,
+            "y": 0.6248971
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

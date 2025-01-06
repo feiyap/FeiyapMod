@@ -1,0 +1,23 @@
+{
+    "myKey": "KirisameMarisa_Skin",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "KirisameMarisaSkin\\KirisameMarisaSkinBattleChar.png",
+        "offsetMax": {
+            "x": 587.982849,
+            "y": 464.629456
+        },
+        "offsetMin": {
+            "x": -575.6535,
+            "y": -1469.91589
+        },
+        "pivot": {
+            "x": 0.49470225,
+            "y": 0.759825
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

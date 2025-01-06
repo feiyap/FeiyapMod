@@ -1,0 +1,23 @@
+{
+    "myKey": "FlandreScarletSpring",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "FlandreScarletSpr\\FlandreScarletSprFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1497.70337,
+            "y": 870.761841
+        },
+        "offsetMin": {
+            "x": -1437.56091,
+            "y": -2064.5022
+        },
+        "pivot": {
+            "x": 0.489278227,
+            "y": 0.701513767
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

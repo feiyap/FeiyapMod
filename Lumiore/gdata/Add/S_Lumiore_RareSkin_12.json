@@ -1,0 +1,15 @@
+{
+    "S_Lumiore_RareSkin_12": {
+        "_gdeSchema": "VFXSkill",
+        "Image_0": "S_Lumiore_RareSkin_12\\S_Lumiore_RareSkin_12_Image_0.png",
+        "SkillImage": [
+            "S_Lumiore_RareSkin_12\\S_Lumiore_RareSkin_12_Image_0.png",
+            "S_Lumiore_RareSkin_12\\S_Lumiore_RareSkin_12_Image_1.png",
+            "S_Lumiore_RareSkin_12\\S_Lumiore_RareSkin_12_Image_2.png"
+        ],
+        "Image_1": "S_Lumiore_RareSkin_12\\S_Lumiore_RareSkin_12_Image_1.png",
+        "Image_2": "S_Lumiore_RareSkin_12\\S_Lumiore_RareSkin_12_Image_2.png",
+        "MySkill": "S_Lumiore_12Rare",
+        "Particle": "Particle/ProgramMaster/Master_0"
+    }
+}

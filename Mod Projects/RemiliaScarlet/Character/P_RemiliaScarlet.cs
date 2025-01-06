@@ -19,7 +19,7 @@ namespace RemiliaScarlet
     /// 蕾米莉亚能够操纵命运，增加所有队友10%暴击率、命中率、闪避率。
     /// 此外，每个敌人阵亡时，增加蕾米莉亚1点永久最大体力值。最多增加当前等级x5点。
     /// </summary>
-    public class P_RemiliaScarlet:Passive_Char, IP_BattleStart_Ones, IP_SomeOneDead
+    public class P_RemiliaScarlet:Passive_Char, IP_BattleStart_Ones, IP_SomeOneDead, IP_LevelUp
     {
         int hp_change;
 
@@ -44,6 +44,15 @@ namespace RemiliaScarlet
             {
                 this.BChar.Info.OriginStat.maxhp += 1;
                 hp_change++;
+            }
+        }
+
+        public void LevelUp()
+        {
+            if (hp_change == 0 && this.BChar.Info == PlayData.TSavedata.Party[3])
+            {
+                this.BChar.Info.OriginStat.maxhp += 10;
+                hp_change += 10;
             }
         }
     }

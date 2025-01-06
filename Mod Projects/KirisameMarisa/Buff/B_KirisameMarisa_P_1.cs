@@ -24,6 +24,7 @@ namespace KirisameMarisa
             base.Init();
             this.PlusStat.cri = 25 * StackNum;
             this.PlusStat.PlusCriDmg = 25 * StackNum;
+            this.PlusStat.PlusCriHeal = 25 * StackNum;
         }
 
         public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)

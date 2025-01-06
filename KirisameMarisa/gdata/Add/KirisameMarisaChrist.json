@@ -1,0 +1,9 @@
+{
+    "KirisameMarisaChrist": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "红白魔法使",
+        "Character": "KirisameMarisa",
+        "SkinDesc": "我要办一场豪华璀璨的圣诞派对！",
+        "FaceSprite": "KirisameMarisaEscape\\KirisameMarisaEscapeBattleFace.png"
+    }
+}

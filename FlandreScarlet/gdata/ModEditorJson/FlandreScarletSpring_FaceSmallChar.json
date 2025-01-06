@@ -1,0 +1,23 @@
+{
+    "myKey": "FlandreScarletSpring",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "FlandreScarletSpr\\FlandreScarletSprFaceSmallChar.png",
+        "offsetMax": {
+            "x": 630.6164,
+            "y": 364.0452
+        },
+        "offsetMin": {
+            "x": -614.222,
+            "y": -880.793152
+        },
+        "pivot": {
+            "x": 0.491782665,
+            "y": 0.703065932
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

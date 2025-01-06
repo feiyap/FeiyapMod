@@ -1,0 +1,15 @@
+{
+    "FlandreScarletSpring": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "迎春而来的恶魔",
+        "Character": "FlandreScarlet",
+        "SkinDesc": "庆祝新年的到来，以红白为主色调的华丽晴着。\r\n优雅与幼态并存，突出显示了芙兰朵露的可爱。\r\n长袖的振袖在轻轻摇摆间，复苏了新年游戏的热情。\r\n尽管一片喧闹，她心中仍感到兴奋，渴望与大家再次相聚。",
+        "FaceSprite": "FlandreScarletSpr\\FlandreScarletSprBattleFace.png",
+        "CampSD": [
+            "FlandreScarletSpr\\FlandreScarletSprCampSD0.png",
+            "FlandreScarletSpr\\FlandreScarletSprCampSD1.png",
+            "FlandreScarletSpr\\FlandreScarletSprCampSD2.png",
+            "FlandreScarletSpr\\FlandreScarletSprCampSD3.png"
+        ]
+    }
+}

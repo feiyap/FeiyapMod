@@ -22,7 +22,8 @@ namespace HouraisanKaguya
 
         public override void Init()
         {
-            this.BChar.Info.PlusActCount.Add(2);
+            this.BChar.Info.PlusActCount.Add(1);
+            this.BChar.Info.PlusActCount.Add(1);
             base.Init();
             count = 0;
         }

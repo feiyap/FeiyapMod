@@ -1,0 +1,7 @@
+{
+    "Name": "S_Satellite_Reimu",
+    "path": "AudioFiles\\S_Satellite_Reimu.mp3",
+    "AssetBundlePath": "",
+    "Loop": false,
+    "Bus": "BattleBGM"
+}

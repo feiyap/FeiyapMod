@@ -1,0 +1,32 @@
+{
+    "S_Satellite_Reimu": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "Name": "超时空「我们的幻想乡！」",
+        "UseAp": 2,
+        "Description": "<color=#FFD700>*「梦想天生」+星符「Satellite Illusion」*</color>\n从所有启用中的、《东方project》系列角色的稀有技能中，随机生成1个，并为其选择持有者。\n重复释放，直到手牌达到上限为止。\n\n<i><color=#00BFFF>上啊灵梦！让他们见识一下我们的厉害！</color></i>\n<i><color=#FF4500>啊啊！可不能在这里输了！</color></i>\n<i><color=#00BFFF>为</color><color=#FF4500>了</color><b><color=#FFD700>辉光闪耀的幻想乡！</color></b></i>",
+        "NoDrop": true,
+        "Image_0": "S_Satellite_Reimu\\S_Satellite_Reimu_Image_0.png",
+        "Image_1": "S_Satellite_Reimu\\S_Satellite_Reimu_Image_1.png",
+        "Image_2": "S_Satellite_Reimu\\S_Satellite_Reimu_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "KirisameMarisa.S_Satellite_Reimu"
+        ]
+    }
+}

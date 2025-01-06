@@ -4,12 +4,14 @@
         "Cantdisable": false,
         "ClassName": "RemiliaScarlet.B_RemiliaScarlet_7",
         "BuffTag": "Debuff",
-        "Name": "血狱",
-        "Description": "每次行动时，对左边和右边的敌人施加1层<sprite name=\"RemiliaScarlet_blood\"><color=#FF3030>绯夜</color>；如果只剩自己，则对自己施加<sprite name=\"RemiliaScarlet_blood\"><color=#FF3030>绯夜</color>。",
+        "Name": "鲜血盛宴",
+        "Description": "",
         "MaxStack": 0,
-        "LifeTime": 4,
+        "LifeTime": 5,
         "Debuff": true,
-        "TagPer": 135,
-        "Icon": "B_RemiliaScarlet_7\\B_RemiliaScarlet_7_Icon.png"
+        "TagPer": 125,
+        "Icon": "B_RemiliaScarlet_7\\B_RemiliaScarlet_7_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false
     }
 }

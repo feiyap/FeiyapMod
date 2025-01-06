@@ -1,0 +1,23 @@
+{
+    "myKey": "KirisameMarisaChrist",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "KirisameMarisaEscape\\KirisameMarisaEscapeFaceSmallChar.png",
+        "offsetMax": {
+            "x": 365.194672,
+            "y": 308.931152
+        },
+        "offsetMin": {
+            "x": -598.4417,
+            "y": -618.341553
+        },
+        "pivot": {
+            "x": 0.6189157,
+            "y": 0.6608108
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

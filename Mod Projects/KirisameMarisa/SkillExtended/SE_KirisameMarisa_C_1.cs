@@ -21,20 +21,22 @@ namespace KirisameMarisa
     {
         public override bool CanSkillEnforce(Skill MainSkill)
         {
-            return MainSkill.IsHeal && (MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_all_onetarget || MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_ally || MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_self);
+            return MainSkill.IsHeal && (MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_all_onetarget || MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_ally || MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_self 
+                || MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_otherally);
         }
 
         public override void Init()
         {
             base.Init();
             this.OnePassive = true;
+            this.APChange = 1;
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
 
-            if (SkillD.Master.Info.Ally && SkillD.Master.Info.Ally != Targets[0].Info.Ally && !SkillD.FreeUse && !SkillD.PlusHit && !SkillD.ForceAction && !SkillD.BasicSkill)
+            if (SkillD.Master.Info.Ally && !SkillD.FreeUse && !SkillD.PlusHit && !SkillD.ForceAction && !SkillD.BasicSkill)
             {
                 foreach (BattleChar battleChar in BattleSystem.instance.AllyTeam.AliveChars)
                 {

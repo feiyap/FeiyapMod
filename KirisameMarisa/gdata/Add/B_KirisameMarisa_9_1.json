@@ -4,7 +4,7 @@
         "ClassName": "KirisameMarisa.B_KirisameMarisa_9_1",
         "BuffTag": "null",
         "Name": "危险本能",
-        "Description": "所有敌人每有1个减益，提供“+10%暴击率和+10%暴击伤害”，最多5点。",
+        "Description": "速度低于0时，每少1点提供“+10%暴击率和+10%暴击伤害”，最多5点。",
         "Icon": "B_KirisameMarisa_9_1\\B_KirisameMarisa_9_1_Icon.png",
         "MaxStack": 1,
         "LifeTime": 3,

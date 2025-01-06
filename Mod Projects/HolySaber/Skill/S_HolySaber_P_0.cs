@@ -21,8 +21,6 @@ namespace HolySaber
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            base.SkillUseSingle(SkillD, Targets);
-
             foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills)
             {
                 if (skill != MySkill && skill.ExtendedFind_DataName("SE_HolySaber_Extend") != null && skill.ExtendedFind_DataName("SE_HolySaber_Extended") == null)

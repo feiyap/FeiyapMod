@@ -5,6 +5,11 @@
         "BuffTag": "null",
         "Name": "危险升空！",
         "Description": "无敌。",
-        "Hide": true
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "LifeTime": 1
     }
 }

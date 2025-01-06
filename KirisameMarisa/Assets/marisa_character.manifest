@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 196233639
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0ae9f6c2876ef8e9cf533a90484f3017
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce5d292be67dd4f66c5e25bd4a35cf80
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/KirisameMarisa/Marisa_SmallAngry.png
+- Assets/KirisameMarisa/Mairsa_RedSmallHappy.png
+- Assets/KirisameMarisa/Marisa_RedAngry.png
+- Assets/KirisameMarisa/Marisa_RedHurt.png
+- Assets/KirisameMarisa/Marisa_Happy.png
+- Assets/KirisameMarisa/Marisa_RedHappy.png
+- Assets/KirisameMarisa/Marisa_Cry.png
+- Assets/KirisameMarisa/Marisa_Hurt.png
+- "Assets/KirisameMarisa/\u9EC4\u660F\u30D5\u30ED\u30F3\u30C6\u30A3\u30A2,\u4E0A\u6D77\u30A2\u30EA\u30B9\u5E7B\u6A02\u56E3
+  - \u6771\u65B9\u7DCB\u60F3\u5929 (Arrange Version)  \u3042\u304D\u3084\u307E\u3046\u306B.mp3"
+- Assets/KirisameMarisa/Marisa_Han.png
+- Assets/KirisameMarisa/Marisa_RedSmile.png
+- Assets/KirisameMarisa/Marisa_RedShock.png
+- Assets/KirisameMarisa/Marisa_RedSmallCry.png
+- Assets/KirisameMarisa/Marisa_SmallCry.png
+- Assets/KirisameMarisa/Marisa_Emm.png
+- Assets/KirisameMarisa/Marisa_RedBad.png
+- Assets/KirisameMarisa/Marisa_Bad.png
+- Assets/KirisameMarisa/Marisa_RedNormal.png
+- Assets/KirisameMarisa/Marisa_BigHappy.png
+- Assets/KirisameMarisa/Mairsa_RedHan.png
+- Assets/KirisameMarisa/Marisa_Normal.png
+- Assets/KirisameMarisa/Marisa_RedSad.png
+- Assets/KirisameMarisa/Mairsa_Sad.png
+- Assets/KirisameMarisa/Marisa_RedSmallHappy.png
+- Assets/KirisameMarisa/Marisa_Smile.png
+- Assets/KirisameMarisa/Masira_RedSmallBad.png
+- Assets/KirisameMarisa/Mairsa_Shock.png
+- Assets/KirisameMarisa/Marisa_Angry.png
+Dependencies: []

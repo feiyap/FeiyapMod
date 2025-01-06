@@ -11,7 +11,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\MonoMod.RuntimeDetour.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\MonoMod.Utils.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\DynamicEmitAPI.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\KirisameMarisa20241229223937.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\KirisameMarisa20241229223937.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\obj\Debug\KirisameMarisa20241229223937.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\obj\Debug\KirisameMarisa20241229223937.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\KirisameMarisa20251141637.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\bin\Debug\KirisameMarisa20251141637.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\obj\Debug\KirisameMarisa20251141637.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\KirisameMarisa\obj\Debug\KirisameMarisa20251141637.pdb

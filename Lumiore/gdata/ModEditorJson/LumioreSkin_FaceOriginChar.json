@@ -1,0 +1,23 @@
+{
+    "myKey": "LumioreSkin",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Lumiore\\LumioreFaceOriginChar.png",
+        "offsetMax": {
+            "x": 501.59848,
+            "y": 386.0335
+        },
+        "offsetMin": {
+            "x": -522.4017,
+            "y": -637.9665
+        },
+        "pivot": {
+            "x": 0.5087906,
+            "y": 0.617766
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

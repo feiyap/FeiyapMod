@@ -20,6 +20,15 @@
         "SkillExtended": [
             "KirisameMarisa.S_KirisameMarisa_Rare_12"
         ],
-        "NoDrop": false
+        "NoDrop": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

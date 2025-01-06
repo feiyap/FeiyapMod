@@ -42,12 +42,12 @@ namespace KirisameMarisa
         public static string Buff_B_KirisameMarisa_8 = "B_KirisameMarisa_8";
 		/// <summary>
 		/// 危险冲动
-		/// 所有友军每有1个增益，提供“+10%暴击率和+10%暴击伤害”，最多5点。
+		/// 速度大于0时，每多1点提供“+10%暴击率和+10%暴击伤害”，最多5点。
 		/// </summary>
         public static string Buff_B_KirisameMarisa_9 = "B_KirisameMarisa_9";
 		/// <summary>
 		/// 危险本能
-		/// 所有敌人每有1个减益，提供“+10%暴击率和+10%暴击伤害”，最多5点。
+		/// 速度低于0时，每少1点提供“+10%暴击率和+10%暴击伤害”，最多5点。
 		/// </summary>
         public static string Buff_B_KirisameMarisa_9_1 = "B_KirisameMarisa_9_1";
 		/// <summary>
@@ -69,6 +69,11 @@ namespace KirisameMarisa
 		/// 造成暴击时解除。
 		/// </summary>
         public static string Buff_B_KirisameMarisa_P_1 = "B_KirisameMarisa_P_1";
+		/// <summary>
+		/// 危险升空！
+		/// 无敌。
+		/// </summary>
+        public static string Buff_B_KirisameMarisa_Rare_11 = "B_KirisameMarisa_Rare_11";
 		/// <summary>
 		/// 卫星幻觉
 		/// 使用技能时减少一层，造成额外&a点伤害<color=#FF7A33>(攻击力的100%)</color>。
@@ -99,6 +104,7 @@ namespace KirisameMarisa
 		/// 最多拥有4层<color=#00BFFF>危险等级</color>。
 		/// </summary>
         public static string Character_KirisameMarisa = "KirisameMarisa";
+        public static string Character_Skin_KirisameMarisaChrist = "KirisameMarisaChrist";
         public static string Character_Skin_KirisameMarisaEclipse = "KirisameMarisaEclipse";
 		/// <summary>
 		/// 偶遇霖之助
@@ -108,6 +114,11 @@ namespace KirisameMarisa
 		/// </summary>
         public static string RandomEvent_RE_KirisameMarisa_0 = "RE_KirisameMarisa_0";
 		/// <summary>
+		/// 黑白魔法使的帽子
+		/// 战斗开始时，使所有调查员第一次攻击必定暴击，且这次暴击伤害+100%。
+		/// </summary>
+        public static string Item_Passive_R_KirisameMarisa_0 = "R_KirisameMarisa_0";
+		/// <summary>
 		/// 无视防御，造成的伤害翻倍。
 		/// </summary>
         public static string SkillExtended_SE_KirisameMarisa_7 = "SE_KirisameMarisa_7";
@@ -116,8 +127,22 @@ namespace KirisameMarisa
 		/// 同时攻击所有敌人；且若目标只有一个，以暴击形式命中。
 		/// </summary>
         public static string SkillExtended_SE_KirisameMarisa_8 = "SE_KirisameMarisa_8";
+		/// <summary>
+		/// 释放时，雾雨魔理沙获得2层<color=#00BFFF>危险等级</color>。
+		/// </summary>
+        public static string SkillExtended_SE_KirisameMarisa_C_0 = "SE_KirisameMarisa_C_0";
+		/// <summary>
+		/// 费用+1，同时治疗所有队友。
+		/// 指向单体的治疗技能
+		/// </summary>
+        public static string SkillExtended_SE_KirisameMarisa_C_1 = "SE_KirisameMarisa_C_1";
+        public static string SkillEffect_SE_S_S_KirisameMarisa_0_4 = "SE_S_S_KirisameMarisa_0_4";
+        public static string SkillEffect_SE_S_S_KirisameMarisa_1 = "SE_S_S_KirisameMarisa_1";
         public static string SkillEffect_SE_S_S_KirisameMarisa_1_3 = "SE_S_S_KirisameMarisa_1_3";
+        public static string SkillEffect_SE_S_S_KirisameMarisa_7 = "SE_S_S_KirisameMarisa_7";
+        public static string SkillEffect_SE_S_S_KirisameMarisa_7_4 = "SE_S_S_KirisameMarisa_7_4";
         public static string SkillEffect_SE_S_S_KirisameMarisa_8_4 = "SE_S_S_KirisameMarisa_8_4";
+        public static string SkillEffect_SE_S_S_KirisameMarisa_Rare_11 = "SE_S_S_KirisameMarisa_Rare_11";
         public static string SkillEffect_SE_S_S_KirisameMarisa_Rare_12 = "SE_S_S_KirisameMarisa_Rare_12";
         public static string SkillEffect_SE_Tick_B_KirisameMarisa_3 = "SE_Tick_B_KirisameMarisa_3";
         public static string SkillEffect_SE_T_S_KirisameMarisa_0 = "SE_T_S_KirisameMarisa_0";
@@ -139,7 +164,11 @@ namespace KirisameMarisa
         public static string SkillEffect_SE_T_S_KirisameMarisa_5_5 = "SE_T_S_KirisameMarisa_5_5";
         public static string SkillEffect_SE_T_S_KirisameMarisa_5_5_0 = "SE_T_S_KirisameMarisa_5_5_0";
         public static string SkillEffect_SE_T_S_KirisameMarisa_6 = "SE_T_S_KirisameMarisa_6";
+        public static string SkillEffect_SE_T_S_KirisameMarisa_6_0 = "SE_T_S_KirisameMarisa_6_0";
         public static string SkillEffect_SE_T_S_KirisameMarisa_6_2 = "SE_T_S_KirisameMarisa_6_2";
+        public static string SkillEffect_SE_T_S_KirisameMarisa_8 = "SE_T_S_KirisameMarisa_8";
+        public static string SkillEffect_SE_T_S_KirisameMarisa_8_2 = "SE_T_S_KirisameMarisa_8_2";
+        public static string SkillEffect_SE_T_S_KirisameMarisa_8_4 = "SE_T_S_KirisameMarisa_8_4";
         public static string SkillEffect_SE_T_S_KirisameMarisa_9_A = "SE_T_S_KirisameMarisa_9_A";
         public static string SkillEffect_SE_T_S_KirisameMarisa_9_B = "SE_T_S_KirisameMarisa_9_B";
         public static string SkillEffect_SE_T_S_KirisameMarisa_9_C = "SE_T_S_KirisameMarisa_9_C";
@@ -255,6 +284,10 @@ namespace KirisameMarisa
 		/// </summary>
         public static string Skill_S_KirisameMarisa_6 = "S_KirisameMarisa_6";
 		/// <summary>
+		/// 星符「Gravity Beat」
+		/// </summary>
+        public static string Skill_S_KirisameMarisa_6_0 = "S_KirisameMarisa_6_0";
+		/// <summary>
 		/// 星符「Eccentric Asteroid」
 		/// <color=#00BFFF>危险等级2</color> - 如果目标处于嘲讽状态，解除嘲讽状态，并对所有非嘲讽状态的敌人发动追加攻击，造成&a伤害<color=#FF7A33>(攻击力的60%)</color>。
 		/// </summary>
@@ -341,38 +374,16 @@ namespace KirisameMarisa
 		/// <i><color=#696969>似乎能和其他稀有符卡共鸣，引发出更加独特的力量……</color></i>
 		/// </summary>
         public static string Skill_S_KirisameMarisa_Rare_12 = "S_KirisameMarisa_Rare_12";
-        public static string SkillEffect_SE_S_S_KirisameMarisa_0_4 = "SE_S_S_KirisameMarisa_0_4";
-        public static string SkillEffect_SE_S_S_KirisameMarisa_1 = "SE_S_S_KirisameMarisa_1";
-        public static string SkillEffect_SE_S_S_KirisameMarisa_7 = "SE_S_S_KirisameMarisa_7";
-        public static string SkillEffect_SE_S_S_KirisameMarisa_7_4 = "SE_S_S_KirisameMarisa_7_4";
-        public static string SkillEffect_SE_T_S_KirisameMarisa_8_2 = "SE_T_S_KirisameMarisa_8_2";
-        public static string SkillEffect_SE_T_S_KirisameMarisa_8 = "SE_T_S_KirisameMarisa_8";
-        public static string SkillEffect_SE_T_S_KirisameMarisa_8_4 = "SE_T_S_KirisameMarisa_8_4";
-        public static string SkillEffect_SE_S_S_KirisameMarisa_Rare_11 = "SE_S_S_KirisameMarisa_Rare_11";
 		/// <summary>
-		/// 星符「Gravity Beat」
+		/// 超时空「我们的幻想乡！」
+		/// <color=#FFD700>*「梦想天生」+星符「Satellite Illusion」*</color>
+		/// 从所有《东方project》系列的mod角色的稀有技能中，随机生成1个，并为其选择持有者。
+		/// 重复释放，直到手牌达到上限为止。
+		/// <i><color=#00BFFF>上啊灵梦！让他们见识一下我们的厉害！</color></i>
+		/// <i><color=#FF4500>啊啊！可不能在这里输了！</color></i>
+		/// <i><color=#00BFFF>为</color><color=#FF4500>了</color><b><color=#FFD700>辉光闪耀的幻想乡！</color></b></i>
 		/// </summary>
-        public static string Skill_S_KirisameMarisa_6_0 = "S_KirisameMarisa_6_0";
-        public static string SkillEffect_SE_T_S_KirisameMarisa_6_0 = "SE_T_S_KirisameMarisa_6_0";
-		/// <summary>
-		/// 危险升空！
-		/// 无敌。
-		/// </summary>
-        public static string Buff_B_KirisameMarisa_Rare_11 = "B_KirisameMarisa_Rare_11";
-		/// <summary>
-		/// 释放时，雾雨魔理沙获得2层<color=#00BFFF>危险等级</color>。
-		/// </summary>
-        public static string SkillExtended_SE_KirisameMarisa_C_0 = "SE_KirisameMarisa_C_0";
-		/// <summary>
-		/// 费用+1，同时治疗所有队友。
-		/// 指向单体的治疗技能
-		/// </summary>
-        public static string SkillExtended_SE_KirisameMarisa_C_1 = "SE_KirisameMarisa_C_1";
-		/// <summary>
-		/// 黑白魔法使的帽子
-		/// 战斗开始时，使所有调查员第一次攻击必定暴击，且这次暴击伤害+100%。
-		/// </summary>
-        public static string Item_Passive_R_KirisameMarisa_0 = "R_KirisameMarisa_0";
+        public static string Skill_S_Satellite_Reimu = "S_Satellite_Reimu";
 
     }
 

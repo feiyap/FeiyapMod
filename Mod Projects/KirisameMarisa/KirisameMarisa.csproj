@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>KirisameMarisa20241229223937</AssemblyName>
+    <AssemblyName>KirisameMarisa20251141637</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -435,7 +435,7 @@
     </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                                      <!-- Compile ItemGroup Start-->
+                                                                                                                                                              <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="KirisameMarisa_ModDefinition.cs" />
@@ -458,6 +458,16 @@
     <Compile Include="Buff\B_KirisameMarisa_Rare_11.cs" />
     <Compile Include="Buff\B_KirisameMarisa_Rare_12.cs" />
     <Compile Include="Character\P_KirisameMarisa.cs" />
+    <Compile Include="Dialogue\DiaNormal.cs" />
+    <Compile Include="Dialogue\Dia_DVD.cs" />
+    <Compile Include="Dialogue\Dia_Gun.cs" />
+    <Compile Include="Dialogue\Dia_Marisa_Lv1.cs" />
+    <Compile Include="Dialogue\Dia_Marisa_Lv2.cs" />
+    <Compile Include="Dialogue\Dia_Marisa_Lv3.cs" />
+    <Compile Include="Dialogue\Dia_Mugwort.cs" />
+    <Compile Include="Dialogue\Dia_Sake.cs" />
+    <Compile Include="Dialogue\MarisaCharacter.cs" />
+    <Compile Include="Dialogue\MarisaDialogue_Def.cs" />
     <Compile Include="Item_Consume\Item_KirisameMarisa_DangerTrigger.cs" />
     <Compile Include="Item_Equip\E_KirisameMarisa_0.cs" />
     <Compile Include="Item_Equip\E_KirisameMarisa_1.cs" />
@@ -466,6 +476,7 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="RandomEvent\RE_KirisameMarisa_0.cs" />
+    <Compile Include="Satellite\S_Satellite_Reimu.cs" />
     <Compile Include="Skill\S_KirisameMarisa_0.cs" />
     <Compile Include="Skill\S_KirisameMarisa_0_4.cs" />
     <Compile Include="Skill\S_KirisameMarisa_1.cs" />

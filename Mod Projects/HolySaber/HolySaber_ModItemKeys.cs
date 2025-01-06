@@ -349,6 +349,7 @@ namespace HolySaber
         public static string Skill_S_HolySaber_Rare_1__Ex = "S_HolySaber_Rare_1__Ex";
 		/// <summary>
 		/// 神谕的启程·贞德
+		/// 握在手中时，使用2个技能，会使这个技能<color=#FFA500>进化</color>。
 		/// <color=#FFA500>进化</color> - 使手中所有可<color=#FFA500>进化</color>的技能<color=#FFA500>进化</color>。
 		/// </summary>
         public static string Skill_S_HolySaber_Rare_2 = "S_HolySaber_Rare_2";

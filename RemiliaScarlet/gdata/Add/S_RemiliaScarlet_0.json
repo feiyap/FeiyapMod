@@ -18,7 +18,7 @@
         "Name": "红符「红色不夜城」",
         "Target": "all_enemy",
         "User": "RemiliaScarlet",
-        "Description": "命中后使目标身上的<sprite name=\"RemiliaScarlet_blood\"><color=#FF3030>绯夜</color>立即结算一次伤害，并将<sprite name=\"RemiliaScarlet_blood\"><color=#FF3030>绯夜</color>延长1回合。",
+        "Description": "每命中1个敌人，使自身获得1层[摇篮曲]。",
         "UseAp": 1,
         "Particle": "Particle/Twins/HeliaEffect_2",
         "Image_0": "S_RemiliaScarlet_0\\S_RemiliaScarlet_0_Image_0.png",

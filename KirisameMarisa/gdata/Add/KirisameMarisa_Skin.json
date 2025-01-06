@@ -1,0 +1,15 @@
+{
+    "KirisameMarisa_Skin": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "森林的魔法侦探",
+        "Character": "KirisameMarisa",
+        "SkinDesc": "虽然不知道是不是真的轻松，这工作听起来还蛮有趣的。\r\n但是我拒绝！\r\n我想按照自己喜欢的方式生活下去，\r\n如果要让我变得和那两个人一样，还恕我拒绝。",
+        "FaceSprite": "KirisameMarisaSkin\\KirisameMarisaSkinBattleFace.png",
+        "CampSD": [
+            "KirisameMarisaSkin\\KirisameMarisaSkinCampSD0.png",
+            "KirisameMarisaSkin\\KirisameMarisaSkinCampSD1.png",
+            "KirisameMarisaSkin\\KirisameMarisaSkinCampSD2.png",
+            "KirisameMarisaSkin\\KirisameMarisaSkinCampSD3.png"
+        ]
+    }
+}
