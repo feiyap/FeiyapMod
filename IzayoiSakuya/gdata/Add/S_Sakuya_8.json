@@ -17,6 +17,8 @@
             "IzayoiSakuya.S_Sakuya_8"
         ],
         "Rare": false,
-        "PlusSkillView": "S_Sakuya_P"
+        "PlusSkillView": "S_Sakuya_P",
+        "NoBasicSkill": false,
+        "Fatal": false
     }
 }

@@ -1,0 +1,18 @@
+{
+    "S_Sakuya_LucyD_1": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": true,
+        "Name": "空虚「膨胀空间」",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "IzayoiSakuya",
+        "UseAp": 1,
+        "Description": "",
+        "Effect_Target": "SE_T_S_Sakuya_LucyD_1",
+        "Image_0": "S_Sakuya_LucyD_1\\S_Sakuya_LucyD_1_Image_0.png",
+        "Image_1": "S_Sakuya_LucyD_1\\S_Sakuya_LucyD_1_Image_1.png",
+        "Image_2": "S_Sakuya_LucyD_1\\S_Sakuya_LucyD_1_Image_2.png"
+    }
+}

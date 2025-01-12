@@ -6,7 +6,7 @@
         "Target": "all_enemy",
         "NotCount": true,
         "Name": "幻葬「夜雾幻影杀人鬼」",
-        "Description": "每有1层[时钟停摆]，额外造成%a(15%)伤害。",
+        "Description": "消耗所有<color=#EEE9E9>时停飞刀</color>。\n每有1把<color=#EEE9E9>时停飞刀</color>，额外造成一次追加攻击，造成&a伤害<color=#FF7A33>(攻击力的30%)</color>。",
         "User": "IzayoiSakuya",
         "Rare": true,
         "UseAp": 3,

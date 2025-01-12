@@ -1,0 +1,12 @@
+{
+    "S_Sakuya_Knife": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/slash1",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "时停飞刀",
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Sakuya_Knife"
+    }
+}

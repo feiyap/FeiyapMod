@@ -21,10 +21,12 @@ namespace IzayoiSakuya
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
+            Skill tmpSkill = Skill.TempSkill("S_Sakuya_0_0", this.BChar, this.BChar.MyTeam);
+            BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
+
             if (CheckLunaMagic())
             {
-                Skill tmpSkill = Skill.TempSkill("S_Sakuya_0_0", this.BChar, this.BChar.MyTeam);
-                BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
+                P_IzayoiSakuya.getTimeKnife(this.BChar, BattleSystem.instance.AllyTeam.Skills.Count());
             }
         }
     }

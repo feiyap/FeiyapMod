@@ -26,20 +26,26 @@ namespace IzayoiSakuya
             {
                 this.APChange = 0;
                 this.IgnoreTaunt = false;
+
                 if (CheckLunaMagic())
                 {
                     this.APChange = -1;
                     this.IgnoreTaunt = true;
+                    
                 }
             }
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
+            this.BChar.BuffAdd("B_Sakuya_P_0", this.BChar, false, 0, false, -1, false);
+            this.BChar.BuffAdd("B_Sakuya_P_0", this.BChar, false, 0, false, -1, false);
+
+            this.PlusSkillStat.Penetration = 0;
+
             if (CheckLunaMagic())
             {
-                this.BChar.BuffAdd("B_Sakuya_P_0", this.BChar, false, 0, false, -1, false);
-                this.BChar.BuffAdd("B_Sakuya_P_0", this.BChar, false, 0, false, -1, false);
+                this.PlusSkillStat.Penetration = 100;
             }
         }
     }

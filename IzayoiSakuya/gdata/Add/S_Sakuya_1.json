@@ -6,7 +6,7 @@
         "Target": "enemy",
         "Name": "速符「闪光弹跳」",
         "UseAp": 2,
-        "Description": "月魔术 - 降低1点费用、附带无视嘲讽。立刻获得2层[时钟停摆]。",
+        "Description": "获得2层<color=#00BFFF>时钟停摆</color>。\n\n<color=#4169E1>月魔术</color> - 降低1点费用，附带无视嘲讽，并且无视防御。",
         "User": "IzayoiSakuya",
         "PlusKeyWords": [
             "Keyword_LunaMagic"

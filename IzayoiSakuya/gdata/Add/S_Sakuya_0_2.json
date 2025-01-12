@@ -5,7 +5,7 @@
         "Particle": "Particle/impact",
         "Target": "skill",
         "Name": "调换魔术·白",
-        "Description": "将技能放在手牌底。",
+        "Description": "将目标技能放在手牌最下方。",
         "Image_0": "S_Sakuya_0_2\\S_Sakuya_0_2_Image_0.png",
         "SkillExtended": [
             "IzayoiSakuya.S_Sakuya_0_2"

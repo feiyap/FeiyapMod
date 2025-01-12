@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "恶魔「Remilia Stretch」",
-        "Description": "依据自身最大体力值，额外造成&a(50%)伤害。倒计时期间，自身获得50%受伤减免和100%减益抵抗。\n这个技能造成伤害的100%将会超额治疗自己。",
+        "Description": "依据自身最大体力值，额外造成&a伤害(自身最大体力值的100%)。\n倒计时期间，自身获得50%受伤减免和100%减益抵抗。\n这个技能造成伤害的50%将会超额治疗自己。",
         "UseAp": 3,
         "Particle": "Particle/Enemy/Golem_2",
         "User": "RemiliaScarlet",

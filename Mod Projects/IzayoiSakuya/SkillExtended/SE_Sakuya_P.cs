@@ -28,29 +28,7 @@ namespace IzayoiSakuya
 
         public void checkLunaMagicEffect()
         {
-            //回费
-            if (this.BChar.BuffFind("B_Sakuya_12Rare"))
-            {
-                BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
-                int ap = allyTeam.AP;
-                allyTeam.AP = ap + 1;
-            }
 
-            //抽卡
-            if (this.BChar.BuffFind("B_Sakuya_5_new"))
-            {
-                BattleSystem.instance.AllyTeam.Draw();
-            }
-
-            //伤害
-            if (this.BChar.BuffFind("B_Sakuya_4_new"))
-            {
-                Skill skill2 = Skill.TempSkill("S_Sakuya_4_new", this.BChar, this.BChar.MyTeam);
-                skill2.isExcept = true;
-                skill2.FreeUse = true;
-                skill2.PlusHit = true;
-                BattleTeam.SkillRandomUse(this.BChar, skill2, false, true, false);
-            }
         }
     }
 }

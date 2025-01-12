@@ -3,5 +3,6 @@
     "AssemblyName": "KoumakyouBoss",
     "Namespace": "KoumakyouBoss",
     "ModItemKeysPath": "KoumakyouBoss_ModItemKeys.cs",
-    "TempAssemblyName": "KoumakyouBoss20241020102109"
+    "TempAssemblyName": "KoumakyouBoss20241020102109",
+    "KeyIDWithModID": false
 }

@@ -30,6 +30,7 @@ namespace IzayoiSakuya
         public override void DiscardSingle(bool Click)
         {
             BattleSystem.instance.AllyTeam.Draw();
+            P_IzayoiSakuya.getTimeKnife(this.BChar, 1);
             base.DiscardSingle(Click);
         }
     }

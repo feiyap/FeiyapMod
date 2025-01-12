@@ -22,6 +22,20 @@ namespace IzayoiSakuya
         {
             Skill tmpSkill = Skill.TempSkill("S_Sakuya_0_0", this.BChar, this.BChar.MyTeam);
             BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
+
+            if (Targets[0] != this.BChar)
+            {
+                if (BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>() == null)
+                {
+                    BattleSystem.instance.BattleValues.Add(new BV_Sakuya_TKnife());
+                }
+                
+                int count = BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar];
+                P_IzayoiSakuya.getTimeKnife(this.BChar, -count);
+                P_IzayoiSakuya.getTimeKnife(Targets[0], count);
+
+                Targets[0].MyTeam.BasicSkillRefill(Targets[0], Targets[0].BattleBasicskillRefill);
+            }
         }
     }
 }

@@ -15,50 +15,50 @@ namespace IzayoiSakuya
 {
 	/// <summary>
 	/// 幻在「钟表的残骸」
-	/// 倒计时1后，再造成%a伤害。
-	/// 月魔术 - 倒计时延长为3。倒计时期间，目标受到的伤害增加15%。
+	/// 每经过1个倒计时，这个技能的伤害降低&a点<color=#FF7A33>(攻击力的50%)</color>。
+    /// <color=#4169E1>月魔术</color> - 变为倒计时8。
 	/// </summary>
-    public class S_Sakuya_3: SkillExtended_Sakuya
+    public class S_Sakuya_3: SkillExtended_Sakuya, IP_SkillCastingStart
     {
-        public bool flag2;
+        private int plus_damage;
+        private int castTime;
+
+        public override void HandInit()
+        {
+            base.HandInit();
+            this.plus_damage = 0;
+        }
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            if (BattleSystem.instance != null && BattleSystem.instance.AllyTeam.Skills.Count != 0)
+            {
+                this.Counting = 10;
+
+                if (CheckLunaMagic())
+                {
+                    this.Counting = 8;
+                }
+            }
+
+            plus_damage = (castTime - BattleSystem.instance.AllyTeam.TurnActionNum) * (int)(this.BChar.GetStat.atk * 0.5f);
+            this.SkillBasePlus.Target_BaseDMG = this.plus_damage;
+        }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (CheckLunaMagic())
-            {
-                flag2 = true;
-            }
-            else
-            {
-                flag2 = false;
-            }
+            this.SkillBasePlus.Target_BaseDMG = this.plus_damage;
         }
 
-        public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
+        public void SkillCasting(CastingSkill ThisSkill)
         {
-            if (this.flag2)
-            {
-                Skill skill = Skill.TempSkill("S_Sakuya_3_1", this.BChar, this.BChar.MyTeam).CloneSkill(false, null, null, false);
-                skill.isExcept = true;
-                skill.FreeUse = true;
-                skill.PlusHit = true;
-                BattleSystem.DelayInput(BattleSystem.instance.ForceAction(skill, hit, false, false, true, null));
-                this.MySkill.MySkill.Name = ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate(this.MySkill.MySkill.KeyID + "L");
-            }
-            else
-            {
-                Skill skill = Skill.TempSkill("S_Sakuya_3_0", this.BChar, this.BChar.MyTeam).CloneSkill(false, null, null, false);
-                skill.isExcept = true;
-                skill.FreeUse = true;
-                skill.PlusHit = true;
-                BattleSystem.DelayInput(BattleSystem.instance.ForceAction(skill, hit, false, false, true, null));
-                this.MySkill.MySkill.Name = ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate(this.MySkill.MySkill.KeyID + "N");
-            }
+            castTime = BattleSystem.instance.AllyTeam.TurnActionNum;
         }
-        
+
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("%a", ((int)(this.BChar.GetStat.atk * 1.0f)).ToString()).Replace("%b", ((int)(this.BChar.GetStat.atk * 0.2f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.5f)).ToString());
         }
     }
 }

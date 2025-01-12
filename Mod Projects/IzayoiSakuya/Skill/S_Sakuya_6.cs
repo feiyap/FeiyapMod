@@ -20,48 +20,12 @@ namespace IzayoiSakuya
 	/// </summary>
     public class S_Sakuya_6: SkillExtended_Sakuya
     {
-        public override void SkillTargetSingle(List<Skill> Targets)
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            base.SkillTargetSingle(Targets);
-
-            int cost = Targets[0].AP;
-            BattleSystem.DelayInputAfter(this.MoveUp(Targets[0]));
-
             if (CheckLunaMagic())
             {
-                BattleSystem.instance.AllyTeam.Draw();
-                for (int i = 0; i < cost; i++)
-                {
-                    BattleSystem.DelayInputAfter(this.Ienum());
-                }
+                Targets[0].BuffAdd("B_Sakuya_6_0", this.BChar);
             }
-        }
-
-        public IEnumerator MoveUp(Skill Temp)
-        {
-            if (BattleSystem.instance.AllyTeam.Skills.Remove(Temp))
-            {
-                yield return BattleSystem.instance.ActAfter();
-                int num = 0;
-                yield return BattleSystem.instance.StartCoroutine(BattleSystem.instance.AllyTeam._Add(Temp, true, num));
-            }
-            yield break;
-        }
-
-        public IEnumerator Ienum()
-        {
-            Skill skill = Skill.TempSkill("S_Sakuya_6_0", this.BChar, this.BChar.MyTeam).CloneSkill(false, null, null, false);
-            skill.isExcept = true;
-            skill.FreeUse = true;
-            skill.PlusHit = true;
-            this.BChar.ParticleOut(skill, BattleSystem.instance.EnemyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main));
-            yield return new WaitForSecondsRealtime(0.1f);
-            yield break;
-        }
-
-        public override string DescExtended(string desc)
-        {
-            return base.DescExtended(desc).Replace("%a", ((int)(this.BChar.GetStat.atk * 0.4f)).ToString());
         }
     }
 }

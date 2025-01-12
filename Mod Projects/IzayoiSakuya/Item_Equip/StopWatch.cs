@@ -23,6 +23,7 @@ namespace IzayoiSakuya
             base.Init();
             this.PlusStat.HIT_CC = 20f;
             this.PlusStat.dod = 20f;
+            this.PlusStat.cri = 20f;
         }
 
         public void BattleStart(BattleSystem Ins)

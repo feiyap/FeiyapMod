@@ -7,7 +7,7 @@
         "Name": "时计「月时计」",
         "Description": "",
         "NotCount": true,
-        "Disposable": true,
+        "Disposable": false,
         "Counting": 0,
         "AutoDelete": 2,
         "Effect_Target": "SE_T_S_Sakuya_P",
@@ -20,7 +20,9 @@
         "Rare": false,
         "NoBasicSkill": false,
         "SkillExtended": [
-            "IzayoiSakuya.SE_Sakuya_P"
-        ]
+            "IzayoiSakuya.S_Sakuya_P"
+        ],
+        "Fatal": false,
+        "NoDrop": true
     }
 }

@@ -2,10 +2,10 @@
     "S_Sakuya_6": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Target": "skill",
+        "Target": "ally",
         "Name": "奇术「误导」",
-        "Description": "将1个技能放回手牌顶。\n月魔术 - 抽取1个技能。根据指定技能的费用，每点费用对所有敌人造成%a点伤害。",
-        "UseAp": 0,
+        "Description": "<color=#4169E1>月魔术</color> - 使目标额外获得“受到攻击时，十六夜咲夜会对来源进行一次反击”。",
+        "UseAp": 2,
         "User": "IzayoiSakuya",
         "Image_0": "S_Sakuya_6\\S_Sakuya_6_Image_0.png",
         "Image_1": "S_Sakuya_6\\S_Sakuya_6_Image_1.png",
@@ -16,15 +16,16 @@
         "SKillExtendedItem": [
             "SE_Sakuya_P"
         ],
-        "Effect_Target": "null",
+        "Effect_Target": "SE_T_S_Sakuya_6",
         "NotCount": true,
         "Disposable": false,
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Buff",
         "Rare": false,
         "PlusKeyWords": [
             "Keyword_LunaMagic"
         ],
-        "NoBasicSkill": false,
-        "Fatal": false
+        "NoBasicSkill": true,
+        "Fatal": false,
+        "Track": false
     }
 }

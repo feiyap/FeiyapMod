@@ -1,0 +1,19 @@
+{
+    "S_Sakuya_4_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Blade_2",
+        "Target": "enemy",
+        "NotCount": true,
+        "Fatal": false,
+        "Name": "奇术「永恒的温柔」",
+        "UseAp": 2,
+        "Counting": 0,
+        "Except": true,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Sakuya_4_0",
+        "Image_0": "S_Sakuya_4_0\\S_Sakuya_4_0_Image_0.png",
+        "Image_1": "S_Sakuya_4_0\\S_Sakuya_4_0_Image_1.png",
+        "Image_2": "S_Sakuya_4_0\\S_Sakuya_4_0_Image_2.png"
+    }
+}

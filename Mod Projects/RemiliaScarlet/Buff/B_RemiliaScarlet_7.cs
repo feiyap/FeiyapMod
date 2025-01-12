@@ -13,10 +13,10 @@ using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 namespace RemiliaScarlet
 {
-	/// <summary>
-	/// 血狱
-	/// 每次行动时，对左边和右边的敌人施加1层<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>；如果只剩自己，则对自己施加<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>。
-	/// </summary>
+    /// <summary>
+    /// 狂血之吻
+    /// 攻击力提升&a点(&user最大体力值的10%)。
+    /// </summary>
     public class B_RemiliaScarlet_7:Buff
     {
 

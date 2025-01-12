@@ -2,17 +2,17 @@
     "S_Sakuya_5_new": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
-        "Target": "self",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
         "NotCount": true,
         "Name": "时符「完美空间」",
-        "Description": "",
+        "Description": "将1张“时符「调换魔法」”加入手中。\n如果目标是其他友军，将自身所有<color=#EEE9E9>时停飞刀</color>转移至目标身上，并使其固定技能变为可用状态。",
         "UseAp": 1,
         "Rare": false,
         "User": "IzayoiSakuya",
-        "Disposable": true,
-        "NoBasicSkill": true,
-        "Effect_Self": "SE_S_S_Sakuya_5_new",
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Effect_Self": "null",
         "Image_0": "S_Sakuya_5_new\\S_Sakuya_5_new_Image_0.png",
         "Image_1": "S_Sakuya_5_new\\S_Sakuya_5_new_Image_1.png",
         "Image_2": "S_Sakuya_5_new\\S_Sakuya_5_new_Image_2.png",
@@ -26,6 +26,10 @@
         "Basic": false,
         "Track": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "Effect_Target": "SE_T_S_Sakuya_5_new",
+        "SkillExtended": [
+            "IzayoiSakuya.S_Sakuya_5_new"
+        ]
     }
 }

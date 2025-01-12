@@ -20,15 +20,7 @@ namespace IzayoiSakuya
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            //伤害
-            if (this.BChar.BuffFind("B_Sakuya_4_new"))
-            {
-                Skill skill2 = Skill.TempSkill("S_Sakuya_4_new", this.BChar, this.BChar.MyTeam);
-                skill2.isExcept = true;
-                skill2.FreeUse = true;
-                skill2.PlusHit = true;
-                BattleTeam.SkillRandomUse(this.BChar, skill2, false, true, false);
-            }
+           
         }
     }
 }

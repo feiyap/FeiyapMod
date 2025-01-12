@@ -3,15 +3,17 @@
         "_gdeSchema": "Buff",
         "Cantdisable": false,
         "ClassName": "RemiliaScarlet.B_RemiliaScarlet_7",
-        "BuffTag": "Debuff",
-        "Name": "鲜血盛宴",
-        "Description": "",
+        "BuffTag": "null",
+        "Name": "狂血之吻",
+        "Description": "攻击力提升&a点(&user最大体力值的10%)。",
         "MaxStack": 0,
-        "LifeTime": 5,
-        "Debuff": true,
-        "TagPer": 125,
+        "LifeTime": 2,
+        "Debuff": false,
+        "TagPer": 0,
         "Icon": "B_RemiliaScarlet_7\\B_RemiliaScarlet_7_Icon.png",
         "Hide": false,
-        "IsFieldBuff": false
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

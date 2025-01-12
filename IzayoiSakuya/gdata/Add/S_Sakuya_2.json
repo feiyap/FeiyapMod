@@ -5,8 +5,8 @@
         "Particle": "Particle/slash2",
         "Target": "enemy",
         "Name": "伤符「铭刻于红魂」",
-        "Description": "月魔术 - 指定全部敌人。",
-        "UseAp": 1,
+        "Description": "以倒计时3重复释放1次。\n\n<color=#4169E1>月魔术</color> - 以倒计时5重复释放1次。",
+        "UseAp": 2,
         "User": "IzayoiSakuya",
         "PlusKeyWords": [
             "Keyword_LunaMagic"
@@ -22,6 +22,21 @@
             "SE_Sakuya_P"
         ],
         "IgnoreTaunt": false,
-        "NotCount": false
+        "NotCount": false,
+        "Disposable": false,
+        "AutoDelete": 0,
+        "Counting": 1,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

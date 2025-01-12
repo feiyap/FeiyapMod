@@ -22,46 +22,32 @@ namespace IzayoiSakuya
         public override void Init()
         {
             base.Init();
-            this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
-        }
+            int count = BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar];
 
-        public int PlusDmg
-        {
-            get
+            if (count >= 1)
             {
-                if (BattleSystem.instance == null || BattleSystem.instance.BattleLogs == null || BattleSystem.instance.TurnNum <= 0)
+                foreach (BattleChar bc in Targets)
                 {
-                    return 0;
-                }
-                if (this.BChar.BuffFind("B_Sakuya_P_0", false))
-                {
-                    return (int)(this.BChar.BuffReturn("B_Sakuya_P_0", false).StackNum * this.BChar.GetStat.atk * 0.15f);
-                }
-                else
-                {
-                    return 0;
+                    Skill skill = Skill.TempSkill("S_Sakuya_Knife", this.BChar, this.BChar.MyTeam);
+                    skill.isExcept = true;
+                    skill.FreeUse = true;
+                    skill.PlusHit = true;
+
+                    if (bc != null || bc.IsDead)
+                    {
+                        BattleSystem.instance.StartCoroutine(BattleSystem.instance.ForceAction(skill, bc, false, false, false, null));
+                    }
                 }
             }
         }
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("%a", ((int)(this.BChar.GetStat.atk * 0.15f)).ToString());
-        }
-
-        public void LogUpdate(BattleLog log)
-        {
-            this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
-        }
-
-        public void Turn()
-        {
-            this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.3f)).ToString());
         }
     }
 }

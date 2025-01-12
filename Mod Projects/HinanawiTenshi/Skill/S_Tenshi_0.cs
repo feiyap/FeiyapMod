@@ -46,13 +46,12 @@ namespace HinanawiTenshi
             {
                 foreach (BattleChar bc in BattleSystem.instance.AllyList)
                 {
-                    AddTenki(bc, 1);
-                    BattleSystem.instance.GetBattleValue<BV_Tenshi_P>().Kishi++;
+                    AddTenki(bc, 3);
                 }
             }
             else
             {
-                AddTenki(this.BChar, 1);
+                AddTenki(this.BChar, 3);
             }
         }
     }

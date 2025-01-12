@@ -3,11 +3,11 @@
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
         "HEAL_Per": 0,
-        "DMG_Per": 100,
+        "DMG_Per": 65,
         "DMG_Base": 0,
         "HEAL_MaxHpPer": 0,
         "HEAL_Base": 0,
-        "CRI": 5,
+        "CRI": 0,
         "ForceHeal": false,
         "ChainHeal": false,
         "Buffs": [

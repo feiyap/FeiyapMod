@@ -7,11 +7,11 @@
         "BuffTag": "null",
         "UseSkillDebuff": false,
         "Caution": false,
-        "Name": "「完美女仆」",
-        "Description": "所有技能都能触发 [月魔术] 的额外效果。每次触发「月魔术」的额外效果时，恢复1点法力值。",
+        "Name": "完美女仆",
+        "Description": "使手中最上方和最下方的技能获得迅速。\n每次打出手中持有者为自己的、最上方或最下方的技能，恢复1点法力值，抽取1个技能。",
         "ClassName": "IzayoiSakuya.B_Sakuya_12Rare",
         "MaxStack": 0,
-        "LifeTime": 3,
+        "LifeTime": 2,
         "Icon": "B_Sakuya_12Rare\\B_Sakuya_12Rare_Icon.png"
     }
 }

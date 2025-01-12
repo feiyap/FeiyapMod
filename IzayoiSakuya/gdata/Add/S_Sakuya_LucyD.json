@@ -6,7 +6,7 @@
         "Target": "Misc",
         "Disposable": false,
         "Name": "时符「隧穿效应」",
-        "Description": "抽取1个技能。\n将牌堆1个技能置于牌堆顶部。\n将1张[时符「调换魔法」]加入手中。",
+        "Description": "抽取1个技能。\n展示牌库中的技能，选择其中1个置于顶部。\n将1个“时符「调换魔法」”加入手中。",
         "User": "LucyDraw",
         "LucyPartyDraw": "IzayoiSakuya",
         "UseAp": 1,
@@ -18,6 +18,8 @@
         "SkillExtended": [
             "IzayoiSakuya.S_Sakuya_LucyD"
         ],
-        "NoBasicSkill": false
+        "NoBasicSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false
     }
 }

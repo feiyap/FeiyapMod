@@ -7,7 +7,7 @@
         "NotCount": true,
         "Disposable": false,
         "Name": "奇术「永恒的温柔」",
-        "Description": "",
+        "Description": "这个技能因为技能效果降低倒计时时，在倒计时栏中生成1个倒计时-1的复制（生成的复制无法再生成复制）。",
         "User": "IzayoiSakuya",
         "UseAp": 2,
         "AutoDelete": 0,
@@ -31,6 +31,7 @@
         "Basic": false,
         "EnemyPreview": false,
         "UnknownTarget": false,
-        "Effect_Self": "SE_S_S_Sakuya_4"
+        "Effect_Self": "null",
+        "Counting": 6
     }
 }

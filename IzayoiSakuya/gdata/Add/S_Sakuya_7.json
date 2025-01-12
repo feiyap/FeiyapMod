@@ -5,7 +5,7 @@
         "Particle": "Particle/impact",
         "Target": "skill",
         "Name": "幻术「吾刃回归」",
-        "Description": "选中的技能即使不在手牌顶或手牌底也能触发「月魔术」的额外效果。\n如果选中的技能不带有「月魔术」，则改为仅有一次：费用降低1点、附加迅速。",
+        "Description": "如果目标带有<color=#4169E1>月魔术</color>关键词，使其即使不在手牌最上方或最下方也能触发<color=#4169E1>月魔术</color>的额外效果；\n否则本场战斗仅一次，使其费用降低1点，附带迅速。",
         "User": "IzayoiSakuya",
         "UseAp": 0,
         "NotCount": true,

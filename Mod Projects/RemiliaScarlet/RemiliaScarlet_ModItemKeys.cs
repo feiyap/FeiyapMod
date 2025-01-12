@@ -10,7 +10,7 @@ namespace RemiliaScarlet
         public static string Buff_B_RemiliaScarlet_0 = "B_RemiliaScarlet_0";
 		/// <summary>
 		/// 摇篮曲
-		/// 受击时减少1层，赋予敌人1层[绯夜]。
+		/// 受击时减少1层，赋予敌人1层<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_1 = "B_RemiliaScarlet_1";
 		/// <summary>
@@ -38,6 +38,10 @@ namespace RemiliaScarlet
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_6 = "B_RemiliaScarlet_6";
 		/// <summary>
+		/// 鲜血盛宴
+		/// </summary>
+        public static string Buff_B_RemiliaScarlet_7 = "B_RemiliaScarlet_7";
+		/// <summary>
 		/// 千年吸血鬼
 		/// 造成伤害25%吸血；每次造成伤害抽1个技能，最多触发4次。
 		/// </summary>
@@ -50,8 +54,10 @@ namespace RemiliaScarlet
 		/// <summary>
 		/// 蕾米莉亚
 		/// Passive:
-		/// 操纵命运的能力 - 战斗开始时，所有队友获得额外10%暴击率、命中率、闪避率。
-		/// 献给去世王女的七重奏 - 蕾米莉亚升级无法提升最大体力值。作为替代，敌人阵亡时，蕾米莉亚将获得1点永久最大体力值。最多增加当前等级x5点。当作为第四个队友入队时，自动获得10点永久最大体力值。
+		/// <b>操纵命运的能力</b> - 战斗开始时，所有队友获得额外10%暴击率、命中率、闪避率。
+		/// <b>献给已逝公主的七重奏</b> - 蕾米莉亚升级无法提升最大体力值。作为替代，敌人阵亡时，蕾米莉亚将获得1点永久最大体力值。
+		/// 最多增加当前等级x5点。
+		/// 当作为第四个队友入队时，自动获得10点永久最大体力值。
 		/// </summary>
         public static string Character_RemiliaScarlet = "RemiliaScarlet";
         public static string Character_Skin_RemiliaScarletEclipse = "RemiliaScarletEclipse";
@@ -115,8 +121,12 @@ namespace RemiliaScarlet
 		/// </summary>
         public static string SkillExtended_SkillEn_Remilia_0 = "SkillEn_Remilia_0";
 		/// <summary>
+		/// 这个技能击杀敌人时，获得1点永久最大体力值，恢复2点法力值。1场战斗只能触发1次。
+		/// 攻击技能
+		/// </summary>
+        public static string SkillExtended_SkillEn_Remilia_1 = "SkillEn_Remilia_1";
+		/// <summary>
 		/// 红符「红色不夜城」
-		/// 命中后使目标身上的<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>立即结算一次伤害，并将<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>延长1回合。
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_0 = "S_RemiliaScarlet_0";
 		/// <summary>
@@ -136,6 +146,7 @@ namespace RemiliaScarlet
         public static string Skill_S_RemiliaScarlet_11Rare = "S_RemiliaScarlet_11Rare";
 		/// <summary>
 		/// 红魔「Scarlet Devil」
+		/// 这个技能造成伤害的25%将会超额治疗自己。
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_12Rare = "S_RemiliaScarlet_12Rare";
 		/// <summary>
@@ -169,7 +180,8 @@ namespace RemiliaScarlet
 		/// <summary>
 		/// 诅咒「弗拉德·特佩斯的诅咒」
 		/// 仅在自身拥有[吸血鬼之心]增益的时候才可使用。
-		/// 消耗1层[吸血鬼之心]增益，超额治疗&a(自身20%最大体力值)的体力。
+		/// 消耗1层[吸血鬼之心]增益，获得&a(自身100%最大体力值)点防护墙。
+		/// 消耗所有[摇篮曲]增益，每消耗1层，额外获得&b(自身10%最大体力值)点防护墙；每消耗5层，抽取1个技能，恢复1点法力值。
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_8 = "S_RemiliaScarlet_8";
 		/// <summary>
@@ -181,16 +193,6 @@ namespace RemiliaScarlet
 		/// 「千年吸血鬼」
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_LucyD = "S_RemiliaScarlet_LucyD";
-		/// <summary>
-		/// 这个技能击杀敌人时，获得1点永久最大体力值，恢复2点法力值。1场战斗只能触发1次。
-		/// 攻击技能
-		/// </summary>
-        public static string SkillExtended_SkillEn_Remilia_1 = "SkillEn_Remilia_1";
-		/// <summary>
-		/// 血狱
-		/// 每次行动时，对左边和右边的敌人施加1层<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>；如果只剩自己，则对自己施加<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>。
-		/// </summary>
-        public static string Buff_B_RemiliaScarlet_7 = "B_RemiliaScarlet_7";
 
     }
 

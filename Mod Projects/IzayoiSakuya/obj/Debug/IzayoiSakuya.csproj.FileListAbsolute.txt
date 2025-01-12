@@ -2,7 +2,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\De
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya.csproj.CoreCompileInputs.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya.csproj.CopyComplete
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya2024113111106.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya2024113111106.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya2024113111106.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya2024113111106.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya2025112210336.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya2025112210336.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya2025112210336.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya2025112210336.pdb

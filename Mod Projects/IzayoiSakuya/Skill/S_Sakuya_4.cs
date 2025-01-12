@@ -15,7 +15,7 @@ namespace IzayoiSakuya
 {
     /// <summary>
     /// 奇术「永恒的温柔」
-    /// 场上每有1个敌人拥有减益效果，将1张[时符「调换魔法」]加入手中。
+    /// 这个技能因为技能效果降低倒计时时，在倒计时栏中生成1个倒计时-1的复制（生成的复制无法再生成复制）。
     /// </summary>
     public class S_Sakuya_4:Skill_Extended
     {

@@ -15,20 +15,22 @@ namespace IzayoiSakuya
 {
 	/// <summary>
 	/// 伤符「铭刻于红魂」
-	/// 月魔术：指定全部敌人。
+	/// 以倒计时3重复释放1次。
+    /// <color=#4169E1>月魔术</color> - 以倒计时5重复释放1次。
 	/// </summary>
     public class S_Sakuya_2: SkillExtended_Sakuya
     {
-        public override void FixedUpdate()
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            base.FixedUpdate();
-            if (BattleSystem.instance != null && BattleSystem.instance.AllyTeam.Skills.Count != 0)
+            Skill skill = SkillD.CloneSkill(true, SkillD.Master, null, false);
+            skill.Counting = 3;
+            BattleTeam.SkillRandomUse(this.BChar, skill, false, true, false);
+
+            if (CheckLunaMagic())
             {
-                this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
-                if (CheckLunaMagic())
-                {
-                    this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
-                }
+                Skill skill2 = SkillD.CloneSkill(true, SkillD.Master, null, false);
+                skill2.Counting = 5;
+                BattleTeam.SkillRandomUse(this.BChar, skill2, false, true, false);
             }
         }
     }

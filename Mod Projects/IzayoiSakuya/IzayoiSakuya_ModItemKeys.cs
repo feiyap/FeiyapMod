@@ -4,10 +4,6 @@ namespace IzayoiSakuya
     public static class ModItemKeys
     {
 		/// <summary>
-		/// 光速「光速跃迁」
-		/// </summary>
-        public static string Buff_B_Sakuya_1 = "B_Sakuya_1";
-		/// <summary>
 		/// 时符「个人空间」
 		/// </summary>
         public static string Buff_B_Sakuya_10Rare = "B_Sakuya_10Rare";
@@ -17,56 +13,68 @@ namespace IzayoiSakuya
 		/// </summary>
         public static string Buff_B_Sakuya_10Rare_0 = "B_Sakuya_10Rare_0";
 		/// <summary>
-		/// 「完美女仆」
-		/// 所有技能都能触发 [月魔术] 的额外效果。每次触发「月魔术」的额外效果时，恢复1点法力值。
+		/// 完美女仆
+		/// 使手中最上方和最下方的技能获得迅速。
+		/// 每次打出手中持有者为自己的、最上方或最下方的技能，恢复1点法力值，抽取1个技能。
 		/// </summary>
         public static string Buff_B_Sakuya_12Rare = "B_Sakuya_12Rare";
 		/// <summary>
-		/// 幻在「钟表的残骸」
-		/// </summary>
-        public static string Buff_B_Sakuya_3 = "B_Sakuya_3";
-		/// <summary>
-		/// 悬滞的飞刃
-		/// 当自身被施加干扰减益时，受到&a伤害。
-		/// </summary>
-        public static string Buff_B_Sakuya_4 = "B_Sakuya_4";
-		/// <summary>
-		/// 悬滞的飞刃
-		/// 每次自己触发「月魔术」的额外效果、或使用[时计「月时计」]时，对随机敌人造成%a(30%)伤害。
-		/// </summary>
-        public static string Buff_B_Sakuya_4_new = "B_Sakuya_4_new";
-		/// <summary>
-		/// 时符「完美空间」
-		/// </summary>
-        public static string Buff_B_Sakuya_5 = "B_Sakuya_5";
-		/// <summary>
 		/// 完美空间
-		/// 每次触发「月魔术」的额外效果时，抽取1个技能。
 		/// </summary>
         public static string Buff_B_Sakuya_5_new = "B_Sakuya_5_new";
+		/// <summary>
+		/// 误导效应
+		/// 其他友军被选定为技能的目标时，使目标改为指向自己。
+		/// 触发后移除一层。
+		/// </summary>
+        public static string Buff_B_Sakuya_6 = "B_Sakuya_6";
+		/// <summary>
+		/// 幻惑效应
+		/// 受到攻击时，咲夜会对来源进行一次&a伤害的反击<color=#FF7A33>(攻击力的30%)</color>。
+		/// 触发后移除一层。
+		/// </summary>
+        public static string Buff_B_Sakuya_6_0 = "B_Sakuya_6_0";
+		/// <summary>
+		/// <color=#EEE9E9>时停飞刀</color>
+		/// 当前积攒的飞刀数：&a
+		/// 每把飞刀提供5%暴击率和闪避率。
+		/// 造成暴击伤害或闪避时，消耗1把飞刀，额外进行一次追加攻击，造成&a(30%)伤害。
+		/// </summary>
+        public static string Buff_B_Sakuya_Knife = "B_Sakuya_Knife";
+		/// <summary>
+		/// 膨胀空间
+		/// 触发暴击或闪避时抽取1个技能（最多触发4次）。
+		/// </summary>
+        public static string Buff_B_Sakuya_LucyD_2 = "B_Sakuya_LucyD_2";
 		/// <summary>
 		/// 月时计
 		/// 无法行动。
 		/// </summary>
         public static string Buff_B_Sakuya_P = "B_Sakuya_P";
 		/// <summary>
-		/// 时钟停摆
-		/// 每叠加4层，将1张[时计「月时计」]加入手中。
+		/// <color=#00BFFF>时钟停摆</color>
+		/// 每叠加4层，将1张“时计「月时计」”加入手中。
 		/// </summary>
         public static string Buff_B_Sakuya_P_0 = "B_Sakuya_P_0";
 		/// <summary>
 		/// 十六夜咲夜
 		/// Passive:
-		/// 咲夜每次打出位于手牌顶或手牌底的技能时（[时计「月时计」]、[时符「调换魔术」]和[治疗气息]除外），获得1层[时钟停摆]。每获得4次[时钟停摆]后，将1张[时计「月时计」]加入手中。
-		/// 月魔术：咲夜的部分技能在位于手牌顶或手牌底被打出时拥有额外效果。
+		/// <b>操纵时间程度的能力</b> - 每次打出技能时，使所有处于倒计时中的十六夜咲夜的技能倒计时减少1点。每有1个技能因这个效果减少倒计时，获得1把<color=#EEE9E9>时停飞刀</color>。
+		/// <b>危险的戏法家</b> - 咲夜每次打出位于手中最上方或最下方的技能时，获得1层<color=#00BFFF>时钟停摆</color>。<color=#00BFFF>时钟停摆</color>堆叠至4层后，将1张“时计「月时计」”加入手中。
+		/// <b><color=#4169E1>月魔术</color></b> - 咲夜的部分技能在位于手中最上方或最下方被打出时，能够触发额外效果。
 		/// </summary>
         public static string Character_IzayoiSakuya = "IzayoiSakuya";
         public static string Character_Skin_IzayoiSakuyaBunny = "IzayoiSakuyaBunny";
 		/// <summary>
-		/// 月魔术
+		/// <color=#4169E1>月魔术</color>
 		/// 该技能在位于手牌顶或手牌底被打出时拥有额外效果。
 		/// </summary>
         public static string SkillKeyword_Keyword_LunaMagic = "Keyword_LunaMagic";
+		/// <summary>
+		/// 自动扫地机
+		/// 装备时，移除所有露西诅咒技能。
+		/// </summary>
+        public static string Item_Passive_R_Sakuya_0 = "R_Sakuya_0";
         public static string SimpleCampDialogue_CampDial_IzayoiSakuya_Hein = "CampDial_IzayoiSakuya_Hein";
         public static string SimpleCampDialogue_CampDial_IzayoiSakuya_Joey = "CampDial_IzayoiSakuya_Joey";
         public static string SimpleCampDialogue_CampDial_IzayoiSakuya_Sizz = "CampDial_IzayoiSakuya_Sizz";
@@ -107,10 +115,12 @@ namespace IzayoiSakuya
 		/// 月魔术
 		/// </summary>
         public static string SkillExtended_SE_Sakuya_P = "SE_Sakuya_P";
+		/// <summary>
+		/// 完美女仆
+		/// </summary>
+        public static string SkillExtended_SE_Sakuya_Rare_12 = "SE_Sakuya_Rare_12";
         public static string SkillEffect_SE_S_S_Sakuya_12Rare = "SE_S_S_Sakuya_12Rare";
-        public static string SkillEffect_SE_S_S_Sakuya_4 = "SE_S_S_Sakuya_4";
         public static string SkillEffect_SE_S_S_Sakuya_5 = "SE_S_S_Sakuya_5";
-        public static string SkillEffect_SE_S_S_Sakuya_5_new = "SE_S_S_Sakuya_5_new";
         public static string SkillEffect_SE_T_S_Sakuya_0 = "SE_T_S_Sakuya_0";
         public static string SkillEffect_SE_T_S_Sakuya_1 = "SE_T_S_Sakuya_1";
         public static string SkillEffect_SE_T_S_Sakuya_11Rare = "SE_T_S_Sakuya_11Rare";
@@ -120,11 +130,21 @@ namespace IzayoiSakuya
         public static string SkillEffect_SE_T_S_Sakuya_3_0 = "SE_T_S_Sakuya_3_0";
         public static string SkillEffect_SE_T_S_Sakuya_3_1 = "SE_T_S_Sakuya_3_1";
         public static string SkillEffect_SE_T_S_Sakuya_4 = "SE_T_S_Sakuya_4";
+        public static string SkillEffect_SE_T_S_Sakuya_4_0 = "SE_T_S_Sakuya_4_0";
         public static string SkillEffect_SE_T_S_Sakuya_4_new = "SE_T_S_Sakuya_4_new";
         public static string SkillEffect_SE_T_S_Sakuya_5 = "SE_T_S_Sakuya_5";
         public static string SkillEffect_SE_T_S_Sakuya_5_0 = "SE_T_S_Sakuya_5_0";
+        public static string SkillEffect_SE_T_S_Sakuya_5_new = "SE_T_S_Sakuya_5_new";
+        public static string SkillEffect_SE_T_S_Sakuya_6 = "SE_T_S_Sakuya_6";
         public static string SkillEffect_SE_T_S_Sakuya_6_0 = "SE_T_S_Sakuya_6_0";
+        public static string SkillEffect_SE_T_S_Sakuya_9 = "SE_T_S_Sakuya_9";
+        public static string SkillEffect_SE_T_S_Sakuya_Knife = "SE_T_S_Sakuya_Knife";
+        public static string SkillEffect_SE_T_S_Sakuya_LucyD_1 = "SE_T_S_Sakuya_LucyD_1";
         public static string SkillEffect_SE_T_S_Sakuya_P = "SE_T_S_Sakuya_P";
+		/// <summary>
+		/// 咲夜基类
+		/// </summary>
+        public static string SkillExtended_SkillExtended_Sakuya = "SkillExtended_Sakuya";
 		/// <summary>
 		/// 时停怀表
 		/// 每场战斗仅有1次，在体力值为0点及以下的状态下受到伤害时，抵挡该伤害。
@@ -132,28 +152,30 @@ namespace IzayoiSakuya
         public static string Item_Equip_StopWatch = "StopWatch";
 		/// <summary>
 		/// 女仆秘技「杀人玩偶」
-		/// 月魔术 - 将1张[时符「调换魔法」]加入手中。
+		/// 将1张“时符「调换魔法」”加入手中。
+		/// <color=#4169E1>月魔术</color> - 根据手中技能的数量，获得相同数量的<color=#EEE9E9>时停飞刀</color>。
 		/// </summary>
         public static string Skill_S_Sakuya_0 = "S_Sakuya_0";
 		/// <summary>
 		/// 时符「调换魔法」
-		/// 将1个技能放在手牌顶或手牌底。
-		/// 这个技能被丢弃时，抽取1个技能。
+		/// 将1个技能放在手牌最上方或手牌最下方。
+		/// 这个技能被丢弃时，抽取1个技能，获得1把<color=#EEE9E9>时停飞刀</color>。
 		/// </summary>
         public static string Skill_S_Sakuya_0_0 = "S_Sakuya_0_0";
 		/// <summary>
 		/// 调换魔术·黑
-		/// 将技能放在手牌顶。
+		/// 将目标技能放在手牌最上方。
 		/// </summary>
         public static string Skill_S_Sakuya_0_1 = "S_Sakuya_0_1";
 		/// <summary>
 		/// 调换魔术·白
-		/// 将技能放在手牌底。
+		/// 将目标技能放在手牌最下方。
 		/// </summary>
         public static string Skill_S_Sakuya_0_2 = "S_Sakuya_0_2";
 		/// <summary>
 		/// 速符「闪光弹跳」
-		/// 月魔术 - 降低1点费用、附带无视嘲讽。立刻获得2层[时钟停摆]。
+		/// 获得2层<color=#00BFFF>时钟停摆</color>。
+		/// <color=#4169E1>月魔术</color> - 降低1点费用，附带无视嘲讽，并且无视防御。
 		/// </summary>
         public static string Skill_S_Sakuya_1 = "S_Sakuya_1";
 		/// <summary>
@@ -165,7 +187,8 @@ namespace IzayoiSakuya
         public static string Skill_S_Sakuya_10Rare = "S_Sakuya_10Rare";
 		/// <summary>
 		/// 幻葬「夜雾幻影杀人鬼」
-		/// 每有1层[时钟停摆]，额外造成%a(15%)伤害。
+		/// 消耗所有<color=#EEE9E9>时停飞刀</color>。
+		/// 每有1把<color=#EEE9E9>时停飞刀</color>，额外造成一次追加攻击，造成&a伤害<color=#FF7A33>(攻击力的30%)</color>。
 		/// </summary>
         public static string Skill_S_Sakuya_11Rare = "S_Sakuya_11Rare";
 		/// <summary>
@@ -181,52 +204,34 @@ namespace IzayoiSakuya
         public static string Skill_S_Sakuya_14Rare = "S_Sakuya_14Rare";
 		/// <summary>
 		/// 伤符「铭刻于红魂」
-		/// 月魔术 - 指定全部敌人。
+		/// 以倒计时3重复释放1次。
+		/// <color=#4169E1>月魔术</color> - 以倒计时5重复释放1次。
 		/// </summary>
         public static string Skill_S_Sakuya_2 = "S_Sakuya_2";
 		/// <summary>
 		/// 幻在「钟表的残骸」
-		/// 倒计时1后，再造成%a伤害，抽取1个技能。
-		/// 月魔术 - 倒计时延长为3，额外造成%b伤害。倒计时期间，目标受到的伤害增加15%。
+		/// 每经过1个倒计时，这个技能的伤害降低&a点<color=#FF7A33>(攻击力的50%)</color>。
+		/// <color=#4169E1>月魔术</color> - 变为倒计时8。
 		/// </summary>
         public static string Skill_S_Sakuya_3 = "S_Sakuya_3";
 		/// <summary>
-		/// 幻在「钟表的残骸」
-		/// 倒计时1后，再造成%a伤害。
-		/// 月魔术 - 倒计时延长为3，额外造成%b伤害。倒计时期间，目标受到的伤害增加15%。
-		/// </summary>
-        public static string Skill_S_Sakuya_3_0 = "S_Sakuya_3_0";
-		/// <summary>
-		/// 幻幽「迷幻的杰克」
-		/// 倒计时1后，再造成%a伤害。
-		/// 月魔术 - 倒计时延长为3，额外造成%b伤害。倒计时期间，目标受到的伤害增加15%。
-		/// </summary>
-        public static string Skill_S_Sakuya_3_1 = "S_Sakuya_3_1";
-		/// <summary>
 		/// 奇术「永恒的温柔」
+		/// 这个技能因为技能效果降低倒计时时，在倒计时栏中生成1个倒计时-1的复制（生成的复制无法再生成复制）。
 		/// </summary>
         public static string Skill_S_Sakuya_4 = "S_Sakuya_4";
 		/// <summary>
 		/// 奇术「永恒的温柔」
 		/// </summary>
-        public static string Skill_S_Sakuya_4_new = "S_Sakuya_4_new";
+        public static string Skill_S_Sakuya_4_0 = "S_Sakuya_4_0";
 		/// <summary>
 		/// 时符「完美空间」
-		/// 倒计时期间，自身仅有1次，受到伤害时，使所受的伤害变为0，随后转为对随机敌人造成%a伤害。
-		/// </summary>
-        public static string Skill_S_Sakuya_5 = "S_Sakuya_5";
-		/// <summary>
-		/// 时符「完美空间」
-		/// </summary>
-        public static string Skill_S_Sakuya_5_0 = "S_Sakuya_5_0";
-		/// <summary>
-		/// 时符「完美空间」
+		/// 将1张“时符「调换魔法」”加入手中。
+		/// 如果目标是其他友军，将自身所有<color=#EEE9E9>时停飞刀</color>转移至目标身上，并使其固定技能变为可用状态。
 		/// </summary>
         public static string Skill_S_Sakuya_5_new = "S_Sakuya_5_new";
 		/// <summary>
 		/// 奇术「误导」
-		/// 将1个技能放回手牌顶。
-		/// 月魔术 - 抽取1个技能。根据指定技能的费用，每点费用对所有敌人造成%a点伤害。
+		/// <color=#4169E1>月魔术</color> - 使目标额外获得“受到攻击时，十六夜咲夜会对来源进行一次反击”。
 		/// </summary>
         public static string Skill_S_Sakuya_6 = "S_Sakuya_6";
 		/// <summary>
@@ -235,8 +240,8 @@ namespace IzayoiSakuya
         public static string Skill_S_Sakuya_6_0 = "S_Sakuya_6_0";
 		/// <summary>
 		/// 幻术「吾刃回归」
-		/// 选中的技能即使不在手牌顶或手牌底也能触发「月魔术」的额外效果。
-		/// 如果选中的技能不带有「月魔术」，则改为仅有一次：费用降低1点、附加迅速。
+		/// 如果目标带有<color=#4169E1>月魔术</color>关键词，使其即使不在手牌最上方或最下方也能触发<color=#4169E1>月魔术</color>的额外效果；
+		/// 否则本场战斗仅一次，使其费用降低1点，附带迅速。
 		/// </summary>
         public static string Skill_S_Sakuya_7 = "S_Sakuya_7";
 		/// <summary>
@@ -245,20 +250,30 @@ namespace IzayoiSakuya
 		/// </summary>
         public static string Skill_S_Sakuya_8 = "S_Sakuya_8";
 		/// <summary>
+		/// 银符「银之跳跃」
+		/// 未暴击时，获得1把<color=#EEE9E9>时停飞刀</color>，将这个技能拿回手中。
+		/// 暴击时，放逐这个技能。
+		/// </summary>
+        public static string Skill_S_Sakuya_9 = "S_Sakuya_9";
+		/// <summary>
+		/// 时停飞刀
+		/// </summary>
+        public static string Skill_S_Sakuya_Knife = "S_Sakuya_Knife";
+		/// <summary>
 		/// 时符「隧穿效应」
 		/// 抽取1个技能。
-		/// 将牌堆1个技能置于牌堆顶部。
-		/// 将1张[时符「调换魔法」]加入手中。
+		/// 展示牌库中的技能，选择其中1个置于顶部。
+		/// 将1个“时符「调换魔法」”加入手中。
 		/// </summary>
         public static string Skill_S_Sakuya_LucyD = "S_Sakuya_LucyD";
+		/// <summary>
+		/// 空虚「膨胀空间」
+		/// </summary>
+        public static string Skill_S_Sakuya_LucyD_1 = "S_Sakuya_LucyD_1";
 		/// <summary>
 		/// 时计「月时计」
 		/// </summary>
         public static string Skill_S_Sakuya_P = "S_Sakuya_P";
-		/// <summary>
-		/// 咲夜基类
-		/// </summary>
-        public static string SkillExtended_SkillExtended_Sakuya = "SkillExtended_Sakuya";
 
     }
 
@@ -266,6 +281,7 @@ namespace IzayoiSakuya
     {
 		/// <summary>
 		/// Korean:
+		/// 메이드 비기「살인 인형」
 		/// English:
 		/// Maid Secret Skill "Killing Doll"
 		/// Japanese:
@@ -275,9 +291,10 @@ namespace IzayoiSakuya
 		/// Chinese-TW:
 		/// 女仆秘技「杀人玩偶」
 		/// </summary>
-        public static string S0L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S0L");
+        public static string S_Sakuya_0L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_0L");
 		/// <summary>
 		/// Korean:
+		/// 메이드 비기「꼭두각시 인형」
 		/// English:
 		/// Maid Secret Skill "Manipulating Doll"
 		/// Japanese:
@@ -287,105 +304,10 @@ namespace IzayoiSakuya
 		/// Chinese-TW:
 		/// 女仆秘技「操弄玩偶」
 		/// </summary>
-        public static string S0N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S0N");
+        public static string S_Sakuya_0N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_0N");
 		/// <summary>
 		/// Korean:
-		/// English:
-		/// Light Speed "C. Ricochet"
-		/// Japanese:
-		/// 光速「Ｃ．　リコシェ」
-		/// Chinese:
-		/// 光速「光速跃迁」
-		/// Chinese-TW:
-		/// 光速「光速跃迁」
-		/// </summary>
-        public static string S1L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S1L");
-		/// <summary>
-		/// Korean:
-		/// English:
-		/// Speed Sign "Luminous Ricochet"
-		/// Japanese:
-		/// 速符「ルミネスリコシェ」
-		/// Chinese:
-		/// 速符「闪光弹跳」
-		/// Chinese-TW:
-		/// 速符「闪光弹跳」
-		/// </summary>
-        public static string S1N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S1N");
-		/// <summary>
-		/// Korean:
-		/// English:
-		/// Scarred Soul "Soul Sculpture"
-		/// Japanese:
-		/// 傷魂「ソウルスカルプチュア」
-		/// Chinese:
-		/// 伤魂「灵魂雕塑」
-		/// Chinese-TW:
-		/// 伤魂「灵魂雕塑」
-		/// </summary>
-        public static string S2L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S2L");
-		/// <summary>
-		/// Korean:
-		/// English:
-		/// Wound Sign "Inscribe Red Soul"	
-		/// Japanese:
-		/// 傷符「インスクライブレッドソウル」
-		/// Chinese:
-		/// 伤符「铭刻于红魂」
-		/// Chinese-TW:
-		/// 伤符「铭刻于红魂」
-		/// </summary>
-        public static string S2N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S2N");
-		/// <summary>
-		/// Korean:
-		/// English:
-		/// Illusion Phantom "Jack the Ludo Bile"
-		/// Japanese:
-		/// 幻幽「ジャック・ザ・ルドビレ」
-		/// Chinese:
-		/// 幻幽「迷幻的杰克」
-		/// Chinese-TW:
-		/// 幻幽「迷幻的杰克」
-		/// </summary>
-        public static string S3L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S3L");
-		/// <summary>
-		/// Korean:
-		/// English:
-		/// Illusion Existence "Clock Corpse"	
-		/// Japanese:
-		/// 幻在「クロックコープス」
-		/// Chinese:
-		/// 幻在「钟表的残骸」
-		/// Chinese-TW:
-		/// 幻在「钟表的残骸」
-		/// </summary>
-        public static string S3N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S3N");
-		/// <summary>
-		/// Korean:
-		/// English:
-		/// Conjuring "Mesmerizing Misdirection"
-		/// Japanese:
-		/// 奇術「幻惑ミスディレクション」
-		/// Chinese:
-		/// 奇术「幻惑误导」
-		/// Chinese-TW:
-		/// 奇术「幻惑误导」
-		/// </summary>
-        public static string S6L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S6L");
-		/// <summary>
-		/// Korean:
-		/// English:
-		/// Conjuring "Misdirection"
-		/// Japanese:
-		/// 奇術「ミスディレクション」
-		/// Chinese:
-		/// 奇术「误导」
-		/// Chinese-TW:
-		/// 奇术「误导」
-		/// </summary>
-        public static string S6N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S6N");
-		/// <summary>
-		/// Korean:
+		/// 「디플레이션 월드」
 		/// English:
 		/// "Deflation World"
 		/// Japanese:
@@ -395,9 +317,10 @@ namespace IzayoiSakuya
 		/// Chinese-TW:
 		/// 「收缩的世界」
 		/// </summary>
-        public static string SR1H => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("SR1H");
+        public static string S_Sakuya_10RareH => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_10RareH");
 		/// <summary>
 		/// Korean:
+		/// 「사쿠야의 세계」
 		/// English:
 		/// "Sakuya's World"
 		/// Japanese:
@@ -407,19 +330,124 @@ namespace IzayoiSakuya
 		/// Chinese-TW:
 		/// 「咲夜的世界」
 		/// </summary>
-        public static string SR1L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("SR1L");
+        public static string S_Sakuya_10RareL => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_10RareL");
 		/// <summary>
 		/// Korean:
+		/// 시부「프라이빗 스퀘어」
 		/// English:
-		/// Time Sign "Private Vision"
+		/// Time Sign "Private Square"
 		/// Japanese:
-		/// 時符「プライベートヴィジョン」
+		/// 時符「プライベートスクウェア」
 		/// Chinese:
 		/// 时符「个人空间」
 		/// Chinese-TW:
 		/// 时符「个人空间」
 		/// </summary>
-        public static string SR1N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("SR1N");
+        public static string S_Sakuya_10RareN => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_10RareN");
+		/// <summary>
+		/// Korean:
+		/// 광속「C. 리코셰」
+		/// English:
+		/// Light Speed "C. Ricochet"
+		/// Japanese:
+		/// 光速「Ｃ．　リコシェ」
+		/// Chinese:
+		/// 光速「光速跃迁」
+		/// Chinese-TW:
+		/// 光速「光速跃迁」
+		/// </summary>
+        public static string S_Sakuya_1L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_1L");
+		/// <summary>
+		/// Korean:
+		/// 속부「루미너스 리코셰」
+		/// English:
+		/// Speed Sign "Luminous Ricochet"
+		/// Japanese:
+		/// 速符「ルミネスリコシェ」
+		/// Chinese:
+		/// 速符「闪光弹跳」
+		/// Chinese-TW:
+		/// 速符「闪光弹跳」
+		/// </summary>
+        public static string S_Sakuya_1N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_1N");
+		/// <summary>
+		/// Korean:
+		/// 상혼「소울 스컬프처」
+		/// English:
+		/// Scarred Soul "Soul Sculpture"
+		/// Japanese:
+		/// 傷魂「ソウルスカルプチュア」
+		/// Chinese:
+		/// 伤魂「灵魂雕塑」
+		/// Chinese-TW:
+		/// 伤魂「灵魂雕塑」
+		/// </summary>
+        public static string S_Sakuya_2L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_2L");
+		/// <summary>
+		/// Korean:
+		/// 상부「인스크라이브 레드 소울」
+		/// English:
+		/// Wound Sign "Inscribe Red Soul"
+		/// Japanese:
+		/// 傷符「インスクライブレッドソウル」
+		/// Chinese:
+		/// 伤符「铭刻于红魂」
+		/// Chinese-TW:
+		/// 伤符「铭刻于红魂」
+		/// </summary>
+        public static string S_Sakuya_2N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_2N");
+		/// <summary>
+		/// Korean:
+		/// 환유「잭 더 루도빌레」
+		/// English:
+		/// Illusion Phantom "Jack the Ludo Bile"
+		/// Japanese:
+		/// 幻幽「ジャック・ザ・ルドビレ」
+		/// Chinese:
+		/// 幻幽「迷幻的杰克」
+		/// Chinese-TW:
+		/// 幻幽「迷幻的杰克」
+		/// </summary>
+        public static string S_Sakuya_3L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_3L");
+		/// <summary>
+		/// Korean:
+		/// 환재「클락 콥스」
+		/// English:
+		/// Illusion Existence "Clock Corpse"
+		/// Japanese:
+		/// 幻在「クロックコープス」
+		/// Chinese:
+		/// 幻在「钟表的残骸」
+		/// Chinese-TW:
+		/// 幻在「钟表的残骸」
+		/// </summary>
+        public static string S_Sakuya_3N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_3N");
+		/// <summary>
+		/// Korean:
+		/// 기술「환혹 미스디렉션」
+		/// English:
+		/// Conjuring "Mesmerizing Misdirection"
+		/// Japanese:
+		/// 奇術「幻惑ミスディレクション」
+		/// Chinese:
+		/// 奇术「幻惑误导」
+		/// Chinese-TW:
+		/// 奇术「幻惑误导」
+		/// </summary>
+        public static string S_Sakuya_6L => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_6L");
+		/// <summary>
+		/// Korean:
+		/// 기술「미스디렉션」
+		/// English:
+		/// Conjuring "Misdirection"
+		/// Japanese:
+		/// 奇術「ミスディレクション」
+		/// Chinese:
+		/// 奇术「误导」
+		/// Chinese-TW:
+		/// 奇术「误导」
+		/// </summary>
+        public static string S_Sakuya_6N => ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate("S_Sakuya_6N");
 
     }
 }

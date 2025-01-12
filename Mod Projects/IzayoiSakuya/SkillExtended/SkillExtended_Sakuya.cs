@@ -38,8 +38,7 @@ namespace IzayoiSakuya
 
                     if (this.MySkill == BattleSystem.instance.AllyTeam.Skills[BattleSystem.instance.AllyTeam.Skills.Count - 1] //手牌底
                         || this.MySkill == BattleSystem.instance.AllyTeam.Skills[0] //手牌顶
-                        || this.MySkill.ExtendedFind_DataName("SE_Sakuya_7") != null //吾刃回归
-                        || this.BChar.BuffFind("B_Sakuya_12Rare")) //完美女仆
+                        || this.MySkill.ExtendedFind_DataName("SE_Sakuya_7") != null) //吾刃回归
                     {
                         base.SkillParticleOn();
                         this.MySkill.MySkill.Name = ModManager.getModInfo("IzayoiSakuya").localizationInfo.SystemLocalizationUpdate(this.MySkill.MySkill.KeyID + "L");
@@ -56,8 +55,7 @@ namespace IzayoiSakuya
         {
             if (this.MySkill == BattleSystem.instance.AllyTeam.Skills[BattleSystem.instance.AllyTeam.Skills.Count - 1] //手牌底
                         || this.MySkill == BattleSystem.instance.AllyTeam.Skills[0] //手牌顶
-                        || this.MySkill.ExtendedFind_DataName("SE_Sakuya_7") != null //吾刃回归
-                        || this.BChar.BuffFind("B_Sakuya_12Rare")) //完美女仆
+                        || this.MySkill.ExtendedFind_DataName("SE_Sakuya_7") != null) //吾刃回归
             {
                 return true;
             }

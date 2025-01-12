@@ -1,0 +1,11 @@
+{
+    "B_Sakuya_6_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "IzayoiSakuya.B_Sakuya_6_0",
+        "BuffTag": "null",
+        "Name": "幻惑效应",
+        "Description": "受到攻击时，咲夜会对来源进行一次&a伤害的反击<color=#FF7A33>(攻击力的30%)</color>。\n触发后移除一层。",
+        "Icon": "B_Sakuya_6_0\\B_Sakuya_6_0_Icon.png",
+        "MaxStack": 4
+    }
+}

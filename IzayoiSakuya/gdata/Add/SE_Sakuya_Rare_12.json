@@ -1,0 +1,9 @@
+{
+    "SE_Sakuya_Rare_12": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "完美女仆",
+        "ClassName": "IzayoiSakuya.SE_Sakuya_Rare_12"
+    }
+}

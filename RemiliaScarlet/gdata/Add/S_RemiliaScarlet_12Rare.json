@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "红魔「Scarlet Devil」",
-        "Description": "",
+        "Description": "这个技能造成伤害的25%将会超额治疗自己。",
         "User": "RemiliaScarlet",
         "Particle": "Particle/Enemy/Shiranui/Shiranui_3",
         "Target": "all_enemy",

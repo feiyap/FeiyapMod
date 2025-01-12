@@ -19,6 +19,11 @@ namespace IzayoiSakuya
 	/// </summary>
     public class B_Sakuya_5_new:Buff
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.cri = 6 * StackNum;
+            this.PlusStat.dod = 6 * StackNum;
+        }
     }
 }

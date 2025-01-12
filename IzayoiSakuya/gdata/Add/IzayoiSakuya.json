@@ -5,7 +5,7 @@
         "PassiveClassName": "IzayoiSakuya.P_IzayoiSakuya",
         "PassiveUnlockLV1": false,
         "name": "十六夜咲夜",
-        "SelectInfo": "十六夜咲夜是玩弄手牌与时间的魔术师。\n当手牌在最顶上或最底下能够触发额外效果，能够使用技能灵活变换手牌的位置。\n当通过这种方法积攒足够资源后，还能够停止敌人的时间。",
+        "SelectInfo": "十六夜咲夜是玩弄手牌与时间的魔术师。\n\n当手牌在最顶上或最底下能够触发额外效果，能够使用技能灵活变换手牌的位置。\n\n当通过这种方法积攒足够资源后，还能够停止敌人的时间。",
         "Gender": 1,
         "FirstSkill": "S_Sakuya_0",
         "MAXHP": {
@@ -37,7 +37,7 @@
             "y": 115
         },
         "PassiveName": "完美潇洒的女仆",
-        "PassiveDes": "咲夜每次打出位于手牌顶或手牌底的技能时（[时计「月时计」]、[时符「调换魔术」]和[治疗气息]除外），获得1层[时钟停摆]。每获得4次[时钟停摆]后，将1张[时计「月时计」]加入手中。\n\n月魔术：咲夜的部分技能在位于手牌顶或手牌底被打出时拥有额外效果。",
+        "PassiveDes": "<b>操纵时间程度的能力</b> - 每次打出技能时，使所有处于倒计时中的十六夜咲夜的技能倒计时减少1点。每有1个技能因这个效果减少倒计时，获得1把<color=#EEE9E9>时停飞刀</color>。\n\n<b>危险的戏法家</b> - 咲夜每次打出位于手中最上方或最下方的技能时，获得1层<color=#00BFFF>时钟停摆</color>。<color=#00BFFF>时钟停摆</color>堆叠至4层后，将1张“时计「月时计」”加入手中。\n\n<b><color=#4169E1>月魔术</color></b> - 咲夜的部分技能在位于手中最上方或最下方被打出时，能够触发额外效果。",
         "CollectionSprite_Cover": "IzayoiSakuya\\IzayoiSakuyaCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "IzayoiSakuya\\IzayoiSakuyaCollectionSprite_SkillFace.png",
         "StatView_Atk": 2,
