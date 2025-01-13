@@ -41,6 +41,7 @@ namespace IzayoiSakuya
                         if (castingSkill.CastButton.CountingLeft <= 0)
                         {
                             BattleSystem.instance.ActWindow.CastingWaste(castingSkill);
+                            BattleSystem.instance.CastSkills.Remove(castingSkill);
 
                             Skill skill2 = castingSkill.skill.CloneSkill(true, null, null, false);
                             skill2.Counting = -99;
@@ -77,6 +78,7 @@ namespace IzayoiSakuya
                         if (castingSkill2.CastButton.CountingLeft <= 0)
                         {
                             BattleSystem.instance.ActWindow.CastingWaste(castingSkill2);
+                            BattleSystem.instance.SaveSkill.Remove(castingSkill2);
 
                             Skill skill2 = castingSkill2.skill.CloneSkill(true, null, null, false);
                             skill2.Counting = -99;

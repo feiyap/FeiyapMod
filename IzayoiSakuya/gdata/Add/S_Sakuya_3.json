@@ -35,6 +35,7 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+		"Counting": 10
     }
 }

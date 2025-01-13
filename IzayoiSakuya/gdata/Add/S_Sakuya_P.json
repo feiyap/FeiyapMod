@@ -23,6 +23,7 @@
             "IzayoiSakuya.S_Sakuya_P"
         ],
         "Fatal": false,
-        "NoDrop": true
+        "NoDrop": true,
+		"Except": true
     }
 }

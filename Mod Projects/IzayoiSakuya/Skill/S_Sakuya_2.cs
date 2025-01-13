@@ -22,14 +22,14 @@ namespace IzayoiSakuya
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            Skill skill = SkillD.CloneSkill(true, SkillD.Master, null, false);
-            skill.Counting = 3;
+            Skill skill = Skill.TempSkill("S_Sakuya_2_0", this.BChar, this.BChar.MyTeam);
+            skill.Counting = 2;
             BattleTeam.SkillRandomUse(this.BChar, skill, false, true, false);
 
             if (CheckLunaMagic())
             {
-                Skill skill2 = SkillD.CloneSkill(true, SkillD.Master, null, false);
-                skill2.Counting = 5;
+                Skill skill2 = Skill.TempSkill("S_Sakuya_2_0", this.BChar, this.BChar.MyTeam);
+                skill2.Counting = 4;
                 BattleTeam.SkillRandomUse(this.BChar, skill2, false, true, false);
             }
         }

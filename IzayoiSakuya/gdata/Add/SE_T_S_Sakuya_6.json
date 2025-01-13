@@ -3,7 +3,10 @@
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
         "Buffs": [
-            "B_Sakuya_6"
+            "B_Sakuya_6",
+			"B_Sakuya_6",
+			"B_Sakuya_6",
+			"B_Sakuya_6"
         ],
         "BuffPlusTagPer": [
             0

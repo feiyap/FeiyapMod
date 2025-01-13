@@ -25,6 +25,9 @@ namespace IzayoiSakuya
             if (CheckLunaMagic())
             {
                 Targets[0].BuffAdd("B_Sakuya_6_0", this.BChar);
+                Targets[0].BuffAdd("B_Sakuya_6_0", this.BChar);
+                Targets[0].BuffAdd("B_Sakuya_6_0", this.BChar);
+                Targets[0].BuffAdd("B_Sakuya_6_0", this.BChar);
             }
         }
     }

@@ -34,11 +34,11 @@ namespace IzayoiSakuya
             base.FixedUpdate();
             if (BattleSystem.instance != null && BattleSystem.instance.AllyTeam.Skills.Count != 0)
             {
-                this.Counting = 10;
+                this.Counting = 0;
 
                 if (CheckLunaMagic())
                 {
-                    this.Counting = 8;
+                    this.Counting = -2;
                 }
             }
 
