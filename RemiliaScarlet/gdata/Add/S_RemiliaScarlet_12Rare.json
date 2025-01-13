@@ -25,7 +25,7 @@
         "Image_1": "S_RemiliaScarlet_12Rare\\S_RemiliaScarlet_12Rare_Image_1.png",
         "Image_2": "S_RemiliaScarlet_12Rare\\S_RemiliaScarlet_12Rare_Image_2.png",
         "SkillExtended": [
-            
+            "RemiliaScarlet.S_RemiliaScarlet_12Rare"
         ],
         "UseAp": 2,
         "Effect_Self": "SE_S_S_RemiliaScarlet_12Rare"

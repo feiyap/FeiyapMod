@@ -35,6 +35,10 @@ namespace IzayoiSakuya
 		/// </summary>
         public static string Buff_B_Sakuya_6_0 = "B_Sakuya_6_0";
 		/// <summary>
+		/// 特制秒表
+		/// </summary>
+        public static string Buff_B_Sakuya_8 = "B_Sakuya_8";
+		/// <summary>
 		/// <color=#EEE9E9>时停飞刀</color>
 		/// 当前积攒的飞刀数：&a
 		/// 每把飞刀提供5%暴击率和闪避率。
@@ -121,11 +125,13 @@ namespace IzayoiSakuya
         public static string SkillExtended_SE_Sakuya_Rare_12 = "SE_Sakuya_Rare_12";
         public static string SkillEffect_SE_S_S_Sakuya_12Rare = "SE_S_S_Sakuya_12Rare";
         public static string SkillEffect_SE_S_S_Sakuya_5 = "SE_S_S_Sakuya_5";
+        public static string SkillEffect_SE_S_S_Sakuya_8 = "SE_S_S_Sakuya_8";
         public static string SkillEffect_SE_T_S_Sakuya_0 = "SE_T_S_Sakuya_0";
         public static string SkillEffect_SE_T_S_Sakuya_1 = "SE_T_S_Sakuya_1";
         public static string SkillEffect_SE_T_S_Sakuya_11Rare = "SE_T_S_Sakuya_11Rare";
         public static string SkillEffect_SE_T_S_Sakuya_14Rare = "SE_T_S_Sakuya_14Rare";
         public static string SkillEffect_SE_T_S_Sakuya_2 = "SE_T_S_Sakuya_2";
+        public static string SkillEffect_SE_T_S_Sakuya_2_0 = "SE_T_S_Sakuya_2_0";
         public static string SkillEffect_SE_T_S_Sakuya_3 = "SE_T_S_Sakuya_3";
         public static string SkillEffect_SE_T_S_Sakuya_3_0 = "SE_T_S_Sakuya_3_0";
         public static string SkillEffect_SE_T_S_Sakuya_3_1 = "SE_T_S_Sakuya_3_1";
@@ -209,6 +215,10 @@ namespace IzayoiSakuya
 		/// </summary>
         public static string Skill_S_Sakuya_2 = "S_Sakuya_2";
 		/// <summary>
+		/// 伤符「铭刻于红魂」
+		/// </summary>
+        public static string Skill_S_Sakuya_2_0 = "S_Sakuya_2_0";
+		/// <summary>
 		/// 幻在「钟表的残骸」
 		/// 每经过1个倒计时，这个技能的伤害降低&a点<color=#FF7A33>(攻击力的50%)</color>。
 		/// <color=#4169E1>月魔术</color> - 变为倒计时8。
@@ -246,7 +256,7 @@ namespace IzayoiSakuya
         public static string Skill_S_Sakuya_7 = "S_Sakuya_7";
 		/// <summary>
 		/// 时符「咲夜特制秒表」
-		/// 将1张[时计「月时计」]和1张[时符「调换魔法」]加入手中。
+		/// 将1张“时计「月时计」”加入手中。
 		/// </summary>
         public static string Skill_S_Sakuya_8 = "S_Sakuya_8";
 		/// <summary>

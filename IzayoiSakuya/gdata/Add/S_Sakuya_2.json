@@ -3,7 +3,7 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/slash2",
-        "Target": "enemy",
+        "Target": "all_enemy",
         "Name": "伤符「铭刻于红魂」",
         "Description": "以倒计时3重复释放1次。\n\n<color=#4169E1>月魔术</color> - 以倒计时5重复释放1次。",
         "UseAp": 2,

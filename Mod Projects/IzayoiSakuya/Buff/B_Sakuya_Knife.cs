@@ -46,12 +46,7 @@ namespace IzayoiSakuya
         {
             if ((SP.SkillData.IsDamage || SP.SkillData.IsHeal) && Cri)
             {
-                int count = BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar];
-
-                if (count >= 1)
-                {
-                    BattleSystem.DelayInputAfter(this.Attack(hit));
-                }
+                BattleSystem.DelayInputAfter(this.Attack(hit));
             }
         }
 
@@ -59,12 +54,7 @@ namespace IzayoiSakuya
         {
             if (Char == this.BChar)
             {
-                int count = BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar];
-
-                if (count >= 1)
-                {
-                    BattleSystem.DelayInputAfter(this.Attack(SP.SkillData.Master));
-                }
+                BattleSystem.DelayInputAfter(this.Attack(SP.SkillData.Master));
             }
         }
 
@@ -72,20 +62,24 @@ namespace IzayoiSakuya
         {
             yield return new WaitForSecondsRealtime(0.25f);
 
-            Skill skill = Skill.TempSkill("S_Sakuya_Knife", this.BChar, this.BChar.MyTeam);
-            skill.isExcept = true;
-            skill.FreeUse = true;
-            skill.PlusHit = true;
+            int count = BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar];
+            if (count > 0)
+            {
+                Skill skill = Skill.TempSkill("S_Sakuya_Knife", this.BChar, this.BChar.MyTeam);
+                skill.isExcept = true;
+                skill.FreeUse = true;
+                skill.PlusHit = true;
 
-            if (bc != null || bc.IsDead)
-            {
-                this.BChar.ParticleOut(skill, bc);
-                BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar]--;
-            }
-            else if (BattleSystem.instance.EnemyTeam.AliveChars.Count != 0)
-            {
-                this.BChar.ParticleOut(skill, BattleSystem.instance.EnemyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main));
-                BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar]--;
+                if (bc != null || bc.IsDead)
+                {
+                    this.BChar.ParticleOut(skill, bc);
+                    BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar]--;
+                }
+                else if (BattleSystem.instance.EnemyTeam.AliveChars.Count != 0)
+                {
+                    this.BChar.ParticleOut(skill, BattleSystem.instance.EnemyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main));
+                    BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar]--;
+                }
             }
             
             yield break;

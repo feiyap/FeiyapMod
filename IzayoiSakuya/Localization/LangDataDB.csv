@@ -1,15 +1,15 @@
-﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
 Buff/B_Sakuya_10Rare_0_Description,Text,,패에 있는 스킬을 사용할 수 없습니다.,Cannot use skills in hand.,手札からスキルを使用できない。,无法使用手中的技能。,
-Buff/B_Sakuya_10Rare_0_Name,Text,,시부「프라이빗 스퀘어」,Time Sign "Private Square",時符「プライベートスクウェア」,时符「个人空间」,
+Buff/B_Sakuya_10Rare_0_Name,Text,,시부「프라이빗 스퀘어」,"Time Sign ""Private Square""",時符「プライベートスクウェア」,时符「个人空间」,
 Buff/B_Sakuya_10Rare_Description,Text,,,,,,
-Buff/B_Sakuya_10Rare_Name,Text,,시부「프라이빗 스퀘어」,Time Sign "Private Square",時符「プライベートスクウェア 」,时符「个人空间」,
+Buff/B_Sakuya_10Rare_Name,Text,,시부「프라이빗 스퀘어」,"Time Sign ""Private Square""",時符「プライベートスクウェア 」,时符「个人空间」,
 Buff/B_Sakuya_12Rare_Description,Text,,"모든 스킬이 「마술」의 추가효과를 발동시킵니다.
 「마술」의 추가효과가 발동될 때마다 마나를 1 회복합니다.","All skills in hand can affect ""Lunar Magic"".
 When affecting ""Lunar Magic"", recover 1 Mana.",すべての[月魔法]を持つスキルが追加効果を発動する。[月魔法]の追加効果の発動時、マナを1回復する。,"使手中最上方和最下方的技能获得迅速。
 每次打出手中持有者为自己的、最上方或最下方的技能，恢复1点法力值，抽取1个技能。",
 Buff/B_Sakuya_12Rare_Name,Text,,「퍼펙트 메이드」,Perfect Maid,パーフェクトメイド,完美女仆,
-Buff/B_Sakuya_1_Name,Text,,광속「C. 리코셰」,Light Speed "C. Ricochet",光速「C.リコシェ」,光速「光速跃迁」,
-Buff/B_Sakuya_3_Name,Text,,환재「클락 콥스」,Illusion Existence "Clock Corpse",幻在「クロックコープス」,幻在「钟表的残骸」,
+Buff/B_Sakuya_1_Name,Text,,광속「C. 리코셰」,"Light Speed ""C. Ricochet""",光速「C.リコシェ」,光速「光速跃迁」,
+Buff/B_Sakuya_3_Name,Text,,환재「클락 콥스」,"Illusion Existence ""Clock Corpse""",幻在「クロックコープス」,幻在「钟表的残骸」,
 Buff/B_Sakuya_4_Description,Text,,방해 디버프를 받으면 &a의 피해를 입습니다.,,自身が妨害デバフを受けたとき、&aのダメージを受ける。,当自身被施加干扰减益时，受到&a伤害。,
 Buff/B_Sakuya_4_Name,Text,,칼날 정지,Suspended Flying Knife,スローイングナイフ,悬滞的飞刃,
 Buff/B_Sakuya_4_new_Description,Text,,"「마술」의 추가효과가 발동되거나 [시계「루나 다이얼」]을 사용할 때마다 
@@ -25,6 +25,7 @@ Buff/B_Sakuya_6_0_Name,Text,,,,,幻惑效应,
 Buff/B_Sakuya_6_Description,Text,,,,,"其他友军被选定为技能的目标时，使目标改为指向自己。
 触发后移除一层。",
 Buff/B_Sakuya_6_Name,Text,,,,,误导效应,
+Buff/B_Sakuya_8_Name,Text,,,,,特制秒表,
 Buff/B_Sakuya_Knife_Description,Text,,,,,"当前积攒的飞刀数：&a
 每把飞刀提供5%暴击率和闪避率。
 造成暴击伤害或闪避时，消耗1把飞刀，额外进行一次追加攻击，造成&a(30%)伤害。",
@@ -164,19 +165,17 @@ SimpleCampDialogue/CampDial_IzayoiSakuya_Youmu_Dialogues_3,Text,,[B]스튜를 �
 Skill/S_Sakuya_0_0_Description,Text,,"패의 상단 혹은 하단에 스킬을 1개 놓습니다.
 이 스킬이 버려지면 스킬 1개를 뽑습니다.","Put a skill to the top or bottom of hand.
 When discarded, draw 1 skill.","スキル1つを手札の一番上または一番下に移動する。
-このスキルが捨てられたとき、スキルを1枚引く。","将1个技能放在手牌最上方或手牌最下方。根据技能移动的距离，自身获得相同数量的<color=#EEE9E9>时停飞刀</color>。
+このスキルが捨てられたとき、スキルを1枚引く。","将1个技能放在手牌最上方或手牌最下方。
 这个技能被丢弃时，抽取1个技能，获得1把<color=#EEE9E9>时停飞刀</color>。",
-Skill/S_Sakuya_0_0_Name,Text,,시부「체인질링 매직」,Time Sign "Changeling Magic",時符-チェンジリングマジック,时符「调换魔法」,
-Skill/S_Sakuya_0_1_Description,Text,,스킬을 패의 상단으로 올립니다.,Put target skill to top of hand.,スキルを手札の一番上に移動する。,"将目标技能放在手牌最上方。
-根据技能移动的距离，自身获得相同数量的<color=#EEE9E9>时停飞刀</color>。",
-Skill/S_Sakuya_0_1_Name,Text,,「체인질링 매직」흑,Time Sign "Changeling Magic Black",チェンジリングマジック-黒,调换魔术·黑,
-Skill/S_Sakuya_0_2_Description,Text,,스킬을 패의 하단으로 올립니다.,Put target skill to bottom of hand.,スキルを手札の一番下に移動する。,"将目标技能放在手牌最下方。
-根据技能移动的距离，自身获得相同数量的<color=#EEE9E9>时停飞刀</color>。",
-Skill/S_Sakuya_0_2_Name,Text,,「체인질링 매직」백,Time Sign "Changeling Magic White",チェンジリングマジック-白,调换魔术·白,
-Skill/S_Sakuya_0_Description,Text,,마술-시부「체인질링 매직」을 1장 패에 넣습니다.,Lunar Magic - add a Time Sign "Changeling Magic" skill to your hand.,月魔法:「時符-チェンジリングマジック」を手札に1枚加える。,"将1张“时符「调换魔法」”加入手中。
+Skill/S_Sakuya_0_0_Name,Text,,시부「체인질링 매직」,"Time Sign ""Changeling Magic""",時符-チェンジリングマジック,时符「调换魔法」,
+Skill/S_Sakuya_0_1_Description,Text,,스킬을 패의 상단으로 올립니다.,Put target skill to top of hand.,スキルを手札の一番上に移動する。,将目标技能放在手牌最上方。,
+Skill/S_Sakuya_0_1_Name,Text,,「체인질링 매직」흑,"Time Sign ""Changeling Magic Black""",チェンジリングマジック-黒,调换魔术·黑,
+Skill/S_Sakuya_0_2_Description,Text,,스킬을 패의 하단으로 올립니다.,Put target skill to bottom of hand.,スキルを手札の一番下に移動する。,将目标技能放在手牌最下方。,
+Skill/S_Sakuya_0_2_Name,Text,,「체인질링 매직」백,"Time Sign ""Changeling Magic White""",チェンジリングマジック-白,调换魔术·白,
+Skill/S_Sakuya_0_Description,Text,,마술-시부「체인질링 매직」을 1장 패에 넣습니다.,"Lunar Magic - add a Time Sign ""Changeling Magic"" skill to your hand.",月魔法:「時符-チェンジリングマジック」を手札に1枚加える。,"将1张“时符「调换魔法」”加入手中。
 
 <color=#4169E1>月魔术</color> - 根据手中技能的数量，获得相同数量的<color=#EEE9E9>时停飞刀</color>。",
-Skill/S_Sakuya_0_Name,Text,,메이드 비기「살인 인형」,Maid Secret Skill "Killing Doll",メイド秘技「殺人ドール」,女仆秘技「杀人玩偶」,
+Skill/S_Sakuya_0_Name,Text,,메이드 비기「살인 인형」,"Maid Secret Skill ""Killing Doll""",メイド秘技「殺人ドール」,女仆秘技「杀人玩偶」,
 Skill/S_Sakuya_10Rare_Description,Text,,"카운트가 2가 되면 [시계「루나 다이얼」] 5장을 패에 추가합니다. 2턴 동안 방해 성공률 +50%
 카운트 중에는 사쿠야는 패의 스킬을 사용할 수 없습니다.
 
@@ -193,12 +192,12 @@ Lunar Magic Last Quarter Moon  - No any countdown and effect. Remove Overload fr
 
 月魔术·上弦月 - 改为倒计时1。倒计时期间咲夜仍然能够使用手中的技能。
 月魔术·下弦月 - 不再有倒计时和生成[时计「月时计」]。恢复AP至最大，清空露西和所有队员的过载，抽3张手牌。",
-Skill/S_Sakuya_10Rare_Name,Text,,시부「프라이빗 스퀘어」,Time Sign "Private Square",時符「プライベートスクウェア」,时符「个人空间」,
-Skill/S_Sakuya_11Rare_Description,Text,,[시간정지] 1중첩당 %a(15%)의 추가 피해를 줍니다.,Deal %a (15%) damage by every stack of "Time Stop".,[時計停止]のストック1ごとに、ダメージが%a(15%)増加する 。,"消耗所有<color=#EEE9E9>时停飞刀</color>。
+Skill/S_Sakuya_10Rare_Name,Text,,시부「프라이빗 스퀘어」,"Time Sign ""Private Square""",時符「プライベートスクウェア」,时符「个人空间」,
+Skill/S_Sakuya_11Rare_Description,Text,,[시간정지] 1중첩당 %a(15%)의 추가 피해를 줍니다.,"Deal %a (15%) damage by every stack of ""Time Stop"".",[時計停止]のストック1ごとに、ダメージが%a(15%)増加する 。,"消耗所有<color=#EEE9E9>时停飞刀</color>。
 每有1把<color=#EEE9E9>时停飞刀</color>，额外造成一次追加攻击，造成&a伤害<color=#FF7A33>(攻击力的30%)</color>。",
-Skill/S_Sakuya_11Rare_Name,Text,,환장「밤안개의 환영살인귀」,Buriallusion "Phantomic Killer in Night Mist",幻葬「夜霧の幻影殺人鬼」,幻葬「夜雾幻影杀人鬼」,
+Skill/S_Sakuya_11Rare_Name,Text,,환장「밤안개의 환영살인귀」,"Buriallusion ""Phantomic Killer in Night Mist""",幻葬「夜霧の幻影殺人鬼」,幻葬「夜雾幻影杀人鬼」,
 Skill/S_Sakuya_12Rare_Description,Text,,,,,,
-Skill/S_Sakuya_12Rare_Name,Text,,은부「퍼펙트 메이드」,Silver Sign "Perfect Maid",銀符「パーフェクトメイド」,银符「完美女仆」,
+Skill/S_Sakuya_12Rare_Name,Text,,은부「퍼펙트 메이드」,"Silver Sign ""Perfect Maid""",銀符「パーフェクトメイド」,银符「完美女仆」,
 Skill/S_Sakuya_14Rare_Description,Text,,"가한 피해의 50%만큼 자신을 초과치유합니다.
 패에 '시부「체인질링 매직」' 1개를 추가합니다.
 [뱀파이어 하트] 1중첩을 얻습니다.","Overeal 50% of damage dealt.
@@ -208,15 +207,16 @@ Gain 1 stack of [Vampire's Heart].","自身を与えたダメージの50%でオ�
 [吸血鬼の心]を1ストック得る。","这个伤害的50%超额治疗自己。
 将1张[时符「调换魔法」]加入手中。
 获得1层[吸血鬼之心]。",
-Skill/S_Sakuya_14Rare_Name,Text,,환홍부「영원히 붉은날의 광상곡」,Phantom Scarlet Sign "Eternal RedNight Rhapsody",幻紅符「永遠に紅き昼の狂騒曲」,幻红符「永恒红昼狂想曲」,
+Skill/S_Sakuya_14Rare_Name,Text,,환홍부「영원히 붉은날의 광상곡」,"Phantom Scarlet Sign ""Eternal RedNight Rhapsody""",幻紅符「永遠に紅き昼の狂騒曲」,幻红符「永恒红昼狂想曲」,
 Skill/S_Sakuya_1_Description,Text,,"마술-비용 1 감소, '도발무시'를 얻습니다. 추가로 [시간정지] 2중첩을 얻습니다.","Lunar Magic - gains IgnoreTaunt, and reduce its cost by 1. Gains 2 stacks of ""Time Stop"".",月魔法: コストが1減少し、 挑発を無視を得る。[時間停止]を2ストック得る。,"获得2层<color=#00BFFF>时钟停摆</color>。
 
 <color=#4169E1>月魔术</color> - 降低1点费用，附带无视嘲讽，并且无视防御。",
-Skill/S_Sakuya_1_Name,Text,,속부「루미너스 리코셰」,Speed Sign "Luminous Ricochet",速符「ルミネスリコシェ」,速符「闪光弹跳」,
+Skill/S_Sakuya_1_Name,Text,,속부「루미너스 리코셰」,"Speed Sign ""Luminous Ricochet""",速符「ルミネスリコシェ」,速符「闪光弹跳」,
+Skill/S_Sakuya_2_0_Name,Text,,,,,伤符「铭刻于红魂」,
 Skill/S_Sakuya_2_Description,Text,,마술 - 모든 적을 선택합니다.,Lunar Magic - hit all enemies.,月魔法:対象をすべての敵に変更する。,"以倒计时3重复释放1次。
 
 <color=#4169E1>月魔术</color> - 以倒计时5重复释放1次。",
-Skill/S_Sakuya_2_Name,Text,,상부「인스크라이브 레드 소울」,Wound Sign "Inscribe Red Soul",傷符「インスクライブレッドソウル」,伤符「铭刻于红魂」,
+Skill/S_Sakuya_2_Name,Text,,상부「인스크라이브 레드 소울」,"Wound Sign ""Inscribe Red Soul""",傷符「インスクライブレッドソウル」,伤符「铭刻于红魂」,
 Skill/S_Sakuya_3_0_Description,Text,,"카운트가 1이 되면 추가로 %a의 피해를 줍니다.
 마술-카운트가 3으로 연장되어 %b의 추가피해를 입힙니다.
 카운트동안 목표대상은 15% 증가한 피해를 입습니다.","Deal %a damage after 1 Countdown.
@@ -224,7 +224,7 @@ Skill/S_Sakuya_3_0_Description,Text,,"카운트가 1이 되면 추가로 %a의 �
 Lunar Magic - Change to 3 Countdown. Deal %b additional damage. While this skill is counting, increase target's damage taken by 15%.","カウントダウン1で1回繰り返し発動し%aのダメージを追加で与える。
 月魔法:カウントダウンを3に延長し、%bのダメージを追加で与える。カウントダウン中、対象が受けるダメージが15%増加する。","倒计时1后，再造成%a伤害。
 月魔术 - 倒计时延长为3，额外造成%b伤害。倒计时期间，目标受到的伤害增加15%。",
-Skill/S_Sakuya_3_0_Name,Text,,환재「클락 콥스」,Illusion Existence "Clock Corpse",幻在「クロックコープス」,幻在「钟表的残骸」,
+Skill/S_Sakuya_3_0_Name,Text,,환재「클락 콥스」,"Illusion Existence ""Clock Corpse""",幻在「クロックコープス」,幻在「钟表的残骸」,
 Skill/S_Sakuya_3_1_Description,Text,,"카운트가 1이 되면 추가로 %a의 피해를 줍니다.
 마술-카운트가 3으로 연장되어 %b의 추가피해를 입힙니다.
 카운트동안 목표대상은 15% 증가한 피해를 입습니다.","Deal %a damage after 1 Countdown.
@@ -232,7 +232,7 @@ Skill/S_Sakuya_3_1_Description,Text,,"카운트가 1이 되면 추가로 %a의 �
 Lunar Magic - Change to 3 Countdown. Deal %b additional damage. While this skill is counting, increase target's damage taken by 15%.","カウントダウン1で1回繰り返し発動し%aのダメージを追加で与える。
 月魔法:カウントダウンを3に延長し、%bのダメージを追加で与える。カウントダウン中、対象が受けるダメージが15%増加する。","倒计时1后，再造成%a伤害。
 月魔术 - 倒计时延长为3，额外造成%b伤害。倒计时期间，目标受到的伤害增加15%。",
-Skill/S_Sakuya_3_1_Name,Text,,환유「잭 더 루도빌레」,Illusion Phantom "Jack the Ludo Bile",幻幽「ジャック・ザ・ルドビレ」,幻幽「迷幻的杰克」,
+Skill/S_Sakuya_3_1_Name,Text,,환유「잭 더 루도빌레」,"Illusion Phantom ""Jack the Ludo Bile""",幻幽「ジャック・ザ・ルドビレ」,幻幽「迷幻的杰克」,
 Skill/S_Sakuya_3_Description,Text,,"카운트가 1이 되면 추가로 %a의 피해를 주고 스킬을 1개 뽑습니다.
 마술-카운트가 3으로 연장되어 %b의 추가피해를 입힙니다.
 카운트동안 목표대상은 15% 증가한 피해를 입습니다.","Deal %a damage after 1 Countdown.
@@ -241,34 +241,34 @@ Lunar Magic - Change to 3 Countdown. Deal %b additional damage. While this skill
 月魔法:カウントダウンを3に延長し、%bのダメージを追加で与える。カウントダウン中、対象が受けるダメージが15%増加する。","每经过1个倒计时，这个技能的伤害降低&a点<color=#FF7A33>(攻击力的50%)</color>。
 
 <color=#4169E1>月魔术</color> - 变为倒计时8。",
-Skill/S_Sakuya_3_Name,Text,,환재「클락 콥스」,Illusion Existence "Clock Corpse",幻在「クロックコープス」,幻在「钟表的残骸」,
+Skill/S_Sakuya_3_Name,Text,,환재「클락 콥스」,"Illusion Existence ""Clock Corpse""",幻在「クロックコープス」,幻在「钟表的残骸」,
 Skill/S_Sakuya_4_0_Name,Text,,,,,奇术「永恒的温柔」,
 Skill/S_Sakuya_4_Description,Text,,,,,这个技能因为技能效果降低倒计时时，在倒计时栏中生成1个倒计时-1的复制（生成的复制无法再生成复制）。,
-Skill/S_Sakuya_4_Name,Text,,기술「이터널 믹」,Conjuring "Eternal Meek",奇術「エターナルミーク」,奇术「永恒的温柔」,
-Skill/S_Sakuya_4_new_Name,Text,,기술「이터널 믹」,Conjuring "Eternal Meek",奇術「エターナルミーク」,奇术「永恒的温柔」,
-Skill/S_Sakuya_5_0_Name,Text,,시부「퍼펙트 스퀘어」,Time Sign "Perfect Square",時符「パーフェクトスクウェア」,时符「完美空间」,
+Skill/S_Sakuya_4_Name,Text,,기술「이터널 믹」,"Conjuring ""Eternal Meek""",奇術「エターナルミーク」,奇术「永恒的温柔」,
+Skill/S_Sakuya_4_new_Name,Text,,기술「이터널 믹」,"Conjuring ""Eternal Meek""",奇術「エターナルミーク」,奇术「永恒的温柔」,
+Skill/S_Sakuya_5_0_Name,Text,,시부「퍼펙트 스퀘어」,"Time Sign ""Perfect Square""",時符「パーフェクトスクウェア」,时符「完美空间」,
 Skill/S_Sakuya_5_Description,Text,,"카운트 도중 피해를 입을경우 1회 발동합니다.
 피해를 받으면 피해량을 0으로 감소시키고 무작위 적에게 %a의 피해를 입힙니다.",,カウントダウン中に次にダメージを受けたとき、そのダメージを0にする。その後ランダムな敵に%aのダメージを与える。,倒计时期间，自身仅有1次，受到伤害时，使所受的伤害变为0，随后转为对随机敌人造成%a伤害。,
-Skill/S_Sakuya_5_Name,Text,,시부「퍼펙트 스퀘어」,Time Sign "Perfect Square",時符「パーフェクトスクウェア」,时符「完美空间」,
+Skill/S_Sakuya_5_Name,Text,,시부「퍼펙트 스퀘어」,"Time Sign ""Perfect Square""",時符「パーフェクトスクウェア」,时符「完美空间」,
 Skill/S_Sakuya_5_new_Description,Text,,,,,"将1张“时符「调换魔法」”加入手中。
 如果目标是其他友军，将自身所有<color=#EEE9E9>时停飞刀</color>转移至目标身上，并使其固定技能变为可用状态。",
-Skill/S_Sakuya_5_new_Name,Text,,시부「퍼펙트 스퀘어」,Time Sign "Perfect Square",時符「パーフェクトスクウェア」,时符「完美空间」,
+Skill/S_Sakuya_5_new_Name,Text,,시부「퍼펙트 스퀘어」,"Time Sign ""Perfect Square""",時符「パーフェクトスクウェア」,时符「完美空间」,
 Skill/S_Sakuya_6_0_Description,Text,,,,,,
-Skill/S_Sakuya_6_0_Name,Text,,기술「환혹 미스디렉션」,Conjuring "Mesmerizing Misdirection",奇術「幻惑ミスディレクション」,奇术「幻惑误导」,
+Skill/S_Sakuya_6_0_Name,Text,,기술「환혹 미스디렉션」,"Conjuring ""Mesmerizing Misdirection""",奇術「幻惑ミスディレクション」,奇术「幻惑误导」,
 Skill/S_Sakuya_6_Description,Text,,"스킬 1개를 패의 상단에 놓습니다.
 마술-스킬 1개를 뽑습니다. 선택한 스킬의 비용에 비례하여 적 전체에게 비용 1당 %a의 피해를 입힙니다","Put a skill to the top of hand.
 
 Lunar Magic - Draw 1 skill. Base on target skill's costs, deal %a damage to all enemies by every cost.","選んだスキルを手札の一番下に移動する。
 月魔法:スキルを1枚を引く。選んだスキルのコスト1ごとにすべての敵に%aのダメージを与える。",<color=#4169E1>月魔术</color> - 使目标额外获得“受到攻击时，十六夜咲夜会对来源进行一次反击”。,
-Skill/S_Sakuya_6_Name,Text,,기술「미스디렉션」,Conjuring "Misdirection",奇術「ミスディレクション」,奇术「误导」,
+Skill/S_Sakuya_6_Name,Text,,기술「미스디렉션」,"Conjuring ""Misdirection""",奇術「ミスディレクション」,奇术「误导」,
 Skill/S_Sakuya_7_Description,Text,,"선택한 스킬은 패의 상단 혹은 하단이 아니더라도 「마술」의 추가효과를 발동시킬 수 있습니다.
 선택한 스킬에 「마술」이 없을 경우 : '비용 1 감소' 및 '신속'을 1회 부여합니다.","Target skill gains ""Can affect ""Lunar Magic"" even not at the top or bottom of hand"".
 If target skill is not ""Lunar Magic"", gains ""Swiftness, and reduce its cost by 1"".","選んだスキルは手札の一番上または一番下以外の場所でも[月魔法]の追加効果を発動できる。
 選んだスキルが[月魔法]を持たない場合、次に使用するまでコストが1減少し、迅速を得る。","如果目标带有<color=#4169E1>月魔术</color>关键词，使其即使不在手牌最上方或最下方也能触发<color=#4169E1>月魔术</color>的额外效果；
 否则本场战斗仅一次，使其费用降低1点，附带迅速。",
-Skill/S_Sakuya_7_Name,Text,,환술「마이 나이프 리커전」,Illusion "My Knife's Recursions",幻符「インディスクリミネイト」,幻术「吾刃回归」,
-Skill/S_Sakuya_8_Description,Text,,[시계「루나 다이얼」] 및 [시부「체인질링 매직」]을 1장씩 패에 추가합니다.,Add 1 Watch "Lunar Dial" and 1 Time Sign "Changeling Magic" skills to your hand.,「時計-ルナダイアル」と「時符-チェンジリングマジック」を手札に1枚ずつ加える。,将1张[时计「月时计」]和1张[时符「调换魔法」]加入手中。,
-Skill/S_Sakuya_8_Name,Text,,시부「사쿠야 특제 스톱워치」,Time Sign "Sakuya's Special Stopwatch",時符「咲夜特製ストップウォッチ」,时符「咲夜特制秒表」,
+Skill/S_Sakuya_7_Name,Text,,환술「마이 나이프 리커전」,"Illusion ""My Knife's Recursions""",幻符「インディスクリミネイト」,幻术「吾刃回归」,
+Skill/S_Sakuya_8_Description,Text,,[시계「루나 다이얼」] 및 [시부「체인질링 매직」]을 1장씩 패에 추가합니다.,"Add 1 Watch ""Lunar Dial"" and 1 Time Sign ""Changeling Magic"" skills to your hand.",「時計-ルナダイアル」と「時符-チェンジリングマジック」を手札に1枚ずつ加える。,将1张“时计「月时计」”加入手中。,
+Skill/S_Sakuya_8_Name,Text,,시부「사쿠야 특제 스톱워치」,"Time Sign ""Sakuya's Special Stopwatch""",時符「咲夜特製ストップウォッチ」,时符「咲夜特制秒表」,
 Skill/S_Sakuya_9_Description,Text,,,,,"未暴击时，获得1把<color=#EEE9E9>时停飞刀</color>，将这个技能拿回手中。
 暴击时，放逐这个技能。",
 Skill/S_Sakuya_9_Name,Text,,,,,银符「银之跳跃」,
@@ -284,12 +284,12 @@ Add 1 Time Sign ""Changeling Magic"" skill to your hand.","スキルを1枚引�
 「時符-チェンジリングマジック」を手札に1枚加える。","抽取1个技能。
 展示牌库中的技能，选择其中1个置于顶部。
 将1个“时符「调换魔法」”加入手中。",
-Skill/S_Sakuya_LucyD_Name,Text,,시부「터널 이펙트」,Time Sign "Tunnel Effect",時符「トンネルエフェクト」,时符「隧穿效应」,
+Skill/S_Sakuya_LucyD_Name,Text,,시부「터널 이펙트」,"Time Sign ""Tunnel Effect""",時符「トンネルエフェクト」,时符「隧穿效应」,
 Skill/S_Sakuya_P_Description,Text,,,,,,
-Skill/S_Sakuya_P_Name,Text,,시계「루나 다이얼」,Watch "Lunar Dial",時計「ルナダイアル」,时计「月时计」,
+Skill/S_Sakuya_P_Name,Text,,시계「루나 다이얼」,"Watch ""Lunar Dial""",時計「ルナダイアル」,时计「月时计」,
 SkillExtended/SE_Sakuya_7_0_Des,Text,,신속' 부여 및 비용 1 감소.,"Reduce 1 cost, gain Swiftness.",コストが1減少し、迅速を得る。,费用减少1点、附带迅速。,
 SkillExtended/SE_Sakuya_7_0_Name,Text,,「마이 나이프 리커전」,My Knife's Recursions,インディスクリミネイト,吾刃回归,
-SkillExtended/SE_Sakuya_7_Des,Text,,패의 상단 혹은 하단에 위치하지 않더라도 「마술」의 추가효과를 시전합니다.,Can affect "Lunar Magic" even not at the top or bottom of hand.,手札の一番上か一番下場所でも[月魔法]の追加効果を発動できる。,即使不在手牌顶或手牌底也能触发「月魔术」的额外效果。,
+SkillExtended/SE_Sakuya_7_Des,Text,,패의 상단 혹은 하단에 위치하지 않더라도 「마술」의 추가효과를 시전합니다.,"Can affect ""Lunar Magic"" even not at the top or bottom of hand.",手札の一番上か一番下場所でも[月魔法]の追加効果を発動できる。,即使不在手牌顶或手牌底也能触发「月魔术」的额外效果。,
 SkillExtended/SE_Sakuya_7_Name,Text,,「마이 나이프 리커전」,My Knife's Recursions,インディスクリミネイト,吾刃回归,
 SkillExtended/SE_Sakuya_P_EnforceString,Text,,,,,,
 SkillExtended/SE_Sakuya_P_Name,Text,,마술,Lunar Magic,月魔法,月魔术,

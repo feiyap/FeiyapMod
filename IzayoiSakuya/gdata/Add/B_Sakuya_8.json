@@ -1,0 +1,15 @@
+{
+    "B_Sakuya_8": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "IzayoiSakuya.B_Sakuya_8",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "特制秒表",
+        "LifeTime": 1,
+        "Icon": "B_Sakuya_8\\B_Sakuya_8_Icon.png"
+    }
+}

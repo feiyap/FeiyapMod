@@ -4,7 +4,8 @@
         "Party": [
             "Phoenix",
             "ShadowPriest",
-            "RemiliaScarlet"
+            "RemiliaScarlet",
+            "LucyC"
         ],
         "PartySkills": [
             [
@@ -22,15 +23,23 @@
                 "S_RemiliaScarlet_6",
                 "S_RemiliaScarlet_7",
                 "S_RemiliaScarlet_8",
-                "S_RemiliaScarlet_9"
+                "S_RemiliaScarlet_9",
+                "S_RemiliaScarlet_12Rare"
+            ],
+            [
+                "S_DebugSkill"
             ]
         ],
         "PartyBasicSkill": [
             "S_Ilya_1",
             "S_ShadowPriest_0",
-            "S_RemiliaScarlet_0"
+            "S_RemiliaScarlet_7",
+            "S_LucyC_2"
         ],
         "PartyEquip": [
+            [
+                
+            ],
             [
                 
             ],

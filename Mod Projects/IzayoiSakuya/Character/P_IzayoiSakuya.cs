@@ -32,16 +32,18 @@ namespace IzayoiSakuya
         {
             if (!skill.BasicSkill)
             {
+                List<CastingSkill> removeList = new List<CastingSkill>();
                 foreach (CastingSkill castingSkill in BattleSystem.instance.CastSkills)
                 {
                     if (castingSkill.skill.Master == this.BChar)
                     {
                         castingSkill.CastButton.CountingLeft--;
 
-                        if (castingSkill.CastButton.CountingLeft <= 0)
+                        if (castingSkill.CastSpeed <= 0)
                         {
                             BattleSystem.instance.ActWindow.CastingWaste(castingSkill);
-                            BattleSystem.instance.CastSkills.Remove(castingSkill);
+                            //BattleSystem.instance.CastSkills.Remove(castingSkill);
+                            removeList.Add(castingSkill);
 
                             Skill skill2 = castingSkill.skill.CloneSkill(true, null, null, false);
                             skill2.Counting = -99;
@@ -75,10 +77,11 @@ namespace IzayoiSakuya
                     if (castingSkill2.skill.Master == this.BChar)
                     {
                         castingSkill2.CastButton.CountingLeft--;
-                        if (castingSkill2.CastButton.CountingLeft <= 0)
+                        if (castingSkill2.CastSpeed <= 0)
                         {
                             BattleSystem.instance.ActWindow.CastingWaste(castingSkill2);
-                            BattleSystem.instance.SaveSkill.Remove(castingSkill2);
+                            //BattleSystem.instance.SaveSkill.Remove(castingSkill2);
+                            removeList.Add(castingSkill2);
 
                             Skill skill2 = castingSkill2.skill.CloneSkill(true, null, null, false);
                             skill2.Counting = -99;
@@ -97,6 +100,11 @@ namespace IzayoiSakuya
                             }
                         }
                     }
+                }
+                foreach (CastingSkill castingSkill3 in removeList)
+                {
+                    BattleSystem.instance.CastSkills.Remove(castingSkill3);
+                    BattleSystem.instance.SaveSkill.Remove(castingSkill3);
                 }
             }
 

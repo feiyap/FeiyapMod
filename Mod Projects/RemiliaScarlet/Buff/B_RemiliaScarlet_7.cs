@@ -19,6 +19,24 @@ namespace RemiliaScarlet
     /// </summary>
     public class B_RemiliaScarlet_7:Buff
     {
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.Strength = true;
+            this.PlusStat.maxhp = 5;
+        }
 
+        public override void BuffStat()
+        {
+            base.BuffStat();
+
+            PlusStat.atk = this.Usestate_F.GetStat.maxhp * 0.1f;
+        }
+
+        public override string DescExtended()
+        {
+            return this.BuffData.Description.Replace("&user", base.Usestate_L.Info.Name)
+                                            .Replace("&a", (this.Usestate_F.GetStat.maxhp * 0.1f).ToString());
+        }
     }
 }

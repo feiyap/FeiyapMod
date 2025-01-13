@@ -14,6 +14,7 @@
         "Effect_Target": "SE_T_S_Sakuya_4_0",
         "Image_0": "S_Sakuya_4_0\\S_Sakuya_4_0_Image_0.png",
         "Image_1": "S_Sakuya_4_0\\S_Sakuya_4_0_Image_1.png",
-        "Image_2": "S_Sakuya_4_0\\S_Sakuya_4_0_Image_2.png"
+        "Image_2": "S_Sakuya_4_0\\S_Sakuya_4_0_Image_2.png",
+        "IgnoreTaunt": false
     }
 }

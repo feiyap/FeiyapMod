@@ -36,6 +36,6 @@
         "Fatal": false,
         "EnemyPreview": false,
         "UnknownTarget": false,
-		"Counting": 10
+        "Counting": 10
     }
 }

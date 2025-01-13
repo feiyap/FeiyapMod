@@ -4,7 +4,7 @@
         "BuffTag": "DOT",
         "MaxStack": 3,
         "Name": "<sprite name=\"RemiliaScarlet_blood\"><color=#FF3030>绯夜</color>",
-        "Description": "受到痛苦伤害时，每1层层数会治疗&user5点体力。1回合最多触发1次。",
+        "Description": "结算伤害时，造成伤害的100%将会治疗&user。",
         "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newicons (10)",
         "Hide": false,
         "IsFieldBuff": false,

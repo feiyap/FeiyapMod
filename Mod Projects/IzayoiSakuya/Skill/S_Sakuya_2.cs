@@ -20,18 +20,20 @@ namespace IzayoiSakuya
 	/// </summary>
     public class S_Sakuya_2: SkillExtended_Sakuya
     {
-        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        public override void SkillUseHand(BattleChar Target)
         {
+            base.SkillUseHand(Target);
             Skill skill = Skill.TempSkill("S_Sakuya_2_0", this.BChar, this.BChar.MyTeam);
-            skill.Counting = 2;
+            skill.Counting = 3;
             BattleTeam.SkillRandomUse(this.BChar, skill, false, true, false);
 
             if (CheckLunaMagic())
             {
                 Skill skill2 = Skill.TempSkill("S_Sakuya_2_0", this.BChar, this.BChar.MyTeam);
-                skill2.Counting = 4;
+                skill2.Counting = 5;
                 BattleTeam.SkillRandomUse(this.BChar, skill2, false, true, false);
             }
         }
+
     }
 }

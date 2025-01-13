@@ -17,32 +17,18 @@ namespace RemiliaScarlet
     /// 绯夜
     /// 每回合5点痛苦伤害。受到痛苦伤害时，会治疗施加者5点体力。1回合最多触发1次。
     /// </summary>
-    public class B_RemiliaScarlet_0: Buff, IP_DamageTakeChange, IP_PlayerTurn
+    public class B_RemiliaScarlet_0: Buff
     {
-        int count;
-
         public override void Init()
         {
             base.Init();
-            count = 0;
         }
 
-        public void Turn()
+        public override void TurnUpdate()
         {
-            count = 0;
-        }
+            base.TurnUpdate();
 
-        public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
-        {
-            if (Dmg > 0 && NODEF)
-            {
-                if (count < 1)
-                {
-                    base.Usestate_L.Heal(base.Usestate_L, 5 * this.StackNum, false, false, null);
-                    count++;
-                }
-            }
-            return Dmg;
+            base.Usestate_L.Heal(base.Usestate_L, 5 * this.StackNum, false, false, null);
         }
 
         public override string DescExtended()
