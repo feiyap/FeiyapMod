@@ -27,6 +27,9 @@
         "Except": false,
         "Basic": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "IzayoiSakuya.S_Sakuya_9"
+        ]
     }
 }

@@ -1,0 +1,11 @@
+{
+    "B_HatsuneMiku_9": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HatsuneMiku.B_HatsuneMiku_9",
+        "BuffTag": "null",
+        "Name": "无敌",
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_35",
+        "Cantdisable": true,
+        "LifeTime": 2
+    }
+}

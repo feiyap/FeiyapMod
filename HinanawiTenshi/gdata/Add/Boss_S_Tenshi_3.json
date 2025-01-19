@@ -1,0 +1,23 @@
+{
+    "Boss_S_Tenshi_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/LastBoss/LBoss_P3_0",
+        "Target": "all_enemy",
+        "NoDrop": true,
+        "EnemyPreview": true,
+        "UnknownTarget": false,
+        "Name": "天气「绯想天促」",
+        "Description": "每次命中获得1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+        "Effect_Target": "SE_T_Boss_S_Tenshi_3",
+        "Image_0": "Boss_S_Tenshi_3\\Boss_S_Tenshi_3_Image_0.png",
+        "Image_1": "Boss_S_Tenshi_3\\Boss_S_Tenshi_3_Image_1.png",
+        "Image_2": "Boss_S_Tenshi_3\\Boss_S_Tenshi_3_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.Boss_S_Tenshi_3"
+        ],
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "UseAp": 0
+    }
+}

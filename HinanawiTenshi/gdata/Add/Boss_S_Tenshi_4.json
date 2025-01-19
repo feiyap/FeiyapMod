@@ -1,0 +1,19 @@
+{
+    "Boss_S_Tenshi_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NoDrop": true,
+        "EnemyPreview": true,
+        "Name": "气符「无念无想的境界」",
+        "Description": "解除自己持有的痛苦、弱化减益。\n依据解除的减益数量，获得等量的<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+        "Effect_Self": "SE_S_Boss_S_Tenshi_4",
+        "Image_0": "Boss_S_Tenshi_4\\Boss_S_Tenshi_4_Image_0.png",
+        "Image_1": "Boss_S_Tenshi_4\\Boss_S_Tenshi_4_Image_1.png",
+        "Image_2": "Boss_S_Tenshi_4\\Boss_S_Tenshi_4_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.Boss_S_Tenshi_4"
+        ]
+    }
+}

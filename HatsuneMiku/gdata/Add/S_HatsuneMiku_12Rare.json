@@ -4,7 +4,7 @@
         "Category": "null",
         "Rare": true,
         "NODOD": false,
-        "NotCount": false,
+        "NotCount": true,
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": false,
@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "ローリンガール",
-        "Description": "施加5层[未来之音]。\n音弦12：将1张[アンノウン・マザーグース]加入手卡。",
+        "Description": "<color=#54FF9F>音弦12</color> - 将1张“アンノウン・マザーグース”加入手卡。",
         "User": "HatsuneMiku",
         "Particle": "Particle/flare_lv1",
         "Target": "ally",
@@ -27,6 +27,7 @@
         "SkillExtended": [
             "HatsuneMiku.S_HatsuneMiku_12Rare"
         ],
-        "UseAp": 2
+        "UseAp": 2,
+        "PlusSkillView": "S_HatsuneMiku_12Rare_0"
     }
 }

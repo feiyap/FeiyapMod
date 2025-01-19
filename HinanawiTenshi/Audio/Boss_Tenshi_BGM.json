@@ -1,0 +1,7 @@
+{
+    "Name": "Boss_Tenshi_BGM",
+    "path": "AudioFiles\\Boss_Tenshi_BGM.mp3",
+    "AssetBundlePath": "",
+    "Loop": true,
+    "Bus": "BGM"
+}

@@ -4,6 +4,74 @@ namespace HinanawiTenshi
     public static class ModItemKeys
     {
 		/// <summary>
+		/// 气焰万丈
+		/// </summary>
+        public static string Buff_Boss_B_Tenshi_0 = "Boss_B_Tenshi_0";
+		/// <summary>
+		/// 无念无想
+		/// </summary>
+        public static string Buff_Boss_B_Tenshi_4 = "Boss_B_Tenshi_4";
+		/// <summary>
+		/// 天人之体
+		/// 受到任何不小于2回合的减益效果时，该效果持续时间降低1回合。
+		/// 受到单次超过100的伤害时，该伤害以对数降低。每次触发这个效果时，自身获得5个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+		/// 当自身没有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，受到的伤害降低90%。
+		/// </summary>
+        public static string Buff_Boss_B_Tenshi_P = "Boss_B_Tenshi_P";
+		/// <summary>
+		/// 灵想「镇守大地之石」
+		/// 回合开始时，自身获得5个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+		/// 受到伤害时，将1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>转移至伤害来源。
+		/// 当同时拥有20个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，天子将发动「全人类的绯想天」，并进入天人姿态。
+		/// </summary>
+        public static string Buff_Boss_B_Tenshi_Phase_1 = "Boss_B_Tenshi_Phase_1";
+		/// <summary>
+		/// 天人之姿
+		/// 天子解放<color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>权</color><color=#FFD700>能</color>。
+		/// 免疫所有减益。
+		/// 每回合行动次数+1。
+		/// <color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>的持续时间变为永久。
+		/// 在战斗中牌库洗牌时，若需要洗牌的技能数为20及以上，则使当前回合数+1。
+		/// </summary>
+        public static string Buff_Boss_B_Tenshi_Phase_2 = "Boss_B_Tenshi_Phase_2";
+		/// <summary>
+		/// 剑技「气焰万丈之剑」
+		/// </summary>
+        public static string Skill_Boss_S_Tenshi_0 = "Boss_S_Tenshi_0";
+		/// <summary>
+		/// 地符「不让土壤之剑」
+		/// 攻击后，若目标不是濒死状态，则再次攻击目标。
+		/// 每次命中获得1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+		/// </summary>
+        public static string Skill_Boss_S_Tenshi_1 = "Boss_S_Tenshi_1";
+		/// <summary>
+		/// 非想「非想非非想之剑」
+		/// 指向持有最多增益的调查员。
+		/// 目标身上每持有1个增益，这个技能的伤害提升1.1倍。
+		/// 使目标持有的所有增益减少1回合持续时间。
+		/// </summary>
+        public static string Skill_Boss_S_Tenshi_2 = "Boss_S_Tenshi_2";
+		/// <summary>
+		/// 天气「绯想天促」
+		/// 每次命中获得1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+		/// </summary>
+        public static string Skill_Boss_S_Tenshi_3 = "Boss_S_Tenshi_3";
+		/// <summary>
+		/// 气符「无念无想的境界」
+		/// 解除自己持有的痛苦、弱化减益。
+		/// 依据解除的减益数量，获得等量的<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+		/// </summary>
+        public static string Skill_Boss_S_Tenshi_4 = "Boss_S_Tenshi_4";
+		/// <summary>
+		/// 「全人类的绯想天」
+		/// 丢弃所有技能。抽取等量的技能。
+		/// </summary>
+        public static string Skill_Boss_S_Tenshi_5 = "Boss_S_Tenshi_5";
+		/// <summary>
+		/// 比那名居天子
+		/// </summary>
+        public static string Enemy_Boss_Tenshih = "Boss_Tenshih";
+		/// <summary>
 		/// 天气 - 快晴
 		/// </summary>
         public static string Buff_B_Tenki_1 = "B_Tenki_1";
@@ -132,7 +200,7 @@ namespace HinanawiTenshi
         public static string Buff_B_Tenshi_Rare_3_1 = "B_Tenshi_Rare_3_1";
 		/// <summary>
 		/// 绯想之剑
-		/// 回合开始时，获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+		/// 回合开始时，获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 		/// </summary>
         public static string Item_Equip_E_Tenshi_0 = "E_Tenshi_0";
 		/// <summary>
@@ -145,6 +213,24 @@ namespace HinanawiTenshi
 		/// <b><color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>权</color><color=#FFD700>能</color></b> - 比那名居天子仍然在修行之中，尚未解放真正的力量……
 		/// </summary>
         public static string Character_HinanawiTenshi = "HinanawiTenshi";
+        public static string EnemyQueue_Queue_Boss_Tenshi = "Queue_Boss_Tenshi";
+		/// <summary>
+		/// 奇怪的博丽神社
+		/// 你们来到了“博丽神社”……不，只能说形似“博丽神社”的地方。方舟中不可能真的存在博丽神社，那这里究竟是什么地方？
+		/// 就在你们思考的时候，在神社中看到了一位独自屹立在鸟居之下的少女。
+		/// ——按照幻想乡的默认规则，一场恶战看来是无法避免了。
+		/// Button
+		/// ButtonToolTip
+		/// </summary>
+        public static string RandomEvent_RE_Tenshi_Boss = "RE_Tenshi_Boss";
+		/// <summary>
+		/// 天空之要石
+		/// 使调查员获得的不低于2回合的增益持续时间延长1回合；
+		/// 使调查员获得的不低于2回合的减益持续时间降低1回合。
+		/// </summary>
+        public static string Item_Passive_R_Tenshi_0 = "R_Tenshi_0";
+        public static string SkillEffect_SE_S_Boss_S_Tenshi_0 = "SE_S_Boss_S_Tenshi_0";
+        public static string SkillEffect_SE_S_Boss_S_Tenshi_4 = "SE_S_Boss_S_Tenshi_4";
         public static string SkillEffect_SE_S_S_Tenki_1 = "SE_S_S_Tenki_1";
         public static string SkillEffect_SE_S_S_Tenki_10 = "SE_S_S_Tenki_10";
         public static string SkillEffect_SE_S_S_Tenki_11 = "SE_S_S_Tenki_11";
@@ -172,9 +258,21 @@ namespace HinanawiTenshi
 		/// </summary>
         public static string SkillExtended_SE_Tenki_3 = "SE_Tenki_3";
 		/// <summary>
+		/// 费用-1，使目标获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+		/// 指向队友
+		/// </summary>
+        public static string SkillExtended_SE_Tenshi_C_0 = "SE_Tenshi_C_0";
+		/// <summary>
+		/// 抽取到手中时，根据技能的费用，自身和比那名居天子获得相同数量的随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+		/// </summary>
+        public static string SkillExtended_SE_Tenshi_C_1 = "SE_Tenshi_C_1";
+		/// <summary>
 		/// 绯想天
 		/// </summary>
         public static string SkillExtended_SE_Tenshi_Rare_3 = "SE_Tenshi_Rare_3";
+        public static string SkillEffect_SE_T_Boss_S_Tenshi_1 = "SE_T_Boss_S_Tenshi_1";
+        public static string SkillEffect_SE_T_Boss_S_Tenshi_2 = "SE_T_Boss_S_Tenshi_2";
+        public static string SkillEffect_SE_T_Boss_S_Tenshi_3 = "SE_T_Boss_S_Tenshi_3";
         public static string SkillEffect_SE_T_S_Tenshi_0 = "SE_T_S_Tenshi_0";
         public static string SkillEffect_SE_T_S_Tenshi_1 = "SE_T_S_Tenshi_1";
         public static string SkillEffect_SE_T_S_Tenshi_2 = "SE_T_S_Tenshi_2";
@@ -273,8 +371,8 @@ namespace HinanawiTenshi
         public static string Skill_S_Tenki_9 = "S_Tenki_9";
 		/// <summary>
 		/// 天符「天道是非之剑」
-		/// 自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
-		/// <color=#97FFFF>天启8</color> - 使所有队友获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。获得那个数量的<color=#97FFFF>气质</color>。
+		/// 自身获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+		/// <color=#97FFFF>天启8</color> - 使所有队友获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 		/// </summary>
         public static string Skill_S_Tenshi_0 = "S_Tenshi_0";
 		/// <summary>
@@ -339,8 +437,7 @@ namespace HinanawiTenshi
         public static string Skill_S_Tenshi_Rare_1 = "S_Tenshi_Rare_1";
 		/// <summary>
 		/// 地震「先忧后乐之剑」
-		/// 释放时，(150%干扰)眩晕目标。
-		/// <color=#97FFFF>天启9</color> - 改为眩晕所有敌人。
+		/// <color=#97FFFF>天启9</color> - 改为指向所有敌人。
 		/// </summary>
         public static string Skill_S_Tenshi_Rare_2 = "S_Tenshi_Rare_2";
 		/// <summary>
@@ -364,6 +461,150 @@ namespace HinanawiTenshi
 
     public static class ModLocalization
     {
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 哦呀，居然还有人能顺利到达这里。
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_TenshiText1 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text1");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 正好！吾在这里停留得也有些闷了。
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_TenshiText2 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text2");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 就用你们来解解闷吧！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_TenshiText3 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text3");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 灵梦！总算等到你了哇。你来的也太慢了！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText1 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text1");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// ——啊哈哈！什么呀，灵梦！你明明知道答案的不对吗？！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText10 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text10");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 想要从吾这里得到这个，就先战胜吾吧！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText11 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text11");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// …………唉，我就知道会是这样啊……
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText12 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text12");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 露西，我们要应战了！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText13 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text13");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 什么……？天子？为什么你会在这里……
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText2 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text2");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 吾在这里看到了很像博丽神社的地方，想着幻想乡的同伴会不会也来这里，于是一直在这里等着呢。
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText3 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text3");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 跟在你后边的这个小女孩是……？
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText4 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text4");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 她是我的朋友，露西。我们正在寻找时光之影，你有什么头绪吗？
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText5 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text5");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 时光之影……不会是这个东西吧？吾在神社里捡到的怪东西呢。
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText6 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text6");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// ………………
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText7 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text7");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// ……虽然很多余，但还是容我询问一下。天子，你能把那个东西给我吗？
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText8 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text8");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// ……
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_Tenshi_ReimuText9 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text9");
 		/// <summary>
 		/// Korean:
 		/// English:

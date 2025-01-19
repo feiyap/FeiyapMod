@@ -52,6 +52,12 @@ namespace RemiliaScarlet
         public override void SkillKill(SkillParticle SP)
         {
             base.SkillKill(SP);
+
+            if (BattleSystem.instance.TurnNum >= BattleSystem.instance.FogTurn)
+            {
+                return;
+            }
+
             if (!this.BChar.BuffFind("B_RemiliaScarlet_6", false))
             {
                 this.BChar.Info.OriginStat.maxhp += 2;

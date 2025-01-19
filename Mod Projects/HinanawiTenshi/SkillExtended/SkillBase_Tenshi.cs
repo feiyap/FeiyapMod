@@ -42,7 +42,7 @@ namespace HinanawiTenshi
                     }
                 }
 
-                if (tempList.Count < 0)
+                if (tempList.Count <= 0)
                 {
                     return;
                 }

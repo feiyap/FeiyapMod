@@ -18,6 +18,8 @@
             "HinanawiTenshi.S_Tenshi_2"
         ],
         "NotCount": false,
-        "IgnoreTaunt": false
+        "IgnoreTaunt": false,
+        "NoDrop": false,
+        "EnemyPreview": false
     }
 }

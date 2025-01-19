@@ -2,13 +2,15 @@
     "SE_T_S_HatsuneMiku_9": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "HEAL_Per": 50,
+        "HEAL_Per": 65,
         "CRI": 10,
         "Buffs": [
-            "B_Public_30_T"
+            "B_HatsuneMiku_9"
         ],
         "BuffPlusTagPer": [
             0
-        ]
+        ],
+        "ForceHeal": true,
+        "ChainHeal": false
     }
 }

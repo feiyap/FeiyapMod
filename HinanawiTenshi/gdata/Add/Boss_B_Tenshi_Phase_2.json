@@ -1,0 +1,15 @@
+{
+    "Boss_B_Tenshi_Phase_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "HinanawiTenshi.Boss_B_Tenshi_Phase_2",
+        "BuffTag": "null",
+        "Name": "天人之姿",
+        "Description": "天子解放<color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>权</color><color=#FFD700>能</color>。\n免疫所有减益。\n每回合行动次数+1。\n<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>的持续时间变为永久。\n在战斗中牌库洗牌时，若需要洗牌的技能数为20及以上，则使当前回合数+1。",
+        "Icon": "Boss_B_Tenshi_Phase_2\\Boss_B_Tenshi_Phase_2_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

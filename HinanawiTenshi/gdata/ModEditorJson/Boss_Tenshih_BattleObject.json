@@ -1,0 +1,28 @@
+{
+    "myKey": "Boss_Tenshih",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Boss_Tenshih\\Boss_TenshihMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.5300648,
+            "y": 0.136564046
+        },
+        "Head": {
+            "x": 0.50222224,
+            "y": 0.8379438
+        },
+        "Center": {
+            "x": 0.497778058,
+            "y": 0.5690093
+        },
+        "UI": {
+            "x": 0.5233097,
+            "y": 0.13675192
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

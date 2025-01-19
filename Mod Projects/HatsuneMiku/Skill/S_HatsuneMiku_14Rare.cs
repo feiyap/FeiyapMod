@@ -39,12 +39,6 @@ namespace HatsuneMiku
             yield break;
         }
 
-        public override string DescExtended(string desc)
-        {
-            int num = (int)(this.BChar.GetStat.reg * 0.1f);
-            return base.DescExtended(desc).Replace("&a", num.ToString());
-        }
-
         public void TurnEnd()
         {
             for (int i = 0; i < BattleSystem.instance.AllyList.Count; i++)
@@ -63,6 +57,11 @@ namespace HatsuneMiku
             {
                BattleSystem.DelayInput(this.Ienum());
             }
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.BuffReturn("B_HatsuneMiku_P", false).StackNum * (int)(this.BChar.GetStat.reg))).ToString());
         }
     }
 }

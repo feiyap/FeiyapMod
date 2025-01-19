@@ -34,10 +34,12 @@ namespace HinanawiTenshi
                 if (CheckKishi(9, true))
                 {
                     base.SkillParticleOn();
+                    this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
                 }
                 else
                 {
                     base.SkillParticleOff();
+                    this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
                 }
             }
         }
@@ -46,14 +48,7 @@ namespace HinanawiTenshi
         {
             if (CheckKishi(9, false))
             {
-                foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
-                {
-                    be.BuffAdd("B_Common_Rest", this.BChar, false, 150);
-                }
-            }
-            else
-            {
-                saveTarget.BuffAdd("B_Common_Rest", this.BChar, false, 150);
+
             }
         }
     }

@@ -1,0 +1,11 @@
+{
+    "Boss_B_Tenshi_Phase_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "HinanawiTenshi.Boss_B_Tenshi_Phase_1",
+        "BuffTag": "null",
+        "Name": "灵想「镇守大地之石」",
+        "Description": "回合开始时，自身获得5个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。\n受到伤害时，将1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>转移至伤害来源。\n当同时拥有20个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，天子将发动「全人类的绯想天」，并进入天人姿态。",
+        "Icon": "Boss_B_Tenshi_Phase_1\\Boss_B_Tenshi_Phase_1_Icon.png"
+    }
+}

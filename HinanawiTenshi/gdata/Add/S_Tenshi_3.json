@@ -19,6 +19,8 @@
         "SkillExtended": [
             "HinanawiTenshi.S_Tenshi_3"
         ],
-        "NoDrop": false
+        "NoDrop": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

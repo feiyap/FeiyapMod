@@ -1,0 +1,14 @@
+{
+    "myKey": "RE_Tenshi_Boss",
+    "myField": "MainImage_3Stage",
+    "myValues": {
+        "pivot01": {
+            "x": 0.5107034,
+            "y": -0.0178403854
+        }
+    },
+    "MyChangeType": "RandomEventImage",
+    "myKeys": [
+        
+    ]
+}

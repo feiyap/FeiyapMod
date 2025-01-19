@@ -4,7 +4,7 @@
         "Category": "null",
         "Rare": true,
         "Name": "初音ミクの消失",
-        "Description": "使所有队友解除所有减益。\n赋予39层[未来之音]。\n自己死亡。",
+        "Description": "解除所有痛苦、弱化减益，施加39层<color=#7FFFD4>未来之音</color>。\n那之后，自己死亡。",
         "UseAp": 0,
         "Particle": "Particle/Public/Public_28",
         "Target": "all_ally",

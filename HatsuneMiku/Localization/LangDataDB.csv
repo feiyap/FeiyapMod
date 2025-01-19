@@ -1,14 +1,16 @@
 ﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
 Buff/B_HatsuneMiku_4_Description,Text,,,"Very good barrier, love from Hatsune Miku.",,非常好防护罩，爱来自初音ミク。,
 Buff/B_HatsuneMiku_4_Name,Text,,,Hatsune Miku Barrier,,初音防护罩,
+Buff/B_HatsuneMiku_5_Description,Text,,,,,,
 Buff/B_HatsuneMiku_5_Name,Text,,,恋は戦争,,恋は戦争,
-Buff/B_HatsuneMiku_6_Description,Text,,,Heal 50% of all damage dealt.,,攻击时恢复造成伤害的50%。,
+Buff/B_HatsuneMiku_6_Description,Text,,,Heal 50% of all damage dealt.,,造成伤害的50%治疗自己。,
 Buff/B_HatsuneMiku_6_Name,Text,,,ヴァンパイア,,ヴァンパイア,
-Buff/B_HatsuneMiku_7_Description,Text,,,"ATK + 50% stacks of ""The Future Voice"".",,攻击力增加自己身上[未来之音]层数的一半。,
+Buff/B_HatsuneMiku_7_Description,Text,,,ATK + 100% stacks of "The Future Voice".,,增加自己身上<color=#7FFFD4>未来之音</color>层数的攻击力。,
 Buff/B_HatsuneMiku_7_Name,Text,,,太陽系デスコ,,太陽系デスコ,
-Buff/B_HatsuneMiku_P_Description,Text,,,"Heal by stacks of ""The Future Voice"" at the end of turn. Remove 1 stack.",,"回合结束时，恢复等量于层数的体力。
-那之后，消耗1层[未来之音]。",
-Buff/B_HatsuneMiku_P_Name,Text,,,The Future Voice,,未来之音,
+Buff/B_HatsuneMiku_9_Name,Text,,,,,无敌,
+Buff/B_HatsuneMiku_P_Description,Text,,,Heal by stacks of "The Future Voice" at the end of turn. Remove 1 stack.,,"回合结束时，恢复等量于层数的体力。
+那之后，消耗1层<color=#7FFFD4>未来之音</color>。",
+Buff/B_HatsuneMiku_P_Name,Text,,,The Future Voice,,<color=#7FFFD4>未来之音</color>,
 Character/HatsuneMiku_CampSelectWord,Text,,,Welcome to my concert. Today's track is ...,,「欢迎来到我的演唱会！今天的曲目，就从……」,
 Character/HatsuneMiku_PassiveDes,Text,,,"When battle starts, place 2 stacks of ""The Future Voice"" to all party members.
 
@@ -16,13 +18,13 @@ Character/HatsuneMiku_PassiveDes,Text,,,"When battle starts, place 2 stacks of "
 
 Intensity X: Hatsune Miku will trigger additional effects on characters with X stacks of ""The Future Voice"".
 
-Rhythm X: When there is X stacks of ""The Future Voice"" on Hatsune Miku, additional effects will be triggered.",,"战斗开始时，为所有队友施加2层[未来之音]。
+Rhythm X: When there is X stacks of ""The Future Voice"" on Hatsune Miku, additional effects will be triggered.",,"<b>最初之音</b> - 战斗开始时，为所有队友施加2层<color=#7FFFD4>未来之音</color>。
 
-未来之音：回合结束时，恢复等量于层数的体力。那之后，消耗1层[未来之音]。
+<b>未来之音</b> - 回合结束时，恢复等量于层数的体力。那之后，消耗1层<color=#7FFFD4>未来之音</color>。
 
-音弦X：初音ミク的技能对拥有身上已有X层[未来之音]的角色释放会触发额外效果。
+<b><color=#54FF9F>音弦X</color></b> -  初音未来的技能对拥有身上已有X层<color=#7FFFD4>未来之音</color>的角色释放会触发额外效果。
 
-音律X：初音ミク身上有X层[未来之音]时会触发额外效果。",
+<b><color=#00FFFF>音律X</color></b> - 初音未来身上有X层<color=#7FFFD4>未来之音</color>时会触发额外效果。",
 Character/HatsuneMiku_PassiveName,Text,,,The Initial Sound,,最初之音,
 Character/HatsuneMiku_SelectInfo,Text,,,"Continuously using singing to stack various gains,
 The more gain, the stronger the therapeutic effect,
@@ -30,76 +32,81 @@ Push the battle to its climax with powerful sound!",,"不断使用歌声叠加�
 增益越多治疗效果越强，
 以强大的音感将战斗推向最高潮！",
 Character/HatsuneMiku_name,Text,,,Hatsune Miku,,初音ミク,
-Skill/S_HatsuneMiku_0_Description,Text,,,"Create 1 ""Scallion"" in hand.",,将1张[大葱]加入手牌。,
-Skill/S_HatsuneMiku_0_Name,Text,,,みくみくにしてあげる,,みくみくにしてあげる?,
+Skill/S_HatsuneMiku_0_Description,Text,,,Create 1 "Scallion" in hand.,,将1张[大葱]加入手牌。,
+Skill/S_HatsuneMiku_0_Name,Text,,,みくみくにしてあげる,,みくみくにしてあげる♪,
 Skill/S_HatsuneMiku_10_Description,Text,,,"Remove a random debuff from all party members.
 Place 2 stacks of ""The Future Voice"".
 Give barrier by stacks of ""The Future Voice"".",,"解除1个负面状态。
-赋予等量与目标身上[未来之音]层数的防护罩。",
+施加等量与目标身上<color=#7FFFD4>未来之音</color>层数的防护罩。",
 Skill/S_HatsuneMiku_10_Name,Text,,,荒野と森と魔法の歌,,荒野と森と魔法の歌,
-Skill/S_HatsuneMiku_11Rare_Description,Text,,,"Place &a stacks of ""The Future Voice"" to target.",,赋予&a层[未来之音]。,
+Skill/S_HatsuneMiku_11Rare_Description,Text,,,Place &a stacks of "The Future Voice" to target.,,施加&a层<color=#7FFFD4>未来之音</color>(治疗力的100%)。,
 Skill/S_HatsuneMiku_11Rare_Name,Text,,,メルト,,メルト,
-Skill/S_HatsuneMiku_12Rare_0_Description,Text,,,"Place ""The Future Voice"", until the stacks of ""The Future Voice"" on the field is the same.",,赋予[未来之音]，直到和场上拥有[未来之音]层数的角色层数相同为止。,
-Skill/S_HatsuneMiku_12Rare_0_Name,Text,,,アンノウン·マザーグース,,アンノウン·マザーグース,
+Skill/S_HatsuneMiku_12Rare_0_Description,Text,,,"Place ""The Future Voice"", until the stacks of ""The Future Voice"" on the field is the same.",,施加<color=#7FFFD4>未来之音</color>，直到和场上拥有<color=#7FFFD4>未来之音</color>层数的角色层数相同为止。,
+Skill/S_HatsuneMiku_12Rare_0_Name,Text,,,アンノウン·マザーグース,,アンノウン・マザーグース,
 Skill/S_HatsuneMiku_12Rare_Description,Text,,,"Place 5 stacks of ""The Future Voice"" to target.
-Intensity 12: Create 1 ""アンノウン·マザーグース"" in hand.",,"施加5层[未来之音]。
-音弦12：将1张[アンノウン?マザーグース]加入手卡。",
+Intensity 12: Create 1 ""アンノウン·マザーグース"" in hand.",,<color=#54FF9F>音弦12</color> - 将1张“アンノウン・マザーグース”加入手卡。,
 Skill/S_HatsuneMiku_12Rare_Name,Text,,,ローリンガール,,ローリンガール,
 Skill/S_HatsuneMiku_13Rare_Description,Text,,,"Remove all allies' debuffs.
 Place 39 stacks of ""The Future Voice"".
-Faint.",,"使所有队友解除所有减益。
-赋予39层[未来之音]。
-自己死亡。",
+Faint.",,"解除所有痛苦、弱化减益，施加39层<color=#7FFFD4>未来之音</color>。
+那之后，自己死亡。",
 Skill/S_HatsuneMiku_13Rare_Name,Text,,,初音ミクの消失,,初音ミクの消失,
+Skill/S_HatsuneMiku_14Rare_0_Description,Text,,,,,,
 Skill/S_HatsuneMiku_14Rare_0_Name,Text,,,*ワールドイズマイン,,*ワールドイズマイン,
 Skill/S_HatsuneMiku_14Rare_Description,Text,,,"No effect. When this skill in hand:
 At the end of turn, place 2 stacks of ""The Future Voice"" to all party members.
 Rhythm 3: Place 2 additional stacks.
-Rhythm 9: Deal stacks of ""The Future Voice"" * &a damage to all enemies.",,"使用时没有效果。只要这张卡在手中：
-每个回合结束时，为所有队友赋予2层[未来之音]。
-音律3：额外赋予2层[未来之音]。
-音律9：对所有敌人造成自己[未来之音]层数*&a的伤害。",
+Rhythm 9: Deal stacks of ""The Future Voice"" * &a damage to all enemies.",,"使用时没有效果。这个技能握在手中时：
+每个回合结束时，为所有队友施加2层<color=#7FFFD4>未来之音</color>。
+<color=#00FFFF>音律3</color> - 额外施加2层<color=#7FFFD4>未来之音</color>。
+<color=#00FFFF>音律9</color> - 对所有敌人造成&a伤害(自身<color=#7FFFD4>未来之音</color>层数 x 治疗力的100%)。",
 Skill/S_HatsuneMiku_14Rare_Name,Text,,,World Is Mine,,ワールドイズマイン,
 Skill/S_HatsuneMiku_1_Description,Text,,,"Heal the ally with the lowest health  by &a, place 1 stack of ""The Future Voice"" to target.
 Rhythm 3: Overheal self by &b, place 1 stack of ""The Future Voice"" to self.
-Rhythm 9: Recast it to random enemy.",,"为己方HP最低的角色治疗&a，施加1层[未来之音]。
-音律3：超额治疗自己&b，为自己施加1层[未来之音]。
-音律9：对随机敌人再次释放一次。",
+Rhythm 9: Recast it to random enemy.",,"为己方HP最低的角色治疗&a(治疗力的100%)，施加1层<color=#7FFFD4>未来之音</color>。
+
+<color=#00FFFF>音律3</color> - 超额治疗自己100%，自身获得1层<color=#7FFFD4>未来之音</color>。
+<color=#00FFFF>音律9</color> - 对随机敌人再次释放一次。",
 Skill/S_HatsuneMiku_1_Name,Text,,,ロミオトシンデレラ,,ロミオトシンデレラ,
 Skill/S_HatsuneMiku_2_Description,Text,,,"Increase this skill's Critical Chance by 10% for every stacks of ""The Future Voice"" on Hatsune Miku. additional Crit Chance: &a
 Rhythm 3: Deal &b additional damage.
-Rhythm 9: Put this skill back to hand.",,"自己身上每有1层[未来之音]，暴击率提升10%。额外暴击率：&a
-音律3：自己身上每有2层[未来之音]，额外造成1伤害。额外伤害：&b
-音律9：将这张卡放回手卡中。",
+Rhythm 9: Put this skill back to hand.",,"自己身上每有1层<color=#7FFFD4>未来之音</color>，暴击率提升10%。额外暴击率：%a
+
+<color=#00FFFF>音律3</color> - 自己身上每有1层<color=#7FFFD4>未来之音</color>，额外造成1伤害。额外伤害：%b
+<color=#00FFFF>音律9</color> - 将这张卡放回手卡中。",
 Skill/S_HatsuneMiku_2_Name,Text,,,砂の惑星,,砂の惑星,
 Skill/S_HatsuneMiku_3_Description,Text,,,"When cast on an enemy, place 2 stacks of ""The Future Voice"" to self.
 Rhythm 3: Deal &a additional damage.
-Rhythm 9: Recast it.",,"每命中1个敌人，为自己施加2层[未来之音]。
-音律3：额外造成&a伤害。
-音律9：再次释放一次。",
+Rhythm 9: Recast it.",,"每命中1个敌人，自身获得2层<color=#7FFFD4>未来之音</color>。
+
+<color=#00FFFF>音律3</color> - 额外造成&a伤害(攻击力的35%)。
+<color=#00FFFF>音律9</color> - 重复释放一次。",
 Skill/S_HatsuneMiku_3_Name,Text,,,千本桜,,千本桜,
 Skill/S_HatsuneMiku_4_Description,Text,,,"Place 2 stacks of ""The Future Voice"" to target.
-Intensity 4: Give &a barrier to target.",,音弦4：赋予目标&a保护罩。,
+Intensity 4: Give &a barrier to target.",,<color=#54FF9F>音弦4</color> - 赋予目标&a保护罩(治疗力的80%)。,
 Skill/S_HatsuneMiku_4_Name,Text,,,こっち向いて Baby,,こっち向いて Baby,
 Skill/S_HatsuneMiku_5_Description,Text,,,"Place 2 stacks of ""The Future Voice"" to target.
 Place 1 stack of ""恋は戦争"" to all party members.
-Intensity 4: Place 1 additional stack of ""恋は戦争"".",,音弦2：额外施加1层[恋は戦争]。,
+Intensity 4: Place 1 additional stack of ""恋は戦争"".",,<color=#54FF9F>音弦2</color> - 额外施加1层[恋は戦争]。,
 Skill/S_HatsuneMiku_5_Name,Text,,,恋は戦争,,恋は戦争,
+Skill/S_HatsuneMiku_6_Description,Text,,,,,,
 Skill/S_HatsuneMiku_6_Name,Text,,,ヴァンパイア,,ヴァンパイア,
+Skill/S_HatsuneMiku_7_Description,Text,,,,,,
 Skill/S_HatsuneMiku_7_Name,Text,,,太陽系デスコ,,太陽系デスコ,
 Skill/S_HatsuneMiku_8_Description,Text,,,"View the discard pile, and select one skill to add to your hand, place same as skill's AP stacks of ""The Futre Voice"" to self.
 Rhythm 3: Skill's AP - 1.
-Rhythm 9: Skill's AP - 10.",,"从弃牌堆将1个技能加入手卡。自己获得AP相同数字层数的[未来之音]。
-音律3：使那个技能AP-1。
-音律9：使那个技能AP-10。",
+Rhythm 9: Skill's AP - 10.",,"从弃牌堆将1个技能加入手卡。
+自己获得其费用相同的<color=#7FFFD4>未来之音</color>层数。
+
+<color=#00FFFF>音律3</color> - 使那个技能费用降低1点。
+<color=#00FFFF>音律9</color> - 使那个技能费用降低10点。",
 Skill/S_HatsuneMiku_8_Name,Text,,,深海少女,,深海少女,
-Skill/S_HatsuneMiku_9_Description,Text,,,"Overheal by stacks of ""The Future Voice"" on target.
-Grants healing gauge protection to target for 2 turns.",,超额恢复等量与目标身上[未来之音]层数的数值。,
+Skill/S_HatsuneMiku_9_Description,Text,,,,,,
 Skill/S_HatsuneMiku_9_Name,Text,,,あなたの歌姬,,あなたの歌姬,
 Skill/S_HatsuneMiku_LucyD_Description,Text,,,"Draw 1.
 Create 2 ""Scallion"" in hand.",,抽取1个技能。将2个[大葱]加入手卡。,
 Skill/S_HatsuneMiku_LucyD_Name,Text,,,Ievan Polkka,,Ievan Polkka,
 Skill/S_HatsuneMiku_P_Description,Text,,,"Draw 1.
 Place 2 stacks of ""The Future Voice"" to target.",,"抽取1个技能。
-音弦1：额外赋予1层[未来之音]。",
+<color=#54FF9F>音弦1</color> - 额外施加1层<color=#7FFFD4>未来之音</color>。",
 Skill/S_HatsuneMiku_P_Name,Text,,,Scallion,,大葱,

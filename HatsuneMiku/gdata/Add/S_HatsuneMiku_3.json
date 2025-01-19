@@ -17,7 +17,7 @@
         "Fatal": false,
         "Name": "千本桜",
         "Target": "all_enemy",
-        "Description": "每命中1个敌人，为自己施加2层[未来之音]。\n音律3：额外造成&a伤害。\n音律9：再次释放一次。",
+        "Description": "每命中1个敌人，自身获得2层<color=#7FFFD4>未来之音</color>。\n\n<color=#00FFFF>音律3</color> - 额外造成&a伤害(攻击力的35%)。\n<color=#00FFFF>音律9</color> - 重复释放一次。",
         "Effect_Target": "SE_T_S_HatsuneMiku_3",
         "Effect_Self": "SE_S_S_HatsuneMiku_3",
         "User": "HatsuneMiku",

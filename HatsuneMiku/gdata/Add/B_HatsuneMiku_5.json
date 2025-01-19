@@ -8,7 +8,7 @@
         "Icon": "B_HatsuneMiku_5\\B_HatsuneMiku_5_Icon.png",
         "Hide": false,
         "IsFieldBuff": false,
-        "Cantdisable": false,
+        "Cantdisable": true,
         "Debuff": false,
         "TagPer": 0,
         "UseSkillDebuff": false,

@@ -2,18 +2,18 @@
     "myKey": "KirisameMarisaChrist",
     "myField": "BattleChar",
     "myValues": {
-        "path": "KirisameMarisaEscape\\KirisameMarisaEscapeBattleChar.png",
+        "path": "KirisameMarisaShengdan\\KirisameMarisaShengdanBattleChar.png",
         "offsetMax": {
-            "x": 755.967834,
-            "y": 745.5889
+            "x": 669.070251,
+            "y": 693.714
         },
         "offsetMin": {
-            "x": -1309.67249,
-            "y": -1242.10291
+            "x": -1208.78455,
+            "y": -1113.27856
         },
         "pivot": {
-            "x": 0.634027362,
-            "y": 0.6248971
+            "x": 0.643705,
+            "y": 0.6160947
         }
     },
     "MyChangeType": "BattleChar",

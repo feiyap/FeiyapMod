@@ -7,7 +7,7 @@
         "Target": "enemy",
         "NotCount": true,
         "Name": "地震「先忧后乐之剑」",
-        "Description": "释放时，(150%干扰)眩晕目标。\n\n<color=#97FFFF>天启9</color> - 改为眩晕所有敌人。",
+        "Description": "<color=#97FFFF>天启9</color> - 改为指向所有敌人。",
         "UseAp": 2,
         "NoBasicSkill": true,
         "Counting": 3,

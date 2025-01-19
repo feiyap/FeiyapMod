@@ -1,0 +1,23 @@
+{
+    "myKey": "Elana",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Elana\\ElanaFaceOriginChar.png",
+        "offsetMax": {
+            "x": 626.0867,
+            "y": 409.562164
+        },
+        "offsetMin": {
+            "x": -645.560059,
+            "y": -862.0846
+        },
+        "pivot": {
+            "x": 0.5065558,
+            "y": 0.673701644
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

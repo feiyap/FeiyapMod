@@ -1,0 +1,23 @@
+{
+    "myKey": "Elana",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Elana\\ElanaBattleChar.png",
+        "offsetMax": {
+            "x": 730.373535,
+            "y": 556.960938
+        },
+        "offsetMin": {
+            "x": -808.3191,
+            "y": -981.7317
+        },
+        "pivot": {
+            "x": 0.5253285,
+            "y": 0.638029754
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

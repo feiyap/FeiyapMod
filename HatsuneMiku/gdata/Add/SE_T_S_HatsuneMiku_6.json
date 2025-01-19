@@ -2,7 +2,7 @@
     "SE_T_S_HatsuneMiku_6": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "HEAL_Per": 75,
+        "HEAL_Per": 80,
         "CRI": 10,
         "Buffs": [
             "B_HatsuneMiku_P",

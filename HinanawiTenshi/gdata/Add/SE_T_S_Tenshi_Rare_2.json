@@ -2,6 +2,12 @@
     "SE_T_S_Tenshi_Rare_2": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 150
+        "DMG_Per": 150,
+        "Buffs": [
+            "B_Common_Rest"
+        ],
+        "BuffPlusTagPer": [
+            200
+        ]
     }
 }

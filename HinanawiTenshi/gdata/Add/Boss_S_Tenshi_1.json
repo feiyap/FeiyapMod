@@ -1,0 +1,19 @@
+{
+    "Boss_S_Tenshi_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Golem_2",
+        "Target": "enemy",
+        "NoDrop": true,
+        "EnemyPreview": true,
+        "Name": "地符「不让土壤之剑」",
+        "Description": "攻击后，若目标不是濒死状态，则再次攻击目标。\n每次命中获得1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+        "Effect_Target": "SE_T_Boss_S_Tenshi_1",
+        "Image_0": "Boss_S_Tenshi_1\\Boss_S_Tenshi_1_Image_0.png",
+        "Image_1": "Boss_S_Tenshi_1\\Boss_S_Tenshi_1_Image_1.png",
+        "Image_2": "Boss_S_Tenshi_1\\Boss_S_Tenshi_1_Image_2.png",
+        "SkillExtended": [
+            "HinanawiTenshi.Boss_S_Tenshi_1"
+        ]
+    }
+}

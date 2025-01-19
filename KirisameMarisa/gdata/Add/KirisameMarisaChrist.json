@@ -2,8 +2,14 @@
     "KirisameMarisaChrist": {
         "_gdeSchema": "Character_Skin",
         "SkinName": "红白魔法使",
+        "SkinDesc": "在来自外面的世界的书中出现的华丽圣诞服装。\r\n不仅耐寒性高，而且由于采用了地蔵型行灯和麋鹿角形状的把手，飞行在雪地中的稳定性也得到了提升。\r\n魔理沙似乎也相当喜欢它。",
         "Character": "KirisameMarisa",
-        "SkinDesc": "我要办一场豪华璀璨的圣诞派对！",
-        "FaceSprite": "KirisameMarisaEscape\\KirisameMarisaEscapeBattleFace.png"
+        "FaceSprite": "KirisameMarisaShengdan\\KirisameMarisaShengdanBattleFace.png",
+        "CampSD": [
+            "KirisameMarisaShengdan\\KirisameMarisaShengdanCampSD0.png",
+            "KirisameMarisaShengdan\\KirisameMarisaShengdanCampSD1.png",
+            "KirisameMarisaShengdan\\KirisameMarisaShengdanCampSD2.png",
+            "KirisameMarisaShengdan\\KirisameMarisaShengdanCampSD3.png"
+        ]
     }
 }

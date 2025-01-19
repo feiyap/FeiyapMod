@@ -18,7 +18,7 @@
         "CollectionSprite_SkillFace": "HinanawiTenshi\\HinanawiTenshiCollectionSprite_SkillFace.png",
         "StatView_Atk": 3,
         "StatView_Sup": 3,
-        "StatView_Debuff": 1,
+        "StatView_Debuff": 0,
         "StatView_Difficult": 1,
         "CampSelectWord": "吾乃天！幻想之天！",
         "PassiveDes": "<b>幼小的有顶天</b> - 当自己身上没有减益效果时，造成的伤害提升10%。\n\n<b>操纵大地程度的能力</b> - 自身被施加增益效果时，比那名居天子会获得1点<color=#97FFFF><color=#97FFFF>气质</color></color>。\n\n<b>天人之姿</b> - 受到的伤害降低1点。\n\n<b><color=#97FFFF>天启X</color></b> - 比那名居天子身上拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>超过X点时，释放技能会消耗X点<color=#97FFFF><color=#97FFFF>气质</color></color>，触发额外效果。\n\n<b><color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>权</color><color=#FFD700>能</color></b> - 比那名居天子仍然在修行之中，尚未解放真正的力量……",
@@ -66,6 +66,51 @@
             "x": 0,
             "y": 40
         },
-        "FirstSkill": "S_Tenshi_0"
+        "FirstSkill": "S_Tenshi_0",
+        "CampSD": [
+            "HinanawiTenshi\\HinanawiTenshiCampSD0.png",
+            "HinanawiTenshi\\HinanawiTenshiCampSD1.png",
+            "HinanawiTenshi\\HinanawiTenshiCampSD2.png",
+            "HinanawiTenshi\\HinanawiTenshiCampSD3.png"
+        ],
+        "Text_Battle_Kill": [
+            "天人偶尔也会降落到地上给人们忠告呢。",
+            "不～过～，在我看来都是根本无法实行的忠告呢。"
+        ],
+        "Text_Field_Idle": [
+            "啊～，学习很让人厌烦呢。",
+            "对了，你要也是闲得无聊的话陪我一起打发时间吧？"
+        ],
+        "Text_Battle_Idle": [
+            "干点什么好呢。"
+        ],
+        "Text_Battle_Cri": [
+            "地上那些生物怎么可能和我比嘛。",
+            "反正嘛，要是我不手下留情大概就是这么回事吧……",
+            "正如我愿！"
+        ],
+        "Text_Battle_Start": [
+            "唉，今天虽然是连战状态不过还可以继续呢。要不要再让你们点什么啊？",
+            "那好，就用我的绯色之剑把你的烦恼全都释放出来吧！"
+        ],
+        "Text_Battle_ND": [
+            "诶~放水放过头了吗？"
+        ],
+        "Text_Battle_Healed": [
+            "没错，一般情况下我才不会输……一般情况下哦。"
+        ],
+        "Text_Field_GetItem": [
+            "这也算宝物吗？我家的仓库里可是堆着一堆……"
+        ],
+        "Text_Witch": [
+            "烦人的诅咒。唉，就尽管交给我吧。",
+            "可恶……要是我能发挥全部实力的话……"
+        ],
+        "Text_MasterTarget": "哈哈……消灭……？好啊，来啊！就让吾看看所谓“消灭”对吾这天人有何作用！",
+        "Text_PharosLeader": [
+            "总感觉……脑袋昏昏沉沉的……",
+            "……唔唔。跟被萃香诱导那时一样的感觉啊……",
+            "吾即剑！吾即天！"
+        ]
     }
 }

@@ -4,17 +4,17 @@
         "BuffTag": "null",
         "MaxStack": 1,
         "Name": "ヴァンパイア",
-        "Description": "攻击时恢复造成伤害的50%。",
+        "Description": "造成伤害的50%治疗自己。",
         "Icon": "B_HatsuneMiku_6\\B_HatsuneMiku_6_Icon.png",
         "Hide": false,
         "IsFieldBuff": false,
-        "Cantdisable": false,
+        "Cantdisable": true,
         "Debuff": false,
         "TagPer": 0,
         "UseSkillDebuff": false,
         "Caution": false,
         "Tick": "null",
-        "LifeTime": 1,
+        "LifeTime": 2,
         "ClassName": "HatsuneMiku.B_HatsuneMiku_6"
     }
 }

@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": false,
         "Name": "ロミオトシンデレラ",
-        "Description": "为己方HP最低的角色治疗&a，施加1层[未来之音]。\n音律3：超额治疗自己&b，为自己施加1层[未来之音]。\n音律9：对随机敌人再次释放一次。",
+        "Description": "为己方HP最低的角色治疗&a(治疗力的100%)，施加1层<color=#7FFFD4>未来之音</color>。\n\n<color=#00FFFF>音律3</color> - 超额治疗自己100%，自身获得1层<color=#7FFFD4>未来之音</color>。\n<color=#00FFFF>音律9</color> - 对随机敌人再次释放一次。",
         "UseAp": 1,
         "User": "HatsuneMiku",
         "Target": "enemy",

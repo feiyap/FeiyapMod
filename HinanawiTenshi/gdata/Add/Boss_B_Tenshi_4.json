@@ -1,0 +1,10 @@
+{
+    "Boss_B_Tenshi_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HinanawiTenshi.B_Tenshi_7",
+        "BuffTag": "null",
+        "Name": "无念无想",
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (19)"
+    }
+}

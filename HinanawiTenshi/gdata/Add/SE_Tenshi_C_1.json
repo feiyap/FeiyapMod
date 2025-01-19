@@ -1,0 +1,9 @@
+{
+    "SE_Tenshi_C_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "抽取到手中时，根据技能的费用，自身和比那名居天子获得相同数量的随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "HinanawiTenshi"
+    }
+}

@@ -2,7 +2,7 @@
     "TestQueue": {
         "_gdeSchema": "EnemyQueue",
         "Enemys": [
-            "TrialofStrength_Enemy"
+            "Boss_Tenshih"
         ]
     }
 }

@@ -1,0 +1,40 @@
+{
+    "Boss_Tenshih": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "比那名居天子",
+        "Boss": true,
+        "NotCursed": true,
+        "atk": 20,
+        "def": 25,
+        "dodge": 5,
+        "cri": 10,
+        "reg": 0,
+        "maxhp": 1500,
+        "RES_CC": 20,
+        "RES_DEBUFF": 45,
+        "RES_DOT": 45,
+        "spd": 2,
+        "PlusActCount": [
+            1,
+            1
+        ],
+        "CollactionSprite_Cover": "Boss_Tenshih\\Boss_TenshihCollactionSprite_Cover.png",
+        "CollactionEnemy": 3,
+        "SubName": "非想非非想天之女",
+        "EnemyStory": "",
+        "Passives": [
+            "Boss_B_Tenshi_P",
+            "Boss_B_Tenshi_Phase_1"
+        ],
+        "Skills": [
+            "Boss_S_Tenshi_0",
+            "Boss_S_Tenshi_1",
+            "Boss_S_Tenshi_2",
+            "Boss_S_Tenshi_3",
+            "Boss_S_Tenshi_4",
+            "Boss_S_Tenshi_5"
+        ],
+        "AI": "HinanawiTenshi.Boss_Tenshih"
+    }
+}

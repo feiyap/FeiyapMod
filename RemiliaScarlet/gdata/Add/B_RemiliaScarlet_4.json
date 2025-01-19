@@ -14,7 +14,7 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Tick": "null",
-        "LifeTime": 0,
+        "LifeTime": 1,
         "ClassName": "RemiliaScarlet.B_RemiliaScarlet_4"
     }
 }

@@ -40,7 +40,7 @@ namespace RemiliaScarlet
 
         public void SomeOneDead(BattleChar DeadChar)
         {
-            //if (hp_change < this.BChar.Info.LV * 5)
+            if (hp_change < this.BChar.Info.LV * 5)
             {
                 this.BChar.Info.OriginStat.maxhp += 1;
                 hp_change++;

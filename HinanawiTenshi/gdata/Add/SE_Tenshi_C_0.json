@@ -1,0 +1,11 @@
+{
+    "SE_Tenshi_C_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "费用-1，使目标获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+        "Drop": true,
+        "EnforceString": "指向队友",
+        "NeedCharacter": "HinanawiTenshi"
+    }
+}

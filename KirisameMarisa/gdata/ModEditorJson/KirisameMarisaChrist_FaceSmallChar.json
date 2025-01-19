@@ -2,18 +2,18 @@
     "myKey": "KirisameMarisaChrist",
     "myField": "FaceSmallChar",
     "myValues": {
-        "path": "KirisameMarisaEscape\\KirisameMarisaEscapeFaceSmallChar.png",
+        "path": "KirisameMarisaShengdan\\KirisameMarisaShengdanFaceSmallChar.png",
         "offsetMax": {
-            "x": 365.194672,
-            "y": 308.931152
+            "x": 329.040466,
+            "y": 280.131073
         },
         "offsetMin": {
-            "x": -598.4417,
-            "y": -618.341553
+            "x": -546.992554,
+            "y": -562.8441
         },
         "pivot": {
-            "x": 0.6189157,
-            "y": 0.6608108
+            "x": 0.6220776,
+            "y": 0.6610567
         }
     },
     "MyChangeType": "FaceSmallChar",

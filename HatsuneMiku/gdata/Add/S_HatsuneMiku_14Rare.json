@@ -4,7 +4,7 @@
         "Category": "null",
         "Rare": true,
         "Name": "ワールドイズマイン",
-        "Description": "使用时没有效果。只要这张卡在手中：\n每个回合结束时，为所有队友赋予2层[未来之音]。\n音律3：额外赋予2层[未来之音]。\n音律9：对所有敌人造成自己[未来之音]层数*&a的伤害。",
+        "Description": "使用时没有效果。这个技能握在手中时：\n每个回合结束时，为所有队友施加2层<color=#7FFFD4>未来之音</color>。\n<color=#00FFFF>音律3</color> - 额外施加2层<color=#7FFFD4>未来之音</color>。\n<color=#00FFFF>音律9</color> - 对所有敌人造成&a伤害(自身<color=#7FFFD4>未来之音</color>层数 x 治疗力的100%)。",
         "UseAp": 39,
         "Particle": "Particle/Public/Public_28",
         "Target": "Misc",

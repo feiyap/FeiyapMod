@@ -4,7 +4,7 @@
         "Category": "null",
         "Rare": false,
         "Name": "荒野と森と魔法の歌",
-        "Description": "解除1个负面状态。\n赋予等量与目标身上[未来之音]层数的防护罩。",
+        "Description": "解除1个负面状态。\n施加等量与目标身上<color=#7FFFD4>未来之音</color>层数的防护罩。",
         "UseAp": 2,
         "Particle": "Particle/Twins/Sel_0",
         "Target": "all_ally",

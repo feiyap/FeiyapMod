@@ -1,0 +1,69 @@
+{
+    "Elana": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Support",
+        "PassiveClassName": "Elana.P_Elana",
+        "PassiveUnlockLV1": false,
+        "name": "耶拉",
+        "face": "Elana\\ElanaBattleFace.png",
+        "SelectInfo": "",
+        "PassiveName": "耶拉的祈祷",
+        "PassiveDes": "当自己回复生命值时，使所有调查员获得+1攻击力和+1最大生命值。",
+        "PassiveIcon": "Elana\\ElanaPassiveIcon.png",
+        "CollectionSprite_Cover": "Elana\\ElanaCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Elana\\ElanaCollectionSprite_SkillFace.png",
+        "StatView_Atk": 1,
+        "StatView_Heal": 3,
+        "StatView_Sup": 3,
+        "StatView_Difficult": 1,
+        "Gender": 1,
+        "MAXHP": {
+            "x": 21,
+            "y": 40
+        },
+        "ATK": {
+            "x": 13,
+            "y": 25
+        },
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "REG": {
+            "x": 10,
+            "y": 20
+        },
+        "DODGE": {
+            "x": 5,
+            "y": 15
+        },
+        "HIT": {
+            "x": 95,
+            "y": 110
+        },
+        "HIT_CC": {
+            "x": 10,
+            "y": 50
+        },
+        "HIT_DEBUFF": {
+            "x": 10,
+            "y": 50
+        },
+        "HIT_DOT": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_CC": {
+            "x": -5,
+            "y": 40
+        },
+        "RES_DEBUFF": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_DOT": {
+            "x": -5,
+            "y": 40
+        }
+    }
+}

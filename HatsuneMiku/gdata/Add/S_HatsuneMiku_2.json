@@ -23,7 +23,7 @@
         "Basic": false,
         "Track": true,
         "Fatal": false,
-        "Description": "自己身上每有1层[未来之音]，暴击率提升10%。额外暴击率：&a\n音律3：自己身上每有2层[未来之音]，额外造成1伤害。额外伤害：&b\n音律9：将这张卡放回手卡中。",
+        "Description": "自己身上每有1层<color=#7FFFD4>未来之音</color>，暴击率提升10%。额外暴击率：%a\n\n<color=#00FFFF>音律3</color> - 自己身上每有1层<color=#7FFFD4>未来之音</color>，额外造成1伤害。额外伤害：%b\n<color=#00FFFF>音律9</color> - 将这张卡放回手卡中。",
         "Effect_Self": "null",
         "PlusKeyWords": [
             

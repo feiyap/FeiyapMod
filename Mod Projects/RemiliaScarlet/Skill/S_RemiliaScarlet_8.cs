@@ -47,7 +47,7 @@ namespace RemiliaScarlet
 
         public override bool Terms()
         {
-            if (this.BChar.BuffFind("B_RemiliaScarlet_5", false))
+            if (this.BChar.BuffFind("B_RemiliaScarlet_5", false) || this.BChar.BuffFind("B_RemiliaScarlet_1", false))
             {
                 return true;
             }

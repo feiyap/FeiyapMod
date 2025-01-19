@@ -1,0 +1,19 @@
+{
+    "Queue_Boss_Tenshi": {
+        "_gdeSchema": "EnemyQueue",
+        "CustomBGM": true,
+        "UseCustomPosition": false,
+        "Pos": [
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        ],
+        "Enemys": [
+            "Boss_Tenshih"
+        ],
+        "CustomeFogTurn": 10,
+        "Wave2Turn": 0
+    }
+}

@@ -3,7 +3,7 @@
         "_gdeSchema": "Item_Equip",
         "Itemclass": "Legendary",
         "name": "绯想之剑",
-        "Description": "回合开始时，获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+        "Description": "回合开始时，获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
         "image": "Item\\E_Tenshi_0_image.png",
         "Equip_Script": "HinanawiTenshi.E_Tenshi_0"
     }

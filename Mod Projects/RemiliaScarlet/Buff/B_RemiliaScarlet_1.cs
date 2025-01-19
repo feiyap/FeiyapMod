@@ -22,8 +22,8 @@ namespace RemiliaScarlet
         public override void Init()
         {
             base.Init();
-            this.PlusStat.AggroPer = 80;
-            this.PlusStat.def = 10f * StackNum;
+            this.PlusStat.AggroPer = 10 * StackNum;
+            this.PlusStat.def = 5f * StackNum;
         }
 
         public void Hit(SkillParticle SP, int Dmg, bool Cri)

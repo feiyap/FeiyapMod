@@ -27,7 +27,7 @@ namespace RemiliaScarlet
                 {
                     return 0;
                 }
-                return (int)((float)(0 + this.BChar.GetStat.maxhp * 0.5));
+                return (int)((float)(0 + this.BChar.GetStat.maxhp * 1.0));
             }
         }
 
@@ -62,7 +62,7 @@ namespace RemiliaScarlet
 
         public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
         {
-            this.BChar.Heal(this.BChar, (float)((int)((float)DMG * 1.0f)), this.BChar.GetCri(), true, null);
+            this.BChar.Heal(this.BChar, (float)((int)((float)DMG * 0.5f)), this.BChar.GetCri(), true, null);
         }
     }
 }

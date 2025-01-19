@@ -17,11 +17,16 @@ namespace IzayoiSakuya
 	/// 时符「个人空间」
 	/// 无法使用手中的技能。
 	/// </summary>
-    public class B_Sakuya_10Rare_0:Buff
+    public class B_Sakuya_10Rare_0:Buff, IP_ChangeCantDraw
     {
         public override void Init()
         {
             base.Init();
+        }
+
+        public void ChangeCantDraw(ref bool CantDraw)
+        {
+            CantDraw = true;
         }
 
         public override void FixedUpdate()

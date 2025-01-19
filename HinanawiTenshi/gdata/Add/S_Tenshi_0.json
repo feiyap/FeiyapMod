@@ -22,7 +22,7 @@
         "Name": "天符「天道是非之剑」",
         "User": "HinanawiTenshi",
         "UseAp": 1,
-        "Description": "自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。\n\n<color=#97FFFF>天启8</color> - 使所有队友获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。获得那个数量的<color=#97FFFF>气质</color>。",
+        "Description": "自身获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。\n\n<color=#97FFFF>天启8</color> - 使所有队友获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
         "Effect_Target": "SE_T_S_Tenshi_0",
         "Image_0": "S_Tenshi_0\\S_Tenshi_0_Image_0.png",
         "Image_1": "S_Tenshi_0\\S_Tenshi_0_Image_1.png",

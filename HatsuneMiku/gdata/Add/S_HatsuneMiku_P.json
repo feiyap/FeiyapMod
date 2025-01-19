@@ -7,10 +7,10 @@
         "NotCount": true,
         "NotChuck": false,
         "HealSkill": false,
-        "Disposable": true,
+        "Disposable": false,
         "NoDrop": false,
         "IgnoreTaunt": false,
-        "Except": false,
+        "Except": true,
         "NoBasicSkill": false,
         "Basic": false,
         "Track": false,
@@ -18,7 +18,7 @@
         "Name": "大葱",
         "Target": "ally",
         "UseAp": 0,
-        "Description": "抽取1个技能。\n音弦1：额外赋予1层[未来之音]。",
+        "Description": "抽取1个技能。\n<color=#54FF9F>音弦1</color> - 额外施加1层<color=#7FFFD4>未来之音</color>。",
         "Effect_Target": "SE_T_S_HatsuneMiku_P",
         "SkillExtended": [
             "HatsuneMiku.S_HatsuneMiku_P"

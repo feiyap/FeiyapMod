@@ -18,6 +18,9 @@
             "HinanawiTenshi.S_Tenshi_1"
         ],
         "NotCount": false,
-        "NoBasicSkill": false
+        "NoBasicSkill": false,
+        "NoDrop": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

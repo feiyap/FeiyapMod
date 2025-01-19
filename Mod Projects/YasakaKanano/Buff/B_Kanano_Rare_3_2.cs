@@ -16,7 +16,7 @@ namespace YasakaKanano
 	/// <summary>
 	/// 完美防御
 	/// </summary>
-    public class B_Kanano_Rare_3_2:Buff
+    public class B_Kanano_Rare_3_2:Buff, IP_DamageTakeChange
     {
         public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
         {

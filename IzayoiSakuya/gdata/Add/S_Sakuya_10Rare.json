@@ -2,16 +2,16 @@
     "S_Sakuya_10Rare": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Buff",
         "Target": "Misc",
-        "Name": "时符「个人空间」",
-        "Description": "倒计时2后，生成5张[时计「月时计」]加入手中。2回合内干扰成功率+50%。倒计时期间咲夜不能使用手中的技能。\n\n月魔术·上弦月 - 改为倒计时1。倒计时期间咲夜仍然能够使用手中的技能。\n月魔术·下弦月 - 不再有倒计时和生成[时计「月时计」]。恢复AP至最大，清空露西和所有队员的过载，抽3张手牌。",
+        "Name": "「咲夜的世界」",
+        "Description": "倒计时期间，所有自己的技能变为0费，附加迅速、倒计时1，并且无法以任何方式抽取技能。",
         "User": "IzayoiSakuya",
         "Rare": true,
-        "UseAp": 3,
+        "UseAp": 1,
         "Disposable": true,
         "PlusKeyWords": [
-            "Keyword_LunaMagic"
+            
         ],
         "Image_0": "S_Sakuya_10Rare\\S_Sakuya_10Rare_Image_0.png",
         "Image_1": "S_Sakuya_10Rare\\S_Sakuya_10Rare_Image_1.png",
@@ -21,7 +21,7 @@
         ],
         "NotCount": true,
         "SKillExtendedItem": [
-            "SE_Sakuya_P"
+            
         ],
         "Hide": false,
         "IsFieldBuff": false,

@@ -1,0 +1,15 @@
+{
+    "Boss_B_Tenshi_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "HinanawiTenshi.Boss_B_Tenshi_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "天人之体",
+        "Description": "受到任何不小于2回合的减益效果时，该效果持续时间降低1回合。\n受到单次超过100的伤害时，该伤害以对数降低。每次触发这个效果时，自身获得5个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。\n当自身没有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，受到的伤害降低90%。",
+        "Icon": "Boss_B_Tenshi_P\\Boss_B_Tenshi_P_Icon.png"
+    }
+}

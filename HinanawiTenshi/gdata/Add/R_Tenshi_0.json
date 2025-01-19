@@ -1,0 +1,11 @@
+{
+    "R_Tenshi_0": {
+        "_gdeSchema": "Item_Passive",
+        "NoDrop": true,
+        "LastAreaNoDrop": false,
+        "name": "天空之要石",
+        "Description": "使调查员获得的不低于2回合的增益持续时间延长1回合；\n使调查员获得的不低于2回合的减益持续时间降低1回合。",
+        "image": "Item\\R_Tenshi_0_image.png",
+        "passive_script": "HinanawiTenshi.R_Tenshi_0"
+    }
+}

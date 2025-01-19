@@ -28,7 +28,7 @@ namespace HinanawiTenshi
 
         public void Turn()
         {
-            AddTenki(this.BChar, 1);
+            AddTenki(this.BChar, 3);
         }
 
         public void AddTenki(BattleChar bc, int count = 0)
@@ -44,7 +44,7 @@ namespace HinanawiTenshi
                     }
                 }
 
-                if (tempList.Count < 0)
+                if (tempList.Count <= 0)
                 {
                     return;
                 }

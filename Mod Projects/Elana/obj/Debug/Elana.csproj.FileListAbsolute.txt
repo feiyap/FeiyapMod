@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Elana\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Elana\obj\Debug\Elana.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Elana\obj\Debug\Elana.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Elana\obj\Debug\Elana.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Elana\bin\Debug\Elana2025115225031.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Elana\bin\Debug\Elana2025115225031.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Elana\obj\Debug\Elana2025115225031.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Elana\obj\Debug\Elana2025115225031.pdb

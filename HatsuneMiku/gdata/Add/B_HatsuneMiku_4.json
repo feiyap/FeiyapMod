@@ -8,7 +8,7 @@
         "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_03",
         "Hide": false,
         "IsFieldBuff": false,
-        "Cantdisable": false,
+        "Cantdisable": true,
         "Debuff": false,
         "TagPer": 0,
         "UseSkillDebuff": false,

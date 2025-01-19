@@ -24,7 +24,7 @@ namespace HatsuneMiku
             base.Init();
             if (this.BChar.BuffFind("B_HatsuneMiku_P"))
             {
-                this.PlusStat.atk = this.BChar.BuffReturn("B_HatsuneMiku_P", false).StackNum / 2;
+                this.PlusStat.atk = this.BChar.BuffReturn("B_HatsuneMiku_P", false).StackNum;
             }
             else
             {
@@ -36,7 +36,7 @@ namespace HatsuneMiku
         {
             if (this.BChar.BuffFind("B_HatsuneMiku_P"))
             {
-                this.PlusStat.atk = this.BChar.BuffReturn("B_HatsuneMiku_P", false).StackNum / 2;
+                this.PlusStat.atk = this.BChar.BuffReturn("B_HatsuneMiku_P", false).StackNum;
             }
             else
             {

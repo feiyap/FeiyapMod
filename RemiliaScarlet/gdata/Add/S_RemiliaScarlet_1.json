@@ -16,7 +16,7 @@
         "Track": false,
         "Fatal": true,
         "Name": "必杀「Heart Break」",
-        "Description": "依据自身最大体力值，额外造成&a(25%)伤害。这个技能的100%将会超额治疗自己。",
+        "Description": "依据自身最大体力值，额外造成&a(25%)伤害。这个技能的100%将会超额治疗自己。\n使用此技能击杀后，获得1层“吸血鬼之心”增益。",
         "UseAp": 1,
         "User": "RemiliaScarlet",
         "Target": "enemy",

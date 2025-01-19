@@ -1,0 +1,23 @@
+{
+    "myKey": "Boss_Tenshih",
+    "myField": "Face",
+    "myValues": {
+        "path": "Boss_Tenshih\\Boss_TenshihFace.png",
+        "offsetMax": {
+            "x": 1285.157,
+            "y": 700.1756
+        },
+        "offsetMin": {
+            "x": -1308.58569,
+            "y": -1893.567
+        },
+        "pivot": {
+            "x": 0.5037329,
+            "y": 0.7278969
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

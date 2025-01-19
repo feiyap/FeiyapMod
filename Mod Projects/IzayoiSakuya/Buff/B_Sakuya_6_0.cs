@@ -40,5 +40,10 @@ namespace IzayoiSakuya
                 SelfStackDestroy();
             }
         }
+
+        public override string DescInit()
+        {
+            return base.DescInit().Replace("&a", ((int)(base.BChar.GetStat.atk * 0.3f)).ToString());
+        }
     }
 }

@@ -23,6 +23,7 @@ namespace HinanawiTenshi
             base.Init();
             this.PlusPerStat.Damage = 25;
             this.PlusStat.Penetration = 100;
+            this.PlusStat.hit = 600;
         }
     }
 }

@@ -1,0 +1,23 @@
+{
+    "RE_Tenshi_Boss": {
+        "_gdeSchema": "RandomEvent",
+        "Script": "HinanawiTenshi.RE_Tenshi_Boss",
+        "RareEvent": true,
+        "SpecialAppearance": false,
+        "ItemSlotView": false,
+        "Name": "奇怪的博丽神社",
+        "Desc": "",
+        "Desc_3Stage": "你们来到了“博丽神社”……不，只能说形似“博丽神社”的地方。方舟中不可能真的存在博丽神社，那这里究竟是什么地方？\n就在你们思考的时候，在神社中看到了一位独自屹立在鸟居之下的少女。\n——按照幻想乡的默认规则，一场恶战看来是无法避免了。",
+        "MainImage_3Stage": "RE_Tenshi_Boss\\RE_Tenshi_BossMainImage_3Stage.png",
+        "EventDetails": "你们来到了“博丽神社”……不，只能说形似“博丽神社”的地方。方舟中不可能真的存在博丽神社，那这里究竟是什么地方？\n就在你们思考的时候，在神社中看到了一位独自屹立在鸟居之下的少女。\n——按照幻想乡的默认规则，一场恶战看来是无法避免了。",
+        "UseButtonTooltip": [
+            "迎战事件Boss“比那名居天子”。"
+        ],
+        "UseButton": [
+            "与之一战！"
+        ],
+        "OrderStrings": [
+            "天子离开了神社。此处已经没有东西了。"
+        ]
+    }
+}

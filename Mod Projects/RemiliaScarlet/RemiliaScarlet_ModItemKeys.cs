@@ -134,6 +134,7 @@ namespace RemiliaScarlet
 		/// <summary>
 		/// 必杀「Heart Break」
 		/// 依据自身最大体力值，额外造成&a(25%)伤害。这个技能的100%将会超额治疗自己。
+		/// 使用此技能击杀后，获得1层“吸血鬼之心”增益。
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_1 = "S_RemiliaScarlet_1";
 		/// <summary>
