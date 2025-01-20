@@ -1,0 +1,23 @@
+{
+    "myKey": "MorichikaRinnosuke",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "MorichikaRinnosuke\\MorichikaRinnosukeFaceSmallChar.png",
+        "offsetMax": {
+            "x": 548.6964,
+            "y": 136.86142
+        },
+        "offsetMin": {
+            "x": -544.2029,
+            "y": -922.958252
+        },
+        "pivot": {
+            "x": 0.496084929,
+            "y": 0.865589261
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

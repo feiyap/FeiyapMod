@@ -1,0 +1,15 @@
+{
+    "MorichikaRinnosuke": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Tank",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "name": "森近霖之助",
+        "face": "MorichikaRinnosuke\\MorichikaRinnosukeBattleFace.png",
+        "SelectInfo": "",
+        "MAXHP": {
+            "x": 20,
+            "y": 40
+        }
+    }
+}

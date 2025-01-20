@@ -493,6 +493,33 @@ namespace HinanawiTenshi
 		/// English:
 		/// Japanese:
 		/// Chinese:
+		/// 雕虫小技！就凭这种歪门邪道也想战胜吾？
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_TenshiText4 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text4");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 脚踏实地一决胜负吧！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_TenshiText5 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text5");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 秒杀抵抗！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaBoss_TenshiText6 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text6");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
 		/// 灵梦！总算等到你了哇。你来的也太慢了！
 		/// Chinese-TW:
 		/// </summary>

@@ -1,0 +1,13 @@
+{
+    "S_Morichika_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "skill",
+        "NotCount": true,
+        "Description": "只能选择“指向敌人”的技能。\n获得[改装]时，费用降低1点。\n使目标技能额外造成&a伤害(持有者攻击力的100%)。\n\n<i><color=#00BFFF>啊！终于不装了吗？连名字也懒得重新取一个了吗？！——雾雨魔理沙</color></i>\n<i><color=#FF4500>嘘——小声点啦你！——博丽灵梦</color></i>",
+        "UseAp": 7,
+        "Name": "奇物「魔法剑」",
+        "User": "MorichikaRinnosuke"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "MorichikaRinnosuke",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "MorichikaRinnosuke\\MorichikaRinnosukeBattleChar.png",
+        "offsetMax": {
+            "x": 1136.60474,
+            "y": 388.3168
+        },
+        "offsetMin": {
+            "x": -1206.12256,
+            "y": -1883.50134
+        },
+        "pivot": {
+            "x": 0.514836967,
+            "y": 0.829072237
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

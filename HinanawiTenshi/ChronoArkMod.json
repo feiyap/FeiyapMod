@@ -6,7 +6,8 @@
     "Author": "绯夜氏",
     "Version": "v1.0",
     "TagList": [
-        "Characters"
+        "Characters",
+        "Enemy"
     ],
     "Cover": "HinanawiTenshiCover.png"
 }

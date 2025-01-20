@@ -82,7 +82,7 @@ namespace HinanawiTenshi
                     return this.BChar.Skills[2];
                 }
             }
-            return this.BChar.Skills[0];
+            return this.BChar.Skills[2];
         }
 
         public override List<BattleChar> TargetSelect(Skill SelectedSkill)

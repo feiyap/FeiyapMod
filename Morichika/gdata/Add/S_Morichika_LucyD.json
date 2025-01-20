@@ -1,0 +1,14 @@
+{
+    "S_Morichika_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NotCount": false,
+        "Name": "鉴识眼「精益求精的起源」",
+        "Description": "抽取2个技能。\n获得1个“鉴定卷轴”。\n\n<i><color=#FFEC8B>嗯。很有意思。——露西</color></i>",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "MorichikaRinnosuke"
+    }
+}
