@@ -1,7 +1,10 @@
-Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
 BattleDia/Boss_Tenshi/Text1,Text,,,,,哦呀，居然还有人能顺利到达这里。,
 BattleDia/Boss_Tenshi/Text2,Text,,,,,正好！吾在这里停留得也有些闷了。,
 BattleDia/Boss_Tenshi/Text3,Text,,,,,就用你们来解解闷吧！,
+BattleDia/Boss_Tenshi/Text4,Text,,,,,雕虫小技！就凭这种歪门邪道也想战胜吾？,
+BattleDia/Boss_Tenshi/Text5,Text,,,,,脚踏实地一决胜负吧！,
+BattleDia/Boss_Tenshi/Text6,Text,,,,,秒杀抵抗！,
 BattleDia/Boss_Tenshi_Reimu/Text1,Text,,,,,灵梦！总算等到你了哇。你来的也太慢了！,
 BattleDia/Boss_Tenshi_Reimu/Text10,Text,,,,,——啊哈哈！什么呀，灵梦！你明明知道答案的不对吗？！,
 BattleDia/Boss_Tenshi_Reimu/Text11,Text,,,,,想要从吾这里得到这个，就先战胜吾吧！,

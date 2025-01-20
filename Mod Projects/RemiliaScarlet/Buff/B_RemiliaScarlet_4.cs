@@ -31,9 +31,9 @@ namespace RemiliaScarlet
         {
             base.BuffStat();
             this.PlusStat.DMGTaken = -50f;
-            this.PlusStat.RES_DOT = 100f;
-            this.PlusStat.RES_CC = 100f;
-            this.PlusStat.RES_DEBUFF = 100f;
+            this.PlusStat.RES_DOT = 300f;
+            this.PlusStat.RES_CC = 300f;
+            this.PlusStat.RES_DEBUFF = 300f;
             this.PlusStat.DeadImmune = 50;
         }
         

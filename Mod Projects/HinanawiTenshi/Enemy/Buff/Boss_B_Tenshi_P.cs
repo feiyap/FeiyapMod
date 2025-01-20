@@ -19,7 +19,7 @@ namespace HinanawiTenshi
 	/// 受到单次超过100的伤害时，该伤害以对数降低。每次触发这个效果时，自身获得5个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 	/// 当自身没有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，受到的伤害降低90%。
 	/// </summary>
-    public class Boss_B_Tenshi_P:Buff, IP_BuffAddAfter, IP_DamageTakeChange, IP_BattleStart_Ones, IP_BattleStart_UIOnBefore
+    public class Boss_B_Tenshi_P:Buff, IP_BuffAddAfter, IP_DamageTakeChange, IP_BattleStart_Ones, IP_BattleStart_UIOnBefore, IP_HPZero
     {
         //处理战斗事件
         public void BattleStartUIOnBefore(BattleSystem Ins)
@@ -89,7 +89,7 @@ namespace HinanawiTenshi
 
         public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
         {
-            int m = 50;
+            int m = 25;
             int s = 100;
             if (Dmg >= s)
             {
@@ -114,6 +114,19 @@ namespace HinanawiTenshi
             BattleEvent_Tenshi.Boss = this.BChar;
             BattleEvent_Tenshi.MainP = this;
             Phase = 1;
+        }
+
+        //被秒杀
+        public void HPZero()
+        {
+            BattleSystem.DelayInput(this.HP0Dia());
+        }
+
+        //被秒杀对话
+        public IEnumerator HP0Dia()
+        {
+            yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text4"), true, 0, 0f);
+            yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text5"), true, 0, 0f);
         }
 
         public void AddTenki(BattleChar bc, int count = 0)

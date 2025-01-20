@@ -57,7 +57,10 @@ namespace RemiliaScarlet
         
         public void SkillCasting(CastingSkill ThisSkill)
         {
-            this.BChar.BuffAdd("B_RemiliaScarlet_4", this.BChar, false, 0, false, -1, false);
+            foreach (BattleChar bc in BattleSystem.instance.AllyList)
+            {
+                bc.BuffAdd("B_RemiliaScarlet_4", this.BChar, false, 0, false, -1, false);
+            }
         }
 
         public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)

@@ -52,6 +52,19 @@ namespace HinanawiTenshi
         {
             if (__instance.Info.KeyData == "Boss_Tenshih")
             {
+                if (BattleSystem.instance != null && __instance.HP >= 0)
+                {
+                    foreach (IP_HPZero ip_HPZero in __instance.IReturn<IP_HPZero>(null))
+                    {
+                        if (ip_HPZero != null)
+                        {
+                            ip_HPZero.HPZero();
+                        }
+                    }
+                }
+
+                __instance.SimpleTextOut(ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text6"));
+
                 return false;
             }
 
