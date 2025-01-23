@@ -26,6 +26,9 @@ namespace RemiliaScarlet
             this.PlusStat.cri = 10f;
             this.PlusStat.dod = 10f;
             this.PlusStat.hit = 10f;
+            this.PlusStat.RES_CC = 10f;
+            this.PlusStat.RES_DOT = 10f;
+            this.PlusStat.RES_DEBUFF = 10f;
         }
     }
 }

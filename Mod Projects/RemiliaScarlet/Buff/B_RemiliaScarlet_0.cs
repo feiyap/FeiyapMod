@@ -28,7 +28,7 @@ namespace RemiliaScarlet
         {
             base.TurnUpdate();
 
-            base.Usestate_L.Heal(base.Usestate_L, 5 * this.StackNum, true, false, null);
+            base.Usestate_L.Heal(base.Usestate_L, this.DotDMGView(), true, true, null);
         }
 
         public override string DescExtended()

@@ -22,6 +22,8 @@ namespace IzayoiSakuya
         {
             base.Init();
             this.NotCount = true;
+            this.Counting = 1;
+            this.APChange = -99;
             this.NoClone = true;
         }
 
@@ -30,10 +32,6 @@ namespace IzayoiSakuya
             if (!this.Use && !this.MySkill.IsNowCasting)
             {
                 base.FixedUpdate();
-                if (BattleSystem.instance.AllyTeam.Skills.Count != 0 && BattleSystem.instance.AllyTeam.Skills[BattleSystem.instance.AllyTeam.Skills.Count - 1] != this.MySkill && BattleSystem.instance.AllyTeam.Skills[0] != this.MySkill)
-                {
-                    this.SelfDestroy();
-                }
                 if ((this.BChar.MyTeam.AliveChars.Find((BattleChar a) => a.BuffFind("B_Sakuya_12Rare", false)) == null))
                 {
                     this.SelfDestroy();

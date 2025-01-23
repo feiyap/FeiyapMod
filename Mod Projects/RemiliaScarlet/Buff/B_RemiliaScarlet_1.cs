@@ -26,11 +26,18 @@ namespace RemiliaScarlet
             this.PlusStat.def = 5f * StackNum;
         }
 
+        public override void BuffStat()
+        {
+            base.Init();
+            this.PlusStat.AggroPer = 10 * StackNum;
+            this.PlusStat.def = 5f * StackNum;
+        }
+
         public void Hit(SkillParticle SP, int Dmg, bool Cri)
         {
             if (Dmg >= 1 && !SP.UseStatus.Info.Ally)
             {
-                SP.UseStatus.BuffAdd("B_RemiliaScarlet_0", this.BChar, false, 0, false, 2, false);
+                SP.UseStatus.BuffAdd("B_RemiliaScarlet_0", this.BChar, false, 0, false, -1, false);
                 base.SelfStackDestroy();
             }
         }

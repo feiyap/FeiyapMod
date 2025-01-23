@@ -19,10 +19,6 @@ namespace IzayoiSakuya
 	/// </summary>
     public class B_Sakuya_10Rare:Buff
     {
-        public override void BuffStat()
-        {
-            base.BuffStat();
-            this.PlusStat.HIT_CC = 50;
-        }
+        
     }
 }

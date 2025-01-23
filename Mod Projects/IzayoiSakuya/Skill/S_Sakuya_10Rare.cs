@@ -24,9 +24,14 @@ namespace IzayoiSakuya
             base.Init();
         }
 
-        public void SkillCasting(CastingSkill ThisSkill)
+        //public void SkillCasting(CastingSkill ThisSkill)
+        //{
+        //    this.BChar.BuffAdd("B_Sakuya_10Rare_0", this.BChar, false, 0, false, -1, false);
+        //}
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            this.BChar.BuffAdd("B_Sakuya_10Rare_0", this.BChar, false, 0, false, -1, false);
+            this.BChar.BuffAdd("B_Sakuya_10Rare", this.BChar, true, 0, false, -1, false);
         }
     }
 }
