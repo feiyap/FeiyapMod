@@ -5,8 +5,7 @@ Buff/B_Sakuya_10Rare_Description,Text,,,,,,
 Buff/B_Sakuya_10Rare_Name,Text,,시부「프라이빗 스퀘어」,"Time Sign ""Private Square""",時符「プライベートスクウェア 」,时符「个人空间」,
 Buff/B_Sakuya_12Rare_Description,Text,,"모든 스킬이 「마술」의 추가효과를 발동시킵니다.
 「마술」의 추가효과가 발동될 때마다 마나를 1 회복합니다.","All skills in hand can affect ""Lunar Magic"".
-When affecting ""Lunar Magic"", recover 1 Mana.",すべての[月魔法]を持つスキルが追加効果を発動する。[月魔法]の追加効果の発動時、マナを1回復する。,"使手中最上方和最下方的技能获得迅速。
-每次打出手中持有者为自己的、最上方或最下方的技能，恢复1点法力值，抽取1个技能。",
+When affecting ""Lunar Magic"", recover 1 Mana.",すべての[月魔法]を持つスキルが追加効果を発動する。[月魔法]の追加効果の発動時、マナを1回復する。,倒计时期间，被动“操纵时间程度的能力”效果将不会发动；所有自己的技能变为0费，附加迅速、倒计时1，并且无法以任何方式抽取技能。,
 Buff/B_Sakuya_12Rare_Name,Text,,「퍼펙트 메이드」,Perfect Maid,パーフェクトメイド,完美女仆,
 Buff/B_Sakuya_1_Name,Text,,광속「C. 리코셰」,"Light Speed ""C. Ricochet""",光速「C.リコシェ」,光速「光速跃迁」,
 Buff/B_Sakuya_3_Name,Text,,환재「클락 콥스」,"Illusion Existence ""Clock Corpse""",幻在「クロックコープス」,幻在「钟表的残骸」,
@@ -26,9 +25,10 @@ Buff/B_Sakuya_6_Description,Text,,,,,"其他友军被选定为技能的目标时
 触发后移除一层。",
 Buff/B_Sakuya_6_Name,Text,,,,,误导效应,
 Buff/B_Sakuya_8_Name,Text,,,,,特制秒表,
+Buff/B_Sakuya_9_Name,Text,,,,,流血,
 Buff/B_Sakuya_Knife_Description,Text,,,,,"当前积攒的飞刀数：&a
 每把飞刀提供5%暴击率和闪避率。
-造成暴击伤害或闪避时，消耗1把飞刀，额外进行一次追加攻击，造成&a(30%)伤害。",
+造成暴击伤害或闪避时，消耗1把飞刀，额外进行一次追加攻击，造成&a伤害<color=#FF7A33>(攻击力的30%)</color>。",
 Buff/B_Sakuya_Knife_Name,Text,,,,,<color=#EEE9E9>时停飞刀</color>,
 Buff/B_Sakuya_LucyD_2_Description,Text,,,,,触发暴击或闪避时抽取1个技能（最多触发4次）。,
 Buff/B_Sakuya_LucyD_2_Name,Text,,,,,膨胀空间,
@@ -188,15 +188,12 @@ Lunar Magic Last Quarter Moon  - No any countdown and effect. Remove Overload fr
 「時計-ルナダイアル」を5枚生成し手札に加える。2ターンの間、妨害デバフのl成功率が50%増加する。このカウントダウン中、咲夜は手札からスキルを使用できない。
 
 月魔法-上弦ノ月:カウントダウンを1に変更する。咲夜はカウントダウン中も手札のスキルを使用できる。
-月魔法-下弦ノ月:カウントダウンを失い、「時計-ルナダイアル」を1枚生成する。 マナをすべて回復し、ルシーとすべての味方からオーバーチャージを除去し、デッキからスキルを3枚引く。","倒计时2后，生成5张[时计「月时计」]加入手中。2回合内干扰成功率+50%。倒计时期间咲夜不能使用手中的技能。
-
-月魔术·上弦月 - 改为倒计时1。倒计时期间咲夜仍然能够使用手中的技能。
-月魔术·下弦月 - 不再有倒计时和生成[时计「月时计」]。恢复AP至最大，清空露西和所有队员的过载，抽3张手牌。",
-Skill/S_Sakuya_10Rare_Name,Text,,시부「프라이빗 스퀘어」,"Time Sign ""Private Square""",時符「プライベートスクウェア」,时符「个人空间」,
+月魔法-下弦ノ月:カウントダウンを失い、「時計-ルナダイアル」を1枚生成する。 マナをすべて回復し、ルシーとすべての味方からオーバーチャージを除去し、デッキからスキルを3枚引く。",按下回合结束按钮后，获得1个额外回合。,
+Skill/S_Sakuya_10Rare_Name,Text,,시부「프라이빗 스퀘어」,"Time Sign ""Private Square""",時符「プライベートスクウェア」,「咲夜的世界」,
 Skill/S_Sakuya_11Rare_Description,Text,,[시간정지] 1중첩당 %a(15%)의 추가 피해를 줍니다.,"Deal %a (15%) damage by every stack of ""Time Stop"".",[時計停止]のストック1ごとに、ダメージが%a(15%)増加する 。,"消耗所有<color=#EEE9E9>时停飞刀</color>。
 每有1把<color=#EEE9E9>时停飞刀</color>，额外造成一次追加攻击，造成&a伤害<color=#FF7A33>(攻击力的30%)</color>。",
 Skill/S_Sakuya_11Rare_Name,Text,,환장「밤안개의 환영살인귀」,"Buriallusion ""Phantomic Killer in Night Mist""",幻葬「夜霧の幻影殺人鬼」,幻葬「夜雾幻影杀人鬼」,
-Skill/S_Sakuya_12Rare_Description,Text,,,,,,
+Skill/S_Sakuya_12Rare_Description,Text,,,,,倒计时期间，被动“操纵时间程度的能力”效果将不会发动；所有自己的技能变为0费，附加迅速、倒计时1，并且无法以任何方式抽取技能。,
 Skill/S_Sakuya_12Rare_Name,Text,,은부「퍼펙트 메이드」,"Silver Sign ""Perfect Maid""",銀符「パーフェクトメイド」,银符「完美女仆」,
 Skill/S_Sakuya_14Rare_Description,Text,,"가한 피해의 50%만큼 자신을 초과치유합니다.
 패에 '시부「체인질링 매직」' 1개를 추가합니다.

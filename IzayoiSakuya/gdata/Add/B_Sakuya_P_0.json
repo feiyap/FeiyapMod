@@ -10,7 +10,7 @@
         "LifeTime": 0,
         "Hide": false,
         "IsFieldBuff": false,
-        "Cantdisable": false,
+        "Cantdisable": true,
         "UseSkillDebuff": false,
         "Caution": false
     }

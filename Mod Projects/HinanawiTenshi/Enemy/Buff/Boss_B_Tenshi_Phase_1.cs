@@ -21,6 +21,12 @@ namespace HinanawiTenshi
 	/// </summary>
     public class Boss_B_Tenshi_Phase_1: Buff, IP_PlayerTurn, IP_Hit, IP_BuffAddAfter
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+        }
+
         public void Turn()
         {
             AddTenki(this.BChar, 5);
@@ -63,7 +69,7 @@ namespace HinanawiTenshi
                     count++;
                 }
             }
-            if (count >= 20)
+            if (count >= 20 && BattleEvent_Tenshi.MainP.Phase != 2)
             {
                 //进入惩罚阶段
                 BattleSystem.DelayInput(this.Phase2());
@@ -71,6 +77,7 @@ namespace HinanawiTenshi
                 BattleEvent_Tenshi.MainP.Phase = 2;
                 this.SelfDestroy();
                 this.BChar.BuffAdd("Boss_B_Tenshi_Phase_2", this.BChar);
+                this.BChar.Info.PlusActCount.Add(1);
 
                 foreach (String str in Boss_B_Tenshi_P.tenkiList)
                 {
@@ -94,11 +101,6 @@ namespace HinanawiTenshi
                 yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/S_Tenshi_Rare_4/Text1"), true, 0, 0f);
                 yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/S_Tenshi_Rare_4/Text2"), true, 0, 0f);
                 yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/S_Tenshi_Rare_4/Text3"), true, 0, 0f);
-            }
-
-            for (int i = 0; i < 99; i++)
-            {
-                this.BChar.BuffAdd(GDEItemKeys.Buff_B_Blockdebuff, this.BChar, true);
             }
 
             MasterAudio.PlaySound("S_Tenshi_Rare_4", 1f, null, 0f, null, null, false, false);

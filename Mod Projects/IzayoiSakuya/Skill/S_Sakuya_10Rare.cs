@@ -31,7 +31,7 @@ namespace IzayoiSakuya
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            this.BChar.BuffAdd("B_Sakuya_10Rare", this.BChar, true, 0, false, -1, false);
+            this.BChar.BuffAdd("B_Sakuya_10Rare", this.BChar, false, 0, false, -1, false);
         }
     }
 }

@@ -26,13 +26,14 @@ namespace IzayoiSakuya
             {
                 if (bc.BuffFind("B_Sakuya_10Rare"))
                 {
+                    bc.BuffReturn("B_Sakuya_10Rare").SelfStackDestroy();
                     __result = ExtraTurn(__instance);
 
-                    return true;
+                    return false;
                 }
             }
 
-            return false;
+            return true;
         }
 
         private static IEnumerator ExtraTurn(BattleSystem __instance)

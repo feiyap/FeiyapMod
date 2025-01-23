@@ -7,11 +7,11 @@
         "Target": "self",
         "Track": false,
         "Name": "银符「完美女仆」",
-        "Description": "",
-        "UseAp": 2,
+        "Description": "倒计时期间，被动“操纵时间程度的能力”效果将不会发动；所有自己的技能变为0费，附加迅速、倒计时1，并且无法以任何方式抽取技能。",
+        "UseAp": 1,
         "NotCount": true,
         "Disposable": false,
-        "Effect_Self": "SE_S_S_Sakuya_12Rare",
+        "Effect_Self": "null",
         "Image_0": "S_Sakuya_12Rare\\S_Sakuya_12Rare_Image_0.png",
         "Image_1": "S_Sakuya_12Rare\\S_Sakuya_12Rare_Image_1.png",
         "Image_2": "S_Sakuya_12Rare\\S_Sakuya_12Rare_Image_2.png",
@@ -26,6 +26,10 @@
         "Fatal": false,
         "EnemyPreview": false,
         "UnknownTarget": false,
-        "User": "IzayoiSakuya"
+        "User": "IzayoiSakuya",
+        "Counting": 1,
+        "SkillExtended": [
+            "IzayoiSakuya.S_Sakuya_12Rare"
+        ]
     }
 }

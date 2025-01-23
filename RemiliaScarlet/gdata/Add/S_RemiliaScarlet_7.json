@@ -28,7 +28,7 @@
         "Image_0": "S_RemiliaScarlet_7\\S_RemiliaScarlet_7_Image_0.png",
         "Image_1": "S_RemiliaScarlet_7\\S_RemiliaScarlet_7_Image_1.png",
         "Image_2": "S_RemiliaScarlet_7\\S_RemiliaScarlet_7_Image_2.png",
-        "Effect_Self": "null",
+        "Effect_Self": "SE_S_S_RemiliaScarlet_7",
         "EnemyPreview": false,
         "UnknownTarget": false
     }

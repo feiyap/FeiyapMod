@@ -5,7 +5,7 @@ namespace RemiliaScarlet
     {
 		/// <summary>
 		/// <sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>
-		/// 结算伤害时，造成伤害的100%将会治疗&user。
+		/// 结算伤害时，造成伤害的100%将会超额治疗&user。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_0 = "B_RemiliaScarlet_0";
 		/// <summary>
@@ -52,6 +52,11 @@ namespace RemiliaScarlet
 		/// 增加10%暴击率、命中率、闪避率。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_P = "B_RemiliaScarlet_P";
+		/// <summary>
+		/// 魇月癫乱
+		/// 使持有的所有减益的每回合伤害量提升33%。
+		/// </summary>
+        public static string Buff_B_RemiliaScarlet_Rare12 = "B_RemiliaScarlet_Rare12";
 		/// <summary>
 		/// 蕾米莉亚
 		/// Passive:
@@ -101,10 +106,11 @@ namespace RemiliaScarlet
 		/// </summary>
         public static string Item_Equip_Remilia_Parasol = "Remilia_Parasol";
         public static string SkillEffect_SE_S_S_RemiliaScarlet_10Rare = "SE_S_S_RemiliaScarlet_10Rare";
-        public static string SkillEffect_SE_S_S_RemiliaScarlet_12Rare = "SE_S_S_RemiliaScarlet_12Rare";
         public static string SkillEffect_SE_S_S_RemiliaScarlet_4 = "SE_S_S_RemiliaScarlet_4";
         public static string SkillEffect_SE_S_S_RemiliaScarlet_6 = "SE_S_S_RemiliaScarlet_6";
+        public static string SkillEffect_SE_S_S_RemiliaScarlet_7 = "SE_S_S_RemiliaScarlet_7";
         public static string SkillEffect_SE_Tick_B_RemiliaScarlet_0 = "SE_Tick_B_RemiliaScarlet_0";
+        public static string SkillEffect_SE_Tick_B_RemiliaScarlet_Rare12 = "SE_Tick_B_RemiliaScarlet_Rare12";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_0 = "SE_T_S_RemiliaScarlet_0";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_1 = "SE_T_S_RemiliaScarlet_1";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_12Rare = "SE_T_S_RemiliaScarlet_12Rare";
@@ -134,7 +140,6 @@ namespace RemiliaScarlet
 		/// <summary>
 		/// 必杀「Heart Break」
 		/// 依据自身最大体力值，额外造成&a(25%)伤害。这个技能的100%将会超额治疗自己。
-		/// 使用此技能击杀后，获得1层“吸血鬼之心”增益。
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_1 = "S_RemiliaScarlet_1";
 		/// <summary>
@@ -149,7 +154,6 @@ namespace RemiliaScarlet
         public static string Skill_S_RemiliaScarlet_11Rare = "S_RemiliaScarlet_11Rare";
 		/// <summary>
 		/// 红魔「Scarlet Devil」
-		/// 这个技能造成伤害的25%将会超额治疗自己。
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_12Rare = "S_RemiliaScarlet_12Rare";
 		/// <summary>
@@ -168,7 +172,7 @@ namespace RemiliaScarlet
 		/// <summary>
 		/// 恶魔「Remilia Stretch」
 		/// 依据自身最大体力值，额外造成&a伤害(自身最大体力值的100%)。
-		/// 倒计时期间，自身获得50%受伤减免和100%减益抵抗。
+		/// 倒计时期间，所有队友获得“受到伤害量-50%”和“减益抵抗+300%”。
 		/// 这个技能造成伤害的50%将会超额治疗自己。
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_5 = "S_RemiliaScarlet_5";

@@ -16,13 +16,14 @@ namespace HinanawiTenshi
 		/// 受到任何不小于2回合的减益效果时，该效果持续时间降低1回合。
 		/// 受到单次超过100的伤害时，该伤害以对数降低。每次触发这个效果时，自身获得5个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 		/// 当自身没有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，受到的伤害降低90%。
+		/// 免疫秒杀。
 		/// </summary>
         public static string Buff_Boss_B_Tenshi_P = "Boss_B_Tenshi_P";
 		/// <summary>
 		/// 灵想「镇守大地之石」
 		/// 回合开始时，自身获得5个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 		/// 受到伤害时，将1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>转移至伤害来源。
-		/// 当同时拥有20个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，天子将发动「全人类的绯想天」，并进入天人姿态。
+		/// 当同时拥有20个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，天子将进入天人姿态。
 		/// </summary>
         public static string Buff_Boss_B_Tenshi_Phase_1 = "Boss_B_Tenshi_Phase_1";
 		/// <summary>

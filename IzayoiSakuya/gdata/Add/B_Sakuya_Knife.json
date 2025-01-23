@@ -4,11 +4,11 @@
         "ClassName": "IzayoiSakuya.B_Sakuya_Knife",
         "BuffTag": "null",
         "Name": "<color=#EEE9E9>时停飞刀</color>",
-        "Description": "当前积攒的飞刀数：&a\n每把飞刀提供5%暴击率和闪避率。\n造成暴击伤害或闪避时，消耗1把飞刀，额外进行一次追加攻击，造成&a(30%)伤害。",
+        "Description": "当前积攒的飞刀数：&a\n每把飞刀提供5%暴击率和闪避率。\n造成暴击伤害或闪避时，消耗1把飞刀，额外进行一次追加攻击，造成&a伤害<color=#FF7A33>(攻击力的30%)</color>。",
         "Icon": "B_Sakuya_Knife\\B_Sakuya_Knife_Icon.png",
         "Hide": false,
         "IsFieldBuff": false,
-        "Cantdisable": false,
+        "Cantdisable": true,
         "UseSkillDebuff": false,
         "Caution": false
     }

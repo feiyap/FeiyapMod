@@ -39,10 +39,14 @@ namespace IzayoiSakuya
 		/// </summary>
         public static string Buff_B_Sakuya_8 = "B_Sakuya_8";
 		/// <summary>
+		/// 流血
+		/// </summary>
+        public static string Buff_B_Sakuya_9 = "B_Sakuya_9";
+		/// <summary>
 		/// <color=#EEE9E9>时停飞刀</color>
 		/// 当前积攒的飞刀数：&a
 		/// 每把飞刀提供5%暴击率和闪避率。
-		/// 造成暴击伤害或闪避时，消耗1把飞刀，额外进行一次追加攻击，造成&a(30%)伤害。
+		/// 造成暴击伤害或闪避时，消耗1把飞刀，额外进行一次追加攻击，造成&a伤害<color=#FF7A33>(攻击力的30%)</color>。
 		/// </summary>
         public static string Buff_B_Sakuya_Knife = "B_Sakuya_Knife";
 		/// <summary>
@@ -123,9 +127,9 @@ namespace IzayoiSakuya
 		/// 完美女仆
 		/// </summary>
         public static string SkillExtended_SE_Sakuya_Rare_12 = "SE_Sakuya_Rare_12";
-        public static string SkillEffect_SE_S_S_Sakuya_12Rare = "SE_S_S_Sakuya_12Rare";
         public static string SkillEffect_SE_S_S_Sakuya_5 = "SE_S_S_Sakuya_5";
         public static string SkillEffect_SE_S_S_Sakuya_8 = "SE_S_S_Sakuya_8";
+        public static string SkillEffect_SE_Tick_B_Sakuya_9 = "SE_Tick_B_Sakuya_9";
         public static string SkillEffect_SE_T_S_Sakuya_0 = "SE_T_S_Sakuya_0";
         public static string SkillEffect_SE_T_S_Sakuya_1 = "SE_T_S_Sakuya_1";
         public static string SkillEffect_SE_T_S_Sakuya_11Rare = "SE_T_S_Sakuya_11Rare";
@@ -185,10 +189,8 @@ namespace IzayoiSakuya
 		/// </summary>
         public static string Skill_S_Sakuya_1 = "S_Sakuya_1";
 		/// <summary>
-		/// 时符「个人空间」
-		/// 倒计时2后，生成5张[时计「月时计」]加入手中。2回合内干扰成功率+50%。倒计时期间咲夜不能使用手中的技能。
-		/// 月魔术·上弦月 - 改为倒计时1。倒计时期间咲夜仍然能够使用手中的技能。
-		/// 月魔术·下弦月 - 不再有倒计时和生成[时计「月时计」]。恢复AP至最大，清空露西和所有队员的过载，抽3张手牌。
+		/// 「咲夜的世界」
+		/// 按下回合结束按钮后，获得1个额外回合。
 		/// </summary>
         public static string Skill_S_Sakuya_10Rare = "S_Sakuya_10Rare";
 		/// <summary>
@@ -199,6 +201,7 @@ namespace IzayoiSakuya
         public static string Skill_S_Sakuya_11Rare = "S_Sakuya_11Rare";
 		/// <summary>
 		/// 银符「完美女仆」
+		/// 倒计时期间，被动“操纵时间程度的能力”效果将不会发动；所有自己的技能变为0费，附加迅速、倒计时1，并且无法以任何方式抽取技能。
 		/// </summary>
         public static string Skill_S_Sakuya_12Rare = "S_Sakuya_12Rare";
 		/// <summary>

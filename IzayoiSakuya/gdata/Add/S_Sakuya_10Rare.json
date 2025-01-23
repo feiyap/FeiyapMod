@@ -3,12 +3,12 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Buff",
-        "Target": "Misc",
+        "Target": "self",
         "Name": "「咲夜的世界」",
-        "Description": "倒计时期间，所有自己的技能变为0费，附加迅速、倒计时1，并且无法以任何方式抽取技能。",
+        "Description": "按下回合结束按钮后，获得1个额外回合。",
         "User": "IzayoiSakuya",
         "Rare": true,
-        "UseAp": 1,
+        "UseAp": 2,
         "Disposable": true,
         "PlusKeyWords": [
             
@@ -19,7 +19,7 @@
         "SkillExtended": [
             "IzayoiSakuya.S_Sakuya_10Rare"
         ],
-        "NotCount": true,
+        "NotCount": false,
         "SKillExtendedItem": [
             
         ],
@@ -36,7 +36,7 @@
         "HealSkill": false,
         "NoDrop": false,
         "IgnoreTaunt": false,
-        "NoBasicSkill": false,
+        "NoBasicSkill": true,
         "Basic": false,
         "Track": false,
         "Fatal": false,

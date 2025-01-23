@@ -3,6 +3,12 @@
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
         "DMG_Per": 33,
-        "CRI": 5
+        "CRI": 5,
+        "Buffs": [
+            "B_Sakuya_9"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
     }
 }

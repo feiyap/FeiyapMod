@@ -30,7 +30,7 @@ namespace IzayoiSakuya
 
         public void SKillUseHand_Team(Skill skill)
         {
-            if (!skill.BasicSkill)
+            if (!skill.BasicSkill && !this.BChar.BuffFind("B_Sakuya_12Rare"))
             {
                 List<CastingSkill> removeList = new List<CastingSkill>();
                 foreach (CastingSkill castingSkill in BattleSystem.instance.CastSkills)
@@ -38,11 +38,11 @@ namespace IzayoiSakuya
                     if (castingSkill.skill.Master == this.BChar)
                     {
                         castingSkill.CastButton.CountingLeft--;
+                        getTimeKnife(this.BChar, 1);
 
                         if (castingSkill.CastSpeed <= 0)
                         {
                             BattleSystem.instance.ActWindow.CastingWaste(castingSkill);
-                            //BattleSystem.instance.CastSkills.Remove(castingSkill);
                             removeList.Add(castingSkill);
 
                             Skill skill2 = castingSkill.skill.CloneSkill(true, null, null, false);
@@ -77,6 +77,8 @@ namespace IzayoiSakuya
                     if (castingSkill2.skill.Master == this.BChar)
                     {
                         castingSkill2.CastButton.CountingLeft--;
+                        getTimeKnife(this.BChar, 1);
+
                         if (castingSkill2.CastSpeed <= 0)
                         {
                             BattleSystem.instance.ActWindow.CastingWaste(castingSkill2);

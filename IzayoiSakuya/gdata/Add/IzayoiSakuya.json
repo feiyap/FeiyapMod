@@ -43,7 +43,7 @@
         "StatView_Atk": 2,
         "StatView_Sup": 2,
         "StatView_CC": 3,
-        "StatView_Difficult": 3,
+        "StatView_Difficult": 1,
         "face": "IzayoiSakuya\\IzayoiSakuyaBattleFace.png",
         "PassiveIcon": "IzayoiSakuya\\IzayoiSakuyaPassiveIcon.png",
         "RES_CC": {
@@ -122,6 +122,7 @@
             "IzayoiSakuya\\IzayoiSakuyaCampSD2.png",
             "IzayoiSakuya\\IzayoiSakuyaCampSD3.png"
         ],
-        "Text_MasterTarget": "替我向大小姐问好。"
+        "Text_MasterTarget": "替我向大小姐问好。",
+        "StatView_Dot": 1
     }
 }

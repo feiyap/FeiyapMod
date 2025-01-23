@@ -24,8 +24,8 @@ namespace HinanawiTenshi
     {
         public override void Init()
         {
-            this.BChar.Info.PlusActCount.Add(1);
             base.Init();
+            this.OnePassive = true;
         }
 
         public IEnumerator UsedDeckToDeck()

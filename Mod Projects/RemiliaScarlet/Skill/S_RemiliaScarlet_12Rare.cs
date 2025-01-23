@@ -19,9 +19,6 @@ namespace RemiliaScarlet
 	/// </summary>
     public class S_RemiliaScarlet_12Rare:Skill_Extended
     {
-        public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
-        {
-            this.BChar.Heal(this.BChar, (float)((int)((float)DMG * 0.25f)), this.BChar.GetCri(), true, null);
-        }
+
     }
 }

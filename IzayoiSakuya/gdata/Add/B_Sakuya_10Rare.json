@@ -8,6 +8,10 @@
         "Hide": false,
         "MaxStack": 1,
         "Icon": "Image/Buff/Skill_Icon_Pack/red/red_01",
-        "LifeTime": 2
+        "LifeTime": 0,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

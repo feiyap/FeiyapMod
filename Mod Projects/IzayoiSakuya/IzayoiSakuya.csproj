@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>IzayoiSakuya202511503230</AssemblyName>
+    <AssemblyName>IzayoiSakuya202512405146</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -403,14 +403,36 @@
       <Private>False</Private>
     </Reference>
     <!-- Extra Reference Start-->
-    <!-- Extra Reference End-->
+    <Reference Include="0Harmony">
+      <HintPath>..\..\IzayoiSakuya\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\IzayoiSakuya\Assemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>..\..\IzayoiSakuya\Assemblies\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>..\..\IzayoiSakuya\Assemblies\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>..\..\IzayoiSakuya\Assemblies\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\IzayoiSakuya\Assemblies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\IzayoiSakuya\Assemblies\MonoMod.Utils.dll</HintPath>
+    </Reference>
+<!-- Extra Reference End-->
   </ItemGroup>
-  <!-- Compile ItemGroup Start-->
+                            <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BV_Sakuya_TKnife.cs" />
     <Compile Include="IzayoiSakuya_ModDefinition.cs" />
     <Compile Include="IzayoiSakuya_ModItemKeys.cs" />
     <Compile Include="IzayoiSakuya_Plugin.cs" />
+    <Compile Include="Patch_ExtraTurn.cs" />
     <Compile Include="Buff\B_Sakuya_1.cs" />
     <Compile Include="Buff\B_Sakuya_10Rare.cs" />
     <Compile Include="Buff\B_Sakuya_10Rare_0.cs" />
@@ -433,7 +455,6 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="Patch_ExtraTurn.cs" />
     <Compile Include="Skill\S_Sakuya_0.cs" />
     <Compile Include="Skill\S_Sakuya_0_0.cs" />
     <Compile Include="Skill\S_Sakuya_0_1.cs" />
@@ -441,6 +462,7 @@
     <Compile Include="Skill\S_Sakuya_1.cs" />
     <Compile Include="Skill\S_Sakuya_10Rare.cs" />
     <Compile Include="Skill\S_Sakuya_11Rare.cs" />
+    <Compile Include="Skill\S_Sakuya_12Rare.cs" />
     <Compile Include="Skill\S_Sakuya_14Rare.cs" />
     <Compile Include="Skill\S_Sakuya_2.cs" />
     <Compile Include="Skill\S_Sakuya_3.cs" />

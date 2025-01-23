@@ -2,7 +2,17 @@
     "SE_T_S_RemiliaScarlet_12Rare": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 100,
-        "DMG_Base": 0
+        "DMG_Per": 40,
+        "DMG_Base": 0,
+        "Buffs": [
+            "B_RemiliaScarlet_0",
+            "B_RemiliaScarlet_0",
+            "B_RemiliaScarlet_Rare12"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0
+        ]
     }
 }
