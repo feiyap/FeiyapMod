@@ -71,4 +71,20 @@ namespace HinanawiTenshi
             return true;
         }
     }
+
+    //[HarmonyPatch(typeof(ToolTipWindow))]
+    //[HarmonyPatch("SkillToolTip")]
+    //public static class SkillToolTip_Plugin
+    //{
+    //    [HarmonyPostfix]
+    //    public static void SkillToolTip_Prefix(ref GameObject __result)
+    //    {
+    //        if (__result.GetComponent<SkillToolTip>().Values.SkillData.MySkill.KeyID == "Boss_S_Tenshi_1")
+    //        {
+    //            __result.GetComponent<RectTransform>().pivot = new Vector2((float)0.5, (float)0.5);
+    //            __result.transform.Rotate(180, 180, 0, Space.Self);
+    //            __result.GetComponent<RectTransform>().pivot = new Vector2((float)0, (float)0);
+    //        }
+    //    }
+    //}
 }

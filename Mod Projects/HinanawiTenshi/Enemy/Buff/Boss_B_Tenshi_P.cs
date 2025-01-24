@@ -19,7 +19,7 @@ namespace HinanawiTenshi
 	/// 受到单次超过100的伤害时，该伤害以对数降低。每次触发这个效果时，自身获得5个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 	/// 当自身没有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，受到的伤害降低90%。
 	/// </summary>
-    public class Boss_B_Tenshi_P:Buff, IP_BuffAddAfter, IP_DamageTakeChange, IP_BattleStart_Ones, IP_BattleStart_UIOnBefore, IP_HPZero
+    public class Boss_B_Tenshi_P:Buff, IP_BuffAddAfter, IP_DamageTakeChange, IP_BattleStart_Ones, IP_BattleStart_UIOnBefore, IP_HPZero, IP_Dead
     {
         //处理战斗事件
         public void BattleStartUIOnBefore(BattleSystem Ins)
@@ -127,6 +127,11 @@ namespace HinanawiTenshi
         {
             yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text4"), true, 0, 0f);
             yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text5"), true, 0, 0f);
+        }
+
+        public void Dead()
+        {
+            UnlockWindow.Unlock("Unlock_HinanawiTenshi", SaveManager.NowData.unlockList.UnlockCharacter, "HinanawiTenshi", true, true);
         }
 
         public void AddTenki(BattleChar bc, int count = 0)
