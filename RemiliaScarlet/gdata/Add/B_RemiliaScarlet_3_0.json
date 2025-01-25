@@ -1,0 +1,12 @@
+{
+    "B_RemiliaScarlet_3_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "RemiliaScarlet.B_RemiliaScarlet_3_0",
+        "BuffTag": "null",
+        "Name": "绯月女皇",
+        "Description": "场上每有1层痛苦减益，这个增益获得“暴击率+5%，受到治疗量+5%”。",
+        "MaxStack": 1,
+        "LifeTime": 2,
+        "Icon": "B_RemiliaScarlet_3_0\\B_RemiliaScarlet_3_0_Icon.png"
+    }
+}

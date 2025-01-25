@@ -2,6 +2,6 @@
     "SE_Tick_B_RemiliaScarlet_0": {
         "_gdeSchema": "SkillEffect",
         "DMG_Base": 0,
-        "DMG_Per": 50
+        "DMG_Per": 35
     }
 }

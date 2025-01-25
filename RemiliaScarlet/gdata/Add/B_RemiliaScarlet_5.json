@@ -1,15 +1,15 @@
 {
     "B_RemiliaScarlet_5": {
         "_gdeSchema": "Buff",
-        "Cantdisable": false,
+        "Cantdisable": true,
         "ClassName": "RemiliaScarlet.B_RemiliaScarlet_5",
         "BuffTag": "null",
-        "Name": "吸血鬼之心",
+        "Name": "爪击准备",
         "Description": "",
         "Icon": "B_RemiliaScarlet_5\\B_RemiliaScarlet_5_Icon.png",
-        "MaxStack": 10,
+        "MaxStack": 0,
         "LifeTime": 0,
-        "Hide": false,
+        "Hide": true,
         "IsFieldBuff": false,
         "UseSkillDebuff": false,
         "Caution": false

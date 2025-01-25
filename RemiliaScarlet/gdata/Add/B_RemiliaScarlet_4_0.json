@@ -1,0 +1,13 @@
+{
+    "B_RemiliaScarlet_4_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "Cantdisable": true,
+        "ClassName": "RemiliaScarlet.B_RemiliaScarlet_4_0",
+        "BuffTag": "null",
+        "Name": "吸血鬼之心",
+        "Icon": "B_RemiliaScarlet_4_0\\B_RemiliaScarlet_4_0_Icon.png",
+        "LifeTime": 0,
+        "MaxStack": 10
+    }
+}

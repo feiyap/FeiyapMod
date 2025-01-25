@@ -1,20 +1,20 @@
 {
     "B_RemiliaScarlet_2": {
         "_gdeSchema": "Buff",
-        "BuffTag": "null",
+        "BuffTag": "DOT",
         "MaxStack": 1,
-        "Name": "绯色幻想",
-        "Description": "释放攻击技能时，对随机敌人重复释放1次。",
+        "Name": "魇月癫乱",
+        "Description": "使持有的所有减益的每回合伤害量提升33%。",
         "Icon": "B_RemiliaScarlet_2\\B_RemiliaScarlet_2_Icon.png",
         "Hide": false,
         "IsFieldBuff": false,
         "Cantdisable": false,
-        "Debuff": false,
-        "TagPer": 0,
+        "Debuff": true,
+        "TagPer": 190,
         "UseSkillDebuff": false,
         "Caution": false,
-        "Tick": "null",
-        "LifeTime": 2,
+        "Tick": "SE_Tick_B_RemiliaScarlet_2",
+        "LifeTime": 5,
         "ClassName": "RemiliaScarlet.B_RemiliaScarlet_2"
     }
 }

@@ -54,13 +54,6 @@ namespace RemiliaScarlet
             this.BChar.Heal(this.BChar, (float)((int)((float)DMG * 1.0f)), this.BChar.GetCri(), true, null);
         }
 
-        public override void SkillKill(SkillParticle SP)
-        {
-            base.SkillKill(SP);
-
-            this.BChar.BuffAdd("B_RemiliaScarlet_5", this.BChar);
-        }
-
         public override string DescExtended(string desc)
         {
             return base.DescExtended(desc).Replace("&a", (this.PlusDmg).ToString());

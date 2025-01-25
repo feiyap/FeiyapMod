@@ -4,7 +4,7 @@
         "Category": "null",
         "Rare": false,
         "NODOD": false,
-        "NotCount": true,
+        "NotCount": false,
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": false,

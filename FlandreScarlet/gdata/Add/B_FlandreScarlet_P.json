@@ -4,6 +4,8 @@
         "ClassName": "FlandreScarlet.B_FlandreScarlet_P",
         "BuffTag": "null",
         "Name": "U.N.OWEN就是她吗？",
-        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (1)"
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (1)",
+        "Cantdisable": true,
+        "Hide": true
     }
 }

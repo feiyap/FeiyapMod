@@ -66,7 +66,17 @@ namespace FlandreScarlet
         {
             if (User.Info.Ally)
             {
-                this.BChar.BuffAdd("B_FlandreScarlet_P_K", this.BChar, false, 0, false, -1, false);
+                if (BattleSystem.instance.GetBattleValue<BV_FlandreScarlet_K>() == null)
+                {
+                    BattleSystem.instance.BattleValues.Add(new BV_FlandreScarlet_K());
+                }
+
+                BattleSystem.instance.GetBattleValue<BV_FlandreScarlet_K>().count++;
+
+                if (!this.BChar.BuffFind("B_FlandreScarlet_P_K"))
+                {
+                    this.BChar.BuffAdd("B_FlandreScarlet_P_K", this.BChar, false, 0, false, -1, false);
+                }
             }
         }
     }

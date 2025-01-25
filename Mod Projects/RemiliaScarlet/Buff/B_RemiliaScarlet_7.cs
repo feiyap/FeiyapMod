@@ -35,7 +35,13 @@ namespace RemiliaScarlet
 
         public override string DescExtended()
         {
-            return this.BuffData.Description.Replace("&user", base.Usestate_L.Info.Name)
+            string username = "蕾米莉亚";
+            if (base.Usestate_L != null)
+            {
+                username = base.Usestate_L.Info.Name;
+            }
+
+            return this.BuffData.Description.Replace("&user", username)
                                             .Replace("&a", (this.Usestate_F.GetStat.maxhp * 0.1f).ToString());
         }
     }

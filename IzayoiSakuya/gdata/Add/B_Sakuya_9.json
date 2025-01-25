@@ -1,0 +1,19 @@
+{
+    "B_Sakuya_9": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "DOT",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "流血",
+        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_21",
+        "Tick": "SE_Tick_B_Sakuya_9",
+        "LifeTime": 4,
+        "MaxStack": 4,
+        "Debuff": true,
+        "TagPer": 110
+    }
+}

@@ -20,7 +20,7 @@ namespace FlandreScarlet
     {
         public override void BuffStat()
         {
-            this.PlusStat.crihit = 5 * base.StackNum;
+            this.PlusStat.crihit = 15 * base.StackNum;
             base.BuffStat();
         }
     }

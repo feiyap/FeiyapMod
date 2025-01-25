@@ -2,19 +2,19 @@
     "B_RemiliaScarlet_4": {
         "_gdeSchema": "Buff",
         "BuffTag": "null",
-        "MaxStack": 1,
-        "Name": "爪击准备...",
-        "Description": "",
-        "Icon": "Image/Buff/Skill_Icon_Pack/2_0/Leryn_0",
-        "Hide": true,
-        "IsFieldBuff": false,
-        "Cantdisable": true,
+        "MaxStack": 10,
+        "Name": "摇篮曲",
+        "Description": "受击时减少1层，赋予敌人1层<sprite name=\"RemiliaScarlet_blood\"><color=#FF3030>绯夜</color>。",
+        "Icon": "B_RemiliaScarlet_4\\B_RemiliaScarlet_4_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": true,
+        "Cantdisable": false,
         "Debuff": false,
         "TagPer": 0,
         "UseSkillDebuff": false,
         "Caution": false,
         "Tick": "null",
-        "LifeTime": 1,
+        "LifeTime": 0,
         "ClassName": "RemiliaScarlet.B_RemiliaScarlet_4"
     }
 }

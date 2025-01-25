@@ -457,6 +457,7 @@ namespace HinanawiTenshi
 		/// 克服旅途中的一切苦难后，她最终可得十全之权能。</i></color>
 		/// </summary>
         public static string Skill_S_Tenshi_Rare_4 = "S_Tenshi_Rare_4";
+        public static string UnlockWindow_Unlock_HinanawiTenshi = "Unlock_HinanawiTenshi";
 
     }
 

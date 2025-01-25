@@ -1,0 +1,23 @@
+{
+    "myKey": "RemiliaScarletSpring",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "RemiliaScarletSpr\\RemiliaScarletSprFaceSmallChar.png",
+        "offsetMax": {
+            "x": 580.1485,
+            "y": 392.276062
+        },
+        "offsetMin": {
+            "x": -583.487854,
+            "y": -771.3603
+        },
+        "pivot": {
+            "x": 0.499688566,
+            "y": 0.6580841
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

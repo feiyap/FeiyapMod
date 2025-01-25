@@ -1,0 +1,9 @@
+{
+    "Unlock_HinanawiTenshi": {
+        "_gdeType_UnlockString": "String",
+        "UnlockString": "새로운 파티원 사용가능!",
+        "_gdeType_UnlockSprite": "Sprite",
+        "UnlockSprite": "HinanawiTenshi\\Unlock_HinanawiTenshi.png",
+        "_gdeSchema": "UnlockWindow"
+    }
+}

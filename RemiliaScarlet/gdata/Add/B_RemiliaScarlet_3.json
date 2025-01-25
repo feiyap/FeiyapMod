@@ -1,20 +1,20 @@
 {
     "B_RemiliaScarlet_3": {
         "_gdeSchema": "Buff",
-        "BuffTag": "CrowdControl",
+        "BuffTag": "DOT",
         "MaxStack": 1,
-        "Name": "红之异想",
-        "Description": "无法攻击&target以外的目标。\n击中时不解除。",
-        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newIcons_Taunt",
+        "Name": "鲜血礼赞",
+        "Description": "受到<color=purple>痛苦伤害</color>时，有&a%几率(&user的暴击率)造成额外50%伤害。",
+        "Icon": "B_RemiliaScarlet_3\\B_RemiliaScarlet_3_Icon.png",
         "Hide": false,
         "IsFieldBuff": false,
         "Cantdisable": false,
         "Debuff": true,
-        "TagPer": 115,
+        "TagPer": 125,
         "UseSkillDebuff": false,
         "Caution": false,
-        "Tick": "null",
-        "LifeTime": 3,
+        "Tick": "SE_Tick_B_RemiliaScarlet_3",
+        "LifeTime": 5,
         "ClassName": "RemiliaScarlet.B_RemiliaScarlet_3"
     }
 }

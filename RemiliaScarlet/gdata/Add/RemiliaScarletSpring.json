@@ -1,0 +1,9 @@
+{
+    "RemiliaScarletSpring": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "庆祝新春的恶魔",
+        "Character": "RemiliaScarlet",
+        "SkinDesc": "晚上好。\n祝你度过一个美好的夜晚。\n你知道我来这里的原因吗？",
+        "FaceSprite": "RemiliaScarletSpr\\RemiliaScarletSprBattleFace.png"
+    }
+}

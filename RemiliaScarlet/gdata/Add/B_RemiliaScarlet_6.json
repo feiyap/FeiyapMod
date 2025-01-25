@@ -2,15 +2,18 @@
     "B_RemiliaScarlet_6": {
         "_gdeSchema": "Buff",
         "ClassName": "RemiliaScarlet.B_RemiliaScarlet_6",
-        "BuffTag": "null",
-        "Name": "饱足",
-        "Description": "&user从血肉中获得了满足。暂时无法提升最大生命值。",
-        "Icon": "B_RemiliaScarlet_6\\B_RemiliaScarlet_6_Icon.png",
+        "BuffTag": "CrowdControl",
+        "Name": "恶女置乱",
+        "Description": "无法攻击&target以外的目标。\n击中时不解除。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_01",
         "MaxStack": 1,
-        "Cantdisable": true,
+        "Cantdisable": false,
         "Hide": false,
         "IsFieldBuff": false,
         "UseSkillDebuff": false,
-        "Caution": false
+        "Caution": false,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 110
     }
 }

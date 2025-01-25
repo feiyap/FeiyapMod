@@ -2,12 +2,12 @@
     "SE_T_S_RemiliaScarlet_3": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 105,
+        "DMG_Per": 60,
         "Buffs": [
-            
+            "B_RemiliaScarlet_3"
         ],
         "BuffPlusTagPer": [
-            
+            0
         ]
     }
 }

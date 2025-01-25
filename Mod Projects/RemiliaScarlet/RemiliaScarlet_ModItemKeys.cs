@@ -5,36 +5,41 @@ namespace RemiliaScarlet
     {
 		/// <summary>
 		/// <sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>
-		/// 结算伤害时，造成伤害的100%将会超额治疗&user。
+		/// 结算伤害时，造成伤害的25%将会超额治疗&user。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_0 = "B_RemiliaScarlet_0";
 		/// <summary>
-		/// 摇篮曲
-		/// 受击时减少1层，赋予敌人1层<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>。
-		/// </summary>
-        public static string Buff_B_RemiliaScarlet_1 = "B_RemiliaScarlet_1";
-		/// <summary>
-		/// 绯色幻想
-		/// 释放攻击技能时，对随机敌人重复释放1次。
+		/// 魇月癫乱
+		/// 使持有的所有减益的每回合伤害量提升33%。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_2 = "B_RemiliaScarlet_2";
 		/// <summary>
-		/// 红之异想
-		/// 无法攻击&target以外的目标。
-		/// 击中时不解除。
+		/// 鲜血礼赞
+		/// 受到<color=purple>痛苦伤害</color>时，有&a%几率(&user的暴击率)造成额外50%伤害。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_3 = "B_RemiliaScarlet_3";
 		/// <summary>
-		/// 爪击准备...
+		/// 绯月女皇
+		/// 场上每有1层痛苦减益，这个增益获得“暴击率+5%，受到治疗量+5%”。
+		/// </summary>
+        public static string Buff_B_RemiliaScarlet_3_0 = "B_RemiliaScarlet_3_0";
+		/// <summary>
+		/// 摇篮曲
+		/// 受击时减少1层，赋予敌人1层<sprite name="RemiliaScarlet_blood"><color=#FF3030>绯夜</color>。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_4 = "B_RemiliaScarlet_4";
 		/// <summary>
 		/// 吸血鬼之心
 		/// </summary>
+        public static string Buff_B_RemiliaScarlet_4_0 = "B_RemiliaScarlet_4_0";
+		/// <summary>
+		/// 爪击准备
+		/// </summary>
         public static string Buff_B_RemiliaScarlet_5 = "B_RemiliaScarlet_5";
 		/// <summary>
-		/// 饱足
-		/// &user从血肉中获得了满足。暂时无法提升最大生命值。
+		/// 恶女置乱
+		/// 无法攻击&target以外的目标。
+		/// 击中时不解除。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_6 = "B_RemiliaScarlet_6";
 		/// <summary>
@@ -42,6 +47,12 @@ namespace RemiliaScarlet
 		/// 攻击力提升&a点(&user最大体力值的10%)。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_7 = "B_RemiliaScarlet_7";
+		/// <summary>
+		/// 血狱王冠
+		/// 造成伤害时，将其中50%转化为<color=purple>痛苦伤害</color>。
+		/// 造成<color=purple>痛苦伤害</color>时，额外造成&a伤害(&user最大体力值的25%)。
+		/// </summary>
+        public static string Buff_B_RemiliaScarlet_8 = "B_RemiliaScarlet_8";
 		/// <summary>
 		/// 千年吸血鬼
 		/// 造成伤害25%吸血；每次造成伤害抽1个技能，最多触发4次。
@@ -53,17 +64,16 @@ namespace RemiliaScarlet
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_P = "B_RemiliaScarlet_P";
 		/// <summary>
-		/// 魇月癫乱
-		/// 使持有的所有减益的每回合伤害量提升33%。
+		/// 绯色幻想
+		/// 释放攻击技能时，对随机敌人重复释放1次。
 		/// </summary>
-        public static string Buff_B_RemiliaScarlet_Rare12 = "B_RemiliaScarlet_Rare12";
+        public static string Buff_B_RemiliaScarlet_Rare10 = "B_RemiliaScarlet_Rare10";
 		/// <summary>
 		/// 蕾米莉亚
 		/// Passive:
-		/// <b>操纵命运的能力</b> - 战斗开始时，所有队友获得额外10%暴击率、命中率、闪避率。
+		/// <b>操纵命运的能力</b> - 战斗开始时，所有队友获得额外10%暴击率、命中率、闪避率、减益抵抗率。
 		/// <b>献给已逝公主的七重奏</b> - 蕾米莉亚升级无法提升最大体力值。作为替代，敌人阵亡时，蕾米莉亚将获得1点永久最大体力值。
-		/// 最多增加当前等级x5点。
-		/// 当作为第四个队友入队时，自动获得10点永久最大体力值。
+		/// 每提升1个等级，能以此效果获得的最大体力值就提升5点。
 		/// </summary>
         public static string Character_RemiliaScarlet = "RemiliaScarlet";
         public static string Character_Skin_RemiliaScarletEclipse = "RemiliaScarletEclipse";
@@ -106,10 +116,13 @@ namespace RemiliaScarlet
 		/// </summary>
         public static string Item_Equip_Remilia_Parasol = "Remilia_Parasol";
         public static string SkillEffect_SE_S_S_RemiliaScarlet_10Rare = "SE_S_S_RemiliaScarlet_10Rare";
+        public static string SkillEffect_SE_S_S_RemiliaScarlet_3 = "SE_S_S_RemiliaScarlet_3";
         public static string SkillEffect_SE_S_S_RemiliaScarlet_4 = "SE_S_S_RemiliaScarlet_4";
         public static string SkillEffect_SE_S_S_RemiliaScarlet_6 = "SE_S_S_RemiliaScarlet_6";
         public static string SkillEffect_SE_S_S_RemiliaScarlet_7 = "SE_S_S_RemiliaScarlet_7";
         public static string SkillEffect_SE_Tick_B_RemiliaScarlet_0 = "SE_Tick_B_RemiliaScarlet_0";
+        public static string SkillEffect_SE_Tick_B_RemiliaScarlet_2 = "SE_Tick_B_RemiliaScarlet_2";
+        public static string SkillEffect_SE_Tick_B_RemiliaScarlet_3 = "SE_Tick_B_RemiliaScarlet_3";
         public static string SkillEffect_SE_Tick_B_RemiliaScarlet_Rare12 = "SE_Tick_B_RemiliaScarlet_Rare12";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_0 = "SE_T_S_RemiliaScarlet_0";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_1 = "SE_T_S_RemiliaScarlet_1";
@@ -120,6 +133,7 @@ namespace RemiliaScarlet
         public static string SkillEffect_SE_T_S_RemiliaScarlet_5 = "SE_T_S_RemiliaScarlet_5";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_6 = "SE_T_S_RemiliaScarlet_6";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_7 = "SE_T_S_RemiliaScarlet_7";
+        public static string SkillEffect_SE_T_S_RemiliaScarlet_8 = "SE_T_S_RemiliaScarlet_8";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_9 = "SE_T_S_RemiliaScarlet_9";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_LucyD = "SE_T_S_RemiliaScarlet_LucyD";
         public static string SkillEffect_SE_T_S_RemiliaScarlet_P = "SE_T_S_RemiliaScarlet_P";
@@ -129,7 +143,7 @@ namespace RemiliaScarlet
 		/// </summary>
         public static string SkillExtended_SkillEn_Remilia_0 = "SkillEn_Remilia_0";
 		/// <summary>
-		/// 这个技能击杀敌人时，获得1点永久最大体力值，恢复2点法力值。1场战斗只能触发1次。
+		/// 这个技能击杀敌人时，获得1点永久最大体力值，恢复2点法力值。该效果只在黑雾到来前生效。
 		/// 攻击技能
 		/// </summary>
         public static string SkillExtended_SkillEn_Remilia_1 = "SkillEn_Remilia_1";
@@ -153,12 +167,13 @@ namespace RemiliaScarlet
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_11Rare = "S_RemiliaScarlet_11Rare";
 		/// <summary>
-		/// 红魔「Scarlet Devil」
+		/// 神枪「Spear the Gungnir」
+		/// 额外造成&a伤害(自身最大体力值的60%)。
+		/// 使用此技能击杀后增加2点永久最大生命值，恢复2点法力值。该效果只在黑雾到来前生效。
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_12Rare = "S_RemiliaScarlet_12Rare";
 		/// <summary>
-		/// 神枪「Spear the Gungnir」
-		/// 依据自身最大体力值，额外造成&a(60%)伤害。使用此技能击杀后增加2点永久最大生命值，恢复2点行动力。该效果只在黑雾到来前生效。
+		/// 红魔「Scarlet Devil」
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_2 = "S_RemiliaScarlet_2";
 		/// <summary>
@@ -187,9 +202,6 @@ namespace RemiliaScarlet
         public static string Skill_S_RemiliaScarlet_7 = "S_RemiliaScarlet_7";
 		/// <summary>
 		/// 诅咒「弗拉德·特佩斯的诅咒」
-		/// 仅在自身拥有[吸血鬼之心]增益或[摇篮曲]增益的时候才可使用。
-		/// 消耗1层[吸血鬼之心]增益，获得&a(自身100%最大体力值)点防护墙。
-		/// 消耗所有[摇篮曲]增益，每消耗1层，额外获得&b(自身10%最大体力值)点防护墙；每消耗5层，抽取1个技能，恢复1点法力值。
 		/// </summary>
         public static string Skill_S_RemiliaScarlet_8 = "S_RemiliaScarlet_8";
 		/// <summary>

@@ -13,15 +13,25 @@ using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 namespace RemiliaScarlet
 {
-	/// <summary>
-	/// 饱足
-	/// 蕾米莉亚从血肉中获得了满足。暂时无法提升最大生命值。
-	/// </summary>
-    public class B_RemiliaScarlet_6:Buff
+    /// <summary>
+    /// 恶女置乱
+    /// 只能攻击蕾米莉亚。击中时不解除。
+    /// </summary>
+    public class B_RemiliaScarlet_6: B_Taunt, IP_Awake, IP_SkillUse_User
     {
-        public override string DescExtended()
+        public override void Init()
         {
-            return this.BuffData.Description.Replace("&user", base.Usestate_L.Info.Name);
+            base.Init();
+            this.PlusStat.Weak = true;
+        }
+
+        public override void SkillUse(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (Targets[0].Info.Ally != this.BChar.Info.Ally)
+            {
+                Targets.Clear();
+                Targets.Add(base.Usestate_L);
+            }
         }
     }
 }

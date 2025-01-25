@@ -14,26 +14,26 @@ using Debug = UnityEngine.Debug;
 namespace RemiliaScarlet
 {
     /// <summary>
-    /// 绯色幻想
-    /// 释放攻击技能时，对随机敌人重复释放1次。
+    /// 魇月癫乱
+    /// 使持有的所有减益的每回合伤害量提升33%。
     /// </summary>
-    public class B_RemiliaScarlet_2:Buff, IP_SkillUseHand_Team
+    public class B_RemiliaScarlet_2:Buff, IP_BuffUpdate
     {
         public override void Init()
         {
             base.Init();
             this.OnePassive = true;
-            this.PlusStat.DMGTaken = -20f;
-            this.PlusStat.HIT_CC = 100f;
-            this.PlusStat.HIT_DEBUFF = 100f;
-            this.PlusStat.HIT_DOT = 100f;
+            this.PlusStat.DMGTaken = 5;
         }
 
-        public void SKillUseHand_Team(Skill skill)
+        public void BuffUpdate(Buff MyBuff)
         {
-            if (skill.IsDamage && skill.Master == this.BChar)
+            if (!MyBuff.BChar.Info.Ally)
             {
-                BattleSystem.DelayInputAfter(BattleSystem.instance.SkillRandomUseIenum(skill.Master, skill.CloneSkill(true, skill.Master, null, false), false, false, false));
+                if (MyBuff.BuffExtended.Find((Buff_Ex a) => a.BuffExKey == "B_RemiliaScarlet_2_BuffEx") == null)
+                {
+                    MyBuff.AddBuffEx(new B_RemiliaScarlet_2_BuffEx());
+                }
             }
         }
     }

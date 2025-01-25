@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -9,6 +9,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <ReferencePath>H:/SteamLibrary/steamapps/common/Chrono Ark/ChronoArk_Data/Managed</ReferencePath>
+    <ProjectGuid>{2372DDC7-CA05-45FF-9DF6-DB55EB93CFA1}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accessibility">
@@ -381,11 +382,11 @@
       <Private>False</Private>
     </Reference>
     <!-- Extra Reference Start-->
-<!-- Extra Reference End-->
+    <!-- Extra Reference End-->
   </ItemGroup>
-  
-                                                                                                                                                                                                                                                                                                <!-- Compile ItemGroup Start-->
+  <!-- Compile ItemGroup Start-->
   <ItemGroup>
+    <Compile Include="BV_FlandreScarlet_K.cs" />
     <Compile Include="FlandreScarlet_ModDefinition.cs" />
     <Compile Include="FlandreScarlet_ModItemKeys.cs" />
     <Compile Include="FlandreScarlet_Plugin.cs" />

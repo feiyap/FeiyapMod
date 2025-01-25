@@ -13,25 +13,42 @@ using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 namespace RemiliaScarlet
 {
-	/// <summary>
-	/// 绯红色的幻想乡
-	/// 只能攻击蕾米莉亚。击中时不解除。
-	/// </summary>
-    public class B_RemiliaScarlet_3:B_Taunt, IP_Awake, IP_SkillUse_User
+    /// <summary>
+    /// 鲜血礼赞
+    /// 受到<color=purple>痛苦伤害</color>时，有&a几率(&user的暴击率)造成额外50%伤害。
+    /// </summary>
+    public class B_RemiliaScarlet_3:Buff, IP_DamageTakeChange
     {
         public override void Init()
         {
             base.Init();
-            this.PlusStat.Weak = true;
         }
 
-        public override void SkillUse(Skill SkillD, List<BattleChar> Targets)
+        public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
         {
-            if (Targets[0].Info.Ally != this.BChar.Info.Ally)
+            if (NODEF)
             {
-                Targets.Clear();
-                Targets.Add(base.Usestate_L);
+                int prop = (int)this.Usestate_L.GetStat.cri;
+                int ran = RandomManager.RandomInt(this.BChar.GetRandomClass().Main, 1, 100);
+
+                if (ran > prop)
+                {
+                    Dmg = (int)(Dmg * 150 / 100);
+                }
             }
+            return Dmg;
+        }
+
+        public override string DescExtended()
+        {
+            string username = "蕾米莉亚";
+            if (base.Usestate_L != null)
+            {
+                username = base.Usestate_L.Info.Name;
+            }
+
+            return this.BuffData.Description.Replace("&user", username)
+                                            .Replace("&a", (this.Usestate_F.GetStat.cri * 1f).ToString());
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "B_RemiliaScarlet_Rare10": {
+        "_gdeSchema": "Buff",
+        "ClassName": "RemiliaScarlet.B_RemiliaScarlet_Rare10",
+        "BuffTag": "null",
+        "Name": "绯色幻想",
+        "Icon": "B_RemiliaScarlet_Rare10\\B_RemiliaScarlet_Rare10_Icon.png",
+        "Description": "释放攻击技能时，对随机敌人重复释放1次。",
+        "MaxStack": 0,
+        "LifeTime": 2,
+        "Cantdisable": true
+    }
+}

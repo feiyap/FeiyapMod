@@ -2,28 +2,28 @@
     "S_RemiliaScarlet_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Name": "神枪「Spear the Gungnir」",
-        "Target": "enemy",
+        "Name": "红魔「Scarlet Devil」",
+        "Target": "all_enemy",
         "User": "RemiliaScarlet",
         "UseAp": 2,
         "Effect_Target": "SE_T_S_RemiliaScarlet_2",
         "Image_0": "S_RemiliaScarlet_2\\S_RemiliaScarlet_2_Image_0.png",
         "Image_1": "S_RemiliaScarlet_2\\S_RemiliaScarlet_2_Image_1.png",
         "Image_2": "S_RemiliaScarlet_2\\S_RemiliaScarlet_2_Image_2.png",
-        "Rare": true,
+        "Rare": false,
         "NODOD": false,
         "NotCount": true,
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": false,
         "NoDrop": false,
-        "IgnoreTaunt": true,
+        "IgnoreTaunt": false,
         "Except": false,
         "NoBasicSkill": false,
         "Basic": false,
         "Track": false,
-        "Fatal": true,
-        "Description": "依据自身最大体力值，额外造成&a(60%)伤害。使用此技能击杀后增加2点永久最大生命值，恢复2点行动力。该效果只在黑雾到来前生效。",
+        "Fatal": false,
+        "Description": "",
         "Effect_Self": "null",
         "PlusKeyWords": [
             
@@ -31,7 +31,7 @@
         "SkillExtended": [
             "RemiliaScarlet.S_RemiliaScarlet_2"
         ],
-        "Particle": "Particle/Enemy/Fugitive_2",
+        "Particle": "Particle/Enemy/Shiranui/Shiranui_3",
         "EnemyPreview": false,
         "UnknownTarget": false
     }

@@ -14,35 +14,31 @@ using Debug = UnityEngine.Debug;
 namespace RemiliaScarlet
 {
     /// <summary>
-    /// 吸血鬼幻想
+    /// 摇篮曲
+	/// 受击概率略微提升；防御力提升25%；受击时赋予1层「绯夜」。
     /// </summary>
-    public class B_RemiliaScarlet_4 : Buff, IP_SkillUse_Target
+    public class B_RemiliaScarlet_4 : Buff, IP_Hit
     {
-        public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
+        public override void Init()
         {
-            if (SP.SkillData.MySkill.KeyID == "S_RemiliaScarlet_5")
-            {
-                base.SelfDestroy(false);
-                this.BChar.BuffRemove("B_RemiliaScarlet_4", false);
-            }
+            base.Init();
+            this.PlusStat.AggroPer = 10 * StackNum;
+            this.PlusStat.def = 5f * StackNum;
         }
 
         public override void BuffStat()
         {
             base.BuffStat();
-            this.PlusStat.DMGTaken = -50f;
-            this.PlusStat.RES_DOT = 300f;
-            this.PlusStat.RES_CC = 300f;
-            this.PlusStat.RES_DEBUFF = 300f;
-            this.PlusStat.DeadImmune = 50;
+            this.PlusStat.AggroPer = 10 * StackNum;
+            this.PlusStat.def = 5f * StackNum;
         }
-        
-        public override void FixedUpdate()
+
+        public void Hit(SkillParticle SP, int Dmg, bool Cri)
         {
-            base.FixedUpdate();
-            if (base.Usestate_L.IsDead)
+            if (Dmg >= 1 && !SP.UseStatus.Info.Ally)
             {
-                base.SelfDestroy(false);
+                SP.UseStatus.BuffAdd("B_RemiliaScarlet_0", this.BChar, false, 0, false, -1, false);
+                base.SelfStackDestroy();
             }
         }
     }

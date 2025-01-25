@@ -6,7 +6,7 @@
         "Target": "enemy",
         "NotCount": true,
         "Name": "禁弹「反折射」",
-        "Description": "超额治疗自己5点体力。\r\n\n禁忌 - 生成1张附带放逐、2回合后弃牌的禁弹「折反射」加入手中。",
+        "Description": "命中时超额治疗自己&a体力<color=#FF7A33>(攻击力的20%)</color>。\n\n<color=#B22222>复仇</color> - 生成1张附带放逐、2回合后弃牌的“禁弹「折反射」”加入手中。",
         "UseAp": 2,
         "PlusKeyWords": [
             "Keyword_Revenge"

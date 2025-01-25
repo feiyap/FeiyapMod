@@ -27,36 +27,7 @@ namespace RemiliaScarlet
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            base.SkillUseSingle(SkillD, Targets);
 
-            this.SelfBuff = null;
-
-            if (Targets[0] is BattleEnemy)
-            {
-                //if (Targets[0].BuffFind("B_RemiliaScarlet_0", false))
-                {
-                    using (List<BattleEnemy>.Enumerator enumerator = BattleSystem.instance.EnemyList.GetEnumerator())
-                    {
-                        while (enumerator.MoveNext())
-                        {
-                            BattleEnemy battleEnemy = enumerator.Current;
-                            if (battleEnemy != Targets[0] && battleEnemy.BuffFind("B_RemiliaScarlet_0", false))
-                            {
-                                Targets.Add(battleEnemy);
-                            }
-                        }
-                    }
-                }
-            }
-
-            for (int i = 0; i < Targets.Count; i++)
-            {
-                this.BChar.BuffAdd("B_RemiliaScarlet_1", this.BChar, false, 0, false, -1, false);
-            }
-            if (Targets.Count >= 3)
-            {
-                this.BChar.BuffAdd("B_RemiliaScarlet_5", this.BChar, false, 0, false, -1, false);
-            }
         }
     }
 }

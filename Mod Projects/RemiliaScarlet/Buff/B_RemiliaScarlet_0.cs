@@ -28,12 +28,18 @@ namespace RemiliaScarlet
         {
             base.TurnUpdate();
 
-            base.Usestate_L.Heal(base.Usestate_L, this.DotDMGView(), true, true, null);
+            base.Usestate_L.Heal(base.Usestate_L, this.DotDMGView() * 0.25f, true, true, null);
         }
 
         public override string DescExtended()
         {
-            return this.BuffData.Description.Replace("&user", base.Usestate_L.Info.Name);
+            string username = "蕾米莉亚";
+            if (base.Usestate_L != null)
+            {
+                username = base.Usestate_L.Info.Name;
+            }
+
+            return this.BuffData.Description.Replace("&user", username);
         }
     }
 }

@@ -59,7 +59,7 @@ namespace RemiliaScarlet
         {
             foreach (BattleChar bc in BattleSystem.instance.AllyList)
             {
-                bc.BuffAdd("B_RemiliaScarlet_4", this.BChar, false, 0, false, -1, false);
+                bc.BuffAdd("B_RemiliaScarlet_5", this.BChar, false, 0, false, -1, false);
             }
         }
 
