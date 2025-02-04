@@ -1,0 +1,13 @@
+{
+    "B_YuyukoF_Butterfly_M": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Yuyuko.B_YuyukoF_Butterfly_M",
+        "BuffTag": "null",
+        "Name": "<color=#4876FF>幽冥蝶</color>",
+        "Description": "&effect",
+        "Icon": "B_YuyukoF_Butterfly_M\\B_YuyukoF_Butterfly_M_Icon.png",
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

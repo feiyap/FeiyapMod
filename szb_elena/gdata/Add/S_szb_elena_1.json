@@ -1,0 +1,34 @@
+{
+    "S_szb_elena_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_0",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "漆黑法典",
+        "UseAp": 1,
+        "User": "szb_elena",
+        "Description": "如果目标生命值低于&a<color=#FF7A33>(攻击力的70%)</color>，立即死亡。",
+        "Effect_Target": "SE_T_S_szb_elena_1",
+        "SkillExtended": [
+            "szb_elena.S_szb_elena_1"
+        ],
+        "Image_0": "S_szb_elena_1\\S_szb_elena_1_Image_0.png",
+        "Image_1": "S_szb_elena_1\\S_szb_elena_1_Image_1.png",
+        "Image_2": "S_szb_elena_1\\S_szb_elena_1_Image_2.png"
+    }
+}

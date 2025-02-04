@@ -1,0 +1,23 @@
+{
+    "myKey": "szb_elena",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "szb_elena\\szb_elenaFaceSmallChar.png",
+        "offsetMax": {
+            "x": 242.528259,
+            "y": 173.64624
+        },
+        "offsetMin": {
+            "x": -235.175262,
+            "y": -304.057281
+        },
+        "pivot": {
+            "x": 0.48805,
+            "y": 0.6247966
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

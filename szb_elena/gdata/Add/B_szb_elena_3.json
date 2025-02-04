@@ -1,0 +1,16 @@
+{
+    "B_szb_elena_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "szb_elena.B_szb_elena_3",
+        "BuffTag": "null",
+        "Name": "独角兽战士",
+        "Description": "当自己回复生命值时，使所有队员在本场战斗中获得+1攻击力和+1最大生命值。",
+        "LifeTime": 1,
+        "Cantdisable": true,
+        "Icon": "B_szb_elena_3\\B_szb_elena_3_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

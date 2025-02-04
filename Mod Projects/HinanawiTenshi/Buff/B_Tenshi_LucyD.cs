@@ -19,11 +19,14 @@ namespace HinanawiTenshi
 	/// </summary>
     public class B_Tenshi_LucyD:Buff, IP_BuffAdd
     {
+        public int count = 0;
+
         public void Buffadded(BattleChar BuffUser, BattleChar BuffTaker, Buff addedbuff)
         {
-            if (!addedbuff.IsHide && BuffTaker == this.BChar)
+            if (!addedbuff.IsHide && BuffTaker == this.BChar && count < 4)
             {
                 BattleSystem.instance.AllyTeam.Draw(1);
+                count++;
             }
         }
     }

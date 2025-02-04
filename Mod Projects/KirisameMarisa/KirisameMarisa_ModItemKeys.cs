@@ -106,6 +106,7 @@ namespace KirisameMarisa
         public static string Character_KirisameMarisa = "KirisameMarisa";
         public static string Character_Skin_KirisameMarisaChrist = "KirisameMarisaChrist";
         public static string Character_Skin_KirisameMarisaEclipse = "KirisameMarisaEclipse";
+        public static string Character_Skin_KirisameMarisa_Skin = "KirisameMarisa_Skin";
 		/// <summary>
 		/// 偶遇霖之助
 		/// 你们在白色墓地遇到了森近霖之助。他在这里做什么？
@@ -357,7 +358,6 @@ namespace KirisameMarisa
         public static string Skill_S_KirisameMarisa_LucyD = "S_KirisameMarisa_LucyD";
 		/// <summary>
 		/// 魔炮「Final Master Spark」
-		/// 握在手中 1 回合后才可使用。
 		/// 从手中释放技能时，根据其消耗的费用减少该技能的费用。
 		/// 每减少1点费用，该技能造成的伤害减少一半。
 		/// </summary>
@@ -377,7 +377,7 @@ namespace KirisameMarisa
 		/// <summary>
 		/// 超时空「我们的幻想乡！」
 		/// <color=#FFD700>*「梦想天生」+星符「Satellite Illusion」*</color>
-		/// 从所有《东方project》系列的mod角色的稀有技能中，随机生成1个，并为其选择持有者。
+		/// 从所有启用中的、《东方project》系列角色的稀有技能中，随机生成1个，并为其选择持有者。
 		/// 重复释放，直到手牌达到上限为止。
 		/// <i><color=#00BFFF>上啊灵梦！让他们见识一下我们的厉害！</color></i>
 		/// <i><color=#FF4500>啊啊！可不能在这里输了！</color></i>

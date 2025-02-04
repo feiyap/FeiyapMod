@@ -1,0 +1,16 @@
+{
+    "S_YuyukoF_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "Track": false,
+        "Name": "亡舞「生者必灭之理」",
+        "Description": "",
+        "UseAp": 1,
+        "User": "YuyukoF",
+        "Image_0": "S_YuyukoF_3\\S_YuyukoF_3_Image_0.png",
+        "Image_1": "S_YuyukoF_3\\S_YuyukoF_3_Image_1.png",
+        "Image_2": "S_YuyukoF_3\\S_YuyukoF_3_Image_2.png"
+    }
+}

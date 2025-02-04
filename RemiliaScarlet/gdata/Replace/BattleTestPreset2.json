@@ -15,25 +15,17 @@
                 
             ],
             [
-                "S_RemiliaScarlet_0",
-                "S_RemiliaScarlet_1",
-                "S_RemiliaScarlet_3",
-                "S_RemiliaScarlet_4",
                 "S_RemiliaScarlet_5",
-                "S_RemiliaScarlet_6",
-                "S_RemiliaScarlet_7",
-                "S_RemiliaScarlet_8",
-                "S_RemiliaScarlet_9",
-                "S_RemiliaScarlet_12Rare"
+                "S_RemiliaScarlet_5"
             ],
             [
-                "S_DebugSkill"
+                
             ]
         ],
         "PartyBasicSkill": [
             "S_Ilya_1",
             "S_ShadowPriest_0",
-            "S_RemiliaScarlet_7",
+            "S_RemiliaScarlet_10Rare",
             "S_LucyC_2"
         ],
         "PartyEquip": [
@@ -51,7 +43,7 @@
             ]
         ],
         "LucySkill": [
-            "S_Lucy_30_SwimDLC"
+            
         ],
         "AP": 10,
         "Level": 6,

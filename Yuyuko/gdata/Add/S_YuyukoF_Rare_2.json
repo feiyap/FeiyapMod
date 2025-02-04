@@ -1,0 +1,21 @@
+{
+    "S_YuyukoF_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": true,
+        "Track": false,
+        "Fatal": true,
+        "Name": "再迷「幻想乡的黄泉归」",
+        "UseAp": 8,
+        "User": "YuyukoF",
+        "Description": "握在手中时，每次有技能被放逐，使这个技能费用降低1点。",
+        "IgnoreTaunt": true,
+        "NoBasicSkill": true,
+        "Image_0": "S_YuyukoF_Rare_2\\S_YuyukoF_Rare_2_Image_0.png",
+        "Image_1": "S_YuyukoF_Rare_2\\S_YuyukoF_Rare_2_Image_1.png",
+        "Image_2": "S_YuyukoF_Rare_2\\S_YuyukoF_Rare_2_Image_2.png"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "S_szb_elena_R1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Name": "华丽淑女·耶伦华菈",
+        "User": "szb_elena",
+        "Rare": true,
+        "UseAp": 2,
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Effect_Self": "SE_S_S_szb_elena_R1",
+        "Image_0": "S_szb_elena_R1\\S_szb_elena_R1_Image_0.png",
+        "Image_1": "S_szb_elena_R1\\S_szb_elena_R1_Image_1.png",
+        "Image_2": "S_szb_elena_R1\\S_szb_elena_R1_Image_2.png"
+    }
+}

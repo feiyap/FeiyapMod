@@ -1,0 +1,69 @@
+{
+    "szb_elena": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Support",
+        "PassiveClassName": "szb_elena.P_szb_elena",
+        "PassiveUnlockLV1": false,
+        "face": "szb_elena\\szb_elenaBattleFace.png",
+        "PassiveIcon": "szb_elena\\szb_elenaPassiveIcon.png",
+        "name": "耶拉",
+        "MAXHP": {
+            "x": 23,
+            "y": 45
+        },
+        "ATK": {
+            "x": 12,
+            "y": 21
+        },
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "DODGE": {
+            "x": 5,
+            "y": 16
+        },
+        "REG": {
+            "x": 11,
+            "y": 21
+        },
+        "HIT": {
+            "x": 100,
+            "y": 120
+        },
+        "RES_CC": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_DEBUFF": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_DOT": {
+            "x": 10,
+            "y": 50
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "PassiveName": "耶拉的祈祷",
+        "PassiveDes": "当自己回复生命值时，使所有调查员在本场战斗中获得+1攻击力和+1最大生命值。",
+        "SelectInfo": "",
+        "Gender": 1,
+        "CollectionSprite_Cover": "szb_elena\\szb_elenaCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "szb_elena\\szb_elenaCollectionSprite_SkillFace.png",
+        "StatView_Atk": 2,
+        "StatView_Heal": 3,
+        "StatView_Sup": 3,
+        "StatView_Difficult": 1
+    }
+}

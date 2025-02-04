@@ -1,0 +1,18 @@
+{
+    "S_YuyukoF_Rare_1_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "「反魂蝶 - 一分咲」",
+        "Description": "重复释放 &a 次。\n\n握在手中时，自身每次进入永眠状态时，使这个技能获得：打出时，重复释放1次。\n这个技能最多能重复释放10次。\n\n葬送 - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。\n\n冥魂蝶 - \n人魂蝶 - ",
+        "UseAp": 2,
+        "Image_0": "S_YuyukoF_Rare_1_0\\S_YuyukoF_Rare_1_0_Image_0.png",
+        "Image_1": "S_YuyukoF_Rare_1_0\\S_YuyukoF_Rare_1_0_Image_1.png",
+        "Image_2": "S_YuyukoF_Rare_1_0\\S_YuyukoF_Rare_1_0_Image_2.png"
+    }
+}

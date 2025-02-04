@@ -21,7 +21,7 @@ namespace ShameimaruAya
     {
         public override void Init()
         {
-            this.PlusStat.dod = 40;
+            this.PlusStat.dod = 80;
         }
 
         public void SkillUseTeam(Skill skill)

@@ -1,0 +1,33 @@
+{
+    "S_szb_elena_10": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S_TheLight_4",
+        "Target": "Misc",
+        "NotCount": false,
+        "Name": "世界·捷尔加内亚",
+        "UseAp": 3,
+        "User": "szb_elena",
+        "Description": "仅能在自身体力低于&a时使用(自身最大体力值的75%)。\r\n(120%干扰)眩晕攻击力最高的敌人。\r\n治疗体力最低的友军&b点体力(治疗力的180%)。\r\n抽取2个技能。\r",
+        "SkillExtended": [
+            "szb_elena.S_szb_elena_10"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_szb_elena_10\\S_szb_elena_10_Image_0.png",
+        "Image_1": "S_szb_elena_10\\S_szb_elena_10_Image_1.png",
+        "Image_2": "S_szb_elena_10\\S_szb_elena_10_Image_2.png"
+    }
+}

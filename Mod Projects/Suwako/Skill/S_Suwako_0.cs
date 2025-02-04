@@ -19,7 +19,7 @@ namespace Suwako
     /// <color=green>连击2</color> - 释放后返回牌组。
     /// <color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(30%)点。
     /// </summary>
-    public class S_Suwako_0 : SkillExtend_Suwako, IP_SkillSelfToDeck
+    public class S_Suwako_0 : SkillExtend_Suwako, IP_SkillSelfToDeck, IP_SkillCastingStart
     {
         public override string DescExtended(string desc)
         {
@@ -87,6 +87,11 @@ namespace Suwako
         public void SelfAddToDeck(SkillLocation skillLoaction)
         {
             BattleSystem.instance.GetBattleValue<BV_Suwako_0>().UseNum++;
+        }
+
+        public void SkillCasting(CastingSkill ThisSkill)
+        {
+            BasicMethods.CustomMethods.CountingSkillNotUseTurnEnd(ThisSkill, -1);
         }
 
         private int PlusAtk = 0;

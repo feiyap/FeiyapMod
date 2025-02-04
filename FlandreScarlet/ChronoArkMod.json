@@ -4,9 +4,9 @@
     "Visibility": "Public",
     "Title": "【CN/JP/EN/KR】芙兰朵露·斯卡雷特 ~ 东方红魔乡",
     "Author": "绯夜氏",
-    "Version": "1.5",
+    "Version": "v1.7",
     "Cover": "FlandreScarletCover.png",
-    "ChangeNote": "2024/9/29\nv1.5\n重做[红莓陷阱]。\n削弱[恋之迷宫]。\n加强[掌中的破坏者]、[495年的波纹]。",
+    "ChangeNote": "2025/2/4\nv1.7\n修复了[莱瓦汀]无法与[神枪冈格尼尔]合体的BUG。",
     "TagList": [
         "Characters"
     ],

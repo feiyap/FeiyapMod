@@ -1,0 +1,12 @@
+{
+    "B_szb_elena_R1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "华丽淑女",
+        "Description": "当自己回复生命值时，使所有队员在本场战斗中获得+1攻击力和+1最大生命值",
+        "LifeTime": 3,
+        "Icon": "B_szb_elena_R1\\B_szb_elena_R1_Icon.png"
+    }
+}

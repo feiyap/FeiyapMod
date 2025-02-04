@@ -1,0 +1,16 @@
+{
+    "id": "szb_elena",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "【CN】清纯祈祷者·耶拉",
+    "Author": "hswy666，绯夜氏",
+    "Version": "v1.0",
+    "Dependencies": [
+        "BasicMethods"
+    ],
+    "TagList": [
+        "Characters"
+    ],
+    "Cover": "szb_elenaCover.png",
+    "OnlyUploadFiles": false
+}

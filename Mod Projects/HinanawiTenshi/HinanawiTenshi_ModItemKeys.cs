@@ -465,8 +465,11 @@ namespace HinanawiTenshi
     {
 		/// <summary>
 		/// Korean:
+		/// 哦呀，居然还有人能顺利到达这里。
 		/// English:
+		/// 哦呀，居然还有人能顺利到达这里。
 		/// Japanese:
+		/// おや、ここまで来る人がいるなんて。 
 		/// Chinese:
 		/// 哦呀，居然还有人能顺利到达这里。
 		/// Chinese-TW:
@@ -474,8 +477,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText1 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text1");
 		/// <summary>
 		/// Korean:
+		/// 正好！吾在这里停留得也有些闷了。
 		/// English:
+		/// 正好！吾在这里停留得也有些闷了。
 		/// Japanese:
+		/// ちょうどいいわ！ここに居るのは少し飽きてきたのよ。 
 		/// Chinese:
 		/// 正好！吾在这里停留得也有些闷了。
 		/// Chinese-TW:
@@ -483,8 +489,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText2 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text2");
 		/// <summary>
 		/// Korean:
+		/// 就用你们来解解闷吧！
 		/// English:
+		/// 就用你们来解解闷吧！
 		/// Japanese:
+		/// 退屈しのぎにあなた達にも付き合ってもらうわ！ 
 		/// Chinese:
 		/// 就用你们来解解闷吧！
 		/// Chinese-TW:
@@ -492,8 +501,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText3 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text3");
 		/// <summary>
 		/// Korean:
+		/// 雕虫小技！就凭这种歪门邪道也想战胜吾？
 		/// English:
+		/// 雕虫小技！就凭这种歪门邪道也想战胜吾？
 		/// Japanese:
+		/// この程度で！ こんな小細工で私に勝てると思っているのですか？
 		/// Chinese:
 		/// 雕虫小技！就凭这种歪门邪道也想战胜吾？
 		/// Chinese-TW:
@@ -501,8 +513,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText4 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text4");
 		/// <summary>
 		/// Korean:
+		/// 脚踏实地一决胜负吧！
 		/// English:
+		/// 脚踏实地一决胜负吧！
 		/// Japanese:
+		/// 地に足をつけて戦おうじゃないか！ 
 		/// Chinese:
 		/// 脚踏实地一决胜负吧！
 		/// Chinese-TW:
@@ -510,8 +525,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText5 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text5");
 		/// <summary>
 		/// Korean:
+		/// 秒杀抵抗！
 		/// English:
+		/// 秒杀抵抗！
 		/// Japanese:
+		/// 即死レジスト！
 		/// Chinese:
 		/// 秒杀抵抗！
 		/// Chinese-TW:
@@ -519,8 +537,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText6 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text6");
 		/// <summary>
 		/// Korean:
+		/// 灵梦！总算等到你了哇。你来的也太慢了！
 		/// English:
+		/// 灵梦！总算等到你了哇。你来的也太慢了！
 		/// Japanese:
+		/// 霊夢！待ってたわ。遅すぎる！ 
 		/// Chinese:
 		/// 灵梦！总算等到你了哇。你来的也太慢了！
 		/// Chinese-TW:
@@ -528,8 +549,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText1 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text1");
 		/// <summary>
 		/// Korean:
+		/// ——啊哈哈！什么呀，灵梦！你明明知道答案的不对吗？！
 		/// English:
+		/// ——啊哈哈！什么呀，灵梦！你明明知道答案的不对吗？！
 		/// Japanese:
+		/// あははは！何だこれ、霊夢！答えが間違っていることはわかってるよね？ 
 		/// Chinese:
 		/// ——啊哈哈！什么呀，灵梦！你明明知道答案的不对吗？！
 		/// Chinese-TW:
@@ -537,8 +561,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText10 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text10");
 		/// <summary>
 		/// Korean:
+		/// 想要从吾这里得到这个，就先战胜吾吧！
 		/// English:
+		/// 想要从吾这里得到这个，就先战胜吾吧！
 		/// Japanese:
+		/// これを望むのならば、まず私を倒してみなさい！ 
 		/// Chinese:
 		/// 想要从吾这里得到这个，就先战胜吾吧！
 		/// Chinese-TW:
@@ -546,8 +573,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText11 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text11");
 		/// <summary>
 		/// Korean:
+		/// …………唉，我就知道会是这样啊……
 		/// English:
+		/// …………唉，我就知道会是这样啊……
 		/// Japanese:
+		/// …………ああ、こうなるとは思っていた…… 
 		/// Chinese:
 		/// …………唉，我就知道会是这样啊……
 		/// Chinese-TW:
@@ -555,8 +585,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText12 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text12");
 		/// <summary>
 		/// Korean:
+		/// 露西，我们要应战了！
 		/// English:
+		/// 露西，我们要应战了！
 		/// Japanese:
+		/// ルシー、戦う準備はできています！ 
 		/// Chinese:
 		/// 露西，我们要应战了！
 		/// Chinese-TW:
@@ -564,8 +597,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText13 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text13");
 		/// <summary>
 		/// Korean:
+		/// 什么……？天子？为什么你会在这里……
 		/// English:
+		/// 什么……？天子？为什么你会在这里……
 		/// Japanese:
+		/// あれ……？天子？どうしてここにいるの……
 		/// Chinese:
 		/// 什么……？天子？为什么你会在这里……
 		/// Chinese-TW:
@@ -573,8 +609,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText2 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text2");
 		/// <summary>
 		/// Korean:
+		/// 吾在这里看到了很像博丽神社的地方，想着幻想乡的同伴会不会也来这里，于是一直在这里等着呢。
 		/// English:
+		/// 吾在这里看到了很像博丽神社的地方，想着幻想乡的同伴会不会也来这里，于是一直在这里等着呢。
 		/// Japanese:
+		/// 博麗神社によく似た場所があったので、幻想郷の仲間もここに来ると思い、待っていました。 
 		/// Chinese:
 		/// 吾在这里看到了很像博丽神社的地方，想着幻想乡的同伴会不会也来这里，于是一直在这里等着呢。
 		/// Chinese-TW:
@@ -582,8 +621,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText3 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text3");
 		/// <summary>
 		/// Korean:
+		/// 跟在你后边的这个小女孩是……？
 		/// English:
+		/// 跟在你后边的这个小女孩是……？
 		/// Japanese:
+		/// あなたについてくる少女は誰......？
 		/// Chinese:
 		/// 跟在你后边的这个小女孩是……？
 		/// Chinese-TW:
@@ -591,8 +633,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText4 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text4");
 		/// <summary>
 		/// Korean:
+		/// 她是我的朋友，露西。我们正在寻找时光之影，你有什么头绪吗？
 		/// English:
+		/// 她是我的朋友，露西。我们正在寻找时光之影，你有什么头绪吗？
 		/// Japanese:
+		/// 彼女は友達のルシー。タイムシェイドを探しているのだけど、手がかりはない？
 		/// Chinese:
 		/// 她是我的朋友，露西。我们正在寻找时光之影，你有什么头绪吗？
 		/// Chinese-TW:
@@ -600,8 +645,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText5 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text5");
 		/// <summary>
 		/// Korean:
+		/// 时光之影……不会是这个东西吧？吾在神社里捡到的怪东西呢。
 		/// English:
+		/// 时光之影……不会是这个东西吧？吾在神社里捡到的怪东西呢。
 		/// Japanese:
+		/// タイムシェイド……もしかしてこれだろうか？神社で見つけた不思議なものです。 
 		/// Chinese:
 		/// 时光之影……不会是这个东西吧？吾在神社里捡到的怪东西呢。
 		/// Chinese-TW:
@@ -609,8 +657,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText6 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text6");
 		/// <summary>
 		/// Korean:
+		/// ………………
 		/// English:
+		/// ………………
 		/// Japanese:
+		/// ………………
 		/// Chinese:
 		/// ………………
 		/// Chinese-TW:
@@ -618,8 +669,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText7 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text7");
 		/// <summary>
 		/// Korean:
+		/// ……虽然很多余，但还是容我询问一下。天子，你能把那个东西给我吗？
 		/// English:
+		/// ……虽然很多余，但还是容我询问一下。天子，你能把那个东西给我吗？
 		/// Japanese:
+		/// ……余計なお世話だと思うけど一応聞くわ。 天子、それを渡して？
 		/// Chinese:
 		/// ……虽然很多余，但还是容我询问一下。天子，你能把那个东西给我吗？
 		/// Chinese-TW:
@@ -627,8 +681,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText8 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text8");
 		/// <summary>
 		/// Korean:
+		/// ……
 		/// English:
+		/// ……
 		/// Japanese:
+		/// ……
 		/// Chinese:
 		/// ……
 		/// Chinese-TW:
@@ -636,8 +693,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText9 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text9");
 		/// <summary>
 		/// Korean:
+		/// 自一至十，吾已完美！
 		/// English:
+		/// 自一至十，吾已完美！
 		/// Japanese:
+		/// 一にして全、私は完璧！
 		/// Chinese:
 		/// 自一至十，吾已完美！
 		/// Chinese-TW:
@@ -645,8 +705,11 @@ namespace HinanawiTenshi
         public static string BattleDiaS_Tenshi_Rare_4Text1 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/S_Tenshi_Rare_4/Text1");
 		/// <summary>
 		/// Korean:
+		/// 吾即剑，吾即天，吾即是十全十美之天人！
 		/// English:
+		/// 吾即剑，吾即天，吾即是十全十美之天人！
 		/// Japanese:
+		/// 我は剣、我は天、我は十全十美の天人なり！
 		/// Chinese:
 		/// 吾即剑，吾即天，吾即是十全十美之天人！
 		/// Chinese-TW:
@@ -654,8 +717,11 @@ namespace HinanawiTenshi
         public static string BattleDiaS_Tenshi_Rare_4Text2 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/S_Tenshi_Rare_4/Text2");
 		/// <summary>
 		/// Korean:
+		/// 迎接天光闪耀的力量吧！
 		/// English:
+		/// 迎接天光闪耀的力量吧！
 		/// Japanese:
+		/// 輝く天の力を受けなさい！
 		/// Chinese:
 		/// 迎接天光闪耀的力量吧！
 		/// Chinese-TW:

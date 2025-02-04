@@ -1,0 +1,23 @@
+{
+    "myKey": "szb_elena",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "szb_elena\\szb_elenaBattleChar.png",
+        "offsetMax": {
+            "x": 738.2859,
+            "y": 569.4965
+        },
+        "offsetMin": {
+            "x": -800.406738,
+            "y": -969.1961
+        },
+        "pivot": {
+            "x": 0.520186245,
+            "y": 0.6298829
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

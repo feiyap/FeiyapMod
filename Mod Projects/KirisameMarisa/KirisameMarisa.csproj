@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>KirisameMarisa20251141637</AssemblyName>
+    <AssemblyName>KirisameMarisa2025129113300</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -435,7 +435,7 @@
     </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                                                                                              <!-- Compile ItemGroup Start-->
+                                                                                                                                                                        <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="KirisameMarisa_ModDefinition.cs" />

@@ -1,0 +1,19 @@
+{
+    "S_YuyukoF_P_1_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_0",
+        "Target": "enemy",
+        "NoDrop": true,
+        "IgnoreTaunt": true,
+        "Name": "转化<color=#FF69B4>人魂蝶</color>",
+        "Description": "将目标技能转化为<color=#FF69B4>人魂蝶</color>施加在任意敌人身上。&a",
+        "Image_0": "S_YuyukoF_P_1_2\\S_YuyukoF_P_1_2_Image_0.png",
+        "Image_1": "S_YuyukoF_P_1_2\\S_YuyukoF_P_1_2_Image_1.png",
+        "Image_2": "S_YuyukoF_P_1_2\\S_YuyukoF_P_1_2_Image_2.png",
+        "Effect_Target": "null",
+        "SkillExtended": [
+            "Yuyuko.S_YuyukoF_P_1_2"
+        ]
+    }
+}

@@ -4,6 +4,12 @@
         "SkinName": "庆祝新春的恶魔",
         "Character": "RemiliaScarlet",
         "SkinDesc": "晚上好。\n祝你度过一个美好的夜晚。\n你知道我来这里的原因吗？",
-        "FaceSprite": "RemiliaScarletSpr\\RemiliaScarletSprBattleFace.png"
+        "FaceSprite": "RemiliaScarletSpr\\RemiliaScarletSprBattleFace.png",
+        "CampSD": [
+            "RemiliaScarlet\\RemiliaScarletCampSD0.png",
+            "RemiliaScarlet\\RemiliaScarletCampSD1.png",
+            "RemiliaScarlet\\RemiliaScarletCampSD2.png",
+            "RemiliaScarlet\\RemiliaScarletCampSD3.png"
+        ]
     }
 }

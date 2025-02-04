@@ -1,0 +1,18 @@
+{
+    "S_szb_elena_R2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "Name": "贝勒罗芬",
+        "User": "szb_elena",
+        "UseAp": 3,
+        "Effect_Self": "SE_S_S_szb_elena_R2",
+        "Image_0": "S_szb_elena_R2\\S_szb_elena_R2_Image_0.png",
+        "Image_1": "S_szb_elena_R2\\S_szb_elena_R2_Image_1.png",
+        "Image_2": "S_szb_elena_R2\\S_szb_elena_R2_Image_2.png"
+    }
+}

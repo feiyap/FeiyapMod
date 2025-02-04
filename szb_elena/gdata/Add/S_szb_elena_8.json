@@ -1,0 +1,30 @@
+{
+    "S_szb_elena_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Name": "洁净的领域",
+        "User": "szb_elena",
+        "UseAp": 2,
+        "NotCount": true,
+        "Effect_Self": "SE_S_S_szb_elena_8",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_szb_elena_8\\S_szb_elena_8_Image_0.png",
+        "Image_1": "S_szb_elena_8\\S_szb_elena_8_Image_1.png",
+        "Image_2": "S_szb_elena_8\\S_szb_elena_8_Image_2.png"
+    }
+}

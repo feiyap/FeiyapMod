@@ -1,0 +1,18 @@
+{
+    "B_YuyukoF_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "DOT",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "轮回蝶",
+        "Icon": "B_YuyukoF_1\\B_YuyukoF_1_Icon.png",
+        "Description": "结算时降低&a最大体力值(&user的攻击力的25%)。",
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 110
+    }
+}

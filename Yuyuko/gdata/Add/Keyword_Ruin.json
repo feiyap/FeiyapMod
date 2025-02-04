@@ -1,0 +1,7 @@
+{
+    "Keyword_Ruin": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "<color=#AB82FF><b>葬送</b></color>",
+        "Desc": "技能被放逐时，能够触发额外效果。"
+    }
+}

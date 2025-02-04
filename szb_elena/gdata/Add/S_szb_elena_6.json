@@ -1,0 +1,21 @@
+{
+    "S_szb_elena_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "Name": "圣痕的执行",
+        "Description": "对随机敌人造成&a伤害(本回合中自己回复生命值的次数 x 攻击力的30%)。",
+        "UseAp": 1,
+        "User": "szb_elena",
+        "Effect_Target": "SE_T_S_szb_elena_6",
+        "SkillExtended": [
+            "szb_elena.S_szb_elena_6"
+        ],
+        "NotCount": true,
+        "Image_0": "S_szb_elena_6\\S_szb_elena_6_Image_0.png",
+        "Image_1": "S_szb_elena_6\\S_szb_elena_6_Image_1.png",
+        "Image_2": "S_szb_elena_6\\S_szb_elena_6_Image_2.png",
+        "NoDrop": false
+    }
+}

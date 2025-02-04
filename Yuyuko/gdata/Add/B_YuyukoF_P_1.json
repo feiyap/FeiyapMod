@@ -1,0 +1,15 @@
+{
+    "B_YuyukoF_P_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "Yuyuko.B_YuyukoF_P_1",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "通常",
+        "Description": "当前<color=#FFB6C1>返魂值</color>为：<color=#FFB6C1>&a</color>",
+        "Icon": "B_YuyukoF_P_1\\B_YuyukoF_P_1_Icon.png"
+    }
+}

@@ -71,7 +71,7 @@ namespace FlandreScarlet
                 int mynum = -9;
                 for (int j = 0; j < BattleSystem.instance.AllyTeam.Skills.Count; j++)
                 {
-                    if (BattleSystem.instance.AllyTeam.Skills[j].MySkill.KeyID == "S_RemiliaScarlet_2" && (j == num - 1 || j == num + 1))
+                    if (BattleSystem.instance.AllyTeam.Skills[j].MySkill.KeyID == "S_RemiliaScarlet_12Rare" && (j == num - 1 || j == num + 1))
                     {
                         mynum = j;
                         flag = true;

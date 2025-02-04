@@ -4,11 +4,11 @@
     "Visibility": "Public",
     "Title": "【CN/EN】初音ミク",
     "Author": "绯夜氏",
-    "Version": "v2.0",
+    "Version": "v2.1",
     "Description": "被所有人喜爱的歌姬，如今也要将那歌声传达进超时空方舟之中。\n世界第一的公主殿下，现在出击！\n定位辅助的角色。不断使用歌声叠加各种增益，增益越多治疗效果越强，以强大的音感将战斗推向最高潮！\n包含1个角色。",
     "Cover": "HatsuneMikuCover.png",
     "WorkShopId": "3222505203",
-    "ChangeNote": "2025/1/19\nv2.0\n大幅度加强了初音大部分技能。",
+    "ChangeNote": "2025/2/1\nv2.1\n[あなたの歌姬]添加一次性，避免永久无敌。",
     "TagList": [
         "Characters"
     ],

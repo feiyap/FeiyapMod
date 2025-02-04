@@ -1,0 +1,22 @@
+{
+    "S_szb_elena_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "Name": "传教司祭·萝蕾娜",
+        "Description": "将1个“萝蕾娜的圣水”加入手中。\r\n当自己回复生命值时，如果该回复为自己本回合中的第2次，则会使这个技能获得“打出时，对随机敌人造成&a伤害(攻击力的130%)”。\r",
+        "UseAp": 2,
+        "User": "szb_elena",
+        "Effect_Target": "SE_T_S_szb_elena_7",
+        "NotCount": false,
+        "Except": false,
+        "SkillExtended": [
+            "szb_elena.S_szb_elena_7"
+        ],
+        "PlusSkillView": "S_szb_elena_7_0",
+        "Image_0": "S_szb_elena_7\\S_szb_elena_7_Image_0.png",
+        "Image_1": "S_szb_elena_7\\S_szb_elena_7_Image_1.png",
+        "Image_2": "S_szb_elena_7\\S_szb_elena_7_Image_2.png"
+    }
+}

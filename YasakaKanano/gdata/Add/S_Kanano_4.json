@@ -16,6 +16,8 @@
         "SkillExtended": [
             "YasakaKanano.S_Kanano_4"
         ],
-        "PlusSkillView": "S_Kanano_P"
+        "PlusSkillView": "S_Kanano_P",
+        "Disposable": false,
+        "NoDrop": false
     }
 }

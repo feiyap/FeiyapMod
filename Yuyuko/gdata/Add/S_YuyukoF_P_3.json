@@ -1,0 +1,32 @@
+{
+    "S_YuyukoF_P_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "skill",
+        "NotCount": true,
+        "Basic": true,
+        "Name": "<color=#8B008B>亡乡「亡我乡 -无道之路-」</color>",
+        "Description": "放逐目标技能，并依据放逐技能的费用，每点费用减少50返魂值。",
+        "UseAp": -1,
+        "NoDrop": true,
+        "Image_0": "S_YuyukoF_P_3\\S_YuyukoF_P_3_Image_0.png",
+        "Image_1": "S_YuyukoF_P_3\\S_YuyukoF_P_3_Image_1.png",
+        "Image_2": "S_YuyukoF_P_3\\S_YuyukoF_P_3_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "Yuyuko.S_YuyukoF_P_3"
+        ]
+    }
+}

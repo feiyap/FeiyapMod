@@ -1,0 +1,54 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "szb_elena",
+            "LucyC",
+            "LucyC"
+        ],
+        "PartySkills": [
+            [
+                "S_szb_elena_1",
+                "S_szb_elena_2",
+                "S_szb_elena_3",
+                "S_szb_elena_4",
+                "S_szb_elena_5",
+                "S_szb_elena_6",
+                "S_szb_elena_7",
+                "S_szb_elena_8",
+                "S_szb_elena_9",
+                "S_szb_elena_10",
+                "S_szb_elena_R1",
+                "S_szb_elena_R2",
+                "S_szb_elena_R3"
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_LucyC_2",
+            "S_LucyC_2"
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "AP": 10,
+        "Level": 6,
+        "LucySkill": [
+            "S_szb_elena_Lucy"
+        ]
+    }
+}

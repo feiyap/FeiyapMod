@@ -52,11 +52,11 @@ namespace YasakaKanano
             yield break;
         }
 
-        static string str1 = "<color=#B22222>30%</color><color=#8B8989>/40%/50%/60%/70%</color>";
-        static string str2 = "<color=#8B8989>30%/</color><color=#B22222>40%</color><color=#8B8989>/50%/60%/70%</color>";
-        static string str3 = "<color=#8B8989>30%/40%/</color><color=#B22222>80%</color><color=#8B8989>/60%/70%</color>";
-        static string str4 = "<color=#8B8989>30%/40%/50%/</color><color=#B22222>60%</color><color=#8B8989>/70%</color>";
-        static string str5 = "<color=#8B8989>30%/40%/50%/60%/</color><color=#B22222>70%</color>";
+        static string str1 = "<color=#B22222>60%</color><color=#8B8989>/70%/80%/90%/100%</color>";
+        static string str2 = "<color=#8B8989>60%/</color><color=#B22222>70%</color><color=#8B8989>/80%/90%/100%</color>";
+        static string str3 = "<color=#8B8989>60%/70%/</color><color=#B22222>80%</color><color=#8B8989>/90%/100%</color>";
+        static string str4 = "<color=#8B8989>60%/70%/80%/</color><color=#B22222>90%</color><color=#8B8989>/100%</color>";
+        static string str5 = "<color=#8B8989>60%/70%/80%/90%/</color><color=#B22222>100%</color>";
         List<string> strList = new List<string> { str1, str2, str3, str4, str5 };
 
         public override string DescExtended()
@@ -66,7 +66,7 @@ namespace YasakaKanano
             {
                 yuzhulv = BattleSystem.instance.GetBattleValue<BV_Kanano_P>().getYuzhuLevel(this.BChar);
             }
-            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.atk * (0.3 + yuzhulv * 0.1))).ToString())
+            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.atk * (0.5 + yuzhulv * 0.1))).ToString())
                                       .Replace("&b", strList[yuzhulv - 1]);
         }
     }

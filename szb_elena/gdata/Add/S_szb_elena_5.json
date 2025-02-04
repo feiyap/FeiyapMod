@@ -1,0 +1,20 @@
+{
+    "S_szb_elena_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "all_ally",
+        "Name": "温情的兔耳治愈师",
+        "UseAp": 1,
+        "User": "szb_elena",
+        "Description": "爆能强化3 - 额外治疗&a体力(治疗力的105%)。抽取2个技能。",
+        "Effect_Target": "SE_T_S_szb_elena_5",
+        "SkillExtended": [
+            "szb_elena.S_szb_elena_5"
+        ],
+        "NotCount": false,
+        "Image_0": "S_szb_elena_5\\S_szb_elena_5_Image_0.png",
+        "Image_1": "S_szb_elena_5\\S_szb_elena_5_Image_1.png",
+        "Image_2": "S_szb_elena_5\\S_szb_elena_5_Image_2.png"
+    }
+}

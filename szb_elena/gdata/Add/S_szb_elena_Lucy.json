@@ -1,0 +1,20 @@
+{
+    "S_szb_elena_Lucy": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/flare_lv1",
+        "Target": "all_ally",
+        "Name": "黄金之钟",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "szb_elena",
+        "Description": "打出时立即恢复所有目标5点生命值。\r\n释放时抽取2个技能。\r",
+        "SkillExtended": [
+            "szb_elena.S_szb_elena_Lucy"
+        ],
+        "Image_0": "S_szb_elena_Lucy\\S_szb_elena_Lucy_Image_0.png",
+        "Image_1": "S_szb_elena_Lucy\\S_szb_elena_Lucy_Image_1.png",
+        "Image_2": "S_szb_elena_Lucy\\S_szb_elena_Lucy_Image_2.png",
+        "NotCount": false,
+        "Counting": 1
+    }
+}

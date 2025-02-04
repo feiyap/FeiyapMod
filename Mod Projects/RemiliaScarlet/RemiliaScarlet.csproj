@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>RemiliaScarlet2025125184722</AssemblyName>
+    <AssemblyName>RemiliaScarlet202522215931</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -382,7 +382,7 @@
     </Reference>
   </ItemGroup>
   
-                                                                                                                                                                                                                                                                                                <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                                                              <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="RemiliaScarlet_ModItemKeys.cs" />
     <Compile Include="Buff\B_RemiliaScarlet_0.cs" />

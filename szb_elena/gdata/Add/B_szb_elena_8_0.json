@@ -1,0 +1,12 @@
+{
+    "B_szb_elena_8_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "szb_elena.B_szb_elena_8_0",
+        "BuffTag": "null",
+        "Name": "无敌",
+        "LifeTime": 1,
+        "Description": "",
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_35"
+    }
+}

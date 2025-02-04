@@ -3,33 +3,29 @@
         "_gdeSchema": "Preset",
         "Party": [
             "IzayoiSakuya",
-            "MissChain",
-            "LucyC",
-            "LucyC"
+            "RemiliaScarlet",
+            "Momori",
+            "Joey"
         ],
         "PartyBasicSkill": [
-            "S_Sakuya_12Rare",
+            "S_Sakuya_10Rare",
             "S_LucyC_2",
             "S_LucyC_2",
             "S_LucyC_2"
         ],
         "PartySkills": [
             [
-                "S_Sakuya_2",
-                "S_Sakuya_2",
-                "S_Sakuya_0",
-                "S_Sakuya_0",
-                "S_Sakuya_0",
-                "S_Sakuya_0"
+                "S_Sakuya_P",
+                "S_Sakuya_P"
             ],
             [
-                
+                "S_RemiliaScarlet_6"
             ],
             [
-                
+                "S_Momori_7"
             ],
             [
-                
+                "S_Joey_5"
             ]
         ],
         "PartyEquip": [

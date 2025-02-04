@@ -1,0 +1,20 @@
+{
+    "S_YuyukoF_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "Name": "「反魂蝶」",
+        "User": "YuyukoF",
+        "Rare": true,
+        "Description": "握在手中时，自身每次进入永眠状态时，使这个技能获得：打出时，重复释放1次。\n这个技能最多能重复释放10次。\n\n葬送 - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。\n幽冥蝶 - \n人魂蝶 - ",
+        "UseAp": 2,
+        "NotCount": true,
+        "Track": true,
+        "Fatal": true,
+        "Image_0": "S_YuyukoF_Rare_1\\S_YuyukoF_Rare_1_Image_0.png",
+        "Image_1": "S_YuyukoF_Rare_1\\S_YuyukoF_Rare_1_Image_1.png",
+        "Image_2": "S_YuyukoF_Rare_1\\S_YuyukoF_Rare_1_Image_2.png",
+        "PlusSkillView": "S_YuyukoF_Rare_1_0"
+    }
+}

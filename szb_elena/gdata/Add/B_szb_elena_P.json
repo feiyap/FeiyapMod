@@ -1,0 +1,14 @@
+{
+    "B_szb_elena_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "szb_elena.B_szb_elena_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "耶拉的祈祷",
+        "Icon": "B_szb_elena_P\\B_szb_elena_P_Icon.png"
+    }
+}

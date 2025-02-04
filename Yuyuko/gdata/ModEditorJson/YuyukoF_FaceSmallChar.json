@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "YuyukoF\\YuyukoFFaceSmallChar.png",
-        "pivot": {
-            "x": 0.514861047,
-            "y": 0.8353106
+        "offsetMax": {
+            "x": 425.04187,
+            "y": 336.237274
         },
         "offsetMin": {
-            "x": -219.739685,
-            "y": -627.984253
+            "x": -93.7095947,
+            "y": -787.6301
         },
-        "offsetMax": {
-            "x": 203.107666,
-            "y": 117.121269
+        "pivot": {
+            "x": 0.1767273,
+            "y": 0.6958476
         }
     },
     "MyChangeType": "FaceSmallChar",

@@ -1,0 +1,36 @@
+{
+    "S_szb_elena_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "Track": false,
+        "Name": "独角兽战士",
+        "UseAp": 2,
+        "Description": "将1个“独角兽”加入手中。",
+        "User": "szb_elena",
+        "Effect_Target": "SE_T_S_szb_elena_3",
+        "NotCount": false,
+        "Except": false,
+        "PlusSkillView": "S_szb_elena_3_0",
+        "SkillExtended": [
+            "szb_elena.S_szb_elena_3"
+        ],
+        "IgnoreTaunt": true,
+        "Image_0": "S_szb_elena_3\\S_szb_elena_3_Image_0.png",
+        "Image_1": "S_szb_elena_3\\S_szb_elena_3_Image_1.png",
+        "Image_2": "S_szb_elena_3\\S_szb_elena_3_Image_2.png",
+        "Rare": false,
+        "Disposable": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Self": "SE_S_S_szb_elena_3"
+    }
+}

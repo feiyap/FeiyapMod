@@ -32,7 +32,7 @@ namespace FlandreScarlet
             {
                 this.Flag = true;
             }
-            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && this.BChar.BuffReturn("B_FlandreScarlet_P_K", false).StackNum >= 2)
+            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && BattleSystem.instance.GetBattleValue<BV_FlandreScarlet_K>().count >= 2)
                 || this.BChar.BuffFind("B_FlandreScarlet_11Rare", false))
             {
                 this.Flag = true;
@@ -56,7 +56,7 @@ namespace FlandreScarlet
                 BattleSystem.instance.AllyTeam.Draw(2);
                 this.BChar.BuffAdd("B_FlandreScarlet_8_0", this.BChar, true, 0, false, -1, false);
             }
-            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && this.BChar.BuffReturn("B_FlandreScarlet_P_K", false).StackNum >= 2)
+            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && BattleSystem.instance.GetBattleValue<BV_FlandreScarlet_K>().count >= 2)
                 || this.BChar.BuffFind("B_FlandreScarlet_11Rare", false))
             {
                 BattleSystem.instance.AllyTeam.AP += 2;

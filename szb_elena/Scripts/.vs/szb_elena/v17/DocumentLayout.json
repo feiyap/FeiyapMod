@@ -1,0 +1,426 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\buff\\b_szb_elena_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:buff\\b_szb_elena_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\buff\\b_szb_elena_8_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:buff\\b_szb_elena_8_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\buff\\b_szb_elena_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:buff\\b_szb_elena_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\buff\\b_szb_elena_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:buff\\b_szb_elena_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\character\\p_szb_elena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:character\\p_szb_elena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|d:\\steam\\steamapps\\common\\chrono ark\\mod\\szb_elena\\scripts\\buff\\b_szb_elena_r3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:buff\\b_szb_elena_r3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\buff\\b_szb_elena_r1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:buff\\b_szb_elena_r1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\buff\\b_szb_elena_r2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:buff\\b_szb_elena_r2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_3_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_3_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|d:\\steam\\steamapps\\common\\chrono ark\\mod\\szb_elena\\scripts\\skill\\s_szb_elena_r3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_r3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_lucy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_lucy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_8_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_8_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_7_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_7_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\skill\\s_szb_elena_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:skill\\s_szb_elena_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\buff\\b_szb_elena_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:buff\\b_szb_elena_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\basic_szb_elena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:basic_szb_elena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\szb_elena_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F418F191-130B-4D52-91E9-8B3C610FD52F}|szb_elena.csproj|solutionrelative:szb_elena_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "B_szb_elena_3.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_3.cs",
+              "RelativeDocumentMoniker": "Buff\\B_szb_elena_3.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_3.cs",
+              "RelativeToolTip": "Buff\\B_szb_elena_3.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:00:12.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "B_szb_elena_8.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_8.cs",
+              "RelativeDocumentMoniker": "Buff\\B_szb_elena_8.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_8.cs",
+              "RelativeToolTip": "Buff\\B_szb_elena_8.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:51:38.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "P_szb_elena.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Character\\P_szb_elena.cs",
+              "RelativeDocumentMoniker": "Character\\P_szb_elena.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Character\\P_szb_elena.cs",
+              "RelativeToolTip": "Character\\P_szb_elena.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T01:03:08.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "B_szb_elena_R1.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_R1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_szb_elena_R1.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_R1.cs",
+              "RelativeToolTip": "Buff\\B_szb_elena_R1.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T04:27:05.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "B_szb_elena_R3.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_R3.cs",
+              "RelativeDocumentMoniker": "Buff\\B_szb_elena_R3.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_R3.cs",
+              "RelativeToolTip": "Buff\\B_szb_elena_R3.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T04:45:49.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "B_szb_elena_P.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_P.cs",
+              "RelativeDocumentMoniker": "Buff\\B_szb_elena_P.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_P.cs",
+              "RelativeToolTip": "Buff\\B_szb_elena_P.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T01:07:26.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "B_szb_elena_8_0.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_8_0.cs",
+              "RelativeDocumentMoniker": "Buff\\B_szb_elena_8_0.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_8_0.cs",
+              "RelativeToolTip": "Buff\\B_szb_elena_8_0.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T03:09:32.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "S_szb_elena_10.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_10.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_10.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_10.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_10.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswBwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T03:32:28.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "B_szb_elena_R2.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_R2.cs",
+              "RelativeDocumentMoniker": "Buff\\B_szb_elena_R2.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_R2.cs",
+              "RelativeToolTip": "Buff\\B_szb_elena_R2.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T04:37:52.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "S_szb_elena_3.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_3.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_3.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_3.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_3.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:01:15.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "S_szb_elena_4.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_4.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_4.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_4.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_4.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:17:48.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "S_szb_elena_5.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_5.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_5.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_5.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_5.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:27:24.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "S_szb_elena_3_0.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_3_0.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_3_0.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_3_0.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_3_0.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBkAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:03:11.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "S_szb_elena_9.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_9.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_9.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_9.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_9.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBgAAADeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T03:14:58.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "S_szb_elena_R3.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_R3.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_R3.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_R3.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_R3.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T04:47:33.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "S_szb_elena_Lucy.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_Lucy.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_Lucy.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_Lucy.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_Lucy.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T03:47:33.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "S_szb_elena_8_0.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_8_0.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_8_0.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_8_0.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_8_0.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T03:07:53.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "S_szb_elena_7_0.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_7_0.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_7_0.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_7_0.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_7_0.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:47:41.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "S_szb_elena_7.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_7.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_7.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_7.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_7.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswB4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:41:40.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "S_szb_elena_6.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_6.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_6.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_6.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_6.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:33:01.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "S_szb_elena_1.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_1.cs",
+              "RelativeDocumentMoniker": "Skill\\S_szb_elena_1.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Skill\\S_szb_elena_1.cs",
+              "RelativeToolTip": "Skill\\S_szb_elena_1.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T01:30:56.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "B_szb_elena_2.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_2.cs",
+              "RelativeDocumentMoniker": "Buff\\B_szb_elena_2.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Buff\\B_szb_elena_2.cs",
+              "RelativeToolTip": "Buff\\B_szb_elena_2.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T01:41:06.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Basic_szb_elena.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Basic_szb_elena.cs",
+              "RelativeDocumentMoniker": "Basic_szb_elena.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\Basic_szb_elena.cs",
+              "RelativeToolTip": "Basic_szb_elena.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAASwBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T01:04:53.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "szb_elena_Plugin.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\szb_elena_Plugin.cs",
+              "RelativeDocumentMoniker": "szb_elena_Plugin.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\Chrono Ark\\Mod\\szb_elena\\Scripts\\szb_elena_Plugin.cs",
+              "RelativeToolTip": "szb_elena_Plugin.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T01:04:53.84Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

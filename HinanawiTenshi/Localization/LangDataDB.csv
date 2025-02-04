@@ -1,58 +1,94 @@
-Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-Buff/B_Tenki_10_Description,Text,,,,,手中的稀有技能的费用降低1点。,
-Buff/B_Tenki_10_Name,Text,,,,,天气 - 疏雨,
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Tenki_10_Description,Text,,,,手札にあるレアスキルのコストが1減少する。,手中的稀有技能的费用降低1点。,
+Buff/B_Tenki_10_Name,Text,,,,天気 – 疎雨,天气 - 疏雨,
 Buff/B_Tenki_11_Description,Text,,,,,,
-Buff/B_Tenki_11_Name,Text,,,,,天气 - 风雨,
-Buff/B_Tenki_12_Description,Text,,,,,追加攻击/反击造成的伤害提升33%。,
-Buff/B_Tenki_12_Name,Text,,,,,天气 - 晴岚,
-Buff/B_Tenki_13_Description,Text,,,,,使手中的技能获得“无视嘲讽”。,
-Buff/B_Tenki_13_Name,Text,,,,,天气 - 川雾,
-Buff/B_Tenki_14_Name,Text,,,,,天气 - 台风,
-Buff/B_Tenki_15_Description,Text,,,,,"获得随机天气的面板属性。每次使用技能后改变。
+Buff/B_Tenki_11_Name,Text,,,,天気 – 風雨,天气 - 风雨,
+Buff/B_Tenki_12_Description,Text,,,,追加攻撃/反撃で与えるダメージが33%増加する。,追加攻击/反击造成的伤害提升33%。,
+Buff/B_Tenki_12_Name,Text,,,,天気 – 晴嵐,天气 - 晴岚,
+Buff/B_Tenki_13_Description,Text,,,,手札にあるスキルに挑発無視を与える。,使手中的技能获得“无视嘲讽”。,
+Buff/B_Tenki_13_Name,Text,,,,天気 – 川霧,天气 - 川雾,
+Buff/B_Tenki_14_Name,Text,,,,天気 – 台風,天气 - 台风,
+Buff/B_Tenki_15_Description,Text,,,,"ランダムな天気の効果を得る。 スキルを使用するたび、天気が変化する。
+現在の天気：&a","获得随机天气的面板属性。每次使用技能后改变。
 当前生效的天气为：&a",
-Buff/B_Tenki_15_Name,Text,,,,,天气 - 极光,
-Buff/B_Tenki_16_Description,Text,,,,,回合结束时，治疗10点体力。,
-Buff/B_Tenki_16_Name,Text,,,,,天气 - 凪,
-Buff/B_Tenki_17_Name,Text,,,,,天气 - 钻石尘,
+Buff/B_Tenki_15_Name,Text,,,,天気 – 極光,天气 - 极光,
+Buff/B_Tenki_16_Description,Text,,,,ターン終了時、体力を10回復する。,回合结束时，治疗10点体力。,
+Buff/B_Tenki_16_Name,Text,,,,天気 – 凪,天气 - 凪,
+Buff/B_Tenki_17_Name,Text,,,,天気 – ダイヤモンドダスト,天气 - 钻石尘,
 Buff/B_Tenki_18_Description,Text,,,,,,
-Buff/B_Tenki_18_Name,Text,,,,,天气 - 黄沙,
+Buff/B_Tenki_18_Name,Text,,,,天気 – 黄砂,天气 - 黄沙,
 Buff/B_Tenki_19_Description,Text,,,,,,
-Buff/B_Tenki_19_Name,Text,,,,,天气 - 烈日,
+Buff/B_Tenki_19_Name,Text,,,,天気 – 烈日,天气 - 烈日,
 Buff/B_Tenki_1_Description,Text,,,,,,
-Buff/B_Tenki_1_Name,Text,,,,,天气 - 快晴,
+Buff/B_Tenki_1_Name,Text,,,,天気 – 快晴,天气 - 快晴,
 Buff/B_Tenki_20_Description,Text,,,,,,
-Buff/B_Tenki_20_Name,Text,,,,,天气 - 梅雨,
+Buff/B_Tenki_20_Name,Text,,,,天気 – 梅雨,天气 - 梅雨,
 Buff/B_Tenki_2_Description,Text,,,,,,
-Buff/B_Tenki_2_Name,Text,,,,,天气 - 雾雨,
-Buff/B_Tenki_3_Description,Text,,,,,使手中最上方和最下方的技能的伤害量或治疗量提升6点。,
-Buff/B_Tenki_3_Name,Text,,,,,天气 - 云天,
-Buff/B_Tenki_4_Description,Text,,,,,本回合内每使用1个技能，获得“攻击力+1%、暴击率+1%、命中率+1%”。,
-Buff/B_Tenki_4_Name,Text,,,,,天气 - 苍天,
-Buff/B_Tenki_5_Name,Text,,,,,天气 - 雹,
-Buff/B_Tenki_6_Name,Text,,,,,天气 - 花云,
-Buff/B_Tenki_7_Description,Text,,,,,造成伤害的10%治疗自己。,
-Buff/B_Tenki_7_Name,Text,,,,,天气 - 浓雾,
+Buff/B_Tenki_2_Name,Text,,,,天気 – 霧雨,天气 - 雾雨,
+Buff/B_Tenki_3_Description,Text,,,,手札の一番上と一番下のスキルのダメージ/回復量が6増加する。,使手中最上方和最下方的技能的伤害量或治疗量提升6点。,
+Buff/B_Tenki_3_Name,Text,,,,天気 – 曇天,天气 - 云天,
+Buff/B_Tenki_4_Description,Text,,,,このターン中に使用したスキル1枚ごとに、攻撃力、 クリティカル率、命中率が1%増加する。,本回合内每使用1个技能，获得“攻击力+1%、暴击率+1%、命中率+1%”。,
+Buff/B_Tenki_4_Name,Text,,,,天気 – 蒼天,天气 - 苍天,
+Buff/B_Tenki_5_Name,Text,,,,天気 – 雹,天气 - 雹,
+Buff/B_Tenki_6_Name,Text,,,,天気 – 花曇,天气 - 花云,
+Buff/B_Tenki_7_Description,Text,,,,自身を与えたダメージの10%で回復する。,造成伤害的10%治疗自己。,
+Buff/B_Tenki_7_Name,Text,,,,天気 – 濃霧,天气 - 浓雾,
 Buff/B_Tenki_8_Description,Text,,,,,,
-Buff/B_Tenki_8_Name,Text,,,,,天气 - 雪,
-Buff/B_Tenki_9_Description,Text,,,,,使固定技能附带基本功。,
-Buff/B_Tenki_9_Name,Text,,,,,天气 - 太阳雨,
+Buff/B_Tenki_8_Name,Text,,,,天気 – 雪,天气 - 雪,
+Buff/B_Tenki_9_Description,Text,,,,固定能力に基本を与える。,使固定技能附带基本功。,
+Buff/B_Tenki_9_Name,Text,,,,天気 – 天気雨,天气 - 太阳雨,
 Buff/B_Tenshi_1_Description,Text,,,,,,
-Buff/B_Tenshi_1_Name,Text,,,,,<color=#97FFFF>气质</color>显现,
-Buff/B_Tenshi_4_Description,Text,,,,,下个回合开始时，展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。,
-Buff/B_Tenshi_4_Name,Text,,,,,气候操纵,
-Buff/B_Tenshi_7_Name,Text,,,,,无念无想,
+Buff/B_Tenshi_1_Name,Text,,,,<color=#97FFFF>気質</color>顕現,<color=#97FFFF>气质</color>显现,
+Buff/B_Tenshi_4_Description,Text,,,,次のターン開始時、すべての<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>が提示され、1つ選んでそれを得る。,下个回合开始时，展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。,
+Buff/B_Tenshi_4_Name,Text,,,,天候操作,气候操纵,
+Buff/B_Tenshi_7_Name,Text,,,,無念無想,无念无想,
 Buff/B_Tenshi_8_Description,Text,,,,,,
-Buff/B_Tenshi_8_Name,Text,,,,,气焰万丈,
-Buff/B_Tenshi_LucyD_Description,Text,,,,,获得增益时抽取1个技能（最多触发4次）。,
-Buff/B_Tenshi_LucyD_Name,Text,,,,,勇气凛凛,
-Buff/B_Tenshi_P_Description,Text,,,,,当前拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>：&a,
-Buff/B_Tenshi_P_Name,Text,,,,,天人之体,
-Buff/B_Tenshi_Rare_3_1_Description,Text,,,,,每个回合开始时，为所有友军施加随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。,
-Buff/B_Tenshi_Rare_3_1_Name,Text,,,,,绯想天,
-Buff/B_Tenshi_Rare_3_Description,Text,,,,,手中的技能附加迅速。,
-Buff/B_Tenshi_Rare_3_Name,Text,,,,,天气 - 绯想天,
-Character/HinanawiTenshi_CampSelectWord,Text,,,,,吾乃天！幻想之天！,
-Character/HinanawiTenshi_PassiveDes,Text,,,,,"<b>幼小的有顶天</b> - 当自己身上没有减益效果时，造成的伤害提升10%。
+Buff/B_Tenshi_8_Name,Text,,,,気炎万丈,气焰万丈,
+Buff/B_Tenshi_LucyD_Description,Text,,,,バフを得るたび、スキルを1枚引く。(最大で4枚),获得增益时抽取1个技能（最多触发4次）。,
+Buff/B_Tenshi_LucyD_Name,Text,,,,勇気凛々,勇气凛凛,
+Buff/B_Tenshi_P_Description,Text,,,,現在の<color=#97FFFF>気質</color>：&a,当前拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>：&a,
+Buff/B_Tenshi_P_Name,Text,,,,天人の体,天人之体,
+Buff/B_Tenshi_Rare_3_1_Description,Text,,,,毎ターン開始時、すべての味方にランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を与える。,每个回合开始时，为所有友军施加随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。,
+Buff/B_Tenshi_Rare_3_1_Name,Text,,,,緋想天,绯想天,
+Buff/B_Tenshi_Rare_3_Description,Text,,,,手札にあるスキルに迅速を与える。,手中的技能附加迅速。,
+Buff/B_Tenshi_Rare_3_Name,Text,,,,天気 – 緋想天,天气 - 绯想天,
+Buff/Boss_B_Tenshi_0_Description,Text,,,,,,
+Buff/Boss_B_Tenshi_0_Name,Text,,,,気炎万丈,气焰万丈,
+Buff/Boss_B_Tenshi_4_Name,Text,,,,無念無想,无念无想,
+Buff/Boss_B_Tenshi_P_Description,Text,,,,"2ターン以上の持続時間を持つデバフを得たとき、その持続時間を1ターン短縮する。
+1回の攻撃で100以上のダメージを受けたとき、そのダメージは対数的に減少する。この効果が発動するたび、自身はランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を5つ得る。
+自身が<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を持たないとき、受けるダメージは90%減少する。
+即死効果を無効にする。","受到任何不小于2回合的减益效果时，该效果持续时间降低1回合。
+受到单次超过100的伤害时，该伤害以对数降低。每次触发这个效果时，自身获得5个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+当自身没有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，受到的伤害降低90%。
+免疫秒杀。",
+Buff/Boss_B_Tenshi_P_Name,Text,,,,天人の体,天人之体,
+Buff/Boss_B_Tenshi_Phase_1_Description,Text,,,,"ターン開始時、ランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を5つ得る。
+攻撃を受けたとき、攻撃者にランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ移す。
+所持する<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>の合計が20を超えたとき、天子は[天人之姿]を得る。","回合开始时，自身获得5个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+受到伤害时，将1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>转移至伤害来源。
+当同时拥有20个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>时，天子将进入天人姿态。",
+Buff/Boss_B_Tenshi_Phase_1_Name,Text,,,,霊想「大地を鎮める石」,灵想「镇守大地之石」,
+Buff/Boss_B_Tenshi_Phase_2_Description,Text,,,,"天子は<color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>権</color><color=#FFD700>能</color>を発動する。
+すべてのデバフレジストを持つ。
+毎ターン、行動回数が1増加する。
+<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>の持続時間を無限する。
+デッキをシャッフルするとき、スキルの枚数が20以上の場合、現在のターン数を1増加する。","天子解放<color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>权</color><color=#FFD700>能</color>。
+免疫所有减益。
+每回合行动次数+1。
+<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>的持续时间变为永久。
+在战斗中牌库洗牌时，若需要洗牌的技能数为20及以上，则使当前回合数+1。",
+Buff/Boss_B_Tenshi_Phase_2_Name,Text,,,,天人之姿,天人之姿,
+Character/HinanawiTenshi_CampSelectWord,Text,,,,私は天！幻想の天なり！,吾乃天！幻想之天！,
+Character/HinanawiTenshi_PassiveDes,Text,,,,"<b>幼心地の有頂天</b> – 自身がデバフを持たないとき、与えるダメージが10%増加する。
+
+<b>大地を操る程度の能力</b> – 自身にバフが与えられたとき、<color=#97FFFF>気質</color>を1ストック得る。
+
+<b>天人之姿</b> – 受けるダメージが1減少する。
+
+<b><color=#97FFFF>天啓X</color></b> – 自身が持つ<color=#97FFFF>気質</color>のストック数がX以上のとき、<color=#97FFFF>気質</color>のストックをX消費して、追加効果が発動する。
+
+<b><color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>権</color><color=#FFD700>能</color></b> – 比那名居天子はまだ修行中で、真の力を解放していない……","<b>幼小的有顶天</b> - 当自己身上没有减益效果时，造成的伤害提升10%。
 
 <b>操纵大地程度的能力</b> - 自身被施加增益效果时，比那名居天子会获得1点<color=#97FFFF><color=#97FFFF>气质</color></color>。
 
@@ -61,86 +97,175 @@ Character/HinanawiTenshi_PassiveDes,Text,,,,,"<b>幼小的有顶天</b> - 当自
 <b><color=#97FFFF>天启X</color></b> - 比那名居天子身上拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>超过X点时，释放技能会消耗X点<color=#97FFFF><color=#97FFFF>气质</color></color>，触发额外效果。
 
 <b><color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>权</color><color=#FFD700>能</color></b> - 比那名居天子仍然在修行之中，尚未解放真正的力量……",
-Character/HinanawiTenshi_PassiveName,Text,,,,,非想非非想天之女,
-Character/HinanawiTenshi_SelectInfo,Text,,,,,"比那名居天子是擅长调度增益的辅助型输出。
+Character/HinanawiTenshi_PassiveName,Text,,,,非想非非想天の娘,非想非非想天之女,
+Character/HinanawiTenshi_SelectInfo,Text,,,,"バフに特化したサポート型のアタッカーである。
+
+比那名居天子は天気を操る能力を持ち、スキルの使用により局所的に天気を変化させ、自身と味方にさまざまな恩恵をもたらす。 最終的に、天気の力を解き放ち、壊滅的な攻撃を与えることができる。
+
+天人の一振りで、大地は震える。この<color=#97FFFF>気質</color>こそ<color=#B22222>緋</color><color=#00BFFF>想</color><color=#00FF7F>開</color><color=#FFD700>天</color>！","比那名居天子是擅长调度增益的辅助型输出。
 
 比那名居天子拥有控制天气的能力，藉由施展技能，能够改变局部的天气，为自己和队友带来各种各样的增益效果。而在暖场结束后，比那名居天子可以释放全部的天气之力，带来毁灭性的攻击。
 
 天人一剑，大地震颤。以此<color=#97FFFF>气质</color>，<color=#B22222>绯</color><color=#00BFFF>想</color><color=#00FF7F>开</color><color=#FFD700>天</color>！",
-Character/HinanawiTenshi_name,Text,,,,,比那名居天子,
+Character/HinanawiTenshi_Text_Battle_Cri_0,Text,,,,地上の生き物と勝負になる筈が無いじゃない,地上那些生物怎么可能和我比嘛。,
+Character/HinanawiTenshi_Text_Battle_Cri_1,Text,,,,ま、手加減しなければこんなもんでしょう……,反正嘛，要是我不手下留情大概就是这么回事吧……,
+Character/HinanawiTenshi_Text_Battle_Cri_2,Text,,,,私の望み通り！,正如我愿！,
+Character/HinanawiTenshi_Text_Battle_Healed_0,Text,,,,そう、余程の事が無い限り負ける事は……余程の事がね。,没错，一般情况下我才不会输……一般情况下哦。,
+Character/HinanawiTenshi_Text_Battle_Idle_0,Text,,,,これからどうなるのかなぁ……,干点什么好呢。,
+Character/HinanawiTenshi_Text_Battle_Kill_0,Text,,,,天人はたまに地上に降りて忠言するものよね。,天人偶尔也会降落到地上给人们忠告呢。,
+Character/HinanawiTenshi_Text_Battle_Kill_1,Text,,,,でーもー、私には到底実行できない忠言ばかりねぇ。,不～过～，在我看来都是根本无法实行的忠告呢。,
+Character/HinanawiTenshi_Text_Battle_ND_0,Text,,,,え～水を入れすぎた？,诶~放水放过头了吗？,
+Character/HinanawiTenshi_Text_Battle_Start_0,Text,,,,もう、今日は連戦状態なんだけどまだまだ平気ね。もっとハンデでもあげた方が良かったかな？,唉，今天虽然是连战状态不过还可以继续呢。要不要再让你们点什么啊？,
+Character/HinanawiTenshi_Text_Battle_Start_1,Text,,,,じゃあ、私がこの緋色の剣で貴方の悩みをさらけ出させましょう！,那好，就用我的绯色之剑把你的烦恼全都释放出来吧！,
+Character/HinanawiTenshi_Text_Field_GetItem_0,Text,,,,これが宝物？倉庫にたくさんあるけど。,这也算宝物吗？我家的仓库里可是堆着一堆……,
+Character/HinanawiTenshi_Text_Field_Idle_0,Text,,,,あー、勉強はめんどくさいなぁ。,啊～，学习很让人厌烦呢。,
+Character/HinanawiTenshi_Text_Field_Idle_1,Text,,,,ところで、あなたも退屈しているなら、暇つぶしに付き合ってくれない？,对了，你要也是闲得无聊的话陪我一起打发时间吧？,
+Character/HinanawiTenshi_Text_MasterTarget,Text,,,,消滅......？まあ問題ないでしょう！いわゆる「消滅」が天人にどんな影響を与えるか見せてもらいましょう！,哈哈……消灭……？好啊，来啊！就让吾看看所谓“消灭”对吾这天人有何作用！,
+Character/HinanawiTenshi_Text_PharosLeader_0,Text,,,,いつも......頭がくらくらする......,总感觉……脑袋昏昏沉沉的……,
+Character/HinanawiTenshi_Text_PharosLeader_1,Text,,,,......うーん。萃香に酔わされたときと同じ感じがする...…,……唔唔。跟被萃香诱导那时一样的感觉啊……,
+Character/HinanawiTenshi_Text_PharosLeader_2,Text,,,,私は剣！私は天なり！,吾即剑！吾即天！,
+Character/HinanawiTenshi_Text_Witch_0,Text,,,,迷惑な呪い。ああ、私に任せなさい。,烦人的诅咒。唉，就尽管交给我吧。,
+Character/HinanawiTenshi_Text_Witch_1,Text,,,,くそっ...…全力を出せたら...…,可恶……要是我能发挥全部实力的话……,
+Character/HinanawiTenshi_UnlockString,Text,,,,白い墓地の「奇妙な博麗神社」イベントでボスの比那名居天子を倒す。,通过白色墓地的事件“奇怪的博丽神社”战胜Boss比那名居天子。,
+Character/HinanawiTenshi_name,Text,,,,比那名居天子,比那名居天子,
 Enemy/Boss_Tenshih_EnemyStory,Text,,,,,,
-Enemy/Boss_Tenshih_SubName,Text,,,,,非想非非想天之女,
-Enemy/Boss_Tenshih_name,Text,,,,,比那名居天子,
-Item_Equip/E_Tenshi_0_Description,Text,,,,,回合开始时，获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。,
-Item_Equip/E_Tenshi_0_name,Text,,,,,绯想之剑,
-Skill/S_Tenki_10_Name,Text,,,,,天气 - 疏雨,
+Enemy/Boss_Tenshih_SubName,Text,,,,非想非非想天の娘,非想非非想天之女,
+Enemy/Boss_Tenshih_name,Text,,,,比那名居天子,比那名居天子,
+Item_Equip/E_Tenshi_0_Description,Text,,,,ターン開始時、ランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を3つ得る。,回合开始时，获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。,
+Item_Equip/E_Tenshi_0_name,Text,,,,緋想の剣,绯想之剑,
+Item_Passive/R_Tenshi_0_Description,Text,,,,"味方が得た持続時間が2ターン以上あるバフの持続時間を1ターン延長する。
+味方が得た持続時間が2ターン以上あるデバフの持続時間を1ターン短縮する。","使调查员获得的不低于2回合的增益持续时间延长1回合；
+使调查员获得的不低于2回合的减益持续时间降低1回合。",
+Item_Passive/R_Tenshi_0_name,Text,,,,天空の要石,天空之要石,
+RandomEvent/RE_Tenshi_Boss_Desc,Text,,,,,,
+RandomEvent/RE_Tenshi_Boss_Desc_3Stage,Text,,,,"”博麗神社”に着いた......いや、”博麗神社”に似た場所としか言いようがない。 博麗神社がアークの中に存在するわけがないのだから、ここは一体何なのだろうか？ 
+ちょうどそんなことを考えていたとき、神社の鳥居の下に1人の少女が立っているのが見えた。
+—— 幻想郷のルールに従うなら、激戦は避けられないようだ。 ","你们来到了“博丽神社”……不，只能说形似“博丽神社”的地方。方舟中不可能真的存在博丽神社，那这里究竟是什么地方？
+就在你们思考的时候，在神社中看到了一位独自屹立在鸟居之下的少女。
+——按照幻想乡的默认规则，一场恶战看来是无法避免了。",
+RandomEvent/RE_Tenshi_Boss_EventDetails,Text,,,,"”博麗神社”に着いた......いや、”博麗神社”に似た場所としか言いようがない。 博麗神社がアークの中に存在するわけがないのだから、ここは一体何なのだろうか？ 
+ちょうどそんなことを考えていたとき、神社の鳥居の下に1人の少女が立っているのが見えた。
+—— 幻想郷のルールに従うなら、激戦は避けられないようだ。 ","你们来到了“博丽神社”……不，只能说形似“博丽神社”的地方。方舟中不可能真的存在博丽神社，那这里究竟是什么地方？
+就在你们思考的时候，在神社中看到了一位独自屹立在鸟居之下的少女。
+——按照幻想乡的默认规则，一场恶战看来是无法避免了。",
+RandomEvent/RE_Tenshi_Boss_Name,Text,,,,奇妙な博麗神社,奇怪的博丽神社,
+RandomEvent/RE_Tenshi_Boss_OrderStrings_0,Text,,,,天子は神社を去った。ここには何も残っていない。,天子离开了神社。此处已经没有东西了。,
+RandomEvent/RE_Tenshi_Boss_UseButtonTooltip_0,Text,,,,イベントボス「比那名居天子」と戦う。,迎战事件Boss“比那名居天子”。,
+RandomEvent/RE_Tenshi_Boss_UseButton_0,Text,,,,戦闘開始！,与之一战！,
+Skill/Boss_S_Tenshi_0_Name,Text,,,,剣技「気炎万丈の剣」,剑技「气焰万丈之剑」,
+Skill/Boss_S_Tenshi_1_Description,Text,,,,"攻撃後に対象が瀕死状態でない場合、1回繰り返し発動する。
+命中するたび、ランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ得る。","攻击后，若目标不是濒死状态，则再次攻击目标。
+每次命中获得1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+Skill/Boss_S_Tenshi_1_Name,Text,,,,地符「不譲土壌の剣」,地符「不让土壤之剑」,
+Skill/Boss_S_Tenshi_2_Description,Text,,,,"最も多くのバフを持つ味方を対象とする。
+対象が持つバフ1つにつき、このスキルのダメージが1.1倍になる。
+対象が持つすべてのバフの持続時間を1ターン短縮する。","指向持有最多增益的调查员。
+目标身上每持有1个增益，这个技能的伤害提升1.1倍。
+使目标持有的所有增益减少1回合持续时间。",
+Skill/Boss_S_Tenshi_2_Name,Text,,,,非想「非想非非想の剣」,非想「非想非非想之剑」,
+Skill/Boss_S_Tenshi_3_Description,Text,,,,命中するたび、ランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ得る。,每次命中获得1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。,
+Skill/Boss_S_Tenshi_3_Name,Text,,,,天気「緋想天促」,天气「绯想天促」,
+Skill/Boss_S_Tenshi_4_Description,Text,,,,"自身が持つ衰弱デバフと苦痛デバフをすべて除去する。
+除去したデバフの数に等しい数の<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を得る。","解除自己持有的痛苦、弱化减益。
+依据解除的减益数量，获得等量的<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
+Skill/Boss_S_Tenshi_4_Name,Text,,,,気符「無念無想の境地」,气符「无念无想的境界」,
+Skill/Boss_S_Tenshi_5_Description,Text,,,,すべてのスキルを捨てる。 捨てた枚数に等しい枚数スキルを引く。,丢弃所有技能。抽取等量的技能。,
+Skill/Boss_S_Tenshi_5_Name,Text,,,,「全人類の緋想天」,「全人类的绯想天」,
+Skill/S_Tenki_10_Name,Text,,,,天気 – 疎雨,天气 - 疏雨,
 Skill/S_Tenki_11_Description,Text,,,,,,
-Skill/S_Tenki_11_Name,Text,,,,,天气 - 风雨,
-Skill/S_Tenki_12_Name,Text,,,,,天气 - 晴岚,
-Skill/S_Tenki_13_Name,Text,,,,,天气 - 川雾,
-Skill/S_Tenki_14_Name,Text,,,,,天气 - 台风,
-Skill/S_Tenki_15_Name,Text,,,,,天气 - 极光,
+Skill/S_Tenki_11_Name,Text,,,,天気 – 風雨,天气 - 风雨,
+Skill/S_Tenki_12_Name,Text,,,,天気 – 晴嵐,天气 - 晴岚,
+Skill/S_Tenki_13_Name,Text,,,,天気 – 川霧,天气 - 川雾,
+Skill/S_Tenki_14_Name,Text,,,,天気 – 台風,天气 - 台风,
+Skill/S_Tenki_15_Name,Text,,,,天気 – 極光,天气 - 极光,
 Skill/S_Tenki_16_Description,Text,,,,,,
-Skill/S_Tenki_16_Name,Text,,,,,天气 - 凪,
-Skill/S_Tenki_17_Name,Text,,,,,天气 - 钻石尘,
-Skill/S_Tenki_18_Name,Text,,,,,天气 - 黄沙,
-Skill/S_Tenki_19_Name,Text,,,,,天气 - 烈日,
-Skill/S_Tenki_1_Name,Text,,,,,天气 - 快晴,
-Skill/S_Tenki_20_Name,Text,,,,,天气 - 梅雨,
-Skill/S_Tenki_2_Name,Text,,,,,天气 - 雾雨,
-Skill/S_Tenki_3_Name,Text,,,,,天气 - 云天,
-Skill/S_Tenki_4_Name,Text,,,,,天气 - 苍天,
-Skill/S_Tenki_5_Name,Text,,,,,天气 - 雹,
+Skill/S_Tenki_16_Name,Text,,,,天気 – 凪,天气 - 凪,
+Skill/S_Tenki_17_Name,Text,,,,天気 – ダイヤモンドダスト,天气 - 钻石尘,
+Skill/S_Tenki_18_Name,Text,,,,天気 – 黄砂,天气 - 黄沙,
+Skill/S_Tenki_19_Name,Text,,,,天気 – 烈日,天气 - 烈日,
+Skill/S_Tenki_1_Name,Text,,,,天気 – 快晴,天气 - 快晴,
+Skill/S_Tenki_20_Name,Text,,,,天気 – 梅雨,天气 - 梅雨,
+Skill/S_Tenki_2_Name,Text,,,,天気 – 霧雨,天气 - 雾雨,
+Skill/S_Tenki_3_Name,Text,,,,天気 – 曇天,天气 - 云天,
+Skill/S_Tenki_4_Name,Text,,,,天気 – 蒼天,天气 - 苍天,
+Skill/S_Tenki_5_Name,Text,,,,天気 – 雹,天气 - 雹,
 Skill/S_Tenki_6_Description,Text,,,,,,
-Skill/S_Tenki_6_Name,Text,,,,,天气 - 花云,
-Skill/S_Tenki_7_Name,Text,,,,,天气 - 浓雾,
-Skill/S_Tenki_8_Name,Text,,,,,天气 - 雪,
-Skill/S_Tenki_9_Name,Text,,,,,天气 - 太阳雨,
-Skill/S_Tenshi_0_Description,Text,,,,,"自身获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+Skill/S_Tenki_6_Name,Text,,,,天気 – 花曇,天气 - 花云,
+Skill/S_Tenki_7_Name,Text,,,,天気 – 濃霧,天气 - 浓雾,
+Skill/S_Tenki_8_Name,Text,,,,天気 – 雪,天气 - 雪,
+Skill/S_Tenki_9_Name,Text,,,,天気 – 天気雨,天气 - 太阳雨,
+Skill/S_Tenshi_0_Description,Text,,,,"自身にランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を3つ与える。
+
+<color=#97FFFF>天启8</color> – すべての味方にランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を3つ与える。","自身获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 
 <color=#97FFFF>天启8</color> - 使所有队友获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
-Skill/S_Tenshi_0_Name,Text,,,,,天符「天道是非之剑」,
-Skill/S_Tenshi_1_Description,Text,,,,,"如果自己身上有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，消耗1个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，使目标获得“受到伤害量+15%”，持续3回合。
+Skill/S_Tenshi_0_Name,Text,,,,天符「天道是非の剣」,天符「天道是非之剑」,
+Skill/S_Tenshi_1_Description,Text,,,,"自身が<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を持つ場合、<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ消費して対象に「3ターンの間、受けるダメージが15%増加するを」与える。
+
+<color=#97FFFF>天啓5</color> – 1回繰り返し発動する。","如果自己身上有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，消耗1个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，使目标获得“受到伤害量+15%”，持续3回合。
 
 <color=#97FFFF>天启5</color> - 重复释放1次。",
-Skill/S_Tenshi_1_Name,Text,,,,,地符「不让土壤之剑」,
-Skill/S_Tenshi_2_Description,Text,,,,,"消耗自身所有<color=#97FFFF>气质</color>。每点消耗的<color=#97FFFF>气质</color>使这个技能造成的伤害提升1.1倍。
+Skill/S_Tenshi_1_Name,Text,,,,地符「不譲土壌の剣」,地符「不让土壤之剑」,
+Skill/S_Tenshi_2_Description,Text,,,,"自身が持つ<color=#97FFFF>気質</color>をすべて消費する。消費した<color=#97FFFF>気質</color>のストック1ごとに、このスキルのダメージは1.1倍になる。
+現在の倍率：&a
+現在与えるダメージ：&b","消耗自身所有<color=#97FFFF>气质</color>。每点消耗的<color=#97FFFF>气质</color>使这个技能造成的伤害提升1.1倍。
 当前提升的倍数为：&a
 当前造成的伤害为：&b",
-Skill/S_Tenshi_2_Name,Text,,,,,非想「非想非非想之剑」,
-Skill/S_Tenshi_3_Description,Text,,,,,"同时对目标左右的单位释放，造成一半的伤害。
+Skill/S_Tenshi_2_Name,Text,,,,非想「非想非非想の剣」,非想「非想非非想之剑」,
+Skill/S_Tenshi_3_Description,Text,,,,"対象の左右の敵を半分のダメージで同時に攻撃する。
+命中時、自身にランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。
+
+<color=#97FFFF>天啓7</color> – 敵が1体以上いる場合、対象をすべての敵に変更する。","同时对目标左右的单位释放，造成一半的伤害。
 命中时，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 
 <color=#97FFFF>天启7</color> - 如果场上的敌人数量大于1，改为指向“所有敌人”。",
-Skill/S_Tenshi_3_Name,Text,,,,,天气「绯想天促」,
-Skill/S_Tenshi_4_Description,Text,,,,,"展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。
+Skill/S_Tenshi_3_Name,Text,,,,天気「緋想天促」,天气「绯想天促」,
+Skill/S_Tenshi_4_Description,Text,,,,"すべての<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>が提示され、1つ選んで得る。
+
+<color=#97FFFF>天啓4</color> – 次のターン開始、すべての<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>が提示され、1つ選んで得る。","展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。
 
 <color=#97FFFF>天启4</color> - 下个回合开始时，展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。",
-Skill/S_Tenshi_4_Name,Text,,,,,气符「天启气象之剑」,
-Skill/S_Tenshi_5_Description,Text,,,,,"施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+Skill/S_Tenshi_4_Name,Text,,,,気符「天啓気象の剣」,气符「天启气象之剑」,
+Skill/S_Tenshi_5_Description,Text,,,,"ランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。
+自身が<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を持つ場合、<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ消費し、さらにランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。
+
+<color=#97FFFF>天啓1</color> – さらにランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。","施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 如果自己身上有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，消耗1个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 
 <color=#97FFFF>天启1</color> - 额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
-Skill/S_Tenshi_5_Name,Text,,,,,要石「天空之灵石」,
-Skill/S_Tenshi_6_Description,Text,,,,,"依据自身持有的增益数量，每个提升10%暴击率。
+Skill/S_Tenshi_5_Name,Text,,,,要石「天空の霊石」,要石「天空之灵石」,
+Skill/S_Tenshi_6_Description,Text,,,,"自身が持つバフ1つにつき、クリティカル率が10%増加する。
+
+<color=#97FFFF>天啓6</color> – &a<color=#FF7A33>(攻撃力の70%)</color>のダメージを追加で与える。","依据自身持有的增益数量，每个提升10%暴击率。
 
 <color=#97FFFF>天启6</color> - 额外造成&a点伤害<color=#FF7A33>(攻击力的70%)</color>。",
-Skill/S_Tenshi_6_Name,Text,,,,,地符「一击震乾坤」,
-Skill/S_Tenshi_7_Description,Text,,,,,"依据自身持有的增益数量，获得那个数量的<color=#97FFFF>气质</color>。
+Skill/S_Tenshi_6_Name,Text,,,,地符「一撃震乾坤」,地符「一击震乾坤」,
+Skill/S_Tenshi_7_Description,Text,,,,"自身が持つバフの数に等しい数の<color=#97FFFF>気質</color>のストックを得る。
+
+<color=#97FFFF>天啓3</color> – 自身が持つ苦痛デバフと衰弱デバフを除去する。","依据自身持有的增益数量，获得那个数量的<color=#97FFFF>气质</color>。
 
 <color=#97FFFF>天启3</color> - 解除自己持有的痛苦、弱化减益。",
-Skill/S_Tenshi_7_Name,Text,,,,,气符「无念无想的境界」,
-Skill/S_Tenshi_8_Description,Text,,,,,<color=#97FFFF>天启2</color> - 将自己持有的所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>施加给其他队友。获得那个数量的<color=#97FFFF>气质</color>。,
-Skill/S_Tenshi_8_Name,Text,,,,,剑技「气焰万丈之剑」,
-Skill/S_Tenshi_LucyD_Name,Text,,,,,气性「勇气凛凛之剑」,
-Skill/S_Tenshi_Rare_1_Description,Text,,,,,"消耗所有<color=#97FFFF>气质</color>，每点消耗的<color=#97FFFF>气质</color>使这个技能向随机敌人重复释放 1 次。
+Skill/S_Tenshi_7_Name,Text,,,,気符「無念無想の境地」,气符「无念无想的境界」,
+Skill/S_Tenshi_8_Description,Text,,,,<color=#97FFFF>天啓2</color> – 自身が持つ<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>をすべて他の味方に与える。与えた数に等しい数の<color=#97FFFF>気質</color>のストックを得る。,<color=#97FFFF>天启2</color> - 将自己持有的所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>施加给其他队友。获得那个数量的<color=#97FFFF>气质</color>。,
+Skill/S_Tenshi_8_Name,Text,,,,剣技「気炎万丈の剣」,剑技「气焰万丈之剑」,
+Skill/S_Tenshi_LucyD_Name,Text,,,,気性「勇気凛々の剣」,气性「勇气凛凛之剑」,
+Skill/S_Tenshi_Rare_1_Description,Text,,,,"自身が持つ<color=#97FFFF>気質</color>をすべて消費する。消費した<color=#97FFFF>気質</color>のストック数に等しい回数、ランダムな敵に繰り返し発動する。
+繰り返し発動するたび、自身にランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。","消耗所有<color=#97FFFF>气质</color>，每点消耗的<color=#97FFFF>气质</color>使这个技能向随机敌人重复释放 1 次。
 每次释放，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
-Skill/S_Tenshi_Rare_1_Name,Text,,,,,「全人类的绯想天」,
-Skill/S_Tenshi_Rare_2_Description,Text,,,,,<color=#97FFFF>天启9</color> - 改为指向所有敌人。,
-Skill/S_Tenshi_Rare_2_Name,Text,,,,,地震「先忧后乐之剑」,
-Skill/S_Tenshi_Rare_3_Description,Text,,,,,战斗开始时，放在牌库最上方。,
-Skill/S_Tenshi_Rare_3_Name,Text,,,,,天地「俯瞰世界的遥远的大地啊」,
-Skill/S_Tenshi_Rare_4_Description,Text,,,,,"<color=#97FFFF>天启10</color> - 获得所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，并且持续时间变为永久。
+Skill/S_Tenshi_Rare_1_Name,Text,,,,「全人類の緋想天」,「全人类的绯想天」,
+Skill/S_Tenshi_Rare_2_Description,Text,,,,<color=#97FFFF>天启9</color> – 対象をすべての敵に変更する。,<color=#97FFFF>天启9</color> - 改为指向所有敌人。,
+Skill/S_Tenshi_Rare_2_Name,Text,,,,地震「先憂後楽の剣」,地震「先忧后乐之剑」,
+Skill/S_Tenshi_Rare_3_Description,Text,,,,戦闘開始時、デッキの一番上に置く。,战斗开始时，放在牌库最上方。,
+Skill/S_Tenshi_Rare_3_Name,Text,,,,天地「世界を見下ろす遥かなる大地よ」,天地「俯瞰世界的遥远的大地啊」,
+Skill/S_Tenshi_Rare_4_Description,Text,,,,"<color=#97FFFF>天啓10</color> – すべての<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を得て、その持続時間が無限になる。
+
+<color=#696969><i>一番星の下、神は無二たる啓示を与えた。
+再三再四と繰り返す人の業に、裁きでなく赦しを与えよ。
+彼女は頷き、天に己が五識を捧ぐと誓った。 
+この世は神が創りたもうた大きな双六。
+彼女は七光背負いし小さな駒。
+訪れる八災、試練、しかし瞬く導きの九曜星。
+全てを越えた旅の果て、彼女は十全なる権能を得る。</i></color>","<color=#97FFFF>天启10</color> - 获得所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，并且持续时间变为永久。
 
 <color=#696969><i>在第一颗星的下方，神给予了无二的启示。
 面对再三再四造下罪业的人类， 要予以宽恕而非制裁。
@@ -148,7 +273,12 @@ Skill/S_Tenshi_Rare_4_Description,Text,,,,,"<color=#97FFFF>天启10</color> - �
 这个世界是神所创造出的巨大双六棋盘，而她是背负着七丈光芒的一颗渺小棋子。
 当八灾与试炼降临之际，闪烁的九曜星将予以指引，
 克服旅途中的一切苦难后，她最终可得十全之权能。</i></color>",
-Skill/S_Tenshi_Rare_4_Name,Text,,,,,＊大气圈尽在吾之手中＊,
-SkillExtended/SE_Tenki_3_Name,Text,,,,,云天,
-SkillExtended/SE_Tenshi_Rare_3_Name,Text,,,,,绯想天,
-SkillExtended/SkillBase_Tenshi_Name,Text,,,,,天子基类,
+Skill/S_Tenshi_Rare_4_Name,Text,,,,＊大気圏は我が手中にあり＊,＊大气圈尽在吾之手中＊,
+SkillExtended/SE_Tenki_3_Name,Text,,,,曇天,云天,
+SkillExtended/SE_Tenshi_C_0_EnforceString,Text,,,,味方を対象とするスキル,指向队友,
+SkillExtended/SE_Tenshi_C_0_Name,Text,,,,コストが1減少し、対象にランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。,费用-1，使目标获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。,
+SkillExtended/SE_Tenshi_C_1_EnforceString,Text,,,,,,
+SkillExtended/SE_Tenshi_C_1_Name,Text,,,,引いたとき、元のコストに等しい数の<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を自身と比那名居天子に与える。,抽取到手中时，根据技能的费用，自身和比那名居天子获得相同数量的随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。,
+SkillExtended/SE_Tenshi_Rare_3_Name,Text,,,,緋想天,绯想天,
+SkillExtended/SkillBase_Tenshi_Name,Text,,,,天子の基本クラス,天子基类,
+UnlockWindow/Unlock_HinanawiTenshi_UnlockString,Text,,,,新しい仲間が使用可能になった！,새로운 파티원 사용가능!,

@@ -1,1 +1,7 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+S_YuyukoF_0_1/Text,Text,,,,,回合开始时，降低10%最大体力值。,
+S_YuyukoF_0_2/Text,Text,,,,,可以无视嘲讽状态被选中。,
+S_YuyukoF_P_1_1/Text,Text,,,,,"
+<i><color=red>场上已经有<color=#4876FF>幽冥蝶</color>了。</color></i>",
+S_YuyukoF_P_1_2/Text,Text,,,,,"
+<i><color=red>场上已经有<color=#FF69B4>人魂蝶</color>了。</color></i>",

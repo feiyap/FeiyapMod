@@ -1,0 +1,21 @@
+{
+    "S_YuyukoF_P_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/S_Hein_0",
+        "Target": "self",
+        "NotCount": true,
+        "Basic": true,
+        "Name": "<color=#4876FF>亡乡「亡我乡 -自尽-」</color>",
+        "Description": "立即获得100返魂值，并进入永眠状态。",
+        "UseAp": -1,
+        "Image_0": "S_YuyukoF_P_2\\S_YuyukoF_P_2_Image_0.png",
+        "Image_1": "S_YuyukoF_P_2\\S_YuyukoF_P_2_Image_1.png",
+        "Image_2": "S_YuyukoF_P_2\\S_YuyukoF_P_2_Image_2.png",
+        "Effect_Target": "SE_T_S_YuyukoF_P_2",
+        "NoDrop": true,
+        "SkillExtended": [
+            "Yuyuko.S_YuyukoF_P_2"
+        ]
+    }
+}

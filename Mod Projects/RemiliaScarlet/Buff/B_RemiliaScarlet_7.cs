@@ -30,7 +30,7 @@ namespace RemiliaScarlet
         {
             base.BuffStat();
 
-            PlusStat.atk = this.Usestate_F.GetStat.maxhp * 0.1f;
+            PlusStat.atk = 1 + this.Usestate_F.GetStat.maxhp * 0.05f;
         }
 
         public override string DescExtended()
@@ -42,7 +42,7 @@ namespace RemiliaScarlet
             }
 
             return this.BuffData.Description.Replace("&user", username)
-                                            .Replace("&a", (this.Usestate_F.GetStat.maxhp * 0.1f).ToString());
+                                            .Replace("&a", ((int)(1 + this.Usestate_F.GetStat.maxhp * 0.05f)).ToString());
         }
     }
 }

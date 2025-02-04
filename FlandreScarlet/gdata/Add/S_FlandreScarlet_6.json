@@ -5,7 +5,7 @@
         "Particle": "Particle/Joey/Joey_0",
         "Target": "ally",
         "Name": "禁弹「刻着过去的钟表」",
-        "Description": "受到&a(50%当前体力值)的痛苦伤害。",
+        "Description": "受到&a的<color=purple>痛苦伤害</color>(自身当前体力值的50%)。",
         "UseAp": 0,
         "User": "FlandreScarlet",
         "NotCount": true,
@@ -16,6 +16,7 @@
         "Disposable": false,
         "SkillExtended": [
             "FlandreScarlet.S_FlandreScarlet_6"
-        ]
+        ],
+        "IgnoreTaunt": false
     }
 }

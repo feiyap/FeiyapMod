@@ -9,7 +9,7 @@
         "Disposable": false,
         "NoBasicSkill": false,
         "Name": "禁忌「莱瓦汀」",
-        "Description": "使用此技能击杀后增加1%永久暴击率，回复2点法力值，这场战斗中无法再从技能中获得永久暴击率加成。\n\n禁忌 - 额外造成&a(75%)伤害，这个技能+10%暴击率。",
+        "Description": "使用此技能击杀后增加1%永久暴击率，回复2点法力值，这场战斗中无法再从技能中获得永久暴击率加成。\n\n<color=#B22222>复仇</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的75%)</color>，这个技能+10%暴击率。",
         "UseAp": 2,
         "User": "FlandreScarlet",
         "IgnoreTaunt": true,

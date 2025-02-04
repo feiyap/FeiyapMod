@@ -11,6 +11,7 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
+using BasicMethods;
 namespace IzayoiSakuya
 {
 	/// <summary>
@@ -54,6 +55,7 @@ namespace IzayoiSakuya
         public void SkillCasting(CastingSkill ThisSkill)
         {
             castTime = BattleSystem.instance.AllyTeam.TurnActionNum;
+            BasicMethods.CustomMethods.CountingSkillNotUseTurnEnd(ThisSkill, -1);
         }
 
         public override string DescExtended(string desc)

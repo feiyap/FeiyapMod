@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using I2.Loc;
 using ChronoArkMod;
+using ChronoArkMod.ModData.Settings;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using HarmonyLib;
@@ -14,6 +15,37 @@ using GameDataEditor;
 
 namespace HinanawiTenshi
 {
+    [HarmonyPatch(typeof(FieldEventSelect))]
+    [HarmonyPatch("FieldEventSelectOpen")]
+    public static class EventPlugin
+    {
+        // Token: 0x0600004E RID: 78 RVA: 0x000031EC File Offset: 0x000013EC
+        [HarmonyPrefix]
+        public static void FieldEventSelectOpen_patch(FieldEventSelect __instance, ref List<string> EventList)
+        {
+            bool flag = false;
+            bool flag2 = false;
+            for (int i = 0; i < PlayData.TSavedata.RandomEvent_ChooseEvents.Count; i++)
+            {
+                if (PlayData.TSavedata.RandomEvent_ChooseEvents[i] == "RE_Tenshi_Boss")
+                {
+                    flag = true;
+                }
+            }
+            foreach (string str in EventList)
+            {
+                if (str == "RE_Tenshi_Boss")
+                {
+                    flag2 = true;
+                }
+            }
+            if (PlayData.TSavedata.StageNum == 4 && ModManager.getModInfo("HinanawiTenshi").GetSetting<ToggleSetting>("HinanawiBoss_Event").Value && !flag && !flag2 && PlayData.SpalcialRule != GDEItemKeys.SpecialRule_SR_Solo)
+            {
+                EventList.Insert(0, "RE_Tenshi_Boss");
+            }
+        }
+    }
+
     [HarmonyPatch(typeof(BattleChar))]
     [HarmonyPatch("BuffAdd")]
     public static class BuffAdd_Plugin
@@ -27,8 +59,6 @@ namespace HinanawiTenshi
         public static bool BuffAdd_Prefix(ref Buff __result, BattleChar __instance, string key, BattleChar UseState, bool hide = false, int PlusTagPer = 0, bool debuffnonuser = false, int RemainTime = -1, bool StringHide = false)
         {
             GDEBuffData gdebuffData = new GDEBuffData(key);
-            Buff buff = Buff.DataToBuff(gdebuffData, __instance, UseState, RemainTime, false, 0);
-
             if (gdebuffData.BuffTag != null && gdebuffData.BuffTag.Key != "" && gdebuffData.BuffTag.Key != "null" && gdebuffData.Debuff)
             {
                 if (!(BattleSystem.instance == null) && __instance.BuffFind("Boss_B_Tenshi_Phase_2", false))

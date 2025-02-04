@@ -1,0 +1,2 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\szb_elena\Scripts\obj\Debug\szb_elena.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\szb_elena\Scripts\obj\Debug\szb_elena.csproj.CoreCompileInputs.cache

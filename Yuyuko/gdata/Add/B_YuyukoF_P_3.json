@@ -1,0 +1,11 @@
+{
+    "B_YuyukoF_P_3": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Yuyuko.B_YuyukoF_P_3",
+        "BuffTag": "null",
+        "Name": "<color=#8B008B>永眠</color>",
+        "Description": "当前<color=#FFB6C1>返魂值</color>为：<color=#FFB6C1>&a</color>",
+        "Icon": "B_YuyukoF_P_3\\B_YuyukoF_P_3_Icon.png"
+    }
+}

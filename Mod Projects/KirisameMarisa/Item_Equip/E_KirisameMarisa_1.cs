@@ -27,7 +27,7 @@ namespace KirisameMarisa
 
         public void BattleStart(BattleSystem Ins)
         {
-            if (this.BChar.Info.Equip[0].itemkey == "E_KirisameMarisa_1")
+            if (this.BChar.Info.Equip[0] != null && this.BChar.Info.Equip[0].itemkey == "E_KirisameMarisa_1")
             {
                 this.PlusStat.spd = 5;
             }

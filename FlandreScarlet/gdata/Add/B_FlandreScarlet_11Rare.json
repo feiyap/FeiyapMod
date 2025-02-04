@@ -4,7 +4,8 @@
         "ClassName": "FlandreScarlet.B_FlandreScarlet_11Rare",
         "BuffTag": "null",
         "Name": "禁忌孤独",
-        "Description": "所有技能都能触发[禁忌欲望]和[禁忌狂乱]的额外效果。受到伤害时，如果伤害超过&a(33%最大体力值)，降低至&a。",
-        "Icon": "B_FlandreScarlet_11Rare\\B_FlandreScarlet_11Rare_Icon.png"
+        "Description": "所有技能都能触发<color=#B22222>复仇</color>和<color=#9400D3>狂乱</color>的额外效果。\n受到伤害时，如果伤害超过&a(自身最大体力值的33%)，降低至&a。",
+        "Icon": "B_FlandreScarlet_11Rare\\B_FlandreScarlet_11Rare_Icon.png",
+        "Cantdisable": true
     }
 }

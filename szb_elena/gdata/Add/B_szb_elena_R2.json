@@ -1,0 +1,12 @@
+{
+    "B_szb_elena_R2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "szb_elena.B_szb_elena_R2",
+        "BuffTag": "null",
+        "Description": "回合结束时，恢复所有调查员&a体力(治疗力的80%)；当自己回复生命值时，对所有敌人造成&a伤害(攻击力的80%)，1回合最多触发10次。",
+        "Name": "贝勒罗芬",
+        "LifeTime": 3,
+        "Cantdisable": true,
+        "Icon": "B_szb_elena_R2\\B_szb_elena_R2_Icon.png"
+    }
+}

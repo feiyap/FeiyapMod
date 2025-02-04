@@ -1,0 +1,41 @@
+{
+    "S_YuyukoF_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_0",
+        "Target": "enemy",
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Name": "亡乡「亡我乡 -宿罪-」",
+        "Description": "增加20返魂值。\n\n华胥 - 超额治疗自己等量于“目标已损失的最大体力值的25%”的体力。\n葬送 - 亡者召还3。\n幽冥蝶 - 回合开始时，降低10%最大体力值。\n人魂蝶 - 可以无视嘲讽状态被选中。",
+        "User": "YuyukoF",
+        "UseAp": 1,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_YuyukoF_0",
+        "Image_0": "S_YuyukoF_0\\S_YuyukoF_0_Image_0.png",
+        "Image_1": "S_YuyukoF_0\\S_YuyukoF_0_Image_1.png",
+        "Image_2": "S_YuyukoF_0\\S_YuyukoF_0_Image_2.png",
+        "Basic": false,
+        "SkillExtended": [
+            "Yuyuko.S_YuyukoF_0"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "PlusKeyWords": [
+            "Keyword_Huaxu",
+            "Keyword_Ruin",
+            "Keyword_DeadRevive",
+            "Keyword_ButterflyM",
+            "Keyword_ButterflyR"
+        ]
+    }
+}

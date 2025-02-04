@@ -2,7 +2,9 @@
     "TestQueue": {
         "_gdeSchema": "EnemyQueue",
         "Enemys": [
-            "TrialofStrength_Enemy"
+            "S1_Pharos_Tanker",
+            "S1_Pharos_Tanker",
+            "S1_Pharos_Tanker"
         ]
     }
 }

@@ -14,8 +14,7 @@ namespace IzayoiSakuya
         public static string Buff_B_Sakuya_10Rare_0 = "B_Sakuya_10Rare_0";
 		/// <summary>
 		/// 完美女仆
-		/// 使手中最上方和最下方的技能获得迅速。
-		/// 每次打出手中持有者为自己的、最上方或最下方的技能，恢复1点法力值，抽取1个技能。
+		/// 倒计时期间，被动“操纵时间程度的能力”效果将不会发动；所有自己的技能变为0费，附加迅速、倒计时1，并且无法以任何方式抽取技能。
 		/// </summary>
         public static string Buff_B_Sakuya_12Rare = "B_Sakuya_12Rare";
 		/// <summary>

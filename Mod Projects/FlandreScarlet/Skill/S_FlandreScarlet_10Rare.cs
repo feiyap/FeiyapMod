@@ -32,22 +32,20 @@ namespace FlandreScarlet
         {
             useflag = true;
 
-            int num = 8;
+            int num = 10;
             int probability = 50;
 
             if (this.BChar.BuffFind("B_FlandreScarlet_P_V", false)
                 || this.BChar.BuffFind("B_FlandreScarlet_7", false)
                 || this.BChar.BuffFind("B_FlandreScarlet_11Rare", false))
             {
-                num += 4;
-                probability -= 20;
+                num += 10;
             }
 
-            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && this.BChar.BuffReturn("B_FlandreScarlet_P_K", false).StackNum >= 4)
+            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && BattleSystem.instance.GetBattleValue<BV_FlandreScarlet_K>().count >= 4)
                 || this.BChar.BuffFind("B_FlandreScarlet_11Rare", false))
             {
-                num += 4;
-                probability -= 20;
+                num += 10;
             }
 
             for (int i = 0; i < num; i++)
@@ -99,7 +97,7 @@ namespace FlandreScarlet
                 base.SkillParticleOn();
                 return;
             }
-            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && this.BChar.BuffReturn("B_FlandreScarlet_P_K", false).StackNum >= 4)
+            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && BattleSystem.instance.GetBattleValue<BV_FlandreScarlet_K>().count >= 4)
                 || this.BChar.BuffFind("B_FlandreScarlet_11Rare", false))
             {
                 base.SkillParticleOn();

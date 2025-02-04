@@ -1,0 +1,11 @@
+{
+    "B_szb_elena_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "狐耳神父",
+        "Tick": "SE_Tick_B_szb_elena_4",
+        "Cantdisable": true,
+        "Icon": "B_szb_elena_4\\B_szb_elena_4_Icon.png"
+    }
+}

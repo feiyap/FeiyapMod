@@ -23,6 +23,8 @@ namespace HinanawiTenshi
 	/// </summary>
     public class P_HinanawiTenshi:Passive_Char, IP_DamageChange, IP_BattleStart_Ones, IP_BuffAdd, IP_DamageTakeChange_sumoperation, IP_BattleEnd, IP_SkillUseHand_Team
     {
+        public bool isPerfect = false;
+
         public override void Init()
         {
             base.Init();
@@ -41,6 +43,7 @@ namespace HinanawiTenshi
         public void BattleStart(BattleSystem Ins)
         {
             this.BChar.BuffAdd("B_Tenshi_P", this.BChar);
+            isPerfect = false;
         }
 
         public void Buffadded(BattleChar BuffUser, BattleChar BuffTaker, Buff addedbuff)
@@ -71,10 +74,11 @@ namespace HinanawiTenshi
                 BattleSystem.instance.BattleValues.Add(new BV_Tenshi_P());
             }
 
-            if (BattleSystem.instance.GetBattleValue<BV_Tenshi_P>().list.Count >= 9)
+            if (BattleSystem.instance.GetBattleValue<BV_Tenshi_P>().list.Count >= 9 && !isPerfect)
             {
                 Skill tmpSkill = Skill.TempSkill("S_Tenshi_Rare_4", this.BChar, this.BChar.MyTeam);
                 BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
+                this.isPerfect = true;
             }
         }
 

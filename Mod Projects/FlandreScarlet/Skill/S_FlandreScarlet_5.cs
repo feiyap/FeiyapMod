@@ -45,7 +45,7 @@ namespace FlandreScarlet
 
             if (this.BChar.BuffFind("B_FlandreScarlet_P_K", false))
             {
-                int count = this.BChar.BuffReturn("B_FlandreScarlet_P_K", false).StackNum;
+                int count = BattleSystem.instance.GetBattleValue<BV_FlandreScarlet_K>().count;
                 for (int i = 0; i < count; i++)
                 {
                     int ran = RandomManager.RandomInt(this.BChar.GetRandomClass().Main, 1, 4);

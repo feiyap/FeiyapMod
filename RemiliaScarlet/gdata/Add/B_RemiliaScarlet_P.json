@@ -7,7 +7,7 @@
         "Description": "增加10%暴击率、命中率、闪避率。",
         "Icon": "B_RemiliaScarlet_P\\B_RemiliaScarlet_P_Icon.png",
         "Hide": true,
-        "IsFieldBuff": true,
+        "IsFieldBuff": false,
         "Cantdisable": true,
         "Debuff": false,
         "TagPer": 0,

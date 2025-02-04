@@ -1,0 +1,23 @@
+{
+    "S_szb_elena_R3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "NoBasicSkill": false,
+        "Name": "七宝石公主·索菲尔",
+        "UseAp": 2,
+        "User": "szb_elena",
+        "Description": "战斗开始时，放在牌库的最上方。",
+        "Effect_Target": "SE_T_S_szb_elena_R3",
+        "Disposable": true,
+        "SkillExtended": [
+            "szb_elena.S_szb_elena_R3"
+        ],
+        "Image_0": "S_szb_elena_R3\\S_szb_elena_R3_Image_0.png",
+        "Image_1": "S_szb_elena_R3\\S_szb_elena_R3_Image_1.png",
+        "Image_2": "S_szb_elena_R3\\S_szb_elena_R3_Image_2.png"
+    }
+}

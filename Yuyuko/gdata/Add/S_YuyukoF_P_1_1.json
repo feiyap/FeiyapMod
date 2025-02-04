@@ -1,0 +1,21 @@
+{
+    "S_YuyukoF_P_1_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_0",
+        "Target": "enemy",
+        "NotCount": false,
+        "NoDrop": true,
+        "Basic": false,
+        "Name": "转化<color=#4876FF>幽冥蝶</color>",
+        "Description": "将目标技能转化为<color=#4876FF>幽冥蝶</color>施加在任意敌人身上。&a",
+        "IgnoreTaunt": true,
+        "Image_0": "S_YuyukoF_P_1_1\\S_YuyukoF_P_1_1_Image_0.png",
+        "Image_1": "S_YuyukoF_P_1_1\\S_YuyukoF_P_1_1_Image_1.png",
+        "Image_2": "S_YuyukoF_P_1_1\\S_YuyukoF_P_1_1_Image_2.png",
+        "Effect_Target": "null",
+        "SkillExtended": [
+            "Yuyuko.S_YuyukoF_P_1_1"
+        ]
+    }
+}

@@ -45,7 +45,7 @@ namespace RemiliaScarlet
             }
 
             return this.BuffData.Description.Replace("&user", username)
-                                            .Replace("&a", (this.Usestate_F.GetStat.maxhp * 0.25f).ToString());
+                                            .Replace("&a", ((int)(this.Usestate_F.GetStat.maxhp * 0.25f)).ToString());
         }
     }
 }

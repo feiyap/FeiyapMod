@@ -1,0 +1,10 @@
+{
+    "S_szb_elena_R2_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Johan/Johan_P",
+        "Target": "enemy",
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_szb_elena_R2_0"
+    }
+}

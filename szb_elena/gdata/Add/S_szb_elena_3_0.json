@@ -1,0 +1,22 @@
+{
+    "S_szb_elena_3_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Horse",
+        "Target": "enemy",
+        "Name": "独角兽",
+        "UseAp": 1,
+        "NotCount": true,
+        "Except": true,
+        "Effect_Target": "SE_T_S_szb_elena_3_0",
+        "Description": "治疗自己和体力最低的调查员&a体力(治疗力的60%)。",
+        "SkillExtended": [
+            "szb_elena.S_szb_elena_3_0"
+        ],
+        "IgnoreTaunt": false,
+        "NoDrop": true,
+        "Image_0": "S_szb_elena_3_0\\S_szb_elena_3_0_Image_0.png",
+        "Image_1": "S_szb_elena_3_0\\S_szb_elena_3_0_Image_1.png",
+        "Image_2": "S_szb_elena_3_0\\S_szb_elena_3_0_Image_2.png"
+    }
+}

@@ -6,7 +6,7 @@
         "Target": "random_enemy",
         "NotCount": false,
         "Name": "秘弹「之后就一个人都没有了吗？」",
-        "Description": "对随机敌人或队友再次释放，重复8次。对队友的伤害减少75%，并转为痛苦伤害。\r\n\n禁忌 - 额外重复4次。降低随机到队友的几率。\n\r\n狂乱4 - 额外重复4次。降低随机到队友的几率。",
+        "Description": "对随机敌人或队友再次释放，重复10次。对队友的伤害减少75%，并转为<color=purple>痛苦伤害</color>。\n\n<color=#B22222>复仇</color> - 额外重复10次。\n\n<color=#9400D3>狂乱4</color> - 额外重复10次。",
         "UseAp": 3,
         "Rare": true,
         "User": "FlandreScarlet",
@@ -26,6 +26,13 @@
         "Except": false,
         "SkillExtended": [
             "FlandreScarlet.S_FlandreScarlet_10Rare"
-        ]
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

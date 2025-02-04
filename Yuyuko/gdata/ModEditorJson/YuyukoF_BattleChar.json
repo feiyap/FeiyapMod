@@ -4,16 +4,16 @@
     "myValues": {
         "path": "YuyukoF\\YuyukoFBattleChar.png",
         "offsetMax": {
-            "x": 370.172119,
-            "y": 327.8326
+            "x": 155.879608,
+            "y": 687.8944
         },
         "offsetMin": {
-            "x": -453.837952,
-            "y": -1124.16748
+            "x": -763.120361,
+            "y": -1303.10559
         },
         "pivot": {
-            "x": 0.5507675,
-            "y": 0.77422
+            "x": 0.8303813,
+            "y": 0.654498041
         }
     },
     "MyChangeType": "BattleChar",

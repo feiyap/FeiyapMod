@@ -8,7 +8,7 @@
         "Icon": "B_RemiliaScarlet_8\\B_RemiliaScarlet_8_Icon.png",
         "Description": "造成伤害时，将其中50%转化为<color=purple>痛苦伤害</color>。\n造成<color=purple>痛苦伤害</color>时，额外造成&a伤害(&user最大体力值的25%)。",
         "MaxStack": 0,
-        "LifeTime": 3,
+        "LifeTime": 2,
         "Cantdisable": false
     }
 }

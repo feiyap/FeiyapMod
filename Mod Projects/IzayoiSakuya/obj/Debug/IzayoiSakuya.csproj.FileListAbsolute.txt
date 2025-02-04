@@ -9,7 +9,11 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\De
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\Mono.Cecil.Rocks.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\MonoMod.RuntimeDetour.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\MonoMod.Utils.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya202512405146.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya202512405146.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya202512405146.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya202512405146.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya2025130210749.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya2025130210749.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\BasicMethods.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\EOS.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\DynamicEmitAPI.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\EOS.xml
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya2025130210749.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya2025130210749.pdb

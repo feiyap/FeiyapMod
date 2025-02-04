@@ -17,7 +17,7 @@ namespace RemiliaScarlet
 	/// 恶魔「Remilia Stretch」
 	/// 依据自身最大体力值，额外造成%a伤害。
 	/// </summary>
-    public class S_RemiliaScarlet_5:Skill_Extended, IP_SkillCastingStart
+    public class S_RemiliaScarlet_5:Skill_Extended, IP_SkillCastingStart, IP_SkillCastingQuit
     {
         public int PlusDmg
         {
@@ -59,7 +59,15 @@ namespace RemiliaScarlet
         {
             foreach (BattleChar bc in BattleSystem.instance.AllyList)
             {
-                bc.BuffAdd("B_RemiliaScarlet_5", this.BChar, false, 0, false, -1, false);
+                bc.BuffAdd("B_RemiliaScarlet_5", this.BChar, true, 0, false, -1, false);
+            }
+        }
+
+        public void SkillCastingQuit(CastingSkill ThisSkill)
+        {
+            foreach (BattleChar bc in BattleSystem.instance.AllyList)
+            {
+                bc.BuffReturn("B_RemiliaScarlet_5")?.SelfDestroy();
             }
         }
 

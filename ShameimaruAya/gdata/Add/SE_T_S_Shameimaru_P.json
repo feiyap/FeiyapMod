@@ -2,7 +2,7 @@
     "SE_T_S_Shameimaru_P": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 0,
+        "DMG_Per": 10,
         "DMG_Base": 3,
         "HEAL_MaxHpPer": 0,
         "HEAL_Per": 0,

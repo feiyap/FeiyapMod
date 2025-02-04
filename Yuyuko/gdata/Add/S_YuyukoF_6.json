@@ -1,0 +1,16 @@
+{
+    "S_YuyukoF_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "樱符「完全墨染的樱花」",
+        "Description": "增加20返魂值。\n\n唤魂4 - 亡者召还0。\n华胥 - 改为减少20返魂值。\n幽冥蝶 - 回引时，在手中生成1个“樱符「完全墨染的樱花」”。\n人魂蝶 - 回引时，在手中生成1个“樱符「完全墨染的樱花」”。",
+        "User": "YuyukoF",
+        "Disposable": true,
+        "Image_0": "S_YuyukoF_6\\S_YuyukoF_6_Image_0.png",
+        "Image_1": "S_YuyukoF_6\\S_YuyukoF_6_Image_1.png",
+        "Image_2": "S_YuyukoF_6\\S_YuyukoF_6_Image_2.png"
+    }
+}

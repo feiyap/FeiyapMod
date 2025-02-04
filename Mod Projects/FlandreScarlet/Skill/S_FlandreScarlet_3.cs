@@ -49,7 +49,7 @@ namespace FlandreScarlet
             base.SkillUseSingle(SkillD, Targets);
             useflag = true;
             
-            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && this.BChar.BuffReturn("B_FlandreScarlet_P_K", false).StackNum >= 2)
+            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && BattleSystem.instance.GetBattleValue<BV_FlandreScarlet_K>().count >= 2)
                 || this.BChar.BuffFind("B_FlandreScarlet_11Rare", false))
             {
                 Skill skill = Skill.TempSkill("S_FlandreScarlet_3_0", this.BChar, null);
@@ -72,7 +72,7 @@ namespace FlandreScarlet
             }
             base.FixedUpdate();
 
-            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && this.BChar.BuffReturn("B_FlandreScarlet_P_K", false).StackNum >= 2)
+            if ((this.BChar.BuffFind("B_FlandreScarlet_P_K", false) && BattleSystem.instance.GetBattleValue<BV_FlandreScarlet_K>().count >= 2)
                 || this.BChar.BuffFind("B_FlandreScarlet_11Rare", false))
             {
                 base.SkillParticleOn();

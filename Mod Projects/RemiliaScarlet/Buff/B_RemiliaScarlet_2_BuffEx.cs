@@ -23,7 +23,7 @@ namespace RemiliaScarlet
         {
             base.BuffStat();
             
-            base.PlusDamageTick = (int)(((base.MainBuff.BuffData.Tick.DMG_Per * base.MainBuff.Usestate_L.GetStat.atk / 100) + base.MainBuff.BuffData.Tick.DMG_Base) * 0.33f * base.MainBuff.StackNum);
+            base.PlusDamageTick = (int)(((base.MainBuff.BuffData.Tick.DMG_Per * base.MainBuff.Usestate_L.GetStat.atk / 100) + base.MainBuff.BuffData.Tick.DMG_Base) * 0.33f);
         }
     }
 }

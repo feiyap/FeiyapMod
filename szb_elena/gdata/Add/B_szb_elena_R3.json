@@ -1,0 +1,12 @@
+{
+    "B_szb_elena_R3": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "szb_elena.B_szb_elena_R3",
+        "BuffTag": "null",
+        "Name": "七宝石公主",
+        "Tick": "null",
+        "Description": "回合结束时，恢复&a体力(最大体力值的25%)。",
+        "Icon": "B_szb_elena_R3\\B_szb_elena_R3_Icon.png"
+    }
+}

@@ -4,7 +4,7 @@
     "Visibility": "Public",
     "Title": "【CN/JP/EN/KR】十六夜咲夜 ~ 东方红魔乡",
     "Author": "绯夜氏",
-    "Version": "v3.0",
+    "Version": "v3.1",
     "Cover": "IzayoiSakuyaCover.png",
     "TagList": [
         "Characters"
@@ -14,6 +14,6 @@
     ],
     "WorkShopId": "3258003057",
     "Description": "十六夜咲夜是玩弄手牌与时间的魔术师。\r\n当手牌在最顶上或最底下能够触发额外效果，能够使用技能灵活变换手牌的位置。\r\n当通过这种方法积攒足够资源后，还能够停止敌人的时间。\r\n\r\n包含1个角色。拥有9个基础技能，3个稀有技能，1个露西技能。\r\n包含1件紫色装备。\r\n\r\n翻译/translation：\r\nCN：绯夜氏(Feiyap)\r\nEN：绯夜氏(Feiyap)\r\nJP：Testament1234\r\nKR：IGAYI",
-    "ChangeNote": "2024/1/12\nv3.0\n重做十六夜咲夜的大部分技能。\r\n ",
+    "ChangeNote": "2024/2/1\nv3.1\n修复了遗物[自动扫地机]失效的问题。",
     "OnlyUploadFiles": true
 }

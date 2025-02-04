@@ -20,7 +20,7 @@ namespace RemiliaScarlet
         public static string Buff_B_RemiliaScarlet_3 = "B_RemiliaScarlet_3";
 		/// <summary>
 		/// 绯月女皇
-		/// 场上每有1层痛苦减益，这个增益获得“暴击率+5%，受到治疗量+5%”。
+		/// 场上每有1个痛苦减益，这个增益获得“暴击率+5%，受到治疗量+5%”。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_3_0 = "B_RemiliaScarlet_3_0";
 		/// <summary>
@@ -44,7 +44,7 @@ namespace RemiliaScarlet
         public static string Buff_B_RemiliaScarlet_6 = "B_RemiliaScarlet_6";
 		/// <summary>
 		/// 狂血之吻
-		/// 攻击力提升&a点(&user最大体力值的10%)。
+		/// 攻击力提升&a点(1+&user最大体力值的5%)。
 		/// </summary>
         public static string Buff_B_RemiliaScarlet_7 = "B_RemiliaScarlet_7";
 		/// <summary>
@@ -78,6 +78,7 @@ namespace RemiliaScarlet
         public static string Character_RemiliaScarlet = "RemiliaScarlet";
         public static string Character_Skin_RemiliaScarletEclipse = "RemiliaScarletEclipse";
         public static string Character_Skin_RemiliaScarletLord = "RemiliaScarletLord";
+        public static string Character_Skin_RemiliaScarletSpring = "RemiliaScarletSpring";
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Hein = "CampDial_RemiliaScarlet_Hein";
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Joey = "CampDial_RemiliaScarlet_Joey";
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Sizz = "CampDial_RemiliaScarlet_Sizz";

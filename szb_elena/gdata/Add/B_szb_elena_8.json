@@ -1,0 +1,17 @@
+{
+    "B_szb_elena_8": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "szb_elena.B_szb_elena_8",
+        "BuffTag": "null",
+        "Name": "洁净领域",
+        "LifeTime": 0,
+        "MaxStack": 5,
+        "Description": "当自己回复生命值时，如果该回复为自己本回合中的第1次，则会对随机敌人造成&a伤害<color=#FF7A33>(攻击力的100%)</color>；\r\n如果为第2次，则会将1个0费的“圣炎猛虎”加入手中；\r\n如果为第3次，则会使随机1个队友无敌1回合。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_szb_elena_8\\B_szb_elena_8_Icon.png"
+    }
+}

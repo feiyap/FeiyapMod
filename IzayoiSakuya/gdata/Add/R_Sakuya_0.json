@@ -5,6 +5,7 @@
         "Description": "装备时，移除所有露西诅咒技能。",
         "image": "Item\\R_Sakuya_0_image.png",
         "Unchangeable": true,
-        "LastBattleNoDrop": true
+        "LastBattleNoDrop": true,
+        "passive_script": "IzayoiSakuya.R_Sakuya_0"
     }
 }

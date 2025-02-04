@@ -1,0 +1,7 @@
+{
+    "Keyword_DeadRevive": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "<color=#CAE1FF><b>亡者召还X</b></color>",
+        "Desc": "从放逐牌库中、费用不超过X的技能中，将随机1个费用最高的技能拿回手中（持有者不为自己的一次性技能除外）。"
+    }
+}

@@ -68,6 +68,21 @@ namespace Suwako
 		/// </summary>
         public static string Character_Suwako = "Suwako";
         public static string Character_Skin_SuwakoEclips = "SuwakoEclips";
+        public static string SimpleCampDialogue_CampDial_Suwako_HakureiReimu = "CampDial_Suwako_HakureiReimu";
+        public static string SimpleCampDialogue_CampDial_Suwako_RemiliaScarlet = "CampDial_Suwako_RemiliaScarlet";
+        public static string SimpleCampDialogue_CampDial_Suwako_IzayoiSakuya = "CampDial_Suwako_IzayoiSakuya";
+        public static string SimpleCampDialogue_CampDial_Suwako_FlandreScarlet = "CampDial_Suwako_FlandreScarlet";
+        public static string SimpleCampDialogue_CampDial_Suwako_SatsukiRin = "CampDial_Suwako_SatsukiRin";
+        public static string SimpleCampDialogue_CampDial_Suwako_Mokou = "CampDial_Suwako_Mokou";
+        public static string SimpleCampDialogue_CampDial_Suwako_Youmu = "CampDial_Suwako_Youmu";
+        public static string SimpleCampDialogue_CampDial_Suwako_TouhouAlice = "CampDial_Suwako_TouhouAlice";
+        public static string SimpleCampDialogue_CampDial_Suwako_Reisen = "CampDial_Suwako_Reisen";
+        public static string SimpleCampDialogue_CampDial_Suwako_Eirin = "CampDial_Suwako_Eirin";
+        public static string SimpleCampDialogue_CampDial_Suwako_HouraisanKaguya = "CampDial_Suwako_HouraisanKaguya";
+        public static string SimpleCampDialogue_CampDial_Suwako_Inaba = "CampDial_Suwako_Inaba";
+        public static string SimpleCampDialogue_CampDial_Suwako_KochiyaSanae = "CampDial_Suwako_KochiyaSanae";
+        public static string SimpleCampDialogue_CampDial_Suwako_Cirno = "CampDial_Suwako_Cirno";
+        public static string SimpleCampDialogue_CampDial_Suwako_Daiyousei = "CampDial_Suwako_Daiyousei";
 		/// <summary>
 		/// 风灵
 		/// 指向敌人时，造成&a(40%)伤害。指向友军时，恢复&b(65%)体力。
@@ -115,6 +130,12 @@ namespace Suwako
 		/// <color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。
 		/// </summary>
         public static string Skill_S_Suwako_6 = "S_Suwako_6";
+		/// <summary>
+		/// 土著神「洩矢神」
+		/// 将手中最上方的技能放回牌库，抽取1个技能。
+		/// <color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。
+		/// </summary>
+        public static string Skill_S_Suwako_6_0 = "S_Suwako_6_0";
 		/// <summary>
 		/// 土著神「七石七木」
 		/// 生成1个[风灵]和1个[南风灵]。
@@ -178,12 +199,6 @@ namespace Suwako
 		/// 蛙符「涂有鲜血的赤蛙塚」
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3_3 = "S_Suwako_Rare_3_3";
-		/// <summary>
-		/// 土著神「洩矢神」
-		/// 将手中最上方的技能放回牌库，抽取1个技能。
-		/// <color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。
-		/// </summary>
-        public static string Skill_S_Suwako_6_0 = "S_Suwako_6_0";
 
     }
 

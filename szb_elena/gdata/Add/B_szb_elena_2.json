@@ -1,0 +1,17 @@
+{
+    "B_szb_elena_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "szb_elena.B_szb_elena_2",
+        "BuffTag": "null",
+        "LifeTime": 1,
+        "MaxStack": 5,
+        "Name": "圣弓使役",
+        "Description": "当自己回复生命值时，对所有敌人造成&a<color=#FF7A33>(攻击力的60%)</color>伤害（1回合最多触发10次）。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_szb_elena_2\\B_szb_elena_2_Icon.png"
+    }
+}

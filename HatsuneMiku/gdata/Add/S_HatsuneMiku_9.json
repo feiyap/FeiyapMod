@@ -7,7 +7,7 @@
         "NotCount": false,
         "NotChuck": false,
         "HealSkill": false,
-        "Disposable": false,
+        "Disposable": true,
         "NoDrop": false,
         "IgnoreTaunt": false,
         "Except": false,
@@ -27,6 +27,8 @@
         "SkillExtended": [
             "HatsuneMiku.S_HatsuneMiku_9"
         ],
-        "UseAp": 2
+        "UseAp": 2,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

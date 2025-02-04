@@ -23,12 +23,12 @@ namespace HinanawiTenshi
         
         public void BuffaddedAfter(BattleChar BuffUser, BattleChar BuffTaker, Buff addedbuff, StackBuff stackBuff)
         {
-            if (!addedbuff.BuffData.Debuff && stackBuff.RemainTime != 0 && stackBuff.RemainTime >= 2)
+            if (BuffTaker.Info.Ally && !addedbuff.BuffData.Debuff && stackBuff.RemainTime != 0 && stackBuff.RemainTime >= 2)
             {
                 stackBuff.RemainTime++;
                 base.ShinyEffect();
             }
-            if (addedbuff.BuffData.Debuff && stackBuff.RemainTime != 0 && stackBuff.RemainTime >= 2)
+            if (BuffTaker.Info.Ally && addedbuff.BuffData.Debuff && stackBuff.RemainTime != 0 && stackBuff.RemainTime >= 2)
             {
                 stackBuff.RemainTime--;
                 base.ShinyEffect();

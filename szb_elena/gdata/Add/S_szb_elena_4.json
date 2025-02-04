@@ -1,0 +1,23 @@
+{
+    "S_szb_elena_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "enemy",
+        "NotCount": true,
+        "Except": false,
+        "Name": "狐耳神父",
+        "UseAp": 3,
+        "Description": "激奏0 - 变为治疗自己&b体力(治疗力的60%)。",
+        "User": "szb_elena",
+        "Effect_Target": "SE_T_S_szb_elena_4",
+        "Effect_Self": "SE_S_S_szb_elena_4",
+        "SkillExtended": [
+            "szb_elena.S_szb_elena_4"
+        ],
+        "NoDrop": false,
+        "Image_0": "S_szb_elena_4\\S_szb_elena_4_Image_0.png",
+        "Image_1": "S_szb_elena_4\\S_szb_elena_4_Image_1.png",
+        "Image_2": "S_szb_elena_4\\S_szb_elena_4_Image_2.png"
+    }
+}

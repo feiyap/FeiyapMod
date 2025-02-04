@@ -5,7 +5,7 @@
         "Particle": "Particle/Hein/S_Hein_3",
         "Target": "enemy",
         "Name": "禁忌「四重存在」",
-        "Description": "将3张0费、迅速、放逐、1回合后弃牌的[禁忌「四重存在」]加入手中。\r\n\n禁忌 - 超额治疗自己2点体力。",
+        "Description": "将3张0费、迅速、放逐、1回合后弃牌的[禁忌「四重存在」]加入手中。\r\n\n<color=#B22222>复仇</color> - 命中时超额治疗自己2点体力。",
         "UseAp": 2,
         "User": "FlandreScarlet",
         "Fatal": true,

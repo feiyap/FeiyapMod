@@ -8,6 +8,7 @@
         "Description": "无法再从技能中获得属性加成。",
         "Icon": "B_FlandreScarlet_12Rare\\B_FlandreScarlet_12Rare_Icon.png",
         "Debuff": false,
-        "TagPer": 0
+        "TagPer": 0,
+        "Cantdisable": false
     }
 }

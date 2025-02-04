@@ -1,0 +1,16 @@
+{
+    "S_YuyukoF_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Target": "skill",
+        "NotCount": false,
+        "Name": "寿命「通向无寿国的期票」",
+        "Description": "放逐目标技能，抽取3个技能。",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "YuyukoF",
+        "Image_0": "S_YuyukoF_LucyD\\S_YuyukoF_LucyD_Image_0.png",
+        "Image_1": "S_YuyukoF_LucyD\\S_YuyukoF_LucyD_Image_1.png",
+        "Image_2": "S_YuyukoF_LucyD\\S_YuyukoF_LucyD_Image_2.png"
+    }
+}

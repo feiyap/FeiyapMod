@@ -16,17 +16,8 @@ namespace RemiliaScarlet
 	/// <summary>
 	/// 爪击准备
 	/// </summary>
-    public class B_RemiliaScarlet_5:Buff, IP_SkillUse_Target
+    public class B_RemiliaScarlet_5:Buff
     {
-        public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
-        {
-            if (SP.SkillData.MySkill.KeyID == "S_RemiliaScarlet_5")
-            {
-                base.SelfDestroy(false);
-                this.BChar.BuffRemove("B_RemiliaScarlet_5", false);
-            }
-        }
-
         public override void BuffStat()
         {
             base.BuffStat();
@@ -35,15 +26,6 @@ namespace RemiliaScarlet
             this.PlusStat.RES_CC = 300f;
             this.PlusStat.RES_DEBUFF = 300f;
             this.PlusStat.DeadImmune = 50;
-        }
-
-        public override void FixedUpdate()
-        {
-            base.FixedUpdate();
-            if (base.Usestate_L.IsDead)
-            {
-                base.SelfDestroy(false);
-            }
         }
     }
 }

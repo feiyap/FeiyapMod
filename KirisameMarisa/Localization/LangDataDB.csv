@@ -1,199 +1,256 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
 Buff/B_KirisameMarisa_0_Description,Text,,,,,,
-Buff/B_KirisameMarisa_0_Name,Text,,,,,危险星空,
+Buff/B_KirisameMarisa_0_Name,Text,,,,デンジャラススタースカイ,危险星空,
 Buff/B_KirisameMarisa_1_Description,Text,,,,,,
-Buff/B_KirisameMarisa_1_Name,Text,,,,,危险冲刺,
+Buff/B_KirisameMarisa_1_Name,Text,,,,デンジャラススプリント,危险冲刺,
 Buff/B_KirisameMarisa_3_Description,Text,,,,,,
-Buff/B_KirisameMarisa_3_Name,Text,,,,,危险银河,
-Buff/B_KirisameMarisa_4_Name,Text,,,,,危险情感,
-Buff/B_KirisameMarisa_6_Description,Text,,,,,受到攻击后减少一层。,
-Buff/B_KirisameMarisa_6_Name,Text,,,,,危险信号,
+Buff/B_KirisameMarisa_3_Name,Text,,,,デンジャラスミルキーウェイ,危险银河,
+Buff/B_KirisameMarisa_4_Name,Text,,,,デンジャラスエモーション,危险情感,
+Buff/B_KirisameMarisa_6_Description,Text,,,,攻撃を受けたとき、ストックが1減少する。,受到攻击后减少一层。,
+Buff/B_KirisameMarisa_6_Name,Text,,,,デンジャラシグナル,危险信号,
 Buff/B_KirisameMarisa_7_1_Description,Text,,,,,,
-Buff/B_KirisameMarisa_7_1_Name,Text,,,,,危险突破,
-Buff/B_KirisameMarisa_7_Description,Text,,,,,"手中的技能无视嘲讽。
+Buff/B_KirisameMarisa_7_1_Name,Text,,,,デンジャラスブレイク,危险突破,
+Buff/B_KirisameMarisa_7_Description,Text,,,,"手札にあるスキルは挑発を無視する。
+現在の攻撃力に等しい値の防御力を得る。
+瀕死状態になったとき、除去される。","手中的技能无视嘲讽。
 根据当前的攻击力，获得防御力。
 进入濒死状态时解除。",
-Buff/B_KirisameMarisa_7_Name,Text,,,,,危险空间,
-Buff/B_KirisameMarisa_8_Description,Text,,,,,下一个“指向敌人”的技能获得“同时攻击所有敌人；且若目标只有一个，以暴击形式命中”的效果。,
-Buff/B_KirisameMarisa_8_Name,Text,,,,,危险改装,
-Buff/B_KirisameMarisa_9_1_Description,Text,,,,,速度低于0时，每少1点提供“+10%暴击率和+10%暴击伤害”，最多5点。,
-Buff/B_KirisameMarisa_9_1_Name,Text,,,,,危险本能,
-Buff/B_KirisameMarisa_9_2_Description,Text,,,,,当体力值降到0点及以下时体力值变成1点。,
-Buff/B_KirisameMarisa_9_2_Name,Text,,,,,危险领域,
-Buff/B_KirisameMarisa_9_Description,Text,,,,,速度大于0时，每多1点提供“+10%暴击率和+10%暴击伤害”，最多5点。,
-Buff/B_KirisameMarisa_9_Name,Text,,,,,危险冲动,
-Buff/B_KirisameMarisa_DangerTrigger_Description,Text,,,,,<color=#00BFFF>危险等级</color>上限+1。,
-Buff/B_KirisameMarisa_DangerTrigger_Name,Text,,,,,危险扳机,
-Buff/B_KirisameMarisa_P_1_Description,Text,,,,,造成暴击时解除。,
-Buff/B_KirisameMarisa_P_1_Name,Text,,,,,超绝偷感,
+Buff/B_KirisameMarisa_7_Name,Text,,,,デンジャラススペース,危险空间,
+Buff/B_KirisameMarisa_8_Description,Text,,,,次に使用する、敵を対象とするスキルは「すべての敵を同時に攻撃し、対象が1体の場合はクリティカルする」を得る。,下一个“指向敌人”的技能获得“同时攻击所有敌人；且若目标只有一个，以暴击形式命中”的效果。,
+Buff/B_KirisameMarisa_8_Name,Text,,,,デンジャラスオルタレーション,危险改装,
+Buff/B_KirisameMarisa_9_1_Description,Text,,,,スピードが0より小さい場合、1減少するたびにクリティカル率が10％、クリティカルダメージが10％増加する。(最大で5),速度低于0时，每少1点提供“+10%暴击率和+10%暴击伤害”，最多5点。,
+Buff/B_KirisameMarisa_9_1_Name,Text,,,,デンジャラスインステリクト,危险本能,
+Buff/B_KirisameMarisa_9_2_Description,Text,,,,体力が1以下になったとき、1に変更する。,当体力值降到0点及以下时体力值变成1点。,
+Buff/B_KirisameMarisa_9_2_Name,Text,,,,デンジャラスフィールド,危险领域,
+Buff/B_KirisameMarisa_9_Description,Text,,,,スピードが0より大きい場合、1増加するたびにクリティカル率が10％、クリティカルダメージが10％増加する。(最大で5),速度大于0时，每多1点提供“+10%暴击率和+10%暴击伤害”，最多5点。,
+Buff/B_KirisameMarisa_9_Name,Text,,,,デンジャラスインパルス,危险冲动,
+Buff/B_KirisameMarisa_DangerTrigger_Description,Text,,,,<color=#00BFFF>デンジャラスレベル</color>のストックの上限が1増加する。,<color=#00BFFF>危险等级</color>上限+1。,
+Buff/B_KirisameMarisa_DangerTrigger_Name,Text,,,,デンジャラストリガー,危险扳机,
+Buff/B_KirisameMarisa_P_1_Description,Text,,,,クリティカルしたとき、除去する。,造成暴击时解除。,
+Buff/B_KirisameMarisa_P_1_Name,Text,,,,卓越した盗みの感覚,超绝偷感,
 Buff/B_KirisameMarisa_P_Description,Text,,,,,,
-Buff/B_KirisameMarisa_P_Name,Text,,,,,<color=#00BFFF>危险等级</color>,
-Buff/B_KirisameMarisa_Rare_11_Description,Text,,,,,无敌。,
-Buff/B_KirisameMarisa_Rare_11_Name,Text,,,,,危险升空！,
-Buff/B_KirisameMarisa_Rare_12_Description,Text,,,,,使用技能时减少一层，造成额外&a点伤害<color=#FF7A33>(攻击力的100%)</color>。,
-Buff/B_KirisameMarisa_Rare_12_Name,Text,,,,,卫星幻觉,
-Character/KirisameMarisa_CampSelectWord,Text,,,,,呀嚯！我是雾雨魔理沙，是解决疑难杂症的专家！,
-Character/KirisameMarisa_PassiveDes,Text,,,,,"<b>东洋的西洋魔术师</b> - 回合开始时，雾雨魔理沙获得1层[超绝偷感]。
+Buff/B_KirisameMarisa_P_Name,Text,,,,<color=#00BFFF>デンジャラスレベル</color>,<color=#00BFFF>危险等级</color>,
+Buff/B_KirisameMarisa_Rare_11_Description,Text,,,,無敵,无敌。,
+Buff/B_KirisameMarisa_Rare_11_Name,Text,,,,デンジャラスライズ！,危险升空！,
+Buff/B_KirisameMarisa_Rare_12_Description,Text,,,,スキルを使用したとき、ストックを1消費して&a<color=#FF7A33>(攻撃力の100%)</color>のダメージを追加で与える。,使用技能时减少一层，造成额外&a点伤害<color=#FF7A33>(攻击力的100%)</color>。,
+Buff/B_KirisameMarisa_Rare_12_Name,Text,,,,サテライトイリュージョン,卫星幻觉,
+Character/KirisameMarisa_CampSelectWord,Text,,,,よう！ 私の名前は、霧雨魔理沙。異変解決の専門家だ。,呀嚯！我是雾雨魔理沙，是解决疑难杂症的专家！,
+Character/KirisameMarisa_PassiveDes,Text,,,,"<b>東洋の西洋魔術師</b> - ターン開始時、[卓越した盗みの感覚]を1ストック得る。
+
+<b><color=#00BFFF>デンジャラスレベル</color></b> - 霧雨魔理沙は攻撃スキルを使用するたび、<color=#00BFFF>デンジャラスレベル</color>を1ストック得る。分し状態になったとき、<color=#00BFFF>デンジャラスレベル</color>のストックをすべて失う。
+<color=#00BFFF>デンジャラスレベル</color>のストック1ごとに攻撃力が2%増加して防御力が2%減少し、スキルの追加効果を発動する。
+<color=#00BFFF>デンジャラスレベル</color>のストック数の上限は4。","<b>东洋的西洋魔术师</b> - 回合开始时，雾雨魔理沙获得1层[超绝偷感]。
 
 <b><color=#00BFFF>危险等级</color></b> - 雾雨魔理沙每次使用攻击技能时，获得1层<color=#00BFFF>危险等级</color>。进入濒死状态时，失去所有<color=#00BFFF>危险等级</color>。
 每层<color=#00BFFF>危险等级</color>提供2%攻击力和-2%防御力，并会解锁技能的额外效果。
 最多拥有4层<color=#00BFFF>危险等级</color>。",
-Character/KirisameMarisa_PassiveName,Text,,,,,普通的魔法使,
-Character/KirisameMarisa_SelectInfo,Text,,,,,"雾雨魔理沙是极致进攻化的超级攻击手。
+Character/KirisameMarisa_PassiveName,Text,,,,普通の魔法使い,普通的魔法使,
+Character/KirisameMarisa_SelectInfo,Text,,,,"霧雨魔理沙は非常に強力なアタッカーである。
+
+霧雨魔理沙は、スキルによってスピードを変化させることができ、高速モードと低速モードの両方で自在に戦うことができる。 高速モードは回避能力が高い反面、被ダメージも高くなるため、敵が行動する前に仕留める必要がある。低速モードは固定砲台のような役割を果たし、恐ろしい火力で敵を殲滅することができる。
+
+霧雨魔理沙の攻撃力を活かすためにも、仲間の選択は慎重にしよう。","雾雨魔理沙是极致进攻化的超级攻击手。
 
 雾雨魔理沙通过使用技能来改变自身的速度，能够自在地在高速和低速两种模式中进行战斗。在高速模式下，雾雨魔理沙拥有较高的闪避能力，但也会承受更高的伤害，需要在敌人行动之前尽快解决敌人；在低速模式下，雾雨魔理沙能宛如固定炮台一般，以恐怖的火力将敌人歼灭。
 
 为了尽可能地发挥魔理沙的能力，请仔细挑选成长的路线、进攻的手段以及能够产生搭配的队友吧。",
-Character/KirisameMarisa_Text_Battle_Cri_0,Text,,,,,你的手段我已经全都看破了！,
-Character/KirisameMarisa_Text_Battle_Healed_0,Text,,,,,呼啊，谢谢你！,
-Character/KirisameMarisa_Text_Battle_Idle_0,Text,,,,,在制定战术方案吗？,
-Character/KirisameMarisa_Text_Battle_Idle_1,Text,,,,,看啊！你头顶的星星在闪耀着！,
-Character/KirisameMarisa_Text_Battle_Kill_0,Text,,,,,GET DA☆ZE！,
-Character/KirisameMarisa_Text_Battle_ND_0,Text,,,,,呜……好痛啊……,
-Character/KirisameMarisa_Text_Battle_Start_0,Text,,,,,我的魔炮已经饥渴难耐了！,
-Character/KirisameMarisa_Text_Battle_Start_1,Text,,,,,八卦炉，全功率启动！,
-Character/KirisameMarisa_Text_Field_GetItem_0,Text,,,,,在空无一人的房子里搜宝物是基本中的基本哦。,
-Character/KirisameMarisa_Text_Field_GetItem_1,Text,,,,,在有NPC的房子里搜宝物也是基本中的基本。,
-Character/KirisameMarisa_Text_Field_Idle_0,Text,,,,,最近森林里的蘑菇长得太快，诡异得很呢。,
-Character/KirisameMarisa_Text_Field_Idle_1,Text,,,,,什么大事都没发生弄得大家也没变化，好无聊啊。,
-Character/KirisameMarisa_Text_MasterTarget,Text,,,,,回去告诉大家，英勇的魔理沙已经和管理员同归于尽了！,
-Character/KirisameMarisa_Text_PharosLeader_0,Text,,,,,总而言之就是把这里那里全部轰平就可以了对吧？,
-Character/KirisameMarisa_Text_PharosLeader_1,Text,,,,,八卦炉没能量了……真没劲……,
-Character/KirisameMarisa_Text_PharosLeader_2,Text,,,,,魔炮可不长眼！,
-Character/KirisameMarisa_Text_Witch_0,Text,,,,,区区诅咒，对本魔理沙大人来说不算什么啦！,
-Character/KirisameMarisa_Text_Witch_1,Text,,,,,回去以后一定要找灵梦给我驱驱邪……,
-Character/KirisameMarisa_name,Text,,,,,雾雨魔理沙,
-Character_Skin/KirisameMarisaChrist_SkinDesc,Text,,,,,我要办一场豪华璀璨的圣诞派对！,
-Character_Skin/KirisameMarisaChrist_SkinName,Text,,,,,红白魔法使,
-Character_Skin/KirisameMarisaEclipse_SkinDesc,Text,,,,,"我会让你见识到地狱的见面礼……
+Character/KirisameMarisa_Text_Battle_Cri_0,Text,,,,お前のトリックはすべて見抜いている！,你的手段我已经全都看破了！,
+Character/KirisameMarisa_Text_Battle_Healed_0,Text,,,,ありがとう！,呼啊，谢谢你！,
+Character/KirisameMarisa_Text_Battle_Idle_0,Text,,,,戦術プランを練っているのか？,在制定战术方案吗？,
+Character/KirisameMarisa_Text_Battle_Idle_1,Text,,,,見ろ！ 頭上に星が輝いている！,看啊！你头顶的星星在闪耀着！,
+Character/KirisameMarisa_Text_Battle_Kill_0,Text,,,,GET DA☆ZE！,GET DA☆ZE！,
+Character/KirisameMarisa_Text_Battle_ND_0,Text,,,,ああ......痛い......。,呜……好痛啊……,
+Character/KirisameMarisa_Text_Battle_Start_0,Text,,,,私の魔砲は飢えている！,我的魔炮已经饥渴难耐了！,
+Character/KirisameMarisa_Text_Battle_Start_1,Text,,,,八卦掌、パワー全開！,八卦炉，全功率启动！,
+Character/KirisameMarisa_Text_Field_GetItem_0,Text,,,,空き家で宝探しは、基本中の基本だ。,在空无一人的房子里搜宝物是基本中的基本哦。,
+Character/KirisameMarisa_Text_Field_GetItem_1,Text,,,,NPCのいる家で宝探しも基本中の基本。,在有NPC的房子里搜宝物也是基本中的基本。,
+Character/KirisameMarisa_Text_Field_Idle_0,Text,,,,最近、森ではキノコの成長が早くて不気味なんだ。,最近森林里的蘑菇长得太快，诡异得很呢。,
+Character/KirisameMarisa_Text_Field_Idle_1,Text,,,,大きなことは何も起きていないし、とても退屈だ。,什么大事都没发生弄得大家也没变化，好无聊啊。,
+Character/KirisameMarisa_Text_MasterTarget,Text,,,,終わったら、勇敢な魔理沙は管理者とともに死んだと皆に伝えてくれ！,回去告诉大家，英勇的魔理沙已经和管理员同归于尽了！,
+Character/KirisameMarisa_Text_PharosLeader_0,Text,,,,結局、あちこちを爆破すればいいだけの話だろ？,总而言之就是把这里那里全部轰平就可以了对吧？,
+Character/KirisameMarisa_Text_PharosLeader_1,Text,,,,八卦炉のエネルギーが切れた……つまらない……。,八卦炉没能量了……真没劲……,
+Character/KirisameMarisa_Text_PharosLeader_2,Text,,,,魔砲には目がない！,魔炮可不长眼！,
+Character/KirisameMarisa_Text_Witch_0,Text,,,,単なる呪いなど、私にとっては何でもない！,区区诅咒，对本魔理沙大人来说不算什么啦！,
+Character/KirisameMarisa_Text_Witch_1,Text,,,,帰ったら、霊夢にお祓いしてもらわないと......,回去以后一定要找灵梦给我驱驱邪……,
+Character/KirisameMarisa_name,Text,,,,霧雨魔理沙,雾雨魔理沙,
+Character_Skin/KirisameMarisaChrist_SkinDesc,Text,,,,"外の世界の本に載っていた。
+華やかなクリスマス衣装。
+耐寒性が高いだけでなく、地蔵型の行灯とトナカイの角を模したハンドルのおかげで、
+雪中飛行における安定性も上昇している。
+魔理沙もなかなかに気に入ったようだ。 ",我要办一场豪华璀璨的圣诞派对！,
+Character_Skin/KirisameMarisaChrist_SkinName,Text,,,,紅白の魔法使い,红白魔法使,
+Character_Skin/KirisameMarisaEclipse_SkinDesc,Text,,,,"地獄からの挨拶を見せよう... 
+特別に超火力を用意した！ ","我会让你见识到地狱的见面礼……
 我特别准备了超强火力！",
-Character_Skin/KirisameMarisaEclipse_SkinName,Text,,,,,奇妙的魔法使,
-Item_Consume/Item_KirisameMarisa_DangerTrigger_Description,Text,,,,,"使一个角色攻击力+3，防御力-15%。
+Character_Skin/KirisameMarisaEclipse_SkinName,Text,,,,奇妙な魔法使い,奇妙的魔法使,
+Character_Skin/KirisameMarisa_Skin_SkinDesc,Text,,,,"本当に簡単かどうかはわからないけど、仕事はかなり面白そうだ。
+でも、私は断った！
+私は自分の好きなように生きたい。
+あの二人のようになるのなら、お断りだ。","虽然不知道是不是真的轻松，这工作听起来还蛮有趣的。
+但是我拒绝！
+我想按照自己喜欢的方式生活下去，
+如果要让我变得和那两个人一样，还恕我拒绝。",
+Character_Skin/KirisameMarisa_Skin_SkinName,Text,,,,森の魔法探偵,,
+Item_Consume/Item_KirisameMarisa_DangerTrigger_Description,Text,,,,"対象の攻撃力が3増加し、防御力が15%減少する。
+霧雨魔理沙に使用した場合、この周回中<color=#00BFFF>デンジャラスレベル</color>のストックの上限が1増加する。","使一个角色攻击力+3，防御力-15%。
 对雾雨魔理沙使用时，使她在本次轮回中<color=#00BFFF>危险等级</color>上限+1。",
-Item_Consume/Item_KirisameMarisa_DangerTrigger_name,Text,,,,,危险扳机,
-Item_Equip/E_KirisameMarisa_0_Description,Text,,,,,攻击未暴击时，造成的伤害降低80%。,
-Item_Equip/E_KirisameMarisa_0_name,Text,,,,,开拓星空的八卦炉,
-Item_Equip/E_KirisameMarisa_1_Description,Text,,,,,战斗开始时，若放在第一格时，使速度+5；否则使速度-5。,
-Item_Equip/E_KirisameMarisa_1_name,Text,,,,,普通的扫帚,
-Item_Passive/R_KirisameMarisa_0_Description,Text,,,,,战斗开始时，使所有调查员第一次攻击必定暴击，且这次暴击伤害+100%。,
-Item_Passive/R_KirisameMarisa_0_name,Text,,,,,黑白魔法使的帽子,
+Item_Consume/Item_KirisameMarisa_DangerTrigger_name,Text,,,,デンジャラストリガー,危险扳机,
+Item_Equip/E_KirisameMarisa_0_Description,Text,,,,攻撃がクリティカルしなかった場合、与えるダメージが80% 減少する。 ,攻击未暴击时，造成的伤害降低80%。,
+Item_Equip/E_KirisameMarisa_0_name,Text,,,,星空を開く八卦炉,开拓星空的八卦炉,
+Item_Equip/E_KirisameMarisa_1_Description,Text,,,,戦闘開始時、一番左端に居る場合はスピードが5増加し、そうでない場合はスピードが5減少する。,战斗开始时，若放在第一格时，使速度+5；否则使速度-5。,
+Item_Equip/E_KirisameMarisa_1_name,Text,,,,普通の箒,普通的扫帚,
+Item_Passive/R_KirisameMarisa_0_Description,Text,,,,戦闘開始時、すべての味方の最初の攻撃はクリティカルし、このクリティカルはダメージが100%増加する。 ,战斗开始时，使所有调查员第一次攻击必定暴击，且这次暴击伤害+100%。,
+Item_Passive/R_KirisameMarisa_0_name,Text,,,,黒と白の魔法使いの帽子,黑白魔法使的帽子,
 RandomEvent/RE_KirisameMarisa_0_Desc,Text,,,,,,
-RandomEvent/RE_KirisameMarisa_0_Desc_3Stage,Text,,,,,你们在白色墓地遇到了森近霖之助。他在这里做什么？,
-RandomEvent/RE_KirisameMarisa_0_EventDetails,Text,,,,,霖之助：“哦呀？这不是露西么。……我？有人委托我在这里寻宝来着……那个人的身份？是秘密哦。对了，我手里正好有些宝物，要来看看么？”,
-RandomEvent/RE_KirisameMarisa_0_Name,Text,,,,,偶遇霖之助,
-RandomEvent/RE_KirisameMarisa_0_OrderStrings_0,Text,,,,,霖之助继续他的委托去了……,
-RandomEvent/RE_KirisameMarisa_0_UseButtonTooltip_0,Text,,,,,霖之助：“这东西我留着用不了，就免费送你吧。”,
-RandomEvent/RE_KirisameMarisa_0_UseButtonTooltip_1,Text,,,,,霖之助：“这东西好像很契合魔理沙的样子……”,
-RandomEvent/RE_KirisameMarisa_0_UseButton_0,Text,,,,,获得露西稀有技能书“总攻！”。,
-RandomEvent/RE_KirisameMarisa_0_UseButton_1,Text,,,,,花费2000金币，购买“危险扳机”。,
-Skill/S_KirisameMarisa_0_4_Description,Text,,,,,<color=#00BFFF>危险等级4</color> - 本回合内可重复释放 1 次。,
-Skill/S_KirisameMarisa_0_4_Name,Text,,,,,星符「Polaris Unique」,
-Skill/S_KirisameMarisa_0_Description,Text,,,,,本回合内可重复释放 1 次。,
-Skill/S_KirisameMarisa_0_Name,Text,,,,,星符「Meteonic Shower」,
-Skill/S_KirisameMarisa_1_3_Description,Text,,,,,"<color=#00BFFF>危险等级3</color> - 不再持有倒计时1。
+RandomEvent/RE_KirisameMarisa_0_Desc_3Stage,Text,,,,白の墓地で森近霖之助と出会った。彼はここで何をしているのだろう？ ,你们在白色墓地遇到了森近霖之助。他在这里做什么？,
+RandomEvent/RE_KirisameMarisa_0_EventDetails,Text,,,,おや？ルシーじゃないか…私か？ここで宝を探してくれって頼まれたんだ…その人の正体？秘密だ。ところで、たまたまお宝を持っているのだが、見るかい？,霖之助：“哦呀？这不是露西么。……我？有人委托我在这里寻宝来着……那个人的身份？是秘密哦。对了，我手里正好有些宝物，要来看看么？”,
+RandomEvent/RE_KirisameMarisa_0_Name,Text,,,,霖之助との偶然の出会い,偶遇霖之助,
+RandomEvent/RE_KirisameMarisa_0_OrderStrings_0,Text,,,,霖之助は依頼された仕事を続けたるため去った……,霖之助继续他的委托去了……,
+RandomEvent/RE_KirisameMarisa_0_UseButtonTooltip_0,Text,,,,これは使えないから、タダであげよう。,霖之助：“这东西我留着用不了，就免费送你吧。”,
+RandomEvent/RE_KirisameMarisa_0_UseButtonTooltip_1,Text,,,,これは魔理沙にとても合うと思うよ……,霖之助：“这东西好像很契合魔理沙的样子……”,
+RandomEvent/RE_KirisameMarisa_0_UseButton_0,Text,,,,ルシーのレアスキルブック「総攻撃！」を獲得。 ,获得露西稀有技能书“总攻！”。,
+RandomEvent/RE_KirisameMarisa_0_UseButton_1,Text,,,,"金貨を2,000支払って「デンジャラストリガー」を購入する。",花费2000金币，购买“危险扳机”。,
+Skill/S_KirisameMarisa_0_4_Description,Text,,,,<color=#00BFFF>デンジャラスレベル4</color> - このターン中、もう1度使用できる。,<color=#00BFFF>危险等级4</color> - 本回合内可重复释放 1 次。,
+Skill/S_KirisameMarisa_0_4_Name,Text,,,,星符「ポラリスユニーク」,星符「Polaris Unique」,
+Skill/S_KirisameMarisa_0_Description,Text,,,,このターン中、もう1度使用できる。,本回合内可重复释放 1 次。,
+Skill/S_KirisameMarisa_0_Name,Text,,,,星符「メテオニックシャワー」,星符「Meteonic Shower」,
+Skill/S_KirisameMarisa_1_3_Description,Text,,,,"<color=#00BFFF>デンジャラスレベル3</color> - カウントダウン1を失う。
+このターン中、ダメージを受けていない場合はクリティカルする。","<color=#00BFFF>危险等级3</color> - 不再持有倒计时1。
 如果本回合没有受到伤害，以暴击形式命中。",
-Skill/S_KirisameMarisa_1_3_Name,Text,,,,,星符「Dragon Meteor」,
-Skill/S_KirisameMarisa_1_Description,Text,,,,,如果本回合没有受到伤害，以暴击形式命中。,
-Skill/S_KirisameMarisa_1_Name,Text,,,,,星符「Escape Velocity」,
-Skill/S_KirisameMarisa_2_2_Description,Text,,,,,<color=#00BFFF>危险等级2</color> - 目标每有1点行动倒计时（最多计算7点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的25%)</color>。,
-Skill/S_KirisameMarisa_2_2_Name,Text,,,,,魔符「Illusion Star」,
-Skill/S_KirisameMarisa_2_4_Description,Text,,,,,<color=#00BFFF>危险等级4</color> - 目标每有1点行动倒计时（最多计算9点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的30%)</color>。,
-Skill/S_KirisameMarisa_2_4_Name,Text,,,,,黑魔「Event Horizon」,
-Skill/S_KirisameMarisa_2_Description,Text,,,,,目标每有1点行动倒计时（最多计算5点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的20%)</color>。,
-Skill/S_KirisameMarisa_2_Name,Text,,,,,魔符「Stardust Reverie」,
-Skill/S_KirisameMarisa_3_2_Description,Text,,,,,"<color=#00BFFF>危险等级2</color> - 向随机敌人重复释放 2 次。
+Skill/S_KirisameMarisa_1_3_Name,Text,,,,星符「ドラゴンメテオ」,星符「Dragon Meteor」,
+Skill/S_KirisameMarisa_1_Description,Text,,,,このターン中、ダメージを受けていない場合はクリティカルする。,如果本回合没有受到伤害，以暴击形式命中。,
+Skill/S_KirisameMarisa_1_Name,Text,,,,星符「エスケープベロシティ」,星符「Escape Velocity」,
+Skill/S_KirisameMarisa_2_2_Description,Text,,,,<color=#00BFFF>デンジャラスレベル2</color> - 対象が持つ行動カウント1ごとに(最大で7)、&a<color=#FF7A33>(攻撃力の25%)</color>のダメージを追加で与える。,<color=#00BFFF>危险等级2</color> - 目标每有1点行动倒计时(最多计算7点)，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的25%)</color>。,
+Skill/S_KirisameMarisa_2_2_Name,Text,,,,魔符「イリュージョンスター」,魔符「Illusion Star」,
+Skill/S_KirisameMarisa_2_4_Description,Text,,,,<color=#00BFFF>デンジャラスレベル4</color> -  対象が持つ行動カウント1ごとに(最大で9)、&a<color=#FF7A33>(攻撃力の30%)</color>のダメージを追加で与える。,<color=#00BFFF>危险等级4</color> - 目标每有1点行动倒计时(最多计算9点)，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的30%)</color>。,
+Skill/S_KirisameMarisa_2_4_Name,Text,,,,黒魔「イベントホライズン」,黑魔「Event Horizon」,
+Skill/S_KirisameMarisa_2_Description,Text,,,,対象が持つ行動カウント1ごとに(最大で5)、&a<color=#FF7A33>(攻撃力の20%)</color>のダメージを追加で与える。,目标每有1点行动倒计时(最多计算5点)，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的20%)</color>。,
+Skill/S_KirisameMarisa_2_Name,Text,,,,魔符「スターダストレヴァリエ」,魔符「Stardust Reverie」,
+Skill/S_KirisameMarisa_3_2_Description,Text,,,,"<color=#00BFFF>デンジャラスレベル2</color> - ランダムな敵に対して2回繰り返し発動する。
+スピードが0より小さい場合、1減少するたびにランダムな敵に1回繰り返し発動する。(最大2回)。","<color=#00BFFF>危险等级2</color> - 向随机敌人重复释放 2 次。
 速度小于0时，每少1点向随机敌人再额外重复释放 1 次(最多2次)。",
-Skill/S_KirisameMarisa_3_2_Name,Text,,,,,魔空「Asteroid Belt」,
-Skill/S_KirisameMarisa_3_Description,Text,,,,,向随机敌人重复释放 2 次。,
-Skill/S_KirisameMarisa_3_Name,Text,,,,,魔符「Milky Way」,
-Skill/S_KirisameMarisa_4_3_Description,Text,,,,,<color=#00BFFF>危险等级3</color> - 击杀敌人时，以一半的伤害量重复释放 1 次。,
-Skill/S_KirisameMarisa_4_3_Name,Text,,,,,恋风「Starlight Typhoon」,
-Skill/S_KirisameMarisa_4_Name,Text,,,,,恋符「Non-Directional Laser」,
-Skill/S_KirisameMarisa_5_1_Description,Text,,,,,"<color=#00BFFF>危险等级1</color> - 速度小于0时，每少1点使这个技能暴击率提升17%。
+Skill/S_KirisameMarisa_3_2_Name,Text,,,,魔空「アステロイドベルト」,魔空「Asteroid Belt」,
+Skill/S_KirisameMarisa_3_Description,Text,,,,ランダムな敵に対して2回繰り返し発動する。,向随机敌人重复释放 2 次。,
+Skill/S_KirisameMarisa_3_Name,Text,,,,魔符「ミルキーウェイ」,魔符「Milky Way」,
+Skill/S_KirisameMarisa_4_3_Description,Text,,,,<color=#00BFFF>デンジャラスレベル3</color> - 敵を倒したとき、半分のダメージで1回繰り返し発動する。,<color=#00BFFF>危险等级3</color> - 击杀敌人时，以一半的伤害量重复释放 1 次。,
+Skill/S_KirisameMarisa_4_3_Name,Text,,,,恋風「スターライトタイフーン」,恋风「Starlight Typhoon」,
+Skill/S_KirisameMarisa_4_Name,Text,,,,恋符「ノンディレクショナルレーザー」,恋符「Non-Directional Laser」,
+Skill/S_KirisameMarisa_5_1_Description,Text,,,,"<color=#00BFFF>デンジャラスレベル1</color> - スピードが0より小さい場合、1減少するたびにクリティカル率が17%増加する。
+このスキルのクリティカル率が17%を超える場合、超えたクリティカル率に等しい値ダメージが増加する。","<color=#00BFFF>危险等级1</color> - 速度小于0时，每少1点使这个技能暴击率提升17%。
 当此技能的暴击率超过17%时，技能伤害按照超出暴击率百分比增加。",
-Skill/S_KirisameMarisa_5_1_Name,Text,,,,,恋符「Wide Master」,
-Skill/S_KirisameMarisa_5_2_Description,Text,,,,,"<color=#00BFFF>危险等级2</color> - 速度小于0时，每少1点使这个技能暴击率提升20%。
+Skill/S_KirisameMarisa_5_1_Name,Text,,,,恋符「ワイドマスター」,恋符「Wide Master」,
+Skill/S_KirisameMarisa_5_2_Description,Text,,,,"<color=#00BFFF>デンジャラスレベル2</color> - スピードが0より小さい場合、1減少するたびにクリティカル率が20%増加する。
+このスキルのクリティカル率が20%を超える場合、超えたクリティカル率に等しい値ダメージが増加する。","<color=#00BFFF>危险等级2</color> - 速度小于0时，每少1点使这个技能暴击率提升20%。
 当此技能的暴击率超过20%时，技能伤害按照超出暴击率百分比增加。",
-Skill/S_KirisameMarisa_5_2_Name,Text,,,,,魔炮「Final Spark」,
-Skill/S_KirisameMarisa_5_3_Description,Text,,,,,"<color=#00BFFF>危险等级3</color> - 速度小于0时，每少1点使这个技能暴击率提升22%。
+Skill/S_KirisameMarisa_5_2_Name,Text,,,,魔砲「ファイナルスパーク」,魔炮「Final Spark」,
+Skill/S_KirisameMarisa_5_3_Description,Text,,,,"<color=#00BFFF>デンジャラスレベル3</color> - スピードが0より小さい場合、1減少するたびにクリティカル率が22%増加する。
+このスキルのクリティカル率が22%を超える場合、超えたクリティカル率に等しい値ダメージが増加する。","<color=#00BFFF>危险等级3</color> - 速度小于0时，每少1点使这个技能暴击率提升22%。
 当此技能的暴击率超过22%时，技能伤害按照超出暴击率百分比增加。",
-Skill/S_KirisameMarisa_5_3_Name,Text,,,,,妖器「Dark Spark」,
-Skill/S_KirisameMarisa_5_4_Description,Text,,,,,"<color=#00BFFF>危险等级4</color> - 速度小于0时，每少1点使这个技能暴击率提升25%。
+Skill/S_KirisameMarisa_5_3_Name,Text,,,,妖器「ダークスパーク」,妖器「Dark Spark」,
+Skill/S_KirisameMarisa_5_4_Description,Text,,,,"<color=#00BFFF>デンジャラスレベル4</color> - スピードが0より小さい場合、1減少するたびにクリティカル率が25%増加する。
+このスキルのクリティカル率が25%を超える場合、超えたクリティカル率に等しい値ダメージが増加する。","<color=#00BFFF>危险等级4</color> - 速度小于0时，每少1点使这个技能暴击率提升25%。
 当此技能的暴击率超过25%时，技能伤害按照超出暴击率百分比增加。",
-Skill/S_KirisameMarisa_5_4_Name,Text,,,,,魔炮「Final Spark」,
-Skill/S_KirisameMarisa_5_5_0_Description,Text,,,,,"<color=#00BFFF>危险等级5</color> - 速度小于0时，每少1点使这个技能暴击率提升50%。
+Skill/S_KirisameMarisa_5_4_Name,Text,,,,魔砲「ファイナルスパーク」,魔炮「Final Spark」,
+Skill/S_KirisameMarisa_5_5_0_Description,Text,,,,"<color=#00BFFF>デンジャラスレベル5</color> - スピードが0より小さい場合、1減少するたびにクリティカル率が50%増加する。
+このスキルのクリティカル率が50%を超える場合、超えたクリティカル率に等しい値ダメージが増加する。","<color=#00BFFF>危险等级5</color> - 速度小于0时，每少1点使这个技能暴击率提升50%。
 当此技能的暴击率超过50%时，技能伤害按照超出暴击率百分比增加。",
-Skill/S_KirisameMarisa_5_5_0_Name,Text,,,,,魔恋「最初也是最后的Master Sparrrrrrrrrrrrk！」,
-Skill/S_KirisameMarisa_5_5_Description,Text,,,,,"<color=#00BFFF>危险等级5</color> - 速度小于0时，每少1点使这个技能暴击率提升50%。
+Skill/S_KirisameMarisa_5_5_0_Name,Text,,,,魔恋「最初で最後のマスタースパーク！」,魔恋「最初也是最后的Master Sparrrrrrrrrrrrk！」,
+Skill/S_KirisameMarisa_5_5_Description,Text,,,,"<color=#00BFFF>デンジャラスレベル5</color> - スピードが0より小さい場合、1減少するたびにクリティカル率が50%増加する。
+このスキルのクリティカル率が50%を超える場合、超えたクリティカル率に等しい値ダメージが増加する。
+命中時、カウントダウン1で与えたダメージに等しいダメージの追加攻撃を1回行う。","<color=#00BFFF>危险等级5</color> - 速度小于0时，每少1点使这个技能暴击率提升50%。
 当此技能的暴击率超过50%时，技能伤害按照超出暴击率百分比增加。
 命中时以造成的伤害值追加 1 次倒计时1的攻击。",
-Skill/S_KirisameMarisa_5_5_Name,Text,,,,,魔恋「最初也是最后的Master Sparrrrrrrrrrrrk！」,
-Skill/S_KirisameMarisa_5_Description,Text,,,,,"速度小于0时，每少1点使这个技能暴击率提升15%。
+Skill/S_KirisameMarisa_5_5_Name,Text,,,,魔恋「最初也是最后的Master Sparrrrrrrrrrrrk！」,魔恋「最初也是最后的Master Sparrrrrrrrrrrrk！」,
+Skill/S_KirisameMarisa_5_Description,Text,,,,"スピードが0より小さい場合、1減少するたびにクリティカル率が15%増加する。
+このスキルのクリティカル率が15%を超える場合、超えたクリティカル率に等しい値ダメージが増加する。","速度小于0时，每少1点使这个技能暴击率提升15%。
 当此技能的暴击率超过15%时，技能伤害按照超出暴击率百分比增加。",
-Skill/S_KirisameMarisa_5_Name,Text,,,,,恋符「Master Spark」,
-Skill/S_KirisameMarisa_6_0_Name,Text,,,,,星符「Gravity Beat」,
-Skill/S_KirisameMarisa_6_2_Description,Text,,,,,<color=#00BFFF>危险等级2</color> - 如果目标处于嘲讽状态，解除嘲讽状态，并对所有非嘲讽状态的敌人发动追加攻击，造成&a伤害<color=#FF7A33>(攻击力的60%)</color>。,
-Skill/S_KirisameMarisa_6_2_Name,Text,,,,,星符「Eccentric Asteroid」,
-Skill/S_KirisameMarisa_6_Description,Text,,,,,如果目标处于嘲讽状态，解除嘲讽状态，并对其发动追加攻击，造成&a伤害<color=#FF7A33>(攻击力的60%)</color>。,
-Skill/S_KirisameMarisa_6_Name,Text,,,,,星符「Gravity Beat」,
-Skill/S_KirisameMarisa_7_4_Description,Text,,,,,"如果自身已经拥有[危险空间]，则解除[危险空间]，抽取1个技能并恢复1点法力值。
+Skill/S_KirisameMarisa_5_Name,Text,,,,恋符「マスタースパーク」,恋符「Master Spark」,
+Skill/S_KirisameMarisa_6_0_Name,Text,,,,星符「グラビティビート」,星符「Gravity Beat」,
+Skill/S_KirisameMarisa_6_2_Description,Text,,,,<color=#00BFFF>デンジャラスレベル2</color> - 対象が挑発を持つ場合、それを除去して挑発を持たないすべての敵に&a<color=#FF7A33>(攻撃力の60%)</color>のダメージで同時に攻撃する。,<color=#00BFFF>危险等级2</color> - 如果目标处于嘲讽状态，解除嘲讽状态，并对所有非嘲讽状态的敌人发动追加攻击，造成&a伤害<color=#FF7A33>(攻击力的60%)</color>。,
+Skill/S_KirisameMarisa_6_2_Name,Text,,,,星符「エキセントリックアステロイド」,星符「Eccentric Asteroid」,
+Skill/S_KirisameMarisa_6_Description,Text,,,,対象が挑発を持つ場合、それを除去して挑発を持たないすべての敵に&a<color=#FF7A33>(攻撃力の60%)</color>のダメージで同時に攻撃する。,如果目标处于嘲讽状态，解除嘲讽状态，并对其发动追加攻击，造成&a伤害<color=#FF7A33>(攻击力的60%)</color>。,
+Skill/S_KirisameMarisa_6_Name,Text,,,,星符「グラビティビート」,星符「Gravity Beat」,
+Skill/S_KirisameMarisa_7_4_Description,Text,,,,"自身が既に[デンジャラススペース]を持つ場合、[デンジャラススペース]を除去してスキルを1枚引き、マナを1回復する。
+
+<color=#00BFFF>デンジャラスレベル4</color> - 捨て札から自身のスキルを1枚選んで手札に加える。","如果自身已经拥有[危险空间]，则解除[危险空间]，抽取1个技能并恢复1点法力值。
 
 <color=#00BFFF>危险等级4</color> - 确认弃牌库中自己的技能，选择 1 个加入手中。",
-Skill/S_KirisameMarisa_7_4_Name,Text,,,,,魔十字「Grand Cross」,
-Skill/S_KirisameMarisa_7_Description,Text,,,,,如果自身已经拥有[危险空间]，则解除[危险空间]，抽取1个技能并恢复1点法力值。,
-Skill/S_KirisameMarisa_7_Name,Text,,,,,魔开「Open Universe」,
-Skill/S_KirisameMarisa_8_2_Description,Text,,,,,<color=#00BFFF>危险等级2</color> - 可以指向友军。,
-Skill/S_KirisameMarisa_8_2_Name,Text,,,,,天仪「Orrery's Solar System」,
-Skill/S_KirisameMarisa_8_4_Description,Text,,,,,"<color=#00BFFF>危险等级4</color> - 可以指向友军。
+Skill/S_KirisameMarisa_7_4_Name,Text,,,,魔十字「グランドクロス」,魔十字「Grand Cross」,
+Skill/S_KirisameMarisa_7_Description,Text,,,,自身が既に[デンジャラススペース]を持つ場合、[デンジャラススペース]を除去してスキルを1枚引き、マナを1回復する。,如果自身已经拥有[危险空间]，则解除[危险空间]，抽取1个技能并恢复1点法力值。,
+Skill/S_KirisameMarisa_7_Name,Text,,,,魔開「オープンユニバース」,魔开「Open Universe」,
+Skill/S_KirisameMarisa_8_2_Description,Text,,,,<color=#00BFFF>デンジャラスレベル2</color> - 他の味方を対象にできる。,<color=#00BFFF>危险等级2</color> - 可以指向友军。,
+Skill/S_KirisameMarisa_8_2_Name,Text,,,,天儀「オーレリーズソーラーシステム」,天仪「Orrery's Solar System」,
+Skill/S_KirisameMarisa_8_4_Description,Text,,,,"<color=#00BFFF>デンジャラスレベル4</color> - 他の味方を対象にできる。
+同時に自身に[デンジャラスオルタレーション]を1ストック与える。","<color=#00BFFF>危险等级4</color> - 可以指向友军。
 自身同时获得1层[危险改装]。",
-Skill/S_KirisameMarisa_8_4_Name,Text,,,,,天仪「Orrery's Universe」,
+Skill/S_KirisameMarisa_8_4_Name,Text,,,,天儀「オーレリーズユニバース」,天仪「Orrery's Universe」,
 Skill/S_KirisameMarisa_8_Description,Text,,,,,,
-Skill/S_KirisameMarisa_8_Name,Text,,,,,仪符「Orrery's Sun」,
-Skill/S_KirisameMarisa_9_3_Description,Text,,,,,"<color=#00BFFF>危险等级3</color> - 使一个友军获得“速度+2，速度大于0时，每多1点提供+10%暴击率，+10%暴击伤害，最多5点”的增益，持续3回合；
+Skill/S_KirisameMarisa_8_Name,Text,,,,儀符「オーレリーズサン」,仪符「Orrery's Sun」,
+Skill/S_KirisameMarisa_9_3_Description,Text,,,,"<color=#00BFFF>デンジャラスレベル3</color>以下の効果から1つ選んで発動する。
+-3ターンの間、味方1人のスピードが2増加する。スピードが0より大きい場合、1増加するたびにクリティカル率が10％、クリティカルダメージが10％増加する。(最大で5)
+
+-3ターンの間、味方1人のスピードが2減少する。スピードが0より小さい場合、1減少するたびにクリティカル率が10％、クリティカルダメージが10％増加する。(最大で5)
+
+さらに自身は「このターン中、体力が1以下にならない」を得る","<color=#00BFFF>危险等级3</color> - 使一个友军获得“速度+2，速度大于0时，每多1点提供+10%暴击率，+10%暴击伤害，最多5点”的增益，持续3回合；
 
 或使一个友军获得“速度-2，速度小于0时，每少1点提供+10%暴击率，+10%暴击伤害，最多5点”的增益，持续3回合。
 
 额外使自身获得“本回合内体力值不会降低至1以下”的增益。",
-Skill/S_KirisameMarisa_9_3_Name,Text,,,,,光击「Shoot the Moon」,
+Skill/S_KirisameMarisa_9_3_Name,Text,,,,光撃「シュート・ザ・ムーン」,光击「Shoot the Moon」,
 Skill/S_KirisameMarisa_9_A_Description,Text,,,,,,
-Skill/S_KirisameMarisa_9_A_Name,Text,,,,,危险冲动,
-Skill/S_KirisameMarisa_9_B_Name,Text,,,,,危险本能,
+Skill/S_KirisameMarisa_9_A_Name,Text,,,,デンジャラスインパルス,危险冲动,
+Skill/S_KirisameMarisa_9_B_Name,Text,,,,デンジャラスインステリクト,危险本能,
 Skill/S_KirisameMarisa_9_C_Description,Text,,,,,,
-Skill/S_KirisameMarisa_9_C_Name,Text,,,,,危险冲动,
+Skill/S_KirisameMarisa_9_C_Name,Text,,,,デンジャラスインパルス,危险冲动,
 Skill/S_KirisameMarisa_9_D_Description,Text,,,,,,
-Skill/S_KirisameMarisa_9_D_Name,Text,,,,,危险本能,
-Skill/S_KirisameMarisa_9_Description,Text,,,,,"选择 - 使一个友军获得“速度+2，速度大于0时，每多1点提供+10%暴击率，+10%暴击伤害，最多5点”的增益，持续3回合；
+Skill/S_KirisameMarisa_9_D_Name,Text,,,,デンジャラスインステリクト,危险本能,
+Skill/S_KirisameMarisa_9_Description,Text,,,,"以下の効果から1つ選んで発動する。
+-3ターンの間、味方1人のスピードが2増加する。スピードが0より大きい場合、1増加するたびにクリティカル率が10％、クリティカルダメージが10％増加する。(最大で5)
+
+-3ターンの間、味方1人のスピードが2減少する。スピードが0より小さい場合、1減少するたびにクリティカル率が10％、クリティカルダメージが10％増加する。(最大で5)","选择 - 使一个友军获得“速度+2，速度大于0时，每多1点提供+10%暴击率，+10%暴击伤害，最多5点”的增益，持续3回合；
 
 或使一个友军获得“速度-2，速度小于0时，每少1点提供+10%暴击率，+10%暴击伤害，最多5点”的增益，持续3回合。",
-Skill/S_KirisameMarisa_9_Name,Text,,,,,光符「Earth Light Ray」,
-Skill/S_KirisameMarisa_LucyD_Description,Text,,,,,"抽取1个技能。依据当前速度：
+Skill/S_KirisameMarisa_9_Name,Text,,,,光符「アースライトレイ」,光符「Earth Light Ray」,
+Skill/S_KirisameMarisa_LucyD_Description,Text,,,,"スキルを1枚引き、現在のスピードによって以下の効果が発動する
+0より大きい：さらにスキルを1枚引き、マナが1回復する。
+0：さらにスキルを1枚引く。
+0より小さい：マナを3回復する。","抽取1个技能。依据当前速度：
 大于0：额外抽取1个技能，恢复1点法力值。
 等于0：额外抽取1个技能。
 小于0：恢复3点法力值。",
-Skill/S_KirisameMarisa_LucyD_Name,Text,,,,,魔废「Deep Ecological Bomb」,
-Skill/S_KirisameMarisa_Rare_10_Description,Text,,,,,"握在手中 1 回合后才可使用。
+Skill/S_KirisameMarisa_LucyD_Name,Text,,,,魔廃「ディープエコロジカルボム」,魔废「Deep Ecological Bomb」,
+Skill/S_KirisameMarisa_Rare_10_Description,Text,,,,"手札に1ターン以上ある場合にのみ使用できる。
+手札にある間、手札からスキルを使用するたびにこのスキルのコストが使用したスキルのコストに等しい値減少する。
+このスキルのコストが1減少するたび、このスキルのダメージは半分になる。","握在手中 1 回合后才可使用。
 从手中释放技能时，根据其消耗的费用减少该技能的费用。
 每减少1点费用，该技能造成的伤害减少一半。",
-Skill/S_KirisameMarisa_Rare_10_Name,Text,,,,,魔炮「Final Master Spark」,
-Skill/S_KirisameMarisa_Rare_11_Description,Text,,,,,"倒计时期间，自身处于无敌状态，但无法行动。
+Skill/S_KirisameMarisa_Rare_10_Name,Text,,,,魔砲「ファイナルマスタースパーク」,魔炮「Final Master Spark」,
+Skill/S_KirisameMarisa_Rare_11_Description,Text,,,,"カウントダウン中、自身は[無敵]を得るが行動不能になる。
+発動時、スピードが0より大きい場合、1増加するごとに&a<color=#FF7A33>(攻撃力の50%)</color>ダメージを追加で与える。","倒计时期间，自身处于无敌状态，但无法行动。
 释放时，速度大于0时，每有1点速度，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的50%)</color>。",
-Skill/S_KirisameMarisa_Rare_11_Name,Text,,,,,彗星「Blazing Star」,
-Skill/S_KirisameMarisa_Rare_12_Description,Text,,,,,"抽取1个技能。
+Skill/S_KirisameMarisa_Rare_11_Name,Text,,,,彗星「ブレイジングスター」,彗星「Blazing Star」,
+Skill/S_KirisameMarisa_Rare_12_Description,Text,,,,"スキルを1枚引く。
+<i><color=#696969>他のスペルカードと共鳴し、特別な効果を発動するようだ……</color></i>","抽取1个技能。
 <i><color=#696969>似乎能和其他稀有符卡共鸣，引发出更加独特的力量……</color></i>",
-Skill/S_KirisameMarisa_Rare_12_Name,Text,,,,,星符「Satellite Illusion」,
-Skill/S_Satellite_Reimu_Description,Text,,,,,"<color=#FFD700>*「梦想天生」+星符「Satellite Illusion」*</color>
+Skill/S_KirisameMarisa_Rare_12_Name,Text,,,,星符「サテライトイリュージョン」,星符「Satellite Illusion」,
+Skill/S_Satellite_Reimu_Description,Text,,,,"<color=#FFD700>*「夢想天生」+「星符-サテライトイリュージョン」*</color>
+東方Projectに登場するキャラクター全員のレアスキルをランダムに1つ生成し、そのスキルの所有者を選ぶ。 これを手札が上限に達するまで繰り返す。 
+
+<i><color=#00BFFF>行け、霊夢！ 私たちの実力を見せてやれ！</color></i>
+<i><color=#FF4500>ええ！ ここで負けるわけにはいかないわ！</color></i>
+<i><color=#00BFFF></color>これが<color=#FF4500>これこそが</color><b><color=#FFD700>光り輝く幻想郷！</color></b></i>","<color=#FFD700>*「梦想天生」+星符「Satellite Illusion」*</color>
 从所有启用中的、《东方project》系列角色的稀有技能中，随机生成1个，并为其选择持有者。
 重复释放，直到手牌达到上限为止。
 
 <i><color=#00BFFF>上啊灵梦！让他们见识一下我们的厉害！</color></i>
 <i><color=#FF4500>啊啊！可不能在这里输了！</color></i>
 <i><color=#00BFFF>为</color><color=#FF4500>了</color><b><color=#FFD700>辉光闪耀的幻想乡！</color></b></i>",
-Skill/S_Satellite_Reimu_Name,Text,,,,,超时空「我们的幻想乡！」,
-SkillExtended/SE_KirisameMarisa_7_Name,Text,,,,,无视防御，造成的伤害翻倍。,
-SkillExtended/SE_KirisameMarisa_8_Des,Text,,,,,同时攻击所有敌人；且若目标只有一个，以暴击形式命中。,
-SkillExtended/SE_KirisameMarisa_8_Name,Text,,,,,危险改装,
+Skill/S_Satellite_Reimu_Name,Text,,,,超時空「私の幻想郷！」,超时空「我们的幻想乡！」,
+SkillExtended/SE_KirisameMarisa_7_Name,Text,,,,防御力を無視し、与えるダメージが2倍になる。,无视防御，造成的伤害翻倍。,
+SkillExtended/SE_KirisameMarisa_8_Des,Text,,,,すべての敵を同時に攻撃し、対象が1体の場合はクリティカルする,同时攻击所有敌人；且若目标只有一个，以暴击形式命中。,
+SkillExtended/SE_KirisameMarisa_8_Name,Text,,,,デンジャラスオルタレーション,危险改装,
 SkillExtended/SE_KirisameMarisa_C_0_EnforceString,Text,,,,,,
-SkillExtended/SE_KirisameMarisa_C_0_Name,Text,,,,,释放时，雾雨魔理沙获得2层<color=#00BFFF>危险等级</color>。,
-SkillExtended/SE_KirisameMarisa_C_1_EnforceString,Text,,,,,指向单体的治疗技能,
-SkillExtended/SE_KirisameMarisa_C_1_Name,Text,,,,,费用+1，同时治疗所有队友。,
-SkillExtended/SkillBase_KirisameMarisa_Name,Text,,,,,魔理沙基类,
+SkillExtended/SE_KirisameMarisa_C_0_Name,Text,,,,発動時、霧雨魔理沙が<color=#00BFFF>デンジャラスレベル</color>を2ストック得る。,释放时，雾雨魔理沙获得2层<color=#00BFFF>危险等级</color>。,
+SkillExtended/SE_KirisameMarisa_C_1_EnforceString,Text,,,,単体を対象とする回復スキル,指向单体的治疗技能,
+SkillExtended/SE_KirisameMarisa_C_1_Name,Text,,,,コストが1増加し、同時にすべての味方を回復する。,费用+1，同时治疗所有队友。,
+SkillExtended/SkillBase_KirisameMarisa_Name,Text,,,,魔理沙の基礎クラス,魔理沙基类,

@@ -1,0 +1,11 @@
+{
+    "B_YuyukoF_Ghost": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Yuyuko.B_YuyukoF_Ghost",
+        "BuffTag": "null",
+        "Name": "<color=#E066FF>唤魂</color>",
+        "Icon": "B_YuyukoF_Ghost\\B_YuyukoF_Ghost_Icon.png",
+        "Description": "当前有<color=#E066FF>&a</color>点<color=#E066FF>亡魂</color>。"
+    }
+}

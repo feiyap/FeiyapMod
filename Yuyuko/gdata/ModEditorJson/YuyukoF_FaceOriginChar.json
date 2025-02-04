@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "YuyukoF\\YuyukoFFaceOriginChar.png",
-        "offsetMax": {
-            "x": 398.733337,
-            "y": 253.322556
+        "pivot": {
+            "x": 0.184241608,
+            "y": 0.689484239
         },
         "offsetMin": {
-            "x": -425.276733,
-            "y": -1198.67749
+            "x": -206.274811,
+            "y": -1666.4176
         },
-        "pivot": {
-            "x": 0.5144072,
-            "y": 0.821834266
+        "offsetMax": {
+            "x": 905.715149,
+            "y": 742.692566
         }
     },
     "MyChangeType": "FaceOriginChar",
