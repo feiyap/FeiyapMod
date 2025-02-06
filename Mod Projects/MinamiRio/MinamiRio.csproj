@@ -413,6 +413,7 @@
     <Compile Include="BattleCharDamagePatch.cs" />
     <Compile Include="BV_MinamiRio_P.cs" />
     <Compile Include="Characterget_statPatch.cs" />
+    <Compile Include="NotExpertPlusMod.cs" />
     <Compile Include="SkillToolTipPatch.cs" />
     <Compile Include="FieldStorePatch.cs" />
     <Compile Include="ForgeTreePlugin.cs" />

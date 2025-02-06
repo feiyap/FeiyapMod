@@ -57,5 +57,64 @@ namespace MinamiRio
         }
     }
 
+    [HarmonyPatch(typeof(BattleSystem))]
+    class BattleSystem_Patch
+    {
+        public static int BattleWaveExtra = 0;
+        public static int BattleWaveExtraNow = 0;
+        public static List<GDEEnemyQueueData> BattleWaveExtraList = new List<GDEEnemyQueueData>();
 
+        [HarmonyPostfix]
+        [HarmonyPatch("BattleStart")]
+        public static void BattleStart_Postfix()
+        {
+            BattleWaveExtra = 3;
+            if (PlayData.TSavedata.StageNum == 3)
+            {
+                BattleWaveExtra = 4;
+            }
+            BattleWaveExtraNow = 0;
+
+            BattleWaveExtraList.AddRange(StageSystem.instance.StageData.FieldEnemy);
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch("set_EnemyClear")]
+        public static void EnemyClear_Postfix(ref bool __result, BattleSystem __instance)
+        {
+            using (List<SkillParticle>.Enumerator enumerator = __instance.Particles.GetEnumerator())
+            {
+                while (enumerator.MoveNext())
+                {
+                    if (enumerator.Current.NonEffect)
+                    {
+                        __result = false;
+                    }
+                }
+            }
+            __result = !__instance.ClearEnabled && (__instance.EnemyTeam.AliveChars_Vanish.Count == 0 && __instance.EnemyWaveData.EnemyWaveObject.Count == 0 && __instance.EnemyWaveData.wave2out && __instance.EnemyWaveData.wave3out && BattleWaveExtraNow >= BattleWaveExtra);
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch("TurnUpdate")]
+        public static void TurnUpdate_Postfix(BattleSystem __instance)
+        {
+            if (__instance.EnemyList.Count == 0 && __instance.EnemyWaveData.EnemyWaveObject.Count == 0 && __instance.EnemyWaveData.wave2out && __instance.EnemyWaveData.wave3out && BattleWaveExtraNow < BattleWaveExtra)
+            {
+                BattleWaveExtraNow++;
+
+                GDEEnemyQueueData gdeeqd = BattleWaveExtraList.Random(RandomClassKey.Enemy);
+                string Tempkey = gdeeqd.Key;
+
+                __instance.StartCoroutine(__instance.NewEnemy(Tempkey));
+
+                __instance.EnemyWaveData.wave2out = false;
+                __instance.EnemyWaveData.wave2turn = __instance.TurnNum + gdeeqd.Wave2Turn;
+                __instance.EnemyWaveData.wave3out = false;
+                __instance.EnemyWaveData.wave3turn = __instance.TurnNum + gdeeqd.Wave3Turn;
+
+                BattleWaveExtraList.Remove(gdeeqd);
+            }
+        }
+    }
 }
