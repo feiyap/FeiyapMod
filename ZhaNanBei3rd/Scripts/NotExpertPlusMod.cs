@@ -25,6 +25,14 @@ namespace ZhaNanBei3rd
             {
                 __instance.Button_BloodyMist.gameObject.SetActive(false);
             }
+            if (__instance.Button_FriendShip != null)
+            {
+                __instance.Button_FriendShip.gameObject.SetActive(false);
+            }
+            if (__instance.Button_LerynPassive != null)
+            {
+                __instance.Button_LerynPassive.SetActive(false);
+            }
         }
     }
 
@@ -37,23 +45,31 @@ namespace ZhaNanBei3rd
         {
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage1_1)
             {
-                PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Scroll_Scroll_Uncurse, 2));
-                PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Consume_Bread, 4));
-                PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Item_Key, 1));
-                PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Gold, 350));
-                PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
+                ItemBase itemBase = ItemBase.GetItem(GDEItemKeys.Item_Scroll_Scroll_Uncurse, 2);
+                (itemBase as Item_Equip)._Isidentify = true;
+                //PartyInventory.InvenM.AddNewItem(itemBase);
+                //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Consume_Bread, 4));
+                //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Item_Key, 1));
+                //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Gold, 350));
+                //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
+
+                InventoryManager.Reward(itemBase);
+                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Consume_Bread, 4));
+                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Item_Key, 1));
+                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Gold, 350));
+                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage1_2)
             {
-                PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 5));
+                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 5));
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage2_2)
             {
-                PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 5));
+                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 5));
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage3)
             {
-                PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
+                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
             }
         }
     }
@@ -91,7 +107,7 @@ namespace ZhaNanBei3rd
 
             foreach (GDEEnemyData gdeed in __instance.MainQueueData.Enemys)
             {
-                if (gdeed.Boss == true)
+                if (gdeed.Boss == true || gdeed.Key == GDEItemKeys.Enemy_S1_Kitchenmaid)
                 {
                     isBoss = true;
                 }
@@ -146,8 +162,7 @@ namespace ZhaNanBei3rd
                 GDEEnemyQueueData gdeeqd = BattleWaveExtraList.Random(RandomClassKey.Enemy);
                 string Tempkey = gdeeqd.Key;
 
-                Debug.Log(Tempkey);
-
+                __instance.CurseBattle = false;
                 __instance.StartCoroutine(__instance.NewEnemy(Tempkey));
 
                 __instance.EnemyWaveData.wave2turn = __instance.TurnNum + gdeeqd.Wave2Turn;

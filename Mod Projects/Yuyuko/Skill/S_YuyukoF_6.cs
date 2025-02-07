@@ -23,6 +23,43 @@ namespace Yuyuko
 	/// </summary>
     public class S_YuyukoF_6:Skill_Extended
     {
+        public int Fixed_count = 0;
 
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            Fixed_count++;
+
+            if (Fixed_count >= 12)
+            {
+                Fixed_count = 0;
+
+                if (P_YuyukoF.CheckGhost(4, true))
+                {
+                    base.SkillParticleOn();
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                }
+            }
+        }
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)
+            {
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(-20);
+            }
+            else
+            {
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
+            }
+
+            if (P_YuyukoF.CheckGhost(4, false))
+            {
+                P_YuyukoF.DeadRevive(this.BChar, 0);
+            }
+        }
     }
 }

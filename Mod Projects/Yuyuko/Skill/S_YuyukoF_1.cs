@@ -51,12 +51,14 @@ namespace Yuyuko
 
             if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)
             {
-                if (P_YuyukoF.CheckGhost(5, false))
-                {
-                    Skill skill = Skill.TempSkill("S_YuyukoF_1", this.BChar, this.BChar.MyTeam);
-                    skill.Counting = 2;
-                    this.BChar.ParticleOut(skill, Targets[0]);
-                }
+                
+            }
+
+            if (P_YuyukoF.CheckGhost(5, false))
+            {
+                Skill skill = Skill.TempSkill("S_YuyukoF_1", this.BChar, this.BChar.MyTeam);
+                skill.Counting = 2;
+                this.BChar.ParticleOut(skill, Targets[0]);
             }
         }
     }

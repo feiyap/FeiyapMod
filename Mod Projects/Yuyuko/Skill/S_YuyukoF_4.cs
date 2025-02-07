@@ -11,6 +11,7 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
+using BasicMethods;
 namespace Yuyuko
 {
 	/// <summary>
@@ -21,8 +22,35 @@ namespace Yuyuko
 	/// 幽冥蝶 - 回引时，造成&a的伤害(&user攻击力的90%)。
 	/// 人魂蝶 - 回引时，(100%干扰成功率)眩晕1回合。
 	/// </summary>
-    public class S_YuyukoF_4:Skill_Extended
+    public class S_YuyukoF_4:Skill_Extended, IP_SkillSelfExcept
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
 
+            int max = 0;
+            foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
+            {
+                int count = BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[this.BChar];
+                if (count > max)
+                {
+                    max = count;
+                }
+            }
+
+            foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
+            {
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(be, max, this.BChar, true);
+            }
+        }
+
+        public bool SelfExcept(SkillLocation skillLoaction)
+        {
+            foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
+            {
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(be, (int)(this.BChar.GetStat.atk * 0.9f), this.BChar);
+            }
+            return true;
+        }
     }
 }
