@@ -1,0 +1,15 @@
+{
+    "B_Sanae_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "KochiyaSanae.B_Sanae_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "被祭拜的风之人",
+        "Icon": "B_Sanae_P\\B_Sanae_P_Icon.png",
+        "Description": "当前连击数为：&a\n距离恢复法力值还剩：&b"
+    }
+}

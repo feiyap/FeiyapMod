@@ -1,0 +1,14 @@
+{
+"Scroll_Purification": {
+        "_gdeType_Lock": "Bool",
+        "Lock": false,
+        "_gdeType_name": "String",
+        "name": "\uc815\ud654 \uc2a4\ud06c\ub864",
+        "_gdeType_Description": "String",
+        "Description": "\uc7a5\ube44\ud558\uace0 \uc788\ub294 \ubaa8\ub4e0 \uc544\uc774\ud15c\uc758 \uc800\uc8fc\ub97c \ud574\uc81c\ud569\ub2c8\ub2e4.\n\uc778\uc811\ud55c \ud0c0\uc77c\uc5d0 \uc788\ub294 \uc801 \uc778\uce74\uc6b4\ud130\ub97c \ubaa8\ub450 \uc5c6\uc560\uace0 \ube44\ubc00\ubcbd\uc744 \ubc1d\ud799\ub2c8\ub2e4.",
+        "_gdeSchema": "Item_Scroll",
+        "SubClassName": "",
+        "_gdeType_SubClassName": "String",
+        "_gdeIsList_SubClassName": 0
+    }
+}

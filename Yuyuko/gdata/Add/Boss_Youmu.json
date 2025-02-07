@@ -1,0 +1,31 @@
+{
+    "Boss_Youmu": {
+        "_gdeSchema": "Enemy",
+        "hit": 107,
+        "name": "魂魄妖梦",
+        "Boss": true,
+        "NotCursed": true,
+        "atk": 18,
+        "reg": 8,
+        "cri": 7,
+        "dodge": 3,
+        "RES_CC": 10,
+        "RES_DEBUFF": 18,
+        "RES_DOT": 15,
+        "spd": 3,
+        "maxhp": 480,
+        "PlusActCount": [
+            2
+        ],
+        "CollactionSprite_Cover": "Boss_Youmu\\Boss_YoumuCollactionSprite_Cover.png",
+        "SubName": "魂魄妖梦？",
+        "EnemyStory": "",
+        "CollactionEnemy": 5,
+        "Skills": [
+            "S_YuyukoF_0"
+        ],
+        "Passives": [
+            "B_YuyukoF_1"
+        ]
+    }
+}

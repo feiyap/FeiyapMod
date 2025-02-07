@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlwaysInquisition", "AlwaysInquisition.csproj", "{A273C3B9-9B0B-4E53-95EA-F6A4F5C41EFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A273C3B9-9B0B-4E53-95EA-F6A4F5C41EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A273C3B9-9B0B-4E53-95EA-F6A4F5C41EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26B2DAA1-F6A2-407E-A915-C167F27FA979}
+	EndGlobalSection
+EndGlobal

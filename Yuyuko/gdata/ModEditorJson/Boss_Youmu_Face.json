@@ -1,0 +1,23 @@
+{
+    "myKey": "Boss_Youmu",
+    "myField": "Face",
+    "myValues": {
+        "path": "Boss_Youmu\\Boss_YoumuFace.png",
+        "offsetMax": {
+            "x": 471.0109,
+            "y": 245.327637
+        },
+        "offsetMin": {
+            "x": -504.249176,
+            "y": -1085.67236
+        },
+        "pivot": {
+            "x": 0.51495713,
+            "y": 0.8114821
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

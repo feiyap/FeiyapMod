@@ -1,0 +1,18 @@
+{
+    "SR_Boss_Youmu": {
+        "_gdeSchema": "EnemyQueue",
+        "CustomBGM": true,
+        "UseCustomPosition": false,
+        "Pos": [
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        ],
+        "Enemys": [
+            "Boss_Youmu"
+        ],
+        "CustomeFogTurn": 10
+    }
+}

@@ -27,7 +27,7 @@ namespace KochiyaSanae
             list.AddRange(this.BChar.MyTeam.Skills_UsedDeck);
             for (int i = 0; i < list.Count; i++)
             {
-                if (list[i].AP > 1)
+                if (list[i]._AP > 1)
                 {
                     list.RemoveAt(i);
                     i--;

@@ -17,15 +17,15 @@ namespace KochiyaSanae
 	/// 东风谷早苗
 	/// Passive:
 	/// </summary>
-    public class P_KochiyaSanae:Passive_Char, IP_PlayerTurn, IP_SkillUse_Team
+    public class P_KochiyaSanae:Passive_Char, IP_PlayerTurn, IP_SkillUse_Team, IP_BattleStart_Ones
     {
-        public int UseNum;
+        public static int UseNum;
 
         public override void Init()
         {
             base.Init();
             this.OnePassive = true;
-            this.UseNum = 0;
+            UseNum = 0;
         }
 
         public void Turn()
@@ -36,16 +36,21 @@ namespace KochiyaSanae
 
         public void SkillUseTeam(Skill skill)
         {
-            Debug.Log(UseNum);
+            Debug.Log(skill.MySkill.KeyID);
             if ((!skill.NotCount && skill.AP <= 1) || skill.AP <= 0)
             {
-                this.UseNum++;
+                UseNum++;
             }
-            if (this.UseNum >= 4)
+            if (UseNum >= 4)
             {
-                this.UseNum = 0;
+                UseNum = 0;
                 BattleSystem.instance.AllyTeam.AP += 1;
             }
+        }
+
+        public void BattleStart(BattleSystem Ins)
+        {
+            this.BChar.BuffAdd("B_Sanae_P", this.BChar);
         }
     }
 }

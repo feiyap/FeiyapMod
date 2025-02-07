@@ -12,6 +12,12 @@ namespace KochiyaSanae
 		/// </summary>
         public static string Buff_B_Sanae_5 = "B_Sanae_5";
 		/// <summary>
+		/// 被祭拜的风之人
+		/// 当前连击数为：&a
+		/// 距离恢复法力值还剩：&b
+		/// </summary>
+        public static string Buff_B_Sanae_P = "B_Sanae_P";
+		/// <summary>
 		/// 开海的奇迹
 		/// 手中所有的0费技能获得迅速，造成&a(30%)额外伤害或&b(30%)额外治疗。
 		/// </summary>

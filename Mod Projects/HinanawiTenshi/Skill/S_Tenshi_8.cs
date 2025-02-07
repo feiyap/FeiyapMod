@@ -52,8 +52,8 @@ namespace HinanawiTenshi
                         foreach (BattleChar bc in BattleSystem.instance.AllyList)
                         {
                             bc.BuffAdd(str, this.BChar);
-                            BattleSystem.instance.GetBattleValue<BV_Tenshi_P>().Kishi++;
                         }
+                        BattleSystem.instance.GetBattleValue<BV_Tenshi_P>().Kishi++;
                     }
                 }
             }

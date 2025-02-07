@@ -28,7 +28,7 @@ namespace HinanawiTenshi
         {
             base.Init();
             this.OnePassive = true;
-            this.APChange = 1;
+            this.APChange = -1;
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)

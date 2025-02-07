@@ -1,0 +1,11 @@
+{
+    "myKey": null,
+    "myField": "FieldEnemy",
+    "myValues": {
+        "Queue_Key": "SR_Boss_Youmu"
+    },
+    "MyChangeType": "EnemyQueueInStage",
+    "myKeys": [
+        "Stage_Crimson"
+    ]
+}

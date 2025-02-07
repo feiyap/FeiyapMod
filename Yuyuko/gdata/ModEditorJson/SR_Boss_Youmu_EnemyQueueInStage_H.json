@@ -1,0 +1,11 @@
+{
+    "myKey": null,
+    "myField": "EventEnemy",
+    "myValues": {
+        "Queue_Key": "SR_Boss_Youmu"
+    },
+    "MyChangeType": "EnemyQueueInStage",
+    "myKeys": [
+        
+    ]
+}
