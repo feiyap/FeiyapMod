@@ -11,6 +11,7 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
+using BasicMethods;
 namespace Yuyuko
 {
 	/// <summary>
@@ -21,8 +22,20 @@ namespace Yuyuko
 	/// 幽冥蝶 - 
 	/// 人魂蝶 - 
 	/// </summary>
-    public class S_YuyukoF_Rare_1:Skill_Extended
+    public class S_YuyukoF_Rare_1:Skill_Extended, IP_BuffAddAfter, IP_SkillSelfExcept
     {
+        public void BuffaddedAfter(BattleChar BuffUser, BattleChar BuffTaker, Buff addedbuff, StackBuff stackBuff)
+        {
+            if (BuffTaker == this.BChar && addedbuff.BuffData.Key == "B_YuyukoF_P_3")
+            {
 
+            }
+        }
+
+        public bool SelfExcept(SkillLocation skillLoaction)
+        {
+            
+            return true;
+        }
     }
 }

@@ -95,7 +95,7 @@
         "_gdeType_Camp": "Bool",
         "Camp": true,
         "_gdeType_DefultFogTurn": "Int",
-        "DefultFogTurn": 15,
+        "DefultFogTurn": 18,
         "_gdeType_Cursed_NomalEnemy": "Bool",
         "Cursed_NomalEnemy": true,
         "_gdeType_Cursed_EventEnemy": "Bool",

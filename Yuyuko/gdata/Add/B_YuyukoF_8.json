@@ -1,0 +1,15 @@
+{
+    "B_YuyukoF_8": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "醉梦蝶",
+        "Description": "受到的伤害降低为0，但&user增加等量于伤害值的返魂值。\n&user陷入永眠时立即解除。",
+        "LifeTime": 3
+    }
+}

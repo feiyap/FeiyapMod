@@ -1,0 +1,32 @@
+{
+    "BossEquipRandomDrop": {
+        "_gdeType_Common": "Int",
+        "Common": 0,
+        "_gdeType_UnCommon": "Int",
+        "UnCommon": 8,
+        "_gdeType_Rare": "Int",
+        "Rare": 65,
+        "_gdeType_Unique": "Int",
+        "Unique": 20,
+        "_gdeType_Legendary": "Int",
+        "Legendary": 5,
+        "_gdeType_NoItem": "Int",
+        "NoItem": 0,
+        "_gdeSchema": "RandomDrop"
+    },
+    "BossEquipRandomDropEx": {
+        "_gdeType_Common": "Int",
+        "Common": 0,
+        "_gdeType_UnCommon": "Int",
+        "UnCommon": 8,
+        "_gdeType_Rare": "Int",
+        "Rare": 70,
+        "_gdeType_Unique": "Int",
+        "Unique": 20,
+        "_gdeType_Legendary": "Int",
+        "Legendary": 1,
+        "_gdeType_NoItem": "Int",
+        "NoItem": 0,
+        "_gdeSchema": "RandomDrop"
+    }
+}

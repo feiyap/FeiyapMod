@@ -4,6 +4,10 @@ namespace Yuyuko
     public static class ModItemKeys
     {
 		/// <summary>
+		/// 魂魄妖梦
+		/// </summary>
+        public static string Enemy_Boss_Youmu = "Boss_Youmu";
+		/// <summary>
 		/// 轮回蝶
 		/// 结算时降低&a最大体力值(&user的攻击力的25%)。
 		/// </summary>
@@ -76,6 +80,7 @@ namespace Yuyuko
         public static string SkillEffect_SE_T_S_YuyukoF_1 = "SE_T_S_YuyukoF_1";
         public static string SkillEffect_SE_T_S_YuyukoF_2 = "SE_T_S_YuyukoF_2";
         public static string SkillEffect_SE_T_S_YuyukoF_P_2 = "SE_T_S_YuyukoF_P_2";
+        public static string EnemyQueue_SR_Boss_Youmu = "SR_Boss_Youmu";
 		/// <summary>
 		/// 亡乡「亡我乡 -宿罪-」
 		/// 增加20返魂值。
@@ -106,6 +111,11 @@ namespace Yuyuko
         public static string Skill_S_YuyukoF_2 = "S_YuyukoF_2";
 		/// <summary>
 		/// 亡舞「生者必灭之理」
+		/// 减少20返魂值。
+		/// 华胥 - 展示牌库中的技能。选择其中1个放逐。
+		/// 葬送 - 展示弃牌库中的技能。选择其中1个放逐。
+		/// 幽冥蝶 - 施加时，选择手牌中的1个技能放逐。
+		/// 人魂蝶 - 施加时，选择倒计时栏中的1个技能放逐。
 		/// </summary>
         public static string Skill_S_YuyukoF_3 = "S_YuyukoF_3";
 		/// <summary>
@@ -155,6 +165,8 @@ namespace Yuyuko
         public static string Skill_S_YuyukoF_8 = "S_YuyukoF_8";
 		/// <summary>
 		/// 樱花「依恋未酌宴」
+		/// 选择 - 增加40返魂值；
+		/// 减少40返魂值。
 		/// </summary>
         public static string Skill_S_YuyukoF_9 = "S_YuyukoF_9";
 		/// <summary>
@@ -232,10 +244,37 @@ namespace Yuyuko
 		/// <color=#CAE1FF><b>亡者召还X</b></color> - 从放逐牌库将1个费用不超过X的技能拿回手中。
 		/// </summary>
         public static string Character_YuyukoF = "YuyukoF";
+        public static string SkillEffect_SE_T_S_YuyukoF_3 = "SE_T_S_YuyukoF_3";
+        public static string SkillEffect_SE_T_S_YuyukoF_4 = "SE_T_S_YuyukoF_4";
+        public static string SkillEffect_SE_T_S_YuyukoF_5 = "SE_T_S_YuyukoF_5";
+        public static string SkillEffect_SE_T_S_YuyukoF_6 = "SE_T_S_YuyukoF_6";
 		/// <summary>
-		/// 魂魄妖梦
+		/// 醉梦蝶
+		/// 受到的伤害降低为0，但&user增加等量于伤害值的返魂值。
+		/// &user陷入永眠时立即解除。
 		/// </summary>
-        public static string Enemy_Boss_Youmu = "Boss_Youmu";
+        public static string Buff_B_YuyukoF_8 = "B_YuyukoF_8";
+        public static string SkillEffect_SE_T_S_YuyukoF_8 = "SE_T_S_YuyukoF_8";
+        public static string SkillEffect_SE_T_S_YuyukoF_9 = "SE_T_S_YuyukoF_9";
+		/// <summary>
+		/// 樱散蝶
+		/// 体力值不会降低至1以下。
+		/// </summary>
+        public static string Buff_B_YuyukoF_9 = "B_YuyukoF_9";
+        public static string SkillEffect_SE_T_S_YuyukoF_Rare_1 = "SE_T_S_YuyukoF_Rare_1";
+        public static string SkillEffect_SE_T_S_YuyukoF_Rare_2 = "SE_T_S_YuyukoF_Rare_2";
+        public static string SkillEffect_SE_T_S_YuyukoF_Rare_3 = "SE_T_S_YuyukoF_Rare_3";
+		/// <summary>
+		/// 明光蝶
+		/// 每个回合第一次触发唤魂X时，获得X点亡魂，并回复X点法力值（无法超过法力值上限）。
+		/// </summary>
+        public static string Buff_B_YuyukoF_Rare_3 = "B_YuyukoF_Rare_3";
+		/// <summary>
+		/// 浮月蝶
+		/// 所有造成的伤害额外增加&a(35%)点，最多触发 10 次。
+		/// 当前触发次数：&b
+		/// </summary>
+        public static string Buff_B_YuyukoF_Rare_3_1 = "B_YuyukoF_Rare_3_1";
 
     }
 

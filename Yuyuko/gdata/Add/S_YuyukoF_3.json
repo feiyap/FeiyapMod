@@ -6,11 +6,30 @@
         "Target": "enemy",
         "Track": false,
         "Name": "亡舞「生者必灭之理」",
-        "Description": "",
+        "Description": "减少20返魂值。\n\n华胥 - 展示牌库中的技能。选择其中1个放逐。\n葬送 - 展示弃牌库中的技能。选择其中1个放逐。\n幽冥蝶 - 施加时，选择手牌中的1个技能放逐。\n人魂蝶 - 施加时，选择倒计时栏中的1个技能放逐。",
         "UseAp": 1,
         "User": "YuyukoF",
         "Image_0": "S_YuyukoF_3\\S_YuyukoF_3_Image_0.png",
         "Image_1": "S_YuyukoF_3\\S_YuyukoF_3_Image_1.png",
-        "Image_2": "S_YuyukoF_3\\S_YuyukoF_3_Image_2.png"
+        "Image_2": "S_YuyukoF_3\\S_YuyukoF_3_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "Yuyuko.S_YuyukoF_3"
+        ],
+        "Effect_Target": "SE_T_S_YuyukoF_3",
+        "Counting": 1
     }
 }

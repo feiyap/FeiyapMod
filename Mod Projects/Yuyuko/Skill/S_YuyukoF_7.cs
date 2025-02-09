@@ -25,6 +25,25 @@ namespace Yuyuko
 	/// </summary>
     public class S_YuyukoF_7:Skill_Extended
     {
+        public override bool Terms()
+        {
+            return this.BChar.GetStat.Stun || P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Yongmian;
+        }
 
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            foreach (Buff buff in this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.CC, false))
+            {
+                buff.SelfDestroy();
+            }
+
+            BattleSystem.instance.AllyTeam.AP++;
+            BattleSystem.instance.AllyTeam.Draw();
+
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(0, true);
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(50, true);
+
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost += 30;
+        }
     }
 }

@@ -10,6 +10,7 @@ using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using ChronoArkMod.ModData;
 using System.Collections;
+using TileTypes;
 
 namespace ZhaNanBei3rd
 {
@@ -45,19 +46,21 @@ namespace ZhaNanBei3rd
         {
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage1_1)
             {
-                ItemBase itemBase = ItemBase.GetItem(GDEItemKeys.Item_Scroll_Scroll_Uncurse, 2);
-                (itemBase as Item_Equip)._Isidentify = true;
+                PlayData.TSavedata.IdentifyItems.Add(GDEItemKeys.Item_Scroll_Scroll_Uncurse);
                 //PartyInventory.InvenM.AddNewItem(itemBase);
                 //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Consume_Bread, 4));
                 //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Item_Key, 1));
                 //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Gold, 350));
                 //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
 
-                InventoryManager.Reward(itemBase);
-                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Consume_Bread, 4));
-                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Item_Key, 1));
-                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Gold, 350));
-                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
+                List<ItemBase> list = new List<ItemBase>();
+                list.Add(ItemBase.GetItem(GDEItemKeys.Item_Scroll_Scroll_Uncurse, 2));
+                list.Add(ItemBase.GetItem(GDEItemKeys.Item_Consume_Bread, 4));
+                list.Add(ItemBase.GetItem(GDEItemKeys.Item_Misc_Item_Key, 1));
+                list.Add(ItemBase.GetItem(GDEItemKeys.Item_Misc_Gold, 350));
+                list.Add(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
+
+                InventoryManager.Reward(list);
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage1_2)
             {
@@ -70,6 +73,113 @@ namespace ZhaNanBei3rd
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage3)
             {
                 InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(FieldStore))]
+    class FieldStore_Patch
+    {
+        [HarmonyPostfix]
+        [HarmonyPatch(nameof(FieldStore.Init))]
+        static void InitPostfix(FieldStore __instance)
+        {
+            ItemBase ib = __instance.StoreItems.Find(t => t.itemkey == GDEItemKeys.Item_Consume_DLC_Ticket_SwimDLC);
+            if (ib != null)
+            {
+                    __instance.StoreItems.Remove(ib);
+            }
+            ItemBase ib2 = __instance.StoreItems.Find(t => t.itemkey == GDEItemKeys.Item_Consume_DLC_Ticket_CasinoDLC);
+            if (ib2 != null)
+            {
+                __instance.StoreItems.Remove(ib2);
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(HexGenerator))]
+    class HexGenerator_Patch
+    {
+        [HarmonyPrefix]
+        [HarmonyPatch(nameof(HexGenerator.CrimsonMap))]
+        static bool CrimsonMapPrefix(ref HexMap __result, HexGenerator __instance)
+        {
+            new TileTypes.Event();
+            Start start = new Start();
+            new Boss();
+            MiniBoss miniBoss = new MiniBoss();
+            new Block();
+            new BlockEvent();
+            new Objective();
+            Monster monster = new Monster();
+            new ItemEvent();
+            new TeleportTile();
+            new LightTile();
+            new Store();
+            new HiddenWall();
+            Redwilder_Camp redwilder_Camp = new Redwilder_Camp();
+            HexMap hexMap = new HexMap();
+            hexMap.StageData = new GDEStageData(GDEItemKeys.Stage_Stage_Crimson);
+            int num = 16;
+            int num2 = 10;
+            hexMap.MapObject = new MapTile[num, num2];
+            for (int i = 0; i < num; i++)
+            {
+                for (int j = 0; j < num2; j++)
+                {
+                    hexMap.MapObject[i, j] = new MapTile();
+                }
+            }
+            for (int k = 0; k < num; k++)
+            {
+                for (int l = 0; l < num2; l++)
+                {
+                    hexMap.MapObject[k, l].Init(new Vector2((float)k, (float)l), hexMap);
+                    if (k <= 1 || k >= num - 2 || l <= 1 || l >= num2 - 2)
+                    {
+                        hexMap.MapObject[k, l].Info.Type = new Border();
+                    }
+                    else
+                    {
+                        hexMap.MapObject[k, l].Info.Type = new Block();
+                    }
+                }
+            }
+            new List<Vector2Int>();
+            start.Add(ref hexMap, new Vector2Int(3, 4));
+            hexMap.MapObject[4, 4].Info.Type = new DebugRoad();
+            redwilder_Camp.Add(ref hexMap, hexMap.MapObject[5, 4].Pos);
+            monster.Add(ref hexMap, hexMap.MapObject[6, 4].Pos);
+            hexMap.MapObject[7, 4].Info.Type = new DebugRoad();
+            hexMap.MapObject[8, 4].Info.Type = new DebugRoad();
+            hexMap.MapObject[9, 4].Info.Type = new DebugRoad();
+            hexMap.MapObject[4, 5].Info.Type = new DebugRoad();
+            hexMap.MapObject[7, 5].Info.Type = new DebugRoad();
+            hexMap.MapObject[8, 5].Info.Type = new DebugRoad();
+            hexMap.MapObject[9, 5].Info.Type = new DebugRoad();
+            hexMap.MapObject[10, 5].Info.Type = new DebugRoad();
+            hexMap.MapObject[11, 5].Info.Type = new DebugRoad();
+            hexMap.MapObject[12, 4].Info.Type = new DebugRoad();
+            hexMap.MapObject[12, 5].Info.Type = new DebugRoad();
+            hexMap.MapObject[13, 4].Info.Type = new DebugRoad();
+            hexMap.MapObject[13, 5].Info.Type = new DebugRoad();
+            miniBoss.Add(ref hexMap, hexMap.MapObject[13, 5].Pos);
+
+            __result = hexMap;
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(RandomManager))]
+    class RandomManager_Patch
+    {
+        [HarmonyPostfix]
+        [HarmonyPatch(nameof(RandomManager.RandomPer), new Type[] { typeof(string), typeof(int), typeof(int) })]
+        static void RandomPerPostfix(ref bool __result, string RandomKey, int MaxPer, int Per)
+        {
+            if (RandomKey == RandomClassKey.BattleClear)
+            {
+                __result = RandomManager.RandomInt(RandomKey, 0, 100) < 50;
             }
         }
     }
@@ -115,14 +225,16 @@ namespace ZhaNanBei3rd
 
             if (!isBoss && PlayData.TSavedata.NowStageMapKey != GDEItemKeys.Stage_Stage_Crimson)
             {
-                BattleWaveExtra = 3;
+                BattleWaveExtra = 2;
                 if (PlayData.TSavedata.StageNum == 3)
                 {
-                    BattleWaveExtra = 4;
+                    BattleWaveExtra = 3;
                 }
                 BattleWaveExtraNow = 0;
 
-                BattleWaveExtraList.AddRange(StageSystem.instance.StageData.FieldEnemy);
+                BattleWaveExtraList.Clear();
+                GDEStageData stageData = new GDEStageData(PlayData.TSavedata.NowStageMapKey);
+                BattleWaveExtraList.AddRange(stageData.FieldEnemy);
             }
             else
             {

@@ -1,0 +1,11 @@
+{
+    "B_YuyukoF_9": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "樱散蝶",
+        "Description": "体力值不会降低至1以下。",
+        "LifeTime": 1,
+        "Cantdisable": true
+    }
+}

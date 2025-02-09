@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>Yuyuko20252610521</AssemblyName>
+    <AssemblyName>Yuyuko202521004428</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -387,13 +387,15 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                                                                                                                          <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                            <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BV_YuyukoF_P.cs" />
     <Compile Include="Yuyuko_ModDefinition.cs" />
     <Compile Include="Yuyuko_ModItemKeys.cs" />
     <Compile Include="Yuyuko_Plugin.cs" />
     <Compile Include="Buff\B_YuyukoF_1.cs" />
+    <Compile Include="Buff\B_YuyukoF_8.cs" />
+    <Compile Include="Buff\B_YuyukoF_9.cs" />
     <Compile Include="Buff\B_YuyukoF_Butterfly_M.cs" />
     <Compile Include="Buff\B_YuyukoF_Butterfly_R.cs" />
     <Compile Include="Buff\B_YuyukoF_Die.cs" />
@@ -401,6 +403,8 @@
     <Compile Include="Buff\B_YuyukoF_P_1.cs" />
     <Compile Include="Buff\B_YuyukoF_P_2.cs" />
     <Compile Include="Buff\B_YuyukoF_P_3.cs" />
+    <Compile Include="Buff\B_YuyukoF_Rare_3.cs" />
+    <Compile Include="Buff\B_YuyukoF_Rare_3_1.cs" />
     <Compile Include="Character\P_YuyukoF.cs" />
     <Compile Include="Enemy\Boss_Youmu.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />

@@ -11,6 +11,10 @@
         "IgnoreTaunt": true,
         "Image_0": "S_YuyukoF_4\\S_YuyukoF_4_Image_0.png",
         "Image_1": "S_YuyukoF_4\\S_YuyukoF_4_Image_1.png",
-        "Image_2": "S_YuyukoF_4\\S_YuyukoF_4_Image_2.png"
+        "Image_2": "S_YuyukoF_4\\S_YuyukoF_4_Image_2.png",
+        "Effect_Target": "SE_T_S_YuyukoF_4",
+        "SkillExtended": [
+            "Yuyuko.S_YuyukoF_4"
+        ]
     }
 }

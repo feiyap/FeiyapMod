@@ -1,0 +1,82 @@
+{
+    "NomalBattleGold": {
+        "_gdeType_Soul": "Vector3",
+        "Soul": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "_gdeType_Gold": "Vector3",
+        "Gold": {
+            "x": 360,
+            "y": 600,
+            "z": 100
+        },
+        "Consume": "null",
+        "_gdeType_Consume": "RandomDrop",
+        "_gdeType_Passive": "Int",
+        "Passive": 0,
+        "_gdeType_ItemNum": "Vector2",
+        "ItemNum": {
+            "x": 1,
+            "y": 1
+        },
+        "_gdeType_Crystal": "Vector3",
+        "Crystal": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "_gdeType_Active": "Int",
+        "Active": 0,
+        "_gdeType_ItemKey": "Vector3",
+        "ItemKey": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "_gdeType_Heal": "Vector3",
+        "Heal": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "Item_Consume": [
+            
+        ],
+        "_gdeType_Item_Consume": "Item_Consume",
+        "_gdeIsList_Item_Consume": 1,
+        "Item_Passive": [
+            
+        ],
+        "_gdeType_Item_Passive": "Item_Passive",
+        "_gdeIsList_Item_Passive": 1,
+        "Item_Equip": [
+            
+        ],
+        "_gdeType_Item_Equip": "Item_Equip",
+        "_gdeIsList_Item_Equip": 1,
+        "_gdeType_TimeMoney": "Vector3",
+        "TimeMoney": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "Equip": "null",
+        "_gdeType_Equip": "RandomDrop",
+        "_gdeType_PublicSkill": "Int",
+        "PublicSkill": 0,
+        "Item_PublicSkill": "null",
+        "_gdeType_Item_PublicSkill": "Skill",
+        "_gdeType_Scroll": "Int",
+        "Scroll": 0,
+        "_gdeIsList_Reward_Extended": 1,
+        "_gdeType_Reward_Extended": "String",
+        "Reward_Extended": [
+            
+        ],
+        "_gdeType_Potions": "Int",
+        "Potions": 0,
+        "_gdeSchema": "Reward"
+    }
+}

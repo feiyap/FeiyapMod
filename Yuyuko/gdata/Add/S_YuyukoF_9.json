@@ -3,13 +3,18 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Buff",
-        "Target": "self",
+        "Target": "all_ally",
         "NotCount": true,
         "Name": "樱花「依恋未酌宴」",
         "UseAp": 1,
         "User": "YuyukoF",
         "Image_0": "S_YuyukoF_9\\S_YuyukoF_9_Image_0.png",
         "Image_1": "S_YuyukoF_9\\S_YuyukoF_9_Image_1.png",
-        "Image_2": "S_YuyukoF_9\\S_YuyukoF_9_Image_2.png"
+        "Image_2": "S_YuyukoF_9\\S_YuyukoF_9_Image_2.png",
+        "Description": "选择 - 增加40返魂值；\n减少40返魂值。",
+        "Effect_Target": "SE_T_S_YuyukoF_9",
+        "SkillExtended": [
+            "Yuyuko.S_YuyukoF_9"
+        ]
     }
 }
