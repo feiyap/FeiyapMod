@@ -18,8 +18,29 @@ namespace Yuyuko
 	/// 所有造成的伤害额外增加&a(35%)点，最多触发 10 次。
 	/// 当前触发次数：&b
 	/// </summary>
-    public class B_YuyukoF_Rare_3_1:Buff
+    public class B_YuyukoF_Rare_3_1:Buff, IP_SkillUse_User
     {
+        public int count = 0;
 
+        public override string DescExtended()
+        {
+            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.35f)).ToString());
+        }
+        
+        public void SkillUse(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (SkillD.IsDamage && SkillD.Master == this.BChar && count < 10)
+            {
+                Skill_Extended skill_Extended = new Skill_Extended();
+                skill_Extended.PlusSkillPerStat.Damage = 35;
+                SkillD.ExtendedAdd(skill_Extended);
+                count++;
+            }
+
+            if (count == 10)
+            {
+                SelfDestroy();
+            }
+        }
     }
 }

@@ -34,18 +34,69 @@ namespace Yuyuko
 
         public void ButterflyChange()
         {
-            switch (BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_M)
+            string key = BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_R;
+
+            if (key == "S_YuyukoF_Rare_1")
             {
-                case "S_YuyukoF_0":
-                    {
-                        effect = 0;
-                    }
-                    break;
-                case "S_YuyukoF_1":
-                    {
-                        effect = 1;
-                    }
-                    break;
+                effect = 10;
+            }
+            // 提取字符串末尾的数字
+            else if (int.TryParse(key.Substring(key.Length - 1), out int effect))
+            {
+                // effect 已经被赋值为对应的值
+            }
+            else
+            {
+                // 处理未找到的情况
+                effect = -1; // 或者其他默认值
+            }
+
+            //switch (BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_M)
+            //{
+            //    case "S_YuyukoF_0":
+            //        {
+            //            effect = 0;
+            //        }
+            //        break;
+            //    case "S_YuyukoF_1":
+            //        {
+            //            effect = 1;
+            //        }
+            //        break;
+            //}
+        }
+
+        public void Awake()
+        {
+            if (effect == 2)
+            {
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost += 8;
+            }
+            if (effect == 3)
+            {
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost += 8;
+            }
+            if (effect == 7)
+            {
+                BattleSystem.instance.AllyTeam.AP++;
+            }
+        }
+
+        public override void SelfdestroyPlus()
+        {
+            base.SelfdestroyPlus();
+            if (effect == 2)
+            {
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost += 8;
+            }
+            if (effect == 5)
+            {
+                this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_Rest, this.Usestate_F, false, 100);
+            }
+            if (effect == 6)
+            {
+                Skill tmpSkill = Skill.TempSkill("S_YuyukoF_6", this.Usestate_F, this.Usestate_F.MyTeam);
+                BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
             }
         }
 

@@ -17,8 +17,24 @@ namespace Yuyuko
 	/// 樱散蝶
 	/// 体力值不会降低至1以下。
 	/// </summary>
-    public class B_YuyukoF_9:Buff
+    public class B_YuyukoF_9:Buff, IP_HPChange
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.Strength = true;
+            if (this.BChar.HP <= 0)
+            {
+                this.BChar.HP = 1;
+            }
+        }
+        
+        public void HPChange(BattleChar Char, bool Healed)
+        {
+            if (this.BChar.HP <= 0)
+            {
+                this.BChar.HP = 1;
+            }
+        }
     }
 }

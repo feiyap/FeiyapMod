@@ -20,6 +20,12 @@ namespace Yuyuko
 	/// </summary>
     public class S_YuyukoF_Rare_2:Skill_Extended, IP_OnSkillExcept
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = false;
+        }
+
         public bool OnSkillExcept(Dictionary<Skill, SkillLocation> exceptSkills)
         {
             this.APChange -= 1;

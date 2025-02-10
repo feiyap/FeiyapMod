@@ -263,6 +263,14 @@ namespace Yuyuko
                 if (!isPreview)
                 {
                     BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost -= count;
+
+                    foreach (IP_GhostChange ip_ghostChange in BattleSystem.instance.IReturn<IP_GhostChange>())
+                    {
+                        if (ip_ghostChange != null)
+                        {
+                            ip_ghostChange.GhostChange(count);
+                        }
+                    }
                 }
                 return true;
             }

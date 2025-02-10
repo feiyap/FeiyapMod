@@ -8,8 +8,8 @@
         },
         "_gdeType_Gold": "Vector3",
         "Gold": {
-            "x": 360,
-            "y": 600,
+            "x": 240,
+            "y": 400,
             "z": 100
         },
         "Consume": "null",

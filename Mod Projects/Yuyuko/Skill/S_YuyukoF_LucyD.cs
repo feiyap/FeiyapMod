@@ -19,6 +19,12 @@ namespace Yuyuko
 	/// </summary>
     public class S_YuyukoF_LucyD:Skill_Extended
     {
+        public override void SkillTargetSingle(List<Skill> Targets)
+        {
+            base.SkillTargetSingle(Targets);
 
+            Targets[0].Except();
+            BattleSystem.instance.AllyTeam.Draw(3);
+        }
     }
 }

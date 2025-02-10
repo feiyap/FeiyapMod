@@ -46,7 +46,7 @@ namespace ZhaNanBei3rd
         {
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage1_1)
             {
-                PlayData.TSavedata.IdentifyItems.Add(GDEItemKeys.Item_Scroll_Scroll_Uncurse);
+                //PlayData.TSavedata.IdentifyItems.Add(GDEItemKeys.Item_Scroll_Scroll_Uncurse);
                 //PartyInventory.InvenM.AddNewItem(itemBase);
                 //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Consume_Bread, 4));
                 //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Item_Key, 1));
@@ -54,9 +54,9 @@ namespace ZhaNanBei3rd
                 //PartyInventory.InvenM.AddNewItem(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
 
                 List<ItemBase> list = new List<ItemBase>();
-                list.Add(ItemBase.GetItem(GDEItemKeys.Item_Scroll_Scroll_Uncurse, 2));
+                //list.Add(ItemBase.GetItem(GDEItemKeys.Item_Scroll_Scroll_Uncurse, 2));
                 list.Add(ItemBase.GetItem(GDEItemKeys.Item_Consume_Bread, 4));
-                list.Add(ItemBase.GetItem(GDEItemKeys.Item_Misc_Item_Key, 1));
+                //list.Add(ItemBase.GetItem(GDEItemKeys.Item_Misc_Item_Key, 1));
                 list.Add(ItemBase.GetItem(GDEItemKeys.Item_Misc_Gold, 350));
                 list.Add(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
 
@@ -68,11 +68,11 @@ namespace ZhaNanBei3rd
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage2_2)
             {
-                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 5));
+                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage3)
             {
-                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
+                //InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
             }
         }
     }
@@ -226,7 +226,7 @@ namespace ZhaNanBei3rd
             if (!isBoss && PlayData.TSavedata.NowStageMapKey != GDEItemKeys.Stage_Stage_Crimson)
             {
                 BattleWaveExtra = 2;
-                if (PlayData.TSavedata.StageNum == 3)
+                if (PlayData.TSavedata.StageNum == 2 || PlayData.TSavedata.StageNum == 3 || PlayData.TSavedata.StageNum == 4)
                 {
                     BattleWaveExtra = 3;
                 }
@@ -267,6 +267,14 @@ namespace ZhaNanBei3rd
         [HarmonyPatch("TurnEnd")]
         public static void TurnEnd_Postfix(BattleSystem __instance)
         {
+            if (BattleWaveExtraNow == 2)
+            {
+                __instance.CurseBattle = true;
+            }
+            else
+            {
+                __instance.CurseBattle = false;
+            }
             if (__instance.EnemyList.Count == 0 && __instance.EnemyWaveData.EnemyWaveObject.Count == 0 && __instance.EnemyWaveData.wave2out && __instance.EnemyWaveData.wave3out && BattleWaveExtraNow < BattleWaveExtra)
             {
                 BattleWaveExtraNow++;
@@ -274,7 +282,10 @@ namespace ZhaNanBei3rd
                 GDEEnemyQueueData gdeeqd = BattleWaveExtraList.Random(RandomClassKey.Enemy);
                 string Tempkey = gdeeqd.Key;
 
-                __instance.CurseBattle = false;
+                if (PlayData.TSavedata.StageNum == 1)
+                {
+                    __instance.CurseBattle = false;
+                }
                 __instance.StartCoroutine(__instance.NewEnemy(Tempkey));
 
                 __instance.EnemyWaveData.wave2turn = __instance.TurnNum + gdeeqd.Wave2Turn;
