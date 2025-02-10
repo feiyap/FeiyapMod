@@ -13,6 +13,22 @@ namespace Yuyuko
 		/// </summary>
         public static string Buff_B_YuyukoF_1 = "B_YuyukoF_1";
 		/// <summary>
+		/// 妄死蝶
+		/// 结算时降低&a最大体力值(&user攻击力的25%/每层)。
+		/// </summary>
+        public static string Buff_B_YuyukoF_6 = "B_YuyukoF_6";
+		/// <summary>
+		/// 醉梦蝶
+		/// 受到的伤害降低为0，但&user增加等量于伤害值的返魂值。
+		/// &user陷入永眠时立即解除。
+		/// </summary>
+        public static string Buff_B_YuyukoF_8 = "B_YuyukoF_8";
+		/// <summary>
+		/// 樱散蝶
+		/// 体力值不会降低至1以下。
+		/// </summary>
+        public static string Buff_B_YuyukoF_9 = "B_YuyukoF_9";
+		/// <summary>
 		/// <color=#4876FF>幽冥蝶</color>
 		/// &effect
 		/// </summary>
@@ -47,6 +63,22 @@ namespace Yuyuko
 		/// </summary>
         public static string Buff_B_YuyukoF_P_3 = "B_YuyukoF_P_3";
 		/// <summary>
+		/// 黄泉蝶
+		/// 每次有敌人死亡时，对所有敌人造成&a伤害(攻击力的50%)。
+		/// </summary>
+        public static string Buff_B_YuyukoF_Rare_2 = "B_YuyukoF_Rare_2";
+		/// <summary>
+		/// 明光蝶
+		/// 每个回合第一次触发唤魂X时，获得X点亡魂，并回复X点法力值（无法超过法力值上限）。
+		/// </summary>
+        public static string Buff_B_YuyukoF_Rare_3 = "B_YuyukoF_Rare_3";
+		/// <summary>
+		/// 浮月蝶
+		/// 所有造成的伤害额外增加&a(35%)点，最多触发 10 次。
+		/// 当前触发次数：&b
+		/// </summary>
+        public static string Buff_B_YuyukoF_Rare_3_1 = "B_YuyukoF_Rare_3_1";
+		/// <summary>
 		/// <color=#4876FF>幽冥蝶</color>
 		/// 可以被转化为<color=#4876FF>幽冥蝶</color>施加在敌人身上。
 		/// </summary>
@@ -76,10 +108,23 @@ namespace Yuyuko
 		/// 技能被放逐时，能够触发额外效果。
 		/// </summary>
         public static string SkillKeyword_Keyword_Ruin = "Keyword_Ruin";
+        public static string SkillEffect_SE_S_S_YuyukoF_Rare_2 = "SE_S_S_YuyukoF_Rare_2";
+        public static string SkillEffect_SE_S_S_YuyukoF_Rare_3 = "SE_S_S_YuyukoF_Rare_3";
         public static string SkillEffect_SE_T_S_YuyukoF_0 = "SE_T_S_YuyukoF_0";
         public static string SkillEffect_SE_T_S_YuyukoF_1 = "SE_T_S_YuyukoF_1";
         public static string SkillEffect_SE_T_S_YuyukoF_2 = "SE_T_S_YuyukoF_2";
+        public static string SkillEffect_SE_T_S_YuyukoF_3 = "SE_T_S_YuyukoF_3";
+        public static string SkillEffect_SE_T_S_YuyukoF_4 = "SE_T_S_YuyukoF_4";
+        public static string SkillEffect_SE_T_S_YuyukoF_5 = "SE_T_S_YuyukoF_5";
+        public static string SkillEffect_SE_T_S_YuyukoF_6 = "SE_T_S_YuyukoF_6";
+        public static string SkillEffect_SE_T_S_YuyukoF_8 = "SE_T_S_YuyukoF_8";
+        public static string SkillEffect_SE_T_S_YuyukoF_9 = "SE_T_S_YuyukoF_9";
         public static string SkillEffect_SE_T_S_YuyukoF_P_2 = "SE_T_S_YuyukoF_P_2";
+        public static string SkillEffect_SE_T_S_YuyukoF_Rare_1 = "SE_T_S_YuyukoF_Rare_1";
+        public static string SkillEffect_SE_T_S_YuyukoF_Rare_1_0 = "SE_T_S_YuyukoF_Rare_1_0";
+        public static string SkillEffect_SE_T_S_YuyukoF_Rare_2 = "SE_T_S_YuyukoF_Rare_2";
+        public static string SkillEffect_SE_T_S_YuyukoF_Rare_2_0 = "SE_T_S_YuyukoF_Rare_2_0";
+        public static string SkillEffect_SE_T_S_YuyukoF_Rare_3 = "SE_T_S_YuyukoF_Rare_3";
         public static string EnemyQueue_SR_Boss_Youmu = "SR_Boss_Youmu";
 		/// <summary>
 		/// 亡乡「亡我乡 -宿罪-」
@@ -93,7 +138,7 @@ namespace Yuyuko
 		/// <summary>
 		/// 死蝶「华胥之永眠」
 		/// 增加20返魂值。
-		/// 华胥 - 若指向目标拥有冥魂蝶，以暴击形式命中；若指向目标拥有人魂蝶，不再拥有倒计时1。
+		/// 华胥 - 若指向目标拥有冥魂蝶，以暴击形式命中；若指向目标拥有人魂蝶，额外造成&a伤害(攻击力的40%)。
 		/// 唤魂5 - 以倒计时2重复释放1次。
 		/// 幽冥蝶 - 受到的非痛苦伤害转化为降低等量的最大体力值。
 		/// 人魂蝶 - 受到的痛苦伤害转化为降低等量的最大体力值。
@@ -170,6 +215,16 @@ namespace Yuyuko
 		/// </summary>
         public static string Skill_S_YuyukoF_9 = "S_YuyukoF_9";
 		/// <summary>
+		/// 樱花「依恋未酌宴」
+		/// 增加40返魂值。
+		/// </summary>
+        public static string Skill_S_YuyukoF_9_0 = "S_YuyukoF_9_0";
+		/// <summary>
+		/// 樱花「依恋未酌宴」
+		/// 减少40返魂值。
+		/// </summary>
+        public static string Skill_S_YuyukoF_9_1 = "S_YuyukoF_9_1";
+		/// <summary>
 		/// 寿命「通向无寿国的期票」
 		/// 放逐目标技能，抽取3个技能。
 		/// </summary>
@@ -225,6 +280,7 @@ namespace Yuyuko
 		/// 握在手中时，每次有技能被放逐，使这个技能费用降低1点。
 		/// </summary>
         public static string Skill_S_YuyukoF_Rare_2 = "S_YuyukoF_Rare_2";
+        public static string Skill_S_YuyukoF_Rare_2_0 = "S_YuyukoF_Rare_2_0";
 		/// <summary>
 		/// 「死蝶浮月」
 		/// </summary>
@@ -232,7 +288,7 @@ namespace Yuyuko
 		/// <summary>
 		/// 西行寺幽幽子
 		/// Passive:
-		/// <b>操纵死亡程度的能力</b> - 西行寺幽幽子模糊了生与死的界限，部分技能会增加或减少<color=#FFB6C1>返魂值</color>。西行寺幽幽子的攻击不再造成伤害，而是降低目标等量的最大体力值。每个回合开始时，西行寺幽幽子减少20<color=#FFB6C1>返魂值</color>。
+		/// <b>操纵死亡程度的能力</b> - 西行寺幽幽子模糊了生与死的界限，部分技能会增加或减少<color=#FFB6C1>返魂值</color>。西行寺幽幽子的攻击不再造成伤害，而是降低目标等量的最大体力值。每个回合开始时，西行寺幽幽子增加20<color=#FFB6C1>返魂值</color>。
 		/// <b><color=#FF1493>幽雅地绽放吧</color>，<color=#8B008B>墨染之樱</color></b> - 当<color=#FFB6C1>返魂值</color>的进度超过50时，西行寺幽幽子进入<color=#FF1493>华胥</color>状态，并从放逐牌库将1个自己的技能放回牌库最上方；
 		/// 在<color=#FF1493>华胥</color>状态下，固定技能被替换为<color=#FF1493>亡乡「亡我乡 -彷徨的灵魂-」</color>。
 		/// 场上同时存在幽冥蝶和人魂蝶时，固定技能被替换为<color=#4876FF>亡乡「亡我乡 -自尽-」</color>。
@@ -244,37 +300,6 @@ namespace Yuyuko
 		/// <color=#CAE1FF><b>亡者召还X</b></color> - 从放逐牌库将1个费用不超过X的技能拿回手中。
 		/// </summary>
         public static string Character_YuyukoF = "YuyukoF";
-        public static string SkillEffect_SE_T_S_YuyukoF_3 = "SE_T_S_YuyukoF_3";
-        public static string SkillEffect_SE_T_S_YuyukoF_4 = "SE_T_S_YuyukoF_4";
-        public static string SkillEffect_SE_T_S_YuyukoF_5 = "SE_T_S_YuyukoF_5";
-        public static string SkillEffect_SE_T_S_YuyukoF_6 = "SE_T_S_YuyukoF_6";
-		/// <summary>
-		/// 醉梦蝶
-		/// 受到的伤害降低为0，但&user增加等量于伤害值的返魂值。
-		/// &user陷入永眠时立即解除。
-		/// </summary>
-        public static string Buff_B_YuyukoF_8 = "B_YuyukoF_8";
-        public static string SkillEffect_SE_T_S_YuyukoF_8 = "SE_T_S_YuyukoF_8";
-        public static string SkillEffect_SE_T_S_YuyukoF_9 = "SE_T_S_YuyukoF_9";
-		/// <summary>
-		/// 樱散蝶
-		/// 体力值不会降低至1以下。
-		/// </summary>
-        public static string Buff_B_YuyukoF_9 = "B_YuyukoF_9";
-        public static string SkillEffect_SE_T_S_YuyukoF_Rare_1 = "SE_T_S_YuyukoF_Rare_1";
-        public static string SkillEffect_SE_T_S_YuyukoF_Rare_2 = "SE_T_S_YuyukoF_Rare_2";
-        public static string SkillEffect_SE_T_S_YuyukoF_Rare_3 = "SE_T_S_YuyukoF_Rare_3";
-		/// <summary>
-		/// 明光蝶
-		/// 每个回合第一次触发唤魂X时，获得X点亡魂，并回复X点法力值（无法超过法力值上限）。
-		/// </summary>
-        public static string Buff_B_YuyukoF_Rare_3 = "B_YuyukoF_Rare_3";
-		/// <summary>
-		/// 浮月蝶
-		/// 所有造成的伤害额外增加&a(35%)点，最多触发 10 次。
-		/// 当前触发次数：&b
-		/// </summary>
-        public static string Buff_B_YuyukoF_Rare_3_1 = "B_YuyukoF_Rare_3_1";
 
     }
 

@@ -1,10 +1,10 @@
 {
     "Stage2_2": {
         "FieldEnemy": [
-            "FQ_4_0",
-            "FQ_4_1",
-            "FQ_4_2",
-            "FQ_4_3"
+            "ZNB_4_0",
+            "ZNB_4_1",
+            "ZNB_4_2",
+            "FQ_4_1"
         ],
         "_gdeType_FieldEnemy": "EnemyQueue",
         "_gdeIsList_FieldEnemy": 1,

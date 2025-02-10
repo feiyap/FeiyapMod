@@ -2,7 +2,7 @@
     "S_YuyukoF_3": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Charon/ShadowPriest_1",
         "Target": "enemy",
         "Track": false,
         "Name": "亡舞「生者必灭之理」",

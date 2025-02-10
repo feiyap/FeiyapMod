@@ -2,7 +2,7 @@
     "S_YuyukoF_Rare_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Charon/Charon_CutAni_0",
         "Rare": true,
         "Target": "enemy",
         "NotCount": true,
@@ -20,6 +20,8 @@
         "Effect_Target": "SE_T_S_YuyukoF_Rare_2",
         "SkillExtended": [
             "Yuyuko.S_YuyukoF_Rare_2"
-        ]
+        ],
+        "NoDrop": false,
+        "Effect_Self": "SE_S_S_YuyukoF_Rare_2"
     }
 }

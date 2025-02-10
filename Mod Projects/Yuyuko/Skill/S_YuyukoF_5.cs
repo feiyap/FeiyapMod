@@ -43,5 +43,11 @@ namespace Yuyuko
             BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, this.MySkill, false, true, false));
             return true;
         }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.9f)).ToString())
+                                          .Replace("&user", this.BChar.Info.Name);
+        }
     }
 }

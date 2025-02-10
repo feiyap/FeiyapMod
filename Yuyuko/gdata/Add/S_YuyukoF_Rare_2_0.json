@@ -1,0 +1,15 @@
+{
+    "S_YuyukoF_Rare_2_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Charon/ShadowPriest_6",
+        "Rare": true,
+        "Target": "all_enemy",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Fatal": false,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_YuyukoF_Rare_2_0"
+    }
+}

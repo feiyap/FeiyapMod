@@ -40,7 +40,7 @@ namespace Yuyuko
             if (this.BChar.BattleInfo.EnemyList.Count != 0)
             {
                 yield return new WaitForSecondsRealtime(0.3f);
-                Skill skill = Skill.TempSkill("S_YuyukoF_Rare_1_1", this.BChar, this.BChar.MyTeam);
+                Skill skill = Skill.TempSkill("S_YuyukoF_Rare_1_0", this.BChar, this.BChar.MyTeam);
                 Skill_Extended skill_Extended = new Skill_Extended();
                 skill.FreeUse = true;
                 skill.PlusHit = true;

@@ -22,11 +22,31 @@ namespace Yuyuko
         {
             base.Init();
             this.PlusStat.maxhp = -BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[this.BChar];
+            
+            if (this.BChar.GetStat.maxhp <= 0)
+            {
+                this.BChar.Dead();
+            }
         }
 
         public void DieListChange()
         {
             this.PlusStat.maxhp = -BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[this.BChar];
+
+            if (this.BChar.GetStat.maxhp <= 0)
+            {
+                this.BChar.Dead();
+            }
+        }
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+
+            if (this.BChar.GetStat.maxhp <= 0)
+            {
+                this.BChar.Dead();
+            }
         }
     }
 }

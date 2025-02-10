@@ -26,12 +26,12 @@ namespace Yuyuko
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
-
             if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)
             {
                 this.BChar.Heal(this.BChar, (int)(BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[Targets[0]] * 0.25), true, false);
             }
+
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
         }
 
         public bool SelfExcept(SkillLocation skillLoaction)

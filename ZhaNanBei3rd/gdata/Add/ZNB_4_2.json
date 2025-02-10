@@ -1,0 +1,35 @@
+{
+    "ZNB_4_2": {
+        "_gdeSchema": "EnemyQueue",
+        "Pos": [
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        ],
+        "Enemys": [
+            "S2_Pierrot_Bat",
+            "S2_Pierrot_Axe",
+            "S2_DochiDoll"
+        ],
+        "Wave2": [
+            "S2_Ballon",
+            "S2_Pierrot_Ballon",
+            "S2_Horse"
+        ],
+        "Wave3": [
+            "S2_Pierrot_Ballon"
+        ]
+    }
+}

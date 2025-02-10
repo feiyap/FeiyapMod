@@ -40,6 +40,8 @@ namespace ZhaNanBei3rd
     [HarmonyPatch(typeof(FieldSystem))]
     class FieldSystem_Patch
     {
+        public static int count = 0;
+
         [HarmonyPostfix]
         [HarmonyPatch(nameof(FieldSystem.StageStart))]
         static void StageStartPostfix()
@@ -61,14 +63,27 @@ namespace ZhaNanBei3rd
                 list.Add(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
 
                 InventoryManager.Reward(list);
+
+                count = 1;
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage1_2)
             {
-                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 5));
+                if (count < 2)
+                {
+                    InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 5));
+
+                    count = 2;
+                }
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage2_2)
             {
-                InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
+                
+                if (count < 3)
+                {
+                    InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 4));
+
+                    count = 3;
+                }
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage3)
             {
@@ -275,11 +290,19 @@ namespace ZhaNanBei3rd
             {
                 __instance.CurseBattle = false;
             }
+            Debug.Log(__instance.EnemyList.Count);
+            Debug.Log(__instance.EnemyWaveData.EnemyWaveObject.Count);
+            Debug.Log(__instance.EnemyWaveData.wave2out);
+            Debug.Log(__instance.EnemyWaveData.wave3out);
+            Debug.Log(BattleWaveExtraNow);
+            Debug.Log(BattleWaveExtra);
             if (__instance.EnemyList.Count == 0 && __instance.EnemyWaveData.EnemyWaveObject.Count == 0 && __instance.EnemyWaveData.wave2out && __instance.EnemyWaveData.wave3out && BattleWaveExtraNow < BattleWaveExtra)
             {
                 BattleWaveExtraNow++;
 
                 GDEEnemyQueueData gdeeqd = BattleWaveExtraList.Random(RandomClassKey.Enemy);
+                __instance.MainQueueData = gdeeqd;
+                Debug.Log(gdeeqd.Enemys.Count);
                 string Tempkey = gdeeqd.Key;
 
                 if (PlayData.TSavedata.StageNum == 1)

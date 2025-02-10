@@ -74,12 +74,20 @@ namespace Yuyuko
             }
             if (effect == 3)
             {
-                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost += 8;
+                List<Skill> list = new List<Skill>();
+                list.AddRange(BattleSystem.instance.AllyTeam.Skills);
+
+                BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true);
             }
             if (effect == 7)
             {
                 BattleSystem.instance.AllyTeam.AP++;
             }
+        }
+
+        public void Del(SkillButton Mybutton)
+        {
+            Mybutton.Myskill.Except();
         }
 
         public override void SelfdestroyPlus()

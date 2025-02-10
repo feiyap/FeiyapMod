@@ -78,7 +78,7 @@ namespace Yuyuko
                 BattleSystem.instance.BattleValues.Add(new BV_YuyukoF_P());
             }
 
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(-20);
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
         }
 
         //西行寺幽幽子的攻击不再造成伤害，而是降低目标等量的最大体力值。

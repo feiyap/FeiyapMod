@@ -2,9 +2,10 @@
     "B_YuyukoF_Rare_3": {
         "_gdeSchema": "Buff",
         "Cantdisable": true,
-        "ClassName": "",
+        "ClassName": "Yuyuko.B_YuyukoF_Rare_3",
         "BuffTag": "null",
         "Name": "明光蝶",
-        "Description": "每个回合第一次触发唤魂X时，获得X点亡魂，并回复X点法力值（无法超过法力值上限）。"
+        "Description": "每个回合第一次触发唤魂X时，获得X点亡魂，并回复X点法力值（无法超过法力值上限）。",
+        "Icon": "B_YuyukoF_Rare_3\\B_YuyukoF_Rare_3_Icon.png"
     }
 }

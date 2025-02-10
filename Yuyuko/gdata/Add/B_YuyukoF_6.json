@@ -1,0 +1,15 @@
+{
+    "B_YuyukoF_6": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "Yuyuko.B_YuyukoF_6",
+        "BuffTag": "DOT",
+        "Name": "妄死蝶",
+        "Description": "结算时降低&a最大体力值(&user攻击力的25%/每层)。",
+        "Icon": "B_YuyukoF_6\\B_YuyukoF_6_Icon.png",
+        "MaxStack": 4,
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 90
+    }
+}

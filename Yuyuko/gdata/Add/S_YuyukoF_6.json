@@ -2,7 +2,7 @@
     "S_YuyukoF_6": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Charon/ShadowPriest_0",
         "Target": "enemy",
         "NotCount": true,
         "Name": "樱符「完全墨染的樱花」",
@@ -15,6 +15,7 @@
         "Effect_Target": "SE_T_S_YuyukoF_6",
         "SkillExtended": [
             "Yuyuko.S_YuyukoF_6"
-        ]
+        ],
+        "Track": false
     }
 }

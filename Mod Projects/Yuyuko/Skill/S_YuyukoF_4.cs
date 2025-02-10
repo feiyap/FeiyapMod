@@ -26,8 +26,6 @@ namespace Yuyuko
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
-
             int max = 0;
             foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
             {
@@ -42,6 +40,8 @@ namespace Yuyuko
             {
                 BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(be, max, this.BChar, true);
             }
+
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
         }
 
         public bool SelfExcept(SkillLocation skillLoaction)
@@ -51,6 +51,12 @@ namespace Yuyuko
                 BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(be, (int)(this.BChar.GetStat.atk * 0.9f), this.BChar);
             }
             return true;
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.9f)).ToString())
+                                          .Replace("&user", this.BChar.Info.Name);
         }
     }
 }

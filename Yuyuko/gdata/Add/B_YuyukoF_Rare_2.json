@@ -1,0 +1,16 @@
+{
+    "B_YuyukoF_Rare_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "Yuyuko.B_YuyukoF_Rare_2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "黄泉蝶",
+        "Description": "每次有敌人死亡时，对所有敌人造成&a伤害(攻击力的50%)。",
+        "LifeTime": 3,
+        "Icon": "B_YuyukoF_Rare_2\\B_YuyukoF_Rare_2_Icon.png"
+    }
+}

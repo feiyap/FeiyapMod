@@ -2,7 +2,7 @@
     "S_YuyukoF_4": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Charon/ShadowPriest_4",
         "Target": "enemy",
         "Name": "冥符「黄泉平坂行路」",
         "Description": "增加20返魂值。\n使所有敌人获得与目标相同的“已损失最大体力值”的值。\n\n葬送 - 使所有敌人失去&a最大体力值(攻击力的90%)。\n幽冥蝶 - 回引时，造成&a的伤害(&user攻击力的90%)。\n人魂蝶 - 回引时，(100%干扰成功率)眩晕1回合。",

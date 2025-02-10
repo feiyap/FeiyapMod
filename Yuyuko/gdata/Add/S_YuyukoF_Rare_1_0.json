@@ -2,7 +2,7 @@
     "S_YuyukoF_Rare_1_0": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Charon/ShadowpriestEffect_12_0",
         "Rare": true,
         "Target": "enemy",
         "NotCount": false,
@@ -13,6 +13,18 @@
         "UseAp": 2,
         "Image_0": "S_YuyukoF_Rare_1_0\\S_YuyukoF_Rare_1_0_Image_0.png",
         "Image_1": "S_YuyukoF_Rare_1_0\\S_YuyukoF_Rare_1_0_Image_1.png",
-        "Image_2": "S_YuyukoF_Rare_1_0\\S_YuyukoF_Rare_1_0_Image_2.png"
+        "Image_2": "S_YuyukoF_Rare_1_0\\S_YuyukoF_Rare_1_0_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Target": "SE_T_S_YuyukoF_Rare_1_0"
     }
 }

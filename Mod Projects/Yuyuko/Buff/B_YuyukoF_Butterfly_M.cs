@@ -73,12 +73,20 @@ namespace Yuyuko
             }
             if (effect == 3)
             {
-                
+                List<Skill> list = new List<Skill>();
+                list.AddRange(BattleSystem.instance.AllyTeam.Skills);
+
+                BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true);
             }
             if (effect == 7)
             {
                 BattleSystem.instance.AllyTeam.Draw();
             }
+        }
+
+        public void Del(SkillButton Mybutton)
+        {
+            Mybutton.Myskill.Except();
         }
 
         public override void SelfdestroyPlus()

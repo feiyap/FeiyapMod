@@ -47,11 +47,16 @@ namespace Yuyuko
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
-
             if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)
             {
-                
+                if (Targets[0].BuffFind("B_YuyukoF_Butterfly_M"))
+                {
+                    this.PlusSkillStat.cri = 100f;
+                }
+                if (Targets[0].BuffFind("B_YuyukoF_Butterfly_R"))
+                {
+                    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.4f);
+                }
             }
 
             if (P_YuyukoF.CheckGhost(5, false))
@@ -60,6 +65,13 @@ namespace Yuyuko
                 skill.Counting = 2;
                 this.BChar.ParticleOut(skill, Targets[0]);
             }
+
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.4f)).ToString());
         }
     }
 }

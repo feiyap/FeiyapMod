@@ -47,6 +47,11 @@ namespace Yuyuko
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
+            if (P_YuyukoF.CheckGhost(4, false))
+            {
+                P_YuyukoF.DeadRevive(this.BChar, 0);
+            }
+
             if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)
             {
                 BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(-20);
@@ -54,11 +59,6 @@ namespace Yuyuko
             else
             {
                 BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
-            }
-
-            if (P_YuyukoF.CheckGhost(4, false))
-            {
-                P_YuyukoF.DeadRevive(this.BChar, 0);
             }
         }
     }

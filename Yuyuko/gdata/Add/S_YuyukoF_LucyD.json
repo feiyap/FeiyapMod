@@ -14,6 +14,7 @@
         "Image_2": "S_YuyukoF_LucyD\\S_YuyukoF_LucyD_Image_2.png",
         "SkillExtended": [
             "Yuyuko.S_YuyukoF_LucyD"
-        ]
+        ],
+        "NoDrop": false
     }
 }

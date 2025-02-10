@@ -79,5 +79,10 @@ namespace Yuyuko
 
             P_YuyukoF.ReturnAllButterfly();
         }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 3f)).ToString());
+        }
     }
 }

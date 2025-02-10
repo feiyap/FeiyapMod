@@ -2,7 +2,7 @@
     "S_YuyukoF_Rare_1": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Charon/ShadowpriestEffect_12_0",
         "Target": "enemy",
         "Name": "「反魂蝶」",
         "User": "YuyukoF",
@@ -19,6 +19,17 @@
         "SkillExtended": [
             "Yuyuko.S_YuyukoF_Rare_1"
         ],
-        "Effect_Target": "SE_T_S_YuyukoF_Rare_1"
+        "Effect_Target": "SE_T_S_YuyukoF_Rare_1",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }
