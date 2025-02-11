@@ -55,7 +55,7 @@ namespace Yuyuko
                 }
                 if (Targets[0].BuffFind("B_YuyukoF_Butterfly_R"))
                 {
-                    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.4f);
+                    this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.6f);
                 }
             }
 
@@ -71,7 +71,7 @@ namespace Yuyuko
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.4f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.6f)).ToString());
         }
     }
 }

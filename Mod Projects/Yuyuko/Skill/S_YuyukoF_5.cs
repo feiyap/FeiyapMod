@@ -46,7 +46,7 @@ namespace Yuyuko
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.9f)).ToString())
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 1.35f)).ToString())
                                           .Replace("&user", this.BChar.Info.Name);
         }
     }

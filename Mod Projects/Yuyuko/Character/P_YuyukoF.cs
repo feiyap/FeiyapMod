@@ -22,7 +22,7 @@ namespace Yuyuko
 	/// <b><color=#8B008B>永眠</color></b> - 当<color=#FFB6C1>返魂值</color>的进度超过100时，西行寺幽幽子进入<color=#8B008B>永眠</color>状态：无法行动，直到<color=#FFB6C1>返魂值</color>降低为0；<color=#8B008B>永眠</color>状态下，使用技能时失去20<color=#FFB6C1>返魂值</color>。
 	/// <b>幽雅地绽放吧，墨染之樱</b> - 每个回合开始时，西行寺幽幽子失去20<color=#FFB6C1>返魂值</color>。
 	/// </summary>
-    public class P_YuyukoF:Passive_Char, IP_DamageChange, IP_PlayerTurn, IP_FanhunChange, IP_ButterflyChange, IP_BattleStart_Ones, IP_BattleEnd, IP_OnSkillExcept
+    public class P_YuyukoF:Passive_Char, IP_DamageChange, IP_FanhunChange, IP_ButterflyChange, IP_BattleStart_Ones, IP_BattleEnd, IP_OnSkillExcept
     {
         public enum YuyuState
         {
@@ -68,17 +68,6 @@ namespace Yuyuko
         public void BattleEnd()
         {
             Yuyu = YuyuState.State_Normal;
-        }
-
-        //每个回合开始时，西行寺幽幽子减少20返魂值。
-        public void Turn()
-        {
-            if (BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>() == null)
-            {
-                BattleSystem.instance.BattleValues.Add(new BV_YuyukoF_P());
-            }
-
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
         }
 
         //西行寺幽幽子的攻击不再造成伤害，而是降低目标等量的最大体力值。
@@ -138,11 +127,9 @@ namespace Yuyuko
                         this.BChar.BuffReturn("B_YuyukoF_P_3")?.SelfDestroy();
                         this.BChar.BuffAdd("B_YuyukoF_P_1", this.BChar);
 
-                        Skill skill = originbasicskill;
-                        if (skill != null)
-                        {
-                            (this.BChar as BattleAlly).MyBasicSkill.SkillInput(skill);
-                        }
+                        Skill skill = Skill.TempSkill("S_YuyukoF_P_1", this.BChar, this.BChar.MyTeam);
+                        (this.BChar as BattleAlly).MyBasicSkill.SkillInput(skill);
+
                     }
                     break;
                 case YuyuState.State_Huaxu:
@@ -150,9 +137,6 @@ namespace Yuyuko
                         this.BChar.BuffReturn("B_YuyukoF_P_1")?.SelfDestroy();
                         this.BChar.BuffReturn("B_YuyukoF_P_3")?.SelfDestroy();
                         this.BChar.BuffAdd("B_YuyukoF_P_2", this.BChar);
-
-                        Skill skill = Skill.TempSkill("S_YuyukoF_P_1", this.BChar, this.BChar.MyTeam);
-                        (this.BChar as BattleAlly).MyBasicSkill.SkillInput(skill);
 
                         //进入华胥状态时，从放逐牌库将1个自己的技能放回牌库最上方
                         {
