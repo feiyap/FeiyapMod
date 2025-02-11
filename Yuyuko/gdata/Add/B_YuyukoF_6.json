@@ -5,7 +5,7 @@
         "ClassName": "Yuyuko.B_YuyukoF_6",
         "BuffTag": "DOT",
         "Name": "妄死蝶",
-        "Description": "结算时降低&a最大体力值(&user攻击力的25%/每层)。",
+        "Description": "结算时降低&a最大体力值<color=#FF7A33>(&user攻击力的25%/每层)</color>。",
         "Icon": "B_YuyukoF_6\\B_YuyukoF_6_Icon.png",
         "MaxStack": 4,
         "LifeTime": 4,

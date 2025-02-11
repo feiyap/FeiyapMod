@@ -24,7 +24,7 @@ namespace Yuyuko
             base.SkillTargetSingle(Targets);
 
             Targets[0].Except();
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(-50 * Targets[0].AP);
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(-100);
         }
     }
 }

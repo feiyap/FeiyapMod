@@ -8,8 +8,8 @@
         "NotCount": false,
         "Track": false,
         "Fatal": false,
-        "Name": "「反魂蝶 - 一分咲」",
-        "Description": "重复释放 &a 次。\n\n握在手中时，自身每次进入永眠状态时，使这个技能获得：打出时，重复释放1次。\n这个技能最多能重复释放10次。\n\n葬送 - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。\n\n冥魂蝶 - \n人魂蝶 - ",
+        "Name": "「反魂蝶 - 十分咲」",
+        "Description": "重复释放 10 次。\n\n握在手中时，自身每次进入<color=#8B008B>永眠</color>状态时，使这个技能获得：打出时，重复释放1次。\n这个技能最多能重复释放10次。\n\n<color=#AB82FF>葬送</color> - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。",
         "UseAp": 2,
         "Image_0": "S_YuyukoF_Rare_1_0\\S_YuyukoF_Rare_1_0_Image_0.png",
         "Image_1": "S_YuyukoF_Rare_1_0\\S_YuyukoF_Rare_1_0_Image_1.png",
@@ -18,13 +18,18 @@
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": false,
-        "NoDrop": false,
+        "NoDrop": true,
         "IgnoreTaunt": false,
         "Except": false,
         "NoBasicSkill": false,
         "Basic": false,
         "EnemyPreview": false,
         "UnknownTarget": false,
-        "Effect_Target": "SE_T_S_YuyukoF_Rare_1_0"
+        "Effect_Target": "SE_T_S_YuyukoF_Rare_1_0",
+        "PlusKeyWords": [
+            "Keyword_Ruin",
+            "Keyword_ButterflyM",
+            "Keyword_ButterflyR"
+        ]
     }
 }

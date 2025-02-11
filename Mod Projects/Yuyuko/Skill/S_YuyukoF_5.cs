@@ -16,25 +16,52 @@ namespace Yuyuko
 {
 	/// <summary>
 	/// 蝶符「凤蝶纹的死枪」
-	/// 目标每损失1点最大体力值，这个技能的伤害提升1%。
-	/// 葬送 - 对随机敌人释放这个技能。
-	/// 幽冥蝶 - 回引时，造成&a的伤害(&user攻击力的90%)。
-	/// 人魂蝶 - 回引时，(100%干扰成功率)眩晕1回合。
+	/// 唤魂4 - 使这个技能获得“追踪”、“致命”、“无视嘲讽”。
+    /// 葬送 - 对随机敌人释放这个技能。
+    /// 幽冥蝶 - 施加时，触发1次亡者召还2。
+    /// 人魂蝶 - 回引时，抽取2个技能。
 	/// </summary>
-    public class S_YuyukoF_5:Skill_Extended, IP_DamageChange_sumoperation, IP_SkillSelfExcept
+    public class S_YuyukoF_5:Skill_Extended, IP_SkillSelfExcept
     {
         public override void Init()
         {
             base.Init();
-            this.OnePassive = true;
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
         }
 
-        public void DamageChange_sumoperation(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View, ref int PlusDamage)
+        public int Fixed_count = 0;
+
+        public override void FixedUpdate()
         {
-            int num = BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[Target];
-            if (num > 0)
+            base.FixedUpdate();
+            Fixed_count++;
+
+            if (Fixed_count >= 12)
             {
-                PlusDamage = BattleChar.CalculationResult((float)Damage, num, 0);
+                Fixed_count = 0;
+
+                if (P_YuyukoF.CheckGhost(4, true))
+                {
+                    base.SkillParticleOn();
+                    this.Fatal = true;
+                    this.Traking = true;
+                    this.IgnoreTaunt = true;
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                    this.Fatal = false;
+                    this.Traking = false;
+                    this.IgnoreTaunt = false;
+                }
+            }
+        }
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (P_YuyukoF.CheckGhost(4, false))
+            {
+                
             }
         }
 
@@ -42,12 +69,6 @@ namespace Yuyuko
         {
             BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, this.MySkill, false, true, false));
             return true;
-        }
-
-        public override string DescExtended(string desc)
-        {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 1.35f)).ToString())
-                                          .Replace("&user", this.BChar.Info.Name);
         }
     }
 }

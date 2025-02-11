@@ -6,7 +6,7 @@
         "Target": "self",
         "NoDrop": true,
         "Name": "樱花「依恋未酌宴」",
-        "Description": "减少40返魂值。",
+        "Description": "减少40<color=#FFB6C1>返魂值</color>。",
         "HealSkill": false,
         "Image_0": "S_YuyukoF_9_1\\S_YuyukoF_9_1_Image_0.png",
         "Image_1": "S_YuyukoF_9_1\\S_YuyukoF_9_1_Image_1.png",

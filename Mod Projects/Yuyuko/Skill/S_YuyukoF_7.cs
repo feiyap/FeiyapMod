@@ -11,6 +11,7 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
+using BasicMethods;
 namespace Yuyuko
 {
 	/// <summary>
@@ -23,7 +24,7 @@ namespace Yuyuko
 	/// 幽冥蝶 - 施加时，抽取1个技能。
 	/// 人魂蝶 - 施加时，恢复1点法力值。
 	/// </summary>
-    public class S_YuyukoF_7:Skill_Extended
+    public class S_YuyukoF_7:Skill_Extended, IP_SkillSelfExcept
     {
         public override bool Terms()
         {
@@ -43,7 +44,13 @@ namespace Yuyuko
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(0, true);
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(50, true);
 
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost += 30;
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost += 10;
+        }
+
+        public bool SelfExcept(SkillLocation skillLoaction)
+        {
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(-100, false);
+            return true;
         }
     }
 }

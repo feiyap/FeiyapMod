@@ -26,7 +26,7 @@ namespace Yuyuko
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             List<Skill> list = new List<Skill>();
-            list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill i) => i != this.MySkill));
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck);
 
             BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true);
         }
@@ -43,11 +43,13 @@ namespace Yuyuko
         public void Del(SkillButton Mybutton)
         {
             Mybutton.Myskill.Except();
+            this.BChar.MyTeam.Draw();
         }
 
         public void Del2(SkillButton Mybutton)
         {
             Mybutton.Myskill.Except();
+            this.BChar.MyTeam.Draw();
         }
     }
 }

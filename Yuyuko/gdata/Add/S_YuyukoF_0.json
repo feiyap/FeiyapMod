@@ -7,7 +7,7 @@
         "NoDrop": false,
         "IgnoreTaunt": false,
         "Name": "亡乡「亡我乡 -宿罪-」",
-        "Description": "增加20返魂值。\n\n华胥 - 超额治疗自己等量于“目标已损失的最大体力值的25%”的体力。\n葬送 - 亡者召还3。\n幽冥蝶 - 回合开始时，降低10%最大体力值。\n人魂蝶 - 可以无视嘲讽状态被选中。",
+        "Description": "增加20<color=#FFB6C1>返魂值</color>。\n\n<color=#FF1493>华胥</color> - 超额治疗自己等量于“目标已损失的最大体力值的25%”的体力。\n<color=#AB82FF>葬送</color> - <color=#CAE1FF>亡者召还3</color>。\n<color=#4876FF>幽冥蝶</color> - 回合开始时，降低10%最大体力值。\n<color=#FF69B4>人魂蝶</color> - 可以无视嘲讽状态被选中。",
         "User": "YuyukoF",
         "UseAp": 1,
         "NotCount": true,

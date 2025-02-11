@@ -1,7 +1,7 @@
 {
     "Keyword_Ghost": {
         "_gdeSchema": "SkillKeyword",
-        "Name": "<color=#E066FF><b>唤魂X</b></color>",
+        "Name": "<b><color=#E066FF>唤魂X</color></b>",
         "Desc": "打出技能时，消耗X点<color=#E066FF>亡魂</color>，能够触发额外效果。"
     }
 }

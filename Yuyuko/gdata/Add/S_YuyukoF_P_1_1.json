@@ -4,7 +4,7 @@
         "Category": "null",
         "Particle": "Particle/Joey/Joey_0",
         "Target": "enemy",
-        "NotCount": false,
+        "NotCount": true,
         "NoDrop": true,
         "Basic": false,
         "Name": "转化<color=#4876FF>幽冥蝶</color>",
@@ -16,6 +16,7 @@
         "Effect_Target": "null",
         "SkillExtended": [
             "Yuyuko.S_YuyukoF_P_1_1"
-        ]
+        ],
+        "Rare": false
     }
 }

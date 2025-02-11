@@ -9,7 +9,7 @@
         "Image_0": "S_YuyukoF_2\\S_YuyukoF_2_Image_0.png",
         "Image_1": "S_YuyukoF_2\\S_YuyukoF_2_Image_1.png",
         "Image_2": "S_YuyukoF_2\\S_YuyukoF_2_Image_2.png",
-        "Description": "仅能指定同时拥有幽冥蝶和人魂蝶的敌人。\n回引目标的幽冥蝶和人魂蝶。\n\n唤魂30 - 额外造成&a(300%)伤害。\n华胥 - 额外造成&a(300%)伤害。\n幽冥蝶 - 施加时，触发一次亡者召还1。回引时，触发一次亡者召还1。\n人魂蝶 - 施加时，获得8点亡魂。回引时，获得8点亡魂。",
+        "Description": "仅能指定同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人。\n<color=#8B008B>回引</color>目标的<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>。\n\n<color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。\n<color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。\n<color=#4876FF>幽冥蝶</color> - 施加时，触发一次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发一次<color=#CAE1FF>亡者召还1</color>。\n<color=#FF69B4>人魂蝶</color> - 施加时，获得8点<color=#E066FF>亡魂</color>。<color=#8B008B>回引</color>时，获得8点<color=#E066FF>亡魂</color>。",
         "User": "YuyukoF",
         "UseAp": 3,
         "IgnoreTaunt": true,

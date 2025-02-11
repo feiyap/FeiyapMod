@@ -17,9 +17,9 @@ namespace Yuyuko
 	/// <color=#FF69B4>人魂蝶</color>
 	/// &effect
 	/// </summary>
-    public class B_YuyukoF_Butterfly_R:Buff
+    public class B_YuyukoF_Butterfly_R:Buff, IP_ButterflyChange, IP_DamageTakeChange, IP_Awake, IP_ButterflyReturn
     {
-        public int effect = 0;
+        public int effect = -1;
 
         public override void Init()
         {
@@ -41,9 +41,10 @@ namespace Yuyuko
                 effect = 10;
             }
             // 提取字符串末尾的数字
-            else if (int.TryParse(key.Substring(key.Length - 1), out int effect))
+            else if (int.TryParse(key.Substring(key.Length - 1), out int xx))
             {
                 // effect 已经被赋值为对应的值
+                effect = xx;
             }
             else
             {
@@ -51,23 +52,6 @@ namespace Yuyuko
                 effect = -1; // 或者其他默认值
             }
 
-            //switch (BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_M)
-            //{
-            //    case "S_YuyukoF_0":
-            //        {
-            //            effect = 0;
-            //        }
-            //        break;
-            //    case "S_YuyukoF_1":
-            //        {
-            //            effect = 1;
-            //        }
-            //        break;
-            //}
-        }
-
-        public void Awake()
-        {
             if (effect == 2)
             {
                 BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost += 8;
@@ -77,7 +61,7 @@ namespace Yuyuko
                 List<Skill> list = new List<Skill>();
                 list.AddRange(BattleSystem.instance.AllyTeam.Skills);
 
-                BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true);
+                BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true));
             }
             if (effect == 7)
             {
@@ -85,34 +69,52 @@ namespace Yuyuko
             }
         }
 
+        public void Awake()
+        {
+            
+        }
+
         public void Del(SkillButton Mybutton)
         {
             Mybutton.Myskill.Except();
+            this.BChar.MyTeam.Draw();
         }
 
         public override void SelfdestroyPlus()
         {
             base.SelfdestroyPlus();
+            
+        }
+
+        public void ButterflyReturn()
+        {
             if (effect == 2)
             {
                 BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost += 8;
             }
-            if (effect == 5)
+            if (effect == 4)
             {
                 this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_Rest, this.Usestate_F, false, 100);
+            }
+            if (effect == 5)
+            {
+                BattleSystem.instance.AllyTeam.Draw(2);
             }
             if (effect == 6)
             {
                 Skill tmpSkill = Skill.TempSkill("S_YuyukoF_6", this.Usestate_F, this.Usestate_F.MyTeam);
                 BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
             }
+
+            SelfDestroy();
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_R = "";
         }
 
         public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
         {
             if (effect == 1)
             {
-                if (!NODEF)
+                if (NODEF && !Preview)
                 {
                     BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(this.BChar, Dmg, this.Usestate_F);
                     return 0;

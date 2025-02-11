@@ -10,7 +10,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\bin\Debug\EO
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\obj\Debug\Yuyuko.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\obj\Debug\Yuyuko.csproj.CoreCompileInputs.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\obj\Debug\Yuyuko.csproj.CopyComplete
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\bin\Debug\Yuyuko202521104319.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\bin\Debug\Yuyuko202521104319.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\obj\Debug\Yuyuko202521104319.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\obj\Debug\Yuyuko202521104319.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\bin\Debug\Yuyuko202521214735.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\bin\Debug\Yuyuko202521214735.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\obj\Debug\Yuyuko202521214735.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Yuyuko\obj\Debug\Yuyuko202521214735.pdb

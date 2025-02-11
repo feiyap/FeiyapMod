@@ -20,7 +20,7 @@
         "EnemyPreview": false,
         "UnknownTarget": false,
         "Name": "<color=#FF1493>亡乡「亡我乡 -彷徨的灵魂-」</color>",
-        "Description": "仅能选择拥有幽冥蝶和人魂蝶关键词的技能。\n放逐目标技能，将其转化为1个技能对应的减益效果施加在任意敌人身上。\n幽冥蝶和人魂蝶各只能存在1只，在回引之前无法再次施加。",
+        "Description": "仅能选择拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>关键词的技能。\n放逐目标技能，将其转化为1个技能对应的减益效果施加在任意敌人身上。\n<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>各只能存在1只，在<color=#8B008B>回引</color>之前无法再次施加。",
         "Image_0": "S_YuyukoF_P_1\\S_YuyukoF_P_1_Image_0.png",
         "Image_1": "S_YuyukoF_P_1\\S_YuyukoF_P_1_Image_1.png",
         "Image_2": "S_YuyukoF_P_1\\S_YuyukoF_P_1_Image_2.png",

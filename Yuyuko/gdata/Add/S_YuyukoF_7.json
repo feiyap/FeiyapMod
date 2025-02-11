@@ -7,13 +7,18 @@
         "NotCount": true,
         "Disposable": false,
         "Name": "灵蝶「蝶之羽风暂留此世」",
-        "Description": "仅能在无法行动时、或处于永眠状态时使用。\n解除所有干扰减益和永眠状态，抽取1个技能，恢复1点法力值。\n将返魂值设置为50，并进入华胥状态。\n立即获得30点亡魂。回合结束时，移除30点亡魂。\n\n葬送 - 降低100返魂值。\n幽冥蝶 - 施加时，抽取1个技能。\n人魂蝶 - 施加时，恢复1点法力值。",
+        "Description": "仅能在无法行动时、或处于<color=#8B008B>永眠</color>状态时使用。\n解除所有干扰减益和<color=#8B008B>永眠</color>状态，抽取1个技能，恢复1点法力值。\n将<color=#FFB6C1>返魂值</color>设置为50，并进入<color=#FF1493>华胥</color>状态。\n立即获得10点<color=#E066FF>亡魂</color>。\n\n<color=#AB82FF>葬送</color> - 降低100<color=#FFB6C1>返魂值</color>。\n<color=#4876FF>幽冥蝶</color> - 施加时，抽取1个技能。\n<color=#FF69B4>人魂蝶</color> - 施加时，恢复1点法力值。",
         "User": "YuyukoF",
         "Image_0": "S_YuyukoF_7\\S_YuyukoF_7_Image_0.png",
         "Image_1": "S_YuyukoF_7\\S_YuyukoF_7_Image_1.png",
         "Image_2": "S_YuyukoF_7\\S_YuyukoF_7_Image_2.png",
         "SkillExtended": [
             "Yuyuko.S_YuyukoF_7"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Ruin",
+            "Keyword_ButterflyM",
+            "Keyword_ButterflyR"
         ]
     }
 }

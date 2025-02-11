@@ -198,7 +198,31 @@ namespace ZhaNanBei3rd
             }
         }
     }
-    
+
+    [HarmonyPatch(typeof(SpecialStore))]
+    class SpecialStore_Patch
+    {
+        [HarmonyPostfix]
+        [HarmonyPatch(nameof(SpecialStore.Start))]
+        static void StartPostfix(SpecialStore __instance)
+        {
+            //__instance.StoreItems.Remove(ItemBase.GetItem(GDEItemKeys.Item_Consume_SmallChest, (SaveManager.Difficalty == 2) ? 1 : 2));
+            __instance.StoreItems.RemoveAll(item => item.itemkey == GDEItemKeys.Item_Consume_SmallChest);
+        }
+    }
+
+    [HarmonyPatch(typeof(InventoryManager))]
+    class InventoryManager_Patch
+    {
+        [HarmonyPrefix]
+        [HarmonyPatch(nameof(InventoryManager.Reward), new Type[] { typeof(List<ItemBase>)})]
+        static bool Rewardfix(List<ItemBase> Items)
+        {
+            Items.RemoveAll(item => item.itemkey == GDEItemKeys.Item_Consume_EquipPouch);
+            return true;
+        }
+    }
+
     [HarmonyPatch(typeof(BattleSystem))]
     class BattleSystem_Patch
     {

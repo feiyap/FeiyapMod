@@ -33,6 +33,12 @@ namespace Yuyuko
             return true;
         }
 
+        public override void Init()
+        {
+            base.Init();
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
+        }
+
         public int Fixed_count = 0;
 
         public override void FixedUpdate()
@@ -51,7 +57,7 @@ namespace Yuyuko
                     this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 3f);
                 }
 
-                if (P_YuyukoF.CheckGhost(30, true))
+                if (P_YuyukoF.CheckGhost(10, true))
                 {
                     base.SkillParticleOn();
                     this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 3f);
@@ -72,7 +78,7 @@ namespace Yuyuko
                 this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 3f);
             }
 
-            if (P_YuyukoF.CheckGhost(30, false))
+            if (P_YuyukoF.CheckGhost(10, false))
             {
                 this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 3f);
             }

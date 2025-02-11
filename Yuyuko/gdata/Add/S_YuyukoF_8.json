@@ -6,7 +6,7 @@
         "Target": "otherally",
         "NotCount": true,
         "Name": "死符「醉人之生，死的梦幻」",
-        "Description": "仅能在华胥状态下使用。\n\n华胥 - 减少20返魂值。\n葬送 - 选择手中1个技能放逐，亡者召还1。\n施加[醉梦蝶]：3回合；受到的伤害降低为0，但自身增加等量于伤害值的返魂值；自身陷入永眠时立即解除。",
+        "Description": "仅能在<color=#FF1493>华胥</color>状态下使用。\n\n<color=#FF1493>华胥</color> - 减少20<color=#FFB6C1>返魂值</color>。\n<color=#AB82FF>葬送</color> - 选择手中1个技能放逐，<color=#CAE1FF>亡者召还1</color>。",
         "User": "YuyukoF",
         "Image_0": "S_YuyukoF_8\\S_YuyukoF_8_Image_0.png",
         "Image_1": "S_YuyukoF_8\\S_YuyukoF_8_Image_1.png",
@@ -15,6 +15,11 @@
             "Yuyuko.S_YuyukoF_8"
         ],
         "Effect_Target": "SE_T_S_YuyukoF_8",
-        "Disposable": false
+        "Disposable": false,
+        "PlusKeyWords": [
+            "Keyword_Huaxu",
+            "Keyword_Ruin",
+            "Keyword_DeadRevive"
+        ]
     }
 }

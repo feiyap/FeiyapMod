@@ -6,7 +6,7 @@
         "Target": "enemy",
         "IgnoreTaunt": false,
         "Name": "蝶符「凤蝶纹的死枪」",
-        "Description": "目标每损失1点最大体力值，这个技能的伤害提升1%。\n\n葬送 - 对随机敌人释放这个技能。\n幽冥蝶 - 回引时，造成&a的伤害(&user攻击力的90%)。\n人魂蝶 - 回引时，(100%干扰成功率)眩晕1回合。",
+        "Description": "<color=#E066FF>唤魂4</color> - 使这个技能获得“追踪”、“致命”、“无视嘲讽”。\n<color=#AB82FF>葬送</color> - 对随机敌人释放这个技能。\n<color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。\n<color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取2个技能。",
         "User": "YuyukoF",
         "UseAp": 2,
         "NotCount": true,
@@ -16,6 +16,16 @@
         "Effect_Target": "SE_T_S_YuyukoF_5",
         "SkillExtended": [
             "Yuyuko.S_YuyukoF_5"
-        ]
+        ],
+        "PlusKeyWords": [
+            "Keyword_Ghost",
+            "Keyword_Ruin",
+            "Keyword_DeadRevive",
+            "Keyword_ButterflyM",
+            "Keyword_ButterflyR"
+        ],
+        "Rare": false,
+        "NoBasicSkill": false,
+        "Fatal": false
     }
 }

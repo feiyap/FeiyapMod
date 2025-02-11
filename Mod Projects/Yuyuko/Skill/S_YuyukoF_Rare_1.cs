@@ -25,6 +25,47 @@ namespace Yuyuko
 	/// </summary>
     public class S_YuyukoF_Rare_1:Skill_Extended, IP_BuffAddAfter, IP_SkillSelfExcept
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
+        }
+
+        public int Fixed_count = 0;
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            Fixed_count++;
+
+            if (Fixed_count >= 12)
+            {
+                Fixed_count = 0;
+
+                if (Num >= 9)
+                {
+                    Num = 9;
+                    GDESkillData gdeskillData = new GDESkillData("S_YuyukoF_Rare_1_0");
+                    this.MySkill.Image_Skill = gdeskillData.Image_0_Path;
+                    this.MySkill.Image_Button = gdeskillData.Image_1_Path;
+                    this.MySkill.Image_Basic = gdeskillData.Image_2_Path;
+                    base.SkillParticleOn();
+                }
+                else
+                {
+                    GDESkillData gdeskillData = new GDESkillData("S_YuyukoF_Rare_1");
+                    this.MySkill.Image_Skill = gdeskillData.Image_0_Path;
+                    this.MySkill.Image_Button = gdeskillData.Image_1_Path;
+                    this.MySkill.Image_Basic = gdeskillData.Image_2_Path;
+                    base.SkillParticleOff();
+                }
+
+                this.MySkill.MySkill.Name = ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1") + ConvertToChinese(this.Num + 1) + ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_0");
+                this.MySkill.MyButton.InputData(this.MySkill, null, false);
+            }
+        }
+
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
@@ -109,21 +150,18 @@ namespace Yuyuko
                     if ((skill_Extended as S_YuyukoF_Rare_1).Num == this.Num + 1)
                     {
                         (skill_Extended as S_YuyukoF_Rare_1).Num++;
-                        if ((skill_Extended as S_YuyukoF_Rare_1).Num >= 10)
+                        if ((skill_Extended as S_YuyukoF_Rare_1).Num >= 9)
                         {
-                            (skill_Extended as S_YuyukoF_Rare_1).Num = 10;
+                            (skill_Extended as S_YuyukoF_Rare_1).Num = 9;
                         }
-                        skill.MySkill.Name = new GDESkillData("S_YuyukoF_Rare_1").Name + " - " + ConvertToChinese((skill_Extended as S_YuyukoF_Rare_1).Num + 1) + ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1");
+                        //skill.MySkill.Name = ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1") + ConvertToChinese((skill_Extended as S_YuyukoF_Rare_1).Num + 1) + ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_0");
                     }
                     else
                     {
                         (skill_Extended as S_YuyukoF_Rare_1).Num = this.Num + 1;
-                        if ((skill_Extended as S_YuyukoF_Rare_1).Num >= 10)
-                        {
-                            (skill_Extended as S_YuyukoF_Rare_1).Num = 10;
-                        }
-                        skill.MySkill.Name = new GDESkillData("S_YuyukoF_Rare_1").Name + " - " + ConvertToChinese(this.Num + 2) + ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1");
+                        //skill.MySkill.Name = ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1") + ConvertToChinese(this.Num + 2) + ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_0");
                     }
+
                     skill.MyButton.InputData(skill, null, false);
                 }
             }

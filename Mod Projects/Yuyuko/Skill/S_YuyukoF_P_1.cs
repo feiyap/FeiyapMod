@@ -59,9 +59,7 @@ namespace Yuyuko
             }
 
             Debug.Log(choiceSkillList.Count);
-            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(choiceSkillList, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.EffectSelect, false, false, true, false, true));
-
-            this.BChar.MyTeam.BasicSkillRefill(this.BChar, this.BChar.BattleBasicskillRefill);
+            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(choiceSkillList, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.EffectSelect, true, false, true, false, true));
         }
 
         public void Del(SkillButton Mybutton)

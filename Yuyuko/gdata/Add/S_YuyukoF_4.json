@@ -5,7 +5,7 @@
         "Particle": "Particle/Charon/ShadowPriest_4",
         "Target": "enemy",
         "Name": "冥符「黄泉平坂行路」",
-        "Description": "增加20返魂值。\n使所有敌人获得与目标相同的“已损失最大体力值”的值。\n\n葬送 - 使所有敌人失去&a最大体力值(攻击力的90%)。\n幽冥蝶 - 回引时，造成&a的伤害(&user攻击力的90%)。\n人魂蝶 - 回引时，(100%干扰成功率)眩晕1回合。",
+        "Description": "增加20<color=#FFB6C1>返魂值</color>。\n使所有敌人获得与目标相同的“已损失最大体力值”的值。\n\n<color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的135%)</color>。\n<color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的135%)</color>。\n<color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，(100%干扰成功率)眩晕1回合。",
         "User": "YuyukoF",
         "UseAp": 2,
         "IgnoreTaunt": true,
@@ -15,6 +15,25 @@
         "Effect_Target": "SE_T_S_YuyukoF_4",
         "SkillExtended": [
             "Yuyuko.S_YuyukoF_4"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "PlusKeyWords": [
+            "Keyword_Ruin",
+            "Keyword_ButterflyM",
+            "Keyword_ButterflyR"
         ]
     }
 }

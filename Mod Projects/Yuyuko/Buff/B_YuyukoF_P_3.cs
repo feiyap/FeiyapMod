@@ -37,7 +37,7 @@ namespace Yuyuko
             {
                 if (skill.Master == this.BChar)
                 {
-                    skill.ExtendedAdd(new Ex_LucyD_21());
+                    skill.NotAvailable = true;
                 }
             }
         }
@@ -47,9 +47,21 @@ namespace Yuyuko
             yield return new WaitForFixedUpdate();
             if (Drawskill.Master == this.BChar)
             {
-                Drawskill.ExtendedAdd(new Ex_LucyD_21());
+                Drawskill.NotAvailable = true;
             }
             yield break;
+        }
+
+        public override void SelfdestroyPlus()
+        {
+            base.SelfdestroyPlus();
+            foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills)
+            {
+                if (skill.IsDamage)
+                {
+                    skill.NotAvailable = false;
+                }
+            }
         }
     }
 }

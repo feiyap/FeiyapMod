@@ -9,7 +9,7 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "醉梦蝶",
-        "Description": "受到的伤害降低为0，但&user增加等量于伤害值的返魂值。\n&user陷入永眠时立即解除。",
+        "Description": "受到的伤害降低为0，但&user增加等量于伤害值的<color=#FFB6C1>返魂值</color>。\n&user陷入<color=#8B008B>永眠</color>时立即解除。",
         "LifeTime": 3,
         "Icon": "B_YuyukoF_8\\B_YuyukoF_8_Icon.png"
     }

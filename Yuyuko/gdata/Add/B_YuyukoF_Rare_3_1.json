@@ -4,7 +4,7 @@
         "Cantdisable": true,
         "ClassName": "Yuyuko.B_YuyukoF_Rare_3_1",
         "BuffTag": "null",
-        "Description": "所有造成的伤害额外增加&a(35%)点，最多触发 10 次。\n当前触发次数：&b",
+        "Description": "所有造成的伤害额外增加&a点<color=#FF7A33>(攻击力的35%)</color>，最多触发 10 次。\n当前触发次数：&b",
         "Name": "浮月蝶",
         "Icon": "B_YuyukoF_Rare_3_1\\B_YuyukoF_Rare_3_1_Icon.png"
     }

@@ -119,4 +119,9 @@ namespace Yuyuko
     {
         void GhostChange(int count);
     }
+
+    public interface IP_ButterflyReturn
+    {
+        void ButterflyReturn();
+    }
 }

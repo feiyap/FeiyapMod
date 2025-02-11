@@ -23,6 +23,12 @@ namespace Yuyuko
 	/// </summary>
     public class S_YuyukoF_6:Skill_Extended
     {
+        public override void Init()
+        {
+            base.Init();
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
+        }
+
         public int Fixed_count = 0;
 
         public override void FixedUpdate()

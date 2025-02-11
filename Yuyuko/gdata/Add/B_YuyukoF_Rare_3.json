@@ -5,7 +5,7 @@
         "ClassName": "Yuyuko.B_YuyukoF_Rare_3",
         "BuffTag": "null",
         "Name": "明光蝶",
-        "Description": "每个回合第一次触发唤魂X时，获得X点亡魂，并回复X点法力值（无法超过法力值上限）。",
+        "Description": "每个回合第一次触发<color=#E066FF><color=#E066FF>唤魂</color>X</color>时，获得X点<color=#E066FF><color=#E066FF>亡魂</color></color>，并回复X点法力值（无法超过法力值上限）。",
         "Icon": "B_YuyukoF_Rare_3\\B_YuyukoF_Rare_3_Icon.png"
     }
 }
