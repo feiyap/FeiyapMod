@@ -37,6 +37,33 @@ namespace ZhaNanBei3rd
         }
     }
 
+    [HarmonyPatch]
+    [HarmonyPatch(typeof(HexTile))]
+    public static class HexTilePatch
+    {
+        public static int hiddenTimes = 0;
+
+        [HarmonyPostfix]
+        [HarmonyPatch("HiddenWallOpen")]
+        public static void HiddenWallOpen_Postfix(HexTile __instance)
+        {
+            hiddenTimes++;
+        }
+    }
+
+    [HarmonyPatch]
+    [HarmonyPatch(typeof(ResultUI))]
+    public static class ResultUIPatch
+    {
+        [HarmonyPostfix]
+        [HarmonyPatch("Init")]
+        public static void Init_Postfix(ResultUI __instance)
+        {
+            //__instance.EndingText.text = FishingVillageDef.Loc("FVEnding_Name");
+            __instance.StageText.text = HexTilePatch.hiddenTimes.ToString();
+        }
+    }
+
     [HarmonyPatch(typeof(FieldSystem))]
     class FieldSystem_Patch
     {
@@ -65,6 +92,8 @@ namespace ZhaNanBei3rd
                 InventoryManager.Reward(list);
 
                 count = 1;
+
+                HexTilePatch.hiddenTimes = 0;
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage1_2)
             {
