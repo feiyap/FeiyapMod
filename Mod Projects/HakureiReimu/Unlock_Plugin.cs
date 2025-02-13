@@ -76,4 +76,32 @@ namespace HakureiReimu
             }
         }
     }
+
+    [HarmonyPatch(typeof(FieldSystem))]
+    class FieldSystem_Patch
+    {
+        [HarmonyPostfix]
+        [HarmonyPatch(nameof(FieldSystem.StageStart))]
+        static void StageStartPostfix()
+        {
+            foreach (string charaName in Unlock_Plugin.TouhouChara)
+            {
+                Statistics_Character charData = SaveManager.NowData.statistics.GetCharData(charaName);
+
+                if (charData.HopeExpertClear >= 1 ||
+                    charData.HopeNomalClear >= 1 ||
+                    charData.ExpertClear >= 1 ||
+                    charData.NomalClear >= 1 ||
+                    charData.CasualClear >= 1)
+                {
+                    UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
+                    if (charaName == "HakureiReimu" && !SaveManager.IsUnlock("HakureiReimuEclipse"))
+                    {
+                        SaveManager.NowData.unlockList.UnlockItems.Add("HakureiReimuEclipse");
+                    }
+                    return;
+                }
+            }
+        }
+    }
 }

@@ -102,6 +102,21 @@ namespace HinanawiTenshi
         }
     }
 
+    [HarmonyPatch(typeof(FieldSystem))]
+    class FieldSystem_Patch
+    {
+        [HarmonyPostfix]
+        [HarmonyPatch(nameof(FieldSystem.StageStart))]
+        static void StageStartPostfix()
+        {
+            if (SaveManager.NowData.statistics.BossKills.Find((BossKill a) => a.BossKey == "Queue_Boss_Tenshi") != null)
+            {
+                UnlockWindow.Unlock("Unlock_HinanawiTenshi", SaveManager.NowData.unlockList.UnlockCharacter, "HinanawiTenshi", true, true);
+                return;
+            }
+        }
+    }
+
     //[HarmonyPatch(typeof(ToolTipWindow))]
     //[HarmonyPatch("SkillToolTip")]
     //public static class SkillToolTip_Plugin
