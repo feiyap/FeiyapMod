@@ -1,0 +1,15 @@
+{
+    "S_YoumuF_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NoDrop": true,
+        "EnemyPreview": true,
+        "Name": "「待宵反射卫星斩」",
+        "Effect_Self": "SE_S_S_YoumuF_2",
+        "Image_0": "S_YoumuF_2\\S_YoumuF_2_Image_0.png",
+        "Image_1": "S_YoumuF_2\\S_YoumuF_2_Image_1.png",
+        "Image_2": "S_YoumuF_2\\S_YoumuF_2_Image_2.png"
+    }
+}

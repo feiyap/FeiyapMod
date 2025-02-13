@@ -1,0 +1,23 @@
+{
+    "Boss_Ghost": {
+        "_gdeSchema": "Enemy",
+        "hit": 107,
+        "name": "半灵",
+        "NotCursed": true,
+        "maxhp": 240,
+        "atk": 18,
+        "spd": 2,
+        "reg": 8,
+        "dodge": 3,
+        "cri": 7,
+        "RES_CC": 10,
+        "RES_DEBUFF": 18,
+        "RES_DOT": 15,
+        "Passives": [
+            "B_GhostF_P_0"
+        ],
+        "Skills": [
+            "S_GhostF_0"
+        ]
+    }
+}

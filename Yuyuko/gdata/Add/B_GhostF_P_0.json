@@ -1,0 +1,11 @@
+{
+    "B_GhostF_P_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "半人半灵",
+        "Description": "受到的伤害转化为痛苦伤害。\n死亡后，清空“魂魄妖梦”的“符卡能量”和“符卡层数”，移除“半分幻的庭师”增益，并立即释放“魂魄「幽明求闻持聪明之法」”。",
+        "Icon": "B_GhostF_P_0\\B_GhostF_P_0_Icon.png"
+    }
+}

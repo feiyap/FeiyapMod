@@ -1,0 +1,18 @@
+{
+    "S_GhostF_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "enemy",
+        "NoDrop": true,
+        "EnemyPreview": false,
+        "Name": "半灵冲撞",
+        "Description": "优先攻击拥有“凭依之缚”的敌人。",
+        "Effect_Target": "SE_T_S_GhostF_0",
+        "Image_0": "S_GhostF_0\\S_GhostF_0_Image_0.png",
+        "Image_1": "S_GhostF_0\\S_GhostF_0_Image_1.png",
+        "Image_2": "S_GhostF_0\\S_GhostF_0_Image_2.png",
+        "UnknownTarget": true
+    }
+}

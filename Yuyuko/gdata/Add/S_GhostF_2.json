@@ -1,0 +1,17 @@
+{
+    "S_GhostF_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NoDrop": false,
+        "EnemyPreview": true,
+        "Name": "空观剑「六根清净斩」",
+        "Description": "倒计时期间，如果指向的敌方使用的技能的目标包括“魂魄妖梦”或“魂魄妖梦·半灵”时，使该技能伤害变为0，并对其造成5次&a点伤害(攻击力的100%)和1次&b点伤害(攻击力的200%)的反击。\n倒计时期间，“魂魄妖梦·半灵”不可行动。\n如果成功格挡攻击，获得1层“符卡层数”。",
+        "Rare": true,
+        "Counting": 6,
+        "Image_0": "S_GhostF_2\\S_GhostF_2_Image_0.png",
+        "Image_1": "S_GhostF_2\\S_GhostF_2_Image_1.png",
+        "Image_2": "S_GhostF_2\\S_GhostF_2_Image_2.png"
+    }
+}

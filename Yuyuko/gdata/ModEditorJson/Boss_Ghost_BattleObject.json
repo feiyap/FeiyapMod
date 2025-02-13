@@ -1,0 +1,28 @@
+{
+    "myKey": "Boss_Ghost",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Boss_Ghost\\Boss_GhostMainImage.png",
+        "Animation": "Move Up and Down",
+        "Pivot": {
+            "x": 0.5,
+            "y": 0.142443657
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.479339927,
+            "y": 0.151609331
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

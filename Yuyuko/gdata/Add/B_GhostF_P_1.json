@@ -1,0 +1,11 @@
+{
+    "B_GhostF_P_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "生命二刀流·楼观剑",
+        "Description": "与“魂魄妖梦”共享体力值。\n以倒计时+1复制所有“魂魄妖梦”的行动（除“人鬼「未来永劫斩」”外）。\n每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。\n“符卡层数”到达5层后释放“空观剑「六根清净斩」”。",
+        "Icon": "B_GhostF_P_1\\B_GhostF_P_1_Icon.png"
+    }
+}

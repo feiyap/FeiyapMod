@@ -59,8 +59,8 @@ namespace ZhaNanBei3rd
         [HarmonyPatch("Init")]
         public static void Init_Postfix(ResultUI __instance)
         {
-            //__instance.EndingText.text = FishingVillageDef.Loc("FVEnding_Name");
-            __instance.StageText.text = HexTilePatch.hiddenTimes.ToString();
+            __instance.EndingText.text = HexTilePatch.hiddenTimes.ToString() + "ИівўВи";
+            __instance.StageText.text = HexTilePatch.hiddenTimes.ToString() + "ИівўВи";
         }
     }
 

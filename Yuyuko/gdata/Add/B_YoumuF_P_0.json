@@ -1,0 +1,15 @@
+{
+    "B_YoumuF_P_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "半分幻的庭师",
+        "Icon": "B_YoumuF_P_0\\B_YoumuF_P_0_Icon.png",
+        "Description": "受到伤害量-50%。\n减少的伤害量会传递给“半灵”。\n自身每行动2次，释放1次“半灵冲撞”。\n剩余行动次数：&a\n每行动3次，释放1次“拔刀术”。\n剩余行动次数：&b\n每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。\n“符卡层数”到达5层后释放“人鬼「未来永劫斩」”。"
+    }
+}

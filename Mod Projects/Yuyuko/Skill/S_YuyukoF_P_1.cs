@@ -66,6 +66,7 @@ namespace Yuyuko
         {
             Skill skill = new Skill();
             skill = Mybutton.Myskill.CloneSkill(true, null, null, true);
+            skill.FreeUse = true;
             ChildClear.Clear(BattleSystem.instance.ActWindow.ItemSkillView);
             GameObject gameObject = ToolTipWindow.SkillToolTip(BattleSystem.instance.ActWindow.ItemSkillView, skill, skill.Master, 0, 1, true, false, false);
             gameObject.transform.SetParent(BattleSystem.instance.ActWindow.ItemSkillView);

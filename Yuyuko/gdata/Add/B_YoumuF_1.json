@@ -1,0 +1,12 @@
+{
+    "B_YoumuF_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "Debuff",
+        "Name": "凭依之缚",
+        "Description": "成为“半灵冲撞”优先攻击的目标。",
+        "Debuff": true,
+        "TagPer": 160,
+        "Icon": "B_YoumuF_1\\B_YoumuF_1_Icon.png"
+    }
+}

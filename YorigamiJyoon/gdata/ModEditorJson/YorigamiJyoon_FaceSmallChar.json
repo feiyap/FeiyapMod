@@ -1,0 +1,23 @@
+{
+    "myKey": "YorigamiJyoon",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "YorigamiJyoon\\YorigamiJyoonFaceSmallChar.png",
+        "offsetMax": {
+            "x": 176.9078,
+            "y": 121.9392
+        },
+        "offsetMin": {
+            "x": -206.561188,
+            "y": -519.974854
+        },
+        "pivot": {
+            "x": 0.533365548,
+            "y": 0.8013302
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

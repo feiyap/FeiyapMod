@@ -8,10 +8,16 @@
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
             }
         ],
         "Enemys": [
-            "Boss_Youmu"
+            "Boss_Youmu",
+            "Boss_Ghost"
         ],
         "CustomeFogTurn": 10
     }

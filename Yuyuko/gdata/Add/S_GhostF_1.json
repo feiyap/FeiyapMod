@@ -1,0 +1,15 @@
+{
+    "S_GhostF_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NoDrop": true,
+        "UnknownTarget": false,
+        "Name": "魂魄「幽明求闻持聪明之法」",
+        "Image_0": "S_GhostF_1\\S_GhostF_1_Image_0.png",
+        "Image_1": "S_GhostF_1\\S_GhostF_1_Image_1.png",
+        "Image_2": "S_GhostF_1\\S_GhostF_1_Image_2.png",
+        "EnemyPreview": true
+    }
+}

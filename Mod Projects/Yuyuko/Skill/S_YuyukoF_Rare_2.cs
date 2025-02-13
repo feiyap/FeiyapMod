@@ -23,7 +23,7 @@ namespace Yuyuko
         public override void Init()
         {
             base.Init();
-            this.OnePassive = false;
+            this.OnePassive = true;
         }
 
         public bool OnSkillExcept(Dictionary<Skill, SkillLocation> exceptSkills)

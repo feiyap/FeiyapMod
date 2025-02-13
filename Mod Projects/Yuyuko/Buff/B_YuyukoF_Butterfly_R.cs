@@ -77,7 +77,7 @@ namespace Yuyuko
         public void Del(SkillButton Mybutton)
         {
             Mybutton.Myskill.Except();
-            this.BChar.MyTeam.Draw();
+            this.Usestate_F.MyTeam.Draw();
         }
 
         public override void SelfdestroyPlus()

@@ -1,0 +1,23 @@
+{
+    "myKey": "Boss_Ghost",
+    "myField": "Face",
+    "myValues": {
+        "path": "Boss_Ghost\\Boss_GhostFace.png",
+        "offsetMax": {
+            "x": 260.835754,
+            "y": 252.575531
+        },
+        "offsetMin": {
+            "x": -115.169136,
+            "y": -260.58252
+        },
+        "pivot": {
+            "x": 0.3008926,
+            "y": 0.496908873
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

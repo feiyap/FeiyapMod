@@ -1,0 +1,28 @@
+{
+    "myKey": "Boss_Ghost_Youmu",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Boss_Ghost_Youmu\\Boss_Ghost_YoumuMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.5082602,
+            "y": 0.248476118
+        },
+        "Head": {
+            "x": 0.520660043,
+            "y": 0.7907903
+        },
+        "Center": {
+            "x": 0.5082602,
+            "y": 0.557607353
+        },
+        "UI": {
+            "x": 0.49173528,
+            "y": 0.157661945
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

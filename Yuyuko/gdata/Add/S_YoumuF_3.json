@@ -1,0 +1,15 @@
+{
+    "S_YoumuF_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NoDrop": true,
+        "Name": "狱神剑「业风神闪斩」",
+        "Description": "随机追加3次行动（“狱神剑「业风神闪斩」”除外）。",
+        "Image_0": "S_YoumuF_3\\S_YoumuF_3_Image_0.png",
+        "Image_1": "S_YoumuF_3\\S_YoumuF_3_Image_1.png",
+        "Image_2": "S_YoumuF_3\\S_YoumuF_3_Image_2.png",
+        "EnemyPreview": true
+    }
+}

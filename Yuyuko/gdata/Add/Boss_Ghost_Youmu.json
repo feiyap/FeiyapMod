@@ -1,0 +1,21 @@
+{
+    "Boss_Ghost_Youmu": {
+        "_gdeSchema": "Enemy",
+        "hit": 107,
+        "name": "魂魄妖梦·半灵",
+        "Boss": true,
+        "NotCursed": true,
+        "maxhp": 240,
+        "spd": 1,
+        "atk": 18,
+        "reg": 8,
+        "dodge": 3,
+        "cri": 7,
+        "RES_CC": 10,
+        "RES_DEBUFF": 18,
+        "RES_DOT": 15,
+        "Passives": [
+            "B_GhostF_P_1"
+        ]
+    }
+}

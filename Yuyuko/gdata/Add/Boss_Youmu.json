@@ -22,10 +22,15 @@
         "EnemyStory": "",
         "CollactionEnemy": 5,
         "Skills": [
-            "S_YuyukoF_0"
+            "S_YoumuF_0",
+            "S_YoumuF_1",
+            "S_YoumuF_2",
+            "S_YoumuF_3",
+            "S_YoumuF_4"
         ],
         "Passives": [
-            "B_YuyukoF_1"
-        ]
+            "B_YoumuF_P_0"
+        ],
+        "AI": "Yuyuko.Boss_Youmu"
     }
 }
