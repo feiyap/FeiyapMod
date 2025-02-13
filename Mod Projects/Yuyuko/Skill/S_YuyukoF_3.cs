@@ -25,10 +25,17 @@ namespace Yuyuko
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
+            
+        }
+
+        public override void SkillUseHand(BattleChar Target)
+        {
+            base.SkillUseHand(Target);
+
             List<Skill> list = new List<Skill>();
             list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck);
 
-            BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true);
+            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true));
         }
 
         public bool SelfExcept(SkillLocation skillLoaction)
@@ -36,7 +43,7 @@ namespace Yuyuko
             List<Skill> list = new List<Skill>();
             list.AddRange(BattleSystem.instance.AllyTeam.Skills_UsedDeck);
 
-            BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del2), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true);
+            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del2), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true));
             return true;
         }
 

@@ -9,7 +9,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\bin\Debug\M
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\bin\Debug\MonoMod.Utils.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\bin\Debug\System.Core.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\obj\Debug\ZhaNanBei3rd.csproj.CopyComplete
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\bin\Debug\ZhaNanBei3rd2025212232915.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\bin\Debug\ZhaNanBei3rd2025212232915.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\obj\Debug\ZhaNanBei3rd2025212232915.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\obj\Debug\ZhaNanBei3rd2025212232915.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\bin\Debug\ZhaNanBei3rd202521400206.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\bin\Debug\ZhaNanBei3rd202521400206.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\obj\Debug\ZhaNanBei3rd202521400206.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\ZhaNanBei3rd\Scripts\obj\Debug\ZhaNanBei3rd202521400206.pdb

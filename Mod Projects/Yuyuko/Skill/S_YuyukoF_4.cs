@@ -22,26 +22,29 @@ namespace Yuyuko
 	/// 幽冥蝶 - 回引时，造成&a的伤害(&user攻击力的90%)。
 	/// 人魂蝶 - 回引时，(100%干扰成功率)眩晕1回合。
 	/// </summary>
-    public class S_YuyukoF_4:Skill_Extended, IP_SkillSelfExcept
+    public class S_YuyukoF_4:Skill_Extended, IP_SkillSelfExcept, IP_SkillUse_Target
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            int max = 0;
-            foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
+            
+        }
+
+        public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
+        {
+            if ((SP.SkillData == this.MySkill))
             {
-                int count = BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[this.BChar];
-                if (count > max)
+                int count = BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[hit];
+                
+                foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
                 {
-                    max = count;
+                    if (be != hit)
+                    {
+                        BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(be, count, this.BChar);
+                    }
                 }
-            }
 
-            foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
-            {
-                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(be, max, this.BChar, true);
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
             }
-
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
         }
 
         public bool SelfExcept(SkillLocation skillLoaction)

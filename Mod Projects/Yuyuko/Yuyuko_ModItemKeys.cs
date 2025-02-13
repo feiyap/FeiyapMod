@@ -4,9 +4,67 @@ namespace Yuyuko
     public static class ModItemKeys
     {
 		/// <summary>
+		/// 半灵
+		/// </summary>
+        public static string Enemy_Boss_Ghost = "Boss_Ghost";
+		/// <summary>
+		/// 魂魄妖梦·半灵
+		/// </summary>
+        public static string Enemy_Boss_Ghost_Youmu = "Boss_Ghost_Youmu";
+		/// <summary>
 		/// 魂魄妖梦
 		/// </summary>
         public static string Enemy_Boss_Youmu = "Boss_Youmu";
+		/// <summary>
+		/// 引导攻击
+		/// 受到妖梦的伤害+1。
+		/// </summary>
+        public static string Buff_B_GhostF_1 = "B_GhostF_1";
+		/// <summary>
+		/// 半人半灵
+		/// 受到的伤害转化为痛苦伤害。
+		/// 死亡后，清空“魂魄妖梦”的“符卡能量”和“符卡层数”，移除“半分幻的庭师”增益，并立即释放“魂魄「幽明求闻持聪明之法」”。
+		/// </summary>
+        public static string Buff_B_GhostF_P_0 = "B_GhostF_P_0";
+		/// <summary>
+		/// 生命二刀流·楼观剑
+		/// 与“魂魄妖梦”共享体力值。
+		/// 以倒计时+1复制所有“魂魄妖梦”的行动（除“人鬼「未来永劫斩」”外）。
+		/// 每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。
+		/// “符卡层数”到达5层后释放“空观剑「六根清净斩」”。
+		/// </summary>
+        public static string Buff_B_GhostF_P_1 = "B_GhostF_P_1";
+		/// <summary>
+		/// 凭依之缚
+		/// 成为“半灵冲撞”优先攻击的目标。
+		/// </summary>
+        public static string Buff_B_YoumuF_1 = "B_YoumuF_1";
+		/// <summary>
+		/// 「待宵反射卫星斩」
+		/// 受到下一次伤害时以等额伤害反击，触发时移除1层。
+		/// </summary>
+        public static string Buff_B_YoumuF_2 = "B_YoumuF_2";
+		/// <summary>
+		/// 半分幻的庭师
+		/// 受到伤害量-50%。
+		/// 减少的伤害量会传递给“半灵”。
+		/// 自身每行动2次，释放1次“半灵冲撞”。
+		/// 剩余行动次数：&a
+		/// 每行动3次，释放1次“拔刀术”。
+		/// 剩余行动次数：&b
+		/// 每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。
+		/// “符卡层数”到达5层后释放“人鬼「未来永劫斩」”。
+		/// </summary>
+        public static string Buff_B_YoumuF_P_0 = "B_YoumuF_P_0";
+		/// <summary>
+		/// 生命二刀流·白楼剑
+		/// 与“魂魄妖梦·半灵”共享体力值。
+		/// 每行动3次，释放1次“拔刀术”。
+		/// 剩余行动次数：&b
+		/// 每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。
+		/// “符卡层数”到达5层后释放“人鬼「未来永劫斩」”。
+		/// </summary>
+        public static string Buff_B_YoumuF_P_1 = "B_YoumuF_P_1";
 		/// <summary>
 		/// 轮回蝶
 		/// 结算时降低&a最大体力值<color=#FF7A33>(&user的攻击力的50%)</color>。
@@ -108,8 +166,15 @@ namespace Yuyuko
 		/// 技能被放逐时，能够触发额外效果。
 		/// </summary>
         public static string SkillKeyword_Keyword_Ruin = "Keyword_Ruin";
+        public static string SkillEffect_SE_S_S_YoumuF_2 = "SE_S_S_YoumuF_2";
         public static string SkillEffect_SE_S_S_YuyukoF_Rare_2 = "SE_S_S_YuyukoF_Rare_2";
         public static string SkillEffect_SE_S_S_YuyukoF_Rare_3 = "SE_S_S_YuyukoF_Rare_3";
+        public static string SkillEffect_SE_T_S_GhostF_0 = "SE_T_S_GhostF_0";
+        public static string SkillEffect_SE_T_S_YoumuF_0 = "SE_T_S_YoumuF_0";
+        public static string SkillEffect_SE_T_S_YoumuF_1 = "SE_T_S_YoumuF_1";
+        public static string SkillEffect_SE_T_S_YoumuF_4 = "SE_T_S_YoumuF_4";
+        public static string SkillEffect_SE_T_S_YoumuF_5 = "SE_T_S_YoumuF_5";
+        public static string SkillEffect_SE_T_S_YoumuF_6 = "SE_T_S_YoumuF_6";
         public static string SkillEffect_SE_T_S_YuyukoF_0 = "SE_T_S_YuyukoF_0";
         public static string SkillEffect_SE_T_S_YuyukoF_1 = "SE_T_S_YuyukoF_1";
         public static string SkillEffect_SE_T_S_YuyukoF_2 = "SE_T_S_YuyukoF_2";
@@ -126,6 +191,59 @@ namespace Yuyuko
         public static string SkillEffect_SE_T_S_YuyukoF_Rare_2_0 = "SE_T_S_YuyukoF_Rare_2_0";
         public static string SkillEffect_SE_T_S_YuyukoF_Rare_3 = "SE_T_S_YuyukoF_Rare_3";
         public static string EnemyQueue_SR_Boss_Youmu = "SR_Boss_Youmu";
+		/// <summary>
+		/// 半灵冲撞
+		/// 优先攻击拥有“凭依之缚”的敌人。
+		/// </summary>
+        public static string Skill_S_GhostF_0 = "S_GhostF_0";
+		/// <summary>
+		/// 魂魄「幽明求闻持聪明之法」
+		/// </summary>
+        public static string Skill_S_GhostF_1 = "S_GhostF_1";
+		/// <summary>
+		/// 空观剑「六根清净斩」
+		/// 倒计时期间，如果指向的敌方使用的技能的目标包括“魂魄妖梦”或“魂魄妖梦·半灵”时，使该技能伤害变为0，并对其造成5次&a点伤害(攻击力的100%)和1次&b点伤害(攻击力的200%)的反击。
+		/// 倒计时期间，“魂魄妖梦·半灵”不可行动。
+		/// 如果成功格挡攻击，获得1层“符卡层数”。
+		/// </summary>
+        public static string Skill_S_GhostF_2 = "S_GhostF_2";
+		/// <summary>
+		/// 柄击
+		/// 释放2次“柄击”后，追加1次“拔刀术”。
+		/// </summary>
+        public static string Skill_S_YoumuF_0 = "S_YoumuF_0";
+		/// <summary>
+		/// 凭依之缚
+		/// </summary>
+        public static string Skill_S_YoumuF_1 = "S_YoumuF_1";
+		/// <summary>
+		/// 「待宵反射卫星斩」
+		/// </summary>
+        public static string Skill_S_YoumuF_2 = "S_YoumuF_2";
+		/// <summary>
+		/// 狱神剑「业风神闪斩」
+		/// 随机追加3次行动（“狱神剑「业风神闪斩」”除外）。
+		/// </summary>
+        public static string Skill_S_YoumuF_3 = "S_YoumuF_3";
+		/// <summary>
+		/// 奥义「西行春风斩」
+		/// 重复释放本技能1次。
+		/// 同时攻击除该目标外1个随机目标。
+		/// 如果只攻击1个目标，本次攻击必定暴击。
+		/// </summary>
+        public static string Skill_S_YoumuF_4 = "S_YoumuF_4";
+		/// <summary>
+		/// 拔刀术
+		/// 减少1次等待次数。
+		/// </summary>
+        public static string Skill_S_YoumuF_5 = "S_YoumuF_5";
+		/// <summary>
+		/// 人鬼「未来永劫斩」
+		/// 无视防御。
+		/// 先造成1次&a伤害(攻击力的60%)，再造成16次&b伤害(攻击力的29%)，最后造成一次&c伤害(攻击力的500%)。
+		/// 若目标陷入濒死状态，且场上存在非濒死状态的调查员，则攻击对象转移至其他非濒死状态的调查员。
+		/// </summary>
+        public static string Skill_S_YoumuF_6 = "S_YoumuF_6";
 		/// <summary>
 		/// 亡乡「亡我乡 -宿罪-」
 		/// 增加20<color=#FFB6C1>返魂值</color>。
@@ -298,124 +416,6 @@ namespace Yuyuko
 		/// <b><color=#CAE1FF>亡者召还</color>X</b> - 从放逐牌库将1个费用不超过X的技能拿回手中。
 		/// </summary>
         public static string Character_YuyukoF = "YuyukoF";
-		/// <summary>
-		/// 半分幻的庭师
-		/// 受到伤害量-50%。
-		/// 减少的伤害量会传递给“半灵”。
-		/// 自身每行动2次，释放1次“半灵冲撞”。
-		/// 剩余行动次数：&a
-		/// 每行动3次，释放1次“拔刀术”。
-		/// 剩余行动次数：&b
-		/// 每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。
-		/// “符卡层数”到达5层后释放“人鬼「未来永劫斩」”。
-		/// </summary>
-        public static string Buff_B_YoumuF_P_0 = "B_YoumuF_P_0";
-		/// <summary>
-		/// 生命二刀流·白楼剑
-		/// 与“魂魄妖梦·半灵”共享体力值。
-		/// 每行动3次，释放1次“拔刀术”。
-		/// 剩余行动次数：&b
-		/// 每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。
-		/// “符卡层数”到达5层后释放“人鬼「未来永劫斩」”。
-		/// </summary>
-        public static string Buff_B_YoumuF_P_1 = "B_YoumuF_P_1";
-		/// <summary>
-		/// 半灵
-		/// </summary>
-        public static string Enemy_Boss_Ghost = "Boss_Ghost";
-		/// <summary>
-		/// 半人半灵
-		/// 受到的伤害转化为痛苦伤害。
-		/// 死亡后，清空“魂魄妖梦”的“符卡能量”和“符卡层数”，移除“半分幻的庭师”增益，并立即释放“魂魄「幽明求闻持聪明之法」”。
-		/// </summary>
-        public static string Buff_B_GhostF_P_0 = "B_GhostF_P_0";
-		/// <summary>
-		/// 魂魄妖梦·半灵
-		/// </summary>
-        public static string Enemy_Boss_Ghost_Youmu = "Boss_Ghost_Youmu";
-		/// <summary>
-		/// 生命二刀流·楼观剑
-		/// 与“魂魄妖梦”共享体力值。
-		/// 以倒计时+1复制所有“魂魄妖梦”的行动（除“人鬼「未来永劫斩」”外）。
-		/// 每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。
-		/// “符卡层数”到达5层后释放“空观剑「六根清净斩」”。
-		/// </summary>
-        public static string Buff_B_GhostF_P_1 = "B_GhostF_P_1";
-		/// <summary>
-		/// 柄击
-		/// 释放2次“柄击”后，追加1次“拔刀术”。
-		/// </summary>
-        public static string Skill_S_YoumuF_0 = "S_YoumuF_0";
-        public static string SkillEffect_SE_T_S_YoumuF_0 = "SE_T_S_YoumuF_0";
-		/// <summary>
-		/// 凭依之缚
-		/// </summary>
-        public static string Skill_S_YoumuF_1 = "S_YoumuF_1";
-        public static string SkillEffect_SE_T_S_YoumuF_1 = "SE_T_S_YoumuF_1";
-		/// <summary>
-		/// 「待宵反射卫星斩」
-		/// </summary>
-        public static string Skill_S_YoumuF_2 = "S_YoumuF_2";
-        public static string SkillEffect_SE_S_S_YoumuF_2 = "SE_S_S_YoumuF_2";
-		/// <summary>
-		/// 狱神剑「业风神闪斩」
-		/// 随机追加3次行动（“狱神剑「业风神闪斩」”除外）。
-		/// </summary>
-        public static string Skill_S_YoumuF_3 = "S_YoumuF_3";
-		/// <summary>
-		/// 奥义「西行春风斩」
-		/// 重复释放本技能1次。
-		/// 同时攻击除该目标外1个随机目标。
-		/// 如果只攻击1个目标，本次攻击必定暴击。
-		/// </summary>
-        public static string Skill_S_YoumuF_4 = "S_YoumuF_4";
-        public static string SkillEffect_SE_T_S_YoumuF_4 = "SE_T_S_YoumuF_4";
-		/// <summary>
-		/// 拔刀术
-		/// 减少1次等待次数。
-		/// </summary>
-        public static string Skill_S_YoumuF_5 = "S_YoumuF_5";
-        public static string SkillEffect_SE_T_S_YoumuF_5 = "SE_T_S_YoumuF_5";
-		/// <summary>
-		/// 人鬼「未来永劫斩」
-		/// 无视防御。
-		/// 先造成1次&a伤害(攻击力的60%)，再造成16次&b伤害(攻击力的29%)，最后造成一次&c伤害(攻击力的500%)。
-		/// 若目标陷入濒死状态，且场上存在非濒死状态的调查员，则攻击对象转移至其他非濒死状态的调查员。
-		/// </summary>
-        public static string Skill_S_YoumuF_6 = "S_YoumuF_6";
-        public static string SkillEffect_SE_T_S_YoumuF_6 = "SE_T_S_YoumuF_6";
-		/// <summary>
-		/// 半灵冲撞
-		/// 优先攻击拥有“凭依之缚”的敌人。
-		/// </summary>
-        public static string Skill_S_GhostF_0 = "S_GhostF_0";
-        public static string SkillEffect_SE_T_S_GhostF_0 = "SE_T_S_GhostF_0";
-		/// <summary>
-		/// 魂魄「幽明求闻持聪明之法」
-		/// </summary>
-        public static string Skill_S_GhostF_1 = "S_GhostF_1";
-		/// <summary>
-		/// 空观剑「六根清净斩」
-		/// 倒计时期间，如果指向的敌方使用的技能的目标包括“魂魄妖梦”或“魂魄妖梦·半灵”时，使该技能伤害变为0，并对其造成5次&a点伤害(攻击力的100%)和1次&b点伤害(攻击力的200%)的反击。
-		/// 倒计时期间，“魂魄妖梦·半灵”不可行动。
-		/// 如果成功格挡攻击，获得1层“符卡层数”。
-		/// </summary>
-        public static string Skill_S_GhostF_2 = "S_GhostF_2";
-		/// <summary>
-		/// 引导攻击
-		/// 受到妖梦的伤害+1。
-		/// </summary>
-        public static string Buff_B_GhostF_1 = "B_GhostF_1";
-		/// <summary>
-		/// 凭依之缚
-		/// 成为“半灵冲撞”优先攻击的目标。
-		/// </summary>
-        public static string Buff_B_YoumuF_1 = "B_YoumuF_1";
-		/// <summary>
-		/// 「待宵反射卫星斩」
-		/// 受到下一次伤害时以等额伤害反击，触发时移除1层。
-		/// </summary>
-        public static string Buff_B_YoumuF_2 = "B_YoumuF_2";
 
     }
 

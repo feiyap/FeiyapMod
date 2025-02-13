@@ -130,10 +130,35 @@ namespace HakureiReimu
 		/// </summary>
         public static string Buff_B_HakureiReimu_F_P_1 = "B_HakureiReimu_F_P_1";
 		/// <summary>
+		/// 完美冻结巫女
+		/// 自身可以在冻结状态下行动，造成伤害时额外施加1层[冻伤]。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Cirno_0 = "B_Musoutensei_Cirno_0";
+		/// <summary>
+		/// 幻想乡的守护者
+		/// 受到伤害时，&user发起一次&a伤害的反击<color=#FF7A33>(攻击力的50%)</color>。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Daiyousei_0 = "B_Musoutensei_Daiyousei_0";
+		/// <summary>
+		/// 赤色杀人魔！
+		/// 受到治疗后，下一次出手的技能的伤害增加10%。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Daiyousei_1 = "B_Musoutensei_Daiyousei_1";
+		/// <summary>
+		/// 赤色杀人魔！
+		/// 伤害增加&a%。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Daiyousei_2 = "B_Musoutensei_Daiyousei_2";
+		/// <summary>
 		/// 绯生一文字
 		/// 造成伤害时，额外造成50%的痛苦伤害。
 		/// </summary>
         public static string Buff_B_Musoutensei_Flandre_0 = "B_Musoutensei_Flandre_0";
+		/// <summary>
+		/// 凋叶棕
+		/// 自身每次获得增益时，莉莉黑会对随机敌人发动一次&a伤害的追加攻击<color=#FF7A33>(攻击力的33%)</color>。
+		/// </summary>
+        public static string Buff_B_Musoutensei_Lilyblack_0 = "B_Musoutensei_Lilyblack_0";
 		/// <summary>
 		/// 发热巫女
 		/// 自身拥有的每种增益使这个增益获得“+5%攻击力、+5%暴击率、+5%暴击伤害”。
@@ -250,6 +275,11 @@ namespace HakureiReimu
 		/// </summary>
         public static string SkillExtended_SE_HakureiReimu_E_2 = "SE_HakureiReimu_E_2";
 		/// <summary>
+		/// 赤色杀人魔！
+		/// 伤害增加&a%。
+		/// </summary>
+        public static string SkillExtended_SE_Musoutensei_Daiyousei_0 = "SE_Musoutensei_Daiyousei_0";
+		/// <summary>
 		/// 造成的伤害提升50%。
 		/// </summary>
         public static string SkillExtended_SE_Musoutensei_Satsuki_0 = "SE_Musoutensei_Satsuki_0";
@@ -270,7 +300,10 @@ namespace HakureiReimu
         public static string SkillEffect_SE_S_S_HakureiReimu_F_4_3 = "SE_S_S_HakureiReimu_F_4_3";
         public static string SkillEffect_SE_S_S_HakureiReimu_F_4_5 = "SE_S_S_HakureiReimu_F_4_5";
         public static string SkillEffect_SE_S_S_HakureiReimu_F_8_3 = "SE_S_S_HakureiReimu_F_8_3";
+        public static string SkillEffect_SE_S_S_Musoutensei_Cirno = "SE_S_S_Musoutensei_Cirno";
+        public static string SkillEffect_SE_S_S_Musoutensei_Daiyousei = "SE_S_S_Musoutensei_Daiyousei";
         public static string SkillEffect_SE_S_S_Musoutensei_Flandre = "SE_S_S_Musoutensei_Flandre";
+        public static string SkillEffect_SE_S_S_Musoutensei_Lilyblack = "SE_S_S_Musoutensei_Lilyblack";
         public static string SkillEffect_SE_S_S_Musoutensei_Lilywhite = "SE_S_S_Musoutensei_Lilywhite";
         public static string SkillEffect_SE_S_S_Musoutensei_Mokou = "SE_S_S_Musoutensei_Mokou";
         public static string SkillEffect_SE_S_S_Musoutensei_Youmu = "SE_S_S_Musoutensei_Youmu";
@@ -304,13 +337,17 @@ namespace HakureiReimu
         public static string SkillEffect_SE_T_S_HakureiReimu_F_6_4 = "SE_T_S_HakureiReimu_F_6_4";
         public static string SkillEffect_SE_T_S_HakureiReimu_F_7 = "SE_T_S_HakureiReimu_F_7";
         public static string SkillEffect_SE_T_S_HakureiReimu_F_7_3 = "SE_T_S_HakureiReimu_F_7_3";
+        public static string SkillEffect_SE_T_S_Musoutensei_Daiyousei = "SE_T_S_Musoutensei_Daiyousei";
         public static string SkillEffect_SE_T_S_Musoutensei_Eirin = "SE_T_S_Musoutensei_Eirin";
+        public static string SkillEffect_SE_T_S_Musoutensei_Lilyblack_1 = "SE_T_S_Musoutensei_Lilyblack_1";
         public static string SkillEffect_SE_T_S_Musoutensei_Mokou = "SE_T_S_Musoutensei_Mokou";
         public static string SkillEffect_SE_T_S_Musoutensei_Reisen = "SE_T_S_Musoutensei_Reisen";
         public static string SkillEffect_SE_T_S_Musoutensei_Remilia = "SE_T_S_Musoutensei_Remilia";
         public static string SkillEffect_SE_T_S_Musoutensei_Sakuya = "SE_T_S_Musoutensei_Sakuya";
         public static string SkillEffect_SE_T_S_Musoutensei_Satsuki = "SE_T_S_Musoutensei_Satsuki";
         public static string SkillEffect_SE_T_S_Musoutensei_Utuho = "SE_T_S_Musoutensei_Utuho";
+        public static string SkillEffect_SE_T_S_Musoutensei_Youmu_1 = "SE_T_S_Musoutensei_Youmu_1";
+        public static string SkillEffect_SE_T_S_Musoutensei_Youmu_2 = "SE_T_S_Musoutensei_Youmu_2";
         public static string SkillExtended_SkillExtended_Reimu = "SkillExtended_Reimu";
 		/// <summary>
 		/// 灵符「梦想妙珠」
@@ -503,6 +540,16 @@ namespace HakureiReimu
 		/// </summary>
         public static string Skill_S_Musoutensei_Alice = "S_Musoutensei_Alice";
 		/// <summary>
+		/// 梦符「Perfect Shrine Maiden」
+		/// <color=#FFD700>*「梦想天生」+冻符「Perfect Freeze」*</color>
+		/// </summary>
+        public static string Skill_S_Musoutensei_Cirno = "S_Musoutensei_Cirno";
+		/// <summary>
+		/// 结界「赤色的领域」
+		/// <color=#FFD700>*「梦想天生」+妖符「妖精的领域」*</color>
+		/// </summary>
+        public static string Skill_S_Musoutensei_Daiyousei = "S_Musoutensei_Daiyousei";
+		/// <summary>
 		/// 天月下「地上的大密室」
 		/// <color=#FFD700>*「梦想天生」+秘术「天文密葬法」*</color>
 		/// 随机对自身施加5种增益效果。
@@ -526,6 +573,12 @@ namespace HakureiReimu
 		/// 生成目标的所有稀有技能。
 		/// </summary>
         public static string Skill_S_Musoutensei_Kaguya = "S_Musoutensei_Kaguya";
+		/// <summary>
+		/// 立秋「处处闻啼鸟」
+		/// <color=#FFD700>*「梦想天生」+秋告「无人知晓的告秋精」*</color>
+		/// </summary>
+        public static string Skill_S_Musoutensei_Lilyblack = "S_Musoutensei_Lilyblack";
+        public static string Skill_S_Musoutensei_Lilyblack_1 = "S_Musoutensei_Lilyblack_1";
 		/// <summary>
 		/// 立春「春眠不觉晓」
 		/// <color=#FFD700>*「梦想天生」+春符「告春」*</color>
@@ -570,62 +623,9 @@ namespace HakureiReimu
 		/// <color=#FFD700>*「梦想天生」+炯眼剑*</color>
 		/// </summary>
         public static string Skill_S_Musoutensei_Youmu = "S_Musoutensei_Youmu";
-        public static string UnlockWindow_Unlock_HakureiReimu = "Unlock_HakureiReimu";
-		/// <summary>
-		/// 梦符「Perfect Shrine Maiden」
-		/// <color=#FFD700>*「梦想天生」+冻符「Perfect Freeze」*</color>
-		/// </summary>
-        public static string Skill_S_Musoutensei_Cirno = "S_Musoutensei_Cirno";
-        public static string SkillEffect_SE_S_S_Musoutensei_Cirno = "SE_S_S_Musoutensei_Cirno";
-		/// <summary>
-		/// 完美冻结巫女
-		/// 自身可以在冻结状态下行动，造成伤害时额外施加1层[冻伤]。
-		/// </summary>
-        public static string Buff_B_Musoutensei_Cirno_0 = "B_Musoutensei_Cirno_0";
-		/// <summary>
-		/// 结界「赤色的领域」
-		/// <color=#FFD700>*「梦想天生」+妖符「妖精的领域」*</color>
-		/// </summary>
-        public static string Skill_S_Musoutensei_Daiyousei = "S_Musoutensei_Daiyousei";
-        public static string SkillEffect_SE_T_S_Musoutensei_Daiyousei = "SE_T_S_Musoutensei_Daiyousei";
-        public static string SkillEffect_SE_S_S_Musoutensei_Daiyousei = "SE_S_S_Musoutensei_Daiyousei";
-		/// <summary>
-		/// 立秋「处处闻啼鸟」
-		/// <color=#FFD700>*「梦想天生」+秋告「无人知晓的告秋精」*</color>
-		/// </summary>
-        public static string Skill_S_Musoutensei_Lilyblack = "S_Musoutensei_Lilyblack";
-        public static string SkillEffect_SE_S_S_Musoutensei_Lilyblack = "SE_S_S_Musoutensei_Lilyblack";
-		/// <summary>
-		/// 凋叶棕
-		/// 自身每次获得增益时，莉莉黑会对随机敌人发动一次&a伤害的追加攻击<color=#FF7A33>(攻击力的33%)</color>。
-		/// </summary>
-        public static string Buff_B_Musoutensei_Lilyblack_0 = "B_Musoutensei_Lilyblack_0";
-		/// <summary>
-		/// 幻想乡的守护者
-		/// 受到伤害时，&user发起一次&a伤害的反击<color=#FF7A33>(攻击力的50%)</color>。
-		/// </summary>
-        public static string Buff_B_Musoutensei_Daiyousei_0 = "B_Musoutensei_Daiyousei_0";
-		/// <summary>
-		/// 赤色杀人魔！
-		/// 受到治疗后，下一次出手的技能的伤害增加10%。
-		/// </summary>
-        public static string Buff_B_Musoutensei_Daiyousei_1 = "B_Musoutensei_Daiyousei_1";
-		/// <summary>
-		/// 赤色杀人魔！
-		/// 伤害增加&a%。
-		/// </summary>
-        public static string Buff_B_Musoutensei_Daiyousei_2 = "B_Musoutensei_Daiyousei_2";
-		/// <summary>
-		/// 赤色杀人魔！
-		/// 伤害增加&a%。
-		/// </summary>
-        public static string SkillExtended_SE_Musoutensei_Daiyousei_0 = "SE_Musoutensei_Daiyousei_0";
-        public static string Skill_S_Musoutensei_Lilyblack_1 = "S_Musoutensei_Lilyblack_1";
-        public static string SkillEffect_SE_T_S_Musoutensei_Lilyblack_1 = "SE_T_S_Musoutensei_Lilyblack_1";
         public static string Skill_S_Musoutensei_Youmu_1 = "S_Musoutensei_Youmu_1";
-        public static string SkillEffect_SE_T_S_Musoutensei_Youmu_1 = "SE_T_S_Musoutensei_Youmu_1";
         public static string Skill_S_Musoutensei_Youmu_2 = "S_Musoutensei_Youmu_2";
-        public static string SkillEffect_SE_T_S_Musoutensei_Youmu_2 = "SE_T_S_Musoutensei_Youmu_2";
+        public static string UnlockWindow_Unlock_HakureiReimu = "Unlock_HakureiReimu";
 
     }
 

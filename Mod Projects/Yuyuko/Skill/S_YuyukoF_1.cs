@@ -51,6 +51,18 @@ namespace Yuyuko
             }
         }
 
+        public override void SkillUseHand(BattleChar Target)
+        {
+            base.SkillUseHand(Target);
+
+            if (P_YuyukoF.CheckGhost(5, false))
+            {
+                Skill skill = Skill.TempSkill("S_YuyukoF_1", this.BChar, this.BChar.MyTeam);
+                skill.Counting = 2;
+                BattleTeam.SkillRandomUse(this.BChar, skill, false, true, false);
+            }
+        }
+
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)
@@ -63,13 +75,6 @@ namespace Yuyuko
                 {
                     this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.6f);
                 }
-            }
-
-            if (P_YuyukoF.CheckGhost(5, false))
-            {
-                Skill skill = Skill.TempSkill("S_YuyukoF_1", this.BChar, this.BChar.MyTeam);
-                skill.Counting = 2;
-                this.BChar.ParticleOut(skill, Targets[0]);
             }
 
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);

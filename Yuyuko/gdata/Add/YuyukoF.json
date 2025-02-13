@@ -71,6 +71,8 @@
         "Gender": 1,
         "PassiveIcon": "YuyukoF\\YuyukoFPassiveIcon.png",
         "FirstSkill": "S_YuyukoF_0",
-        "FixedBasicSkill": "S_YuyukoF_P_1"
+        "FixedBasicSkill": "S_YuyukoF_P_1",
+        "SelectInfo": "西行寺幽幽子是特立独行的专业型输出。\n\n西行寺幽幽子与其他输出角色不同，她不能造成任何伤害，而会将伤害转化为等量的“最大体力值降低”。因为无法造成伤害，她能够规避部分机制，但同样因此无法从伤害量中获益。除此之外，她还能将技能转化为蝴蝶、设置在敌人身上，每个技能都能转化为特殊效果。因为她特立独行的机制，所以需要投入大量资源和精力才能发挥最大的强度。",
+        "CampSelectWord": ""
     }
 }

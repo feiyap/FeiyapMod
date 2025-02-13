@@ -22,16 +22,24 @@ namespace Yuyuko
 	/// 幽冥蝶 - 回合开始时，降低10%最大体力值。
 	/// 人魂蝶 - 可以无视嘲讽状态被选中。
 	/// </summary>
-    public class S_YuyukoF_0:Skill_Extended, IP_SkillSelfExcept
+    public class S_YuyukoF_0:Skill_Extended, IP_SkillSelfExcept, IP_SkillUse_Target
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)
-            {
-                this.BChar.Heal(this.BChar, (int)(BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[Targets[0]] * 0.25), true, false);
-            }
+            
+        }
 
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
+        public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
+        {
+            if ((SP.SkillData == this.MySkill))
+            {
+                if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)
+                {
+                    this.BChar.Heal(this.BChar, (int)(BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[hit] * 0.25), true, false);
+                }
+
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(20);
+            }
         }
 
         public bool SelfExcept(SkillLocation skillLoaction)

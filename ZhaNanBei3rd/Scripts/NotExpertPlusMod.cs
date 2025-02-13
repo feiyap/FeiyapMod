@@ -41,13 +41,14 @@ namespace ZhaNanBei3rd
     [HarmonyPatch(typeof(HexTile))]
     public static class HexTilePatch
     {
-        public static int hiddenTimes = 0;
-
-        [HarmonyPostfix]
+        [HarmonyPrefix]
         [HarmonyPatch("HiddenWallOpen")]
-        public static void HiddenWallOpen_Postfix(HexTile __instance)
+        public static void HiddenWallOpen_Prefix(HexTile __instance)
         {
-            hiddenTimes++;
+            if (__instance.HiddenWall != null && !(__instance.Tile.Info.Type as HiddenWall).IsUnlocked)
+            {
+                FieldSystem_Patch.hiddenTimes++;
+            }
         }
     }
 
@@ -59,8 +60,7 @@ namespace ZhaNanBei3rd
         [HarmonyPatch("Init")]
         public static void Init_Postfix(ResultUI __instance)
         {
-            __instance.EndingText.text = HexTilePatch.hiddenTimes.ToString() + "ИівўВи";
-            __instance.StageText.text = HexTilePatch.hiddenTimes.ToString() + "ИівўВи";
+                __instance.EndingText.text = FieldSystem_Patch.hiddenTimes.ToString() + "ИівўВи";
         }
     }
 
@@ -68,6 +68,8 @@ namespace ZhaNanBei3rd
     class FieldSystem_Patch
     {
         public static int count = 0;
+        public static int hiddenTimes = 0;
+
 
         [HarmonyPostfix]
         [HarmonyPatch(nameof(FieldSystem.StageStart))]
@@ -93,7 +95,7 @@ namespace ZhaNanBei3rd
 
                 count = 1;
 
-                HexTilePatch.hiddenTimes = 0;
+                hiddenTimes = 0;
             }
             if (PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage1_2)
             {
@@ -137,6 +139,11 @@ namespace ZhaNanBei3rd
             if (ib2 != null)
             {
                 __instance.StoreItems.Remove(ib2);
+            }
+            ItemBase ib3 = __instance.StoreItems.Find(t => t.itemkey == GDEItemKeys.Item_Consume_Specialpackage);
+            if (ib3 != null)
+            {
+                __instance.StoreItems.Remove(ib3);
             }
         }
     }

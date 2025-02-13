@@ -2,6 +2,7 @@
     "TestQueue": {
         "_gdeSchema": "EnemyQueue",
         "Enemys": [
+            "TrialofStrength_Enemy",
             "TrialofStrength_Enemy"
         ]
     }
