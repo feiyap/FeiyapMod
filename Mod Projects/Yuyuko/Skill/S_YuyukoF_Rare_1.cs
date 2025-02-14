@@ -122,7 +122,8 @@ namespace Yuyuko
         public IEnumerator Draw()
         {
             Skill targetskill = BV_ExceptDeck.TryGetExcptedSkills().Find((Skill a) => a.CharinfoSkilldata == this.MySkill.CharinfoSkilldata);
-            if (BattleSystem.instance.AllyTeam.Skills.Find((Skill a) => a.CharinfoSkilldata == this.MySkill.CharinfoSkilldata) == null)
+            if (BattleSystem.instance.AllyTeam.Skills.Find((Skill a) => a.CharinfoSkilldata == this.MySkill.CharinfoSkilldata) == null
+                && !this.MySkill.Master.IsDead)
             {
                 BV_ExceptDeck.RemoveSkill(targetskill);
                 BattleSystem.instance.AllyTeam.Add(targetskill, false);

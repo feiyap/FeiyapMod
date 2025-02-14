@@ -23,13 +23,13 @@ namespace Yuyuko
         {
             base.TurnUpdate();
 
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(this.BChar, (int)(this.Usestate_F.GetStat.atk * 0.5f), this.Usestate_F);
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(this.BChar, (int)(this.Usestate_F.GetStat.atk * 0.54f), this.Usestate_F);
         }
 
         public override string DescExtended()
         {
             return base.DescExtended().Replace("&user", this.Usestate_F.Info.Name)
-                                      .Replace("&a", ((int)(this.Usestate_F.GetStat.atk * 0.5f)).ToString());
+                                      .Replace("&a", ((int)(this.Usestate_F.GetStat.atk * 0.54f)).ToString());
         }
     }
 }

@@ -91,7 +91,7 @@ namespace Yuyuko
             }
             if (effect == 4)
             {
-                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(this.BChar, (int)(this.Usestate_F.GetStat.atk * 1.35f), this.Usestate_F);
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(this.BChar, (int)(this.Usestate_F.GetStat.atk * 1.21f), this.Usestate_F);
             }
             if (effect == 6)
             {
@@ -130,7 +130,7 @@ namespace Yuyuko
         public override string DescExtended()
         {
             return base.DescExtended().Replace("&effect", ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate(BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_M + "_1/Text"))
-                                      .Replace("&a", ((int)(this.Usestate_F.GetStat.atk * 0.9f)).ToString())
+                                      .Replace("&a", ((int)(this.Usestate_F.GetStat.atk * 1.21f)).ToString())
                                       .Replace("&user", this.Usestate_F.Info.Name);
         }
     }

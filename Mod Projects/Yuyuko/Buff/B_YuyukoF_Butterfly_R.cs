@@ -94,7 +94,7 @@ namespace Yuyuko
             }
             if (effect == 4)
             {
-                this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_Rest, this.Usestate_F, false, 100);
+                this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_Rest, this.Usestate_F, false, 121);
             }
             if (effect == 5)
             {

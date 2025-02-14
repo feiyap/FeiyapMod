@@ -24,7 +24,7 @@ namespace Yuyuko
 
         public override string DescExtended()
         {
-            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.35f)).ToString())
+            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.47f)).ToString())
                                       .Replace("&b", count.ToString());
         }
         
@@ -33,7 +33,7 @@ namespace Yuyuko
             if (SkillD.IsDamage && SkillD.Master == this.BChar && count < 10)
             {
                 Skill_Extended skill_Extended = new Skill_Extended();
-                skill_Extended.PlusSkillPerStat.Damage = 35;
+                skill_Extended.PlusSkillPerStat.Damage = 47;
                 SkillD.ExtendedAdd(skill_Extended);
                 count++;
             }
