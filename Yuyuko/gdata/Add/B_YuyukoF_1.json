@@ -10,7 +10,7 @@
         "Caution": false,
         "Name": "轮回蝶",
         "Icon": "B_YuyukoF_1\\B_YuyukoF_1_Icon.png",
-        "Description": "结算时降低&a最大体力值<color=#FF7A33>(&user的攻击力的50%)</color>。",
+        "Description": "结算时降低&a最大体力值<color=#FF7A33>(&user的攻击力的54%)</color>。",
         "LifeTime": 4,
         "Debuff": true,
         "TagPer": 110

@@ -2,20 +2,23 @@
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
         "Party": [
-            "Phoenix",
-            "MissChain",
             "Hein",
-            "YuyukoF"
+            "MissChain",
+            "Priest",
+            "Prime"
         ],
         "PartyBasicSkill": [
-            "S_Ilya_1",
+            "S_Hein_0",
             "S_Azar_5",
             "S_TW_Blue_5",
             "S_YuyukoF_P_1"
         ],
         "PartySkills": [
             [
-                
+                "S_Hein_0",
+                "S_Hein_0",
+                "S_Hein_0",
+                "S_Hein_0"
             ],
             [
                 
@@ -24,16 +27,7 @@
                 
             ],
             [
-                "S_YuyukoF_3",
-                "S_YuyukoF_3",
-                "S_YuyukoF_3",
-                "S_YuyukoF_3",
-                "S_YuyukoF_3",
-                "S_YuyukoF_3",
-                "S_YuyukoF_3",
-                "S_YuyukoF_3",
-                "S_YuyukoF_3",
-                "S_YuyukoF_3"
+                
             ]
         ],
         "PartyEquip": [

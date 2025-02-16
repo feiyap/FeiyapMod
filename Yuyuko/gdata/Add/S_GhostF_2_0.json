@@ -1,0 +1,12 @@
+{
+    "S_GhostF_2_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Priest/Priest_new_1",
+        "Target": "enemy",
+        "EnemyPreview": false,
+        "Name": "空观剑「六根清净斩」",
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_GhostF_2_0"
+    }
+}

@@ -6,7 +6,7 @@
         "Rare": true,
         "Target": "enemy",
         "NotCount": true,
-        "Track": false,
+        "Track": true,
         "Fatal": true,
         "Name": "再迷「幻想乡的黄泉归」",
         "UseAp": 8,

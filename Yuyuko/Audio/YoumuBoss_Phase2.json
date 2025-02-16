@@ -1,0 +1,7 @@
+{
+    "Name": "YoumuBoss_Phase2",
+    "path": "AudioFiles\\YoumuBoss_Phase2.mp3",
+    "AssetBundlePath": "",
+    "Loop": true,
+    "Bus": "BGM"
+}

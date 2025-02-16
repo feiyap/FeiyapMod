@@ -22,7 +22,11 @@ namespace RemiliaScarlet
         public override void BuffStat()
         {
             base.BuffStat();
-            
+
+            if (base.MainBuff.BuffData.Tick == null || base.MainBuff.Usestate_L == null)
+            {
+                return;
+            }
             base.PlusDamageTick = (int)(((base.MainBuff.BuffData.Tick.DMG_Per * base.MainBuff.Usestate_L.GetStat.atk / 100) + base.MainBuff.BuffData.Tick.DMG_Base) * 0.33f);
         }
     }

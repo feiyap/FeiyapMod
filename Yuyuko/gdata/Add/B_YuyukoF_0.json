@@ -1,0 +1,13 @@
+{
+    "B_YuyukoF_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Yuyuko.B_YuyukoF_0",
+        "BuffTag": "Debuff",
+        "Name": "渡魂蝶",
+        "Debuff": true,
+        "TagPer": 100,
+        "MaxStack": 0,
+        "LifeTime": 3,
+        "Icon": "B_YuyukoF_0\\B_YuyukoF_0_Icon.png"
+    }
+}

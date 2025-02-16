@@ -2,7 +2,7 @@
     "B_YoumuF_P_1": {
         "_gdeSchema": "Buff",
         "Cantdisable": true,
-        "ClassName": "",
+        "ClassName": "Yuyuko.B_YoumuF_P_1",
         "BuffTag": "null",
         "Name": "生命二刀流·白楼剑",
         "Description": "与“魂魄妖梦·半灵”共享体力值。\n每行动3次，释放1次“拔刀术”。\n剩余行动次数：&b\n每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。\n“符卡层数”到达5层后释放“人鬼「未来永劫斩」”。",

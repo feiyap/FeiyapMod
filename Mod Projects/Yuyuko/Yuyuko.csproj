@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>Yuyuko2025213230309</AssemblyName>
+    <AssemblyName>Yuyuko202521704057</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -12,6 +12,10 @@
     <ProjectGuid>{D0ACECD2-652B-4A95-8837-708F677ADEAE}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>I:\11\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Accessibility">
       <Private>False</Private>
     </Reference>
@@ -30,8 +34,29 @@
     <Reference Include="DOTween">
       <Private>False</Private>
     </Reference>
+    <Reference Include="Mono.Cecil, Version=0.10.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>I:\11\Assemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Security">
       <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour, Version=22.1.29.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>I:\11\Assemblies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils, Version=22.1.29.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>I:\11\Assemblies\MonoMod.Utils.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <Private>False</Private>
@@ -387,20 +412,25 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-                      <!-- Compile ItemGroup Start-->
+                                    <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BV_YuyukoF_P.cs" />
     <Compile Include="Yuyuko_ModDefinition.cs" />
     <Compile Include="Yuyuko_ModItemKeys.cs" />
     <Compile Include="Yuyuko_Plugin.cs" />
     <Compile Include="Buff\B_GhostF_1.cs" />
+    <Compile Include="Buff\B_GhostF_2.cs" />
     <Compile Include="Buff\B_GhostF_P_0.cs" />
     <Compile Include="Buff\B_GhostF_P_1.cs" />
     <Compile Include="Buff\B_YoumuF_1.cs" />
     <Compile Include="Buff\B_YoumuF_2.cs" />
     <Compile Include="Buff\B_YoumuF_P_0.cs" />
     <Compile Include="Buff\B_YoumuF_P_1.cs" />
+    <Compile Include="Buff\B_YoumuF_Spell.cs" />
+    <Compile Include="Buff\B_YoumuF_Spell2.cs" />
+    <Compile Include="Buff\B_YuyukoF_0.cs" />
     <Compile Include="Buff\B_YuyukoF_1.cs" />
+    <Compile Include="Buff\B_YuyukoF_5.cs" />
     <Compile Include="Buff\B_YuyukoF_6.cs" />
     <Compile Include="Buff\B_YuyukoF_8.cs" />
     <Compile Include="Buff\B_YuyukoF_9.cs" />

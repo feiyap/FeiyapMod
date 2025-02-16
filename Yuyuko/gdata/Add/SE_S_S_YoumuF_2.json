@@ -1,5 +1,11 @@
 {
     "SE_S_S_YoumuF_2": {
-        "_gdeSchema": "SkillEffect"
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_YoumuF_2"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
     }
 }

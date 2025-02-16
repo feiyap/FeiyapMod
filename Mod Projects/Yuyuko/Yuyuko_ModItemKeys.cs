@@ -21,6 +21,11 @@ namespace Yuyuko
 		/// </summary>
         public static string Buff_B_GhostF_1 = "B_GhostF_1";
 		/// <summary>
+		/// 空观剑「六根清净斩」
+		/// 受到攻击时以&a点伤害反击。
+		/// </summary>
+        public static string Buff_B_GhostF_2 = "B_GhostF_2";
+		/// <summary>
 		/// 半人半灵
 		/// 受到的伤害转化为痛苦伤害。
 		/// 死亡后，清空“魂魄妖梦”的“符卡能量”和“符卡层数”，移除“半分幻的庭师”增益，并立即释放“魂魄「幽明求闻持聪明之法」”。
@@ -29,7 +34,7 @@ namespace Yuyuko
 		/// <summary>
 		/// 生命二刀流·楼观剑
 		/// 与“魂魄妖梦”共享体力值。
-		/// 以倒计时+1复制所有“魂魄妖梦”的行动（除“人鬼「未来永劫斩」”外）。
+		/// 以倒计时+1复制所有“魂魄妖梦”的额外行动（除“人鬼「未来永劫斩」”外）。
 		/// 每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。
 		/// “符卡层数”到达5层后释放“空观剑「六根清净斩」”。
 		/// </summary>
@@ -46,7 +51,6 @@ namespace Yuyuko
         public static string Buff_B_YoumuF_2 = "B_YoumuF_2";
 		/// <summary>
 		/// 半分幻的庭师
-		/// 受到伤害量-50%。
 		/// 减少的伤害量会传递给“半灵”。
 		/// 自身每行动2次，释放1次“半灵冲撞”。
 		/// 剩余行动次数：&a
@@ -66,13 +70,31 @@ namespace Yuyuko
 		/// </summary>
         public static string Buff_B_YoumuF_P_1 = "B_YoumuF_P_1";
 		/// <summary>
+		/// 符卡能量
+		/// 叠加至4层时获得1层“符卡层数”。
+		/// </summary>
+        public static string Buff_B_YoumuF_Spell = "B_YoumuF_Spell";
+		/// <summary>
+		/// 符卡等级
+		/// 到达5层后释放“人鬼「未来永劫斩」”。
+		/// </summary>
+        public static string Buff_B_YoumuF_Spell2 = "B_YoumuF_Spell2";
+		/// <summary>
+		/// 渡魂蝶
+		/// </summary>
+        public static string Buff_B_YuyukoF_0 = "B_YuyukoF_0";
+		/// <summary>
 		/// 轮回蝶
-		/// 结算时降低&a最大体力值<color=#FF7A33>(&user的攻击力的50%)</color>。
+		/// 结算时降低&a最大体力值<color=#FF7A33>(&user的攻击力的54%)</color>。
 		/// </summary>
         public static string Buff_B_YuyukoF_1 = "B_YuyukoF_1";
 		/// <summary>
+		/// 死欲蝶
+		/// </summary>
+        public static string Buff_B_YuyukoF_5 = "B_YuyukoF_5";
+		/// <summary>
 		/// 妄死蝶
-		/// 结算时降低&a最大体力值<color=#FF7A33>(&user攻击力的25%/每层)</color>。
+		/// 结算时降低&a最大体力值<color=#FF7A33>(&user攻击力的33%/每层)</color>。
 		/// </summary>
         public static string Buff_B_YuyukoF_6 = "B_YuyukoF_6";
 		/// <summary>
@@ -122,7 +144,7 @@ namespace Yuyuko
         public static string Buff_B_YuyukoF_P_3 = "B_YuyukoF_P_3";
 		/// <summary>
 		/// 黄泉蝶
-		/// 每次有敌人死亡时，对所有敌人造成&a伤害<color=#FF7A33>(攻击力的50%)</color>。
+		/// 每次有敌人死亡时，对所有敌人造成&a伤害<color=#FF7A33>(攻击力的135%)</color>。
 		/// </summary>
         public static string Buff_B_YuyukoF_Rare_2 = "B_YuyukoF_Rare_2";
 		/// <summary>
@@ -132,7 +154,7 @@ namespace Yuyuko
         public static string Buff_B_YuyukoF_Rare_3 = "B_YuyukoF_Rare_3";
 		/// <summary>
 		/// 浮月蝶
-		/// 所有造成的伤害额外增加&a点<color=#FF7A33>(攻击力的35%)</color>，最多触发 10 次。
+		/// 所有造成的伤害额外增加&a点<color=#FF7A33>(攻击力的47%)</color>，最多触发 10 次。
 		/// 当前触发次数：&b
 		/// </summary>
         public static string Buff_B_YuyukoF_Rare_3_1 = "B_YuyukoF_Rare_3_1";
@@ -163,18 +185,23 @@ namespace Yuyuko
         public static string SkillKeyword_Keyword_Huaxu = "Keyword_Huaxu";
 		/// <summary>
 		/// <b><color=#AB82FF>葬送</color></b>
-		/// 技能被放逐时，能够触发额外效果。
+		/// 当附带此词条的技能被<b>放逐</b>时触发效果。
 		/// </summary>
         public static string SkillKeyword_Keyword_Ruin = "Keyword_Ruin";
         public static string SkillEffect_SE_S_S_YoumuF_2 = "SE_S_S_YoumuF_2";
         public static string SkillEffect_SE_S_S_YuyukoF_Rare_2 = "SE_S_S_YuyukoF_Rare_2";
         public static string SkillEffect_SE_S_S_YuyukoF_Rare_3 = "SE_S_S_YuyukoF_Rare_3";
         public static string SkillEffect_SE_T_S_GhostF_0 = "SE_T_S_GhostF_0";
+        public static string SkillEffect_SE_T_S_GhostF_2 = "SE_T_S_GhostF_2";
+        public static string SkillEffect_SE_T_S_GhostF_2_0 = "SE_T_S_GhostF_2_0";
         public static string SkillEffect_SE_T_S_YoumuF_0 = "SE_T_S_YoumuF_0";
         public static string SkillEffect_SE_T_S_YoumuF_1 = "SE_T_S_YoumuF_1";
         public static string SkillEffect_SE_T_S_YoumuF_4 = "SE_T_S_YoumuF_4";
         public static string SkillEffect_SE_T_S_YoumuF_5 = "SE_T_S_YoumuF_5";
         public static string SkillEffect_SE_T_S_YoumuF_6 = "SE_T_S_YoumuF_6";
+        public static string SkillEffect_SE_T_S_YoumuF_6_1 = "SE_T_S_YoumuF_6_1";
+        public static string SkillEffect_SE_T_S_YoumuF_6_2 = "SE_T_S_YoumuF_6_2";
+        public static string SkillEffect_SE_T_S_YoumuF_6_3 = "SE_T_S_YoumuF_6_3";
         public static string SkillEffect_SE_T_S_YuyukoF_0 = "SE_T_S_YuyukoF_0";
         public static string SkillEffect_SE_T_S_YuyukoF_1 = "SE_T_S_YuyukoF_1";
         public static string SkillEffect_SE_T_S_YuyukoF_2 = "SE_T_S_YuyukoF_2";
@@ -198,15 +225,18 @@ namespace Yuyuko
         public static string Skill_S_GhostF_0 = "S_GhostF_0";
 		/// <summary>
 		/// 魂魄「幽明求闻持聪明之法」
+		/// 在场上生成1个“魂魄妖梦·半灵”，与本体共享体力值。
+		/// 为“魂魄妖梦”赋予“生命二刀流·白楼剑”增益。
 		/// </summary>
         public static string Skill_S_GhostF_1 = "S_GhostF_1";
 		/// <summary>
 		/// 空观剑「六根清净斩」
-		/// 倒计时期间，如果指向的敌方使用的技能的目标包括“魂魄妖梦”或“魂魄妖梦·半灵”时，使该技能伤害变为0，并对其造成5次&a点伤害(攻击力的100%)和1次&b点伤害(攻击力的200%)的反击。
-		/// 倒计时期间，“魂魄妖梦·半灵”不可行动。
-		/// 如果成功格挡攻击，获得1层“符卡层数”。
 		/// </summary>
         public static string Skill_S_GhostF_2 = "S_GhostF_2";
+		/// <summary>
+		/// 空观剑「六根清净斩」
+		/// </summary>
+        public static string Skill_S_GhostF_2_0 = "S_GhostF_2_0";
 		/// <summary>
 		/// 柄击
 		/// 释放2次“柄击”后，追加1次“拔刀术”。
@@ -245,18 +275,30 @@ namespace Yuyuko
 		/// </summary>
         public static string Skill_S_YoumuF_6 = "S_YoumuF_6";
 		/// <summary>
+		/// 人鬼「未来永劫斩」-一式
+		/// </summary>
+        public static string Skill_S_YoumuF_6_1 = "S_YoumuF_6_1";
+		/// <summary>
+		/// 人鬼「未来永劫斩」-二式
+		/// </summary>
+        public static string Skill_S_YoumuF_6_2 = "S_YoumuF_6_2";
+		/// <summary>
+		/// 人鬼「未来永劫斩」-终式
+		/// </summary>
+        public static string Skill_S_YoumuF_6_3 = "S_YoumuF_6_3";
+		/// <summary>
 		/// 亡乡「亡我乡 -宿罪-」
 		/// 增加20<color=#FFB6C1>返魂值</color>。
 		/// <color=#FF1493>华胥</color> - 超额治疗自己等量于“目标已损失的最大体力值的25%”的体力。
 		/// <color=#AB82FF>葬送</color> - <color=#CAE1FF>亡者召还3</color>。
-		/// <color=#4876FF>幽冥蝶</color> - 回合开始时，降低10%最大体力值。
+		/// <color=#4876FF>幽冥蝶</color> - 结算时降低10%最大体力值<color=#FF7A33>(不超过自身攻击力的200%)</color>。
 		/// <color=#FF69B4>人魂蝶</color> - 可以无视嘲讽状态被选中。
 		/// </summary>
         public static string Skill_S_YuyukoF_0 = "S_YuyukoF_0";
 		/// <summary>
 		/// 死蝶「华胥之永眠」
 		/// 增加20<color=#FFB6C1>返魂值</color>。
-		/// <color=#FF1493>华胥</color> - 若指向目标拥有冥魂蝶，以暴击形式命中；若指向目标拥有<color=#FF69B4>人魂蝶</color>，额外造成&a伤害<color=#FF7A33>(攻击力的40%)</color>。
+		/// <color=#FF1493>华胥</color> - 若指向目标拥有冥魂蝶，以暴击形式命中；若指向目标拥有<color=#FF69B4>人魂蝶</color>，额外造成&a伤害<color=#FF7A33>(攻击力的54%)</color>。
 		/// <color=#E066FF>唤魂5</color> - 以倒计时2重复释放1次。
 		/// <color=#4876FF>幽冥蝶</color> - 受到的非<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。
 		/// <color=#FF69B4>人魂蝶</color> - 受到的<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。
@@ -285,14 +327,14 @@ namespace Yuyuko
 		/// 冥符「黄泉平坂行路」
 		/// 增加20<color=#FFB6C1>返魂值</color>。
 		/// 使所有敌人获得与目标相同的“已损失最大体力值”的值。
-		/// <color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的135%)</color>。
-		/// <color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的135%)</color>。
-		/// <color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，(100%干扰成功率)眩晕1回合。
+		/// <color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的121%)</color>。
+		/// <color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的121%)</color>。
+		/// <color=#FF69B4>人魂蝶</color> - 施加时，使所有调查员的固定能力变为可用状态。
 		/// </summary>
         public static string Skill_S_YuyukoF_4 = "S_YuyukoF_4";
 		/// <summary>
 		/// 蝶符「凤蝶纹的死枪」
-		/// <color=#E066FF>唤魂4</color> - 使这个技能获得“追踪”、“致命”、“无视嘲讽”。
+		/// <color=#E066FF>唤魂4</color> - 额外使敌人降低25%最大体力值<color=#FF7A33>(不超过自身攻击力的500%)</color>。
 		/// <color=#AB82FF>葬送</color> - 对随机敌人释放这个技能。
 		/// <color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// <color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取2个技能。
@@ -310,12 +352,12 @@ namespace Yuyuko
 		/// <summary>
 		/// 灵蝶「蝶之羽风暂留此世」
 		/// 仅能在无法行动时、或处于<color=#8B008B>永眠</color>状态时使用。
-		/// 解除所有干扰减益和<color=#8B008B>永眠</color>状态，抽取1个技能，恢复1点法力值。
+		/// 解除所有干扰减益和<color=#8B008B>永眠</color>状态，抽取2个技能，恢复2点法力值。
 		/// 将<color=#FFB6C1>返魂值</color>设置为50，并进入<color=#FF1493>华胥</color>状态。
 		/// 立即获得10点<color=#E066FF>亡魂</color>。
 		/// <color=#AB82FF>葬送</color> - 降低100<color=#FFB6C1>返魂值</color>。
-		/// <color=#4876FF>幽冥蝶</color> - 施加时，抽取1个技能。
-		/// <color=#FF69B4>人魂蝶</color> - 施加时，恢复1点法力值。
+		/// <color=#4876FF>幽冥蝶</color> - 施加时，抽取1个技能，恢复1点法力值。
+		/// <color=#FF69B4>人魂蝶</color> - 施加时，眩晕（<sprite=2>100%）1回合。
 		/// </summary>
         public static string Skill_S_YuyukoF_7 = "S_YuyukoF_7";
 		/// <summary>
@@ -412,7 +454,7 @@ namespace Yuyuko
 		/// 当<color=#FFB6C1>返魂值</color>的进度超过100时，西行寺幽幽子进入<color=#8B008B>永眠</color>状态，并使所有敌人失去10%最大体力值、并<color=#8B008B>回引</color>所有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>；
 		/// 在<color=#8B008B>永眠</color>状态下，固定技能被替换为<color=#8B008B>亡乡「亡我乡 -无道之路-」</color>。
 		/// <b><color=#E066FF>唤魂X</color></b> - 每有1个技能被放逐，西行寺幽幽子获得1点<color=#E066FF>亡魂</color>。打出技能时，消耗X点<color=#E066FF>亡魂</color>，能够触发额外效果。
-		/// <b><color=#AB82FF>葬送</color></b> - 技能被放逐时，能够触发额外效果。
+		/// <b><color=#AB82FF>葬送</color></b> - 当附带此词条的技能被<b>放逐</b>时触发效果。
 		/// <b><color=#CAE1FF>亡者召还</color>X</b> - 从放逐牌库将1个费用不超过X的技能拿回手中。
 		/// </summary>
         public static string Character_YuyukoF = "YuyukoF";
@@ -426,7 +468,7 @@ namespace Yuyuko
 		/// English:
 		/// Japanese:
 		/// Chinese:
-		/// 结算时降低10%最大体力值。
+		/// 结算时降低10%最大体力值<color=#FF7A33>(不超过&user攻击力的200%)</color>。
 		/// Chinese-TW:
 		/// </summary>
         public static string S_YuyukoF_0_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_0_1/Text");
@@ -507,7 +549,7 @@ namespace Yuyuko
 		/// English:
 		/// Japanese:
 		/// Chinese:
-		/// <color=#8B008B>回引</color>时，(100%干扰成功率)眩晕1回合。
+		/// 施加时，使所有调查员的固定能力变为可用状态。
 		/// Chinese-TW:
 		/// </summary>
         public static string S_YuyukoF_4_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_4_2/Text");
@@ -552,7 +594,7 @@ namespace Yuyuko
 		/// English:
 		/// Japanese:
 		/// Chinese:
-		/// 施加时，抽取1个技能。
+		/// 施加时，抽取1个技能，恢复1点法力值。
 		/// Chinese-TW:
 		/// </summary>
         public static string S_YuyukoF_7_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_7_1/Text");
@@ -561,7 +603,7 @@ namespace Yuyuko
 		/// English:
 		/// Japanese:
 		/// Chinese:
-		/// 施加时，恢复1点法力值。
+		/// 施加时，眩晕（<sprite=2>100%）1回合。
 		/// Chinese-TW:
 		/// </summary>
         public static string S_YuyukoF_7_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_7_2/Text");

@@ -1,0 +1,18 @@
+{
+    "B_YuyukoF_5": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Yuyuko.B_YuyukoF_5",
+        "BuffTag": "Debuff",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "死欲蝶",
+        "Description": "",
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 125,
+        "Icon": "B_YuyukoF_5\\B_YuyukoF_5_Icon.png"
+    }
+}

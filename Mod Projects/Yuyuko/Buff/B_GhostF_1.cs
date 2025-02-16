@@ -16,8 +16,15 @@ namespace Yuyuko
 	/// <summary>
 	/// 凭依之缚
 	/// </summary>
-    public class B_GhostF_1:Buff
+    public class B_GhostF_1:Buff, IP_DamageTakeChange
     {
-
+        public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
+        {
+            if (Hit.Info.KeyData == "Boss_Youmu")
+            {
+                Dmg += this.StackNum;
+            }
+            return Dmg;
+        }
     }
 }

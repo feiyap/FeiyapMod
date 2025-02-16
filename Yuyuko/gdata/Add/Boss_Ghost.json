@@ -4,7 +4,7 @@
         "hit": 107,
         "name": "半灵",
         "NotCursed": true,
-        "maxhp": 240,
+        "maxhp": 190,
         "atk": 18,
         "spd": 2,
         "reg": 8,
@@ -17,7 +17,8 @@
             "B_GhostF_P_0"
         ],
         "Skills": [
-            "S_GhostF_0"
-        ]
+            "S_Idle"
+        ],
+        "AI": "Yuyuko.Boss_Ghost"
     }
 }

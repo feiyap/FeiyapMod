@@ -1,0 +1,16 @@
+{
+    "B_YoumuF_Spell": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "Yuyuko.B_YoumuF_Spell",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "符卡能量",
+        "Icon": "B_YoumuF_Spell\\B_YoumuF_Spell_Icon.png",
+        "MaxStack": 4,
+        "Description": "叠加至4层时获得1层“符卡层数”。"
+    }
+}

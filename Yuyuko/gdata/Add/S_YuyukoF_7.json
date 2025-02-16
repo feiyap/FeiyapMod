@@ -7,7 +7,7 @@
         "NotCount": true,
         "Disposable": false,
         "Name": "灵蝶「蝶之羽风暂留此世」",
-        "Description": "仅能在无法行动时、或处于<color=#8B008B>永眠</color>状态时使用。\n解除所有干扰减益和<color=#8B008B>永眠</color>状态，抽取1个技能，恢复1点法力值。\n将<color=#FFB6C1>返魂值</color>设置为50，并进入<color=#FF1493>华胥</color>状态。\n立即获得10点<color=#E066FF>亡魂</color>。\n\n<color=#AB82FF>葬送</color> - 降低100<color=#FFB6C1>返魂值</color>。\n<color=#4876FF>幽冥蝶</color> - 施加时，抽取1个技能。\n<color=#FF69B4>人魂蝶</color> - 施加时，恢复1点法力值。",
+        "Description": "仅能在无法行动时、或处于<color=#8B008B>永眠</color>状态时使用。\n解除所有干扰减益和<color=#8B008B>永眠</color>状态，抽取2个技能，恢复2点法力值。\n将<color=#FFB6C1>返魂值</color>设置为50，并进入<color=#FF1493>华胥</color>状态。\n立即获得10点<color=#E066FF>亡魂</color>。\n\n<color=#AB82FF>葬送</color> - 降低100<color=#FFB6C1>返魂值</color>。\n<color=#4876FF>幽冥蝶</color> - 施加时，抽取1个技能，恢复1点法力值。\n<color=#FF69B4>人魂蝶</color> - 施加时，眩晕（<sprite=2>100%）1回合。",
         "User": "YuyukoF",
         "Image_0": "S_YuyukoF_7\\S_YuyukoF_7_Image_0.png",
         "Image_1": "S_YuyukoF_7\\S_YuyukoF_7_Image_1.png",

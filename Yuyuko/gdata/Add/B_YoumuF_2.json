@@ -1,7 +1,7 @@
 {
     "B_YoumuF_2": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "Yuyuko.B_YoumuF_2",
         "BuffTag": "null",
         "Name": "「待宵反射卫星斩」",
         "Description": "受到下一次伤害时以等额伤害反击，触发时移除1层。",

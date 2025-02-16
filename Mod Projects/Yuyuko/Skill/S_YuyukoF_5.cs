@@ -43,25 +43,23 @@ namespace Yuyuko
                 if (P_YuyukoF.CheckGhost(4, true))
                 {
                     base.SkillParticleOn();
-                    this.Fatal = true;
-                    this.Traking = true;
-                    this.IgnoreTaunt = true;
                 }
                 else
                 {
                     base.SkillParticleOff();
-                    this.Fatal = false;
-                    this.Traking = false;
-                    this.IgnoreTaunt = false;
                 }
             }
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
+            int num = Targets[0].Info.OriginStat.maxhp * 25 / 100;
+
+            num = Math.Min(num, (int)(this.BChar.GetStat.atk * 5));
+
             if (P_YuyukoF.CheckGhost(4, false))
             {
-                
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(Targets[0], num, this.BChar);
             }
         }
 

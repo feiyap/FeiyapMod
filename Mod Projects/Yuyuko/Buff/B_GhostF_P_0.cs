@@ -18,8 +18,15 @@ namespace Yuyuko
 	/// 受到的伤害转化为痛苦伤害。
 	/// 死亡后，清空“魂魄妖梦”的“符卡能量”和“符卡层数”，移除“半分幻的庭师”增益，并立即释放“魂魄「幽明求闻持聪明之法」”。
 	/// </summary>
-    public class B_GhostF_P_0:Buff
+    public class B_GhostF_P_0:Buff, IP_DamageTakeChange
     {
-
+        public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
+        {
+            if (!NODEF)
+            {
+                NODEF = true;
+            }
+            return Dmg;
+        }
     }
 }

@@ -18,6 +18,24 @@ namespace Yuyuko
 	/// </summary>
     public class Boss_Ghost:AI
     {
-
+        public override List<BattleChar> TargetSelect(Skill SelectedSkill)
+        {
+            if (SelectedSkill.MySkill.KeyID == "S_GhostF_0")
+            {
+                List<BattleChar> list = new List<BattleChar>();
+                BattleChar temp = new BattleChar();
+                foreach (BattleChar bc in BattleSystem.instance.AllyList)
+                {
+                    if (bc.BuffFind("B_YoumuF_1"))
+                    {
+                        temp = bc;
+                        break;
+                    }
+                }
+                list.Add(temp);
+                return list;
+            }
+            return base.TargetSelect(SelectedSkill);
+        }
     }
 }

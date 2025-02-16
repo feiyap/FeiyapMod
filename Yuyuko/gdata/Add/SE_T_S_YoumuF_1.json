@@ -2,6 +2,12 @@
     "SE_T_S_YoumuF_1": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 40
+        "DMG_Per": 40,
+        "Buffs": [
+            "B_YoumuF_1"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
     }
 }

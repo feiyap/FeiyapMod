@@ -1,0 +1,19 @@
+{
+    "B_GhostF_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "Yuyuko.B_GhostF_2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "空观剑「六根清净斩」",
+        "Description": "受到攻击时以&a点伤害反击。",
+        "MaxStack": 0,
+        "LifeTime": 1,
+        "Debuff": false,
+        "TagPer": 0,
+        "Icon": "B_GhostF_2\\B_GhostF_2_Icon.png"
+    }
+}

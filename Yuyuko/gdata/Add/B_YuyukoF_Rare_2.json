@@ -9,7 +9,7 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "黄泉蝶",
-        "Description": "每次有敌人死亡时，对所有敌人造成&a伤害<color=#FF7A33>(攻击力的50%)</color>。",
+        "Description": "每次有敌人死亡时，对所有敌人造成&a伤害<color=#FF7A33>(攻击力的135%)</color>。",
         "LifeTime": 3,
         "Icon": "B_YuyukoF_Rare_2\\B_YuyukoF_Rare_2_Icon.png"
     }

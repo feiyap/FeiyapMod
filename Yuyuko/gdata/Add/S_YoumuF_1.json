@@ -2,7 +2,7 @@
     "S_YoumuF_1": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Charon/ShadowPriest_7",
         "Target": "enemy",
         "EnemyPreview": true,
         "Name": "凭依之缚",
@@ -11,6 +11,9 @@
         "Effect_Target": "SE_T_S_YoumuF_1",
         "Image_0": "S_YoumuF_1\\S_YoumuF_1_Image_0.png",
         "Image_1": "S_YoumuF_1\\S_YoumuF_1_Image_1.png",
-        "Image_2": "S_YoumuF_1\\S_YoumuF_1_Image_2.png"
+        "Image_2": "S_YoumuF_1\\S_YoumuF_1_Image_2.png",
+        "SkillExtended": [
+            "Yuyuko.S_YoumuF_1"
+        ]
     }
 }

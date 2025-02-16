@@ -63,9 +63,25 @@ namespace Yuyuko
 
                 BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true));
             }
+            if (effect == 4)
+            {
+                foreach (BattleAlly ba in BattleSystem.instance.AllyList)
+                {
+                    ba.MyBasicSkill.CoolDownNum = 0;
+                    if (ba.MyBasicSkill.ThisSkillUse)
+                    {
+                        ba.MyBasicSkill.InActive = false;
+                        ba.MyBasicSkill.ThisSkillUse = false;
+                    }
+                    if (ba.MyBasicSkill.InActive)
+                    {
+                        ba.MyBasicSkill.InActive = false;
+                    }
+                }
+            }
             if (effect == 7)
             {
-                BattleSystem.instance.AllyTeam.AP++;
+                this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_Rest, this.Usestate_F, false, 100);
             }
         }
 
@@ -91,10 +107,6 @@ namespace Yuyuko
             if (effect == 2)
             {
                 BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ghost += 8;
-            }
-            if (effect == 4)
-            {
-                this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_Rest, this.Usestate_F, false, 121);
             }
             if (effect == 5)
             {

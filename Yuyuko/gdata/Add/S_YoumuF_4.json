@@ -2,7 +2,7 @@
     "S_YoumuF_4": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Hein/S_Hein_0",
         "Target": "enemy_PlusRandom",
         "NoDrop": true,
         "Name": "奥义「西行春风斩」",
@@ -11,6 +11,10 @@
         "Image_0": "S_YoumuF_4\\S_YoumuF_4_Image_0.png",
         "Image_1": "S_YoumuF_4\\S_YoumuF_4_Image_1.png",
         "Image_2": "S_YoumuF_4\\S_YoumuF_4_Image_2.png",
-        "EnemyPreview": true
+        "EnemyPreview": true,
+        "NotCount": false,
+        "SkillExtended": [
+            "Yuyuko.S_YoumuF_4"
+        ]
     }
 }

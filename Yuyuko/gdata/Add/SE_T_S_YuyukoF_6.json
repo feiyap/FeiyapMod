@@ -2,7 +2,7 @@
     "SE_T_S_YuyukoF_6": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 70,
+        "DMG_Per": 60,
         "Buffs": [
             "B_YuyukoF_6"
         ],

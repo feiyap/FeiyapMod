@@ -19,6 +19,9 @@ namespace Yuyuko
 	/// </summary>
     public class S_YoumuF_5:Skill_Extended
     {
-
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            BattleSystem.instance.AllyTeam.WaitCount--;
+        }
     }
 }

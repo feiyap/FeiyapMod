@@ -1,0 +1,12 @@
+{
+    "B_YoumuF_Spell2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Yuyuko.B_YoumuF_Spell2",
+        "BuffTag": "null",
+        "Name": "符卡等级",
+        "Icon": "B_YoumuF_Spell2\\B_YoumuF_Spell2_Icon.png",
+        "MaxStack": 5,
+        "Description": "到达5层后释放“人鬼「未来永劫斩」”。"
+    }
+}

@@ -8,11 +8,26 @@
         "EnemyPreview": true,
         "Name": "人鬼「未来永劫斩」",
         "Description": "无视防御。\n先造成1次&a伤害(攻击力的60%)，再造成16次&b伤害(攻击力的29%)，最后造成一次&c伤害(攻击力的500%)。\n若目标陷入濒死状态，且场上存在非濒死状态的调查员，则攻击对象转移至其他非濒死状态的调查员。",
-        "Rare": true,
+        "Rare": false,
         "UseAp": 0,
         "Effect_Target": "SE_T_S_YoumuF_6",
         "Image_0": "S_YoumuF_6\\S_YoumuF_6_Image_0.png",
         "Image_1": "S_YoumuF_6\\S_YoumuF_6_Image_1.png",
-        "Image_2": "S_YoumuF_6\\S_YoumuF_6_Image_2.png"
+        "Image_2": "S_YoumuF_6\\S_YoumuF_6_Image_2.png",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "Yuyuko.S_YoumuF_6"
+        ]
     }
 }

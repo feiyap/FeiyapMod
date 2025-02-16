@@ -19,6 +19,7 @@
             "Boss_Youmu",
             "Boss_Ghost"
         ],
+        "BattleExtended": "CrimsonBattle",
         "CustomeFogTurn": 10
     }
 }

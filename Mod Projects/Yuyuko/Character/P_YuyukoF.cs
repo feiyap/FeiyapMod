@@ -302,8 +302,8 @@ namespace Yuyuko
 
             if (excDeck?.Count > 0)
             {
-                var maxAp = excDeck.Max(skill => skill.AP);
-                var maxApSkills = excDeck.Where(skill => skill.AP == maxAp).ToList();
+                var maxAp = excDeck.Max(skill => skill._AP);
+                var maxApSkills = excDeck.Where(skill => skill._AP == maxAp).ToList();
                 var random = new System.Random();
                 var randomSkill = maxApSkills[random.Next(maxApSkills.Count)];
 

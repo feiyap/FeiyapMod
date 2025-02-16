@@ -64,6 +64,7 @@ namespace Yuyuko
             if (effect == 7)
             {
                 BattleSystem.instance.AllyTeam.Draw();
+                BattleSystem.instance.AllyTeam.AP++;
             }
         }
 
@@ -107,9 +108,11 @@ namespace Yuyuko
         {
             base.TurnUpdate();
 
+            int num = this.BChar.Info.OriginStat.maxhp * 10 / 100;
+            num = Math.Min(num, (int)(this.BChar.GetStat.atk * 2));
             if (effect == 0)
             {
-                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(this.BChar, this.BChar.Info.OriginStat.maxhp * 10 / 100, this.Usestate_F);
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(this.BChar, num, this.Usestate_F);
             }
         }
 

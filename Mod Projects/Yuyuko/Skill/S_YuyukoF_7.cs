@@ -38,8 +38,8 @@ namespace Yuyuko
                 buff.SelfDestroy();
             }
 
-            BattleSystem.instance.AllyTeam.AP++;
-            BattleSystem.instance.AllyTeam.Draw();
+            BattleSystem.instance.AllyTeam.AP += 2;
+            BattleSystem.instance.AllyTeam.Draw(2);
 
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(0, true);
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(50, true);

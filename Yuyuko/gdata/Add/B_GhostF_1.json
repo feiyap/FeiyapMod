@@ -2,7 +2,7 @@
     "B_GhostF_1": {
         "_gdeSchema": "Buff",
         "Cantdisable": false,
-        "ClassName": "",
+        "ClassName": "Yuyuko.B_GhostF_1",
         "BuffTag": "Debuff",
         "Name": "引导攻击",
         "Debuff": true,
@@ -10,6 +10,10 @@
         "Icon": "B_GhostF_1\\B_GhostF_1_Icon.png",
         "Description": "受到妖梦的伤害+1。",
         "MaxStack": 5,
-        "LifeTime": 3
+        "LifeTime": 3,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

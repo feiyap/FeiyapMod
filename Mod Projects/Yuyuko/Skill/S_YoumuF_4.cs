@@ -21,6 +21,15 @@ namespace Yuyuko
 	/// </summary>
     public class S_YoumuF_4:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            Skill skill = Skill.TempSkill("S_YoumuF_4", this.BChar, this.BChar.MyTeam);
+            this.BChar.ParticleOut(skill, Targets);
 
+            if (Targets.Count == 1)
+            {
+                this.PlusSkillStat.cri = 100f;
+            }
+        }
     }
 }

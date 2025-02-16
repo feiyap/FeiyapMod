@@ -13,9 +13,9 @@
         "RES_DEBUFF": 18,
         "RES_DOT": 15,
         "spd": 3,
-        "maxhp": 480,
+        "maxhp": 380,
         "PlusActCount": [
-            2
+            1
         ],
         "CollactionSprite_Cover": "Boss_Youmu\\Boss_YoumuCollactionSprite_Cover.png",
         "SubName": "魂魄妖梦？",

@@ -5,8 +5,8 @@
         "name": "魂魄妖梦·半灵",
         "Boss": true,
         "NotCursed": true,
-        "maxhp": 240,
-        "spd": 1,
+        "maxhp": 380,
+        "spd": 2,
         "atk": 18,
         "reg": 8,
         "dodge": 3,
@@ -16,6 +16,17 @@
         "RES_DOT": 15,
         "Passives": [
             "B_GhostF_P_1"
+        ],
+        "Skills": [
+            "S_YoumuF_0",
+            "S_YoumuF_1",
+            "S_YoumuF_2",
+            "S_YoumuF_3",
+            "S_YoumuF_4"
+        ],
+        "AI": "Yuyuko.Boss_Ghost_Youmu",
+        "PlusActCount": [
+            1
         ]
     }
 }

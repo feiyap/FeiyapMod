@@ -26,7 +26,7 @@
         "Image_1": "S_YuyukoF_1\\S_YuyukoF_1_Image_1.png",
         "Image_2": "S_YuyukoF_1\\S_YuyukoF_1_Image_2.png",
         "Effect_Target": "SE_T_S_YuyukoF_1",
-        "Description": "增加20<color=#FFB6C1>返魂值</color>。\n\n<color=#FF1493>华胥</color> - 若指向目标拥有冥魂蝶，以暴击形式命中；若指向目标拥有<color=#FF69B4>人魂蝶</color>，额外造成&a伤害<color=#FF7A33>(攻击力的40%)</color>。\n<color=#E066FF>唤魂5</color> - 以倒计时2重复释放1次。\n<color=#4876FF>幽冥蝶</color> - 受到的非<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。\n<color=#FF69B4>人魂蝶</color> - 受到的<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。",
+        "Description": "增加20<color=#FFB6C1>返魂值</color>。\n\n<color=#FF1493>华胥</color> - 若指向目标拥有冥魂蝶，以暴击形式命中；若指向目标拥有<color=#FF69B4>人魂蝶</color>，额外造成&a伤害<color=#FF7A33>(攻击力的54%)</color>。\n<color=#E066FF>唤魂5</color> - 以倒计时2重复释放1次。\n<color=#4876FF>幽冥蝶</color> - 受到的非<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。\n<color=#FF69B4>人魂蝶</color> - 受到的<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。",
         "Counting": 1,
         "PlusKeyWords": [
             "Keyword_Huaxu",

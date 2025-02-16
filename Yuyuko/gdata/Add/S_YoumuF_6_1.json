@@ -1,0 +1,12 @@
+{
+    "S_YoumuF_6_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_8_Rare",
+        "Target": "enemy",
+        "NoDrop": true,
+        "EnemyPreview": false,
+        "Name": "人鬼「未来永劫斩」-一式",
+        "Effect_Target": "SE_T_S_YoumuF_6_1"
+    }
+}

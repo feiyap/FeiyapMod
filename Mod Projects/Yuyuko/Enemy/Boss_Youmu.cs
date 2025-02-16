@@ -18,6 +18,32 @@ namespace Yuyuko
 	/// </summary>
     public class Boss_Youmu:AI
     {
+        public override Skill SkillSelect(int ActionCount)
+        {
+            System.Random random = new System.Random();
+            int randomValue = random.Next(0, 100);
 
+            // 根据随机数的范围映射到目标值
+            if (randomValue < 30)
+            {
+                return this.BChar.Skills[0]; // 30%概率
+            }
+            else if (randomValue < 60)
+            {
+                return this.BChar.Skills[1]; // 30%概率
+            }
+            else if (randomValue < 90)
+            {
+                return this.BChar.Skills[2]; // 30%概率
+            }
+            else if (randomValue < 95)
+            {
+                return this.BChar.Skills[3]; // 5%概率
+            }
+            else
+            {
+                return this.BChar.Skills[4]; // 5%概率
+            }
+        }
     }
 }

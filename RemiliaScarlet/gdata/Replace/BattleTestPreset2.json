@@ -4,8 +4,7 @@
         "Party": [
             "Phoenix",
             "ShadowPriest",
-            "RemiliaScarlet",
-            "LucyC"
+            "RemiliaScarlet"
         ],
         "PartySkills": [
             [
@@ -15,23 +14,16 @@
                 
             ],
             [
-                "S_RemiliaScarlet_5",
-                "S_RemiliaScarlet_5"
-            ],
-            [
-                
+                "S_RemiliaScarlet_2",
+                "S_RemiliaScarlet_2"
             ]
         ],
         "PartyBasicSkill": [
             "S_Ilya_1",
             "S_ShadowPriest_0",
-            "S_RemiliaScarlet_10Rare",
-            "S_LucyC_2"
+            "S_RemiliaScarlet_10Rare"
         ],
         "PartyEquip": [
-            [
-                
-            ],
             [
                 
             ],
@@ -48,7 +40,7 @@
         "AP": 10,
         "Level": 6,
         "ConsumeItems": [
-            "Potion_Target"
+            
         ]
     }
 }

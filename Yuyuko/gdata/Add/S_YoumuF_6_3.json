@@ -1,0 +1,11 @@
+{
+    "S_YoumuF_6_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_1_NewAni",
+        "Target": "enemy",
+        "NoDrop": true,
+        "Name": "人鬼「未来永劫斩」-终式",
+        "Effect_Target": "SE_T_S_YoumuF_6_3"
+    }
+}
