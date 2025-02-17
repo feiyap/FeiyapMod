@@ -156,6 +156,9 @@ namespace Yuyuko
                 list.AddRange((this.BChar as BattleEnemy).Ai.TargetSelect(skill));
                 this.BChar.BuffAdd(GDEItemKeys.Buff_B_RemoveStun, this.BChar, false, 0, false, -1, false);
                 BattleSystem.instance.EnemyCastEnqueue(this.BChar as BattleEnemy, skill, list, BattleSystem.instance.AllyTeam.TurnActionNum + 1, false);
+
+                this.BChar.BuffReturn("B_YoumuF_Spell")?.SelfDestroy();
+                this.BChar.BuffReturn("B_YoumuF_Spell2")?.SelfDestroy();
             }
         }
     }

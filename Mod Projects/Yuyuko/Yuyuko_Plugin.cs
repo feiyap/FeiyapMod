@@ -79,7 +79,7 @@ namespace Yuyuko
 
             if (!isBoss && PlayData.TSavedata.NowStageMapKey == GDEItemKeys.Stage_Stage_Crimson)
             {
-                if (FieldSystem_Patch.count == 2)
+                if (FieldSystem_Patch.count == 1)
                 {
                     __instance.MainQueueData = new GDEEnemyQueueData("SR_Boss_Youmu");
                 }

@@ -55,7 +55,7 @@ namespace Yuyuko
         {
             int num = Targets[0].Info.OriginStat.maxhp * 25 / 100;
 
-            num = Math.Min(num, (int)(this.BChar.GetStat.atk * 5));
+            num = Math.Min(num, (int)(this.BChar.GetStat.atk * 10));
 
             if (P_YuyukoF.CheckGhost(4, false))
             {

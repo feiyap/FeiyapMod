@@ -50,6 +50,8 @@ namespace Yuyuko
         
         public void DeadAfter()
         {
+            FieldSystem_Patch.count = 0;
+
             BattleChar battleChar = null;
             foreach (BattleEnemy battleEnemy in this.BChar.BattleInfo.EnemyList)
             {

@@ -199,7 +199,8 @@ Skill/S_YuyukoF_P_1_Description,Text,,,,,"仅能选择拥有<color=#4876FF>幽�
 Skill/S_YuyukoF_P_1_Name,Text,,,,,<color=#FF1493>亡乡「亡我乡 -彷徨的灵魂-」</color>,
 Skill/S_YuyukoF_P_2_Description,Text,,,,,立即获得100<color=#FFB6C1>返魂值</color>，并进入<color=#8B008B>永眠</color>状态。,
 Skill/S_YuyukoF_P_2_Name,Text,,,,,<color=#4876FF>亡乡「亡我乡 -自尽-」</color>,
-Skill/S_YuyukoF_P_3_Description,Text,,,,,放逐目标技能，减少100<color=#FFB6C1>返魂值</color>。,
+Skill/S_YuyukoF_P_3_Description,Text,,,,,"放逐目标技能，减少100<color=#FFB6C1>返魂值</color>。
+从放逐牌库将1个自己的技能拿回手中。",
 Skill/S_YuyukoF_P_3_Name,Text,,,,,<color=#8B008B>亡乡「亡我乡 -无道之路-」</color>,
 Skill/S_YuyukoF_Rare_1_0_Description,Text,,,,,"重复释放 10 次。
 

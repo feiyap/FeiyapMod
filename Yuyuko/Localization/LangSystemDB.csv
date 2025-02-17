@@ -1,5 +1,5 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-S_YuyukoF_0_1/Text,Text,,,,,结算时降低10%最大体力值<color=#FF7A33>(不超过&user攻击力的200%)</color>。,
+S_YuyukoF_0_1/Text,Text,,,,,结算时降低10%最大体力值<color=#FF7A33>(不超过&user攻击力的500%)</color>。,
 S_YuyukoF_0_2/Text,Text,,,,,可以无视嘲讽状态被选中。,
 S_YuyukoF_1_1/Text,Text,,,,,受到的非<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。,
 S_YuyukoF_1_2/Text,Text,,,,,受到的<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。,

@@ -109,7 +109,7 @@ namespace Yuyuko
             base.TurnUpdate();
 
             int num = this.BChar.Info.OriginStat.maxhp * 10 / 100;
-            num = Math.Min(num, (int)(this.BChar.GetStat.atk * 2));
+            num = Math.Min(num, (int)(this.BChar.GetStat.atk * 5));
             if (effect == 0)
             {
                 BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(this.BChar, num, this.Usestate_F);

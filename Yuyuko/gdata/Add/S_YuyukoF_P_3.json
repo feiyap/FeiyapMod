@@ -7,7 +7,7 @@
         "NotCount": true,
         "Basic": true,
         "Name": "<color=#8B008B>亡乡「亡我乡 -无道之路-」</color>",
-        "Description": "放逐目标技能，减少100<color=#FFB6C1>返魂值</color>。",
+        "Description": "放逐目标技能，减少100<color=#FFB6C1>返魂值</color>。\n从放逐牌库将1个自己的技能拿回手中。",
         "UseAp": -1,
         "NoDrop": true,
         "Image_0": "S_YuyukoF_P_3\\S_YuyukoF_P_3_Image_0.png",

@@ -11,6 +11,7 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
+using BasicMethods;
 namespace Yuyuko
 {
 	/// <summary>
@@ -25,6 +26,19 @@ namespace Yuyuko
 
             Targets[0].Except();
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(-100);
+
+            {
+                List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.MySkill.KeyID != "S_YuyukoF_P_3"));
+
+                if (excDeck.Count > 0)
+                {
+                    BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(excDeck, delegate (SkillButton skillbutton)
+                    {
+                        BV_ExceptDeck.RemoveSkill(skillbutton.Myskill);
+                        BattleSystem.instance.AllyTeam.Add(skillbutton.Myskill, true);
+                    }, ModManager.getModInfo("YasakaKanano").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect"), true, true, true, false, true));
+                }
+            }
         }
     }
 }

@@ -291,7 +291,7 @@ namespace Yuyuko
 		/// 增加20<color=#FFB6C1>返魂值</color>。
 		/// <color=#FF1493>华胥</color> - 超额治疗自己等量于“目标已损失的最大体力值的25%”的体力。
 		/// <color=#AB82FF>葬送</color> - <color=#CAE1FF>亡者召还3</color>。
-		/// <color=#4876FF>幽冥蝶</color> - 结算时降低10%最大体力值<color=#FF7A33>(不超过自身攻击力的200%)</color>。
+		/// <color=#4876FF>幽冥蝶</color> - 结算时降低10%最大体力值<color=#FF7A33>(不超过自身攻击力的500%)</color>。
 		/// <color=#FF69B4>人魂蝶</color> - 可以无视嘲讽状态被选中。
 		/// </summary>
         public static string Skill_S_YuyukoF_0 = "S_YuyukoF_0";
@@ -308,8 +308,8 @@ namespace Yuyuko
 		/// 幽雅「通向黄泉的诱蛾灯」
 		/// 仅能指定同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人。
 		/// <color=#8B008B>回引</color>目标的<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>。
-		/// <color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。
-		/// <color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。
+		/// <color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
+		/// <color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
 		/// <color=#4876FF>幽冥蝶</color> - 施加时，触发一次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发一次<color=#CAE1FF>亡者召还1</color>。
 		/// <color=#FF69B4>人魂蝶</color> - 施加时，获得8点<color=#E066FF>亡魂</color>。<color=#8B008B>回引</color>时，获得8点<color=#E066FF>亡魂</color>。
 		/// </summary>
@@ -334,7 +334,7 @@ namespace Yuyuko
         public static string Skill_S_YuyukoF_4 = "S_YuyukoF_4";
 		/// <summary>
 		/// 蝶符「凤蝶纹的死枪」
-		/// <color=#E066FF>唤魂4</color> - 额外使敌人降低25%最大体力值<color=#FF7A33>(不超过自身攻击力的500%)</color>。
+		/// <color=#E066FF>唤魂4</color> - 额外使敌人降低25%最大体力值<color=#FF7A33>(不超过自身攻击力的1000%)</color>。
 		/// <color=#AB82FF>葬送</color> - 对随机敌人释放这个技能。
 		/// <color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// <color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取2个技能。
@@ -413,6 +413,7 @@ namespace Yuyuko
 		/// <summary>
 		/// <color=#8B008B>亡乡「亡我乡 -无道之路-」</color>
 		/// 放逐目标技能，减少100<color=#FFB6C1>返魂值</color>。
+		/// 从放逐牌库将1个自己的技能拿回手中。
 		/// </summary>
         public static string Skill_S_YuyukoF_P_3 = "S_YuyukoF_P_3";
 		/// <summary>
@@ -468,7 +469,7 @@ namespace Yuyuko
 		/// English:
 		/// Japanese:
 		/// Chinese:
-		/// 结算时降低10%最大体力值<color=#FF7A33>(不超过&user攻击力的200%)</color>。
+		/// 结算时降低10%最大体力值<color=#FF7A33>(不超过&user攻击力的500%)</color>。
 		/// Chinese-TW:
 		/// </summary>
         public static string S_YuyukoF_0_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_0_1/Text");
