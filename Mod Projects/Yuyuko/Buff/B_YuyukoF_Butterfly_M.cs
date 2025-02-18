@@ -55,7 +55,7 @@ namespace Yuyuko
                 List<Skill> list = new List<Skill>();
                 list.AddRange(BattleSystem.instance.AllyTeam.Skills);
 
-                BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true));
+                BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect"), false, true, true, false, true));
             }
             if (effect == 5)
             {
@@ -65,6 +65,10 @@ namespace Yuyuko
             {
                 BattleSystem.instance.AllyTeam.Draw();
                 BattleSystem.instance.AllyTeam.AP++;
+            }
+            if (effect == 10)
+            {
+                P_YuyukoF.DeadRevive(this.Usestate_F, 2);
             }
         }
 
@@ -109,7 +113,8 @@ namespace Yuyuko
             base.TurnUpdate();
 
             int num = this.BChar.Info.OriginStat.maxhp * 10 / 100;
-            num = Math.Min(num, (int)(this.BChar.GetStat.atk * 5));
+            num = Math.Min(num, (int)(this.Usestate_F.GetStat.atk * 5));
+
             if (effect == 0)
             {
                 BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(this.BChar, num, this.Usestate_F);

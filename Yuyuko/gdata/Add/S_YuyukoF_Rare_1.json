@@ -7,7 +7,7 @@
         "Name": "「反魂蝶」",
         "User": "YuyukoF",
         "Rare": true,
-        "Description": "握在手中时，自身每次进入<color=#8B008B>永眠</color>状态时，使这个技能获得：打出时，重复释放1次。\n这个技能最多能重复释放10次。\n\n<color=#AB82FF>葬送</color> - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。\n<color=#4876FF>幽冥蝶</color> - 无效果。\n<color=#FF69B4>人魂蝶</color> - 无效果。",
+        "Description": "握在手中时，自身每次进入<color=#8B008B>永眠</color>状态时，使这个技能获得：打出时，重复释放1次。\n这个技能最多能重复释放10次。\n\n<color=#AB82FF>葬送</color> - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。\n<color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。\n<color=#FF69B4>人魂蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。",
         "UseAp": 2,
         "NotCount": true,
         "Track": true,

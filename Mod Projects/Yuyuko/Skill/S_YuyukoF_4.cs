@@ -33,7 +33,7 @@ namespace Yuyuko
         {
             if ((SP.SkillData == this.MySkill))
             {
-                int count = BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[hit];
+                int count = BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().dieList[hit] / 2;
                 
                 foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
                 {

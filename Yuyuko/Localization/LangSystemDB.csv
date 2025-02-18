@@ -21,5 +21,6 @@ S_YuyukoF_P_1_2/Text,Text,,,,,"
 <i><color=red>场上已经有<color=#FF69B4>人魂蝶</color>了。</color></i>",
 S_YuyukoF_Rare_1,Text,,,,,「反魂蝶 - ,
 S_YuyukoF_Rare_1_0,Text,,,,,分咲」,
-S_YuyukoF_Rare_1_1/Text,Text,,,,,无效果。,
-S_YuyukoF_Rare_1_2/Text,Text,,,,,无效果。,
+S_YuyukoF_Rare_1_1/Text,Text,,,,,施加时，触发1次<color=#CAE1FF>亡者召还2</color>。,
+S_YuyukoF_Rare_1_2/Text,Text,,,,,施加时，触发1次<color=#CAE1FF>亡者召还3</color>。,
+exceptSkillSelect,Text,,,,,选择要放逐的技能,

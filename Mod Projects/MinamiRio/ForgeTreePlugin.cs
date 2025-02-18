@@ -38,7 +38,7 @@ namespace MinamiRio
                     regEquip.Add(ib);
                 }
             }
-            
+
             if (!__instance.CombineBtn.interactable || __instance.InventoryItems[0] == null || __instance.InventoryItems[1] == null)
             {
                 return true;
@@ -48,7 +48,7 @@ namespace MinamiRio
             {
                 return true;
             }
-            
+
             Item_Equip item_Equip;
             if (__instance.InventoryItems.Find((ItemBase a) => a.itemkey == ModItemKeys.Item_Misc_ForgeTree_TreeOfLife) != null)
             {
@@ -75,7 +75,7 @@ namespace MinamiRio
                 for (; ; )
                 {
                     equipRandom = PlayData.GetEquipRandom(num);
-                    if (!(equipRandom == __instance.InventoryItems[0].itemkey) && !(equipRandom == __instance.InventoryItems[1].itemkey) 
+                    if (!(equipRandom == __instance.InventoryItems[0].itemkey) && !(equipRandom == __instance.InventoryItems[1].itemkey)
                         && (atkEquip.Find((ItemBase a) => a.itemkey == equipRandom) != null))
                     {
                         break;
@@ -115,7 +115,7 @@ namespace MinamiRio
 
             return true;
         }
-        
+
         [HarmonyPostfix]
         [HarmonyPatch("FixedUpdate")]
         public static void FixedUpdate_Postfix(CampAnvilEvent __instance)

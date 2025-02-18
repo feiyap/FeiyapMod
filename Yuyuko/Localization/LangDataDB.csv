@@ -122,7 +122,7 @@ Skill/S_YuyukoF_0_Description,Text,,,,,"增加20<color=#FFB6C1>返魂值</color>
 
 <color=#FF1493>华胥</color> - 超额治疗自己等量于“目标已损失的最大体力值的25%”的体力。
 <color=#AB82FF>葬送</color> - <color=#CAE1FF>亡者召还3</color>。
-<color=#4876FF>幽冥蝶</color> - 结算时降低10%最大体力值<color=#FF7A33>(不超过自身攻击力的200%)</color>。
+<color=#4876FF>幽冥蝶</color> - 结算时降低10%最大体力值<color=#FF7A33>(不超过自身攻击力的500%)</color>。
 <color=#FF69B4>人魂蝶</color> - 可以无视嘲讽状态被选中。",
 Skill/S_YuyukoF_0_Name,Text,,,,,亡乡「亡我乡 -宿罪-」,
 Skill/S_YuyukoF_1_Description,Text,,,,,"增加20<color=#FFB6C1>返魂值</color>。
@@ -134,9 +134,10 @@ Skill/S_YuyukoF_1_Description,Text,,,,,"增加20<color=#FFB6C1>返魂值</color>
 Skill/S_YuyukoF_1_Name,Text,,,,,死蝶「华胥之永眠」,
 Skill/S_YuyukoF_2_Description,Text,,,,,"仅能指定同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人。
 <color=#8B008B>回引</color>目标的<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>。
+造成伤害前，使目标的最大体力值降低至当前体力值。
 
-<color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。
-<color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。
+<color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
+<color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
 <color=#4876FF>幽冥蝶</color> - 施加时，触发一次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发一次<color=#CAE1FF>亡者召还1</color>。
 <color=#FF69B4>人魂蝶</color> - 施加时，获得8点<color=#E066FF>亡魂</color>。<color=#8B008B>回引</color>时，获得8点<color=#E066FF>亡魂</color>。",
 Skill/S_YuyukoF_2_Name,Text,,,,,幽雅「通向黄泉的诱蛾灯」,
@@ -148,13 +149,13 @@ Skill/S_YuyukoF_3_Description,Text,,,,,"减少20<color=#FFB6C1>返魂值</color>
 <color=#FF69B4>人魂蝶</color> - 施加时，选择手中1个技能放逐，抽取1个技能。",
 Skill/S_YuyukoF_3_Name,Text,,,,,亡舞「生者必灭之理」,
 Skill/S_YuyukoF_4_Description,Text,,,,,"增加20<color=#FFB6C1>返魂值</color>。
-使所有敌人获得与目标相同的“已损失最大体力值”的值。
+使所有敌人获得与目标50%的“已损失最大体力值”的值。
 
 <color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的121%)</color>。
 <color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的121%)</color>。
 <color=#FF69B4>人魂蝶</color> - 施加时，使所有调查员的固定能力变为可用状态。",
 Skill/S_YuyukoF_4_Name,Text,,,,,冥符「黄泉平坂行路」,
-Skill/S_YuyukoF_5_Description,Text,,,,,"<color=#E066FF>唤魂4</color> - 额外使敌人降低25%最大体力值<color=#FF7A33>(不超过自身攻击力的500%)</color>。
+Skill/S_YuyukoF_5_Description,Text,,,,,"<color=#E066FF>唤魂4</color> - 额外使敌人降低25%最大体力值<color=#FF7A33>(不超过自身攻击力的1000%)</color>。
 <color=#AB82FF>葬送</color> - 对随机敌人释放这个技能。
 <color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 <color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取2个技能。",
@@ -213,8 +214,8 @@ Skill/S_YuyukoF_Rare_1_Description,Text,,,,,"握在手中时，自身每次进�
 这个技能最多能重复释放10次。
 
 <color=#AB82FF>葬送</color> - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。
-<color=#4876FF>幽冥蝶</color> - 无效果。
-<color=#FF69B4>人魂蝶</color> - 无效果。",
+<color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
+<color=#FF69B4>人魂蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。",
 Skill/S_YuyukoF_Rare_1_Name,Text,,,,,「反魂蝶」,
 Skill/S_YuyukoF_Rare_2_Description,Text,,,,,握在手中时，每次有技能被放逐，使这个技能费用降低1点。,
 Skill/S_YuyukoF_Rare_2_Name,Text,,,,,再迷「幻想乡的黄泉归」,

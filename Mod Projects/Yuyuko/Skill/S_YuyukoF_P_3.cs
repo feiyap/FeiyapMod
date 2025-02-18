@@ -36,8 +36,19 @@ namespace Yuyuko
                     {
                         BV_ExceptDeck.RemoveSkill(skillbutton.Myskill);
                         BattleSystem.instance.AllyTeam.Add(skillbutton.Myskill, true);
-                    }, ModManager.getModInfo("YasakaKanano").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect"), true, true, true, false, true));
+                    }, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect"), true, true, true, false, true));
                 }
+            }
+
+            (this.BChar as BattleAlly).MyBasicSkill.CoolDownNum = 0;
+            if ((this.BChar as BattleAlly).MyBasicSkill.ThisSkillUse)
+            {
+                (this.BChar as BattleAlly).MyBasicSkill.InActive = false;
+                (this.BChar as BattleAlly).MyBasicSkill.ThisSkillUse = false;
+            }
+            if ((this.BChar as BattleAlly).MyBasicSkill.InActive)
+            {
+                (this.BChar as BattleAlly).MyBasicSkill.InActive = false;
             }
         }
     }

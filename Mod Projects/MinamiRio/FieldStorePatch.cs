@@ -5,11 +5,11 @@ using DarkTonic.MasterAudio;
 using GameDataEditor;
 using HarmonyLib;
 using UnityEngine;
-using BasicMethods;
 using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using ChronoArkMod.ModData;
+using BasicMethods;
 
 namespace MinamiRio
 {

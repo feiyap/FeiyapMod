@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>MinamiRio2024111921438</AssemblyName>
+    <AssemblyName>MinamiRio2025218230326</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -23,6 +23,9 @@
     </Reference>
     <Reference Include="Assembly-CSharp">
       <Private>False</Private>
+    </Reference>
+    <Reference Include="BasicMethods">
+      <HintPath>..\..\..\..\..\workshop\content\1188930\3345774100\Assemblies\BasicMethods.dll</HintPath>
     </Reference>
     <Reference Include="Beardy.BeardsGridLayoutGroup.Runtime">
       <Private>False</Private>
@@ -406,21 +409,21 @@
     <Reference Include="MonoMod.Utils">
       <HintPath>..\..\MinamiRio\Assemblies\MonoMod.Utils.dll</HintPath>
     </Reference>
-    <!-- Extra Reference End-->
+<!-- Extra Reference End-->
   </ItemGroup>
-  <!-- Compile ItemGroup Start-->
+    <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BattleCharDamagePatch.cs" />
     <Compile Include="BV_MinamiRio_P.cs" />
     <Compile Include="Characterget_statPatch.cs" />
-    <Compile Include="NotExpertPlusMod.cs" />
-    <Compile Include="SkillToolTipPatch.cs" />
     <Compile Include="FieldStorePatch.cs" />
     <Compile Include="ForgeTreePlugin.cs" />
     <Compile Include="MinamiRio_ModDefinition.cs" />
     <Compile Include="MinamiRio_ModItemKeys.cs" />
     <Compile Include="MinamiRio_Plugin.cs" />
     <Compile Include="SkillTargetTooltipInputInfoPatch.cs" />
+    <Compile Include="SkillToolTipPatch.cs" />
+    <Compile Include="StageChestEnemyPatch.cs" />
     <Compile Include="Buff\B_MinamiRio_0.cs" />
     <Compile Include="Buff\B_MinamiRio_2.cs" />
     <Compile Include="Buff\B_MinamiRio_4.cs" />
@@ -449,7 +452,6 @@
     <Compile Include="Skill\S_MinamiRio_7.cs" />
     <Compile Include="Skill\S_MinamiRio_LucyD.cs" />
     <Compile Include="Skill\S_MinamiRio_Rare_2.cs" />
-    <Compile Include="StageChestEnemyPatch.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

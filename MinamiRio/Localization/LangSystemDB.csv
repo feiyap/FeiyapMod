@@ -1,3 +1,3 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-S_MinamiRio_Rare_2_1,Text,,,,,<color=#48D1CC>连矢</color>,
-S_MinamiRio_Rare_2_2,Text,,,,,<color=#FFD700>正射必中</color>,
+S_MinamiRio_Rare_2_1,Text,,,<color=#48D1CC>Rain of Arrows</color>,,<color=#48D1CC>连矢</color>,
+S_MinamiRio_Rare_2_2,Text,,,<color=#FFD700>True Shot Never Misses</color>,,<color=#FFD700>正射必中</color>,

@@ -308,6 +308,7 @@ namespace Yuyuko
 		/// 幽雅「通向黄泉的诱蛾灯」
 		/// 仅能指定同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人。
 		/// <color=#8B008B>回引</color>目标的<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>。
+		/// 造成伤害前，使目标的最大体力值降低至当前体力值。
 		/// <color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
 		/// <color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
 		/// <color=#4876FF>幽冥蝶</color> - 施加时，触发一次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发一次<color=#CAE1FF>亡者召还1</color>。
@@ -326,7 +327,7 @@ namespace Yuyuko
 		/// <summary>
 		/// 冥符「黄泉平坂行路」
 		/// 增加20<color=#FFB6C1>返魂值</color>。
-		/// 使所有敌人获得与目标相同的“已损失最大体力值”的值。
+		/// 使所有敌人获得与目标50%的“已损失最大体力值”的值。
 		/// <color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的121%)</color>。
 		/// <color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的121%)</color>。
 		/// <color=#FF69B4>人魂蝶</color> - 施加时，使所有调查员的固定能力变为可用状态。
@@ -421,8 +422,8 @@ namespace Yuyuko
 		/// 握在手中时，自身每次进入<color=#8B008B>永眠</color>状态时，使这个技能获得：打出时，重复释放1次。
 		/// 这个技能最多能重复释放10次。
 		/// <color=#AB82FF>葬送</color> - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。
-		/// <color=#4876FF>幽冥蝶</color> - 无效果。
-		/// <color=#FF69B4>人魂蝶</color> - 无效果。
+		/// <color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
+		/// <color=#FF69B4>人魂蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。
 		/// </summary>
         public static string Skill_S_YuyukoF_Rare_1 = "S_YuyukoF_Rare_1";
 		/// <summary>
@@ -649,7 +650,7 @@ namespace Yuyuko
 		/// English:
 		/// Japanese:
 		/// Chinese:
-		/// 无效果。
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// Chinese-TW:
 		/// </summary>
         public static string S_YuyukoF_Rare_1_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_1/Text");
@@ -658,10 +659,19 @@ namespace Yuyuko
 		/// English:
 		/// Japanese:
 		/// Chinese:
-		/// 无效果。
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。
 		/// Chinese-TW:
 		/// </summary>
         public static string S_YuyukoF_Rare_1_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_2/Text");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 选择要放逐的技能
+		/// Chinese-TW:
+		/// </summary>
+        public static string exceptSkillSelect => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect");
 
     }
 }

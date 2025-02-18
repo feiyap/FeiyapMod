@@ -84,6 +84,9 @@ namespace Yuyuko
             }
 
             P_YuyukoF.ReturnAllButterfly();
+
+            int count = Targets[0].GetStat.maxhp - Targets[0].HP;
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(Targets[0], count, this.BChar);
         }
 
         public override string DescExtended(string desc)

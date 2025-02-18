@@ -1,112 +1,144 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-Buff/B_MinamiRio_0_Description,Text,,,,,"攻击命中时获得1层<color=#DC143C>皆中</color>。
+Buff/B_MinamiRio_0_Description,Text,,,"After dealing damage, gain 1 stack of <color=#DC143C>Flawless Shot</color>.
+
+<color=#48D1CC>Longbow</color> – Draw 1 skill prioritizing the user skills at 4 stacks.
+<color=#FFD700>Yumi</color> – Gain 1 stack 'Focused Concentration' at 4 stacks.",,"攻击命中时获得1层<color=#DC143C>皆中</color>。
 <color=#48D1CC>单弓</color> - 层数达到上限时，移除该增益并优先抽取1个自己的技能。
 <color=#FFD700>和弓</color> - 层数达到上限时，移除该增益并获得[全神贯注]。",
-Buff/B_MinamiRio_0_Name,Text,,,,,<color=#DC143C>皆中</color>,
-Buff/B_MinamiRio_2_Description,Text,,,,,使自身下1个2费以上的技能造成的伤害提升25%。,
-Buff/B_MinamiRio_2_Name,Text,,,,,全神贯注,
-Buff/B_MinamiRio_4_Name,Text,,,,,<color=#54FF9F>风伤</color>,
-Buff/B_MinamiRio_6_Description,Text,,,,,"目标可以无条件被指定为技能目标；
+Buff/B_MinamiRio_0_Name,Text,,,<color=#DC143C>Flawless Shot</color>,,<color=#DC143C>皆中</color>,
+Buff/B_MinamiRio_2_Description,Text,,,Increase damage by 25% for the next skill played from hand that cost 2 or more.,,使自身下1个2费以上的技能造成的伤害提升25%。,
+Buff/B_MinamiRio_2_Name,Text,,,Focused Concentration,,全神贯注,
+Buff/B_MinamiRio_4_Name,Text,,,<color=#54FF9F>Wind Damage</color>,,<color=#54FF9F>风伤</color>,
+Buff/B_MinamiRio_6_Description,Text,,,"All allies can target enemy with 'Tracking Skill' debuff regardless of Taunt status.
+When this unit dies, obtain 200 gold.",,"目标可以无条件被指定为技能目标；
 目标死亡时，获得200金币。",
-Buff/B_MinamiRio_6_Name,Text,,,,,追踪术,
-Buff/B_MinamiRio_7_Description,Text,,,,,攻击时若命中率超过100%，则超出的数值将增加到暴击率。,
-Buff/B_MinamiRio_7_Name,Text,,,,,百发百中,
-Buff/B_MinamiRio_P1_Description,Text,,,,,"手中的攻击技能获得无视嘲讽。
+Buff/B_MinamiRio_6_Name,Text,,,Tracking Skill,,追踪术,
+Buff/B_MinamiRio_7_Description,Text,,,Hit Rate above 100% is converted into Critical Chance.,,攻击时若命中率超过100%，则超出的数值将增加到暴击率。,
+Buff/B_MinamiRio_7_Name,Text,,,Perfect Accuracy,,百发百中,
+Buff/B_MinamiRio_P1_Description,Text,,,"Can target all enemies regardless of their Taunt status.
+<color=#FA8072>Armor Penetration</color>: &a",,"手中的攻击技能获得无视嘲讽。
 当前<color=#FA8072>穿甲</color>：&a",
-Buff/B_MinamiRio_P1_Name,Text,,,,,<color=#48D1CC>单弓</color>,
-Buff/B_MinamiRio_P2_Description,Text,,,,,当前<color=#FA8072>穿甲</color>：&a<color=#FFD700></color>,
-Buff/B_MinamiRio_P2_Name,Text,,,,,<color=#FFD700>和弓</color>,
-Buff/B_MinamiRio_Rare_1_0_Description,Text,,,,,&user可以无视嘲讽攻击这个单位。,
-Buff/B_MinamiRio_Rare_1_0_Name,Text,,,,,射手印记,
-Buff/B_MinamiRio_Rare_1_Description,Text,,,,,"攻击时会向目标施加[射手印记]：施加者可以无视嘲讽攻击[射手印记]的目标；
+Buff/B_MinamiRio_P1_Name,Text,,,<color=#48D1CC>Longbow</color>,,<color=#48D1CC>单弓</color>,
+Buff/B_MinamiRio_P2_Description,Text,,,<color=#FA8072>Armor Penetration</color>: &a<color=#FFD700></color>,,当前<color=#FA8072>穿甲</color>：&a<color=#FFD700></color>,
+Buff/B_MinamiRio_P2_Name,Text,,,<color=#FFD700>Yumi</color>,,<color=#FFD700>和弓</color>,
+Buff/B_MinamiRio_Rare_1_0_Description,Text,,,&user can target this enemy regardless of its Taunt status.,,&user可以无视嘲讽攻击这个单位。,
+Buff/B_MinamiRio_Rare_1_0_Name,Text,,,Archer's Mark,,射手印记,
+Buff/B_MinamiRio_Rare_1_Description,Text,,,"Can target enemies with the 'Archer's Mark' debuff regardless of their Taunt status.
+Apply 'Archer's Mark' to the enemy you attacked.
+The next attack deals +100% damage to an enemy with 'Archer's Mark'.
+Remove 'Archer's Mark' and draw 1 skill.",,"攻击时会向目标施加[射手印记]：施加者可以无视嘲讽攻击[射手印记]的目标；
 再次命中拥有[射手印记]的敌人时，消除场上所有[射手印记]，本次造成伤害翻倍，并且抽取1个功能。",
-Buff/B_MinamiRio_Rare_1_Name,Text,,,,,Robinhood,
-Buff/B_MinamiRio_Rare_2_Description,Text,,,,,自身造成伤害提升35%。,
-Buff/B_MinamiRio_Rare_2_Name,Text,,,,,正射必中,
-Character/MinamiRio_CampSelectWord,Text,,,,,我的箭可以看穿所有谎言。,
-Character/MinamiRio_PassiveDes,Text,,,,,"<b>锚点</b> - 莉央无法造成暴击，但是升级时获得远超常人的命中率提升。莉央超过100%的那部分命中率转化为50%的<color=#FA8072>穿甲</color>。
+Buff/B_MinamiRio_Rare_1_Name,Text,,,Robin Hood,,Robinhood,
+Buff/B_MinamiRio_Rare_2_Description,Text,,,Take 35% more damage this turn.,,自身造成伤害提升35%。,
+Buff/B_MinamiRio_Rare_2_Name,Text,,,True Shot Never Misses,,正射必中,
+Character/MinamiRio_CampSelectWord,Text,,,My arrows can see through all lies.,,我的箭可以看穿所有谎言。,
+Character/MinamiRio_PassiveDes,Text,,,"<b>Anchor Point</b> - Rio cannot deal critical hits, However, she gains exceptional accuracy with each level-up. Any Hit Rate above 100% converts into <color=#FA8072>Armor Penetration</color>.
+
+Target's Armor is reduced by an amount equal to <color=#FA8072>Armor Penetration</color>.
+
+In <color=#48D1CC>Longbow</color> stance, Rio can target all enemies regardless of their Taunt status. Her skills gain bonus effects depending on her stance.
+
+In <color=#FFD700>Yumi</color> stance, Rio gains 20% increased Hit Rate. Her skills gain bonus effects depending on her stance.",,"<b>锚点</b> - 莉央无法造成暴击，但是升级时获得远超常人的命中率提升。莉央超过100%的那部分命中率转化为50%的<color=#FA8072>穿甲</color>。
 
 <b><color=#FA8072>穿甲</color></b> - 莉央攻击时视作目标减少等量于<color=#FA8072>穿甲</color>的防御力。
 
 <b><color=#48D1CC>单弓</color></b> - 莉央在<color=#48D1CC>单弓</color>形态下手中的攻击技能获得无视嘲讽；且部分技能会触发额外效果。
 
 <b><color=#FFD700>和弓</color></b> - 莉央在<color=#FFD700>和弓</color>形态下增加20%命中率；且部分技能会触发额外效果。",
-Character/MinamiRio_PassiveName,Text,,,,,箭与其反,
-Character/MinamiRio_SelectInfo,Text,,,,,"莉央是拥有两种输出手段、脆弱但致命的技巧型射手。
+Character/MinamiRio_PassiveName,Text,,,Arrow's Arc and Return,,箭与其反,
+Character/MinamiRio_SelectInfo,Text,,,"Rio is a skill-based archer who balances fragility with deadly precision.
+
+She cannot deal critical hits and has low health and defense. However, she gains exceptional accuracy with each level-up. Any Hit Rate above 100% is converted into Armor Penetration, up to a maximum of 50%.
+
+Rio wields two offensive stances: 'Longbow' and 'Yumi.' In 'Longbow' stance, her attacks are rapid and precise, allowing her to strike swiftly from a distance. In 'Yumi' stance, her shots are powerful and devastating, delivering lethal blows at the cost of speed.
+
+Mastering the art of stance-switching and relying on her teammates' protection, Rio unleashes relentless firepower on her enemies.",,"莉央是拥有两种输出手段、脆弱但致命的技巧型射手。
 
 莉央无法造成暴击，并且拥有较低的生命值和防御力，但是升级时获得远超常人的命中率提升。她溢出的命中率将会转化为穿甲效果，攻击时视作目标减少等量的防御力。此外，莉央拥有“单弓”和“和弓”两种输出形态，在“单弓”形态下，她的攻击迅捷而轻巧；在“和弓”形态下，她的攻击猛烈且致命。
 
 合理地利用两种形态的切换，在队友的保护下编织出浓烈的火力网吧。",
-Character/MinamiRio_Text_Battle_AllyND_0,Text,,,,,为什么……,
-Character/MinamiRio_Text_Battle_Healed_0,Text,,,,,非常感谢……,
-Character/MinamiRio_Text_Battle_Idle_0,Text,,,,,我会好好看清你们的。,
-Character/MinamiRio_Text_Battle_Idle_1,Text,,,,,不管来什么样的目标都没关系。仅仅是将它射中而已。,
-Character/MinamiRio_Text_Battle_Kill_0,Text,,,,,你逃不掉的！,
-Character/MinamiRio_Text_Battle_Kill_1,Text,,,,,这种情况，我还能说是正当防卫么。,
-Character/MinamiRio_Text_Battle_Kill_2,Text,,,,,呼吸，断掉了啊。,
-Character/MinamiRio_Text_Battle_ND_0,Text,,,,,动不……了了……,
-Character/MinamiRio_Text_Battle_Start_0,Text,,,,,我的箭不会让你失望的。,
-Character/MinamiRio_Text_Battle_Start_1,Text,,,,,嗯，我会给你展示正确的射法。,
-Character/MinamiRio_Text_Field_GetItem_0,Text,,,,,姑且先打开吧。,
-Character/MinamiRio_Text_Field_GetItem_1,Text,,,,,要怎么才能打开呢？,
-Character/MinamiRio_Text_Field_GetItem_2,Text,,,,,稍微加工一下，能不能当弓来用呢？,
-Character/MinamiRio_Text_Field_Idle_0,Text,,,,,好想吃土豆炖肉啊。,
-Character/MinamiRio_Text_Field_Potion_P_0,Text,,,,,比起岛上的水来说……,
-Character/MinamiRio_Text_MasterTarget,Text,,,,,我不后悔。毕竟我已经尽了我的全力了。,
-Character/MinamiRio_Text_PharosLeader_0,Text,,,,,千代……为什么那天你会……,
-Character/MinamiRio_Text_PharosLeader_1,Text,,,,,唔……大家……对不起……,
-Character/MinamiRio_Text_PharosLeader_2,Text,,,,,我会生存下去。继续拉起弓。,
-Character/MinamiRio_Text_Witch_0,Text,,,,,认真地做好觉悟为妙。,
-Character/MinamiRio_Text_Witch_1,Text,,,,,还不能、至少、现在不行……,
-Character/MinamiRio_name,Text,,,,,莉央,
-Character_Skin/MinamiRioBunny_SkinDesc,Text,,,,,皇家同花顺！这就是我的实力~,
-Character_Skin/MinamiRioBunny_SkinName,Text,,,,,害羞兔女郎,
-Character_Skin/MinamiRioShrine_SkinDesc,Text,,,,,正义之矢将穿透所有邪恶。,
-Character_Skin/MinamiRioShrine_SkinName,Text,,,,,巫女 莉央,
-Character_Skin/MinamiRioSwimsuit_SkinDesc,Text,,,,,你挡住我晒太阳了。麻烦请让开！,
-Character_Skin/MinamiRioSwimsuit_SkinName,Text,,,,,清凉一夏 莉央,
-Character_Skin/MinamiRioWinter_SkinDesc,Text,,,,,看！我的箭会发光！,
-Character_Skin/MinamiRioWinter_SkinName,Text,,,,,星夜极光 莉央,
+Character/MinamiRio_Text_Battle_AllyND_0,Text,,,Why...?,,为什么……,
+Character/MinamiRio_Text_Battle_Healed_0,Text,,,Thank you very much...,,非常感谢……,
+Character/MinamiRio_Text_Battle_Idle_0,Text,,,I will see you all clearly.,,我会好好看清你们的。,
+Character/MinamiRio_Text_Battle_Idle_1,Text,,,"No matter what kind of target comes, it doesn't matter. I just have to hit it.",,不管来什么样的目标都没关系。仅仅是将它射中而已。,
+Character/MinamiRio_Text_Battle_Kill_0,Text,,,You can't escape!,,你逃不掉的！,
+Character/MinamiRio_Text_Battle_Kill_1,Text,,,"In this situation, can I still call it self-defense?",,这种情况，我还能说是正当防卫么。,
+Character/MinamiRio_Text_Battle_Kill_2,Text,,,The breath... has stopped.,,呼吸，断掉了啊。,
+Character/MinamiRio_Text_Battle_ND_0,Text,,,C-can’t... move... anymore...,,动不……了了……,
+Character/MinamiRio_Text_Battle_Start_0,Text,,,My arrows won't disappoint you.,,我的箭不会让你失望的。,
+Character/MinamiRio_Text_Battle_Start_1,Text,,,"Mm, I'll show you the proper way to shoot.",,嗯，我会给你展示正确的射法。,
+Character/MinamiRio_Text_Field_GetItem_0,Text,,,Might as well open it first.,,姑且先打开吧。,
+Character/MinamiRio_Text_Field_GetItem_1,Text,,,How can I open this?,,要怎么才能打开呢？,
+Character/MinamiRio_Text_Field_GetItem_2,Text,,,"With a little modification, can this be used as a bow?",,稍微加工一下，能不能当弓来用呢？,
+Character/MinamiRio_Text_Field_Idle_0,Text,,,I really want to eat potato stew.,,好想吃土豆炖肉啊。,
+Character/MinamiRio_Text_Field_Potion_P_0,Text,,,Compared to the water on the island...,,比起岛上的水来说……,
+Character/MinamiRio_Text_MasterTarget,Text,,,"I have no regrets. After all, I’ve already given it my all.",,我不后悔。毕竟我已经尽了我的全力了。,
+Character/MinamiRio_Text_PharosLeader_0,Text,,,Chiyo... why did you... that day...?,,千代……为什么那天你会……,
+Character/MinamiRio_Text_PharosLeader_1,Text,,,Ugh... Everyone... I'm sorry...,,唔……大家……对不起……,
+Character/MinamiRio_Text_PharosLeader_2,Text,,,I will keep fighting to survive. I will continue to draw my bow.,,我会生存下去。继续拉起弓。,
+Character/MinamiRio_Text_Witch_0,Text,,,You’d better be fully prepared.,,认真地做好觉悟为妙。,
+Character/MinamiRio_Text_Witch_1,Text,,,Not yet... At least... Not now...,,还不能、至少、现在不行……,
+Character/MinamiRio_name,Text,,,Rio,,莉央,
+Character_Skin/MinamiRioBunny_SkinDesc,Text,,,Royal Flush! That’s the extent of my power~,,皇家同花顺！这就是我的实力~,
+Character_Skin/MinamiRioBunny_SkinName,Text,,,Shy Bunny Girl,,害羞兔女郎,
+Character_Skin/MinamiRioShrine_SkinDesc,Text,,,The Arrow of Justice will pierce through all evil.,,正义之矢将穿透所有邪恶。,
+Character_Skin/MinamiRioShrine_SkinName,Text,,,Miko Rio,,巫女 莉央,
+Character_Skin/MinamiRioSwimsuit_SkinDesc,Text,,,You're blocking my sunlight. Please move aside!,,你挡住我晒太阳了。麻烦请让开！,
+Character_Skin/MinamiRioSwimsuit_SkinName,Text,,,Summer Breeze Rio,,清凉一夏 莉央,
+Character_Skin/MinamiRioWinter_SkinDesc,Text,,,Look! My arrows glow!,,看！我的箭会发光！,
+Character_Skin/MinamiRioWinter_SkinName,Text,,,Starlit Aurora Rio,,星夜极光 莉央,
 Item_Equip/E_MinamiRio_0_Description,Text,,,,,,
-Item_Equip/E_MinamiRio_0_name,Text,,,,,哲别之弓,
-Item_Equip/E_MinamiRio_1_name,Text,,,,,血之刻印,
-Item_Misc/ForgeTree_TreeOfLife_Description,Text,,,,,特殊素材。用这个道具必定能合成出带有攻击力或暴击率加成的装备。,
-Item_Misc/ForgeTree_TreeOfLife_name,Text,,,,,生命树枝,
-Skill/S_MinamiRio_0_Description,Text,,,,,"使自身切换<color=#48D1CC>单弓</color>/<color=#FFD700>和弓</color>状态。
+Item_Equip/E_MinamiRio_0_name,Text,,,Bow of Jebe,,哲别之弓,
+Item_Equip/E_MinamiRio_1_name,Text,,,Blood Seal,,血之刻印,
+Item_Misc/ForgeTree_TreeOfLife_Description,Text,,,Special material. Using this item guarantees the synthesis of equipment with an Attack Power or Critical Rate bonus.,,特殊素材。用这个道具必定能合成出带有攻击力或暴击率加成的装备。,
+Item_Misc/ForgeTree_TreeOfLife_name,Text,,,Branch of Life Tree,,生命树枝,
+Skill/S_MinamiRio_0_Description,Text,,,"Switch stance between <color=#48D1CC>Longbow</color> and <color=#FFD700>Yumi</color>.
+Cost is reduced by 1 if this skill is a fixed ability.
+The fixed ability is refreshed each time you activate <color=#DC143C>Flawless Shot</color>.",,"使自身切换<color=#48D1CC>单弓</color>/<color=#FFD700>和弓</color>状态。
 作为固定技能时，<color=#DC143C>皆中</color>解除时变为可以使用的状态。",
-Skill/S_MinamiRio_0_Name,Text,,,,,替弓,
-Skill/S_MinamiRio_1_Description,Text,,,,,"<color=#48D1CC>单弓</color> - 本回合内可再次释放1次。
+Skill/S_MinamiRio_0_Name,Text,,,Bow Shift,,替弓,
+Skill/S_MinamiRio_1_Description,Text,,,"<color=#48D1CC>Longbow</color> – This skill can be played repeatedly during this turn.
+<color=#FFD700>Yumi</color> – Cost reduced by 1.",,"<color=#48D1CC>单弓</color> - 本回合内可再次释放1次。
 <color=#FFD700>和弓</color> - 降低1点费用。",
-Skill/S_MinamiRio_1_Name,Text,,,,,快射,
-Skill/S_MinamiRio_2_Description,Text,,,,,"<color=#48D1CC>单弓</color> - 附带迅速。
+Skill/S_MinamiRio_1_Name,Text,,,Rapid Shot,,快射,
+Skill/S_MinamiRio_2_Description,Text,,,"<color=#48D1CC>Longbow</color> – Gain Swiftness.
+<color=#FFD700>Yumi</color> – lncrease damage by &a equal to 35% Attack Power.",,"<color=#48D1CC>单弓</color> - 附带迅速。
 <color=#FFD700>和弓</color> - 额外造成&a(35%)伤害。",
-Skill/S_MinamiRio_2_Name,Text,,,,,稳固射击,
-Skill/S_MinamiRio_3_Description,Text,,,,,"从[全神贯注]获得的提升翻倍。
+Skill/S_MinamiRio_2_Name,Text,,,Steady Shot,,稳固射击,
+Skill/S_MinamiRio_3_Description,Text,,,"Focused Concetrarion' damage increased to 50%.
+
+<color=#48D1CC>Longbow</color> – If you defeat an enemy with this skill, remove Overload and restore 1 mana.
+<color=#FFD700>Yumi</color> – Apply Countdown 1. lncrease damage by &a equal to 50% of the user's Attack Power.",,"从[全神贯注]获得的提升翻倍。
 
 <color=#48D1CC>单弓</color> - 如果击杀敌人，消除自身的过载，返还1点法力值。
 <color=#FFD700>和弓</color> - 附带倒计时1。额外造成&a(50%)伤害。",
-Skill/S_MinamiRio_3_Name,Text,,,,,瞄准射击,
-Skill/S_MinamiRio_4_Description,Text,,,,,"<color=#48D1CC>单弓</color> - 变为指向所有敌人。施加<color=#54FF9F>风伤</color>。
+Skill/S_MinamiRio_3_Name,Text,,,Aimed Shot,,瞄准射击,
+Skill/S_MinamiRio_4_Description,Text,,,"<color=#48D1CC>Longbow</color> – Attack all enemies, apply <color=#54FF9F>Wind Damage</color>.
+<color=#FFD700>Yumi</color> – lncrease damage by &a equal to 35% Attack Power. When cast on enemy with Taunt status, Attack all enemies.",,"<color=#48D1CC>单弓</color> - 变为指向所有敌人。施加<color=#54FF9F>风伤</color>。
 <color=#FFD700>和弓</color> - 额外造成&a(35%)伤害。如果目标拥有嘲讽状态，则同时指定所有非嘲讽状态的敌人。",
-Skill/S_MinamiRio_4_Name,Text,,,,,分离,
-Skill/S_MinamiRio_5_0_Description,Text,,,,,使所有敌人行动倒计时-1。,
-Skill/S_MinamiRio_5_0_Name,Text,,,,,箭越（向前）,
-Skill/S_MinamiRio_5_1_Description,Text,,,,,使所有敌人行动倒计时+1,
-Skill/S_MinamiRio_5_1_Name,Text,,,,,箭越（向后）,
-Skill/S_MinamiRio_5_2_Name,Text,,,,,箭越,
-Skill/S_MinamiRio_5_Description,Text,,,,,"选择 - 使所有敌人行动倒计时+1；
+Skill/S_MinamiRio_4_Name,Text,,,Division,,分离,
+Skill/S_MinamiRio_5_0_Description,Text,,,Decrease all enemies' action points by 1.,,分离,
+Skill/S_MinamiRio_5_0_Name,Text,,,Forward Leap,,箭越（向前）,
+Skill/S_MinamiRio_5_1_Description,Text,,,Increase all enemies' action points by 1.,,使所有敌人行动倒计时+1,
+Skill/S_MinamiRio_5_1_Name,Text,,,Backward Leap,,箭越（向后）,
+Skill/S_MinamiRio_5_2_Name,Text,,,Arrow Leap,,箭越,
+Skill/S_MinamiRio_5_Description,Text,,,"Choose one -
+Increase all enemies' action points by 1.
+Or decrease all enemies' action points by 1.
+Deal &a damage equal to 50% of the user's Attack Power to an enemy with the lowest action point. Draw 1 skill and switch stance between <color=#48D1CC>Longbow</color> and <color=#FFD700>Yumi</color>.",,"选择 - 使所有敌人行动倒计时+1；
 使所有敌人行动倒计时-1。
 那之后，对行动倒计时最低的敌人造成&a(50%)伤害，抽取1个技能，使自身切换<color=#48D1CC>单弓</color>/<color=#FFD700>和弓</color>状态。",
-Skill/S_MinamiRio_5_Name,Text,,,,,箭越,
-Skill/S_MinamiRio_6_Description,Text,,,,,可以指向不能被指定的单位。,
-Skill/S_MinamiRio_6_Name,Text,,,,,追踪术,
-Skill/S_MinamiRio_7_Description,Text,,,,,优先抽取1个目标的攻击技能。,
-Skill/S_MinamiRio_7_Name,Text,,,,,百发百中,
-Skill/S_MinamiRio_LucyD_Description,Text,,,,,"抽取2个技能。
+Skill/S_MinamiRio_5_Name,Text,,,Arrow Leap,,箭越,
+Skill/S_MinamiRio_6_Description,Text,,,Can target any units.,,可以指向不能被指定的单位。,
+Skill/S_MinamiRio_6_Name,Text,,,Tracking Technique,,追踪术,
+Skill/S_MinamiRio_7_Description,Text,,,Draw 1 skill prioritizing the user Attack skills.,,优先抽取1个目标的攻击技能。,
+Skill/S_MinamiRio_7_Name,Text,,,"One Hundred Shots, One Hundred Hits",,百发百中,
+Skill/S_MinamiRio_LucyD_Description,Text,,,Draw 2 skills and consume 300 gold to receive a random potion.,,"抽取2个技能。
 如果金币超过300，自动消耗300金币获得1个随机药水。",
-Skill/S_MinamiRio_LucyD_Name,Text,,,,,KIOSK,
-Skill/S_MinamiRio_Rare_1_Name,Text,,,,,Robinhood,
-Skill/S_MinamiRio_Rare_2_0_Name,Text,,,,,<color=#48D1CC>连矢</color>,
-Skill/S_MinamiRio_Rare_2_Description,Text,,,,,"<color=#48D1CC>单弓</color> - 重复释放2次。如果目标拥有嘲讽状态，使其失去嘲讽状态；否则使其(<sprite=2>&a%)眩晕1回合。
+Skill/S_MinamiRio_LucyD_Name,Text,,,KIOSK,,KIOSK,
+Skill/S_MinamiRio_Rare_1_Name,Text,,,Robin Hood,,Robinhood,
+Skill/S_MinamiRio_Rare_2_0_Name,Text,,,<color=#48D1CC>Chain Arrow</color>,,<color=#48D1CC>连矢</color>,
+Skill/S_MinamiRio_Rare_2_Description,Text,,,"<color=#48D1CC>Longbow</color> –  Cast this attack twice. If the target has Taunt status, remove it. Otherwise, stun the target with a (<sprite=2>&a%) chance.
+<color=#FFD700>Yumi</color> –  lncrease damage by &b equal to 250% of the user's Attack Power. Take 35% more damage this turn.",,"<color=#48D1CC>单弓</color> - 重复释放2次。如果目标拥有嘲讽状态，使其失去嘲讽状态；否则使其(<sprite=2>&a%)眩晕1回合。
 <color=#FFD700>和弓</color> - 额外造成&b(250%)伤害。本回合内，自身造成伤害提升35%。",
-Skill/S_MinamiRio_Rare_2_Name,Text,,,,,连矢,
+Skill/S_MinamiRio_Rare_2_Name,Text,,,Chain Arrow,,连矢,

@@ -71,6 +71,11 @@ namespace MinamiRio
 		/// </summary>
         public static string Item_Misc_ForgeTree_TreeOfLife = "ForgeTree_TreeOfLife";
 		/// <summary>
+		/// 无视隐匿
+		/// 可以无视“隐匿”指向敌人。
+		/// </summary>
+        public static string SkillKeyword_Keyword_VanishIgnore = "Keyword_VanishIgnore";
+		/// <summary>
 		/// 莉央
 		/// Passive:
 		/// <b>锚点</b> - 莉央无法造成暴击，但是升级时获得远超常人的命中率提升。莉央超过100%的那部分命中率转化为50%的<color=#FA8072>穿甲</color>。

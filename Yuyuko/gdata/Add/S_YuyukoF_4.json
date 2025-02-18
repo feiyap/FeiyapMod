@@ -5,7 +5,7 @@
         "Particle": "Particle/Charon/ShadowPriest_4",
         "Target": "enemy",
         "Name": "冥符「黄泉平坂行路」",
-        "Description": "增加20<color=#FFB6C1>返魂值</color>。\n使所有敌人获得与目标相同的“已损失最大体力值”的值。\n\n<color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的121%)</color>。\n<color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的121%)</color>。\n<color=#FF69B4>人魂蝶</color> - 施加时，使所有调查员的固定能力变为可用状态。",
+        "Description": "增加20<color=#FFB6C1>返魂值</color>。\n使所有敌人获得与目标50%的“已损失最大体力值”的值。\n\n<color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的121%)</color>。\n<color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的121%)</color>。\n<color=#FF69B4>人魂蝶</color> - 施加时，使所有调查员的固定能力变为可用状态。",
         "User": "YuyukoF",
         "UseAp": 2,
         "IgnoreTaunt": true,

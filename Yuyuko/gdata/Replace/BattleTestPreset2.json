@@ -5,7 +5,7 @@
             "Hein",
             "MissChain",
             "Priest",
-            "Prime"
+            "YuyukoF"
         ],
         "PartyBasicSkill": [
             "S_Hein_0",
@@ -15,10 +15,7 @@
         ],
         "PartySkills": [
             [
-                "S_Hein_0",
-                "S_Hein_0",
-                "S_Hein_0",
-                "S_Hein_0"
+                
             ],
             [
                 
@@ -27,7 +24,10 @@
                 
             ],
             [
-                
+                "S_YuyukoF_0",
+                "S_YuyukoF_1",
+                "S_YuyukoF_2",
+                "S_YuyukoF_3"
             ]
         ],
         "PartyEquip": [
