@@ -23,21 +23,7 @@ namespace Yuyuko
     {
         public override void Init()
         {
-            this.CountingExtedned = true;
-        }
-        
-        public override void SkillUseHand(BattleChar Target)
-        {
-            this.BChar.BuffAdd("B_Youmu_Ex_R_2_S", this.BChar, true, 0, false, -1, false);
-            this.BChar.BuffAdd("B_Youmu_R_2_T", this.BChar, true, 0, false, -1, false);
-        }
-        
-        public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
-        {
-            if (this.BChar.BuffFind("B_Youmu_R_2_S", false))
-            {
-                this.BChar.BuffRemove("B_Youmu_R_2_S", false);
-            }
+
         }
     }
 }

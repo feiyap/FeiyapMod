@@ -39,17 +39,6 @@ namespace Yuyuko
                     }, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect"), true, true, true, false, true));
                 }
             }
-
-            (this.BChar as BattleAlly).MyBasicSkill.CoolDownNum = 0;
-            if ((this.BChar as BattleAlly).MyBasicSkill.ThisSkillUse)
-            {
-                (this.BChar as BattleAlly).MyBasicSkill.InActive = false;
-                (this.BChar as BattleAlly).MyBasicSkill.ThisSkillUse = false;
-            }
-            if ((this.BChar as BattleAlly).MyBasicSkill.InActive)
-            {
-                (this.BChar as BattleAlly).MyBasicSkill.InActive = false;
-            }
         }
     }
 }

@@ -155,12 +155,10 @@ namespace Yuyuko
                         {
                             (skill_Extended as S_YuyukoF_Rare_1).Num = 9;
                         }
-                        //skill.MySkill.Name = ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1") + ConvertToChinese((skill_Extended as S_YuyukoF_Rare_1).Num + 1) + ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_0");
                     }
                     else
                     {
                         (skill_Extended as S_YuyukoF_Rare_1).Num = this.Num + 1;
-                        //skill.MySkill.Name = ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1") + ConvertToChinese(this.Num + 2) + ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_0");
                     }
 
                     skill.MyButton.InputData(skill, null, false);

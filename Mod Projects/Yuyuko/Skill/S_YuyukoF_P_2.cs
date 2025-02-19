@@ -22,8 +22,6 @@ namespace Yuyuko
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             Targets[0].Heal(this.BChar, (int)(Targets[0].GetStat.maxhp * 0.5), true, false);
-
-            //BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(100);
         }
 
         public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)

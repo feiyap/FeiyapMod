@@ -39,8 +39,8 @@ namespace Yuyuko
         {
             Targets[0].BuffAdd("B_YuyukoF_Butterfly_M", this.BChar);
 
-            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setButterfly(true);
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_S.Except();
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setButterfly(true);
         }
     }
 }
