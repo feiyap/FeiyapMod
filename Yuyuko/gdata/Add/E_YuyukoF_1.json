@@ -1,0 +1,12 @@
+{
+    "E_YuyukoF_1": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "name": "幽梦之苏醒",
+        "Description": "战斗开始的前3个回合内获得额外2点攻击力和50%防御穿透。\n\n<i><color=#836FFF>「那是很惊人的樱花，不过想必不会再次开放了。」——魂魄妖忌</color></i>",
+        "NoDrop": true,
+        "Off": true,
+        "image": "Item\\E_YuyukoF_1_image.png",
+        "Equip_Script": "Yuyuko.E_YuyukoF_1"
+    }
+}

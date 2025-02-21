@@ -165,7 +165,7 @@ namespace Yuyuko
                                 {
                                     BV_ExceptDeck.RemoveSkill(skillbutton.Myskill);
                                     BattleSystem.instance.AllyTeam.Add(skillbutton.Myskill, true);
-                                }, ModManager.getModInfo("YasakaKanano").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect"), true, true, true, false, true));
+                                }, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect"), true, true, true, false, true));
                             }
                         }
                     }

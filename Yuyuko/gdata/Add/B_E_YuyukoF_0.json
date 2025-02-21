@@ -1,0 +1,16 @@
+{
+    "B_E_YuyukoF_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Yuyuko.B_E_YuyukoF_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_E_YuyukoF_0\\B_E_YuyukoF_0_Icon.png",
+        "Name": "鬼影萦绕",
+        "Description": "",
+        "LifeTime": 2
+    }
+}

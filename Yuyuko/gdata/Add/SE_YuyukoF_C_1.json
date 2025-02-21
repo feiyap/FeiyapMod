@@ -1,0 +1,10 @@
+{
+    "SE_YuyukoF_C_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "打出时，触发1次<color=#CAE1FF>亡者召还2</color>。",
+        "Drop": true,
+        "EnforceString": "<sprite name=\"비용2\"><sprite name=\"이하\">",
+        "NeedCharacter": "YuyukoF",
+        "ClassName": "Yuyuko.SE_YuyukoF_C_1"
+    }
+}

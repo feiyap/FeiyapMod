@@ -1,0 +1,11 @@
+{
+    "R_YuyukoF_0": {
+        "_gdeSchema": "Item_Passive",
+        "name": "罐装幽灵",
+        "image": "Item\\R_YuyukoF_0_image.png",
+        "Description": "敌人出现时，失去10%最大体力值。",
+        "LastAreaNoDrop": false,
+        "LastBattleNoDrop": true,
+        "passive_script": "Yuyuko.R_YuyukoF_0"
+    }
+}

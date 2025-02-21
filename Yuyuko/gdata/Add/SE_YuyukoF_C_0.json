@@ -1,0 +1,13 @@
+{
+    "SE_YuyukoF_C_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "指向同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人时，恢复1点法力值，抽取1个技能。",
+        "Des": "",
+        "Drop": true,
+        "EnforceString": "单体目标攻击技能",
+        "NeedCharacter": "YuyukoF",
+        "ClassName": "Yuyuko.SE_YuyukoF_C_0"
+    }
+}

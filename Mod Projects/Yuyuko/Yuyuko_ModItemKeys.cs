@@ -16,6 +16,14 @@ namespace Yuyuko
 		/// </summary>
         public static string Enemy_Boss_Youmu = "Boss_Youmu";
 		/// <summary>
+		/// 鬼影萦绕
+		/// </summary>
+        public static string Buff_B_E_YuyukoF_0 = "B_E_YuyukoF_0";
+		/// <summary>
+		/// 鬼影萦绕
+		/// </summary>
+        public static string Buff_B_E_YuyukoF_1 = "B_E_YuyukoF_1";
+		/// <summary>
 		/// 引导攻击
 		/// 受到妖梦的伤害+1。
 		/// </summary>
@@ -159,6 +167,18 @@ namespace Yuyuko
 		/// </summary>
         public static string Buff_B_YuyukoF_Rare_3_1 = "B_YuyukoF_Rare_3_1";
 		/// <summary>
+		/// 幽梦之灵
+		/// 战斗开始的前2个回合内获得额外2点攻击力和50%防御穿透。
+		/// <i><color=#B0C4DE>我以前听说这把刀能进化……我该怎么做？找奥恩吗？——伊泽瑞尔</color></i>
+		/// </summary>
+        public static string Item_Equip_E_YuyukoF_0 = "E_YuyukoF_0";
+		/// <summary>
+		/// 幽梦之苏醒
+		/// 战斗开始的前3个回合内获得额外2点攻击力和50%防御穿透。
+		/// <i><color=#836FFF>「那是很惊人的樱花，不过想必不会再次开放了。」——魂魄妖忌</color></i>
+		/// </summary>
+        public static string Item_Equip_E_YuyukoF_1 = "E_YuyukoF_1";
+		/// <summary>
 		/// <color=#4876FF>幽冥蝶</color>
 		/// 可以被转化为<color=#4876FF>幽冥蝶</color>施加在敌人身上。
 		/// </summary>
@@ -188,6 +208,11 @@ namespace Yuyuko
 		/// 当附带此词条的技能被<b>放逐</b>时触发效果。
 		/// </summary>
         public static string SkillKeyword_Keyword_Ruin = "Keyword_Ruin";
+		/// <summary>
+		/// 罐装幽灵
+		/// 敌人出现时，失去10%最大体力值。
+		/// </summary>
+        public static string Item_Passive_R_YuyukoF_0 = "R_YuyukoF_0";
         public static string SkillEffect_SE_S_S_YoumuF_2 = "SE_S_S_YoumuF_2";
         public static string SkillEffect_SE_S_S_YuyukoF_Rare_2 = "SE_S_S_YuyukoF_Rare_2";
         public static string SkillEffect_SE_S_S_YuyukoF_Rare_3 = "SE_S_S_YuyukoF_Rare_3";
@@ -460,6 +485,16 @@ namespace Yuyuko
 		/// <b><color=#CAE1FF>亡者召还</color>X</b> - 从放逐牌库将1个费用不超过X的技能拿回手中。
 		/// </summary>
         public static string Character_YuyukoF = "YuyukoF";
+		/// <summary>
+		/// 指向同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人时，恢复1点法力值，抽取1个技能。
+		/// 单体目标攻击技能
+		/// </summary>
+        public static string SkillExtended_SE_YuyukoF_C_0 = "SE_YuyukoF_C_0";
+		/// <summary>
+		/// 打出时，触发1次<color=#CAE1FF>亡者召还2</color>。
+		/// <sprite name="비용2"><sprite name="이하">
+		/// </summary>
+        public static string SkillExtended_SE_YuyukoF_C_1 = "SE_YuyukoF_C_1";
 
     }
 
@@ -668,7 +703,16 @@ namespace Yuyuko
 		/// English:
 		/// Japanese:
 		/// Chinese:
-		/// 选择要放逐的技能
+		/// 选择手中的1个技能放逐。
+		/// Chinese-TW:
+		/// </summary>
+        public static string exceptSkill => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("exceptSkill");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 选择1个放逐牌库中的技能拿回手中。
 		/// Chinese-TW:
 		/// </summary>
         public static string exceptSkillSelect => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect");

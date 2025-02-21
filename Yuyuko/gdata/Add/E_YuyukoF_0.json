@@ -1,0 +1,11 @@
+{
+    "E_YuyukoF_0": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Unique",
+        "name": "幽梦之灵",
+        "image": "Item\\E_YuyukoF_0_image.png",
+        "NoDrop": true,
+        "Description": "战斗开始的前2个回合内获得额外2点攻击力和50%防御穿透。\n\n<i><color=#B0C4DE>我以前听说这把刀能进化……我该怎么做？找奥恩吗？——伊泽瑞尔</color></i>",
+        "Equip_Script": "Yuyuko.E_YuyukoF_0"
+    }
+}

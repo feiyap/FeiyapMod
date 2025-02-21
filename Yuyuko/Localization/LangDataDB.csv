@@ -1,4 +1,7 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_E_YuyukoF_0_Description,Text,,,,,,
+Buff/B_E_YuyukoF_0_Name,Text,,,,,鬼影萦绕,
+Buff/B_E_YuyukoF_1_Name,Text,,,,,鬼影萦绕,
 Buff/B_GhostF_1_Description,Text,,,,,受到妖梦的伤害+1。,
 Buff/B_GhostF_1_Name,Text,,,,,引导攻击,
 Buff/B_GhostF_2_Description,Text,,,,,受到攻击时以&a点伤害反击。,
@@ -66,7 +69,7 @@ Buff/B_YuyukoF_Rare_3_1_Description,Text,,,,,"所有造成的伤害额外增加&
 Buff/B_YuyukoF_Rare_3_1_Name,Text,,,,,浮月蝶,
 Buff/B_YuyukoF_Rare_3_Description,Text,,,,,每个回合第一次触发<color=#E066FF><color=#E066FF>唤魂</color>X</color>时，获得X点<color=#E066FF><color=#E066FF>亡魂</color></color>，并回复X点法力值（无法超过法力值上限）。,
 Buff/B_YuyukoF_Rare_3_Name,Text,,,,,明光蝶,
-Character/YuyukoF_CampSelectWord,Text,,,,,,
+Character/YuyukoF_CampSelectWord,Text,,,,,亡骸就是要集中在一个地方才会美丽哦～春和樱花也一样……,
 Character/YuyukoF_PassiveDes,Text,,,,,"<b>操纵死亡程度的能力</b> - 西行寺幽幽子模糊了生与死的界限，部分技能会增加或减少<color=#FFB6C1>返魂值</color>。
 西行寺幽幽子的攻击不再造成伤害，而是降低目标等量的最大体力值。
 
@@ -84,12 +87,48 @@ Character/YuyukoF_PassiveName,Text,,,,,天衣无缝的亡灵,
 Character/YuyukoF_SelectInfo,Text,,,,,"西行寺幽幽子是特立独行的专业型输出。
 
 西行寺幽幽子与其他输出角色不同，她不能造成任何伤害，而会将伤害转化为等量的“最大体力值降低”。因为无法造成伤害，她能够规避部分机制，但同样因此无法从伤害量中获益。除此之外，她还能将技能转化为蝴蝶、设置在敌人身上，每个技能都能转化为特殊效果。因为她特立独行的机制，所以需要投入大量资源和精力才能发挥最大的强度。",
+Character/YuyukoF_Text_Battle_AllyND_0,Text,,,,,你是说死的时候想死在樱花树之下对吗？,
+Character/YuyukoF_Text_Battle_Cri_0,Text,,,,,完全蔓延的世界。那就是寂了。,
+Character/YuyukoF_Text_Battle_Cri_1,Text,,,,,人这东西啊，只要努力不是就什么都能做到吗？,
+Character/YuyukoF_Text_Battle_Idle_0,Text,,,,,"就差一点了哦。
+再有一点，西行妖就能盛开了……",
+Character/YuyukoF_Text_Battle_Idle_1,Text,,,,,"森林一旦死亡就无法再恢复原来的样子，
+要珍惜雨水哦。",
+Character/YuyukoF_Text_Battle_Kill_0,Text,,,,,麻雀的小碎骨太多了，很不喜欢呢。,
+Character/YuyukoF_Text_Battle_Kill_1,Text,,,,,兔子呢，把皮剥掉吃的话，就变成鸟了。好好记住吧。,
+Character/YuyukoF_Text_Battle_ND_0,Text,,,,,只要西行妖绽放，一切疑问就能解开了……,
+Character/YuyukoF_Text_Battle_ND_1,Text,,,,,亡灵死掉的话，会去哪里呢……,
+Character/YuyukoF_Text_Battle_Start_0,Text,,,,,唉呀，即使是白天，亡灵也是可以出现的啊。,
+Character/YuyukoF_Text_Battle_Start_1,Text,,,,,"喝饱了茶也可充饥一时。
+留着胃口到明天吃个饱。",
+Character/YuyukoF_Text_Field_GetItem_0,Text,,,,,转啊转啊转啊～转。,
+Character/YuyukoF_Text_Field_Idle_0,Text,,,,,哎呀，“欲速则不达”这句话知道吗？,
+Character/YuyukoF_Text_Field_Idle_1,Text,,,,,"怎么样？
+就往这根树枝倒下的方向前进看看？",
+Character/YuyukoF_Text_Field_Idle_2,Text,,,,,"啊啊，好无聊。
+不拐点什么人过来么？",
+Character/YuyukoF_Text_MasterTarget,Text,,,,,就差一点了哦。再有一点，西行妖就能盛开了……,
+Character/YuyukoF_Text_PharosLeader_0,Text,,,,,哎呀，手脚好像不受控制。,
+Character/YuyukoF_Text_PharosLeader_1,Text,,,,,怎么这样，好不容易变成那样，让我再享受一会不是更好嘛。,
+Character/YuyukoF_Text_PharosLeader_2,Text,,,,,啊呀，这样就结束也太狡猾了吧。,
+Character/YuyukoF_Text_Witch_0,Text,,,,,不要紧。开着的门就是让人进去的门。,
+Character/YuyukoF_Text_Witch_1,Text,,,,,也许没办法休息了呢。,
 Character/YuyukoF_name,Text,,,,,西行寺幽幽子,
 Enemy/Boss_Ghost_Youmu_name,Text,,,,,魂魄妖梦·半灵,
 Enemy/Boss_Ghost_name,Text,,,,,半灵,
 Enemy/Boss_Youmu_EnemyStory,Text,,,,,,
 Enemy/Boss_Youmu_SubName,Text,,,,,魂魄妖梦？,
 Enemy/Boss_Youmu_name,Text,,,,,魂魄妖梦,
+Item_Equip/E_YuyukoF_0_Description,Text,,,,,"战斗开始的前2个回合内获得额外2点攻击力和50%防御穿透。
+
+<i><color=#B0C4DE>我以前听说这把刀能进化……我该怎么做？找奥恩吗？——伊泽瑞尔</color></i>",
+Item_Equip/E_YuyukoF_0_name,Text,,,,,幽梦之灵,
+Item_Equip/E_YuyukoF_1_Description,Text,,,,,"战斗开始的前3个回合内获得额外2点攻击力和50%防御穿透。
+
+<i><color=#836FFF>「那是很惊人的樱花，不过想必不会再次开放了。」——魂魄妖忌</color></i>",
+Item_Equip/E_YuyukoF_1_name,Text,,,,,幽梦之苏醒,
+Item_Passive/R_YuyukoF_0_Description,Text,,,,,敌人出现时，失去10%最大体力值。,
+Item_Passive/R_YuyukoF_0_name,Text,,,,,罐装幽灵,
 Skill/S_GhostF_0_Description,Text,,,,,优先攻击拥有“凭依之缚”的敌人。,
 Skill/S_GhostF_0_Name,Text,,,,,半灵冲撞,
 Skill/S_GhostF_1_Description,Text,,,,,"在场上生成1个“魂魄妖梦·半灵”，与本体共享体力值。
@@ -221,6 +260,11 @@ Skill/S_YuyukoF_Rare_2_Description,Text,,,,,握在手中时，每次有技能被
 Skill/S_YuyukoF_Rare_2_Name,Text,,,,,再迷「幻想乡的黄泉归」,
 Skill/S_YuyukoF_Rare_3_Description,Text,,,,,,
 Skill/S_YuyukoF_Rare_3_Name,Text,,,,,「死蝶浮月」,
+SkillExtended/SE_YuyukoF_C_0_Des,Text,,,,,,
+SkillExtended/SE_YuyukoF_C_0_EnforceString,Text,,,,,单体目标攻击技能,
+SkillExtended/SE_YuyukoF_C_0_Name,Text,,,,,指向同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人时，恢复1点法力值，抽取1个技能。,
+SkillExtended/SE_YuyukoF_C_1_EnforceString,Text,,,,,"<sprite name=""비용2""><sprite name=""이하"">",
+SkillExtended/SE_YuyukoF_C_1_Name,Text,,,,,打出时，触发1次<color=#CAE1FF>亡者召还2</color>。,
 SkillKeyword/Keyword_ButterflyM_Desc,Text,,,,,可以被转化为<color=#4876FF>幽冥蝶</color>施加在敌人身上。,
 SkillKeyword/Keyword_ButterflyM_Name,Text,,,,,<color=#4876FF>幽冥蝶</color>,
 SkillKeyword/Keyword_ButterflyR_Desc,Text,,,,,可以被转化为<color=#FF69B4>人魂蝶</color>施加在敌人身上。,

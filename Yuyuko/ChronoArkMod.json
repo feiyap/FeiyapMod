@@ -6,5 +6,11 @@
     "Author": "绯夜氏",
     "Version": "v1.0",
     "Cover": "YuyukoCover.png",
-    "Description": ""
+    "Description": "",
+    "TagList": [
+        "Characters"
+    ],
+    "Dependencies": [
+        "BasicMethods"
+    ]
 }
