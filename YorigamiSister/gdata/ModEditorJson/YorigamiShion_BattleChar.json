@@ -1,0 +1,23 @@
+{
+    "myKey": "YorigamiShion",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "YorigamiShion\\YorigamiShionBattleChar.png",
+        "offsetMax": {
+            "x": 335.054657,
+            "y": 350.0414
+        },
+        "offsetMin": {
+            "x": -597.9764,
+            "y": -578.9966
+        },
+        "pivot": {
+            "x": 0.640896559,
+            "y": 0.623221636
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

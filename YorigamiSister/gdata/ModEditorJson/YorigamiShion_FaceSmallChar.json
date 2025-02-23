@@ -1,0 +1,23 @@
+{
+    "myKey": "YorigamiShion",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "YorigamiShion\\YorigamiShionFaceSmallChar.png",
+        "offsetMax": {
+            "x": 167.591431,
+            "y": 116.462029
+        },
+        "offsetMin": {
+            "x": -267.674316,
+            "y": -316.94104
+        },
+        "pivot": {
+            "x": 0.610299051,
+            "y": 0.7183874
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

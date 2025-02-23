@@ -1,0 +1,14 @@
+{
+    "YorigamiShion": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Tank",
+        "PassiveClassName": "",
+        "name": "依神紫苑",
+        "face": "YorigamiShion\\YorigamiShionBattleFace.png",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 40,
+            "y": 40
+        }
+    }
+}

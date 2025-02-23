@@ -71,6 +71,9 @@ namespace Yuyuko
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
+            Skill skill = Skill.TempSkill("S_YuyukoF_P_1", this.BChar, this.BChar.MyTeam);
+            (this.BChar as BattleAlly).MyBasicSkill.SkillInput(skill);
+
             this.SkillBasePlus.Target_BaseDMG = 0;
 
             if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)

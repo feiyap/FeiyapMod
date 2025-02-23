@@ -242,6 +242,16 @@ namespace Yuyuko
         public static string SkillEffect_SE_T_S_YuyukoF_Rare_2 = "SE_T_S_YuyukoF_Rare_2";
         public static string SkillEffect_SE_T_S_YuyukoF_Rare_2_0 = "SE_T_S_YuyukoF_Rare_2_0";
         public static string SkillEffect_SE_T_S_YuyukoF_Rare_3 = "SE_T_S_YuyukoF_Rare_3";
+		/// <summary>
+		/// 指向同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人时，恢复1点法力值，抽取1个技能。
+		/// 单体目标攻击技能
+		/// </summary>
+        public static string SkillExtended_SE_YuyukoF_C_0 = "SE_YuyukoF_C_0";
+		/// <summary>
+		/// 打出时，触发1次<color=#CAE1FF>亡者召还2</color>。
+		/// <sprite name="비용2"><sprite name="이하">
+		/// </summary>
+        public static string SkillExtended_SE_YuyukoF_C_1 = "SE_YuyukoF_C_1";
         public static string EnemyQueue_SR_Boss_Youmu = "SR_Boss_Youmu";
 		/// <summary>
 		/// 半灵冲撞
@@ -485,16 +495,6 @@ namespace Yuyuko
 		/// <b><color=#CAE1FF>亡者召还</color>X</b> - 从放逐牌库将1个费用不超过X的技能拿回手中。
 		/// </summary>
         public static string Character_YuyukoF = "YuyukoF";
-		/// <summary>
-		/// 指向同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人时，恢复1点法力值，抽取1个技能。
-		/// 单体目标攻击技能
-		/// </summary>
-        public static string SkillExtended_SE_YuyukoF_C_0 = "SE_YuyukoF_C_0";
-		/// <summary>
-		/// 打出时，触发1次<color=#CAE1FF>亡者召还2</color>。
-		/// <sprite name="비용2"><sprite name="이하">
-		/// </summary>
-        public static string SkillExtended_SE_YuyukoF_C_1 = "SE_YuyukoF_C_1";
 
     }
 
@@ -502,8 +502,107 @@ namespace Yuyuko
     {
 		/// <summary>
 		/// Korean:
+		/// 你是，人类呢。来得正好！
 		/// English:
+		/// 你是，人类呢。来得正好！
 		/// Japanese:
+		/// 你是，人类呢。来得正好！
+		/// Chinese:
+		/// 你是，人类呢。来得正好！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaFYoumuBattleStartText1 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text1");
+		/// <summary>
+		/// Korean:
+		/// 把你手中的那一点春，全部都交出来！
+		/// English:
+		/// 把你手中的那一点春，全部都交出来！
+		/// Japanese:
+		/// 把你手中的那一点春，全部都交出来！
+		/// Chinese:
+		/// 把你手中的那一点春，全部都交出来！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaFYoumuBattleStartText2 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text2");
+		/// <summary>
+		/// Korean:
+		/// 你们就是想要阻止幽幽子大人的人类吧！
+		/// English:
+		/// 你们就是想要阻止幽幽子大人的人类吧！
+		/// Japanese:
+		/// 你们就是想要阻止幽幽子大人的人类吧！
+		/// Chinese:
+		/// 你们就是想要阻止幽幽子大人的人类吧！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaFYoumuBattleStartText3 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text3");
+		/// <summary>
+		/// Korean:
+		/// 我不会让你们继续通过的！
+		/// English:
+		/// 我不会让你们继续通过的！
+		/// Japanese:
+		/// 我不会让你们继续通过的！
+		/// Chinese:
+		/// 我不会让你们继续通过的！
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaFYoumuBattleStartText4 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text4");
+		/// <summary>
+		/// Korean:
+		/// 她的声音…长相…
+		/// English:
+		/// 她的声音…长相…
+		/// Japanese:
+		/// 她的声音…长相…
+		/// Chinese:
+		/// 她的声音…长相…
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaFYoumuBattleStartText5 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text5");
+		/// <summary>
+		/// Korean:
+		/// 为什么我看到这家伙，会有种奇怪的感觉…
+		/// English:
+		/// 为什么我看到这家伙，会有种奇怪的感觉…
+		/// Japanese:
+		/// 为什么我看到这家伙，会有种奇怪的感觉…
+		/// Chinese:
+		/// 为什么我看到这家伙，会有种奇怪的感觉…
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaFYoumuBattleStartText6 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text6");
+		/// <summary>
+		/// Korean:
+		/// 怎么可能，这个人…
+		/// English:
+		/// 怎么可能，这个人…
+		/// Japanese:
+		/// 怎么可能，这个人…
+		/// Chinese:
+		/// 怎么可能，这个人…
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaFYoumuBattleStartText7 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text7");
+		/// <summary>
+		/// Korean:
+		/// 这个人…就是“我”…
+		/// English:
+		/// 这个人…就是“我”…
+		/// Japanese:
+		/// 这个人…就是“我”…
+		/// Chinese:
+		/// 这个人…就是“我”…
+		/// Chinese-TW:
+		/// </summary>
+        public static string BattleDiaFYoumuBattleStartText8 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text8");
+		/// <summary>
+		/// Korean:
+		/// 结算时降低10%最大体力值<color=#FF7A33>(不超过&user攻击力的500%)</color>。
+		/// English:
+		/// 结算时降低10%最大体力值<color=#FF7A33>(不超过&user攻击力的500%)</color>。
+		/// Japanese:
+		/// 结算时降低10%最大体力值<color=#FF7A33>(不超过&user攻击力的500%)</color>。
 		/// Chinese:
 		/// 结算时降低10%最大体力值<color=#FF7A33>(不超过&user攻击力的500%)</color>。
 		/// Chinese-TW:
@@ -511,8 +610,11 @@ namespace Yuyuko
         public static string S_YuyukoF_0_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_0_1/Text");
 		/// <summary>
 		/// Korean:
+		/// 可以无视嘲讽状态被选中。
 		/// English:
+		/// 可以无视嘲讽状态被选中。
 		/// Japanese:
+		/// 可以无视嘲讽状态被选中。
 		/// Chinese:
 		/// 可以无视嘲讽状态被选中。
 		/// Chinese-TW:
@@ -520,8 +622,11 @@ namespace Yuyuko
         public static string S_YuyukoF_0_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_0_2/Text");
 		/// <summary>
 		/// Korean:
+		/// 受到的非<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。
 		/// English:
+		/// 受到的非<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。
 		/// Japanese:
+		/// 受到的非<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。
 		/// Chinese:
 		/// 受到的非<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。
 		/// Chinese-TW:
@@ -529,8 +634,11 @@ namespace Yuyuko
         public static string S_YuyukoF_1_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_1_1/Text");
 		/// <summary>
 		/// Korean:
+		/// 受到的<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。
 		/// English:
+		/// 受到的<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。
 		/// Japanese:
+		/// 受到的<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。
 		/// Chinese:
 		/// 受到的<color=purple>痛苦伤害</color>转化为降低等量的最大体力值。
 		/// Chinese-TW:
@@ -538,8 +646,11 @@ namespace Yuyuko
         public static string S_YuyukoF_1_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_1_2/Text");
 		/// <summary>
 		/// Korean:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发1次<color=#CAE1FF>亡者召还1</color>。
 		/// English:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发1次<color=#CAE1FF>亡者召还1</color>。
 		/// Japanese:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发1次<color=#CAE1FF>亡者召还1</color>。
 		/// Chinese:
 		/// 施加时，触发1次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发1次<color=#CAE1FF>亡者召还1</color>。
 		/// Chinese-TW:
@@ -547,8 +658,11 @@ namespace Yuyuko
         public static string S_YuyukoF_2_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_2_1/Text");
 		/// <summary>
 		/// Korean:
+		/// 施加时，获得8点<color=#E066FF>亡魂</color>。<color=#8B008B>回引</color>时，获得8点<color=#E066FF>亡魂</color>。
 		/// English:
+		/// 施加时，获得8点<color=#E066FF>亡魂</color>。<color=#8B008B>回引</color>时，获得8点<color=#E066FF>亡魂</color>。
 		/// Japanese:
+		/// 施加时，获得8点<color=#E066FF>亡魂</color>。<color=#8B008B>回引</color>时，获得8点<color=#E066FF>亡魂</color>。
 		/// Chinese:
 		/// 施加时，获得8点<color=#E066FF>亡魂</color>。<color=#8B008B>回引</color>时，获得8点<color=#E066FF>亡魂</color>。
 		/// Chinese-TW:
@@ -556,8 +670,11 @@ namespace Yuyuko
         public static string S_YuyukoF_2_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_2_2/Text");
 		/// <summary>
 		/// Korean:
+		/// 施加时，选择手中1个技能放逐，抽取1个技能。
 		/// English:
+		/// 施加时，选择手中1个技能放逐，抽取1个技能。
 		/// Japanese:
+		/// 施加时，选择手中1个技能放逐，抽取1个技能。
 		/// Chinese:
 		/// 施加时，选择手中1个技能放逐，抽取1个技能。
 		/// Chinese-TW:
@@ -565,8 +682,11 @@ namespace Yuyuko
         public static string S_YuyukoF_3_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_3_1/Text");
 		/// <summary>
 		/// Korean:
+		/// 施加时，选择手中1个技能放逐，抽取1个技能。
 		/// English:
+		/// 施加时，选择手中1个技能放逐，抽取1个技能。
 		/// Japanese:
+		/// 施加时，选择手中1个技能放逐，抽取1个技能。
 		/// Chinese:
 		/// 施加时，选择手中1个技能放逐，抽取1个技能。
 		/// Chinese-TW:
@@ -574,8 +694,11 @@ namespace Yuyuko
         public static string S_YuyukoF_3_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_3_2/Text");
 		/// <summary>
 		/// Korean:
+		/// <color=#8B008B>回引</color>时，造成&a的伤害(&user攻击力的135%)。
 		/// English:
+		/// <color=#8B008B>回引</color>时，造成&a的伤害(&user攻击力的135%)。
 		/// Japanese:
+		/// <color=#8B008B>回引</color>时，造成&a的伤害(&user攻击力的135%)。
 		/// Chinese:
 		/// <color=#8B008B>回引</color>时，造成&a的伤害(&user攻击力的135%)。
 		/// Chinese-TW:
@@ -583,8 +706,11 @@ namespace Yuyuko
         public static string S_YuyukoF_4_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_4_1/Text");
 		/// <summary>
 		/// Korean:
+		/// 施加时，使所有调查员的固定能力变为可用状态。
 		/// English:
+		/// 施加时，使所有调查员的固定能力变为可用状态。
 		/// Japanese:
+		/// 施加时，使所有调查员的固定能力变为可用状态。
 		/// Chinese:
 		/// 施加时，使所有调查员的固定能力变为可用状态。
 		/// Chinese-TW:
@@ -592,8 +718,11 @@ namespace Yuyuko
         public static string S_YuyukoF_4_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_4_2/Text");
 		/// <summary>
 		/// Korean:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// English:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// Japanese:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// Chinese:
 		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// Chinese-TW:
@@ -601,8 +730,11 @@ namespace Yuyuko
         public static string S_YuyukoF_5_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_5_1/Text");
 		/// <summary>
 		/// Korean:
+		/// <color=#8B008B>回引</color>时，抽取2个技能。
 		/// English:
+		/// <color=#8B008B>回引</color>时，抽取2个技能。
 		/// Japanese:
+		/// <color=#8B008B>回引</color>时，抽取2个技能。
 		/// Chinese:
 		/// <color=#8B008B>回引</color>时，抽取2个技能。
 		/// Chinese-TW:
@@ -610,8 +742,11 @@ namespace Yuyuko
         public static string S_YuyukoF_5_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_5_2/Text");
 		/// <summary>
 		/// Korean:
+		/// <color=#8B008B>回引</color>时，在手中生成1个“樱符「完全墨染的樱花」”。
 		/// English:
+		/// <color=#8B008B>回引</color>时，在手中生成1个“樱符「完全墨染的樱花」”。
 		/// Japanese:
+		/// <color=#8B008B>回引</color>时，在手中生成1个“樱符「完全墨染的樱花」”。
 		/// Chinese:
 		/// <color=#8B008B>回引</color>时，在手中生成1个“樱符「完全墨染的樱花」”。
 		/// Chinese-TW:
@@ -619,8 +754,11 @@ namespace Yuyuko
         public static string S_YuyukoF_6_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_6_1/Text");
 		/// <summary>
 		/// Korean:
+		/// <color=#8B008B>回引</color>时，在手中生成1个“樱符「完全墨染的樱花」”。
 		/// English:
+		/// <color=#8B008B>回引</color>时，在手中生成1个“樱符「完全墨染的樱花」”。
 		/// Japanese:
+		/// <color=#8B008B>回引</color>时，在手中生成1个“樱符「完全墨染的樱花」”。
 		/// Chinese:
 		/// <color=#8B008B>回引</color>时，在手中生成1个“樱符「完全墨染的樱花」”。
 		/// Chinese-TW:
@@ -628,8 +766,11 @@ namespace Yuyuko
         public static string S_YuyukoF_6_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_6_2/Text");
 		/// <summary>
 		/// Korean:
+		/// 施加时，抽取1个技能，恢复1点法力值。
 		/// English:
+		/// 施加时，抽取1个技能，恢复1点法力值。
 		/// Japanese:
+		/// 施加时，抽取1个技能，恢复1点法力值。
 		/// Chinese:
 		/// 施加时，抽取1个技能，恢复1点法力值。
 		/// Chinese-TW:
@@ -637,8 +778,11 @@ namespace Yuyuko
         public static string S_YuyukoF_7_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_7_1/Text");
 		/// <summary>
 		/// Korean:
+		/// 施加时，眩晕（<sprite=2>100%）1回合。
 		/// English:
+		/// 施加时，眩晕（<sprite=2>100%）1回合。
 		/// Japanese:
+		/// 施加时，眩晕（<sprite=2>100%）1回合。
 		/// Chinese:
 		/// 施加时，眩晕（<sprite=2>100%）1回合。
 		/// Chinese-TW:
@@ -646,8 +790,11 @@ namespace Yuyuko
         public static string S_YuyukoF_7_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_7_2/Text");
 		/// <summary>
 		/// Korean:
+		/// <i><color=red>场上已经有<color=#4876FF>幽冥蝶</color>了。</color></i>
 		/// English:
+		/// <i><color=red>场上已经有<color=#4876FF>幽冥蝶</color>了。</color></i>
 		/// Japanese:
+		/// <i><color=red>场上已经有<color=#4876FF>幽冥蝶</color>了。</color></i>
 		/// Chinese:
 		/// <i><color=red>场上已经有<color=#4876FF>幽冥蝶</color>了。</color></i>
 		/// Chinese-TW:
@@ -655,8 +802,11 @@ namespace Yuyuko
         public static string S_YuyukoF_P_1_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_P_1_1/Text");
 		/// <summary>
 		/// Korean:
+		/// <i><color=red>场上已经有<color=#FF69B4>人魂蝶</color>了。</color></i>
 		/// English:
+		/// <i><color=red>场上已经有<color=#FF69B4>人魂蝶</color>了。</color></i>
 		/// Japanese:
+		/// <i><color=red>场上已经有<color=#FF69B4>人魂蝶</color>了。</color></i>
 		/// Chinese:
 		/// <i><color=red>场上已经有<color=#FF69B4>人魂蝶</color>了。</color></i>
 		/// Chinese-TW:
@@ -664,8 +814,11 @@ namespace Yuyuko
         public static string S_YuyukoF_P_1_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_P_1_2/Text");
 		/// <summary>
 		/// Korean:
+		/// 「反魂蝶 - 
 		/// English:
+		/// 「反魂蝶 - 
 		/// Japanese:
+		/// 「反魂蝶 - 
 		/// Chinese:
 		/// 「反魂蝶 - 
 		/// Chinese-TW:
@@ -673,8 +826,11 @@ namespace Yuyuko
         public static string S_YuyukoF_Rare_1 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1");
 		/// <summary>
 		/// Korean:
+		/// 分咲」
 		/// English:
+		/// 分咲」
 		/// Japanese:
+		/// 分咲」
 		/// Chinese:
 		/// 分咲」
 		/// Chinese-TW:
@@ -682,8 +838,11 @@ namespace Yuyuko
         public static string S_YuyukoF_Rare_1_0 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_0");
 		/// <summary>
 		/// Korean:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// English:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// Japanese:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// Chinese:
 		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
 		/// Chinese-TW:
@@ -691,8 +850,11 @@ namespace Yuyuko
         public static string S_YuyukoF_Rare_1_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_1/Text");
 		/// <summary>
 		/// Korean:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。
 		/// English:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。
 		/// Japanese:
+		/// 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。
 		/// Chinese:
 		/// 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。
 		/// Chinese-TW:
@@ -700,8 +862,11 @@ namespace Yuyuko
         public static string S_YuyukoF_Rare_1_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_2/Text");
 		/// <summary>
 		/// Korean:
+		/// 选择手中的1个技能放逐。
 		/// English:
+		/// 选择手中的1个技能放逐。
 		/// Japanese:
+		/// 选择手中的1个技能放逐。
 		/// Chinese:
 		/// 选择手中的1个技能放逐。
 		/// Chinese-TW:
@@ -709,8 +874,11 @@ namespace Yuyuko
         public static string exceptSkill => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("exceptSkill");
 		/// <summary>
 		/// Korean:
+		/// 选择1个放逐牌库中的技能拿回手中。
 		/// English:
+		/// 选择1个放逐牌库中的技能拿回手中。
 		/// Japanese:
+		/// 选择1个放逐牌库中的技能拿回手中。
 		/// Chinese:
 		/// 选择1个放逐牌库中的技能拿回手中。
 		/// Chinese-TW:

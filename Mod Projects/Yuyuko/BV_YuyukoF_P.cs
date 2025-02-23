@@ -1,4 +1,5 @@
-﻿using System;
+﻿using UnityEngine;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -46,7 +47,7 @@ namespace Yuyuko
         }
 
         //设置最大体力值，isInit控制是否为初始化（直接设定），number决定增加数值，bc为目标对象，user为buff施加者
-        public void setDieList(BattleChar bc, int number, BattleChar user, bool isInit = false)
+        public void setDieList(BattleChar bc, int number, BattleChar user, bool isInit = false, bool isCri = false)
         {
             if (dieList.ContainsKey(bc))
             {
@@ -68,6 +69,10 @@ namespace Yuyuko
             {
                 bc.BuffAdd("B_YuyukoF_Die", user);
             }
+
+            GameObject gameObject = Misc.UIInst(bc.BattleInfo.EffectViewOb);
+            gameObject.transform.position = bc.GetTopPos();
+            gameObject.GetComponent<EffectView>().InputDamage(number, isCri, bc.Info.Ally, true);
 
             foreach (IP_DieListChange ip_dielistChange in BattleSystem.instance.IReturn<IP_DieListChange>())
             {

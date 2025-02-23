@@ -1,0 +1,15 @@
+{
+    "YorigamiJoon": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "face": "YorigamiJoon\\YorigamiJoonBattleFace.png",
+        "name": "依神女苑",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 20,
+            "y": 20
+        },
+        "PassiveName": ""
+    }
+}

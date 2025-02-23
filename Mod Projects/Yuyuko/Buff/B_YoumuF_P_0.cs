@@ -24,7 +24,7 @@ namespace Yuyuko
 	/// 每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。
 	/// “符卡层数”到达5层后释放“人鬼「未来永劫斩」”。
 	/// </summary>
-    public class B_YoumuF_P_0:Buff, IP_EnemyAttackScene, IP_Hit, IP_DamageTake, IP_SomeOneDead, IP_BattleStart_UIOnBefore
+    public class B_YoumuF_P_0:Buff, IP_EnemyAttackScene, IP_Hit, IP_DamageTake, IP_SomeOneDead, IP_BattleStart_UIOnBefore, IP_Dead
     {
         public int ghostnum = 0;
         public int slashnum = 0;
@@ -49,7 +49,54 @@ namespace Yuyuko
         {
             MasterAudio.PlaySound("YoumuBoss", 1f, null, 0f, null, null, false, false);
             BattleSystem.instance.Reward.Add(ItemBase.GetItem("E_YuyukoF_0"));
+
+            BattleSystem.DelayInput(this.Start1());
         }
+
+        //开场对话
+        public IEnumerator Start1()
+        {
+            switch (UnityEngine.Random.Range(0, 2))
+            {
+                case 0:
+                    yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text1"), true, 0, 0f);
+                    yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text2"), true, 0, 0f);
+                    break;
+                case 1:
+                    yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text3"), true, 0, 0f);
+                    yield return BattleText.InstBattleText_Co(this.BChar, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text4"), true, 0, 0f);
+                    break;
+            }
+
+            BattleAlly Press = this.BChar.BattleInfo.AllyList.Find((BattleAlly a) => a.Info.KeyData == "Youmu");
+            if (Press != null)
+            { 
+                yield return BattleText.InstBattleTextAlly_Co(Press, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text5"), false);
+                yield return BattleText.InstBattleTextAlly_Co(Press, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text6"), false);
+            }
+            
+            yield break;
+        }
+
+        public void Dead()
+        {
+            BattleSystem.DelayInputAfter(this.DEAD());
+        }
+
+        public IEnumerator DEAD()
+        {
+            BattleAlly Press = this.BChar.BattleInfo.AllyList.Find((BattleAlly a) => a.Info.KeyData == "Youmu");
+            if (Press != null)
+            {
+                yield return BattleText.InstBattleTextAlly_Co(Press, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text7"), false);
+                yield return new WaitForSecondsRealtime(1f);
+                yield return BattleText.InstBattleTextAlly_Co(Press, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text8"), false);
+                yield return new WaitForSecondsRealtime(1f);
+            }
+            yield break;
+        }
+
+
 
         public IEnumerator EnemyAttackScene(Skill UseSkill, List<BattleChar> Targets)
         {

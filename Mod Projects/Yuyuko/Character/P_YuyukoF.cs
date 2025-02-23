@@ -92,11 +92,7 @@ namespace Yuyuko
                     Damage = (int)((float)Damage * (1.5f + (this.BChar.GetStat.PlusCriDmg + (float)Target.GetStat.CRIGetDMG) * 0.01f));
                 }
 
-                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(Target, Damage, this.BChar);
-
-                GameObject gameObject = Misc.UIInst(Target.BattleInfo.EffectViewOb);
-                gameObject.transform.position = Target.GetTopPos();
-                gameObject.GetComponent<EffectView>().InputDamage(Damage, Cri, Target.Info.Ally, true);
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(Target, Damage, this.BChar, Cri);
 
                 return 0;
             }

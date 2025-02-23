@@ -21,7 +21,7 @@ namespace Yuyuko
 	/// 每次行动或受到伤害会叠加1层“符卡能量”，“符卡能量”叠加至4层时获得1层“符卡层数”。
 	/// “符卡层数”到达5层后释放“人鬼「未来永劫斩」”。
 	/// </summary>
-    public class B_YoumuF_P_1:Buff, IP_HPChange, IP_DeadAfter, IP_EnemyAttackScene, IP_Hit
+    public class B_YoumuF_P_1:Buff, IP_HPChange, IP_DeadAfter, IP_EnemyAttackScene, IP_Hit, IP_Dead
     {
         public int slashnum = 0;
 
@@ -47,7 +47,25 @@ namespace Yuyuko
                 }
             }
         }
-        
+
+        public void Dead()
+        {
+            BattleSystem.DelayInputAfter(this.DEAD());
+        }
+
+        public IEnumerator DEAD()
+        {
+            BattleAlly Press = this.BChar.BattleInfo.AllyList.Find((BattleAlly a) => a.Info.KeyData == "Youmu");
+            if (Press != null)
+            {
+                yield return BattleText.InstBattleTextAlly_Co(Press, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text7"), false);
+                yield return new WaitForSecondsRealtime(1f);
+                yield return BattleText.InstBattleTextAlly_Co(Press, ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("BattleDia/FYoumuBattleStart/Text8"), false);
+                yield return new WaitForSecondsRealtime(1f);
+            }
+            yield break;
+        }
+
         public void DeadAfter()
         {
             FieldSystem_Patch.count = 0;
