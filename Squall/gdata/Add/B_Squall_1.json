@@ -1,0 +1,11 @@
+{
+    "B_Squall_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Squall.B_Squall_1",
+        "BuffTag": "null",
+        "Name": "狮子奋起",
+        "Description": "回合开始时，额外获得一层[刃甲]。",
+        "Icon": "B_Squall_1\\B_Squall_1_Icon.png",
+        "LifeTime": 2
+    }
+}

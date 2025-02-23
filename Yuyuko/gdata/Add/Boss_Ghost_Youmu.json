@@ -3,7 +3,7 @@
         "_gdeSchema": "Enemy",
         "hit": 107,
         "name": "魂魄妖梦·半灵",
-        "Boss": true,
+        "Boss": false,
         "NotCursed": true,
         "maxhp": 380,
         "spd": 2,

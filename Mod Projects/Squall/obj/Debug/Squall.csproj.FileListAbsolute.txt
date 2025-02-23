@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\Squall202522404138.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\Squall202522404138.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall202522404138.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall202522404138.pdb

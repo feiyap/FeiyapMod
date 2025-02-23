@@ -1,0 +1,23 @@
+{
+    "myKey": "Squall",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Squall\\SquallBattleChar.png",
+        "offsetMax": {
+            "x": 784.37,
+            "y": 242.960739
+        },
+        "offsetMin": {
+            "x": -464.580841,
+            "y": -1618.95007
+        },
+        "pivot": {
+            "x": 0.371976882,
+            "y": 0.86951
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

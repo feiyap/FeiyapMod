@@ -10,6 +10,7 @@
             "x": 20,
             "y": 20
         },
-        "PassiveName": ""
+        "PassiveName": "",
+        "PassiveUnlockLV1": false
     }
 }

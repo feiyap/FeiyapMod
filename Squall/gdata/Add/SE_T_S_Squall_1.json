@@ -1,0 +1,16 @@
+{
+    "SE_T_S_Squall_1": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Squall_1",
+            "B_Squall_P",
+            "B_Squall_P"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0
+        ]
+    }
+}

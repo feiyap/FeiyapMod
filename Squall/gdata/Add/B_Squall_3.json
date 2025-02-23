@@ -1,0 +1,13 @@
+{
+    "B_Squall_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "Debuff",
+        "Name": "元素分割",
+        "Icon": "B_Squall_3\\B_Squall_3_Icon.png",
+        "Description": "",
+        "Debuff": true,
+        "TagPer": 125,
+        "LifeTime": 4
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "S_Squall_Rare_3_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_new_1_hit",
+        "Target": "enemy",
+        "Name": "爆裂禁区",
+        "Effect_Target": "SE_T_S_Squall_Rare_3_0",
+        "NoDrop": true
+    }
+}

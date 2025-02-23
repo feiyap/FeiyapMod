@@ -1,0 +1,23 @@
+{
+    "myKey": "Squall",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Squall\\SquallFaceSmallChar.png",
+        "offsetMax": {
+            "x": 423.640472,
+            "y": 69.64174
+        },
+        "offsetMin": {
+            "x": -217.268585,
+            "y": -885.8128
+        },
+        "pivot": {
+            "x": 0.3358301,
+            "y": 0.9212611
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

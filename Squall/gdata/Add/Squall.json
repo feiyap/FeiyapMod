@@ -1,0 +1,74 @@
+{
+    "Squall": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Tank",
+        "PassiveClassName": "Squall.P_Squall",
+        "name": "斯考尔",
+        "face": "Squall\\SquallBattleFace.png",
+        "FirstSkill": "S_Squall_0",
+        "MAXHP": {
+            "x": 27,
+            "y": 48
+        },
+        "ATK": {
+            "x": 14,
+            "y": 23
+        },
+        "CRI": {
+            "x": 0,
+            "y": 9
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 4
+        },
+        "DEF": {
+            "x": 5,
+            "y": 10
+        },
+        "REG": {
+            "x": 8,
+            "y": 14
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "RES_CC": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_DEBUFF": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DOT": {
+            "x": -10,
+            "y": 30
+        },
+        "HIT_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "PassiveName": "孤高的狮子",
+        "PassiveDes": "回合开始时获得一层[刃甲]。每当斯考尔替队友承受攻击时，获得一层[刃甲]。\n在一个回合内累计承受超过最大生命值25%的物理伤害后，消耗3层[刃甲]，对随机敌人进行4段30%攻击力的反击。\n\n<b>装备不再为斯考尔增加防御力。</b>\n\n<color=#919191>- 此被动从1级开始生效。</color>",
+        "PassiveUnlockLV1": true,
+        "CollectionSprite_Cover": "Squall\\SquallCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Squall\\SquallCollectionSprite_SkillFace.png",
+        "StatView_Atk": 1,
+        "StatView_Def": 2,
+        "StatView_Sup": 1,
+        "StatView_CC": 2,
+        "StatView_Debuff": 1,
+        "StatView_Difficult": 2,
+        "PassiveIcon": "Squall\\SquallPassiveIcon.png"
+    }
+}

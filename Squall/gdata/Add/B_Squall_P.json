@@ -1,0 +1,11 @@
+{
+    "B_Squall_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Squall.B_Squall_P",
+        "BuffTag": "null",
+        "Icon": "B_Squall_P\\B_Squall_P_Icon.png",
+        "Name": "刃甲",
+        "LifeTime": 2,
+        "MaxStack": 10
+    }
+}

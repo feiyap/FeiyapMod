@@ -1,0 +1,20 @@
+{
+    "S_Squall_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Name": "SeeD的精锐",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Squall_Rare_1",
+        "Image_0": "S_Squall_Rare_1\\S_Squall_Rare_1_Image_0.png",
+        "Image_1": "S_Squall_Rare_1\\S_Squall_Rare_1_Image_1.png",
+        "Image_2": "S_Squall_Rare_1\\S_Squall_Rare_1_Image_2.png",
+        "Rare": true,
+        "SkillExtended": [
+            "Squall.S_Squall_Rare_1"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "S_Squall_2_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_S_0",
+        "Target": "enemy",
+        "Name": "连续剑•狮子奋迅",
+        "Effect_Target": "SE_T_S_Squall_2_0",
+        "NoDrop": true
+    }
+}

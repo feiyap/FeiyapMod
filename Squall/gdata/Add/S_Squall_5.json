@@ -1,0 +1,19 @@
+{
+    "S_Squall_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "skill",
+        "Name": "G.F.",
+        "User": "Squall",
+        "Description": "丢弃目标技能，获得那个技能费用+1的[刃甲]层数。\n那之后，优先抽取1个自己的技能。",
+        "NoBasicSkill": true,
+        "Disposable": true,
+        "Image_0": "S_Squall_5\\S_Squall_5_Image_0.png",
+        "Image_1": "S_Squall_5\\S_Squall_5_Image_1.png",
+        "Image_2": "S_Squall_5\\S_Squall_5_Image_2.png",
+        "SkillExtended": [
+            "Squall.S_Squall_5"
+        ]
+    }
+}

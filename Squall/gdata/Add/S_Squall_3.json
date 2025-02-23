@@ -1,0 +1,24 @@
+{
+    "S_Squall_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_0",
+        "Target": "enemy",
+        "Name": "元素分割",
+        "Description": "",
+        "UseAp": 1,
+        "User": "Squall",
+        "NotCount": true,
+        "Disposable": true,
+        "NoBasicSkill": false,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Squall_3",
+        "Image_0": "S_Squall_3\\S_Squall_3_Image_0.png",
+        "Image_1": "S_Squall_3\\S_Squall_3_Image_1.png",
+        "Image_2": "S_Squall_3\\S_Squall_3_Image_2.png",
+        "Effect_Self": "SE_S_S_Squall_3",
+        "SkillExtended": [
+            "Squall.S_Squall_3"
+        ]
+    }
+}

@@ -3,7 +3,7 @@
         "_gdeSchema": "Enemy",
         "hit": 107,
         "name": "魂魄妖梦",
-        "Boss": true,
+        "Boss": false,
         "NotCursed": true,
         "atk": 18,
         "reg": 8,

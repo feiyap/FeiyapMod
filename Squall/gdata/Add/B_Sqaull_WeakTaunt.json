@@ -1,0 +1,14 @@
+{
+    "B_Sqaull_WeakTaunt": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Squall.B_Sqaull_WeakTaunt",
+        "BuffTag": "CrowdControl",
+        "Name": "挑衅",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newIcons_Taunt",
+        "Description": "",
+        "MaxStack": 0,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 125
+    }
+}

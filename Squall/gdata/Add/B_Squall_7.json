@@ -1,0 +1,12 @@
+{
+    "B_Squall_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Squall.B_Squall_7",
+        "BuffTag": "null",
+        "Icon": "B_Squall_7\\B_Squall_7_Icon.png",
+        "Name": "逆命者",
+        "Description": "自身生命值不会降到1以下。",
+        "LifeTime": 1,
+        "Cantdisable": true
+    }
+}

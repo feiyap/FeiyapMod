@@ -1,0 +1,19 @@
+{
+    "B_Squall_Taunt": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Squall.B_Squall_Taunt",
+        "BuffTag": "CrowdControl",
+        "Name": "挑衅",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newIcons_Taunt",
+        "Description": "无法攻击&target以外的目标。\n攻击&target后，&target以4段&a伤害进行反击(攻击力的25%)。\n攻击后解除。",
+        "MaxStack": 0,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 125,
+        "Cantdisable": false,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

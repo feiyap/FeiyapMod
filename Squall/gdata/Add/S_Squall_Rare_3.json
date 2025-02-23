@@ -1,0 +1,22 @@
+{
+    "S_Squall_Rare_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_new_1_hit",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Name": "爆裂禁区",
+        "UseAp": 3,
+        "User": "Squall",
+        "Effect_Target": "SE_T_S_Squall_Rare_3",
+        "Image_0": "S_Squall_Rare_3\\S_Squall_Rare_3_Image_0.png",
+        "Image_1": "S_Squall_Rare_3\\S_Squall_Rare_3_Image_1.png",
+        "Image_2": "S_Squall_Rare_3\\S_Squall_Rare_3_Image_2.png",
+        "Description": "必定命中。\n额外造成&a的伤害(防御力的50%)。\n重复释放17次。",
+        "SkillExtended": [
+            "Squall.S_Squall_Rare_3"
+        ]
+    }
+}

@@ -1,8 +1,8 @@
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\bin\Debug\YorigamiSister202522310957.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\bin\Debug\YorigamiSister202522310957.pdb
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\bin\Debug\System.Core.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\obj\Debug\YorigamiSister.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\obj\Debug\YorigamiSister.csproj.CoreCompileInputs.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\obj\Debug\YorigamiSister.csproj.CopyComplete
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\obj\Debug\YorigamiSister202522310957.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\obj\Debug\YorigamiSister202522310957.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\bin\Debug\YorigamiSister2025223183027.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\bin\Debug\YorigamiSister2025223183027.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\obj\Debug\YorigamiSister2025223183027.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YorigamiSister\obj\Debug\YorigamiSister2025223183027.pdb

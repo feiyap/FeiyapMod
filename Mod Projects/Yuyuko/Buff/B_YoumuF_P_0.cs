@@ -48,6 +48,8 @@ namespace Yuyuko
         public void BattleStartUIOnBefore(BattleSystem Ins)
         {
             MasterAudio.PlaySound("YoumuBoss", 1f, null, 0f, null, null, false, false);
+            BattleSystem.instance.Reward.Clear();
+
             BattleSystem.instance.Reward.Add(ItemBase.GetItem("E_YuyukoF_0"));
 
             BattleSystem.DelayInput(this.Start1());

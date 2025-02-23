@@ -1,0 +1,17 @@
+{
+    "B_Squall_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Squall.B_Squall_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "枪刃格挡",
+        "Icon": "B_Squall_0\\B_Squall_0_Icon.png",
+        "Description": "每当敌方释放指向单个友军的技能时，由&user承受攻击。\n承受攻击后该增益减少一层。",
+        "MaxStack": 3,
+        "LifeTime": 3
+    }
+}

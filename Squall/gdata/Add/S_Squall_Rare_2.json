@@ -1,0 +1,25 @@
+{
+    "S_Squall_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Name": "狮子之心",
+        "Description": "",
+        "User": "Squall",
+        "UseAp": 2,
+        "AutoDelete": 2,
+        "Effect_Target": "SE_T_S_Squall_Rare_2",
+        "Image_0": "S_Squall_Rare_2\\S_Squall_Rare_2_Image_0.png",
+        "Image_1": "S_Squall_Rare_2\\S_Squall_Rare_2_Image_1.png",
+        "Image_2": "S_Squall_Rare_2\\S_Squall_Rare_2_Image_2.png",
+        "SkillExtended": [
+            "Squall.S_Squall_Rare_2"
+        ],
+        "NoDrop": false,
+        "Track": false
+    }
+}
