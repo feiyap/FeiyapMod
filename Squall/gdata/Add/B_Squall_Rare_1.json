@@ -5,7 +5,8 @@
         "ClassName": "Squall.B_Squall_Rare_1",
         "BuffTag": "null",
         "Name": "SeeD的精锐",
-        "Description": "每当有指向友军的攻击技能时，&user承受全部伤害。\n如果指向友军的目标有多个，&user替其承受，受到1/2的伤害\r\n斯考尔替友军承受伤害时不再获得刃甲",
-        "Icon": "B_Squall_Rare_1\\B_Squall_Rare_1_Icon.png"
+        "Description": "每当有指向友军的攻击技能时，&user承受全部伤害。\n如果指向友军的目标有多个，&user替其承受，受到1/2的伤害。\n斯考尔替友军承受伤害时不再获得刃甲。",
+        "Icon": "B_Squall_Rare_1\\B_Squall_Rare_1_Icon.png",
+        "LifeTime": 2
     }
 }

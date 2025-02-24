@@ -15,6 +15,8 @@
         "Rare": true,
         "SkillExtended": [
             "Squall.S_Squall_Rare_1"
-        ]
+        ],
+        "Disposable": false,
+        "User": "Squall"
     }
 }

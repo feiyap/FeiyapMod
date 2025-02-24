@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "Squall\\SquallBattleChar.png",
-        "offsetMax": {
-            "x": 784.37,
-            "y": 242.960739
+        "pivot": {
+            "x": 0.5285853,
+            "y": 0.829604149
         },
         "offsetMin": {
-            "x": -464.580841,
-            "y": -1618.95007
+            "x": -660.7316,
+            "y": -1659.20825
         },
-        "pivot": {
-            "x": 0.371976882,
-            "y": 0.86951
+        "offsetMax": {
+            "x": 589.2684,
+            "y": 340.7917
         }
     },
     "MyChangeType": "BattleChar",

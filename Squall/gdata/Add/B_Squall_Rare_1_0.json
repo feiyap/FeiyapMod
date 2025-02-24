@@ -1,0 +1,13 @@
+{
+    "B_Squall_Rare_1_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Squall.B_Squall_Rare_1_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "LifeTime": 1
+    }
+}

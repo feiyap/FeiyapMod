@@ -22,6 +22,13 @@ namespace Squall
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             this.BChar.BuffAdd("B_Squall_0", this.BChar);
+            BattleSystem.DelayInputAfter(Del2(SkillD, Targets));
+        }
+
+        public IEnumerator Del2(Skill SkillD, List<BattleChar> Targets)
+        {
+            yield return new WaitForSecondsRealtime(0.25f);
+
             foreach (CastingSkill castingSkill in (Targets[0] as BattleEnemy).SkillQueue)
             {
                 castingSkill.CastSpeed = 0;
@@ -30,6 +37,8 @@ namespace Squall
 
             BattleSystem.instance.StartCoroutine(BattleSystem.instance.EnemyTurn(false));
             base.SkillUseSingle(SkillD, Targets);
+
+            yield break;
         }
     }
 }

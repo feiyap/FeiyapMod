@@ -4,6 +4,10 @@ namespace Squall
     public static class ModItemKeys
     {
 		/// <summary>
+		/// 挑衅
+		/// </summary>
+        public static string Buff_B_Sqaull_WeakTaunt = "B_Sqaull_WeakTaunt";
+		/// <summary>
 		/// 枪刃格挡
 		/// 每当敌方释放指向单个友军的技能时，由&user承受攻击。
 		/// 承受攻击后该增益减少一层。
@@ -34,8 +38,8 @@ namespace Squall
 		/// <summary>
 		/// SeeD的精锐
 		/// 每当有指向友军的攻击技能时，&user承受全部伤害。
-		/// 如果指向友军的目标有多个，&user替其承受，受到1/2的伤害
-		/// 斯考尔替友军承受伤害时不再获得刃甲
+		/// 如果指向友军的目标有多个，&user替其承受，受到1/2的伤害。
+		/// 斯考尔替友军承受伤害时不再获得刃甲。
 		/// </summary>
         public static string Buff_B_Squall_Rare_1 = "B_Squall_Rare_1";
 		/// <summary>
@@ -143,7 +147,7 @@ namespace Squall
 		/// </summary>
         public static string Skill_S_Squall_7 = "S_Squall_7";
 		/// <summary>
-		/// 命运之环
+		/// 抽取
 		/// 抽取2个技能。
 		/// </summary>
         public static string Skill_S_Squall_LucyD = "S_Squall_LucyD";
@@ -167,10 +171,7 @@ namespace Squall
 		/// 爆裂禁区
 		/// </summary>
         public static string Skill_S_Squall_Rare_3_0 = "S_Squall_Rare_3_0";
-		/// <summary>
-		/// 挑衅
-		/// </summary>
-        public static string Buff_B_Sqaull_WeakTaunt = "B_Sqaull_WeakTaunt";
+        public static string Buff_B_Squall_Rare_1_0 = "B_Squall_Rare_1_0";
 
     }
 

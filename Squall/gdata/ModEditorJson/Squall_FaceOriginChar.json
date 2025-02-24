@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "Squall\\SquallFaceOriginChar.png",
-        "offsetMax": {
-            "x": 899.818237,
-            "y": 161.766769
+        "pivot": {
+            "x": 0.511101246,
+            "y": 0.87149173
         },
         "offsetMin": {
-            "x": -474.02774,
-            "y": -1886.33508
+            "x": -638.8766,
+            "y": -1742.98352
         },
-        "pivot": {
-            "x": 0.344018,
-            "y": 0.9183923
+        "offsetMax": {
+            "x": 611.1234,
+            "y": 257.016541
         }
     },
     "MyChangeType": "FaceOriginChar",

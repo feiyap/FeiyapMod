@@ -78,6 +78,11 @@ namespace Squall
 
         public void SaveTargets()
         {
+            if (this.BChar.BuffFind("B_Squall_Rare_1"))
+            {
+                return;
+            }
+
             this.BChar.BuffAdd("B_Squall_P", this.BChar);
         }
     }
