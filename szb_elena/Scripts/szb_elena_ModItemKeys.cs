@@ -125,6 +125,7 @@ namespace szb_elena
         public static string Skill_S_szb_elena_7 = "S_szb_elena_7";
 		/// <summary>
 		/// 萝蕾娜的圣水
+		/// 解除目标持有的<sprite=1>痛苦和<sprite=0>弱化减益。
 		/// 抽取1个技能。
 		/// </summary>
         public static string Skill_S_szb_elena_7_0 = "S_szb_elena_7_0";

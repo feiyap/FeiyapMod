@@ -1,7 +1,7 @@
 {
     "B_Squall_3": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "Squall.B_Squall_3",
         "BuffTag": "Debuff",
         "Name": "元素分割",
         "Icon": "B_Squall_3\\B_Squall_3_Icon.png",

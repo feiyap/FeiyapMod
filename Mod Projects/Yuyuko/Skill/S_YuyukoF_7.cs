@@ -28,7 +28,7 @@ namespace Yuyuko
     {
         public override bool Terms()
         {
-            return this.BChar.GetStat.Stun || P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Yongmian;
+            return P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Yongmian || this.BChar.GetStat.Stun;
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)

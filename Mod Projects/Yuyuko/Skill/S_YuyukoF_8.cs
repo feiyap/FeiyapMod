@@ -38,7 +38,7 @@ namespace Yuyuko
             List<Skill> list = new List<Skill>();
             list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill i) => i != this.MySkill));
 
-            BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("exceptSkill"), false, true, true, false, true);
+            BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect"), false, true, true, false, true);
 
             return true;
         }

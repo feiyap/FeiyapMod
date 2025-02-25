@@ -21,7 +21,7 @@ namespace Squall
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            BattleSystem.instance.AllyTeam.Draw(2);
+            BattleSystem.instance.AllyTeam.Draw(3);
         }
     }
 }

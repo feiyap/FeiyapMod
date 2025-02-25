@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>szb_elena202521150524</AssemblyName>
+    <AssemblyName>szb_elena2025225235241</AssemblyName>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -386,7 +386,7 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-          <!-- Compile ItemGroup Start-->
+                <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="Basic_szb_elena.cs" />
     <Compile Include="szb_elena_ModDefinition.cs" />

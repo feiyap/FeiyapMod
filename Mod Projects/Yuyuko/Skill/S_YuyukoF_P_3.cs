@@ -28,7 +28,7 @@ namespace Yuyuko
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(-100);
 
             {
-                List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.MySkill.KeyID != "S_YuyukoF_P_3"));
+                List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.Master == this.BChar));
 
                 if (excDeck.Count > 0)
                 {

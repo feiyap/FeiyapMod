@@ -57,8 +57,7 @@ namespace Yuyuko
                 Skill skill = Skill.TempSkill(key, this.BChar, this.BChar.MyTeam);
                 choiceSkillList.Add(skill);
             }
-
-            Debug.Log(choiceSkillList.Count);
+            
             BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(choiceSkillList, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.EffectSelect, true, false, true, false, true));
         }
 

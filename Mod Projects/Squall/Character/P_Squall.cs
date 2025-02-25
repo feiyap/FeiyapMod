@@ -45,12 +45,8 @@ namespace Squall
                 dmgtake += Dmg;
             }
             
-            if (dmgtake >= this.BChar.GetStat.maxhp * 0.25 && this.BChar.BuffReturn("B_Squall_P")?.StackNum >= 3 && !trigger)
+            if (dmgtake >= this.BChar.GetStat.maxhp * 0.25 && !trigger)
             {
-                this.BChar.BuffReturn("B_Squall_P")?.SelfStackDestroy();
-                this.BChar.BuffReturn("B_Squall_P")?.SelfStackDestroy();
-                this.BChar.BuffReturn("B_Squall_P")?.SelfStackDestroy();
-
                 for (int i = 0; i < 4; i++)
                 {
                     BattleSystem.DelayInputAfter(this.Attack());

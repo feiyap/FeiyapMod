@@ -11,7 +11,7 @@ namespace Yuyuko
     {
         public int fanhun = 0; //返魂值
         public Dictionary<BattleChar, int> dieList = new Dictionary<BattleChar, int>(); //削减最大体力值上限的值
-        public int ghost = 0; //亡魂点数
+        public int ghost = 30; //亡魂点数
         public Skill str_S = new Skill(); //亡乡被放逐的技能存储
         public string str_M = ""; //幽冥蝶对应
         public string str_R = ""; //人魂蝶对应

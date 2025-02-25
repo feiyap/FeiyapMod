@@ -1,4 +1,15 @@
-using BasicMethods;
+using UnityEngine;
+using UnityEngine.UI;
+using System;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+using GameDataEditor;
+using I2.Loc;
+using DarkTonic.MasterAudio;
+using ChronoArkMod;
+using ChronoArkMod.Plugin;
+using ChronoArkMod.Template;
 
 namespace szb_elena
 {
@@ -14,40 +25,14 @@ namespace szb_elena
         {
             return base.DescExtended().Replace("&a", ((int)(base.Usestate_F.GetStat.atk * 1f)).ToString());
         }
+
         public override void Init()
         {
             base.Init();
-            ////this.OnePassive = true;
-            //if (BattleSystem.instance != null && HandSkillNumChange.ChangeNum > -base.StackNum)
-            //{  for (int i = 0; i < 10; i++)
-            //    {
-            //        BasicMethods.HandSkillNumChange.ChangeNum -= 1;
-            //        if (HandSkillNumChange.ChangeNum <= -base.StackNum)
-            //        {
-            //           return;
-            //        }
-            //    }
-            //}
+
         }
-        //public void BattleEnd()
-        //{
-        //    BasicMethods.HandSkillNumChange.ChangeNum = 0;
 
-        //}
-
-        //public void BuffUpdate(Buff MyBuff)
-        //{
-        //    if (BattleSystem.instance != null)
-        //    {
-        //        BasicMethods.HandSkillNumChange.ChangeNum = -base.StackNum;
-        //    }
-        //}
-        //public override void SelfdestroyPlus()
-        //{
-        //    base.SelfdestroyPlus();
-        //    BasicMethods.HandSkillNumChange.ChangeNum = 0;
-        //}
-            public void ElenaHealed()
+        public void ElenaHealed()
         {
             if (P_szb_elena.TurnHealedNum == 1)
             {   for (int i = 0; i < base.StackNum; i++)
@@ -64,7 +49,6 @@ namespace szb_elena
                     skill.isExcept = true;
                     this.BChar.MyTeam.Add(skill.CloneSkill(false, null, null, false), true);
                 }
-
             }
             else if (P_szb_elena.TurnHealedNum == 3)
             {
@@ -72,9 +56,7 @@ namespace szb_elena
                 {
                     BattleSystem.instance.AllyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main).BuffAdd(ModItemKeys.Buff_B_szb_elena_8_0, this.BChar, false, 0, false, -1, false);
                 }
-
             }
-
         }
     }
 }

@@ -4,7 +4,7 @@
         "Party": [
             "Hein",
             "MissChain",
-            "Youmu",
+            "Hein",
             "YuyukoF"
         ],
         "PartyBasicSkill": [
@@ -24,10 +24,11 @@
                 
             ],
             [
-                "S_YuyukoF_0",
                 "S_YuyukoF_1",
-                "S_YuyukoF_2",
-                "S_YuyukoF_3"
+                "S_YuyukoF_7",
+                "S_YuyukoF_7",
+                "S_YuyukoF_1",
+                "S_YuyukoF_1"
             ]
         ],
         "PartyEquip": [
@@ -41,14 +42,12 @@
                 
             ],
             [
-                "E_YuyukoF_0",
-                "E_YuyukoF_1"
+                
             ]
         ],
         "LucySkill": [
             
         ],
-        "AP": 10,
-        "Level": 6
+        "AP": 10
     }
 }

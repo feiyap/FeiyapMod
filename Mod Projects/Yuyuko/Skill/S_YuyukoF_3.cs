@@ -49,13 +49,13 @@ namespace Yuyuko
 
         public void Del(SkillButton Mybutton)
         {
-            Mybutton.Myskill.Except();
+            BattleSystem.instance.AllyTeam.Skills_Deck.Remove(Mybutton.Myskill);
             this.BChar.MyTeam.Draw();
         }
 
         public void Del2(SkillButton Mybutton)
         {
-            Mybutton.Myskill.Except();
+            BattleSystem.instance.AllyTeam.Skills_UsedDeck.Remove(Mybutton.Myskill);
             this.BChar.MyTeam.Draw();
         }
     }

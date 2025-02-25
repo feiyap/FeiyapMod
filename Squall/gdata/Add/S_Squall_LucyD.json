@@ -21,7 +21,7 @@
         "NotChuck": false,
         "HealSkill": false,
         "NoDrop": false,
-        "IgnoreTaunt": false,
+        "IgnoreTaunt": true,
         "Except": false,
         "Basic": false,
         "Track": false,

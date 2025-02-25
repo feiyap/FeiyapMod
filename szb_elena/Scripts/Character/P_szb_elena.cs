@@ -42,8 +42,17 @@ namespace szb_elena
        
         public void Healed(BattleChar Healer, BattleChar HealedChar, int HealNum, bool Cri, int OverHeal) 
 		{
+            foreach (BattleChar battleChar in BattleSystem.instance.AllyTeam.AliveChars)
+            {
+                if (!battleChar.BuffFind(ModItemKeys.Buff_B_szb_elena_P))
+                {
+                    battleChar.BuffAdd(ModItemKeys.Buff_B_szb_elena_P, this.BChar, false, 0, false, -1, false);
+                }
+            }
+            
             TurnHealedNum += 1;
             HealedNum += 1;
+
             if (this.BChar.BuffFind(ModItemKeys.Buff_B_szb_elena_3, true))
             {
                 HealedNum += 1;

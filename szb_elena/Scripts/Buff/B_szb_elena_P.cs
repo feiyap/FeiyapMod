@@ -29,7 +29,6 @@ namespace szb_elena
         {
             this.PlusStat.atk = P_szb_elena.HealedNum;
             this.PlusStat.maxhp = P_szb_elena.HealedNum;
-
         }
 
         public override void SelfdestroyPlus()

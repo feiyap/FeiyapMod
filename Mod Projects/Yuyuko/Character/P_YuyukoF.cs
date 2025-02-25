@@ -92,7 +92,7 @@ namespace Yuyuko
                     Damage = (int)((float)Damage * (1.5f + (this.BChar.GetStat.PlusCriDmg + (float)Target.GetStat.CRIGetDMG) * 0.01f));
                 }
 
-                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(Target, Damage, this.BChar, Cri);
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(Target, Damage, this.BChar, false, Cri);
 
                 return 0;
             }
@@ -153,7 +153,7 @@ namespace Yuyuko
 
                         //进入华胥状态时，从放逐牌库将1个自己的技能拿回手中
                         {
-                            List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.MySkill.KeyID != "S_YuyukoF_P_1"));
+                            List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.Master == this.BChar));
 
                             if (excDeck.Count > 0)
                             {

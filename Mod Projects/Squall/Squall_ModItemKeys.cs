@@ -4,7 +4,7 @@ namespace Squall
     public static class ModItemKeys
     {
 		/// <summary>
-		/// 挑衅
+		/// 发怒
 		/// </summary>
         public static string Buff_B_Sqaull_WeakTaunt = "B_Sqaull_WeakTaunt";
 		/// <summary>
@@ -42,6 +42,7 @@ namespace Squall
 		/// 斯考尔替友军承受伤害时不再获得刃甲。
 		/// </summary>
         public static string Buff_B_Squall_Rare_1 = "B_Squall_Rare_1";
+        public static string Buff_B_Squall_Rare_1_0 = "B_Squall_Rare_1_0";
 		/// <summary>
 		/// 狮子之心
 		/// [刃甲]的最高层数增加到15。
@@ -78,8 +79,8 @@ namespace Squall
 		/// 斯考尔
 		/// Passive:
 		/// 回合开始时获得一层[刃甲]。每当斯考尔替队友承受攻击时，获得一层[刃甲]。
-		/// 在一个回合内累计承受超过最大生命值25%的物理伤害后，消耗3层[刃甲]，对随机敌人进行4段30%攻击力的反击。
-		/// <b>装备不再为斯考尔增加防御力。</b>
+		/// 在一个回合内累计承受超过最大生命值25%的物理伤害后，对随机敌人进行4段30%攻击力的反击。
+		/// <b>斯考尔从装备中获取的防御力加成转化为等量的百分比最大体力值加成。</b>
 		/// <color=#919191>- 此被动从1级开始生效。</color>
 		/// </summary>
         public static string Character_Squall = "Squall";
@@ -171,7 +172,6 @@ namespace Squall
 		/// 爆裂禁区
 		/// </summary>
         public static string Skill_S_Squall_Rare_3_0 = "S_Squall_Rare_3_0";
-        public static string Buff_B_Squall_Rare_1_0 = "B_Squall_Rare_1_0";
 
     }
 

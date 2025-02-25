@@ -43,6 +43,7 @@ namespace Squall
         public static void get_stat_Postfix(ref Stat __result, Character __instance)
         {
             Stat stat = default(Stat);
+            PerStat perstat = default(PerStat);
 
             if (__instance.KeyData == "Squall")
             {
@@ -55,6 +56,10 @@ namespace Squall
                         stat.def -= item_Equip.ItemScript.PlusStat.def;
                         stat.def -= item_Equip.Enchant.EnchantData.PlusStat.def;
                         stat.def -= item_Equip.Curse.PlusStat.def;
+
+                        perstat.MaxHP += (int)item_Equip.ItemScript.PlusStat.def;
+                        perstat.MaxHP += (int)item_Equip.Enchant.EnchantData.PlusStat.def;
+                        perstat.MaxHP += (int)item_Equip.Curse.PlusStat.def;
                     }
                 }
             }

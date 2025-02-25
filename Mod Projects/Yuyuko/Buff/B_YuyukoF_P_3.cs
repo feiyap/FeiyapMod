@@ -35,7 +35,7 @@ namespace Yuyuko
         {
             foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills)
             {
-                if (skill.Master == this.BChar)
+                if (skill.Master == this.BChar && skill.MySkill.KeyID != "S_YuyukoF_7")
                 {
                     skill.NotAvailable = true;
                 }
@@ -45,7 +45,7 @@ namespace Yuyuko
         public IEnumerator Draw(Skill Drawskill, bool NotDraw)
         {
             yield return new WaitForFixedUpdate();
-            if (Drawskill.Master == this.BChar)
+            if (Drawskill.Master == this.BChar && Drawskill.MySkill.KeyID != "S_YuyukoF_7")
             {
                 Drawskill.NotAvailable = true;
             }

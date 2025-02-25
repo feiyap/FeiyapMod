@@ -144,7 +144,11 @@ namespace Yuyuko
 
         public void DrawInput(Skill skill)
         {
-            foreach (Skill_Extended skill_Extended in skill?.AllExtendeds)
+            if (skill == null)
+            {
+                return;
+            }
+            foreach (Skill_Extended skill_Extended in skill.AllExtendeds)
             {
                 if (skill_Extended is S_YuyukoF_Rare_1)
                 {

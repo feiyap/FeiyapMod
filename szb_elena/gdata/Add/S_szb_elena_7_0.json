@@ -5,7 +5,7 @@
         "Particle": "Particle/flare_lv1",
         "Target": "ally",
         "Name": "萝蕾娜的圣水",
-        "Description": "抽取1个技能。",
+        "Description": "解除目标持有的<sprite=1>痛苦和<sprite=0>弱化减益。\n抽取1个技能。",
         "UseAp": 0,
         "NotCount": true,
         "Except": true,
@@ -16,6 +16,9 @@
         "NoDrop": true,
         "Image_0": "S_szb_elena_7_0\\S_szb_elena_7_0_Image_0.png",
         "Image_1": "S_szb_elena_7_0\\S_szb_elena_7_0_Image_1.png",
-        "Image_2": "S_szb_elena_7_0\\S_szb_elena_7_0_Image_2.png"
+        "Image_2": "S_szb_elena_7_0\\S_szb_elena_7_0_Image_2.png",
+        "Rare": false,
+        "Disposable": false,
+        "NoBasicSkill": false
     }
 }

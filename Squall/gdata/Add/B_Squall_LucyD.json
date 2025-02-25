@@ -2,14 +2,18 @@
     "B_Squall_LucyD": {
         "_gdeSchema": "Buff",
         "ClassName": "Squall.B_Squall_LucyD",
-        "BuffTag": "Debuff",
+        "BuffTag": "null",
         "Name": "攻击力降低",
         "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (3)",
         "LifeTime": 0,
         "Cantdisable": true,
         "MaxStack": 0,
         "Debuff": true,
-        "TagPer": 500,
-        "Description": ""
+        "TagPer": 0,
+        "Description": "",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

@@ -11,7 +11,6 @@
         "Description": "",
         "User": "Squall",
         "UseAp": 2,
-        "AutoDelete": 2,
         "Effect_Target": "SE_T_S_Squall_Rare_2",
         "Image_0": "S_Squall_Rare_2\\S_Squall_Rare_2_Image_0.png",
         "Image_1": "S_Squall_Rare_2\\S_Squall_Rare_2_Image_1.png",
@@ -20,6 +19,8 @@
             "Squall.S_Squall_Rare_2"
         ],
         "NoDrop": false,
-        "Track": false
+        "Track": false,
+        "Disposable": true,
+        "IgnoreTaunt": false
     }
 }

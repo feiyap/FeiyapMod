@@ -32,7 +32,10 @@ namespace Squall
         {
             foreach (Buff buff in this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.CC, false))
             {
-                buff.SelfDestroy();
+                if (!buff.BuffData.Cantdisable && !buff.BuffData.Hide && !buff.DestroyBuff)
+                {
+                    buff.SelfDestroy();
+                }
             }
             foreach (Buff buff in this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.DOT, false))
             {

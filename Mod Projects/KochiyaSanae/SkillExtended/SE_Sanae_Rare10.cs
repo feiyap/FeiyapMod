@@ -27,6 +27,7 @@ namespace KochiyaSanae
         public override void Init()
         {
             base.Init();
+            this.NotCount = true;
             if (this.MySkill.IsDamage)
             {
                 this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.3f);

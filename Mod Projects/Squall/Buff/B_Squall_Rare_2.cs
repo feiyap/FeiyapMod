@@ -25,7 +25,7 @@ namespace Squall
         {
             base.Init();
             this.PlusPerStat.Damage = this.BChar.BuffReturn("B_Squall_P")?.StackNum * 2 ?? 0;
-            this.PlusStat.cri = 15;
+            this.PlusStat.PlusCriDmg = 20;
         }
 
         public override void FixedUpdate()
@@ -38,14 +38,14 @@ namespace Squall
         {
             if (!Target.Info.Ally && (SkillD.PlusHit || SkillD.ExtendedFind("Lian_Ex_Counter", true) != null))
             {
-                Damage = Damage + (int)(this.BChar.GetStat.atk * 0.2f);
+                Damage = Damage + (int)(this.BChar.GetStat.atk * 0.25f);
             }
             return Damage;
         }
 
         public override string DescExtended()
         {
-            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.2f)).ToString());
+            return base.DescExtended().Replace("&a", ((int)(this.BChar.GetStat.atk * 0.25f)).ToString());
         }
     }
 }

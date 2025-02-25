@@ -19,6 +19,19 @@
             "Keyword_Ruin",
             "Keyword_ButterflyM",
             "Keyword_ButterflyR"
-        ]
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

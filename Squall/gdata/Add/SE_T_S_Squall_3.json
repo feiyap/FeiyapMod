@@ -3,9 +3,11 @@
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
         "Buffs": [
-            "B_Squall_3"
+            "B_Squall_3",
+            "B_Squall_Taunt"
         ],
         "BuffPlusTagPer": [
+            0,
             0
         ]
     }

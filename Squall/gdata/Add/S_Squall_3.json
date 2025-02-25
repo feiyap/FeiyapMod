@@ -19,6 +19,8 @@
         "Effect_Self": "SE_S_S_Squall_3",
         "SkillExtended": [
             "Squall.S_Squall_3"
-        ]
+        ],
+        "NoDrop": false,
+        "Except": false
     }
 }

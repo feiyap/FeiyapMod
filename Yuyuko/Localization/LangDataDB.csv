@@ -378,12 +378,12 @@ Causes all enemies to gain 50% of the target's 'lost maximum health' value.
 <color=#AB82FF>Funeral</color> - Causes all enemies to lose &a maximum health <color=#FF7A33>(121% of attack power)</color>.
 <color=#4876FF>Netherworld Butterfly</color> - When <color=#8B008B>recalled</color>, deals &a damage <color=#FF7A33>(121% of attack power)</color>.
 <color=#FF69B4>Human Soul Butterfly</color> - When applied, makes all investigators' fixed abilities available.",,"增加20<color=#FFB6C1>返魂值</color>。
-使所有敌人获得与目标50%的“已损失最大体力值”的值。
+依据目标已损失的最大体力值，使所有敌人损失那个数值50%的最大体力值。
 
 <color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的121%)</color>。
 <color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的121%)</color>。
 <color=#FF69B4>人魂蝶</color> - 施加时，使所有调查员的固定能力变为可用状态。","增加20<color=#FFB6C1>返魂值</color>。
-使所有敌人获得与目标50%的“已损失最大体力值”的值。
+依据目标已损失的最大体力值，使所有敌人损失那个数值50%的最大体力值。
 
 <color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的121%)</color>。
 <color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的121%)</color>。
