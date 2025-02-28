@@ -85,7 +85,7 @@ namespace Yuyuko
             }
             if (effect == 10)
             {
-                P_YuyukoF.DeadRevive(this.Usestate_F, 3);
+                
             }
         }
 
@@ -114,7 +114,7 @@ namespace Yuyuko
             }
             if (effect == 5)
             {
-                BattleSystem.instance.AllyTeam.Draw(2);
+                BattleSystem.instance.AllyTeam.Draw(1);
             }
             if (effect == 6)
             {

@@ -10,7 +10,7 @@
         "Name": "抽取",
         "User": "LucyDraw",
         "LucyPartyDraw": "Squall",
-        "Description": "抽取2个技能。",
+        "Description": "抽取3个技能。",
         "UseAp": 2,
         "Disposable": true,
         "Effect_Target": "SE_T_S_Squall_LucyD",

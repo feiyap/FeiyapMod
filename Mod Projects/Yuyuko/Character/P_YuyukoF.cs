@@ -144,6 +144,17 @@ namespace Yuyuko
                         Skill skill = Skill.TempSkill("S_YuyukoF_P_1", this.BChar, this.BChar.MyTeam);
                         (this.BChar as BattleAlly).MyBasicSkill.SkillInput(skill);
                     }
+
+                    (this.BChar as BattleAlly).MyBasicSkill.CoolDownNum = 0;
+                    if ((this.BChar as BattleAlly).MyBasicSkill.ThisSkillUse)
+                    {
+                        (this.BChar as BattleAlly).MyBasicSkill.InActive = false;
+                        (this.BChar as BattleAlly).MyBasicSkill.ThisSkillUse = false;
+                    }
+                    if ((this.BChar as BattleAlly).MyBasicSkill.InActive)
+                    {
+                        (this.BChar as BattleAlly).MyBasicSkill.InActive = false;
+                    }
                     break;
                 case YuyuState.State_Huaxu:
                     {
@@ -184,21 +195,22 @@ namespace Yuyuko
 
                             ReturnAllButterfly();
                         }
+
+                        (this.BChar as BattleAlly).MyBasicSkill.CoolDownNum = 0;
+                        if ((this.BChar as BattleAlly).MyBasicSkill.ThisSkillUse)
+                        {
+                            (this.BChar as BattleAlly).MyBasicSkill.InActive = false;
+                            (this.BChar as BattleAlly).MyBasicSkill.ThisSkillUse = false;
+                        }
+                        if ((this.BChar as BattleAlly).MyBasicSkill.InActive)
+                        {
+                            (this.BChar as BattleAlly).MyBasicSkill.InActive = false;
+                        }
                     }
                     break;
             }
 
-            //this.BChar.MyTeam.BasicSkillRefill(this.BChar, this.BChar.BattleBasicskillRefill);
-            (this.BChar as BattleAlly).MyBasicSkill.CoolDownNum = 0;
-            if ((this.BChar as BattleAlly).MyBasicSkill.ThisSkillUse)
-            {
-                (this.BChar as BattleAlly).MyBasicSkill.InActive = false;
-                (this.BChar as BattleAlly).MyBasicSkill.ThisSkillUse = false;
-            }
-            if ((this.BChar as BattleAlly).MyBasicSkill.InActive)
-            {
-                (this.BChar as BattleAlly).MyBasicSkill.InActive = false;
-            }
+            
         }
 
         //进入华胥状态时，从放逐牌库将1个自己的技能拿回手中
@@ -222,15 +234,6 @@ namespace Yuyuko
                     ip_butterflyReturn.ButterflyReturn();
                 }
             }
-
-            //foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
-            //{
-            //    be.BuffReturn("B_YuyukoF_Butterfly_M")?.SelfDestroy();
-            //    be.BuffReturn("B_YuyukoF_Butterfly_R")?.SelfDestroy();
-            //}
-
-            //BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_M = "";
-            //BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_R = "";
         }
 
         //场上同时存在幽冥蝶和人魂蝶时，固定技能被替换为亡乡「亡我乡 -自尽-」

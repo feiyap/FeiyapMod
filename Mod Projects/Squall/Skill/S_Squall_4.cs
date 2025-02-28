@@ -39,7 +39,7 @@ namespace Squall
         public IEnumerator Attack(BattleChar bc, int count)
         {
             Skill skill = Skill.TempSkill("S_Squall_4_0", this.BChar, this.BChar.MyTeam);
-            skill.MySkill.Effect_Target.DMG_Per = 30 + 4 * count;
+            skill.MySkill.Effect_Target.DMG_Per = 35 + 4 * count;
             skill.PlusHit = true;
             skill.FreeUse = true;
 

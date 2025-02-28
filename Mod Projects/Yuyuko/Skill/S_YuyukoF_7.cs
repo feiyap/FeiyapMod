@@ -26,6 +26,12 @@ namespace Yuyuko
 	/// </summary>
     public class S_YuyukoF_7:Skill_Extended, IP_SkillSelfExcept
     {
+        public override void Init()
+        {
+            base.Init();
+            this.CanUseStun = true;
+        }
+
         public override bool Terms()
         {
             return P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Yongmian || this.BChar.GetStat.Stun;

@@ -14,7 +14,7 @@
         "IgnoreTaunt": false,
         "Except": false,
         "NoBasicSkill": false,
-        "Basic": false,
+        "Basic": true,
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,

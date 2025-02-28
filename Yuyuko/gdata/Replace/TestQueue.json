@@ -2,7 +2,9 @@
     "TestQueue": {
         "_gdeSchema": "EnemyQueue",
         "Enemys": [
-            "TrialofStrength_Enemy"
+            "S3_SnowGiant_0",
+            "S3_SnowGiant_0",
+            "S3_SnowGiant_0"
         ]
     }
 }

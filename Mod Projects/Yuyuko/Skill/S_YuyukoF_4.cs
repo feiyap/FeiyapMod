@@ -51,14 +51,14 @@ namespace Yuyuko
         {
             foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
             {
-                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(be, (int)(this.BChar.GetStat.atk * 1.21f), this.BChar);
+                BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(be, (int)(this.BChar.GetStat.atk * 0.99f), this.BChar);
             }
             return true;
         }
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 1.21f)).ToString())
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.99f)).ToString())
                                           .Replace("&user", this.BChar.Info.Name);
         }
     }

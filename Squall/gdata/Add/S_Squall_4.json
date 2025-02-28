@@ -18,6 +18,7 @@
         "SkillExtended": [
             "Squall.S_Squall_4"
         ],
-        "NoDrop": false
+        "NoDrop": false,
+        "Basic": false
     }
 }

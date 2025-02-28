@@ -53,9 +53,9 @@ namespace Yuyuko
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            int num = Targets[0].Info.OriginStat.maxhp * 25 / 100;
+            int num = Targets[0].Info.OriginStat.maxhp * 20 / 100;
 
-            num = Math.Min(num, (int)(this.BChar.GetStat.atk * 10));
+            num = Math.Min(num, (int)(this.BChar.GetStat.atk * 8));
 
             if (P_YuyukoF.CheckGhost(4, false))
             {

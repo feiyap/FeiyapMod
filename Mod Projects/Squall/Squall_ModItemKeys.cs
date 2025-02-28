@@ -128,9 +128,8 @@ namespace Squall
         public static string Skill_S_Squall_5 = "S_Squall_5";
 		/// <summary>
 		/// 静寂裁决
-		/// 消耗1层刃甲，选择：
-		/// - 使1个敌人将会最先释放的攻击技能立即释放，斯考尔替友军承受此技能的总伤害量。
-		/// - 使1个敌人本回合中将会最先释放的1个攻击技能延后1回合。
+		/// 消耗1层[刃甲]，使目标最先释放的攻击技能立即释放。
+		/// 斯考尔替友军承受此技能的总伤害量。
 		/// </summary>
         public static string Skill_S_Squall_6 = "S_Squall_6";
 		/// <summary>
@@ -149,7 +148,7 @@ namespace Squall
         public static string Skill_S_Squall_7 = "S_Squall_7";
 		/// <summary>
 		/// 抽取
-		/// 抽取2个技能。
+		/// 抽取3个技能。
 		/// </summary>
         public static string Skill_S_Squall_LucyD = "S_Squall_LucyD";
         public static string Skill_S_Squall_P = "S_Squall_P";
@@ -172,6 +171,7 @@ namespace Squall
 		/// 爆裂禁区
 		/// </summary>
         public static string Skill_S_Squall_Rare_3_0 = "S_Squall_Rare_3_0";
+        public static string Buff_B_Sqaull_6 = "B_Sqaull_6";
 
     }
 

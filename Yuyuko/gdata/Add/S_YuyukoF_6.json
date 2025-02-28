@@ -19,9 +19,12 @@
         "Track": false,
         "PlusKeyWords": [
             "Keyword_Ghost",
+            "Keyword_DeadRevive",
             "Keyword_Huaxu",
             "Keyword_ButterflyM",
             "Keyword_ButterflyR"
-        ]
+        ],
+        "NoDrop": false,
+        "EnemyPreview": false
     }
 }

@@ -15,6 +15,7 @@
         "SkillExtended": [
             "Squall.S_Squall_5"
         ],
-        "NotCount": true
+        "NotCount": true,
+        "IgnoreTaunt": false
     }
 }

@@ -54,13 +54,13 @@ namespace Yuyuko
 
                 if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)
                 {
-                    this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 4f);
+                    this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 3f);
                 }
 
                 if (P_YuyukoF.CheckGhost(10, true))
                 {
                     base.SkillParticleOn();
-                    this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 4f);
+                    this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 3f);
                 }
                 else
                 {
@@ -78,12 +78,12 @@ namespace Yuyuko
 
             if (P_YuyukoF.Yuyu == P_YuyukoF.YuyuState.State_Huaxu)
             {
-                this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 4f);
+                this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 3f);
             }
 
             if (P_YuyukoF.CheckGhost(10, false))
             {
-                this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 4f);
+                this.SkillBasePlus.Target_BaseDMG += (int)(this.BChar.GetStat.atk * 3f);
             }
 
             P_YuyukoF.ReturnAllButterfly();
@@ -94,7 +94,7 @@ namespace Yuyuko
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 4f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 3f)).ToString());
         }
     }
 }

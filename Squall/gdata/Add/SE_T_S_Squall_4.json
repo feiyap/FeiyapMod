@@ -2,7 +2,7 @@
     "SE_T_S_Squall_4": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 30,
+        "DMG_Per": 35,
         "CRI": -5
     }
 }

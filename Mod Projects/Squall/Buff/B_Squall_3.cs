@@ -21,7 +21,7 @@ namespace Squall
         public override void Init()
         {
             base.Init();
-            this.PlusStat.atk = -this.Usestate_F.GetStat.def * 0.7f;
+            this.PlusPerStat.Damage = -(int)(this.Usestate_F.GetStat.def * 0.7f);
             this.PlusStat.def = -this.Usestate_F.GetStat.atk * 1.0f;
             this.PlusStat.dod = -20;
         }

@@ -344,8 +344,8 @@ namespace Yuyuko
 		/// 仅能指定同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人。
 		/// <color=#8B008B>回引</color>目标的<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>。
 		/// 造成伤害前，使目标的最大体力值降低至当前体力值。
-		/// <color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
-		/// <color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
+		/// <color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。
+		/// <color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。
 		/// <color=#4876FF>幽冥蝶</color> - 施加时，触发一次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发一次<color=#CAE1FF>亡者召还1</color>。
 		/// <color=#FF69B4>人魂蝶</color> - 施加时，获得8点<color=#E066FF>亡魂</color>。<color=#8B008B>回引</color>时，获得8点<color=#E066FF>亡魂</color>。
 		/// </summary>
@@ -362,18 +362,18 @@ namespace Yuyuko
 		/// <summary>
 		/// 冥符「黄泉平坂行路」
 		/// 增加20<color=#FFB6C1>返魂值</color>。
-		/// 使所有敌人获得与目标50%的“已损失最大体力值”的值。
-		/// <color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的121%)</color>。
-		/// <color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的121%)</color>。
+		/// 依据目标已损失的最大体力值，使所有敌人损失那个数值50%的最大体力值。
+		/// <color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的99%)</color>。
+		/// <color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的99%)</color>。
 		/// <color=#FF69B4>人魂蝶</color> - 施加时，使所有调查员的固定能力变为可用状态。
 		/// </summary>
         public static string Skill_S_YuyukoF_4 = "S_YuyukoF_4";
 		/// <summary>
 		/// 蝶符「凤蝶纹的死枪」
-		/// <color=#E066FF>唤魂4</color> - 额外使敌人降低25%最大体力值<color=#FF7A33>(不超过自身攻击力的1000%)</color>。
+		/// <color=#E066FF>唤魂4</color> - 额外使敌人降低20%最大体力值<color=#FF7A33>(不超过自身攻击力的800%)</color>。
 		/// <color=#AB82FF>葬送</color> - 对随机敌人释放这个技能。
 		/// <color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
-		/// <color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取2个技能。
+		/// <color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取1个技能。
 		/// </summary>
         public static string Skill_S_YuyukoF_5 = "S_YuyukoF_5";
 		/// <summary>
@@ -457,8 +457,8 @@ namespace Yuyuko
 		/// 握在手中时，自身每次进入<color=#8B008B>永眠</color>状态时，使这个技能获得：打出时，重复释放1次。
 		/// 这个技能最多能重复释放10次。
 		/// <color=#AB82FF>葬送</color> - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。
-		/// <color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
-		/// <color=#FF69B4>人魂蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。
+		/// <color=#4876FF>幽冥蝶</color> - 无效果。
+		/// <color=#FF69B4>人魂蝶</color> - 无效果。
 		/// </summary>
         public static string Skill_S_YuyukoF_Rare_1 = "S_YuyukoF_Rare_1";
 		/// <summary>
@@ -485,14 +485,11 @@ namespace Yuyuko
 		/// <b>操纵死亡程度的能力</b> - 西行寺幽幽子模糊了生与死的界限，部分技能会增加或减少<color=#FFB6C1>返魂值</color>。
 		/// 西行寺幽幽子的攻击不再造成伤害，而是降低目标等量的最大体力值。
 		/// <b><color=#FF1493>幽雅地绽放吧</color>，<color=#8B008B>墨染之樱</color></b> - 固定技能被替换为<color=#FF1493>亡乡「亡我乡 -彷徨的灵魂-」</color>。
-		/// 当<color=#FFB6C1>返魂值</color>的进度超过50时，西行寺幽幽子进入<color=#FF1493>华胥</color>状态，并从放逐牌库将1个自己的技能拿回手中；
-		/// 在<color=#FF1493>华胥</color>状态下，获得攻击力提升，部分技能获得增强。
+		/// 当<color=#FFB6C1>返魂值</color>的进度超过50时，西行寺幽幽子进入<color=#FF1493>华胥</color>状态，并从放逐牌库将1个自己的技能拿回手中。
 		/// 当场上同时存在<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>时，固定技能被替换为<color=#4876FF>亡乡「亡我乡 -自尽-」</color>。
-		/// 当<color=#FFB6C1>返魂值</color>的进度超过100时，西行寺幽幽子进入<color=#8B008B>永眠</color>状态，并使所有敌人失去10%最大体力值、并<color=#8B008B>回引</color>所有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>；
+		/// 当<color=#FFB6C1>返魂值</color>的进度超过100时，西行寺幽幽子进入<color=#8B008B>永眠</color>状态，使所有敌人失去10%最大体力值、并<color=#8B008B>回引</color>所有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>；
 		/// 在<color=#8B008B>永眠</color>状态下，固定技能被替换为<color=#8B008B>亡乡「亡我乡 -无道之路-」</color>。
-		/// <b><color=#E066FF>唤魂X</color></b> - 每有1个技能被放逐，西行寺幽幽子获得1点<color=#E066FF>亡魂</color>。打出技能时，消耗X点<color=#E066FF>亡魂</color>，能够触发额外效果。
-		/// <b><color=#AB82FF>葬送</color></b> - 当附带此词条的技能被<b>放逐</b>时触发效果。
-		/// <b><color=#CAE1FF>亡者召还</color>X</b> - 从放逐牌库将1个费用不超过X的技能拿回手中。
+		/// <color=#919191>- 此被动从1级开始生效。</color>
 		/// </summary>
         public static string Character_YuyukoF = "YuyukoF";
 
@@ -710,15 +707,15 @@ namespace Yuyuko
         public static string S_YuyukoF_3_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_3_2/Text");
 		/// <summary>
 		/// Korean:
-		/// <color=#8B008B>회수</color> 시 &a의 피해를 입힙니다 (<color=#FF7A33>&user의 공격력의 135%</color>).
+		/// <color=#8B008B>회수</color> 시 &a의 피해를 입힙니다 (<color=#FF7A33>&user의 공격력의 99%</color>).
 		/// English:
-		/// When <color=#8B008B>recalled</color>, deals &a damage (<color=#FF7A33>135% of &user's attack power</color>).
+		/// When <color=#8B008B>recalled</color>, deals &a damage (<color=#FF7A33>99% of &user's attack power</color>).
 		/// Japanese:
-		/// <color=#8B008B>回引</color>时，造成&a的伤害(&user攻击力的135%)。
+		/// <color=#8B008B>回引</color>时，造成&a的伤害(&user攻击力的99%)。
 		/// Chinese:
-		/// <color=#8B008B>回引</color>时，造成&a的伤害(&user攻击力的135%)。
+		/// <color=#8B008B>回引</color>时，造成&a的伤害(&user攻击力的99%)。
 		/// Chinese-TW:
-		/// <color=#8B008B>回引</color>时，造成&a的伤害(&user攻击力的135%)。
+		/// <color=#8B008B>回引</color>时，造成&a的伤害(&user攻击力的99%)。
 		/// </summary>
         public static string S_YuyukoF_4_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_4_1/Text");
 		/// <summary>
@@ -749,15 +746,15 @@ namespace Yuyuko
         public static string S_YuyukoF_5_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_5_1/Text");
 		/// <summary>
 		/// Korean:
-		/// <color=#8B008B>회수</color> 시 2개의 스킬을 드로우합니다.
+		/// <color=#8B008B>회수</color> 시 1개의 스킬을 드로우합니다.
 		/// English:
-		/// When <color=#8B008B>recalled</color>, draws 2 skills.
+		/// When <color=#8B008B>recalled</color>, draws 1 skill.
 		/// Japanese:
-		/// <color=#8B008B>回引</color>时，抽取2个技能。
+		/// <color=#8B008B>回引</color>时，抽取1个技能。
 		/// Chinese:
-		/// <color=#8B008B>回引</color>时，抽取2个技能。
+		/// <color=#8B008B>回引</color>时，抽取1个技能。
 		/// Chinese-TW:
-		/// <color=#8B008B>回引</color>时，抽取2个技能。
+		/// <color=#8B008B>回引</color>时，抽取1个技能。
 		/// </summary>
         public static string S_YuyukoF_5_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_5_2/Text");
 		/// <summary>
@@ -866,28 +863,28 @@ namespace Yuyuko
         public static string S_YuyukoF_Rare_1_0 => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_0");
 		/// <summary>
 		/// Korean:
-		/// 적용 시 <color=#CAE1FF>망자 소환 2</color>을 1회 발동합니다.
+		/// None.
 		/// English:
-		/// When applied, triggers 1 <color=#CAE1FF>Recall the Dead 2</color>.
+		/// None.
 		/// Japanese:
-		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
+		/// 无效果。
 		/// Chinese:
-		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
+		/// 无效果。
 		/// Chinese-TW:
-		/// 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
+		/// 无效果。
 		/// </summary>
         public static string S_YuyukoF_Rare_1_1Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_1/Text");
 		/// <summary>
 		/// Korean:
-		/// 적용 시 <color=#CAE1FF>망자 소환 3</color>을 1회 발동합니다.
+		/// None.
 		/// English:
-		/// When applied, triggers 1 <color=#CAE1FF>Recall the Dead 3</color>.
+		/// None.
 		/// Japanese:
-		/// 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。
+		/// 无效果。
 		/// Chinese:
-		/// 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。
+		/// 无效果。
 		/// Chinese-TW:
-		/// 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。
+		/// 无效果。
 		/// </summary>
         public static string S_YuyukoF_Rare_1_2Text => ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("S_YuyukoF_Rare_1_2/Text");
 		/// <summary>

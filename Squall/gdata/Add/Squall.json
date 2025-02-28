@@ -69,6 +69,42 @@
         "StatView_CC": 2,
         "StatView_Debuff": 1,
         "StatView_Difficult": 2,
-        "PassiveIcon": "Squall\\SquallPassiveIcon.png"
+        "PassiveIcon": "Squall\\SquallPassiveIcon.png",
+        "CampSD": [
+            "Squall\\SquallCampSD0.png",
+            "Squall\\SquallCampSD1.png",
+            "Squall\\SquallCampSD2.png",
+            "Squall\\SquallCampSD3.png"
+        ],
+        "Text_Battle_Start": [
+            "上吧，任务开始。",
+            "我会迅速结束这场战斗。",
+            "把眼前的敌人统统解决。"
+        ],
+        "Text_Battle_ND": [
+            "唔，请求支援......",
+            "我就只有这点程度吗......",
+            "抱歉了，各位……"
+        ],
+        "Text_Battle_Healed": [
+            "我欠你一次。",
+            "抱歉......"
+        ],
+        "Text_Battle_Idle": [
+            "他是我的猎物。",
+            "准备好，要来了！"
+        ],
+        "Text_Battle_Cri": [
+            "给我倒下！",
+            "阻断！"
+        ],
+        "Text_Battle_Kill": [
+            "击杀！",
+            "到此为止！",
+            "绝不姑息！"
+        ],
+        "Text_Battle_AllyND": [
+            "我来掩护！"
+        ]
     }
 }

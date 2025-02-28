@@ -130,7 +130,7 @@ Character/YuyukoF_PassiveDes,Text,,"<b>죽음을 조종하는 능력</b> - 사�
 Yuyuko Saigyouji's attacks no longer deal damage but instead reduce the target's maximum health by an equal amount.
 
 <b><color=#FF1493>Elegantly Bloom</color>, <color=#8B008B>Ink-Stained Cherry Blossoms</color></b> - Fixed skills are replaced with <color=#FF1493>Dead Village ""Dead Homeland - Wandering Souls""</color>.
-When <color=#FFB6C1>Soul Return Value</color> exceeds 50, Yuyuko Saigyouji enters <color=#FF1493>Fantasy</color> state and retrieves 1 of her own skills from the exile deck;
+When <color=#FFB6C1>Soul Return Value</color> exceeds 50, Yuyuko Saigyouji enters <color=#FF1493>Fantasy</color> state and retrieves 1 of her own skills from the Exclude deck;
 In <color=#FF1493>Fantasy</color> state, gains increased attack power, and some skills are enhanced.
 When both <color=#4876FF>Netherworld Butterfly</color> and <color=#FF69B4>Human Soul Butterfly</color> are present on the field, fixed skills are replaced with <color=#4876FF>Dead Village ""Dead Homeland - Suicide""</color>.
 When <color=#FFB6C1>Soul Return Value</color> exceeds 100, Yuyuko Saigyouji enters <color=#8B008B>Eternal Sleep</color> state, causing all enemies to lose 10% of their maximum health and <color=#8B008B>recalling</color> all <color=#4876FF>Netherworld Butterfly</color> and <color=#FF69B4>Human Soul Butterfly</color>;
@@ -138,27 +138,19 @@ In <color=#8B008B>Eternal Sleep</color> state, fixed skills are replaced with <c
 西行寺幽幽子的攻击不再造成伤害，而是降低目标等量的最大体力值。
 
 <b><color=#FF1493>幽雅地绽放吧</color>，<color=#8B008B>墨染之樱</color></b> - 固定技能被替换为<color=#FF1493>亡乡「亡我乡 -彷徨的灵魂-」</color>。
-当<color=#FFB6C1>返魂值</color>的进度超过50时，西行寺幽幽子进入<color=#FF1493>华胥</color>状态，并从放逐牌库将1个自己的技能拿回手中；
-在<color=#FF1493>华胥</color>状态下，获得攻击力提升，部分技能获得增强。
+当<color=#FFB6C1>返魂值</color>的进度超过50时，西行寺幽幽子进入<color=#FF1493>华胥</color>状态，并从放逐牌库将1个自己的技能拿回手中。
 当场上同时存在<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>时，固定技能被替换为<color=#4876FF>亡乡「亡我乡 -自尽-」</color>。
-当<color=#FFB6C1>返魂值</color>的进度超过100时，西行寺幽幽子进入<color=#8B008B>永眠</color>状态，并使所有敌人失去10%最大体力值、并<color=#8B008B>回引</color>所有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>；
+当<color=#FFB6C1>返魂值</color>的进度超过100时，西行寺幽幽子进入<color=#8B008B>永眠</color>状态，使所有敌人失去10%最大体力值、并<color=#8B008B>回引</color>所有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>；
 在<color=#8B008B>永眠</color>状态下，固定技能被替换为<color=#8B008B>亡乡「亡我乡 -无道之路-」</color>。
-
-<b><color=#E066FF>唤魂X</color></b> - 每有1个技能被放逐，西行寺幽幽子获得1点<color=#E066FF>亡魂</color>。打出技能时，消耗X点<color=#E066FF>亡魂</color>，能够触发额外效果。
-<b><color=#AB82FF>葬送</color></b> - 当附带此词条的技能被<b>放逐</b>时触发效果。
-<b><color=#CAE1FF>亡者召还</color>X</b> - 从放逐牌库将1个费用不超过X的技能拿回手中。","<b>操纵死亡程度的能力</b> - 西行寺幽幽子模糊了生与死的界限，部分技能会增加或减少<color=#FFB6C1>返魂值</color>。
+<color=#919191>- 此被动从1级开始生效。</color>","<b>操纵死亡程度的能力</b> - 西行寺幽幽子模糊了生与死的界限，部分技能会增加或减少<color=#FFB6C1>返魂值</color>。
 西行寺幽幽子的攻击不再造成伤害，而是降低目标等量的最大体力值。
 
 <b><color=#FF1493>幽雅地绽放吧</color>，<color=#8B008B>墨染之樱</color></b> - 固定技能被替换为<color=#FF1493>亡乡「亡我乡 -彷徨的灵魂-」</color>。
-当<color=#FFB6C1>返魂值</color>的进度超过50时，西行寺幽幽子进入<color=#FF1493>华胥</color>状态，并从放逐牌库将1个自己的技能拿回手中；
-在<color=#FF1493>华胥</color>状态下，获得攻击力提升，部分技能获得增强。
+当<color=#FFB6C1>返魂值</color>的进度超过50时，西行寺幽幽子进入<color=#FF1493>华胥</color>状态，并从放逐牌库将1个自己的技能拿回手中。
 当场上同时存在<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>时，固定技能被替换为<color=#4876FF>亡乡「亡我乡 -自尽-」</color>。
-当<color=#FFB6C1>返魂值</color>的进度超过100时，西行寺幽幽子进入<color=#8B008B>永眠</color>状态，并使所有敌人失去10%最大体力值、并<color=#8B008B>回引</color>所有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>；
+当<color=#FFB6C1>返魂值</color>的进度超过100时，西行寺幽幽子进入<color=#8B008B>永眠</color>状态，使所有敌人失去10%最大体力值、并<color=#8B008B>回引</color>所有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>；
 在<color=#8B008B>永眠</color>状态下，固定技能被替换为<color=#8B008B>亡乡「亡我乡 -无道之路-」</color>。
-
-<b><color=#E066FF>唤魂X</color></b> - 每有1个技能被放逐，西行寺幽幽子获得1点<color=#E066FF>亡魂</color>。打出技能时，消耗X点<color=#E066FF>亡魂</color>，能够触发额外效果。
-<b><color=#AB82FF>葬送</color></b> - 当附带此词条的技能被<b>放逐</b>时触发效果。
-<b><color=#CAE1FF>亡者召还</color>X</b> - 从放逐牌库将1个费用不超过X的技能拿回手中。"
+<color=#919191>- 此被动从1级开始生效。</color>"
 Character/YuyukoF_PassiveName,Text,,완벽한 망령,Flawless Undead,,天衣无缝的亡灵,天衣无缝的亡灵
 Character/YuyukoF_SelectInfo,Text,,"사이교지 유유코는 독특한 전문형 딜러입니다.
 
@@ -319,29 +311,29 @@ Skill/S_YuyukoF_2_Description,Text,,"<color=#4876FF>명계 나비</color>와 <co
 대상의 <color=#4876FF>명계 나비</color>와 <color=#FF69B4>인혼 나비</color>를 <color=#8B008B>회수</color>합니다.
 피해를 입히기 전, 대상의 최대 체력을 현재 체력으로 감소시킵니다.
 
-<color=#E066FF>망령 소환 10</color> - 추가로 &a의 피해를 입힙니다 <color=#FF7A33>(공격력의 400%)</color>.
-<color=#FF1493>환상</color> - 추가로 &a의 피해를 입힙니다 <color=#FF7A33>(공격력의 400%)</color>.
+<color=#E066FF>망령 소환 10</color> - 추가로 &a의 피해를 입힙니다 <color=#FF7A33>(공격력의 300%)</color>.
+<color=#FF1493>환상</color> - 추가로 &a의 피해를 입힙니다 <color=#FF7A33>(공격력의 300%)</color>.
 <color=#4876FF>명계 나비</color> - 적용 시 <color=#CAE1FF>망자 소환 1</color>을 1회 발동합니다. <color=#8B008B>회수</color> 시 <color=#CAE1FF>망자 소환 1</color>을 1회 발동합니다.
 <color=#FF69B4>인혼 나비</color> - 적용 시 8의 <color=#E066FF>망령</color>을 얻습니다. <color=#8B008B>회수</color> 시 8의 <color=#E066FF>망령</color>을 얻습니다.","Can only target enemies with both <color=#4876FF>Netherworld Butterfly</color> and <color=#FF69B4>Human Soul Butterfly</color>.
 <color=#8B008B>Recalls</color> the target's <color=#4876FF>Netherworld Butterfly</color> and <color=#FF69B4>Human Soul Butterfly</color>.
 Before dealing damage, reduces the target's maximum health to their current health.
 
-<color=#E066FF>Summon Wraith 10</color> - Deals an additional &a damage <color=#FF7A33>(400% of attack power)</color>.
-<color=#FF1493>Fantasy</color> - Deals an additional &a damage <color=#FF7A33>(400% of attack power)</color>.
+<color=#E066FF>Summon Wraith 10</color> - Deals an additional &a damage <color=#FF7A33>(300% of attack power)</color>.
+<color=#FF1493>Fantasy</color> - Deals an additional &a damage <color=#FF7A33>(300% of attack power)</color>.
 <color=#4876FF>Netherworld Butterfly</color> - When applied, triggers 1 <color=#CAE1FF>Recall the Dead 1</color>. When <color=#8B008B>recalled</color>, triggers 1 <color=#CAE1FF>Recall the Dead 1</color>.
 <color=#FF69B4>Human Soul Butterfly</color> - When applied, gains 8 points of <color=#E066FF>Wraith</color>. When <color=#8B008B>recalled</color>, gains 8 points of <color=#E066FF>Wraith</color>.",,"仅能指定同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人。
 <color=#8B008B>回引</color>目标的<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>。
 造成伤害前，使目标的最大体力值降低至当前体力值。
 
-<color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
-<color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
+<color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。
+<color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。
 <color=#4876FF>幽冥蝶</color> - 施加时，触发一次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发一次<color=#CAE1FF>亡者召还1</color>。
 <color=#FF69B4>人魂蝶</color> - 施加时，获得8点<color=#E066FF>亡魂</color>。<color=#8B008B>回引</color>时，获得8点<color=#E066FF>亡魂</color>。","仅能指定同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人。
 <color=#8B008B>回引</color>目标的<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>。
 造成伤害前，使目标的最大体力值降低至当前体力值。
 
-<color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
-<color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的400%)</color>。
+<color=#E066FF>唤魂10</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。
+<color=#FF1493>华胥</color> - 额外造成&a伤害<color=#FF7A33>(攻击力的300%)</color>。
 <color=#4876FF>幽冥蝶</color> - 施加时，触发一次<color=#CAE1FF>亡者召还1</color>。<color=#8B008B>回引</color>时，触发一次<color=#CAE1FF>亡者召还1</color>。
 <color=#FF69B4>人魂蝶</color> - 施加时，获得8点<color=#E066FF>亡魂</color>。<color=#8B008B>回引</color>时，获得8点<color=#E066FF>亡魂</color>。"
 Skill/S_YuyukoF_2_Name,Text,,우아 "명계로 이끄는 유인등",Elegance "Moth to the Flame of the Underworld",,幽雅「通向黄泉的诱蛾灯」,幽雅「通向黄泉的诱蛾灯」
@@ -351,11 +343,11 @@ Skill/S_YuyukoF_3_Description,Text,,"<color=#FFB6C1>환혼 값</color>을 20 감
 <color=#AB82FF>장송</color> - 버린 덱의 스킬을 공개합니다. 그 중 1개를 추방하고, 1개의 스킬을 드로우합니다.
 <color=#4876FF>명계 나비</color> - 적용 시 손에서 1개의 스킬을 추방하고, 1개의 스킬을 드로우합니다.
 <color=#FF69B4>인혼 나비</color> - 적용 시 손에서 1개의 스킬을 추방하고, 1개의 스킬을 드로우합니다.","Reduces 20 <color=#FFB6C1>Soul Return Value</color>.
-Reveals skills in the deck. Exiles 1 and draws 1 skill.
+Reveals skills in the deck. Excludes 1 and draws 1 skill.
 
-<color=#AB82FF>Funeral</color> - Reveals skills in the discard pile. Exiles 1 and draws 1 skill.
-<color=#4876FF>Netherworld Butterfly</color> - When applied, exiles 1 skill from hand and draws 1 skill.
-<color=#FF69B4>Human Soul Butterfly</color> - When applied, exiles 1 skill from hand and draws 1 skill.",,"减少20<color=#FFB6C1>返魂值</color>。
+<color=#AB82FF>Funeral</color> - Reveals skills in the discard pile. Excludes 1 and draws 1 skill.
+<color=#4876FF>Netherworld Butterfly</color> - When applied, Excludes 1 skill from hand and draws 1 skill.
+<color=#FF69B4>Human Soul Butterfly</color> - When applied, Excludes 1 skill from hand and draws 1 skill.",,"减少20<color=#FFB6C1>返魂值</color>。
 展示牌库中的技能。选择其中1个放逐，抽取1个技能。
 
 <color=#AB82FF>葬送</color> - 展示弃牌库中的技能。选择其中1个放逐，抽取1个技能。
@@ -370,38 +362,38 @@ Skill/S_YuyukoF_3_Name,Text,,망무 "생자필멸의 이치",Death Dance "Princi
 Skill/S_YuyukoF_4_Description,Text,,"<color=#FFB6C1>환혼 값</color>을 20 증가시킵니다.
 모든 적이 대상의 '잃은 최대 체력'의 50%만큼 얻습니다.
 
-<color=#AB82FF>장송</color> - 모든 적이 &a의 최대 체력을 잃습니다 <color=#FF7A33>(공격력의 121%)</color>.
-<color=#4876FF>명계 나비</color> - <color=#8B008B>회수</color> 시 &a의 피해를 입힙니다 <color=#FF7A33>(공격력의 121%)</color>.
+<color=#AB82FF>장송</color> - 모든 적이 &a의 최대 체력을 잃습니다 <color=#FF7A33>(공격력의 99%)</color>.
+<color=#4876FF>명계 나비</color> - <color=#8B008B>회수</color> 시 &a의 피해를 입힙니다 <color=#FF7A33>(공격력의 99%)</color>.
 <color=#FF69B4>인혼 나비</color> - 적용 시 모든 조사원의 고정 능력을 사용 가능 상태로 만듭니다.","Increases 20 <color=#FFB6C1>Soul Return Value</color>.
 Causes all enemies to gain 50% of the target's 'lost maximum health' value.
 
-<color=#AB82FF>Funeral</color> - Causes all enemies to lose &a maximum health <color=#FF7A33>(121% of attack power)</color>.
-<color=#4876FF>Netherworld Butterfly</color> - When <color=#8B008B>recalled</color>, deals &a damage <color=#FF7A33>(121% of attack power)</color>.
+<color=#AB82FF>Funeral</color> - Causes all enemies to lose &a maximum health <color=#FF7A33>(99% of attack power)</color>.
+<color=#4876FF>Netherworld Butterfly</color> - When <color=#8B008B>recalled</color>, deals &a damage <color=#FF7A33>(99% of attack power)</color>.
 <color=#FF69B4>Human Soul Butterfly</color> - When applied, makes all investigators' fixed abilities available.",,"增加20<color=#FFB6C1>返魂值</color>。
 依据目标已损失的最大体力值，使所有敌人损失那个数值50%的最大体力值。
 
-<color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的121%)</color>。
-<color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的121%)</color>。
+<color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的99%)</color>。
+<color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的99%)</color>。
 <color=#FF69B4>人魂蝶</color> - 施加时，使所有调查员的固定能力变为可用状态。","增加20<color=#FFB6C1>返魂值</color>。
 依据目标已损失的最大体力值，使所有敌人损失那个数值50%的最大体力值。
 
-<color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的121%)</color>。
-<color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的121%)</color>。
+<color=#AB82FF>葬送</color> - 使所有敌人失去&a最大体力值<color=#FF7A33>(攻击力的99%)</color>。
+<color=#4876FF>幽冥蝶</color> - <color=#8B008B>回引</color>时，造成&a伤害<color=#FF7A33>(攻击力的99%)</color>。
 <color=#FF69B4>人魂蝶</color> - 施加时，使所有调查员的固定能力变为可用状态。"
 Skill/S_YuyukoF_4_Name,Text,,명부 "황천평판행로",Nether Sign "Journey Through the Underworld",,冥符「黄泉平坂行路」,冥符「黄泉平坂行路」
-Skill/S_YuyukoF_5_Description,Text,,"<color=#E066FF>망령 소환 4</color> - 추가로 적의 최대 체력을 25% 감소시킵니다 <color=#FF7A33>(자신의 공격력의 1000%를 초과하지 않음)</color>.
+Skill/S_YuyukoF_5_Description,Text,,"<color=#E066FF>망령 소환 4</color> - 추가로 적의 최대 체력을 20% 감소시킵니다 <color=#FF7A33>(자신의 공격력의 800%를 초과하지 않음)</color>.
 <color=#AB82FF>장송</color> - 무작위 적에게 이 스킬을 발동합니다.
 <color=#4876FF>명계 나비</color> - 적용 시 <color=#CAE1FF>망자 소환 2</color>을 1회 발동합니다.
-<color=#FF69B4>인혼 나비</color> - <color=#8B008B>회수</color> 시 2개의 스킬을 드로우합니다.","<color=#E066FF>Summon Wraith 4</color> - Additionally reduces enemy maximum health by 25% <color=#FF7A33>(up to 1000% of self's attack power)</color>.
+<color=#FF69B4>인혼 나비</color> - <color=#8B008B>회수</color> 시 2개의 스킬을 드로우합니다.","<color=#E066FF>Summon Wraith 4</color> - Additionally reduces enemy maximum health by 20% <color=#FF7A33>(up to 800% of self's attack power)</color>.
 <color=#AB82FF>Funeral</color> - Releases this skill on a random enemy.
-<color=#4876FF>Netherworld Butterfly</color> - When applied, triggers 1 <color=#CAE1FF>Recall the Dead 2</color>.
-<color=#FF69B4>Human Soul Butterfly</color> - When <color=#8B008B>recalled</color>, draws 2 skills.",,"<color=#E066FF>唤魂4</color> - 额外使敌人降低25%最大体力值<color=#FF7A33>(不超过自身攻击力的1000%)</color>。
+<color=#4876FF>Netherworld9 Butterfly</color> - When applied, triggers 1 <color=#CAE1FF>Recall the Dead 2</color>.
+<color=#FF69B4>Human Soul Butterfly</color> - When <color=#8B008B>recalled</color>, draws 2 skills.",,"<color=#E066FF>唤魂4</color> - 额外使敌人降低20%最大体力值<color=#FF7A33>(不超过自身攻击力的800%)</color>。
 <color=#AB82FF>葬送</color> - 对随机敌人释放这个技能。
 <color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
-<color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取2个技能。","<color=#E066FF>唤魂4</color> - 额外使敌人降低25%最大体力值<color=#FF7A33>(不超过自身攻击力的1000%)</color>。
+<color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取1个技能。","<color=#E066FF>唤魂4</color> - 额外使敌人降低20%最大体力值<color=#FF7A33>(不超过自身攻击力的800%)</color>。
 <color=#AB82FF>葬送</color> - 对随机敌人释放这个技能。
 <color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
-<color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取2个技能。"
+<color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取1个技能。"
 Skill/S_YuyukoF_5_Name,Text,,나비부 "호랑나비 문양의 죽음의 총",Butterfly Sign "Death Gun of the Swallowtail",,蝶符「凤蝶纹的死枪」,蝶符「凤蝶纹的死枪」
 Skill/S_YuyukoF_6_Description,Text,,"<color=#FFB6C1>환혼 값</color>을 20 증가시킵니다.
 
@@ -461,7 +453,7 @@ Skill/S_YuyukoF_8_Description,Text,,"<color=#FF1493>환상</color> 상태일 때
 <color=#AB82FF>장송</color> - 손에서 1개의 스킬을 추방하고, <color=#CAE1FF>망자 소환 1</color>을 발동합니다.","Can only be used in <color=#FF1493>Fantasy</color> state.
 
 <color=#FF1493>Fantasy</color> - Reduces 20 <color=#FFB6C1>Soul Return Value</color>.
-<color=#AB82FF>Funeral</color> - Exiles 1 skill from hand and <color=#CAE1FF>Recall the Dead 1</color>.",,"仅能在<color=#FF1493>华胥</color>状态下使用。
+<color=#AB82FF>Funeral</color> - Excludes 1 skill from hand and <color=#CAE1FF>Recall the Dead 1</color>.",,"仅能在<color=#FF1493>华胥</color>状态下使用。
 
 <color=#FF1493>华胥</color> - 减少20<color=#FFB6C1>返魂值</color>。
 <color=#AB82FF>葬送</color> - 选择手中1个技能放逐，<color=#CAE1FF>亡者召还1</color>。","仅能在<color=#FF1493>华胥</color>状态下使用。
@@ -479,7 +471,7 @@ Reduces 40 <color=#FFB6C1>Soul Return Value</color>.",,"选择 - 增加40<color=
 减少40<color=#FFB6C1>返魂值</color>。","选择 - 增加40<color=#FFB6C1>返魂值</color>；
 减少40<color=#FFB6C1>返魂值</color>。"
 Skill/S_YuyukoF_9_Name,Text,,벚꽃 "미완의 연회",Cherry Blossoms "Banquet of Unfinished Attachments",,樱花「依恋未酌宴」,樱花「依恋未酌宴」
-Skill/S_YuyukoF_LucyD_Description,Text,,"대상 스킬을 추방하고, 3개의 스킬을 드로우합니다.",Exiles target skill and draws 3 skills.,,放逐目标技能，抽取3个技能。,放逐目标技能，抽取3个技能。
+Skill/S_YuyukoF_LucyD_Description,Text,,"대상 스킬을 추방하고, 3개의 스킬을 드로우합니다.",Excludes target skill and draws 3 skills.,,放逐目标技能，抽取3个技能。,放逐目标技能，抽取3个技能。
 Skill/S_YuyukoF_LucyD_Name,Text,,수명 "무수국의 기표",Lifespan "Promissory Note to the Land of No Age",,寿命「通向无寿国的期票」,寿命「通向无寿国的期票」
 Skill/S_YuyukoF_P_1_1_Description,Text,,대상 스킬을 <color=#4876FF>명계 나비</color>로 변환하여 적에게 적용합니다. &a,Transforms target skill into <color=#4876FF>Netherworld Butterfly</color> and applies it to any enemy. &a,,将目标技能转化为<color=#4876FF>幽冥蝶</color>施加在任意敌人身上。&a,将目标技能转化为<color=#4876FF>幽冥蝶</color>施加在任意敌人身上。&a
 Skill/S_YuyukoF_P_1_1_Name,Text,,<color=#4876FF>명계 나비</color> 변환,Transform <color=#4876FF>Netherworld Butterfly</color>,,转化<color=#4876FF>幽冥蝶</color>,转化<color=#4876FF>幽冥蝶</color>
@@ -488,7 +480,7 @@ Skill/S_YuyukoF_P_1_2_Name,Text,,<color=#FF69B4>인혼 나비</color> 변환,Tr
 Skill/S_YuyukoF_P_1_Description,Text,,"<color=#4876FF>명계 나비</color>와 <color=#FF69B4>인혼 나비</color> 키워드를 가진 스킬만 선택할 수 있습니다.
 대상 스킬을 추방하고, 해당 스킬에 대응하는 디버프를 적에게 적용합니다.
 <color=#4876FF>명계 나비</color>와 <color=#FF69B4>인혼 나비</color>는 각각 1개만 존재할 수 있으며, <color=#8B008B>회수</color> 전까지 다시 적용할 수 없습니다.","Can only select skills with <color=#4876FF>Netherworld Butterfly</color> and <color=#FF69B4>Human Soul Butterfly</color> keywords.
-Exiles target skill and transforms it into a debuff corresponding to 1 skill, applying it to any enemy.
+Excludes target skill and transforms it into a debuff corresponding to 1 skill, applying it to any enemy.
 Only 1 <color=#4876FF>Netherworld Butterfly</color> and 1 <color=#FF69B4>Human Soul Butterfly</color> can exist at a time and cannot be reapplied until <color=#8B008B>recalled</color>.",,"仅能选择拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>关键词的技能。
 放逐目标技能，将其转化为1个技能对应的减益效果施加在任意敌人身上。
 <color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>各只能存在1只，在<color=#8B008B>回引</color>之前无法再次施加。","仅能选择拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>关键词的技能。
@@ -498,8 +490,8 @@ Skill/S_YuyukoF_P_1_Name,Text,,<color=#FF1493>망향 "망아향 -방황하는 �
 Skill/S_YuyukoF_P_2_Description,Text,,"즉시 100의 <color=#FFB6C1>환혼 값</color>을 얻고, <color=#8B008B>영면</color> 상태에 들어갑니다.",Immediately gains 100 <color=#FFB6C1>Soul Return Value</color> and enters <color=#8B008B>Eternal Sleep</color> state.,,立即获得100<color=#FFB6C1>返魂值</color>，并进入<color=#8B008B>永眠</color>状态。,立即获得100<color=#FFB6C1>返魂值</color>，并进入<color=#8B008B>永眠</color>状态。
 Skill/S_YuyukoF_P_2_Name,Text,,<color=#4876FF>망향 "망아향 -자살-"</color>,<color=#4876FF>Dead Village "Dead Homeland - Suicide"</color>,,<color=#4876FF>亡乡「亡我乡 -自尽-」</color>,<color=#4876FF>亡乡「亡我乡 -自尽-」</color>
 Skill/S_YuyukoF_P_3_Description,Text,,"대상 스킬을 추방하고, 100의 <color=#FFB6C1>환혼 값</color>을 감소시킵니다.
-추방 덱에서 자신의 스킬 1개를 손으로 가져옵니다.","Exiles target skill and reduces 100 <color=#FFB6C1>Soul Return Value</color>.
-Retrieves 1 of your own skills from the exile deck.",,"放逐目标技能，减少100<color=#FFB6C1>返魂值</color>。
+추방 덱에서 자신의 스킬 1개를 손으로 가져옵니다.","Excludes target skill and reduces 100 <color=#FFB6C1>Soul Return Value</color>.
+Retrieves 1 of your own skills from the Exclude deck.",,"放逐目标技能，减少100<color=#FFB6C1>返魂值</color>。
 从放逐牌库将1个自己的技能拿回手中。","放逐目标技能，减少100<color=#FFB6C1>返魂值</color>。
 从放逐牌库将1个自己的技能拿回手中。"
 Skill/S_YuyukoF_P_3_Name,Text,,<color=#8B008B>망향 "망아향 -무도-"</color>,<color=#8B008B>Dead Village "Dead Homeland - Path of No Return"</color>,,<color=#8B008B>亡乡「亡我乡 -无道之路-」</color>,<color=#8B008B>亡乡「亡我乡 -无道之路-」</color>
@@ -529,23 +521,23 @@ Skill/S_YuyukoF_Rare_1_Description,Text,,"손에 들고 있을 때, 자신이 <c
 이 스킬은 최대 10회까지 반복할 수 있습니다.
 
 <color=#AB82FF>장송</color> - 이 스킬을 손으로 가져오고, 이 스킬이 발동 시 1회 반복되도록 합니다.
-<color=#4876FF>명계 나비</color> - 적용 시 <color=#CAE1FF>망자 소환 2</color>을 1회 발동합니다.
-<color=#FF69B4>인혼 나비</color> - 적용 시 <color=#CAE1FF>망자 소환 3</color>을 1회 발동합니다.","While held, each time you enter <color=#8B008B>Eternal Sleep</color> state, this skill gains: When played, repeats once.
+<color=#4876FF>명계 나비</color> - None.
+<color=#FF69B4>인혼 나비</color> - None.","While held, each time you enter <color=#8B008B>Eternal Sleep</color> state, this skill gains: When played, repeats once.
 This skill can repeat up to 10 times.
 
 <color=#AB82FF>Funeral</color> - Returns this skill to hand and grants it: When played, repeats once.
-<color=#4876FF>Netherworld Butterfly</color> - When applied, triggers 1 <color=#CAE1FF>Recall the Dead 2</color>.
-<color=#FF69B4>Human Soul Butterfly</color> - When applied, triggers 1 <color=#CAE1FF>Recall the Dead 3</color>.",,"握在手中时，自身每次进入<color=#8B008B>永眠</color>状态时，使这个技能获得：打出时，重复释放1次。
+<color=#4876FF>Netherworld Butterfly</color> - None.
+<color=#FF69B4>Human Soul Butterfly</color> - None.",,"握在手中时，自身每次进入<color=#8B008B>永眠</color>状态时，使这个技能获得：打出时，重复释放1次。
 这个技能最多能重复释放10次。
 
 <color=#AB82FF>葬送</color> - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。
-<color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
-<color=#FF69B4>人魂蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。","握在手中时，自身每次进入<color=#8B008B>永眠</color>状态时，使这个技能获得：打出时，重复释放1次。
+<color=#4876FF>幽冥蝶</color> - 无效果。
+<color=#FF69B4>人魂蝶</color> - 无效果。","握在手中时，自身每次进入<color=#8B008B>永眠</color>状态时，使这个技能获得：打出时，重复释放1次。
 这个技能最多能重复释放10次。
 
 <color=#AB82FF>葬送</color> - 将这个技能拿回手中，并使这个技能获得：打出时，重复释放1次。
-<color=#4876FF>幽冥蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还2</color>。
-<color=#FF69B4>人魂蝶</color> - 施加时，触发1次<color=#CAE1FF>亡者召还3</color>。"
+<color=#4876FF>幽冥蝶</color> - 无效果。
+<color=#FF69B4>人魂蝶</color> - 无效果。"
 Skill/S_YuyukoF_Rare_1_Name,Text,,"""반혼나비""","""Resurrection Butterfly""",,「反魂蝶」,「反魂蝶」
 Skill/S_YuyukoF_Rare_2_Description,Text,,"손에 들고 있을 때, 스킬이 추방될 때마다 이 스킬의 비용이 1 감소합니다.","While held, each time a skill is Exclude, reduces this skill's cost by 1.",,握在手中时，每次有技能被放逐，使这个技能费用降低1点。,握在手中时，每次有技能被放逐，使这个技能费用降低1点。
 Skill/S_YuyukoF_Rare_2_Name,Text,,재미 "환상향의 황천귀환",Lost Again "Return to the Underworld of Fantasy",,再迷「幻想乡的黄泉归」,再迷「幻想乡的黄泉归」
@@ -554,13 +546,13 @@ Skill/S_YuyukoF_Rare_3_Name,Text,,"""사나비 떠오르는 달""","""Floating M
 SkillExtended/SE_YuyukoF_C_0_Des,Text,,,,,,
 SkillExtended/SE_YuyukoF_C_0_EnforceString,Text,,단일 대상 공격 스킬,Single-target attack skill,,单体目标攻击技能,单体目标攻击技能
 SkillExtended/SE_YuyukoF_C_0_Name,Text,,"<color=#4876FF>명계 나비</color>와 <color=#FF69B4>인혼 나비</color>를 모두 가진 적을 대상으로 할 때, 1의 마나를 회복하고, 1개의 스킬을 드로우합니다.","When targeting an enemy with both <color=#4876FF>Netherworld Butterfly</color> and <color=#FF69B4>Human Soul Butterfly</color>, restores 1 mana and draws 1 skill.",,指向同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人时，恢复1点法力值，抽取1个技能。,指向同时拥有<color=#4876FF>幽冥蝶</color>和<color=#FF69B4>人魂蝶</color>的敌人时，恢复1点法力值，抽取1个技能。
-SkillExtended/SE_YuyukoF_C_1_EnforceString,Text,,<sprite name="비용2"><sprite name="이하">,<sprite name="cost2"><sprite name="or less">,,<sprite name="비용2"><sprite name="이하">,<sprite name="비용2"><sprite name="이하">
+SkillExtended/SE_YuyukoF_C_1_EnforceString,Text,,<sprite name="비용2"><sprite name="이하">,<sprite name="비용2"><sprite name="이하">,,<sprite name="비용2"><sprite name="이하">,<sprite name="비용2"><sprite name="이하">
 SkillExtended/SE_YuyukoF_C_1_Name,Text,,발동 시 <color=#CAE1FF>망자 소환 2</color>을 1회 발동합니다.,"When played, triggers 1 <color=#CAE1FF>Recall the Dead 2</color>.",,打出时，触发1次<color=#CAE1FF>亡者召还2</color>。,打出时，触发1次<color=#CAE1FF>亡者召还2</color>。
 SkillKeyword/Keyword_ButterflyM_Desc,Text,,<color=#4876FF>명계 나비</color>로 변환되어 적에게 적용될 수 있습니다.,Can be transformed into <color=#4876FF>Netherworld Butterfly</color> and applied to an enemy.,,可以被转化为<color=#4876FF>幽冥蝶</color>施加在敌人身上。,可以被转化为<color=#4876FF>幽冥蝶</color>施加在敌人身上。
 SkillKeyword/Keyword_ButterflyM_Name,Text,,<color=#4876FF>명계 나비</color>,<color=#4876FF>Netherworld Butterfly</color>,,<color=#4876FF>幽冥蝶</color>,<color=#4876FF>幽冥蝶</color>
 SkillKeyword/Keyword_ButterflyR_Desc,Text,,<color=#FF69B4>인혼 나비</color>로 변환되어 적에게 적용될 수 있습니다.,Can be transformed into <color=#FF69B4>Human Soul Butterfly</color> and applied to an enemy.,,可以被转化为<color=#FF69B4>人魂蝶</color>施加在敌人身上。,可以被转化为<color=#FF69B4>人魂蝶</color>施加在敌人身上。
 SkillKeyword/Keyword_ButterflyR_Name,Text,,<color=#FF69B4>인혼 나비</color>,<color=#FF69B4>Human Soul Butterfly</color>,,<color=#FF69B4>人魂蝶</color>,<color=#FF69B4>人魂蝶</color>
-SkillKeyword/Keyword_DeadRevive_Desc,Text,,"추방 덱에서 비용이 X 이하인 스킬 중, 무작위로 1개의 스킬을 손으로 가져옵니다 (자신이 소유하지 않은 1회용 스킬 제외).","From the exile deck, retrieves 1 skill with a cost of X or less (excluding one-time skills not owned by you).",,从放逐牌库中、费用不超过X的技能中，将随机1个费用最高的技能拿回手中（持有者不为自己的一次性技能除外）。,从放逐牌库中、费用不超过X的技能中，将随机1个费用最高的技能拿回手中（持有者不为自己的一次性技能除外）。
+SkillKeyword/Keyword_DeadRevive_Desc,Text,,"추방 덱에서 비용이 X 이하인 스킬 중, 무작위로 1개의 스킬을 손으로 가져옵니다 (자신이 소유하지 않은 1회용 스킬 제외).","From the Exclude deck, retrieves 1 skill with a cost of X or less (excluding one-time skills not owned by you).",,从放逐牌库中、费用不超过X的技能中，将随机1个费用最高的技能拿回手中（持有者不为自己的一次性技能除外）。,从放逐牌库中、费用不超过X的技能中，将随机1个费用最高的技能拿回手中（持有者不为自己的一次性技能除外）。
 SkillKeyword/Keyword_DeadRevive_Name,Text,,<b><color=#CAE1FF>망자 소환 X</color></b>,<b><color=#CAE1FF>Recall the Dead X</color></b>,,<b><color=#CAE1FF>亡者召还X</color></b>,<b><color=#CAE1FF>亡者召还X</color></b>
 SkillKeyword/Keyword_Ghost_Desc,Text,,"스킬을 사용할 때, X의 <color=#E066FF>망령</color>을 소모하여 추가 효과를 발동할 수 있습니다.","When using a skill, consumes X points of <color=#E066FF>Wraith</color> to trigger additional effects.",,打出技能时，消耗X点<color=#E066FF>亡魂</color>，能够触发额外效果。,打出技能时，消耗X点<color=#E066FF>亡魂</color>，能够触发额外效果。
 SkillKeyword/Keyword_Ghost_Name,Text,,<b><color=#E066FF>망령 소환 X</color></b>,<b><color=#E066FF>Summon Wraith X</color></b>,,<b><color=#E066FF>唤魂X</color></b>,<b><color=#E066FF>唤魂X</color></b>
