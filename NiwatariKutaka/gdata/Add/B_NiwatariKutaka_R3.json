@@ -1,0 +1,13 @@
+{
+    "B_NiwatariKutaka_R3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_R3",
+        "BuffTag": "Debuff",
+        "Name": "焚魂",
+        "MaxStack": 10,
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 110,
+        "Icon": "B_NiwatariKutaka_R3\\B_NiwatariKutaka_R3_Icon.png"
+    }
+}

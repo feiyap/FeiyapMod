@@ -1,0 +1,13 @@
+{
+    "B_NiwatariKutaka_R2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "LifeTime": 2,
+        "MaxStack": 1,
+        "Name": "早起的鸟儿有虫吃！",
+        "Icon": "B_NiwatariKutaka_R2\\B_NiwatariKutaka_R2_Icon.png",
+        "Description": "自身因同渡者而受到的伤害减少33%、治疗增加33%。"
+    }
+}

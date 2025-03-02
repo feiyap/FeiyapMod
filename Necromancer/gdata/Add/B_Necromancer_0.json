@@ -1,0 +1,16 @@
+{
+    "B_Necromancer_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": true,
+        "Cantdisable": true,
+        "ClassName": "Necromancer.B_Necromancer_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "恍惚",
+        "Description": "恍惚",
+        "MaxStack": 3,
+        "Icon": "B_Necromancer_0\\B_Necromancer_0_Icon.png"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "S_P_Necromancer_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "all_enemy",
+        "Name": "吞血之渊",
+        "Description": "回复造成伤害的生命值。",
+        "UseAp": 2,
+        "User": "",
+        "NotCount": true,
+        "Disposable": true,
+        "IgnoreTaunt": false,
+        "Effect_Target": "SE_T_S_P_Necromancer_1",
+        "SkillExtended": [
+            "Necromancer.S_P_Necromancer_1"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_P_Necromancer_1\\S_P_Necromancer_1_Image_0.png",
+        "Image_1": "S_P_Necromancer_1\\S_P_Necromancer_1_Image_1.png",
+        "Image_2": "S_P_Necromancer_1\\S_P_Necromancer_1_Image_2.png"
+    }
+}

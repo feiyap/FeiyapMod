@@ -1,0 +1,18 @@
+{
+    "YuyukoFEclipse": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "优雅舞动的亡灵\r\n",
+        "Character": "YuyukoF",
+        "SkinDesc": "每当跳舞时，裙优雅地徐徐展开，宛如樱花飞舞般，在空中梦幻般地翩翩起舞。\r\n这是妖梦为了幽幽子所主持的华丽舞会而努力，用心缝制的礼服。\r\n这件蕴含着主仆情谊和回忆的服装，在这盛开的夜晚绚丽地装点着，是一件值得骄傲的礼服。",
+        "FaceSprite": "YuyukoFEclips\\YuyukoFEclipsBattleFace.png",
+        "CampSD": [
+            "YuyukoFEclips\\YuyukoFEclipsCampSD0.png",
+            "YuyukoFEclips\\YuyukoFEclipsCampSD1.png",
+            "YuyukoFEclips\\YuyukoFEclipsCampSD2.png",
+            "YuyukoFEclips\\YuyukoFEclipsCampSD3.png"
+        ],
+        "VFXChangeSkill": [
+            "S_YuyukoF_5_Eclipse"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "B_Maribel_Rare_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "第九十九扇门",
+        "Description": "代替其他队友承受伤害。每次受到伤害时，自身获得1~&a的随机数值的治疗(最大值为自身防御力)。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (1)",
+        "LifeTime": 2
+    }
+}

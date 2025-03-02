@@ -1,0 +1,16 @@
+{
+    "UsamiRenko": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "face": "UsamiRenko\\UsamiRenkoBattleFace.png",
+        "name": "宇佐见莲子",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 24,
+            "y": 24
+        },
+        "CollectionSprite_Cover": "UsamiRenko\\UsamiRenkoCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "UsamiRenko\\UsamiRenkoCollectionSprite_SkillFace.png"
+    }
+}

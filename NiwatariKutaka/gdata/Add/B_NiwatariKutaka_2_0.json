@@ -1,0 +1,13 @@
+{
+    "B_NiwatariKutaka_2_0": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_2_0",
+        "BuffTag": "null",
+        "Name": "悄悄地！",
+        "Description": "下回合开始时，若自身没有体力极限，提升1点法力值。",
+        "MaxStack": 1,
+        "Icon": "B_NiwatariKutaka_2_0\\B_NiwatariKutaka_2_0_Icon.png",
+        "Hide": false
+    }
+}

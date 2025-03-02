@@ -1,0 +1,50 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "NiwatariKutaka",
+            "MissChain",
+            "Queen"
+        ],
+        "PartyEquip": [
+            [
+                "CubicNecklace",
+                "RingofStupidman"
+            ],
+            [
+                "CubicNecklace",
+                "RingofStupidman"
+            ],
+            [
+                "CrescentsReflex",
+                "CubicNecklace"
+            ]
+        ],
+        "PartySkills": [
+            [
+                "S_NiwatariKutaka_R1",
+                "S_NiwatariKutaka_R2",
+                "S_NiwatariKutaka_R3"
+            ],
+            [
+                "S_Hein_14",
+                "S_NiwatariKutaka_1"
+            ],
+            [
+                "S_Queen_2",
+                "S_Ilya_1"
+            ]
+        ],
+        "PartyBasicSkill": [
+            "S_NiwatariKutaka_6",
+            "S_Joey_1",
+            "S_LucyC_2"
+        ],
+        "AP": 8,
+        "Level": 6,
+        "LucySkill": [
+            "S_LucyD_12",
+            "S_NiwatariKutaka_LucyD"
+        ]
+    }
+}

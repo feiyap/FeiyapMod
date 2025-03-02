@@ -1,0 +1,23 @@
+{
+    "myKey": "MaribelHearn",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "MaribelHearn\\MaribelHearnBattleChar.png",
+        "offsetMax": {
+            "x": 484.253876,
+            "y": 343.887054
+        },
+        "offsetMin": {
+            "x": -450.746124,
+            "y": -1345.713
+        },
+        "pivot": {
+            "x": 0.4820814,
+            "y": 0.7964684
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

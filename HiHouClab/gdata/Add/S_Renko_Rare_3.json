@@ -1,0 +1,32 @@
+{
+    "S_Renko_Rare_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "otherally",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_Renko_Rare_3\\S_Renko_Rare_3_Image_0.png",
+        "Image_1": "S_Renko_Rare_3\\S_Renko_Rare_3_Image_1.png",
+        "Image_2": "S_Renko_Rare_3\\S_Renko_Rare_3_Image_2.png",
+        "Name": "不等式的廷克·贝尔",
+        "UseAp": 1,
+        "Description": "仅当自身持有经典力学的尽头时才可使用。\n\n<color=#4169E1><i>「玛艾露贝莉·赫恩！你不会还在坚信发现异界是自己的特权吧！」</i></color>",
+        "User": "UsamiRenko",
+        "Effect_Target": "SE_T_S_Renko_Rare_3",
+        "Effect_Self": "SE_S_S_Renko_Rare_3"
+    }
+}

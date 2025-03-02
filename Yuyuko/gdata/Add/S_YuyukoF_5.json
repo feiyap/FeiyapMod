@@ -2,7 +2,7 @@
     "S_YuyukoF_5": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/Charon/ShadowPriest_9_0",
+        "Particle": "Particle/Charon/ShadowPriest_StigmaExplosion",
         "Target": "enemy",
         "IgnoreTaunt": false,
         "Name": "蝶符「凤蝶纹的死枪」",

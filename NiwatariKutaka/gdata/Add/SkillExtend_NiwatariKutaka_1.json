@@ -1,0 +1,12 @@
+{
+    "SkillExtend_NiwatariKutaka_1": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "使用时，若自身为同渡者，恢复1点法力值。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "NiwatariKutaka",
+        "ClassName": "NiwatariKutaka.SkillExtend_NiwatariKutaka_1"
+    }
+}

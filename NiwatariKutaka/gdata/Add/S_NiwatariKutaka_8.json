@@ -1,0 +1,34 @@
+{
+    "S_NiwatariKutaka_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "all_ally",
+        "NotCount": true,
+        "Disposable": false,
+        "Name": "全灵鬼渡",
+        "Description": "释放时，依据手中同渡者技能的数量恢复法力值（至多4点）。",
+        "UseAp": 4,
+        "User": "NiwatariKutaka",
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_NiwatariKutaka_8",
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_8"
+        ],
+        "Image_0": "S_NiwatariKutaka_8\\S_NiwatariKutaka_8_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_8\\S_NiwatariKutaka_8_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_8\\S_NiwatariKutaka_8_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

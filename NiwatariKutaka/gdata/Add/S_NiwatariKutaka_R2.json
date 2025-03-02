@@ -1,0 +1,23 @@
+{
+    "S_NiwatariKutaka_R2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Phoenix/Phoenix_new_4",
+        "Rare": true,
+        "Target": "otherally",
+        "NotCount": false,
+        "Disposable": true,
+        "NoBasicSkill": false,
+        "Name": "强制让你早起哦！",
+        "Image_0": "S_NiwatariKutaka_R2\\S_NiwatariKutaka_R2_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_R2\\S_NiwatariKutaka_R2_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_R2\\S_NiwatariKutaka_R2_Image_2.png",
+        "Description": "额外使该名目标友军成为同渡者。\r",
+        "User": "NiwatariKutaka",
+        "UseAp": 1,
+        "Effect_Self": "SE_S_S_NiwatariKutaka_R2",
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_R2"
+        ]
+    }
+}

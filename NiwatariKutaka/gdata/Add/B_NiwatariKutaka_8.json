@@ -1,0 +1,12 @@
+{
+    "B_NiwatariKutaka_8": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_8",
+        "BuffTag": "null",
+        "Name": "无视嘲讽",
+        "MaxStack": 1,
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/violet/violet_10",
+        "Description": "无视嘲讽"
+    }
+}

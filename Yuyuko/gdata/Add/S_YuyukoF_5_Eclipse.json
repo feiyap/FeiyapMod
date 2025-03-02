@@ -1,0 +1,15 @@
+{
+    "S_YuyukoF_5_Eclipse": {
+        "_gdeSchema": "VFXSkill",
+        "MySkill": "S_YuyukoF_5",
+        "Particle": "Particle/Charon/ShadowPriest_StigmaExplosion",
+        "Image_0": "S_YuyukoF_5_Eclipse\\S_YuyukoF_5_Eclipse_Image_0.png",
+        "SkillImage": [
+            "S_YuyukoF_5_Eclipse\\S_YuyukoF_5_Eclipse_Image_0.png",
+            "S_YuyukoF_5_Eclipse\\S_YuyukoF_5_Eclipse_Image_1.png",
+            "S_YuyukoF_5_Eclipse\\S_YuyukoF_5_Eclipse_Image_2.png"
+        ],
+        "Image_1": "S_YuyukoF_5_Eclipse\\S_YuyukoF_5_Eclipse_Image_1.png",
+        "Image_2": "S_YuyukoF_5_Eclipse\\S_YuyukoF_5_Eclipse_Image_2.png"
+    }
+}

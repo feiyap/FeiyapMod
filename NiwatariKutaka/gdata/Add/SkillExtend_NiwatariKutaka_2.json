@@ -1,0 +1,10 @@
+{
+    "SkillExtend_NiwatariKutaka_2": {
+        "_gdeSchema": "SkillExtended",
+        "ClassName": "NiwatariKutaka.SkillExtend_NiwatariKutaka_2",
+        "Name": "使用时，若自身为同渡者，抽取1个技能。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "NiwatariKutaka"
+    }
+}

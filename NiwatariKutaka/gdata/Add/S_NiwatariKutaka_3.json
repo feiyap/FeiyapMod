@@ -1,0 +1,33 @@
+{
+    "S_NiwatariKutaka_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/VioletSlash",
+        "Target": "self",
+        "IgnoreTaunt": false,
+        "NoBasicSkill": true,
+        "Name": "虚无之羽",
+        "Description": "仅能在自身不存在体力极限时使用。\r\n对自身造成&a（33%最大体力值）点痛苦伤害。\r\n同渡者释放的下一个技能将重复释放一次，且重复释放的技能伤害量与治疗量减少33%。",
+        "User": "NiwatariKutaka",
+        "UseAp": 0,
+        "NotCount": true,
+        "Basic": false,
+        "Image_0": "S_NiwatariKutaka_3\\S_NiwatariKutaka_3_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_3\\S_NiwatariKutaka_3_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_3\\S_NiwatariKutaka_3_Image_2.png",
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_3"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

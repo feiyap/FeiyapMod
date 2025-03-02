@@ -1,0 +1,17 @@
+{
+    "B_NiwatariKutaka_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_4",
+        "BuffTag": "null",
+        "Name": "别过来！",
+        "Description": "自身受到痛苦伤害或治疗累计100%最大体力值（&a/&b）点时，对体力值最高的敌人造成33%最大体力值（&c）点痛苦伤害。",
+        "MaxStack": 1,
+        "LifeTime": 6,
+        "Icon": "B_NiwatariKutaka_4\\B_NiwatariKutaka_4_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": true,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

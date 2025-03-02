@@ -1,0 +1,23 @@
+{
+    "myKey": "UsamiRenko",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "UsamiRenko\\UsamiRenkoFaceSmallChar.png",
+        "offsetMax": {
+            "x": 244.914429,
+            "y": 140.656616
+        },
+        "offsetMin": {
+            "x": -161.78894,
+            "y": -813.0785
+        },
+        "pivot": {
+            "x": 0.392809361,
+            "y": 0.846659362
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

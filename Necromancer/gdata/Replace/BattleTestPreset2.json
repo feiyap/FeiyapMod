@@ -1,0 +1,34 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Necromancer"
+        ],
+        "PartyBasicSkill": [
+            "S_P_Necromancer_2"
+        ],
+        "PartySkills": [
+            [
+                "S_Necromancer_0",
+                "S_Necromancer_1",
+                "S_Necromancer_2",
+                "S_Necromancer_3",
+                "S_Necromancer_4",
+                "S_Necromancer_5",
+                "S_Necromancer_6",
+                "S_Necromancer_7"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            "S_LucyD_3"
+        ],
+        "ConsumeItems": [
+            
+        ]
+    }
+}

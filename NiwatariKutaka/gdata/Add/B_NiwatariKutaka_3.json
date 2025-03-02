@@ -1,0 +1,11 @@
+{
+    "B_NiwatariKutaka_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_3",
+        "BuffTag": "null",
+        "Name": "虚无之羽",
+        "Icon": "B_NiwatariKutaka_3\\B_NiwatariKutaka_3_Icon.png",
+        "Description": "重复释放下一个出手的技能，且重复释放的技能伤害量与治疗量-33%。",
+        "MaxStack": 1
+    }
+}

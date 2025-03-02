@@ -1,0 +1,20 @@
+{
+    "B_Necromancer_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Necromancer.B_Necromancer_5",
+        "BuffTag": "DOT",
+        "Name": "血肉活化",
+        "Tick": "SE_Tick_B_Necromancer_5",
+        "Debuff": true,
+        "TagPer": 100,
+        "Description": "受到痛苦伤害前，回复&a点生命值，然后持续回合-1。\n#",
+        "LifeTime": 2,
+        "MaxStack": 2,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "Icon": "B_Necromancer_5\\B_Necromancer_5_Icon.png",
+        "Hide": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

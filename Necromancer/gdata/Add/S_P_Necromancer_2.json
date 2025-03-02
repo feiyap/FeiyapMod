@@ -1,0 +1,34 @@
+{
+    "S_P_Necromancer_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Charon/ShadowPriest_Thurible",
+        "Target": "enemy",
+        "Name": "死亡轻触",
+        "Description": "",
+        "UseAp": 0,
+        "User": "",
+        "Effect_Target": "SE_T_S_P_Necromancer_2",
+        "NotCount": true,
+        "Disposable": false,
+        "IgnoreTaunt": true,
+        "NotChuck": false,
+        "SkillExtended": [
+            "Necromancer.S_P_Necromancer_2"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": true,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_P_Necromancer_2\\S_P_Necromancer_2_Image_0.png",
+        "Image_1": "S_P_Necromancer_2\\S_P_Necromancer_2_Image_1.png",
+        "Image_2": "S_P_Necromancer_2\\S_P_Necromancer_2_Image_2.png"
+    }
+}

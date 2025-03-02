@@ -1,0 +1,23 @@
+{
+    "myKey": "UsamiRenko",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "UsamiRenko\\UsamiRenkoBattleChar.png",
+        "offsetMax": {
+            "x": 406.1406,
+            "y": 349.4697
+        },
+        "offsetMin": {
+            "x": -314.3594,
+            "y": -1340.13037
+        },
+        "pivot": {
+            "x": 0.436307281,
+            "y": 0.793164253
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "B_NiwatariKutaka_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_7",
+        "BuffTag": "Debuff",
+        "Name": "防御力减少",
+        "MaxStack": 2,
+        "LifeTime": 0,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (13)",
+        "Debuff": true,
+        "TagPer": 120
+    }
+}

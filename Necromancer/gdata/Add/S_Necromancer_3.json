@@ -1,0 +1,22 @@
+{
+    "S_Necromancer_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "Name": "骸骨暴乱",
+        "Description": "反转目标嘲讽",
+        "User": "Necromancer",
+        "UseAp": 1,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Necromancer_3",
+        "Effect_Self": "SE_S_S_Necromancer_3",
+        "IgnoreTaunt": true,
+        "SkillExtended": [
+            "Necromancer.S_Necromancer_3"
+        ],
+        "Image_0": "S_Necromancer_3\\S_Necromancer_3_Image_0.png",
+        "Image_1": "S_Necromancer_3\\S_Necromancer_3_Image_1.png",
+        "Image_2": "S_Necromancer_3\\S_Necromancer_3_Image_2.png"
+    }
+}

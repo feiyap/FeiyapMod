@@ -1,0 +1,22 @@
+{
+    "SE_T_S_P_Necromancer_4": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Necromancer_5",
+            "B_Necromancer_6"
+        ],
+        "BuffPlusTagPer": [
+            100,
+            100
+        ],
+        "DMG_Per": 0,
+        "DMG_Base": 0,
+        "HEAL_MaxHpPer": 0,
+        "HEAL_Per": 50,
+        "HEAL_Base": 0,
+        "CRI": 0,
+        "ForceHeal": false,
+        "ChainHeal": false
+    }
+}

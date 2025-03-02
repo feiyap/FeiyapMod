@@ -1,0 +1,22 @@
+{
+    "S_NiwatariKutaka_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_33",
+        "Target": "enemy",
+        "Name": "别出声！",
+        "Description": "目标敌人于本回合内攻击同渡者时，造成的伤害降低为1。\r\n触发伤害降低的效果时，抽取1个技能（限1次）。",
+        "User": "NiwatariKutaka",
+        "UseAp": 1,
+        "NoBasicSkill": true,
+        "IgnoreTaunt": true,
+        "Image_0": "S_NiwatariKutaka_2\\S_NiwatariKutaka_2_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_2\\S_NiwatariKutaka_2_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_2\\S_NiwatariKutaka_2_Image_2.png",
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_2"
+        ],
+        "Disposable": false,
+        "Effect_Self": "SE_S_S_NiwatariKutaka_2"
+    }
+}

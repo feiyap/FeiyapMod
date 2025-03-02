@@ -1,0 +1,16 @@
+{
+    "B_NiwatariKutaka_5": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_5",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "快点好起来吧！",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (11)",
+        "MaxStack": 1,
+        "LifeTime": 3
+    }
+}

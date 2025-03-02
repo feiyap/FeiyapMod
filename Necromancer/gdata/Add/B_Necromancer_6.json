@@ -1,0 +1,14 @@
+{
+    "B_Necromancer_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Necromancer.B_Necromancer_6",
+        "BuffTag": "Debuff",
+        "Name": "白骨增生",
+        "Description": "根据目标痛苦抵抗率，获得等量防御力减少。\n#",
+        "MaxStack": 3,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 100,
+        "Icon": "B_Necromancer_6\\B_Necromancer_6_Icon.png"
+    }
+}

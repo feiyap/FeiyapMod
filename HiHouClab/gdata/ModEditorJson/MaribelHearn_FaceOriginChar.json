@@ -1,0 +1,23 @@
+{
+    "myKey": "MaribelHearn",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "MaribelHearn\\MaribelHearnFaceOriginChar.png",
+        "pivot": {
+            "x": 0.4501048,
+            "y": 0.8388635
+        },
+        "offsetMin": {
+            "x": -382.589081,
+            "y": -1288.49438
+        },
+        "offsetMax": {
+            "x": 467.4109,
+            "y": 247.505676
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

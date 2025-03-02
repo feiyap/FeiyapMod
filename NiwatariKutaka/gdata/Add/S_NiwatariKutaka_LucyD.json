@@ -1,0 +1,33 @@
+{
+    "S_NiwatariKutaka_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "二羽渡神",
+        "Description": "抽取2个技能，恢复2点法力值。\r\n握在手中时，每有一名友军进入或脱离濒死状态时，此技能费用减少1点。",
+        "UseAp": 3,
+        "User": "LucyDraw",
+        "LucyPartyDraw": "NiwatariKutaka",
+        "Image_0": "S_NiwatariKutaka_LucyD\\S_NiwatariKutaka_LucyD_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_LucyD\\S_NiwatariKutaka_LucyD_Image_1.png",
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_LucyD"
+        ]
+    }
+}

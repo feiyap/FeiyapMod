@@ -1,0 +1,23 @@
+{
+    "S_NiwatariKutaka_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Debuff",
+        "Target": "enemy",
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Basic": false,
+        "Track": false,
+        "Name": "嘿！你在看哪呢！",
+        "Description": "对持有嘲讽的敌人释放时，赋予其“防御力-8%”的减益（成功率120%，持续至战斗结束，最多叠加2层）。",
+        "UseAp": 1,
+        "User": "NiwatariKutaka",
+        "Effect_Target": "SE_T_S_NiwatariKutaka_7",
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_7"
+        ],
+        "Image_0": "S_NiwatariKutaka_7\\S_NiwatariKutaka_7_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_7\\S_NiwatariKutaka_7_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_7\\S_NiwatariKutaka_7_Image_2.png"
+    }
+}

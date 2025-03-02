@@ -1,0 +1,34 @@
+{
+    "S_Necromancer_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "self",
+        "Name": "与人间过期通讯二则",
+        "Description": "对自身造成&a点痛苦伤害两次。\n将固定能力替换为彻心之痛。\n忘却之灵：取消上述效果，转为对自身造成&b点痛苦伤害，并将一张彻心之痛洗入抽牌堆。",
+        "User": "Necromancer",
+        "UseAp": 1,
+        "NotCount": true,
+        "Disposable": false,
+        "PlusSkillView": "S_P_Necromancer_3",
+        "NotChuck": false,
+        "SkillExtended": [
+            "Necromancer.S_Necromancer_7"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_Necromancer_7\\S_Necromancer_7_Image_0.png",
+        "Image_1": "S_Necromancer_7\\S_Necromancer_7_Image_1.png",
+        "Image_2": "S_Necromancer_7\\S_Necromancer_7_Image_2.png"
+    }
+}

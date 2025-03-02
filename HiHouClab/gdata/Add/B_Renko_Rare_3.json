@@ -1,0 +1,15 @@
+{
+    "B_Renko_Rare_3": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "粒子的偏振",
+        "Description": "",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (1)"
+    }
+}

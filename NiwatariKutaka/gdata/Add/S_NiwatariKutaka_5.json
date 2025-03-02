@@ -1,0 +1,35 @@
+{
+    "S_NiwatariKutaka_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "all_ally",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "就这么办吧！",
+        "Description": "释放同渡者手中最上方的技能。\r\n若手中没有同渡者的技能，则优先抽取1个同渡者的技能。\r\n之后重置选择同渡者。",
+        "UseAp": 1,
+        "User": "NiwatariKutaka",
+        "Effect_Self": "null",
+        "Image_0": "S_NiwatariKutaka_5\\S_NiwatariKutaka_5_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_5\\S_NiwatariKutaka_5_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_5\\S_NiwatariKutaka_5_Image_2.png",
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_5"
+        ],
+        "Effect_Target": "SE_T_S_NiwatariKutaka_5"
+    }
+}

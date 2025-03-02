@@ -1,0 +1,13 @@
+{
+    "B_NiwatariKutaka_2_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_2_1",
+        "BuffTag": "null",
+        "Name": "抽取停止",
+        "Icon": "B_NiwatariKutaka_2_1\\B_NiwatariKutaka_2_1_Icon.png",
+        "MaxStack": 1,
+        "LifeTime": 0,
+        "Description": "",
+        "Hide": true
+    }
+}

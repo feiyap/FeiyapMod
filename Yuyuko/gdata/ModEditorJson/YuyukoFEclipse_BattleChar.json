@@ -1,0 +1,23 @@
+{
+    "myKey": "YuyukoFEclipse",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "YuyukoFEclips\\YuyukoFEclipsBattleChar.png",
+        "offsetMax": {
+            "x": 1230.46375,
+            "y": 751.034241
+        },
+        "offsetMin": {
+            "x": -974.843567,
+            "y": -1454.27307
+        },
+        "pivot": {
+            "x": 0.442044318,
+            "y": 0.659442365
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

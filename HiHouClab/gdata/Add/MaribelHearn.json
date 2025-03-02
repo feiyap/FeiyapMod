@@ -1,0 +1,17 @@
+{
+    "MaribelHearn": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Tank",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "name": "玛艾露贝莉·赫恩",
+        "face": "MaribelHearn\\MaribelHearnBattleFace.png",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 40,
+            "y": 80
+        },
+        "CollectionSprite_Cover": "MaribelHearn\\MaribelHearnCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "MaribelHearn\\MaribelHearnCollectionSprite_SkillFace.png"
+    }
+}

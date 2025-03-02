@@ -1,0 +1,24 @@
+{
+    "S_NiwatariKutaka_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/hitorange",
+        "Target": "enemy",
+        "NotCount": true,
+        "Disposable": false,
+        "Name": "一起上吧！",
+        "Description": "依据同渡者的职业，由同渡者释放相应技能。\r\n输出：对目标追加释放'打击'（115%攻击力点伤害）。\r\n支援：对所有友军释放'范围治疗'（55%治疗力点治疗）。\r\n防御：释放'士气上升'（恢复2点法力值）。",
+        "User": "NiwatariKutaka",
+        "UseAp": 2,
+        "Image_0": "S_NiwatariKutaka_6\\S_NiwatariKutaka_6_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_6\\S_NiwatariKutaka_6_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_6\\S_NiwatariKutaka_6_Image_2.png",
+        "Effect_Target": "SE_T_S_NiwatariKutaka_6",
+        "Track": true,
+        "Basic": true,
+        "IgnoreTaunt": true,
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_6"
+        ]
+    }
+}

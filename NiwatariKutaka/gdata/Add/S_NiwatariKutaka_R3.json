@@ -1,0 +1,25 @@
+{
+    "S_NiwatariKutaka_R3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S2_MainBoss_1_3 1",
+        "Rare": true,
+        "Target": "enemy",
+        "Disposable": false,
+        "Name": "渡神焚魂",
+        "Image_0": "S_NiwatariKutaka_R3\\S_NiwatariKutaka_R3_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_R3\\S_NiwatariKutaka_R3_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_R3\\S_NiwatariKutaka_R3_Image_2.png",
+        "Description": "依据手中同渡者的技能费用，每1点使这个技能造成的伤害增加&a点，并额外施加相应层数的[焚魂]。",
+        "UseAp": 2,
+        "User": "NiwatariKutaka",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "IgnoreTaunt": true,
+        "Track": true,
+        "Effect_Target": "SE_T_S_NiwatariKutaka_R3",
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_R3"
+        ]
+    }
+}

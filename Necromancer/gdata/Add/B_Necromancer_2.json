@@ -1,0 +1,12 @@
+{
+    "B_Necromancer_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Necromancer.B_Necromancer_2",
+        "BuffTag": "null",
+        "Name": "幽魂不可承受之轻",
+        "Description": "忘却之灵解除时，随之解除。",
+        "Cantdisable": false,
+        "Tick": "SE_Tick_B_Necromancer_2",
+        "MaxStack": 1
+    }
+}

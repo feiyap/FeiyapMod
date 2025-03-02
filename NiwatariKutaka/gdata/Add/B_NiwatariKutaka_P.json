@@ -1,0 +1,16 @@
+{
+    "B_NiwatariKutaka_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "同渡者",
+        "Description": "受到非痛苦伤害时，&target受到同等数量的痛苦伤害；\n受到治疗时，&target受到同等数量的普通治疗。",
+        "MaxStack": 1,
+        "Icon": "B_NiwatariKutaka_P\\B_NiwatariKutaka_P_Icon.png"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "NiwatariKutaka",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "NiwatariKutaka\\NiwatariKutakaBattleChar.png",
+        "offsetMax": {
+            "x": 597.8531,
+            "y": 324.898254
+        },
+        "offsetMin": {
+            "x": -621.826965,
+            "y": -1169.45178
+        },
+        "pivot": {
+            "x": 0.5098279,
+            "y": 0.7825822
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

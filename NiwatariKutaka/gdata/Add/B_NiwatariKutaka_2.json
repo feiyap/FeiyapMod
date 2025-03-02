@@ -1,0 +1,18 @@
+{
+    "B_NiwatariKutaka_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "觉察！",
+        "Description": "于本回合内攻击同渡者时，造成的伤害降低为1。\n触发此效果时抽取1个技能（限1次）。",
+        "Icon": "B_NiwatariKutaka_2\\B_NiwatariKutaka_2_Icon.png",
+        "MaxStack": 1,
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

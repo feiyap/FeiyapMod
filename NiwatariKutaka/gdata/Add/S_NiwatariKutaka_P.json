@@ -1,0 +1,11 @@
+{
+    "S_NiwatariKutaka_P": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Description": "",
+        "Name": "选择成为同渡者。",
+        "Image_0": "S_NiwatariKutaka_P\\S_NiwatariKutaka_P_Image_0.png"
+    }
+}

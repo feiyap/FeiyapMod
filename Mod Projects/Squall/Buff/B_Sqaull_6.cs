@@ -17,6 +17,16 @@ namespace Squall
     {
         public IEnumerator Targeted(BattleChar Attacker, List<BattleChar> SaveTargets, Skill skill)
         {
+            bool flag = false;
+            for (int i = 0; i < SaveTargets.Count; i++)
+            {
+                if (SaveTargets[i] == this.BChar)
+                {
+                    flag = true;
+                    break;
+                }
+            }
+            if (!flag)
             {
                 for (int j = 0; j < SaveTargets.Count; j++)
                 {
@@ -34,8 +44,8 @@ namespace Squall
                         }
                     }
                 }
+                SelfStackDestroy();
             }
-            SelfStackDestroy();
             return null;
         }
 

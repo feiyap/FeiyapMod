@@ -1,0 +1,23 @@
+{
+    "myKey": "Necromancer",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Necromancer\\NecromancerFaceSmallChar.png",
+        "pivot": {
+            "x": 0.522161543,
+            "y": 0.8935633
+        },
+        "offsetMin": {
+            "x": -342.348022,
+            "y": -1082.07788
+        },
+        "offsetMax": {
+            "x": 309.3966,
+            "y": 122.636086
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

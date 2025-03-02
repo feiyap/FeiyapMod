@@ -1,0 +1,23 @@
+{
+    "myKey": "YuyukoFEclipse",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "YuyukoFEclips\\YuyukoFEclipsFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1390.58887,
+            "y": 728.8736
+        },
+        "offsetMin": {
+            "x": -1035.24927,
+            "y": -1696.9646
+        },
+        "pivot": {
+            "x": 0.42618227,
+            "y": 0.6973221
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

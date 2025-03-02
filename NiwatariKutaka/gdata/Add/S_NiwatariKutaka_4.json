@@ -1,0 +1,19 @@
+{
+    "S_NiwatariKutaka_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "self",
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "Name": "饿鬼馋身",
+        "User": "NiwatariKutaka",
+        "Disposable": true,
+        "Image_0": "S_NiwatariKutaka_4\\S_NiwatariKutaka_4_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_4\\S_NiwatariKutaka_4_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_4\\S_NiwatariKutaka_4_Image_2.png",
+        "Effect_Self": "SE_S_S_NiwatariKutaka_4",
+        "UseAp": 2,
+        "IgnoreTaunt": false
+    }
+}

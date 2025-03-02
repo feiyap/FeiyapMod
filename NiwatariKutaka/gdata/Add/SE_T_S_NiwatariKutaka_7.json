@@ -1,0 +1,17 @@
+{
+    "SE_T_S_NiwatariKutaka_7": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 60,
+        "Buffs": [
+            "B_Taunt",
+            "B_Taunt",
+            "B_Priest_3_T_0"
+        ],
+        "BuffPlusTagPer": [
+            20,
+            20,
+            10
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "SE_T_S_P_Necromancer_5": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 100,
+        "Buffs": [
+            "B_Necromancer_3"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

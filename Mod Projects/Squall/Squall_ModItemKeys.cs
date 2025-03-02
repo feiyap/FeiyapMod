@@ -3,6 +3,7 @@ namespace Squall
 {
     public static class ModItemKeys
     {
+        public static string Buff_B_Sqaull_6 = "B_Sqaull_6";
 		/// <summary>
 		/// 发怒
 		/// </summary>
@@ -171,7 +172,11 @@ namespace Squall
 		/// 爆裂禁区
 		/// </summary>
         public static string Skill_S_Squall_Rare_3_0 = "S_Squall_Rare_3_0";
-        public static string Buff_B_Sqaull_6 = "B_Sqaull_6";
+		/// <summary>
+		/// 斯考尔拥有[刃甲]时，造成的伤害提升30%。
+		/// 攻击技能
+		/// </summary>
+        public static string SkillExtended_SE_Squall_C_0 = "SE_Squall_C_0";
 
     }
 

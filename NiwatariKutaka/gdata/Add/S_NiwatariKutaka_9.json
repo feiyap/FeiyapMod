@@ -1,0 +1,21 @@
+{
+    "S_NiwatariKutaka_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Fanatic/Fanatic_0",
+        "Target": "enemy",
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "Name": "狱界视线",
+        "Description": "受到痛苦伤害后立即释放时，额外造成与该伤害相等（&a）的伤害。",
+        "UseAp": 1,
+        "User": "NiwatariKutaka",
+        "Effect_Target": "SE_T_S_NiwatariKutaka_9",
+        "Image_0": "S_NiwatariKutaka_9\\S_NiwatariKutaka_9_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_9\\S_NiwatariKutaka_9_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_9\\S_NiwatariKutaka_9_Image_2.png",
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_9"
+        ]
+    }
+}

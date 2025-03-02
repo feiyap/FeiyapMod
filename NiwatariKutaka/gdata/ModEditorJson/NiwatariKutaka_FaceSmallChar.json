@@ -1,0 +1,23 @@
+{
+    "myKey": "NiwatariKutaka",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "NiwatariKutaka\\NiwatariKutakaFaceSmallChar.png",
+        "offsetMax": {
+            "x": 319.2667,
+            "y": 127.541313
+        },
+        "offsetMin": {
+            "x": -306.621948,
+            "y": -639.296448
+        },
+        "pivot": {
+            "x": 0.486651927,
+            "y": 0.826389551
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

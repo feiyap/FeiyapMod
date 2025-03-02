@@ -1,0 +1,11 @@
+{
+    "B_NiwatariKutaka_R1_3": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "NiwatariKutaka.B_NiwatariKutaka_R1_3",
+        "BuffTag": "null",
+        "Name": "算法幻影",
+        "Icon": "B_NiwatariKutaka_R1_3\\B_NiwatariKutaka_R1_3_Icon.png",
+        "MaxStack": 1
+    }
+}

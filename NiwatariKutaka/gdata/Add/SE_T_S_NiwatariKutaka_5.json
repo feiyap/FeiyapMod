@@ -1,0 +1,12 @@
+{
+    "SE_T_S_NiwatariKutaka_5": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_NiwatariKutaka_5"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

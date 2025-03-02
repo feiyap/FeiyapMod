@@ -1,0 +1,75 @@
+{
+    "NiwatariKutaka": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Tank",
+        "PassiveClassName": "NiwatariKutaka.P_NiwatariKutaka",
+        "PassiveUnlockLV1": false,
+        "name": "庭渡久侘歌",
+        "SelectInfo": "久侘歌是野生鸡的神明——二羽渡神，拥有治愈喉咙疾病程度的能力。一提到鸡，很多人脑海中会有羸弱、胆小的印象，但她是一位彬彬有礼、为人公正、优先平等与利他精神的神明。\r\n\r\n久侘歌平时居住在妖怪之山，在地狱的口岸（彼岸靠近三途河边的区域）上班。她的工作是守卫地狱与异界的交界口岸，类似地狱的门卫，并负责区分鬼与人类，将他们分配到属于各自的地方。\r\n\r\n庭渡久侘歌是注重协作的防御性角色。庭渡久侘歌拥有较高的体力值，可以与友军共享伤害与治疗，擅长配合友军作战。",
+        "Gender": 1,
+        "FirstSkill": "null",
+        "face": "NiwatariKutaka\\NiwatariKutakaBattleFace.png",
+        "MAXHP": {
+            "x": 30,
+            "y": 55
+        },
+        "ATK": {
+            "x": 12,
+            "y": 20
+        },
+        "DEF": {
+            "x": 0,
+            "y": 4
+        },
+        "REG": {
+            "x": 10,
+            "y": 14
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "RES_DEBUFF": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 5,
+            "y": 45
+        },
+        "HIT_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "HIT_DEBUFF": {
+            "x": 5,
+            "y": 45
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "PassiveName": "共渡",
+        "PassiveDes": "第一回合开始时，选择一名其他友军，作为“同渡者”。\r\n\r\n同渡者受到非痛苦伤害时，久侘歌受到同等数量的痛苦伤害；同渡者受到治疗时，久侘歌受到同等数量的普通治疗。\r\n\r\n久侘歌不会因痛苦伤害而进入无法战斗状态。",
+        "CollectionSprite_Cover": "NiwatariKutaka\\NiwatariKutakaCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "NiwatariKutaka\\NiwatariKutakaCollectionSprite_SkillFace.png",
+        "StatView_Difficult": 2,
+        "StatView_Atk": 1,
+        "StatView_Def": 1,
+        "StatView_Sup": 3,
+        "StatView_Debuff": 1,
+        "StatView_CC": 1,
+        "CampSelectWord": "扭曲之地很危险哦。让我来帮助你们吧！",
+        "PassiveIcon": "NiwatariKutaka\\NiwatariKutakaPassiveIcon.png",
+        "CampSD": [
+            "NiwatariKutaka\\NiwatariKutakaCampSD0.png",
+            "NiwatariKutaka\\NiwatariKutakaCampSD1.png",
+            "NiwatariKutaka\\NiwatariKutakaCampSD2.png",
+            "NiwatariKutaka\\NiwatariKutakaCampSD3.png"
+        ]
+    }
+}

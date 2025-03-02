@@ -1,0 +1,34 @@
+{
+    "S_NiwatariKutaka_R1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "skill",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "算法幻影",
+        "UseAp": 1,
+        "User": "NiwatariKutaka",
+        "Image_0": "S_NiwatariKutaka_R1\\S_NiwatariKutaka_R1_Image_0.png",
+        "Image_1": "S_NiwatariKutaka_R1\\S_NiwatariKutaka_R1_Image_1.png",
+        "Image_2": "S_NiwatariKutaka_R1\\S_NiwatariKutaka_R1_Image_2.png",
+        "Effect_Target": "null",
+        "SkillExtended": [
+            "NiwatariKutaka.S_NiwatariKutaka_R1"
+        ],
+        "Description": "只能选择自己的技能为目标。\r\n放逐目标技能，并依据该技能费用恢复法力值。\r\n依据同渡者的职业，自身获得相应增益（基于自身等级，且持续至战斗结束）：\r\n输出：攻击力+&a；暴击率+&b%；\r\n支援：治疗力+&a；闪避率+&b%。\r\n防御：所有友军防御力+&b%。\r\n从同渡者的所有普通技能中选择2个技能生成，生成的技能在本次战斗期间的拥有者将变成自己。\r\n若无同渡者，则对自身触发；若同渡者的数量大于1，则只对最左侧的同渡者触发。"
+    }
+}
