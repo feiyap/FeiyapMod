@@ -10,7 +10,7 @@
         "Name": "残月轨迹",
         "UseAp": 3,
         "User": "Squall",
-        "Description": "消耗最多6层[刃甲]。\n每消耗1层[刃甲]使伤害增加4%，并重复释放1次。",
+        "Description": "消耗最多6层<color=#4876FF>刃甲</color>。\n每消耗1层<color=#4876FF>刃甲</color>使伤害增加4%，并重复释放1次。",
         "Effect_Target": "SE_T_S_Squall_4",
         "Image_0": "S_Squall_4\\S_Squall_4_Image_0.png",
         "Image_1": "S_Squall_4\\S_Squall_4_Image_1.png",

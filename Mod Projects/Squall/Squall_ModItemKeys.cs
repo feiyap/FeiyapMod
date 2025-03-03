@@ -58,6 +58,11 @@ namespace Squall
 		/// 攻击后解除。
 		/// </summary>
         public static string Buff_B_Squall_Taunt = "B_Squall_Taunt";
+		/// <summary>
+		/// 斯考尔拥有[刃甲]时，造成的伤害提升30%。
+		/// 攻击技能
+		/// </summary>
+        public static string SkillExtended_SE_Squall_C_0 = "SE_Squall_C_0";
         public static string SkillEffect_SE_S_S_Squall_3 = "SE_S_S_Squall_3";
         public static string SkillEffect_SE_T_S_Squall_0 = "SE_T_S_Squall_0";
         public static string SkillEffect_SE_T_S_Squall_1 = "SE_T_S_Squall_1";
@@ -172,16 +177,155 @@ namespace Squall
 		/// 爆裂禁区
 		/// </summary>
         public static string Skill_S_Squall_Rare_3_0 = "S_Squall_Rare_3_0";
-		/// <summary>
-		/// 斯考尔拥有[刃甲]时，造成的伤害提升30%。
-		/// 攻击技能
-		/// </summary>
-        public static string SkillExtended_SE_Squall_C_0 = "SE_Squall_C_0";
 
     }
 
     public static class ModLocalization
     {
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 我来掩护！
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_AllyND_0 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_AllyND_0");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 给我倒下！
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Cri_0 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Cri_0");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 阻断！
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Cri_1 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Cri_1");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 我欠你一次。
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Healed_0 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Healed_0");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 抱歉......
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Healed_1 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Healed_1");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 他是我的猎物。
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Idle_0 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Idle_0");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 准备好，要来了！
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Idle_1 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Idle_1");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 击杀！
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Kill_0 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Kill_0");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 到此为止！
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Kill_1 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Kill_1");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 绝不姑息！
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Kill_2 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Kill_2");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 唔，请求支援......
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_ND_0 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_ND_0");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 我就只有这点程度吗......
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_ND_1 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_ND_1");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 抱歉了，各位……
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_ND_2 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_ND_2");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 上吧，任务开始。
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Start_0 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Start_0");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 我会迅速结束这场战斗。
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Start_1 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Start_1");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 把眼前的敌人统统解决。
+		/// Chinese-TW:
+		/// </summary>
+        public static string CharacterSquall_Text_Battle_Start_2 => ModManager.getModInfo("Squall").localizationInfo.SystemLocalizationUpdate("Character/Squall_Text_Battle_Start_2");
 
     }
 }

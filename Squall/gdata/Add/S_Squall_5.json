@@ -6,7 +6,7 @@
         "Target": "skill",
         "Name": "G.F.",
         "User": "Squall",
-        "Description": "丢弃目标技能，获得那个技能费用+1的[刃甲]层数。\n那之后，优先抽取1个自己的技能。",
+        "Description": "丢弃目标技能，获得那个技能费用+1的<color=#4876FF>刃甲</color>层数。\n那之后，优先抽取1个自己的技能。",
         "NoBasicSkill": true,
         "Disposable": true,
         "Image_0": "S_Squall_5\\S_Squall_5_Image_0.png",
@@ -16,6 +16,7 @@
             "Squall.S_Squall_5"
         ],
         "NotCount": true,
-        "IgnoreTaunt": false
+        "IgnoreTaunt": false,
+        "Basic": false
     }
 }

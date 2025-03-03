@@ -7,7 +7,7 @@
         "Disposable": false,
         "NoBasicSkill": true,
         "Name": "静寂裁决",
-        "Description": "消耗1层[刃甲]，使目标最先释放的攻击技能立即释放。\n斯考尔替友军承受此技能的总伤害量。",
+        "Description": "消耗1层<color=#4876FF>刃甲</color>，使目标最先释放的攻击技能立即释放。\n若该次攻击为单体攻击，斯考尔替友军承受此技能的总伤害量。",
         "User": "Squall",
         "UseAp": 1,
         "NotCount": true,

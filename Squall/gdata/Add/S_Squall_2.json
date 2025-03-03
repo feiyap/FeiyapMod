@@ -7,7 +7,7 @@
         "NotCount": false,
         "NoBasicSkill": false,
         "Name": "连续剑•狮子奋迅",
-        "Description": "若[刃甲]超过2层，则消耗2层[刃甲]，进行2次追加攻击。\n若[刃甲]超过3层，则额外消耗1层[刃甲]，使追加攻击以暴击形式命中。",
+        "Description": "若<color=#4876FF>刃甲</color>超过2层，则消耗2层<color=#4876FF>刃甲</color>，进行2次追加攻击。\n若<color=#4876FF>刃甲</color>超过3层，则额外消耗1层<color=#4876FF>刃甲</color>，使追加攻击以暴击形式命中。",
         "User": "Squall",
         "UseAp": 2,
         "Effect_Target": "SE_T_S_Squall_2",

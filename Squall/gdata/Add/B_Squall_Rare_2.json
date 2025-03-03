@@ -4,7 +4,7 @@
         "ClassName": "Squall.B_Squall_Rare_2",
         "BuffTag": "null",
         "Name": "狮子之心",
-        "Description": "[刃甲]的最高层数增加到15。\n每获得一层[刃甲]，增加2%攻击力。\n追加攻击和反击的伤害增加&a点(攻击力的20%)。",
+        "Description": "<color=#4876FF>刃甲</color>的最高层数增加到15。\n每获得一层<color=#4876FF>刃甲</color>，增加2%攻击力。\n追加攻击和反击的伤害增加&a点(攻击力的20%)。",
         "Icon": "B_Squall_Rare_2\\B_Squall_Rare_2_Icon.png",
         "LifeTime": 0,
         "Cantdisable": false

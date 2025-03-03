@@ -59,7 +59,7 @@
             "y": 40
         },
         "PassiveName": "孤高的狮子",
-        "PassiveDes": "回合开始时获得一层[刃甲]。每当斯考尔替队友承受攻击时，获得一层[刃甲]。\n在一个回合内累计承受超过最大生命值25%的物理伤害后，对随机敌人进行4段30%攻击力的反击。\n\n<b>斯考尔从装备中获取的防御力加成转化为等量的百分比最大体力值加成。</b>\n\n<color=#919191>- 此被动从1级开始生效。</color>",
+        "PassiveDes": "回合开始时获得一层<color=#4876FF>刃甲</color>。每当斯考尔替队友承受攻击时，获得一层<color=#4876FF>刃甲</color>。\n在一个回合内累计承受超过最大生命值25%的物理伤害后，对随机敌人进行4段30%攻击力的反击。\n\n<b>斯考尔从装备中获取的防御力加成转化为等量的百分比最大体力值加成。</b>\n\n<color=#919191>- 此被动从1级开始生效。</color>",
         "PassiveUnlockLV1": true,
         "CollectionSprite_Cover": "Squall\\SquallCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "Squall\\SquallCollectionSprite_SkillFace.png",
