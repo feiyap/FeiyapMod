@@ -1,0 +1,48 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "VillageAlice"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                "S_Azar_3",
+                "S_Azar_9"
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_FVAlice_0",
+                "S_FVAlice_0",
+                "S_FVAlice_0"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                "Torch_FanaticBoss"
+            ],
+            [
+                "WhitePriestCloth"
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ]
+    }
+}

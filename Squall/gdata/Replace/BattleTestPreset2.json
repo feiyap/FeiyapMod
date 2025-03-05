@@ -2,27 +2,12 @@
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
         "Party": [
-            "Phoenix",
-            "MissChain",
-            "Hein",
             "Squall"
         ],
         "PartyBasicSkill": [
-            "S_Ilya_1",
-            "S_Azar_5",
-            "S_TW_Blue_5",
             "S_LucyC_2"
         ],
         "PartySkills": [
-            [
-                
-            ],
-            [
-                
-            ],
-            [
-                
-            ],
             [
                 "S_Squall_0",
                 "S_Squall_1",
@@ -35,15 +20,6 @@
             ]
         ],
         "PartyEquip": [
-            [
-                
-            ],
-            [
-                
-            ],
-            [
-                
-            ],
             [
                 
             ]

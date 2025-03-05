@@ -1,0 +1,37 @@
+{
+    "S_FVAlice_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "梦境信件",
+        "Description": "处于[梦境]时，再次释放一次此技能。\r\n【童话】：手牌中随机一个调查队员的技能被【童话】化。",
+        "User": "VillageAlice",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_FVAlice_0",
+        "Image_0": "S_FVAlice_0\\S_FVAlice_0_Image_0.png",
+        "Image_1": "S_FVAlice_0\\S_FVAlice_0_Image_1.png",
+        "Image_2": "S_FVAlice_0\\S_FVAlice_0_Image_2.png",
+        "PlusKeyWords": [
+            "Keyword_Dreamland"
+        ],
+        "SkillExtended": [
+            "VillageAlice.S_FVAlice_0"
+        ]
+    }
+}

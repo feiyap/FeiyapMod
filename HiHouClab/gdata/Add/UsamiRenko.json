@@ -11,6 +11,9 @@
             "y": 24
         },
         "CollectionSprite_Cover": "UsamiRenko\\UsamiRenkoCollectionSprite_Cover.png",
-        "CollectionSprite_SkillFace": "UsamiRenko\\UsamiRenkoCollectionSprite_SkillFace.png"
+        "CollectionSprite_SkillFace": "UsamiRenko\\UsamiRenkoCollectionSprite_SkillFace.png",
+        "PassiveUnlockLV1": false,
+        "PassiveName": "大空魔术",
+        "PassiveDes": "<b>莲台野夜行</b> - 宇佐见莲子尝试使用科学解析一切看到的事物。\n每次造成伤害会对目标施加1层<color=#4169E1>科学解析</color>，降低目标的随机属性值。\n场上的每层<color=#4169E1>科学解析</color>为宇佐见莲子提供5%暴击率。\n当宇佐见莲子的暴击率超过100%时，获得<color=#4169E1>经典力学的尽头</color>：自身暴击伤害始终为100%，溢出的暴击伤害转化为等量的攻击力加成。"
     }
 }

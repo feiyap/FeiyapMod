@@ -1,0 +1,14 @@
+{
+    "B_FVAlice_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "CrowdControl",
+        "Name": "噩梦",
+        "Description": "无法行动。\n返回[现实]时，受到125%攻击力的混乱伤害，然后减少一层。",
+        "Icon": "B_FVAlice_0\\B_FVAlice_0_Icon.png",
+        "MaxStack": 3,
+        "Debuff": true,
+        "TagPer": 110
+    }
+}

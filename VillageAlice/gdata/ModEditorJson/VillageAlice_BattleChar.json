@@ -1,0 +1,23 @@
+{
+    "myKey": "VillageAlice",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "VillageAlice\\VillageAliceBattleChar.png",
+        "pivot": {
+            "x": 0.5278465,
+            "y": 0.675647557
+        },
+        "offsetMin": {
+            "x": -1164.06384,
+            "y": -1490.0105
+        },
+        "offsetMax": {
+            "x": 1041.24353,
+            "y": 715.2968
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

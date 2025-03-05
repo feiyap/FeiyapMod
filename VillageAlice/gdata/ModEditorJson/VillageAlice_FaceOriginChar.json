@@ -1,0 +1,23 @@
+{
+    "myKey": "VillageAlice",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "VillageAlice\\VillageAliceFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1184.34082,
+            "y": 703.021545
+        },
+        "offsetMin": {
+            "x": -1241.49731,
+            "y": -1722.81665
+        },
+        "pivot": {
+            "x": 0.511203647,
+            "y": 0.707979
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

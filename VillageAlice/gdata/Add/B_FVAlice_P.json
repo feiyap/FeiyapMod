@@ -1,0 +1,15 @@
+{
+    "B_FVAlice_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "现实",
+        "Icon": "B_FVAlice_P\\B_FVAlice_P_Icon.png",
+        "Description": "在[现实]中，自身所属技能将【童话】化。"
+    }
+}
