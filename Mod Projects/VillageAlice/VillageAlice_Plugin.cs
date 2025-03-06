@@ -34,19 +34,4 @@ namespace VillageAlice
 
         private Harmony harmony;
     }
-
-    [HarmonyPatch(typeof(SkillToolTip))]
-    class SkillToolTip_Patch
-    {
-        [HarmonyPostfix]
-        [HarmonyPatch(nameof(SkillToolTip.Input))]
-        static void InputPostfix(SkillToolTip __instance, Skill Skill, Stat _stat, ToolTipWindow.SkillTooltipValues skillvalues, bool View = false, SkillPrefab sp = null)
-        {
-            if (Skill.Master.Info.KeyData == "VillageAlice")
-            {
-                UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkilTooltip"), __instance.SkillImage.transform);
-                UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkilTooltip"), __instance.Desc.transform);
-            }
-        }
-    }
 }
