@@ -12,18 +12,26 @@ using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 using ChronoArkMod.ModData;
+using HarmonyLib;
 namespace HiHouClab
 {
     public class HiHouClab_Plugin: ChronoArkPlugin
     {
         public override void Dispose()
         {
-            
+            Harmony harmony = this.harmony;
+            if (harmony != null)
+            {
+                harmony.UnpatchSelf();
+            }
         }
 
         public override void Initialize()
         {
-            
+            this.harmony = new Harmony(base.GetGuid());
+            this.harmony.PatchAll();
         }
+
+        private Harmony harmony;
     }
 }

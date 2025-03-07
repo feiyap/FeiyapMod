@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>HiHouClab20253522727</AssemblyName>
+    <AssemblyName>HiHouClab20253820032</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <ReferencePath>H:/SteamLibrary/steamapps/common/Chrono Ark/ChronoArk_Data/Managed</ReferencePath>
+    <ProjectGuid>{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>I:\11\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Accessibility">
       <Private>False</Private>
     </Reference>
@@ -26,8 +30,26 @@
     <Reference Include="DOTween">
       <Private>False</Private>
     </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Security">
       <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>I:\11\Assemblies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>I:\11\Assemblies\MonoMod.Utils.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <Private>False</Private>
@@ -381,10 +403,9 @@
       <Private>False</Private>
     </Reference>
     <!-- Extra Reference Start-->
-<!-- Extra Reference End-->
+    <!-- Extra Reference End-->
   </ItemGroup>
-  
-                          <!-- Compile ItemGroup Start-->
+  <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="HiHouClab_ModDefinition.cs" />
     <Compile Include="HiHouClab_ModItemKeys.cs" />
@@ -392,6 +413,7 @@
     <Compile Include="Buff\B_Maribel_Rare_3.cs" />
     <Compile Include="Buff\B_Renko_Rare_3.cs" />
     <Compile Include="Character\P_UsamiRenko.cs" />
+    <Compile Include="PlanckAP.cs" />
     <Compile Include="Skill\S_Hihou_Rare_3.cs" />
     <Compile Include="Skill\S_Maribel_Rare_3.cs" />
     <Compile Include="Skill\S_Renko_Rare_3.cs" />

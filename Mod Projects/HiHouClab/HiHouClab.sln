@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiHouClab", "HiHouClab.csproj", "{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14D4658F-5B28-4941-8E11-96343A9448ED}
+	EndGlobalSection
+EndGlobal

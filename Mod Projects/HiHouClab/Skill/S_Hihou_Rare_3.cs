@@ -26,6 +26,11 @@ namespace HiHouClab
 	/// </summary>
     public class S_Hihou_Rare_3:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
 
+            this.BChar.MyTeam.AP++;
+        }
     }
 }
