@@ -6,3 +6,18 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csproj.CopyComplete
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab20253820032.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab20253820032.pdb
+F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\HiHouClab20253820032.dll
+F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\HiHouClab20253820032.pdb
+F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\0Harmony.dll
+F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\Mono.Cecil.dll
+F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\Mono.Cecil.Mdb.dll
+F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\Mono.Cecil.Pdb.dll
+F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\Mono.Cecil.Rocks.dll
+F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\MonoMod.RuntimeDetour.dll
+F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\MonoMod.Utils.dll
+F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\System.Core.dll
+F:\FeiyapMod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csprojAssemblyReference.cache
+F:\FeiyapMod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csproj.CoreCompileInputs.cache
+F:\FeiyapMod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csproj.CopyComplete
+F:\FeiyapMod\Mod Projects\HiHouClab\obj\Debug\HiHouClab20253820032.dll
+F:\FeiyapMod\Mod Projects\HiHouClab\obj\Debug\HiHouClab20253820032.pdb

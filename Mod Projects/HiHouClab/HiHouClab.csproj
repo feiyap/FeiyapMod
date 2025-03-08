@@ -13,7 +13,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>I:\11\Assemblies\0Harmony.dll</HintPath>
+      <HintPath>E:\11\0Harmony\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Accessibility">
       <Private>False</Private>
@@ -31,25 +31,25 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
-      <HintPath>I:\11\Assemblies\Mono.Cecil.dll</HintPath>
+      <HintPath>E:\11\0Harmony\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Mdb">
-      <HintPath>I:\11\Assemblies\Mono.Cecil.Mdb.dll</HintPath>
+      <HintPath>E:\11\0Harmony\Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Pdb">
-      <HintPath>I:\11\Assemblies\Mono.Cecil.Pdb.dll</HintPath>
+      <HintPath>E:\11\0Harmony\Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Rocks">
-      <HintPath>I:\11\Assemblies\Mono.Cecil.Rocks.dll</HintPath>
+      <HintPath>E:\11\0Harmony\Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Security">
       <Private>False</Private>
     </Reference>
     <Reference Include="MonoMod.RuntimeDetour">
-      <HintPath>I:\11\Assemblies\MonoMod.RuntimeDetour.dll</HintPath>
+      <HintPath>E:\11\0Harmony\MonoMod.RuntimeDetour.dll</HintPath>
     </Reference>
     <Reference Include="MonoMod.Utils">
-      <HintPath>I:\11\Assemblies\MonoMod.Utils.dll</HintPath>
+      <HintPath>E:\11\0Harmony\MonoMod.Utils.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <Private>False</Private>

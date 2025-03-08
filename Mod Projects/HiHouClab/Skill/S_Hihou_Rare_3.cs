@@ -30,7 +30,7 @@ namespace HiHouClab
         {
             base.SkillUseSingle(SkillD, Targets);
 
-            this.BChar.MyTeam.AP++;
+            Planck.PlanckAP += 3;
         }
     }
 }
