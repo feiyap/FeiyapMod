@@ -1,0 +1,14 @@
+{
+    "B_FFAce_0_Ex": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "DOT",
+        "Name": "深度灼伤",
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 130,
+        "Tick": "SE_Tick_B_FFAce_0_Ex",
+        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_32",
+        "MaxStack": 3
+    }
+}

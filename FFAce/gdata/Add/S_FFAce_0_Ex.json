@@ -1,0 +1,18 @@
+{
+    "S_FFAce_0_Ex": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/Hel_2",
+        "Target": "enemy",
+        "Name": "赤红之炎",
+        "UseAp": 2,
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_FFAce_0_Ex",
+        "Image_0": "S_FFAce_0_Ex\\S_FFAce_0_Ex_Image_0.png",
+        "Image_1": "S_FFAce_0_Ex\\S_FFAce_0_Ex_Image_1.png",
+        "Image_2": "S_FFAce_0_Ex\\S_FFAce_0_Ex_Image_2.png",
+        "NoDrop": true,
+        "Except": true
+    }
+}

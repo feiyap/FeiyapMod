@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FFAce\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FFAce\obj\Debug\FFAce.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FFAce\obj\Debug\FFAce.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FFAce\obj\Debug\FFAce.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FFAce\bin\Debug\FFAce202539215051.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FFAce\bin\Debug\FFAce202539215051.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FFAce\obj\Debug\FFAce202539215051.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FFAce\obj\Debug\FFAce202539215051.pdb

@@ -1,0 +1,21 @@
+{
+    "S_FFAce_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_2",
+        "Target": "enemy",
+        "NotCount": true,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "Name": "灼魂刻印",
+        "Description": "使用后，在手中生成1张[红焰轮舞]。\n翻开：不将本技能将放回原位，而是置入手中。可再次使用固定能力。",
+        "User": "FFAce",
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_FFAce_1",
+        "Effect_Self": "SE_S_S_FFAce_1",
+        "Image_0": "S_FFAce_1\\S_FFAce_1_Image_0.png",
+        "Image_1": "S_FFAce_1\\S_FFAce_1_Image_1.png",
+        "Image_2": "S_FFAce_1\\S_FFAce_1_Image_2.png"
+    }
+}

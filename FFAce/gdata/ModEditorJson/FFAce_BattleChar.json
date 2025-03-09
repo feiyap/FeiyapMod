@@ -1,0 +1,23 @@
+{
+    "myKey": "FFAce",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "FFAce\\FFAceBattleChar.png",
+        "offsetMax": {
+            "x": 261.9791,
+            "y": 240.480225
+        },
+        "offsetMin": {
+            "x": -343.8948,
+            "y": -1672.80591
+        },
+        "pivot": {
+            "x": 0.567601264,
+            "y": 0.8743104
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "Keyword_Draw": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "翻开",
+        "Desc": "因[翻牌]的效果被展示后会触发额外效果。"
+    }
+}

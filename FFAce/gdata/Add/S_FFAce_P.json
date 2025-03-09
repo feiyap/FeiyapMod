@@ -1,0 +1,22 @@
+{
+    "S_FFAce_P": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "NotCount": true,
+        "Name": "翻牌",
+        "Description": "从牌库和弃牌库中翻出随机1张自己的技能。\n根据牌上的[翻开]效果获得相应的效果，然后将牌放回原位。\n若翻出的技能没有[翻开]效果，则将此技能置入手中。",
+        "UseAp": 0,
+        "Basic": true,
+        "Image_0": "S_FFAce_P\\S_FFAce_P_Image_0.png",
+        "Image_1": "S_FFAce_P\\S_FFAce_P_Image_1.png",
+        "Image_2": "S_FFAce_P\\S_FFAce_P_Image_2.png",
+        "PlusKeyWords": [
+            "Keyword_Draw"
+        ],
+        "SkillExtended": [
+            "FFAce.S_FFAce_P"
+        ]
+    }
+}

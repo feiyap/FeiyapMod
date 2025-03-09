@@ -1,0 +1,23 @@
+{
+    "myKey": "FFAce",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "FFAce\\FFAceFaceSmallChar.png",
+        "offsetMax": {
+            "x": 115.39476,
+            "y": 49.9516373
+        },
+        "offsetMin": {
+            "x": -118.195824,
+            "y": -687.7028
+        },
+        "pivot": {
+            "x": 0.497296482,
+            "y": 0.924705446
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

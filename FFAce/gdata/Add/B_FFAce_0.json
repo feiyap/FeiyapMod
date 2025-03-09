@@ -1,0 +1,17 @@
+{
+    "B_FFAce_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "FFAce.B_FFAce_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "赤红之炎",
+        "Description": "每层使[红焰轮舞]的伤害增加&a(攻击力的40%)。\n叠加至3层时，生成1张[赤红之炎]（触发时解除）。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_51/TW_Red_Buff",
+        "MaxStack": 3,
+        "LifeTime": 3
+    }
+}

@@ -16,6 +16,7 @@ using HarmonyLib;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
+using System.Diagnostics;
 
 namespace HiHouClab
 {
@@ -45,11 +46,11 @@ namespace HiHouClab
                 }
             }
             _PlanckAP = value;
-            if (BattleSystem.instance.AllyTeam.AP >= 10)
+            if (BattleSystem.instance.AllyTeam.AP + Planck.PlanckAP >= 10)
             {
-                _PlanckAP = 10 - (BattleSystem.instance.AllyTeam.AP - _PlanckAP);
+                _PlanckAP = 10 - BattleSystem.instance.AllyTeam.AP;
             }
-            if (BattleSystem.instance.AllyTeam.AP - _PlanckAP >= 10)
+            if (BattleSystem.instance.AllyTeam.AP >= 10)
             {
                 _PlanckAP = 0;
             }
@@ -175,7 +176,7 @@ namespace HiHouClab
         [HarmonyPatch("Init")]
         private static void Init_Postfix(BattleActWindow __instance, BattleTeam Team)
         {
-            __instance.MP.text = Team.AP.ToString();
+            __instance.MP.text = (Team.AP + Planck.PlanckAP).ToString();
             for (int i = 0; i < __instance.Crystals.Length; i++)
             {
                 if (Team.MAXAP <= i)
@@ -186,7 +187,7 @@ namespace HiHouClab
                 {
                     __instance.Crystals[i].SetBool("Lock", false);
                 }
-                if (Team.AP <= i)
+                if (Team.AP + Planck.PlanckAP <= i)
                 {
                     __instance.Crystals[i].SetBool("On", false);
                 }
@@ -197,7 +198,11 @@ namespace HiHouClab
             }
             if (Planck.PlanckAP > 0)
             {
-                for (int i = Team.AP - Planck.PlanckAP; i < Team.AP; i++)
+                foreach (Animator ani in __instance.Crystals)
+                {
+                    ani.transform.Find("On").GetComponent<Image>().color = new UnityEngine.Color(1f, 1f, 1f);
+                }
+                for (int i = Team.AP; i < Team.AP + Planck.PlanckAP; i++)
                 {
                     __instance.Crystals[i].transform.Find("On").GetComponent<Image>().color = new UnityEngine.Color(0f, 1f, 1f);
                 }
@@ -215,52 +220,176 @@ namespace HiHouClab
         {
             Planck.PlanckAP = 0;
         }
-
-        [HarmonyPostfix]
-        [HarmonyPatch("get_AP")] // 针对 AP 属性的 get 方法
-        static void AP_Postfix(BattleTeam __instance, ref int __result)
-        {
-            var _AP = Traverse.Create(__instance).Field("_AP").GetValue<int>();
-            __result = _AP + Planck.PlanckAP;
-        }
     }
 
-    //[HarmonyPatch(typeof(SkillButton))]
-    //[HarmonyPatch("Update")]
-    //public static class SkillButton_Update_Patch
-    //{
-    //    // Transpiler Patch：使用 CodeMatcher 修改方法的 IL 代码
-    //    static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
-    //    {
-    //        var matcher = new CodeMatcher(instructions)
-    //            .MatchForward(false, // 向前查找
-    //                new CodeMatch(OpCodes.Ldarg_0), // this
-    //                new CodeMatch(OpCodes.Ldfld, AccessTools.Field(typeof(SkillButton), "Myskill")), // Myskill
-    //                new CodeMatch(OpCodes.Ldfld, AccessTools.Field(typeof(Skill), "Master")), // Master
-    //                new CodeMatch(OpCodes.Ldfld, AccessTools.Field(typeof(Character), "MyTeam")), // MyTeam
-    //                new CodeMatch(OpCodes.Ldsfld, AccessTools.Field(typeof(BattleSystem), "instance")), // BattleSystem.instance (静态字段)
-    //                new CodeMatch(OpCodes.Ldfld, AccessTools.Field(typeof(BattleSystem), "AllyTeam")), // AllyTeam (实例字段)
-    //                new CodeMatch(OpCodes.Bne_Un_S), // != (短格式)
-    //                new CodeMatch(OpCodes.Ldarg_0) // this
-    //            )
-    //            .ThrowIfInvalid("Failed to find target code segment") // 如果未找到目标代码段，抛出异常
-    //            .Advance(7) // 移动到目标代码段的末尾
-    //            .InsertAndAdvance(
-    //                new CodeInstruction(OpCodes.Ldarg_0), // this
-    //                new CodeInstruction(OpCodes.Ldfld, AccessTools.Field(typeof(SkillButton), "Myskill")), // Myskill
-    //                new CodeInstruction(OpCodes.Ldfld, AccessTools.Field(typeof(Skill), "Master")), // Master
-    //                new CodeInstruction(OpCodes.Ldfld, AccessTools.Field(typeof(Character), "MyTeam")), // MyTeam
-    //                new CodeInstruction(OpCodes.Ldsfld, AccessTools.Field(typeof(BattleSystem), "instance")), // BattleSystem.instance (静态字段)
-    //                new CodeInstruction(OpCodes.Ldfld, AccessTools.Field(typeof(BattleSystem), "AllyTeam")), // AllyTeam (实例字段)
-    //                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Planck), "get_PlanckAP")), // Planck.PlanckAP
-    //                new CodeInstruction(OpCodes.Add), // +
-    //                new CodeInstruction(OpCodes.Ldarg_0), // this
-    //                new CodeInstruction(OpCodes.Ldfld, AccessTools.Field(typeof(SkillButton), "Myskill")), // Myskill
-    //                new CodeInstruction(OpCodes.Ldfld, AccessTools.Field(typeof(Skill), "AP_OverloadViewOnly")), // AP_OverloadViewOnly
-    //                new CodeInstruction(OpCodes.Bge) // >=
-    //            );
+    //修改技能释放条件和法力值显示
+    [HarmonyPatch(typeof(SkillButton))]
+    public static class SkillButtonPatch
+    {
+        [HarmonyPostfix]
+        [HarmonyPatch("Update")]
+        public static void Update_Postfix(SkillButton __instance)
+        {
+            __instance.interactable = true;
 
-    //        return matcher.InstructionEnumeration();
-    //    }
-    //}
+            int ap_OverloadViewOnly = __instance.Myskill.AP_OverloadViewOnly;
+            
+            if (BattleSystem.instance != null)
+            {
+                
+                if (__instance.Myskill.Master.MyTeam == BattleSystem.instance.AllyTeam)
+                {
+                    if (__instance.Myskill.NotCount)
+                    {
+                        if ((__instance.Myskill.Master.MyTeam.AP + Planck.PlanckAP) < ap_OverloadViewOnly)
+                        {
+                            __instance.interactable = false;
+                        }
+                    }
+                    else
+                    {
+                        if (__instance.Myskill.Master.MyTeam.AP < ap_OverloadViewOnly)
+                        {
+                            __instance.interactable = false;
+                        }
+                    }
+                }
+                if (__instance.Myskill.Master.GetStat.Stun && !__instance.Myskill.CanUseStun)
+                {
+                    __instance.interactable = false;
+                }
+                if (__instance.Myskill.NotAvailable)
+                {
+                    __instance.interactable = false;
+                }
+                for (int j = 0; j < __instance.Myskill.AllExtendeds.Count; j++)
+                {
+                    if (__instance.Myskill.AllExtendeds[j].SetAlwaysCanUse)
+                    {
+                        __instance.interactable = true;
+                        break;
+                    }
+                }
+
+                if (__instance.gameObject.activeSelf)
+                {
+                    if (__instance.IsNowCasting)
+                    {
+                        __instance.Ani.SetBool("On", true);
+                    }
+                    else if (BattleSystem.instance.SelectedSkill == __instance.Myskill)
+                    {
+                        if (__instance.Myskill.BasicSkillButton == null && !__instance.IsUseBig)
+                        {
+                            __instance.MainAni.SetBool("Selected", true);
+                        }
+                    }
+                    else if (BattleSystem.instance.SelectedSkill == null)
+                    {
+                        if (__instance.Myskill.BasicSkillButton == null && !__instance.IsUseBig)
+                        {
+                            __instance.MainAni.SetBool("Selected", false);
+                        }
+                        if (__instance.interactable)
+                        {
+                            __instance.Ani.SetBool("On", true);
+                        }
+                    }
+                    else if (BattleSystem.instance.SelectedSkill != null && BattleSystem.instance.SelectedSkill != __instance.Myskill)
+                    {
+                        __instance.Ani.SetBool("On", false);
+                    }
+                }
+
+                if (__instance.gameObject.activeSelf)
+                {
+                    if (!__instance.IsNowCasting && !__instance.interactable)
+                    {
+                        __instance.Ani.SetBool("On", false);
+                    }
+                    else
+                    {
+                        __instance.Ani.SetBool("On", true);
+                    }
+                }
+            }
+
+        }
+
+        [HarmonyPrefix]
+        [HarmonyPatch(nameof(SkillButton.OnPointerEnter), new Type[] { })]
+        public static bool OnPointerEnter_Prefix(SkillButton __instance)
+        {
+            if (__instance.IsUseBig)
+            {
+                __instance.transform.localScale = new Vector3(1.05f, 1.05f, 1.05f);
+            }
+            if (BattleSystem.instance != null && __instance.Myskill.Master.BattleInfo == null)
+            {
+                ToolTipWindow.SkillToolTip(__instance.transform, __instance.Myskill, __instance.CharData, 0, 1, true, false, false);
+                return false;
+            }
+            ToolTipWindow.SkillToolTip(__instance.TooltipTr, __instance.Myskill, __instance.CharData, 0, 1, true, false, false);
+            if (__instance.Myskill.Master is BattleEnemy && __instance.IsNowCasting)
+            {
+                (__instance.Myskill.Master as BattleEnemy).CastingSkillMasterEffectOn();
+            }
+            if (BattleSystem.instance != null && __instance.CharData != null && __instance.Myskill.Master != BattleSystem.instance.DummyChar && __instance.Myskill.Master != BattleSystem.instance.AllyTeam.LucyAlly && __instance.CharData is BattleAlly)
+            {
+                (__instance.CharData as BattleAlly).WindowAni.SetTrigger("Selected");
+            }
+            if (BattleSystem.instance != null && !__instance.Myskill.BasicSkill && BattleSystem.instance.TargetSelecting && BattleSystem.instance.SelectedSkill.TargetTypeKey == GDEItemKeys.s_targettype_skill && TargetSelects.OneSelect != null)
+            {
+                using (List<Skill_Extended>.Enumerator enumerator = BattleSystem.instance.SelectedSkill.AllExtendeds.GetEnumerator())
+                {
+                    while (enumerator.MoveNext())
+                    {
+                        if (enumerator.Current.SkillTargetSelectExcept(__instance.Myskill))
+                        {
+                            return false;
+                        }
+                    }
+                }
+                TargetSelects.OneSelect.NewPos(__instance.TargetPos.position, true, __instance);
+            }
+            if (__instance.interactable && __instance.Myskill.AP >= 1 && BattleSystem.instance != null && !BattleSystem.instance.TargetSelecting && !UIManager.inst.CharstatUI.activeInHierarchy)
+            {
+                for (int i = (__instance.Myskill.MyTeam.AP + Planck.PlanckAP); i > (__instance.Myskill.MyTeam.AP + Planck.PlanckAP) - __instance.Myskill.AP; i--)
+                {
+                    BattleSystem.instance.ActWindow.APGroup.transform.GetChild(i - 1).GetComponent<Animator>().SetBool("Using", true);
+                }
+            }
+            if (BattleSystem.instance != null && __instance.castskill != null)
+            {
+                if (BattleSystem.instance.ActWindow.On)
+                {
+                    __instance.Myskill.Master.TargetLook();
+                }
+                BattleSystem.instance.CastTargetView(__instance.castskill, false);
+                if (!__instance.castskill.Usestate.Info.Ally)
+                {
+                    foreach (BattleEnemy battleEnemy in BattleSystem.instance.EnemyList)
+                    {
+                        if (battleEnemy != __instance.castskill.Usestate)
+                        {
+                            battleEnemy.UI.CharImage.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.33f);
+                        }
+                    }
+                }
+            }
+            if (BattleSystem.instance != null && __instance.Myskill.Counting >= 1 && __instance.castskill == null && !BattleSystem.instance.TargetSelecting && BattleSystem.instance.ActWindow.On)
+            {
+                BattleSystem.instance.ActWindow.CountSkillPointEnter(__instance.Myskill);
+            }
+            if (BattleSystem.instance != null)
+            {
+                foreach (Skill_Extended skill_Extended in __instance.Myskill.AllExtendeds)
+                {
+                    skill_Extended.Special_SkillButtonPointerEnter();
+                }
+            }
+
+            return false;
+        }
+    }
 }

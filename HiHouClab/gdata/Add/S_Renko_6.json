@@ -1,0 +1,32 @@
+{
+    "S_Renko_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "Misc",
+        "NotCount": true,
+        "Disposable": false,
+        "NoDrop": false,
+        "Name": "比普朗克更短的须臾",
+        "Description": "获得3点“普朗克法力值”。\n“普朗克法力值”能且仅能用于迅速技能的消耗。",
+        "User": "UsamiRenko",
+        "Image_0": "S_Renko_6\\S_Renko_6_Image_0.png",
+        "Image_1": "S_Renko_6\\S_Renko_6_Image_1.png",
+        "Image_2": "S_Renko_6\\S_Renko_6_Image_2.png",
+        "SkillExtended": [
+            "HiHouClab.S_Renko_6"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

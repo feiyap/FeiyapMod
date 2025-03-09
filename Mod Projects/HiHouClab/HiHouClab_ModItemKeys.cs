@@ -41,6 +41,12 @@ namespace HiHouClab
 		/// </summary>
         public static string Skill_S_Maribel_Rare_3 = "S_Maribel_Rare_3";
 		/// <summary>
+		/// 比普朗克更短的须臾
+		/// 获得3点“普朗克法力值”。
+		/// “普朗克法力值”能且仅能用于迅速技能的消耗。
+		/// </summary>
+        public static string Skill_S_Renko_6 = "S_Renko_6";
+		/// <summary>
 		/// 不等式的廷克·贝尔
 		/// 仅当自身持有经典力学的尽头时才可使用。
 		/// <color=#4169E1><i>「玛艾露贝莉·赫恩！你不会还在坚信发现异界是自己的特权吧！」</i></color>

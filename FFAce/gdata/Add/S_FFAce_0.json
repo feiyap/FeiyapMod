@@ -1,0 +1,41 @@
+{
+    "S_FFAce_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_0",
+        "Target": "enemy",
+        "NotCount": false,
+        "Basic": false,
+        "Name": "红焰轮舞",
+        "Description": "翻开：不将本技能将放回原位，而是置入手中，并获得1层[赤红之炎]。",
+        "UseAp": 1,
+        "User": "FFAce",
+        "Image_0": "S_FFAce_0\\S_FFAce_0_Image_0.png",
+        "Image_1": "S_FFAce_0\\S_FFAce_0_Image_1.png",
+        "Image_2": "S_FFAce_0\\S_FFAce_0_Image_2.png",
+        "Effect_Target": "SE_T_S_FFAce_0",
+        "Effect_Self": "SE_S_S_FFAce_0",
+        "PlusKeyWords": [
+            "Keyword_Draw"
+        ],
+        "SkillExtended": [
+            "FFAce.S_FFAce_0"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SKillExtendedItem": [
+            
+        ]
+    }
+}

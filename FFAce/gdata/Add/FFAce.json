@@ -1,0 +1,73 @@
+{
+    "FFAce": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "FFAce.P_FFAce",
+        "PassiveUnlockLV1": true,
+        "name": "艾斯",
+        "MAXHP": {
+            "x": 17,
+            "y": 32
+        },
+        "ATK": {
+            "x": 15,
+            "y": 27
+        },
+        "CRI": {
+            "x": 5,
+            "y": 15
+        },
+        "REG": {
+            "x": 7,
+            "y": 11
+        },
+        "HIT": {
+            "x": 97,
+            "y": 117
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 30
+        },
+        "HIT_DEBUFF": {
+            "x": 5,
+            "y": 36
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 30
+        },
+        "face": "FFAce\\FFAceBattleFace.png",
+        "PassiveName": "翻牌",
+        "PassiveDes": "<b>固定能力变更为‘翻牌’。</b>\r\n\r\n<color=#919191>- 此被动从1级开始生效。</color>",
+        "CollectionSprite_Cover": "FFAce\\FFAceCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "FFAce\\FFAceCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Sup": 1,
+        "StatView_Debuff": 2,
+        "StatView_CC": 1,
+        "StatView_Dot": 2,
+        "StatView_Difficult": 2,
+        "FixedBasicSkill": "S_FFAce_P"
+    }
+}

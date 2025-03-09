@@ -1,0 +1,13 @@
+{
+    "B_FFAce_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "Debuff",
+        "Name": "灼魂刻印",
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 120,
+        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_16",
+        "Description": "受到来自艾斯的物理伤害量+30%；\n受到深度灼伤的伤害量+25%。"
+    }
+}

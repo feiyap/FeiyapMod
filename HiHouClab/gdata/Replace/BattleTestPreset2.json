@@ -15,17 +15,17 @@
         ],
         "PartySkills": [
             [
-                
+                "S_Ilya_1"
+            ],
+            [
+                "S_Azar_5"
             ],
             [
                 
             ],
             [
-                "S_Maribel_Rare_3"
-            ],
-            [
-                "S_Renko_Rare_3",
-                "S_Hihou_Rare_3"
+                "S_Renko_6",
+                "S_Renko_6"
             ]
         ],
         "PartyEquip": [
@@ -42,7 +42,10 @@
                 
             ]
         ],
-        "AP": 10,
-        "Level": 6
+        "AP": 3,
+        "Level": 6,
+        "LucySkill": [
+            
+        ]
     }
 }

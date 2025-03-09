@@ -8,12 +8,26 @@
         "NotCount": true,
         "Name": "<color=#7B68EE>七</color><color=#4169E1>夕</color><color=#2E8B57>坂</color><color=#FF6A6A>梦</color><color=#FF00FF>幻</color><color=#836FFF>能</color>",
         "Description": "<i><color=#FFD700>*日出七夕坂+不等式的廷克·贝尔*</color></i>\n使<color=#7B68EE>玛艾露贝莉·赫恩</color>获得2回合的无敌状态。\n使<color=#4169E1>宇佐见莲子</color>获得2回合的隐匿状态。\n\n<i>\n<color=#7B68EE>被隐匿的第五个季节在此出现</color>\n<color=#4169E1>完全失落的此世之姿在此复苏</color>\n<color=#FFD700>该国的禁忌，就此被打破了！</color>\n</i>",
-        "UseAp": 3,
+        "UseAp": 0,
         "NoDrop": true,
         "Disposable": true,
         "Effect_Target": "SE_T_S_Hihou_Rare_3",
         "Image_0": "S_Hihou_Rare_3\\S_Hihou_Rare_3_Image_0.png",
         "Image_1": "S_Hihou_Rare_3\\S_Hihou_Rare_3_Image_1.png",
-        "Image_2": "S_Hihou_Rare_3\\S_Hihou_Rare_3_Image_2.png"
+        "Image_2": "S_Hihou_Rare_3\\S_Hihou_Rare_3_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "HiHouClab.S_Hihou_Rare_3"
+        ]
     }
 }

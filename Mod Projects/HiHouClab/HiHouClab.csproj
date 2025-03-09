@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>HiHouClab20253820032</AssemblyName>
+    <AssemblyName>HiHouClab202539202935</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -403,19 +403,23 @@
       <Private>False</Private>
     </Reference>
     <!-- Extra Reference Start-->
-    <!-- Extra Reference End-->
+<!-- Extra Reference End-->
   </ItemGroup>
-  <!-- Compile ItemGroup Start-->
+                                                                                                                                      <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="HiHouClab_ModDefinition.cs" />
     <Compile Include="HiHouClab_ModItemKeys.cs" />
     <Compile Include="HiHouClab_Plugin.cs" />
+    <Compile Include="PlanckAP.cs" />
     <Compile Include="Buff\B_Maribel_Rare_3.cs" />
     <Compile Include="Buff\B_Renko_Rare_3.cs" />
     <Compile Include="Character\P_UsamiRenko.cs" />
-    <Compile Include="PlanckAP.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Skill\S_Hihou_Rare_3.cs" />
     <Compile Include="Skill\S_Maribel_Rare_3.cs" />
+    <Compile Include="Skill\S_Renko_6.cs" />
     <Compile Include="Skill\S_Renko_Rare_3.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->
