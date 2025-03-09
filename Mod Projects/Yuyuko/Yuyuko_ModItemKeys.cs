@@ -376,6 +376,7 @@ namespace Yuyuko
 		/// <color=#FF69B4>人魂蝶</color> - <color=#8B008B>回引</color>时，抽取1个技能。
 		/// </summary>
         public static string Skill_S_YuyukoF_5 = "S_YuyukoF_5";
+        public static string VFXSkill_S_YuyukoF_5_Eclipse = "S_YuyukoF_5_Eclipse";
 		/// <summary>
 		/// 樱符「完全墨染的樱花」
 		/// 增加20<color=#FFB6C1>返魂值</color>。
@@ -492,6 +493,7 @@ namespace Yuyuko
 		/// <color=#919191>- 此被动从1级开始生效。</color>
 		/// </summary>
         public static string Character_YuyukoF = "YuyukoF";
+        public static string Character_Skin_YuyukoFEclipse = "YuyukoFEclipse";
 
     }
 

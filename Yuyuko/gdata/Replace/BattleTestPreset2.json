@@ -9,22 +9,20 @@
         ],
         "PartySkills": [
             [
-                "S_YuyukoF_1",
-                "S_YuyukoF_7",
-                "S_YuyukoF_7",
-                "S_YuyukoF_1",
                 "S_YuyukoF_1"
             ]
         ],
         "PartyEquip": [
             [
-                "LastStand",
-                "LastStand"
+                
             ]
         ],
         "LucySkill": [
             
         ],
-        "AP": 10
+        "AP": 10,
+        "Passive": [
+            "R_YuyukoF_0"
+        ]
     }
 }

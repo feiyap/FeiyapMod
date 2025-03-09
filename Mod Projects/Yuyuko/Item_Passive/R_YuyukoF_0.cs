@@ -19,8 +19,19 @@ namespace Yuyuko
 	/// </summary>
     public class R_YuyukoF_0:PassiveItemBase, IP_EnemyAwake
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+        }
+
         public void EnemyAwake(BattleChar Enemy)
         {
+            if (BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>() == null)
+            {
+                BattleSystem.instance.BattleValues.Add(new BV_YuyukoF_P());
+            }
+
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setDieList(Enemy, Enemy.Info.OriginStat.maxhp * 10 / 100, Enemy);
         }
     }
