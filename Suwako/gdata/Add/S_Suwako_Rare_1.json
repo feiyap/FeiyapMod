@@ -5,7 +5,7 @@
         "Particle": "Particle/Ilya/Ilya_9_First",
         "Target": "enemy",
         "Name": "蛙狩「蛙以口鸣，方致蛇祸」",
-        "Description": "使所有其他技能返回牌库。那之后，每个返回牌库的技能使这个技能造成额外&a(60%)伤害。",
+        "Description": "使所有其他技能返回牌库。那之后，每个返回牌库的技能使这个技能造成额外&a(100%)伤害。",
         "Rare": true,
         "UseAp": 3,
         "NotCount": true,

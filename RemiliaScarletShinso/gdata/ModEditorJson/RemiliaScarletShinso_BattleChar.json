@@ -1,0 +1,23 @@
+{
+    "myKey": "RemiliaScarletShinso",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "RemiliaScarletShinso\\RemiliaScarletShinsoBattleChar.png",
+        "offsetMax": {
+            "x": 1039.90576,
+            "y": 596.61676
+        },
+        "offsetMin": {
+            "x": -960.094238,
+            "y": -1403.3833
+        },
+        "pivot": {
+            "x": 0.4800471,
+            "y": 0.7016916
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "SuwakoRedhot",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "SuwakoRedhotSkin\\SuwakoRedhotSkinBattleChar.png",
+        "offsetMax": {
+            "x": 403.2546,
+            "y": 400.085144
+        },
+        "offsetMin": {
+            "x": -564.7454,
+            "y": -838.9549
+        },
+        "pivot": {
+            "x": 0.5834147,
+            "y": 0.6771007
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

@@ -34,7 +34,7 @@ namespace Suwako
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             BattleSystem.DelayInput(Del());
-            this.SkillBasePlus.Target_BaseDMG = BattleSystem.instance.AllyTeam.Skills.Count * (int)(this.BChar.GetStat.atk * 0.6);
+            this.SkillBasePlus.Target_BaseDMG = BattleSystem.instance.AllyTeam.Skills.Count * (int)(this.BChar.GetStat.atk * 1.0);
         }
 
         private IEnumerator Del()
@@ -45,7 +45,10 @@ namespace Suwako
             int num2;
             for (num2 = 0; num2 < BattleSystem.instance.AllyTeam.Skills.Count; num2++)
             {
-                yield return CustomMethods.I_SkillBackToDeck(BattleSystem.instance.AllyTeam.Skills[num2], -1, true);
+                System.Random random = new System.Random();
+                int randomIndex = random.Next(0, this.BChar.MyTeam.Skills_Deck.Count);
+
+                yield return CustomMethods.I_SkillBackToDeck(BattleSystem.instance.AllyTeam.Skills[num2], randomIndex, true);
                 num++;
                 num2--;
             }

@@ -1,0 +1,18 @@
+{
+    "myKey": "RemiliaScarletRedhotSkin",
+    "myField": "CampSD",
+    "myValues": {
+        "pivot01": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "pivot23": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    "MyChangeType": "CampSD",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "FlandreScarletRedhot": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "超炎坏姬！",
+        "Character": "FlandreScarlet",
+        "SkinDesc": "夏天马上就要到了——\n躁动不安的吸血鬼，\n早已开始了夏天的祭典的准备。\n准备好与超级可爱的吸血鬼们享受这个夏天了吗？",
+        "FaceSprite": "FlandreScarletRedhotSkin\\FlandreScarletRedhotSkinBattleFace.png",
+        "CampSD": [
+            "FlandreScarletRedhotSkin\\FlandreScarletRedhotSkinCampSD0.png",
+            "FlandreScarletRedhotSkin\\FlandreScarletRedhotSkinCampSD1.png",
+            "FlandreScarletRedhotSkin\\FlandreScarletRedhotSkinCampSD2.png",
+            "FlandreScarletRedhotSkin\\FlandreScarletRedhotSkinCampSD3.png"
+        ]
+    }
+}

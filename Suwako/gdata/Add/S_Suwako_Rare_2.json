@@ -8,7 +8,7 @@
         "NotCount": true,
         "Name": "蛙休「总是能够冬眠」",
         "Description": "释放时如果场上没有[风雨已至]，使随机敌人获得1层[风雨已至]。",
-        "UseAp": 1,
+        "UseAp": 2,
         "Disposable": false,
         "Image_0": "S_Suwako_Rare_2\\S_Suwako_Rare_2_Image_0.png",
         "Image_1": "S_Suwako_Rare_2\\S_Suwako_Rare_2_Image_1.png",
@@ -25,6 +25,11 @@
         "Except": false,
         "SkillExtended": [
             "Suwako.S_Suwako_Rare_2"
-        ]
+        ],
+        "NotChuck": false,
+        "HealSkill": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

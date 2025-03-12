@@ -1,0 +1,15 @@
+{
+    "SuwakoRedhot": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "超炎蛙姬！",
+        "Character": "Suwako",
+        "SkinDesc": "吸血鬼们在准备夏天的祭典！\n这么好玩的事情，神明怎么能够错过呢？\n反正家里有早苗和神奈子看着，\n让本神亲自去收集一下信仰也没什么吧~？",
+        "FaceSprite": "SuwakoRedhotSkin\\SuwakoRedhotSkinBattleFace.png",
+        "CampSD": [
+            "SuwakoRedhotSkin\\SuwakoRedhotSkinCampSD0.png",
+            "SuwakoRedhotSkin\\SuwakoRedhotSkinCampSD1.png",
+            "SuwakoRedhotSkin\\SuwakoRedhotSkinCampSD2.png",
+            "SuwakoRedhotSkin\\SuwakoRedhotSkinCampSD3.png"
+        ]
+    }
+}

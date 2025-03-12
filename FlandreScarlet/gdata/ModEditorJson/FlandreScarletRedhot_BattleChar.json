@@ -1,0 +1,23 @@
+{
+    "myKey": "FlandreScarletRedhot",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "FlandreScarletRedhotSkin\\FlandreScarletRedhotSkinBattleChar.png",
+        "offsetMax": {
+            "x": 701.389954,
+            "y": 367.8479
+        },
+        "offsetMin": {
+            "x": -629.61,
+            "y": -1133.52026
+        },
+        "pivot": {
+            "x": 0.4730353,
+            "y": 0.754991531
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

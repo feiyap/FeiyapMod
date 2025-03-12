@@ -1,0 +1,23 @@
+{
+    "myKey": "FlandreScarletRedhot",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "FlandreScarletRedhotSkin\\FlandreScarletRedhotSkinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 670.18335,
+            "y": 260.549744
+        },
+        "offsetMin": {
+            "x": -539.81665,
+            "y": -1104.33044
+        },
+        "pivot": {
+            "x": 0.4449724,
+            "y": 0.8051669
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "RemiliaScarletRedhot": {
+        "_gdeSchema": "Character_Skin",
+        "SkinDesc": "夏天马上就要到了——\n躁动不安的吸血鬼，\n早已开始了夏天的祭典的准备。\n准备好与超级可爱的吸血鬼们享受这个夏天了吗？",
+        "SkinName": "超炎血姬！",
+        "Character": "RemiliaScarlet",
+        "FaceSprite": "RemiliaScarletRedhotSkin\\RemiliaScarletRedhotSkinBattleFace.png",
+        "CampSD": [
+            "RemiliaScarletRedhotSkin\\RemiliaScarletRedhotSkinCampSD0.png",
+            "RemiliaScarletRedhotSkin\\RemiliaScarletRedhotSkinCampSD1.png",
+            "RemiliaScarletRedhotSkin\\RemiliaScarletRedhotSkinCampSD2.png",
+            "RemiliaScarletRedhotSkin\\RemiliaScarletRedhotSkinCampSD3.png"
+        ]
+    }
+}

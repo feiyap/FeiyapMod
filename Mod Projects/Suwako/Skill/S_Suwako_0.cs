@@ -23,7 +23,7 @@ namespace Suwako
     {
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.6)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.3)).ToString());
         }
 
         public override void Init()
@@ -56,7 +56,7 @@ namespace Suwako
                     BattleSystem.instance.BattleValues.Add(new BV_Suwako_0());
                     return;
                 }
-                this.PlusAtk = (int)(this.BChar.GetStat.atk * 0.6);
+                this.PlusAtk = (int)(this.BChar.GetStat.atk * 0.3);
                 this.SkillBasePlus.Target_BaseDMG = BattleSystem.instance.GetBattleValue<BV_Suwako_0>().UseNum * this.PlusAtk;
             }
         }
@@ -79,7 +79,10 @@ namespace Suwako
                 skill.isExcept = false;
                 if (!this.MySkill.FreeUse)
                 {
-                    BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(skill, -1, false));
+                    System.Random random = new System.Random();
+                    int randomIndex = random.Next(0, this.BChar.MyTeam.Skills_Deck.Count);
+
+                    BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(skill, randomIndex, false));
                 }
             }
         }

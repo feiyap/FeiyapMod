@@ -73,7 +73,10 @@ namespace Suwako
 
         public IEnumerator Return(Skill skill)
         {
-            yield return CustomMethods.I_SkillBackToDeck(skill, -1, true);
+            System.Random random = new System.Random();
+            int randomIndex = random.Next(0, this.BChar.MyTeam.Skills_Deck.Count);
+
+            yield return CustomMethods.I_SkillBackToDeck(skill, randomIndex, true);
 
             yield return null;
             yield break;

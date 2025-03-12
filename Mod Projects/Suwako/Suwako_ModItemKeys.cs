@@ -15,7 +15,7 @@ namespace Suwako
         public static string Buff_B_Suwako_8 = "B_Suwako_8";
 		/// <summary>
 		/// 风雨已至
-		/// 每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加1点。
+		/// 每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加2点。
 		/// </summary>
         public static string Buff_B_Suwako_Dot = "B_Suwako_Dot";
 		/// <summary>
@@ -92,7 +92,7 @@ namespace Suwako
 		/// <summary>
 		/// 神具「洩矢的铁轮」
 		/// <color=green>连击2</color> - 释放后返回牌组。
-		/// <color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(60%)点。
+		/// <color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(30%)点。
 		/// </summary>
         public static string Skill_S_Suwako_0 = "S_Suwako_0";
 		/// <summary>
@@ -133,7 +133,6 @@ namespace Suwako
 		/// <summary>
 		/// 土著神「洩矢神」
 		/// 将手中最上方的技能放回牌库，抽取1个技能。
-		/// <color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。
 		/// </summary>
         public static string Skill_S_Suwako_6_0 = "S_Suwako_6_0";
 		/// <summary>
@@ -163,7 +162,7 @@ namespace Suwako
         public static string Skill_S_Suwako_P = "S_Suwako_P";
 		/// <summary>
 		/// 蛙狩「蛙以口鸣，方致蛇祸」
-		/// 使所有其他技能返回牌库。那之后，每个返回牌库的技能使这个技能造成额外&a(60%)伤害。
+		/// 使所有其他技能返回牌库。那之后，每个返回牌库的技能使这个技能造成额外&a(100%)伤害。
 		/// </summary>
         public static string Skill_S_Suwako_Rare_1 = "S_Suwako_Rare_1";
 		/// <summary>
@@ -199,6 +198,11 @@ namespace Suwako
 		/// 蛙符「涂有鲜血的赤蛙塚」
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3_3 = "S_Suwako_Rare_3_3";
+		/// <summary>
+		/// Passive:
+		/// </summary>
+        public static string Character_SuwakoRedhotSkin = "SuwakoRedhotSkin";
+        public static string Character_Skin_SuwakoRedhot = "SuwakoRedhot";
 
     }
 

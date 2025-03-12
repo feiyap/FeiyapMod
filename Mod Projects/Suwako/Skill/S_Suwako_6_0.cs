@@ -51,12 +51,6 @@ namespace Suwako
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             BattleSystem.instance.StartCoroutine(this.EffectDelaysCo());
-
-            if (CheckUsedSkills(4))
-            {
-                Skill tmpSkill = Skill.TempSkill("S_Suwako_6_0", this.BChar, this.BChar.MyTeam);
-                BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
-            }
         }
 
         private IEnumerator EffectDelaysCo()
@@ -73,7 +67,10 @@ namespace Suwako
             }
             if (list.Count >= 1)
             {
-                yield return CustomMethods.I_SkillBackToDeck(list[0], -1, true);
+                System.Random random = new System.Random();
+                int randomIndex = random.Next(0, this.BChar.MyTeam.Skills_Deck.Count);
+
+                yield return CustomMethods.I_SkillBackToDeck(list[0], randomIndex, true);
             }
 
             while (BattleSystem.instance.ListWait || BattleSystem.instance.Particles.Count != 0 || GameObject.FindGameObjectsWithTag("EffectView").Length != 0 || GameObject.FindGameObjectsWithTag("Tutorial").Length != 0 || BattleSystem.instance.DelayWait)

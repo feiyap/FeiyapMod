@@ -1,0 +1,32 @@
+{
+    "RemiliaScarletShinso": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "RemiliaScarletShinso.P_RemiliaScarletShinso",
+        "PassiveUnlockLV1": false,
+        "face": "RemiliaScarletShinso\\RemiliaScarletShinsoBattleFace.png",
+        "name": "真祖蕾米莉亚",
+        "SelectInfo": "",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 20,
+            "y": 40
+        },
+        "ATK": {
+            "x": 15,
+            "y": 26
+        },
+        "CRI": {
+            "x": 0,
+            "y": 0
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "PassiveName": "绯红之命运",
+        "PassiveDes": "<b><color=#FF4500>绯夜狂想曲</color></b> - 真祖蕾米莉亚每次击杀敌人时，获得1点“真法力值”。\n回合开始时，将1点法力值转化为“真法力值”。\n“真法力值”可以当做法力值被消耗，且不会因为回合结束重置。真祖蕾米莉亚的部分技能会优先消耗“真法力值”并获得强化。\n\n<b><color=#FF4500>悲怆第三乐章</color></b> - 真祖蕾米莉亚每消耗1点“真法力值”时，对随机敌人进行一次追加攻击(33%)，造成痛苦伤害、并超额治疗自己伤害值的100%。\n真祖蕾米莉亚的痛苦伤害可以暴击。\n\n<b><color=#FF4500>鲜血红雾宛如地狱</color></b> - 真祖蕾米莉亚受到来自自身的伤害、或是超出体力值的超额治疗时，将伤害值/超出部分的100%记录为“鲜血魔井”。\n每场战斗仅1次，真祖蕾米莉亚在濒死状态下受到伤害前，若“鲜血魔井”超过伤害值，进入“红雾”形态：无敌、隐匿、无法行动。回合结束时，解除“红雾”形态，消耗所有“鲜血魔井”，超额治疗自己等量的体力值，并对所有敌人造成等量的痛苦伤害。",
+        "CollectionSprite_Cover": "RemiliaScarletShinso\\RemiliaScarletShinsoCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "RemiliaScarletShinso\\RemiliaScarletShinsoCollectionSprite_SkillFace.png"
+    }
+}

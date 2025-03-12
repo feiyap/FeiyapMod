@@ -1,0 +1,23 @@
+{
+    "myKey": "SuwakoRedhot",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "SuwakoRedhotSkin\\SuwakoRedhotSkinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 392.044,
+            "y": 298.2597
+        },
+        "offsetMin": {
+            "x": -487.956,
+            "y": -828.1403
+        },
+        "pivot": {
+            "x": 0.552904546,
+            "y": 0.730438769
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

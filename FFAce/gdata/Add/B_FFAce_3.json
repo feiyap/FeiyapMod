@@ -1,0 +1,10 @@
+{
+    "B_FFAce_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "零式预判",
+        "Description": "闪避一次攻击，触发后解除该增益。\n使敌人最先释放的下个攻击技能只能攻击有零式预判的友军。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/4"
+    }
+}

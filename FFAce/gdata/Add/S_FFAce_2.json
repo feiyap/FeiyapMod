@@ -1,0 +1,31 @@
+{
+    "S_FFAce_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "ally",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "朱雀之契",
+        "UseAp": 1,
+        "User": "FFAce",
+        "Description": "翻开：获得持续2回合的“攻击力上升15%”增益，并可再次使用固定能力。下次使用固定能力时可额外查看1个技能，并触发相应的[翻开]效果。",
+        "Effect_Target": "SE_T_S_FFAce_2",
+        "Image_0": "S_FFAce_2\\S_FFAce_2_Image_0.png",
+        "Image_1": "S_FFAce_2\\S_FFAce_2_Image_1.png",
+        "Image_2": "S_FFAce_2\\S_FFAce_2_Image_2.png"
+    }
+}

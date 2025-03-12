@@ -1,0 +1,16 @@
+{
+    "B_FFAce_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "朱雀之契",
+        "Description": "攻击单个敌人时，为目标施加1层[朱雀之怒]（追加攻击和反击不能触发）。",
+        "Icon": "Image/ItemIcon/NewIcons/Equip/Featheroflife",
+        "LifeTime": 2
+    }
+}

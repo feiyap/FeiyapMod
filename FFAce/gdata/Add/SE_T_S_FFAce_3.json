@@ -1,0 +1,12 @@
+{
+    "SE_T_S_FFAce_3": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_FFAce_3"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

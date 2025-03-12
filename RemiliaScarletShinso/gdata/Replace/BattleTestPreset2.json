@@ -1,0 +1,46 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Azar_0",
+                "S_Azar_0"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "RemiliaScarletShinso"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_LucyC_2"
+        ]
+    }
+}

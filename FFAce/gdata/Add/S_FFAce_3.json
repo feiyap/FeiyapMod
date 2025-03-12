@@ -1,0 +1,17 @@
+{
+    "S_FFAce_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": false,
+        "Name": "零式预判",
+        "Description": "抽到这张牌时，使用这张牌的[翻开]效果。\r\n翻开：从弃牌库中选择1张调查员的普通技能置入手中并减少1费。1个回合中最多触发2次该效果。",
+        "UseAp": 1,
+        "User": "FFAce",
+        "Effect_Target": "SE_T_S_FFAce_3",
+        "Image_0": "S_FFAce_3\\S_FFAce_3_Image_0.png",
+        "Image_1": "S_FFAce_3\\S_FFAce_3_Image_1.png",
+        "Image_2": "S_FFAce_3\\S_FFAce_3_Image_2.png"
+    }
+}

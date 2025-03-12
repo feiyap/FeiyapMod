@@ -73,7 +73,10 @@ namespace Suwako
             }
             if (list.Count >= 1)
             {
-                yield return CustomMethods.I_SkillBackToDeck(list[0], -1, true);
+                System.Random random = new System.Random();
+                int randomIndex = random.Next(0, this.BChar.MyTeam.Skills_Deck.Count);
+
+                yield return CustomMethods.I_SkillBackToDeck(list[0], randomIndex, true);
             }
 
             while (BattleSystem.instance.ListWait || BattleSystem.instance.Particles.Count != 0 || GameObject.FindGameObjectsWithTag("EffectView").Length != 0 || GameObject.FindGameObjectsWithTag("Tutorial").Length != 0 || BattleSystem.instance.DelayWait)

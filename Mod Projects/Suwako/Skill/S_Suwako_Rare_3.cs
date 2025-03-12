@@ -69,7 +69,10 @@ namespace Suwako
 
         public void Del(SkillButton Mybutton)
         {
-            BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(Mybutton.Myskill, -1, true));
+            System.Random random = new System.Random();
+            int randomIndex = random.Next(0, this.BChar.MyTeam.Skills_Deck.Count);
+
+            BattleSystem.DelayInputAfter(CustomMethods.I_SkillBackToDeck(Mybutton.Myskill, randomIndex, true));
         }
 
         public IEnumerator Reply()

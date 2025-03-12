@@ -4,7 +4,7 @@
     "Visibility": "Public",
     "Title": "【CN/JP/EN/KR】蕾米莉亚·斯卡雷特 ~ 东方红魔乡",
     "Author": "绯夜氏",
-    "Version": "v3.4",
+    "Version": "v3.5",
     "Description": "红魔馆的主人。看起来很幼小但实际上活了500年以上的吸血鬼。\r\n\n拥有强大自愈能力的吸血鬼角色，\r\n能够持续将伤害转化为自己的体力，\r\n同时拥有着增加自己体力上限的能力。\r\n\n包含1个角色。拥有10个基础技能，3个稀有技能，1个露西抽牌技能。\n包含1个装备。",
     "Cover": "RemiliaScarletCover.png",
     "TagList": [
@@ -12,5 +12,5 @@
     ],
     "OnlyUploadFiles": true,
     "WorkShopId": "3242392250",
-    "ChangeNote": "2025/2/15\nv3.4\n修复：[魇月癫乱]在部分情况下会导致敌人无法进行攻击。\n修复：EN、JP、KR翻译文本。"
+    "ChangeNote": "2025/3/11\nv3.5\n新增 - 新增皮肤[超炎血姬！]。"
 }

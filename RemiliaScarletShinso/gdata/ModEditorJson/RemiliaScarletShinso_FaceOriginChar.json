@@ -1,0 +1,23 @@
+{
+    "myKey": "RemiliaScarletShinso",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "RemiliaScarletShinso\\RemiliaScarletShinsoFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1173.06311,
+            "y": 585.362854
+        },
+        "offsetMin": {
+            "x": -1026.93689,
+            "y": -1614.63721
+        },
+        "pivot": {
+            "x": 0.466153115,
+            "y": 0.7314832
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}
