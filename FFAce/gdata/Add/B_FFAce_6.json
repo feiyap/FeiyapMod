@@ -1,0 +1,16 @@
+{
+    "B_FFAce_6": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "FFAce.B_FFAce_6",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "冰晶共鸣",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (12)",
+        "Description": "攻击单个敌人时，为目标施加1层[霜冻]（追加攻击和反击不能触发）。",
+        "LifeTime": 2
+    }
+}

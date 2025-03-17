@@ -19,6 +19,16 @@ namespace VillageAlice
 	/// </summary>
     public class B_FVAlice_P:Buff
     {
-
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            foreach (Skill skill in this.BChar.MyTeam.Skills)
+            {
+                if (skill.Master == this.BChar && skill.ExtendedFind_DataName("SkillExtended_Fairytale") == null)
+                {
+                    skill.ExtendedAdd(Skill_Extended.DataToExtended("SkillExtended_Fairytale"));
+                }
+            }
+        }
     }
 }

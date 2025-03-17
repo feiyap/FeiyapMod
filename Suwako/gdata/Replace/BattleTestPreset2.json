@@ -10,7 +10,7 @@
         "PartyBasicSkill": [
             "S_Ilya_1",
             "S_Azar_5",
-            "S_TW_Blue_5",
+            "S_Hein_6",
             "S_Suwako_Rare_1"
         ],
         "PartySkills": [
@@ -21,12 +21,13 @@
                 
             ],
             [
-                
+                "S_Hein_6"
             ],
             [
                 "S_Suwako_0",
-                "S_Suwako_0",
-                "S_Suwako_0"
+                "S_Suwako_Rare_3",
+                "S_Suwako_1",
+                "S_Suwako_2"
             ]
         ],
         "PartyEquip": [

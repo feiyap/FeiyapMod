@@ -26,6 +26,7 @@ namespace FFAce
             if (this.StackNum == 3)
             {
                 Skill tmpSkill = Skill.TempSkill("S_FFAce_0_Ex", this.Usestate_F, this.Usestate_F.MyTeam);
+                tmpSkill.isExcept = true;
                 BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
                 SelfDestroy();
             }

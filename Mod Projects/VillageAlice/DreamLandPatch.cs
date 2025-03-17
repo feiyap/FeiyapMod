@@ -23,11 +23,13 @@ namespace VillageAlice
         [HarmonyPatch(nameof(SkillToolTip.Input))]
         static void InputPostfix(SkillToolTip __instance, Skill Skill, Stat _stat, ToolTipWindow.SkillTooltipValues skillvalues, bool View = false, SkillPrefab sp = null)
         {
-            if (Skill.Master.Info.KeyData == "VillageAlice")
+            if (Skill.ExtendedFind_DataName("SkillExtended_Fairytale") != null && !Skill.Master.BuffFind("B_FVAlice_P_1"))
             {
                 UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkilTooltip"), __instance.SkillImage.transform);
                 UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkilTooltip"), __instance.Desc.transform);
             }
         }
     }
+
+
 }

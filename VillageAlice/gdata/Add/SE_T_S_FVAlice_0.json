@@ -3,6 +3,12 @@
         "_gdeSchema": "SkillEffect",
         "HIT": 105,
         "DMG_Per": 10,
-        "DMG_Base": 0
+        "DMG_Base": 0,
+        "Buffs": [
+            "B_FVAlice_0"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
     }
 }

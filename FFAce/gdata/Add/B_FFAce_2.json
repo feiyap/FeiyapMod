@@ -4,7 +4,7 @@
         "Hide": false,
         "IsFieldBuff": false,
         "Cantdisable": false,
-        "ClassName": "",
+        "ClassName": "FFAce.B_FFAce_2",
         "BuffTag": "null",
         "UseSkillDebuff": false,
         "Caution": false,

@@ -1,0 +1,15 @@
+{
+    "B_FFAce_4": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "FFAce.B_FFAce_4",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "属性提升",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
+        "LifeTime": 2
+    }
+}

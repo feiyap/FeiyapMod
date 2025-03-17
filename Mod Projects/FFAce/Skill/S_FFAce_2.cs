@@ -17,8 +17,26 @@ namespace FFAce
 	/// 朱雀之契
 	/// 翻开：获得持续2回合的“攻击力上升15%”增益，并可再次使用固定能力。下次使用固定能力时可额外查看1个技能，并触发相应的[翻开]效果。
 	/// </summary>
-    public class S_FFAce_2:Skill_Extended
+    public class S_FFAce_2: SkillBase_Ace
     {
+        public override void AceDraw()
+        {
+            base.AceDraw();
 
+            BattleAlly ba = (this.BChar as BattleAlly);
+            ba.MyBasicSkill.CoolDownNum = 0;
+            if (ba.MyBasicSkill.ThisSkillUse)
+            {
+                ba.MyBasicSkill.InActive = false;
+                ba.MyBasicSkill.ThisSkillUse = false;
+            }
+            if (ba.MyBasicSkill.InActive)
+            {
+                ba.MyBasicSkill.InActive = false;
+            }
+
+            this.BChar.BuffAdd("B_FFAce_4_1", this.BChar);
+            this.BChar.BuffAdd("B_FFAce_LucyD", this.BChar);
+        }
     }
 }

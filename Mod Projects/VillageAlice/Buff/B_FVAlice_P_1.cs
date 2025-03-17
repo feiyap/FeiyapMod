@@ -17,8 +17,15 @@ namespace VillageAlice
 	/// 梦境
 	/// 在[梦境]中释放未被【童话】的技能将返回[现实]。
 	/// </summary>
-    public class B_FVAlice_P_1:Buff
+    public class B_FVAlice_P_1:Buff, IP_SkillUseHand_Team
     {
-
+        public void SKillUseHand_Team(Skill skill)
+        {
+            if (skill.Master == this.BChar && skill.ExtendedFind_DataName("SkillExtended_Fairytale") == null)
+            {
+                this.SelfDestroy();
+                this.BChar.BuffAdd("B_FVAlice_P", this.BChar);
+            }
+        }
     }
 }

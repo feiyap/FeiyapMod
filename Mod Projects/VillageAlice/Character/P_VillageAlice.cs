@@ -20,8 +20,11 @@ namespace VillageAlice
 	/// 在[现实]中，自身所属技能将【童话】化。
 	/// 释放【童话】技能后，将进入[梦境]，在[梦境]中释放未被【童话】的技能将返回[现实]。
 	/// </summary>
-    public class P_VillageAlice:Passive_Char
+    public class P_VillageAlice:Passive_Char, IP_BattleStart_UIOnBefore
     {
-
+        public void BattleStartUIOnBefore(BattleSystem Ins)
+        {
+            this.BChar.BuffAdd("B_FVAlice_P", this.BChar);
+        }
     }
 }

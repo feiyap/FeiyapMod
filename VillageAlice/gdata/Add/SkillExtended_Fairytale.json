@@ -1,0 +1,11 @@
+{
+    "SkillExtended_Fairytale": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "童话",
+        "Des": "释放后，进入[梦境]。",
+        "IsIcon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (72)",
+        "ClassName": "VillageAlice.SkillExtended_Fairytale"
+    }
+}

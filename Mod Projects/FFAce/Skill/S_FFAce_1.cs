@@ -23,6 +23,7 @@ namespace FFAce
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             Skill tmpSkill = Skill.TempSkill("S_FFAce_0", this.BChar, this.BChar.MyTeam);
+            tmpSkill.isExcept = true;
             BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
         }
 

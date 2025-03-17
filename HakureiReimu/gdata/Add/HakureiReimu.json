@@ -59,7 +59,7 @@
             "x": 0,
             "y": 40
         },
-        "Lock": true,
+        "Lock": false,
         "UnlockString": "使用任意《东方project》系列角色通关1次。\n（如果不知道什么是《东方project》的玩家，可以优先使用“藤原妹红”mod或是“蕾米莉亚”mod。）",
         "PassiveName": "乐园的巫女",
         "PassiveDes": "<b>在空中飞翔的不可思议的巫女</b> - 回合开始时，博丽灵梦获得1层[博丽结界]。\n\n<b><color=#B22222>符卡等级</color></b> - 博丽灵梦每次使用与上次卡名不同的技能时，获得1层<b><color=#B22222>符卡等级</color></b>；否则失去所有<color=#B22222>符卡等级</color>。\n每层<color=#B22222>符卡等级</color>提供2%命中率和闪避率，并会解锁技能的额外效果。最多拥有5层<color=#B22222>符卡等级</color>。",

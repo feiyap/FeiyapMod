@@ -2,42 +2,23 @@
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
         "Party": [
-            "Inaba",
-            "Eirin",
-            "Reisen",
             "HakureiReimu"
         ],
         "PartyBasicSkill": [
-            "S_Ilya_1",
-            "S_Azar_5",
-            "S_TW_Blue_5",
-            "S_HakureiReimu_F_11Rare"
+            "S_HakureiReimu_F_0"
         ],
         "PartySkills": [
             [
-                "S_Daiyousei_R_2",
-                "S_Youmu_R_2"
-            ],
-            [
-                "S_Cirno_R_2"
-            ],
-            [
-                "S_LilyBlack_Rare_3"
-            ],
-            [
-                "S_HakureiReimu_F_10Rare"
+                "S_HakureiReimu_F_10Rare",
+                "S_HakureiReimu_F_0",
+                "S_HakureiReimu_F_0",
+                "S_HakureiReimu_F_0",
+                "S_HakureiReimu_F_0",
+                "S_HakureiReimu_F_0",
+                "S_HakureiReimu_F_0"
             ]
         ],
         "PartyEquip": [
-            [
-                
-            ],
-            [
-                
-            ],
-            [
-                
-            ],
             [
                 "E_HakureiReimu_F_0",
                 "E_HakureiReimu_F_2"

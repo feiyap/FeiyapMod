@@ -1,0 +1,8 @@
+{
+    "SE_T_S_FVAlice_6": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 90,
+        "CRI": 10
+    }
+}

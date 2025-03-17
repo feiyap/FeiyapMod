@@ -44,7 +44,7 @@ namespace IzayoiSakuya
 
         public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
         {
-            if ((SP.SkillData.IsDamage || SP.SkillData.IsHeal) && Cri)
+            if ((SP.SkillData.IsDamage) && Cri && !hit.Info.Ally)
             {
                 BattleSystem.DelayInputAfter(this.Attack(hit));
             }

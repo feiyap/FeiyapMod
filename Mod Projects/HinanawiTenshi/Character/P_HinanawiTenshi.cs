@@ -48,7 +48,7 @@ namespace HinanawiTenshi
 
         public void Buffadded(BattleChar BuffUser, BattleChar BuffTaker, Buff addedbuff)
         {
-            if (BuffTaker == this.BChar)
+            if (BuffTaker == this.BChar && !addedbuff.BuffData.Debuff)
             {
                 if (BattleSystem.instance.GetBattleValue<BV_Tenshi_P>() == null)
                 {

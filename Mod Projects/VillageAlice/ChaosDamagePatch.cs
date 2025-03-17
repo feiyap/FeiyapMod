@@ -16,9 +16,7 @@ using HarmonyLib;
 using System.Reflection;
 namespace VillageAlice
 {
-    [HarmonyPatch(typeof(BattleChar))]
-    [HarmonyPatch("ChaosDamage", MethodType.Normal)]
-    public static class ChaosDamagePatch
+    public static class BattleCharExtensions
     {
         public static int ChaosDamage(this BattleChar instance, BattleChar User, int Dmg, bool Cri, bool Pain = false, bool NOEFFECT = false, int PlusPenetration = 0, bool IgnoreHealingPro = false, bool HealingPro = false, bool OnlyUnscaleTime = false)
         {
@@ -115,7 +113,7 @@ namespace VillageAlice
                 gameObject.GetComponent<EffectView>().InputDamage(0, Cri, instance.Info.Ally, Pain);
                 return 0;
             }
-            
+
             instance.HP -= Dmg;
 
             if (!instance.Info.Ally && instance.IsDead)
@@ -125,18 +123,6 @@ namespace VillageAlice
             gameObject.GetComponent<EffectView>().InputDamage(Dmg, Cri, instance.Info.Ally, Pain);
 
             return Dmg;
-        }
-
-        [HarmonyPostfix]
-        public static void Postfix(BattleChar __instance)
-        {
-            // 使用反射将 ChaosDamage 方法添加到 BattleChar 类中
-            var chaosDamageMethod = typeof(ChaosDamagePatch).GetMethod("ChaosDamage", BindingFlags.Static | BindingFlags.Public);
-            var chaosDamageDelegate = Delegate.CreateDelegate(typeof(Func<BattleChar, int, int>), chaosDamageMethod);
-
-            // 将方法添加到 BattleChar 实例中
-            typeof(BattleChar).GetMethod("ChaosDamage", BindingFlags.Instance | BindingFlags.Public)
-                ?.Invoke(__instance, new object[] { chaosDamageDelegate });
         }
     }
 }

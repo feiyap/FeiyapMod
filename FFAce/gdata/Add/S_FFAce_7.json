@@ -1,0 +1,20 @@
+{
+    "S_FFAce_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_6",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "凛冬之契",
+        "Description": "此技能被丢弃时，在手中生成一张[霜月轮转]。\n翻开：选择牌库和手牌中的1张技能丢弃，抽1张卡。",
+        "User": "FFAce",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_FFAce_7",
+        "Image_0": "S_FFAce_7\\S_FFAce_7_Image_0.png",
+        "Image_1": "S_FFAce_7\\S_FFAce_7_Image_1.png",
+        "Image_2": "S_FFAce_7\\S_FFAce_7_Image_2.png",
+        "SkillExtended": [
+            "FFAce.S_FFAce_7"
+        ]
+    }
+}

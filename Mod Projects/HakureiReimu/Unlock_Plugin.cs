@@ -66,7 +66,7 @@ namespace HakureiReimu
                     charData.NomalClear >= 1 ||
                     charData.CasualClear >= 1)
                 {
-                    UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
+                    //UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
                     if (charaName == "HakureiReimu" && !SaveManager.IsUnlock("HakureiReimuEclipse"))
                     {
                         SaveManager.NowData.unlockList.UnlockItems.Add("HakureiReimuEclipse");
@@ -94,7 +94,7 @@ namespace HakureiReimu
                     charData.NomalClear >= 1 ||
                     charData.CasualClear >= 1)
                 {
-                    UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
+                    //UnlockWindow.Unlock("Unlock_HakureiReimu", SaveManager.NowData.unlockList.UnlockCharacter, "HakureiReimu", true, true);
                     if (charaName == "HakureiReimu" && !SaveManager.IsUnlock("HakureiReimuEclipse"))
                     {
                         SaveManager.NowData.unlockList.UnlockItems.Add("HakureiReimuEclipse");

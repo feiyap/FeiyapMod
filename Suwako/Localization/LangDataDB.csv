@@ -3,7 +3,7 @@ Buff/B_Suwako_3_Description,Text,,,"Each turn, after using 4 skills, add a 0 cos
 Buff/B_Suwako_3_Name,Text,,,Growing Storm,風雨の祈祷,风雨御射,
 Buff/B_Suwako_8_Description,Text,,,"The next time the <color=#008B45>Cycle</color> effect is triggered, the <color=#008B45>Cycled</color> skill's damage will be increased by &a(80%) or healing by &b(130%) for this battle.",次に<color=#008B45>連環</color>が発動したとき、<color=#008B45>連環</color>を発動したスキルはこの戦闘中、ダメージが&a(80%)、回復量が&b(130%)増加する。効果発動後、除去する。,下次触发<color=#008B45>旋回</color>效果时，使被<color=#008B45>旋回</color>的技能在本场战斗中增加&a(80%)伤害或&b(130%)治疗量。触发后解除。,
 Buff/B_Suwako_8_Name,Text,,,Approaching Storm,風雨よ来い,风雨欲来,
-Buff/B_Suwako_Dot_Description,Text,,,"Each time <color=#008B45>Cycle</color> is triggered or a 0 cost skill is used, this debuff's damage will be increased by 2.",<color=#008B45>連環</color>が発動するかコストが0のスキルを使用するたび、このデバフのダメージが2増加する。,每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加2点。,
+Buff/B_Suwako_Dot_Description,Text,,,"Each time <color=#008B45>Cycle</color> is triggered or a 0 cost skill is used, this debuff's damage will be increased by 1.",<color=#008B45>連環</color>が発動するかコストが0のスキルを使用するたび、このデバフのダメージが1増加する。,每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加1点。,
 Buff/B_Suwako_Dot_Name,Text,,,Raging Storm,風雨の到来,风雨已至,
 Buff/B_Suwako_Rare2_Description,Text,,,"When <color=#008B45>Cycle</color> is triggered, or when any teammate plays a 0 cost skill from your hand, the damage of [Raging Storm] will be triggered immediately, but only half of the damage will be dealt.",<color=#008B45>連環</color>が発動するかコストが0のスキルを使用したとき、[風雨の到来]のダメージを50%のダメージで1回発動する。,触发<color=#008B45>旋回</color>或释放手中的0费技能时，立即触发1次自己施加的[风雨已至]的伤害，但只造成50%的伤害量。,
 Buff/B_Suwako_Rare2_Name,Text,,,Eye of the Storm,風雨の終わり,风雨皆息,

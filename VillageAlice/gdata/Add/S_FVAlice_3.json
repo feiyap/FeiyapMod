@@ -1,0 +1,19 @@
+{
+    "S_FVAlice_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/Master_0",
+        "Target": "enemy",
+        "Disposable": false,
+        "Name": "邮票",
+        "Description": "【童话】：反转手牌中所有技能的【童话】化状态。",
+        "User": "VillageAlice",
+        "UseAp": 3,
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_FVAlice_3",
+        "Image_0": "S_FVAlice_3\\S_FVAlice_3_Image_0.png",
+        "Image_1": "S_FVAlice_3\\S_FVAlice_3_Image_1.png",
+        "Image_2": "S_FVAlice_3\\S_FVAlice_3_Image_2.png"
+    }
+}

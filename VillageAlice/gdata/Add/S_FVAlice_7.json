@@ -1,0 +1,20 @@
+{
+    "S_FVAlice_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_3",
+        "Target": "enemy",
+        "Name": "掉进兔子洞",
+        "UseAp": 1,
+        "User": "VillageAlice",
+        "Counting": 2,
+        "PlusKeyWords": [
+            
+        ],
+        "Effect_Target": "SE_T_S_FVAlice_7",
+        "Description": "这个技能释放后，到目标行动时将一张“掉进兔子洞”加入手牌中。\r\n释放后的此技能倒计时减少时，给予目标(<sprite=2>85%)1层美梦。",
+        "Image_0": "S_FVAlice_7\\S_FVAlice_7_Image_0.png",
+        "Image_1": "S_FVAlice_7\\S_FVAlice_7_Image_1.png",
+        "Image_2": "S_FVAlice_7\\S_FVAlice_7_Image_2.png"
+    }
+}

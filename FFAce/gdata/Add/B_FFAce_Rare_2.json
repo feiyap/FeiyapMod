@@ -1,0 +1,11 @@
+{
+    "B_FFAce_Rare_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FFAce.B_FFAce_Rare_2",
+        "BuffTag": "null",
+        "Name": "朱雀刻印",
+        "Description": "每个回合首次使用固定能力时，额外翻开一张牌并获得相应的[翻开]效果。\n每个回合开始时，额外获得2层[赤红之炎]。\n使用[红焰轮舞]和[赤红之炎]时，额外造成&a点伤害(&user攻击力的100%)的追加攻击。",
+        "LifeTime": 5,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (50)"
+    }
+}

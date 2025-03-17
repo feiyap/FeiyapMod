@@ -52,11 +52,16 @@ namespace FFAce
 
         public void Del(SkillButton Mybutton)
         {
-            foreach (Skill_Extended se in Mybutton.Myskill.AllExtendeds)
+            this.BChar.BuffReturn("B_FFAce_LucyD")?.SelfDestroy();
+
+            foreach (Skill drawskill in P_FFAce.DrawList)
             {
-                if (se.Name == Mybutton.Myskill.MySkill.KeyID)
+                foreach (Skill_Extended se in drawskill.AllExtendeds)
                 {
-                    (se as SkillBase_Ace).AceDraw();
+                    if (se.Name == drawskill.MySkill.KeyID)
+                    {
+                        (se as SkillBase_Ace).AceDraw();
+                    }
                 }
             }
         }

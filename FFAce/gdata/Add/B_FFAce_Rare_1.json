@@ -1,0 +1,18 @@
+{
+    "B_FFAce_Rare_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "FFAce.B_FFAce_Rare_1",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "燎原之契",
+        "Description": "受到来自&user的伤害的暴击率+25%，\n受到来自&user的暴击伤害+35%。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_51/1_51Buff (2)",
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

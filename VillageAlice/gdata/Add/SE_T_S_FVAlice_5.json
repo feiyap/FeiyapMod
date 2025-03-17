@@ -1,0 +1,13 @@
+{
+    "SE_T_S_FVAlice_5": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 42,
+        "DMG_Per": 42,
+        "Buffs": [
+            "B_FVAlice_5"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

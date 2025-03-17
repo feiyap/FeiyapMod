@@ -2,7 +2,7 @@
     "B_FVAlice_P_1": {
         "_gdeSchema": "Buff",
         "Cantdisable": true,
-        "ClassName": "",
+        "ClassName": "VillageAlice.B_FVAlice_P_1",
         "BuffTag": "null",
         "Name": "梦境",
         "Description": "在[梦境]中释放未被【童话】的技能将返回[现实]。",

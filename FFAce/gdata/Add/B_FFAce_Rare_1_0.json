@@ -1,0 +1,10 @@
+{
+    "B_FFAce_Rare_1_0": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "Cantdisable": true,
+        "ClassName": "FFAce.B_FFAce_Rare_1_0",
+        "BuffTag": "null",
+        "Name": ""
+    }
+}

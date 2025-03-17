@@ -1,0 +1,14 @@
+{
+    "B_FFAce_5_Ex": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FFAce.B_FFAce_5_Ex",
+        "BuffTag": "CrowdControl",
+        "Description": "无法行动。\n当受到物理攻击时，受到&a点伤害(&user攻击力的170%)，并解除该减益。",
+        "Name": "冰冻",
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_26",
+        "Debuff": true,
+        "TagPer": 500,
+        "EnemyBuffEffect": "BuffEffect/Enemy/Frozen"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "B_FVAlice_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "CrowdControl",
+        "Name": "失重",
+        "Debuff": true,
+        "TagPer": 110,
+        "MaxStack": 0,
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (22)",
+        "Description": ""
+    }
+}

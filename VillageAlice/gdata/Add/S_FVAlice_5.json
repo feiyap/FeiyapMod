@@ -1,0 +1,18 @@
+{
+    "S_FVAlice_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Fanatic/Fanatic_0",
+        "Target": "all_enemy",
+        "NoDrop": false,
+        "Except": false,
+        "Name": "梦境失重",
+        "Description": "命中时，额外造成&a点混乱伤害(攻击力的100%)。\r\n【童话】：附加一次性。必定命中。",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_FVAlice_5",
+        "User": "VillageAlice",
+        "Image_0": "S_FVAlice_5\\S_FVAlice_5_Image_0.png",
+        "Image_1": "S_FVAlice_5\\S_FVAlice_5_Image_1.png",
+        "Image_2": "S_FVAlice_5\\S_FVAlice_5_Image_2.png"
+    }
+}

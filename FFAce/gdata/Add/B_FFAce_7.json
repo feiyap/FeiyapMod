@@ -1,0 +1,13 @@
+{
+    "B_FFAce_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FFAce.B_FFAce_7",
+        "BuffTag": "Debuff",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (5)",
+        "Description": "每次受到伤害时将被施加1层[霜冻]（1个回合内最多触发2次）。",
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 130,
+        "Name": "凛冬之契"
+    }
+}

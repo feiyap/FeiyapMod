@@ -1,0 +1,16 @@
+{
+    "S_FVAlice_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Fanatic/FanaticFire",
+        "Target": "enemy",
+        "Name": "德洛丽丝摇篮曲",
+        "Description": "进入或离开[梦境]时，法力值消耗减少1。\r\n【童话】：触发一次目标拥有的噩梦cc或美梦cc，不减少层数。",
+        "User": "VillageAlice",
+        "UseAp": 3,
+        "Effect_Target": "SE_T_S_FVAlice_6",
+        "Image_0": "S_FVAlice_6\\S_FVAlice_6_Image_0.png",
+        "Image_1": "S_FVAlice_6\\S_FVAlice_6_Image_1.png",
+        "Image_2": "S_FVAlice_6\\S_FVAlice_6_Image_2.png"
+    }
+}

@@ -1,7 +1,7 @@
 {
     "B_FFAce_0_Ex": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "FFAce.B_FFAce_0_Ex",
         "BuffTag": "DOT",
         "Name": "深度灼伤",
         "LifeTime": 3,

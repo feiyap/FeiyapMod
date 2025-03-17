@@ -1,194 +1,287 @@
-﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-Dialogue/Marisa_Gift_Normal/001,Text,,,,,"*雾雨魔理沙
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Dialogue/Marisa_Gift_Normal/001,Text,,,"*Marisa Kirisame
+Wow, are you really giving me a gift?",,"*雾雨魔理沙
 呜哇，居然要送礼物给我吗？",
-Dialogue/Marisa_Gift_Normal/002,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Normal/002,Text,,,"*Marisa Kirisame
+Thank you, Lucy! I’ll gladly accept it without hesitation!",,"*雾雨魔理沙
 谢谢你，露西！我就不客气地收下啦！",
-Dialogue/Marisa_Gift_Normal/003,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Normal/003,Text,,,"*Marisa Kirisame
+Next time we have a chance, I'll take you for a ride on my broomstick!",,"*雾雨魔理沙
 下次有机会的话，我用扫帚带你去兜风哦！",
-Dialogue/Marisa_Gift_Sake/001,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Sake/001,Text,,,"*Marisa Kirisame
+Oh, oh, this is sake, sake!",,"*雾雨魔理沙
 哦哦，这是烧酒啊，烧酒！",
-Dialogue/Marisa_Gift_Sake/002,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Sake/002,Text,,,"*Marisa Kirisame
+Alright! No time to waste! Let's sit down and have a couple of drinks!",,"*雾雨魔理沙
 好！事不宜迟！这就坐下来一起喝两杯吧！",
-Dialogue/Marisa_Gift_Sake/003,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Sake/003,Text,,,"*Marisa Kirisame
+Huh? You're underage and can't drink yet? What a pity.",,"*雾雨魔理沙
 咦？你是未成年，还不能喝酒吗？真是可惜。",
-Dialogue/Marisa_Gift_Sake/004,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Sake/004,Text,,,"*Marisa Kirisame
+Me? ...I-I-I'm an adult now! So I can drink... I can drink!",,"*雾雨魔理沙
 我？……我、我、我成年了唷？所以能喝的啦……能喝的啦！",
-Dialogue/Marisa_Gift_DVD/001,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_DVD/001,Text,,,"*Marisa Kirisame
+Oh oh! Isn’t this a DVD of a romance movie!",,"*雾雨魔理沙
 哦哦！这不是浪漫电影的DVD嘛！",
-Dialogue/Marisa_Gift_DVD/002,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_DVD/002,Text,,,"*Marisa Kirisame
+I was watching this halfway with Alice last time, but we never finished it! The main character kept saying ""What did you say?"" and I thought it was the reincarnation of Ichigo Kurosaki.",,"*雾雨魔理沙
 上次和爱丽丝一起看到一半来着，后面还没看完呢！主角一直在说“你说什么？”，我还以为是黑崎一护转世呢。",
-Dialogue/Marisa_Gift_DVD/003,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_DVD/003,Text,,,"*Marisa Kirisame
+No, no, it’s not the Alice that John knows...",,"*雾雨魔理沙
 不，不是约翰认识的那个爱丽丝啦……",
-Dialogue/Marisa_Gift_DVD/004,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_DVD/004,Text,,,"*Marisa Kirisame
+She's a very meticulous and serious person. You two will definitely get along well!",,"*雾雨魔理沙
 她是个做事非常认真仔细的人。你们一定会很合得来的！",
-Dialogue/Marisa_Gift_Gun/001,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Gun/001,Text,,,"*Marisa Kirisame
+Oh! I've seen this at Rinnosuke's place!",,"*雾雨魔理沙
 哦哦！我在霖之助那里见过这个！",
-Dialogue/Marisa_Gift_Gun/002,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Gun/002,Text,,,"*Marisa Kirisame
+I heard that the bullets fired after loading the ammunition are faster and more powerful than spell cards!",,"*雾雨魔理沙
 听说装填弹药之后发射出来的子弹比符卡更加迅速、威力更大呢！",
-Dialogue/Marisa_Gift_Gun/003,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Gun/003,Text,,,"*Marisa Kirisame
+...Is this just a decoration? It’s fine, even if it’s real, I wouldn’t use it anyway.",,"*雾雨魔理沙
 ……这个只是装饰品？没关系啦，就算是真的我也不会拿来用。",
-Dialogue/Marisa_Gift_Gun/004,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Gun/004,Text,,,"*Marisa Kirisame
+I’ll go show it off to Rinnosuke next time!",,"*雾雨魔理沙
 下次去找霖之助炫耀一下好了！",
-Dialogue/Marisa_Gift_Mugwort/001,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Mugwort/001,Text,,,"*Marisa Kirisame
+Mugwort? I don’t usually use it, but... it’ll be hard to find when I actually need it!",,"*雾雨魔理沙
 艾草？虽然一般不会用上，不过嘛……等到缺的时候再找可就难找咯！",
-Dialogue/Marisa_Gift_Mugwort/002,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Mugwort/002,Text,,,"*Marisa Kirisame
+Hm? What do you want to use it for?",,"*雾雨魔理沙
 嗯？你问我要用来做什么？",
-Dialogue/Marisa_Gift_Mugwort/003,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Gift_Mugwort/003,Text,,,"*Marisa Kirisame
+What else could I use it for? I'm a witch, brewing potions by throwing all sorts of ingredients into a big pot is basic training for me!",,"*雾雨魔理沙
 还能做什么呀，我可是魔女，在大锅里倒进各种各样的东西熬药不是基本功嘛！",
-Dialogue/Marisa_Lv1/001,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/001,Text,,,"*Lucy
+Miss Marisa, what are you doing?",,"*露西
 魔理沙小姐，你在做什么？",
-Dialogue/Marisa_Lv1/002,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/002,Text,,,"*Marisa Kirisame
+Lucy? What brings you here? I'm just looking at the herbs around here.",,"*雾雨魔理沙
 露西？你怎么跑这儿来了。我在看这里的草呢。",
-Dialogue/Marisa_Lv1/003,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/003,Text,,,"*Marisa Kirisame
+Look, can you tell the difference between these two plants?",,"*雾雨魔理沙
 看，这两株植物有什么区别，能分辨出来吗？",
-Dialogue/Marisa_Lv1/004,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/004,Text,,,"*Lucy
+Hmm, one has thorns, and the other doesn’t.",,"*露西
 唔，一种带刺，一种不带刺。",
-Dialogue/Marisa_Lv1/005,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/005,Text,,,"*Marisa Kirisame
+So, can you guess which one of them is non-toxic?",,"*雾雨魔理沙
 那么，猜猜它们之中谁是不带毒的呢？",
-Dialogue/Marisa_Lv1/006,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/006,Text,,,"*Lucy
+...Is it the one without thorns?",,"*露西
 ……是不带刺的吗？",
-Dialogue/Marisa_Lv1/007,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/007,Text,,,"*Marisa Kirisame
+Haha, do you think it needs poison to protect itself just because it doesn't have thorns? Quite the opposite, actually.",,"*雾雨魔理沙
 哈哈，因为觉得它不带刺所以需要毒液来保护自己吗？恰恰相反呢。",
-Dialogue/Marisa_Lv1/008,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/008,Text,,,"*Marisa Kirisame
+This plant that looks harmless is actually the herb we commonly use for medicine. The other one is a common ingredient for synthesizing marking potions.",,"*雾雨魔理沙
 这株看起来无毒无害的植物，就是我们常用的药草。另一株是合成标记药水常用的素材喔。",
-Dialogue/Marisa_Lv1/009,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/009,Text,,,"*Lucy
+The herb has neither thorns nor poison, isn’t it just waiting to be eaten?",,"*露西
 药草既没有刺也没有毒，不是等着被吃吗？",
-Dialogue/Marisa_Lv1/010,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/010,Text,,,"*Marisa Kirisame
+Yes, that's right.",,"*雾雨魔理沙
 是啊。",
-Dialogue/Marisa_Lv1/011,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/011,Text,,,"*Lucy
+...Why?",,"*露西
 ……为什么？",
-Dialogue/Marisa_Lv1/012,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/012,Text,,,"*Marisa Kirisame
+The growth potential of plants is limited. You see, although poisonous plants are safe, producing venom requires more nutrients, so their numbers are far fewer than the non-toxic herbs.",,"*雾雨魔理沙
 植物的生长潜力的是有限的。你看，有毒的植物虽然安全，但合成毒液需要更多营养，导致它们的数量远远比不过无毒的药草。",
-Dialogue/Marisa_Lv1/012_Option1,,,,,,还是有毒更好一点。,
-Dialogue/Marisa_Lv1/012_Option2,Text,,,,,还是数量多更好一点。,
-Dialogue/Marisa_Lv1/012_1_1,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/012_Option1,,,,Having poison is better after all.,,还是有毒更好一点。,
+Dialogue/Marisa_Lv1/012_Option2,Text,,,Having greater numbers is better after all.,,还是数量多更好一点。,
+Dialogue/Marisa_Lv1/012_1_1,Text,,,"*Marisa Kirisame
+Hmm... Is that so? You would prefer plants like that, huh...",,"*雾雨魔理沙
 唔嗯……这样吗。你是会更喜欢那样的植物啊……",
-Dialogue/Marisa_Lv1/012_2_1,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/012_2_1,Text,,,"*Marisa Kirisame
+Hmm... Is that so? Even though I'm not as talented as others, with hard work and effort, I can still succeed.",,"*雾雨魔理沙
 唔嗯……这样吗。虽然天赋上比不过别人，但是靠拼命和努力还是能成功的呀。",
-Dialogue/Marisa_Lv1/013,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/013,Text,,,"*Marisa Kirisame
+But in the end, whether it's a poisonous or harmless plant, the ultimate goal is the same — to survive and continue reproducing life.",,"*雾雨魔理沙
 不过，不管是哪种植物，最终目的都是为了活下去继续繁衍生命啦。",
-Dialogue/Marisa_Lv1/014,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/014,Text,,,"*Lucy
+Miss Marisa, you know so much.",,"*露西
 魔理沙小姐懂得好多。",
-Dialogue/Marisa_Lv1/015,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/015,Text,,,"*Marisa Kirisame
+As a witch, these are just basics of alchemy.",,"*雾雨魔理沙
 身为魔女，这些都是炼药学的常识而已。",
-Dialogue/Marisa_Lv1/016,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/016,Text,,,"*Lucy
+...It’s a big difference from the impression I had of you, Miss Marisa.",,"*露西
 ……和魔理沙小姐给人的印象差好多。",
-Dialogue/Marisa_Lv1/017,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/017,Text,,,"*Marisa Kirisame
+W-What! Are you saying I look like a clueless idiot?",,"*雾雨魔理沙
 什、什么啦！难不成是说我看起来很像没有脑筋的笨蛋吗？",
-Dialogue/Marisa_Lv1/018,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/018,Text,,,"*Lucy
+...Because you look a lot like Miss Chain, Miss Marisa.",,"*露西
 ……因为魔理沙小姐看起来跟链锯小姐很像。",
-Dialogue/Marisa_Lv1/019,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/019,Text,,,"*Marisa Kirisame
+Hmm... I can't deny it...",,"*雾雨魔理沙
 唔唔……否认不了呢……",
-Dialogue/Marisa_Lv1/020,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/020,Text,,,"*Lucy
+So, I was quite surprised to see how knowledgeable you are, Marisa.",,"*露西
 所以看到魔理沙小姐这么博学，还挺意外的。",
-Dialogue/Marisa_Lv1/021,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/021,Text,,,"*Marisa Kirisame
+Oh! ...Looks like this is what a true magician should be like, right?",,"*雾雨魔理沙
 哦哦！……果然魔法使还得是这样，才称得上是魔法使吧？",
-Dialogue/Marisa_Lv1/022,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/022,Text,,,"*Lucy
+Miss Marisa... you really have the feel of a true magician. You're the most magician-like magician I've ever met.",,"*露西
 魔理沙小姐……确实很有魔法使的感觉。是我见过最魔法使的魔法使。",
-Dialogue/Marisa_Lv1/023,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv1/023,Text,,,"*Marisa Kirisame
+Hehe... Even if you praise me like that, I won't get smug, you know!",,"*雾雨魔理沙
 嘿嘿……就算你这么夸我，我也不会得意的哦！",
-Dialogue/Marisa_Lv1/024,Text,,,,,"*露西
+Dialogue/Marisa_Lv1/024,Text,,,"*Lucy
+(Marisa... she's so easy to understand...)",,"*露西
 （魔理沙小姐……真好懂啊……）",
-Dialogue/Marisa_Lv2/001,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/001,Text,,,"*Lucy
+...Marisa, Marisa?",,"*露西
 ……魔理沙小姐，魔理沙小姐？",
-Dialogue/Marisa_Lv2/002,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/002,Text,,,"*Marisa Kirisame
+Ah... L-Lucy...?",,"*雾雨魔理沙
 啊呜……露、露西……？",
-Dialogue/Marisa_Lv2/003,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/003,Text,,,"*Marisa Kirisame
+Hah?! D-Did I fall asleep?",,"*雾雨魔理沙
 哈？！我、我是不是睡着了？",
-Dialogue/Marisa_Lv2/004,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/004,Text,,,"*Lucy
+Marisa-sama fell asleep while holding the book.",,"*露西
 魔理沙小姐抱着书就这么睡着了。",
-Dialogue/Marisa_Lv2/005,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/005,Text,,,"*Marisa Kirisame
+Sorry, sorry! I was supposed to be on watch... How did this happen? Alice is going to scold me again...",,"*雾雨魔理沙
 抱歉抱歉，明明是我守夜来着吧？怎么会这样，又要被爱丽丝骂了……",
-Dialogue/Marisa_Lv2/006,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/006,Text,,,"*Lucy
+It's fine. I woke you up, Marisa-sama.",,"*露西
 不会的。因为我把魔理沙小姐叫起来了。",
-Dialogue/Marisa_Lv2/007,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/007,Text,,,"*Marisa Kirisame
+Thank you, Lucy...",,"*雾雨魔理沙
 谢谢你，露西……",
-Dialogue/Marisa_Lv2/008,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/008,Text,,,"*Lucy
+Marisa-sama has been working too hard lately.",,"*露西
 魔理沙小姐最近太拼命了。",
-Dialogue/Marisa_Lv2/009,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/009,Text,,,"*Marisa Kirisame
+Huh? Really? Do you think so...?",,"*雾雨魔理沙
 咦？有吗？……有这种感觉吗？",
-Dialogue/Marisa_Lv2/010,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/010,Text,,,"*Lucy
+You exert yourself in battle during the day, and at night, you still read and study. Of course, you'd fall asleep.",,"*露西
 白天拼尽力气在战斗，晚上还要读书学习，当然会睡着吧。",
-Dialogue/Marisa_Lv2/011,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/011,Text,,,"Marisa Kirisame
+You're right about that...",,"*雾雨魔理沙
 说的也是呢……",
-Dialogue/Marisa_Lv2/012,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/012,Text,,,"*Lucy
+What kind of book is Marisa-sama reading?",,"*露西
 魔理沙小姐在读什么书？",
-Dialogue/Marisa_Lv2/013,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/013,Text,,,"*Marisa Kirisame
+Hmm... it's nothing special. Look.",,"*雾雨魔理沙
 嗯……也没什么特别的。看。",
-Dialogue/Marisa_Lv2/014,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/014,Text,,,"*Lucy
+""The Basics of Dark Magic""... Hmm...",,"*露西
 《暗黑魔法基础教程》……嗯……",
-Dialogue/Marisa_Lv2/015,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/015,Text,,,"*Marisa Kirisame
+Don't look at me like that. I borrowed this from Karen. I never got to try dark magic back in Gensokyo, so when I encounter something new, I just can't resist giving it a try!",,"*雾雨魔理沙
 别用那种眼神看我啦。这是我问卡伦借的。我在幻想乡的时候没接触过黑魔法，碰到新奇的东西总会想试试看吧？",
-Dialogue/Marisa_Lv2/015_Option1,Text,,,,,会……会吗？,
-Dialogue/Marisa_Lv2/015_Option2,Text,,,,,我……我做不到。,
-Dialogue/Marisa_Lv2/015_1_1,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/015_Option1,Text,,,R-Really…?,,会……会吗？,
+Dialogue/Marisa_Lv2/015_Option2,Text,,,I… I can’t do it.,,我……我做不到。,
+Dialogue/Marisa_Lv2/015_1_1,Text,,,"*Marisa Kirisame
+Well, for someone like you, learning dark magic is still a bit too early...",,"*露西
 我只坚持了几天就不行了……",
-Dialogue/Marisa_Lv2/015_2_1,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/015_2_1,Text,,,"*Lucy
+Dark magic is too hard to learn. I can't do it.",,"*露西
 暗黑魔法太难学了。我做不到。",
-Dialogue/Marisa_Lv2/016,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/016,Text,,,"*Marisa Kirisame
+Hahaha. I heard from Karen. She spent so long preparing a dark magic course, but you didn't even attend the first class.",,"*雾雨魔理沙
 哈哈哈。我听卡伦说过，说她准备了好久的黑魔法课程，结果你连第一堂课都没去。",
-Dialogue/Marisa_Lv2/017,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/017,Text,,,"*Marisa Kirisame
+But for someone like you, learning dark magic is still too early...",,"*雾雨魔理沙
 不过，对你这样的孩子来说，学习暗黑魔法还是太早了……",
-Dialogue/Marisa_Lv2/018,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/018,Text,,,"*Lucy
+Why?",,"*露西
 为什么？",
-Dialogue/Marisa_Lv2/019,Text,,,,,"*露西
+Dialogue/Marisa_Lv2/019,Text,,,"*Lucy
+You’re not much older than me, yet you work so hard every day.",,"*露西
 明明魔理沙小姐没比我大几岁，自己却每天都这么努力。",
-Dialogue/Marisa_Lv2/020,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/020,Text,,,"*Marisa Kirisame
+Hmm... because I have a reason I have to keep working hard...",,"*雾雨魔理沙
 嗯…………因为我有不得不努力的理由……",
-Dialogue/Marisa_Lv2/021,Text,,,,,"*海因
+Dialogue/Marisa_Lv2/021,Text,,,"*Hein
+Hey, you brats, stop jabbering, you're so noisy.",,"*海因
 喂，臭小鬼们，絮絮叨叨的，吵死了。",
-Dialogue/Marisa_Lv2/022,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv2/022,Text,,,"*Marisa Kirisame
+Ah, Hein, is it time for the shift? Thanks!",,"*雾雨魔理沙
 啊，海因，换班的时间到了吗？谢谢你！",
-Dialogue/Marisa_Lv2/023,Text,,,,,"*海因
+Dialogue/Marisa_Lv2/023,Text,,,"*Hein
+Hurry up and get back, shut up, and sleep!",,"*海因
 赶紧给我滚回去，闭嘴，然后睡觉！",
-Dialogue/Marisa_Lv3/001,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/001,Text,,,"*Marisa Kirisame
+Ouch...ouch...",,"*雾雨魔理沙
 痛、痛……",
-Dialogue/Marisa_Lv3/002,Text,,,,,"*露西
+Dialogue/Marisa_Lv3/002,Text,,,"*Lucy
+Don't move around. The bandage might get misaligned.",,"*露西
 不要乱动。绷带的位置会弄歪。",
-Dialogue/Marisa_Lv3/003,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/003,Text,,,"*Marisa Kirisame
+How embarrassing. I should be the one protecting you, Lucy, yet here I am, being taken care of by you.",,"*雾雨魔理沙
 真丢脸啊。明明应该由我来保护露西才对，结果反而在受露西照顾。",
-Dialogue/Marisa_Lv3/004,Text,,,,,"*露西
+Dialogue/Marisa_Lv3/004,Text,,,"*Lucy
+But, Marisa, you were protecting me back then...",,"*露西
 但是，魔理沙小姐那个时候是为了保护我才……",
-Dialogue/Marisa_Lv3/005,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/005,Text,,,"*Marisa Kirisame
+...Well, from the result, that’s true.",,"*雾雨魔理沙
 ……唔嗯。从结果论来说，确实是这样。",
-Dialogue/Marisa_Lv3/006,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/006,Text,,,"*Marisa Kirisame
+But if it were someone else, they'd probably do better. There must be a way to protect you all without hurting myself.",,"*雾雨魔理沙
 但是如果是别人的话，一定能做的更好吧。肯定有一种方法，能够既不伤到自己，还能保护你们。",
-Dialogue/Marisa_Lv3/006_Option1,Text,,,,,那种事是不可能的。,
-Dialogue/Marisa_Lv3/006_Option2,Text,,,,,你说的别人是……,
-Dialogue/Marisa_Lv3/006_1_1,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/006_Option1,Text,,,That’s impossible.,,那种事是不可能的。,
+Dialogue/Marisa_Lv3/006_Option2,Text,,,Who are you talking about?,,你说的别人是……,
+Dialogue/Marisa_Lv3/006_1_1,Text,,,"*Marisa Kirisame
+This... this is possible. At least I know someone who can do it.",,"*雾雨魔理沙
 这种事……是可能的。起码我认识一个人，她就可以做到。",
-Dialogue/Marisa_Lv3/006_2_1,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/006_2_1,Text,,,"*Marisa Kirisame
+...Ah, haha. Did you find out? Yeah, she can do it.",,"*雾雨魔理沙
 ……啊哈哈。被发现了吗。是啊，她就可以做到。",
-Dialogue/Marisa_Lv3/007,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/007,Text,,,"*Marisa Kirisame
+Reimu Hakurei... she’s my best friend, the expert in resolving incidents, and also... the rival I’ll have to surpass for the rest of my life.",,"*雾雨魔理沙
 「博丽灵梦」……她是我最好的朋友，是我敬仰的异变解决专家，也是……我终其一生都不得不超越的对手。",
-Dialogue/Marisa_Lv3/008,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/008,Text,,,"*Marisa Kirisame
+She’s a born strong person. If it were her, she could easily solve all the difficulties.",,"*雾雨魔理沙
 她是天生的强者。如果是她的话，就可以易如反掌地解决一切困难。",
-Dialogue/Marisa_Lv3/009,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/009,Text,,,"*Marisa Kirisame
+But no matter how hard I try, I can't catch up to her. I end up injured and slowing everyone down...",,"*雾雨魔理沙
 而我拼命努力也追不上她，还要落得一身伤，反倒拖累了大家的进度嘞……",
-Dialogue/Marisa_Lv3/010,Text,,,,,"*露西
+Dialogue/Marisa_Lv3/010,Text,,,"*Lucy
+...Marisa.",,"*露西
 ……魔理沙。",
-Dialogue/Marisa_Lv3/011,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/011,Text,,,"*Marisa Kirisame
+Hmm?",,"*雾雨魔理沙
 嗯？",
-Dialogue/Marisa_Lv3/012,Text,,,,,（露西轻轻抱住了魔理沙）,
-Dialogue/Marisa_Lv3/013,Text,,,,,"*露西
+Dialogue/Marisa_Lv3/012,Text,,,(Lucy gently hugs Marisa),,（露西轻轻抱住了魔理沙）,
+Dialogue/Marisa_Lv3/013,Text,,,"*Lucy
+The painful scars are proof of your effort.",,"*露西
 疼痛的伤痕，是努力的证明。",
-Dialogue/Marisa_Lv3/014,Text,,,,,"*露西
+Dialogue/Marisa_Lv3/014,Text,,,"*Lucy
+All of Marisa’s efforts will never be in vain.",,"*露西
 魔理沙所有的努力，都一定不会白费的。",
-Dialogue/Marisa_Lv3/015,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/015,Text,,,"*Marisa Kirisame
+...Lucy...",,"*雾雨魔理沙
 ……露西……",
-Dialogue/Marisa_Lv3/016,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/016,Text,,,"*Marisa Kirisame
+Hah... You're right.",,"*雾雨魔理沙
 哈啊……说的也是呢。",
-Dialogue/Marisa_Lv3/017,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/017,Text,,,"*Marisa Kirisame
+If I give up, it would mean I’m admitting that I’m not as good as Reimu, right?",,"*雾雨魔理沙
 要是气馁的话，不就等于我自己承认自己比不过灵梦了吗？",
-Dialogue/Marisa_Lv3/018,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/018,Text,,,"*Marisa Kirisame
+I want to prove to everyone that even a mediocre person can, with enough effort, overcome a genius!",,"*雾雨魔理沙
 我要证明给所有人看，就算是庸才，即使拼命努力也一定能战胜天才的！",
-Dialogue/Marisa_Lv3/019,Text,,,,,"*露西
+Dialogue/Marisa_Lv3/019,Text,,,"*Lucy
+Yeah!",,"*露西
 嗯！",
-Dialogue/Marisa_Lv3/020,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/020,Text,,,"*Marisa Kirisame
+Alright! Then let’s first investigate why adding dark magic to a spell card causes the furnace to explode!",,"*雾雨魔理沙
 好！那就先调查一下为什么把暗黑魔法加入符卡中会导致八卦炉自爆吧！",
-Dialogue/Marisa_Lv3/021,Text,,,,,"*雾雨魔理沙
+Dialogue/Marisa_Lv3/021,Text,,,"*Marisa Kirisame
+I’ll see how I can adjust the spell formula and improve it...",,"*雾雨魔理沙
 我看看怎么修改法术的术式改良一下才好呢……",
-Dialogue/Marisa_Lv3/022,Text,,,,,"*露西
+Dialogue/Marisa_Lv3/022,Text,,,"*Lucy
+(Huh? Did I get hurt because of something like this today? I just started learning dark magic not long ago...)",,"*露西
 （诶？难道今天是因为这种事才受伤的？明明前不久才刚刚开始学暗黑魔法……）",
-Dialogue/Marisa_Lv3/023,Text,,,,,"*露西
+Dialogue/Marisa_Lv3/023,Text,,,"*Lucy
+(“Mediocre” ...what does that really mean... it’s so hard to understand...)",,"*露西
 （「庸才」……到底是什么意思呢……好难懂……）",

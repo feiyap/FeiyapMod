@@ -17,8 +17,14 @@ namespace FFAce
 	/// 朱雀之契
 	/// 攻击单个敌人时，为目标施加1层[朱雀之怒]（追加攻击和反击不能触发）。
 	/// </summary>
-    public class B_FFAce_2:Buff
+    public class B_FFAce_2:Buff, IP_SkillUse_Target
     {
-
+        public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
+        {
+            if (DMG >= 1 && SP.UseStatus.Info.Ally != hit.Info.Ally && !SP.SkillData.PlusHit && SP.ALLTARGET.Count == 1)
+            {
+                hit.BuffAdd("B_FFAce_2_1", this.BChar);
+            }
+        }
     }
 }

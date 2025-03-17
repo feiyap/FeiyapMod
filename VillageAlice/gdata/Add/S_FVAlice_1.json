@@ -1,0 +1,34 @@
+{
+    "S_FVAlice_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Boss/BombClown_0",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "美梦闹铃",
+        "Description": "【童话】：造成混乱伤害。",
+        "User": "VillageAlice",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_FVAlice_1",
+        "Image_0": "S_FVAlice_1\\S_FVAlice_1_Image_0.png",
+        "Image_1": "S_FVAlice_1\\S_FVAlice_1_Image_1.png",
+        "Image_2": "S_FVAlice_1\\S_FVAlice_1_Image_2.png",
+        "PlusKeyWords": [
+            "Keyword_Dreamland"
+        ]
+    }
+}

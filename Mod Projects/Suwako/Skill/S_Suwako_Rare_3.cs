@@ -117,7 +117,11 @@ namespace Suwako
 
             if (BattleSystem.instance.GetBattleValue<BV_Suwako_Rare3>().UseNum >= 5)
             {
-                thisSkill.Except();
+                if (BattleSystem.instance.AllyTeam.Skills.Find((Skill a) => a.CharinfoSkilldata == this.MySkill.CharinfoSkilldata) != null)
+                {
+                    thisSkill.Except();
+                }
+                
 
                 Skill tmpSkill = Skill.TempSkill("S_Suwako_Rare_3_0", this.BChar, this.BChar.MyTeam);
                 Skill_Extended se = new Skill_Extended();

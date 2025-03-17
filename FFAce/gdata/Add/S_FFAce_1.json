@@ -16,6 +16,19 @@
         "Effect_Self": "SE_S_S_FFAce_1",
         "Image_0": "S_FFAce_1\\S_FFAce_1_Image_0.png",
         "Image_1": "S_FFAce_1\\S_FFAce_1_Image_1.png",
-        "Image_2": "S_FFAce_1\\S_FFAce_1_Image_2.png"
+        "Image_2": "S_FFAce_1\\S_FFAce_1_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "FFAce.S_FFAce_1"
+        ]
     }
 }

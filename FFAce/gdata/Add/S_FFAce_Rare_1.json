@@ -1,0 +1,34 @@
+{
+    "S_FFAce_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S2_MainBoss_1_2",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "朱雀百式",
+        "UseAp": 3,
+        "Description": "抽到这张牌时，使用这张牌的[翻开]效果。\n使用这张牌后，可以选择手中和牌库中最多3张自己的技能丢弃，并获得相应的[翻开]效果。\n翻开：对所有敌人施加[燎原之契]，并从牌库和弃牌库中选择1张自己的技能复制，复制的技能带有放逐词条。",
+        "User": "FFAce",
+        "Rare": true,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_FFAce_Rare_1",
+        "Image_0": "S_FFAce_Rare_1\\S_FFAce_Rare_1_Image_0.png",
+        "Image_1": "S_FFAce_Rare_1\\S_FFAce_Rare_1_Image_1.png",
+        "Image_2": "S_FFAce_Rare_1\\S_FFAce_Rare_1_Image_2.png",
+        "Basic": false,
+        "SkillExtended": [
+            "FFAce.S_FFAce_Rare_1"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "B_FFAce_3_Count": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "FFAce.B_FFAce_3_Count",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "计数器",
+        "LifeTime": 0,
+        "MaxStack": 2
+    }
+}

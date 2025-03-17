@@ -18,6 +18,9 @@ namespace FFAce
 	/// </summary>
     public class B_FFAce_0_Ex:Buff
     {
-
+        public override void FixedUpdate()
+        {
+            this.PlusDamageTick = (this.BChar.BuffReturn("B_FFAce_1")?.StackNum ?? 0) * 25 / 100 * (int)((base.BuffData.Tick.DMG_Per * base.Usestate_L.GetStat.atk / 100) + base.BuffData.Tick.DMG_Base);
+        }
     }
 }

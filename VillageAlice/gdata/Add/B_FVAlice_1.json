@@ -1,0 +1,18 @@
+{
+    "B_FVAlice_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "VillageAlice.B_FVAlice_1",
+        "BuffTag": "CrowdControl",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "美梦",
+        "Description": "攻击时有概率&a(60%-干扰抵抗率)攻击自己。\n进入[梦境]时，受到50%+1攻击力的混乱伤害，然后减少一层。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/Control_2",
+        "Debuff": true,
+        "TagPer": 110,
+        "MaxStack": 5
+    }
+}

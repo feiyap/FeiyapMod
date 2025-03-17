@@ -1,0 +1,15 @@
+{
+    "B_FFAce_2_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FFAce.B_FFAce_2_1",
+        "BuffTag": "null",
+        "Name": "朱雀之怒",
+        "Cantdisable": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (62)",
+        "Description": "叠加至3层时，&user攻击该目标后获得1层[赤红之炎]，并额外造成&a点伤害(&user攻击力的150%)，并施加100%成功率的1回合眩晕，然后解除该减益。",
+        "MaxStack": 3,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

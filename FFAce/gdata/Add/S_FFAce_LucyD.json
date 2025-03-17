@@ -1,0 +1,22 @@
+{
+    "S_FFAce_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NotCount": true,
+        "Disposable": false,
+        "Name": "共鸣",
+        "UseAp": 1,
+        "User": "LucyDraw",
+        "LucyPartyDraw": "FFAce",
+        "Description": "抽取2个技能。\n若艾斯的固定能力可使用，恢复1点费用；\n若艾斯的固定能力不可使用，则使艾斯可再次使用固定能力。\n艾斯的下次[翻牌]可额外翻开一张牌并选择1个[翻开]效果使用。",
+        "Image_0": "S_FFAce_LucyD\\S_FFAce_LucyD_Image_0.png",
+        "Image_1": "S_FFAce_LucyD\\S_FFAce_LucyD_Image_1.png",
+        "Image_2": "S_FFAce_LucyD\\S_FFAce_LucyD_Image_2.png",
+        "SkillExtended": [
+            "FFAce.S_FFAce_LucyD"
+        ]
+    }
+}

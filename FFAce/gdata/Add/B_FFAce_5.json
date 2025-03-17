@@ -1,0 +1,17 @@
+{
+    "B_FFAce_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FFAce.B_FFAce_5",
+        "BuffTag": "null",
+        "Name": "苍蓝之冰",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (76)",
+        "Description": "攻击单个敌人时，为目标施加1层[霜冻]。\n当[苍蓝之冰]达到3层时，在手中生成1张[苍蓝之冰]并解除该增益。",
+        "MaxStack": 3,
+        "LifeTime": 3,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

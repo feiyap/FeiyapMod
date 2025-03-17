@@ -1,7 +1,7 @@
 {
     "B_FFAce_1": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "FFAce.B_FFAce_1",
         "BuffTag": "Debuff",
         "Name": "灼魂刻印",
         "LifeTime": 3,

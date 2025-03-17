@@ -15,7 +15,7 @@ namespace Suwako
         public static string Buff_B_Suwako_8 = "B_Suwako_8";
 		/// <summary>
 		/// 风雨已至
-		/// 每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加2点。
+		/// 每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加1点。
 		/// </summary>
         public static string Buff_B_Suwako_Dot = "B_Suwako_Dot";
 		/// <summary>
@@ -68,6 +68,7 @@ namespace Suwako
 		/// </summary>
         public static string Character_Suwako = "Suwako";
         public static string Character_Skin_SuwakoEclips = "SuwakoEclips";
+        public static string Character_Skin_SuwakoRedhot = "SuwakoRedhot";
         public static string SimpleCampDialogue_CampDial_Suwako_HakureiReimu = "CampDial_Suwako_HakureiReimu";
         public static string SimpleCampDialogue_CampDial_Suwako_RemiliaScarlet = "CampDial_Suwako_RemiliaScarlet";
         public static string SimpleCampDialogue_CampDial_Suwako_IzayoiSakuya = "CampDial_Suwako_IzayoiSakuya";
@@ -198,11 +199,6 @@ namespace Suwako
 		/// 蛙符「涂有鲜血的赤蛙塚」
 		/// </summary>
         public static string Skill_S_Suwako_Rare_3_3 = "S_Suwako_Rare_3_3";
-		/// <summary>
-		/// Passive:
-		/// </summary>
-        public static string Character_SuwakoRedhotSkin = "SuwakoRedhotSkin";
-        public static string Character_Skin_SuwakoRedhot = "SuwakoRedhot";
 
     }
 

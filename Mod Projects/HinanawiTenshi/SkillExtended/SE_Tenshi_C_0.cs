@@ -21,7 +21,7 @@ namespace HinanawiTenshi
     {
         public override bool CanSkillEnforce(Skill MainSkill)
         {
-            return (MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_all_onetarget || MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_otherally);
+            return (MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_ally || MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_all_onetarget || MainSkill.MySkill.Target.Key == GDEItemKeys.s_targettype_otherally);
         }
 
         public override void Init()

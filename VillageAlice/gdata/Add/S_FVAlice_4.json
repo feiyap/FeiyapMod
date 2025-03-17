@@ -1,0 +1,21 @@
+{
+    "S_FVAlice_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Fanatic/Fanatic_1",
+        "Target": "enemy",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "Name": "梦境速递",
+        "Description": "根据处于梦境的目标数量追加攻击。追加攻击造成混乱伤害。每次追加攻击造成&a点伤害(攻击力的50%)。\n【童话】：消耗法力值并释放&user的固定能力。",
+        "User": "VillageAlice",
+        "UseAp": 2,
+        "PlusKeyWords": [
+            "Keyword_Dreamland"
+        ],
+        "Effect_Target": "SE_T_S_FVAlice_4",
+        "Image_0": "S_FVAlice_4\\S_FVAlice_4_Image_0.png",
+        "Image_1": "S_FVAlice_4\\S_FVAlice_4_Image_1.png",
+        "Image_2": "S_FVAlice_4\\S_FVAlice_4_Image_2.png"
+    }
+}

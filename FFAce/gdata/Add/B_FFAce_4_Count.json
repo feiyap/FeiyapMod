@@ -1,0 +1,11 @@
+{
+    "B_FFAce_4_Count": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "Cantdisable": true,
+        "ClassName": "FFAce.B_FFAce_4_Count",
+        "BuffTag": "null",
+        "Name": "计数器",
+        "MaxStack": 1
+    }
+}
