@@ -20,6 +20,44 @@ namespace VillageAlice
 	/// </summary>
     public class S_FVAlice_5:Skill_Extended
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Priest_Ex_P).Particle_Path;
+        }
 
+        public int buffCount_L = 0;
+        public int buffCount_N = 0;
+        public int Fixed_count = 0;
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            Fixed_count++;
+
+            if (Fixed_count >= 12)
+            {
+                Fixed_count = 0;
+
+                if (this.MySkill.ExtendedFind_DataName("SkillExtended_Fairytale") != null)
+                {
+                    base.SkillParticleOn();
+                    this.Disposable = true;
+                    this.IsDamage = true;
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                    this.Disposable = false;
+                    this.IsDamage = false;
+                }
+            }
+        }
+
+        public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
+        {
+            hit.ChaosDamage(this.BChar, (int)(this.BChar.GetStat.atk), false);
+        }
     }
 }

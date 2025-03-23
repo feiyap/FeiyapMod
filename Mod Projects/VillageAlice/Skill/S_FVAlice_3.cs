@@ -19,6 +19,34 @@ namespace VillageAlice
 	/// </summary>
     public class S_FVAlice_3:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (this.MySkill.ExtendedFind_DataName("SkillExtended_Fairytale") != null)
+            {
+                new List<Skill>();
+                List<Skill> list = new List<Skill>();
+                list.AddRange(BattleSystem.instance.AllyTeam.Skills);
+                for (int i = 0; i < list.Count; i++)
+                {
+                    if (list[i] == this.MySkill)
+                    {
+                        list.RemoveAt(i);
+                        i--;
+                    }
+                }
 
+                foreach (Skill sk in list)
+                {
+                    if (sk.ExtendedFind_DataName("SkillExtended_Fairytale") != null)
+                    {
+                        sk.ExtendedDelete_Dataname("SkillExtended_Fairytale");
+                    }
+                    if (sk.ExtendedFind_DataName("SkillExtended_Fairytale") == null)
+                    {
+                        sk.ExtendedAdd(Skill_Extended.DataToExtended("SkillExtended_Fairytale"));
+                    }
+                }
+            }
+        }
     }
 }

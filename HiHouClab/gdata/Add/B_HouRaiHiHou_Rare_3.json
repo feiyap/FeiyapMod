@@ -1,0 +1,15 @@
+{
+    "B_HouRaiHiHou_Rare_3": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "向那宇宙尽头",
+        "Description": "每个回合开始时，获得等同于当前回合数的最大生命值提升。",
+        "Icon": "B_HouRaiHiHou_Rare_3\\B_HouRaiHiHou_Rare_3_Icon.png"
+    }
+}

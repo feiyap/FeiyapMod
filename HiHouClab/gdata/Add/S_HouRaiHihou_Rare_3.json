@@ -1,0 +1,30 @@
+{
+    "S_HouRaiHihou_Rare_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_ally",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "另一侧的月",
+        "Description": "<color=#FFD700><i>*编年史「千年幻想乡」+七夕坂梦幻能*</i></color>\n藤原妹红获得[＊这种世道赶紧烧个精光吧！＊]。\n蓬莱山辉夜获得[辉夜/蓬莱]。\n<color=#7B68EE>玛艾露贝莉·赫恩</color>获得[第一百扇门]。\n<color=#4169E1>宇佐见莲子</color>获得[微概率的奇迹]。",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_HouRaiHihou_Rare_3",
+        "Image_0": "S_HouRaiHihou_Rare_3\\S_HouRaiHihou_Rare_3_Image_0.png",
+        "Image_1": "S_HouRaiHihou_Rare_3\\S_HouRaiHihou_Rare_3_Image_1.png",
+        "Image_2": "S_HouRaiHihou_Rare_3\\S_HouRaiHihou_Rare_3_Image_2.png"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "B_HouRaiHiHou_Rare_3_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "东方年代记",
+        "Icon": "B_HouRaiHiHou_Rare_3_0\\B_HouRaiHiHou_Rare_3_0_Icon.png",
+        "Description": "死亡时复活，并解除这个增益。"
+    }
+}

@@ -20,6 +20,55 @@ namespace VillageAlice
 	/// </summary>
     public class S_FVAlice_2:Skill_Extended
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Priest_Ex_P).Particle_Path;
+        }
 
+        public int buffCount_L = 0;
+        public int buffCount_N = 0;
+        public int Fixed_count = 0;
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            Fixed_count++;
+
+            if (Fixed_count >= 12)
+            {
+                Fixed_count = 0;
+
+                if (this.MySkill.ExtendedFind_DataName("SkillExtended_Fairytale") != null)
+                {
+                    base.SkillParticleOn();
+                    this.APChange = 2;
+                }
+                else
+                {
+                    base.SkillParticleOff();
+                    this.APChange = 0;
+                }
+            }
+        }
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            foreach (Buff buff in Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false))
+            {
+                if (buff.BuffExtended.Find((Buff_Ex a) => a.BuffExKey == "B_FVAlice_2_BuffEx") == null)
+                {
+                    buff.AddBuffEx(new B_FVAlice_2_BuffEx());
+                }
+            }
+            foreach (Buff buff in Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.DOT, false))
+            {
+                if (buff.BuffExtended.Find((Buff_Ex a) => a.BuffExKey == "B_FVAlice_2_BuffEx") == null)
+                {
+                    buff.AddBuffEx(new B_FVAlice_2_BuffEx());
+                }
+            }
+        }
     }
 }

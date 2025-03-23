@@ -18,6 +18,7 @@
         "PassiveName": "梦境邮递员",
         "PassiveDes": "战斗开始时，进入[现实]。\r\n在[现实]中，自身所属技能将【童话】化。\r\n释放【童话】技能后，将进入[梦境]，在[梦境]中释放未被【童话】的技能将返回[现实]。",
         "PassiveIcon": "VillageAlice\\VillageAlicePassiveIcon.png",
-        "CollectionSprite_SkillFace": "VillageAlice\\VillageAliceCollectionSprite_SkillFace.png"
+        "CollectionSprite_SkillFace": "VillageAlice\\VillageAliceCollectionSprite_SkillFace.png",
+        "CollectionSprite_Cover": "VillageAlice\\VillageAliceCollectionSprite_Cover.png"
     }
 }

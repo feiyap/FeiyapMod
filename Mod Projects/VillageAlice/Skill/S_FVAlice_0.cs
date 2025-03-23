@@ -27,7 +27,7 @@ namespace VillageAlice
                 BattleSystem.DelayInput(this.PlusAttack(Targets[0], SkillD));
             }
 
-            if (SkillD.ExtendedFind_DataName("SkillExtended_Fairytale") != null)
+            if (this.MySkill.ExtendedFind_DataName("SkillExtended_Fairytale") != null)
             {
                 new List<Skill>();
                 List<Skill> list = new List<Skill>();

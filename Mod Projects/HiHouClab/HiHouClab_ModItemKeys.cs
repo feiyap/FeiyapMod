@@ -61,6 +61,16 @@ namespace HiHouClab
 		/// 当宇佐见莲子的暴击率超过100%时，获得<color=#4169E1>经典力学的尽头</color>：自身暴击伤害始终为100%，溢出的暴击伤害转化为等量的攻击力加成。
 		/// </summary>
         public static string Character_UsamiRenko = "UsamiRenko";
+		/// <summary>
+		/// 另一侧的月
+		/// </summary>
+        public static string Skill_S_HouRaiHihou_Rare_3 = "S_HouRaiHihou_Rare_3";
+        public static string SkillEffect_SE_T_S_HouRaiHihou_Rare_3 = "SE_T_S_HouRaiHihou_Rare_3";
+		/// <summary>
+		/// 向那宇宙尽头
+		/// 每个回合开始时，获得等同于当前回合数的最大生命值提升。
+		/// </summary>
+        public static string Buff_B_HouRaiHiHou_Rare_3 = "B_HouRaiHiHou_Rare_3";
 
     }
 

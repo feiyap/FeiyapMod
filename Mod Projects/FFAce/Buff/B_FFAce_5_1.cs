@@ -33,7 +33,7 @@ namespace FFAce
             {
                 if (BattleSystem.instance.EnemyList.Count == 1)
                 {
-                    this.BChar.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.2), true);
+                    this.BChar.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.2), true, true);
                 }
                 else
                 {
@@ -50,11 +50,11 @@ namespace FFAce
                     }
                     foreach (BattleChar bc in list2)
                     {
-                        bc.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.2), true);
+                        bc.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.2), true, true);
                     }
-                    this.BChar.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.2), true);
+                    this.BChar.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.2), true, true);
                 }
-                
+
                 this.SelfDestroy();
             }
         }
