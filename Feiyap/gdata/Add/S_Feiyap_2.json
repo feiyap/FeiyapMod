@@ -1,0 +1,16 @@
+{
+    "S_Feiyap_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "IgnoreTaunt": false,
+        "Name": "未完成的一文字",
+        "UseAp": 1,
+        "User": "Feiyap",
+        "Effect_Target": "null",
+        "Image_0": "S_Feiyap_2\\S_Feiyap_2_Image_0.png",
+        "Image_1": "S_Feiyap_2\\S_Feiyap_2_Image_1.png",
+        "Image_2": "S_Feiyap_2\\S_Feiyap_2_Image_2.png"
+    }
+}

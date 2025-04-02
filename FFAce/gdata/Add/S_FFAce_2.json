@@ -4,7 +4,7 @@
         "Category": "null",
         "Particle": "Particle/Buff",
         "Rare": false,
-        "Target": "ally",
+        "Target": "all_ally",
         "NODOD": false,
         "NotCount": true,
         "NotChuck": false,
@@ -29,6 +29,7 @@
         "Image_2": "S_FFAce_2\\S_FFAce_2_Image_2.png",
         "SkillExtended": [
             "FFAce.S_FFAce_2"
-        ]
+        ],
+        "PlusSkillView": "S_FFAce_0_Ex"
     }
 }

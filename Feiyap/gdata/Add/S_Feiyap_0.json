@@ -1,0 +1,30 @@
+{
+    "S_Feiyap_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": true,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "绯夜流·一式",
+        "UseAp": 1,
+        "User": "Feiyap",
+        "Effect_Target": "SE_T_S_Feiyap_0",
+        "Image_0": "S_Feiyap_0\\S_Feiyap_0_Image_0.png",
+        "Image_1": "S_Feiyap_0\\S_Feiyap_0_Image_1.png",
+        "Image_2": "S_Feiyap_0\\S_Feiyap_0_Image_2.png"
+    }
+}

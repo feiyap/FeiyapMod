@@ -1,0 +1,20 @@
+{
+    "Feiyap": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "face": "Feiyap\\FeiyapBattleFace.png",
+        "name": "绯夜氏",
+        "SelectInfo": "",
+        "Gender": 1,
+        "CollectionSprite_Cover": "Feiyap\\FeiyapCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Feiyap\\FeiyapCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Difficult": 1,
+        "MAXHP": {
+            "x": 20,
+            "y": 45
+        }
+    }
+}

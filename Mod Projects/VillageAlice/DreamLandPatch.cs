@@ -19,26 +19,26 @@ namespace VillageAlice
     [HarmonyPatch(typeof(SkillToolTip))]
     class SkillToolTip_Patch
     {
-        //[HarmonyPostfix]
-        //[HarmonyPatch(nameof(SkillToolTip.Input))]
-        //static void InputPostfix(SkillToolTip __instance, Skill Skill, Stat _stat, ToolTipWindow.SkillTooltipValues skillvalues, bool View = false, SkillPrefab sp = null)
-        //{
-        //    if (Skill.ExtendedFind_DataName("SkillExtended_Fairytale") != null && !Skill.Master.BuffFind("B_FVAlice_P_1"))
-        //    {
-        //        UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkilTooltip"), __instance.SkillImage.transform);
-        //        UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkilTooltip"), __instance.Desc.transform);
-        //    }
-        //}
-
-        [HarmonyPrefix]
+        [HarmonyPostfix]
         [HarmonyPatch(nameof(SkillToolTip.Input))]
-        static bool InputPrefix(SkillToolTip __instance, Skill Skill, Stat _stat, ToolTipWindow.SkillTooltipValues skillvalues, bool View = false, SkillPrefab sp = null)
+        static void InputPostfix(SkillToolTip __instance, Skill Skill, Stat _stat, ToolTipWindow.SkillTooltipValues skillvalues, bool View = false, SkillPrefab sp = null)
         {
             if (Skill.ExtendedFind_DataName("SkillExtended_Fairytale") != null && !Skill.Master.BuffFind("B_FVAlice_P_1"))
             {
-                return false;
+                UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkilTooltip"), __instance.SkillImage.transform);
+                UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkilTooltip"), __instance.Desc.transform);
             }
-            return true;
         }
+
+        //[HarmonyPrefix]
+        //[HarmonyPatch(nameof(SkillToolTip.Input))]
+        //static bool InputPrefix(SkillToolTip __instance, Skill Skill, Stat _stat, ToolTipWindow.SkillTooltipValues skillvalues, bool View = false, SkillPrefab sp = null)
+        //{
+        //    if (Skill.ExtendedFind_DataName("SkillExtended_Fairytale") != null && !Skill.Master.BuffFind("B_FVAlice_P_1"))
+        //    {
+        //        return false;
+        //    }
+        //    return true;
+        //}
     }
 }

@@ -23,18 +23,42 @@ namespace VillageAlice
         {
             base.SkillUseSingle(SkillD, Targets);
 
+            this.BChar.BuffReturn("B_FVAlice_P")?.SelfDestroy();
             this.BChar.BuffAdd("B_FVAlice_P_1", this.BChar);
+
+            foreach (IP_ChangeReality ip in BattleSystem.instance.IReturn<IP_ChangeReality>())
+            {
+                if (ip != null)
+                {
+                    ip.ChangeReality(true);
+                }
+            }
         }
 
         public override void FixedUpdate()
         {
+            if (this.BChar.BuffFind("B_FVAlice_P_1"))
+            {
+                this.flag = false;
+                UnityEngine.Object.Destroy(obj, 1f);
+                return;
+            }
+            
             if (!this.flag && BattleSystem.instance != null && !this.BChar.BuffFind("B_FVAlice_P_1"))
             {
                 this.flag = true;
-                UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkillEffect"), this.MySkill.MyButton.transform);
+                obj = UnityEngine.Object.Instantiate(Resources.Load("StoryGlitch/GlitchSkillEffect"), this.MySkill.MyButton.transform);
+                return;
             }
         }
 
+        public override void SelfDestroy()
+        {
+            base.SelfDestroy();
+            UnityEngine.Object.Destroy(obj, 1f);
+        }
+
         public bool flag;
+        public UnityEngine.Object obj;
     }
 }

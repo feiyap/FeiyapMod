@@ -25,6 +25,14 @@ namespace VillageAlice
             {
                 this.SelfDestroy();
                 this.BChar.BuffAdd("B_FVAlice_P", this.BChar);
+
+                foreach (IP_ChangeReality ip in BattleSystem.instance.IReturn<IP_ChangeReality>())
+                {
+                    if (ip != null)
+                    {
+                        ip.ChangeReality(false);
+                    }
+                }
             }
         }
     }

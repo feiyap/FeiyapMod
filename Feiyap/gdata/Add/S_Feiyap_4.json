@@ -1,0 +1,16 @@
+{
+    "S_Feiyap_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "幽壑千灯",
+        "UseAp": 3,
+        "User": "Feiyap",
+        "Effect_Target": "null",
+        "Image_0": "S_Feiyap_4\\S_Feiyap_4_Image_0.png",
+        "Image_1": "S_Feiyap_4\\S_Feiyap_4_Image_1.png",
+        "Image_2": "S_Feiyap_4\\S_Feiyap_4_Image_2.png"
+    }
+}

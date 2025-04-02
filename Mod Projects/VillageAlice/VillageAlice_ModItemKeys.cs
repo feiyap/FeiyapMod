@@ -116,6 +116,22 @@ namespace VillageAlice
 		/// 释放【童话】技能后，将进入[梦境]，在[梦境]中释放未被【童话】的技能将返回[现实]。
 		/// </summary>
         public static string Character_VillageAlice = "VillageAlice";
+		/// <summary>
+		/// 爱丽丝漫游梦境
+		/// 将目标变成“逆时行走的管家兔”
+		/// 指向BOSS释放时无效。
+		/// 【童话】：改为变成“半边假面的红王后”。
+		/// </summary>
+        public static string Skill_S_FVAlice_Rare_1 = "S_FVAlice_Rare_1";
+		/// <summary>
+		/// 梦境留言
+		/// 释放技能后，此回合无法进入梦境，技能目标无法被选中。
+		/// 回合结束后，额外进行一次梦境回合。
+		/// 进入梦境回合时，手中&user外所有其他所有友军技能无法使用。
+		/// 梦境回合结束时，若技能目标被击杀，则再额外进行一次梦境回合，随机选取一名目标成为梦境留言的目标。
+		/// 梦境回合所有敌人无行动。
+		/// </summary>
+        public static string Skill_S_FVAlice_Rare_2 = "S_FVAlice_Rare_2";
 
     }
 

@@ -18,8 +18,15 @@ namespace VillageAlice
 	/// 无法行动。
 	/// 返回[现实]时，受到125%攻击力的混乱伤害，然后减少一层。
 	/// </summary>
-    public class B_FVAlice_0:Buff
+    public class B_FVAlice_0:Buff, IP_ChangeReality
     {
-
+        public void ChangeReality(bool istrue)
+        {
+            if (!istrue)
+            {
+                this.BChar.ChaosDamage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.5f), false);
+                this.SelfStackDestroy();
+            }
+        }
     }
 }

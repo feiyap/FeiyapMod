@@ -18,6 +18,11 @@ namespace VillageAlice
 	/// </summary>
     public class B_FVAlice_5:Buff
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.dod = -42;
+            this.PlusStat.hit = -42;
+        }
     }
 }

@@ -4,11 +4,11 @@
         "ClassName": "FFAce.B_FFAce_5_1",
         "BuffTag": "Debuff",
         "Name": "霜冻",
-        "Description": "达到3层后，再次受到物理攻击时使目标和目标两边的敌人受到&a点伤害(&user攻击力的120%)；\n若只有一个敌人，则受到&b点伤害(&user攻击力的170%)。\n触发后解除该减益。",
+        "Description": "达到4层后，再次受到物理攻击时使目标和目标两边的敌人受到&a点伤害(&user攻击力的120%)；\n若只有一个敌人，则受到&b点伤害(&user攻击力的170%)。\n触发后解除该减益。",
         "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (76)",
-        "MaxStack": 3,
+        "MaxStack": 4,
         "LifeTime": 3,
         "Debuff": true,
-        "TagPer": 120
+        "TagPer": 130
     }
 }

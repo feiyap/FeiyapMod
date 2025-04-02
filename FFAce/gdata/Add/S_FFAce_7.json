@@ -6,7 +6,7 @@
         "Target": "enemy",
         "NotCount": true,
         "Name": "凛冬之契",
-        "Description": "此技能被丢弃时，在手中生成一张[霜月轮转]。\n翻开：选择牌库和手牌中的1张技能丢弃，抽1张卡。",
+        "Description": "此技能被丢弃时，在手中生成一张[霜月轮转]。\n翻开：选择牌库和手牌中的1张专属技能丢弃，并抽取1个技能。",
         "User": "FFAce",
         "UseAp": 1,
         "Effect_Target": "SE_T_S_FFAce_7",
@@ -15,6 +15,7 @@
         "Image_2": "S_FFAce_7\\S_FFAce_7_Image_2.png",
         "SkillExtended": [
             "FFAce.S_FFAce_7"
-        ]
+        ],
+        "PlusSkillView": "S_FFAce_5"
     }
 }

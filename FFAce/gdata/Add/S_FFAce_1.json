@@ -29,6 +29,7 @@
         "UnknownTarget": false,
         "SkillExtended": [
             "FFAce.S_FFAce_1"
-        ]
+        ],
+        "PlusSkillView": "S_FFAce_0_Ex"
     }
 }

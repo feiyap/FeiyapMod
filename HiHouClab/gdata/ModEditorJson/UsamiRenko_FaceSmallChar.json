@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "UsamiRenko\\UsamiRenkoFaceSmallChar.png",
-        "offsetMax": {
-            "x": 244.914429,
-            "y": 140.656616
+        "pivot": {
+            "x": 0.487926364,
+            "y": 0.847872138
         },
         "offsetMin": {
-            "x": -161.78894,
-            "y": -813.0785
+            "x": -351.658264,
+            "y": -815.652649
         },
-        "pivot": {
-            "x": 0.392809361,
-            "y": 0.846659362
+        "offsetMax": {
+            "x": 364.897034,
+            "y": 139.754272
         }
     },
     "MyChangeType": "FaceSmallChar",

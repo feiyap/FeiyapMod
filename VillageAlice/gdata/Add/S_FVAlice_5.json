@@ -13,6 +13,9 @@
         "User": "VillageAlice",
         "Image_0": "S_FVAlice_5\\S_FVAlice_5_Image_0.png",
         "Image_1": "S_FVAlice_5\\S_FVAlice_5_Image_1.png",
-        "Image_2": "S_FVAlice_5\\S_FVAlice_5_Image_2.png"
+        "Image_2": "S_FVAlice_5\\S_FVAlice_5_Image_2.png",
+        "SkillExtended": [
+            "VillageAlice.S_FVAlice_5"
+        ]
     }
 }

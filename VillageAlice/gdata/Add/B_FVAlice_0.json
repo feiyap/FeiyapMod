@@ -9,6 +9,10 @@
         "Icon": "Image/Buff/Skill_Icon_Pack/violet/violet_22",
         "MaxStack": 3,
         "Debuff": true,
-        "TagPer": 110
+        "TagPer": 110,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

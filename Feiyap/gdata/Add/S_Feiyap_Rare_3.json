@@ -1,0 +1,15 @@
+{
+    "S_Feiyap_Rare_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "enemy",
+        "Name": "秘奥义·绯樱狱华落",
+        "User": "Feiyap",
+        "UseAp": 3,
+        "Image_0": "S_Feiyap_Rare_3\\S_Feiyap_Rare_3_Image_0.png",
+        "Image_1": "S_Feiyap_Rare_3\\S_Feiyap_Rare_3_Image_1.png",
+        "Image_2": "S_Feiyap_Rare_3\\S_Feiyap_Rare_3_Image_2.png"
+    }
+}

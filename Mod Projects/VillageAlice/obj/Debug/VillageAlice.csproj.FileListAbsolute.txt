@@ -13,7 +13,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\bin\De
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\bin\Debug\EOS.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\bin\Debug\DynamicEmitAPI.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\bin\Debug\EOS.xml
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\bin\Debug\VillageAlice2025322232105.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\bin\Debug\VillageAlice2025322232105.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\obj\Debug\VillageAlice2025322232105.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\obj\Debug\VillageAlice2025322232105.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\bin\Debug\VillageAlice202533105027.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\bin\Debug\VillageAlice202533105027.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\obj\Debug\VillageAlice202533105027.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\VillageAlice\obj\Debug\VillageAlice202533105027.pdb

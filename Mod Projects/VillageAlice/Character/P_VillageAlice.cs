@@ -27,4 +27,10 @@ namespace VillageAlice
             this.BChar.BuffAdd("B_FVAlice_P", this.BChar);
         }
     }
+
+    public interface IP_ChangeReality
+    {
+        //false为现实，true为梦境
+        void ChangeReality(bool istrue);
+    }
 }

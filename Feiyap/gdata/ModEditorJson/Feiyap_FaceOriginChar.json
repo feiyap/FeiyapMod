@@ -1,0 +1,23 @@
+{
+    "myKey": "Feiyap",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Feiyap\\FeiyapFaceOriginChar.png",
+        "offsetMax": {
+            "x": 751.827942,
+            "y": 232.470581
+        },
+        "offsetMin": {
+            "x": -644.5357,
+            "y": -1629.34753
+        },
+        "pivot": {
+            "x": 0.460578948,
+            "y": 0.8722514
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

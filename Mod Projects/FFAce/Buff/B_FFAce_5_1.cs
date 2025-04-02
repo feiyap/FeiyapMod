@@ -24,12 +24,12 @@ namespace FFAce
         public override void Init()
         {
             base.Init();
-            this.PlusStat.def = -8 * StackNum;
+            this.PlusStat.def = -6 * StackNum;
         }
 
         public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
         {
-            if (this.StackNum == 3 && !NODEF)
+            if (this.StackNum == 4 && !NODEF)
             {
                 if (BattleSystem.instance.EnemyList.Count == 1)
                 {

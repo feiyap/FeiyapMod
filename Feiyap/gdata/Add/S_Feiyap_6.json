@@ -1,0 +1,31 @@
+{
+    "S_Feiyap_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "Misc",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "化身成神",
+        "User": "Feiyap",
+        "Description": "使所有手中的技能获得随机<color=yellow>强化</color>。\n如果这个技能拥有任意<color=yellow>强化</color>，额外使所有牌库中的技能获得随机<color=yellow>强化</color>。",
+        "UseAp": 3,
+        "Effect_Self": "SE_S_S_Feiyap_6",
+        "Image_0": "S_Feiyap_6\\S_Feiyap_6_Image_0.png",
+        "Image_1": "S_Feiyap_6\\S_Feiyap_6_Image_1.png",
+        "Image_2": "S_Feiyap_6\\S_Feiyap_6_Image_2.png"
+    }
+}
