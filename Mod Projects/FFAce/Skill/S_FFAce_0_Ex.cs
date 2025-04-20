@@ -18,6 +18,12 @@ namespace FFAce
 	/// </summary>
     public class S_FFAce_0_Ex:Skill_Extended
     {
-
+        public override void FixedUpdate()
+        {
+            if (this.BChar.BuffFind("B_FFAce_Rare_2"))
+            {
+                this.APChange = -1;
+            }
+        }
     }
 }

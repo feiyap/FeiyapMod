@@ -1,0 +1,16 @@
+{
+    "B_Feiyap_Rare_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Feiyap.B_Feiyap_Rare_1",
+        "BuffTag": "null",
+        "Name": "另一种可能性",
+        "Description": "被动“绯夜流”的效果变更为：自身拥有保护体力极限时，攻击造成非痛苦伤害时(<sprite=1>100%)施加<sprite name=\"Feiyap_blood\"><color=#FF3030>绯夜</color>。",
+        "LifeTime": 0,
+        "Cantdisable": true,
+        "Icon": "B_Feiyap_Rare_1\\B_Feiyap_Rare_1_Icon.png",
+        "IsFieldBuff": false,
+        "Hide": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

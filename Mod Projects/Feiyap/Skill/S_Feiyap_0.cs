@@ -18,6 +18,63 @@ namespace Feiyap
 	/// </summary>
     public class S_Feiyap_0:Skill_Extended
     {
+        public int PlusDmg
+        {
+            get
+            {
+                if (BattleSystem.instance == null || BattleSystem.instance.BattleLogs == null || BattleSystem.instance.TurnNum <= 0)
+                {
+                    return 0;
+                }
+                return (int)((float)(0 + this.BChar.GetStat.atk * 0.5f));
+            }
+        }
 
+        public override void Init()
+        {
+            base.Init();
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_MissChain_Ex_P).Particle_Path;
+            if (this.BChar.GetStat.Strength)
+            {
+                this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
+            }
+            else
+            {
+                this.SkillBasePlus.Target_BaseDMG = 0;
+            }
+        }
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            if (this.BChar.GetStat.Strength)
+            {
+                base.SkillParticleOn();
+                this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
+            }
+            else
+            {
+                base.SkillParticleOff();
+                this.SkillBasePlus.Target_BaseDMG = 0;
+            }
+        }
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
+            if (this.BChar.GetStat.Strength)
+            {
+                this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
+            }
+            else
+            {
+                this.SkillBasePlus.Target_BaseDMG = 0;
+            }
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", (this.PlusDmg).ToString());
+        }
     }
 }

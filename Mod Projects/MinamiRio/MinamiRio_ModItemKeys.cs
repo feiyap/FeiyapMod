@@ -191,6 +191,7 @@ namespace MinamiRio
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// <color=#48D1CC>Rain of Arrows</color>
 		/// Japanese:
 		/// Chinese:
 		/// <color=#48D1CC>连矢</color>
@@ -200,6 +201,7 @@ namespace MinamiRio
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// <color=#FFD700>True Shot Never Misses</color>
 		/// Japanese:
 		/// Chinese:
 		/// <color=#FFD700>正射必中</color>

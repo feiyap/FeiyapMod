@@ -20,6 +20,69 @@ namespace Feiyap
 	/// </summary>
     public class S_Feiyap_6:Skill_Extended
     {
+        public override void Init()
+        {
+            base.Init();
+            this.SkillParticleObject = new GDESkillExtendedData(GDEItemKeys.SkillExtended_Public_1_Ex).Particle_Path;
+        }
 
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            if (this.MySkill.Enforce)
+            {
+                base.SkillParticleOn();
+            }
+            else
+            {
+                base.SkillParticleOff();
+            }
+        }
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
+            BattleSystem.DelayInput(this.Effect());
+            
+            if (this.MySkill.Enforce)
+            {
+                BattleSystem.DelayInput(this.Effect2());
+            }
+        }
+        
+        public IEnumerator Effect()
+        {
+            foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills)
+            {
+                if (!skill.Master.IsLucyNoC && !skill.Enforce)
+                {
+                    Skill_Extended skill_Extended = PlayData.GetBattleEnforce(skill).Random(this.BChar.GetRandomClass().Main);
+                    if (skill_Extended != null)
+                    {
+                        skill.ExtendedAdd_Battle(skill_Extended);
+                        skill.MyButton.InputData(skill, null, false);
+                    }
+                }
+            }
+            yield return null;
+            yield break;
+        }
+
+        public IEnumerator Effect2()
+        {
+            foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills_Deck)
+            {
+                if (!skill.Master.IsLucyNoC && !skill.Enforce)
+                {
+                    Skill_Extended skill_Extended = PlayData.GetBattleEnforce(skill).Random(this.BChar.GetRandomClass().Main);
+                    if (skill_Extended != null)
+                    {
+                        skill.ExtendedAdd_Battle(skill_Extended);
+                    }
+                }
+            }
+            yield return null;
+            yield break;
+        }
     }
 }

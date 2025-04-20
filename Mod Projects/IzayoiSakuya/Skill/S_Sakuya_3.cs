@@ -55,7 +55,6 @@ namespace IzayoiSakuya
         public void SkillCasting(CastingSkill ThisSkill)
         {
             castTime = BattleSystem.instance.AllyTeam.TurnActionNum;
-            BasicMethods.CustomMethods.CountingSkillNotUseTurnEnd(ThisSkill, -1);
         }
 
         public override string DescExtended(string desc)

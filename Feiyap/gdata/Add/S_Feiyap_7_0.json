@@ -1,0 +1,12 @@
+{
+    "S_Feiyap_7_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_5",
+        "Target": "enemy",
+        "Disposable": false,
+        "Name": "镜花水月",
+        "Effect_Target": "SE_T_S_Feiyap_7_0",
+        "NoDrop": true
+    }
+}

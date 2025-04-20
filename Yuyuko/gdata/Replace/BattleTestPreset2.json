@@ -2,27 +2,27 @@
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
         "Party": [
-            "YuyukoF"
+            "Hein"
         ],
         "PartyBasicSkill": [
             "S_YuyukoF_P_1"
         ],
         "PartySkills": [
             [
-                "S_YuyukoF_1"
+                "S_Hein_0",
+                "S_Hein_0",
+                "S_Hein_0",
+                "S_Hein_0"
             ]
         ],
         "PartyEquip": [
             [
-                
+                "E_YuyukoF_2"
             ]
         ],
         "LucySkill": [
             
         ],
-        "AP": 10,
-        "Passive": [
-            "R_YuyukoF_0"
-        ]
+        "AP": 10
     }
 }

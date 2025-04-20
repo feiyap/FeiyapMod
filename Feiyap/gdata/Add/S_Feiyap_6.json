@@ -26,6 +26,9 @@
         "Effect_Self": "SE_S_S_Feiyap_6",
         "Image_0": "S_Feiyap_6\\S_Feiyap_6_Image_0.png",
         "Image_1": "S_Feiyap_6\\S_Feiyap_6_Image_1.png",
-        "Image_2": "S_Feiyap_6\\S_Feiyap_6_Image_2.png"
+        "Image_2": "S_Feiyap_6\\S_Feiyap_6_Image_2.png",
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_6"
+        ]
     }
 }

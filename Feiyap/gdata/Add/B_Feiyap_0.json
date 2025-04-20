@@ -1,0 +1,17 @@
+{
+    "B_Feiyap_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Feiyap.B_Feiyap_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "血似刃流",
+        "MaxStack": 2,
+        "LifeTime": 0,
+        "Description": "回合结束时，移除 1 层增益效果。",
+        "Icon": "B_Feiyap_0\\B_Feiyap_0_Icon.png"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "S_FeiyapMaster_5_Skin": {
+        "_gdeSchema": "VFXSkill",
+        "MySkill": "S_Feiyap_5",
+        "Particle": "Particle/Buff",
+        "Image_0": "S_FeiyapMaster_5_Skin\\S_FeiyapMaster_5_Skin_Image_0.png",
+        "SkillImage": [
+            "S_FeiyapMaster_5_Skin\\S_FeiyapMaster_5_Skin_Image_0.png",
+            "S_FeiyapMaster_5_Skin\\S_FeiyapMaster_5_Skin_Image_1.png",
+            "S_FeiyapMaster_5_Skin\\S_FeiyapMaster_5_Skin_Image_2.png"
+        ],
+        "Image_1": "S_FeiyapMaster_5_Skin\\S_FeiyapMaster_5_Skin_Image_1.png",
+        "Image_2": "S_FeiyapMaster_5_Skin\\S_FeiyapMaster_5_Skin_Image_2.png"
+    }
+}

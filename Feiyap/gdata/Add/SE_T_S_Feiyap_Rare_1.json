@@ -1,0 +1,16 @@
+{
+    "SE_T_S_Feiyap_Rare_1": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Feiyap_Rare_1",
+            "B_Feiyap_0",
+            "B_Feiyap_0"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0
+        ]
+    }
+}

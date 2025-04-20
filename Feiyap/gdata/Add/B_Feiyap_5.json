@@ -1,0 +1,14 @@
+{
+    "B_Feiyap_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Feiyap.B_Feiyap_5",
+        "BuffTag": "null",
+        "Name": "孤燕之瞥",
+        "MaxStack": 0,
+        "LifeTime": 2,
+        "Icon": "B_Feiyap_5\\B_Feiyap_5_Icon.png",
+        "Description": "不会被施加任何来自其他单位的治疗效果。",
+        "IsFieldBuff": true,
+        "Cantdisable": false
+    }
+}

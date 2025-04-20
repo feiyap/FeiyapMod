@@ -34,8 +34,8 @@ namespace FFAce
 
             new List<Skill>();
             List<Skill> list = new List<Skill>();
-            list.AddRange(BattleSystem.instance.AllyTeam.Skills);
-            list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck);
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill y) => y != this.MySkill && y.Master == this.BChar && y.MySkill.User == this.BChar.Info.KeyData));
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck.FindAll((Skill y) => y != this.MySkill && y.Master == this.BChar && y.MySkill.User == this.BChar.Info.KeyData));
             for (int i = 0; i < list.Count; i++)
             {
                 if (list[i].Master.IsLucyNoC || list[i].MySkill.Rare || list[i].Master != this.BChar || list[i] == this.MySkill)

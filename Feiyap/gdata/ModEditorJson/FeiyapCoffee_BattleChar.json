@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapCoffee",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "FeiyapCoffeeSkin\\FeiyapCoffeeSkinBattleChar.png",
+        "offsetMax": {
+            "x": 722.8496,
+            "y": 315.3785
+        },
+        "offsetMin": {
+            "x": -673.514038,
+            "y": -1546.43958
+        },
+        "pivot": {
+            "x": 0.4823343,
+            "y": 0.830607235
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

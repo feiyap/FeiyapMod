@@ -32,5 +32,16 @@ namespace FFAce
                 (this.Usestate_F.BuffAdd("B_FFAce_Rare_1_0", this.BChar) as B_FFAce_Rare_1_0).Mainbuff = this;
             }
         }
+
+        public override string DescExtended()
+        {
+            string user = "施法者";
+            if (BattleSystem.instance != null)
+            {
+                user = this.Usestate_F.Info.Name;
+            }
+
+            return base.DescExtended().Replace("&user", user);
+        }
     }
 }

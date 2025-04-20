@@ -2,19 +2,123 @@
     "Feiyap": {
         "_gdeSchema": "Character",
         "Role": "Role_DPS",
-        "PassiveClassName": "",
+        "PassiveClassName": "Feiyap.P_Feiyap",
         "PassiveUnlockLV1": false,
         "face": "Feiyap\\FeiyapBattleFace.png",
         "name": "绯夜氏",
-        "SelectInfo": "",
+        "SelectInfo": "于万千碎裂的世界破片中，选择成为了方舟调查员的那一个“绯夜氏”。\n绯夜氏是役使着一柄名为“绯生一文字”的太刀的我流武士。太刀上寄宿着的死气与魔力给予了她操纵苍蓝色火焰的能力，不仅能够灼伤敌人，还能够幻形成为另一柄太刀、供她驱使。对她而言，扭曲之地只不过是奔赴另一个砍下头颅的野原战场而已。\n\n只是偶尔，于万千碎裂的世界破片中的一瞥，似乎得以窥见“另一种可能性”的“绯夜氏”。",
         "Gender": 1,
         "CollectionSprite_Cover": "Feiyap\\FeiyapCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "Feiyap\\FeiyapCollectionSprite_SkillFace.png",
         "StatView_Atk": 3,
         "StatView_Difficult": 1,
         "MAXHP": {
-            "x": 20,
+            "x": 25,
             "y": 45
-        }
+        },
+        "ATK": {
+            "x": 15,
+            "y": 27
+        },
+        "REG": {
+            "x": 7,
+            "y": 11
+        },
+        "DODGE": {
+            "x": -5,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "HIT": {
+            "x": 89,
+            "y": 114
+        },
+        "CRI": {
+            "x": 1,
+            "y": 10
+        },
+        "RES_DEBUFF": {
+            "x": -5,
+            "y": 30
+        },
+        "RES_DOT": {
+            "x": -5,
+            "y": 30
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 30
+        },
+        "RES_CC": {
+            "x": -5,
+            "y": 30
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 30
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 30
+        },
+        "PassiveName": "绯夜流",
+        "PassiveIcon": "Feiyap\\FeiyapPassiveIcon.png",
+        "PassiveDes": "自身拥有保护体力极限时，攻击造成伤害的25%转化为对自身的治疗。",
+        "FirstSkill": "S_Feiyap_0",
+        "StatView_Dot": 1,
+        "CampSelectWord": "您好，露西小姐。在下绯夜氏。带我上战场吧。",
+        "Text_PharosLeader": [
+            "战场……令人怀念的故乡啊……",
+            "我又……杀死了多少人……",
+            "敌将的头颅、已被我砍下——！"
+        ],
+        "Text_Witch": [
+            "啊啊、诅咒什么的，常有的事。",
+            "骨头仿佛也要冻上了。没关系，来吧。"
+        ],
+        "Text_MasterTarget": "身为武士，能够死在战场上，是在下莫大的荣耀。",
+        "Text_Battle_Idle": [
+            "嗯？怎么了？为什么还不去砍人？",
+            "不需要想来想去的。去砍人、然后去受伤，就可以了。"
+        ],
+        "Text_Battle_ND": [
+            "我会……凋零吗……？",
+            "啊啊、我终于也要……"
+        ],
+        "Text_Battle_AllyND": [
+            "可别死在我之前。"
+        ],
+        "Text_Battle_Kill": [
+            "你的血、我收下了。",
+            "被我斩死，是你的荣耀。"
+        ],
+        "Text_Battle_Start": [
+            "您好。在下绯夜氏。请让我杀了你吧。",
+            "无名亦无为，绯生之文字。"
+        ],
+        "Text_Battle_Cri": [
+            "接招！",
+            "有破绽！",
+            "你的头颅、我收下了！"
+        ],
+        "Text_Field_Idle": [
+            "怎么了，想休息一下吗？在下来放风吧。"
+        ],
+        "Text_Battle_Healed": [
+            "诚惶诚恐。",
+            "不必为了我这种人……"
+        ],
+        "Text_Field_GetItem": [
+            "哦哦，虽然不清楚这东西的价值，不过应当是好东西吧？"
+        ],
+        "CampSD": [
+            "Feiyap\\FeiyapCampSD0.png",
+            "Feiyap\\FeiyapCampSD1.png",
+            "Feiyap\\FeiyapCampSD2.png",
+            "Feiyap\\FeiyapCampSD3.png"
+        ]
     }
 }

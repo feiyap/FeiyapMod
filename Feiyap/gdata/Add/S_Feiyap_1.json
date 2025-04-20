@@ -2,7 +2,7 @@
     "S_Feiyap_1": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Ilya/Ilya_1",
         "Target": "enemy",
         "Track": false,
         "Name": "里绯夜流·逆鳞斩",
@@ -12,6 +12,23 @@
         "Effect_Target": "SE_T_S_Feiyap_1",
         "Image_0": "S_Feiyap_1\\S_Feiyap_1_Image_0.png",
         "Image_1": "S_Feiyap_1\\S_Feiyap_1_Image_1.png",
-        "Image_2": "S_Feiyap_1\\S_Feiyap_1_Image_2.png"
+        "Image_2": "S_Feiyap_1\\S_Feiyap_1_Image_2.png",
+        "NotCount": false,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_1"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Description": "若自身拥有保护体力极限，对目标造成 1 次痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。"
     }
 }

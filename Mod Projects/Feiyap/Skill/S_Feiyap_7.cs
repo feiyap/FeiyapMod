@@ -18,6 +18,21 @@ namespace Feiyap
 	/// </summary>
     public class S_Feiyap_7:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
 
+            foreach (BattleAlly battleAlly in Targets)
+            {
+                foreach (Buff buff in battleAlly.GetBuffs(BattleChar.GETBUFFTYPE.CC, true, false))
+                {
+                    buff.SelfDestroy(false);
+                }
+                foreach (Buff buff in battleAlly.GetBuffs(BattleChar.GETBUFFTYPE.DOT, true, false))
+                {
+                    buff.SelfDestroy(false);
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,18 @@
+{
+    "FeiyapCoffee": {
+        "_gdeSchema": "Character_Skin",
+        "SkinDesc": "于万千碎裂的世界破片中，选择成为了白领的那一个“绯夜氏”。\n平庸至极的少女，只是享受着惬意的午后时间，将工作什么的全部抛至脑后吧。",
+        "SkinName": "午后咖啡",
+        "Character": "Feiyap",
+        "FaceSprite": "FeiyapCoffeeSkin\\FeiyapCoffeeSkinBattleFace.png",
+        "CampSD": [
+            "FeiyapCoffeeSkin\\FeiyapCoffeeSkinCampSD0.png",
+            "FeiyapCoffeeSkin\\FeiyapCoffeeSkinCampSD1.png",
+            "FeiyapCoffeeSkin\\FeiyapCoffeeSkinCampSD2.png",
+            "FeiyapCoffeeSkin\\FeiyapCoffeeSkinCampSD3.png"
+        ],
+        "VFXChangeSkill": [
+            "S_FeiyapCoffee_6_Skin"
+        ]
+    }
+}

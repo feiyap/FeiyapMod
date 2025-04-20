@@ -1,0 +1,13 @@
+{
+    "SE_Feiyap_C_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "施加持续2回合的保护体力极限。",
+        "Drop": true,
+        "EnforceString": "指向队友的治疗技能",
+        "NeedCharacter": "Feiyap",
+        "Des": "",
+        "ClassName": "Feiyap.SE_Feiyap_C_0"
+    }
+}

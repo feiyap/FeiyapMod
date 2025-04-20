@@ -1,0 +1,13 @@
+{
+    "SE_T_S_Feiyap_2_2": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 60,
+        "Buffs": [
+            "B_Feiyap_1"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

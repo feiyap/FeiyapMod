@@ -494,6 +494,11 @@ namespace Yuyuko
 		/// </summary>
         public static string Character_YuyukoF = "YuyukoF";
         public static string Character_Skin_YuyukoFEclipse = "YuyukoFEclipse";
+		/// <summary>
+		/// 完全凭依 - 幽幽子
+		/// 造成的伤害转化为最大体力值降低。
+		/// </summary>
+        public static string Item_Equip_E_YuyukoF_2 = "E_YuyukoF_2";
 
     }
 

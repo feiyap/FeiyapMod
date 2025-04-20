@@ -1,0 +1,15 @@
+{
+    "S_FeiyapMaster_4_Skin": {
+        "_gdeSchema": "VFXSkill",
+        "MySkill": "S_Feiyap_4",
+        "Particle": "Particle/Ilya/Ilya_4",
+        "Image_0": "S_FeiyapMaster_4_Skin\\S_FeiyapMaster_4_Skin_Image_0.png",
+        "SkillImage": [
+            "S_FeiyapMaster_4_Skin\\S_FeiyapMaster_4_Skin_Image_0.png",
+            "S_FeiyapMaster_4_Skin\\S_FeiyapMaster_4_Skin_Image_1.png",
+            "S_FeiyapMaster_4_Skin\\S_FeiyapMaster_4_Skin_Image_2.png"
+        ],
+        "Image_1": "S_FeiyapMaster_4_Skin\\S_FeiyapMaster_4_Skin_Image_1.png",
+        "Image_2": "S_FeiyapMaster_4_Skin\\S_FeiyapMaster_4_Skin_Image_2.png"
+    }
+}

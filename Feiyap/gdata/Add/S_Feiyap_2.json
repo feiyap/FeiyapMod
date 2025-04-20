@@ -3,14 +3,19 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/impact",
-        "Target": "enemy",
+        "Target": "choiceskill",
         "IgnoreTaunt": false,
         "Name": "未完成的一文字",
         "UseAp": 1,
         "User": "Feiyap",
-        "Effect_Target": "null",
+        "Effect_Target": "SE_T_S_Feiyap_2",
         "Image_0": "S_Feiyap_2\\S_Feiyap_2_Image_0.png",
         "Image_1": "S_Feiyap_2\\S_Feiyap_2_Image_1.png",
-        "Image_2": "S_Feiyap_2\\S_Feiyap_2_Image_2.png"
+        "Image_2": "S_Feiyap_2\\S_Feiyap_2_Image_2.png",
+        "Description": "选择 - 自身获得 1 层“血似刃流”；\n对目标施加 1 层“体内灼烧”。",
+        "NotCount": true,
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_2"
+        ]
     }
 }

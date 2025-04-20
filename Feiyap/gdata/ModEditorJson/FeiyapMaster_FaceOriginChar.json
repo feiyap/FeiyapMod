@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapMaster",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "FeiyapMasterSkin\\FeiyapMasterSkinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 714.832031,
+            "y": 282.8592
+        },
+        "offsetMin": {
+            "x": -681.5316,
+            "y": -1578.959
+        },
+        "pivot": {
+            "x": 0.4870734,
+            "y": 0.8451872
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

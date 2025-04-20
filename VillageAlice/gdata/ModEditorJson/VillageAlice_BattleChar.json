@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "VillageAlice\\VillageAliceBattleChar.png",
-        "pivot": {
-            "x": 0.5278465,
-            "y": 0.675647557
+        "offsetMax": {
+            "x": 652.5414,
+            "y": 446.6611
         },
         "offsetMin": {
-            "x": -1164.06384,
-            "y": -1490.0105
+            "x": -697.530762,
+            "y": -1462.7533
         },
-        "offsetMax": {
-            "x": 1041.24353,
-            "y": 715.2968
+        "pivot": {
+            "x": 0.5166618,
+            "y": 0.7660743
         }
     },
     "MyChangeType": "BattleChar",

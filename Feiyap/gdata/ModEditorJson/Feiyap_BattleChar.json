@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "Feiyap\\FeiyapBattleChar.png",
-        "offsetMax": {
-            "x": 799.9224,
-            "y": 336.9475
+        "pivot": {
+            "x": 0.6685726,
+            "y": 0.8313787
         },
         "offsetMin": {
-            "x": -736.077637,
-            "y": -1711.05249
+            "x": -933.5705,
+            "y": -1547.876
         },
-        "pivot": {
-            "x": 0.4792172,
-            "y": 0.835474849
+        "offsetMax": {
+            "x": 462.793152,
+            "y": 313.9422
         }
     },
     "MyChangeType": "BattleChar",

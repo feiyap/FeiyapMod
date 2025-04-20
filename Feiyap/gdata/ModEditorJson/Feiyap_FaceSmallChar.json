@@ -4,16 +4,16 @@
     "myValues": {
         "path": "Feiyap\\FeiyapFaceSmallChar.png",
         "offsetMax": {
-            "x": 352.034027,
-            "y": 100.147026
+            "x": 221.069611,
+            "y": 100.556938
         },
         "offsetMin": {
-            "x": -299.379822,
-            "y": -768.4047
+            "x": -430.344269,
+            "y": -767.9948
         },
         "pivot": {
-            "x": 0.4564652,
-            "y": 0.878260851
+            "x": 0.657511652,
+            "y": 0.8777889
         }
     },
     "MyChangeType": "FaceSmallChar",

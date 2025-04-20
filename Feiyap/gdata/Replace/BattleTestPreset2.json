@@ -11,7 +11,7 @@
             "S_Ilya_1",
             "S_Azar_5",
             "S_TW_Blue_5",
-            "S_LucyC_2"
+            "S_Feiyap_Rare_1"
         ],
         "PartySkills": [
             [
@@ -24,7 +24,13 @@
                 
             ],
             [
-                "S_Feiyap_6"
+                "S_Feiyap_6",
+                "S_Feiyap_0",
+                "S_Feiyap_0",
+                "S_Feiyap_0",
+                "S_Feiyap_0",
+                "S_Feiyap_0",
+                "S_Feiyap_0"
             ]
         ],
         "PartyEquip": [
@@ -44,7 +50,7 @@
         "AP": 10,
         "Level": 6,
         "LucySkill": [
-            
+            "S_Lucy_21"
         ]
     }
 }

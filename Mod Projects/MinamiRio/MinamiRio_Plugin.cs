@@ -36,7 +36,7 @@ namespace MinamiRio
     }
 
     //可以指向不能被指定（vanish）的敌人
-    [HarmonyPatch(typeof(BattleSystem), nameof(BattleSystem.SkillTargetReturn))]
+    [HarmonyPatch(typeof(BattleSystem), nameof(BattleSystem.SkillTargetReturn), new Type[] { typeof(Skill), typeof(BattleChar), typeof(BattleChar) })]
     public static class SkillTargetReturnPrefix
     {
         [HarmonyPrefix]

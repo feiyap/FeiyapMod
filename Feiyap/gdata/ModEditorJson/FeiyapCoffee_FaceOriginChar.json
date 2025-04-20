@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapCoffee",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "FeiyapCoffeeSkin\\FeiyapCoffeeSkinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 682.015259,
+            "y": 212.739
+        },
+        "offsetMin": {
+            "x": -587.40625,
+            "y": -1479.82288
+        },
+        "pivot": {
+            "x": 0.46163252,
+            "y": 0.871134341
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

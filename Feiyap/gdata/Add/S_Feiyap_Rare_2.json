@@ -2,7 +2,7 @@
     "S_Feiyap_Rare_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Azar/Azar_new_2",
         "Rare": true,
         "Target": "enemy",
         "Name": "无声星陨",
@@ -10,6 +10,26 @@
         "UseAp": 2,
         "Image_0": "S_Feiyap_Rare_2\\S_Feiyap_Rare_2_Image_0.png",
         "Image_1": "S_Feiyap_Rare_2\\S_Feiyap_Rare_2_Image_1.png",
-        "Image_2": "S_Feiyap_Rare_2\\S_Feiyap_Rare_2_Image_2.png"
+        "Image_2": "S_Feiyap_Rare_2\\S_Feiyap_Rare_2_Image_2.png",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": true,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Description": "若自身拥有保护体力极限，生成“星天陨辍”。",
+        "Effect_Target": "SE_T_S_Feiyap_Rare_2",
+        "PlusSkillView": "S_Feiyap_Rare_2_0",
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_Rare_2"
+        ]
     }
 }

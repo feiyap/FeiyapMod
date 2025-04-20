@@ -1,0 +1,10 @@
+{
+    "E_Feiyap_0": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "name": "绯生一文字",
+        "Description": "",
+        "image": "Item\\E_Feiyap_0_image.png",
+        "Equip_Script": "Feiyap.E_Feiyap_0"
+    }
+}

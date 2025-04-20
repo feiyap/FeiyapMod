@@ -18,6 +18,10 @@ namespace Feiyap
 	/// </summary>
     public class B_Feiyap_6:Buff
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.PlusMPUse.PlusMP_OnlyHand = -99;
+        }
     }
 }

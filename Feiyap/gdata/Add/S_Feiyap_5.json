@@ -2,15 +2,34 @@
     "S_Feiyap_5": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
-        "Target": "self",
+        "Particle": "Particle/Buff",
+        "Target": "enemy",
         "Name": "孤燕之瞥",
         "User": "Feiyap",
         "NotCount": true,
         "Disposable": false,
-        "Effect_Target": "null",
+        "Effect_Target": "SE_T_S_Feiyap_5",
         "Image_0": "S_Feiyap_5\\S_Feiyap_5_Image_0.png",
         "Image_1": "S_Feiyap_5\\S_Feiyap_5_Image_1.png",
-        "Image_2": "S_Feiyap_5\\S_Feiyap_5_Image_2.png"
+        "Image_2": "S_Feiyap_5\\S_Feiyap_5_Image_2.png",
+        "UseAp": 0,
+        "IgnoreTaunt": false,
+        "Track": false,
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_5"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Self": "SE_S_S_Feiyap_5",
+        "Description": ""
     }
 }

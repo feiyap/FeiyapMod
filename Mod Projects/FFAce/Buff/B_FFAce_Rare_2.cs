@@ -24,7 +24,6 @@ namespace FFAce
         public void Turn()
         {
             this.BChar.BuffAdd("B_FFAce_0", this.BChar);
-            this.BChar.BuffAdd("B_FFAce_0", this.BChar);
             this.BChar.BuffAdd("B_FFAce_LucyD", this.BChar);
         }
 

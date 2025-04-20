@@ -2,14 +2,33 @@
     "S_Feiyap_3": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
-        "Target": "self",
+        "Particle": "Particle/Ilya/Ilya_3",
+        "Target": "enemy",
         "Name": "天市右垣七",
         "User": "Feiyap",
         "UseAp": 2,
-        "NotCount": true,
+        "NotCount": false,
         "Image_0": "S_Feiyap_3\\S_Feiyap_3_Image_0.png",
         "Image_1": "S_Feiyap_3\\S_Feiyap_3_Image_1.png",
-        "Image_2": "S_Feiyap_3\\S_Feiyap_3_Image_2.png"
+        "Image_2": "S_Feiyap_3\\S_Feiyap_3_Image_2.png",
+        "Description": "展示牌库和弃牌库中所有自己的技能。选择其中 1 个拿回手中。",
+        "Effect_Target": "SE_T_S_Feiyap_3",
+        "NoBasicSkill": true,
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_3"
+        ],
+        "IgnoreTaunt": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

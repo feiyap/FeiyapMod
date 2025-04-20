@@ -11,7 +11,7 @@
             "S_Ilya_1",
             "S_Azar_5",
             "S_TW_Blue_5",
-            "S_FFAce_P"
+            "S_FFAce_Rare_1"
         ],
         "PartySkills": [
             [
@@ -27,7 +27,12 @@
                 "S_FFAce_5",
                 "S_FFAce_6",
                 "S_FFAce_7",
-                "S_FFAce_5_Ex"
+                "S_FFAce_Rare_1",
+                "S_FFAce_0",
+                "S_FFAce_0",
+                "S_FFAce_0",
+                "S_FFAce_0",
+                "S_FFAce_0"
             ]
         ],
         "PartyEquip": [

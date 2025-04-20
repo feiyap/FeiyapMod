@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Feiyap\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Feiyap\obj\Debug\Feiyap.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Feiyap\obj\Debug\Feiyap.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Feiyap\obj\Debug\Feiyap.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Feiyap\bin\Debug\Feiyap202541902808.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Feiyap\bin\Debug\Feiyap202541902808.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Feiyap\obj\Debug\Feiyap202541902808.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Feiyap\obj\Debug\Feiyap202541902808.pdb

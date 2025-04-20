@@ -2,14 +2,22 @@
     "S_Feiyap_8": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
-        "Target": "self",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
         "Name": "短休",
         "User": "Feiyap",
         "NotCount": true,
         "Disposable": true,
         "Image_0": "S_Feiyap_8\\S_Feiyap_8_Image_0.png",
         "Image_1": "S_Feiyap_8\\S_Feiyap_8_Image_1.png",
-        "Image_2": "S_Feiyap_8\\S_Feiyap_8_Image_2.png"
+        "Image_2": "S_Feiyap_8\\S_Feiyap_8_Image_2.png",
+        "Rare": false,
+        "Description": "移除目标所有过载。\n每移除 1 层过载，恢复 1 点法力值。",
+        "IgnoreTaunt": false,
+        "Track": false,
+        "NoDrop": false,
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_8"
+        ]
     }
 }

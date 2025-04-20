@@ -59,7 +59,7 @@
         },
         "face": "FFAce\\FFAceBattleFace.png",
         "PassiveName": "翻牌",
-        "PassiveDes": "<b>固定能力变更为‘翻牌’。</b>\r\n\r\n<color=#919191>- 此被动从1级开始生效。</color>",
+        "PassiveDes": "固定能力变更为‘翻牌’：\n从牌库和弃牌库中翻出随机1张自己的技能，根据牌上的[翻开]效果获得相应的增益，然后将此技能放回原位；若翻出的技能没有[翻开]效果，则将此技能置入手中。\n\r\n<color=#919191>- 此被动从1级开始生效。</color>",
         "CollectionSprite_Cover": "FFAce\\FFAceCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "FFAce\\FFAceCollectionSprite_SkillFace.png",
         "StatView_Atk": 3,

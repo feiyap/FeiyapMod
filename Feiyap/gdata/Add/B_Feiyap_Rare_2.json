@@ -1,0 +1,20 @@
+{
+    "B_Feiyap_Rare_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "DOT",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "热寂",
+        "Description": "",
+        "Tick": "SE_Tick_B_Feiyap_Rare_2",
+        "Icon": "B_Feiyap_Rare_2\\B_Feiyap_Rare_2_Icon.png",
+        "MaxStack": 2,
+        "Debuff": true,
+        "TagPer": 200,
+        "LifeTime": 0
+    }
+}

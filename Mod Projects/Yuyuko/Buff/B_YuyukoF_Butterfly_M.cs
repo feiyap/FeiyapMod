@@ -113,7 +113,7 @@ namespace Yuyuko
             base.TurnUpdate();
 
             int num = this.BChar.Info.OriginStat.maxhp * 10 / 100;
-            num = Math.Min(num, (int)(this.Usestate_F.GetStat.atk * 5));
+            //num = Math.Min(num, (int)(this.Usestate_F.GetStat.atk * 5));
 
             if (effect == 0)
             {

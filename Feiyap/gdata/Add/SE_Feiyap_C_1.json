@@ -1,0 +1,10 @@
+{
+    "SE_Feiyap_C_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "若目标持有痛苦减益，恢复 1 点法力值。",
+        "Drop": true,
+        "EnforceString": "指向敌人的攻击技能",
+        "NeedCharacter": "Feiyap",
+        "ClassName": "Feiyap.SE_Feiyap_C_1"
+    }
+}

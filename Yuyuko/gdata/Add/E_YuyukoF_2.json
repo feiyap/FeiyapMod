@@ -1,0 +1,12 @@
+{
+    "E_YuyukoF_2": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "name": "完全凭依 - 幽幽子",
+        "Description": "造成的伤害转化为最大体力值降低。",
+        "Off": true,
+        "NoDrop": true,
+        "image": "Item\\E_YuyukoF_2_image.png",
+        "Equip_Script": "Yuyuko.E_YuyukoF_2"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "S_Feiyap_LucyD_2": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Target": "all_ally",
+        "Name": "于午夜的篝火守夜",
+        "UseAp": 2,
+        "User": "LucyDraw",
+        "NotCount": true,
+        "Disposable": true,
+        "Image_0": "S_Feiyap_LucyD_2\\S_Feiyap_LucyD_2_Image_0.png",
+        "Image_1": "S_Feiyap_LucyD_2\\S_Feiyap_LucyD_2_Image_1.png",
+        "Image_2": "S_Feiyap_LucyD_2\\S_Feiyap_LucyD_2_Image_2.png",
+        "LucyPartyDraw": "Feiyap",
+        "Effect_Target": "SE_T_S_Feiyap_LucyD_2",
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_LucyD_2"
+        ],
+        "Rare": false,
+        "Description": "抽取2个技能。"
+    }
+}

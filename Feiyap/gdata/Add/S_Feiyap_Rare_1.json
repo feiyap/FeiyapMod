@@ -2,13 +2,34 @@
     "S_Feiyap_Rare_1": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Buff",
         "Target": "self",
         "Name": "红现实",
         "User": "Feiyap",
         "Rare": true,
         "Image_0": "S_Feiyap_Rare_1\\S_Feiyap_Rare_1_Image_0.png",
         "Image_1": "S_Feiyap_Rare_1\\S_Feiyap_Rare_1_Image_1.png",
-        "Image_2": "S_Feiyap_Rare_1\\S_Feiyap_Rare_1_Image_2.png"
+        "Image_2": "S_Feiyap_Rare_1\\S_Feiyap_Rare_1_Image_2.png",
+        "NotCount": true,
+        "Disposable": true,
+        "Track": false,
+        "Description": "战斗开始时，放在牌库最上方。\n\n<i><color=#FF4500>[响亮的金属撞击爆炸，随之而来的是噼啪噪音声]</color></i>\n<i><color=#FF4500>五年，十一个月，二十一天。</color></i>",
+        "Effect_Self": "null",
+        "Effect_Target": "SE_T_S_Feiyap_Rare_1",
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_Rare_1"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "UseAp": 0
     }
 }

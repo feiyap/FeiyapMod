@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "VillageAlice\\VillageAliceFaceSmallChar.png",
-        "offsetMax": {
-            "x": 551.037537,
-            "y": 324.517
+        "pivot": {
+            "x": 0.49430725,
+            "y": 0.8129211
         },
         "offsetMin": {
-            "x": -580.63385,
-            "y": -807.154358
+            "x": -344.4883,
+            "y": -802.115356
         },
-        "pivot": {
-            "x": 0.5112808,
-            "y": 0.7083016
+        "offsetMax": {
+            "x": 348.312073,
+            "y": 177.716034
         }
     },
     "MyChangeType": "FaceSmallChar",

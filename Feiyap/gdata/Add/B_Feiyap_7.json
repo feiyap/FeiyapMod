@@ -1,0 +1,11 @@
+{
+    "B_Feiyap_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Feiyap.B_Feiyap_7",
+        "BuffTag": "null",
+        "Name": "镜花水月",
+        "IsFieldBuff": true,
+        "Icon": "B_Feiyap_7\\B_Feiyap_7_Icon.png",
+        "Description": "闪避下 1 次受到的攻击。\n触发闪避时，进行一次反击，造成&a伤害(攻击力的100%)，并施加 1 层“体内灼烧”。\n触发后解除。"
+    }
+}

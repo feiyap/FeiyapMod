@@ -2,14 +2,33 @@
     "S_Feiyap_7": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Buff",
         "Target": "all_ally",
         "NotCount": false,
         "Name": "明镜止水",
-        "UseAp": 2,
+        "UseAp": 1,
         "User": "Feiyap",
         "Image_0": "S_Feiyap_7\\S_Feiyap_7_Image_0.png",
         "Image_1": "S_Feiyap_7\\S_Feiyap_7_Image_1.png",
-        "Image_2": "S_Feiyap_7\\S_Feiyap_7_Image_2.png"
+        "Image_2": "S_Feiyap_7\\S_Feiyap_7_Image_2.png",
+        "Disposable": true,
+        "NoBasicSkill": false,
+        "Description": "解除所有<sprite=1>痛苦减益和<sprite=2>干扰减益。",
+        "Effect_Self": "SE_S_S_Feiyap_7",
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_7"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }
