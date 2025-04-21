@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\szb_elena\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\szb_elena\obj\Debug\szb_elena.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\szb_elena\obj\Debug\szb_elena.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\szb_elena\obj\Debug\szb_elena.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\szb_elena\bin\Debug\szb_elena202542113115.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\szb_elena\bin\Debug\szb_elena202542113115.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\szb_elena\obj\Debug\szb_elena202542113115.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\szb_elena\obj\Debug\szb_elena202542113115.pdb

@@ -1,0 +1,79 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_szb_elena_2_Description,Text,,,"When you recover HP, deal &a<color=#FF7A33>(60% of ATK)</color> damage to all enemies (triggers up to 10 times per turn).",,当自己回复生命值时，对所有敌人造成&a<color=#FF7A33>(攻击力的60%)</color>伤害（1回合最多触发10次）。,
+Buff/B_szb_elena_2_Name,Text,,,Holy Marksman,,圣弓使役,
+Buff/B_szb_elena_3_Description,Text,,,"When you recover HP, grant all allies +1 ATK and +1 Max HP for this battle.",,当自己回复生命值时，使所有队员在本场战斗中获得+1攻击力和+1最大生命值。,
+Buff/B_szb_elena_3_Name,Text,,,Unicorn Warrior,,独角兽战士,
+Buff/B_szb_elena_4_Name,Text,,,Smilecure Priest,,狐耳神父,
+Buff/B_szb_elena_8_0_Description,Text,,,,,,
+Buff/B_szb_elena_8_0_Name,Text,,,Invincible,,无敌,
+Buff/B_szb_elena_8_Description,Text,,,"When you recover HP:
+
+If this is the 1st recovery this turn, deal &a damage<color=#FF7A33>(100% of ATK)</color> to a random enemy.
+
+If this is the 2nd recovery, add a 0-cost 'Sacred Flame Tiger' to your hand.
+
+If this is the 3rd recovery, grant a random ally Invincible for 1 turn.",,"当自己回复生命值时，如果该回复为自己本回合中的第1次，则会对随机敌人造成&a伤害<color=#FF7A33>(攻击力的100%)</color>；
+如果为第2次，则会将1个0费的“圣炎猛虎”加入手中；
+如果为第3次，则会使随机1个队友无敌1回合。",
+Buff/B_szb_elena_8_Name,Text,,,Holy Sanctuary,,洁净领域,
+Buff/B_szb_elena_P_Name,Text,,,Elana's Prayer,,耶拉的祈祷,
+Buff/B_szb_elena_R1_Description,Text,,,"When you recover HP, grant all allies +1 ATK and +1 Max HP for this battle.",,当自己回复生命值时，使所有队员在本场战斗中获得+1攻击力和+1最大生命值,
+Buff/B_szb_elena_R1_Name,Text,,,Graceful Lady,,华丽淑女,
+Buff/B_szb_elena_R2_Description,Text,,,"At the end of the turn, restore &a HP (80% of Healing) to all Investigators. When you recover HP, deal &a damage (80% of ATK) to all enemies (triggers up to 10 times per turn).",,回合结束时，恢复所有调查员&a体力(治疗力的80%)；当自己回复生命值时，对所有敌人造成&a伤害(攻击力的80%)，1回合最多触发10次。,
+Buff/B_szb_elena_R2_Name,Text,,,Bellerophon,,贝勒罗芬,
+Buff/B_szb_elena_R3_Description,Text,,,"At the end of the turn, restore &a HP (25% of Max HP).",,回合结束时，恢复&a体力(最大体力值的25%)。,
+Buff/B_szb_elena_R3_Name,Text,,,Gem Princess,,七宝石公主,
+Character/szb_elena_PassiveDes,Text,,,"When you recover HP, grant all Investigators +1 ATK and +1 Max HP for this battle.",,当自己回复生命值时，使所有调查员在本场战斗中获得+1攻击力和+1最大生命值。,
+Character/szb_elena_PassiveName,Text,,,Elana's Prayer,,耶拉的祈祷,
+Character/szb_elena_SelectInfo,Text,,,"Elana, Purest Prayer is a support character specialized in prolonged battles.
+
+By healing herself, she continuously stacks powerful buffs on allies to enhance their combat capabilities and survivability.",,"清纯祈祷者·耶拉是擅长长线作战的增益型辅助角色。
+
+通过治疗自己，她能够持续为队友叠加强力的增益效果，以强化盟友的战斗能力和生存能力。",
+Character/szb_elena_name,Text,,,Elana,,耶拉,
+Skill/S_szb_elena_10_Description,Text,,,"Can only be used when your HP is below &a (75% of Max HP).
+(120% Disruption) Stun the enemy with the highest ATK.
+Heal the ally with the lowest HP by &b (180% of Healing).
+Draw 2 skills.",,"仅能在自身体力低于&a时使用(自身最大体力值的75%)。
+(120%干扰)眩晕攻击力最高的敌人。
+治疗体力最低的友军&b点体力(治疗力的180%)。
+抽取2个技能。",
+Skill/S_szb_elena_10_Name,Text,,,"XXI. Zelgenea, The World",,世界·捷尔加内亚,
+Skill/S_szb_elena_1_Description,Text,,,"If the target's HP is below &a<color=#FF7A33>(70% of ATK)</color>, instantly defeat them.",,如果目标生命值低于&a<color=#FF7A33>(攻击力的70%)</color>，立即死亡。,
+Skill/S_szb_elena_1_Name,Text,,,Blackened Scripture,,漆黑法典,
+Skill/S_szb_elena_2_0_Name,Text,,,,,,
+Skill/S_szb_elena_2_Name,Text,,,"Kel, Holy Marksman",,圣弓使役者·库鲁特,
+Skill/S_szb_elena_3_0_Description,Text,,,Heal yourself and the Investigator with the lowest HP by &a (60% of Healing).,,治疗自己和体力最低的调查员&a体力(治疗力的60%)。,
+Skill/S_szb_elena_3_0_Name,Text,,,Unicorn,,独角兽,
+Skill/S_szb_elena_3_Description,Text,,,Add a "Unicorn" to your hand.,,将1个“独角兽”加入手中。,
+Skill/S_szb_elena_3_Name,Text,,,Unicorn Warrior,,独角兽战士,
+Skill/S_szb_elena_4_Description,Text,,,Encore 0 - Change to heal yourself by &b (60% of Healing).,,激奏0 - 变为治疗自己&b体力(治疗力的60%)。,
+Skill/S_szb_elena_4_Name,Text,,,Smilecure Priest,,狐耳神父,
+Skill/S_szb_elena_5_Description,Text,,,Overload 3 - Additionally heal &a (105% of Healing). Draw 2 skills.,,爆能强化3 - 额外治疗&a体力(治疗力的105%)。抽取2个技能。,
+Skill/S_szb_elena_5_Name,Text,,,Tender Rabbit Healer,,温情的兔耳治愈师,
+Skill/S_szb_elena_6_Description,Text,,,Deal &a damage (30% of ATK × number of HP recoveries this turn) to a random enemy.,,对随机敌人造成&a伤害(本回合中自己回复生命值的次数 x 攻击力的30%)。,
+Skill/S_szb_elena_6_Name,Text,,,Mark Unleashed,,圣痕的执行,
+Skill/S_szb_elena_7_0_Description,Text,,,"Remove <sprite=1>Pain and <sprite=0>Debuffs from the target.
+Draw 1 skill.",,"解除目标持有的<sprite=1>痛苦和<sprite=0>弱化减益。
+抽取1个技能。",
+Skill/S_szb_elena_7_0_Name,Text,,,Lorena's Holy Water,,萝蕾娜的圣水,
+Skill/S_szb_elena_7_Description,Text,,,"Add a 'Lorena's Holy Water' to your hand.
+When you recover HP, if this is the 2nd recovery this turn, this skill gains 'When casting: Deal &a damage (130% of ATK) to a random enemy.'",,"将1个“萝蕾娜的圣水”加入手中。
+当自己回复生命值时，如果该回复为自己本回合中的第2次，则会使这个技能获得“打出时，对随机敌人造成&a伤害(攻击力的130%)”。",
+Skill/S_szb_elena_7_Name,Text,,,"Lorena, Iron-Willed Priest",,传教司祭·萝蕾娜,
+Skill/S_szb_elena_8_0_Name,Text,,,Holyflame Tiger,,圣炎猛虎,
+Skill/S_szb_elena_8_Name,Text,,,Holy Sanctuary,,洁净的领域,
+Skill/S_szb_elena_9_Description,Text,,,"Heal all Investigators by &a (60% of Healing). Draw 1 skill.
+
+Overload 4 - Additionally deal &b damage<color=#FF7A33>(60% of ATK)</color>, heal &c (60% of Healing), and draw 1 more skill.",,"恢复所有调查员&a体力(治疗力的60%)。抽取1个技能。
+
+爆能强化4 - 造成额外&b伤害<color=#FF7A33>(攻击力的60%)</color>，额外治疗&c体力(治疗力的60%)，额外抽取1个技能。",
+Skill/S_szb_elena_9_Name,Text,,,Benevolent Blight,,仁爱光芒,
+Skill/S_szb_elena_Lucy_Description,Text,,,"When playing: Immediately restore 5 HP to all targets.
+When casting: Draw 2 skills.",,"打出时立即恢复所有目标5点生命值。
+释放时抽取2个技能。",
+Skill/S_szb_elena_Lucy_Name,Text,,,Golden Bell,,黄金之钟,
+Skill/S_szb_elena_R1_Name,Text,,,"Elluvia, Graceful Lady",,华丽淑女·耶伦华菈,
+Skill/S_szb_elena_R2_Name,Text,,,Bellerophon,,贝勒罗芬,
+Skill/S_szb_elena_R3_Description,Text,,,"At the start of battle, place this on top of your deck.",,战斗开始时，放在牌库的最上方。,
+Skill/S_szb_elena_R3_Name,Text,,,"De La Fille, Gem Princess",,七宝石公主·索菲尔,

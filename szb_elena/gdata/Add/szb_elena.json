@@ -57,13 +57,14 @@
         },
         "PassiveName": "耶拉的祈祷",
         "PassiveDes": "当自己回复生命值时，使所有调查员在本场战斗中获得+1攻击力和+1最大生命值。",
-        "SelectInfo": "",
+        "SelectInfo": "清纯祈祷者·耶拉是擅长长线作战的增益型辅助角色。\n\n通过治疗自己，她能够持续为队友叠加强力的增益效果，以强化盟友的战斗能力和生存能力。",
         "Gender": 1,
         "CollectionSprite_Cover": "szb_elena\\szb_elenaCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "szb_elena\\szb_elenaCollectionSprite_SkillFace.png",
         "StatView_Atk": 2,
         "StatView_Heal": 3,
         "StatView_Sup": 3,
-        "StatView_Difficult": 1
+        "StatView_Difficult": 1,
+        "FirstSkill": "S_szb_elena_1"
     }
 }

@@ -2,15 +2,17 @@
     "id": "szb_elena",
     "Uploader": "Feiyap",
     "Visibility": "Public",
-    "Title": "【CN】清纯祈祷者·耶拉",
+    "Title": "【CN/EN】清纯祈祷者·耶拉",
     "Author": "hswy666，绯夜氏",
     "Version": "v1.0",
     "Dependencies": [
-        "BasicMethods"
+        
     ],
     "TagList": [
         "Characters"
     ],
     "Cover": "szb_elenaCover.png",
-    "OnlyUploadFiles": false
+    "OnlyUploadFiles": false,
+    "Description": "“耶菈，你还在祷告啊？”\n“是的。如果连渺小的我所发出的祈愿，\n也能被神明听见的话……”\n──某日，库鲁特与耶菈的对话\n\n“你就祈祷那些坏蛋全部都会被解决掉就好了啊！”\n“那个……我认为能不让任何人受伤是最好的。”\n“……你在这方面还真是坚定呢。”\n──某日，库鲁特与耶菈的对话\n\n清纯祈祷者·耶拉是擅长长线作战的增益型辅助角色。\n\n通过治疗自己，她能够持续为队友叠加强力的增益效果，以强化盟友的战斗能力和生存能力。\n\n包含1个角色。拥有10个基础技能，3个稀有技能和1个露西抽牌技能。\n\n设计：Feiyap（绯夜氏）\n程序：hswy666\n翻译/Translator：\nCN：Feiyap（绯夜氏）\nEN：Feiyap（绯夜氏）",
+    "WorkShopId": "3467522976"
 }
