@@ -2,7 +2,7 @@
     "SE_T_S_Feiyap_Rare_2": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 150,
+        "DMG_Per": 50,
         "Buffs": [
             "B_Feiyap_Rare_2"
         ],

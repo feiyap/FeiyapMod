@@ -1,0 +1,7 @@
+{
+    "KeyWord_Explosive": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "爆能强化",
+        "Desc": "带有[激奏]词缀的技能在当前法力值充裕时，可以以高法力值释放较强的技能效果。"
+    }
+}

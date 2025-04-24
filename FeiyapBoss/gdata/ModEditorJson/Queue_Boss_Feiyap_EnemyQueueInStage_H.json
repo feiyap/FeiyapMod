@@ -1,0 +1,11 @@
+{
+    "myKey": null,
+    "myField": "EventEnemy",
+    "myValues": {
+        "Queue_Key": "Queue_Boss_Feiyap"
+    },
+    "MyChangeType": "EnemyQueueInStage",
+    "myKeys": [
+        
+    ]
+}

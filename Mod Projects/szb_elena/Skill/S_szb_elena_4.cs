@@ -28,7 +28,7 @@ namespace szb_elena
             if (!this.useflag)
             {
                 base.FixedUpdate();
-                if (this.BChar.MyTeam.AP < this.MySkill.AP)
+                if (this.BChar.MyTeam.AP < this.MySkill._AP)
                 {
                     this.isSpecies = true;
                     this.ChangedTarget = GDEItemKeys.s_targettype_Misc;

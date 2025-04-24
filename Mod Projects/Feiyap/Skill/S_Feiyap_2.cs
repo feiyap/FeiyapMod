@@ -23,9 +23,34 @@ namespace Feiyap
         public override void Init()
         {
             base.Init();
-            this.ChoiceSkillList = new List<string>();
-            this.ChoiceSkillList.Add("S_Feiyap_2_1");
-            this.ChoiceSkillList.Add("S_Feiyap_2_2");
+        }
+
+        public List<BattleChar> tar;
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            tar = Targets;
+            List<Skill> list = new List<Skill>();
+
+            list.Add(Skill.TempSkill("S_Feiyap_2_1", this.BChar, this.BChar.MyTeam));
+            list.Add(Skill.TempSkill("S_Feiyap_2_2", this.BChar, this.BChar.MyTeam));
+
+            BattleSystem.DelayInputAfter(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.EffectSelect, false, true, true, false, true));
+        }
+
+        public void Del(SkillButton Mybutton)
+        {
+            if (Mybutton.Myskill.MySkill.KeyID == "S_Feiyap_2_1")
+            {
+                this.BChar.BuffAdd("B_Feiyap_0", this.BChar);
+            }
+            if (Mybutton.Myskill.MySkill.KeyID == "S_Feiyap_2_2")
+            {
+                foreach (BattleChar bc in tar)
+                {
+                    bc.BuffAdd("B_Feiyap_1", this.BChar);
+                }
+            }
         }
     }
 }

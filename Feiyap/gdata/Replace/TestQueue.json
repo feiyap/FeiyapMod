@@ -2,7 +2,7 @@
     "TestQueue": {
         "_gdeSchema": "EnemyQueue",
         "Enemys": [
-            "LBossFirst"
+            "TrialofStrength_Enemy"
         ]
     }
 }

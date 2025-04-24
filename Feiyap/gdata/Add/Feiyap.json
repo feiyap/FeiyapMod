@@ -68,7 +68,7 @@
         "PassiveIcon": "Feiyap\\FeiyapPassiveIcon.png",
         "PassiveDes": "自身拥有保护体力极限时，攻击造成伤害的25%转化为对自身的治疗。",
         "FirstSkill": "S_Feiyap_0",
-        "StatView_Dot": 1,
+        "StatView_Dot": 2,
         "CampSelectWord": "您好，露西小姐。在下绯夜氏。带我上战场吧。",
         "Text_PharosLeader": [
             "战场……令人怀念的故乡啊……",

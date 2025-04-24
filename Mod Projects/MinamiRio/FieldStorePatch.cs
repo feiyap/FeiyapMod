@@ -9,16 +9,16 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using ChronoArkMod.ModData;
-using BasicMethods;
+//using BasicMethods;
 
 namespace MinamiRio
 {
-    public class FieldStorePatch : ModDefinition
-    {
-        [FieldStoreItem]
-        public ItemBase FieldStorePatchBase(FieldStore store)
-        {
-            return ItemBase.GetItem(ModItemKeys.Item_Misc_ForgeTree_TreeOfLife);
-        }
-    }
+//    public class FieldStorePatch : ModDefinition
+//    {
+//        [FieldStoreItem]
+//        public ItemBase FieldStorePatchBase(FieldStore store)
+//        {
+//            return ItemBase.GetItem(ModItemKeys.Item_Misc_ForgeTree_TreeOfLife);
+//        }
+//    }
 }

@@ -18,6 +18,10 @@
         "NoDrop": false,
         "Image_0": "S_szb_elena_4\\S_szb_elena_4_Image_0.png",
         "Image_1": "S_szb_elena_4\\S_szb_elena_4_Image_1.png",
-        "Image_2": "S_szb_elena_4\\S_szb_elena_4_Image_2.png"
+        "Image_2": "S_szb_elena_4\\S_szb_elena_4_Image_2.png",
+        "NoBasicSkill": true,
+        "PlusKeyWords": [
+            "KeyWord_Excitement"
+        ]
     }
 }

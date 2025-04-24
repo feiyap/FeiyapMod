@@ -17,6 +17,9 @@
         "NoDrop": false,
         "Image_0": "S_szb_elena_9\\S_szb_elena_9_Image_0.png",
         "Image_1": "S_szb_elena_9\\S_szb_elena_9_Image_1.png",
-        "Image_2": "S_szb_elena_9\\S_szb_elena_9_Image_2.png"
+        "Image_2": "S_szb_elena_9\\S_szb_elena_9_Image_2.png",
+        "PlusKeyWords": [
+            "KeyWord_Explosive"
+        ]
     }
 }

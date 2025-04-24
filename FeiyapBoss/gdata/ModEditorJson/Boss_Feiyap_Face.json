@@ -1,0 +1,23 @@
+{
+    "myKey": "Boss_Feiyap",
+    "myField": "Face",
+    "myValues": {
+        "path": "Boss_Feiyap\\Boss_FeiyapFace.png",
+        "offsetMax": {
+            "x": 655.5012,
+            "y": 674.334656
+        },
+        "offsetMin": {
+            "x": -1016.23486,
+            "y": -1955.72168
+        },
+        "pivot": {
+            "x": 0.6066764,
+            "y": 0.741479158
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

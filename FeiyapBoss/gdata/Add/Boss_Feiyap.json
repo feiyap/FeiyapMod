@@ -1,0 +1,29 @@
+{
+    "Boss_Feiyap": {
+        "_gdeSchema": "Enemy",
+        "hit": 125,
+        "Skills": [
+            "S_Feiyap_Boss_0",
+            "S_Feiyap_Boss_1",
+            "S_Feiyap_Boss_2",
+            "S_Feiyap_Boss_3"
+        ],
+        "Boss": true,
+        "NotCursed": true,
+        "name": "绯夜氏",
+        "atk": 20,
+        "def": 25,
+        "cri": 33,
+        "dodge": 15,
+        "RES_CC": 40,
+        "RES_DEBUFF": 20,
+        "maxhp": 5000,
+        "spd": 3,
+        "PlusActCount": [
+            1,
+            1
+        ],
+        "CollactionSprite_Cover": "Boss_Feiyap\\Boss_FeiyapCollactionSprite_Cover.png",
+        "SubName": "绯夜氏"
+    }
+}

@@ -2,8 +2,8 @@
     "S_Feiyap_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
-        "Target": "choiceskill",
+        "Particle": "Particle/Azar/Azar_S_0",
+        "Target": "enemy",
         "IgnoreTaunt": false,
         "Name": "未完成的一文字",
         "UseAp": 1,
@@ -16,6 +16,10 @@
         "NotCount": true,
         "SkillExtended": [
             "Feiyap.S_Feiyap_2"
-        ]
+        ],
+        "Rare": false,
+        "NoBasicSkill": false,
+        "Fatal": false,
+        "NoDrop": false
     }
 }

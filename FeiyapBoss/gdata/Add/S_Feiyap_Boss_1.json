@@ -1,0 +1,13 @@
+{
+    "S_Feiyap_Boss_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "EnemyPreview": true,
+        "Name": "红明镜止水",
+        "Image_0": "S_Feiyap_Boss_1\\S_Feiyap_Boss_1_Image_0.png",
+        "Image_1": "S_Feiyap_Boss_1\\S_Feiyap_Boss_1_Image_1.png",
+        "Image_2": "S_Feiyap_Boss_1\\S_Feiyap_Boss_1_Image_2.png"
+    }
+}

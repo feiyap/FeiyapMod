@@ -1,0 +1,14 @@
+{
+    "S_Feiyap_Boss_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "enemy",
+        "Name": "孤红之瞥",
+        "Description": "",
+        "Image_0": "S_Feiyap_Boss_3\\S_Feiyap_Boss_3_Image_0.png",
+        "Image_1": "S_Feiyap_Boss_3\\S_Feiyap_Boss_3_Image_1.png",
+        "Image_2": "S_Feiyap_Boss_3\\S_Feiyap_Boss_3_Image_2.png",
+        "EnemyPreview": true
+    }
+}
