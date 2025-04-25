@@ -17,7 +17,7 @@ namespace szb_elena
 	/// 贝勒罗芬
 	/// 回合结束时，恢复所有调查员&a体力(治疗力的80%)；当自己回复生命值时，对所有敌人造成&a伤害(治疗力的80%)，1回合最多触发10次
 	/// </summary>
-    public class B_szb_elena_R2:Buff, IP_TurnEnd,IP_Healed
+    public class B_szb_elena_R2:Buff, IP_TurnEnd,IP_Healed, IP_PlayerTurn
     {
         public override string DescExtended()
         {

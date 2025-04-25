@@ -21,14 +21,14 @@ namespace szb_elena
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            foreach (Buff buff in this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.DOT, false))
+            foreach (Buff buff in Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.DOT, false))
             {
                 if (!buff.BuffData.Cantdisable && !buff.BuffData.Hide && !buff.DestroyBuff)
                 {
                     buff.SelfDestroy();
                 }
             }
-            foreach (Buff buff in this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false))
+            foreach (Buff buff in Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false))
             {
                 if (!buff.BuffData.Cantdisable && !buff.BuffData.Hide && !buff.DestroyBuff)
                 {
