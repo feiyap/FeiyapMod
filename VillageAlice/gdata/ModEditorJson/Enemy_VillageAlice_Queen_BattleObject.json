@@ -1,0 +1,12 @@
+{
+    "myKey": "Enemy_VillageAlice_Queen",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "",
+        "Animation": "None"
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "Enemy_VillageAlice_Queen": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "半边假面的红王后",
+        "Passives": [
+            "B_FVAlice_Queen_P"
+        ],
+        "Skills": [
+            "S_Idle",
+            "S_Idle"
+        ],
+        "atk": 6,
+        "PlusActCount": [
+            2
+        ],
+        "reg": 3,
+        "maxhp": 30,
+        "BattleObject": "Assets/VillageAlice/Enemy_VillageAlice_Queen/Enemy_VillageAlice_Queen.prefab",
+        "AI": "VillageAlice.Enemy_VillageAlice_Queen"
+    }
+}

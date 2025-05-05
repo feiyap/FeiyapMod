@@ -1,0 +1,25 @@
+{
+    "S_Parsee_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "otherally",
+        "NotCount": false,
+        "Name": "「今宵亦在苦候我归的，宇治的桥姬」",
+        "UseAp": 2,
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_Parsee_4",
+        "User": "Parsee",
+        "Counting": 3,
+        "Description": "每当队员受到伤害时，该技能的恢复量增加，增加量与所受伤害量相等，最多增加量为自身治疗力的300%。\r\n倒计时结束后，生成1张“乙姬之恋”。",
+        "Except": false,
+        "Image_0": "S_Parsee_4\\S_Parsee_4_Image_0.png",
+        "Image_1": "S_Parsee_4\\S_Parsee_4_Image_1.png",
+        "Image_2": "S_Parsee_4\\S_Parsee_4_Image_2.png",
+        "SkillExtended": [
+            "Parsee.S_Parsee_4"
+        ],
+        "PlusSkillView": "S_Parsee_4_0",
+        "NoDrop": false
+    }
+}

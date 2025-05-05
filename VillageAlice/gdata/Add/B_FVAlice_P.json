@@ -9,7 +9,7 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "现实",
-        "Icon": "B_FVAlice_P\\B_FVAlice_P_Icon.png",
+        "Icon": "Image/Buff/Skill_Icon_Pack/4",
         "Description": "在[现实]中，自身所属技能将【童话】化。"
     }
 }

@@ -1,0 +1,13 @@
+{
+    "B_FVAlice_Rare_2_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "VillageAlice.B_FVAlice_Rare_2_1",
+        "BuffTag": "null",
+        "Name": "处于梦境……",
+        "Description": "无法使用手中的技能。",
+        "Debuff": false,
+        "TagPer": 0,
+        "Icon": "Assets/VillageAlice/B_FVAlice_Rare_2_1/B_FVAlice_Rare_2_1_Icon.png"
+    }
+}

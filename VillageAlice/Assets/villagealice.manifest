@@ -1,0 +1,98 @@
+ManifestFileVersion: 0
+CRC: 1963070181
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b07b000b4b5dffba8738df6b99f6baa9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ed8221465f46ffcc4d3ad6adc5e19dfc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 813392623, guid: 29486fe0b871ffeca76cef1777c919bd, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/VillageAlice/S_FVAlice_2/S_FVAlice_2_Image_2.png
+- Assets/VillageAlice/S_FVAlice_Default/S_FVAlice_Default_Image_0.png
+- Assets/VillageAlice/Enemy_VillageAlice_Rabbit/Enemy_VillageAlice_RabbitFace.png
+- Assets/VillageAlice/S_FVAlice_3/S_FVAlice_3_Image_1.png
+- Assets/VillageAlice/VillageAlice/VillageAliceBattleChar.png
+- Assets/VillageAlice/S_FVAlice_Rare_2/S_FVAlice_Rare_2_Image_2.png
+- Assets/VillageAlice/S_FVAlice_6/S_FVAlice_6_Image_2.png
+- Assets/VillageAlice/S_FVAlice_Rare_1/S_FVAlice_Rare_1_Image_1.png
+- Assets/VillageAlice/S_FVAlice_5_0/S_FVAlice_5_0_Image_1.png
+- Assets/VillageAlice/S_FVAlice_4/S_FVAlice_4_Image_2.png
+- Assets/VillageAlice/S_FVAlice_Rare_2/S_FVAlice_Rare_2_Image_1.png
+- Assets/VillageAlice/S_FVAlice_1/S_FVAlice_1_Image_2.png
+- Assets/VillageAlice/Enemy_VillageAlice_Rabbit/Enemy_VillageAlice_RabbitMainImage.png
+- Assets/VillageAlice/S_FVAlice_5/S_FVAlice_5_Image_0.png
+- Assets/VillageAlice/VillageAlice/VillageAliceCollectionSprite_Cover.png
+- Assets/VillageAlice/B_FVAlice_Rare_2_0/B_FVAlice_Rare_2_0_Icon.png
+- Assets/VillageAlice/S_FVAlice_Rare_2/S_FVAlice_Rare_2_Image_0.png
+- Assets/VillageAlice/VillageAlice/VillageAliceFaceSmallChar.prefab
+- Assets/VillageAlice/VillageAlice/VillageAliceBattleFace.png
+- Assets/VillageAlice/Enemy_VillageAlice_Queen/None.anim
+- Assets/VillageAlice/S_FVAlice_0/S_FVAlice_0_Image_2.png
+- Assets/VillageAlice/B_FVAlice_Rare_2_1/B_FVAlice_Rare_2_1_Icon.png
+- Assets/VillageAlice/S_FVAlice_3/S_FVAlice_3_Image_2.png
+- Assets/VillageAlice/S_FVAlice_1/S_FVAlice_1_Image_1.png
+- Assets/VillageAlice/Enemy_VillageAlice_Rabbit/New Animation.anim
+- Assets/VillageAlice/VillageAlice/VillageAlicePassiveIcon.png
+- Assets/VillageAlice/S_FVAlice_1/S_FVAlice_1_Image_0.png
+- Assets/VillageAlice/S_FVAlice_4/S_FVAlice_4_Image_0.png
+- Assets/VillageAlice/S_FVAlice_4/S_FVAlice_4_Image_1.png
+- Assets/VillageAlice/B_FVAlice_5_0/B_FVAlice_5_0_Icon.png
+- Assets/VillageAlice/S_FVAlice_5_0/S_FVAlice_5_0_Image_0.png
+- Assets/VillageAlice/B_FVAlice_1/B_FVAlice_1_Icon.png
+- Assets/VillageAlice/VillageAlice/VillageAliceFaceSmallChar.png
+- Assets/VillageAlice/S_FVAlice_7/S_FVAlice_7_Image_0.png
+- Assets/VillageAlice/S_FVAlice_2/S_FVAlice_2_Image_0.png
+- Assets/VillageAlice/Enemy_VillageAlice_Rabbit/Enemy_VillageAlice_Rabbit.prefab
+- Assets/VillageAlice/Enemy_VillageAlice_Queen/Enemy_VillageAlice_QueenMainImage.png
+- Assets/VillageAlice/VillageAlice/VillageAliceCollectionSprite_SkillFace.png
+- Assets/VillageAlice/S_FVAlice_2/S_FVAlice_2_Image_1.png
+- Assets/VillageAlice/S_FVAlice_6/S_FVAlice_6_Image_0.png
+- Assets/VillageAlice/Enemy_VillageAlice_Queen/Enemy_VillageAlice_QueenFace.png
+- Assets/VillageAlice/S_FVAlice_3/S_FVAlice_3_Image_0.png
+- Assets/VillageAlice/S_FVAlice_Rare_1/S_FVAlice_Rare_1_Image_2.png
+- Assets/VillageAlice/S_FVAlice_5_0/S_FVAlice_5_0_Image_2.png
+- Assets/VillageAlice/S_FVAlice_5/S_FVAlice_5_Image_1.png
+- Assets/VillageAlice/S_FVAlice_7/S_FVAlice_7_Image_1.png
+- Assets/VillageAlice/S_FVAlice_5/S_FVAlice_5_Image_2.png
+- Assets/VillageAlice/S_FVAlice_Rare_1/S_FVAlice_Rare_1_Image_0.png
+- Assets/VillageAlice/B_FVAlice_0/B_FVAlice_0_Icon.png
+- Assets/VillageAlice/S_FVAlice_0/S_FVAlice_0_Image_0.png
+- Assets/VillageAlice/S_FVAlice_7/S_FVAlice_7_Image_2.png
+- Assets/VillageAlice/VillageAlice/VillageAliceFaceOriginChar.png
+- Assets/VillageAlice/Enemy_VillageAlice_Queen/Enemy_VillageAlice_Queen.prefab
+- Assets/VillageAlice/B_FVAlice_5/B_FVAlice_5_Icon.png
+- Assets/VillageAlice/VillageAlice/VillageAliceFaceOriginChar.prefab
+- Assets/VillageAlice/S_FVAlice_0/S_FVAlice_0_Image_1.png
+- Assets/VillageAlice/S_FVAlice_6/S_FVAlice_6_Image_1.png
+Dependencies: []

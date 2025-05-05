@@ -1,0 +1,11 @@
+{
+    "B_Parsee_Rare_2_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_Rare_2_1",
+        "BuffTag": "null",
+        "Name": "润泽",
+        "LifeTime": 3,
+        "MaxStack": 3,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)"
+    }
+}

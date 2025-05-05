@@ -1,0 +1,21 @@
+{
+    "S_Parsee_4_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "NotCount": true,
+        "NoDrop": true,
+        "Except": true,
+        "Name": "定期心理诊断",
+        "Effect_Target": "SE_T_S_Parsee_4_2",
+        "Description": "解除目标 1 个随机<sprite=2>干扰减益。",
+        "UseAp": 0,
+        "Image_0": "S_Parsee_4_2\\S_Parsee_4_2_Image_0.png",
+        "Image_1": "S_Parsee_4_2\\S_Parsee_4_2_Image_1.png",
+        "Image_2": "S_Parsee_4_2\\S_Parsee_4_2_Image_2.png",
+        "SkillExtended": [
+            "Parsee.S_Parsee_4_2"
+        ]
+    }
+}

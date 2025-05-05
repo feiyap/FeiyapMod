@@ -2,7 +2,7 @@
     "S_FVAlice_Rare_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Buff",
         "Rare": true,
         "Target": "enemy",
         "Disposable": true,
@@ -11,8 +11,22 @@
         "User": "VillageAlice",
         "Description": "释放技能后，此回合无法进入梦境，技能目标无法被选中。\r\n回合结束后，额外进行一次梦境回合。\r\n进入梦境回合时，手中&user外所有其他所有友军技能无法使用。\r\n梦境回合结束时，若技能目标被击杀，则再额外进行一次梦境回合，随机选取一名目标成为梦境留言的目标。\r\n梦境回合所有敌人无行动。",
         "NotCount": true,
-        "Image_0": "S_FVAlice_Rare_2\\S_FVAlice_Rare_2_Image_0.png",
-        "Image_1": "S_FVAlice_Rare_2\\S_FVAlice_Rare_2_Image_1.png",
-        "Image_2": "S_FVAlice_Rare_2\\S_FVAlice_Rare_2_Image_2.png"
+        "Image_0": "Assets/VillageAlice/S_FVAlice_Rare_2/S_FVAlice_Rare_2_Image_0.png",
+        "Image_1": "Assets/VillageAlice/S_FVAlice_Rare_2/S_FVAlice_Rare_2_Image_1.png",
+        "Image_2": "Assets/VillageAlice/S_FVAlice_Rare_2/S_FVAlice_Rare_2_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Effect_Target": "SE_T_S_FVAlice_Rare_2",
+        "Effect_Self": "SE_S_S_FVAlice_Rare_2"
     }
 }

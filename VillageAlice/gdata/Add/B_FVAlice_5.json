@@ -1,14 +1,15 @@
 {
     "B_FVAlice_5": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "VillageAlice.B_FVAlice_5",
         "BuffTag": "CrowdControl",
         "Name": "失重",
         "Debuff": true,
         "TagPer": 110,
         "MaxStack": 0,
         "LifeTime": 2,
-        "Icon": "B_FVAlice_5\\B_FVAlice_5_Icon.png",
-        "Description": ""
+        "Icon": "Assets/VillageAlice/B_FVAlice_5/B_FVAlice_5_Icon.png",
+        "Description": "",
+        "Cantdisable": false
     }
 }

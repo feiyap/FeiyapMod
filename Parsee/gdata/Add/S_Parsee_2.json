@@ -1,0 +1,23 @@
+{
+    "S_Parsee_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "self",
+        "NotCount": true,
+        "Name": "今宵依旧孤枕眠",
+        "Description": "生成1张“宇治桥姬入我心”。\r\n点燃2层妒火。",
+        "UseAp": 1,
+        "User": "Parsee",
+        "Effect_Target": "SE_T_S_Parsee_2",
+        "NoDrop": false,
+        "Except": false,
+        "PlusSkillView": "S_Parsee_2_0",
+        "Image_0": "S_Parsee_2\\S_Parsee_2_Image_0.png",
+        "Image_1": "S_Parsee_2\\S_Parsee_2_Image_1.png",
+        "Image_2": "S_Parsee_2\\S_Parsee_2_Image_2.png",
+        "SkillExtended": [
+            "Parsee.S_Parsee_2"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "B_Parsee_4_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_4_1",
+        "BuffTag": "null",
+        "Name": "大家的心理咨询师",
+        "Description": "每回合开始时生成一个“定期心理诊断”。\r",
+        "Icon": "Image/Buff/Skill_Icon_Pack/violet/violet_29"
+    }
+}

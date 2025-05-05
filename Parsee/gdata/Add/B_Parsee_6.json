@@ -1,0 +1,14 @@
+{
+    "B_Parsee_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_6",
+        "BuffTag": "null",
+        "Name": "已逝之人",
+        "MaxStack": 7,
+        "Cantdisable": true,
+        "Description": "",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (9)",
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "SE_Parsee_C_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Drop": true,
+        "EnforceString": "单体攻击技能\r",
+        "NeedCharacter": "Parsee",
+        "Name": "费用减少1点。释放时自身受到相当于最大体力值100%的痛苦伤害，等额增加技能伤害量。",
+        "ClassName": "Parsee.SE_Parsee_C_0",
+        "Des": ""
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "B_Parsee_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_P",
+        "BuffTag": "null",
+        "Name": "妒火",
+        "MaxStack": 6,
+        "IsFieldBuff": true,
+        "Description": "叠加到 6 层时，全体敌人与全体友军受到 &a 点痛苦伤害[100%治疗力]。\n那之后，优先抽取帕露西的 1 个技能，然后层数变化为 1 。",
+        "Debuff": true,
+        "TagPer": 0,
+        "Cantdisable": true,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (28)"
+    }
+}

@@ -44,20 +44,36 @@ namespace VillageAlice
                 {
                     base.SkillParticleOn();
                     this.Disposable = true;
-                    this.IsDamage = true;
                 }
                 else
                 {
                     base.SkillParticleOff();
                     this.Disposable = false;
-                    this.IsDamage = false;
+                }
+
+                if (this.MySkill.ExtendedFind_DataName("SkillExtended_FishingVillage") != null)
+                {
+                    this.MySkill.Delete(false);
+                    Skill tmpSkill = Skill.TempSkill("S_FVAlice_5_0", this.BChar, this.BChar.MyTeam);
+                    tmpSkill.isExcept = true;
+                    BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
                 }
             }
+        }
+
+        public override bool TargetHit(BattleChar Target)
+        {
+            return this.MySkill.ExtendedFind_DataName("SkillExtended_Fairytale") != null;
         }
 
         public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
         {
             hit.ChaosDamage(this.BChar, (int)(this.BChar.GetStat.atk), false);
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 1.0f)).ToString());
         }
     }
 }

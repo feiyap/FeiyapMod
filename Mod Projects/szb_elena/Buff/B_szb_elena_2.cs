@@ -17,7 +17,7 @@ namespace szb_elena
     /// 圣弓使役
     /// 当自己回复生命值时，对所有敌人造成&a(攻击力的60%)伤害（1回合最多触发10次）。
     /// </summary>
-    public class B_szb_elena_2 : Buff,IP_Healed
+    public class B_szb_elena_2 : Buff,IP_Healed, IP_PlayerTurn
     {
         public override string DescExtended()
         {

@@ -1,0 +1,23 @@
+{
+    "Enemy_VillageAlice_Rabbit": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "逆时行走的管家兔",
+        "Passives": [
+            
+        ],
+        "Skills": [
+            "S_Idle"
+        ],
+        "atk": 1,
+        "cri": 0,
+        "reg": 1,
+        "dodge": 1,
+        "def": 1,
+        "RES_CC": 0,
+        "maxhp": 1,
+        "spd": 1,
+        "BattleObject": "Assets/VillageAlice/Enemy_VillageAlice_Rabbit/Enemy_VillageAlice_Rabbit.prefab",
+        "AI": "VillageAlice.Enemy_VillageAlice_Rabbit"
+    }
+}

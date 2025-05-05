@@ -1,0 +1,11 @@
+{
+    "B_Parsee_2_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_2_0",
+        "BuffTag": "null",
+        "Name": "桥姬的裙带菜",
+        "Description": "解除时优先抽取自身1个技能。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (74)",
+        "LifeTime": 1
+    }
+}

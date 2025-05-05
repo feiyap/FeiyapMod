@@ -1,0 +1,14 @@
+{
+    "B_FVAlice_Rare_2_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "VillageAlice.B_FVAlice_Rare_2_0",
+        "BuffTag": "null",
+        "Name": "梦境弄臣",
+        "Description": "梦境回合结束时，若该单位被击杀，则再额外进行一次梦境回合，随机选取一名目标成为「梦境弄臣」的目标。",
+        "Cantdisable": true,
+        "Debuff": true,
+        "TagPer": 0,
+        "Icon": "Assets/VillageAlice/B_FVAlice_Rare_2_0/B_FVAlice_Rare_2_0_Icon.png"
+    }
+}

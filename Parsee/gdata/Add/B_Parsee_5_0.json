@@ -1,0 +1,12 @@
+{
+    "B_Parsee_5_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_5_0",
+        "BuffTag": "null",
+        "Name": "舌切雀的尖鸣",
+        "Description": "受到攻击时反击(50%攻击力)。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_41",
+        "LifeTime": 3,
+        "Cantdisable": false
+    }
+}

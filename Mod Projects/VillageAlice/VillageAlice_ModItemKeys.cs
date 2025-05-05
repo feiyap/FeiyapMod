@@ -6,13 +6,13 @@ namespace VillageAlice
 		/// <summary>
 		/// 噩梦
 		/// 无法行动。
-		/// 返回[现实]时，受到125%攻击力的混乱伤害，然后减少一层。
+		/// 返回[现实]时，受到&a(125%攻击力)的混乱伤害，然后减少一层。
 		/// </summary>
         public static string Buff_B_FVAlice_0 = "B_FVAlice_0";
 		/// <summary>
 		/// 美梦
-		/// 攻击时有概率&a(60%-干扰抵抗率)攻击自己。
-		/// 进入[梦境]时，受到50%+1攻击力的混乱伤害，然后减少一层。
+		/// 攻击时有&a%概率(60%-干扰抵抗率)攻击自己。
+		/// 进入[梦境]时，受到&b(50%+1攻击力)的混乱伤害，然后减少一层。
 		/// </summary>
         public static string Buff_B_FVAlice_1 = "B_FVAlice_1";
 		/// <summary>
@@ -25,6 +25,10 @@ namespace VillageAlice
 		/// </summary>
         public static string Buff_B_FVAlice_5_0 = "B_FVAlice_5_0";
 		/// <summary>
+		/// 掉进兔子洞
+		/// </summary>
+        public static string Buff_B_FVAlice_7 = "B_FVAlice_7";
+		/// <summary>
 		/// 现实
 		/// 在[现实]中，自身所属技能将【童话】化。
 		/// </summary>
@@ -35,10 +39,44 @@ namespace VillageAlice
 		/// </summary>
         public static string Buff_B_FVAlice_P_1 = "B_FVAlice_P_1";
 		/// <summary>
+		/// 红王后
+		/// 场上有目标受到混乱伤害时，对其追加释放“砍掉他的头”。
+		/// </summary>
+        public static string Buff_B_FVAlice_Queen_P = "B_FVAlice_Queen_P";
+		/// <summary>
+		/// 管家兔
+		/// 被击杀时，「停止」&user之外的所有角色1回合。
+		/// </summary>
+        public static string Buff_B_FVAlice_Rabbit_P = "B_FVAlice_Rabbit_P";
+		/// <summary>
+		/// 梦境弄臣
+		/// 回合结束后，额外进行一次梦境回合。
+		/// </summary>
+        public static string Buff_B_FVAlice_Rare_2 = "B_FVAlice_Rare_2";
+		/// <summary>
+		/// 梦境弄臣
+		/// 梦境回合结束时，若该单位被击杀，则再额外进行一次梦境回合，随机选取一名目标成为「梦境弄臣」的目标。
+		/// </summary>
+        public static string Buff_B_FVAlice_Rare_2_0 = "B_FVAlice_Rare_2_0";
+		/// <summary>
+		/// 处于梦境……
+		/// 无法使用手中的技能。
+		/// </summary>
+        public static string Buff_B_FVAlice_Rare_2_1 = "B_FVAlice_Rare_2_1";
+		/// <summary>
+		/// 半边假面的红王后
+		/// </summary>
+        public static string Enemy_Enemy_VillageAlice_Queen = "Enemy_VillageAlice_Queen";
+		/// <summary>
+		/// 逆时行走的管家兔
+		/// </summary>
+        public static string Enemy_Enemy_VillageAlice_Rabbit = "Enemy_VillageAlice_Rabbit";
+		/// <summary>
 		/// 童话
 		/// 现实中时，技能内容不可视。释放【童话】技能后，将进入[梦境]。
 		/// </summary>
         public static string SkillKeyword_Keyword_Dreamland = "Keyword_Dreamland";
+        public static string SkillEffect_SE_S_S_FVAlice_Rare_2 = "SE_S_S_FVAlice_Rare_2";
         public static string SkillEffect_SE_T_S_FVAlice_0 = "SE_T_S_FVAlice_0";
         public static string SkillEffect_SE_T_S_FVAlice_1 = "SE_T_S_FVAlice_1";
         public static string SkillEffect_SE_T_S_FVAlice_2 = "SE_T_S_FVAlice_2";
@@ -49,6 +87,8 @@ namespace VillageAlice
         public static string SkillEffect_SE_T_S_FVAlice_5_0 = "SE_T_S_FVAlice_5_0";
         public static string SkillEffect_SE_T_S_FVAlice_6 = "SE_T_S_FVAlice_6";
         public static string SkillEffect_SE_T_S_FVAlice_7 = "SE_T_S_FVAlice_7";
+        public static string SkillEffect_SE_T_S_FVAlice_Queen_0 = "SE_T_S_FVAlice_Queen_0";
+        public static string SkillEffect_SE_T_S_FVAlice_Rare_2 = "SE_T_S_FVAlice_Rare_2";
 		/// <summary>
 		/// 童话
 		/// 释放后，进入[梦境]。
@@ -99,7 +139,7 @@ namespace VillageAlice
 		/// <summary>
 		/// 德洛丽丝摇篮曲
 		/// 进入或离开[梦境]时，法力值消耗减少1。
-		/// 【童话】：触发一次目标拥有的噩梦cc或美梦cc，不减少层数。
+		/// 【童话】：触发一次目标拥有的“噩梦”或“美梦”效果，不减少层数。
 		/// </summary>
         public static string Skill_S_FVAlice_6 = "S_FVAlice_6";
 		/// <summary>
@@ -109,16 +149,14 @@ namespace VillageAlice
 		/// </summary>
         public static string Skill_S_FVAlice_7 = "S_FVAlice_7";
 		/// <summary>
-		/// 爱丽丝
-		/// Passive:
-		/// 战斗开始时，进入[现实]。
-		/// 在[现实]中，自身所属技能将【童话】化。
-		/// 释放【童话】技能后，将进入[梦境]，在[梦境]中释放未被【童话】的技能将返回[现实]。
+		/// 梦境缠绕
+		/// <color=#919191>「火柴划亮时，所有说明书都变成了睡前故事。」</color>
 		/// </summary>
-        public static string Character_VillageAlice = "VillageAlice";
+        public static string Skill_S_FVAlice_Default = "S_FVAlice_Default";
+        public static string Skill_S_FVAlice_Queen_0 = "S_FVAlice_Queen_0";
 		/// <summary>
 		/// 爱丽丝漫游梦境
-		/// 将目标变成“逆时行走的管家兔”
+		/// 将目标变成“逆时行走的管家兔”。
 		/// 指向BOSS释放时无效。
 		/// 【童话】：改为变成“半边假面的红王后”。
 		/// </summary>
@@ -132,6 +170,18 @@ namespace VillageAlice
 		/// 梦境回合所有敌人无行动。
 		/// </summary>
         public static string Skill_S_FVAlice_Rare_2 = "S_FVAlice_Rare_2";
+		/// <summary>
+		/// 爱丽丝
+		/// Passive:
+		/// 战斗开始时，进入[现实]。
+		/// 在[现实]中，自身所属技能将【童话】化。
+		/// 释放【童话】技能后，将进入[梦境]，在[梦境]中释放未被【童话】的技能将返回[现实]。
+		/// </summary>
+        public static string Character_VillageAlice = "VillageAlice";
+		/// <summary>
+		/// 砍掉他的头
+		/// </summary>
+        public static string Buff_B_FVAlice_Queen_P_0 = "B_FVAlice_Queen_P_0";
 
     }
 

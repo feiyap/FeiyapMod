@@ -1,0 +1,19 @@
+{
+    "S_Parsee_5_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Name": "对谦虚的富者之记恨",
+        "Description": "获得300金币，点燃3层妒火。",
+        "NoDrop": true,
+        "Image_0": "S_Parsee_5_1\\S_Parsee_5_1_Image_0.png",
+        "Image_1": "S_Parsee_5_1\\S_Parsee_5_1_Image_1.png",
+        "Image_2": "S_Parsee_5_1\\S_Parsee_5_1_Image_2.png",
+        "Except": false
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "B_Parsee_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_4",
+        "BuffTag": "CrowdControl",
+        "Name": "超越时间",
+        "Description": "下一次出手的该角色的技能费用+2。\r",
+        "Debuff": true,
+        "TagPer": 100,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (15)"
+    }
+}

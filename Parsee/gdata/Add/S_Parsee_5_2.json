@@ -1,0 +1,14 @@
+{
+    "S_Parsee_5_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NoDrop": true,
+        "Name": "舌切雀的尖鸣",
+        "Description": "受到攻击时反击(50%攻击力)，持续3回合。抽取1个技能。受到相当于最大体力值50%的痛苦伤害。",
+        "Image_0": "S_Parsee_5_2\\S_Parsee_5_2_Image_0.png",
+        "Image_1": "S_Parsee_5_2\\S_Parsee_5_2_Image_1.png",
+        "Image_2": "S_Parsee_5_2\\S_Parsee_5_2_Image_2.png"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "S_Parsee_LucyD_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "UseAp": 0,
+        "Name": "血雾大师",
+        "Image_0": "S_Parsee_LucyD_2\\S_Parsee_LucyD_2_Image_0.png",
+        "Description": "额外抽取 1 个技能，回复 1 点法力值，随机触发血雾诅咒。"
+    }
+}

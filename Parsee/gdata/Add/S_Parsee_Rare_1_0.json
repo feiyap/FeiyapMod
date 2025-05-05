@@ -1,0 +1,18 @@
+{
+    "S_Parsee_Rare_1_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Charon/ShadowPriest_9_0",
+        "Rare": false,
+        "Target": "enemy",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Name": "追击",
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Parsee_Rare_1_0",
+        "SkillExtended": [
+            "Parsee.S_Parsee_Rare_1_0"
+        ]
+    }
+}

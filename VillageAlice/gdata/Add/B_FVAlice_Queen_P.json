@@ -1,0 +1,15 @@
+{
+    "B_FVAlice_Queen_P": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "VillageAlice.B_FVAlice_Queen_P",
+        "BuffTag": "null",
+        "Description": "场上有目标受到混乱伤害时，对其追加释放“砍掉他的头”。",
+        "Name": "红王后",
+        "Icon": "Image/Buff/Skill_Icon_Pack/2_0/Bloodmist",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

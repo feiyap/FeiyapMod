@@ -1,0 +1,15 @@
+{
+    "SE_S_S_Parsee_6": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Common_Rest",
+            "B_Parsee_6",
+            "B_Parsee_6_0"
+        ],
+        "BuffPlusTagPer": [
+            666,
+            0,
+            0
+        ]
+    }
+}

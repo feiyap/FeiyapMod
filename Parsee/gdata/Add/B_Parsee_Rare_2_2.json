@@ -1,0 +1,11 @@
+{
+    "B_Parsee_Rare_2_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_Rare_2_2",
+        "BuffTag": "null",
+        "Name": "爱",
+        "MaxStack": 7,
+        "Description": "叠加到 7 层时，全体友军恢复 &a 的生命值[治疗力的33%]，然后层数变化为 1 。\r",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (4)"
+    }
+}

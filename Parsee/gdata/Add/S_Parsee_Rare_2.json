@@ -1,0 +1,23 @@
+{
+    "S_Parsee_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": true,
+        "Name": "爱姬",
+        "User": "Parsee",
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_Parsee_Rare_2",
+        "Image_0": "S_Parsee_Rare_2\\S_Parsee_Rare_2_Image_0.png",
+        "Image_1": "S_Parsee_Rare_2\\S_Parsee_Rare_2_Image_1.png",
+        "Image_2": "S_Parsee_Rare_2\\S_Parsee_Rare_2_Image_2.png",
+        "Description": "抽取时释放。",
+        "SkillExtended": [
+            "Parsee.S_Parsee_Rare_2"
+        ]
+    }
+}

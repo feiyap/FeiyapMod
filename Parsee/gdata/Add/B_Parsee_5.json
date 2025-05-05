@@ -1,0 +1,11 @@
+{
+    "B_Parsee_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_5",
+        "BuffTag": "null",
+        "Name": "剪舌雀分身",
+        "Description": "闪避一次攻击。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/violet/violet_08",
+        "Hide": false
+    }
+}

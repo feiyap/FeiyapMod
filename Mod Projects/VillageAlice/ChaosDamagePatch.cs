@@ -101,11 +101,25 @@ namespace VillageAlice
                     ip_DealDamage.DealDamage(instance, Dmg, Cri, Pain);
                 }
             }
+            foreach (IP_DealChaosDamage ip_DealChaosDamage in User.IReturn<IP_DealChaosDamage>(null))
+            {
+                if (ip_DealChaosDamage != null)
+                {
+                    ip_DealChaosDamage.DealChaosDamage(instance, Dmg, Cri, Pain);
+                }
+            }
             foreach (IP_DamageTake ip_DamageTake in instance.IReturn<IP_DamageTake>(null))
             {
                 if (ip_DamageTake != null)
                 {
                     ip_DamageTake.DamageTake(User, Dmg, Cri, ref flag, false, false, instance);
+                }
+            }
+            foreach (IP_ChaosDamageTake ip_ChaosDamageTake in instance.IReturn<IP_ChaosDamageTake>(null))
+            {
+                if (ip_ChaosDamageTake != null)
+                {
+                    ip_ChaosDamageTake.ChaosDamageTake(User, Dmg, Cri, ref flag, false, false, instance);
                 }
             }
             if (flag || instance.GetStat.invincibility)
@@ -120,10 +134,20 @@ namespace VillageAlice
             {
                 BattleSystem.instance.ScriptOut.Text_Kill(User);
             }
-            gameObject.GetComponent<EffectView>().InputDamage(Dmg, Cri, instance.Info.Ally, Pain);
+            gameObject.GetComponent<EffectView>().InputDamage(Dmg, Cri, instance.Info.Ally, true);
 
             return Dmg;
         }
+    }
+
+    public interface IP_DealChaosDamage
+    {
+        void DealChaosDamage(BattleChar Take, int Damage, bool IsCri, bool IsDot);
+    }
+
+    public interface IP_ChaosDamageTake
+    {
+        void ChaosDamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null);
     }
 
     public interface IP_ChangeDamageChaos
@@ -329,8 +353,8 @@ namespace VillageAlice
             }
             if (flag4)
             {
-                num2 = 0f;
                 num2 = (float)__instance.ChaosDamage(SP.UseStatus, (int)num2, flag2, pain, false, (int)SP.SkillData.PlusSkillStat.Penetration, false, SP.SkillData.PlusSkillStat.Weak, SP.SkillData.NoAttackTimeWait);
+                num2 = 0f;
                 if (flag2)
                 {
                     MasterAudio.PlaySound("SE_CriSound", 1f, null, 0f, null, null, false, false);
@@ -440,7 +464,7 @@ namespace VillageAlice
             }
             __instance.SkillEffectBuffAdd(effect_Target, list2, SP.UseStatus, SP.SkillData);
 
-            return true;
+            return false;
         }
     }
 }

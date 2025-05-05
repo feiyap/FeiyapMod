@@ -12,9 +12,9 @@
         "NotCount": true,
         "IgnoreTaunt": true,
         "Effect_Target": "SE_T_S_FVAlice_3",
-        "Image_0": "S_FVAlice_3\\S_FVAlice_3_Image_0.png",
-        "Image_1": "S_FVAlice_3\\S_FVAlice_3_Image_1.png",
-        "Image_2": "S_FVAlice_3\\S_FVAlice_3_Image_2.png",
+        "Image_0": "Assets/VillageAlice/S_FVAlice_3/S_FVAlice_3_Image_0.png",
+        "Image_1": "Assets/VillageAlice/S_FVAlice_3/S_FVAlice_3_Image_1.png",
+        "Image_2": "Assets/VillageAlice/S_FVAlice_3/S_FVAlice_3_Image_2.png",
         "SkillExtended": [
             "VillageAlice.S_FVAlice_3"
         ]

@@ -1,0 +1,14 @@
+{
+    "SE_Parsee_P_2": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "伤害量、恢复量增加100％。",
+        "Drop": false,
+        "EnforceString": "",
+        "NeedCharacter": "",
+        "IsIcon": "Image/Buff/Skill_Icon_Pack/red/red_33",
+        "ClassName": "Parsee.SE_Parsee_P_2",
+        "Particle": ""
+    }
+}

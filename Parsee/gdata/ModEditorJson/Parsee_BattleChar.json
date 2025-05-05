@@ -1,0 +1,23 @@
+{
+    "myKey": "Parsee",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Parsee\\ParseeBattleChar.png",
+        "pivot": {
+            "x": 0.5260846,
+            "y": 0.6469873
+        },
+        "offsetMin": {
+            "x": -752.300964,
+            "y": -597.8163
+        },
+        "offsetMax": {
+            "x": 677.699036,
+            "y": 326.183716
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

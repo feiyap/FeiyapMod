@@ -17,7 +17,7 @@ If this is the 3rd recovery, grant a random ally Invincible for 1 turn.",,"当�
 如果为第3次，则会使随机1个队友无敌1回合。",
 Buff/B_szb_elena_8_Name,Text,,,Holy Sanctuary,,洁净领域,
 Buff/B_szb_elena_P_Name,Text,,,Elana's Prayer,,耶拉的祈祷,
-Buff/B_szb_elena_R1_Description,Text,,,"When you recover HP, grant all allies +1 ATK and +1 Max HP for this battle.",,当自己回复生命值时，使所有队员在本场战斗中获得+1攻击力和+1最大生命值,
+Buff/B_szb_elena_R1_Description,Text,,,"When you recover HP, grant all allies +1 ATK and +1 Max HP for this battle.",,当自己回复生命值时，使所有队员在本场战斗中获得+1攻击力和+1最大生命值。,
 Buff/B_szb_elena_R1_Name,Text,,,Graceful Lady,,华丽淑女,
 Buff/B_szb_elena_R2_Description,Text,,,"At the end of the turn, restore &a HP (80% of Healing) to all Investigators. When you recover HP, deal &a damage (80% of ATK) to all enemies (triggers up to 10 times per turn).",,回合结束时，恢复所有调查员&a体力(治疗力的80%)；当自己回复生命值时，对所有敌人造成&a伤害(攻击力的80%)，1回合最多触发10次。,
 Buff/B_szb_elena_R2_Name,Text,,,Bellerophon,,贝勒罗芬,
@@ -32,7 +32,7 @@ By healing herself, she continuously stacks powerful buffs on allies to enhance 
 通过治疗自己，她能够持续为队友叠加强力的增益效果，以强化盟友的战斗能力和生存能力。",
 Character/szb_elena_name,Text,,,Elana,,耶拉,
 Skill/S_szb_elena_10_Description,Text,,,"Can only be used when your HP is below &a (75% of Max HP).
-(120% Disruption) Stun the enemy with the highest ATK.
+(120% CC) Stun the enemy with the highest ATK.
 Heal the ally with the lowest HP by &b (180% of Healing).
 Draw 2 skills.",,"仅能在自身体力低于&a时使用(自身最大体力值的75%)。
 (120%干扰)眩晕攻击力最高的敌人。

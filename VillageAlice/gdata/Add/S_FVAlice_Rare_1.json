@@ -2,7 +2,7 @@
     "S_FVAlice_Rare_1": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Buff",
         "Rare": true,
         "Target": "enemy",
         "NODOD": false,
@@ -20,11 +20,14 @@
         "EnemyPreview": false,
         "UnknownTarget": false,
         "Name": "爱丽丝漫游梦境",
-        "Description": "将目标变成“逆时行走的管家兔”\r\n指向BOSS释放时无效。\r\n【童话】：改为变成“半边假面的红王后”。",
+        "Description": "将目标变成“逆时行走的管家兔”。\n指向BOSS释放时无效。\n【童话】：改为变成“半边假面的红王后”。",
         "User": "VillageAlice",
         "UseAp": 1,
-        "Image_0": "S_FVAlice_Rare_1\\S_FVAlice_Rare_1_Image_0.png",
-        "Image_1": "S_FVAlice_Rare_1\\S_FVAlice_Rare_1_Image_1.png",
-        "Image_2": "S_FVAlice_Rare_1\\S_FVAlice_Rare_1_Image_2.png"
+        "Image_0": "Assets/VillageAlice/S_FVAlice_Rare_1/S_FVAlice_Rare_1_Image_0.png",
+        "Image_1": "Assets/VillageAlice/S_FVAlice_Rare_1/S_FVAlice_Rare_1_Image_1.png",
+        "Image_2": "Assets/VillageAlice/S_FVAlice_Rare_1/S_FVAlice_Rare_1_Image_2.png",
+        "SkillExtended": [
+            "VillageAlice.S_FVAlice_Rare_1"
+        ]
     }
 }

@@ -1,0 +1,11 @@
+{
+    "B_Parsee_Rare_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "Parsee.B_Parsee_Rare_2",
+        "BuffTag": "null",
+        "Name": "爱姬",
+        "Description": "本次战斗中，妒火层数固定为3。\r\n每当帕露西使用非生成技能时，自身获得1层“神德”。指向友军时，改为对目标施加1层“润泽”。\r\n每当露西在内的其他友军使用非生成技能，帕露西获得1层“爱”。\r\n爱的层数重置后，接下来从手中释放的3个技能的伤害量、恢复量增加33%。\r\n可以代替濒死友军成为攻击目标。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (12)"
+    }
+}

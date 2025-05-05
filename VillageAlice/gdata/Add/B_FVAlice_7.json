@@ -1,0 +1,14 @@
+{
+    "B_FVAlice_7": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "VillageAlice.B_FVAlice_7",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "掉进兔子洞",
+        "Description": ""
+    }
+}

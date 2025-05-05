@@ -1,0 +1,18 @@
+{
+    "B_Parsee_P_0": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Parsee.B_Parsee_P_0",
+        "BuffTag": "Debuff",
+        "Name": "祸水",
+        "Description": "攻击命中后若目标依然存活，则(100%<sprite=0>)对目标施加1层<sprite=0>诅咒减益。\n成功施加诅咒时减少1层。\r",
+        "MaxStack": 7,
+        "Icon": "Image/Buff/Skill_Icon_Pack/2024 0412 DLC/Watery debuff",
+        "Debuff": true,
+        "TagPer": 200,
+        "Hide": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

@@ -16,6 +16,19 @@
         "Image_0": "S_szb_elena_6\\S_szb_elena_6_Image_0.png",
         "Image_1": "S_szb_elena_6\\S_szb_elena_6_Image_1.png",
         "Image_2": "S_szb_elena_6\\S_szb_elena_6_Image_2.png",
-        "NoDrop": false
+        "NoDrop": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

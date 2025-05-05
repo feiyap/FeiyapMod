@@ -70,5 +70,10 @@ namespace VillageAlice
                 }
             }
         }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.3f + 1)).ToString());
+        }
     }
 }

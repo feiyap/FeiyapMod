@@ -21,6 +21,10 @@ namespace VillageAlice
 	/// </summary>
     public class S_FVAlice_5_0:Skill_Extended
     {
-
+        public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
+        {
+            hit.ChaosDamage(this.BChar, (int)(this.BChar.GetStat.atk * 0.42), false);
+            hit.Damage(this.BChar, (int)(this.BChar.GetStat.atk * 0.42), false, true);
+        }
     }
 }

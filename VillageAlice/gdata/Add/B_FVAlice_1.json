@@ -9,8 +9,8 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "美梦",
-        "Description": "攻击时有概率&a(60%-干扰抵抗率)攻击自己。\n进入[梦境]时，受到50%+1攻击力的混乱伤害，然后减少一层。",
-        "Icon": "B_FVAlice_1\\B_FVAlice_1_Icon.png",
+        "Description": "攻击时有&a%概率(60%-干扰抵抗率)攻击自己。\n进入[梦境]时，受到&b(50%+1攻击力)的混乱伤害，然后减少一层。",
+        "Icon": "Assets/VillageAlice/B_FVAlice_1/B_FVAlice_1_Icon.png",
         "Debuff": true,
         "TagPer": 110,
         "MaxStack": 5

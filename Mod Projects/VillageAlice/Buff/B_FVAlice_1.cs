@@ -18,7 +18,7 @@ namespace VillageAlice
 	/// 攻击时有概率&a(60%-干扰抵抗率)攻击自己。
 	/// 进入[梦境]时，受到50%+1攻击力的混乱伤害，然后减少一层。
 	/// </summary>
-    public class B_FVAlice_1:Buff, IP_ChangeReality
+    public class B_FVAlice_1:Buff, IP_ChangeReality, IP_SkillUse_User
     {
         public void ChangeReality(bool istrue)
         {
@@ -27,6 +27,21 @@ namespace VillageAlice
                 this.BChar.ChaosDamage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 0.5f + 1), false);
                 this.SelfStackDestroy();
             }
+        }
+
+        public void SkillUse(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (RandomManager.RandomPer(this.BChar.GetRandomClass().Main, 100, (int)(60 - this.BChar.GetStat.RES_CC)))
+            {
+                Targets.Clear();
+                Targets.Add(this.BChar);
+            }
+        }
+
+        public override string DescExtended()
+        {
+            return base.DescExtended().Replace("&a", ((int)(60 - this.BChar.GetStat.RES_CC)).ToString())
+                                      .Replace("&b", ((int)(this.Usestate_F.GetStat.atk * 0.5f + 1)).ToString());
         }
     }
 }

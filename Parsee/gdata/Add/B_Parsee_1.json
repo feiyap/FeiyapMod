@@ -1,0 +1,14 @@
+{
+    "B_Parsee_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_1",
+        "BuffTag": "Debuff",
+        "Name": "对华丽的仁者之嫉妒",
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (7)",
+        "Description": "受到下一次攻击的暴击率+100%，受到暴击伤害后解除。\r\n攻击命中后若目标依然存活，则对目标施加同名诅咒。成功施加诅咒时解除。",
+        "Debuff": true,
+        "TagPer": 100,
+        "Hide": false
+    }
+}

@@ -8,9 +8,9 @@
         "Description": "当“梦境失重”被给予[盐渍]时丢弃原技能，将一张“潮汐失重”加入手牌中。\r\n这个技能不会被【童话】。\n这个技能造成 1 次普通伤害，1 次痛苦伤害，1 次混乱伤害。",
         "UseAp": 2,
         "Effect_Target": "SE_T_S_FVAlice_5_0",
-        "Image_0": "S_FVAlice_5_0\\S_FVAlice_5_0_Image_0.png",
-        "Image_1": "S_FVAlice_5_0\\S_FVAlice_5_0_Image_1.png",
-        "Image_2": "S_FVAlice_5_0\\S_FVAlice_5_0_Image_2.png",
+        "Image_0": "Assets/VillageAlice/S_FVAlice_5_0/S_FVAlice_5_0_Image_0.png",
+        "Image_1": "Assets/VillageAlice/S_FVAlice_5_0/S_FVAlice_5_0_Image_1.png",
+        "Image_2": "Assets/VillageAlice/S_FVAlice_5_0/S_FVAlice_5_0_Image_2.png",
         "SkillExtended": [
             "VillageAlice.S_FVAlice_5_0"
         ]

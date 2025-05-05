@@ -1,0 +1,23 @@
+{
+    "myKey": "Parsee",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Parsee\\ParseeFaceSmallChar.png",
+        "pivot": {
+            "x": 0.504802167,
+            "y": 0.7401007
+        },
+        "offsetMin": {
+            "x": -338.788361,
+            "y": -324.612152
+        },
+        "offsetMax": {
+            "x": 328.317169,
+            "y": 106.44059
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

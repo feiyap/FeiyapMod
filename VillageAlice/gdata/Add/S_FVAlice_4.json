@@ -14,9 +14,9 @@
             "Keyword_Dreamland"
         ],
         "Effect_Target": "SE_T_S_FVAlice_4",
-        "Image_0": "S_FVAlice_4\\S_FVAlice_4_Image_0.png",
-        "Image_1": "S_FVAlice_4\\S_FVAlice_4_Image_1.png",
-        "Image_2": "S_FVAlice_4\\S_FVAlice_4_Image_2.png",
+        "Image_0": "Assets/VillageAlice/S_FVAlice_4/S_FVAlice_4_Image_0.png",
+        "Image_1": "Assets/VillageAlice/S_FVAlice_4/S_FVAlice_4_Image_1.png",
+        "Image_2": "Assets/VillageAlice/S_FVAlice_4/S_FVAlice_4_Image_2.png",
         "SkillExtended": [
             "VillageAlice.S_FVAlice_4"
         ]

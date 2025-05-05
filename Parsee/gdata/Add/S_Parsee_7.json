@@ -1,0 +1,21 @@
+{
+    "S_Parsee_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Boss/BombClown_1",
+        "Target": "enemy",
+        "Name": "嫉妒「嫉妒炸弹」",
+        "Description": "额外造成&a点伤害[50%治疗力]。\r\n释放时，每有1层妒火，额外将1张0费迅速的嫉妒炸弹加入手牌，附带放逐、1回合后弃牌。",
+        "User": "Parsee",
+        "AutoDelete": 2,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Parsee_7",
+        "Image_0": "S_Parsee_7\\S_Parsee_7_Image_0.png",
+        "Image_1": "S_Parsee_7\\S_Parsee_7_Image_1.png",
+        "Image_2": "S_Parsee_7\\S_Parsee_7_Image_2.png",
+        "UseAp": 2,
+        "SkillExtended": [
+            "Parsee.S_Parsee_7"
+        ]
+    }
+}

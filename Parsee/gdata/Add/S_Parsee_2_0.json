@@ -1,0 +1,22 @@
+{
+    "S_Parsee_2_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "otherally",
+        "Name": "宇治桥姬入我心",
+        "Description": "熄灭2层妒火。",
+        "UseAp": 0,
+        "NotCount": true,
+        "NoDrop": true,
+        "Except": true,
+        "Effect_Target": "SE_T_S_Parsee_2_0",
+        "Image_0": "S_Parsee_2_0\\S_Parsee_2_0_Image_0.png",
+        "Image_1": "S_Parsee_2_0\\S_Parsee_2_0_Image_1.png",
+        "Image_2": "S_Parsee_2_0\\S_Parsee_2_0_Image_2.png",
+        "SkillExtended": [
+            "Parsee.S_Parsee_2_0"
+        ],
+        "IgnoreTaunt": false
+    }
+}

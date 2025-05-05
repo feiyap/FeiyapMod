@@ -1,0 +1,22 @@
+{
+    "S_Parsee_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "NoDrop": false,
+        "Except": false,
+        "Name": "剪舌麻雀「大葛笼与小葛笼」",
+        "NoBasicSkill": true,
+        "Image_0": "S_Parsee_5\\S_Parsee_5_Image_0.png",
+        "Image_1": "S_Parsee_5\\S_Parsee_5_Image_1.png",
+        "Image_2": "S_Parsee_5\\S_Parsee_5_Image_2.png",
+        "User": "Parsee",
+        "Effect_Target": "SE_T_S_Parsee_5",
+        "Description": "选择：\n对谦虚的富者之记恨 - 获得300金币，点燃3层妒火。\r\n舌切雀的尖鸣 - 受到攻击时反击(50%攻击力)，持续3回合。抽取1个技能。受到相当于最大体力值50%的痛苦伤害。",
+        "SkillExtended": [
+            "Parsee.S_Parsee_5"
+        ]
+    }
+}

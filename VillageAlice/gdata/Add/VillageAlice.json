@@ -6,19 +6,73 @@
         "PassiveUnlockLV1": false,
         "name": "爱丽丝",
         "Gender": 1,
-        "face": "VillageAlice\\VillageAliceBattleFace.png",
+        "face": "Assets/VillageAlice/VillageAlice/VillageAliceBattleFace.png",
         "MAXHP": {
-            "x": 24,
-            "y": 24
+            "x": 23,
+            "y": 34
         },
         "ATK": {
             "x": 14,
-            "y": 14
+            "y": 25
         },
         "PassiveName": "梦境邮递员",
         "PassiveDes": "战斗开始时，进入[现实]。\r\n在[现实]中，自身所属技能将【童话】化。\r\n释放【童话】技能后，将进入[梦境]，在[梦境]中释放未被【童话】的技能将返回[现实]。",
-        "PassiveIcon": "VillageAlice\\VillageAlicePassiveIcon.png",
-        "CollectionSprite_SkillFace": "VillageAlice\\VillageAliceCollectionSprite_SkillFace.png",
-        "CollectionSprite_Cover": "VillageAlice\\VillageAliceCollectionSprite_Cover.png"
+        "PassiveIcon": "Assets/VillageAlice/VillageAlice/VillageAlicePassiveIcon.png",
+        "CollectionSprite_SkillFace": "Assets/VillageAlice/VillageAlice/VillageAliceCollectionSprite_SkillFace.png",
+        "CollectionSprite_Cover": "Assets/VillageAlice/VillageAlice/VillageAliceCollectionSprite_Cover.png",
+        "BattleChar": "Assets/VillageAlice/VillageAlice/VillageAliceFaceOriginChar.prefab",
+        "FaceOriginChar": "Assets/VillageAlice/VillageAlice/VillageAliceFaceOriginChar.prefab",
+        "FaceSmallChar": "Assets/VillageAlice/VillageAlice/VillageAliceFaceSmallChar.prefab",
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "REG": {
+            "x": 7,
+            "y": 12
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "HIT": {
+            "x": 96,
+            "y": 114
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_DEBUFF": {
+            "x": 5,
+            "y": 45
+        },
+        "RES_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "StatView_Atk": 2,
+        "StatView_CC": 2,
+        "StatView_Debuff": 1,
+        "StatView_Sup": 1,
+        "StatView_Difficult": 2,
+        "SelectInfo": "",
+        "FirstSkill": "S_FVAlice_0"
     }
 }

@@ -11,33 +11,34 @@
             "S_Ilya_1",
             "S_Azar_5",
             "S_TW_Blue_5",
-            "S_FVAlice_0"
+            "S_FVAlice_Rare_1"
         ],
         "PartySkills": [
             [
-                "S_Azar_3",
-                "S_Azar_9"
-            ],
-            [
                 
             ],
             [
                 
             ],
             [
+                "S_Azar_0"
+            ],
+            [
+                "S_FVAlice_Rare_1",
+                "S_FVAlice_Rare_1",
+                "S_FVAlice_0",
                 "S_FVAlice_0",
                 "S_FVAlice_1",
-                "S_FVAlice_2",
-                "S_FVAlice_3",
-                "S_FVAlice_4"
+                "S_FVAlice_1",
+                "S_FVAlice_1"
             ]
         ],
         "PartyEquip": [
             [
-                "Torch_FanaticBoss"
+                
             ],
             [
-                "WhitePriestCloth"
+                
             ],
             [
                 
@@ -47,6 +48,6 @@
             ]
         ],
         "AP": 10,
-        "Level": 6
+        "Level": 2
     }
 }

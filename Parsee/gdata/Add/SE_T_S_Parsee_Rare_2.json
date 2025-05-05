@@ -1,0 +1,12 @@
+{
+    "SE_T_S_Parsee_Rare_2": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Parsee_Rare_2"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

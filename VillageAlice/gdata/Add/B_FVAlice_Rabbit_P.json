@@ -1,0 +1,15 @@
+{
+    "B_FVAlice_Rabbit_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "VillageAlice.B_FVAlice_Rabbit_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "管家兔",
+        "Description": "被击杀时，「停止」&user之外的所有角色1回合。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/ShadowPriest_7"
+    }
+}

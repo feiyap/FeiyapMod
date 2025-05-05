@@ -1,0 +1,10 @@
+{
+    "B_FVAlice_Queen_P_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "VillageAlice.B_FVAlice_Queen_P_0",
+        "BuffTag": "null",
+        "Name": "砍掉他的头",
+        "Hide": true
+    }
+}

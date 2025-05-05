@@ -47,6 +47,16 @@ namespace szb_elena
 		/// 回合结束时，恢复&a体力(最大体力值的25%)。
 		/// </summary>
         public static string Buff_B_szb_elena_R3 = "B_szb_elena_R3";
+		/// <summary>
+		/// 激奏
+		/// 带有[激奏]词缀的技能在当前法力值不足时，可以以低法力值释放较弱的技能效果。
+		/// </summary>
+        public static string SkillKeyword_KeyWord_Excitement = "KeyWord_Excitement";
+		/// <summary>
+		/// 爆能强化
+		/// 带有[激奏]词缀的技能在当前法力值充裕时，可以以高法力值释放较强的技能效果。
+		/// </summary>
+        public static string SkillKeyword_KeyWord_Explosive = "KeyWord_Explosive";
         public static string SkillEffect_SE_S_S_szb_elena_2 = "SE_S_S_szb_elena_2";
         public static string SkillEffect_SE_S_S_szb_elena_3 = "SE_S_S_szb_elena_3";
         public static string SkillEffect_SE_S_S_szb_elena_4 = "SE_S_S_szb_elena_4";

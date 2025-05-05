@@ -1,0 +1,13 @@
+{
+    "B_Parsee_P_2": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Parsee.B_Parsee_P_2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "妒火重置"
+    }
+}

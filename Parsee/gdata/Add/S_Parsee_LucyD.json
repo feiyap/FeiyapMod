@@ -1,0 +1,23 @@
+{
+    "S_Parsee_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Name": "面向露西的诅咒学概论",
+        "Description": "抽取 2 个技能。\n选择：\n- 生成 1 张“痛苦诅咒”。\n- 额外抽取 1 个技能，生成 1 张“痛苦诅咒”，生成一张魔女的“痛苦诅咒”。\n- 额外抽取 1 个技能，回复 1 点法力值，随机触发血雾诅咒。",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "Parsee",
+        "UseAp": 0,
+        "Image_0": "S_Parsee_LucyD\\S_Parsee_LucyD_Image_0.png",
+        "Image_1": "S_Parsee_LucyD\\S_Parsee_LucyD_Image_1.png",
+        "Image_2": "S_Parsee_LucyD\\S_Parsee_LucyD_Image_2.png",
+        "SkillExtended": [
+            "Parsee.S_Parsee_LucyD"
+        ]
+    }
+}

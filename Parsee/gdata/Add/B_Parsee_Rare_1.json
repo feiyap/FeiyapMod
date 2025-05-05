@@ -1,0 +1,10 @@
+{
+    "B_Parsee_Rare_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_Rare_1",
+        "BuffTag": "null",
+        "Name": "恨符「丑时参拜第七日」",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (9)",
+        "LifeTime": 1
+    }
+}

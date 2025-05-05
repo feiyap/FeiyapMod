@@ -1,0 +1,26 @@
+{
+    "S_Parsee_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Charon/ShadowPriest_StigmaExplosion",
+        "Target": "enemy",
+        "IgnoreTaunt": true,
+        "Name": "恨符「丑时参拜第七日」",
+        "Description": "造成 &a 点痛苦伤害[700%治疗力]。该痛苦伤害无法击杀敌人。\r\n本回合累计获得 14 层及以上的妒火时，改为指向全体敌人。\r\n倒计时期间，每当队员受到伤害时，该技能的伤害量增加，增加量与所受伤害量相等，上限为治疗力的700%。\r\n倒计时期间，帕露西受到的伤害量+100%。\r\n释放后，根据所有敌人和友军的“诅咒”层数对目标追加攻击，每次攻击造成 &b 点伤害[治疗力的40%]。",
+        "User": "Parsee",
+        "Rare": true,
+        "UseAp": 3,
+        "AutoDelete": 2,
+        "Counting": 7,
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_Parsee_Rare_1",
+        "Image_0": "S_Parsee_Rare_1\\S_Parsee_Rare_1_Image_0.png",
+        "Image_1": "S_Parsee_Rare_1\\S_Parsee_Rare_1_Image_1.png",
+        "Image_2": "S_Parsee_Rare_1\\S_Parsee_Rare_1_Image_2.png",
+        "NoDrop": false,
+        "SkillExtended": [
+            "Parsee.S_Parsee_Rare_1"
+        ]
+    }
+}

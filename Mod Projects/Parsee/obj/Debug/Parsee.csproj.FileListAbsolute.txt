@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Parsee\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Parsee\obj\Debug\Parsee.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Parsee\obj\Debug\Parsee.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Parsee\obj\Debug\Parsee.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Parsee\bin\Debug\Parsee20255380902.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Parsee\bin\Debug\Parsee20255380902.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Parsee\obj\Debug\Parsee20255380902.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Parsee\obj\Debug\Parsee20255380902.pdb

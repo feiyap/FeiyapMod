@@ -12,7 +12,7 @@
         "Icon": "Image/Buff/Skill_Icon_Pack/Debuff",
         "Debuff": true,
         "TagPer": 110,
-        "Description": "",
+        "Description": "受到治疗时移除 1 层。",
         "MaxStack": 0,
         "LifeTime": 2
     }

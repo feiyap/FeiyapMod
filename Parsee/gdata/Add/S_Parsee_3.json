@@ -1,0 +1,23 @@
+{
+    "S_Parsee_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "NotCount": true,
+        "NoDrop": false,
+        "Except": false,
+        "Name": "妒符「绿眼怪物」",
+        "UseAp": 1,
+        "User": "Parsee",
+        "Description": "释放时，如果妒火层数≥4，则所有敌人持有的痛苦减益、弱化减益持续时间增加1回合；\n如果妒火层数≤2，则所有队员持有的减益持续时间减少1回合。",
+        "Effect_Target": "SE_T_S_Parsee_3",
+        "Image_0": "S_Parsee_3\\S_Parsee_3_Image_0.png",
+        "Image_1": "S_Parsee_3\\S_Parsee_3_Image_1.png",
+        "Image_2": "S_Parsee_3\\S_Parsee_3_Image_2.png",
+        "Disposable": false,
+        "SkillExtended": [
+            "Parsee.S_Parsee_3"
+        ]
+    }
+}

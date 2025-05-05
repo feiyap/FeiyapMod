@@ -24,7 +24,9 @@ namespace VillageAlice
             base.FixedUpdate();
             foreach (Skill skill in this.BChar.MyTeam.Skills)
             {
-                if (skill.Master == this.BChar && skill.ExtendedFind_DataName("SkillExtended_Fairytale") == null)
+                if (skill.Master == this.BChar && skill.ExtendedFind_DataName("SkillExtended_Fairytale") == null && 
+                    skill.MySkill.KeyID != "S_DefultSkill_0" && skill.MySkill.KeyID != "S_DefultSkill_1" && skill.MySkill.KeyID != "S_DefultSkill_2" &&
+                    skill.MySkill.KeyID != "S_FVAlice_5_0")
                 {
                     skill.ExtendedAdd(Skill_Extended.DataToExtended("SkillExtended_Fairytale"));
                 }

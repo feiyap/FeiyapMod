@@ -6,6 +6,9 @@
         "Target": "enemy",
         "NoDrop": true,
         "Except": true,
-        "Effect_Target": "SE_T_S_FVAlice_4_0"
+        "Effect_Target": "SE_T_S_FVAlice_4_0",
+        "SkillExtended": [
+            "VillageAlice.S_FVAlice_4_0"
+        ]
     }
 }

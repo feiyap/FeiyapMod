@@ -1,0 +1,14 @@
+{
+    "B_Parsee_P_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_P_1",
+        "BuffTag": "Debuff",
+        "Name": "诅咒",
+        "LifeTime": 4,
+        "MaxStack": 7,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (13)",
+        "Debuff": true,
+        "TagPer": 100,
+        "Hide": false
+    }
+}

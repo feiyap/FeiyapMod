@@ -1,0 +1,26 @@
+{
+    "S_FVAlice_Default": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "梦境缠绕",
+        "Description": "<color=#919191>「火柴划亮时，所有说明书都变成了睡前故事。」</color>",
+        "Image_0": "Assets/VillageAlice/S_FVAlice_Default/S_FVAlice_Default_Image_0.png"
+    }
+}

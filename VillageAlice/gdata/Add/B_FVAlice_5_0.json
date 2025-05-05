@@ -1,7 +1,7 @@
 {
     "B_FVAlice_5_0": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "VillageAlice.B_FVAlice_5_0",
         "BuffTag": "null",
         "Name": "沉没",
         "MaxStack": 0,
@@ -9,6 +9,6 @@
         "TagPer": 0,
         "LifeTime": 1,
         "Description": "效果消失时，获得1层【噩梦】、1层【美梦】。",
-        "Icon": "B_FVAlice_5_0\\B_FVAlice_5_0_Icon.png"
+        "Icon": "Assets/VillageAlice/B_FVAlice_5_0/B_FVAlice_5_0_Icon.png"
     }
 }

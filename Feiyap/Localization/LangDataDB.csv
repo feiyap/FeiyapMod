@@ -5,7 +5,7 @@ Buff/B_Feiyap_1_Description,Text,,,,,,
 Buff/B_Feiyap_1_Name,Text,,,Burning Within,,体内灼烧,體内灼燒
 Buff/B_Feiyap_5_Description,Text,,,Cannot receive any healing effects from other units.,,不会被施加任何来自其他单位的治疗效果。,不會被施加任何來自其他單位的治療效果。
 Buff/B_Feiyap_5_Name,Text,,,Lone Swallow's Glance,,孤燕之瞥,孤燕之瞥
-Buff/B_Feiyap_6_Description,Text,,,The skills of this unit cost 0.,,释放自身的技能时不需要消耗法力值。,自身技能的費用變為 0 點。
+Buff/B_Feiyap_6_Description,Text,,,The next &a skill played <b>by this character</b> costs 0.,,下 &a 个自身技能的费用变为 0 点。,下 &a 个自身技能的費用變為 0 點。
 Buff/B_Feiyap_6_Name,Text,,,Ascend to Divinity,,化身成神,化身成神
 Buff/B_Feiyap_7_Description,Text,,,"Evade the next attack.
 When triggering Dodge, counter for &a damage (100% of ATK) and apply 1 stack of 'Burning Within'.
@@ -114,7 +114,7 @@ Skill/S_Feiyap_LucyD_1_Description,Text,,,"Draw 2 skills.
 If the target has Healing Gauge Protection, draw 1 additional skill.",,抽取2个技能。若目标拥有保护体力极限，额外抽取 1 个技能。,"抽取 2 個技能。
 若目標有保護體力極限，則多抽取 1 個技能。"
 Skill/S_Feiyap_LucyD_1_Name,Text,,,Encounter at the Afternoon Café,,于午后的咖啡厅偶遇,於午後的咖啡廳偶遇
-Skill/S_Feiyap_LucyD_2_Description,Text,,,Draw 2 skills.,,抽取2个技能。,抽取 2 個技能。
+Skill/S_Feiyap_LucyD_2_Description,Text,,,Draw 2 skills.,,抽取 2 个技能。,抽取 2 個技能。
 Skill/S_Feiyap_LucyD_2_Name,Text,,,Night Watch by the Midnight Bonfire,,于午夜的篝火守夜,於午夜的篝火守夜
 Skill/S_Feiyap_Rare_1_Description,Text,,,"Move this skill to the top of the deck when a battle starts.
 
@@ -126,10 +126,9 @@ Skill/S_Feiyap_Rare_1_Description,Text,,,"Move this skill to the top of the deck
 <i><color=#FF4500>[響亮的金屬撞擊爆炸，隨之而來的是劈啪噪音聲]</color></i>
 <i><color=#FF4500>五年，十一個月，二十一天。</color></i>"
 Skill/S_Feiyap_Rare_1_Name,Text,,,Red Reality,,红现实,紅現實
-Skill/S_Feiyap_Rare_2_0_Description,Text,,,"Remove all pain debuffs on the target.
-Deals pain damage equal to the total remaining damage of the removed debuffs.
-Permanent debuffs are counted as 6 turns.",,"对目标造成 1 次痛苦伤害，伤害量为被移除的所有痛苦减益剩余总伤害的值。
-持续时间为永久的痛苦减益在计算时被视为6回合。","移除目標的所有痛苦減益，並造成每回合減益傷害量 x 剩餘回合數的痛苦傷害。
+Skill/S_Feiyap_Rare_2_0_Description,Text,,,"Deals pain damage equal to the total remaining damage of Pain debuffs.
+Permanent debuffs are counted as 6 turns.",,"对目标造成 1 次痛苦伤害，伤害量为持有的所有痛苦减益剩余总伤害的值。
+持续时间为永久的痛苦减益在计算时被视为 6 回合。","造成每回合減益傷害量 x 剩餘回合數的痛苦傷害。
 <color=#919191>無限回合數的減益在結算時視為 6 回合。</color>"
 Skill/S_Feiyap_Rare_2_0_Name,Text,,,Falling Star’s Descent,,星天陨辍,星天隕輟
 Skill/S_Feiyap_Rare_2_Description,Text,,,"If the owner has Healing Gauge Protection, generates 'Falling Star’s Descent'.",,若自身拥有保护体力极限，生成“星天陨辍”。,若自身有保護體力極限，則生成「星天隕輟」。
@@ -137,6 +136,6 @@ Skill/S_Feiyap_Rare_2_Name,Text,,,Silent Starfall,,无声星陨,無聲星隕
 Skill/S_Feiyap_Rare_3_Name,Text,,,Crimson Sakura Prison Blossom,,秘奥义·绯樱狱华落,秘奧義·緋樱獄華落
 SkillExtended/SE_Feiyap_C_0_Des,Text,,,,,,
 SkillExtended/SE_Feiyap_C_0_EnforceString,Text,,,Healing skill with one ally,,指向队友的治疗技能,指向友軍的治療技能
-SkillExtended/SE_Feiyap_C_0_Name,Text,,,Applies Healing Gauge Protection for 2 turns.,,施加持续2回合的保护体力极限。,施加 2 回合的保護體力極限。
+SkillExtended/SE_Feiyap_C_0_Name,Text,,,Applies Healing Gauge Protection for 2 turns.,,施加持续 2 回合的保护体力极限。,施加 2 回合的保護體力極限。
 SkillExtended/SE_Feiyap_C_1_EnforceString,Text,,,Attack skill with one enemy,,指向敌人的攻击技能,指向敵人的攻擊技能
 SkillExtended/SE_Feiyap_C_1_Name,Text,,,"If the target has any pain debuff, restores 1 mana.",,若目标持有痛苦减益，恢复 1 点法力值。,若目標持有痛苦減益，則恢復 1 點法力值。

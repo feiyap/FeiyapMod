@@ -1,0 +1,10 @@
+{
+    "SE_Parsee_C_1": {
+        "_gdeSchema": "SkillExtended",
+        "Drop": true,
+        "EnforceString": "2费及以上",
+        "NeedCharacter": "Parsee",
+        "Name": "释放时，为未拥有诅咒的敌人施加1层诅咒，为未拥有祸水的友军施加1层祸水(成功率130%)。",
+        "ClassName": "Parsee.SE_Parsee_C_1"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "Parsee"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_Parsee_Rare_2"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Azar_0",
+                "S_Azar_0",
+                "S_Azar_0",
+                "S_Azar_0",
+                "S_Azar_0"
+            ],
+            [
+                "S_Parsee_0",
+                "S_Parsee_1",
+                "S_Parsee_2",
+                "S_Parsee_3",
+                "S_Parsee_4",
+                "S_Parsee_5",
+                "S_Parsee_6",
+                "S_Parsee_7",
+                "S_Parsee_8"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "AP": 10,
+        "Level": 6,
+        "LucySkill": [
+            "S_Parsee_LucyD"
+        ]
+    }
+}

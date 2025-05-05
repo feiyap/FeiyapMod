@@ -23,14 +23,17 @@ namespace VillageAlice
         {
             base.SkillUseSingle(SkillD, Targets);
 
-            this.BChar.BuffReturn("B_FVAlice_P")?.SelfDestroy();
-            this.BChar.BuffAdd("B_FVAlice_P_1", this.BChar);
-
-            foreach (IP_ChangeReality ip in BattleSystem.instance.IReturn<IP_ChangeReality>())
+            if (BattleSystem.instance.AllyList.Any((BattleAlly i) => !i.BuffFind("B_FVAlice_Rare_2", false)))
             {
-                if (ip != null)
+                this.BChar.BuffReturn("B_FVAlice_P")?.SelfDestroy();
+                this.BChar.BuffAdd("B_FVAlice_P_1", this.BChar);
+
+                foreach (IP_ChangeReality ip in BattleSystem.instance.IReturn<IP_ChangeReality>())
                 {
-                    ip.ChangeReality(true);
+                    if (ip != null)
+                    {
+                        ip.ChangeReality(true);
+                    }
                 }
             }
         }

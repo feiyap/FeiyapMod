@@ -1,0 +1,8 @@
+{
+    "SE_Parsee_Rare_2_3": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "伤害量、恢复量增加33％。",
+        "IsIcon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
+        "ClassName": "Parsee.SE_Parsee_Rare_2_3"
+    }
+}

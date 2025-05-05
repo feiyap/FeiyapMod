@@ -20,13 +20,24 @@ namespace VillageAlice
 	/// </summary>
     public class B_FVAlice_0:Buff, IP_ChangeReality
     {
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.Stun = true;
+        }
+
         public void ChangeReality(bool istrue)
         {
             if (!istrue)
             {
-                this.BChar.ChaosDamage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.5f), false);
+                this.BChar.ChaosDamage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.25f), false);
                 this.SelfStackDestroy();
             }
+        }
+
+        public override string DescExtended()
+        {
+            return base.DescExtended().Replace("&a", ((int)(this.Usestate_F.GetStat.atk * 1.25f)).ToString());
         }
     }
 }

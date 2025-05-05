@@ -23,6 +23,9 @@ namespace VillageAlice
 	/// </summary>
     public class S_FVAlice_Rare_2:Skill_Extended
     {
-
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&user", this.BChar.Info.Name);
+        }
     }
 }

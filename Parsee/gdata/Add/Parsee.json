@@ -1,0 +1,78 @@
+{
+    "Parsee": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Support",
+        "PassiveClassName": "Parsee.P_Parsee",
+        "PassiveUnlockLV1": false,
+        "face": "Parsee\\ParseeBattleFace.png",
+        "name": "水桥帕露西",
+        "SelectInfo": "“地上的光催我妒意，吹拂的风催我妒意，虽然对你没有丝毫怨恨，不过，杀掉你的理由无论多少我都可以找出来。”\r\n帕露西是看守连结地上与地下的纵坑的桥姬，负责守望他人能够平安来往于地上地下，拥有操纵嫉妒心程度的能力，被嫉妒心驱使着行动，并以人们的嫉妒为食。\r\n桥姬是神格化的妖怪，被认为是水神，要塞神，断缘神。据说，也有桥姬被称为爱姬。\r\n她的嫉妒毫无情理可言，战斗中会无征兆的突然对敌我造成巨大伤害。同时，只要有人心生嫉妒，她的力量便会无穷无尽，她的诅咒也将蔓延无边。\r\n在被诅咒侵蚀殆尽前，将诅咒转嫁给敌人吧。\r\n然而，据读心妖怪所言，虽然忌妒着周围的人，但她内心深处也抱持着对大家的尊敬与憧憬。她其实远比大家想的还要更温柔。",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 17,
+            "y": 42
+        },
+        "ATK": {
+            "x": 13,
+            "y": 25
+        },
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "REG": {
+            "x": 11,
+            "y": 22
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 10,
+            "y": 50
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_CC": {
+            "x": -10,
+            "y": 30
+        },
+        "RES_DOT": {
+            "x": 15,
+            "y": 55
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "DODGE": {
+            "x": 5,
+            "y": 15
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "PassiveName": "绿眼的嫉妒",
+        "PassiveDes": "每当露西外的其他友军使用非生成技能，帕露西点燃1层“妒火”。\r\n每当帕露西使用非生成技能时，额外对目标施加1层“祸水”。\r\n妒火层数重置后，帕露西接下来从手中释放的2个技能的伤害量、恢复量增加100％。\r",
+        "CollectionSprite_Cover": "Parsee\\ParseeCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Parsee\\ParseeCollectionSprite_SkillFace.png",
+        "StatView_Atk": 2,
+        "StatView_Def": 1,
+        "StatView_Heal": 2,
+        "StatView_Sup": 1,
+        "StatView_Dot": 2,
+        "StatView_CC": 1,
+        "StatView_Debuff": 2,
+        "PassiveIcon": "Parsee\\ParseePassiveIcon.png",
+        "StatView_Difficult": 3,
+        "FirstSkill": "S_Parsee_0"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "R_Parsee_0": {
+        "_gdeSchema": "Item_Passive",
+        "name": "“此桥不可渡”",
+        "Description": "当手中的技能的数量为0或所有者为同一角色时，立即释放“绝对防御”。\r\n此效果在战斗中仅限触发1次。\n\n<color=#919191>“宇治桥姬，形单影只。”</color>",
+        "image": "Item\\R_Parsee_0_image.png",
+        "passive_script": "Parsee.R_Parsee_0"
+    }
+}

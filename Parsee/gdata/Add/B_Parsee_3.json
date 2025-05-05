@@ -1,0 +1,19 @@
+{
+    "B_Parsee_3": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Parsee.B_Parsee_3",
+        "BuffTag": "Debuff",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "无形怪物的凝视",
+        "Description": "根据目标当前的痛苦抵抗率的绝对值，等量增加所受暴击伤害（最多100%）。\r\n攻击命中后若目标依然存活，则对目标施加同名诅咒。成功施加诅咒时解除。\r\n",
+        "MaxStack": 0,
+        "LifeTime": 4,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (7)",
+        "Debuff": true,
+        "TagPer": 100
+    }
+}

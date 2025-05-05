@@ -21,6 +21,48 @@ namespace VillageAlice
 	/// </summary>
     public class S_FVAlice_Rare_1:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (!Targets[0].Info.Ally && !(Targets[0] as BattleEnemy).Boss)
+            {
+                foreach (Buff buff in Targets[0].Buffs)
+                {
+                    buff.SelfDestroy();
+                }
+                
+                foreach (CastingSkill castingSkill in BattleSystem.instance.EnemyCastSkills)
+                {
+                    if (castingSkill.skill.Master == Targets[0])
+                    {
+                        BattleSystem.instance.ActWindow.CastingWaste(castingSkill);
+                    }
+                }
 
+                BattleSystem.instance.EnemyCastSkills.RemoveAll((CastingSkill a) => a.skill.Master == Targets[0]);
+
+                if (this.MySkill.ExtendedFind_DataName("SkillExtended_Fairytale") == null)
+                {
+                    BattleEnemy battleEnemy = Targets[0] as BattleEnemy;
+                    GDEEnemyData gdeenemyData = new GDEEnemyData("Enemy_VillageAlice_Rabbit");
+                    GameObject gameObject = battleEnemy.gameObject;
+                    gameObject.SetActive(true);
+                    BattleEnemy component = gameObject.GetComponent<BattleEnemy>();
+                    component.init(gdeenemyData, BattleSystem.instance);
+
+                    battleEnemy.BuffAdd("B_FVAlice_Rabbit_P", this.BChar);
+                }
+                else
+                {
+                    BattleEnemy battleEnemy = Targets[0] as BattleEnemy;
+                    GDEEnemyData gdeenemyData = new GDEEnemyData("Enemy_VillageAlice_Queen");
+                    GameObject gameObject = battleEnemy.gameObject;
+                    gameObject.SetActive(true);
+                    BattleEnemy component = gameObject.GetComponent<BattleEnemy>();
+                    component.init(gdeenemyData, BattleSystem.instance);
+                }
+                
+                BattleSystem.instance.EnemyTeam.UpdateEnemyList();
+            }
+        }
     }
 }

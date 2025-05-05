@@ -1,0 +1,11 @@
+{
+    "B_Parsee_4_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Parsee.B_Parsee_4_0",
+        "BuffTag": "null",
+        "Name": "龙宫的秘宝",
+        "Description": "",
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (11)"
+    }
+}

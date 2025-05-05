@@ -1,0 +1,12 @@
+{
+    "B_Parsee_6_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Parsee.B_Parsee_6_0",
+        "BuffTag": "null",
+        "Description": "",
+        "Name": "死与新生",
+        "MaxStack": 7,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (11)"
+    }
+}

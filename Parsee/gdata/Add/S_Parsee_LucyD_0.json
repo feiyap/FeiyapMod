@@ -1,0 +1,11 @@
+{
+    "S_Parsee_LucyD_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "魔女之力",
+        "Image_0": "S_Parsee_LucyD_0\\S_Parsee_LucyD_0_Image_0.png",
+        "Description": "生成 1 张“痛苦诅咒”。"
+    }
+}
