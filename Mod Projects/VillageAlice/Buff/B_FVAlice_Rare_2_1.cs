@@ -51,5 +51,10 @@ namespace VillageAlice
         {
             base.SelfDestroy(false);
         }
+
+        public override string DescExtended()
+        {
+            return base.DescExtended().Replace("&user", this.Usestate_F.Info.Name);
+        }
     }
 }

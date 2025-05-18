@@ -24,6 +24,8 @@ namespace Feiyap
         {
             base.SkillUseSingle(SkillD, Targets);
 
+            Targets[0].Recovery = Targets[0].GetStat.maxhp;
+
             this.BChar.MyTeam.AP += Targets[0].Overload;
             Targets[0].Overload = 0;
         }

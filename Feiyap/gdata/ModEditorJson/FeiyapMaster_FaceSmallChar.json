@@ -2,18 +2,18 @@
     "myKey": "FeiyapMaster",
     "myField": "FaceSmallChar",
     "myValues": {
-        "path": "FeiyapMasterSkin\\FeiyapMasterSkinFaceSmallChar.png",
+        "path": "FeiyapMaster_Skin\\FeiyapMaster_SkinFaceSmallChar.png",
         "offsetMax": {
-            "x": 368.898621,
-            "y": 132.336975
+            "x": 337.653259,
+            "y": 233.202789
         },
         "offsetMin": {
-            "x": -347.656677,
-            "y": -823.07
+            "x": -357.541077,
+            "y": -809.5887
         },
         "pivot": {
-            "x": 0.4823419,
-            "y": 0.855635643
+            "x": 0.5113808,
+            "y": 0.771006465
         }
     },
     "MyChangeType": "FaceSmallChar",

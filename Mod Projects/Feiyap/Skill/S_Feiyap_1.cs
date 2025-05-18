@@ -55,6 +55,13 @@ namespace Feiyap
                     }
                 }
             }
+            else
+            {
+                foreach (BattleChar bc in Targets)
+                {
+                    bc.BuffAdd("B_Feiyap_1", this.BChar);
+                }
+            }
         }
     }
 }

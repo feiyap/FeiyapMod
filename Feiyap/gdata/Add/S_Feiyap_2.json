@@ -20,6 +20,15 @@
         "Rare": false,
         "NoBasicSkill": false,
         "Fatal": false,
-        "NoDrop": false
+        "NoDrop": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

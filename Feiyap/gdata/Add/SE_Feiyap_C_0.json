@@ -3,7 +3,7 @@
         "_gdeSchema": "SkillExtended",
         "AlwaysParticle": false,
         "IsOnesInit": false,
-        "Name": "施加持续2回合的保护体力极限。",
+        "Name": "施加持续 2 回合的保护体力极限。",
         "Drop": true,
         "EnforceString": "指向队友的治疗技能",
         "NeedCharacter": "Feiyap",

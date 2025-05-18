@@ -69,6 +69,7 @@ namespace Feiyap
             else
             {
                 this.SkillBasePlus.Target_BaseDMG = 0;
+                this.BChar.BuffAdd("B_Feiyap_0", this.BChar);
             }
         }
 

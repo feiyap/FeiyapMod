@@ -48,5 +48,35 @@ namespace Feiyap
                 battleChar.Damage(this.BChar, num, false, true, false, 0, false, false, false);
             }
         }
+
+        public override void Special_PointerExit()
+        {
+            base.Special_PointerExit();
+            this.SkillBasePlusPreview.Target_BaseDMG = 0;
+        }
+        
+        public override void Special_PointerEnter(BattleChar Char)
+        {
+            base.Special_PointerEnter(Char);
+            int num = 0;
+            foreach (Buff buff in Char.GetBuffs(BattleChar.GETBUFFTYPE.DOT, false, false))
+            {
+                int maxRemain = 0;
+                foreach (StackBuff stackBuff in buff.StackInfo)
+                {
+                    if (maxRemain <= stackBuff.RemainTime)
+                    {
+                        maxRemain = stackBuff.RemainTime;
+                    }
+                    if (stackBuff.RemainTime <= 0)
+                    {
+                        maxRemain = 6;
+                    }
+                }
+                num += buff.DotDMGView() * maxRemain;
+            }
+
+            this.SkillBasePlusPreview.Target_BaseDMG = (int)(num);
+        }
     }
 }

@@ -32,7 +32,7 @@ namespace Feiyap
             {
                 if (this.BChar.BuffFind("B_Feiyap_Rare_1"))
                 {
-                    Take.BuffAdd("B_RemiliaScarlet_0", this.BChar);
+                    this.BChar.Heal(this.BChar, (float)((int)((float)Damage * 0.5f)), false, false, null);
                 }
                 else
                 {

@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapMaid",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "FeiyapMaid_Skin\\FeiyapMaid_SkinBattleChar.png",
+        "offsetMax": {
+            "x": 468.971039,
+            "y": 356.0864
+        },
+        "offsetMin": {
+            "x": -762.608337,
+            "y": -1491.28259
+        },
+        "pivot": {
+            "x": 0.6192117,
+            "y": 0.807246745
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

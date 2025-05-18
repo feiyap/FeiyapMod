@@ -4,16 +4,16 @@
     "myValues": {
         "path": "Feiyap\\FeiyapBattleChar.png",
         "pivot": {
-            "x": 0.6685726,
-            "y": 0.8313787
+            "x": 0.58814,
+            "y": 0.8351114
         },
         "offsetMin": {
-            "x": -933.5705,
-            "y": -1547.876
+            "x": -658.4919,
+            "y": -1402.50793
         },
         "offsetMax": {
-            "x": 462.793152,
-            "y": 313.9422
+            "x": 461.125671,
+            "y": 276.918274
         }
     },
     "MyChangeType": "BattleChar",

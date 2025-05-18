@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "RemiliaScarlet\\RemiliaScarletFaceSmallChar.png",
-        "pivot": {
-            "x": 0.3742145,
-            "y": 0.7385899
+        "offsetMax": {
+            "x": 303.861145,
+            "y": 276.951782
         },
         "offsetMin": {
-            "x": -219.51889,
-            "y": -500.884369
+            "x": -343.85144,
+            "y": -740.8823
         },
-        "offsetMax": {
-            "x": 361.663361,
-            "y": 169.710571
+        "pivot": {
+            "x": 0.527733147,
+            "y": 0.72240907
         }
     },
     "MyChangeType": "FaceSmallChar",

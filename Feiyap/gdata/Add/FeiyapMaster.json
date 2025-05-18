@@ -4,12 +4,12 @@
         "SkinName": "宗师之威",
         "Character": "Feiyap",
         "SkinDesc": "于万千碎裂的世界破片中，选择成为了剑道宗师的那一个“绯夜氏”。\n数千次斩击于霎那间完成，接下来是吞噬了永恒的死亡一击。\n准备迎接宗师之怒吧。",
-        "FaceSprite": "FeiyapMasterSkin\\FeiyapMasterSkinBattleFace.png",
+        "FaceSprite": "FeiyapMaster_Skin\\FeiyapMaster_SkinBattleFace.png",
         "CampSD": [
-            "FeiyapMasterSkin\\FeiyapMasterSkinCampSD0.png",
-            "FeiyapMasterSkin\\FeiyapMasterSkinCampSD1.png",
-            "FeiyapMasterSkin\\FeiyapMasterSkinCampSD2.png",
-            "FeiyapMasterSkin\\FeiyapMasterSkinCampSD3.png"
+            "FeiyapMaster_Skin\\FeiyapMaster_SkinCampSD0.png",
+            "FeiyapMaster_Skin\\FeiyapMaster_SkinCampSD1.png",
+            "FeiyapMaster_Skin\\FeiyapMaster_SkinCampSD2.png",
+            "FeiyapMaster_Skin\\FeiyapMaster_SkinCampSD3.png"
         ],
         "VFXChangeSkill": [
             "S_FeiyapMaster_4_Skin",

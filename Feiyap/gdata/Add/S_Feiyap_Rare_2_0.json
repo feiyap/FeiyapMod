@@ -9,7 +9,7 @@
         "NoBasicSkill": false,
         "Fatal": false,
         "Name": "星天陨辍",
-        "Description": "对目标造成 1 次痛苦伤害，伤害量为被移除的所有痛苦减益剩余总伤害的值。\n持续时间为永久的痛苦减益在计算时被视为6回合。",
+        "Description": "对目标造成 1 次痛苦伤害，伤害量为持有的所有痛苦减益剩余总伤害的值。\n持续时间为永久的痛苦减益在计算时被视为 6 回合。",
         "UseAp": 2,
         "Effect_Target": "SE_T_S_Feiyap_Rare_2_0",
         "NoDrop": true,

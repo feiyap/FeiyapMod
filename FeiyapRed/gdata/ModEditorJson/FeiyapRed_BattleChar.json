@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapRed",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "FeiyapRed\\FeiyapRedBattleChar.png",
+        "offsetMax": {
+            "x": 732.957,
+            "y": 317.660034
+        },
+        "offsetMin": {
+            "x": -414.505554,
+            "y": -1485.49536
+        },
+        "pivot": {
+            "x": 0.3612367,
+            "y": 0.823831
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

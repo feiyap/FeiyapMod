@@ -33,7 +33,7 @@ namespace Feiyap
         public override void Init()
         {
             base.Init();
-            if (this.BChar.GetStat.Strength)
+            //if (this.BChar.GetStat.Strength)
             {
                 this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
             }
@@ -42,7 +42,7 @@ namespace Feiyap
         public override void FixedUpdate()
         {
             base.FixedUpdate();
-            if (this.BChar.GetStat.Strength)
+            //if (this.BChar.GetStat.Strength)
             {
                 this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
             }
@@ -51,7 +51,7 @@ namespace Feiyap
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            if (this.BChar.GetStat.Strength)
+            //if (this.BChar.GetStat.Strength)
             {
                 this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
             }

@@ -1,0 +1,25 @@
+{
+    "FeiyapRed": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "name": "红",
+        "face": "FeiyapRed\\FeiyapRedBattleFace.png",
+        "SelectInfo": "",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 20,
+            "y": 20
+        },
+        "PassiveIcon": "FeiyapRed\\FeiyapRedPassiveIcon.png",
+        "PassiveName": "红现实",
+        "CollectionSprite_Cover": "FeiyapRed\\FeiyapRedCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "FeiyapRed\\FeiyapRedCollectionSprite_SkillFace.png",
+        "StatView_Atk": 2,
+        "StatView_Debuff": 3,
+        "StatView_Dot": 2,
+        "StatView_CC": 1,
+        "StatView_Difficult": 1
+    }
+}

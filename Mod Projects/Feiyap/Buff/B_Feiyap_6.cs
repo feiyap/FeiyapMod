@@ -16,7 +16,7 @@ namespace Feiyap
 	/// <summary>
 	/// 化身为神
 	/// </summary>
-    public class B_Feiyap_6:Buff, IP_SkillUseHand_Team
+    public class B_Feiyap_6:Buff, IP_SkillUseHand_Team, IP_PainDeathEscape
     {
         public int count = 0;
 
@@ -31,17 +31,38 @@ namespace Feiyap
         {
             if (skill.Master == this.BChar)
             {
-                count++;
-                if (count >= 3)
+                if (count > 0)
                 {
-                    base.SelfDestroy(false);
+                    this.BChar.Damage(this.BChar, (int)(Math.Pow(2, count)), false, true);
                 }
+                count++;
             }
         }
 
         public override string DescExtended()
         {
-            return this.BuffData.Description.Replace("&a", (3 - count).ToString());
+            if (BattleSystem.instance == null)
+            {
+                return this.BuffData.Description.Replace("&a", (2).ToString());
+            }
+            return this.BuffData.Description.Replace("&a", ((int)(Math.Pow(2, count))).ToString());
+        }
+
+        public bool PainDeathEscape(BattleChar User, int Dmg, bool Cri, BattleChar Target)
+        {
+            if (Target != this.BChar)
+            {
+                return false;
+            }
+            foreach (IP_DeadResist ip_DeadResist in Target.IReturn<IP_DeadResist>(null))
+            {
+                if (ip_DeadResist != null && ip_DeadResist.DeadResist())
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }

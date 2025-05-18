@@ -18,10 +18,6 @@ namespace Feiyap
 	/// </summary>
     public class S_Feiyap_Rare_1:Skill_Extended
     {
-        public override void BattleStartDeck(List<Skill> Skills_Deck)
-        {
-            Skills_Deck.Remove(this.MySkill);
-            Skills_Deck.Insert(0, this.MySkill);
-        }
+
     }
 }

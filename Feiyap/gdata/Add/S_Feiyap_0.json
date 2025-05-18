@@ -26,7 +26,7 @@
         "Image_0": "S_Feiyap_0\\S_Feiyap_0_Image_0.png",
         "Image_1": "S_Feiyap_0\\S_Feiyap_0_Image_1.png",
         "Image_2": "S_Feiyap_0\\S_Feiyap_0_Image_2.png",
-        "Description": "若自身拥有保护体力极限，额外造成&a点伤害(攻击力的50%)。",
+        "Description": "若自身拥有保护体力极限，额外造成&a点伤害<color=#FF7A33>(攻击力的50%)</color>。\n否则额外获得 1 层“血似刃流”。",
         "Effect_Self": "SE_S_S_Feiyap_0",
         "SkillExtended": [
             "Feiyap.S_Feiyap_0"

@@ -1,0 +1,20 @@
+{
+    "FeiyapMaid": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "甜心女仆",
+        "SkinDesc": "于万千碎裂的世界破片中，选择成为了女仆的那一个“绯夜氏”。\n自那贤淑端庄的外表之下，隐藏着的究竟是蜜糖呢，还是利刃呢？\n或许只有她效忠的主人才知道吧♥",
+        "Character": "Feiyap",
+        "FaceSprite": "FeiyapMaid_Skin\\FeiyapMaid_SkinBattleFace.png",
+        "CampSD": [
+            "FeiyapMaid_Skin\\FeiyapMaid_SkinCampSD0.png",
+            "FeiyapMaid_Skin\\FeiyapMaid_SkinCampSD1.png",
+            "FeiyapMaid_Skin\\FeiyapMaid_SkinCampSD2.png",
+            "FeiyapMaid_Skin\\FeiyapMaid_SkinCampSD3.png"
+        ],
+        "VFXChangeSkill": [
+            "S_FeiyapMaid_0_Skin",
+            "S_FeiyapMaid_5_Skin",
+            "S_FeiyapMaid_8_Skin"
+        ]
+    }
+}

@@ -12,12 +12,22 @@
         "Image_1": "S_Feiyap_8\\S_Feiyap_8_Image_1.png",
         "Image_2": "S_Feiyap_8\\S_Feiyap_8_Image_2.png",
         "Rare": false,
-        "Description": "移除目标所有过载。\n每移除 1 层过载，恢复 1 点法力值。",
+        "Description": "将目标的体力极限恢复至体力上限，并移除目标所有过载。\n每移除 1 层过载，恢复 1 点法力值。",
         "IgnoreTaunt": false,
         "Track": false,
         "NoDrop": false,
         "SkillExtended": [
             "Feiyap.S_Feiyap_8"
-        ]
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "UseAp": 0
     }
 }

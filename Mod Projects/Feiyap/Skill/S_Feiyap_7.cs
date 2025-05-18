@@ -22,6 +22,13 @@ namespace Feiyap
         {
             base.SkillUseSingle(SkillD, Targets);
 
+            this.BChar.HP = 0;
+
+            foreach (Buff buff in this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, true, false))
+            {
+                buff.SelfDestroy(false);
+            }
+
             foreach (BattleAlly battleAlly in Targets)
             {
                 foreach (Buff buff in battleAlly.GetBuffs(BattleChar.GETBUFFTYPE.CC, true, false))

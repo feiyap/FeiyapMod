@@ -33,8 +33,11 @@ namespace Feiyap
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            Targets[0].BuffAdd("B_Feiyap_0", this.BChar);
-            Targets[0].BuffAdd("B_Feiyap_0", this.BChar);
+            foreach (BattleChar bc in Targets)
+            {
+                bc.BuffAdd("B_Feiyap_0", this.BChar);
+                bc.BuffAdd("B_Feiyap_0", this.BChar);
+            }
         }
     }
 }

@@ -4,16 +4,16 @@
     "myValues": {
         "path": "RemiliaScarletShinso\\RemiliaScarletShinsoBattleChar.png",
         "offsetMax": {
-            "x": 1039.90576,
-            "y": 596.61676
+            "x": 1031.92285,
+            "y": 604.594
         },
         "offsetMin": {
-            "x": -960.094238,
-            "y": -1403.3833
+            "x": -968.077148,
+            "y": -1395.406
         },
         "pivot": {
-            "x": 0.4800471,
-            "y": 0.7016916
+            "x": 0.484038562,
+            "y": 0.697703
         }
     },
     "MyChangeType": "BattleChar",

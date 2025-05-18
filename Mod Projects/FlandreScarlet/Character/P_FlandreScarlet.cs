@@ -50,7 +50,8 @@ namespace FlandreScarlet
             {
                 if (Char.HP > this.BChar.GetStat.maxhp * 0.5)
                 {
-                    Char.BuffRemove("B_FlandreScarlet_P_V", false);
+                    //Char.BuffRemove("B_FlandreScarlet_P_V", false);
+                    Char.BuffReturn("B_FlandreScarlet_P_V")?.SelfDestroy();
                 }
             }
             else

@@ -11,7 +11,7 @@
         "Name": "血似刃流",
         "MaxStack": 2,
         "LifeTime": 0,
-        "Description": "回合结束时，移除 1 层增益效果。",
+        "Description": "回合结束时，移除 1 层该增益效果。",
         "Icon": "B_Feiyap_0\\B_Feiyap_0_Icon.png"
     }
 }

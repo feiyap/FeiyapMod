@@ -4,7 +4,7 @@
         "Category": "null",
         "Particle": "Particle/Buff",
         "Target": "all_ally",
-        "NotCount": false,
+        "NotCount": true,
         "Name": "明镜止水",
         "UseAp": 1,
         "User": "Feiyap",
@@ -13,7 +13,7 @@
         "Image_2": "S_Feiyap_7\\S_Feiyap_7_Image_2.png",
         "Disposable": true,
         "NoBasicSkill": false,
-        "Description": "解除所有<sprite=1>痛苦减益和<sprite=2>干扰减益。",
+        "Description": "使自身体力值变为 0 ，解除自身所有<sprite=0>弱化减益。\n解除所有目标的<sprite=1>痛苦减益和<sprite=2>干扰减益。",
         "Effect_Self": "SE_S_S_Feiyap_7",
         "SkillExtended": [
             "Feiyap.S_Feiyap_7"

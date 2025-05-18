@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapMaid",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "FeiyapMaid_Skin\\FeiyapMaid_SkinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 495.759,
+            "y": 238.81572
+        },
+        "offsetMin": {
+            "x": -735.8204,
+            "y": -1608.55334
+        },
+        "pivot": {
+            "x": 0.596324,
+            "y": 0.8678175
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

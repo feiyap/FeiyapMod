@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapRed",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "FeiyapRed\\FeiyapRedFaceOriginChar.png",
+        "offsetMax": {
+            "x": 846.9385,
+            "y": 249.521042
+        },
+        "offsetMin": {
+            "x": -415.2704,
+            "y": -1733.95
+        },
+        "pivot": {
+            "x": 0.327893734,
+            "y": 0.871490359
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

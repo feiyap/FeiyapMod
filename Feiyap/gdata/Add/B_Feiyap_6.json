@@ -9,7 +9,7 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "化身成神",
-        "Description": "释放自身的技能时不需要消耗法力值。",
+        "Description": "不会因为受到<color=purple>痛苦伤害</color>导致死亡。\n释放自身的技能不消耗法力值，但会受到<color=purple> &a 点痛苦伤害</color>。每次触发使该痛苦伤害翻倍。",
         "Icon": "B_Feiyap_6\\B_Feiyap_6_Icon.png",
         "LifeTime": 1
     }

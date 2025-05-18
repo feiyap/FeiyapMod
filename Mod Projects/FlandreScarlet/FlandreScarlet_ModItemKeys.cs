@@ -74,6 +74,7 @@ namespace FlandreScarlet
 		/// </summary>
         public static string Character_FlandreScarlet = "FlandreScarlet";
         public static string Character_Skin_FlandreScarletGod = "FlandreScarletGod";
+        public static string Character_Skin_FlandreScarletRedhot = "FlandreScarletRedhot";
         public static string Character_Skin_FlandreScarletSpring = "FlandreScarletSpring";
         public static string SimpleCampDialogue_CampDial_FlandreScarlet_Hein = "CampDial_FlandreScarlet_Hein";
         public static string SimpleCampDialogue_CampDial_FlandreScarlet_Sizz = "CampDial_FlandreScarlet_Sizz";

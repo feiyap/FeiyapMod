@@ -1,0 +1,15 @@
+{
+    "S_FeiyapMaid_0_Skin": {
+        "_gdeSchema": "VFXSkill",
+        "MySkill": "S_Feiyap_0",
+        "Particle": "Particle/Azar/Azar_S_0",
+        "Image_0": "S_FeiyapMaid_0_Skin\\S_FeiyapMaid_0_Skin_Image_0.png",
+        "SkillImage": [
+            "S_FeiyapMaid_0_Skin\\S_FeiyapMaid_0_Skin_Image_0.png",
+            "S_FeiyapMaid_0_Skin\\S_FeiyapMaid_0_Skin_Image_1.png",
+            "S_FeiyapMaid_0_Skin\\S_FeiyapMaid_0_Skin_Image_2.png"
+        ],
+        "Image_1": "S_FeiyapMaid_0_Skin\\S_FeiyapMaid_0_Skin_Image_1.png",
+        "Image_2": "S_FeiyapMaid_0_Skin\\S_FeiyapMaid_0_Skin_Image_2.png"
+    }
+}

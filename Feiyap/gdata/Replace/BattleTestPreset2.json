@@ -26,7 +26,13 @@
             [
                 "S_Feiyap_2",
                 "S_Feiyap_2",
-                "S_Feiyap_2"
+                "S_Feiyap_2",
+                "S_Feiyap_6",
+                "S_Feiyap_0",
+                "S_Feiyap_0",
+                "S_Feiyap_0",
+                "S_Feiyap_0",
+                "S_Feiyap_7"
             ]
         ],
         "PartyEquip": [
@@ -46,7 +52,9 @@
         "AP": 10,
         "Level": 6,
         "LucySkill": [
-            "S_Lucy_21"
+            "S_LucyD_0",
+            "S_LucyD_0",
+            "S_LucyD_0"
         ]
     }
 }

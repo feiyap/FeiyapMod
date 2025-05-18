@@ -5,7 +5,7 @@ namespace Feiyap
     {
 		/// <summary>
 		/// 血似刃流
-		/// 回合结束时，移除 1 层增益效果。
+		/// 回合结束时，移除 1 层该增益效果。
 		/// </summary>
         public static string Buff_B_Feiyap_0 = "B_Feiyap_0";
 		/// <summary>
@@ -19,30 +19,29 @@ namespace Feiyap
         public static string Buff_B_Feiyap_5 = "B_Feiyap_5";
 		/// <summary>
 		/// 化身成神
-		/// 释放自身的技能时不需要消耗法力值。
+		/// 不会因为受到<color=purple>痛苦伤害</color>导致死亡。
+		/// 释放自身的技能不消耗法力值，但会受到<color=purple> &a 点痛苦伤害</color>。每次触发使该痛苦伤害翻倍。
 		/// </summary>
         public static string Buff_B_Feiyap_6 = "B_Feiyap_6";
 		/// <summary>
 		/// 镜花水月
 		/// 闪避下 1 次受到的攻击。
-		/// 触发闪避时，进行一次反击，造成&a伤害(攻击力的100%)，并施加 1 层“体内灼烧”。
+		/// 触发闪避时，进行一次反击，造成&a伤害<color=#FF7A33>(攻击力的100%)</color>，并施加 1 层“体内灼烧”。
 		/// 触发后解除。
 		/// </summary>
         public static string Buff_B_Feiyap_7 = "B_Feiyap_7";
 		/// <summary>
-		/// 另一种可能性
-		/// 被动“绯夜流”的效果变更为：自身拥有保护体力极限时，攻击造成非痛苦伤害时(<sprite=1>100%)施加<sprite name="Feiyap_blood"><color=#FF3030>绯夜</color>。
+		/// 渴血症
+		/// 其他友军被选定为敌方技能的目标时，使目标改为指向自己。
+		/// 增益持续期间，被动“绯夜流”的效果翻倍。
+		/// 增益解除时，依据增益期间自身受到伤害的次数，对随机敌人追加攻击，每次造成&a伤害<color=#FF7A33>(攻击力的100%)</color>。
+		/// 当前受到伤害的次数：&b
 		/// </summary>
         public static string Buff_B_Feiyap_Rare_1 = "B_Feiyap_Rare_1";
 		/// <summary>
 		/// 热寂
 		/// </summary>
         public static string Buff_B_Feiyap_Rare_2 = "B_Feiyap_Rare_2";
-		/// <summary>
-		/// <sprite name="Feiyap_blood"><color=#FF3030>绯夜</color>
-		/// 结算伤害时，造成伤害的25%将会超额治疗&user。
-		/// </summary>
-        public static string Buff_B_RemiliaScarlet_0 = "B_RemiliaScarlet_0";
 		/// <summary>
 		/// 绯生一文字
 		/// </summary>
@@ -54,9 +53,10 @@ namespace Feiyap
 		/// </summary>
         public static string Character_Feiyap = "Feiyap";
         public static string Character_Skin_FeiyapCoffee = "FeiyapCoffee";
+        public static string Character_Skin_FeiyapMaid = "FeiyapMaid";
         public static string Character_Skin_FeiyapMaster = "FeiyapMaster";
 		/// <summary>
-		/// 施加持续2回合的保护体力极限。
+		/// 施加持续 2 回合的保护体力极限。
 		/// 指向队友的治疗技能
 		/// </summary>
         public static string SkillExtended_SE_Feiyap_C_0 = "SE_Feiyap_C_0";
@@ -88,19 +88,25 @@ namespace Feiyap
         public static string SkillEffect_SE_T_S_Feiyap_LucyD_1 = "SE_T_S_Feiyap_LucyD_1";
         public static string SkillEffect_SE_T_S_Feiyap_LucyD_2 = "SE_T_S_Feiyap_LucyD_2";
         public static string SkillEffect_SE_T_S_Feiyap_Rare_1 = "SE_T_S_Feiyap_Rare_1";
+        public static string SkillEffect_SE_T_S_Feiyap_Rare_1_0 = "SE_T_S_Feiyap_Rare_1_0";
         public static string SkillEffect_SE_T_S_Feiyap_Rare_2 = "SE_T_S_Feiyap_Rare_2";
         public static string SkillEffect_SE_T_S_Feiyap_Rare_2_0 = "SE_T_S_Feiyap_Rare_2_0";
         public static string VFXSkill_S_FeiyapCoffee_6_Skin = "S_FeiyapCoffee_6_Skin";
+        public static string VFXSkill_S_FeiyapMaid_0_Skin = "S_FeiyapMaid_0_Skin";
+        public static string VFXSkill_S_FeiyapMaid_5_Skin = "S_FeiyapMaid_5_Skin";
+        public static string VFXSkill_S_FeiyapMaid_8_Skin = "S_FeiyapMaid_8_Skin";
         public static string VFXSkill_S_FeiyapMaster_4_Skin = "S_FeiyapMaster_4_Skin";
         public static string VFXSkill_S_FeiyapMaster_5_Skin = "S_FeiyapMaster_5_Skin";
 		/// <summary>
 		/// 绯夜流·一式
-		/// 若自身拥有保护体力极限，额外造成&a点伤害(攻击力的50%)。
+		/// 若自身拥有保护体力极限，额外造成&a点伤害<color=#FF7A33>(攻击力的50%)</color>。
+		/// 否则额外获得 1 层“血似刃流”。
 		/// </summary>
         public static string Skill_S_Feiyap_0 = "S_Feiyap_0";
 		/// <summary>
 		/// 里绯夜流·逆鳞斩
 		/// 若自身拥有保护体力极限，对目标造成 1 次痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。
+		/// 否则额外施加 1 层“体内灼烧”。
 		/// </summary>
         public static string Skill_S_Feiyap_1 = "S_Feiyap_1";
 		/// <summary>
@@ -119,7 +125,7 @@ namespace Feiyap
         public static string Skill_S_Feiyap_2_2 = "S_Feiyap_2_2";
 		/// <summary>
 		/// 天市右垣七
-		/// 展示牌库和弃牌库中所有自己的技能。选择其中 1 个拿回手中。
+		/// 展示牌库和弃牌库中所有自己的技能（“天市右垣七”除外）。选择其中 1 个拿回手中。
 		/// </summary>
         public static string Skill_S_Feiyap_3 = "S_Feiyap_3";
 		/// <summary>
@@ -140,7 +146,8 @@ namespace Feiyap
         public static string Skill_S_Feiyap_6 = "S_Feiyap_6";
 		/// <summary>
 		/// 明镜止水
-		/// 解除所有<sprite=1>痛苦减益和<sprite=2>干扰减益。
+		/// 使自身体力值变为 0 ，解除自身所有<sprite=0>弱化减益。
+		/// 解除所有目标的<sprite=1>痛苦减益和<sprite=2>干扰减益。
 		/// </summary>
         public static string Skill_S_Feiyap_7 = "S_Feiyap_7";
 		/// <summary>
@@ -149,7 +156,7 @@ namespace Feiyap
         public static string Skill_S_Feiyap_7_0 = "S_Feiyap_7_0";
 		/// <summary>
 		/// 短休
-		/// 移除目标所有过载。
+		/// 将目标的体力极限恢复至体力上限，并移除目标所有过载。
 		/// 每移除 1 层过载，恢复 1 点法力值。
 		/// </summary>
         public static string Skill_S_Feiyap_8 = "S_Feiyap_8";
@@ -160,16 +167,14 @@ namespace Feiyap
         public static string Skill_S_Feiyap_LucyD_1 = "S_Feiyap_LucyD_1";
 		/// <summary>
 		/// 于午夜的篝火守夜
-		/// 抽取2个技能。
+		/// 抽取 2 个技能。
 		/// </summary>
         public static string Skill_S_Feiyap_LucyD_2 = "S_Feiyap_LucyD_2";
 		/// <summary>
-		/// 红现实
-		/// 战斗开始时，放在牌库最上方。
-		/// <i><color=#FF4500>[响亮的金属撞击爆炸，随之而来的是噼啪噪音声]</color></i>
-		/// <i><color=#FF4500>五年，十一个月，二十一天。</color></i>
+		/// 渴血症
 		/// </summary>
         public static string Skill_S_Feiyap_Rare_1 = "S_Feiyap_Rare_1";
+        public static string Skill_S_Feiyap_Rare_1_0 = "S_Feiyap_Rare_1_0";
 		/// <summary>
 		/// 无声星陨
 		/// 若自身拥有保护体力极限，生成“星天陨辍”。
@@ -177,8 +182,8 @@ namespace Feiyap
         public static string Skill_S_Feiyap_Rare_2 = "S_Feiyap_Rare_2";
 		/// <summary>
 		/// 星天陨辍
-		/// 对目标造成 1 次痛苦伤害，伤害量为被移除的所有痛苦减益剩余总伤害的值。
-		/// 持续时间为永久的痛苦减益在计算时被视为6回合。
+		/// 对目标造成 1 次痛苦伤害，伤害量为持有的所有痛苦减益剩余总伤害的值。
+		/// 持续时间为永久的痛苦减益在计算时被视为 6 回合。
 		/// </summary>
         public static string Skill_S_Feiyap_Rare_2_0 = "S_Feiyap_Rare_2_0";
 		/// <summary>

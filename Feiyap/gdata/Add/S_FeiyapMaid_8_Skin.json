@@ -1,0 +1,15 @@
+{
+    "S_FeiyapMaid_8_Skin": {
+        "_gdeSchema": "VFXSkill",
+        "MySkill": "S_Feiyap_8",
+        "Particle": "Particle/flare_lv1",
+        "Image_0": "S_FeiyapMaid_8_Skin\\S_FeiyapMaid_8_Skin_Image_0.png",
+        "SkillImage": [
+            "S_FeiyapMaid_8_Skin\\S_FeiyapMaid_8_Skin_Image_0.png",
+            "S_FeiyapMaid_8_Skin\\S_FeiyapMaid_8_Skin_Image_1.png",
+            "S_FeiyapMaid_8_Skin\\S_FeiyapMaid_8_Skin_Image_2.png"
+        ],
+        "Image_1": "S_FeiyapMaid_8_Skin\\S_FeiyapMaid_8_Skin_Image_1.png",
+        "Image_2": "S_FeiyapMaid_8_Skin\\S_FeiyapMaid_8_Skin_Image_2.png"
+    }
+}

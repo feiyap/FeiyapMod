@@ -26,9 +26,9 @@
         "NoDrop": false,
         "Except": false,
         "Basic": false,
-        "Fatal": false,
+        "Fatal": true,
         "EnemyPreview": false,
         "UnknownTarget": false,
-        "Description": "若自身拥有保护体力极限，对目标造成 1 次痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。"
+        "Description": "若自身拥有保护体力极限，对目标造成 1 次痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。\n否则额外施加 1 层“体内灼烧”。"
     }
 }

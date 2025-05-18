@@ -24,7 +24,7 @@ namespace Feiyap
             base.Init();
             this.PlusPerStat.Damage = 20;
             this.PlusStat.DMGTaken = -20f;
-            this.PlusStat.HEALTaken = 50f;
+            this.PlusStat.HEALTaken = 100f;
             this.PlusStat.DeadImmune = 40;
         }
 
