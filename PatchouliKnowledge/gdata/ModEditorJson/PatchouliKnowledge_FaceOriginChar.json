@@ -1,0 +1,23 @@
+{
+    "myKey": "PatchouliKnowledge",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "PatchouliKnowledge\\PatchouliKnowledgeFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1293.63477,
+            "y": 698.472839
+        },
+        "offsetMin": {
+            "x": -1132.20337,
+            "y": -1727.36536
+        },
+        "pivot": {
+            "x": 0.466149569,
+            "y": 0.7098541
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

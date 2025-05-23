@@ -1,0 +1,14 @@
+{
+    "S_Pachi_Sk_0_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "all",
+        "NotCount": false,
+        "Basic": false,
+        "Name": "金木符「元素收获者」",
+        "Image_0": "S_Pachi_Sk_0_1\\S_Pachi_Sk_0_1_Image_0.png",
+        "Image_1": "S_Pachi_Sk_0_1\\S_Pachi_Sk_0_1_Image_1.png",
+        "Image_2": "S_Pachi_Sk_0_1\\S_Pachi_Sk_0_1_Image_2.png"
+    }
+}

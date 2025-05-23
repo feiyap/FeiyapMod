@@ -1,0 +1,23 @@
+{
+    "myKey": "PatchouliKnowledge",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "PatchouliKnowledge\\PatchouliKnowledgeBattleChar.png",
+        "offsetMax": {
+            "x": 1263.95056,
+            "y": 768.520142
+        },
+        "offsetMin": {
+            "x": -1161.88757,
+            "y": -1657.318
+        },
+        "pivot": {
+            "x": 0.478963345,
+            "y": 0.683194
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "S_Pachi_E_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "Except": true,
+        "Name": "基本元素 - 木",
+        "Description": "使用时，在本次战斗期间“木”元素等级提升 1 级。\n每个等级的“木”提供10%弱化成功率、干扰成功率和弱化抵抗率、干扰抵抗率。",
+        "User": "PatchouliKnowledge",
+        "Image_0": "S_Pachi_E_1\\S_Pachi_E_1_Image_0.png",
+        "Image_1": "S_Pachi_E_1\\S_Pachi_E_1_Image_1.png",
+        "Image_2": "S_Pachi_E_1\\S_Pachi_E_1_Image_2.png"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "S_FGO_Altria_Alter_9": {
+        "_gdeSchema": "Skill",
+        "UseAp": 2,
+        "Target": "all_enemy",
+        "Particle": "Particle/Buff",
+        "Effect_Target": "null",
+        "Effect_Self": "null",
+        "Name": "最后的帝王",
+        "KeyID": "",
+        "Category": "null",
+        "Description": "将自身的【魔力标记】点数翻倍，并对所有敌人造成无法抵抗的眩晕<sprite=2>，持续1回合。\n装备【耀于至远之枪】时，造成的眩晕持续时间变为3回合。",
+        "SkillExtended": [
+            "FGO_Altria_Alter.Sex_Altr_9"
+        ],
+        "SKillExtendedItem": [
+            
+        ],
+        "User": "FGO_Altria_Alter",
+        "PlusViewBuffList": [
+            
+        ],
+        "NODOD": false,
+        "AutoDelete": 0,
+        "NotCount": true,
+        "ViewBuff": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "Lock": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Counting": 0,
+        "Track": false,
+        "Fatal": 0,
+        "Rare": true,
+        "_gdeType_Image_2": "Sprite",
+        "Image_2": "SKill_Altr/S_Altr_9_2.png",
+        "_gdeType_Image_1": "Sprite",
+        "Image_1": "SKill_Altr/S_Altr_9_1.png",
+        "_gdeType_Image_0": "Sprite",
+        "Image_0": "SKill_Altr/S_Altr_9_0.png",
+        "PlusKeyWords": [
+            
+        ],
+        "LucyPartyDraw": "",
+        "EnemyPreview": 0,
+        "PlusSkillView": "",
+        "EnemySkillSpeed": 0,
+        "UnknownTarget": 0,
+        "SpecialUnlock": 0,
+        "SubParticle": [
+            
+        ],
+        "VFX": 0,
+        "_gdeIsList_VFX": 0
+    },
+    "B_FGO_Altria_Alter_9": {
+        "Debuff": true,
+        "Name": "震撼",
+        "ClassName": "FGO_Altria_Alter.Bcl_Altr_9",
+        "LifeTime": 1,
+        "MaxStack": 1,
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_01",
+        "Hide": false,
+        "Description": "无法行动",
+        "Cantdisable": false,
+        "Tick": "null",
+        "Barrier": 0,
+        "AllyBuffEffect": "",
+        "EnemyBuffEffect": "",
+        "BuffTag": "CrowdControl",
+        "TagPer": 1000,
+        "Caution": false,
+        "BuffSoundEffect": "",
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "_gdeSchema": "Buff"
+    }
+}

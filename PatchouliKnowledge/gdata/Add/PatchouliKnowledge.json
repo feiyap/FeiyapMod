@@ -1,0 +1,50 @@
+{
+    "PatchouliKnowledge": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "PatchouliKnowledge.P_PatchouliKnowledge",
+        "PassiveUnlockLV1": true,
+        "face": "PatchouliKnowledge\\PatchouliKnowledgeBattleFace.png",
+        "name": "帕秋莉",
+        "SelectInfo": "",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 21,
+            "y": 45
+        },
+        "ATK": {
+            "x": 13,
+            "y": 13
+        },
+        "CRI": {
+            "x": 0,
+            "y": 0
+        },
+        "DODGE": {
+            "x": 5,
+            "y": 5
+        },
+        "REG": {
+            "x": 10,
+            "y": 10
+        },
+        "HIT": {
+            "x": 95,
+            "y": 115
+        },
+        "PassiveName": "不动的大图书馆",
+        "PassiveDes": "<b>知识与避世的少女</b> - 战斗开始时，在本次战斗期间放逐自己的所有“元素”技能。每个被放逐的“元素”技能会转化为“元素”属性，重复转化的“元素”属性会提升属性的等级。\n\n<b>使用魔法程度的能力</b> - <b>固定能力替换为“元素祈唤”。</b>\n等级到达3级时，每个回合第 1 次释放“元素祈唤”后，重置“元素祈唤”的冷却时间。\n等级到达5级时，“元素祈唤”不再拥有冷却时间。\n\n<color=#919191>- 此被动从1级开始生效。</color>\n<color=#919191>- 帕秋莉的技能学习不再拥有上限。</color>",
+        "PassiveIcon": "PatchouliKnowledge\\PatchouliKnowledgePassiveIcon.png",
+        "CollectionSprite_Cover": "PatchouliKnowledge\\PatchouliKnowledgeCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "PatchouliKnowledge\\PatchouliKnowledgeCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Def": 3,
+        "StatView_Heal": 3,
+        "StatView_Sup": 3,
+        "StatView_Debuff": 3,
+        "StatView_CC": 3,
+        "StatView_Dot": 3,
+        "StatView_Difficult": 3,
+        "FixedBasicSkill": "S_Pachi_P"
+    }
+}

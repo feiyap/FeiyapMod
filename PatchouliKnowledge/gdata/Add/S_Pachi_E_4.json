@@ -1,0 +1,16 @@
+{
+    "S_Pachi_E_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "Except": true,
+        "Name": "基本元素 - 土",
+        "User": "PatchouliKnowledge",
+        "Description": "使用时，在本次战斗期间“土”元素等级提升 1 级。\n每个等级的“土”提供4%防御力。",
+        "Image_0": "S_Pachi_E_4\\S_Pachi_E_4_Image_0.png",
+        "Image_1": "S_Pachi_E_4\\S_Pachi_E_4_Image_1.png",
+        "Image_2": "S_Pachi_E_4\\S_Pachi_E_4_Image_2.png"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "S_Pachi_E_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "self",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": true,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "基本元素 - 金",
+        "User": "PatchouliKnowledge",
+        "Description": "使用时，在本次战斗期间“金”元素等级提升 1 级。\n每个等级的“金”提供10%痛苦成功率和痛苦抵抗率。",
+        "Image_0": "S_Pachi_E_0\\S_Pachi_E_0_Image_0.png",
+        "Image_1": "S_Pachi_E_0\\S_Pachi_E_0_Image_1.png",
+        "Image_2": "S_Pachi_E_0\\S_Pachi_E_0_Image_2.png"
+    }
+}

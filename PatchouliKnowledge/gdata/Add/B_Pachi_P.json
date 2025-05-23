@@ -1,0 +1,15 @@
+{
+    "B_Pachi_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "PatchouliKnowledge.B_Pachi_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "元素精华",
+        "Icon": "B_Pachi_P\\B_Pachi_P_Icon.png",
+        "Description": "当前元素等级：\n金 - &a\n木 - &b\n水 - &c\n火 - &d\n土 - &e\n日 - &f\n月 - &g"
+    }
+}

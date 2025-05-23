@@ -1,0 +1,54 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "PatchouliKnowledge"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_Pachi_P"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Pachi_E_0",
+                "S_Pachi_E_0",
+                "S_Pachi_E_0",
+                "S_Pachi_E_0",
+                "S_Pachi_E_1",
+                "S_Pachi_E_1",
+                "S_Pachi_E_1"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            
+        ]
+    }
+}

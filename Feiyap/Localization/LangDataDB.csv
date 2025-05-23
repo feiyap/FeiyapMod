@@ -7,8 +7,8 @@ Buff/B_Feiyap_5_Description,Text,,,Cannot receive any healing effects from other
 Buff/B_Feiyap_5_Name,Text,,,Lone Swallow's Glance,,孤燕之瞥,孤燕之瞥
 Buff/B_Feiyap_6_Description,Text,,,"Cannot faint due to <color=purple>Pain damage</color>.
 The skills played <b>by this character</b> costs 0, but take <color=purple>&a Pain Damage</color>. Each trigger doubles this Pain Damage.",,"不会因为受到<color=purple>痛苦伤害</color>导致死亡。
-释放自身的技能不消耗法力值，但会受到<color=purple> &a 点痛苦伤害</color>。每次触发使该痛苦伤害翻倍。","不會因為受到<color=purple>痛苦傷害</color>導致死亡。
-釋放自身的技能不消耗法力值，但會受到<color=purple> &a 點痛苦傷害</color>。每次觸發都會使該傷害翻倍。"
+释放自身的技能不消耗法力值，但会受到<color=purple> &a 点痛苦伤害</color>。每次触发使该痛苦伤害翻倍。","不會因為受到<color=purple>痛苦傷害</color>導致無法戰鬥。
+自身的技能費用變為 0 點，但使用自身的技能會受到<color=purple> &a 點痛苦傷害</color>；每次觸發後，該傷害翻倍。"
 Buff/B_Feiyap_6_Name,Text,,,Ascend to Divinity,,化身成神,化身成神
 Buff/B_Feiyap_7_Description,Text,,,"Evade the next attack.
 When triggering Dodge, counter for &a damage (100% of ATK) and apply 1 stack of 'Burning Within'.
@@ -24,10 +24,10 @@ When the buff removes, attacks random enemies based on the number of times damag
 Current number of damage taken: &b",,"其他友军被选定为敌方技能的目标时，使目标改为指向自己。
 增益持续期间，被动“绯夜流”的效果翻倍。
 增益解除时，依据增益期间自身受到伤害的次数，对随机敌人追加攻击，每次造成&a伤害<color=#FF7A33>(攻击力的100%)</color>。
-当前受到伤害的次数：&b","其他友軍被選定為敵方技能的目標時，使目標改為指向自己。
-增益持續期間，被動「緋夜流」的效果翻倍。
-增益接觸時，依據增益期間自身受到傷害的次數，對隨機敵人追加攻擊，每次造成 &a 傷害<color=#FF7A33>(攻擊力的100%)</color>。
-當前受到傷害的次數：&b"
+当前受到伤害的次数：&b","被動能力「緋夜流」的效果翻倍。
+當其他友軍成為敵人技能的唯一目標時，使其目標變為自身。
+解除時，根據此增益存在期間自身受到傷害的次數發起追加攻擊，每次對隨機敵人造成&a點傷害<color=#FF7A33>(攻擊力的100%)</color>。
+已記錄次數：&b"
 Buff/B_Feiyap_Rare_1_Name,Text,,,Bloodthirst,,渴血症,渴血症
 Buff/B_Feiyap_Rare_2_Description,Text,,,,,,
 Buff/B_Feiyap_Rare_2_Name,Text,,,Heat Death,,热寂,熱寂
@@ -73,10 +73,14 @@ An utterly ordinary girl, simply enjoying a leisurely afternoon, casting all wor
 平庸至极的少女，只是享受着惬意的午后时间，将工作什么的全部抛至脑后吧。","於萬千碎裂的世界破片中，選擇成為了白領的那一個「緋夜氏」。
 平庸至極的少女，只是享受著愜意的午後時間，將工作什麼的全部拋至腦後吧。"
 Character_Skin/FeiyapCoffee_SkinName,Text,,,Afternoon Coffee,,午后咖啡,午後咖啡
-Character_Skin/FeiyapMaid_SkinDesc,Text,,,,,"于万千碎裂的世界破片中，选择成为了女仆的那一个“绯夜氏”。
+Character_Skin/FeiyapMaid_SkinDesc,Text,,,"Among the countless shattered fragments of worlds, she chose to become the 'Feiyap' who is a maid.
+What is hidden with her virtuous and dignified appearance, honey or a sharp blade?
+Perhaps only her master knows the answer♥",,"于万千碎裂的世界破片中，选择成为了女仆的那一个“绯夜氏”。
 自那贤淑端庄的外表之下，隐藏着的究竟是蜜糖呢，还是利刃呢？
-或许只有她效忠的主人才知道吧♥",
-Character_Skin/FeiyapMaid_SkinName,Text,,,,,甜心女仆,
+或许只有她效忠的主人才知道吧♥","於萬千碎裂的世界破片中，選擇成為了女僕的那一個「緋夜氏」。
+在那賢淑端莊的外表之下，隱藏著的究竟是蜜糖，還是利刃呢？
+或許只有她效忠的主人才會知道吧♥"
+Character_Skin/FeiyapMaid_SkinName,Text,,,Sweet Maid,,甜心女仆,甜心女僕
 Character_Skin/FeiyapMaster_SkinDesc,Text,,,"Among the countless shattered fragments of worlds, she chose to become the 'Feiyap' who is a Swordmaster.
 Thousands of slashes completed in an instant, followed by an eternal, devouring strike of death.
 Prepare to face the master’s wrath.",,"于万千碎裂的世界破片中，选择成为了剑道宗师的那一个“绯夜氏”。
@@ -86,24 +90,25 @@ Prepare to face the master’s wrath.",,"于万千碎裂的世界破片中，选
 準備迎接宗師之怒吧。"
 Character_Skin/FeiyapMaster_SkinName,Text,,,Swordmaster’s Might,,宗师之威,宗師之威
 Item_Equip/E_Feiyap_0_Description,Text,,,,,,
-Item_Equip/E_Feiyap_0_name,Text,,,Feisei Ichimonji,,绯生一文字,
+Item_Equip/E_Feiyap_0_name,Text,,,Feisei Ichimonji,,绯生一文字,緋生一文字
 Skill/S_Feiyap_0_Description,Text,,,"If the owner has Healing Gauge Protection, deals additional &a damage (50% of ATK).
 Otherwise, gains 1 additional stack of 'Bleed Like Flowing Blades'.",,"若自身拥有保护体力极限，额外造成&a点伤害<color=#FF7A33>(攻击力的50%)</color>。
 否则额外获得 1 层“血似刃流”。","若自身有保護體力極限，則造成&a點額外傷害<color=#FF7A33>(攻擊力的50%)</color>。
-否則額外獲得一層血似刃流增益。"
+若沒有保護體力極限，則多獲得 1 層血似刃流增益。"
 Skill/S_Feiyap_0_Name,Text,,,Feiyap Style - First Form,,绯夜流·一式,緋夜流·一式
 Skill/S_Feiyap_1_Description,Text,,,"If the owner has Healing Gauge Protection, deals additional Pain damage equal to the target's Pain damage per turn.
 Otherwise, applies 1 additional stack of 'Burning Within'.",,"若自身拥有保护体力极限，对目标造成 1 次痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。
 否则额外施加 1 层“体内灼烧”。","若自身有保護體力極限，則根據目標持有的每回合減益傷害量，造成額外的痛苦傷害。
-否則額外施加一層體內灼燒減益。"
+若沒有保護體力極限，則多施加 1 層體內灼燒減益。"
 Skill/S_Feiyap_1_Name,Text,,,Inner Feiyap Style - Reverse Scale Slash,,里绯夜流·逆鳞斩,裡緋夜流·逆鱗斬
 Skill/S_Feiyap_2_1_Description,Text,,,,,,
 Skill/S_Feiyap_2_1_Name,Text,,,Unfinished Ichimonji - Blood,,未完成的一文字·血,未完成的一文字·血
 Skill/S_Feiyap_2_2_Name,Text,,,Unfinished Ichimonji - Blade,,未完成的一文字·刃,未完成的一文字·刃
-Skill/S_Feiyap_2_Description,Text,,,"Choose - 
-Gain 1 stack of 'Bleed Like Flowing Blades';
-Apply 1 stack of 'Burning Within' to the target.",,"选择 - 自身获得 1 层“血似刃流”；
-对目标施加 1 层“体内灼烧”。","選擇一項：
+Skill/S_Feiyap_2_Description,Text,,,"Choose:
+- Gain 1 stack of 'Bleed Like Flowing Blades';
+- Apply 1 stack of 'Burning Within' to the target.",,"选择：
+- 自身获得 1 层“血似刃流”；
+- 对目标施加 1 层“体内灼烧”。","選擇一項：
  - 自身獲得 1 層血似刃流增益。
  - 對目標施加 1 層體内灼燒減益。"
 Skill/S_Feiyap_2_Name,Text,,,Unfinished Ichimonji,,未完成的一文字,未完成的一文字
@@ -123,14 +128,15 @@ Cannot upgrade skills that are already upgraded.",,"使所有手中的技能获�
 若此技能在使用時已持有任意<color=yellow>強化</color>，則使牌庫中的所有技能獲得隨機<color=yellow>強化</color>。"
 Skill/S_Feiyap_6_Name,Text,,,Ascend to Divinity,,化身成神,化身成神
 Skill/S_Feiyap_7_0_Name,Text,,,Illusory Moon,,镜花水月,鏡花水月
-Skill/S_Feiyap_7_Description,Text,,,"Set Hp to 0, remove all <sprite=0>Weak debuffs.
-Removes all <sprite=1>Pain debuffs and <sprite=2>CC debuffs.",,"使自身体力值变为 0 ，解除自身所有<sprite=0>弱化减益。
-解除所有目标的<sprite=1>痛苦减益和<sprite=2>干扰减益。","使自身體力值變為 0 ，解除自身所有<sprite=0>弱化減益。
-解除所有<sprite=1>痛苦減益和<sprite=2>干擾減益。"
+Skill/S_Feiyap_7_Description,Text,,,"Set the owner's HP to 0, and remove the owner's all <sprite=0>Weak debuffs.
+remove all <sprite=1>Pain and <sprite=2>CC debuffs on targets.",,"使自身体力值变为 0 ，解除自身所有<sprite=0>弱化减益。
+解除所有目标的<sprite=1>痛苦减益和<sprite=2>干扰减益。","使此技能持有者的體力值變為 0 點，並解除其所有<sprite=0>弱化減益。
+解除目標的所有<sprite=1>痛苦和<sprite=2>干擾減益。"
 Skill/S_Feiyap_7_Name,Text,,,Clear Mind,,明镜止水,明鏡止水
-Skill/S_Feiyap_8_Description,Text,,,"Remove all stacks of Overload from the target.
+Skill/S_Feiyap_8_Description,Text,,,"The target gains Healing Gauge equal to the target's lost HP.
+Remove all Overload from the target.
 Restore 1 mana for each removed Overload.",,"将目标的体力极限恢复至体力上限，并移除目标所有过载。
-每移除 1 层过载，恢复 1 点法力值。","將目標的體力極限恢復至體力上限，並移除目標所有過載。
+每移除 1 层过载，恢复 1 点法力值。","使目標獲得相當於目標已損失體力值100%的體力極限，並解除其所有過載。
 每移除 1 層過載，便恢復 1 點法力值。"
 Skill/S_Feiyap_8_Name,Text,,,Short Rest,,短休,短休
 Skill/S_Feiyap_LucyD_1_Description,Text,,,"Draw 2 skills.
@@ -140,10 +146,10 @@ Skill/S_Feiyap_LucyD_1_Name,Text,,,Encounter at the Afternoon Café,,于午后�
 Skill/S_Feiyap_LucyD_2_Description,Text,,,Draw 2 skills.,,抽取 2 个技能。,抽取 2 個技能。
 Skill/S_Feiyap_LucyD_2_Name,Text,,,Night Watch by the Midnight Bonfire,,于午夜的篝火守夜,於午夜的篝火守夜
 Skill/S_Feiyap_Rare_1_Description,Text,,,,,,
-Skill/S_Feiyap_Rare_1_Name,Text,,,Red Reality,,渴血症,紅現實
+Skill/S_Feiyap_Rare_1_Name,Text,,,Red Reality,,渴血症,渴血症
 Skill/S_Feiyap_Rare_2_0_Description,Text,,,"Deals pain damage equal to the total remaining damage of Pain debuffs.
 Permanent debuffs are counted as 6 turns.",,"对目标造成 1 次痛苦伤害，伤害量为持有的所有痛苦减益剩余总伤害的值。
-持续时间为永久的痛苦减益在计算时被视为 6 回合。","造成每回合減益傷害量 x 剩餘回合數的痛苦傷害。
+持续时间为永久的痛苦减益在计算时被视为 6 回合。","造成目標持有的每回合減益傷害量 x 剩餘回合數的痛苦傷害。
 <color=#919191>無限回合數的減益在結算時視為 6 回合。</color>"
 Skill/S_Feiyap_Rare_2_0_Name,Text,,,Falling Star’s Descent,,星天陨辍,星天隕輟
 Skill/S_Feiyap_Rare_2_Description,Text,,,"If the owner has Healing Gauge Protection, generates 'Falling Star’s Descent'.",,若自身拥有保护体力极限，生成“星天陨辍”。,若自身有保護體力極限，則生成「星天隕輟」。

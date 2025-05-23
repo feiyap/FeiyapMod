@@ -1,0 +1,15 @@
+{
+    "id": "FGO_Altria_Alter",
+    "Title": "【CN】阿尔托莉雅",
+    "Author": "m200",
+    "DefaultAssetBundlePath": "",
+    "Cover": "Altria_Alter.jpg",
+    "Description": "altermod介绍",
+    "Uploader": "m200",
+    "WorkShopId": "",
+    "OnlyUploadFiles": false,
+    "Visibility": "Private",
+    "TagList": [
+        "Characters"
+    ]
+}

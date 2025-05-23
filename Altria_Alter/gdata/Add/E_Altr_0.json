@@ -1,0 +1,11 @@
+{
+    "E_FGO_Altria_Alter_0": {
+        "name": "耀于至远之枪",
+        "image": "E_Altr_0\\E_Altr_0.png",
+        "Description": "无视嘲讽\n【魔力标记】不再受上限限制。\n<color=red>仅限阿尔托莉雅·潘德拉贡(Alter)佩戴</color>",
+        "Equip_Script": "FGO_Altria_Alter.E_Altr_0",
+        "Itemclass": "Unique",
+        "NoDrop": true,
+        "_gdeSchema": "Item_Equip"
+    }
+}
