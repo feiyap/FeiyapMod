@@ -1,0 +1,26 @@
+{
+    "S_Pachi_Sk_1_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_0",
+        "Target": "enemy",
+        "NoDrop": true,
+        "Name": "木符「风灵的角笛」",
+        "Description": "使目标持有的所有痛苦减益扩散至其他敌人。\n指向敌人时，若只存在 1 个敌人，使目标持有的所有痛苦减益持续时间翻倍。\n\n每个等级的“木”额外施加1层“森林大火”。",
+        "UseAp": 2,
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_1_1",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_1_1"
+        ],
+        "Except": true,
+        "PlusSkillView": "S_Pachi_Sk_1_2",
+        "Image_0": "S_Pachi_Sk_1_1\\S_Pachi_Sk_1_1_Image_0.png",
+        "Image_1": "S_Pachi_Sk_1_1\\S_Pachi_Sk_1_1_Image_1.png",
+        "Image_2": "S_Pachi_Sk_1_1\\S_Pachi_Sk_1_1_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ]
+    }
+}

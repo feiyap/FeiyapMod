@@ -1,0 +1,29 @@
+{
+    "S_Pachi_E_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "Except": true,
+        "Name": "高级元素 - <color=#FFA500>日</color>",
+        "Description": "象征<color=#FFA500>财富</color>的权能。\n使用时，在本次战斗期间<color=#FFA500>日</color>元素等级提升 1 级。\n每个等级的<color=#FFA500>日</color>提供每回合额外抽取1个技能。",
+        "Rare": true,
+        "UseAp": 1,
+        "Image_0": "S_Pachi_E_5\\S_Pachi_E_5_Image_0.png",
+        "Image_1": "S_Pachi_E_5\\S_Pachi_E_5_Image_1.png",
+        "Image_2": "S_Pachi_E_5\\S_Pachi_E_5_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

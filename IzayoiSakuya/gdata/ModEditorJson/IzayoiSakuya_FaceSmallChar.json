@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "IzayoiSakuya\\IzayoiSakuyaFaceSmallChar.png",
-        "offsetMax": {
-            "x": 143.827057,
-            "y": 86.775
+        "pivot": {
+            "x": 0.547477245,
+            "y": 0.8623754
         },
         "offsetMin": {
-            "x": -181.309875,
-            "y": -590.5936
+            "x": -281.14093,
+            "y": -665.060059
         },
-        "pivot": {
-            "x": 0.5513918,
-            "y": 0.863641858
+        "offsetMax": {
+            "x": 228.668182,
+            "y": 99.65372
         }
     },
     "MyChangeType": "FaceSmallChar",

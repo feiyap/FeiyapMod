@@ -32,12 +32,12 @@ namespace PatchouliKnowledge
             List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.Master == this.BChar));
 
             List<Skill> CList = excDeck
-                .Where(skill => P_PatchouliKnowledge.BaseElement.Contains(skill.MySkill.KeyID))
+                .Where(skill => P_PatchouliKnowledge.BaseElement.Contains(skill.MySkill.KeyID) || P_PatchouliKnowledge.RareElement.Contains(skill.MySkill.KeyID))
                 .GroupBy(skill => skill.MySkill.KeyID)
                 .Select(group => group.First()) // 每个KeyID只保留第一个Skill
                 .ToList();
 
-            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(CList, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
+            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(CList, new SkillButton.SkillClickDel(this.Del), ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("selectElement"), false, true, true, false, true));
         }
 
         public void Del(SkillButton Mybutton)
@@ -47,12 +47,12 @@ namespace PatchouliKnowledge
             List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.Master == this.BChar));
 
             List<Skill> CList = excDeck
-                .Where(skill => P_PatchouliKnowledge.BaseElement.Contains(skill.MySkill.KeyID))
+                .Where(skill => P_PatchouliKnowledge.BaseElement.Contains(skill.MySkill.KeyID) || P_PatchouliKnowledge.RareElement.Contains(skill.MySkill.KeyID))
                 .GroupBy(skill => skill.MySkill.KeyID)
                 .Select(group => group.First()) // 每个KeyID只保留第一个Skill
                 .ToList();
 
-            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(CList, new SkillButton.SkillClickDel(this.Del2), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
+            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(CList, new SkillButton.SkillClickDel(this.Del2), ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("selectElement"), false, true, true, false, true));
         }
 
         public void Del2(SkillButton Mybutton)

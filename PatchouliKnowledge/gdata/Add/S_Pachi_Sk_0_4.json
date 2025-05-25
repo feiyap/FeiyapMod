@@ -1,0 +1,36 @@
+{
+    "S_Pachi_Sk_0_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Shield",
+        "Target": "ally",
+        "NotCount": false,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Name": "土金符「翡翠巨石」",
+        "Description": "施加 &a 点保护罩(防御力的50%)。\n\n每个等级的“金”额外施加1层“巨石护卫”。\n每个等级的“土”额外施加&b点保护罩(防御力的10%)。",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Pachi_Sk_0_4",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_0_4"
+        ],
+        "Image_0": "S_Pachi_Sk_0_4\\S_Pachi_Sk_0_4_Image_0.png",
+        "Image_1": "S_Pachi_Sk_0_4\\S_Pachi_Sk_0_4_Image_1.png",
+        "Image_2": "S_Pachi_Sk_0_4\\S_Pachi_Sk_0_4_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "Except": true,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

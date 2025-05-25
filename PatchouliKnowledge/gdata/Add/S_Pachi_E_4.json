@@ -6,11 +6,14 @@
         "Target": "self",
         "NotCount": true,
         "Except": true,
-        "Name": "基本元素 - 土",
+        "Name": "基本元素 - <color=#8B7355>土</color>",
         "User": "PatchouliKnowledge",
-        "Description": "使用时，在本次战斗期间“土”元素等级提升 1 级。\n每个等级的“土”提供4%防御力。",
+        "Description": "象征<color=#8B7355>保护</color>的权能。\n使用时，在本次战斗期间<color=#8B7355>土</color>元素等级提升 1 级。\n每个等级的<color=#8B7355>土</color>提供4%防御力。",
         "Image_0": "S_Pachi_E_4\\S_Pachi_E_4_Image_0.png",
         "Image_1": "S_Pachi_E_4\\S_Pachi_E_4_Image_1.png",
-        "Image_2": "S_Pachi_E_4\\S_Pachi_E_4_Image_2.png"
+        "Image_2": "S_Pachi_E_4\\S_Pachi_E_4_Image_2.png",
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "PlusSkillView": "S_Pachi_Sk_4_4"
     }
 }

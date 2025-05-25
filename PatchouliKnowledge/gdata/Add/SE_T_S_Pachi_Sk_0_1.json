@@ -1,0 +1,16 @@
+{
+    "SE_T_S_Pachi_Sk_0_1": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Pachi_0_1",
+            "B_Pachi_0_1_1",
+            "B_Pachi_0_1_2"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0
+        ]
+    }
+}

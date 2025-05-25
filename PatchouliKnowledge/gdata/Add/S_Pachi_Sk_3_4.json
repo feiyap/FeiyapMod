@@ -1,0 +1,25 @@
+{
+    "S_Pachi_Sk_3_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Miss/MissChain_4_1",
+        "Target": "enemy",
+        "Name": "火土符「环状熔岩带」",
+        "Description": "同时攻击与技能目标嘲讽状态相同的所有敌人。\n造成伤害的30%转化为自身的保护罩。\n\n每个等级的“火”使这个技能额外造成&a点伤害(攻击力的10%)。\n每个等级的“土”使保护罩转化倍率提升20%。",
+        "UseAp": 2,
+        "NotCount": false,
+        "IgnoreTaunt": true,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_3_4",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_3_4"
+        ],
+        "Image_0": "S_Pachi_Sk_3_4\\S_Pachi_Sk_3_4_Image_0.png",
+        "Image_1": "S_Pachi_Sk_3_4\\S_Pachi_Sk_3_4_Image_1.png",
+        "Image_2": "S_Pachi_Sk_3_4\\S_Pachi_Sk_3_4_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "Except": true
+    }
+}

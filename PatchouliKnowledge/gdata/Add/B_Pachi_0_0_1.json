@@ -1,0 +1,13 @@
+{
+    "B_Pachi_0_0_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "PatchouliKnowledge.B_Pachi_0_0_1",
+        "BuffTag": "Debuff",
+        "Name": "金属疲劳",
+        "MaxStack": 10,
+        "LifeTime": 4,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (13)",
+        "Debuff": true,
+        "TagPer": 100
+    }
+}

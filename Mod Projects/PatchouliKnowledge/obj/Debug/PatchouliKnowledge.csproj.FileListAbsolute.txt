@@ -11,7 +11,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\MonoMod.RuntimeDetour.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\MonoMod.Utils.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\DynamicEmitAPI.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\PatchouliKnowledge202552301202.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\PatchouliKnowledge202552301202.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge202552301202.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge202552301202.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\PatchouliKnowledge202552620100.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\PatchouliKnowledge202552620100.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge202552620100.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge202552620100.pdb

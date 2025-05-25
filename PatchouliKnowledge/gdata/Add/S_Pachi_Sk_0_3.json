@@ -1,0 +1,26 @@
+{
+    "S_Pachi_Sk_0_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S_TheLight_3",
+        "Target": "enemy",
+        "NotCount": true,
+        "NoDrop": true,
+        "Name": "火金符「圣爱尔摩火柱」",
+        "Description": "每个等级的“火”使这个技能额外造成&a点伤害(攻击力的10%)。\n每个等级的“金”额外施加1层“金属疲劳”。",
+        "UseAp": 1,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_0_3",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_0_3"
+        ],
+        "PlusSkillView": "S_Pachi_Sk_0_4",
+        "Image_0": "S_Pachi_Sk_0_3\\S_Pachi_Sk_0_3_Image_0.png",
+        "Image_1": "S_Pachi_Sk_0_3\\S_Pachi_Sk_0_3_Image_1.png",
+        "Image_2": "S_Pachi_Sk_0_3\\S_Pachi_Sk_0_3_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "Except": true
+    }
+}

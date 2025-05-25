@@ -1,0 +1,34 @@
+{
+    "S_Pachi_Sk_1_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Name": "水木符「水精灵」",
+        "Description": "释放时，同时对目标右边的角色释放。\n\n每个等级的“水”使这个技能额外治疗&a点体力(治疗力的10%)。\n每个等级的“木”额外施加1层“活水之精”。",
+        "UseAp": 1,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_1_2",
+        "PlusSkillView": "S_Pachi_Sk_1_3",
+        "Image_0": "S_Pachi_Sk_1_2\\S_Pachi_Sk_1_2_Image_0.png",
+        "Image_1": "S_Pachi_Sk_1_2\\S_Pachi_Sk_1_2_Image_1.png",
+        "Image_2": "S_Pachi_Sk_1_2\\S_Pachi_Sk_1_2_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "Except": true,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

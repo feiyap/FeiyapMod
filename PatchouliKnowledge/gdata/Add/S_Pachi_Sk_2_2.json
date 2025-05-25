@@ -1,0 +1,26 @@
+{
+    "S_Pachi_Sk_2_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "NoDrop": true,
+        "Description": "如果目标无法受到治疗，则改为使目标的生命值提升 &a 点(治疗力的130%)。\n\n每个等级的“水”使这个技能额外治疗或提升&b点体力(治疗力的20%)。",
+        "Name": "水符「湖葬」",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Pachi_Sk_2_2",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_2_2"
+        ],
+        "NotCount": false,
+        "Except": true,
+        "PlusSkillView": "S_Pachi_Sk_2_3",
+        "Rare": false,
+        "Image_0": "S_Pachi_Sk_2_2\\S_Pachi_Sk_2_2_Image_0.png",
+        "Image_1": "S_Pachi_Sk_2_2\\S_Pachi_Sk_2_2_Image_1.png",
+        "Image_2": "S_Pachi_Sk_2_2\\S_Pachi_Sk_2_2_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ]
+    }
+}

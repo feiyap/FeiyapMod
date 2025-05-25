@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>PatchouliKnowledge202552301202</AssemblyName>
+    <AssemblyName>PatchouliKnowledge202552620100</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -408,13 +408,26 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                  <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                                                                <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BV_Pachi_P.cs" />
     <Compile Include="PatchouliKnowledge_ModDefinition.cs" />
     <Compile Include="PatchouliKnowledge_ModItemKeys.cs" />
     <Compile Include="PatchouliKnowledge_Plugin.cs" />
+    <Compile Include="Buff\B_Pachi_0_0.cs" />
+    <Compile Include="Buff\B_Pachi_0_0_1.cs" />
+    <Compile Include="Buff\B_Pachi_0_1.cs" />
+    <Compile Include="Buff\B_Pachi_0_1_1.cs" />
+    <Compile Include="Buff\B_Pachi_0_1_2.cs" />
+    <Compile Include="Buff\B_Pachi_0_2.cs" />
+    <Compile Include="Buff\B_Pachi_0_4.cs" />
+    <Compile Include="Buff\B_Pachi_1_1.cs" />
+    <Compile Include="Buff\B_Pachi_1_2.cs" />
+    <Compile Include="Buff\B_Pachi_1_4.cs" />
+    <Compile Include="Buff\B_Pachi_4_4.cs" />
+    <Compile Include="Buff\B_Pachi_Barrier.cs" />
     <Compile Include="Buff\B_Pachi_P.cs" />
+    <Compile Include="Buff\B_Pachi_P_1.cs" />
     <Compile Include="Character\P_PatchouliKnowledge.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
@@ -424,8 +437,25 @@
     <Compile Include="Skill\S_Pachi_E_2.cs" />
     <Compile Include="Skill\S_Pachi_E_3.cs" />
     <Compile Include="Skill\S_Pachi_E_4.cs" />
+    <Compile Include="Skill\S_Pachi_E_5.cs" />
+    <Compile Include="Skill\S_Pachi_E_6.cs" />
+    <Compile Include="Skill\S_Pachi_E_7.cs" />
     <Compile Include="Skill\S_Pachi_P.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_0_0.cs" />
     <Compile Include="Skill\S_Pachi_Sk_0_1.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_0_2.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_0_3.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_0_4.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_1_1.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_1_2.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_1_3.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_1_4.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_2_2.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_2_3.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_2_4.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_3_3.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_3_4.cs" />
+    <Compile Include="Skill\S_Pachi_Sk_4_4.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

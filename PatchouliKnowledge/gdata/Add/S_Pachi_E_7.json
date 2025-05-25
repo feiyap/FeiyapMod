@@ -1,0 +1,33 @@
+{
+    "S_Pachi_E_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "NotCount": true,
+        "Except": false,
+        "Name": "<color=#FFD700>金</color><color=#228B22>木</color><color=#00BFFF>水</color><color=#FF4500>火</color><color=#8B7355>土</color>符「贤者之石」",
+        "Description": "战斗开始时，放在牌库最上方。\n抽取 1 个技能。获得<color=#FFD700>金</color>、<color=#228B22>木</color>、<color=#00BFFF>水</color>、<color=#FF4500>火</color>、<color=#8B7355>土</color>每种元素各 1 级。",
+        "UseAp": 1,
+        "User": "PatchouliKnowledge",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_E_7"
+        ],
+        "Image_0": "S_Pachi_E_7\\S_Pachi_E_7_Image_0.png",
+        "Image_1": "S_Pachi_E_7\\S_Pachi_E_7_Image_1.png",
+        "Image_2": "S_Pachi_E_7\\S_Pachi_E_7_Image_2.png"
+    }
+}

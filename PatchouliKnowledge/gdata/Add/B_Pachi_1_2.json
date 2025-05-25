@@ -1,0 +1,12 @@
+{
+    "B_Pachi_1_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "PatchouliKnowledge.B_Pachi_1_2",
+        "BuffTag": "null",
+        "Tick": "SE_Tick_B_Pachi_1_2",
+        "Name": "活水之精",
+        "Icon": "Image/Buff/Skill_Icon_Pack/2_0/Leryn_0",
+        "MaxStack": 10,
+        "LifeTime": 2
+    }
+}

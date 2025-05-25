@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "IzayoiSakuya\\IzayoiSakuyaFaceOriginChar.png",
-        "offsetMax": {
-            "x": 281.7479,
-            "y": 185.787
+        "pivot": {
+            "x": 0.5505983,
+            "y": 0.855181
         },
         "offsetMin": {
-            "x": -351.852142,
-            "y": -1134.213
+            "x": -663.276245,
+            "y": -1547.39832
         },
-        "pivot": {
-            "x": 0.553112566,
-            "y": 0.855181
+        "offsetMax": {
+            "x": 538.8274,
+            "y": 255.7571
         }
     },
     "MyChangeType": "FaceOriginChar",

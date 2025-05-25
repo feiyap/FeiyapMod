@@ -6,11 +6,25 @@
         "Target": "self",
         "NotCount": true,
         "Except": true,
-        "Name": "基本元素 - 水",
-        "Description": "使用时，在本次战斗期间“水”元素等级提升 1 级。\n每个等级的“水”提供2点治疗力、2%闪避率。",
+        "Name": "基本元素 - <color=#00BFFF>水</color>",
+        "Description": "象征<color=#00BFFF>治疗</color>的权能。\n使用时，在本次战斗期间<color=#00BFFF>水</color>元素等级提升 1 级。\n每个等级的<color=#00BFFF>水</color>提供1点治疗力、1%闪避率。",
         "User": "PatchouliKnowledge",
         "Image_0": "S_Pachi_E_2\\S_Pachi_E_2_Image_0.png",
         "Image_1": "S_Pachi_E_2\\S_Pachi_E_2_Image_1.png",
-        "Image_2": "S_Pachi_E_2\\S_Pachi_E_2_Image_2.png"
+        "Image_2": "S_Pachi_E_2\\S_Pachi_E_2_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "PlusSkillView": "S_Pachi_Sk_2_2"
     }
 }

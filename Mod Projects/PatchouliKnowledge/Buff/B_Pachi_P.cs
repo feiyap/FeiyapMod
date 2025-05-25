@@ -38,21 +38,21 @@ namespace PatchouliKnowledge
 
         public void ElementLevelUp(int count)
         {
-            this.PlusStat.atk = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[3] * 2;
-            this.PlusStat.cri = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[3] * 2;
+            this.PlusStat.atk = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[3] * 1;
+            this.PlusStat.cri = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[3] * 1;
 
-            this.PlusStat.reg = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2] * 2;
-            this.PlusStat.dod = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2] * 2;
+            this.PlusStat.reg = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2] * 1;
+            this.PlusStat.dod = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2] * 1;
 
             this.PlusStat.def = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 4;
 
-            this.PlusStat.HIT_DOT = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[0] * 10;
-            this.PlusStat.RES_DOT = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[0] * 10;
+            this.PlusStat.HIT_DOT = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[1] * 5;
+            this.PlusStat.RES_DOT = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[1] * 5;
 
-            this.PlusStat.HIT_CC = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[1] * 10;
-            this.PlusStat.HIT_DEBUFF = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[1] * 10;
-            this.PlusStat.RES_CC = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[1] * 10;
-            this.PlusStat.RES_DEBUFF = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[1] * 10;
+            this.PlusStat.HIT_CC = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[0] * 5;
+            this.PlusStat.HIT_DEBUFF = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[0] * 5;
+            this.PlusStat.RES_CC = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[0] * 5;
+            this.PlusStat.RES_DEBUFF = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[0] * 5;
 
             this.PlusStat.PlusDraw = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[5] * 1;
 

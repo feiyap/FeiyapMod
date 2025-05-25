@@ -6,11 +6,13 @@
         "Target": "self",
         "NotCount": true,
         "Except": true,
-        "Name": "基本元素 - 木",
-        "Description": "使用时，在本次战斗期间“木”元素等级提升 1 级。\n每个等级的“木”提供10%弱化成功率、干扰成功率和弱化抵抗率、干扰抵抗率。",
+        "Name": "基本元素 - <color=#228B22>木</color>",
+        "Description": "象征<color=#228B22>持续</color>的权能。\n使用时，在本次战斗期间<color=#228B22>木</color>元素等级提升 1 级。\n每个等级的<color=#228B22>木</color>提供5%痛苦成功率和痛苦抵抗率。",
         "User": "PatchouliKnowledge",
         "Image_0": "S_Pachi_E_1\\S_Pachi_E_1_Image_0.png",
         "Image_1": "S_Pachi_E_1\\S_Pachi_E_1_Image_1.png",
-        "Image_2": "S_Pachi_E_1\\S_Pachi_E_1_Image_2.png"
+        "Image_2": "S_Pachi_E_1\\S_Pachi_E_1_Image_2.png",
+        "NoDrop": false,
+        "PlusSkillView": "S_Pachi_Sk_1_1"
     }
 }

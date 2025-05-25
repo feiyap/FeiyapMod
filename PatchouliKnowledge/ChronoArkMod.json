@@ -4,5 +4,9 @@
     "Visibility": "Public",
     "Title": "【CN】帕秋莉·诺蕾姬 ~ 东方红魔乡",
     "Author": "绯夜氏",
-    "Version": "v1.0"
+    "Version": "v1.0",
+    "TagList": [
+        "Characters"
+    ],
+    "Cover": "PatchouliKnowledgeCover.png"
 }

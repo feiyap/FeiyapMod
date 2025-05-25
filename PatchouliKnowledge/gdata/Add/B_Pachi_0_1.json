@@ -1,0 +1,13 @@
+{
+    "B_Pachi_0_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "PatchouliKnowledge.B_Pachi_0_1",
+        "BuffTag": "Debuff",
+        "Name": "元素异常",
+        "Debuff": true,
+        "TagPer": 100,
+        "Icon": "Image/Buff/Skill_Icon_Pack/Debuff",
+        "MaxStack": 10,
+        "LifeTime": 4
+    }
+}

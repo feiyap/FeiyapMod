@@ -1,0 +1,26 @@
+{
+    "S_Pachi_Sk_2_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_R1",
+        "Target": "enemy",
+        "NoDrop": true,
+        "Name": "水火符「燃素之雨」",
+        "Description": "重复释放 &c 次(1 + &e)。\n每次释放时，恢复体力值最低的友军 &a 点体力值(治疗力的45%)。\n\n每个等级的“火”使这个技能额外造成&b点伤害(攻击力的5%)、额外治疗&d点体力(治疗力的5%)。\n每个等级的“水”额外重复释放 1 次。",
+        "UseAp": 2,
+        "NotCount": false,
+        "Effect_Target": "SE_T_S_Pachi_Sk_2_3",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_2_3"
+        ],
+        "PlusSkillView": "S_Pachi_Sk_2_4",
+        "IgnoreTaunt": false,
+        "Image_0": "S_Pachi_Sk_2_3\\S_Pachi_Sk_2_3_Image_0.png",
+        "Image_1": "S_Pachi_Sk_2_3\\S_Pachi_Sk_2_3_Image_1.png",
+        "Image_2": "S_Pachi_Sk_2_3\\S_Pachi_Sk_2_3_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "Except": true
+    }
+}

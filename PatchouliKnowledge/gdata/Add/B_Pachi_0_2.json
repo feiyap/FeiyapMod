@@ -1,0 +1,17 @@
+{
+    "B_Pachi_0_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "PatchouliKnowledge.B_Pachi_0_2",
+        "BuffTag": "null",
+        "Name": "生命涌现",
+        "Tick": "SE_Tick_B_Pachi_0_2",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (10)",
+        "MaxStack": 10,
+        "LifeTime": 2,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

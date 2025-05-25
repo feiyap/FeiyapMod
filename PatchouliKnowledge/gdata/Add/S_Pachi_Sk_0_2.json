@@ -1,0 +1,37 @@
+{
+    "S_Pachi_Sk_0_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "NoDrop": true,
+        "Name": "金水符「水银之毒」",
+        "Description": "每个等级的“水”使这个技能额外治疗&a点体力(治疗力的10%)。\n每个等级的“金”额外施加1层“生命涌现”。",
+        "UseAp": 2,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_0_2",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_0_2"
+        ],
+        "PlusSkillView": "S_Pachi_Sk_0_3",
+        "Except": true,
+        "IgnoreTaunt": false,
+        "Image_0": "S_Pachi_Sk_0_2\\S_Pachi_Sk_0_2_Image_0.png",
+        "Image_1": "S_Pachi_Sk_0_2\\S_Pachi_Sk_0_2_Image_1.png",
+        "Image_2": "S_Pachi_Sk_0_2\\S_Pachi_Sk_0_2_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -18,6 +18,24 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class S_Pachi_Sk_0_1:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            for (int i = 0; i < BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[0]; i++)
+            {
+                foreach (BattleChar bc in Targets)
+                {
+                    bc.BuffAdd("B_Pachi_0_1", this.BChar);
+                    bc.BuffAdd("B_Pachi_0_1_1", this.BChar);
+                }
+            }
 
+            for (int i = 0; i < BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[1]; i++)
+            {
+                foreach (BattleChar bc in Targets)
+                {
+                    bc.BuffAdd("B_Pachi_0_1_2", this.BChar);
+                }
+            }
+        }
     }
 }

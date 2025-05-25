@@ -1,0 +1,25 @@
+{
+    "S_Pachi_Sk_2_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Shield",
+        "Target": "all_ally",
+        "NoDrop": false,
+        "Name": "土水符「诺亚的大洪水」",
+        "Description": "随机解除目标持有的 1 个减益效果。每解除 1 个减益效果，施加 &a 保护罩(治疗力的20%)。\n\n每个等级的“水”使这个技能额外治疗&a点体力(治疗力的10%)。\n每个等级的“土”额外解除 1 个减益效果。",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Pachi_Sk_2_4",
+        "IgnoreTaunt": false,
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_2_4"
+        ],
+        "NotCount": false,
+        "Image_0": "S_Pachi_Sk_2_4\\S_Pachi_Sk_2_4_Image_0.png",
+        "Image_1": "S_Pachi_Sk_2_4\\S_Pachi_Sk_2_4_Image_1.png",
+        "Image_2": "S_Pachi_Sk_2_4\\S_Pachi_Sk_2_4_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "Except": true
+    }
+}

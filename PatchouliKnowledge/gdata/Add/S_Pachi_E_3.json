@@ -6,11 +6,13 @@
         "Target": "self",
         "NotCount": true,
         "Except": true,
-        "Name": "基本元素 - 火",
-        "Description": "使用时，在本次战斗期间“火”元素等级提升 1 级。\n每个等级的“火”提供2点攻击力、2%暴击率。",
+        "Name": "基本元素 - <color=#FF4500>火</color>",
+        "Description": "象征<color=#FF4500>进攻</color>的权能。\n使用时，在本次战斗期间<color=#FF4500>火</color>元素等级提升 1 级。\n每个等级的<color=#FF4500>火</color>提供1点攻击力、1%暴击率。",
         "User": "PatchouliKnowledge",
         "Image_0": "S_Pachi_E_3\\S_Pachi_E_3_Image_0.png",
         "Image_1": "S_Pachi_E_3\\S_Pachi_E_3_Image_1.png",
-        "Image_2": "S_Pachi_E_3\\S_Pachi_E_3_Image_2.png"
+        "Image_2": "S_Pachi_E_3\\S_Pachi_E_3_Image_2.png",
+        "NoDrop": false,
+        "PlusSkillView": "S_Pachi_Sk_3_3"
     }
 }

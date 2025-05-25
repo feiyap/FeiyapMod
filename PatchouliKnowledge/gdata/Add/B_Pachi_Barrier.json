@@ -1,0 +1,11 @@
+{
+    "B_Pachi_Barrier": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "元素保护罩",
+        "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_03",
+        "Description": "",
+        "LifeTime": 3
+    }
+}

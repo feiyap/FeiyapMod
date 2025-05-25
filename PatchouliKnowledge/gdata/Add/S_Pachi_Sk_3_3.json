@@ -1,0 +1,27 @@
+{
+    "S_Pachi_Sk_3_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/IronHeart/IronHeart_new_2",
+        "Target": "enemy",
+        "Name": "火符「火神之光」",
+        "Description": "这个技能无视防御。\n\n每个等级的“火”使这个技能额外造成&a点伤害(攻击力的20%)。",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Pachi_Sk_3_3",
+        "IgnoreTaunt": true,
+        "Counting": 1,
+        "NoDrop": true,
+        "NotCount": false,
+        "Except": true,
+        "PlusSkillView": "S_Pachi_Sk_3_4",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_3_3"
+        ],
+        "Image_0": "S_Pachi_Sk_3_3\\S_Pachi_Sk_3_3_Image_0.png",
+        "Image_1": "S_Pachi_Sk_3_3\\S_Pachi_Sk_3_3_Image_1.png",
+        "Image_2": "S_Pachi_Sk_3_3\\S_Pachi_Sk_3_3_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "B_Pachi_1_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "PatchouliKnowledge.B_Pachi_1_1",
+        "BuffTag": "DOT",
+        "Name": "森林大火",
+        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_32",
+        "Description": "",
+        "Tick": "SE_Tick_B_Pachi_1_1",
+        "MaxStack": 10,
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 100,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

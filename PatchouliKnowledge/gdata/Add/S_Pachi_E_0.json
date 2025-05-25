@@ -19,11 +19,12 @@
         "Fatal": false,
         "EnemyPreview": false,
         "UnknownTarget": false,
-        "Name": "基本元素 - 金",
+        "Name": "基本元素 - <color=#FFD700>金</color>",
         "User": "PatchouliKnowledge",
-        "Description": "使用时，在本次战斗期间“金”元素等级提升 1 级。\n每个等级的“金”提供10%痛苦成功率和痛苦抵抗率。",
+        "Description": "象征<color=#FFD700>控制</color>的权能。\n使用时，在本次战斗期间<color=#FFD700>金</color>元素等级提升 1 级。\n每个等级的<color=#FFD700>金</color>提供5%弱化成功率、干扰成功率和弱化抵抗率、干扰抵抗率。",
         "Image_0": "S_Pachi_E_0\\S_Pachi_E_0_Image_0.png",
         "Image_1": "S_Pachi_E_0\\S_Pachi_E_0_Image_1.png",
-        "Image_2": "S_Pachi_E_0\\S_Pachi_E_0_Image_2.png"
+        "Image_2": "S_Pachi_E_0\\S_Pachi_E_0_Image_2.png",
+        "PlusSkillView": "S_Pachi_Sk_0_0"
     }
 }

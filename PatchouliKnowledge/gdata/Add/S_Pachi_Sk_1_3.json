@@ -1,0 +1,26 @@
+{
+    "S_Pachi_Sk_1_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S2_MainBoss_1_2",
+        "Target": "all_enemy",
+        "NotCount": false,
+        "NoDrop": true,
+        "Name": "木火符「森林大火」",
+        "Description": "释放时对所有敌人造成痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。\n\n每个等级的“火”使这个技能额外造成&a点伤害(攻击力的10%)。\n每个等级的“木”额外施加1层“森林大火”。",
+        "UseAp": 2,
+        "IgnoreTaunt": false,
+        "Effect_Target": "SE_T_S_Pachi_Sk_1_3",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_1_3"
+        ],
+        "PlusSkillView": "S_Pachi_Sk_1_4",
+        "Image_0": "S_Pachi_Sk_1_3\\S_Pachi_Sk_1_3_Image_0.png",
+        "Image_1": "S_Pachi_Sk_1_3\\S_Pachi_Sk_1_3_Image_1.png",
+        "Image_2": "S_Pachi_Sk_1_3\\S_Pachi_Sk_1_3_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "Except": true
+    }
+}

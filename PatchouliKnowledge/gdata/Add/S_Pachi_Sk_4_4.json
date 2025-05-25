@@ -1,0 +1,26 @@
+{
+    "S_Pachi_Sk_4_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Shield",
+        "Target": "all_ally",
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Name": "土符「慵懒三石塔」",
+        "Description": "生成 &a 防护墙(防御力的100%)。\n\n每个等级的“土”使生成的防护墙提升 &a (防御力的20%)，额外施加 1 层“石至名归”。",
+        "UseAp": 2,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_4_4",
+        "Image_0": "S_Pachi_Sk_4_4\\S_Pachi_Sk_4_4_Image_0.png",
+        "Image_1": "S_Pachi_Sk_4_4\\S_Pachi_Sk_4_4_Image_1.png",
+        "Image_2": "S_Pachi_Sk_4_4\\S_Pachi_Sk_4_4_Image_2.png",
+        "Rare": false,
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_4_4"
+        ],
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "Except": true
+    }
+}

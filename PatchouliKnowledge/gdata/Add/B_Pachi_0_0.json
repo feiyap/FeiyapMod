@@ -1,0 +1,17 @@
+{
+    "B_Pachi_0_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "PatchouliKnowledge.B_Pachi_0_0",
+        "BuffTag": "CrowdControl",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "赝造龙鳞",
+        "Description": "攻击改为指向自己。触发后移除。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_01",
+        "Debuff": true,
+        "TagPer": 100
+    }
+}

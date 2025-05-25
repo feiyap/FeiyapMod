@@ -25,12 +25,11 @@
             ],
             [
                 "S_Pachi_E_0",
-                "S_Pachi_E_0",
-                "S_Pachi_E_0",
-                "S_Pachi_E_0",
                 "S_Pachi_E_1",
-                "S_Pachi_E_1",
-                "S_Pachi_E_1"
+                "S_Pachi_E_2",
+                "S_Pachi_E_3",
+                "S_Pachi_E_4",
+                "S_Pachi_E_7"
             ]
         ],
         "PartyEquip": [
@@ -49,6 +48,8 @@
         ],
         "LucySkill": [
             
-        ]
+        ],
+        "AP": 10,
+        "Level": 4
     }
 }

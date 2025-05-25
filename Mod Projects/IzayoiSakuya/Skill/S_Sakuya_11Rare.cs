@@ -39,10 +39,32 @@ namespace IzayoiSakuya
 
                     if (bc != null || bc.IsDead)
                     {
-                        BattleSystem.instance.StartCoroutine(BattleSystem.instance.ForceAction(skill, bc, false, false, false, null));
+                        for (int i = 0; i<count;i++)
+                        {
+                            BattleSystem.DelayInputAfter(this.Attack(bc));
+                        }
                     }
                 }
             }
+
+            BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar] = 0;
+        }
+
+        public IEnumerator Attack(BattleChar bc)
+        {
+            yield return new WaitForSecondsRealtime(0.1f);
+
+            Skill skill = Skill.TempSkill("S_Sakuya_Knife", this.BChar, this.BChar.MyTeam);
+            skill.isExcept = true;
+            skill.FreeUse = true;
+            skill.PlusHit = true;
+
+            if (bc != null || bc.IsDead)
+            {
+                this.BChar.ParticleOut(skill, bc);
+            }
+
+            yield break;
         }
 
         public override string DescExtended(string desc)

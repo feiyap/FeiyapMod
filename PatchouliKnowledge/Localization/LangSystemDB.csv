@@ -1,1 +1,3 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+System/Character/Role/Role_Mage,Text,,魔女,魔女,魔女,魔女,
+selectElement,Text,,选择想要组合的元素：,选择想要组合的元素：,选择想要组合的元素：,选择想要组合的元素：,

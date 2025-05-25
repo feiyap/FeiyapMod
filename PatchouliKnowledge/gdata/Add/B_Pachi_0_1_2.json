@@ -1,0 +1,15 @@
+{
+    "B_Pachi_0_1_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "PatchouliKnowledge.B_Pachi_0_1_2",
+        "BuffTag": "DOT",
+        "Description": "结算时，自身每有 1 层痛苦减益，使这个减益增加 1 点每回合伤害。",
+        "Name": "元素纠缠",
+        "Tick": "SE_Tick_B_Pachi_0_1_2",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (2)",
+        "MaxStack": 10,
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 100
+    }
+}

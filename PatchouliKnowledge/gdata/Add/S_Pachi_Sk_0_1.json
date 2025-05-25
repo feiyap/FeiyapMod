@@ -2,13 +2,26 @@
     "S_Pachi_Sk_0_1": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
-        "Target": "all",
+        "Particle": "Particle/Joey/Joey_0",
+        "Target": "all_enemy",
         "NotCount": false,
         "Basic": false,
         "Name": "金木符「元素收获者」",
         "Image_0": "S_Pachi_Sk_0_1\\S_Pachi_Sk_0_1_Image_0.png",
         "Image_1": "S_Pachi_Sk_0_1\\S_Pachi_Sk_0_1_Image_1.png",
-        "Image_2": "S_Pachi_Sk_0_1\\S_Pachi_Sk_0_1_Image_2.png"
+        "Image_2": "S_Pachi_Sk_0_1\\S_Pachi_Sk_0_1_Image_2.png",
+        "IgnoreTaunt": false,
+        "Description": "每个等级的“金”额外施加1层“元素异常”和“元素紊乱”。\n每个等级的“木”额外施加1层“元素纠缠”。",
+        "UseAp": 4,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_0_1",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_0_1"
+        ],
+        "PlusSkillView": "S_Pachi_Sk_0_2",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "Except": true
     }
 }

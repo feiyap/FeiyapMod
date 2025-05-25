@@ -24,7 +24,7 @@ namespace PatchouliKnowledge
 	/// <color=#919191>- 此被动从1级开始生效。</color>
 	/// <color=#919191>- 帕秋莉的技能学习不再拥有上限。</color>
 	/// </summary>
-    public class P_PatchouliKnowledge:Passive_Char, IP_BattleStart_Ones, IP_FirstDrawBefore, IP_OnSkillExcept
+    public class P_PatchouliKnowledge:Passive_Char, IP_BattleStart_Ones, IP_OnSkillExcept, IP_PlayerTurn_1, IP_PlayerTurn
     {
         public static List<string> BaseElement = new List<string>
         {
@@ -95,21 +95,50 @@ namespace PatchouliKnowledge
             this.BChar.BuffAdd("B_Pachi_P", this.BChar);
         }
 
-        public void FirstDrawBefore(List<Skill> Skills_Deck)
+        public void Turn1()
         {
-            List<Skill> CList = Skills_Deck
+            if (BattleSystem.instance.TurnNum == 1)
+            {
+                List<Skill> AList = BattleSystem.instance.AllyTeam.Skills_Deck
                         .Where(skill => skill.Master == this.BChar && (BaseElement.Contains(skill.MySkill.KeyID) || RareElement.Contains(skill.MySkill.KeyID)))
                         .ToList();
 
-            foreach (Skill sk in CList)
-            {
-                BattleSystem.instance.AllyTeam.Draw(sk, new BattleTeam.DrawInput(this.DrawInput));
+                foreach (Skill sk in AList)
+                {
+                    BattleSystem.instance.AllyTeam.Draw(sk, new BattleTeam.DrawInput(this.DrawInput));
+                }
+
+                List<Skill> BList = BattleSystem.instance.AllyTeam.Skills
+                            .Where(skill => skill.Master == this.BChar && (BaseElement.Contains(skill.MySkill.KeyID) || RareElement.Contains(skill.MySkill.KeyID)))
+                            .ToList();
+
+                foreach (Skill sk in BList)
+                {
+                    sk.Except();
+                    BattleSystem.instance.AllyTeam.Draw();
+                    BV_ExceptDeck.AddSkill(sk);
+                }
             }
         }
+
+        //public void FirstDrawBefore(List<Skill> Skills_Deck)
+        //{
+        //    BattleSystem.instance.ActWindow.On = true;
+
+        //    List<Skill> AList = BattleSystem.instance.AllyTeam.Skills_Deck
+        //            .Where(skill => skill.Master == this.BChar && (BaseElement.Contains(skill.MySkill.KeyID) || RareElement.Contains(skill.MySkill.KeyID)))
+        //            .ToList();
+
+        //    foreach (Skill sk in AList)
+        //    {
+        //        BattleSystem.instance.AllyTeam.Draw(sk, new BattleTeam.DrawInput(this.DrawInput));
+        //    }
+        //}
 
         public void DrawInput(Skill skill)
         {
             skill.Except();
+            BV_ExceptDeck.AddSkill(skill);
         }
 
         //元素技能被放逐时，提升对应元素等级
@@ -133,6 +162,22 @@ namespace PatchouliKnowledge
             }
 
             return true;
+        }
+
+        //等级到达3级时，每个回合第 1 次释放“元素祈唤”后，重置“元素祈唤”的冷却时间。
+        public void Turn()
+        {
+            this.BChar.MyTeam.BasicSkillRefill(this.BChar, this.BChar.BattleBasicskillRefill);
+
+            if (this.BChar.Info.LV >= 3)
+            {
+                this.BChar.BuffAdd("B_Pachi_P_1", this.BChar);
+            }
+
+            if (this.BChar.Info.LV >= 5)
+            {
+                this.BChar.BuffAdd("B_Pachi_P_1", this.BChar);
+            }
         }
     }
 }
