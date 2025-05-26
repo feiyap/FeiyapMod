@@ -19,7 +19,7 @@ namespace PatchouliKnowledge
 		/// <summary>
 		/// 元素紊乱
 		/// 攻击有 &a% 概率失效。
-		/// 触发后减少 1 层。
+		/// 触发后移除。
 		/// </summary>
         public static string Buff_B_Pachi_0_1_1 = "B_Pachi_0_1_1";
 		/// <summary>
@@ -52,7 +52,6 @@ namespace PatchouliKnowledge
         public static string Buff_B_Pachi_1_4 = "B_Pachi_1_4";
 		/// <summary>
 		/// 石至名归
-		/// 回合结束时减少 1 层。
 		/// </summary>
         public static string Buff_B_Pachi_4_4 = "B_Pachi_4_4";
 		/// <summary>
@@ -263,7 +262,7 @@ namespace PatchouliKnowledge
 		/// <summary>
 		/// 土符「慵懒三石塔」
 		/// 生成 &a 防护墙(防御力的100%)。
-		/// 每个等级的“土”使生成的防护墙提升 &a (防御力的20%)，额外施加 1 层“石至名归”。
+		/// 每个等级的“土”使生成的防护墙提升 &a (防御力的20%)。
 		/// </summary>
         public static string Skill_S_Pachi_Sk_4_4 = "S_Pachi_Sk_4_4";
 

@@ -21,7 +21,7 @@ namespace PatchouliKnowledge
         public override void Init()
         {
             base.Init();
-            this.PlusStat.def = -10 * StackNum;
+            this.PlusStat.def = -5 * StackNum;
         }
     }
 }

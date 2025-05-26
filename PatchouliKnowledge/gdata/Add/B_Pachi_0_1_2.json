@@ -8,7 +8,7 @@
         "Tick": "SE_Tick_B_Pachi_0_1_2",
         "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (2)",
         "MaxStack": 10,
-        "LifeTime": 4,
+        "LifeTime": 3,
         "Debuff": true,
         "TagPer": 100
     }

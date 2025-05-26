@@ -62,5 +62,10 @@ namespace PatchouliKnowledge
                 }
             }
         }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.reg * 0.1f)).ToString());
+        }
     }
 }

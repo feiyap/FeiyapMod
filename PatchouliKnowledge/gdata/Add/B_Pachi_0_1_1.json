@@ -3,11 +3,11 @@
         "_gdeSchema": "Buff",
         "ClassName": "PatchouliKnowledge.B_Pachi_0_1_1",
         "BuffTag": "CrowdControl",
-        "Description": "攻击有 &a% 概率失效。\n触发后减少 1 层。",
+        "Description": "攻击有 &a% 概率失效。\n触发后移除。",
         "Name": "元素紊乱",
         "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_01",
         "MaxStack": 10,
-        "LifeTime": 4,
+        "LifeTime": 3,
         "Debuff": true,
         "TagPer": 100
     }

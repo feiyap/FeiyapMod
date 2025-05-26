@@ -29,6 +29,9 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_1_2"
+        ]
     }
 }

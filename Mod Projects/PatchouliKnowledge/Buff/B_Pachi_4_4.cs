@@ -17,7 +17,7 @@ namespace PatchouliKnowledge
 	/// 石至名归
 	/// 回合结束时减少 1 层。
 	/// </summary>
-    public class B_Pachi_4_4:Buff, IP_TurnEnd
+    public class B_Pachi_4_4:Buff
     {
         public override void Init()
         {
@@ -25,9 +25,9 @@ namespace PatchouliKnowledge
             this.PlusStat.Strength = true;
         }
 
-        public void TurnEnd()
-        {
-            this.SelfStackDestroy();
-        }
+        //public void TurnEnd()
+        //{
+        //    this.SelfStackDestroy();
+        //}
     }
 }

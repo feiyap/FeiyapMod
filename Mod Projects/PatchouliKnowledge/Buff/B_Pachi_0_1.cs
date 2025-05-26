@@ -21,11 +21,11 @@ namespace PatchouliKnowledge
         public override void Init()
         {
             base.Init();
-            this.PlusPerStat.Damage = -10 * StackNum;
-            this.PlusStat.def = -10 * StackNum;
-            this.PlusStat.hit = -10 * StackNum;
-            this.PlusStat.cri = -10 * StackNum;
-            this.PlusStat.dod = -10 * StackNum;
+            this.PlusPerStat.Damage = -5 * StackNum;
+            this.PlusStat.def = -5 * StackNum;
+            this.PlusStat.hit = -5 * StackNum;
+            this.PlusStat.cri = -5 * StackNum;
+            this.PlusStat.dod = -5 * StackNum;
             this.PlusStat.RES_CC = 10 * StackNum;
             this.PlusStat.RES_DEBUFF = 10 * StackNum;
             this.PlusStat.RES_DOT = 10 * StackNum;

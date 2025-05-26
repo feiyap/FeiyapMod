@@ -24,13 +24,13 @@ namespace PatchouliKnowledge
         {
             this.BChar.MyTeam.partybarrier.BarrierHP += (int)((float)this.BChar.GetStat.def * (1.0f + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.2f));
 
-            for (int i = 0; i < BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4]; i++)
-            {
-                foreach (BattleChar bc in Targets)
-                {
-                    bc.BuffAdd("B_Pachi_4_4", this.BChar);
-                }
-            }
+            //for (int i = 0; i < BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4]; i++)
+            //{
+            //    foreach (BattleChar bc in Targets)
+            //    {
+            //        bc.BuffAdd("B_Pachi_4_4", this.BChar);
+            //    }
+            //}
         }
 
         public override string DescExtended(string desc)

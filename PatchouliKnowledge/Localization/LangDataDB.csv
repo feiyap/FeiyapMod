@@ -3,7 +3,7 @@ Buff/B_Pachi_0_0_1_Name,Text,,,,,金属疲劳,
 Buff/B_Pachi_0_0_Description,Text,,,,,攻击改为指向自己。触发后移除。,
 Buff/B_Pachi_0_0_Name,Text,,,,,赝造龙鳞,
 Buff/B_Pachi_0_1_1_Description,Text,,,,,"攻击有 &a% 概率失效。
-触发后减少 1 层。",
+触发后移除。",
 Buff/B_Pachi_0_1_1_Name,Text,,,,,元素紊乱,
 Buff/B_Pachi_0_1_2_Description,Text,,,,,结算时，自身每有 1 层痛苦减益，使这个减益增加 1 点每回合伤害。,
 Buff/B_Pachi_0_1_2_Name,Text,,,,,元素纠缠,
@@ -17,7 +17,7 @@ Buff/B_Pachi_1_2_Name,Text,,,,,活水之精,
 Buff/B_Pachi_1_4_Description,Text,,,,,"回合结束时恢复 &a 点体力值(&user防御力的50%)。
 受到伤害时生成 &a 保护罩(&user防御力的50%)，并减少 1 层。",
 Buff/B_Pachi_1_4_Name,Text,,,,,活体护甲,
-Buff/B_Pachi_4_4_Description,Text,,,,,回合结束时减少 1 层。,
+Buff/B_Pachi_4_4_Description,Text,,,,,,
 Buff/B_Pachi_4_4_Name,Text,,,,,石至名归,
 Buff/B_Pachi_Barrier_Description,Text,,,,,,
 Buff/B_Pachi_Barrier_Name,Text,,,,,元素保护罩,
@@ -138,5 +138,5 @@ Skill/S_Pachi_Sk_3_4_Description,Text,,,,,"同时攻击与技能目标嘲讽状�
 Skill/S_Pachi_Sk_3_4_Name,Text,,,,,火土符「环状熔岩带」,
 Skill/S_Pachi_Sk_4_4_Description,Text,,,,,"生成 &a 防护墙(防御力的100%)。
 
-每个等级的“土”使生成的防护墙提升 &a (防御力的20%)，额外施加 1 层“石至名归”。",
+每个等级的“土”使生成的防护墙提升 &a (防御力的20%)。",
 Skill/S_Pachi_Sk_4_4_Name,Text,,,,,土符「慵懒三石塔」,

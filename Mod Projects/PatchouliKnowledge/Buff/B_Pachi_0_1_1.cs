@@ -25,7 +25,7 @@ namespace PatchouliKnowledge
             if (RandomManager.RandomPer(this.BChar.GetRandomClass().Main, 100, (int)(10 * StackNum)))
             {
                 Targets.Clear();
-                this.SelfStackDestroy();
+                this.SelfDestroy();
             }
         }
 
@@ -36,6 +36,17 @@ namespace PatchouliKnowledge
                 return this.BuffData.Description.Replace("&a", (10).ToString());
             }
             return this.BuffData.Description.Replace("&a", ((int)(10 * StackNum)).ToString());
+        }
+
+        public override void SelfdestroyPlus()
+        {
+            base.SelfdestroyPlus();
+            this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_CCRsis, this.BChar, false, 0, false, -1, false);
+            this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_CCRsis, this.BChar, false, 0, false, -1, false);
+            this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_CCRsis, this.BChar, false, 0, false, -1, false);
+            this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_CCRsis, this.BChar, false, 0, false, -1, false);
+            this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_CCRsis, this.BChar, false, 0, false, -1, false);
+            this.BChar.BuffAdd(GDEItemKeys.Buff_B_Common_CCRsis, this.BChar, false, 0, false, -1, false);
         }
     }
 }
