@@ -7,6 +7,11 @@
         "Name": "活水之精",
         "Icon": "Image/Buff/Skill_Icon_Pack/2_0/Leryn_0",
         "MaxStack": 10,
-        "LifeTime": 2
+        "LifeTime": 2,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

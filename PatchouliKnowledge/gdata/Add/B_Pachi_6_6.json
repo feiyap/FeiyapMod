@@ -1,0 +1,11 @@
+{
+    "B_Pachi_6_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "PatchouliKnowledge.B_Pachi_6_6",
+        "BuffTag": "null",
+        "Name": "月之面纱",
+        "Description": "隐匿。\n使用自己的技能时解除。",
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/4"
+    }
+}

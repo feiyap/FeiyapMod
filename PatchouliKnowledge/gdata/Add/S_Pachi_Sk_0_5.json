@@ -1,0 +1,20 @@
+{
+    "S_Pachi_Sk_0_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/ProgramMaster_Attack",
+        "Rare": true,
+        "Target": "all_enemy",
+        "NotCount": false,
+        "Except": false,
+        "Name": "日金符「地狱火」",
+        "Description": "在场上召唤 1 个地狱火。",
+        "UseAp": 3,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_0_5",
+        "PlusSkillView": "S_Pachi_Sk_1_5",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_0_5"
+        ]
+    }
+}

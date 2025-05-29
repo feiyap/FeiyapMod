@@ -1,0 +1,19 @@
+{
+    "S_Pachi_Sk_2_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_onetarget",
+        "NotCount": true,
+        "NoDrop": true,
+        "Name": "月水符「潮汐引力」",
+        "UseAp": 1,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_2_6",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_2_6"
+        ],
+        "PlusSkillView": "S_Pachi_Sk_3_6"
+    }
+}

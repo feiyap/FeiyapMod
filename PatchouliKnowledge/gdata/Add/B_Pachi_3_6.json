@@ -1,0 +1,14 @@
+{
+    "B_Pachi_3_6": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "PatchouliKnowledge.B_Pachi_3_6",
+        "BuffTag": "null",
+        "Name": "熔损彗星",
+        "Description": "体力值低于13%时立即死亡。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (62)",
+        "Debuff": true,
+        "TagPer": 0,
+        "LifeTime": 4
+    }
+}

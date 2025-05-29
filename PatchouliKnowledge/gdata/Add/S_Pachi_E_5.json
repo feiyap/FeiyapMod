@@ -24,6 +24,8 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "PlusSkillView": "S_Pachi_Sk_0_5",
+        "User": "PatchouliKnowledge"
     }
 }

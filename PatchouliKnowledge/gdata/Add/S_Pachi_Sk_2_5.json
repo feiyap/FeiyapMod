@@ -1,0 +1,15 @@
+{
+    "S_Pachi_Sk_2_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "NoDrop": true,
+        "Name": "日水符「氢化日珥」",
+        "UseAp": 2,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_2_5",
+        "PlusSkillView": "S_Pachi_Sk_3_5"
+    }
+}

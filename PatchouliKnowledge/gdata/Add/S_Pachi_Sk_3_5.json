@@ -1,0 +1,17 @@
+{
+    "S_Pachi_Sk_3_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/TW_Red_BlackSun",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": false,
+        "NoDrop": true,
+        "Name": "日火符「伽马流射线」",
+        "Description": "击杀敌人时，抽取 1 个技能，并使这个技能造成的伤害永久提升 1.1 倍。\n当前触发次数：&a\n当前提升倍数：&b",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Pachi_Sk_3_5",
+        "PlusSkillView": "S_Pachi_Sk_4_5",
+        "IgnoreTaunt": false
+    }
+}

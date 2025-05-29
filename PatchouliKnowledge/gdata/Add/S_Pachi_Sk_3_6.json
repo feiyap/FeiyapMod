@@ -1,0 +1,22 @@
+{
+    "S_Pachi_Sk_3_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/TW_RR",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": false,
+        "NoDrop": true,
+        "IgnoreTaunt": true,
+        "Name": "月火符「燃烧的哈雷」",
+        "UseAp": 2,
+        "Description": "同时指向目标左边和右边的敌人。",
+        "Counting": 2,
+        "Except": false,
+        "Effect_Target": "SE_T_S_Pachi_Sk_3_6",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_3_6"
+        ],
+        "PlusSkillView": "S_Pachi_Sk_4_6"
+    }
+}

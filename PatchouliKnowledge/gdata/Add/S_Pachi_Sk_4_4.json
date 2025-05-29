@@ -7,7 +7,7 @@
         "NoDrop": true,
         "IgnoreTaunt": false,
         "Name": "土符「慵懒三石塔」",
-        "Description": "生成 &a 防护墙(防御力的100%)。\n\n每个等级的“土”使生成的防护墙提升 &a (防御力的20%)。",
+        "Description": "生成 &a 防护墙(防御力的100%)。\n\n每个等级的“土”使生成的防护墙提升 &b (防御力的20%)。",
         "UseAp": 2,
         "NotCount": true,
         "Effect_Target": "SE_T_S_Pachi_Sk_4_4",

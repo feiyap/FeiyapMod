@@ -94,7 +94,6 @@ Skill/S_Pachi_Sk_0_4_Description,Text,,,,,"施加 &a 点保护罩(防御力的50
 每个等级的“土”额外施加&b点保护罩(防御力的10%)。",
 Skill/S_Pachi_Sk_0_4_Name,Text,,,,,土金符「翡翠巨石」,
 Skill/S_Pachi_Sk_1_1_Description,Text,,,,,"使目标持有的所有痛苦减益扩散至其他敌人。
-指向敌人时，若只存在 1 个敌人，使目标持有的所有痛苦减益持续时间翻倍。
 
 每个等级的“木”额外施加1层“森林大火”。",
 Skill/S_Pachi_Sk_1_1_Name,Text,,,,,木符「风灵的角笛」,
@@ -138,5 +137,5 @@ Skill/S_Pachi_Sk_3_4_Description,Text,,,,,"同时攻击与技能目标嘲讽状�
 Skill/S_Pachi_Sk_3_4_Name,Text,,,,,火土符「环状熔岩带」,
 Skill/S_Pachi_Sk_4_4_Description,Text,,,,,"生成 &a 防护墙(防御力的100%)。
 
-每个等级的“土”使生成的防护墙提升 &a (防御力的20%)。",
+每个等级的“土”使生成的防护墙提升 &b (防御力的20%)。",
 Skill/S_Pachi_Sk_4_4_Name,Text,,,,,土符「慵懒三石塔」,

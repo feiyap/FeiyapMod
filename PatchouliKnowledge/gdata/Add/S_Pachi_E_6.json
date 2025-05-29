@@ -13,6 +13,11 @@
         "Image_0": "S_Pachi_E_6\\S_Pachi_E_6_Image_0.png",
         "Image_1": "S_Pachi_E_6\\S_Pachi_E_6_Image_1.png",
         "Image_2": "S_Pachi_E_6\\S_Pachi_E_6_Image_2.png",
-        "NoDrop": false
+        "NoDrop": false,
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_E_6"
+        ],
+        "PlusSkillView": "S_Pachi_Sk_0_6",
+        "User": "PatchouliKnowledge"
     }
 }

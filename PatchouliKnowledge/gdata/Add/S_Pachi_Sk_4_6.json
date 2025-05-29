@@ -1,0 +1,20 @@
+{
+    "S_Pachi_Sk_4_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all_ally",
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Name": "月土符「阿波罗12号」",
+        "UseAp": 12,
+        "Rare": true,
+        "Description": "每次使用手中的技能时减少 1 点费用。",
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_4_6",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_4_6"
+        ],
+        "PlusSkillView": "S_Pachi_Sk_5_6"
+    }
+}

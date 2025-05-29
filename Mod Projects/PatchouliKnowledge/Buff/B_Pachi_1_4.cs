@@ -30,7 +30,7 @@ namespace PatchouliKnowledge
         public void TurnEnd()
         {
             int num = (int)this.Usestate_F.GetStat.def * (int)(0.5 + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.1);
-            this.BChar.Heal(this.Usestate_F, 0, num, 0);
+            this.BChar.Heal(this.Usestate_F, num, false, false, null);
         }
 
         public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)

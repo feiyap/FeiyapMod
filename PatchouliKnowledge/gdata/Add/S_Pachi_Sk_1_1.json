@@ -6,7 +6,7 @@
         "Target": "enemy",
         "NoDrop": true,
         "Name": "木符「风灵的角笛」",
-        "Description": "使目标持有的所有痛苦减益扩散至其他敌人。\n指向敌人时，若只存在 1 个敌人，使目标持有的所有痛苦减益持续时间翻倍。\n\n每个等级的“木”额外施加1层“森林大火”。",
+        "Description": "使目标持有的所有痛苦减益扩散至其他敌人。\n\n每个等级的“木”额外施加1层“森林大火”。",
         "UseAp": 2,
         "NotCount": true,
         "IgnoreTaunt": true,

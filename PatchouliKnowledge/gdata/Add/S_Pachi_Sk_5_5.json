@@ -1,0 +1,19 @@
+{
+    "S_Pachi_Sk_5_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/Hel_2",
+        "Rare": true,
+        "Target": "all_enemy",
+        "NotCount": true,
+        "NoDrop": true,
+        "Name": "日符「皇家烈焰」",
+        "Description": "根据这场战斗中自身使用过手中的技能的次数，重复释放这个技能。\n当前次数：&a",
+        "UseAp": 3,
+        "Effect_Target": "SE_T_S_Pachi_Sk_5_5",
+        "PlusSkillView": "S_Pachi_Sk_5_6",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_5_5"
+        ]
+    }
+}

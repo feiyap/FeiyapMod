@@ -1,7 +1,7 @@
 {
     "PatchouliKnowledge": {
         "_gdeSchema": "Character",
-        "Role": "Role_Mage",
+        "Role": "Role_DPS",
         "PassiveClassName": "PatchouliKnowledge.P_PatchouliKnowledge",
         "PassiveUnlockLV1": true,
         "face": "PatchouliKnowledge\\PatchouliKnowledgeBattleFace.png",

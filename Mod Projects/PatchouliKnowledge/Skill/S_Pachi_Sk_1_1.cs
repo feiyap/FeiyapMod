@@ -42,18 +42,6 @@ namespace PatchouliKnowledge
                 }
             }
 
-            if (Targets.Count == 1)
-            {
-                List<Buff> buffs = Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.DOT, false, false);
-                foreach (Buff buff in Targets[0].Buffs)
-                {
-                    foreach (StackBuff stackBuff in buff.StackInfo)
-                    {
-                        stackBuff.RemainTime *= 2;
-                    }
-                }
-            }
-
             for (int i = 0; i < BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[1]; i++)
             {
                 foreach (BattleChar bc in Targets)

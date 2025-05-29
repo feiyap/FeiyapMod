@@ -1,0 +1,21 @@
+{
+    "S_Pachi_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NoDrop": false,
+        "Name": "元素萃取",
+        "Description": "抽取 2 个技能。\n展示放逐牌库中所有“基本元素”技能，选择其中 1 个，在手中生成其复制。\n展示放逐牌库中所有“魔法书”技能，选择其中 1 个，在手中生成其复制。",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "PatchouliKnowledge",
+        "Image_0": "S_Pachi_LucyD\\S_Pachi_LucyD_Image_0.png",
+        "Image_1": "S_Pachi_LucyD\\S_Pachi_LucyD_Image_1.png",
+        "Image_2": "S_Pachi_LucyD\\S_Pachi_LucyD_Image_2.png",
+        "Disposable": false,
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_LucyD"
+        ]
+    }
+}

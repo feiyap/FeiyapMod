@@ -4,7 +4,7 @@
         "HIT": 100,
         "ForceHeal": false,
         "ChainHeal": false,
-        "HEAL_Per": 110,
+        "HEAL_Per": 55,
         "Buffs": [
             "B_Pachi_1_2"
         ],

@@ -1,0 +1,19 @@
+{
+    "S_Pachi_Sk_1_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "Misc",
+        "NotCount": true,
+        "NoDrop": true,
+        "IgnoreTaunt": false,
+        "Name": "月木符「卫星向日葵」",
+        "Description": "本次战斗期间最大法力值增加 1 点。",
+        "UseAp": 1,
+        "PlusSkillView": "S_Pachi_Sk_2_6",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_1_6"
+        ]
+    }
+}

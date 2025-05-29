@@ -48,5 +48,11 @@ namespace PatchouliKnowledge
         {
             return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.1f)).ToString());
         }
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * (0.1 * BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[3]));
+        }
     }
 }

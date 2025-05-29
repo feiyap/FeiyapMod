@@ -1,0 +1,18 @@
+{
+    "S_Pachi_Sk_6_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "NoDrop": true,
+        "Name": "月符「沉静的月神」",
+        "Description": "",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Pachi_Sk_6_6",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_6_6"
+        ]
+    }
+}

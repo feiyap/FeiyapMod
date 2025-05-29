@@ -2,6 +2,6 @@
     "SE_Tick_B_Pachi_1_2": {
         "_gdeSchema": "SkillEffect",
         "HEAL_Base": 0,
-        "HEAL_Per": 20
+        "HEAL_Per": 10
     }
 }

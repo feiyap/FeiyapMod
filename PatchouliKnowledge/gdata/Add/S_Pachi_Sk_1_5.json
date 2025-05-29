@@ -1,0 +1,18 @@
+{
+    "S_Pachi_Sk_1_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "Misc",
+        "NoDrop": true,
+        "Name": "日木符「光合作用」",
+        "Description": "本次战斗期间每回合抽牌次数增加 1 点。",
+        "UseAp": 1,
+        "NotCount": true,
+        "PlusSkillView": "S_Pachi_Sk_2_5",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_1_5"
+        ]
+    }
+}

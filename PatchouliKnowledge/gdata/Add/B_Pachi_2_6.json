@@ -1,0 +1,14 @@
+{
+    "B_Pachi_2_6": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "PatchouliKnowledge.B_Pachi_2_6",
+        "BuffTag": "null",
+        "Description": "与距离最近的单位链接（优先向右寻找）；\n受到单体技能时，会同时对链接目标重复释放 1 次。",
+        "Name": "潮汐引力",
+        "Icon": "Image/Buff/Skill_Icon_Pack/2024 0412 DLC/Watery debuff",
+        "LifeTime": 2,
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

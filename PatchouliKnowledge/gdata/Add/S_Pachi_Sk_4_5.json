@@ -1,0 +1,16 @@
+{
+    "S_Pachi_Sk_4_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NoDrop": true,
+        "Name": "日土符「戴森球」",
+        "Rare": true,
+        "Description": "抽取 1 个技能。",
+        "UseAp": 2,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Pachi_Sk_4_5",
+        "PlusSkillView": "S_Pachi_Sk_5_5"
+    }
+}

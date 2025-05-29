@@ -1,0 +1,12 @@
+{
+    "B_Pachi_4_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "PatchouliKnowledge.B_Pachi_4_5",
+        "BuffTag": "null",
+        "Name": "戴森球",
+        "Description": "永久有效\n到达 5 层时，额外提升100%暴击率。",
+        "MaxStack": 5,
+        "Cantdisable": true,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_51/TW_Red_Buff"
+    }
+}
