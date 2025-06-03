@@ -26,7 +26,7 @@ namespace PatchouliKnowledge
             P_PatchouliKnowledge.firstskill = null;
             P_PatchouliKnowledge.secondskill = null;
 
-            List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.Master == this.BChar));
+            List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.MySkill.KeyID != "S_Pachi_P"));
 
             List<Skill> CList = excDeck
                 .Where(skill => P_PatchouliKnowledge.BaseElement.Contains(skill.MySkill.KeyID) || P_PatchouliKnowledge.RareElement.Contains(skill.MySkill.KeyID))
@@ -41,7 +41,7 @@ namespace PatchouliKnowledge
         {
             P_PatchouliKnowledge.firstskill = Mybutton.Myskill;
 
-            List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.Master == this.BChar));
+            List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.MySkill.KeyID != "S_Pachi_P"));
 
             List<Skill> CList = excDeck
                 .Where(skill => P_PatchouliKnowledge.BaseElement.Contains(skill.MySkill.KeyID) || P_PatchouliKnowledge.RareElement.Contains(skill.MySkill.KeyID))

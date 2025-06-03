@@ -8,11 +8,11 @@ Buff/B_Pachi_0_1_1_Description,Text,,,"Attacks have a &a% chance to fail.
 Removes after triggering.",,"攻击有 &a% 概率失效。
 触发后移除。",
 Buff/B_Pachi_0_1_1_Name,Text,,,Elemental Disorder,,元素紊乱,
-Buff/B_Pachi_0_1_2_Description,Text,,,"When resolving, for each stack of Agony on self, increase this debuff's damage per turn by 1.",,结算时，自身每有 1 层痛苦减益，使这个减益增加 1 点每回合伤害。,
+Buff/B_Pachi_0_1_2_Description,Text,,,"When resolving, for each stack of Pain on self, increase this debuff's damage per turn by 1.",,结算时，自身每有 1 层痛苦减益，使这个减益增加 1 点每回合伤害。,
 Buff/B_Pachi_0_1_2_Name,Text,,,Elemental Entanglement,,元素纠缠,
 Buff/B_Pachi_0_1_Name,Text,,,Elemental Anomaly,,元素异常,
 Buff/B_Pachi_0_2_Name,Text,,,Life Surge,,生命涌现,
-Buff/B_Pachi_0_4_Description,Text,,,"Blocks Disruption or Weaken debuffs that allies fail to resist. After triggering, or after taking &a damage (50% of &user's Defense), loses 1 stack.",,抵挡友军未能抵抗的干扰减益或弱化减益。触发后，或受到&a点伤害(&user防御力的50%)后减少 1 层。,
+Buff/B_Pachi_0_4_Description,Text,,,"Blocks CC or Weaken debuffs that allies fail to resist. After triggering, or after taking &a damage (50% of &user's Defense), loses 1 stack.",,抵挡友军未能抵抗的干扰减益或弱化减益。触发后，或受到&a点伤害(&user防御力的50%)后减少 1 层。,
 Buff/B_Pachi_0_4_Name,Text,,,Stone Guardian,,巨石护卫,
 Buff/B_Pachi_1_1_Description,Text,,,,,,
 Buff/B_Pachi_1_1_Name,Text,,,Forest Wildfire,,森林大火,
@@ -117,13 +117,13 @@ Skill/S_Infernal_0_Description,Text,,,Ignores Defense.,,无视防御。,
 Skill/S_Infernal_0_Name,Text,,,Flaming Fist,,烈焰之拳,
 Skill/S_Pachi_E_0_Description,Text,,,"Symbolizes the authority of <color=#FFD700>Control</color>.
 When used, increases <color=#FFD700>Metal</color> element level by 1 for this battle.
-Each level of <color=#FFD700>Metal</color> grants 5% Weaken Success, Disruption Success, Weaken Resist, and Disruption Resist.",,"象征<color=#FFD700>控制</color>的权能。
+Each level of <color=#FFD700>Metal</color> grants 5% Weaken Success, CC Success, Weaken Resist, and CC Resist.",,"象征<color=#FFD700>控制</color>的权能。
 使用时，在本次战斗期间<color=#FFD700>金</color>元素等级提升 1 级。
 每个等级的<color=#FFD700>金</color>提供5%弱化成功率、干扰成功率和弱化抵抗率、干扰抵抗率。",
 Skill/S_Pachi_E_0_Name,Text,,,Basic Element - <color=#FFD700>Metal</color>,,基本元素 - <color=#FFD700>金</color>,
 Skill/S_Pachi_E_1_Description,Text,,,"Symbolizes the authority of <color=#228B22>Persistence</color>.
 When used, increases <color=#228B22>Wood</color> element level by 1 for this battle.
-Each level of <color=#228B22>Wood</color> grants 5% Agony Success and Agony Resist.",,"象征<color=#228B22>持续</color>的权能。
+Each level of <color=#228B22>Wood</color> grants 5% Pain Success and Pain Resist.",,"象征<color=#228B22>持续</color>的权能。
 使用时，在本次战斗期间<color=#228B22>木</color>元素等级提升 1 级。
 每个等级的<color=#228B22>木</color>提供5%痛苦成功率和痛苦抵抗率。",
 Skill/S_Pachi_E_1_Name,Text,,,Basic Element - <color=#228B22>Wood</color>,,基本元素 - <color=#228B22>木</color>,
@@ -149,13 +149,13 @@ Skill/S_Pachi_E_5_Description,Text,,,"Symbolizes the authority of <color=#FFA500
 When used, increases <color=#FFA500>Sun</color> element level by 1 for this battle.
 Each level of <color=#FFA500>Sun</color> grants 50% Critical Damage.",,"象征<color=#FFA500>财富</color>的权能。
 使用时，在本次战斗期间<color=#FFA500>日</color>元素等级提升 1 级。
-每个等级的<color=#FFA500>日</color>提供每回合额外抽取1个技能。",
+每个等级的<color=#FFA500>日</color>提供50%暴击伤害。",
 Skill/S_Pachi_E_5_Name,Text,,,Advanced Element - <color=#FFA500>Sun</color>,,高级元素 - <color=#FFA500>日</color>,
 Skill/S_Pachi_E_6_Description,Text,,,"Symbolizes the authority of <color=#6A5ACD>Authority</color>.
 When used, increases <color=#6A5ACD>Moon</color> element level by 1 for this battle.
 Each level of <color=#6A5ACD>Moon</color> grants 20% Damage Taken Reduce.",,"象征<color=#6A5ACD>权力</color>的权能。
 使用时，在本次战斗期间<color=#6A5ACD>月</color>元素等级提升 1 级。
-每个等级的<color=#6A5ACD>月</color>提供1点额外最大法力值。",
+每个等级的<color=#6A5ACD>月</color>提供20%受到伤害量降低。",
 Skill/S_Pachi_E_6_Name,Text,,,Advanced Element - <color=#6A5ACD>Moon</color>,,高级元素 - <color=#6A5ACD>月</color>,
 Skill/S_Pachi_E_7_Description,Text,,,"At the start of battle, placed at the top of the deck.
 Draw 1 skill. Gain 1 level each of <color=#FFD700>Metal</color>, <color=#228B22>Wood</color>, <color=#00BFFF>Water</color>, <color=#FF4500>Fire</color>, and <color=#8B7355>Earth</color>.",,"战斗开始时，放在牌库最上方。
@@ -167,7 +167,9 @@ Reveal all exiled Magic Book skills, choose 1, and create a copy in hand.",,"抽
 展示放逐牌库中所有“基本元素”技能，选择其中 1 个，在手中生成其复制。
 展示放逐牌库中所有“魔法书”技能，选择其中 1 个，在手中生成其复制。",
 Skill/S_Pachi_LucyD_Name,Text,,,Elemental Extraction,,元素萃取,
-Skill/S_Pachi_P_Description,Text,,,"Select 2 Elemental attributes from the exiled deck, combine them, and obtain the corresponding Spell Card skill.",,从放逐牌库中选择2种“元素”属性，将其组合后获得对应的符卡技能。,
+Skill/S_Pachi_P_Description,Text,,,"Select 2 Elemental attributes from the exiled deck, combine them, and obtain the corresponding Spell Card skill.
+Spell Card skills created by combining ""Advanced Elements"" can only be formed once per battle.",,"从放逐牌库中选择2种“元素”属性，将其组合后获得对应的符卡技能。
+使用“高级元素”组合出来的符卡技能，每场战斗仅限组合 1 次。",
 Skill/S_Pachi_P_Name,Text,,,Elemental Invocation,,元素祈唤,
 Skill/S_Pachi_Sk_0_0_Description,Text,,,Each level of Metal applies an additional stack of Metal Fatigue.,,每个等级的“金”额外施加 1 层“金属疲劳”。,
 Skill/S_Pachi_Sk_0_0_Name,Text,,,Metal Sign "Silver Dragon",,金符「银龙」,
@@ -199,7 +201,7 @@ If the target is a Boss, stuns for 1 turn instead.",,"将目标变为一只人�
 若目标是友军，还会驱散所有减益效果，且恢复 2 点法力值。
 若目标是Boss，则改为眩晕 1 回合。",
 Skill/S_Pachi_Sk_0_6_Name,Text,,,Moon-Metal Sign "Sunlight Reflector",,月金符「日光反射器」,
-Skill/S_Pachi_Sk_1_1_Description,Text,,,"Spreads all Agony debuffs on the target to other enemies.
+Skill/S_Pachi_Sk_1_1_Description,Text,,,"Spreads all Pain debuffs on the target to other enemies.
 
 Each level of Wood applies an additional stack of Forest Wildfire.",,"使目标持有的所有痛苦减益扩散至其他敌人。
 
@@ -213,7 +215,7 @@ Each level of Wood applies an additional stack of Living Water Essence.",,"释�
 每个等级的“水”使这个技能额外治疗&a点体力(治疗力的10%)。
 每个等级的“木”额外施加1层“活水之精”。",
 Skill/S_Pachi_Sk_1_2_Name,Text,,,Water-Wood Sign "Water Spirit",,水木符「水精灵」,
-Skill/S_Pachi_Sk_1_3_Description,Text,,,"When cast, deals Agony damage to all enemies equal to the per-turn damage of debuffs they hold.
+Skill/S_Pachi_Sk_1_3_Description,Text,,,"When cast, deals Pain damage to all enemies equal to the per-turn damage of debuffs they hold.
 
 Each level of Fire deals an additional &a damage (10% of Attack).
 Each level of Wood applies an additional stack of Forest Wildfire.",,"释放时对所有敌人造成痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。
@@ -284,9 +286,9 @@ Current damage: &c",,"击杀敌人时，抽取 1 个技能，并使这个技能�
 Skill/S_Pachi_Sk_3_5_Name,Text,,,Sun-Fire Sign "Gamma Ray",,日火符「伽马流射线」,
 Skill/S_Pachi_Sk_3_6_Description,Text,,,Attacks all enemies with the same Taunt status as the target.,,同时攻击与技能目标嘲讽状态相同的所有敌人。,
 Skill/S_Pachi_Sk_3_6_Name,Text,,,Moon-Fire Sign "Burning Halley",,月火符「燃烧的哈雷」,
-Skill/S_Pachi_Sk_4_4_Description,Text,,,"Creates &a Barrier (100% of Defense).
+Skill/S_Pachi_Sk_4_4_Description,Text,,,"Creates &a Party Barrier (100% of Defense).
 
-Each level of Earth increases Barrier by &b (20% of Defense).",,"生成 &a 防护墙(防御力的100%)。
+Each level of Earth increases Party Barrier by &b (20% of Defense).",,"生成 &a 防护墙(防御力的100%)。
 
 每个等级的“土”使生成的防护墙提升 &b (防御力的20%)。",
 Skill/S_Pachi_Sk_4_4_Name,Text,,,Earth Sign "Lazy Trilithon",,土符「慵懒三石塔」,

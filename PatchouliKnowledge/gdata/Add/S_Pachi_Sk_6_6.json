@@ -19,7 +19,6 @@
         "HealSkill": false,
         "Disposable": false,
         "IgnoreTaunt": false,
-        "Except": false,
         "NoBasicSkill": false,
         "Basic": false,
         "Track": false,
@@ -32,6 +31,7 @@
         "Image_2": "S_Pachi_Sk_6_6\\S_Pachi_Sk_6_6_Image_2.png",
         "PlusCustomKeywords": [
             "NoExceptDeck"
-        ]
+        ],
+        "Except": true
     }
 }

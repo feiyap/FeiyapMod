@@ -15,12 +15,12 @@
         "SkillExtended": [
             "PatchouliKnowledge.S_Pachi_Sk_5_5"
         ],
-        "Except": false,
         "Image_0": "S_Pachi_Sk_5_5\\S_Pachi_Sk_5_5_Image_0.png",
         "Image_1": "S_Pachi_Sk_5_5\\S_Pachi_Sk_5_5_Image_1.png",
         "Image_2": "S_Pachi_Sk_5_5\\S_Pachi_Sk_5_5_Image_2.png",
         "PlusCustomKeywords": [
             "NoExceptDeck"
-        ]
+        ],
+        "Except": true
     }
 }

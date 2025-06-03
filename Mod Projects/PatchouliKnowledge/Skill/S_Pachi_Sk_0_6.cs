@@ -43,13 +43,11 @@ namespace PatchouliKnowledge
                 if (RandomManager.RandomPer(this.BChar.GetRandomClass().Main, 100, 50))
                 {
                     BattleEnemy battleEnemy = Targets[0] as BattleEnemy;
-                    GDEEnemyData gdeenemyData = new GDEEnemyData("Enemy_Pachi_Zhu");
+                    GDEEnemyData gdeenemyData = new GDEEnemyData("E_Pachi_Zhu");
                     GameObject gameObject = battleEnemy.gameObject;
                     gameObject.SetActive(true);
                     BattleEnemy component = gameObject.GetComponent<BattleEnemy>();
                     component.init(gdeenemyData, BattleSystem.instance);
-
-                    battleEnemy.BuffAdd("B_FVAlice_Rabbit_P", this.BChar);
                 }
                 else
                 {

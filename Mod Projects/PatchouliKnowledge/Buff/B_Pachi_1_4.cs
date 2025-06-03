@@ -23,13 +23,13 @@ namespace PatchouliKnowledge
         public override void Init()
         {
             base.Init();
-            this.PlusStat.def = 25 + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[1] * 10;
+            this.PlusStat.def = 25 + BattleSystem.instance?.GetBattleValue<BV_Pachi_P>()?.elementLevel[1] ?? 0 * 10;
             this.PlusStat.spd = -1;
         }
 
         public void TurnEnd()
         {
-            int num = (int)this.Usestate_F.GetStat.def * (int)(0.5 + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.1);
+            int num = (int)(this.Usestate_F.GetStat.def * (0.5 + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.1));
             this.BChar.Heal(this.Usestate_F, num, false, false, null);
         }
 
@@ -37,7 +37,7 @@ namespace PatchouliKnowledge
         {
             if (Target == this.BChar && Dmg > 0)
             {
-                int num = (int)this.Usestate_F.GetStat.def * (int)(0.5 + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.1);
+                int num = (int)(this.Usestate_F.GetStat.def * (0.5 + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.1));
                 this.BChar.BuffAdd("B_Pachi_Barrier", this.Usestate_F).BarrierHP += num;
                 this.SelfStackDestroy();
             }

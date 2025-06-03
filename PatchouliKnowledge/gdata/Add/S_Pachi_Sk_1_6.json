@@ -20,6 +20,7 @@
         "Image_2": "S_Pachi_Sk_1_6\\S_Pachi_Sk_1_6_Image_2.png",
         "PlusCustomKeywords": [
             "NoExceptDeck"
-        ]
+        ],
+        "Except": true
     }
 }

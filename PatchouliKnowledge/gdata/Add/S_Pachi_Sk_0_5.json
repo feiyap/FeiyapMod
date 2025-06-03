@@ -6,7 +6,7 @@
         "Rare": true,
         "Target": "all_enemy",
         "NotCount": false,
-        "Except": false,
+        "Except": true,
         "Name": "日金符「地狱火」",
         "Description": "在场上召唤 1 个地狱火。",
         "UseAp": 3,
@@ -18,6 +18,9 @@
         ],
         "Image_0": "S_Pachi_Sk_0_5\\S_Pachi_Sk_0_5_Image_0.png",
         "Image_1": "S_Pachi_Sk_0_5\\S_Pachi_Sk_0_5_Image_1.png",
-        "Image_2": "S_Pachi_Sk_0_5\\S_Pachi_Sk_0_5_Image_2.png"
+        "Image_2": "S_Pachi_Sk_0_5\\S_Pachi_Sk_0_5_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ]
     }
 }

@@ -15,13 +15,13 @@
         ],
         "Effect_Target": "null",
         "IgnoreTaunt": false,
-        "Except": false,
         "Image_0": "S_Pachi_Sk_5_6\\S_Pachi_Sk_5_6_Image_0.png",
         "Image_1": "S_Pachi_Sk_5_6\\S_Pachi_Sk_5_6_Image_1.png",
         "Image_2": "S_Pachi_Sk_5_6\\S_Pachi_Sk_5_6_Image_2.png",
         "EnemyPreview": false,
         "PlusCustomKeywords": [
             "NoExceptDeck"
-        ]
+        ],
+        "Except": true
     }
 }

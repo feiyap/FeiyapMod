@@ -436,11 +436,11 @@ namespace PatchouliKnowledge
     {
 		/// <summary>
 		/// Korean:
-		/// 魔女
+		/// Mage
 		/// English:
-		/// 魔女
+		/// Mage
 		/// Japanese:
-		/// 魔女
+		/// Mage
 		/// Chinese:
 		/// 魔女
 		/// Chinese-TW:

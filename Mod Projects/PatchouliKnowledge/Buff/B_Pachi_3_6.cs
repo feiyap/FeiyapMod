@@ -23,7 +23,7 @@ namespace PatchouliKnowledge
         {
             if (Char == this.BChar)
             {
-                if (this.BChar.HP <= this.BChar.GetStat.maxhp * 0.13)
+                if (this.BChar.HP <= this.BChar.GetStat.maxhp * 0.13 && this.BChar.HP > 0)
                 {
                     this.BChar.HPToZero();
                 }

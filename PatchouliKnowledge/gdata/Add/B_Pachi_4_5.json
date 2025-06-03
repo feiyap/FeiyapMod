@@ -8,6 +8,9 @@
         "MaxStack": 5,
         "Cantdisable": true,
         "Icon": "Image/Buff/Skill_Icon_Pack/1_51/TW_Red_Buff",
-        "Hide": false
+        "Hide": false,
+        "IsFieldBuff": true,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

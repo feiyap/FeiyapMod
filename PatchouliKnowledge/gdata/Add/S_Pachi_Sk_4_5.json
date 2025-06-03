@@ -12,7 +12,6 @@
         "NotCount": true,
         "Effect_Target": "SE_T_S_Pachi_Sk_4_5",
         "PlusSkillView": "S_Pachi_Sk_5_6",
-        "Except": false,
         "SkillExtended": [
             "PatchouliKnowledge.S_Pachi_Sk_4_5"
         ],
@@ -22,6 +21,7 @@
         "IgnoreTaunt": false,
         "PlusCustomKeywords": [
             "NoExceptDeck"
-        ]
+        ],
+        "Except": true
     }
 }

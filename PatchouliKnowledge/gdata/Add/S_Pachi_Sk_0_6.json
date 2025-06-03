@@ -4,20 +4,23 @@
         "Category": "null",
         "Particle": "Particle/Buff",
         "Rare": true,
-        "Target": "enemy",
+        "Target": "all_onetarget",
         "NoDrop": true,
         "Name": "月金符「日光反射器」",
         "Description": "将目标变为一只人畜无害的小动物。\n若目标是友军，还会驱散所有减益效果，且恢复 2 点法力值。\n若目标是Boss，则改为眩晕 1 回合。",
         "UseAp": 3,
         "NotCount": true,
         "IgnoreTaunt": true,
-        "Except": false,
+        "Except": true,
         "SkillExtended": [
             "PatchouliKnowledge.S_Pachi_Sk_0_6"
         ],
         "PlusSkillView": "S_Pachi_Sk_1_6",
         "Image_0": "S_Pachi_Sk_0_6\\S_Pachi_Sk_0_6_Image_0.png",
         "Image_1": "S_Pachi_Sk_0_6\\S_Pachi_Sk_0_6_Image_1.png",
-        "Image_2": "S_Pachi_Sk_0_6\\S_Pachi_Sk_0_6_Image_2.png"
+        "Image_2": "S_Pachi_Sk_0_6\\S_Pachi_Sk_0_6_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ]
     }
 }

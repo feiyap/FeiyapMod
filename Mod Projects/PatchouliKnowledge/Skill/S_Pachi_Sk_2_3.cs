@@ -40,6 +40,14 @@ namespace PatchouliKnowledge
         
         public override string DescExtended(string desc)
         {
+            if (BattleSystem.instance == null)
+            {
+                return base.DescExtended(desc).Replace("&a", (0).ToString())
+                                          .Replace("&b", (0).ToString())
+                                          .Replace("&d", (0).ToString())
+                                          .Replace("&c", (1 + 0).ToString())
+                                          .Replace("&e", (0).ToString());
+            }
             return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.reg * 0.45f)).ToString())
                                           .Replace("&b", ((int)(this.BChar.GetStat.atk * 0.05f)).ToString())
                                           .Replace("&d", ((int)(this.BChar.GetStat.reg * 0.05f)).ToString())

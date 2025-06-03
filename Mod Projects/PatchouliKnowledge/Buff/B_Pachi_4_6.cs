@@ -22,7 +22,7 @@ namespace PatchouliKnowledge
         {
             base.Init();
             this.PlusStat.Strength = true;
-            this.PlusStat.maxhp = 70;
+            this.PlusPerStat.MaxHP = 70;
         }
     }
 }

@@ -12,7 +12,6 @@
         "UseAp": 2,
         "Description": "同时攻击与技能目标嘲讽状态相同的所有敌人。",
         "Counting": 2,
-        "Except": false,
         "Effect_Target": "SE_T_S_Pachi_Sk_3_6",
         "SkillExtended": [
             "PatchouliKnowledge.S_Pachi_Sk_3_6"
@@ -33,6 +32,7 @@
         "Image_2": "S_Pachi_Sk_3_6\\S_Pachi_Sk_3_6_Image_2.png",
         "PlusCustomKeywords": [
             "NoExceptDeck"
-        ]
+        ],
+        "Except": true
     }
 }

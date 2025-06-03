@@ -38,7 +38,7 @@ namespace PatchouliKnowledge
                 Target.Heal(this.BChar, Dmg, false, false, null);
             }
 
-            if (this.BChar.GetStat.atk * 3 + this.SkillBasePlus.Target_BaseHeal < 0)
+            if (this.BChar.GetStat.atk * 3 + this.SkillBasePlus.Target_BaseHeal <= 0)
             {
                 foreach (CastingSkill castingSkill in BattleSystem.instance.CastSkills)
                 {
