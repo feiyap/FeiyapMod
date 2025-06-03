@@ -1,0 +1,17 @@
+{
+    "B_NymphPrimal_R1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "NymphPrimal.B_NymphPrimal_R1",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "梦与醒之间",
+        "Description": "场上存在该减益时，<sprite=0>心像凋亡满层改为施加？？？\r\n等待时，对随机友军施加一层？？？",
+        "Debuff": true,
+        "TagPer": 0,
+        "Icon": "B_NymphPrimal_R1\\B_NymphPrimal_R1_Icon.png"
+    }
+}

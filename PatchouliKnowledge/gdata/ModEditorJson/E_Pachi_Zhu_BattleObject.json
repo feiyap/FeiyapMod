@@ -1,0 +1,28 @@
+{
+    "myKey": "E_Pachi_Zhu",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "E_Pachi_Zhu\\E_Pachi_ZhuMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.517159045,
+            "y": -0.39321506
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.5307223,
+            "y": 0.0046082437
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "B_Pachi_2_6_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "PatchouliKnowledge.B_Pachi_2_6_1",
+        "BuffTag": "null",
+        "Name": "引力潮汐",
+        "Icon": "Image/Buff/Skill_Icon_Pack/2024 0412 DLC/Watery debuff",
+        "Debuff": true,
+        "TagPer": 0,
+        "Cantdisable": true,
+        "Description": "被“潮汐引力”连接。"
+    }
+}

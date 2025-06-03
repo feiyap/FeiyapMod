@@ -1,0 +1,15 @@
+{
+    "B_Pachi_1_5": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "PatchouliKnowledge.B_Pachi_1_5",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "光合作用",
+        "Description": "本次战斗期间每回合抽牌次数增加1点。",
+        "MaxStack": 5
+    }
+}

@@ -17,8 +17,17 @@ namespace PatchouliKnowledge
 	/// 熔损彗星
 	/// 体力值低于13%时立即死亡。
 	/// </summary>
-    public class B_Pachi_3_6:Buff
+    public class B_Pachi_3_6:Buff, IP_HPChange
     {
-
+        public void HPChange(BattleChar Char, bool Healed)
+        {
+            if (Char == this.BChar)
+            {
+                if (this.BChar.HP <= this.BChar.GetStat.maxhp * 0.13)
+                {
+                    this.BChar.HPToZero();
+                }
+            }
+        }
     }
 }

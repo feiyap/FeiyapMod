@@ -28,7 +28,7 @@ namespace PatchouliKnowledge
             {
                 foreach (BattleChar bc in Targets)
                 {
-                    bc.BuffAdd("B_Pachi_0_3", this.BChar);
+                    bc.BuffAdd("B_Pachi_0_0_1", this.BChar);
                 }
             }
         }

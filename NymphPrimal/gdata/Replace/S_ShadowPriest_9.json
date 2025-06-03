@@ -1,0 +1,8 @@
+{
+    "S_ShadowPriest_9": {
+        "_gdeSchema": "Skill",
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

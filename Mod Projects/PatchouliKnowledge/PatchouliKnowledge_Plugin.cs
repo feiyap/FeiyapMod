@@ -74,4 +74,51 @@ namespace PatchouliKnowledge
             return true;
         }
     }
+
+    //切换区域后重新施加区域BUFF
+    [HarmonyPatch(typeof(FieldSystem))]
+    [HarmonyPatch("NextStage")]
+    public static class NextStage_Plugin
+    {
+        public static List<string> BuffIDList = new List<string>
+        {
+            "B_Pachi_3_5",
+            "B_Pachi_4_5"
+        };
+
+        public static Dictionary<Buff, int> buffList = new Dictionary<Buff, int> { };
+
+        [HarmonyPrefix]
+        public static void NextStage_Prefix(FieldSystem __instance)
+        {
+            buffList.Clear();
+            foreach (Character character in PlayData.TSavedata.Party)
+            {
+                foreach (Buff buff in character.Buffs_Field)
+                {
+                    if (BuffIDList.Exists(t => t == buff.BuffData.Key))
+                    {
+                        buffList.Add(buff, buff.StackNum);
+                    }
+                }
+            }
+        }
+
+        [HarmonyPostfix]
+        public static void NextStage_Postfix(FieldSystem __instance)
+        {
+            foreach (Character character in PlayData.TSavedata.Party)
+            {
+                foreach (KeyValuePair<Buff, int> kvp in buffList)
+                {
+                    Buff buff = kvp.Key;
+                    int value = kvp.Value;
+                    for (int i = 0; i < value; i++)
+                    {
+                        character.Buff_FieldAdd(buff.BuffData.Key);
+                    }
+                }
+            }
+        }
+    }
 }

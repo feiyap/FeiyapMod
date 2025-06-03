@@ -11,7 +11,7 @@
         "UseAp": 1,
         "NotCount": true,
         "Effect_Target": "SE_T_S_Pachi_Sk_1_2",
-        "PlusSkillView": "S_Pachi_Sk_1_3",
+        "PlusSkillView": "S_Pachi_Sk_2_4",
         "Image_0": "S_Pachi_Sk_1_2\\S_Pachi_Sk_1_2_Image_0.png",
         "Image_1": "S_Pachi_Sk_1_2\\S_Pachi_Sk_1_2_Image_1.png",
         "Image_2": "S_Pachi_Sk_1_2\\S_Pachi_Sk_1_2_Image_2.png",

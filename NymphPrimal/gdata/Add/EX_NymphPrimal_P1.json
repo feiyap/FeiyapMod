@@ -1,0 +1,10 @@
+{
+    "EX_NymphPrimal_P1": {
+        "_gdeSchema": "SkillExtended",
+        "Des": "转移窥心钥，抽一张牌。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "NymphPrimal",
+        "ClassName": "NymphPrimal.EX_NymphPrimal_P1"
+    }
+}

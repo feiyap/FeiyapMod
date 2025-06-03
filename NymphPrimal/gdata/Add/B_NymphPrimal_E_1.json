@@ -1,0 +1,20 @@
+{
+    "B_NymphPrimal_E_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NymphPrimal.B_NymphPrimal_E_1",
+        "BuffTag": "DOT",
+        "Name": "心像凋亡爆发",
+        "Debuff": true,
+        "TagPer": 999,
+        "LifeTime": 5,
+        "Description": "每回合伤害结算后减少一层。",
+        "Tick": "SE_Tick_B_NymphPrimal_E_1",
+        "MaxStack": 4,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_NymphPrimal_E_1\\B_NymphPrimal_E_1_Icon.png"
+    }
+}

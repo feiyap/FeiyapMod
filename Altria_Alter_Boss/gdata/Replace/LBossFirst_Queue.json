@@ -1,0 +1,17 @@
+{
+    "LBossFirst_Queue": {
+        "_gdeSchema": "EnemyQueue",
+        "CustomBGM": false,
+        "UseCustomPosition": false,
+        "Enemys": [
+            "FGO_Altria_Alter_B"
+        ],
+        "Pos": [
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        ]
+    }
+}

@@ -1,12 +1,12 @@
 {
     "PatchouliKnowledge": {
         "_gdeSchema": "Character",
-        "Role": "Role_DPS",
+        "Role": "Role_Mage",
         "PassiveClassName": "PatchouliKnowledge.P_PatchouliKnowledge",
         "PassiveUnlockLV1": true,
         "face": "PatchouliKnowledge\\PatchouliKnowledgeBattleFace.png",
         "name": "帕秋莉",
-        "SelectInfo": "",
+        "SelectInfo": "帕秋莉·诺蕾姬是全才全能的魔女，不论是进攻、治疗、辅助、削弱或是保护都能胜任。\n\n通过学习不同的“基础元素”，帕秋莉能够获得与之相应的属性值。在战斗中，帕秋莉还能够自由组合这些元素，构筑出庞大的技能网络。无论是面对什么样的情况，都能使用相符的技能轻松应对。通过“黄金技能书”学习的“高级元素”，更是能创造绚烂多样的全新技能。\n\n拜倒在七曜大魔女的才华之下吧！",
         "Gender": 1,
         "MAXHP": {
             "x": 21,
@@ -45,6 +45,48 @@
         "StatView_CC": 3,
         "StatView_Dot": 3,
         "StatView_Difficult": 3,
-        "FixedBasicSkill": "S_Pachi_P"
+        "FixedBasicSkill": "S_Pachi_P",
+        "CampSD": [
+            "PatchouliKnowledge\\PatchouliKnowledgeCampSD0.png",
+            "PatchouliKnowledge\\PatchouliKnowledgeCampSD1.png",
+            "PatchouliKnowledge\\PatchouliKnowledgeCampSD2.png",
+            "PatchouliKnowledge\\PatchouliKnowledgeCampSD3.png"
+        ],
+        "CampSelectWord": "出门什么的好麻烦……算了，只此一次……",
+        "Text_Battle_Idle": [
+            "唔嗯……让我想想……",
+            "用什么法术打败他们好呢……"
+        ],
+        "Text_Battle_ND": [
+            "是我能力不足吗……"
+        ],
+        "Text_Battle_Kill": [
+            "拜倒在我的魔法之下吧。",
+            "你也化作元素的一部分吧。"
+        ],
+        "Text_Battle_Start": [
+            "不好意思，能别打扰我吗？",
+            "真的好麻烦啊……"
+        ],
+        "Text_Battle_Cri": [
+            "七曜五行皆听我号令！"
+        ],
+        "Text_Field_Idle": [
+            "没事的话，我可以回去吗……？不行？为什么？",
+            "咳咳咳……没什么，只是老毛病犯了……"
+        ],
+        "Text_Field_GetItem": [
+            "财宝……魔理沙说不定会很喜欢吧。"
+        ],
+        "Text_Witch": [
+            "你也自称是魔女？真是可笑，现在什么人都能做魔女了吗？",
+            "卑劣的老鼠……"
+        ],
+        "Text_PharosLeader": [
+            "心灵控制？你不会觉得这东西对我有……………………",
+            "………………有用吧……？……咦？",
+            ""
+        ],
+        "Text_MasterTarget": "露西，和你一起旅行到这里很愉快。呵呵，就让魔女做魔女该做的事吧。"
     }
 }

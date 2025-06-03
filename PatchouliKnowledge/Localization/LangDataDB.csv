@@ -1,30 +1,64 @@
-Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-Buff/B_Pachi_0_0_1_Name,Text,,,,,金属疲劳,
-Buff/B_Pachi_0_0_Description,Text,,,,,攻击改为指向自己。触发后移除。,
-Buff/B_Pachi_0_0_Name,Text,,,,,赝造龙鳞,
-Buff/B_Pachi_0_1_1_Description,Text,,,,,"攻击有 &a% 概率失效。
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Infernal_P_Description,Text,,,"At the start of each turn, deal &a damage to all allies (33% of Attack).",,每个回合开始时，对所有队友造成 &a 伤害(攻击力的33%)。,
+Buff/B_Infernal_P_Name,Text,,,Permanent Sacrifice,,永久献祭,
+Buff/B_Pachi_0_0_1_Name,Text,,,Metal Fatigue,,金属疲劳,
+Buff/B_Pachi_0_0_Description,Text,,,Targets self instead. Removes after triggering.,,攻击改为指向自己。触发后移除。,
+Buff/B_Pachi_0_0_Name,Text,,,Fake Dragon Scales,,赝造龙鳞,
+Buff/B_Pachi_0_1_1_Description,Text,,,"Attacks have a &a% chance to fail.
+Removes after triggering.",,"攻击有 &a% 概率失效。
 触发后移除。",
-Buff/B_Pachi_0_1_1_Name,Text,,,,,元素紊乱,
-Buff/B_Pachi_0_1_2_Description,Text,,,,,结算时，自身每有 1 层痛苦减益，使这个减益增加 1 点每回合伤害。,
-Buff/B_Pachi_0_1_2_Name,Text,,,,,元素纠缠,
-Buff/B_Pachi_0_1_Name,Text,,,,,元素异常,
-Buff/B_Pachi_0_2_Name,Text,,,,,生命涌现,
-Buff/B_Pachi_0_4_Description,Text,,,,,抵挡友军未能抵抗的干扰减益或弱化减益。触发后，或受到&a点伤害(&user防御力的50%)后减少 1 层。,
-Buff/B_Pachi_0_4_Name,Text,,,,,巨石护卫,
+Buff/B_Pachi_0_1_1_Name,Text,,,Elemental Disorder,,元素紊乱,
+Buff/B_Pachi_0_1_2_Description,Text,,,"When resolving, for each stack of Agony on self, increase this debuff's damage per turn by 1.",,结算时，自身每有 1 层痛苦减益，使这个减益增加 1 点每回合伤害。,
+Buff/B_Pachi_0_1_2_Name,Text,,,Elemental Entanglement,,元素纠缠,
+Buff/B_Pachi_0_1_Name,Text,,,Elemental Anomaly,,元素异常,
+Buff/B_Pachi_0_2_Name,Text,,,Life Surge,,生命涌现,
+Buff/B_Pachi_0_4_Description,Text,,,"Blocks Disruption or Weaken debuffs that allies fail to resist. After triggering, or after taking &a damage (50% of &user's Defense), loses 1 stack.",,抵挡友军未能抵抗的干扰减益或弱化减益。触发后，或受到&a点伤害(&user防御力的50%)后减少 1 层。,
+Buff/B_Pachi_0_4_Name,Text,,,Stone Guardian,,巨石护卫,
 Buff/B_Pachi_1_1_Description,Text,,,,,,
-Buff/B_Pachi_1_1_Name,Text,,,,,森林大火,
-Buff/B_Pachi_1_2_Name,Text,,,,,活水之精,
-Buff/B_Pachi_1_4_Description,Text,,,,,"回合结束时恢复 &a 点体力值(&user防御力的50%)。
+Buff/B_Pachi_1_1_Name,Text,,,Forest Wildfire,,森林大火,
+Buff/B_Pachi_1_2_Name,Text,,,Living Water Essence,,活水之精,
+Buff/B_Pachi_1_4_Description,Text,,,"At the end of the turn, restores &a HP (50% of &user's Defense).
+When taking damage, generates &a Shield (50% of &user's Defense) and loses 1 stack.",,"回合结束时恢复 &a 点体力值(&user防御力的50%)。
 受到伤害时生成 &a 保护罩(&user防御力的50%)，并减少 1 层。",
-Buff/B_Pachi_1_4_Name,Text,,,,,活体护甲,
+Buff/B_Pachi_1_4_Name,Text,,,Living Armor,,活体护甲,
+Buff/B_Pachi_1_5_Description,Text,,,Increases card draws per turn by 1 for this battle.,,本次战斗期间每回合抽牌次数增加1点。,
+Buff/B_Pachi_1_5_Name,Text,,,Photosynthesis,,光合作用,
+Buff/B_Pachi_1_6_Description,Text,,,Increases max Mana by 1 for this battle.,,本次战斗期间最大法力值增加1点。,
+Buff/B_Pachi_1_6_Name,Text,,,Satellite Sunflower,,卫星向日葵,
+Buff/B_Pachi_2_6_1_Description,Text,,,Linked by "Tidal Gravitation.",,被“潮汐引力”连接。,
+Buff/B_Pachi_2_6_1_Name,Text,,,Gravitational Tide,,引力潮汐,
+Buff/B_Pachi_2_6_Description,Text,,,"Links to the nearest unit (prioritizes rightward search).
+When hit by a single-target skill, repeats the skill once on the linked target.",,"与距离最近的单位链接（优先向右寻找）；
+受到单体技能时，会同时对链接目标重复释放 1 次。",
+Buff/B_Pachi_2_6_Name,Text,,,Tidal Gravitation,,潮汐引力,
+Buff/B_Pachi_3_5_Name,Text,,,Gamma Ray,,伽马流射线,
+Buff/B_Pachi_3_6_Description,Text,,,Dies immediately if HP falls below 13%.,,体力值低于13%时立即死亡。,
+Buff/B_Pachi_3_6_Name,Text,,,Melting Comet,,熔损彗星,
 Buff/B_Pachi_4_4_Description,Text,,,,,,
-Buff/B_Pachi_4_4_Name,Text,,,,,石至名归,
+Buff/B_Pachi_4_4_Name,Text,,,Stone's Reputation,,石至名归,
+Buff/B_Pachi_4_5_Description,Text,,,"Permanently active.
+At 5 stacks, grants an additional 100% Crit Rate.",,"永久有效
+到达 5 层时，额外提升100%暴击率。",
+Buff/B_Pachi_4_5_Name,Text,,,Dyson Sphere,,戴森球,
+Buff/B_Pachi_4_6_Name,Text,,,Moon Landing Project,,登月计划,
+Buff/B_Pachi_6_6_1_Description,Text,,,"When pressing the End Turn button, gains ""Veil of the Moon.""",,按下回合结束按钮时，获得“月之面纱”。,
+Buff/B_Pachi_6_6_1_Name,Text,,,Dark Side of the Moon,,月之暗面,
+Buff/B_Pachi_6_6_Description,Text,,,Removed when using own skills.,,使用自己的技能时解除。,
+Buff/B_Pachi_6_6_Name,Text,,,Veil of the Moon,,月之面纱,
 Buff/B_Pachi_Barrier_Description,Text,,,,,,
-Buff/B_Pachi_Barrier_Name,Text,,,,,元素保护罩,
-Buff/B_Pachi_P_1_Description,Text,,,,,"释放「元素祈唤」时重置冷却时间。
+Buff/B_Pachi_Barrier_Name,Text,,,Elemental Shield,,元素保护罩,
+Buff/B_Pachi_P_1_Description,Text,,,"Resets cooldown when casting Elemental Invocation.
+Loses 1 stack after triggering.",,"释放「元素祈唤」时重置冷却时间。
 触发后减少 1 层。",
-Buff/B_Pachi_P_1_Name,Text,,,,,元素充盈,
-Buff/B_Pachi_P_Description,Text,,,,,"当前元素等级：
+Buff/B_Pachi_P_1_Name,Text,,,Elemental Surge,,元素充盈,
+Buff/B_Pachi_P_Description,Text,,,"Current Element Levels:
+Metal - &a
+Wood - &b
+Water - &c
+Fire - &d
+Earth - &e
+Sun - &f
+Moon - &g",,"当前元素等级：
 金 - &a
 木 - &b
 水 - &c
@@ -32,8 +66,16 @@ Buff/B_Pachi_P_Description,Text,,,,,"当前元素等级：
 土 - &e
 日 - &f
 月 - &g",
-Buff/B_Pachi_P_Name,Text,,,,,元素精华,
-Character/PatchouliKnowledge_PassiveDes,Text,,,,,"<b>知识与避世的少女</b> - 战斗开始时，在本次战斗期间放逐自己的所有“元素”技能。每个被放逐的“元素”技能会转化为“元素”属性，重复转化的“元素”属性会提升属性的等级。
+Buff/B_Pachi_P_Name,Text,,,Elemental Essence,,元素精华,
+Character/PatchouliKnowledge_CampSelectWord,Text,,,"It's such a pain in the ass to get out and stuff ...... Forget it, just this once ......",,出门什么的好麻烦……算了，只此一次……,
+Character/PatchouliKnowledge_PassiveDes,Text,,,"<b>Knowledge and Reclusive Maiden</b> - At the start of battle, exile all own Elemental skills for this battle. Each exiled Elemental skill is converted into an Elemental attribute. Repeated conversions increase the attribute's level.
+
+<b>Ability to Use Magic</b> - <b>Fixed ability replaced with Elemental Invocation.</b>
+At Level 3, the first cast of Elemental Invocation per turn resets its cooldown.
+At Level 5, the reset count increases to 2 per turn.
+
+<color=#919191>- This passive activates from Level 1.</color>
+<color=#919191>- Patchouli's normal skill learning no longer has a cap.</color>",,"<b>知识与避世的少女</b> - 战斗开始时，在本次战斗期间放逐自己的所有“元素”技能。每个被放逐的“元素”技能会转化为“元素”属性，重复转化的“元素”属性会提升属性的等级。
 
 <b>使用魔法程度的能力</b> - <b>固定能力替换为「元素祈唤」。</b>
 等级到达3级时，每个回合第 1 次释放「元素祈唤」后，重置「元素祈唤」的冷却时间。
@@ -41,101 +83,228 @@ Character/PatchouliKnowledge_PassiveDes,Text,,,,,"<b>知识与避世的少女</b
 
 <color=#919191>- 此被动从1级开始生效。</color>
 <color=#919191>- 帕秋莉的普通技能学习不再拥有上限。</color>",
-Character/PatchouliKnowledge_PassiveName,Text,,,,,不动的大图书馆,
-Character/PatchouliKnowledge_SelectInfo,Text,,,,,,
-Character/PatchouliKnowledge_name,Text,,,,,帕秋莉,
-Skill/S_Pachi_E_0_Description,Text,,,,,"象征<color=#FFD700>控制</color>的权能。
+Character/PatchouliKnowledge_PassiveName,Text,,,The Immovable Great Library,,不动的大图书馆,
+Character/PatchouliKnowledge_SelectInfo,Text,,,"Patchouli Knowledge is an all-round witch, capable of excelling in offense, healing, support, debuffing, and protection.
+
+By studying different ""Basic Elements,"" Patchouli gains corresponding attribute values. In battle, she can freely combine these elements to construct a vast network of skills, allowing her to effortlessly adapt to any situation. The ""Advanced Elements"" learned through the ""Golden Skillbook"" can even create dazzling and diverse new skills.
+
+Bow before the genius of the Sevenfold Star Witch!",,"帕秋莉·诺蕾姬是全才全能的魔女，不论是进攻、治疗、辅助、削弱或是保护都能胜任。
+
+通过学习不同的“基础元素”，帕秋莉能够获得与之相应的属性值。在战斗中，帕秋莉还能够自由组合这些元素，构筑出庞大的技能网络。无论是面对什么样的情况，都能使用相符的技能轻松应对。通过“黄金技能书”学习的“高级元素”，更是能创造绚烂多样的全新技能。
+
+拜倒在七曜大魔女的才华之下吧！",
+Character/PatchouliKnowledge_Text_Battle_Cri_0,Text,,,"""The Seven Luminaries and Five Elements all heed my command!""",,七曜五行皆听我号令！,
+Character/PatchouliKnowledge_Text_Battle_Idle_0,Text,,,"""Hmm… Let me think…""",,唔嗯……让我想想……,
+Character/PatchouliKnowledge_Text_Battle_Idle_1,Text,,,"""What spell should I use to defeat them…?""",,用什么法术打败他们好呢……,
+Character/PatchouliKnowledge_Text_Battle_Kill_0,Text,,,"""Kneel before my magic!""",,拜倒在我的魔法之下吧。,
+Character/PatchouliKnowledge_Text_Battle_Kill_1,Text,,,"""Become part of the elements yourself!""",,你也化作元素的一部分吧。,
+Character/PatchouliKnowledge_Text_Battle_ND_0,Text,,,"""Was I not skilled enough…?""",,是我能力不足吗……,
+Character/PatchouliKnowledge_Text_Battle_Start_0,Text,,,"""Excuse me, could you not disturb me?""",,不好意思，能别打扰我吗？,
+Character/PatchouliKnowledge_Text_Battle_Start_1,Text,,,"""This is really troublesome…""",,真的好麻烦啊……,
+Character/PatchouliKnowledge_Text_Field_GetItem_0,Text,,,"""Treasure… Marisa might like this.""",,财宝……魔理沙说不定会很喜欢吧。,
+Character/PatchouliKnowledge_Text_Field_Idle_0,Text,,,"""If there's nothing else, may I go back…? No? Why?""",,没事的话，我可以回去吗……？不行？为什么？,
+Character/PatchouliKnowledge_Text_Field_Idle_1,Text,,,"""Cough, cough… It's nothing, just an old ailment acting up…""",,咳咳咳……没什么，只是老毛病犯了……,
+Character/PatchouliKnowledge_Text_MasterTarget,Text,,,"""Lucy, traveling this far with you has been pleasant. Heh, let a witch do what a witch must.""",,露西，和你一起旅行到这里很愉快。呵呵，就让魔女做魔女该做的事吧。,
+Character/PatchouliKnowledge_Text_PharosLeader_0,Text,,,"""Mind control? You don’t actually think that would work on me………………""",,心灵控制？你不会觉得这东西对我有……………………,
+Character/PatchouliKnowledge_Text_PharosLeader_1,Text,,,"""………………Right…? …Huh?""",,………………有用吧……？……咦？,
+Character/PatchouliKnowledge_Text_PharosLeader_2,Text,,,,,,
+Character/PatchouliKnowledge_Text_Witch_0,Text,,,"""You call yourself a witch too? How laughable—can just anyone be a witch these days?""",,你也自称是魔女？真是可笑，现在什么人都能做魔女了吗？,
+Character/PatchouliKnowledge_Text_Witch_1,Text,,,"""Vermin…""",,卑劣的老鼠……,
+Character/PatchouliKnowledge_name,Text,,,Patchouli,,帕秋莉,
+Enemy/E_Pachi_Infernal_name,Text,,,Hellfire,,地狱火,
+Enemy/E_Pachi_Zhu_name,Text,,,zhu,,zhu,
+Skill/S_Infernal_0_Description,Text,,,Ignores Defense.,,无视防御。,
+Skill/S_Infernal_0_Name,Text,,,Flaming Fist,,烈焰之拳,
+Skill/S_Pachi_E_0_Description,Text,,,"Symbolizes the authority of <color=#FFD700>Control</color>.
+When used, increases <color=#FFD700>Metal</color> element level by 1 for this battle.
+Each level of <color=#FFD700>Metal</color> grants 5% Weaken Success, Disruption Success, Weaken Resist, and Disruption Resist.",,"象征<color=#FFD700>控制</color>的权能。
 使用时，在本次战斗期间<color=#FFD700>金</color>元素等级提升 1 级。
 每个等级的<color=#FFD700>金</color>提供5%弱化成功率、干扰成功率和弱化抵抗率、干扰抵抗率。",
-Skill/S_Pachi_E_0_Name,Text,,,,,基本元素 - <color=#FFD700>金</color>,
-Skill/S_Pachi_E_1_Description,Text,,,,,"象征<color=#228B22>持续</color>的权能。
+Skill/S_Pachi_E_0_Name,Text,,,Basic Element - <color=#FFD700>Metal</color>,,基本元素 - <color=#FFD700>金</color>,
+Skill/S_Pachi_E_1_Description,Text,,,"Symbolizes the authority of <color=#228B22>Persistence</color>.
+When used, increases <color=#228B22>Wood</color> element level by 1 for this battle.
+Each level of <color=#228B22>Wood</color> grants 5% Agony Success and Agony Resist.",,"象征<color=#228B22>持续</color>的权能。
 使用时，在本次战斗期间<color=#228B22>木</color>元素等级提升 1 级。
 每个等级的<color=#228B22>木</color>提供5%痛苦成功率和痛苦抵抗率。",
-Skill/S_Pachi_E_1_Name,Text,,,,,基本元素 - <color=#228B22>木</color>,
-Skill/S_Pachi_E_2_Description,Text,,,,,"象征<color=#00BFFF>治疗</color>的权能。
+Skill/S_Pachi_E_1_Name,Text,,,Basic Element - <color=#228B22>Wood</color>,,基本元素 - <color=#228B22>木</color>,
+Skill/S_Pachi_E_2_Description,Text,,,"Symbolizes the authority of <color=#00BFFF>Healing</color>.
+When used, increases <color=#00BFFF>Water</color> element level by 1 for this battle.
+Each level of <color=#00BFFF>Water</color> grants 1 Healing Power and 1% Evasion.",,"象征<color=#00BFFF>治疗</color>的权能。
 使用时，在本次战斗期间<color=#00BFFF>水</color>元素等级提升 1 级。
 每个等级的<color=#00BFFF>水</color>提供1点治疗力、1%闪避率。",
-Skill/S_Pachi_E_2_Name,Text,,,,,基本元素 - <color=#00BFFF>水</color>,
-Skill/S_Pachi_E_3_Description,Text,,,,,"象征<color=#FF4500>进攻</color>的权能。
+Skill/S_Pachi_E_2_Name,Text,,,Basic Element - <color=#00BFFF>Water</color>,,基本元素 - <color=#00BFFF>水</color>,
+Skill/S_Pachi_E_3_Description,Text,,,"Symbolizes the authority of <color=#FF4500>Offense</color>.
+When used, increases <color=#FF4500>Fire</color> element level by 1 for this battle.
+Each level of <color=#FF4500>Fire</color> grants 1 Attack and 1% Crit Rate.",,"象征<color=#FF4500>进攻</color>的权能。
 使用时，在本次战斗期间<color=#FF4500>火</color>元素等级提升 1 级。
 每个等级的<color=#FF4500>火</color>提供1点攻击力、1%暴击率。",
-Skill/S_Pachi_E_3_Name,Text,,,,,基本元素 - <color=#FF4500>火</color>,
-Skill/S_Pachi_E_4_Description,Text,,,,,"象征<color=#8B7355>保护</color>的权能。
+Skill/S_Pachi_E_3_Name,Text,,,Basic Element - <color=#FF4500>Fire</color>,,基本元素 - <color=#FF4500>火</color>,
+Skill/S_Pachi_E_4_Description,Text,,,"Symbolizes the authority of <color=#8B7355>Protection</color>.
+When used, increases <color=#8B7355>Earth</color> element level by 1 for this battle.
+Each level of <color=#8B7355>Earth</color> grants 4% Defense.",,"象征<color=#8B7355>保护</color>的权能。
 使用时，在本次战斗期间<color=#8B7355>土</color>元素等级提升 1 级。
 每个等级的<color=#8B7355>土</color>提供4%防御力。",
-Skill/S_Pachi_E_4_Name,Text,,,,,基本元素 - <color=#8B7355>土</color>,
-Skill/S_Pachi_E_5_Description,Text,,,,,"象征<color=#FFA500>财富</color>的权能。
+Skill/S_Pachi_E_4_Name,Text,,,Basic Element - <color=#8B7355>Earth</color>,,基本元素 - <color=#8B7355>土</color>,
+Skill/S_Pachi_E_5_Description,Text,,,"Symbolizes the authority of <color=#FFA500>Wealth</color>.
+When used, increases <color=#FFA500>Sun</color> element level by 1 for this battle.
+Each level of <color=#FFA500>Sun</color> grants 50% Critical Damage.",,"象征<color=#FFA500>财富</color>的权能。
 使用时，在本次战斗期间<color=#FFA500>日</color>元素等级提升 1 级。
 每个等级的<color=#FFA500>日</color>提供每回合额外抽取1个技能。",
-Skill/S_Pachi_E_5_Name,Text,,,,,高级元素 - <color=#FFA500>日</color>,
-Skill/S_Pachi_E_6_Description,Text,,,,,"象征<color=#6A5ACD>权力</color>的权能。
+Skill/S_Pachi_E_5_Name,Text,,,Advanced Element - <color=#FFA500>Sun</color>,,高级元素 - <color=#FFA500>日</color>,
+Skill/S_Pachi_E_6_Description,Text,,,"Symbolizes the authority of <color=#6A5ACD>Authority</color>.
+When used, increases <color=#6A5ACD>Moon</color> element level by 1 for this battle.
+Each level of <color=#6A5ACD>Moon</color> grants 20% Damage Taken Reduce.",,"象征<color=#6A5ACD>权力</color>的权能。
 使用时，在本次战斗期间<color=#6A5ACD>月</color>元素等级提升 1 级。
 每个等级的<color=#6A5ACD>月</color>提供1点额外最大法力值。",
-Skill/S_Pachi_E_6_Name,Text,,,,,高级元素 - <color=#6A5ACD>月</color>,
-Skill/S_Pachi_E_7_Description,Text,,,,,"战斗开始时，放在牌库最上方。
+Skill/S_Pachi_E_6_Name,Text,,,Advanced Element - <color=#6A5ACD>Moon</color>,,高级元素 - <color=#6A5ACD>月</color>,
+Skill/S_Pachi_E_7_Description,Text,,,"At the start of battle, placed at the top of the deck.
+Draw 1 skill. Gain 1 level each of <color=#FFD700>Metal</color>, <color=#228B22>Wood</color>, <color=#00BFFF>Water</color>, <color=#FF4500>Fire</color>, and <color=#8B7355>Earth</color>.",,"战斗开始时，放在牌库最上方。
 抽取 1 个技能。获得<color=#FFD700>金</color>、<color=#228B22>木</color>、<color=#00BFFF>水</color>、<color=#FF4500>火</color>、<color=#8B7355>土</color>每种元素各 1 级。",
-Skill/S_Pachi_E_7_Name,Text,,,,,<color=#FFD700>金</color><color=#228B22>木</color><color=#00BFFF>水</color><color=#FF4500>火</color><color=#8B7355>土</color>符「贤者之石」,
-Skill/S_Pachi_P_Description,Text,,,,,从放逐牌库中选择2种“元素”属性，将其组合后获得对应的符卡技能。,
-Skill/S_Pachi_P_Name,Text,,,,,元素祈唤,
-Skill/S_Pachi_Sk_0_0_Description,Text,,,,,每个等级的“金”额外施加 1 层“金属疲劳”。,
-Skill/S_Pachi_Sk_0_0_Name,Text,,,,,金符「银龙」,
-Skill/S_Pachi_Sk_0_1_Description,Text,,,,,"每个等级的“金”额外施加1层“元素异常”和“元素紊乱”。
+Skill/S_Pachi_E_7_Name,Text,,,<color=#FFD700>Metal</color><color=#228B22>Wood</color><color=#00BFFF>Water</color><color=#FF4500>Fire</color><color=#8B7355>Earth</color> Sign "Philosopher's Stone",,<color=#FFD700>金</color><color=#228B22>木</color><color=#00BFFF>水</color><color=#FF4500>火</color><color=#8B7355>土</color>符「贤者之石」,
+Skill/S_Pachi_LucyD_Description,Text,,,"Draw 2 skills.
+Reveal all exiled Basic Element skills, choose 1, and create a copy in hand.
+Reveal all exiled Magic Book skills, choose 1, and create a copy in hand.",,"抽取 2 个技能。
+展示放逐牌库中所有“基本元素”技能，选择其中 1 个，在手中生成其复制。
+展示放逐牌库中所有“魔法书”技能，选择其中 1 个，在手中生成其复制。",
+Skill/S_Pachi_LucyD_Name,Text,,,Elemental Extraction,,元素萃取,
+Skill/S_Pachi_P_Description,Text,,,"Select 2 Elemental attributes from the exiled deck, combine them, and obtain the corresponding Spell Card skill.",,从放逐牌库中选择2种“元素”属性，将其组合后获得对应的符卡技能。,
+Skill/S_Pachi_P_Name,Text,,,Elemental Invocation,,元素祈唤,
+Skill/S_Pachi_Sk_0_0_Description,Text,,,Each level of Metal applies an additional stack of Metal Fatigue.,,每个等级的“金”额外施加 1 层“金属疲劳”。,
+Skill/S_Pachi_Sk_0_0_Name,Text,,,Metal Sign "Silver Dragon",,金符「银龙」,
+Skill/S_Pachi_Sk_0_1_Description,Text,,,"Each level of Metal applies an additional stack of Elemental Anomaly and Elemental Disorder.
+Each level of Wood applies an additional stack of Elemental Entanglement.",,"每个等级的“金”额外施加1层“元素异常”和“元素紊乱”。
 每个等级的“木”额外施加1层“元素纠缠”。",
-Skill/S_Pachi_Sk_0_1_Name,Text,,,,,金木符「元素收获者」,
-Skill/S_Pachi_Sk_0_2_Description,Text,,,,,"每个等级的“水”使这个技能额外治疗&a点体力(治疗力的10%)。
+Skill/S_Pachi_Sk_0_1_Name,Text,,,Metal-Wood Sign "Element Harvester",,金木符「元素收获者」,
+Skill/S_Pachi_Sk_0_2_Description,Text,,,"Each level of Water heals an additional &a HP (10% of Healing Power).
+Each level of Metal applies an additional stack of Life Surge.",,"每个等级的“水”使这个技能额外治疗&a点体力(治疗力的10%)。
 每个等级的“金”额外施加1层“生命涌现”。",
-Skill/S_Pachi_Sk_0_2_Name,Text,,,,,金水符「水银之毒」,
-Skill/S_Pachi_Sk_0_3_Description,Text,,,,,"每个等级的“火”使这个技能额外造成&a点伤害(攻击力的10%)。
+Skill/S_Pachi_Sk_0_2_Name,Text,,,Metal-Water Sign "Mercury Poison",,金水符「水银之毒」,
+Skill/S_Pachi_Sk_0_3_Description,Text,,,"Each level of Fire deals an additional &a damage (10% of Attack).
+Each level of Metal applies an additional stack of Metal Fatigue.",,"每个等级的“火”使这个技能额外造成&a点伤害(攻击力的10%)。
 每个等级的“金”额外施加1层“金属疲劳”。",
-Skill/S_Pachi_Sk_0_3_Name,Text,,,,,火金符「圣爱尔摩火柱」,
-Skill/S_Pachi_Sk_0_4_Description,Text,,,,,"施加 &a 点保护罩(防御力的50%)。
+Skill/S_Pachi_Sk_0_3_Name,Text,,,Fire-Metal Sign "St. Elmo's Pillar",,火金符「圣爱尔摩火柱」,
+Skill/S_Pachi_Sk_0_4_Description,Text,,,"Applies &a Shield (50% of Defense).
+
+Each level of Metal applies an additional stack of Stone Guardian.
+Each level of Earth grants an additional &b Shield (10% of Defense).",,"施加 &a 点保护罩(防御力的50%)。
 
 每个等级的“金”额外施加1层“巨石护卫”。
 每个等级的“土”额外施加&b点保护罩(防御力的10%)。",
-Skill/S_Pachi_Sk_0_4_Name,Text,,,,,土金符「翡翠巨石」,
-Skill/S_Pachi_Sk_1_1_Description,Text,,,,,"使目标持有的所有痛苦减益扩散至其他敌人。
+Skill/S_Pachi_Sk_0_4_Name,Text,,,Earth-Metal Sign "Jade Monolith",,土金符「翡翠巨石」,
+Skill/S_Pachi_Sk_0_5_Description,Text,,,Summons 1 Infernal on the field.,,在场上召唤 1 个地狱火。,
+Skill/S_Pachi_Sk_0_5_Name,Text,,,Sun-Metal Sign "Hellfire",,日金符「地狱火」,
+Skill/S_Pachi_Sk_0_6_Description,Text,,,"Transforms the target into a harmless small animal.
+If the target is an ally, also dispels all debuffs and restores 2 Mana.
+If the target is a Boss, stuns for 1 turn instead.",,"将目标变为一只人畜无害的小动物。
+若目标是友军，还会驱散所有减益效果，且恢复 2 点法力值。
+若目标是Boss，则改为眩晕 1 回合。",
+Skill/S_Pachi_Sk_0_6_Name,Text,,,Moon-Metal Sign "Sunlight Reflector",,月金符「日光反射器」,
+Skill/S_Pachi_Sk_1_1_Description,Text,,,"Spreads all Agony debuffs on the target to other enemies.
+
+Each level of Wood applies an additional stack of Forest Wildfire.",,"使目标持有的所有痛苦减益扩散至其他敌人。
 
 每个等级的“木”额外施加1层“森林大火”。",
-Skill/S_Pachi_Sk_1_1_Name,Text,,,,,木符「风灵的角笛」,
-Skill/S_Pachi_Sk_1_2_Description,Text,,,,,"释放时，同时对目标右边的角色释放。
+Skill/S_Pachi_Sk_1_1_Name,Text,,,Wood Sign "Sylph's Horn",,木符「风灵的角笛」,
+Skill/S_Pachi_Sk_1_2_Description,Text,,,"When cast, also targets the unit to the right.
+
+Each level of Water heals an additional &a HP (10% of Healing Power).
+Each level of Wood applies an additional stack of Living Water Essence.",,"释放时，同时对目标右边的角色释放。
 
 每个等级的“水”使这个技能额外治疗&a点体力(治疗力的10%)。
 每个等级的“木”额外施加1层“活水之精”。",
-Skill/S_Pachi_Sk_1_2_Name,Text,,,,,水木符「水精灵」,
-Skill/S_Pachi_Sk_1_3_Description,Text,,,,,"释放时对所有敌人造成痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。
+Skill/S_Pachi_Sk_1_2_Name,Text,,,Water-Wood Sign "Water Spirit",,水木符「水精灵」,
+Skill/S_Pachi_Sk_1_3_Description,Text,,,"When cast, deals Agony damage to all enemies equal to the per-turn damage of debuffs they hold.
+
+Each level of Fire deals an additional &a damage (10% of Attack).
+Each level of Wood applies an additional stack of Forest Wildfire.",,"释放时对所有敌人造成痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。
 
 每个等级的“火”使这个技能额外造成&a点伤害(攻击力的10%)。
 每个等级的“木”额外施加1层“森林大火”。",
-Skill/S_Pachi_Sk_1_3_Name,Text,,,,,木火符「森林大火」,
-Skill/S_Pachi_Sk_1_4_Description,Text,,,,,"每个等级的“木”使“活体护甲”的防御力提升额外增加10%。
+Skill/S_Pachi_Sk_1_3_Name,Text,,,Wood-Fire Sign "Forest Wildfire",,木火符「森林大火」,
+Skill/S_Pachi_Sk_1_4_Description,Text,,,"Each level of Wood increases Living Armor's Defense bonus by 10%.
+Each level of Earth increases Living Armor's healing and shield by &a (10% of Defense).",,"每个等级的“木”使“活体护甲”的防御力提升额外增加10%。
 每个等级的“土”使“活体护甲”的治疗和保护罩提升 &a (防御力的10%)。",
-Skill/S_Pachi_Sk_1_4_Name,Text,,,,,土木符「活体护甲」,
-Skill/S_Pachi_Sk_2_2_Description,Text,,,,,"如果目标无法受到治疗，则改为使目标的生命值提升 &a 点(治疗力的130%)。
+Skill/S_Pachi_Sk_1_4_Name,Text,,,Earth-Wood Sign "Living Armor",,土木符「活体护甲」,
+Skill/S_Pachi_Sk_1_5_Description,Text,,,Increases card draws per turn by 1 for this battle.,,本次战斗期间每回合抽牌次数增加 1 点。,
+Skill/S_Pachi_Sk_1_5_Name,Text,,,Sun-Wood Sign "Photosynthesis",,日木符「光合作用」,
+Skill/S_Pachi_Sk_1_6_Description,Text,,,Increases max Mana by 1 for this battle.,,本次战斗期间最大法力值增加 1 点。,
+Skill/S_Pachi_Sk_1_6_Name,Text,,,Moon-Wood Sign "Satellite Sunflower",,月木符「卫星向日葵」,
+Skill/S_Pachi_Sk_2_2_Description,Text,,,"If the target cannot be healed, instead increases their HP by &a (130% of Healing Power).
+
+Each level of Water heals or increases HP by an additional &b (20% of Healing Power).",,"如果目标无法受到治疗，则改为使目标的生命值提升 &a 点(治疗力的130%)。
 
 每个等级的“水”使这个技能额外治疗或提升&b点体力(治疗力的20%)。",
-Skill/S_Pachi_Sk_2_2_Name,Text,,,,,水符「湖葬」,
-Skill/S_Pachi_Sk_2_3_Description,Text,,,,,"重复释放 &c 次(1 + &e)。
+Skill/S_Pachi_Sk_2_2_Name,Text,,,Water Sign "Lake Burial",,水符「湖葬」,
+Skill/S_Pachi_Sk_2_3_Description,Text,,,"Repeats &c times (1 + &e).
+Each cast heals the ally with the lowest HP by &a (45% of Healing Power).
+
+Each level of Fire deals an additional &b damage (5% of Attack) and heals an additional &d HP (5% of Healing Power).
+Each level of Water repeats 1 additional time.",,"重复释放 &c 次(1 + &e)。
 每次释放时，恢复体力值最低的友军 &a 点体力值(治疗力的45%)。
 
 每个等级的“火”使这个技能额外造成&b点伤害(攻击力的5%)、额外治疗&d点体力(治疗力的5%)。
 每个等级的“水”额外重复释放 1 次。",
-Skill/S_Pachi_Sk_2_3_Name,Text,,,,,水火符「燃素之雨」,
-Skill/S_Pachi_Sk_2_4_Description,Text,,,,,"随机解除目标持有的 1 个减益效果。每解除 1 个减益效果，施加 &a 保护罩(治疗力的20%)。
+Skill/S_Pachi_Sk_2_3_Name,Text,,,Water-Fire Sign "Phlogiston Rain",,水火符「燃素之雨」,
+Skill/S_Pachi_Sk_2_4_Description,Text,,,"Randomly dispels 1 debuff on the target. For each debuff dispelled, applies &a Shield (20% of Healing Power).
+
+Each level of Water heals an additional &a HP (10% of Healing Power).
+Each level of Earth dispels 1 additional debuff.",,"随机解除目标持有的 1 个减益效果。每解除 1 个减益效果，施加 &a 保护罩(治疗力的20%)。
 
 每个等级的“水”使这个技能额外治疗&a点体力(治疗力的10%)。
 每个等级的“土”额外解除 1 个减益效果。",
-Skill/S_Pachi_Sk_2_4_Name,Text,,,,,土水符「诺亚的大洪水」,
-Skill/S_Pachi_Sk_3_3_Description,Text,,,,,"这个技能无视防御。
+Skill/S_Pachi_Sk_2_4_Name,Text,,,Earth-Water Sign "Noah's Deluge",,土水符「诺亚的大洪水」,
+Skill/S_Pachi_Sk_2_5_Description,Text,,,"This skill's countdown does not trigger when pressing the End Turn button.
+During countdown, whenever an Investigator takes damage, records the damage, reduces this skill's healing by that amount, and immediately heals the target by the same amount. Releases when healing falls below 0.",,"这个技能的倒计时不会因为按下回合结束按钮而释放。
+倒计时期间，当任意调查员受到伤害时，记录伤害量，降低这个技能等量的治疗量，立即治疗目标等量的体力值。这个技能的治疗量低于0时立即释放。",
+Skill/S_Pachi_Sk_2_5_Name,Text,,,Sun-Water Sign "Hydrogen Prominence",,日水符「氢化日珥」,
+Skill/S_Pachi_Sk_2_6_Name,Text,,,Moon-Water Sign "Tidal Gravitation",,月水符「潮汐引力」,
+Skill/S_Pachi_Sk_3_3_Description,Text,,,"This skill ignores Defense.
+
+Each level of Fire deals an additional &a damage (20% of Attack).",,"这个技能无视防御。
 
 每个等级的“火”使这个技能额外造成&a点伤害(攻击力的20%)。",
-Skill/S_Pachi_Sk_3_3_Name,Text,,,,,火符「火神之光」,
-Skill/S_Pachi_Sk_3_4_Description,Text,,,,,"同时攻击与技能目标嘲讽状态相同的所有敌人。
+Skill/S_Pachi_Sk_3_3_Name,Text,,,Fire Sign "Light of Vulcan",,火符「火神之光」,
+Skill/S_Pachi_Sk_3_4_Description,Text,,,"Attacks all enemies with the same Taunt status as the target.
+Converts 30% of damage dealt into a Shield for self.
+
+Each level of Fire deals an additional &a damage (10% of Attack).
+Each level of Earth increases Shield conversion by 20%.",,"同时攻击与技能目标嘲讽状态相同的所有敌人。
 造成伤害的30%转化为自身的保护罩。
 
 每个等级的“火”使这个技能额外造成&a点伤害(攻击力的10%)。
 每个等级的“土”使保护罩转化倍率提升20%。",
-Skill/S_Pachi_Sk_3_4_Name,Text,,,,,火土符「环状熔岩带」,
-Skill/S_Pachi_Sk_4_4_Description,Text,,,,,"生成 &a 防护墙(防御力的100%)。
+Skill/S_Pachi_Sk_3_4_Name,Text,,,Fire-Earth Sign "Ring of Lava",,火土符「环状熔岩带」,
+Skill/S_Pachi_Sk_3_5_Description,Text,,,"When killing an enemy, draws 1 skill and permanently increases this skill's damage by 1.1x.
+Current triggers: &a
+Current multiplier: &b
+Current damage: &c",,"击杀敌人时，抽取 1 个技能，并使这个技能造成的伤害永久提升 1.1 倍。
+当前触发次数：&a
+当前提升倍数：&b
+当前伤害数值：&c",
+Skill/S_Pachi_Sk_3_5_Name,Text,,,Sun-Fire Sign "Gamma Ray",,日火符「伽马流射线」,
+Skill/S_Pachi_Sk_3_6_Description,Text,,,Attacks all enemies with the same Taunt status as the target.,,同时攻击与技能目标嘲讽状态相同的所有敌人。,
+Skill/S_Pachi_Sk_3_6_Name,Text,,,Moon-Fire Sign "Burning Halley",,月火符「燃烧的哈雷」,
+Skill/S_Pachi_Sk_4_4_Description,Text,,,"Creates &a Barrier (100% of Defense).
+
+Each level of Earth increases Barrier by &b (20% of Defense).",,"生成 &a 防护墙(防御力的100%)。
 
 每个等级的“土”使生成的防护墙提升 &b (防御力的20%)。",
-Skill/S_Pachi_Sk_4_4_Name,Text,,,,,土符「慵懒三石塔」,
+Skill/S_Pachi_Sk_4_4_Name,Text,,,Earth Sign "Lazy Trilithon",,土符「慵懒三石塔」,
+Skill/S_Pachi_Sk_4_5_Description,Text,,,Draws 1 skill.,,抽取 1 个技能。,
+Skill/S_Pachi_Sk_4_5_Name,Text,,,Sun-Earth Sign "Dyson Sphere",,日土符「戴森球」,
+Skill/S_Pachi_Sk_4_6_Description,Text,,,Reduces the cost of skills in hand by 1 each time they are used.,,每次使用手中的技能时减少 1 点费用。,
+Skill/S_Pachi_Sk_4_6_Name,Text,,,Moon-Earth Sign "Apollo 12",,月土符「阿波罗12号」,
+Skill/S_Pachi_Sk_5_5_Description,Text,,,"Repeats this skill based on the number of times own skills in hand have been used this battle.
+Current count: &a",,"根据这场战斗中自身使用过手中的技能的次数，重复释放这个技能。
+当前次数：&a",
+Skill/S_Pachi_Sk_5_5_Name,Text,,,Sun Sign "Royal Flare",,日符「皇家烈焰」,
+Skill/S_Pachi_Sk_5_6_Description,Text,,,"Returns 1 own skill from the exiled deck to hand.
+Resets all Advanced Element Spell Card combination counts.",,"从放逐牌库中将 1 个自己的技能拿回手中。
+重置所有“高级元素”符卡的可组合次数。",
+Skill/S_Pachi_Sk_5_6_Name,Text,,,Sun-Moon Sign "Royal Diamond",,日月符「皇家钻戒」,
+Skill/S_Pachi_Sk_6_6_Description,Text,,,,,,
+Skill/S_Pachi_Sk_6_6_Name,Text,,,Moon Sign "Serene Lunar Goddess",,月符「沉静的月神」,
+SkillExtended/SE_Pachi_C_0_EnforceString,Text,,,,,,
+SkillExtended/SE_Pachi_C_0_Name,Text,,,"Reveal all exiled Basic Element skills, choose 1, and create a copy in hand.",,展示放逐牌库中所有“基本元素”技能，选择其中 1 个，在手中生成其复制。,
+SkillExtended/SE_Pachi_C_1_EnforceString,Text,,,<sprite name="비용3"><sprite name="이하">,,<sprite name="비용3"><sprite name="이하">,
+SkillExtended/SE_Pachi_C_1_Name,Text,,,Cost reduced by 2.,,费用降低 2 点。,

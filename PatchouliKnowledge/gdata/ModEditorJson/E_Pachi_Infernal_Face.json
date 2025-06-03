@@ -1,0 +1,23 @@
+{
+    "myKey": "E_Pachi_Infernal",
+    "myField": "Face",
+    "myValues": {
+        "path": "E_Pachi_Infernal\\E_Pachi_InfernalFace.png",
+        "offsetMax": {
+            "x": 457.444427,
+            "y": 222.238434
+        },
+        "offsetMin": {
+            "x": -534.291,
+            "y": -769.4971
+        },
+        "pivot": {
+            "x": 0.5366945,
+            "y": 0.770273268
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

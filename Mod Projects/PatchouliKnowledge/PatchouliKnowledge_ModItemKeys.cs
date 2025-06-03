@@ -4,6 +4,11 @@ namespace PatchouliKnowledge
     public static class ModItemKeys
     {
 		/// <summary>
+		/// 永久献祭
+		/// 每个回合开始时，对所有队友造成 &a 伤害(攻击力的33%)。
+		/// </summary>
+        public static string Buff_B_Infernal_P = "B_Infernal_P";
+		/// <summary>
 		/// 赝造龙鳞
 		/// 攻击改为指向自己。触发后移除。
 		/// </summary>
@@ -51,6 +56,36 @@ namespace PatchouliKnowledge
 		/// </summary>
         public static string Buff_B_Pachi_1_4 = "B_Pachi_1_4";
 		/// <summary>
+		/// 光合作用
+		/// 本次战斗期间每回合抽牌次数增加1点。
+		/// </summary>
+        public static string Buff_B_Pachi_1_5 = "B_Pachi_1_5";
+		/// <summary>
+		/// 卫星向日葵
+		/// 本次战斗期间最大法力值增加1点。
+		/// </summary>
+        public static string Buff_B_Pachi_1_6 = "B_Pachi_1_6";
+		/// <summary>
+		/// 潮汐引力
+		/// 与距离最近的单位链接（优先向右寻找）；
+		/// 受到单体技能时，会同时对链接目标重复释放 1 次。
+		/// </summary>
+        public static string Buff_B_Pachi_2_6 = "B_Pachi_2_6";
+		/// <summary>
+		/// 引力潮汐
+		/// 被“潮汐引力”连接。
+		/// </summary>
+        public static string Buff_B_Pachi_2_6_1 = "B_Pachi_2_6_1";
+		/// <summary>
+		/// 伽马流射线
+		/// </summary>
+        public static string Buff_B_Pachi_3_5 = "B_Pachi_3_5";
+		/// <summary>
+		/// 熔损彗星
+		/// 体力值低于13%时立即死亡。
+		/// </summary>
+        public static string Buff_B_Pachi_3_6 = "B_Pachi_3_6";
+		/// <summary>
 		/// 石至名归
 		/// </summary>
         public static string Buff_B_Pachi_4_4 = "B_Pachi_4_4";
@@ -60,6 +95,20 @@ namespace PatchouliKnowledge
 		/// 到达 5 层时，额外提升100%暴击率。
 		/// </summary>
         public static string Buff_B_Pachi_4_5 = "B_Pachi_4_5";
+		/// <summary>
+		/// 登月计划
+		/// </summary>
+        public static string Buff_B_Pachi_4_6 = "B_Pachi_4_6";
+		/// <summary>
+		/// 月之面纱
+		/// 使用自己的技能时解除。
+		/// </summary>
+        public static string Buff_B_Pachi_6_6 = "B_Pachi_6_6";
+		/// <summary>
+		/// 月之暗面
+		/// 按下回合结束按钮时，获得“月之面纱”。
+		/// </summary>
+        public static string Buff_B_Pachi_6_6_1 = "B_Pachi_6_6_1";
 		/// <summary>
 		/// 元素保护罩
 		/// </summary>
@@ -83,6 +132,14 @@ namespace PatchouliKnowledge
 		/// </summary>
         public static string Buff_B_Pachi_P_1 = "B_Pachi_P_1";
 		/// <summary>
+		/// 地狱火
+		/// </summary>
+        public static string Enemy_E_Pachi_Infernal = "E_Pachi_Infernal";
+		/// <summary>
+		/// zhu
+		/// </summary>
+        public static string Enemy_E_Pachi_Zhu = "E_Pachi_Zhu";
+		/// <summary>
 		/// 帕秋莉
 		/// Passive:
 		/// <b>知识与避世的少女</b> - 战斗开始时，在本次战斗期间放逐自己的所有“元素”技能。每个被放逐的“元素”技能会转化为“元素”属性，重复转化的“元素”属性会提升属性的等级。
@@ -94,10 +151,20 @@ namespace PatchouliKnowledge
 		/// </summary>
         public static string Character_PatchouliKnowledge = "PatchouliKnowledge";
         public static string CharRole_Role_Mage = "Role_Mage";
+		/// <summary>
+		/// 展示放逐牌库中所有“基本元素”技能，选择其中 1 个，在手中生成其复制。
+		/// </summary>
+        public static string SkillExtended_SE_Pachi_C_0 = "SE_Pachi_C_0";
+		/// <summary>
+		/// 费用降低 2 点。
+		/// <sprite name="비용3"><sprite name="이하">
+		/// </summary>
+        public static string SkillExtended_SE_Pachi_C_1 = "SE_Pachi_C_1";
         public static string SkillEffect_SE_Tick_B_Pachi_0_1_2 = "SE_Tick_B_Pachi_0_1_2";
         public static string SkillEffect_SE_Tick_B_Pachi_0_2 = "SE_Tick_B_Pachi_0_2";
         public static string SkillEffect_SE_Tick_B_Pachi_1_1 = "SE_Tick_B_Pachi_1_1";
         public static string SkillEffect_SE_Tick_B_Pachi_1_2 = "SE_Tick_B_Pachi_1_2";
+        public static string SkillEffect_SE_T_S_Infernal_0 = "SE_T_S_Infernal_0";
         public static string SkillEffect_SE_T_S_Pachi_Sk_0_0 = "SE_T_S_Pachi_Sk_0_0";
         public static string SkillEffect_SE_T_S_Pachi_Sk_0_1 = "SE_T_S_Pachi_Sk_0_1";
         public static string SkillEffect_SE_T_S_Pachi_Sk_0_2 = "SE_T_S_Pachi_Sk_0_2";
@@ -112,12 +179,21 @@ namespace PatchouliKnowledge
         public static string SkillEffect_SE_T_S_Pachi_Sk_2_3 = "SE_T_S_Pachi_Sk_2_3";
         public static string SkillEffect_SE_T_S_Pachi_Sk_2_4 = "SE_T_S_Pachi_Sk_2_4";
         public static string SkillEffect_SE_T_S_Pachi_Sk_2_5 = "SE_T_S_Pachi_Sk_2_5";
+        public static string SkillEffect_SE_T_S_Pachi_Sk_2_6 = "SE_T_S_Pachi_Sk_2_6";
         public static string SkillEffect_SE_T_S_Pachi_Sk_3_3 = "SE_T_S_Pachi_Sk_3_3";
         public static string SkillEffect_SE_T_S_Pachi_Sk_3_4 = "SE_T_S_Pachi_Sk_3_4";
         public static string SkillEffect_SE_T_S_Pachi_Sk_3_5 = "SE_T_S_Pachi_Sk_3_5";
+        public static string SkillEffect_SE_T_S_Pachi_Sk_3_6 = "SE_T_S_Pachi_Sk_3_6";
         public static string SkillEffect_SE_T_S_Pachi_Sk_4_4 = "SE_T_S_Pachi_Sk_4_4";
         public static string SkillEffect_SE_T_S_Pachi_Sk_4_5 = "SE_T_S_Pachi_Sk_4_5";
+        public static string SkillEffect_SE_T_S_Pachi_Sk_4_6 = "SE_T_S_Pachi_Sk_4_6";
         public static string SkillEffect_SE_T_S_Pachi_Sk_5_5 = "SE_T_S_Pachi_Sk_5_5";
+        public static string SkillEffect_SE_T_S_Pachi_Sk_6_6 = "SE_T_S_Pachi_Sk_6_6";
+		/// <summary>
+		/// 烈焰之拳
+		/// 无视防御。
+		/// </summary>
+        public static string Skill_S_Infernal_0 = "S_Infernal_0";
 		/// <summary>
 		/// 基本元素 - <color=#FFD700>金</color>
 		/// 象征<color=#FFD700>控制</color>的权能。
@@ -174,6 +250,13 @@ namespace PatchouliKnowledge
 		/// </summary>
         public static string Skill_S_Pachi_E_7 = "S_Pachi_E_7";
 		/// <summary>
+		/// 元素萃取
+		/// 抽取 2 个技能。
+		/// 展示放逐牌库中所有“基本元素”技能，选择其中 1 个，在手中生成其复制。
+		/// 展示放逐牌库中所有“魔法书”技能，选择其中 1 个，在手中生成其复制。
+		/// </summary>
+        public static string Skill_S_Pachi_LucyD = "S_Pachi_LucyD";
+		/// <summary>
 		/// 元素祈唤
 		/// 从放逐牌库中选择2种“元素”属性，将其组合后获得对应的符卡技能。
 		/// </summary>
@@ -214,6 +297,13 @@ namespace PatchouliKnowledge
 		/// </summary>
         public static string Skill_S_Pachi_Sk_0_5 = "S_Pachi_Sk_0_5";
 		/// <summary>
+		/// 月金符「日光反射器」
+		/// 将目标变为一只人畜无害的小动物。
+		/// 若目标是友军，还会驱散所有减益效果，且恢复 2 点法力值。
+		/// 若目标是Boss，则改为眩晕 1 回合。
+		/// </summary>
+        public static string Skill_S_Pachi_Sk_0_6 = "S_Pachi_Sk_0_6";
+		/// <summary>
 		/// 木符「风灵的角笛」
 		/// 使目标持有的所有痛苦减益扩散至其他敌人。
 		/// 每个等级的“木”额外施加1层“森林大火”。
@@ -245,6 +335,11 @@ namespace PatchouliKnowledge
 		/// </summary>
         public static string Skill_S_Pachi_Sk_1_5 = "S_Pachi_Sk_1_5";
 		/// <summary>
+		/// 月木符「卫星向日葵」
+		/// 本次战斗期间最大法力值增加 1 点。
+		/// </summary>
+        public static string Skill_S_Pachi_Sk_1_6 = "S_Pachi_Sk_1_6";
+		/// <summary>
 		/// 水符「湖葬」
 		/// 如果目标无法受到治疗，则改为使目标的生命值提升 &a 点(治疗力的130%)。
 		/// 每个等级的“水”使这个技能额外治疗或提升&b点体力(治疗力的20%)。
@@ -267,8 +362,14 @@ namespace PatchouliKnowledge
         public static string Skill_S_Pachi_Sk_2_4 = "S_Pachi_Sk_2_4";
 		/// <summary>
 		/// 日水符「氢化日珥」
+		/// 这个技能的倒计时不会因为按下回合结束按钮而释放。
+		/// 倒计时期间，当任意调查员受到伤害时，记录伤害量，降低这个技能等量的治疗量，立即治疗目标等量的体力值。这个技能的治疗量低于0时立即释放。
 		/// </summary>
         public static string Skill_S_Pachi_Sk_2_5 = "S_Pachi_Sk_2_5";
+		/// <summary>
+		/// 月水符「潮汐引力」
+		/// </summary>
+        public static string Skill_S_Pachi_Sk_2_6 = "S_Pachi_Sk_2_6";
 		/// <summary>
 		/// 火符「火神之光」
 		/// 这个技能无视防御。
@@ -288,8 +389,14 @@ namespace PatchouliKnowledge
 		/// 击杀敌人时，抽取 1 个技能，并使这个技能造成的伤害永久提升 1.1 倍。
 		/// 当前触发次数：&a
 		/// 当前提升倍数：&b
+		/// 当前伤害数值：&c
 		/// </summary>
         public static string Skill_S_Pachi_Sk_3_5 = "S_Pachi_Sk_3_5";
+		/// <summary>
+		/// 月火符「燃烧的哈雷」
+		/// 同时攻击与技能目标嘲讽状态相同的所有敌人。
+		/// </summary>
+        public static string Skill_S_Pachi_Sk_3_6 = "S_Pachi_Sk_3_6";
 		/// <summary>
 		/// 土符「慵懒三石塔」
 		/// 生成 &a 防护墙(防御力的100%)。
@@ -302,57 +409,19 @@ namespace PatchouliKnowledge
 		/// </summary>
         public static string Skill_S_Pachi_Sk_4_5 = "S_Pachi_Sk_4_5";
 		/// <summary>
+		/// 月土符「阿波罗12号」
+		/// 每次使用手中的技能时减少 1 点费用。
+		/// </summary>
+        public static string Skill_S_Pachi_Sk_4_6 = "S_Pachi_Sk_4_6";
+		/// <summary>
 		/// 日符「皇家烈焰」
 		/// 根据这场战斗中自身使用过手中的技能的次数，重复释放这个技能。
 		/// 当前次数：&a
 		/// </summary>
         public static string Skill_S_Pachi_Sk_5_5 = "S_Pachi_Sk_5_5";
 		/// <summary>
-		/// 月金符「日光反射器」
-		/// 将目标变为一只人畜无害的小动物。
-		/// 若目标是友军，还会驱散所有减益效果，且恢复 2 点法力值。
-		/// 若目标是Boss，则改为眩晕 1 回合。
-		/// </summary>
-        public static string Skill_S_Pachi_Sk_0_6 = "S_Pachi_Sk_0_6";
-		/// <summary>
-		/// 月木符「卫星向日葵」
-		/// 本次战斗期间最大法力值增加 1 点。
-		/// </summary>
-        public static string Skill_S_Pachi_Sk_1_6 = "S_Pachi_Sk_1_6";
-		/// <summary>
-		/// 月水符「潮汐引力」
-		/// </summary>
-        public static string Skill_S_Pachi_Sk_2_6 = "S_Pachi_Sk_2_6";
-        public static string SkillEffect_SE_T_S_Pachi_Sk_2_6 = "SE_T_S_Pachi_Sk_2_6";
-		/// <summary>
-		/// 潮汐引力
-		/// 与距离最近的单位链接（优先向右寻找）；
-		/// 受到单体技能时，会同时对链接目标重复释放 1 次。
-		/// </summary>
-        public static string Buff_B_Pachi_2_6 = "B_Pachi_2_6";
-		/// <summary>
-		/// 月火符「燃烧的哈雷」
-		/// 同时指向目标左边和右边的敌人。
-		/// </summary>
-        public static string Skill_S_Pachi_Sk_3_6 = "S_Pachi_Sk_3_6";
-        public static string SkillEffect_SE_T_S_Pachi_Sk_3_6 = "SE_T_S_Pachi_Sk_3_6";
-		/// <summary>
-		/// 熔损彗星
-		/// 体力值低于13%时立即死亡。
-		/// </summary>
-        public static string Buff_B_Pachi_3_6 = "B_Pachi_3_6";
-		/// <summary>
-		/// 月土符「阿波罗12号」
-		/// 每次使用手中的技能时减少 1 点费用。
-		/// </summary>
-        public static string Skill_S_Pachi_Sk_4_6 = "S_Pachi_Sk_4_6";
-        public static string SkillEffect_SE_T_S_Pachi_Sk_4_6 = "SE_T_S_Pachi_Sk_4_6";
-		/// <summary>
-		/// 登月计划
-		/// </summary>
-        public static string Buff_B_Pachi_4_6 = "B_Pachi_4_6";
-		/// <summary>
 		/// 日月符「皇家钻戒」
+		/// 从放逐牌库中将 1 个自己的技能拿回手中。
 		/// 重置所有“高级元素”符卡的可组合次数。
 		/// </summary>
         public static string Skill_S_Pachi_Sk_5_6 = "S_Pachi_Sk_5_6";
@@ -360,25 +429,6 @@ namespace PatchouliKnowledge
 		/// 月符「沉静的月神」
 		/// </summary>
         public static string Skill_S_Pachi_Sk_6_6 = "S_Pachi_Sk_6_6";
-        public static string SkillEffect_SE_T_S_Pachi_Sk_6_6 = "SE_T_S_Pachi_Sk_6_6";
-		/// <summary>
-		/// 月之面纱
-		/// 隐匿。
-		/// 使用自己的技能时解除。
-		/// </summary>
-        public static string Buff_B_Pachi_6_6 = "B_Pachi_6_6";
-		/// <summary>
-		/// 月之暗面
-		/// 按下回合结束按钮时，获得“月之面纱”。
-		/// </summary>
-        public static string Buff_B_Pachi_6_6_1 = "B_Pachi_6_6_1";
-		/// <summary>
-		/// 元素萃取
-		/// 抽取 2 个技能。
-		/// 展示放逐牌库中所有“基本元素”技能，选择其中 1 个，在手中生成其复制。
-		/// 展示放逐牌库中所有“魔法书”技能，选择其中 1 个，在手中生成其复制。
-		/// </summary>
-        public static string Skill_S_Pachi_LucyD = "S_Pachi_LucyD";
 
     }
 
@@ -396,6 +446,15 @@ namespace PatchouliKnowledge
 		/// Chinese-TW:
 		/// </summary>
         public static string SystemCharacterRoleRole_Mage => ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("System/Character/Role/Role_Mage");
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// 选择要从放逐牌库中拿回的技能：
+		/// Chinese-TW:
+		/// </summary>
+        public static string exceptSkillSelect => ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect");
 		/// <summary>
 		/// Korean:
 		/// 选择想要组合的元素：

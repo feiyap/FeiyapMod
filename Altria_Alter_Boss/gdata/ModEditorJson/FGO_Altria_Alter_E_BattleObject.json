@@ -1,0 +1,28 @@
+{
+    "myKey": "FGO_Altria_Alter_B",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "FGO_Altria_Alter_B\\FGO_Altria_Alter_BMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.5681342,
+            "y": 0.06165418
+        },
+        "Head": {
+            "x": 0.605044961,
+            "y": 0.8727977
+        },
+        "Center": {
+            "x": 0.594986856,
+            "y": 0.6416662
+        },
+        "UI": {
+            "x": 0.548668861,
+            "y": 0.253499866
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

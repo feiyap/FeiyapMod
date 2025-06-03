@@ -25,6 +25,9 @@
         "Fatal": false,
         "EnemyPreview": false,
         "UnknownTarget": false,
-        "PlusSkillView": "S_Pachi_Sk_2_2"
+        "PlusSkillView": "S_Pachi_Sk_2_2",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_E_2"
+        ]
     }
 }

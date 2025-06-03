@@ -1,0 +1,19 @@
+{
+    "B_NymphPrimal_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NymphPrimal.B_NymphPrimal_3",
+        "BuffTag": "DOT",
+        "Name": "失魂",
+        "Debuff": true,
+        "TagPer": 120,
+        "MaxStack": 5,
+        "Description": "即使每回合减益伤害量为0，也会被窥心钥作为优先转移目标。\r\n受到痛苦伤害时，消耗层数使等待次数+1。\r\n被施加超过最大层数的该减益时，受到5点痛苦伤害。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "LifeTime": 5,
+        "Icon": "B_NymphPrimal_3\\B_NymphPrimal_3_Icon.png"
+    }
+}

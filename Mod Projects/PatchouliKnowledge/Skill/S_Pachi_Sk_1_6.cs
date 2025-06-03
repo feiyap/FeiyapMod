@@ -19,6 +19,9 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class S_Pachi_Sk_1_6:Skill_Extended
     {
-
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            this.BChar.BuffAdd("B_Pachi_1_6", this.BChar);
+        }
     }
 }

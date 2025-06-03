@@ -21,13 +21,10 @@ namespace PatchouliKnowledge
     /// </summary>
     public class S_Pachi_P:Skill_Extended
     {
-        public Skill firstskill = new Skill();
-        public Skill secondskill = new Skill();
-
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            firstskill = null;
-            secondskill = null;
+            P_PatchouliKnowledge.firstskill = null;
+            P_PatchouliKnowledge.secondskill = null;
 
             List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.Master == this.BChar));
 
@@ -37,12 +34,12 @@ namespace PatchouliKnowledge
                 .Select(group => group.First()) // 每个KeyID只保留第一个Skill
                 .ToList();
 
-            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(CList, new SkillButton.SkillClickDel(this.Del), ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("selectElement"), false, true, true, false, true));
+            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(CList, new SkillButton.SkillClickDel(this.Del), ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("selectElement"), false, true, true, false, true));
         }
 
         public void Del(SkillButton Mybutton)
         {
-            firstskill = Mybutton.Myskill;
+            P_PatchouliKnowledge.firstskill = Mybutton.Myskill;
 
             List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.Master == this.BChar));
 
@@ -52,18 +49,21 @@ namespace PatchouliKnowledge
                 .Select(group => group.First()) // 每个KeyID只保留第一个Skill
                 .ToList();
 
-            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(CList, new SkillButton.SkillClickDel(this.Del2), ModManager.getModInfo("Yuyuko").localizationInfo.SystemLocalizationUpdate("selectElement"), false, true, true, false, true));
+            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(CList, new SkillButton.SkillClickDel(this.Del2), ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("selectElement"), false, true, true, false, true));
         }
 
         public void Del2(SkillButton Mybutton)
         {
-            secondskill = Mybutton.Myskill;
+            P_PatchouliKnowledge.secondskill = Mybutton.Myskill;
 
-            string newskill = P_PatchouliKnowledge.GetSkill(firstskill, secondskill);
+            string newskill = P_PatchouliKnowledge.GetSkill(P_PatchouliKnowledge.firstskill, P_PatchouliKnowledge.secondskill);
             
             Skill tmpSkill = Skill.TempSkill(newskill, this.BChar, this.BChar.MyTeam);
             tmpSkill.isExcept = true;
             BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
+
+            P_PatchouliKnowledge.firstskill = null;
+            P_PatchouliKnowledge.secondskill = null;
         }
     }
 }

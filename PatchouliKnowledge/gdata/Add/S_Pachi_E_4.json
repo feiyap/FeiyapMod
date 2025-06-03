@@ -14,6 +14,9 @@
         "Image_2": "S_Pachi_E_4\\S_Pachi_E_4_Image_2.png",
         "NoDrop": false,
         "IgnoreTaunt": false,
-        "PlusSkillView": "S_Pachi_Sk_4_4"
+        "PlusSkillView": "S_Pachi_Sk_4_4",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_E_4"
+        ]
     }
 }

@@ -18,6 +18,11 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class B_Pachi_4_6:Buff
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.Strength = true;
+            this.PlusStat.maxhp = 70;
+        }
     }
 }

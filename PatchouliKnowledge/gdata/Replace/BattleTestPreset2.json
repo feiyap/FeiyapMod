@@ -15,7 +15,10 @@
         ],
         "PartySkills": [
             [
-                
+                "S_Infernal_0",
+                "S_Infernal_0",
+                "S_Infernal_0",
+                "S_Infernal_0"
             ],
             [
                 
@@ -29,7 +32,9 @@
                 "S_Pachi_E_2",
                 "S_Pachi_E_3",
                 "S_Pachi_E_4",
-                "S_Pachi_E_7"
+                "S_Pachi_E_7",
+                "S_Pachi_E_5",
+                "S_Pachi_E_6"
             ]
         ],
         "PartyEquip": [
@@ -47,7 +52,7 @@
             ]
         ],
         "LucySkill": [
-            
+            "S_Pachi_LucyD"
         ],
         "AP": 10,
         "Level": 6

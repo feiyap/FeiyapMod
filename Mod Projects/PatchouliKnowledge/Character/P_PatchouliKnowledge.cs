@@ -41,13 +41,16 @@ namespace PatchouliKnowledge
             "S_Pachi_E_6"
         };
 
+        public static Skill firstskill = new Skill();
+        public static Skill secondskill = new Skill();
+
         public static Dictionary<(int, int), string> GenerateSkillMap()
         {
             var skillMap = new Dictionary<(int, int), string>();
 
-            for (int e1 = 0; e1 < 5; e1++)
+            for (int e1 = 0; e1 < 7; e1++)
             {
-                for (int e2 = 0; e2 < 5; e2++)
+                for (int e2 = 0; e2 < 7; e2++)
                 {
                     int code1 = Math.Min((int)e1, (int)e2);
                     int code2 = Math.Max((int)e1, (int)e2);
@@ -70,6 +73,23 @@ namespace PatchouliKnowledge
             int e1 = int.Parse(s1.MySkill.KeyID.Split('_').Last());
             int e2 = int.Parse(s2.MySkill.KeyID.Split('_').Last());
 
+            if (e1 == 5)
+            {
+                BattleSystem.instance.GetBattleValue<BV_Pachi_P>().setSunUsed(e2);
+            }
+            if (e1 == 6)
+            {
+                BattleSystem.instance.GetBattleValue<BV_Pachi_P>().setMoonUsed(e2);
+            }
+            if (e2 == 5)
+            {
+                BattleSystem.instance.GetBattleValue<BV_Pachi_P>().setSunUsed(e1);
+            }
+            if (e2 == 6)
+            {
+                BattleSystem.instance.GetBattleValue<BV_Pachi_P>().setMoonUsed(e1);
+            }
+
             // 你可以选择是否支持不区分顺序（比如 e1,e2 和 e2,e1 是同一个技能）
             if (skillMap.TryGetValue((e1, e2), out var skill))
                 return skill;
@@ -82,6 +102,9 @@ namespace PatchouliKnowledge
         {
             base.Init();
             this.OnePassive = true;
+
+            firstskill = null;
+            secondskill = null;
         }
 
         //战斗开始时，放逐所有元素技能
@@ -91,6 +114,9 @@ namespace PatchouliKnowledge
             {
                 BattleSystem.instance.BattleValues.Add(new BV_Pachi_P());
             }
+
+            firstskill = null;
+            secondskill = null;
 
             this.BChar.BuffAdd("B_Pachi_P", this.BChar);
         }

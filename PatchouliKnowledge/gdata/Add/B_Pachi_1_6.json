@@ -1,0 +1,12 @@
+{
+    "B_Pachi_1_6": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "Cantdisable": true,
+        "ClassName": "PatchouliKnowledge.B_Pachi_1_6",
+        "BuffTag": "null",
+        "Name": "卫星向日葵",
+        "Description": "本次战斗期间最大法力值增加1点。",
+        "MaxStack": 5
+    }
+}

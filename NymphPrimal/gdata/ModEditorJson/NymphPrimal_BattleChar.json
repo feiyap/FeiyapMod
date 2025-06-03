@@ -1,0 +1,23 @@
+{
+    "myKey": "NymphPrimal",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "NymphPrimal\\NymphPrimalBattleChar.png",
+        "offsetMax": {
+            "x": 932.8941,
+            "y": 432.252
+        },
+        "offsetMin": {
+            "x": -824.0261,
+            "y": -1324.66821
+        },
+        "pivot": {
+            "x": 0.469017357,
+            "y": 0.753971756
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

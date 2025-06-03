@@ -23,7 +23,7 @@ namespace VillageAlice
         {
             foreach (Skill skill in BattleSystem.instance.AllyTeam.Skills)
             {
-                if (skill.Master != this.BChar || skill.Master.IsLucyNoC)
+                if (skill.Master == this.BChar)
                 {
                     skill.ExtendedAdd(new Ex_LucyD_21());
                 }
@@ -33,7 +33,7 @@ namespace VillageAlice
         public IEnumerator Draw(Skill Drawskill, bool NotDraw)
         {
             yield return new WaitForFixedUpdate();
-            if (Drawskill.Master != this.BChar || Drawskill.Master.IsLucyNoC)
+            if (Drawskill.Master == this.BChar)
             {
                 Drawskill.ExtendedAdd(new Ex_LucyD_21());
             }

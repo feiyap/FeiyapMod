@@ -9,6 +9,7 @@
         "Icon": "Image/Buff/Skill_Icon_Pack/2024 0412 DLC/Watery debuff",
         "LifeTime": 2,
         "Debuff": true,
-        "TagPer": 0
+        "TagPer": 0,
+        "Hide": false
     }
 }

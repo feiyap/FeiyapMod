@@ -8,11 +8,20 @@
         "NotCount": true,
         "NoDrop": true,
         "Name": "日月符「皇家钻戒」",
-        "Description": "重置所有“高级元素”符卡的可组合次数。",
+        "Description": "从放逐牌库中将 1 个自己的技能拿回手中。\n重置所有“高级元素”符卡的可组合次数。",
         "UseAp": 2,
         "SkillExtended": [
             "PatchouliKnowledge.S_Pachi_Sk_5_6"
         ],
-        "PlusSkillView": "S_Pachi_Sk_6_6"
+        "Effect_Target": "null",
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Image_0": "S_Pachi_Sk_5_6\\S_Pachi_Sk_5_6_Image_0.png",
+        "Image_1": "S_Pachi_Sk_5_6\\S_Pachi_Sk_5_6_Image_1.png",
+        "Image_2": "S_Pachi_Sk_5_6\\S_Pachi_Sk_5_6_Image_2.png",
+        "EnemyPreview": false,
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ]
     }
 }

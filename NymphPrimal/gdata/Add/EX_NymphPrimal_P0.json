@@ -1,0 +1,10 @@
+{
+    "EX_NymphPrimal_P0": {
+        "_gdeSchema": "SkillExtended",
+        "Drop": true,
+        "EnforceString": "攻击技能或治疗技能",
+        "NeedCharacter": "NymphPrimal",
+        "Des": "任意目标处于<sprite=1>心像凋亡爆发期间时，对自身施加2层<sprite=0>心像凋亡；自身处于<sprite=1>心像凋亡爆发期间时，对所有目标施加2层<sprite=0>心像凋亡。",
+        "ClassName": "NymphPrimal.EX_NymphPrimal_P0"
+    }
+}

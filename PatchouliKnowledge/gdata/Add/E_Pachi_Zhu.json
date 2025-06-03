@@ -1,0 +1,14 @@
+{
+    "E_Pachi_Zhu": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "Skills": [
+            "S_Idle"
+        ],
+        "atk": 1,
+        "reg": 1,
+        "def": 0,
+        "maxhp": 35,
+        "name": "zhu"
+    }
+}

@@ -13,7 +13,7 @@
         "NoDrop": true,
         "NotCount": false,
         "Except": true,
-        "PlusSkillView": "S_Pachi_Sk_3_4",
+        "PlusSkillView": "S_Pachi_Sk_0_3",
         "SkillExtended": [
             "PatchouliKnowledge.S_Pachi_Sk_3_3"
         ],

@@ -1,0 +1,12 @@
+{
+    "SE_T_S_NymphPrimal_3": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_NymphPrimal_3"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

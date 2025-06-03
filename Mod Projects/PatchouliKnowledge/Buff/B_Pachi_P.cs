@@ -54,9 +54,9 @@ namespace PatchouliKnowledge
             this.PlusStat.RES_CC = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[0] * 5;
             this.PlusStat.RES_DEBUFF = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[0] * 5;
 
-            this.PlusStat.PlusDraw = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[5] * 1;
+            this.PlusStat.PlusCriDmg = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[5] * 50;
 
-            this.PlusStat.MPR = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[6] * 1;
+            this.PlusStat.DMGTaken = BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[6] * -20;
         }
     }
 }

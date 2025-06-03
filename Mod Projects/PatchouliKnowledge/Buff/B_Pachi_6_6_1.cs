@@ -17,8 +17,11 @@ namespace PatchouliKnowledge
 	/// 月之暗面
 	/// 按下回合结束按钮时，获得“月之面纱”。
 	/// </summary>
-    public class B_Pachi_6_6_1:Buff
+    public class B_Pachi_6_6_1:Buff, IP_TurnEndButtonEnemy
     {
-
+        public void TurnEndButtonEnemy()
+        {
+            this.BChar.BuffAdd("B_Pachi_6_6", this.Usestate_F);
+        }
     }
 }

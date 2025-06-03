@@ -21,6 +21,41 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class S_Pachi_E_5:Skill_Extended
     {
-
+        public override bool ButtonSelectTerms()
+        {
+            if (P_PatchouliKnowledge.firstskill == null)
+            {
+                return true;
+            }
+            if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_0")
+            {
+                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[0] == 0;
+            }
+            if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_1")
+            {
+                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[1] == 0;
+            }
+            if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_2")
+            {
+                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[2] == 0;
+            }
+            if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_3")
+            {
+                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[3] == 0;
+            }
+            if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_4")
+            {
+                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[4] == 0;
+            }
+            if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_5")
+            {
+                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[5] == 0;
+            }
+            if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_6")
+            {
+                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().moonUsed[5] == 0;
+            }
+            return true;
+        }
     }
 }

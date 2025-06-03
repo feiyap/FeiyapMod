@@ -1,0 +1,13 @@
+{
+    "B_NymphPrimal_E_SP": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "NymphPrimal.B_NymphPrimal_E_SP",
+        "BuffTag": "null",
+        "Name": "？？？",
+        "Debuff": true,
+        "TagPer": 0,
+        "MaxStack": 40,
+        "Icon": "B_NymphPrimal_E_SP\\B_NymphPrimal_E_SP_Icon.png"
+    }
+}

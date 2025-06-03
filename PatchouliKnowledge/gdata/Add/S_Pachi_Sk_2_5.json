@@ -2,14 +2,37 @@
     "S_Pachi_Sk_2_5": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/Buff",
+        "Particle": "Particle/flare_lv1",
         "Rare": true,
-        "Target": "self",
+        "Target": "ally",
         "NoDrop": true,
         "Name": "日水符「氢化日珥」",
         "UseAp": 2,
         "NotCount": true,
         "Effect_Target": "SE_T_S_Pachi_Sk_2_5",
-        "PlusSkillView": "S_Pachi_Sk_3_5"
+        "PlusSkillView": "S_Pachi_Sk_3_5",
+        "Image_0": "S_Pachi_Sk_2_5\\S_Pachi_Sk_2_5_Image_0.png",
+        "Image_1": "S_Pachi_Sk_2_5\\S_Pachi_Sk_2_5_Image_1.png",
+        "Image_2": "S_Pachi_Sk_2_5\\S_Pachi_Sk_2_5_Image_2.png",
+        "Description": "这个技能的倒计时不会因为按下回合结束按钮而释放。\n倒计时期间，当任意调查员受到伤害时，记录伤害量，降低这个技能等量的治疗量，立即治疗目标等量的体力值。这个技能的治疗量低于0时立即释放。",
+        "Counting": 99,
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_2_5"
+        ],
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

@@ -1,0 +1,15 @@
+{
+    "B_Infernal_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "PatchouliKnowledge.B_Infernal_P",
+        "BuffTag": "null",
+        "Name": "永久献祭",
+        "Description": "每个回合开始时，对所有队友造成 &a 伤害(攻击力的33%)。",
+        "Icon": "B_Infernal_P\\B_Infernal_P_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

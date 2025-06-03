@@ -1,0 +1,11 @@
+{
+    "S_NymphPrimal_R0_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "层封之哀伤",
+        "Effect_Target": "SE_T_S_NymphPrimal_R0_4",
+        "Image_0": "S_NymphPrimal_R0_4\\S_NymphPrimal_R0_4_Image_0.png"
+    }
+}

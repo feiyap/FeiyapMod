@@ -3,8 +3,7 @@
         "_gdeSchema": "EnemyQueue",
         "Enemys": [
             "TrialofStrength_Enemy",
-            "TrialofStrength_Enemy",
-            "TrialofStrength_Enemy"
+            "TrialofBrave_Enemy1"
         ]
     }
 }

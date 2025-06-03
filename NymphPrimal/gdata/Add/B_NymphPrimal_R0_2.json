@@ -1,0 +1,10 @@
+{
+    "B_NymphPrimal_R0_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NymphPrimal.B_NymphPrimal_R0_2",
+        "BuffTag": "null",
+        "Name": "喜悦",
+        "Icon": "B_NymphPrimal_R0_2\\B_NymphPrimal_R0_2_Icon.png",
+        "Description": "受到痛苦伤害减少50%。\r\n按下回合结束按钮时，持有的窥心钥每回合伤害改为增加20%。"
+    }
+}

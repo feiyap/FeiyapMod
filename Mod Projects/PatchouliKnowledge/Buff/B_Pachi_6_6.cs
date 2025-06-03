@@ -18,8 +18,21 @@ namespace PatchouliKnowledge
 	/// 隐匿。
 	/// 使用自己的技能时解除。
 	/// </summary>
-    public class B_Pachi_6_6:Buff
+    public class B_Pachi_6_6:Buff, IP_SkillUse_Team
     {
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.invincibility = true;
+        }
+
+        public void SkillUseTeam(Skill skill)
+        {
+            if (skill.Master == this.BChar)
+            {
+                this.SelfDestroy();
+            }
+        }
 
     }
 }

@@ -44,6 +44,10 @@ namespace VillageAlice
 		/// </summary>
         public static string Buff_B_FVAlice_Queen_P = "B_FVAlice_Queen_P";
 		/// <summary>
+		/// 砍掉他的头
+		/// </summary>
+        public static string Buff_B_FVAlice_Queen_P_0 = "B_FVAlice_Queen_P_0";
+		/// <summary>
 		/// 管家兔
 		/// 被击杀时，「停止」&user之外的所有角色1回合。
 		/// </summary>
@@ -178,10 +182,6 @@ namespace VillageAlice
 		/// 释放【童话】技能后，将进入[梦境]，在[梦境]中释放未被【童话】的技能将返回[现实]。
 		/// </summary>
         public static string Character_VillageAlice = "VillageAlice";
-		/// <summary>
-		/// 砍掉他的头
-		/// </summary>
-        public static string Buff_B_FVAlice_Queen_P_0 = "B_FVAlice_Queen_P_0";
 
     }
 

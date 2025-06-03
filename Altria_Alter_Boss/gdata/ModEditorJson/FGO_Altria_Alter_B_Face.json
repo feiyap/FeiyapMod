@@ -1,0 +1,23 @@
+{
+    "myKey": "FGO_Altria_Alter_B",
+    "myField": "Face",
+    "myValues": {
+        "path": "FGO_Altria_Alter_B\\FGO_Altria_Alter_BFace.png",
+        "pivot": {
+            "x": 0.500178337,
+            "y": 0.5029906
+        },
+        "offsetMin": {
+            "x": -104.520607,
+            "y": -143.00946
+        },
+        "offsetMax": {
+            "x": 100.383415,
+            "y": 130.195892
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

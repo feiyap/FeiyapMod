@@ -1,0 +1,10 @@
+{
+    "B_NymphPrimal_R0_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NymphPrimal.B_NymphPrimal_R0_3",
+        "BuffTag": "null",
+        "Icon": "B_NymphPrimal_R0_3\\B_NymphPrimal_R0_3_Icon.png",
+        "Name": "快乐",
+        "Description": "回合开始时获得影子帷幕。\r\n场上存在该增益时，心像凋亡爆发获得的等待次数+1。"
+    }
+}

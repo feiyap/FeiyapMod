@@ -21,6 +21,64 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class S_Pachi_Sk_0_6:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (!Targets[0].Info.Ally && !(Targets[0] as BattleEnemy).Boss)
+            {
+                foreach (Buff buff in Targets[0].Buffs)
+                {
+                    buff.SelfDestroy();
+                }
 
+                foreach (CastingSkill castingSkill in BattleSystem.instance.EnemyCastSkills)
+                {
+                    if (castingSkill.skill.Master == Targets[0])
+                    {
+                        BattleSystem.instance.ActWindow.CastingWaste(castingSkill);
+                    }
+                }
+
+                BattleSystem.instance.EnemyCastSkills.RemoveAll((CastingSkill a) => a.skill.Master == Targets[0]);
+
+                if (RandomManager.RandomPer(this.BChar.GetRandomClass().Main, 100, 50))
+                {
+                    BattleEnemy battleEnemy = Targets[0] as BattleEnemy;
+                    GDEEnemyData gdeenemyData = new GDEEnemyData("Enemy_Pachi_Zhu");
+                    GameObject gameObject = battleEnemy.gameObject;
+                    gameObject.SetActive(true);
+                    BattleEnemy component = gameObject.GetComponent<BattleEnemy>();
+                    component.init(gdeenemyData, BattleSystem.instance);
+
+                    battleEnemy.BuffAdd("B_FVAlice_Rabbit_P", this.BChar);
+                }
+                else
+                {
+                    BattleEnemy battleEnemy = Targets[0] as BattleEnemy;
+                    GDEEnemyData gdeenemyData = new GDEEnemyData("S1_Dochi_L");
+                    GameObject gameObject = battleEnemy.gameObject;
+                    gameObject.SetActive(true);
+                    BattleEnemy component = gameObject.GetComponent<BattleEnemy>();
+                    component.init(gdeenemyData, BattleSystem.instance);
+                }
+
+                BattleSystem.instance.EnemyTeam.UpdateEnemyList();
+            }
+
+            if (Targets[0].Info.Ally)
+            {
+                for (int i = 0; i < Targets[0].Buffs.Count; i++)
+                {
+                    if (Targets[0].Buffs[i].BuffData.Debuff && !Targets[0].Buffs[i].CantDisable)
+                    {
+                        Targets[0].Buffs[i].SelfDestroy(false);
+                    }
+                }
+            }
+
+            if ((Targets[0] as BattleEnemy).Boss)
+            {
+                Targets[0].BuffAdd("B_Common_Rest", this.BChar, false, 999);
+            }
+        }
     }
 }

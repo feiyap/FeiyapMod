@@ -20,6 +20,21 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class S_Pachi_E_4:Skill_Extended
     {
-
+        public override bool ButtonSelectTerms()
+        {
+            if (P_PatchouliKnowledge.firstskill == null)
+            {
+                return true;
+            }
+            if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_5")
+            {
+                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[4] == 0;
+            }
+            if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_6")
+            {
+                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().moonUsed[4] == 0;
+            }
+            return true;
+        }
     }
 }

@@ -19,6 +19,31 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class S_Pachi_Sk_3_6:Skill_Extended
     {
-
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (Targets[0] is BattleEnemy)
+            {
+                if ((Targets[0] as BattleEnemy).istaunt)
+                {
+                    foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
+                    {
+                        if (be != Targets[0] && be.istaunt)
+                        {
+                            Targets.Add(be);
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
+                    {
+                        if (be != Targets[0] && !be.istaunt)
+                        {
+                            Targets.Add(be);
+                        }
+                    }
+                }
+            }
+        }
     }
 }

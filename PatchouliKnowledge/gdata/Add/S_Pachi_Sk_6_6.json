@@ -13,6 +13,25 @@
         "Effect_Target": "SE_T_S_Pachi_Sk_6_6",
         "SkillExtended": [
             "PatchouliKnowledge.S_Pachi_Sk_6_6"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "PlusSkillView": "S_Pachi_Sk_0_6",
+        "Image_0": "S_Pachi_Sk_6_6\\S_Pachi_Sk_6_6_Image_0.png",
+        "Image_1": "S_Pachi_Sk_6_6\\S_Pachi_Sk_6_6_Image_1.png",
+        "Image_2": "S_Pachi_Sk_6_6\\S_Pachi_Sk_6_6_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
         ]
     }
 }

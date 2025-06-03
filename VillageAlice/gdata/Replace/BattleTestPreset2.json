@@ -11,7 +11,7 @@
             "S_Ilya_1",
             "S_Azar_5",
             "S_TW_Blue_5",
-            "S_FVAlice_Rare_1"
+            "S_FVAlice_Rare_2"
         ],
         "PartySkills": [
             [
@@ -25,12 +25,7 @@
             ],
             [
                 "S_FVAlice_Rare_1",
-                "S_FVAlice_Rare_1",
-                "S_FVAlice_0",
-                "S_FVAlice_0",
-                "S_FVAlice_1",
-                "S_FVAlice_1",
-                "S_FVAlice_1"
+                "S_FVAlice_Rare_1"
             ]
         ],
         "PartyEquip": [
@@ -48,6 +43,9 @@
             ]
         ],
         "AP": 10,
-        "Level": 2
+        "Level": 2,
+        "LucySkill": [
+            "S_Lucy_0"
+        ]
     }
 }

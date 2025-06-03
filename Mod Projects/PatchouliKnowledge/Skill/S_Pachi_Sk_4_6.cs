@@ -17,8 +17,29 @@ namespace PatchouliKnowledge
 	/// 月土符「阿波罗12号」
 	/// 每次使用手中的技能时减少 1 点费用。
 	/// </summary>
-    public class S_Pachi_Sk_4_6:Skill_Extended
+    public class S_Pachi_Sk_4_6:Skill_Extended, IP_SkillUse_Team
     {
+        public override void Init()
+        {
+            base.Init();
+            this.UseNum = 0;
+        }
 
+        public override void FixedUpdate()
+        {
+            this.APChange = -this.UseNum;
+        }
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            this.UseNum = 0;
+        }
+
+        public void SkillUseTeam(Skill skill)
+        {
+            this.UseNum++;
+        }
+
+        public int UseNum;
     }
 }

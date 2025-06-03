@@ -25,6 +25,9 @@
         "Image_0": "S_Pachi_E_0\\S_Pachi_E_0_Image_0.png",
         "Image_1": "S_Pachi_E_0\\S_Pachi_E_0_Image_1.png",
         "Image_2": "S_Pachi_E_0\\S_Pachi_E_0_Image_2.png",
-        "PlusSkillView": "S_Pachi_Sk_0_0"
+        "PlusSkillView": "S_Pachi_Sk_0_0",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_E_0"
+        ]
     }
 }

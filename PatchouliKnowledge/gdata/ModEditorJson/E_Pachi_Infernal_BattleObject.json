@@ -1,0 +1,28 @@
+{
+    "myKey": "E_Pachi_Infernal",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "E_Pachi_Infernal\\E_Pachi_InfernalMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.5332981,
+            "y": 0.09168056
+        },
+        "Head": {
+            "x": 0.5333818,
+            "y": 0.758309066
+        },
+        "Center": {
+            "x": 0.5333784,
+            "y": 0.758309066
+        },
+        "UI": {
+            "x": 0.5195048,
+            "y": 0.108332008
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

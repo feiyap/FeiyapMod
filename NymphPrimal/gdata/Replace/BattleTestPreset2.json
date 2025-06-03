@@ -1,0 +1,56 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "NymphPrimal"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_MissChain_3",
+            "S_Ilya_4",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                "S_MissChain_8",
+                "S_MissChain_8",
+                "S_MissChain_4"
+            ],
+            [
+                "S_ShadowPriest_1"
+            ],
+            [
+                "S_NymphPrimal_1",
+                "S_NymphPrimal_R0",
+                "S_NymphPrimal_R0"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                "Torch_FanaticBoss"
+            ],
+            [
+                "WhitePriestCloth",
+                "PoisonousBottle"
+            ],
+            [
+                "PoisonousBottle"
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            "S_LucyCasinoDLC_V2_0_Plus",
+            "S_NymphPrimal_L0",
+            "S_LucyD_0"
+        ],
+        "AP": 9
+    }
+}

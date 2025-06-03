@@ -25,7 +25,10 @@
         "Fatal": false,
         "EnemyPreview": false,
         "UnknownTarget": false,
-        "PlusSkillView": "S_Pachi_Sk_0_5",
-        "User": "PatchouliKnowledge"
+        "PlusSkillView": "S_Pachi_Sk_5_5",
+        "User": "PatchouliKnowledge",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_E_5"
+        ]
     }
 }

@@ -1,0 +1,15 @@
+{
+    "B_NymphPrimal_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NymphPrimal.B_NymphPrimal_7",
+        "BuffTag": "DOT",
+        "Name": "重温",
+        "Description": "下回合开始时解除。\r\n重复释放下一个出手的可对目标施加<sprite=0>弱化和<sprite=1>痛苦减益的技能，然后解除该减益。\r\n解除时，造成5点痛苦伤害，等待次数+2。",
+        "MaxStack": 0,
+        "LifeTime": 0,
+        "Debuff": true,
+        "TagPer": 150,
+        "UseSkillDebuff": false,
+        "Icon": "B_NymphPrimal_7\\B_NymphPrimal_7_Icon.png"
+    }
+}

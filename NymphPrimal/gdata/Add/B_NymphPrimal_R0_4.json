@@ -1,0 +1,10 @@
+{
+    "B_NymphPrimal_R0_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "NymphPrimal.B_NymphPrimal_R0_4",
+        "BuffTag": "null",
+        "Name": "哀伤",
+        "Description": "回合开始时获得完美防御！。\r\n即使每回合减益伤害量为0，也会被窥心钥作为优先转移目标。",
+        "Icon": "B_NymphPrimal_R0_4\\B_NymphPrimal_R0_4_Icon.png"
+    }
+}

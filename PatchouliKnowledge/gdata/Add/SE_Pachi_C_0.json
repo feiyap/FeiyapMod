@@ -1,0 +1,12 @@
+{
+    "SE_Pachi_C_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "展示放逐牌库中所有“基本元素”技能，选择其中 1 个，在手中生成其复制。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "PatchouliKnowledge",
+        "ClassName": "PatchouliKnowledge.SE_Pachi_C_0"
+    }
+}

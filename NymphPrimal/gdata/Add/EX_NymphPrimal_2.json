@@ -1,0 +1,14 @@
+{
+    "EX_NymphPrimal_2": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Debuff": true,
+        "NeedCharacter": "",
+        "IsIcon": "Image/Buff/Skill_Icon_Pack/X",
+        "Name": "第二次使用的技能不会被复制。",
+        "ClassName": "NymphPrimal.EX_NymphPrimal_2",
+        "Drop": false,
+        "EnforceString": ""
+    }
+}

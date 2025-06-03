@@ -11,6 +11,7 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
+using BasicMethods;
 namespace PatchouliKnowledge
 {
 	/// <summary>
@@ -21,6 +22,33 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class S_Pachi_LucyD:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            BattleSystem.instance.AllyTeam.Draw(2);
 
+            List<Skill> excDeck = Enumerable.ToList<Skill>(Enumerable.Where<Skill>(BV_ExceptDeck.TryGetExcptedSkills(), (Skill sk) => sk.MySkill.KeyID != "S_Pachi_LucyD"));
+
+            List<Skill> CList = excDeck
+                .Where(skill => P_PatchouliKnowledge.BaseElement.Contains(skill.MySkill.KeyID))
+                .GroupBy(skill => skill.MySkill.KeyID)
+                .Select(group => group.First()) // 每个KeyID只保留第一个Skill
+                .ToList();
+
+            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(CList, delegate (SkillButton skillbutton)
+            {
+                BattleSystem.instance.AllyTeam.Add(skillbutton.Myskill.CloneSkill(false, skillbutton.Myskill.Master), false);
+            }, ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect"), true, true, true, false, true));
+
+            List<Skill> DList = excDeck
+                .Where(skill => skill.MySkill.PlusCustomKeywords().Contains("Koakuma_MagicBook"))
+                .GroupBy(skill => skill.MySkill.KeyID)
+                .Select(group => group.First()) // 每个KeyID只保留第一个Skill
+                .ToList();
+
+            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(DList, delegate (SkillButton skillbutton)
+            {
+                BattleSystem.instance.AllyTeam.Add(skillbutton.Myskill.CloneSkill(false, skillbutton.Myskill.Master), false);
+            }, ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect"), true, true, true, false, true));
+        }
     }
 }

@@ -9,6 +9,7 @@
         "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (62)",
         "Debuff": true,
         "TagPer": 0,
-        "LifeTime": 4
+        "LifeTime": 4,
+        "Hide": false
     }
 }

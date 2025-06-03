@@ -8,10 +8,19 @@
         "NotCount": false,
         "NoDrop": true,
         "Name": "日火符「伽马流射线」",
-        "Description": "击杀敌人时，抽取 1 个技能，并使这个技能造成的伤害永久提升 1.1 倍。\n当前触发次数：&a\n当前提升倍数：&b",
+        "Description": "击杀敌人时，抽取 1 个技能，并使这个技能造成的伤害永久提升 1.1 倍。\n当前触发次数：&a\n当前提升倍数：&b\n当前伤害数值：&c",
         "UseAp": 2,
         "Effect_Target": "SE_T_S_Pachi_Sk_3_5",
         "PlusSkillView": "S_Pachi_Sk_4_5",
-        "IgnoreTaunt": false
+        "IgnoreTaunt": false,
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_Sk_3_5"
+        ],
+        "Image_0": "S_Pachi_Sk_3_5\\S_Pachi_Sk_3_5_Image_0.png",
+        "Image_1": "S_Pachi_Sk_3_5\\S_Pachi_Sk_3_5_Image_1.png",
+        "Image_2": "S_Pachi_Sk_3_5\\S_Pachi_Sk_3_5_Image_2.png",
+        "PlusCustomKeywords": [
+            "NoExceptDeck"
+        ]
     }
 }

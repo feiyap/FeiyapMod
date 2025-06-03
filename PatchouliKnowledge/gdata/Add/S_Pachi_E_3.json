@@ -13,6 +13,9 @@
         "Image_1": "S_Pachi_E_3\\S_Pachi_E_3_Image_1.png",
         "Image_2": "S_Pachi_E_3\\S_Pachi_E_3_Image_2.png",
         "NoDrop": false,
-        "PlusSkillView": "S_Pachi_Sk_3_3"
+        "PlusSkillView": "S_Pachi_Sk_3_3",
+        "SkillExtended": [
+            "PatchouliKnowledge.S_Pachi_E_3"
+        ]
     }
 }

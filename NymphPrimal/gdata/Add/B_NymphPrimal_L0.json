@@ -1,0 +1,19 @@
+{
+    "B_NymphPrimal_L0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "NymphPrimal.B_NymphPrimal_L0",
+        "BuffTag": "DOT",
+        "Name": "巴拉巴拉",
+        "Description": "解除时，抽两张牌，等待次数+2。",
+        "Tick": "SE_Tick_B_NymphPrimal_L0",
+        "Debuff": true,
+        "TagPer": 500,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "LifeTime": 5,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (21)"
+    }
+}

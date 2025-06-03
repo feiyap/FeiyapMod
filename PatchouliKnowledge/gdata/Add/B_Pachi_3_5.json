@@ -1,0 +1,12 @@
+{
+    "B_Pachi_3_5": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "PatchouliKnowledge.B_Pachi_3_5",
+        "BuffTag": "null",
+        "Name": "伽马流射线",
+        "MaxStack": 999,
+        "Hide": true,
+        "IsFieldBuff": true
+    }
+}

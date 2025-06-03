@@ -20,6 +20,15 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class B_Pachi_4_5:Buff
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.atk = StackNum;
+            this.PlusStat.def = 4 * StackNum;
+            if (StackNum >= 5)
+            {
+                this.PlusStat.cri = 100;
+            }
+        }
     }
 }

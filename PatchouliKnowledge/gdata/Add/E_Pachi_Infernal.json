@@ -1,0 +1,22 @@
+{
+    "E_Pachi_Infernal": {
+        "_gdeSchema": "Enemy",
+        "hit": 115,
+        "name": "地狱火",
+        "Passives": [
+            "B_Infernal_P"
+        ],
+        "Skills": [
+            "S_Infernal_0"
+        ],
+        "atk": 20,
+        "reg": 0,
+        "def": 15,
+        "cri": 15,
+        "RES_CC": 500,
+        "RES_DEBUFF": 500,
+        "RES_DOT": 500,
+        "maxhp": 2000,
+        "spd": -1
+    }
+}

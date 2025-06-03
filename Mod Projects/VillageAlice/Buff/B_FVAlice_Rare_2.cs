@@ -19,6 +19,11 @@ namespace VillageAlice
 	/// </summary>
     public class B_FVAlice_Rare_2:Buff
     {
-
+        public override void SelfdestroyPlus()
+        {
+            base.SelfdestroyPlus();
+            var filter = UIManager.inst.UIcamera.gameObject.GetComponent<RuntimePinkFilter>();
+            UnityEngine.Object.Destroy(filter as UnityEngine.Object);
+        }
     }
 }

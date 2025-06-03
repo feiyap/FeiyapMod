@@ -1,0 +1,18 @@
+{
+    "B_NymphPrimal_E_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "NymphPrimal.B_NymphPrimal_E_0",
+        "BuffTag": "Debuff",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "心像凋亡",
+        "Debuff": true,
+        "TagPer": 125,
+        "MaxStack": 4,
+        "Description": "达到4层时如果不持有<sprite=1>心像凋亡爆发，解除并施加4层<sprite=1>心像凋亡爆发，然后使等待次数+3。",
+        "Icon": "B_NymphPrimal_E_0\\B_NymphPrimal_E_0_Icon.png"
+    }
+}

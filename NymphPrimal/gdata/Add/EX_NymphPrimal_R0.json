@@ -1,0 +1,10 @@
+{
+    "EX_NymphPrimal_R0": {
+        "_gdeSchema": "SkillExtended",
+        "IsOnesInit": true,
+        "IsIcon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_02",
+        "Name": "剩余使用次数",
+        "Des": "剩余 &a 次",
+        "ClassName": "NymphPrimal.EX_NymphPrimal_R0"
+    }
+}
