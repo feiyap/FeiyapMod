@@ -3,7 +3,7 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Joey/Joey_0",
-        "Target": "enemy",
+        "Target": "all_onetarget",
         "NoDrop": true,
         "Name": "木符「风灵的角笛」",
         "Description": "使目标持有的所有痛苦减益扩散至其他敌人。\n\n每个等级的“木”额外施加1层“森林大火”。",
@@ -21,6 +21,7 @@
         "Image_2": "S_Pachi_Sk_1_1\\S_Pachi_Sk_1_1_Image_2.png",
         "PlusCustomKeywords": [
             "NoExceptDeck"
-        ]
+        ],
+        "Rare": false
     }
 }

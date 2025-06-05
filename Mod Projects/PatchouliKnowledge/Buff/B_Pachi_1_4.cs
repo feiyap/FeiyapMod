@@ -23,7 +23,7 @@ namespace PatchouliKnowledge
         public override void Init()
         {
             base.Init();
-            this.PlusStat.def = 25 + BattleSystem.instance?.GetBattleValue<BV_Pachi_P>()?.elementLevel[1] ?? 0 * 10;
+            this.PlusStat.def = 10 + (BattleSystem.instance?.GetBattleValue<BV_Pachi_P>().elementLevel[1] ?? 0) * 4;
             this.PlusStat.spd = -1;
         }
 
@@ -31,6 +31,7 @@ namespace PatchouliKnowledge
         {
             int num = (int)(this.Usestate_F.GetStat.def * (0.5 + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.1));
             this.BChar.Heal(this.Usestate_F, num, false, false, null);
+            this.SelfStackDestroy();
         }
 
         public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)

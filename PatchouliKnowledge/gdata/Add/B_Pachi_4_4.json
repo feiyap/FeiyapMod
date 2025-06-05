@@ -4,9 +4,9 @@
         "ClassName": "PatchouliKnowledge.B_Pachi_4_4",
         "BuffTag": "null",
         "Name": "石至名归",
-        "Description": "",
+        "Description": "使受到的伤害降低 &a% (&user防御力的50%)，触发后减少 1 层。",
         "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_20",
         "LifeTime": 1,
-        "MaxStack": 1
+        "MaxStack": 10
     }
 }

@@ -21,8 +21,9 @@ namespace PatchouliKnowledge
         public override void Init()
         {
             base.Init();
-            this.PlusStat.crihit = -10 * StackNum;
-            this.PlusStat.RES_DOT = 10 * StackNum;
+            this.PlusStat.RES_CC = 10 * StackNum;
+            this.PlusStat.RES_DEBUFF = 10 * StackNum;
+            this.PlusPerStat.Damage = 5 * StackNum;
         }
     }
 }

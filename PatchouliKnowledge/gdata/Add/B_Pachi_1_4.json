@@ -5,8 +5,12 @@
         "BuffTag": "null",
         "Name": "活体护甲",
         "MaxStack": 4,
-        "Description": "回合结束时恢复 &a 点体力值(&user防御力的50%)。\n受到伤害时生成 &a 保护罩(&user防御力的50%)，并减少 1 层。",
+        "Description": "回合结束时恢复 &a 点体力值(&user防御力的50%)，并减少 1 层。\n受到伤害时生成 &a 保护罩(&user防御力的50%)，并减少 1 层。",
         "Icon": "Image/Buff/Skill_Icon_Pack/green/green_11",
-        "IsFieldBuff": false
+        "IsFieldBuff": false,
+        "Hide": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

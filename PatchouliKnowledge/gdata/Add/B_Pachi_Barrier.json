@@ -1,11 +1,16 @@
 {
     "B_Pachi_Barrier": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "PatchouliKnowledge.B_Pachi_Barrier",
         "BuffTag": "null",
         "Name": "元素保护罩",
         "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_03",
         "Description": "",
-        "LifeTime": 3
+        "LifeTime": 1,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

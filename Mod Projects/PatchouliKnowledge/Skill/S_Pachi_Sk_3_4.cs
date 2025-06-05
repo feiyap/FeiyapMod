@@ -53,9 +53,9 @@ namespace PatchouliKnowledge
 
         public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
         {
-            if (DMG >= 1)
+            if (SP.SkillData == this.MySkill && DMG >= 1)
             {
-                this.BChar.BuffAdd("B_Pachi_Barrier", this.BChar).BarrierHP += (int)Misc.PerToNum((float)DMG, 30f + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 20);
+                this.BChar.BuffAdd("B_Pachi_Barrier", this.BChar).BarrierHP += (int)Misc.PerToNum((float)DMG, 15f + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 10);
             }
         }
 

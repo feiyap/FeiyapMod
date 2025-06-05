@@ -23,7 +23,7 @@ namespace PatchouliKnowledge
         {
             if (Target == this.BChar)
             {
-                if (Dmg >= (this.Usestate_F.GetStat.def * 0.5))
+                if (Dmg >= (this.Usestate_F.GetStat.def * 0.25))
                 {
                     this.SelfStackDestroy();
                 }
@@ -33,7 +33,7 @@ namespace PatchouliKnowledge
         public override string DescExtended()
         {
             return this.BuffData.Description.Replace("&user", this.Usestate_F.Info.Name)
-                                            .Replace("&a", ((int)this.Usestate_F.GetStat.def * 0.5).ToString());
+                                            .Replace("&a", ((int)this.Usestate_F.GetStat.def * 0.25).ToString());
         }
     }
 }

@@ -36,12 +36,18 @@ namespace PatchouliKnowledge
                     if (list.Count != 0)
                     {
                         bc.BuffRemove(list.Random(bc.GetRandomClass().Main).BuffData.Key, false);
-                        int num = (int)(this.BChar.GetStat.reg * 0.2);
+                        int num = (int)(this.BChar.GetStat.reg * 0.1);
                         bc.BuffAdd("B_Pachi_Barrier", this.BChar).BarrierHP += num;
                     }
                 }
             }
 
+            this.SkillBasePlus.Target_BaseHeal = (int)(this.BChar.GetStat.reg * (0.1 * BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2]));
+        }
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
             this.SkillBasePlus.Target_BaseHeal = (int)(this.BChar.GetStat.reg * (0.1 * BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2]));
         }
 

@@ -7,7 +7,7 @@
         "NotCount": true,
         "Except": true,
         "Name": "高级元素 - <color=#6A5ACD>月</color>",
-        "Description": "象征<color=#6A5ACD>权力</color>的权能。\n使用时，在本次战斗期间<color=#6A5ACD>月</color>元素等级提升 1 级。\n每个等级的<color=#6A5ACD>月</color>提供1点额外最大法力值。",
+        "Description": "象征<color=#6A5ACD>权力</color>的权能。\n使用时，在本次战斗期间<color=#6A5ACD>月</color>元素等级提升 1 级。\n每个等级的<color=#6A5ACD>月</color>提供20%受到伤害量降低。",
         "Rare": true,
         "UseAp": 1,
         "Image_0": "S_Pachi_E_6\\S_Pachi_E_6_Image_0.png",

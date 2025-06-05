@@ -3,12 +3,12 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>PatchouliKnowledge202563175824</AssemblyName>
+    <AssemblyName>PatchouliKnowledge20256622020</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <ReferencePath>E:/steam/steamapps/common/Chrono Ark/ChronoArk_Data/Managed</ReferencePath>
+    <ReferencePath>H:/SteamLibrary/steamapps/common/Chrono Ark/ChronoArk_Data/Managed</ReferencePath>
     <ProjectGuid>{424329AE-79B6-4D15-8303-8DEE50590FFA}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
@@ -429,7 +429,7 @@
     </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BV_Pachi_P.cs" />
     <Compile Include="PatchouliKnowledge_ModDefinition.cs" />

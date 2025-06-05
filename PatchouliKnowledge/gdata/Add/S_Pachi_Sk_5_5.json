@@ -21,6 +21,17 @@
         "PlusCustomKeywords": [
             "NoExceptDeck"
         ],
-        "Except": true
+        "Except": true,
+        "IgnoreTaunt": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

@@ -51,7 +51,7 @@ namespace PatchouliKnowledge
         public static string Buff_B_Pachi_1_2 = "B_Pachi_1_2";
 		/// <summary>
 		/// 活体护甲
-		/// 回合结束时恢复 &a 点体力值(&user防御力的50%)。
+		/// 回合结束时恢复 &a 点体力值(&user防御力的50%)，并减少 1 层。
 		/// 受到伤害时生成 &a 保护罩(&user防御力的50%)，并减少 1 层。
 		/// </summary>
         public static string Buff_B_Pachi_1_4 = "B_Pachi_1_4";
@@ -87,6 +87,7 @@ namespace PatchouliKnowledge
         public static string Buff_B_Pachi_3_6 = "B_Pachi_3_6";
 		/// <summary>
 		/// 石至名归
+		/// 使受到的伤害降低 &a% (&user防御力的50%)，触发后减少 1 层。
 		/// </summary>
         public static string Buff_B_Pachi_4_4 = "B_Pachi_4_4";
 		/// <summary>
@@ -233,14 +234,14 @@ namespace PatchouliKnowledge
 		/// 高级元素 - <color=#FFA500>日</color>
 		/// 象征<color=#FFA500>财富</color>的权能。
 		/// 使用时，在本次战斗期间<color=#FFA500>日</color>元素等级提升 1 级。
-		/// 每个等级的<color=#FFA500>日</color>提供每回合额外抽取1个技能。
+		/// 每个等级的<color=#FFA500>日</color>提供50%暴击伤害。
 		/// </summary>
         public static string Skill_S_Pachi_E_5 = "S_Pachi_E_5";
 		/// <summary>
 		/// 高级元素 - <color=#6A5ACD>月</color>
 		/// 象征<color=#6A5ACD>权力</color>的权能。
 		/// 使用时，在本次战斗期间<color=#6A5ACD>月</color>元素等级提升 1 级。
-		/// 每个等级的<color=#6A5ACD>月</color>提供1点额外最大法力值。
+		/// 每个等级的<color=#6A5ACD>月</color>提供20%受到伤害量降低。
 		/// </summary>
         public static string Skill_S_Pachi_E_6 = "S_Pachi_E_6";
 		/// <summary>
@@ -259,6 +260,7 @@ namespace PatchouliKnowledge
 		/// <summary>
 		/// 元素祈唤
 		/// 从放逐牌库中选择2种“元素”属性，将其组合后获得对应的符卡技能。
+		/// 使用“高级元素”组合出来的符卡技能，每场战斗仅限组合 1 次。
 		/// </summary>
         public static string Skill_S_Pachi_P = "S_Pachi_P";
 		/// <summary>
@@ -399,8 +401,7 @@ namespace PatchouliKnowledge
         public static string Skill_S_Pachi_Sk_3_6 = "S_Pachi_Sk_3_6";
 		/// <summary>
 		/// 土符「慵懒三石塔」
-		/// 生成 &a 防护墙(防御力的100%)。
-		/// 每个等级的“土”使生成的防护墙提升 &b (防御力的20%)。
+		/// 每个等级的“土”额外施加1层“石至名归”。
 		/// </summary>
         public static string Skill_S_Pachi_Sk_4_4 = "S_Pachi_Sk_4_4";
 		/// <summary>

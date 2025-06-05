@@ -8,7 +8,7 @@
         "Except": false,
         "Name": "元素祈唤",
         "UseAp": -1,
-        "Description": "从放逐牌库中选择2种“元素”属性，将其组合后获得对应的符卡技能。",
+        "Description": "从放逐牌库中选择2种“元素”属性，将其组合后获得对应的符卡技能。\n使用“高级元素”组合出来的符卡技能，每场战斗仅限组合 1 次。",
         "Basic": true,
         "Image_0": "S_Pachi_P\\S_Pachi_P_Image_0.png",
         "Image_1": "S_Pachi_P\\S_Pachi_P_Image_1.png",

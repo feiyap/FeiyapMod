@@ -22,26 +22,26 @@ namespace PatchouliKnowledge
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            this.BChar.MyTeam.partybarrier.BarrierHP += (int)((float)this.BChar.GetStat.def * (1.0f + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.2f));
+            //this.BChar.MyTeam.partybarrier.BarrierHP += (int)((float)this.BChar.GetStat.def * (1.0f + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.2f));
 
-            //for (int i = 0; i < BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4]; i++)
-            //{
-            //    foreach (BattleChar bc in Targets)
-            //    {
-            //        bc.BuffAdd("B_Pachi_4_4", this.BChar);
-            //    }
-            //}
-        }
-
-        public override string DescExtended(string desc)
-        {
-            if (BattleSystem.instance == null)
+            for (int i = 0; i < BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4]; i++)
             {
-                return base.DescExtended(desc).Replace("&a", (0).ToString())
-                                          .Replace("&b", (0).ToString());
+                foreach (BattleChar bc in Targets)
+                {
+                    bc.BuffAdd("B_Pachi_4_4", this.BChar);
+                }
             }
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.def * 1.0f)).ToString())
-                                          .Replace("&b", ((int)(this.BChar.GetStat.def * 0.2f)).ToString());
         }
+
+        //public override string DescExtended(string desc)
+        //{
+        //    if (BattleSystem.instance == null)
+        //    {
+        //        return base.DescExtended(desc).Replace("&a", (0).ToString())
+        //                                  .Replace("&b", (0).ToString());
+        //    }
+        //    return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.def * 1.0f)).ToString())
+        //                                  .Replace("&b", ((int)(this.BChar.GetStat.def * 0.2f)).ToString());
+        //}
     }
 }

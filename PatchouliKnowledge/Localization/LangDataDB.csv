@@ -1,56 +1,56 @@
-ï»¿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-Buff/B_Infernal_P_Description,Text,,,"At the start of each turn, deal &a damage to all allies (33% of Attack).",,æ¯ä¸ªå›åˆå¼€å§‹æ—¶ï¼Œå¯¹æ‰€æœ‰é˜Ÿå‹é€ æˆ &a ä¼¤å®³(æ”»å‡»åŠ›çš„33%)ã€‚,
-Buff/B_Infernal_P_Name,Text,,,Permanent Sacrifice,,æ°¸ä¹…çŒ®ç¥­,
-Buff/B_Pachi_0_0_1_Name,Text,,,Metal Fatigue,,é‡‘å±ç–²åŠ³,
-Buff/B_Pachi_0_0_Description,Text,,,Targets self instead. Removes after triggering.,,æ”»å‡»æ”¹ä¸ºæŒ‡å‘è‡ªå·±ã€‚è§¦å‘åç§»é™¤ã€‚,
-Buff/B_Pachi_0_0_Name,Text,,,Fake Dragon Scales,,èµé€ é¾™é³,
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Infernal_P_Description,Text,,,"At the start of each turn, deal &a damage to all allies (33% of Attack).",,Ã¿¸ö»ØºÏ¿ªÊ¼Ê±£¬¶ÔËùÓĞ¶ÓÓÑÔì³É &a ÉËº¦(¹¥»÷Á¦µÄ33%)¡£,
+Buff/B_Infernal_P_Name,Text,,,Permanent Sacrifice,,ÓÀ¾ÃÏ×¼À,
+Buff/B_Pachi_0_0_1_Name,Text,,,Metal Fatigue,,½ğÊôÆ£ÀÍ,
+Buff/B_Pachi_0_0_Description,Text,,,Targets self instead. Removes after triggering.,,¹¥»÷¸ÄÎªÖ¸Ïò×Ô¼º¡£´¥·¢ºóÒÆ³ı¡£,
+Buff/B_Pachi_0_0_Name,Text,,,Fake Dragon Scales,,ØÍÔìÁúÁÛ,
 Buff/B_Pachi_0_1_1_Description,Text,,,"Attacks have a &a% chance to fail.
-Removes after triggering.",,"æ”»å‡»æœ‰ &a% æ¦‚ç‡å¤±æ•ˆã€‚
-è§¦å‘åç§»é™¤ã€‚",
-Buff/B_Pachi_0_1_1_Name,Text,,,Elemental Disorder,,å…ƒç´ ç´Šä¹±,
-Buff/B_Pachi_0_1_2_Description,Text,,,"When resolving, for each stack ofÂ PainÂ on self, increase this debuff's damage per turn by 1.",,ç»“ç®—æ—¶ï¼Œè‡ªèº«æ¯æœ‰ 1 å±‚ç—›è‹¦å‡ç›Šï¼Œä½¿è¿™ä¸ªå‡ç›Šå¢åŠ  1 ç‚¹æ¯å›åˆä¼¤å®³ã€‚,
-Buff/B_Pachi_0_1_2_Name,Text,,,Elemental Entanglement,,å…ƒç´ çº ç¼ ,
-Buff/B_Pachi_0_1_Name,Text,,,Elemental Anomaly,,å…ƒç´ å¼‚å¸¸,
-Buff/B_Pachi_0_2_Name,Text,,,Life Surge,,ç”Ÿå‘½æ¶Œç°,
-Buff/B_Pachi_0_4_Description,Text,,,"BlocksÂ CCÂ orÂ WeakenÂ debuffs that allies fail to resist. After triggering, or after taking &a damage (50% of &user's Defense), loses 1 stack.",,æŠµæŒ¡å‹å†›æœªèƒ½æŠµæŠ—çš„å¹²æ‰°å‡ç›Šæˆ–å¼±åŒ–å‡ç›Šã€‚è§¦å‘åï¼Œæˆ–å—åˆ°&aç‚¹ä¼¤å®³(&useré˜²å¾¡åŠ›çš„50%)åå‡å°‘ 1 å±‚ã€‚,
-Buff/B_Pachi_0_4_Name,Text,,,Stone Guardian,,å·¨çŸ³æŠ¤å«,
+Removes after triggering.",,"¹¥»÷ÓĞ &a% ¸ÅÂÊÊ§Ğ§¡£
+´¥·¢ºóÒÆ³ı¡£",
+Buff/B_Pachi_0_1_1_Name,Text,,,Elemental Disorder,,ÔªËØÎÉÂÒ,
+Buff/B_Pachi_0_1_2_Description,Text,,,"When resolving, for each stack of?Pain?on self, increase this debuff's damage per turn by 1.",,½áËãÊ±£¬×ÔÉíÃ¿ÓĞ 1 ²ãÍ´¿à¼õÒæ£¬Ê¹Õâ¸ö¼õÒæÔö¼Ó 1 µãÃ¿»ØºÏÉËº¦¡£,
+Buff/B_Pachi_0_1_2_Name,Text,,,Elemental Entanglement,,ÔªËØ¾À²ø,
+Buff/B_Pachi_0_1_Name,Text,,,Elemental Anomaly,,ÔªËØÒì³£,
+Buff/B_Pachi_0_2_Name,Text,,,Life Surge,,ÉúÃüÓ¿ÏÖ,
+Buff/B_Pachi_0_4_Description,Text,,,"Blocks CC or Weaken debuffs that allies fail to resist. After triggering, or after taking &a damage (50% of &user's Defense), loses 1 stack.",,µÖµ²ÓÑ¾üÎ´ÄÜµÖ¿¹µÄ¸ÉÈÅ¼õÒæ»òÈõ»¯¼õÒæ¡£´¥·¢ºó£¬»òÊÜµ½&aµãÉËº¦(&user·ÀÓùÁ¦µÄ50%)ºó¼õÉÙ 1 ²ã¡£,
+Buff/B_Pachi_0_4_Name,Text,,,Stone Guardian,,¾ŞÊ¯»¤ÎÀ,
 Buff/B_Pachi_1_1_Description,Text,,,,,,
-Buff/B_Pachi_1_1_Name,Text,,,Forest Wildfire,,æ£®æ—å¤§ç«,
-Buff/B_Pachi_1_2_Name,Text,,,Living Water Essence,,æ´»æ°´ä¹‹ç²¾,
-Buff/B_Pachi_1_4_Description,Text,,,"At the end of the turn, restores &a HP (50% of &user's Defense).
-When taking damage, generates &a Shield (50% of &user's Defense) and loses 1 stack.",,"å›åˆç»“æŸæ—¶æ¢å¤ &a ç‚¹ä½“åŠ›å€¼(&useré˜²å¾¡åŠ›çš„50%)ã€‚
-å—åˆ°ä¼¤å®³æ—¶ç”Ÿæˆ &a ä¿æŠ¤ç½©(&useré˜²å¾¡åŠ›çš„50%)ï¼Œå¹¶å‡å°‘ 1 å±‚ã€‚",
-Buff/B_Pachi_1_4_Name,Text,,,Living Armor,,æ´»ä½“æŠ¤ç”²,
-Buff/B_Pachi_1_5_Description,Text,,,Increases card draws per turn by 1 for this battle.,,æœ¬æ¬¡æˆ˜æ–—æœŸé—´æ¯å›åˆæŠ½ç‰Œæ¬¡æ•°å¢åŠ 1ç‚¹ã€‚,
-Buff/B_Pachi_1_5_Name,Text,,,Photosynthesis,,å…‰åˆä½œç”¨,
-Buff/B_Pachi_1_6_Description,Text,,,Increases max Mana by 1 for this battle.,,æœ¬æ¬¡æˆ˜æ–—æœŸé—´æœ€å¤§æ³•åŠ›å€¼å¢åŠ 1ç‚¹ã€‚,
-Buff/B_Pachi_1_6_Name,Text,,,Satellite Sunflower,,å«æ˜Ÿå‘æ—¥è‘µ,
-Buff/B_Pachi_2_6_1_Description,Text,,,Linked by "Tidal Gravitation.",,è¢«â€œæ½®æ±å¼•åŠ›â€è¿æ¥ã€‚,
-Buff/B_Pachi_2_6_1_Name,Text,,,Gravitational Tide,,å¼•åŠ›æ½®æ±,
+Buff/B_Pachi_1_1_Name,Text,,,Forest Wildfire,,É­ÁÖ´ó»ğ,
+Buff/B_Pachi_1_2_Name,Text,,,Living Water Essence,,»îË®Ö®¾«,
+Buff/B_Pachi_1_4_Description,Text,,,"At the end of the turn, heal &a HP (50% of &user's Defense) and remove 1 stack.
+When taking damage, gain &a Barrier (50% of &user's Defense) and remove 1 stack.",,"»ØºÏ½áÊøÊ±»Ö¸´ &a µãÌåÁ¦Öµ(&user·ÀÓùÁ¦µÄ50%)£¬²¢¼õÉÙ 1 ²ã¡£
+ÊÜµ½ÉËº¦Ê±Éú³É &a ±£»¤ÕÖ(&user·ÀÓùÁ¦µÄ50%)£¬²¢¼õÉÙ 1 ²ã¡£",
+Buff/B_Pachi_1_4_Name,Text,,,Living Armor,,»îÌå»¤¼×,
+Buff/B_Pachi_1_5_Description,Text,,,Increases card draws per turn by 1 for this battle.,,±¾´ÎÕ½¶·ÆÚ¼äÃ¿»ØºÏ³éÅÆ´ÎÊıÔö¼Ó1µã¡£,
+Buff/B_Pachi_1_5_Name,Text,,,Photosynthesis,,¹âºÏ×÷ÓÃ,
+Buff/B_Pachi_1_6_Description,Text,,,Increases max Mana by 1 for this battle.,,±¾´ÎÕ½¶·ÆÚ¼ä×î´ó·¨Á¦ÖµÔö¼Ó1µã¡£,
+Buff/B_Pachi_1_6_Name,Text,,,Satellite Sunflower,,ÎÀĞÇÏòÈÕ¿û,
+Buff/B_Pachi_2_6_1_Description,Text,,,Linked by "Tidal Gravitation.",,±»¡°³±Ï«ÒıÁ¦¡±Á¬½Ó¡£,
+Buff/B_Pachi_2_6_1_Name,Text,,,Gravitational Tide,,ÒıÁ¦³±Ï«,
 Buff/B_Pachi_2_6_Description,Text,,,"Links to the nearest unit (prioritizes rightward search).
-When hit by a single-target skill, repeats the skill once on the linked target.",,"ä¸è·ç¦»æœ€è¿‘çš„å•ä½é“¾æ¥ï¼ˆä¼˜å…ˆå‘å³å¯»æ‰¾ï¼‰ï¼›
-å—åˆ°å•ä½“æŠ€èƒ½æ—¶ï¼Œä¼šåŒæ—¶å¯¹é“¾æ¥ç›®æ ‡é‡å¤é‡Šæ”¾ 1 æ¬¡ã€‚",
-Buff/B_Pachi_2_6_Name,Text,,,Tidal Gravitation,,æ½®æ±å¼•åŠ›,
-Buff/B_Pachi_3_5_Name,Text,,,Gamma Ray,,ä¼½é©¬æµå°„çº¿,
-Buff/B_Pachi_3_6_Description,Text,,,Dies immediately if HP falls below 13%.,,ä½“åŠ›å€¼ä½äº13%æ—¶ç«‹å³æ­»äº¡ã€‚,
-Buff/B_Pachi_3_6_Name,Text,,,Melting Comet,,ç†”æŸå½—æ˜Ÿ,
-Buff/B_Pachi_4_4_Description,Text,,,,,,
-Buff/B_Pachi_4_4_Name,Text,,,Stone's Reputation,,çŸ³è‡³åå½’,
+When hit by a single-target skill, repeats the skill once on the linked target.",,"Óë¾àÀë×î½üµÄµ¥Î»Á´½Ó£¨ÓÅÏÈÏòÓÒÑ°ÕÒ£©£»
+ÊÜµ½µ¥Ìå¼¼ÄÜÊ±£¬»áÍ¬Ê±¶ÔÁ´½ÓÄ¿±êÖØ¸´ÊÍ·Å 1 ´Î¡£",
+Buff/B_Pachi_2_6_Name,Text,,,Tidal Gravitation,,³±Ï«ÒıÁ¦,
+Buff/B_Pachi_3_5_Name,Text,,,Gamma Ray,,Ù¤ÂíÁ÷ÉäÏß,
+Buff/B_Pachi_3_6_Description,Text,,,Dies immediately if HP falls below 13%.,,ÌåÁ¦ÖµµÍÓÚ13%Ê±Á¢¼´ËÀÍö¡£,
+Buff/B_Pachi_3_6_Name,Text,,,Melting Comet,,ÈÛËğåçĞÇ,
+Buff/B_Pachi_4_4_Description,Text,,,"Reduce Damage Taken by &a% (50% of &user's Defense), remove 1 stack after trigger.",,Ê¹ÊÜµ½µÄÉËº¦½µµÍ &a% (&user·ÀÓùÁ¦µÄ50%)£¬´¥·¢ºó¼õÉÙ 1 ²ã¡£,
+Buff/B_Pachi_4_4_Name,Text,,,Stone's Reputation,,Ê¯ÖÁÃû¹é,
 Buff/B_Pachi_4_5_Description,Text,,,"Permanently active.
-At 5 stacks, grants an additional 100% Crit Rate.",,"æ°¸ä¹…æœ‰æ•ˆ
-åˆ°è¾¾ 5 å±‚æ—¶ï¼Œé¢å¤–æå‡100%æš´å‡»ç‡ã€‚",
-Buff/B_Pachi_4_5_Name,Text,,,Dyson Sphere,,æˆ´æ£®çƒ,
-Buff/B_Pachi_4_6_Name,Text,,,Moon Landing Project,,ç™»æœˆè®¡åˆ’,
-Buff/B_Pachi_6_6_1_Description,Text,,,"When pressing the End Turn button, gains ""Veil of the Moon.""",,æŒ‰ä¸‹å›åˆç»“æŸæŒ‰é’®æ—¶ï¼Œè·å¾—â€œæœˆä¹‹é¢çº±â€ã€‚,
-Buff/B_Pachi_6_6_1_Name,Text,,,Dark Side of the Moon,,æœˆä¹‹æš—é¢,
-Buff/B_Pachi_6_6_Description,Text,,,Removed when using own skills.,,ä½¿ç”¨è‡ªå·±çš„æŠ€èƒ½æ—¶è§£é™¤ã€‚,
-Buff/B_Pachi_6_6_Name,Text,,,Veil of the Moon,,æœˆä¹‹é¢çº±,
+At 5 stacks, grants an additional 100% Crit Rate.",,"ÓÀ¾ÃÓĞĞ§
+µ½´ï 5 ²ãÊ±£¬¶îÍâÌáÉı100%±©»÷ÂÊ¡£",
+Buff/B_Pachi_4_5_Name,Text,,,Dyson Sphere,,´÷É­Çò,
+Buff/B_Pachi_4_6_Name,Text,,,Moon Landing Project,,µÇÔÂ¼Æ»®,
+Buff/B_Pachi_6_6_1_Description,Text,,,"When pressing the End Turn button, gains ""Veil of the Moon.""",,°´ÏÂ»ØºÏ½áÊø°´Å¥Ê±£¬»ñµÃ¡°ÔÂÖ®ÃæÉ´¡±¡£,
+Buff/B_Pachi_6_6_1_Name,Text,,,Dark Side of the Moon,,ÔÂÖ®°µÃæ,
+Buff/B_Pachi_6_6_Description,Text,,,Removed when using own skills.,,Ê¹ÓÃ×Ô¼ºµÄ¼¼ÄÜÊ±½â³ı¡£,
+Buff/B_Pachi_6_6_Name,Text,,,Veil of the Moon,,ÔÂÖ®ÃæÉ´,
 Buff/B_Pachi_Barrier_Description,Text,,,,,,
-Buff/B_Pachi_Barrier_Name,Text,,,Elemental Shield,,å…ƒç´ ä¿æŠ¤ç½©,
+Buff/B_Pachi_Barrier_Name,Text,,,Elemental Shield,,ÔªËØ±£»¤ÕÖ,
 Buff/B_Pachi_P_1_Description,Text,,,"Resets cooldown when casting Elemental Invocation.
-Loses 1 stack after triggering.",,"é‡Šæ”¾ã€Œå…ƒç´ ç¥ˆå”¤ã€æ—¶é‡ç½®å†·å´æ—¶é—´ã€‚
-è§¦å‘åå‡å°‘ 1 å±‚ã€‚",
-Buff/B_Pachi_P_1_Name,Text,,,Elemental Surge,,å…ƒç´ å……ç›ˆ,
+Loses 1 stack after triggering.",,"ÊÍ·Å¡¸ÔªËØÆí»½¡¹Ê±ÖØÖÃÀäÈ´Ê±¼ä¡£
+´¥·¢ºó¼õÉÙ 1 ²ã¡£",
+Buff/B_Pachi_P_1_Name,Text,,,Elemental Surge,,ÔªËØ³äÓ¯,
 Buff/B_Pachi_P_Description,Text,,,"Current Element Levels:
 Metal - &a
 Wood - &b
@@ -58,16 +58,16 @@ Water - &c
 Fire - &d
 Earth - &e
 Sun - &f
-Moon - &g",,"å½“å‰å…ƒç´ ç­‰çº§ï¼š
-é‡‘ - &a
-æœ¨ - &b
-æ°´ - &c
-ç« - &d
-åœŸ - &e
-æ—¥ - &f
-æœˆ - &g",
-Buff/B_Pachi_P_Name,Text,,,Elemental Essence,,å…ƒç´ ç²¾å,
-Character/PatchouliKnowledge_CampSelectWord,Text,,,"It's such a pain in the ass to get out and stuff ...... Forget it, just this once ......",,å‡ºé—¨ä»€ä¹ˆçš„å¥½éº»çƒ¦â€¦â€¦ç®—äº†ï¼Œåªæ­¤ä¸€æ¬¡â€¦â€¦,
+Moon - &g",,"µ±Ç°ÔªËØµÈ¼¶£º
+½ğ - &a
+Ä¾ - &b
+Ë® - &c
+»ğ - &d
+ÍÁ - &e
+ÈÕ - &f
+ÔÂ - &g",
+Buff/B_Pachi_P_Name,Text,,,Elemental Essence,,ÔªËØ¾«»ª,
+Character/PatchouliKnowledge_CampSelectWord,Text,,,"It's such a pain in the ass to get out and stuff ...... Forget it, just this once ......",,³öÃÅÊ²Ã´µÄºÃÂé·³¡­¡­ËãÁË£¬Ö»´ËÒ»´Î¡­¡­,
 Character/PatchouliKnowledge_PassiveDes,Text,,,"<b>Knowledge and Reclusive Maiden</b> - At the start of battle, exile all own Elemental skills for this battle. Each exiled Elemental skill is converted into an Elemental attribute. Repeated conversions increase the attribute's level.
 
 <b>Ability to Use Magic</b> - <b>Fixed ability replaced with Elemental Invocation.</b>
@@ -75,238 +75,234 @@ At Level 3, the first cast of Elemental Invocation per turn resets its cooldown.
 At Level 5, the reset count increases to 2 per turn.
 
 <color=#919191>- This passive activates from Level 1.</color>
-<color=#919191>- Patchouli's normal skill learning no longer has a cap.</color>",,"<b>çŸ¥è¯†ä¸é¿ä¸–çš„å°‘å¥³</b> - æˆ˜æ–—å¼€å§‹æ—¶ï¼Œåœ¨æœ¬æ¬¡æˆ˜æ–—æœŸé—´æ”¾é€è‡ªå·±çš„æ‰€æœ‰â€œå…ƒç´ â€æŠ€èƒ½ã€‚æ¯ä¸ªè¢«æ”¾é€çš„â€œå…ƒç´ â€æŠ€èƒ½ä¼šè½¬åŒ–ä¸ºâ€œå…ƒç´ â€å±æ€§ï¼Œé‡å¤è½¬åŒ–çš„â€œå…ƒç´ â€å±æ€§ä¼šæå‡å±æ€§çš„ç­‰çº§ã€‚
+<color=#919191>- Patchouli's normal skill learning no longer has a cap.</color>",,"<b>ÖªÊ¶Óë±ÜÊÀµÄÉÙÅ®</b> - Õ½¶·¿ªÊ¼Ê±£¬ÔÚ±¾´ÎÕ½¶·ÆÚ¼ä·ÅÖğ×Ô¼ºµÄËùÓĞ¡°ÔªËØ¡±¼¼ÄÜ¡£Ã¿¸ö±»·ÅÖğµÄ¡°ÔªËØ¡±¼¼ÄÜ»á×ª»¯Îª¡°ÔªËØ¡±ÊôĞÔ£¬ÖØ¸´×ª»¯µÄ¡°ÔªËØ¡±ÊôĞÔ»áÌáÉıÊôĞÔµÄµÈ¼¶¡£
 
-<b>ä½¿ç”¨é­”æ³•ç¨‹åº¦çš„èƒ½åŠ›</b> - <b>å›ºå®šèƒ½åŠ›æ›¿æ¢ä¸ºã€Œå…ƒç´ ç¥ˆå”¤ã€ã€‚</b>
-ç­‰çº§åˆ°è¾¾3çº§æ—¶ï¼Œæ¯ä¸ªå›åˆç¬¬ 1 æ¬¡é‡Šæ”¾ã€Œå…ƒç´ ç¥ˆå”¤ã€åï¼Œé‡ç½®ã€Œå…ƒç´ ç¥ˆå”¤ã€çš„å†·å´æ—¶é—´ã€‚
-ç­‰çº§åˆ°è¾¾5çº§æ—¶ï¼Œæ¯å›åˆé‡ç½®æ¬¡æ•°æå‡è‡³ 2 æ¬¡ã€‚
+<b>Ê¹ÓÃÄ§·¨³Ì¶ÈµÄÄÜÁ¦</b> - <b>¹Ì¶¨ÄÜÁ¦Ìæ»»Îª¡¸ÔªËØÆí»½¡¹¡£</b>
+µÈ¼¶µ½´ï3¼¶Ê±£¬Ã¿¸ö»ØºÏµÚ 1 ´ÎÊÍ·Å¡¸ÔªËØÆí»½¡¹ºó£¬ÖØÖÃ¡¸ÔªËØÆí»½¡¹µÄÀäÈ´Ê±¼ä¡£
+µÈ¼¶µ½´ï5¼¶Ê±£¬Ã¿»ØºÏÖØÖÃ´ÎÊıÌáÉıÖÁ 2 ´Î¡£
 
-<color=#919191>- æ­¤è¢«åŠ¨ä»1çº§å¼€å§‹ç”Ÿæ•ˆã€‚</color>
-<color=#919191>- å¸•ç§‹è‰çš„æ™®é€šæŠ€èƒ½å­¦ä¹ ä¸å†æ‹¥æœ‰ä¸Šé™ã€‚</color>",
-Character/PatchouliKnowledge_PassiveName,Text,,,The Immovable Great Library,,ä¸åŠ¨çš„å¤§å›¾ä¹¦é¦†,
+<color=#919191>- ´Ë±»¶¯´Ó1¼¶¿ªÊ¼ÉúĞ§¡£</color>
+<color=#919191>- ÅÁÇïÀòµÄÆÕÍ¨¼¼ÄÜÑ§Ï°²»ÔÙÓµÓĞÉÏÏŞ¡£</color>",
+Character/PatchouliKnowledge_PassiveName,Text,,,The Immovable Great Library,,²»¶¯µÄ´óÍ¼Êé¹İ,
 Character/PatchouliKnowledge_SelectInfo,Text,,,"Patchouli Knowledge is an all-round witch, capable of excelling in offense, healing, support, debuffing, and protection.
 
 By studying different ""Basic Elements,"" Patchouli gains corresponding attribute values. In battle, she can freely combine these elements to construct a vast network of skills, allowing her to effortlessly adapt to any situation. The ""Advanced Elements"" learned through the ""Golden Skillbook"" can even create dazzling and diverse new skills.
 
-Bow before the genius of the Sevenfold Star Witch!",,"å¸•ç§‹è‰Â·è¯ºè•¾å§¬æ˜¯å…¨æ‰å…¨èƒ½çš„é­”å¥³ï¼Œä¸è®ºæ˜¯è¿›æ”»ã€æ²»ç–—ã€è¾…åŠ©ã€å‰Šå¼±æˆ–æ˜¯ä¿æŠ¤éƒ½èƒ½èƒœä»»ã€‚
+Bow before the genius of the Sevenfold Star Witch!",,"ÅÁÇïÀò¡¤ÅµÀÙ¼§ÊÇÈ«²ÅÈ«ÄÜµÄÄ§Å®£¬²»ÂÛÊÇ½ø¹¥¡¢ÖÎÁÆ¡¢¸¨Öú¡¢Ï÷Èõ»òÊÇ±£»¤¶¼ÄÜÊ¤ÈÎ¡£
 
-é€šè¿‡å­¦ä¹ ä¸åŒçš„â€œåŸºç¡€å…ƒç´ â€ï¼Œå¸•ç§‹è‰èƒ½å¤Ÿè·å¾—ä¸ä¹‹ç›¸åº”çš„å±æ€§å€¼ã€‚åœ¨æˆ˜æ–—ä¸­ï¼Œå¸•ç§‹è‰è¿˜èƒ½å¤Ÿè‡ªç”±ç»„åˆè¿™äº›å…ƒç´ ï¼Œæ„ç­‘å‡ºåºå¤§çš„æŠ€èƒ½ç½‘ç»œã€‚æ— è®ºæ˜¯é¢å¯¹ä»€ä¹ˆæ ·çš„æƒ…å†µï¼Œéƒ½èƒ½ä½¿ç”¨ç›¸ç¬¦çš„æŠ€èƒ½è½»æ¾åº”å¯¹ã€‚é€šè¿‡â€œé»„é‡‘æŠ€èƒ½ä¹¦â€å­¦ä¹ çš„â€œé«˜çº§å…ƒç´ â€ï¼Œæ›´æ˜¯èƒ½åˆ›é€ ç»šçƒ‚å¤šæ ·çš„å…¨æ–°æŠ€èƒ½ã€‚
+Í¨¹ıÑ§Ï°²»Í¬µÄ¡°»ù´¡ÔªËØ¡±£¬ÅÁÇïÀòÄÜ¹»»ñµÃÓëÖ®ÏàÓ¦µÄÊôĞÔÖµ¡£ÔÚÕ½¶·ÖĞ£¬ÅÁÇïÀò»¹ÄÜ¹»×ÔÓÉ×éºÏÕâĞ©ÔªËØ£¬¹¹Öş³öÅÓ´óµÄ¼¼ÄÜÍøÂç¡£ÎŞÂÛÊÇÃæ¶ÔÊ²Ã´ÑùµÄÇé¿ö£¬¶¼ÄÜÊ¹ÓÃÏà·ûµÄ¼¼ÄÜÇáËÉÓ¦¶Ô¡£Í¨¹ı¡°»Æ½ğ¼¼ÄÜÊé¡±Ñ§Ï°µÄ¡°¸ß¼¶ÔªËØ¡±£¬¸üÊÇÄÜ´´ÔìÑ¤ÀÃ¶àÑùµÄÈ«ĞÂ¼¼ÄÜ¡£
 
-æ‹œå€’åœ¨ä¸ƒæ›œå¤§é­”å¥³çš„æ‰åä¹‹ä¸‹å§ï¼",
-Character/PatchouliKnowledge_Text_Battle_Cri_0,Text,,,"""The Seven Luminaries and Five Elements all heed my command!""",,ä¸ƒæ›œäº”è¡Œçš†å¬æˆ‘å·ä»¤ï¼,
-Character/PatchouliKnowledge_Text_Battle_Idle_0,Text,,,"""Hmmâ€¦ Let me thinkâ€¦""",,å””å—¯â€¦â€¦è®©æˆ‘æƒ³æƒ³â€¦â€¦,
-Character/PatchouliKnowledge_Text_Battle_Idle_1,Text,,,"""What spell should I use to defeat themâ€¦?""",,ç”¨ä»€ä¹ˆæ³•æœ¯æ‰“è´¥ä»–ä»¬å¥½å‘¢â€¦â€¦,
-Character/PatchouliKnowledge_Text_Battle_Kill_0,Text,,,"""Kneel before my magic!""",,æ‹œå€’åœ¨æˆ‘çš„é­”æ³•ä¹‹ä¸‹å§ã€‚,
-Character/PatchouliKnowledge_Text_Battle_Kill_1,Text,,,"""Become part of the elements yourself!""",,ä½ ä¹ŸåŒ–ä½œå…ƒç´ çš„ä¸€éƒ¨åˆ†å§ã€‚,
-Character/PatchouliKnowledge_Text_Battle_ND_0,Text,,,"""Was I not skilled enoughâ€¦?""",,æ˜¯æˆ‘èƒ½åŠ›ä¸è¶³å—â€¦â€¦,
-Character/PatchouliKnowledge_Text_Battle_Start_0,Text,,,"""Excuse me, could you not disturb me?""",,ä¸å¥½æ„æ€ï¼Œèƒ½åˆ«æ‰“æ‰°æˆ‘å—ï¼Ÿ,
-Character/PatchouliKnowledge_Text_Battle_Start_1,Text,,,"""This is really troublesomeâ€¦""",,çœŸçš„å¥½éº»çƒ¦å•Šâ€¦â€¦,
-Character/PatchouliKnowledge_Text_Field_GetItem_0,Text,,,"""Treasureâ€¦ Marisa might like this.""",,è´¢å®â€¦â€¦é­”ç†æ²™è¯´ä¸å®šä¼šå¾ˆå–œæ¬¢å§ã€‚,
-Character/PatchouliKnowledge_Text_Field_Idle_0,Text,,,"""If there's nothing else, may I go backâ€¦? No? Why?""",,æ²¡äº‹çš„è¯ï¼Œæˆ‘å¯ä»¥å›å»å—â€¦â€¦ï¼Ÿä¸è¡Œï¼Ÿä¸ºä»€ä¹ˆï¼Ÿ,
-Character/PatchouliKnowledge_Text_Field_Idle_1,Text,,,"""Cough, coughâ€¦ It's nothing, just an old ailment acting upâ€¦""",,å’³å’³å’³â€¦â€¦æ²¡ä»€ä¹ˆï¼Œåªæ˜¯è€æ¯›ç—…çŠ¯äº†â€¦â€¦,
-Character/PatchouliKnowledge_Text_MasterTarget,Text,,,"""Lucy, traveling this far with you has been pleasant. Heh, let a witch do what a witch must.""",,éœ²è¥¿ï¼Œå’Œä½ ä¸€èµ·æ—…è¡Œåˆ°è¿™é‡Œå¾ˆæ„‰å¿«ã€‚å‘µå‘µï¼Œå°±è®©é­”å¥³åšé­”å¥³è¯¥åšçš„äº‹å§ã€‚,
-Character/PatchouliKnowledge_Text_PharosLeader_0,Text,,,"""Mind control? You donâ€™t actually think that would work on meâ€¦â€¦â€¦â€¦â€¦â€¦""",,å¿ƒçµæ§åˆ¶ï¼Ÿä½ ä¸ä¼šè§‰å¾—è¿™ä¸œè¥¿å¯¹æˆ‘æœ‰â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦,
-Character/PatchouliKnowledge_Text_PharosLeader_1,Text,,,"""â€¦â€¦â€¦â€¦â€¦â€¦Rightâ€¦? â€¦Huh?""",,â€¦â€¦â€¦â€¦â€¦â€¦æœ‰ç”¨å§â€¦â€¦ï¼Ÿâ€¦â€¦å’¦ï¼Ÿ,
+°İµ¹ÔÚÆßê×´óÄ§Å®µÄ²Å»ªÖ®ÏÂ°É£¡",
+Character/PatchouliKnowledge_Text_Battle_Cri_0,Text,,,"""The Seven Luminaries and Five Elements all heed my command!""",,Æßê×ÎåĞĞ½ÔÌıÎÒºÅÁî£¡,
+Character/PatchouliKnowledge_Text_Battle_Idle_0,Text,,,"""Hmm¡­ Let me think¡­""",,ßíàÅ¡­¡­ÈÃÎÒÏëÏë¡­¡­,
+Character/PatchouliKnowledge_Text_Battle_Idle_1,Text,,,"""What spell should I use to defeat them¡­?""",,ÓÃÊ²Ã´·¨Êõ´ò°ÜËûÃÇºÃÄØ¡­¡­,
+Character/PatchouliKnowledge_Text_Battle_Kill_0,Text,,,"""Kneel before my magic!""",,°İµ¹ÔÚÎÒµÄÄ§·¨Ö®ÏÂ°É¡£,
+Character/PatchouliKnowledge_Text_Battle_Kill_1,Text,,,"""Become part of the elements yourself!""",,ÄãÒ²»¯×÷ÔªËØµÄÒ»²¿·Ö°É¡£,
+Character/PatchouliKnowledge_Text_Battle_ND_0,Text,,,"""Was I not skilled enough¡­?""",,ÊÇÎÒÄÜÁ¦²»×ãÂğ¡­¡­,
+Character/PatchouliKnowledge_Text_Battle_Start_0,Text,,,"""Excuse me, could you not disturb me?""",,²»ºÃÒâË¼£¬ÄÜ±ğ´òÈÅÎÒÂğ£¿,
+Character/PatchouliKnowledge_Text_Battle_Start_1,Text,,,"""This is really troublesome¡­""",,ÕæµÄºÃÂé·³°¡¡­¡­,
+Character/PatchouliKnowledge_Text_Field_GetItem_0,Text,,,"""Treasure¡­ Marisa might like this.""",,²Æ±¦¡­¡­Ä§ÀíÉ³Ëµ²»¶¨»áºÜÏ²»¶°É¡£,
+Character/PatchouliKnowledge_Text_Field_Idle_0,Text,,,"""If there's nothing else, may I go back¡­? No? Why?""",,Ã»ÊÂµÄ»°£¬ÎÒ¿ÉÒÔ»ØÈ¥Âğ¡­¡­£¿²»ĞĞ£¿ÎªÊ²Ã´£¿,
+Character/PatchouliKnowledge_Text_Field_Idle_1,Text,,,"""Cough, cough¡­ It's nothing, just an old ailment acting up¡­""",,¿È¿È¿È¡­¡­Ã»Ê²Ã´£¬Ö»ÊÇÀÏÃ«²¡·¸ÁË¡­¡­,
+Character/PatchouliKnowledge_Text_MasterTarget,Text,,,"""Lucy, traveling this far with you has been pleasant. Heh, let a witch do what a witch must.""",,Â¶Î÷£¬ºÍÄãÒ»ÆğÂÃĞĞµ½ÕâÀïºÜÓä¿ì¡£ºÇºÇ£¬¾ÍÈÃÄ§Å®×öÄ§Å®¸Ã×öµÄÊÂ°É¡£,
+Character/PatchouliKnowledge_Text_PharosLeader_0,Text,,,"""Mind control? You don¡¯t actually think that would work on me¡­¡­¡­¡­¡­¡­""",,ĞÄÁé¿ØÖÆ£¿Äã²»»á¾õµÃÕâ¶«Î÷¶ÔÎÒÓĞ¡­¡­¡­¡­¡­¡­¡­¡­,
+Character/PatchouliKnowledge_Text_PharosLeader_1,Text,,,"""¡­¡­¡­¡­¡­¡­Right¡­? ¡­Huh?""",,¡­¡­¡­¡­¡­¡­ÓĞÓÃ°É¡­¡­£¿¡­¡­ß×£¿,
 Character/PatchouliKnowledge_Text_PharosLeader_2,Text,,,,,,
-Character/PatchouliKnowledge_Text_Witch_0,Text,,,"""You call yourself a witch too? How laughableâ€”can just anyone be a witch these days?""",,ä½ ä¹Ÿè‡ªç§°æ˜¯é­”å¥³ï¼ŸçœŸæ˜¯å¯ç¬‘ï¼Œç°åœ¨ä»€ä¹ˆäººéƒ½èƒ½åšé­”å¥³äº†å—ï¼Ÿ,
-Character/PatchouliKnowledge_Text_Witch_1,Text,,,"""Verminâ€¦""",,å‘åŠ£çš„è€é¼ â€¦â€¦,
-Character/PatchouliKnowledge_name,Text,,,Patchouli,,å¸•ç§‹è‰,
-Enemy/E_Pachi_Infernal_name,Text,,,Hellfire,,åœ°ç‹±ç«,
+Character/PatchouliKnowledge_Text_Witch_0,Text,,,"""You call yourself a witch too? How laughable¡ªcan just anyone be a witch these days?""",,ÄãÒ²×Ô³ÆÊÇÄ§Å®£¿ÕæÊÇ¿ÉĞ¦£¬ÏÖÔÚÊ²Ã´ÈË¶¼ÄÜ×öÄ§Å®ÁËÂğ£¿,
+Character/PatchouliKnowledge_Text_Witch_1,Text,,,"""Vermin¡­""",,±°ÁÓµÄÀÏÊó¡­¡­,
+Character/PatchouliKnowledge_name,Text,,,Patchouli,,ÅÁÇïÀò,
+Enemy/E_Pachi_Infernal_name,Text,,,Hellfire,,µØÓü»ğ,
 Enemy/E_Pachi_Zhu_name,Text,,,zhu,,zhu,
-Skill/S_Infernal_0_Description,Text,,,Ignores Defense.,,æ— è§†é˜²å¾¡ã€‚,
-Skill/S_Infernal_0_Name,Text,,,Flaming Fist,,çƒˆç„°ä¹‹æ‹³,
+Skill/S_Infernal_0_Description,Text,,,Ignores Defense.,,ÎŞÊÓ·ÀÓù¡£,
+Skill/S_Infernal_0_Name,Text,,,Flaming Fist,,ÁÒÑæÖ®È­,
 Skill/S_Pachi_E_0_Description,Text,,,"Symbolizes the authority of <color=#FFD700>Control</color>.
 When used, increases <color=#FFD700>Metal</color> element level by 1 for this battle.
-Each level of <color=#FFD700>Metal</color> grants 5% Weaken Success, CC Success, Weaken Resist, and CC Resist.",,"è±¡å¾<color=#FFD700>æ§åˆ¶</color>çš„æƒèƒ½ã€‚
-ä½¿ç”¨æ—¶ï¼Œåœ¨æœ¬æ¬¡æˆ˜æ–—æœŸé—´<color=#FFD700>é‡‘</color>å…ƒç´ ç­‰çº§æå‡ 1 çº§ã€‚
-æ¯ä¸ªç­‰çº§çš„<color=#FFD700>é‡‘</color>æä¾›5%å¼±åŒ–æˆåŠŸç‡ã€å¹²æ‰°æˆåŠŸç‡å’Œå¼±åŒ–æŠµæŠ—ç‡ã€å¹²æ‰°æŠµæŠ—ç‡ã€‚",
-Skill/S_Pachi_E_0_Name,Text,,,Basic Element - <color=#FFD700>Metal</color>,,åŸºæœ¬å…ƒç´  - <color=#FFD700>é‡‘</color>,
+Each level of <color=#FFD700>Metal</color> grants 5% Weaken Success, CC Success, Weaken Resist, and CC Resist.",,"ÏóÕ÷<color=#FFD700>¿ØÖÆ</color>µÄÈ¨ÄÜ¡£
+Ê¹ÓÃÊ±£¬ÔÚ±¾´ÎÕ½¶·ÆÚ¼ä<color=#FFD700>½ğ</color>ÔªËØµÈ¼¶ÌáÉı 1 ¼¶¡£
+Ã¿¸öµÈ¼¶µÄ<color=#FFD700>½ğ</color>Ìá¹©5%Èõ»¯³É¹¦ÂÊ¡¢¸ÉÈÅ³É¹¦ÂÊºÍÈõ»¯µÖ¿¹ÂÊ¡¢¸ÉÈÅµÖ¿¹ÂÊ¡£",
+Skill/S_Pachi_E_0_Name,Text,,,Basic Element - <color=#FFD700>Metal</color>,,»ù±¾ÔªËØ - <color=#FFD700>½ğ</color>,
 Skill/S_Pachi_E_1_Description,Text,,,"Symbolizes the authority of <color=#228B22>Persistence</color>.
 When used, increases <color=#228B22>Wood</color> element level by 1 for this battle.
-Each level of <color=#228B22>Wood</color> grants 5% Pain Success and Pain Resist.",,"è±¡å¾<color=#228B22>æŒç»­</color>çš„æƒèƒ½ã€‚
-ä½¿ç”¨æ—¶ï¼Œåœ¨æœ¬æ¬¡æˆ˜æ–—æœŸé—´<color=#228B22>æœ¨</color>å…ƒç´ ç­‰çº§æå‡ 1 çº§ã€‚
-æ¯ä¸ªç­‰çº§çš„<color=#228B22>æœ¨</color>æä¾›5%ç—›è‹¦æˆåŠŸç‡å’Œç—›è‹¦æŠµæŠ—ç‡ã€‚",
-Skill/S_Pachi_E_1_Name,Text,,,Basic Element - <color=#228B22>Wood</color>,,åŸºæœ¬å…ƒç´  - <color=#228B22>æœ¨</color>,
+Each level of <color=#228B22>Wood</color> grants 5% Pain Success and Pain Resist.",,"ÏóÕ÷<color=#228B22>³ÖĞø</color>µÄÈ¨ÄÜ¡£
+Ê¹ÓÃÊ±£¬ÔÚ±¾´ÎÕ½¶·ÆÚ¼ä<color=#228B22>Ä¾</color>ÔªËØµÈ¼¶ÌáÉı 1 ¼¶¡£
+Ã¿¸öµÈ¼¶µÄ<color=#228B22>Ä¾</color>Ìá¹©5%Í´¿à³É¹¦ÂÊºÍÍ´¿àµÖ¿¹ÂÊ¡£",
+Skill/S_Pachi_E_1_Name,Text,,,Basic Element - <color=#228B22>Wood</color>,,»ù±¾ÔªËØ - <color=#228B22>Ä¾</color>,
 Skill/S_Pachi_E_2_Description,Text,,,"Symbolizes the authority of <color=#00BFFF>Healing</color>.
 When used, increases <color=#00BFFF>Water</color> element level by 1 for this battle.
-Each level of <color=#00BFFF>Water</color> grants 1 Healing Power and 1% Evasion.",,"è±¡å¾<color=#00BFFF>æ²»ç–—</color>çš„æƒèƒ½ã€‚
-ä½¿ç”¨æ—¶ï¼Œåœ¨æœ¬æ¬¡æˆ˜æ–—æœŸé—´<color=#00BFFF>æ°´</color>å…ƒç´ ç­‰çº§æå‡ 1 çº§ã€‚
-æ¯ä¸ªç­‰çº§çš„<color=#00BFFF>æ°´</color>æä¾›1ç‚¹æ²»ç–—åŠ›ã€1%é—ªé¿ç‡ã€‚",
-Skill/S_Pachi_E_2_Name,Text,,,Basic Element - <color=#00BFFF>Water</color>,,åŸºæœ¬å…ƒç´  - <color=#00BFFF>æ°´</color>,
+Each level of <color=#00BFFF>Water</color> grants 1 Healing Power and 1% Evasion.",,"ÏóÕ÷<color=#00BFFF>ÖÎÁÆ</color>µÄÈ¨ÄÜ¡£
+Ê¹ÓÃÊ±£¬ÔÚ±¾´ÎÕ½¶·ÆÚ¼ä<color=#00BFFF>Ë®</color>ÔªËØµÈ¼¶ÌáÉı 1 ¼¶¡£
+Ã¿¸öµÈ¼¶µÄ<color=#00BFFF>Ë®</color>Ìá¹©1µãÖÎÁÆÁ¦¡¢1%ÉÁ±ÜÂÊ¡£",
+Skill/S_Pachi_E_2_Name,Text,,,Basic Element - <color=#00BFFF>Water</color>,,»ù±¾ÔªËØ - <color=#00BFFF>Ë®</color>,
 Skill/S_Pachi_E_3_Description,Text,,,"Symbolizes the authority of <color=#FF4500>Offense</color>.
 When used, increases <color=#FF4500>Fire</color> element level by 1 for this battle.
-Each level of <color=#FF4500>Fire</color> grants 1 Attack and 1% Crit Rate.",,"è±¡å¾<color=#FF4500>è¿›æ”»</color>çš„æƒèƒ½ã€‚
-ä½¿ç”¨æ—¶ï¼Œåœ¨æœ¬æ¬¡æˆ˜æ–—æœŸé—´<color=#FF4500>ç«</color>å…ƒç´ ç­‰çº§æå‡ 1 çº§ã€‚
-æ¯ä¸ªç­‰çº§çš„<color=#FF4500>ç«</color>æä¾›1ç‚¹æ”»å‡»åŠ›ã€1%æš´å‡»ç‡ã€‚",
-Skill/S_Pachi_E_3_Name,Text,,,Basic Element - <color=#FF4500>Fire</color>,,åŸºæœ¬å…ƒç´  - <color=#FF4500>ç«</color>,
+Each level of <color=#FF4500>Fire</color> grants 1 Attack and 1% Crit Rate.",,"ÏóÕ÷<color=#FF4500>½ø¹¥</color>µÄÈ¨ÄÜ¡£
+Ê¹ÓÃÊ±£¬ÔÚ±¾´ÎÕ½¶·ÆÚ¼ä<color=#FF4500>»ğ</color>ÔªËØµÈ¼¶ÌáÉı 1 ¼¶¡£
+Ã¿¸öµÈ¼¶µÄ<color=#FF4500>»ğ</color>Ìá¹©1µã¹¥»÷Á¦¡¢1%±©»÷ÂÊ¡£",
+Skill/S_Pachi_E_3_Name,Text,,,Basic Element - <color=#FF4500>Fire</color>,,»ù±¾ÔªËØ - <color=#FF4500>»ğ</color>,
 Skill/S_Pachi_E_4_Description,Text,,,"Symbolizes the authority of <color=#8B7355>Protection</color>.
 When used, increases <color=#8B7355>Earth</color> element level by 1 for this battle.
-Each level of <color=#8B7355>Earth</color> grants 4% Defense.",,"è±¡å¾<color=#8B7355>ä¿æŠ¤</color>çš„æƒèƒ½ã€‚
-ä½¿ç”¨æ—¶ï¼Œåœ¨æœ¬æ¬¡æˆ˜æ–—æœŸé—´<color=#8B7355>åœŸ</color>å…ƒç´ ç­‰çº§æå‡ 1 çº§ã€‚
-æ¯ä¸ªç­‰çº§çš„<color=#8B7355>åœŸ</color>æä¾›4%é˜²å¾¡åŠ›ã€‚",
-Skill/S_Pachi_E_4_Name,Text,,,Basic Element - <color=#8B7355>Earth</color>,,åŸºæœ¬å…ƒç´  - <color=#8B7355>åœŸ</color>,
+Each level of <color=#8B7355>Earth</color> grants 4% Defense.",,"ÏóÕ÷<color=#8B7355>±£»¤</color>µÄÈ¨ÄÜ¡£
+Ê¹ÓÃÊ±£¬ÔÚ±¾´ÎÕ½¶·ÆÚ¼ä<color=#8B7355>ÍÁ</color>ÔªËØµÈ¼¶ÌáÉı 1 ¼¶¡£
+Ã¿¸öµÈ¼¶µÄ<color=#8B7355>ÍÁ</color>Ìá¹©4%·ÀÓùÁ¦¡£",
+Skill/S_Pachi_E_4_Name,Text,,,Basic Element - <color=#8B7355>Earth</color>,,»ù±¾ÔªËØ - <color=#8B7355>ÍÁ</color>,
 Skill/S_Pachi_E_5_Description,Text,,,"Symbolizes the authority of <color=#FFA500>Wealth</color>.
 When used, increases <color=#FFA500>Sun</color> element level by 1 for this battle.
-Each level of <color=#FFA500>Sun</color> grants 50% Critical Damage.",,"è±¡å¾<color=#FFA500>è´¢å¯Œ</color>çš„æƒèƒ½ã€‚
-ä½¿ç”¨æ—¶ï¼Œåœ¨æœ¬æ¬¡æˆ˜æ–—æœŸé—´<color=#FFA500>æ—¥</color>å…ƒç´ ç­‰çº§æå‡ 1 çº§ã€‚
-æ¯ä¸ªç­‰çº§çš„<color=#FFA500>æ—¥</color>æä¾›50%æš´å‡»ä¼¤å®³ã€‚",
-Skill/S_Pachi_E_5_Name,Text,,,Advanced Element - <color=#FFA500>Sun</color>,,é«˜çº§å…ƒç´  - <color=#FFA500>æ—¥</color>,
+Each level of <color=#FFA500>Sun</color> grants 50% Critical Damage.",,"ÏóÕ÷<color=#FFA500>²Æ¸»</color>µÄÈ¨ÄÜ¡£
+Ê¹ÓÃÊ±£¬ÔÚ±¾´ÎÕ½¶·ÆÚ¼ä<color=#FFA500>ÈÕ</color>ÔªËØµÈ¼¶ÌáÉı 1 ¼¶¡£
+Ã¿¸öµÈ¼¶µÄ<color=#FFA500>ÈÕ</color>Ìá¹©50%±©»÷ÉËº¦¡£",
+Skill/S_Pachi_E_5_Name,Text,,,Advanced Element - <color=#FFA500>Sun</color>,,¸ß¼¶ÔªËØ - <color=#FFA500>ÈÕ</color>,
 Skill/S_Pachi_E_6_Description,Text,,,"Symbolizes the authority of <color=#6A5ACD>Authority</color>.
 When used, increases <color=#6A5ACD>Moon</color> element level by 1 for this battle.
-Each level of <color=#6A5ACD>Moon</color> grants 20% Damage Taken Reduce.",,"è±¡å¾<color=#6A5ACD>æƒåŠ›</color>çš„æƒèƒ½ã€‚
-ä½¿ç”¨æ—¶ï¼Œåœ¨æœ¬æ¬¡æˆ˜æ–—æœŸé—´<color=#6A5ACD>æœˆ</color>å…ƒç´ ç­‰çº§æå‡ 1 çº§ã€‚
-æ¯ä¸ªç­‰çº§çš„<color=#6A5ACD>æœˆ</color>æä¾›20%å—åˆ°ä¼¤å®³é‡é™ä½ã€‚",
-Skill/S_Pachi_E_6_Name,Text,,,Advanced Element - <color=#6A5ACD>Moon</color>,,é«˜çº§å…ƒç´  - <color=#6A5ACD>æœˆ</color>,
+Each level of <color=#6A5ACD>Moon</color> grants 20% Damage Taken Reduce.",,"ÏóÕ÷<color=#6A5ACD>È¨Á¦</color>µÄÈ¨ÄÜ¡£
+Ê¹ÓÃÊ±£¬ÔÚ±¾´ÎÕ½¶·ÆÚ¼ä<color=#6A5ACD>ÔÂ</color>ÔªËØµÈ¼¶ÌáÉı 1 ¼¶¡£
+Ã¿¸öµÈ¼¶µÄ<color=#6A5ACD>ÔÂ</color>Ìá¹©20%ÊÜµ½ÉËº¦Á¿½µµÍ¡£",
+Skill/S_Pachi_E_6_Name,Text,,,Advanced Element - <color=#6A5ACD>Moon</color>,,¸ß¼¶ÔªËØ - <color=#6A5ACD>ÔÂ</color>,
 Skill/S_Pachi_E_7_Description,Text,,,"At the start of battle, placed at the top of the deck.
-Draw 1 skill. Gain 1 level each of <color=#FFD700>Metal</color>, <color=#228B22>Wood</color>, <color=#00BFFF>Water</color>, <color=#FF4500>Fire</color>, and <color=#8B7355>Earth</color>.",,"æˆ˜æ–—å¼€å§‹æ—¶ï¼Œæ”¾åœ¨ç‰Œåº“æœ€ä¸Šæ–¹ã€‚
-æŠ½å– 1 ä¸ªæŠ€èƒ½ã€‚è·å¾—<color=#FFD700>é‡‘</color>ã€<color=#228B22>æœ¨</color>ã€<color=#00BFFF>æ°´</color>ã€<color=#FF4500>ç«</color>ã€<color=#8B7355>åœŸ</color>æ¯ç§å…ƒç´ å„ 1 çº§ã€‚",
-Skill/S_Pachi_E_7_Name,Text,,,<color=#FFD700>Metal</color><color=#228B22>Wood</color><color=#00BFFF>Water</color><color=#FF4500>Fire</color><color=#8B7355>Earth</color> Sign "Philosopher's Stone",,<color=#FFD700>é‡‘</color><color=#228B22>æœ¨</color><color=#00BFFF>æ°´</color><color=#FF4500>ç«</color><color=#8B7355>åœŸ</color>ç¬¦ã€Œè´¤è€…ä¹‹çŸ³ã€,
+Draw 1 skill. Gain 1 level each of <color=#FFD700>Metal</color>, <color=#228B22>Wood</color>, <color=#00BFFF>Water</color>, <color=#FF4500>Fire</color>, and <color=#8B7355>Earth</color>.",,"Õ½¶·¿ªÊ¼Ê±£¬·ÅÔÚÅÆ¿â×îÉÏ·½¡£
+³éÈ¡ 1 ¸ö¼¼ÄÜ¡£»ñµÃ<color=#FFD700>½ğ</color>¡¢<color=#228B22>Ä¾</color>¡¢<color=#00BFFF>Ë®</color>¡¢<color=#FF4500>»ğ</color>¡¢<color=#8B7355>ÍÁ</color>Ã¿ÖÖÔªËØ¸÷ 1 ¼¶¡£",
+Skill/S_Pachi_E_7_Name,Text,,,<color=#FFD700>Metal</color><color=#228B22>Wood</color><color=#00BFFF>Water</color><color=#FF4500>Fire</color><color=#8B7355>Earth</color> Sign "Philosopher's Stone",,<color=#FFD700>½ğ</color><color=#228B22>Ä¾</color><color=#00BFFF>Ë®</color><color=#FF4500>»ğ</color><color=#8B7355>ÍÁ</color>·û¡¸ÏÍÕßÖ®Ê¯¡¹,
 Skill/S_Pachi_LucyD_Description,Text,,,"Draw 2 skills.
 Reveal all exiled Basic Element skills, choose 1, and create a copy in hand.
-Reveal all exiled Magic Book skills, choose 1, and create a copy in hand.",,"æŠ½å– 2 ä¸ªæŠ€èƒ½ã€‚
-å±•ç¤ºæ”¾é€ç‰Œåº“ä¸­æ‰€æœ‰â€œåŸºæœ¬å…ƒç´ â€æŠ€èƒ½ï¼Œé€‰æ‹©å…¶ä¸­ 1 ä¸ªï¼Œåœ¨æ‰‹ä¸­ç”Ÿæˆå…¶å¤åˆ¶ã€‚
-å±•ç¤ºæ”¾é€ç‰Œåº“ä¸­æ‰€æœ‰â€œé­”æ³•ä¹¦â€æŠ€èƒ½ï¼Œé€‰æ‹©å…¶ä¸­ 1 ä¸ªï¼Œåœ¨æ‰‹ä¸­ç”Ÿæˆå…¶å¤åˆ¶ã€‚",
-Skill/S_Pachi_LucyD_Name,Text,,,Elemental Extraction,,å…ƒç´ èƒå–,
-Skill/S_Pachi_P_Description,Text,,,"Select 2Â ElementalÂ attributes from the exiled deck, combine them, and obtain the corresponding Spell Card skill.
-Spell Card skills created by combining ""Advanced Elements"" can only be formed once per battle.",,"ä»æ”¾é€ç‰Œåº“ä¸­é€‰æ‹©2ç§â€œå…ƒç´ â€å±æ€§ï¼Œå°†å…¶ç»„åˆåè·å¾—å¯¹åº”çš„ç¬¦å¡æŠ€èƒ½ã€‚
-ä½¿ç”¨â€œé«˜çº§å…ƒç´ â€ç»„åˆå‡ºæ¥çš„ç¬¦å¡æŠ€èƒ½ï¼Œæ¯åœºæˆ˜æ–—ä»…é™ç»„åˆ 1 æ¬¡ã€‚",
-Skill/S_Pachi_P_Name,Text,,,Elemental Invocation,,å…ƒç´ ç¥ˆå”¤,
-Skill/S_Pachi_Sk_0_0_Description,Text,,,Each level ofÂ MetalÂ applies an additional stack ofÂ Metal Fatigue.,,æ¯ä¸ªç­‰çº§çš„â€œé‡‘â€é¢å¤–æ–½åŠ  1 å±‚â€œé‡‘å±ç–²åŠ³â€ã€‚,
-Skill/S_Pachi_Sk_0_0_Name,Text,,,Metal Sign "Silver Dragon",,é‡‘ç¬¦ã€Œé“¶é¾™ã€,
+Reveal all exiled Magic Book skills, choose 1, and create a copy in hand.",,"³éÈ¡ 2 ¸ö¼¼ÄÜ¡£
+Õ¹Ê¾·ÅÖğÅÆ¿âÖĞËùÓĞ¡°»ù±¾ÔªËØ¡±¼¼ÄÜ£¬Ñ¡ÔñÆäÖĞ 1 ¸ö£¬ÔÚÊÖÖĞÉú³ÉÆä¸´ÖÆ¡£
+Õ¹Ê¾·ÅÖğÅÆ¿âÖĞËùÓĞ¡°Ä§·¨Êé¡±¼¼ÄÜ£¬Ñ¡ÔñÆäÖĞ 1 ¸ö£¬ÔÚÊÖÖĞÉú³ÉÆä¸´ÖÆ¡£",
+Skill/S_Pachi_LucyD_Name,Text,,,Elemental Extraction,,ÔªËØİÍÈ¡,
+Skill/S_Pachi_P_Description,Text,,,"Select 2?Elemental?attributes from the exiled deck, combine them, and obtain the corresponding Spell Card skill.
+Spell Card skills created by combining ""Advanced Elements"" can only be formed once per battle.",,"´Ó·ÅÖğÅÆ¿âÖĞÑ¡Ôñ2ÖÖ¡°ÔªËØ¡±ÊôĞÔ£¬½«Æä×éºÏºó»ñµÃ¶ÔÓ¦µÄ·û¿¨¼¼ÄÜ¡£
+Ê¹ÓÃ¡°¸ß¼¶ÔªËØ¡±×éºÏ³öÀ´µÄ·û¿¨¼¼ÄÜ£¬Ã¿³¡Õ½¶·½öÏŞ×éºÏ 1 ´Î¡£",
+Skill/S_Pachi_P_Name,Text,,,Elemental Invocation,,ÔªËØÆí»½,
+Skill/S_Pachi_Sk_0_0_Description,Text,,,Each level of?Metal?applies an additional stack of?Metal Fatigue.,,Ã¿¸öµÈ¼¶µÄ¡°½ğ¡±¶îÍâÊ©¼Ó 1 ²ã¡°½ğÊôÆ£ÀÍ¡±¡£,
+Skill/S_Pachi_Sk_0_0_Name,Text,,,Metal Sign "Silver Dragon",,½ğ·û¡¸ÒøÁú¡¹,
 Skill/S_Pachi_Sk_0_1_Description,Text,,,"Each level of Metal applies an additional stack of Elemental Anomaly and Elemental Disorder.
-Each level of Wood applies an additional stack of Elemental Entanglement.",,"æ¯ä¸ªç­‰çº§çš„â€œé‡‘â€é¢å¤–æ–½åŠ 1å±‚â€œå…ƒç´ å¼‚å¸¸â€å’Œâ€œå…ƒç´ ç´Šä¹±â€ã€‚
-æ¯ä¸ªç­‰çº§çš„â€œæœ¨â€é¢å¤–æ–½åŠ 1å±‚â€œå…ƒç´ çº ç¼ â€ã€‚",
-Skill/S_Pachi_Sk_0_1_Name,Text,,,Metal-Wood Sign "Element Harvester",,é‡‘æœ¨ç¬¦ã€Œå…ƒç´ æ”¶è·è€…ã€,
+Each level of Wood applies an additional stack of Elemental Entanglement.",,"Ã¿¸öµÈ¼¶µÄ¡°½ğ¡±¶îÍâÊ©¼Ó1²ã¡°ÔªËØÒì³£¡±ºÍ¡°ÔªËØÎÉÂÒ¡±¡£
+Ã¿¸öµÈ¼¶µÄ¡°Ä¾¡±¶îÍâÊ©¼Ó1²ã¡°ÔªËØ¾À²ø¡±¡£",
+Skill/S_Pachi_Sk_0_1_Name,Text,,,Metal-Wood Sign "Element Harvester",,½ğÄ¾·û¡¸ÔªËØÊÕ»ñÕß¡¹,
 Skill/S_Pachi_Sk_0_2_Description,Text,,,"Each level of Water heals an additional &a HP (10% of Healing Power).
-Each level of Metal applies an additional stack of Life Surge.",,"æ¯ä¸ªç­‰çº§çš„â€œæ°´â€ä½¿è¿™ä¸ªæŠ€èƒ½é¢å¤–æ²»ç–—&aç‚¹ä½“åŠ›(æ²»ç–—åŠ›çš„10%)ã€‚
-æ¯ä¸ªç­‰çº§çš„â€œé‡‘â€é¢å¤–æ–½åŠ 1å±‚â€œç”Ÿå‘½æ¶Œç°â€ã€‚",
-Skill/S_Pachi_Sk_0_2_Name,Text,,,Metal-Water Sign "Mercury Poison",,é‡‘æ°´ç¬¦ã€Œæ°´é“¶ä¹‹æ¯’ã€,
+Each level of Metal applies an additional stack of Life Surge.",,"Ã¿¸öµÈ¼¶µÄ¡°Ë®¡±Ê¹Õâ¸ö¼¼ÄÜ¶îÍâÖÎÁÆ&aµãÌåÁ¦(ÖÎÁÆÁ¦µÄ10%)¡£
+Ã¿¸öµÈ¼¶µÄ¡°½ğ¡±¶îÍâÊ©¼Ó1²ã¡°ÉúÃüÓ¿ÏÖ¡±¡£",
+Skill/S_Pachi_Sk_0_2_Name,Text,,,Metal-Water Sign "Mercury Poison",,½ğË®·û¡¸Ë®ÒøÖ®¶¾¡¹,
 Skill/S_Pachi_Sk_0_3_Description,Text,,,"Each level of Fire deals an additional &a damage (10% of Attack).
-Each level of Metal applies an additional stack of Metal Fatigue.",,"æ¯ä¸ªç­‰çº§çš„â€œç«â€ä½¿è¿™ä¸ªæŠ€èƒ½é¢å¤–é€ æˆ&aç‚¹ä¼¤å®³(æ”»å‡»åŠ›çš„10%)ã€‚
-æ¯ä¸ªç­‰çº§çš„â€œé‡‘â€é¢å¤–æ–½åŠ 1å±‚â€œé‡‘å±ç–²åŠ³â€ã€‚",
-Skill/S_Pachi_Sk_0_3_Name,Text,,,Fire-Metal Sign "St. Elmo's Pillar",,ç«é‡‘ç¬¦ã€Œåœ£çˆ±å°”æ‘©ç«æŸ±ã€,
-Skill/S_Pachi_Sk_0_4_Description,Text,,,"Applies &a Shield (50% of Defense).
+Each level of Metal applies an additional stack of Metal Fatigue.",,"Ã¿¸öµÈ¼¶µÄ¡°»ğ¡±Ê¹Õâ¸ö¼¼ÄÜ¶îÍâÔì³É&aµãÉËº¦(¹¥»÷Á¦µÄ10%)¡£
+Ã¿¸öµÈ¼¶µÄ¡°½ğ¡±¶îÍâÊ©¼Ó1²ã¡°½ğÊôÆ£ÀÍ¡±¡£",
+Skill/S_Pachi_Sk_0_3_Name,Text,,,Fire-Metal Sign "St. Elmo's Pillar",,»ğ½ğ·û¡¸Ê¥°®¶ûÄ¦»ğÖù¡¹,
+Skill/S_Pachi_Sk_0_4_Description,Text,,,"Apply &a Barrier (50% of Defense).
 
 Each level of Metal applies an additional stack of Stone Guardian.
-Each level of Earth grants an additional &b Shield (10% of Defense).",,"æ–½åŠ  &a ç‚¹ä¿æŠ¤ç½©(é˜²å¾¡åŠ›çš„50%)ã€‚
+Each level of Earth grants an additional &b Barrier (10% of Defense).",,"Ê©¼Ó &a µã±£»¤ÕÖ(·ÀÓùÁ¦µÄ50%)¡£
 
-æ¯ä¸ªç­‰çº§çš„â€œé‡‘â€é¢å¤–æ–½åŠ 1å±‚â€œå·¨çŸ³æŠ¤å«â€ã€‚
-æ¯ä¸ªç­‰çº§çš„â€œåœŸâ€é¢å¤–æ–½åŠ &bç‚¹ä¿æŠ¤ç½©(é˜²å¾¡åŠ›çš„10%)ã€‚",
-Skill/S_Pachi_Sk_0_4_Name,Text,,,Earth-Metal Sign "Jade Monolith",,åœŸé‡‘ç¬¦ã€Œç¿¡ç¿ å·¨çŸ³ã€,
-Skill/S_Pachi_Sk_0_5_Description,Text,,,Summons 1 Infernal on the field.,,åœ¨åœºä¸Šå¬å”¤ 1 ä¸ªåœ°ç‹±ç«ã€‚,
-Skill/S_Pachi_Sk_0_5_Name,Text,,,Sun-Metal Sign "Hellfire",,æ—¥é‡‘ç¬¦ã€Œåœ°ç‹±ç«ã€,
+Ã¿¸öµÈ¼¶µÄ¡°½ğ¡±¶îÍâÊ©¼Ó1²ã¡°¾ŞÊ¯»¤ÎÀ¡±¡£
+Ã¿¸öµÈ¼¶µÄ¡°ÍÁ¡±¶îÍâÊ©¼Ó&bµã±£»¤ÕÖ(·ÀÓùÁ¦µÄ10%)¡£",
+Skill/S_Pachi_Sk_0_4_Name,Text,,,Earth-Metal Sign "Jade Monolith",,ÍÁ½ğ·û¡¸ôä´ä¾ŞÊ¯¡¹,
+Skill/S_Pachi_Sk_0_5_Description,Text,,,Summons 1 Infernal on the field.,,ÔÚ³¡ÉÏÕÙ»½ 1 ¸öµØÓü»ğ¡£,
+Skill/S_Pachi_Sk_0_5_Name,Text,,,Sun-Metal Sign "Hellfire",,ÈÕ½ğ·û¡¸µØÓü»ğ¡¹,
 Skill/S_Pachi_Sk_0_6_Description,Text,,,"Transforms the target into a harmless small animal.
 If the target is an ally, also dispels all debuffs and restores 2 Mana.
-If the target is a Boss, stuns for 1 turn instead.",,"å°†ç›®æ ‡å˜ä¸ºä¸€åªäººç•œæ— å®³çš„å°åŠ¨ç‰©ã€‚
-è‹¥ç›®æ ‡æ˜¯å‹å†›ï¼Œè¿˜ä¼šé©±æ•£æ‰€æœ‰å‡ç›Šæ•ˆæœï¼Œä¸”æ¢å¤ 2 ç‚¹æ³•åŠ›å€¼ã€‚
-è‹¥ç›®æ ‡æ˜¯Bossï¼Œåˆ™æ”¹ä¸ºçœ©æ™• 1 å›åˆã€‚",
-Skill/S_Pachi_Sk_0_6_Name,Text,,,Moon-Metal Sign "Sunlight Reflector",,æœˆé‡‘ç¬¦ã€Œæ—¥å…‰åå°„å™¨ã€,
+If the target is a Boss, stuns for 1 turn instead.",,"½«Ä¿±ê±äÎªÒ»Ö»ÈËĞóÎŞº¦µÄĞ¡¶¯Îï¡£
+ÈôÄ¿±êÊÇÓÑ¾ü£¬»¹»áÇıÉ¢ËùÓĞ¼õÒæĞ§¹û£¬ÇÒ»Ö¸´ 2 µã·¨Á¦Öµ¡£
+ÈôÄ¿±êÊÇBoss£¬Ôò¸ÄÎªÑ£ÔÎ 1 »ØºÏ¡£",
+Skill/S_Pachi_Sk_0_6_Name,Text,,,Moon-Metal Sign "Sunlight Reflector",,ÔÂ½ğ·û¡¸ÈÕ¹â·´ÉäÆ÷¡¹,
 Skill/S_Pachi_Sk_1_1_Description,Text,,,"Spreads all Pain debuffs on the target to other enemies.
 
-Each level of Wood applies an additional stack of Forest Wildfire.",,"ä½¿ç›®æ ‡æŒæœ‰çš„æ‰€æœ‰ç—›è‹¦å‡ç›Šæ‰©æ•£è‡³å…¶ä»–æ•Œäººã€‚
+Each level of Wood applies an additional stack of Forest Wildfire.",,"Ê¹Ä¿±ê³ÖÓĞµÄËùÓĞÍ´¿à¼õÒæÀ©É¢ÖÁÆäËûµĞÈË¡£
 
-æ¯ä¸ªç­‰çº§çš„â€œæœ¨â€é¢å¤–æ–½åŠ 1å±‚â€œæ£®æ—å¤§ç«â€ã€‚",
-Skill/S_Pachi_Sk_1_1_Name,Text,,,Wood Sign "Sylph's Horn",,æœ¨ç¬¦ã€Œé£çµçš„è§’ç¬›ã€,
+Ã¿¸öµÈ¼¶µÄ¡°Ä¾¡±¶îÍâÊ©¼Ó1²ã¡°É­ÁÖ´ó»ğ¡±¡£",
+Skill/S_Pachi_Sk_1_1_Name,Text,,,Wood Sign "Sylph's Horn",,Ä¾·û¡¸·çÁéµÄ½ÇµÑ¡¹,
 Skill/S_Pachi_Sk_1_2_Description,Text,,,"When cast, also targets the unit to the right.
 
 Each level of Water heals an additional &a HP (10% of Healing Power).
-Each level of Wood applies an additional stack of Living Water Essence.",,"é‡Šæ”¾æ—¶ï¼ŒåŒæ—¶å¯¹ç›®æ ‡å³è¾¹çš„è§’è‰²é‡Šæ”¾ã€‚
+Each level of Wood applies an additional stack of Living Water Essence.",,"ÊÍ·ÅÊ±£¬Í¬Ê±¶ÔÄ¿±êÓÒ±ßµÄ½ÇÉ«ÊÍ·Å¡£
 
-æ¯ä¸ªç­‰çº§çš„â€œæ°´â€ä½¿è¿™ä¸ªæŠ€èƒ½é¢å¤–æ²»ç–—&aç‚¹ä½“åŠ›(æ²»ç–—åŠ›çš„10%)ã€‚
-æ¯ä¸ªç­‰çº§çš„â€œæœ¨â€é¢å¤–æ–½åŠ 1å±‚â€œæ´»æ°´ä¹‹ç²¾â€ã€‚",
-Skill/S_Pachi_Sk_1_2_Name,Text,,,Water-Wood Sign "Water Spirit",,æ°´æœ¨ç¬¦ã€Œæ°´ç²¾çµã€,
+Ã¿¸öµÈ¼¶µÄ¡°Ë®¡±Ê¹Õâ¸ö¼¼ÄÜ¶îÍâÖÎÁÆ&aµãÌåÁ¦(ÖÎÁÆÁ¦µÄ10%)¡£
+Ã¿¸öµÈ¼¶µÄ¡°Ä¾¡±¶îÍâÊ©¼Ó1²ã¡°»îË®Ö®¾«¡±¡£",
+Skill/S_Pachi_Sk_1_2_Name,Text,,,Water-Wood Sign "Water Spirit",,Ë®Ä¾·û¡¸Ë®¾«Áé¡¹,
 Skill/S_Pachi_Sk_1_3_Description,Text,,,"When cast, deals Pain damage to all enemies equal to the per-turn damage of debuffs they hold.
 
 Each level of Fire deals an additional &a damage (10% of Attack).
-Each level of Wood applies an additional stack of Forest Wildfire.",,"é‡Šæ”¾æ—¶å¯¹æ‰€æœ‰æ•Œäººé€ æˆç—›è‹¦ä¼¤å®³ï¼Œä¼¤å®³é‡ç­‰äºç›®æ ‡æŒæœ‰çš„å‡ç›Šçš„æ¯å›åˆä¼¤å®³é‡ã€‚
+Each level of Wood applies an additional stack of Forest Wildfire.",,"ÊÍ·ÅÊ±¶ÔËùÓĞµĞÈËÔì³ÉÍ´¿àÉËº¦£¬ÉËº¦Á¿µÈÓÚÄ¿±ê³ÖÓĞµÄ¼õÒæµÄÃ¿»ØºÏÉËº¦Á¿¡£
 
-æ¯ä¸ªç­‰çº§çš„â€œç«â€ä½¿è¿™ä¸ªæŠ€èƒ½é¢å¤–é€ æˆ&aç‚¹ä¼¤å®³(æ”»å‡»åŠ›çš„10%)ã€‚
-æ¯ä¸ªç­‰çº§çš„â€œæœ¨â€é¢å¤–æ–½åŠ 1å±‚â€œæ£®æ—å¤§ç«â€ã€‚",
-Skill/S_Pachi_Sk_1_3_Name,Text,,,Wood-Fire Sign "Forest Wildfire",,æœ¨ç«ç¬¦ã€Œæ£®æ—å¤§ç«ã€,
-Skill/S_Pachi_Sk_1_4_Description,Text,,,"Each level of Wood increases Living Armor's Defense bonus by 10%.
-Each level of Earth increases Living Armor's healing and shield by &a (10% of Defense).",,"æ¯ä¸ªç­‰çº§çš„â€œæœ¨â€ä½¿â€œæ´»ä½“æŠ¤ç”²â€çš„é˜²å¾¡åŠ›æå‡é¢å¤–å¢åŠ 10%ã€‚
-æ¯ä¸ªç­‰çº§çš„â€œåœŸâ€ä½¿â€œæ´»ä½“æŠ¤ç”²â€çš„æ²»ç–—å’Œä¿æŠ¤ç½©æå‡ &a (é˜²å¾¡åŠ›çš„10%)ã€‚",
-Skill/S_Pachi_Sk_1_4_Name,Text,,,Earth-Wood Sign "Living Armor",,åœŸæœ¨ç¬¦ã€Œæ´»ä½“æŠ¤ç”²ã€,
-Skill/S_Pachi_Sk_1_5_Description,Text,,,Increases card draws per turn by 1 for this battle.,,æœ¬æ¬¡æˆ˜æ–—æœŸé—´æ¯å›åˆæŠ½ç‰Œæ¬¡æ•°å¢åŠ  1 ç‚¹ã€‚,
-Skill/S_Pachi_Sk_1_5_Name,Text,,,Sun-Wood Sign "Photosynthesis",,æ—¥æœ¨ç¬¦ã€Œå…‰åˆä½œç”¨ã€,
-Skill/S_Pachi_Sk_1_6_Description,Text,,,Increases max Mana by 1 for this battle.,,æœ¬æ¬¡æˆ˜æ–—æœŸé—´æœ€å¤§æ³•åŠ›å€¼å¢åŠ  1 ç‚¹ã€‚,
-Skill/S_Pachi_Sk_1_6_Name,Text,,,Moon-Wood Sign "Satellite Sunflower",,æœˆæœ¨ç¬¦ã€Œå«æ˜Ÿå‘æ—¥è‘µã€,
+Ã¿¸öµÈ¼¶µÄ¡°»ğ¡±Ê¹Õâ¸ö¼¼ÄÜ¶îÍâÔì³É&aµãÉËº¦(¹¥»÷Á¦µÄ10%)¡£
+Ã¿¸öµÈ¼¶µÄ¡°Ä¾¡±¶îÍâÊ©¼Ó1²ã¡°É­ÁÖ´ó»ğ¡±¡£",
+Skill/S_Pachi_Sk_1_3_Name,Text,,,Wood-Fire Sign "Forest Wildfire",,Ä¾»ğ·û¡¸É­ÁÖ´ó»ğ¡¹,
+Skill/S_Pachi_Sk_1_4_Description,Text,,,"Each level of Wood increases Living Armor's Defense bonus by 4%.
+Each level of Earth increases Living Armor's healing and Barrier by &a (10% of Defense).",,"Ã¿¸öµÈ¼¶µÄ¡°Ä¾¡±Ê¹¡°»îÌå»¤¼×¡±µÄ·ÀÓùÁ¦ÌáÉı¶îÍâÔö¼Ó4%¡£
+Ã¿¸öµÈ¼¶µÄ¡°ÍÁ¡±Ê¹¡°»îÌå»¤¼×¡±µÄÖÎÁÆºÍ±£»¤ÕÖÌáÉı &a (·ÀÓùÁ¦µÄ10%)¡£",
+Skill/S_Pachi_Sk_1_4_Name,Text,,,Earth-Wood Sign "Living Armor",,ÍÁÄ¾·û¡¸»îÌå»¤¼×¡¹,
+Skill/S_Pachi_Sk_1_5_Description,Text,,,Increases card draws per turn by 1 for this battle.,,±¾´ÎÕ½¶·ÆÚ¼äÃ¿»ØºÏ³éÅÆ´ÎÊıÔö¼Ó 1 µã¡£,
+Skill/S_Pachi_Sk_1_5_Name,Text,,,Sun-Wood Sign "Photosynthesis",,ÈÕÄ¾·û¡¸¹âºÏ×÷ÓÃ¡¹,
+Skill/S_Pachi_Sk_1_6_Description,Text,,,Increases max Mana by 1 for this battle.,,±¾´ÎÕ½¶·ÆÚ¼ä×î´ó·¨Á¦ÖµÔö¼Ó 1 µã¡£,
+Skill/S_Pachi_Sk_1_6_Name,Text,,,Moon-Wood Sign "Satellite Sunflower",,ÔÂÄ¾·û¡¸ÎÀĞÇÏòÈÕ¿û¡¹,
 Skill/S_Pachi_Sk_2_2_Description,Text,,,"If the target cannot be healed, instead increases their HP by &a (130% of Healing Power).
 
-Each level of Water heals or increases HP by an additional &b (20% of Healing Power).",,"å¦‚æœç›®æ ‡æ— æ³•å—åˆ°æ²»ç–—ï¼Œåˆ™æ”¹ä¸ºä½¿ç›®æ ‡çš„ç”Ÿå‘½å€¼æå‡ &a ç‚¹(æ²»ç–—åŠ›çš„130%)ã€‚
+Each level of Water heals or increases HP by an additional &b (20% of Healing Power).",,"Èç¹ûÄ¿±êÎŞ·¨ÊÜµ½ÖÎÁÆ£¬Ôò¸ÄÎªÊ¹Ä¿±êµÄÉúÃüÖµÌáÉı &a µã(ÖÎÁÆÁ¦µÄ130%)¡£
 
-æ¯ä¸ªç­‰çº§çš„â€œæ°´â€ä½¿è¿™ä¸ªæŠ€èƒ½é¢å¤–æ²»ç–—æˆ–æå‡&bç‚¹ä½“åŠ›(æ²»ç–—åŠ›çš„20%)ã€‚",
-Skill/S_Pachi_Sk_2_2_Name,Text,,,Water Sign "Lake Burial",,æ°´ç¬¦ã€Œæ¹–è‘¬ã€,
+Ã¿¸öµÈ¼¶µÄ¡°Ë®¡±Ê¹Õâ¸ö¼¼ÄÜ¶îÍâÖÎÁÆ»òÌáÉı&bµãÌåÁ¦(ÖÎÁÆÁ¦µÄ20%)¡£",
+Skill/S_Pachi_Sk_2_2_Name,Text,,,Water Sign "Lake Burial",,Ë®·û¡¸ºşÔá¡¹,
 Skill/S_Pachi_Sk_2_3_Description,Text,,,"Repeats &c times (1 + &e).
 Each cast heals the ally with the lowest HP by &a (45% of Healing Power).
 
 Each level of Fire deals an additional &b damage (5% of Attack) and heals an additional &d HP (5% of Healing Power).
-Each level of Water repeats 1 additional time.",,"é‡å¤é‡Šæ”¾ &c æ¬¡(1 + &e)ã€‚
-æ¯æ¬¡é‡Šæ”¾æ—¶ï¼Œæ¢å¤ä½“åŠ›å€¼æœ€ä½çš„å‹å†› &a ç‚¹ä½“åŠ›å€¼(æ²»ç–—åŠ›çš„45%)ã€‚
+Each level of Water repeats 1 additional time.",,"ÖØ¸´ÊÍ·Å &c ´Î(1 + &e)¡£
+Ã¿´ÎÊÍ·ÅÊ±£¬»Ö¸´ÌåÁ¦Öµ×îµÍµÄÓÑ¾ü &a µãÌåÁ¦Öµ(ÖÎÁÆÁ¦µÄ45%)¡£
 
-æ¯ä¸ªç­‰çº§çš„â€œç«â€ä½¿è¿™ä¸ªæŠ€èƒ½é¢å¤–é€ æˆ&bç‚¹ä¼¤å®³(æ”»å‡»åŠ›çš„5%)ã€é¢å¤–æ²»ç–—&dç‚¹ä½“åŠ›(æ²»ç–—åŠ›çš„5%)ã€‚
-æ¯ä¸ªç­‰çº§çš„â€œæ°´â€é¢å¤–é‡å¤é‡Šæ”¾ 1 æ¬¡ã€‚",
-Skill/S_Pachi_Sk_2_3_Name,Text,,,Water-Fire Sign "Phlogiston Rain",,æ°´ç«ç¬¦ã€Œç‡ƒç´ ä¹‹é›¨ã€,
-Skill/S_Pachi_Sk_2_4_Description,Text,,,"Randomly dispels 1 debuff on the target. For each debuff dispelled, applies &a Shield (20% of Healing Power).
+Ã¿¸öµÈ¼¶µÄ¡°»ğ¡±Ê¹Õâ¸ö¼¼ÄÜ¶îÍâÔì³É&bµãÉËº¦(¹¥»÷Á¦µÄ5%)¡¢¶îÍâÖÎÁÆ&dµãÌåÁ¦(ÖÎÁÆÁ¦µÄ5%)¡£
+Ã¿¸öµÈ¼¶µÄ¡°Ë®¡±¶îÍâÖØ¸´ÊÍ·Å 1 ´Î¡£",
+Skill/S_Pachi_Sk_2_3_Name,Text,,,Water-Fire Sign "Phlogiston Rain",,Ë®»ğ·û¡¸È¼ËØÖ®Óê¡¹,
+Skill/S_Pachi_Sk_2_4_Description,Text,,,"Randomly dispels 1 debuff on the target. For each debuff dispelled, applies &a Barrier (10% of Healing Power).
 
 Each level of Water heals an additional &a HP (10% of Healing Power).
-Each level of Earth dispels 1 additional debuff.",,"éšæœºè§£é™¤ç›®æ ‡æŒæœ‰çš„ 1 ä¸ªå‡ç›Šæ•ˆæœã€‚æ¯è§£é™¤ 1 ä¸ªå‡ç›Šæ•ˆæœï¼Œæ–½åŠ  &a ä¿æŠ¤ç½©(æ²»ç–—åŠ›çš„20%)ã€‚
+Each level of Earth dispels 1 additional debuff.",,"Ëæ»ú½â³ıÄ¿±ê³ÖÓĞµÄ 1 ¸ö¼õÒæĞ§¹û¡£Ã¿½â³ı 1 ¸ö¼õÒæĞ§¹û£¬Ê©¼Ó &a ±£»¤ÕÖ(ÖÎÁÆÁ¦µÄ10%)¡£
 
-æ¯ä¸ªç­‰çº§çš„â€œæ°´â€ä½¿è¿™ä¸ªæŠ€èƒ½é¢å¤–æ²»ç–—&aç‚¹ä½“åŠ›(æ²»ç–—åŠ›çš„10%)ã€‚
-æ¯ä¸ªç­‰çº§çš„â€œåœŸâ€é¢å¤–è§£é™¤ 1 ä¸ªå‡ç›Šæ•ˆæœã€‚",
-Skill/S_Pachi_Sk_2_4_Name,Text,,,Earth-Water Sign "Noah's Deluge",,åœŸæ°´ç¬¦ã€Œè¯ºäºšçš„å¤§æ´ªæ°´ã€,
+Ã¿¸öµÈ¼¶µÄ¡°Ë®¡±Ê¹Õâ¸ö¼¼ÄÜ¶îÍâÖÎÁÆ&aµãÌåÁ¦(ÖÎÁÆÁ¦µÄ10%)¡£
+Ã¿¸öµÈ¼¶µÄ¡°ÍÁ¡±¶îÍâ½â³ı 1 ¸ö¼õÒæĞ§¹û¡£",
+Skill/S_Pachi_Sk_2_4_Name,Text,,,Earth-Water Sign "Noah's Deluge",,ÍÁË®·û¡¸ÅµÑÇµÄ´óºéË®¡¹,
 Skill/S_Pachi_Sk_2_5_Description,Text,,,"This skill's countdown does not trigger when pressing the End Turn button.
-During countdown, whenever an Investigator takes damage, records the damage, reduces this skill's healing by that amount, and immediately heals the target by the same amount. Releases when healing falls below 0.",,"è¿™ä¸ªæŠ€èƒ½çš„å€’è®¡æ—¶ä¸ä¼šå› ä¸ºæŒ‰ä¸‹å›åˆç»“æŸæŒ‰é’®è€Œé‡Šæ”¾ã€‚
-å€’è®¡æ—¶æœŸé—´ï¼Œå½“ä»»æ„è°ƒæŸ¥å‘˜å—åˆ°ä¼¤å®³æ—¶ï¼Œè®°å½•ä¼¤å®³é‡ï¼Œé™ä½è¿™ä¸ªæŠ€èƒ½ç­‰é‡çš„æ²»ç–—é‡ï¼Œç«‹å³æ²»ç–—ç›®æ ‡ç­‰é‡çš„ä½“åŠ›å€¼ã€‚è¿™ä¸ªæŠ€èƒ½çš„æ²»ç–—é‡ä½äº0æ—¶ç«‹å³é‡Šæ”¾ã€‚",
-Skill/S_Pachi_Sk_2_5_Name,Text,,,Sun-Water Sign "Hydrogen Prominence",,æ—¥æ°´ç¬¦ã€Œæ°¢åŒ–æ—¥ç¥ã€,
-Skill/S_Pachi_Sk_2_6_Name,Text,,,Moon-Water Sign "Tidal Gravitation",,æœˆæ°´ç¬¦ã€Œæ½®æ±å¼•åŠ›ã€,
+During countdown, whenever an Investigator takes damage, records the damage, reduces this skill's healing by that amount, and immediately heals the target by the same amount. Releases when healing falls below 0.",,"Õâ¸ö¼¼ÄÜµÄµ¹¼ÆÊ±²»»áÒòÎª°´ÏÂ»ØºÏ½áÊø°´Å¥¶øÊÍ·Å¡£
+µ¹¼ÆÊ±ÆÚ¼ä£¬µ±ÈÎÒâµ÷²éÔ±ÊÜµ½ÉËº¦Ê±£¬¼ÇÂ¼ÉËº¦Á¿£¬½µµÍÕâ¸ö¼¼ÄÜµÈÁ¿µÄÖÎÁÆÁ¿£¬Á¢¼´ÖÎÁÆÄ¿±êµÈÁ¿µÄÌåÁ¦Öµ¡£Õâ¸ö¼¼ÄÜµÄÖÎÁÆÁ¿µÍÓÚ0Ê±Á¢¼´ÊÍ·Å¡£",
+Skill/S_Pachi_Sk_2_5_Name,Text,,,Sun-Water Sign "Hydrogen Prominence",,ÈÕË®·û¡¸Çâ»¯ÈÕçí¡¹,
+Skill/S_Pachi_Sk_2_6_Name,Text,,,Moon-Water Sign "Tidal Gravitation",,ÔÂË®·û¡¸³±Ï«ÒıÁ¦¡¹,
 Skill/S_Pachi_Sk_3_3_Description,Text,,,"This skill ignores Defense.
 
-Each level of Fire deals an additional &a damage (20% of Attack).",,"è¿™ä¸ªæŠ€èƒ½æ— è§†é˜²å¾¡ã€‚
+Each level of Fire deals an additional &a damage (20% of Attack).",,"Õâ¸ö¼¼ÄÜÎŞÊÓ·ÀÓù¡£
 
-æ¯ä¸ªç­‰çº§çš„â€œç«â€ä½¿è¿™ä¸ªæŠ€èƒ½é¢å¤–é€ æˆ&aç‚¹ä¼¤å®³(æ”»å‡»åŠ›çš„20%)ã€‚",
-Skill/S_Pachi_Sk_3_3_Name,Text,,,Fire Sign "Light of Vulcan",,ç«ç¬¦ã€Œç«ç¥ä¹‹å…‰ã€,
+Ã¿¸öµÈ¼¶µÄ¡°»ğ¡±Ê¹Õâ¸ö¼¼ÄÜ¶îÍâÔì³É&aµãÉËº¦(¹¥»÷Á¦µÄ20%)¡£",
+Skill/S_Pachi_Sk_3_3_Name,Text,,,Fire Sign "Light of Vulcan",,»ğ·û¡¸»ğÉñÖ®¹â¡¹,
 Skill/S_Pachi_Sk_3_4_Description,Text,,,"Attacks all enemies with the same Taunt status as the target.
-Converts 30% of damage dealt into a Shield for self.
+Converts 15% of damage dealt into a Barrier for self.
 
 Each level of Fire deals an additional &a damage (10% of Attack).
-Each level of Earth increases Shield conversion by 20%.",,"åŒæ—¶æ”»å‡»ä¸æŠ€èƒ½ç›®æ ‡å˜²è®½çŠ¶æ€ç›¸åŒçš„æ‰€æœ‰æ•Œäººã€‚
-é€ æˆä¼¤å®³çš„30%è½¬åŒ–ä¸ºè‡ªèº«çš„ä¿æŠ¤ç½©ã€‚
+Each level of Earth increases Shield conversion by 10%.",,"Í¬Ê±¹¥»÷Óë¼¼ÄÜÄ¿±ê³°·í×´Ì¬ÏàÍ¬µÄËùÓĞµĞÈË¡£
+Ôì³ÉÉËº¦µÄ15%×ª»¯Îª×ÔÉíµÄ±£»¤ÕÖ¡£
 
-æ¯ä¸ªç­‰çº§çš„â€œç«â€ä½¿è¿™ä¸ªæŠ€èƒ½é¢å¤–é€ æˆ&aç‚¹ä¼¤å®³(æ”»å‡»åŠ›çš„10%)ã€‚
-æ¯ä¸ªç­‰çº§çš„â€œåœŸâ€ä½¿ä¿æŠ¤ç½©è½¬åŒ–å€ç‡æå‡20%ã€‚",
-Skill/S_Pachi_Sk_3_4_Name,Text,,,Fire-Earth Sign "Ring of Lava",,ç«åœŸç¬¦ã€Œç¯çŠ¶ç†”å²©å¸¦ã€,
+Ã¿¸öµÈ¼¶µÄ¡°»ğ¡±Ê¹Õâ¸ö¼¼ÄÜ¶îÍâÔì³É&aµãÉËº¦(¹¥»÷Á¦µÄ10%)¡£
+Ã¿¸öµÈ¼¶µÄ¡°ÍÁ¡±Ê¹±£»¤ÕÖ×ª»¯±¶ÂÊÌáÉı10%¡£",
+Skill/S_Pachi_Sk_3_4_Name,Text,,,Fire-Earth Sign "Ring of Lava",,»ğÍÁ·û¡¸»·×´ÈÛÑÒ´ø¡¹,
 Skill/S_Pachi_Sk_3_5_Description,Text,,,"When killing an enemy, draws 1 skill and permanently increases this skill's damage by 1.1x.
 Current triggers: &a
 Current multiplier: &b
-Current damage: &c",,"å‡»æ€æ•Œäººæ—¶ï¼ŒæŠ½å– 1 ä¸ªæŠ€èƒ½ï¼Œå¹¶ä½¿è¿™ä¸ªæŠ€èƒ½é€ æˆçš„ä¼¤å®³æ°¸ä¹…æå‡ 1.1 å€ã€‚
-å½“å‰è§¦å‘æ¬¡æ•°ï¼š&a
-å½“å‰æå‡å€æ•°ï¼š&b
-å½“å‰ä¼¤å®³æ•°å€¼ï¼š&c",
-Skill/S_Pachi_Sk_3_5_Name,Text,,,Sun-Fire Sign "Gamma Ray",,æ—¥ç«ç¬¦ã€Œä¼½é©¬æµå°„çº¿ã€,
-Skill/S_Pachi_Sk_3_6_Description,Text,,,Attacks all enemies with the same Taunt status as the target.,,åŒæ—¶æ”»å‡»ä¸æŠ€èƒ½ç›®æ ‡å˜²è®½çŠ¶æ€ç›¸åŒçš„æ‰€æœ‰æ•Œäººã€‚,
-Skill/S_Pachi_Sk_3_6_Name,Text,,,Moon-Fire Sign "Burning Halley",,æœˆç«ç¬¦ã€Œç‡ƒçƒ§çš„å“ˆé›·ã€,
-Skill/S_Pachi_Sk_4_4_Description,Text,,,"Creates &a Party Barrier (100% of Defense).
-
-Each level of Earth increases Party Barrier by &b (20% of Defense).",,"ç”Ÿæˆ &a é˜²æŠ¤å¢™(é˜²å¾¡åŠ›çš„100%)ã€‚
-
-æ¯ä¸ªç­‰çº§çš„â€œåœŸâ€ä½¿ç”Ÿæˆçš„é˜²æŠ¤å¢™æå‡ &b (é˜²å¾¡åŠ›çš„20%)ã€‚",
-Skill/S_Pachi_Sk_4_4_Name,Text,,,Earth Sign "Lazy Trilithon",,åœŸç¬¦ã€Œæ…µæ‡’ä¸‰çŸ³å¡”ã€,
-Skill/S_Pachi_Sk_4_5_Description,Text,,,Draws 1 skill.,,æŠ½å– 1 ä¸ªæŠ€èƒ½ã€‚,
-Skill/S_Pachi_Sk_4_5_Name,Text,,,Sun-Earth Sign "Dyson Sphere",,æ—¥åœŸç¬¦ã€Œæˆ´æ£®çƒã€,
-Skill/S_Pachi_Sk_4_6_Description,Text,,,Reduces the cost of skills in hand by 1 each time they are used.,,æ¯æ¬¡ä½¿ç”¨æ‰‹ä¸­çš„æŠ€èƒ½æ—¶å‡å°‘ 1 ç‚¹è´¹ç”¨ã€‚,
-Skill/S_Pachi_Sk_4_6_Name,Text,,,Moon-Earth Sign "Apollo 12",,æœˆåœŸç¬¦ã€Œé˜¿æ³¢ç½—12å·ã€,
+Current damage: &c",,"»÷É±µĞÈËÊ±£¬³éÈ¡ 1 ¸ö¼¼ÄÜ£¬²¢Ê¹Õâ¸ö¼¼ÄÜÔì³ÉµÄÉËº¦ÓÀ¾ÃÌáÉı 1.1 ±¶¡£
+µ±Ç°´¥·¢´ÎÊı£º&a
+µ±Ç°ÌáÉı±¶Êı£º&b
+µ±Ç°ÉËº¦ÊıÖµ£º&c",
+Skill/S_Pachi_Sk_3_5_Name,Text,,,Sun-Fire Sign "Gamma Ray",,ÈÕ»ğ·û¡¸Ù¤ÂíÁ÷ÉäÏß¡¹,
+Skill/S_Pachi_Sk_3_6_Description,Text,,,Attacks all enemies with the same Taunt status as the target.,,Í¬Ê±¹¥»÷Óë¼¼ÄÜÄ¿±ê³°·í×´Ì¬ÏàÍ¬µÄËùÓĞµĞÈË¡£,
+Skill/S_Pachi_Sk_3_6_Name,Text,,,Moon-Fire Sign "Burning Halley",,ÔÂ»ğ·û¡¸È¼ÉÕµÄ¹şÀ×¡¹,
+Skill/S_Pachi_Sk_4_4_Description,Text,,,Each level of Earth applies an additional stack of Stone's Reputation.,,Ã¿¸öµÈ¼¶µÄ¡°ÍÁ¡±¶îÍâÊ©¼Ó1²ã¡°Ê¯ÖÁÃû¹é¡±¡£,
+Skill/S_Pachi_Sk_4_4_Name,Text,,,Earth Sign "Lazy Trilithon",,ÍÁ·û¡¸ã¼ÀÁÈıÊ¯Ëş¡¹,
+Skill/S_Pachi_Sk_4_5_Description,Text,,,Draws 1 skill.,,³éÈ¡ 1 ¸ö¼¼ÄÜ¡£,
+Skill/S_Pachi_Sk_4_5_Name,Text,,,Sun-Earth Sign "Dyson Sphere",,ÈÕÍÁ·û¡¸´÷É­Çò¡¹,
+Skill/S_Pachi_Sk_4_6_Description,Text,,,Reduces the cost of skills in hand by 1 each time they are used.,,Ã¿´ÎÊ¹ÓÃÊÖÖĞµÄ¼¼ÄÜÊ±¼õÉÙ 1 µã·ÑÓÃ¡£,
+Skill/S_Pachi_Sk_4_6_Name,Text,,,Moon-Earth Sign "Apollo 12",,ÔÂÍÁ·û¡¸°¢²¨ÂŞ12ºÅ¡¹,
 Skill/S_Pachi_Sk_5_5_Description,Text,,,"Repeats this skill based on the number of times own skills in hand have been used this battle.
-Current count: &a",,"æ ¹æ®è¿™åœºæˆ˜æ–—ä¸­è‡ªèº«ä½¿ç”¨è¿‡æ‰‹ä¸­çš„æŠ€èƒ½çš„æ¬¡æ•°ï¼Œé‡å¤é‡Šæ”¾è¿™ä¸ªæŠ€èƒ½ã€‚
-å½“å‰æ¬¡æ•°ï¼š&a",
-Skill/S_Pachi_Sk_5_5_Name,Text,,,Sun Sign "Royal Flare",,æ—¥ç¬¦ã€Œçš‡å®¶çƒˆç„°ã€,
+Current count: &a",,"¸ù¾İÕâ³¡Õ½¶·ÖĞ×ÔÉíÊ¹ÓÃ¹ıÊÖÖĞµÄ¼¼ÄÜµÄ´ÎÊı£¬ÖØ¸´ÊÍ·ÅÕâ¸ö¼¼ÄÜ¡£
+µ±Ç°´ÎÊı£º&a",
+Skill/S_Pachi_Sk_5_5_Name,Text,,,Sun Sign "Royal Flare",,ÈÕ·û¡¸»Ê¼ÒÁÒÑæ¡¹,
 Skill/S_Pachi_Sk_5_6_Description,Text,,,"Returns 1 own skill from the exiled deck to hand.
-Resets all Advanced Element Spell Card combination counts.",,"ä»æ”¾é€ç‰Œåº“ä¸­å°† 1 ä¸ªè‡ªå·±çš„æŠ€èƒ½æ‹¿å›æ‰‹ä¸­ã€‚
-é‡ç½®æ‰€æœ‰â€œé«˜çº§å…ƒç´ â€ç¬¦å¡çš„å¯ç»„åˆæ¬¡æ•°ã€‚",
-Skill/S_Pachi_Sk_5_6_Name,Text,,,Sun-Moon Sign "Royal Diamond",,æ—¥æœˆç¬¦ã€Œçš‡å®¶é’»æˆ’ã€,
+Resets all Advanced Element Spell Card combination counts.",,"´Ó·ÅÖğÅÆ¿âÖĞ½« 1 ¸ö×Ô¼ºµÄ¼¼ÄÜÄÃ»ØÊÖÖĞ¡£
+ÖØÖÃËùÓĞ¡°¸ß¼¶ÔªËØ¡±·û¿¨µÄ¿É×éºÏ´ÎÊı¡£",
+Skill/S_Pachi_Sk_5_6_Name,Text,,,Sun-Moon Sign "Royal Diamond",,ÈÕÔÂ·û¡¸»Ê¼Ò×ê½ä¡¹,
 Skill/S_Pachi_Sk_6_6_Description,Text,,,,,,
-Skill/S_Pachi_Sk_6_6_Name,Text,,,Moon Sign "Serene Lunar Goddess",,æœˆç¬¦ã€Œæ²‰é™çš„æœˆç¥ã€,
+Skill/S_Pachi_Sk_6_6_Name,Text,,,Moon Sign "Serene Lunar Goddess",,ÔÂ·û¡¸³Á¾²µÄÔÂÉñ¡¹,
 SkillExtended/SE_Pachi_C_0_EnforceString,Text,,,,,,
-SkillExtended/SE_Pachi_C_0_Name,Text,,,"Reveal all exiled Basic Element skills, choose 1, and create a copy in hand.",,å±•ç¤ºæ”¾é€ç‰Œåº“ä¸­æ‰€æœ‰â€œåŸºæœ¬å…ƒç´ â€æŠ€èƒ½ï¼Œé€‰æ‹©å…¶ä¸­ 1 ä¸ªï¼Œåœ¨æ‰‹ä¸­ç”Ÿæˆå…¶å¤åˆ¶ã€‚,
-SkillExtended/SE_Pachi_C_1_EnforceString,Text,,,<sprite name="ë¹„ìš©3"><sprite name="ì´í•˜">,,<sprite name="ë¹„ìš©3"><sprite name="ì´í•˜">,
-SkillExtended/SE_Pachi_C_1_Name,Text,,,Cost reduced by 2.,,è´¹ç”¨é™ä½ 2 ç‚¹ã€‚,
+SkillExtended/SE_Pachi_C_0_Name,Text,,,"Reveal all exiled Basic Element skills, choose 1, and create a copy in hand.",,Õ¹Ê¾·ÅÖğÅÆ¿âÖĞËùÓĞ¡°»ù±¾ÔªËØ¡±¼¼ÄÜ£¬Ñ¡ÔñÆäÖĞ 1 ¸ö£¬ÔÚÊÖÖĞÉú³ÉÆä¸´ÖÆ¡£,
+SkillExtended/SE_Pachi_C_1_EnforceString,Text,,,<sprite name="??3"><sprite name="??">,,<sprite name="??3"><sprite name="??">,
+SkillExtended/SE_Pachi_C_1_Name,Text,,,Cost reduced by 2.,,·ÑÓÃ½µµÍ 2 µã¡£,

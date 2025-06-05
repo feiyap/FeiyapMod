@@ -17,7 +17,7 @@ namespace PatchouliKnowledge
 	/// 石至名归
 	/// 回合结束时减少 1 层。
 	/// </summary>
-    public class B_Pachi_4_4:Buff
+    public class B_Pachi_4_4:Buff, IP_DamageTakeChange
     {
         public override void Init()
         {
@@ -25,9 +25,21 @@ namespace PatchouliKnowledge
             this.PlusStat.Strength = true;
         }
 
-        //public void TurnEnd()
-        //{
-        //    this.SelfStackDestroy();
-        //}
+        public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
+        {
+            if (Hit == this.BChar && !Preview)
+            {
+                Dmg -= Dmg * (int)this.Usestate_F.GetStat.def * 5 / 1000;
+                this.SelfStackDestroy();
+            }
+
+            return Dmg;
+        }
+
+        public override string DescExtended()
+        {
+            return this.BuffData.Description.Replace("&user", this.Usestate_F.Info.Name)
+                                            .Replace("&a", ((int)this.Usestate_F.GetStat.def * 0.5).ToString());
+        }
     }
 }
