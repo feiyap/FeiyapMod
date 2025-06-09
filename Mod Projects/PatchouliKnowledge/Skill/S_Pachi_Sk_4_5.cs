@@ -19,6 +19,9 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class S_Pachi_Sk_4_5:Skill_Extended
     {
-
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            BattleSystem.instance.AllyTeam.Draw();
+        }
     }
 }

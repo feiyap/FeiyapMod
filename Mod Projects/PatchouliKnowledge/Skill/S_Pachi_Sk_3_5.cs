@@ -21,6 +21,12 @@ namespace PatchouliKnowledge
 	/// </summary>
     public class S_Pachi_Sk_3_5:Skill_Extended, IP_DamageChange_sumoperation
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+        }
+
         public override void SkillKill(SkillParticle SP)
         {
             base.SkillKill(SP);

@@ -18,6 +18,8 @@ namespace Feiyap
 	/// </summary>
     public class S_Feiyap_0:Skill_Extended
     {
+        public bool isuse = false;
+
         public int PlusDmg
         {
             get
@@ -42,11 +44,16 @@ namespace Feiyap
             {
                 this.SkillBasePlus.Target_BaseDMG = 0;
             }
+            isuse = false;
         }
 
         public override void FixedUpdate()
         {
             base.FixedUpdate();
+            if (isuse)
+            {
+                return;
+            }
             if (this.BChar.GetStat.Strength)
             {
                 base.SkillParticleOn();
@@ -71,6 +78,7 @@ namespace Feiyap
                 this.SkillBasePlus.Target_BaseDMG = 0;
                 this.BChar.BuffAdd("B_Feiyap_0", this.BChar);
             }
+            isuse = true;
         }
 
         public override string DescExtended(string desc)

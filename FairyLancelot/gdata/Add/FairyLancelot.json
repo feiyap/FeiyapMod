@@ -1,0 +1,22 @@
+{
+    "FairyLancelot": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "name": "兰斯洛特",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 40,
+            "y": 40
+        },
+        "ATK": {
+            "x": 15,
+            "y": 15
+        },
+        "HIT": {
+            "x": 100,
+            "y": 120
+        }
+    }
+}

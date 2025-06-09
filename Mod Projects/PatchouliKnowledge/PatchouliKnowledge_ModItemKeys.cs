@@ -441,31 +441,37 @@ namespace PatchouliKnowledge
 		/// English:
 		/// Mage
 		/// Japanese:
-		/// Mage
+		/// 魔女
 		/// Chinese:
 		/// 魔女
 		/// Chinese-TW:
+		/// 魔女
 		/// </summary>
         public static string SystemCharacterRoleRole_Mage => ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("System/Character/Role/Role_Mage");
 		/// <summary>
 		/// Korean:
+		/// Choose a skill return to your hand from the exclude deck:
 		/// English:
+		/// Choose a skill return to your hand from the exclude deck:
 		/// Japanese:
+		/// Choose a skill return to your hand from the exclude deck:
 		/// Chinese:
 		/// 选择要从放逐牌库中拿回的技能：
 		/// Chinese-TW:
+		/// 選擇要從放逐牌庫中取回的技能：
 		/// </summary>
         public static string exceptSkillSelect => ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect");
 		/// <summary>
 		/// Korean:
-		/// 选择想要组合的元素：
+		/// Choose elements to fuse:
 		/// English:
-		/// 选择想要组合的元素：
+		/// Choose elements to fuse:
 		/// Japanese:
-		/// 选择想要组合的元素：
+		/// Choose elements to fuse:
 		/// Chinese:
 		/// 选择想要组合的元素：
 		/// Chinese-TW:
+		/// 選擇想要組合的元素：
 		/// </summary>
         public static string selectElement => ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("selectElement");
 
