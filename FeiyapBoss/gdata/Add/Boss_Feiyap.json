@@ -1,29 +1,36 @@
 {
     "Boss_Feiyap": {
         "_gdeSchema": "Enemy",
-        "hit": 125,
+        "hit": 98,
         "Skills": [
             "S_Feiyap_Boss_0",
             "S_Feiyap_Boss_1",
-            "S_Feiyap_Boss_2",
-            "S_Feiyap_Boss_3"
+            "S_Feiyap_Boss_2"
         ],
         "Boss": true,
         "NotCursed": true,
         "name": "绯夜氏",
-        "atk": 20,
-        "def": 25,
-        "cri": 33,
-        "dodge": 15,
-        "RES_CC": 40,
-        "RES_DEBUFF": 20,
-        "maxhp": 5000,
-        "spd": 3,
+        "atk": 19,
+        "def": 0,
+        "cri": 4,
+        "dodge": 0,
+        "RES_CC": 8,
+        "RES_DEBUFF": 8,
+        "maxhp": 320,
+        "spd": 2,
         "PlusActCount": [
-            1,
-            1
+            2
         ],
         "CollactionSprite_Cover": "Boss_Feiyap\\Boss_FeiyapCollactionSprite_Cover.png",
-        "SubName": "绯夜氏"
+        "SubName": "斩星官",
+        "reg": 8,
+        "RES_DOT": 8,
+        "EnemyStory": "于万千碎裂的世界破片中，选择成为了斩星官的那一个“绯夜氏”。\n掌管着星界万事万物的“死亡”，流浪在星际之间，毫不留情地吞噬着那些命定逝去的星球。\n其太刀划过的地方，破碎的空间化作黑洞，撕碎面前的一切事物。她的无情与残忍，被那些有生命的星球们恐惧地冠以「无声星陨」的称号。\n「就连光也无法逃脱我的掌控，更何况是你呢？」",
+        "CollactionEnemy": 2,
+        "Passives": [
+            "B_Feiyap_Boss_P",
+            "B_Feiyap_Boss_P_1",
+            "B_LastResistance"
+        ]
     }
 }

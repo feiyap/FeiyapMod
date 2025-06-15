@@ -7,7 +7,7 @@
         "NoDrop": true,
         "Name": "土木符「活体护甲」",
         "UseAp": 2,
-        "Description": "每个等级的“木”使“活体护甲”的防御力提升额外增加10%。\n每个等级的“土”使“活体护甲”的治疗和保护罩提升 &a (防御力的10%)。",
+        "Description": "每个等级的“木”使“活体护甲”的防御力提升额外增加4%。\n每个等级的“土”使“活体护甲”的治疗和保护罩提升 &a (防御力的10%)。",
         "NotCount": true,
         "Effect_Target": "SE_T_S_Pachi_Sk_1_4",
         "SkillExtended": [

@@ -2,12 +2,18 @@
     "S_Feiyap_Boss_1": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/Buff",
-        "Target": "self",
+        "Particle": "Particle/Ilya/Ilya_1",
+        "Target": "enemy",
         "EnemyPreview": true,
-        "Name": "红明镜止水",
+        "Name": "里绯夜流·逆鳞斩",
         "Image_0": "S_Feiyap_Boss_1\\S_Feiyap_Boss_1_Image_0.png",
         "Image_1": "S_Feiyap_Boss_1\\S_Feiyap_Boss_1_Image_1.png",
-        "Image_2": "S_Feiyap_Boss_1\\S_Feiyap_Boss_1_Image_2.png"
+        "Image_2": "S_Feiyap_Boss_1\\S_Feiyap_Boss_1_Image_2.png",
+        "Track": false,
+        "UnknownTarget": false,
+        "Description": "若目标拥有保护体力极限，使目标体力值变为 1。\n否则额外施加 1 层“体内灼烧”。",
+        "IgnoreTaunt": true,
+        "Fatal": true,
+        "Effect_Target": "SE_T_S_Feiyap_Boss_1"
     }
 }

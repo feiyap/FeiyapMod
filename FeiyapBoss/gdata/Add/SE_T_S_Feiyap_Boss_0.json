@@ -2,12 +2,6 @@
     "SE_T_S_Feiyap_Boss_0": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 100,
-        "Buffs": [
-            "B_Feiyap_Boss_0"
-        ],
-        "BuffPlusTagPer": [
-            0
-        ]
+        "DMG_Per": 100
     }
 }

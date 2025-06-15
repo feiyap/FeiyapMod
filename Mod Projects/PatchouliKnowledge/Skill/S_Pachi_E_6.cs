@@ -23,9 +23,13 @@ namespace PatchouliKnowledge
     {
         public override bool ButtonSelectTerms()
         {
-            if (P_PatchouliKnowledge.firstskill == null)
+            if (BattleSystem.instance == null)
             {
                 return true;
+            }
+            if (P_PatchouliKnowledge.firstskill == null)
+            {
+                return P_PatchouliKnowledge.isMoonCanUsed();
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_0")
             {

@@ -23,6 +23,7 @@ namespace PatchouliKnowledge
         {
             base.Init();
             this.UseNum = 0;
+            this.OnePassive = true;
         }
 
         public override void FixedUpdate()

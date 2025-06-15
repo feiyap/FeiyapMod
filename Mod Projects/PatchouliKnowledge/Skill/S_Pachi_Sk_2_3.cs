@@ -34,7 +34,7 @@ namespace PatchouliKnowledge
         {
             get
             {
-                return (int)(this.BChar.GetStat.reg * 0.45f + 0.05f * BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[3]);
+                return (int)(this.BChar.GetStat.reg * 0.45f + 0.05f * BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2]);
             }
         }
         
@@ -50,9 +50,7 @@ namespace PatchouliKnowledge
             }
             return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.reg * 0.45f)).ToString())
                                           .Replace("&b", ((int)(this.BChar.GetStat.atk * 0.05f)).ToString())
-                                          .Replace("&d", ((int)(this.BChar.GetStat.reg * 0.05f)).ToString())
-                                          .Replace("&c", (1 + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2]).ToString())
-                                          .Replace("&e", (BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2]).ToString());
+                                          .Replace("&d", ((int)(this.BChar.GetStat.reg * 0.05f)).ToString());
         }
 
         public override void Init()
@@ -82,7 +80,12 @@ namespace PatchouliKnowledge
                 battleChar.Heal(this.BChar, plusHeal, false, false, null);
             }
 
-            int count = 1 + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2];
+            int count = 1;
+            
+            if (BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[2] >= 3 && BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[3] >= 3)
+            {
+                count = 3;
+            }
 
             BattleSystem.DelayInput(this.Effect(Targets[0], count));
         }

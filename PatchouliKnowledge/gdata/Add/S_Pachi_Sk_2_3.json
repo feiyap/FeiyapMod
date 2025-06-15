@@ -6,7 +6,7 @@
         "Target": "enemy",
         "NoDrop": true,
         "Name": "水火符「燃素之雨」",
-        "Description": "重复释放 &c 次(1 + &e)。\n每次释放时，恢复体力值最低的友军 &a 点体力值(治疗力的45%)。\n\n每个等级的“火”使这个技能额外造成&b点伤害(攻击力的5%)、额外治疗&d点体力(治疗力的5%)。\n每个等级的“水”额外重复释放 1 次。",
+        "Description": "重复释放 1 次。如果同时拥有3级的“火”和“水”，额外重复释放 2 次。\n每次释放时，恢复体力值最低的友军 &a 点体力值(治疗力的45%)。\n\n每个等级的“火”使这个技能额外造成&b点伤害(攻击力的5%)。\n每个等级的“水”使这个技能额外治疗&c点体力(治疗力的5%)。",
         "UseAp": 2,
         "NotCount": false,
         "Effect_Target": "SE_T_S_Pachi_Sk_2_3",
@@ -21,6 +21,7 @@
         "PlusCustomKeywords": [
             "NoExceptDeck"
         ],
-        "Except": true
+        "Except": true,
+        "NoBasicSkill": false
     }
 }

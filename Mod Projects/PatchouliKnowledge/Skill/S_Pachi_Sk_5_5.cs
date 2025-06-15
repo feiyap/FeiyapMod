@@ -35,6 +35,7 @@ namespace PatchouliKnowledge
         public override void Init()
         {
             base.Init();
+            this.OnePassive = true;
         }
 
         public override void HandInit()

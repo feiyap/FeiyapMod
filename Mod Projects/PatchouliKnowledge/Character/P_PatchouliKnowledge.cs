@@ -24,7 +24,7 @@ namespace PatchouliKnowledge
 	/// <color=#919191>- 此被动从1级开始生效。</color>
 	/// <color=#919191>- 帕秋莉的技能学习不再拥有上限。</color>
 	/// </summary>
-    public class P_PatchouliKnowledge:Passive_Char, IP_BattleStart_Ones, IP_OnSkillExcept, IP_PlayerTurn_1, IP_PlayerTurn
+    public class P_PatchouliKnowledge:Passive_Char, IP_BattleStart_Ones, IP_OnSkillExcept, IP_PlayerTurn
     {
         public static List<string> BaseElement = new List<string>
         {
@@ -114,38 +114,49 @@ namespace PatchouliKnowledge
             {
                 BattleSystem.instance.BattleValues.Add(new BV_Pachi_P());
             }
+            
+            this.BChar.BuffAdd("B_Pachi_P", this.BChar);
 
             firstskill = null;
             secondskill = null;
 
-            this.BChar.BuffAdd("B_Pachi_P", this.BChar);
-        }
-
-        public void Turn1()
-        {
-            if (BattleSystem.instance.TurnNum == 1)
-            {
-                List<Skill> AList = BattleSystem.instance.AllyTeam.Skills_Deck
+            List<Skill> AList = BattleSystem.instance.AllyTeam.Skills_Deck
                         .Where(skill => skill.Master == this.BChar && (BaseElement.Contains(skill.MySkill.KeyID) || RareElement.Contains(skill.MySkill.KeyID)))
                         .ToList();
 
-                foreach (Skill sk in AList)
-                {
-                    BattleSystem.instance.AllyTeam.Draw(sk, new BattleTeam.DrawInput(this.DrawInput));
-                }
-
-                List<Skill> BList = BattleSystem.instance.AllyTeam.Skills
-                            .Where(skill => skill.Master == this.BChar && (BaseElement.Contains(skill.MySkill.KeyID) || RareElement.Contains(skill.MySkill.KeyID)))
-                            .ToList();
-
-                foreach (Skill sk in BList)
-                {
-                    sk.Except();
-                    BattleSystem.instance.AllyTeam.Draw();
-                    BV_ExceptDeck.AddSkill(sk);
-                }
+            foreach (Skill sk in AList)
+            {
+                //BattleSystem.instance.AllyTeam.Draw(sk, new BattleTeam.DrawInput(this.DrawInput));
+                BattleSystem.instance.AllyTeam.Skills_Deck.Remove(sk);
+                BV_ExceptDeck.AddSkill(sk);
             }
         }
+
+        //public void Turn1()
+        //{
+        //    if (BattleSystem.instance.TurnNum == 1)
+        //    {
+        //        List<Skill> AList = BattleSystem.instance.AllyTeam.Skills_Deck
+        //                .Where(skill => skill.Master == this.BChar && (BaseElement.Contains(skill.MySkill.KeyID) || RareElement.Contains(skill.MySkill.KeyID)))
+        //                .ToList();
+
+        //        foreach (Skill sk in AList)
+        //        {
+        //            BattleSystem.instance.AllyTeam.Draw(sk, new BattleTeam.DrawInput(this.DrawInput));
+        //        }
+
+        //        List<Skill> BList = BattleSystem.instance.AllyTeam.Skills
+        //                    .Where(skill => skill.Master == this.BChar && (BaseElement.Contains(skill.MySkill.KeyID) || RareElement.Contains(skill.MySkill.KeyID)))
+        //                    .ToList();
+
+        //        foreach (Skill sk in BList)
+        //        {
+        //            sk.Except();
+        //            BattleSystem.instance.AllyTeam.Draw();
+        //            BV_ExceptDeck.AddSkill(sk);
+        //        }
+        //    }
+        //}
 
         //public void FirstDrawBefore(List<Skill> Skills_Deck)
         //{
@@ -204,6 +215,72 @@ namespace PatchouliKnowledge
             {
                 this.BChar.BuffAdd("B_Pachi_P_1", this.BChar);
             }
+        }
+
+        //检测日是否可用
+        public static bool isSunCanUsed()
+        {
+            List<int> activeElements = new List<int>();
+
+            for (int i = 0; i < 5; i++)
+            {
+                if (BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[i] != 0 && i < P_PatchouliKnowledge.BaseElement.Count)
+                {
+                    activeElements.Add(i);
+                }
+            }
+
+            for (int i = 5; i < BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel.Count; i++)
+            {
+                int rareIndex = i - 5; // 转换为稀有元素列表的索引
+                if (BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[i] != 0 && rareIndex < P_PatchouliKnowledge.RareElement.Count)
+                {
+                    activeElements.Add(i);
+                }
+            }
+
+            foreach (int count in activeElements)
+            {
+                if (BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[count] == 0)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        //检测月是否可用
+        public static bool isMoonCanUsed()
+        {
+            List<int> activeElements = new List<int>();
+
+            for (int i = 0; i < 5; i++)
+            {
+                if (BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[i] != 0 && i < P_PatchouliKnowledge.BaseElement.Count)
+                {
+                    activeElements.Add(i);
+                }
+            }
+
+            for (int i = 5; i < BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel.Count; i++)
+            {
+                int rareIndex = i - 5; // 转换为稀有元素列表的索引
+                if (BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[i] != 0 && rareIndex < P_PatchouliKnowledge.RareElement.Count)
+                {
+                    activeElements.Add(i);
+                }
+            }
+
+            foreach (int count in activeElements)
+            {
+                if (BattleSystem.instance.GetBattleValue<BV_Pachi_P>().moonUsed[count] == 0)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }

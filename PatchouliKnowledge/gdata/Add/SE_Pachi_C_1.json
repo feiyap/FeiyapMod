@@ -3,7 +3,7 @@
         "_gdeSchema": "SkillExtended",
         "Name": "费用降低 2 点。",
         "Drop": true,
-        "EnforceString": "<sprite name=\"비용3\"><sprite name=\"이하\">",
+        "EnforceString": "<sprite name=\"비용3\"><sprite name=\"이상\">",
         "NeedCharacter": "PatchouliKnowledge",
         "ClassName": "PatchouliKnowledge.SE_Pachi_C_1"
     }

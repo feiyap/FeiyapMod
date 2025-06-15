@@ -8,7 +8,7 @@
         "BuffTag": "Debuff",
         "UseSkillDebuff": false,
         "Caution": false,
-        "Name": "红穿刺",
+        "Name": "切舍御免",
         "Icon": "Image/Buff/Skill_Icon_Pack/Debuff",
         "Debuff": true,
         "TagPer": 110,

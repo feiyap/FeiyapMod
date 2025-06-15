@@ -3,17 +3,17 @@
     "myField": "Face",
     "myValues": {
         "path": "Boss_Feiyap\\Boss_FeiyapFace.png",
-        "offsetMax": {
-            "x": 655.5012,
-            "y": 674.334656
+        "pivot": {
+            "x": 0.434760571,
+            "y": 0.870209754
         },
         "offsetMin": {
-            "x": -1016.23486,
-            "y": -1955.72168
+            "x": -561.2009,
+            "y": -1684.42468
         },
-        "pivot": {
-            "x": 0.6066764,
-            "y": 0.741479158
+        "offsetMax": {
+            "x": 724.952637,
+            "y": 244.805542
         }
     },
     "MyChangeType": "Face",

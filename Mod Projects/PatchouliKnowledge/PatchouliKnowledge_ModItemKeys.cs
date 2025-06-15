@@ -158,7 +158,7 @@ namespace PatchouliKnowledge
         public static string SkillExtended_SE_Pachi_C_0 = "SE_Pachi_C_0";
 		/// <summary>
 		/// 费用降低 2 点。
-		/// <sprite name="비용3"><sprite name="이하">
+		/// <sprite name="비용3"><sprite name="이상">
 		/// </summary>
         public static string SkillExtended_SE_Pachi_C_1 = "SE_Pachi_C_1";
         public static string SkillEffect_SE_Tick_B_Pachi_0_1_2 = "SE_Tick_B_Pachi_0_1_2";
@@ -327,7 +327,7 @@ namespace PatchouliKnowledge
         public static string Skill_S_Pachi_Sk_1_3 = "S_Pachi_Sk_1_3";
 		/// <summary>
 		/// 土木符「活体护甲」
-		/// 每个等级的“木”使“活体护甲”的防御力提升额外增加10%。
+		/// 每个等级的“木”使“活体护甲”的防御力提升额外增加4%。
 		/// 每个等级的“土”使“活体护甲”的治疗和保护罩提升 &a (防御力的10%)。
 		/// </summary>
         public static string Skill_S_Pachi_Sk_1_4 = "S_Pachi_Sk_1_4";
@@ -349,15 +349,15 @@ namespace PatchouliKnowledge
         public static string Skill_S_Pachi_Sk_2_2 = "S_Pachi_Sk_2_2";
 		/// <summary>
 		/// 水火符「燃素之雨」
-		/// 重复释放 &c 次(1 + &e)。
+		/// 重复释放 1 次。如果同时拥有3级的“火”和“水”，额外重复释放 2 次。
 		/// 每次释放时，恢复体力值最低的友军 &a 点体力值(治疗力的45%)。
-		/// 每个等级的“火”使这个技能额外造成&b点伤害(攻击力的5%)、额外治疗&d点体力(治疗力的5%)。
-		/// 每个等级的“水”额外重复释放 1 次。
+		/// 每个等级的“火”使这个技能额外造成&b点伤害(攻击力的5%)。
+		/// 每个等级的“水”使这个技能额外治疗&c点体力(治疗力的5%)。
 		/// </summary>
         public static string Skill_S_Pachi_Sk_2_3 = "S_Pachi_Sk_2_3";
 		/// <summary>
 		/// 土水符「诺亚的大洪水」
-		/// 随机解除目标持有的 1 个减益效果。每解除 1 个减益效果，施加 &a 保护罩(治疗力的20%)。
+		/// 随机解除目标持有的 1 个减益效果。每解除 1 个减益效果，施加 &a 保护罩(治疗力的10%)。
 		/// 每个等级的“水”使这个技能额外治疗&a点体力(治疗力的10%)。
 		/// 每个等级的“土”额外解除 1 个减益效果。
 		/// </summary>
@@ -381,9 +381,9 @@ namespace PatchouliKnowledge
 		/// <summary>
 		/// 火土符「环状熔岩带」
 		/// 同时攻击与技能目标嘲讽状态相同的所有敌人。
-		/// 造成伤害的30%转化为自身的保护罩。
+		/// 造成伤害的15%转化为自身的保护罩。
 		/// 每个等级的“火”使这个技能额外造成&a点伤害(攻击力的10%)。
-		/// 每个等级的“土”使保护罩转化倍率提升20%。
+		/// 每个等级的“土”使保护罩转化倍率提升10%。
 		/// </summary>
         public static string Skill_S_Pachi_Sk_3_4 = "S_Pachi_Sk_3_4";
 		/// <summary>

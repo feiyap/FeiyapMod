@@ -2,7 +2,7 @@
     "SE_T_S_Pachi_Sk_3_3": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 160,
+        "DMG_Per": 140,
         "DMG_Base": 0,
         "HEAL_MaxHpPer": 0,
         "HEAL_Per": 0,

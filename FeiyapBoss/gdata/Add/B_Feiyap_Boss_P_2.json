@@ -1,0 +1,11 @@
+{
+    "B_Feiyap_Boss_P_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "雨曾为紫",
+        "Description": "受到痛苦伤害时，提升等量的最大体力值。\n每失去30体力值，自身获得“+10%造成伤害量提升”。",
+        "Icon": "B_Feiyap_Boss_P_2\\B_Feiyap_Boss_P_2_Icon.png"
+    }
+}

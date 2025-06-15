@@ -25,6 +25,7 @@ namespace PatchouliKnowledge
             base.Init();
             this.PlusStat.def = 10 + (BattleSystem.instance?.GetBattleValue<BV_Pachi_P>().elementLevel[1] ?? 0) * 4;
             this.PlusStat.spd = -1;
+            this.OnePassive = true;
         }
 
         public void TurnEnd()

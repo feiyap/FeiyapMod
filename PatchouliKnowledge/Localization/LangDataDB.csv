@@ -237,15 +237,15 @@ Each level of Water heals or increases HP by an additional &b (20% of Healing Po
 
 每个等级的“水”使这个技能额外治疗或提升&b点体力(治疗力的20%)。",
 Skill/S_Pachi_Sk_2_2_Name,Text,,,Water Sign "Lake Burial",,水符「湖葬」,
-Skill/S_Pachi_Sk_2_3_Description,Text,,,"Repeats &c times (1 + &e).
+Skill/S_Pachi_Sk_2_3_Description,Text,,,"Repeats 1 times. If you have 3 levels of Fire and Water, then repeats 2 extra times.
 Each cast heals the ally with the lowest HP by &a (45% of Healing Power).
 
-Each level of Fire deals an additional &b damage (5% of Attack) and heals an additional &d HP (5% of Healing Power).
-Each level of Water repeats 1 additional time.",,"重复释放 &c 次(1 + &e)。
+Each level of Fire deals an additional &b damage (5% of Attack). 
+Each level of Water heals an additional &d HP (5% of Healing Power).",,"重复释放 1 次。如果同时拥有3级的“火”和“水”，额外重复释放 2 次。
 每次释放时，恢复体力值最低的友军 &a 点体力值(治疗力的45%)。
 
-每个等级的“火”使这个技能额外造成&b点伤害(攻击力的5%)、额外治疗&d点体力(治疗力的5%)。
-每个等级的“水”额外重复释放 1 次。",
+每个等级的“火”使这个技能额外造成&b点伤害(攻击力的5%)。
+每个等级的“水”使这个技能额外治疗&c点体力(治疗力的5%)。",
 Skill/S_Pachi_Sk_2_3_Name,Text,,,Water-Fire Sign "Phlogiston Rain",,水火符「燃素之雨」,
 Skill/S_Pachi_Sk_2_4_Description,Text,,,"Randomly dispels 1 debuff on the target. For each debuff dispelled, applies &a Barrier (10% of Healing Power).
 

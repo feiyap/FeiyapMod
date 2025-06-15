@@ -1,0 +1,11 @@
+{
+    "B_Feiyap_Boss_P_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "保护体力极限",
+        "Description": "每个回合开始时，恢复「上个回合中，自己受到过的最高的单次伤害值」的体力。",
+        "Icon": "B_Feiyap_Boss_P_1\\B_Feiyap_Boss_P_1_Icon.png"
+    }
+}

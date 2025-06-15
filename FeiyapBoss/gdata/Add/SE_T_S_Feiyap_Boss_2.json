@@ -1,7 +1,6 @@
 {
     "SE_T_S_Feiyap_Boss_2": {
         "_gdeSchema": "SkillEffect",
-        "HIT": 100,
-        "DMG_Per": 15
+        "HIT": 100
     }
 }
