@@ -1,0 +1,29 @@
+{
+    "S_Ralmia2_Ex_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/ProgramMaster_Attack",
+        "Target": "all_enemy",
+        "NoDrop": true,
+        "Except": true,
+        "Name": "卓越的创造物Ω",
+        "Rare": true,
+        "Description": "汝乃终极的实现者。毁灭文明，粉碎星辰的武器。\r\n驱动机械的灼热，足以熔化银河。\r\n宣告终焉的是破灭之光环。\r\n毁灭之渊源，在此处结合。\r\n无尽的残酷将来往于不成熟的文明。\r\n\r\n汝乃白日的代行者。洗刷文明，照亮宇宙之极光。\r\n排出的热量驱散斗争，熔化蔓延在宇宙间的憎恶。\r\n击破毁灭的权能，拒绝宿命再次冉冉升起的新星。\r\n摒弃过错的文明，将迎来前所未有的和平。\r",
+        "UseAp": 3,
+        "NotCount": true,
+        "PlusKeyWords": [
+            "KeyWord_Artifact"
+        ],
+        "Effect_Target": "SE_T_S_Ralmia2_Ex_7",
+        "Image_0": "S_Ralmia2_Ex_7\\S_Ralmia2_Ex_7_Image_0.png",
+        "Image_1": "S_Ralmia2_Ex_7\\S_Ralmia2_Ex_7_Image_1.png",
+        "Image_2": "S_Ralmia2_Ex_7\\S_Ralmia2_Ex_7_Image_2.png",
+        "SkillExtended": [
+            "Ralmia2.S_Ralmia2_Ex_7"
+        ],
+        "SKillExtendedItem": [
+            "SkillEn_Ralmia_2"
+        ],
+        "Fatal": true
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "S_Ralmia2_Ex_5_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Boss/BombClown_1",
+        "Target": "enemy",
+        "IgnoreTaunt": false,
+        "Fatal": false,
+        "Effect_Target": "SE_T_S_Ralmia2_Ex_5_0",
+        "Name": ""
+    }
+}

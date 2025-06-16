@@ -1,0 +1,23 @@
+{
+    "myKey": "RalmiaBeyond",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "RalmiaBeyond\\RalmiaBeyondBattleChar.png",
+        "offsetMax": {
+            "x": 499.670044,
+            "y": 655.1694
+        },
+        "offsetMin": {
+            "x": -875.0138,
+            "y": -1126.73218
+        },
+        "pivot": {
+            "x": 0.63652,
+            "y": 0.6323201
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

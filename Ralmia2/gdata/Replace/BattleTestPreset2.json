@@ -1,0 +1,59 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Ralmia",
+            "RalmiaBeyond"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Ralmia_4"
+            ],
+            [
+                "S_Ralmia2_0",
+                "S_Ralmia2_1",
+                "S_Ralmia2_2",
+                "S_Ralmia2_3",
+                "S_Ralmia2_4",
+                "S_Ralmia2_5",
+                "S_Ralmia2_6",
+                "S_Ralmia2_7",
+                "S_Ralmia2_8",
+                "S_Ralmia2_Rare_1"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            
+        ],
+        "AP": 10,
+        "Level": 6
+    }
+}

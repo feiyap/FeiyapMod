@@ -1,0 +1,23 @@
+{
+    "myKey": "RalmiaBeyond",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "RalmiaBeyond\\RalmiaBeyondFaceSmallChar.png",
+        "offsetMax": {
+            "x": 422.3141,
+            "y": 275.4854
+        },
+        "offsetMin": {
+            "x": -218.9859,
+            "y": -555.784668
+        },
+        "pivot": {
+            "x": 0.3383032,
+            "y": 0.6618727
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

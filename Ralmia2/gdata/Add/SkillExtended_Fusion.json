@@ -1,0 +1,14 @@
+{
+    "SkillExtended_Fusion": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "融合",
+        "Des": "",
+        "Drop": false,
+        "EnforceString": "",
+        "NeedCharacter": "",
+        "IsIcon": "SkillExtended_Fusion\\SkillExtended_Fusion_Icon.png",
+        "ClassName": "Ralmia2.SkillExtended_Fusion"
+    }
+}

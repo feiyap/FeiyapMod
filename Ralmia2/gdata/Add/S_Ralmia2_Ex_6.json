@@ -1,0 +1,27 @@
+{
+    "S_Ralmia2_Ex_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_3",
+        "Target": "enemy",
+        "NoDrop": true,
+        "Except": true,
+        "Name": "毁灭的创造物γ",
+        "Description": "握在手中时，每当回合结束，对所有敌人造成 &a 伤害(攻击力的100%)。",
+        "UseAp": 2,
+        "PlusKeyWords": [
+            "KeyWord_Artifact"
+        ],
+        "Effect_Target": "SE_T_S_Ralmia2_Ex_6",
+        "Image_0": "S_Ralmia2_Ex_6\\S_Ralmia2_Ex_6_Image_0.png",
+        "Image_1": "S_Ralmia2_Ex_6\\S_Ralmia2_Ex_6_Image_1.png",
+        "Image_2": "S_Ralmia2_Ex_6\\S_Ralmia2_Ex_6_Image_2.png",
+        "PlusSkillView": "S_Ralmia2_Ex_7",
+        "SkillExtended": [
+            "Ralmia2.S_Ralmia2_Ex_6"
+        ],
+        "SKillExtendedItem": [
+            "SkillEn_Ralmia_2"
+        ]
+    }
+}

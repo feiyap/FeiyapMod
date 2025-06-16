@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Ralmia2\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Ralmia2\obj\Debug\Ralmia2.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Ralmia2\obj\Debug\Ralmia2.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Ralmia2\obj\Debug\Ralmia2.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Ralmia2\bin\Debug\Ralmia2202561705242.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Ralmia2\bin\Debug\Ralmia2202561705242.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Ralmia2\obj\Debug\Ralmia2202561705242.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Ralmia2\obj\Debug\Ralmia2202561705242.pdb

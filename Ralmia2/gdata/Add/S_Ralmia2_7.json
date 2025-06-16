@@ -1,0 +1,21 @@
+{
+    "S_Ralmia2_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "NotCount": true,
+        "Name": "改境的重启",
+        "User": "RalmiaBeyond",
+        "UseAp": 2,
+        "IgnoreTaunt": false,
+        "Fatal": false,
+        "Description": "选择自己手中 2 个费用为 2 或以下的“创造物”技能，获得其复制，并附带“1回合后丢弃”。",
+        "Image_0": "S_Ralmia2_7\\S_Ralmia2_7_Image_0.png",
+        "Image_1": "S_Ralmia2_7\\S_Ralmia2_7_Image_1.png",
+        "Image_2": "S_Ralmia2_7\\S_Ralmia2_7_Image_2.png",
+        "SkillExtended": [
+            "Ralmia2.S_Ralmia2_7"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "B_Ralmia2_8": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "Ralmia2.B_Ralmia2_8",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "遗产的炮击",
+        "Description": "每次进行“融合”时，对随机敌人造成 &a 伤害(攻击力的100%)。",
+        "Icon": "B_Ralmia2_8\\B_Ralmia2_8_Icon.png"
+    }
+}

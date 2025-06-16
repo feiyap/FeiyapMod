@@ -1,0 +1,27 @@
+{
+    "S_Ralmia2_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S_TheLight_4",
+        "Target": "enemy",
+        "NotCount": true,
+        "Disposable": true,
+        "Name": "增幅加速·洛拉米亚",
+        "User": "RalmiaBeyond",
+        "Rare": true,
+        "Description": "选择自己手中的 3 个费用为 2 或以下的“创造物”技能，获得其复制，并使费用降低为 0 。",
+        "UseAp": 3,
+        "NoBasicSkill": true,
+        "IgnoreTaunt": true,
+        "Track": true,
+        "Fatal": true,
+        "NODOD": true,
+        "Effect_Target": "SE_T_S_Ralmia2_Rare_1",
+        "Image_0": "S_Ralmia2_Rare_1\\S_Ralmia2_Rare_1_Image_0.png",
+        "Image_1": "S_Ralmia2_Rare_1\\S_Ralmia2_Rare_1_Image_1.png",
+        "Image_2": "S_Ralmia2_Rare_1\\S_Ralmia2_Rare_1_Image_2.png",
+        "SkillExtended": [
+            "Ralmia2.S_Ralmia2_Rare_1"
+        ]
+    }
+}

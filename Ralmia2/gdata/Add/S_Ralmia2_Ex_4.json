@@ -1,0 +1,30 @@
+{
+    "S_Ralmia2_Ex_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_new_1_hit",
+        "Target": "enemy",
+        "NotCount": false,
+        "NoDrop": true,
+        "Except": true,
+        "Name": "毁灭的创造物α",
+        "Description": "【融合】『毁灭创造物β』或『毁灭创造物γ』\r\n与本技能【融合】时，若与本技能【融合】的种类为 2，则本技能变为『卓越创造物Ω』。\n————————————\n握在手中时，每当回合结束，恢复自身 &a 体力值(攻击力的150%)。",
+        "UseAp": 2,
+        "PlusKeyWords": [
+            "Keyword_Fusion",
+            "KeyWord_Artifact"
+        ],
+        "Image_0": "S_Ralmia2_Ex_4\\S_Ralmia2_Ex_4_Image_0.png",
+        "Image_1": "S_Ralmia2_Ex_4\\S_Ralmia2_Ex_4_Image_1.png",
+        "Image_2": "S_Ralmia2_Ex_4\\S_Ralmia2_Ex_4_Image_2.png",
+        "Effect_Target": "SE_T_S_Ralmia2_Ex_4",
+        "PlusSkillView": "S_Ralmia2_Ex_5",
+        "SkillExtended": [
+            "Ralmia2.S_Ralmia2_Ex_4"
+        ],
+        "SKillExtendedItem": [
+            "SkillExtended_Fusion",
+            "SkillEn_Ralmia_2"
+        ]
+    }
+}

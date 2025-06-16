@@ -1,0 +1,7 @@
+{
+    "Keyword_Fusion": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "融合",
+        "Desc": "可以点击技能右侧的按钮触发“融合”，将其他技能作为素材与这个技能融合，触发“融合”词条的效果。"
+    }
+}

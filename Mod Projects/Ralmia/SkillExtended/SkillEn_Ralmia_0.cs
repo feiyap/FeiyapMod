@@ -26,7 +26,7 @@ namespace Ralmia
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (this.BChar.BuffFind("B_Ralmia_0", false))
+            if (BattleSystem.instance.AllyList.Any((BattleAlly i) => i.BuffFind("B_Ralmia_0", false)))
             {
                 BattleSystem.instance.AllyTeam.Draw();
                 BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
@@ -34,7 +34,7 @@ namespace Ralmia
                 allyTeam.AP = ap + 1;
             }
 
-            if (this.BChar.BuffFind("B_Ralmia_1", false))
+            if (BattleSystem.instance.AllyList.Any((BattleAlly i) => i.BuffFind("B_Ralmia_1", false)))
             {
                 BattleTeam allyTeam = BattleSystem.instance.AllyTeam;
                 int ap = allyTeam.AP;

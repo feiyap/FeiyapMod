@@ -1,0 +1,28 @@
+{
+    "S_Ralmia2_Ex_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "未来核心",
+        "Description": "【融合】创造物。\n与本技能【融合】时，本技能变为“攻击的创造物”。\n————————————\n无法使用。",
+        "UseAp": 1,
+        "PlusKeyWords": [
+            "Keyword_Fusion",
+            "KeyWord_Artifact"
+        ],
+        "Image_0": "S_Ralmia2_Ex_1\\S_Ralmia2_Ex_1_Image_0.png",
+        "Image_1": "S_Ralmia2_Ex_1\\S_Ralmia2_Ex_1_Image_1.png",
+        "Image_2": "S_Ralmia2_Ex_1\\S_Ralmia2_Ex_1_Image_2.png",
+        "NoDrop": true,
+        "Except": true,
+        "PlusSkillView": "S_Ralmia2_Ex_3",
+        "SkillExtended": [
+            "Ralmia2.S_Ralmia2_Ex_1"
+        ],
+        "SKillExtendedItem": [
+            "SkillExtended_Fusion",
+            "SkillEn_Ralmia_2"
+        ]
+    }
+}

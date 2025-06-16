@@ -1,0 +1,26 @@
+{
+    "S_Ralmia2_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_4",
+        "Target": "enemy",
+        "NotCount": true,
+        "Fatal": false,
+        "Name": "改境的天宫·阿洛艾特",
+        "User": "RalmiaBeyond",
+        "UseAp": 3,
+        "Effect_Target": "SE_T_S_Ralmia2_4",
+        "IgnoreTaunt": true,
+        "Track": false,
+        "Description": "将 1 个“过往核心”和“未来核心”加入手中。\n那之后，选择自己手中 1 个费用为 2 或以下的“创造物”技能，获得其复制。",
+        "Image_0": "S_Ralmia2_4\\S_Ralmia2_4_Image_0.png",
+        "Image_1": "S_Ralmia2_4\\S_Ralmia2_4_Image_1.png",
+        "Image_2": "S_Ralmia2_4\\S_Ralmia2_4_Image_2.png",
+        "PlusSkillView": "S_Ralmia2_Ex_0",
+        "NoDrop": false,
+        "Except": false,
+        "SkillExtended": [
+            "Ralmia2.S_Ralmia2_4"
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "RalmiaBeyond": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "Ralmia2.P_RalmiaBeyond",
+        "face": "RalmiaBeyond\\RalmiaBeyondBattleFace.png",
+        "name": "洛菈米娅",
+        "Gender": 1,
+        "SelectInfo": "",
+        "PassiveIcon": "RalmiaBeyond\\RalmiaBeyondPassiveIcon.png",
+        "PassiveName": "增幅加速",
+        "CollectionSprite_Cover": "RalmiaBeyond\\RalmiaBeyondCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "RalmiaBeyond\\RalmiaBeyondCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Difficult": 1,
+        "PassiveDes": "洛菈米娅的部分技能拥有“融合”词条。\n可以点击技能右侧的按钮触发“融合”，将其他技能作为素材与这个技能融合，触发“融合”词条的效果。",
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "MAXHP": {
+            "x": 17,
+            "y": 32
+        },
+        "DODGE": {
+            "x": 15,
+            "y": 25
+        },
+        "CRI": {
+            "x": 10,
+            "y": 20
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 8,
+            "y": 13
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "ATK": {
+            "x": 14,
+            "y": 27
+        },
+        "PassiveUnlockLV1": false
+    }
+}

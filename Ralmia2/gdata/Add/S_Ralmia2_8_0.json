@@ -1,0 +1,8 @@
+{
+    "S_Ralmia2_8_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S_TheLight_3",
+        "Target": "Misc"
+    }
+}

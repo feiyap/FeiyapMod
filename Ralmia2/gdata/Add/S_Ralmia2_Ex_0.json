@@ -1,0 +1,36 @@
+{
+    "S_Ralmia2_Ex_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "过往核心",
+        "Description": "【融合】创造物。\n与本技能【融合】时，本技能变为“城堡的创造物”。\n————————————\n无法使用。",
+        "PlusKeyWords": [
+            "Keyword_Fusion",
+            "KeyWord_Artifact"
+        ],
+        "UseAp": 1,
+        "Image_0": "S_Ralmia2_Ex_0\\S_Ralmia2_Ex_0_Image_0.png",
+        "Image_1": "S_Ralmia2_Ex_0\\S_Ralmia2_Ex_0_Image_1.png",
+        "Image_2": "S_Ralmia2_Ex_0\\S_Ralmia2_Ex_0_Image_2.png",
+        "NoDrop": true,
+        "Except": true,
+        "PlusSkillView": "S_Ralmia2_Ex_2",
+        "SKillExtendedItem": [
+            "SkillExtended_Fusion",
+            "SkillEn_Ralmia_2"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Fatal": false,
+        "SkillExtended": [
+            "Ralmia2.S_Ralmia2_Ex_0"
+        ]
+    }
+}
