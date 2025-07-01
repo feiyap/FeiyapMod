@@ -1,0 +1,23 @@
+{
+    "myKey": "FairyLancelot",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "FairyLancelot\\FairyLancelotFaceSmallChar.png",
+        "offsetMax": {
+            "x": 285.236816,
+            "y": 127.24099
+        },
+        "offsetMin": {
+            "x": -236.337036,
+            "y": -655.1198
+        },
+        "pivot": {
+            "x": 0.4492269,
+            "y": 0.8302181
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

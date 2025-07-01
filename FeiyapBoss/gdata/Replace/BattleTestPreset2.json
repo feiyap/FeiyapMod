@@ -1,7 +1,64 @@
 {
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
-        "AP": 10,
-        "Level": 6
+        "AP": 7,
+        "Level": 4,
+        "Party": [
+            "Trisha",
+            "MissChain",
+            "Hein",
+            "SilverStein"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                "S_MissChain_3",
+                "S_MissChain_4",
+                "S_MissChain_7",
+                "S_MissChain_6"
+            ],
+            [
+                "S_Hein_0",
+                "S_Hein_0",
+                "S_Hein_0",
+                "S_Hein_0"
+            ],
+            [
+                
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "Ilya_Sword_0",
+                "Ilya_Sword_1"
+            ],
+            [
+                
+            ]
+        ],
+        "ConsumeItems": [
+            "Bread",
+            "Item_BurnFullDuck"
+        ],
+        "LucySkill": [
+            "S_Lucy_0"
+        ],
+        "Passive": [
+            "PortableLunchBox"
+        ]
     }
 }

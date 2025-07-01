@@ -20,6 +20,29 @@ namespace FeiyapBoss
 	/// </summary>
     public class S_Feiyap_Boss_2:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
 
+            new List<Skill>();
+            List<Skill> list = new List<Skill>();
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll(t => t.MySkill.KeyID != "S_Feiyap_Boss_2"));
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Master.IsLucyNoC || list[i].Master != Targets[0])
+                {
+                    list.RemoveAt(i);
+                    i--;
+                }
+            }
+
+            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.King_1, false, true, true, false, true));
+        }
+
+        public void Del(SkillButton Mybutton)
+        {
+            BattleSystem.instance.AllyTeam.Skills.Remove(Mybutton.Myskill);
+            BattleSystem.instance.StartCoroutine(BattleSystem.instance.ActWindow.Window.SkillInstantiate(BattleSystem.instance.AllyTeam, true));
+        }
     }
 }

@@ -1,0 +1,11 @@
+{
+    "S_FLancelot_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "龙之枪",
+        "UseAp": 3,
+        "User": "FairyLancelot"
+    }
+}

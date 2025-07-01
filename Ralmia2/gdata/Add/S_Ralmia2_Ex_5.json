@@ -7,7 +7,7 @@
         "NoDrop": true,
         "Except": true,
         "Name": "毁灭的创造物β",
-        "Description": "握在手中时，每当回合结束，对随机敌人造成 &a 伤害(攻击力的150%)。",
+        "Description": "握在手中时，每当回合结束，对随机敌人造成 &a 伤害(攻击力的75%)。",
         "UseAp": 2,
         "HealSkill": false,
         "PlusKeyWords": [
@@ -23,6 +23,7 @@
         ],
         "SkillExtended": [
             "Ralmia2.S_Ralmia2_Ex_5"
-        ]
+        ],
+        "Rare": true
     }
 }

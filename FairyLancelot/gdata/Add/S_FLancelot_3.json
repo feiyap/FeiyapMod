@@ -1,0 +1,10 @@
+{
+    "S_FLancelot_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "Name": "你已无法离开我",
+        "UseAp": 1
+    }
+}

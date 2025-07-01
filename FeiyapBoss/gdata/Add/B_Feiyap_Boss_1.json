@@ -1,0 +1,16 @@
+{
+    "B_Feiyap_Boss_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "DOT",
+        "Name": "体内灼烧",
+        "Description": "",
+        "Debuff": true,
+        "TagPer": 120,
+        "Icon": "B_Feiyap_Boss_1\\B_Feiyap_Boss_1_Icon.png",
+        "Tick": "SE_Tick_B_Feiyap_Boss_1",
+        "MaxStack": 3,
+        "LifeTime": 3,
+        "Cantdisable": false
+    }
+}

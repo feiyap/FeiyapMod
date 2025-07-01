@@ -1,3 +1,8 @@
 {
-    "KeyIDWithModID": false
+    "KeyIDWithModID": false,
+    "CSProjectPath": "FairyLancelot\\FairyLancelot.csproj",
+    "AssemblyName": "FairyLancelot",
+    "Namespace": "FairyLancelot",
+    "ModItemKeysPath": "FairyLancelot_ModItemKeys.cs",
+    "TempAssemblyName": "FairyLancelot2025622102417"
 }

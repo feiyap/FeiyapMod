@@ -1,0 +1,11 @@
+{
+    "B_FLancelot_P_4": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "舞者",
+        "Description": "每层会使自身技能追加攻击 1 次（不触发特殊效果）。持有“龙之心”时无法获得。",
+        "MaxStack": 3
+    }
+}

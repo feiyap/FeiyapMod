@@ -16,7 +16,7 @@
             "y": 25
         },
         "PassiveName": "梦境邮递员",
-        "PassiveDes": "战斗开始时，进入[现实]。\r\n在[现实]中，自身所属技能将【童话】化。\r\n释放【童话】技能后，将进入[梦境]，在[梦境]中释放未被【童话】的技能将返回[现实]。",
+        "PassiveDes": "战斗开始时，进入[现实]。\r\n在[现实]中，自身所属技能将【童话】化。\r\n释放【童话】技能后，将进入[梦境]，在[梦境]中释放未被【童话】的技能将返回[现实]。\r\n\n【童话】：[现实]中时，技能内容不可视。\n【混乱伤害】：无视防御，不会减少体力极限。处于干扰状态时造成1.2倍伤害。",
         "PassiveIcon": "Assets/VillageAlice/VillageAlice/VillageAlicePassiveIcon.png",
         "CollectionSprite_SkillFace": "Assets/VillageAlice/VillageAlice/VillageAliceCollectionSprite_SkillFace.png",
         "CollectionSprite_Cover": "Assets/VillageAlice/VillageAlice/VillageAliceCollectionSprite_Cover.png",
@@ -40,39 +40,45 @@
             "y": 0
         },
         "HIT": {
-            "x": 96,
-            "y": 114
+            "x": 100,
+            "y": 116
         },
         "HIT_DOT": {
-            "x": 0,
-            "y": 40
+            "x": -10,
+            "y": 30
         },
         "HIT_DEBUFF": {
-            "x": 0,
-            "y": 40
+            "x": -10,
+            "y": 30
         },
         "HIT_CC": {
-            "x": 0,
-            "y": 40
+            "x": 20,
+            "y": 60
         },
         "RES_DOT": {
-            "x": 5,
-            "y": 45
+            "x": -5,
+            "y": 35
         },
         "RES_DEBUFF": {
-            "x": 5,
-            "y": 45
+            "x": -5,
+            "y": 35
         },
         "RES_CC": {
-            "x": 5,
-            "y": 45
+            "x": 15,
+            "y": 55
         },
         "StatView_Atk": 2,
         "StatView_CC": 2,
         "StatView_Debuff": 1,
         "StatView_Sup": 1,
-        "StatView_Difficult": 2,
-        "SelectInfo": "",
-        "FirstSkill": "S_FVAlice_0"
+        "StatView_Difficult": 3,
+        "SelectInfo": "因一场意外而留在渔村的邮递员。\n原计划离开渔村下一站前往塞西莉亚森林的驿站，那场海上的灾难后只能逗留在渔村。迫于无奈只能在“店长”的酒馆里留宿。",
+        "FirstSkill": "S_FVAlice_0",
+        "CampSD": [
+            "Assets/VillageAlice/VillageAlice/VillageAliceCampSD0.png",
+            "Assets/VillageAlice/VillageAlice/VillageAliceCampSD1.png",
+            "Assets/VillageAlice/VillageAlice/VillageAliceCampSD2.png",
+            "Assets/VillageAlice/VillageAlice/VillageAliceCampSD3.png"
+        ]
     }
 }

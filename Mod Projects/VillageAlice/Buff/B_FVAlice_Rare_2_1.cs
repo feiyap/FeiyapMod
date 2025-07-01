@@ -17,7 +17,7 @@ namespace VillageAlice
 	/// 处于梦境……
 	/// 除了&user以外，无法使用手中的技能。
 	/// </summary>
-    public class B_FVAlice_Rare_2_1:Buff, IP_PlayerTurn, IP_Awake, IP_Draw
+    public class B_FVAlice_Rare_2_1:Buff, IP_TurnEnd, IP_Awake, IP_Draw
     {
         public void Awake()
         {
@@ -25,7 +25,7 @@ namespace VillageAlice
             {
                 if (skill.Master == this.BChar)
                 {
-                    skill.ExtendedAdd(new Ex_LucyD_21());
+                    skill.ExtendedAdd(new SE_FVAlice_Rare_2_1());
                 }
             }
         }
@@ -35,7 +35,7 @@ namespace VillageAlice
             yield return new WaitForFixedUpdate();
             if (Drawskill.Master == this.BChar)
             {
-                Drawskill.ExtendedAdd(new Ex_LucyD_21());
+                Drawskill.ExtendedAdd(new SE_FVAlice_Rare_2_1());
             }
             yield break;
         }
@@ -47,7 +47,7 @@ namespace VillageAlice
             this.OnePassive = true;
         }
 
-        public void Turn()
+        public void TurnEnd()
         {
             base.SelfDestroy(false);
         }

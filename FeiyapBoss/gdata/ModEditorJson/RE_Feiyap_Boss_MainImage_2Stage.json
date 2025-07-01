@@ -1,0 +1,14 @@
+{
+    "myKey": "RE_Feiyap_Boss",
+    "myField": "MainImage_2Stage",
+    "myValues": {
+        "pivot01": {
+            "x": 0.5071372,
+            "y": 0.05698046
+        }
+    },
+    "MyChangeType": "RandomEventImage",
+    "myKeys": [
+        
+    ]
+}

@@ -15,6 +15,9 @@
         "PlusSkillView": "S_Ralmia2_Ex_0",
         "SkillExtended": [
             "Ralmia2.S_Ralmia2_6"
-        ]
+        ],
+        "NoDrop": false,
+        "Except": false,
+        "Track": false
     }
 }

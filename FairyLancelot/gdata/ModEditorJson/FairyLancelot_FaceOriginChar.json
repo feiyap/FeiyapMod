@@ -1,0 +1,23 @@
+{
+    "myKey": "FairyLancelot",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "FairyLancelot\\FairyLancelotFaceOriginChar.png",
+        "offsetMax": {
+            "x": 819.187,
+            "y": 387.986023
+        },
+        "offsetMin": {
+            "x": -668.924438,
+            "y": -1844.18127
+        },
+        "pivot": {
+            "x": 0.4485715,
+            "y": 0.8237766
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

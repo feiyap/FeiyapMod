@@ -1,0 +1,28 @@
+{
+    "S_FLancelot_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "self",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": true,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "最后的妖精",
+        "Description": "骑士 - 获得 1 层“舞者”。抽取 1 个技能。依据“舞者”的层数：\n①恢复 5 点体力值；\n②使抽取到的技能费用降低 1 点；\n③选择并生成 1 个自己的专属技能。\n\n邪龙 - 获得 1 层“龙之心”。获得持续 1 回合的“攻击力+1”。依据“龙之心”的层数：\n①额外获得持续 1 回合的“攻击力+1”；\n②额外获得持续 1 回合的“防御穿透+10%”；\n③选择并生成 1 个自己的专属技能。\n\n好感度10 - 若自身为“理智”：本回合结束时恢复所有友方单位 5 点体力值；\n若自身为“狂化”：本回合结束时生成 1 个“龙鳞”。",
+        "User": "FairyLancelot",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_FLancelot_0"
+    }
+}

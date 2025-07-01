@@ -2,10 +2,10 @@
     "S_Feiyap_Boss_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/Buff",
-        "Target": "all_ally",
-        "Name": "明镜止水",
-        "Description": "若自身持有的减益数量超过 5 个，解除自身所有<sprite=0>弱化减益和<sprite=1>痛苦减益。受到那些减益的剩余伤害量的痛苦伤害。\n移除所有手牌的额外增益效果。",
+        "Particle": "Particle/Ilya/Ilya_3",
+        "Target": "enemy",
+        "Name": "天市右垣七",
+        "Description": "展示手牌中目标的所有技能。选择其中 1 个放逐。",
         "Effect_Target": "SE_T_S_Feiyap_Boss_2",
         "Image_0": "S_Feiyap_Boss_2\\S_Feiyap_Boss_2_Image_0.png",
         "Image_1": "S_Feiyap_Boss_2\\S_Feiyap_Boss_2_Image_1.png",
@@ -13,6 +13,11 @@
         "EnemyPreview": true,
         "IgnoreTaunt": false,
         "Fatal": false,
-        "Disposable": true
+        "Disposable": false,
+        "Track": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "FeiyapBoss.S_Feiyap_Boss_2"
+        ]
     }
 }

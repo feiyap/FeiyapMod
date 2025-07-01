@@ -1,0 +1,26 @@
+{
+    "RE_Feiyap_Boss": {
+        "_gdeSchema": "RandomEvent",
+        "Script": "FeiyapBoss.RE_Feiyap_Boss",
+        "RareEvent": true,
+        "SpecialAppearance": false,
+        "ItemSlotView": false,
+        "Name": "无名剑冢",
+        "Desc_3Stage": "",
+        "Desc_2Stage": "在漫长到看不见尽头的平原之上，立着无数「剑」的尸体，以及铸造它们的铁匠的墓碑。\n无名的剑冢中央，伫立着一名少女。\n在她背后，破碎的星球残片化作沉默的王冕高悬于空，昭示着你们所有人的结局。\n「胜利，否则毁灭。」——少女如此宣告道。",
+        "EventDetails": "在漫长到看不见尽头的平原之上，立着无数「剑」的尸体，以及铸造它们的铁匠的墓碑。\n无名的剑冢中央，伫立着一名少女。\n在她背后，破碎的星球残片化作沉默的王冕高悬于空，昭示着你们所有人的结局。\n「胜利，否则毁灭。」——少女如此宣告道。",
+        "UseButton": [
+            "与之一战！",
+            "离开。"
+        ],
+        "UseButtonTooltip": [
+            "迎战事件Boss“绯夜氏”。",
+            "离开。"
+        ],
+        "OrderStrings": [
+            "无名的剑冢上，唯余无铭之剑。"
+        ],
+        "UseItemSlot": 0,
+        "MainImage_2Stage": "RE_Feiyap_Boss\\RE_Feiyap_BossMainImage_2Stage.png"
+    }
+}

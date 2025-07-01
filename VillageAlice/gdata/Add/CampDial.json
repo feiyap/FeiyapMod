@@ -1,0 +1,13 @@
+{
+    "CampDial__Johan": {
+        "CharA": "VillageAlice",
+        "CharB": "Mement",
+        "Dialogues": [
+            "[B]爱丽丝，你有见过另一位爱丽丝吗，或者信件……",
+            "[A]…？",
+            "[A]抱歉，好像没有寄信人叫“爱丽丝”的人给您写的信，我自己也没有……",
+            "[B]…好的，感谢"
+        ],
+        "_gdeSchema": "SimpleCampDialogue"
+    }
+}

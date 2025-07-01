@@ -4,7 +4,7 @@
         "Category": "null",
         "Particle": "Particle/Enemy/Wilderness/Gunner_1",
         "Target": "enemy",
-        "NotCount": false,
+        "NotCount": true,
         "Name": "抗争领袖·露琪娜",
         "Description": "打出时，将 1 个“过往核心”和“未来核心”加入手中。\n命中时，将 1 个费用为 0 的“攻击创造物”加入手中。",
         "User": "RalmiaBeyond",

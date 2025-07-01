@@ -44,7 +44,7 @@ namespace Ralmia2
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 1.0f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.5f)).ToString());
         }
     }
 }

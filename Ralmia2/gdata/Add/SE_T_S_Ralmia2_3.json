@@ -2,8 +2,8 @@
     "SE_T_S_Ralmia2_3": {
         "_gdeSchema": "SkillEffect",
         "HIT": 110,
-        "DMG_Per": 210,
+        "DMG_Per": 125,
         "DMG_Base": 0,
-        "CRI": 20
+        "CRI": 0
     }
 }

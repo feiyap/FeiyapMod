@@ -1,7 +1,7 @@
 {
     "B_FVAlice_Rare_2": {
         "_gdeSchema": "Buff",
-        "Hide": false,
+        "Hide": true,
         "IsFieldBuff": false,
         "Cantdisable": false,
         "ClassName": "VillageAlice.B_FVAlice_Rare_2",
@@ -10,7 +10,6 @@
         "Caution": false,
         "Description": "回合结束后，额外进行一次梦境回合。",
         "Name": "梦境弄臣",
-        "MaxStack": 9,
-        "LifeTime": 0
+        "MaxStack": 9
     }
 }

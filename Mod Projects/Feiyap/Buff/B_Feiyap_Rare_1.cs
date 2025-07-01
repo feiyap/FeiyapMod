@@ -20,7 +20,7 @@ namespace Feiyap
     /// 增益解除时，依据增益期间自身受到伤害的次数，对随机敌人追加攻击，每次造成&a伤害(攻击力的100%)。
     /// 当前受到伤害的次数：&b
     /// </summary>
-    public class B_Feiyap_Rare_1:Buff, IP_TargetedAlly, IP_Hit
+    public class B_Feiyap_Rare_1:Buff, IP_TargetedAlly, IP_DamageTake
     {
         public int count = 0;
 
@@ -56,9 +56,9 @@ namespace Feiyap
             return null;
         }
 
-        public void Hit(SkillParticle SP, int Dmg, bool Cri)
+        public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
         {
-            if (Dmg > 0)
+            if (Target == this.BChar && Dmg > 0)
             {
                 count++;
             }

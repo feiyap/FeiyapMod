@@ -1,0 +1,11 @@
+{
+    "B_FLancelot_P_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "龙之心",
+        "Description": "持有“舞者”时无法获得。",
+        "Cantdisable": true,
+        "MaxStack": 3
+    }
+}

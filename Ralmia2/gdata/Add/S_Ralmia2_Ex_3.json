@@ -26,6 +26,7 @@
         "SKillExtendedItem": [
             "SkillExtended_Fusion",
             "SkillEn_Ralmia_2"
-        ]
+        ],
+        "Rare": false
     }
 }

@@ -24,6 +24,15 @@
         ],
         "SKillExtendedItem": [
             
-        ]
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

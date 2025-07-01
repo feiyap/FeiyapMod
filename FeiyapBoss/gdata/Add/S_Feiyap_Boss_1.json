@@ -14,6 +14,9 @@
         "Description": "若目标拥有保护体力极限，使目标体力值变为 1。\n否则额外施加 1 层“体内灼烧”。",
         "IgnoreTaunt": true,
         "Fatal": true,
-        "Effect_Target": "SE_T_S_Feiyap_Boss_1"
+        "Effect_Target": "SE_T_S_Feiyap_Boss_1",
+        "SkillExtended": [
+            "FeiyapBoss.S_Feiyap_Boss_1"
+        ]
     }
 }

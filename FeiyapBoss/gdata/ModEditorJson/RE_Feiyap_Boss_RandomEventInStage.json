@@ -1,0 +1,11 @@
+{
+    "myKey": null,
+    "myField": "RandomEventList",
+    "myValues": {
+        "RE_Key": "RE_Feiyap_Boss"
+    },
+    "MyChangeType": "RandomEventInStage",
+    "myKeys": [
+        "Stage2_2"
+    ]
+}

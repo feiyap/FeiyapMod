@@ -26,13 +26,18 @@ namespace VillageAlice
             {
                 if (bc.BuffFind("B_FVAlice_Rare_2"))
                 {
-                    bc.BuffReturn("B_FVAlice_Rare_2").SelfStackDestroy();
+                    //bc.BuffReturn("B_FVAlice_Rare_2").SelfStackDestroy();
                     __result = ExtraTurn(__instance);
                     //__instance.gameObject.AddComponent<RuntimePinkFilter>();
-                    UIManager.inst.UIcamera.gameObject.AddComponent<RuntimePinkFilter>();
+                    //UIManager.inst.UIcamera.gameObject.AddComponent<RuntimePinkFilter>();
 
                     return false;
                 }
+            }
+
+            foreach (BattleEnemy be in __instance.EnemyList)
+            {
+                be.BuffReturn("B_FVAlice_Rare_2_0")?.SelfDestroy();
             }
 
             return true;
@@ -123,7 +128,7 @@ namespace VillageAlice
         public void OnRenderImage(RenderTexture src, RenderTexture dest)
         {
             // 设置粉色颜色并应用
-            _pinkMaterial.SetColor("_Color", new Color(1f, 0.7f, 0.9f, 1.0f)); // 粉色，50%透明度
+            _pinkMaterial.SetColor("_Color", new Color(1f, 0.7f, 0.9f, 0.5f)); // 粉色，50%透明度
             Graphics.Blit(src, dest, _pinkMaterial);
         }
 

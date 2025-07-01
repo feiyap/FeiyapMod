@@ -4,7 +4,7 @@
         "Category": "null",
         "Particle": "Particle/Public/Public_4",
         "Target": "enemy",
-        "NotCount": true,
+        "NotCount": false,
         "Fatal": false,
         "Name": "改境的天宫·阿洛艾特",
         "User": "RalmiaBeyond",

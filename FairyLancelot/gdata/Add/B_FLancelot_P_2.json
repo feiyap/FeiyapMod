@@ -1,0 +1,11 @@
+{
+    "B_FLancelot_P_2": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "理性",
+        "Description": "当前体力值大于最大体力值的50%。"
+    }
+}

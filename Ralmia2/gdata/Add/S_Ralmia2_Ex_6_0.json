@@ -4,6 +4,9 @@
         "Category": "null",
         "Particle": "Particle/Enemy/S_TheLight_4",
         "Target": "all_enemy",
-        "Effect_Target": "SE_T_S_Ralmia2_Ex_6_0"
+        "Effect_Target": "SE_T_S_Ralmia2_Ex_6_0",
+        "Rare": false,
+        "NoDrop": false,
+        "Except": false
     }
 }

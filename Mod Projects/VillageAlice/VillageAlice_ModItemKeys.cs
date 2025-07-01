@@ -67,6 +67,7 @@ namespace VillageAlice
 		/// 无法使用手中的技能。
 		/// </summary>
         public static string Buff_B_FVAlice_Rare_2_1 = "B_FVAlice_Rare_2_1";
+        public static string SimpleCampDialogue_CampDial__Johan = "CampDial__Johan";
 		/// <summary>
 		/// 半边假面的红王后
 		/// </summary>
@@ -110,13 +111,13 @@ namespace VillageAlice
 		/// </summary>
         public static string Skill_S_FVAlice_1 = "S_FVAlice_1";
 		/// <summary>
-		/// 焦糖味封蜡
+		/// 邮票
 		/// 将目标拥有的所有弱化、痛苦减益给予“每层弱化/痛苦减益，每回合造成30%+1的混乱伤害。”
 		/// 【童话】：此技能法力值消耗增加2。
 		/// </summary>
         public static string Skill_S_FVAlice_2 = "S_FVAlice_2";
 		/// <summary>
-		/// 邮票
+		/// 焦糖味下午茶
 		/// 【童话】：反转手牌中所有技能的【童话】化状态。
 		/// </summary>
         public static string Skill_S_FVAlice_3 = "S_FVAlice_3";
@@ -180,8 +181,14 @@ namespace VillageAlice
 		/// 战斗开始时，进入[现实]。
 		/// 在[现实]中，自身所属技能将【童话】化。
 		/// 释放【童话】技能后，将进入[梦境]，在[梦境]中释放未被【童话】的技能将返回[现实]。
+		/// 【童话】：[现实]中时，技能内容不可视。
+		/// 【混乱伤害】：无视防御，不会减少体力极限。处于干扰状态时造成1.2倍伤害。
 		/// </summary>
         public static string Character_VillageAlice = "VillageAlice";
+		/// <summary>
+		/// 无法使用
+		/// </summary>
+        public static string SkillExtended_SE_FVAlice_Rare_2_1 = "SE_FVAlice_Rare_2_1";
 
     }
 

@@ -9,10 +9,6 @@
         "Cantdisable": true,
         "Debuff": true,
         "TagPer": 0,
-        "Icon": "Assets/VillageAlice/B_FVAlice_Rare_2_0/B_FVAlice_Rare_2_0_Icon.png",
-        "IsFieldBuff": false,
-        "UseSkillDebuff": false,
-        "Caution": false,
-        "LifeTime": 0
+        "Icon": "Assets/VillageAlice/B_FVAlice_Rare_2_0/B_FVAlice_Rare_2_0_Icon.png"
     }
 }

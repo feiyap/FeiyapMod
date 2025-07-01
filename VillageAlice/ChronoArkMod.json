@@ -2,12 +2,16 @@
     "id": "VillageAlice",
     "Uploader": "Feiyap",
     "Visibility": "Public",
-    "Title": "【CN】爱丽丝 Alice 角色Character Mod",
-    "Author": "RainLyric，绯夜氏",
-    "Version": "v1.0",
+    "Title": "【CN/EN】爱丽丝 Alice 角色Character Mod",
+    "Author": "RainLyric，绯夜氏，DreamerDLT",
+    "Version": "v1.1",
     "Cover": "VillageAliceCover.png",
     "TagList": [
         "Characters"
     ],
-    "DefaultAssetBundlePath": "villagealice"
+    "DefaultAssetBundlePath": "villagealice",
+    "Description": "因一场意外而留在渔村的邮递员。\n原计划离开渔村下一站前往塞西莉亚森林的驿站，那场海上的灾难后只能逗留在渔村。迫于无奈只能在“店长”的酒馆里留宿。\n爱丽丝，塞西莉亚森林的驿站的一名小邮递员。\r\n听说她能从梦境里把寄信人在现实中写的信送到梦境中的任何人。\r\n而她到访的梦境总是美好甜蜜的，方舟中的人们都抢着要爱丽丝帮忙送信。\r\n然而爱丽丝自己却说并没有那种能力，只能送真实的信件，不需要来找自己送信，驿站的大家也很靠谱。",
+    "WorkShopId": "3476510075",
+    "OnlyUploadFiles": true,
+    "ChangeNote": "0.1.1\n噩梦持续时间bug修复\nen"
 }

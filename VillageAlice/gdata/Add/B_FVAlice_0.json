@@ -13,6 +13,7 @@
         "Hide": false,
         "IsFieldBuff": false,
         "UseSkillDebuff": false,
-        "Caution": false
+        "Caution": false,
+        "LifeTime": 1
     }
 }

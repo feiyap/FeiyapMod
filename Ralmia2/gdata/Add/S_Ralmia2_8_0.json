@@ -3,6 +3,9 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Enemy/S_TheLight_3",
-        "Target": "Misc"
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": false,
+        "Effect_Target": "SE_T_S_Ralmia2_8_0"
     }
 }

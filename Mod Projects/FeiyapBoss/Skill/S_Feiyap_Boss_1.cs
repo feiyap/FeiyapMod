@@ -18,6 +18,17 @@ namespace FeiyapBoss
 	/// </summary>
     public class S_Feiyap_Boss_1:Skill_Extended
     {
-
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
+            if (Targets[0].GetStat.Strength)
+            {
+                Targets[0].HP = 1;
+            }
+            else
+            {
+                Targets[0].BuffAdd("B_Feiyap_Boss_1", this.BChar);
+            }
+        }
     }
 }

@@ -7,7 +7,7 @@
         "NoDrop": true,
         "Except": true,
         "Name": "毁灭的创造物γ",
-        "Description": "握在手中时，每当回合结束，对所有敌人造成 &a 伤害(攻击力的100%)。",
+        "Description": "握在手中时，每当回合结束，对所有敌人造成 &a 伤害(攻击力的50%)。",
         "UseAp": 2,
         "PlusKeyWords": [
             "KeyWord_Artifact"
@@ -22,6 +22,7 @@
         ],
         "SKillExtendedItem": [
             "SkillEn_Ralmia_2"
-        ]
+        ],
+        "Rare": true
     }
 }

@@ -1,0 +1,18 @@
+{
+    "B_Feiyap_Boss_5": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "FeiyapBoss.B_Feiyap_Boss_5",
+        "BuffTag": "DOT",
+        "Name": "热寂",
+        "Description": "每次触发时，使这个减益的每回合伤害量提升5点。",
+        "Tick": "SE_Tick_B_Feiyap_Boss_5",
+        "Icon": "B_Feiyap_Boss_5\\B_Feiyap_Boss_5_Icon.png",
+        "Debuff": true,
+        "TagPer": 500,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

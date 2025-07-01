@@ -34,12 +34,12 @@ namespace Ralmia2
 
         public void TurnEnd()
         {
-            this.BChar.Heal(this.BChar, (float)((int)((double)this.BChar.GetStat.atk * 1.5)), false, false, null);
+            this.BChar.Heal(this.BChar, (float)((int)((double)this.BChar.GetStat.atk * 0.75)), false, false, null);
         }
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 1.5f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.75f)).ToString());
         }
 
         public void FusionCall(Skill skill)

@@ -1,0 +1,16 @@
+{
+    "Item_BurnFullDuck": {
+        "_gdeSchema": "Item_Consume",
+        "itemClass": "Legendary",
+        "active_battle": true,
+        "active_field": true,
+        "name": "烤全鸭",
+        "Description": "恢复友军100%的体力值，同时解除无法战斗状态。\r\n持有“手提便当”时，在战斗中可使用：效果变为全体友军。",
+        "Stack": 1,
+        "Price": 1200,
+        "image": "Item\\Item_BurnFullDuck_image.png",
+        "FieldUse": "FeiyapBoss.Item_BurnFullDuck",
+        "Target": "deathally",
+        "BattleUse": "S_BurnFullDuck"
+    }
+}

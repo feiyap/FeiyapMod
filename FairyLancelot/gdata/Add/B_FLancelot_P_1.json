@@ -1,0 +1,11 @@
+{
+    "B_FLancelot_P_1": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "狂化",
+        "Description": "当前体力值小于等于最大体力值的50%。"
+    }
+}

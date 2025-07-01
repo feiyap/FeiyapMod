@@ -16,7 +16,7 @@ namespace Feiyap
 	/// <summary>
 	/// 化身为神
 	/// </summary>
-    public class B_Feiyap_6:Buff, IP_SkillUseHand_Team, IP_PainDeathEscape
+    public class B_Feiyap_6:Buff, IP_SkillUseHand_Team, IP_PainDeathEscape, IP_TurnEnd
     {
         public int count = 0;
 
@@ -63,6 +63,11 @@ namespace Feiyap
             }
 
             return true;
+        }
+
+        public void TurnEnd()
+        {
+            count = 0;
         }
     }
 }

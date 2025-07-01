@@ -7,6 +7,9 @@
         "IgnoreTaunt": false,
         "Fatal": false,
         "Effect_Target": "SE_T_S_Ralmia2_Ex_5_0",
-        "Name": ""
+        "Name": "",
+        "Rare": false,
+        "NoDrop": false,
+        "Except": false
     }
 }

@@ -1,0 +1,23 @@
+{
+    "myKey": "FairyLancelot",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "FairyLancelot\\FairyLancelotBattleChar.png",
+        "pivot": {
+            "x": 0.48218,
+            "y": 0.7647854
+        },
+        "offsetMin": {
+            "x": -539.096558,
+            "y": -1282.59106
+        },
+        "offsetMax": {
+            "x": 578.9435,
+            "y": 394.469
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

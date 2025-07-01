@@ -1,0 +1,10 @@
+{
+    "B_FLancelot_C_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "骑士",
+        "Description": "特殊形态。\n每次使用自身技能时，获得 1 层“舞者”。"
+    }
+}

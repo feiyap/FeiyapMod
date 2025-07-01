@@ -119,6 +119,22 @@
             "Feiyap\\FeiyapCampSD1.png",
             "Feiyap\\FeiyapCampSD2.png",
             "Feiyap\\FeiyapCampSD3.png"
+        ],
+        "GoodGift": [
+            "Drink_Sa",
+            "Drink_Be",
+            "Gift_Cartoon",
+            "Gift_Fan"
+        ],
+        "CanFriendShip": true,
+        "_gdeType_GoodGift": "Item_Friendship",
+        "_gdeIsList_GoodGift": 1,
+        "_gdeType_Dialogue_GoodGiftTalks": "String",
+        "_gdeIsList_Dialogue_GoodGiftTalks": 1,
+        "_gdeType_Dialogue_NomalGiftTalk": "String",
+        "_gdeIsList_Dialogue_NomalGiftTalk": 0,
+        "Dialogue_FriendShipLVTalks": [
+            
         ]
     }
 }

@@ -1,0 +1,28 @@
+{
+    "myKey": "Feiyap_Project_Boss",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Feiyap_Project_Boss\\Feiyap_Project_BossMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.503962457,
+            "y": 0.0158378482
+        },
+        "Head": {
+            "x": 0.53963846,
+            "y": 0.825444341
+        },
+        "Center": {
+            "x": 0.5237868,
+            "y": 0.587131262
+        },
+        "UI": {
+            "x": 0.5118888,
+            "y": 0.0264114738
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

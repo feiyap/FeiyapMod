@@ -12,6 +12,7 @@
         ],
         "Enemys": [
             "Boss_Feiyap"
-        ]
+        ],
+        "CustomeFogTurn": 10
     }
 }

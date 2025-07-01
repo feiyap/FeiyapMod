@@ -17,7 +17,7 @@ namespace VillageAlice
 	/// 梦境弄臣
 	/// 梦境回合结束时，若该单位被击杀，则再额外进行一次梦境回合，随机选取一名目标成为「梦境弄臣」的目标。
 	/// </summary>
-    public class B_FVAlice_Rare_2_0:Buff, IP_Dead, IP_PlayerTurn
+    public class B_FVAlice_Rare_2_0:Buff, IP_Dead
     {
         public void Dead()
         {
@@ -26,17 +26,6 @@ namespace VillageAlice
             {
                 bc.BuffAdd("B_FVAlice_Rare_2_0", this.Usestate_F);
                 break;
-            }
-        }
-
-        public void Turn()
-        {
-            foreach (BattleChar ba in BattleSystem.instance.AllyList)
-            {
-                if (ba != this.Usestate_F)
-                {
-                    ba.BuffAdd("B_FVAlice_Rare_2_1", this.Usestate_F);
-                }
             }
         }
     }

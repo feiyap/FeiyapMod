@@ -125,7 +125,7 @@ namespace Ralmia2
 		/// 2⇒『毁灭创造物β』
 		/// 3或以上⇒『毁灭创造物γ』
 		/// ————————————
-		/// 恢复自己 &a 体力值(攻击力的150%)。
+		/// 恢复自己 &a 体力值(攻击力的75%)。
 		/// </summary>
         public static string Skill_S_Ralmia2_Ex_2 = "S_Ralmia2_Ex_2";
 		/// <summary>
@@ -144,18 +144,18 @@ namespace Ralmia2
 		/// 【融合】『毁灭创造物β』或『毁灭创造物γ』
 		/// 与本技能【融合】时，若与本技能【融合】的种类为 2，则本技能变为『卓越创造物Ω』。
 		/// ————————————
-		/// 握在手中时，每当回合结束，恢复自身 &a 体力值(攻击力的150%)。
+		/// 握在手中时，每当回合结束，恢复自身 &a 体力值(攻击力的75%)。
 		/// </summary>
         public static string Skill_S_Ralmia2_Ex_4 = "S_Ralmia2_Ex_4";
 		/// <summary>
 		/// 毁灭的创造物β
-		/// 握在手中时，每当回合结束，对随机敌人造成 &a 伤害(攻击力的150%)。
+		/// 握在手中时，每当回合结束，对随机敌人造成 &a 伤害(攻击力的75%)。
 		/// </summary>
         public static string Skill_S_Ralmia2_Ex_5 = "S_Ralmia2_Ex_5";
         public static string Skill_S_Ralmia2_Ex_5_0 = "S_Ralmia2_Ex_5_0";
 		/// <summary>
 		/// 毁灭的创造物γ
-		/// 握在手中时，每当回合结束，对所有敌人造成 &a 伤害(攻击力的100%)。
+		/// 握在手中时，每当回合结束，对所有敌人造成 &a 伤害(攻击力的50%)。
 		/// </summary>
         public static string Skill_S_Ralmia2_Ex_6 = "S_Ralmia2_Ex_6";
         public static string Skill_S_Ralmia2_Ex_6_0 = "S_Ralmia2_Ex_6_0";
@@ -177,11 +177,21 @@ namespace Ralmia2
 		/// 选择自己手中的 3 个费用为 2 或以下的“创造物”技能，获得其复制，并使费用降低为 0 。
 		/// </summary>
         public static string Skill_S_Ralmia2_Rare_1 = "S_Ralmia2_Rare_1";
+        public static string SkillEffect_SE_T_S_Ralmia2_8_0 = "SE_T_S_Ralmia2_8_0";
 
     }
 
     public static class ModLocalization
     {
+		/// <summary>
+		/// Korean:
+		/// English:
+		/// Japanese:
+		/// Chinese:
+		/// <i>这个技能被视作<color=#97FFFF>创造物</color>。</i>
+		/// Chinese-TW:
+		/// </summary>
+        public static string ArtifactInfo => ModManager.getModInfo("Ralmia2").localizationInfo.SystemLocalizationUpdate("ArtifactInfo");
 
     }
 }

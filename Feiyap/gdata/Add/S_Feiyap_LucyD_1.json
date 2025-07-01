@@ -16,6 +16,19 @@
         "Description": "抽取2个技能。若目标拥有保护体力极限，额外抽取 1 个技能。",
         "SkillExtended": [
             "Feiyap.S_Feiyap_LucyD_1"
-        ]
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

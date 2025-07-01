@@ -21,7 +21,7 @@ namespace Ralmia2
     {
         public override string DescExtended(string desc)
         {
-            return ModManager.getModInfo("Ralmia").localizationInfo.SystemLocalizationUpdate("ArtifactInfo") + "\n\n" + base.DescExtended(desc);
+            return ModManager.getModInfo("Ralmia2").localizationInfo.SystemLocalizationUpdate("ArtifactInfo") + "\n\n" + base.DescExtended(desc);
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)

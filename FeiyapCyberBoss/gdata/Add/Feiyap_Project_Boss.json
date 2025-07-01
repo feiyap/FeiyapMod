@@ -1,0 +1,10 @@
+{
+    "Feiyap_Project_Boss": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "绯夜氏",
+        "maxhp": 600,
+        "Boss": true,
+        "NotCursed": true
+    }
+}

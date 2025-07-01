@@ -1,0 +1,10 @@
+{
+    "B_FLancelot_C_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "邪龙",
+        "Description": "特殊形态。\n每次使用自身技能时，获得 1 层“龙之心”。",
+        "Cantdisable": true
+    }
+}

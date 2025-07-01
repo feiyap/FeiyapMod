@@ -5,7 +5,7 @@
         "Particle": "Particle/IronHeart/IronHeart_2",
         "Target": "enemy",
         "Name": "城堡的创造物",
-        "Description": "【融合】创造物。\n根据与本技能【融合】的技能的费用的合计而变身：\r\n1⇒『毁灭创造物α』\r\n2⇒『毁灭创造物β』\r\n3或以上⇒『毁灭创造物γ』\n————————————\n恢复自己 &a 体力值(攻击力的150%)。",
+        "Description": "【融合】创造物。\n根据与本技能【融合】的技能的费用的合计而变身：\r\n1⇒『毁灭创造物α』\r\n2⇒『毁灭创造物β』\r\n3或以上⇒『毁灭创造物γ』\n————————————\n恢复自己 &a 体力值(攻击力的75%)。",
         "UseAp": 1,
         "Except": true,
         "NoDrop": true,
@@ -21,6 +21,7 @@
         "SKillExtendedItem": [
             "SkillExtended_Fusion",
             "SkillEn_Ralmia_2"
-        ]
+        ],
+        "NotCount": false
     }
 }

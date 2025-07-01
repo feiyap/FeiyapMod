@@ -22,6 +22,8 @@
         "Image_2": "S_Ralmia2_Rare_1\\S_Ralmia2_Rare_1_Image_2.png",
         "SkillExtended": [
             "Ralmia2.S_Ralmia2_Rare_1"
-        ]
+        ],
+        "NoDrop": false,
+        "Except": false
     }
 }

@@ -5,20 +5,23 @@
         "Skills": [
             "S_Feiyap_Boss_0",
             "S_Feiyap_Boss_1",
-            "S_Feiyap_Boss_2"
+            "S_Feiyap_Boss_2",
+            "S_Feiyap_Boss_3",
+            "S_Feiyap_Boss_4"
         ],
         "Boss": true,
         "NotCursed": true,
         "name": "绯夜氏",
-        "atk": 19,
+        "atk": 10,
         "def": 0,
         "cri": 4,
         "dodge": 0,
         "RES_CC": 8,
         "RES_DEBUFF": 8,
-        "maxhp": 320,
+        "maxhp": 310,
         "spd": 2,
         "PlusActCount": [
+            2,
             2
         ],
         "CollactionSprite_Cover": "Boss_Feiyap\\Boss_FeiyapCollactionSprite_Cover.png",
@@ -31,6 +34,7 @@
             "B_Feiyap_Boss_P",
             "B_Feiyap_Boss_P_1",
             "B_LastResistance"
-        ]
+        ],
+        "AI": "FeiyapBoss.Boss_Feiyap"
     }
 }

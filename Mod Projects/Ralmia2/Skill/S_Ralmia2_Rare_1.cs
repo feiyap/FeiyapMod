@@ -24,7 +24,7 @@ namespace Ralmia2
             base.SkillUseSingle(SkillD, Targets);
 
             new List<Skill>();
-            List<Skill> list = new List<Skill>();
+            list = new List<Skill>();
             list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll(t => t.MySkill.KeyID != "S_Ralmia2_4"));
             for (int i = 0; i < list.Count; i++)
             {
@@ -47,6 +47,9 @@ namespace Ralmia2
             skill.isExcept = true;
             skill.APChange = -9;
             BattleSystem.instance.AllyTeam.Add(skill, true);
+            list.Remove(Mybutton.Myskill);
         }
+
+        public List<Skill> list;
     }
 }

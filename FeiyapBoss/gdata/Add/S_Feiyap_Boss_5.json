@@ -1,0 +1,21 @@
+{
+    "S_Feiyap_Boss_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/HeliaEffect_R1",
+        "Target": "all_enemy",
+        "EnemyPreview": false,
+        "Name": "星天陨辍",
+        "Description": "立即恢复「上个回合中，自己受到过的最高的单次伤害值」的体力。",
+        "Effect_Target": "SE_T_S_Feiyap_Boss_5",
+        "Image_0": "S_Feiyap_Boss_5\\S_Feiyap_Boss_5_Image_0.png",
+        "Image_1": "S_Feiyap_Boss_5\\S_Feiyap_Boss_5_Image_1.png",
+        "Image_2": "S_Feiyap_Boss_5\\S_Feiyap_Boss_5_Image_2.png",
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Fatal": false,
+        "SkillExtended": [
+            "FeiyapBoss.S_Feiyap_Boss_5"
+        ]
+    }
+}

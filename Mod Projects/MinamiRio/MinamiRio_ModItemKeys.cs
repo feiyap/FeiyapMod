@@ -63,6 +63,7 @@ namespace MinamiRio
         public static string Item_Equip_E_MinamiRio_0 = "E_MinamiRio_0";
 		/// <summary>
 		/// 血之刻印
+		/// 解除莉央被动“无法暴击”的限制。
 		/// </summary>
         public static string Item_Equip_E_MinamiRio_1 = "E_MinamiRio_1";
 		/// <summary>

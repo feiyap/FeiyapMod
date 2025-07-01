@@ -1,0 +1,18 @@
+{
+    "myKey": "VillageAlice",
+    "myField": "CampSD",
+    "myValues": {
+        "pivot01": {
+            "x": 0.5,
+            "y": 0.0
+        },
+        "pivot23": {
+            "x": 0.5,
+            "y": 0.0
+        }
+    },
+    "MyChangeType": "CampSD",
+    "myKeys": [
+        
+    ]
+}

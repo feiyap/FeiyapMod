@@ -43,7 +43,18 @@ namespace MinamiRio
 
         public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
         {
-            Cri = false;
+            bool isEquip = false;
+            foreach (Item_Equip equip in this.BChar.Info.Equip)
+            {
+                if (equip.ItemTypeKey == "E_MinamiRio_1")
+                {
+                    isEquip = true;
+                }
+            }
+            if (!isEquip)
+            {
+                Cri = false;
+            }
             return Damage;
         }
 

@@ -17,6 +17,11 @@
         "HIT": {
             "x": 100,
             "y": 120
-        }
+        },
+        "PassiveDes": "进入战斗回合开始时根据当前生命值变化状态。\n每当体力值小于等于最大体力值50%时，获得“狂化”；\n体力值大于最大体力值50%时，获得“理智”。\n\n每回合开始时，从“骑士”和“邪龙”中选择1项作为自己的形态。\n\n无法违背的誓约：进入战斗时，从5种“誓言”中选择1项。若在战斗中违背“誓言”，则好感度清0。若遵守“誓言”完成战斗，增加4点好感度。\n到达100好感度时，解锁这个被动，不再需要“誓言”。\n<b>兰斯洛特的部分技能只有当等级和好感度达到条件时才能学习。</b>",
+        "PassiveName": "妖精骑士",
+        "StatView_Atk": 3,
+        "face": "FairyLancelot\\FairyLancelotBattleFace.png",
+        "CollectionSprite_SkillFace": "FairyLancelot\\FairyLancelotCollectionSprite_SkillFace.png"
     }
 }

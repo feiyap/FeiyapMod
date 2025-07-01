@@ -2,14 +2,31 @@
     "S_Feiyap_Boss_3": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/Buff",
+        "Particle": "Particle/Ilya/Ilya_4",
         "Target": "enemy",
-        "Name": "孤红之瞥",
-        "Description": "",
+        "Name": "幽壑千灯",
+        "Description": "这个技能额外造成「上个回合中，自己受到过的最高的单次伤害值」的一半的伤害。",
         "Image_0": "S_Feiyap_Boss_3\\S_Feiyap_Boss_3_Image_0.png",
         "Image_1": "S_Feiyap_Boss_3\\S_Feiyap_Boss_3_Image_1.png",
         "Image_2": "S_Feiyap_Boss_3\\S_Feiyap_Boss_3_Image_2.png",
         "EnemyPreview": true,
-        "Disposable": false
+        "Disposable": false,
+        "Track": true,
+        "UnknownTarget": false,
+        "Effect_Target": "SE_T_S_Feiyap_Boss_3",
+        "IgnoreTaunt": true,
+        "Fatal": true,
+        "SkillExtended": [
+            "FeiyapBoss.S_Feiyap_Boss_3"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false
     }
 }

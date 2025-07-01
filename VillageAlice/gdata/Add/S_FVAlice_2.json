@@ -5,7 +5,7 @@
         "Particle": "Particle/Joey/Joey_0",
         "Target": "enemy",
         "IgnoreTaunt": false,
-        "Name": "焦糖味封蜡",
+        "Name": "邮票",
         "Description": "将目标拥有的所有弱化、痛苦减益给予“每层弱化/痛苦减益，每回合造成30%+1的混乱伤害。”\n\r【童话】：此技能法力值消耗增加2。",
         "Disposable": true,
         "Effect_Target": "SE_T_S_FVAlice_2",

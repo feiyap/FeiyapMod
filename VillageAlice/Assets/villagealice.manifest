@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1963070181
+CRC: 3992826176
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b07b000b4b5dffba8738df6b99f6baa9
+    Hash: 5676f4c5d8cebc38cce907719ac3edcd
   TypeTreeHash:
     serializedVersion: 2
     Hash: ed8221465f46ffcc4d3ad6adc5e19dfc
@@ -55,6 +55,7 @@ Assets:
 - Assets/VillageAlice/VillageAlice/VillageAliceCollectionSprite_Cover.png
 - Assets/VillageAlice/B_FVAlice_Rare_2_0/B_FVAlice_Rare_2_0_Icon.png
 - Assets/VillageAlice/S_FVAlice_Rare_2/S_FVAlice_Rare_2_Image_0.png
+- Assets/VillageAlice/VillageAlice/VillageAliceCampSD3.png
 - Assets/VillageAlice/VillageAlice/VillageAliceFaceSmallChar.prefab
 - Assets/VillageAlice/VillageAlice/VillageAliceBattleFace.png
 - Assets/VillageAlice/Enemy_VillageAlice_Queen/None.anim
@@ -64,6 +65,7 @@ Assets:
 - Assets/VillageAlice/S_FVAlice_1/S_FVAlice_1_Image_1.png
 - Assets/VillageAlice/Enemy_VillageAlice_Rabbit/New Animation.anim
 - Assets/VillageAlice/VillageAlice/VillageAlicePassiveIcon.png
+- Assets/VillageAlice/VillageAlice/VillageAliceCampSD1.png
 - Assets/VillageAlice/S_FVAlice_1/S_FVAlice_1_Image_0.png
 - Assets/VillageAlice/S_FVAlice_4/S_FVAlice_4_Image_0.png
 - Assets/VillageAlice/S_FVAlice_4/S_FVAlice_4_Image_1.png
@@ -87,12 +89,14 @@ Assets:
 - Assets/VillageAlice/S_FVAlice_5/S_FVAlice_5_Image_2.png
 - Assets/VillageAlice/S_FVAlice_Rare_1/S_FVAlice_Rare_1_Image_0.png
 - Assets/VillageAlice/B_FVAlice_0/B_FVAlice_0_Icon.png
+- Assets/VillageAlice/VillageAlice/VillageAliceCampSD0.png
 - Assets/VillageAlice/S_FVAlice_0/S_FVAlice_0_Image_0.png
 - Assets/VillageAlice/S_FVAlice_7/S_FVAlice_7_Image_2.png
 - Assets/VillageAlice/VillageAlice/VillageAliceFaceOriginChar.png
 - Assets/VillageAlice/Enemy_VillageAlice_Queen/Enemy_VillageAlice_Queen.prefab
 - Assets/VillageAlice/B_FVAlice_5/B_FVAlice_5_Icon.png
 - Assets/VillageAlice/VillageAlice/VillageAliceFaceOriginChar.prefab
+- Assets/VillageAlice/VillageAlice/VillageAliceCampSD2.png
 - Assets/VillageAlice/S_FVAlice_0/S_FVAlice_0_Image_1.png
 - Assets/VillageAlice/S_FVAlice_6/S_FVAlice_6_Image_1.png
 Dependencies: []

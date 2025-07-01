@@ -4,6 +4,7 @@
         "Itemclass": "Legendary",
         "image": "Item\\E_MinamiRio_1_image.png",
         "name": "血之刻印",
-        "Equip_Script": "MinamiRio.E_MinamiRio_1"
+        "Equip_Script": "MinamiRio.E_MinamiRio_1",
+        "Description": "解除莉央被动“无法暴击”的限制。"
     }
 }
