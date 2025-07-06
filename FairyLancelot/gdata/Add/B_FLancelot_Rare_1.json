@@ -1,0 +1,11 @@
+{
+    "B_FLancelot_Rare_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FairyLancelot.B_FLancelot_Rare_1",
+        "BuffTag": "null",
+        "Name": "湖光骑士",
+        "Cantdisable": true,
+        "Description": "“舞者”上限改变为 5 层。\n释放技能时，重复释放 3 次。\n击杀敌人时，恢复 2 点法力值。\n受到 20 点以上的伤害时，转变为受到<color=purple> 15 点痛苦伤害</color>。\n<b><color=#87CEFA>无法切换为“邪龙”。</color></b>"
+    }
+}

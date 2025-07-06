@@ -7,11 +7,56 @@
         "name": "依神女苑",
         "Gender": 1,
         "MAXHP": {
-            "x": 20,
-            "y": 20
+            "x": 17,
+            "y": 32
         },
         "PassiveName": "最凶最恶的双子之妹",
         "PassiveUnlockLV1": false,
-        "PassiveDes": "使人消耗财产程度的能力 - 每消耗100金币，使自身永久提升1%暴击率和0.5%暴击伤害。\n在篝火处可以消耗1200金币为依神女苑购买额外的装备栏。\n\n今宵是飘逸的利己主义者 - 使用点金卷轴时，额外获得50%金币。"
+        "PassiveDes": "使人消耗财产程度的能力 - 每消耗100金币，使自身永久提升1%暴击率和0.5%暴击伤害。\n在篝火处可以消耗1200金币为依神女苑购买额外的装备栏。\n\n今宵是飘逸的利己主义者 - 使用点金卷轴时，额外获得50%金币。",
+        "CollectionSprite_Cover": "YorigamiJoon\\YorigamiJoonCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "YorigamiJoon\\YorigamiJoonCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Difficult": 1,
+        "ATK": {
+            "x": 14,
+            "y": 28
+        },
+        "DODGE": {
+            "x": 5,
+            "y": 15
+        },
+        "REG": {
+            "x": 0,
+            "y": 0
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "HIT_CC": {
+            "x": -10,
+            "y": 30
+        },
+        "HIT_DEBUFF": {
+            "x": -10,
+            "y": 30
+        },
+        "HIT_DOT": {
+            "x": -10,
+            "y": 30
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "PassiveIcon": "YorigamiJoon\\YorigamiJoonPassiveIcon.png"
     }
 }

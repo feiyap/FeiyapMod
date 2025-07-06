@@ -31,9 +31,12 @@ namespace PatchouliKnowledge
         {
             base.SkillKill(SP);
             
-            this.BChar.MyTeam.Draw();
+            if (SP.SkillKey == "S_Pachi_Sk_3_5")
+            {
+                this.BChar.MyTeam.Draw();
 
-            this.BChar.BuffAdd("B_Pachi_3_5", this.BChar);
+                this.BChar.BuffAdd("B_Pachi_3_5", this.BChar);
+            }
         }
 
         public void DamageChange_sumoperation(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View, ref int PlusDamage)

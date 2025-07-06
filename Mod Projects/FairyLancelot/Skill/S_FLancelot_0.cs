@@ -22,6 +22,100 @@ namespace FairyLancelot
 	/// </summary>
     public class S_FLancelot_0:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (this.BChar.BuffFind("B_FLancelot_C_2"))
+            {
+                switch (this.BChar.BuffReturn("B_FLancelot_P_4")?.StackNum ?? 0)
+                {
+                    case 1:
+                        {
+                            this.BChar.MyTeam.Draw();
+                            this.BChar.Heal(this.BChar, 5, false, false, null);
+                        }
+                        break;
+                    case 2:
+                        {
+                            this.BChar.MyTeam.Draw(new BattleTeam.DrawInput(this.Drawinput));
+                            this.BChar.Heal(this.BChar, 5, false, false, null);
+                        }
+                        break;
+                    case 3:
+                        {
+                            this.BChar.MyTeam.Draw(new BattleTeam.DrawInput(this.Drawinput));
+                            this.BChar.Heal(this.BChar, 5, false, false, null);
 
+                            CreateSkill();
+                        }
+                        break;
+                }
+            }
+            if (this.BChar.BuffFind("B_FLancelot_C_1"))
+            {
+                this.BChar.BuffAdd("B_FLancelot_0", this.BChar);
+                switch (this.BChar.BuffReturn("B_FLancelot_P_3")?.StackNum ?? 0)
+                {
+                    case 1:
+                        {
+                            this.BChar.BuffAdd("B_FLancelot_0", this.BChar);
+                        }
+                        break;
+                    case 2:
+                        {
+                            this.BChar.BuffAdd("B_FLancelot_0", this.BChar);
+                            this.BChar.BuffAdd("B_FLancelot_0_1", this.BChar);
+                        }
+                        break;
+                    case 3:
+                        {
+                            this.BChar.BuffAdd("B_FLancelot_0", this.BChar);
+                            this.BChar.BuffAdd("B_FLancelot_0_1", this.BChar);
+
+                            CreateSkill();
+                        }
+                        break;
+                }
+            }
+            if (P_FairyLancelot.heartPoint >= 10)
+            {
+                if (this.BChar.BuffFind("B_FLancelot_P_2"))
+                {
+                    this.BChar.BuffAdd("B_FLancelot_0_2", this.BChar);
+                }
+            }
+        }
+
+        public void CreateSkill()
+        {
+            List<Skill> list = new List<Skill>();
+            List<GDESkillData> list2 = new List<GDESkillData>();
+            foreach (GDESkillData gdeskillData in PlayData.ALLSKILLLIST)
+            {
+                if (gdeskillData.User == this.BChar.Info.KeyData)
+                {
+                    list2.Add(gdeskillData);
+                }
+            }
+            foreach (GDESkillData gdeskillData2 in list2)
+            {
+                if (gdeskillData2 != null && !gdeskillData2.KeyID.IsNullOrEmpty())
+                {
+                    Skill skill = Skill.TempSkill(gdeskillData2.KeyID, this.BChar, BattleSystem.instance.AllyTeam).CloneSkill(false, null, null, false);
+                    skill.isExcept = true;
+                    list.Add(skill);
+                }
+            }
+            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.CreateSkill, false, true, true, false, true));
+        }
+
+        public void Drawinput(Skill skill)
+        {
+            skill.APChange = -1;
+        }
+
+        public void Del(SkillButton Mybutton)
+        {
+            BattleSystem.instance.AllyTeam.Add(Mybutton.Myskill, true);
+        }
     }
 }

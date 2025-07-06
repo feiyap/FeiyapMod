@@ -1,0 +1,10 @@
+{
+    "B_FLancelot_3_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_3_0",
+        "BuffTag": "null",
+        "Name": "攻击力提升",
+        "LifeTime": 0,
+        "Hide": true
+    }
+}

@@ -15,10 +15,25 @@ namespace FairyLancelot
 {
 	/// <summary>
 	/// 舞者
-	/// 每层会使自身技能追加攻击 1 次（不触发特殊效果）。持有“龙之心”时无法获得。
+	/// 持有“龙之心”时无法获得。
 	/// </summary>
     public class B_FLancelot_P_4:Buff
     {
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.atk = -1 * StackNum;
+            this.PlusStat.cri = 5 * StackNum;
 
+            if (BattleSystem.instance != null)
+            {
+                if (BattleSystem.instance.AllyList.Any((BattleAlly i) => i.BuffFind("B_FLancelot_Rare_1", false)))
+                {
+                    this.BuffData.MaxStack = 5;
+                    return;
+                }
+            }
+            this.BuffData.MaxStack = 3;
+        }
     }
 }

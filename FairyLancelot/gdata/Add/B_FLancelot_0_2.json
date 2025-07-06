@@ -1,0 +1,10 @@
+{
+    "B_FLancelot_0_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_0_2",
+        "BuffTag": "null",
+        "Name": "群体回血",
+        "Hide": true,
+        "LifeTime": 0
+    }
+}

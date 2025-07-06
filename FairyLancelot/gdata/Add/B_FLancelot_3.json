@@ -1,0 +1,17 @@
+{
+    "B_FLancelot_3": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "FairyLancelot.B_FLancelot_3",
+        "BuffTag": "null",
+        "Name": "你已无法离开我",
+        "Description": "&user获得自身一半的攻击力。\n回合结束时，若本回合&user受到过自身伤害，获得伤害量40%的保护罩。\n被&user击杀时，获得 2 灵魂石，增加 2 点好感度。",
+        "LifeTime": 5,
+        "Debuff": true,
+        "TagPer": 0,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

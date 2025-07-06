@@ -1,0 +1,11 @@
+{
+    "S_FLancelot_H_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "无法违背的誓约",
+        "Description": "兰斯洛特不能恢复超过 40 点体力值。\n完成誓约时，增加 3 点好感度。",
+        "UseAp": 0
+    }
+}

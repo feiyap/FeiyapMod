@@ -6,7 +6,7 @@
         "Rare": false,
         "Target": "Misc",
         "NODOD": false,
-        "NotCount": false,
+        "NotCount": true,
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": false,
@@ -18,6 +18,13 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "Name": "疫病神的凭依",
+        "Description": "这个技能握在手中时，每次使用其他技能获得 25 金币，此技能的 X 回合后弃牌的回合计数将减少 1 。\n这个技能的效果只在黑雾回合到来前有效。",
+        "User": "YorigamiJoon",
+        "AutoDelete": 10,
+        "Image_0": "S_Joon_0\\S_Joon_0_Image_0.png",
+        "Image_1": "S_Joon_0\\S_Joon_0_Image_1.png",
+        "Image_2": "S_Joon_0\\S_Joon_0_Image_2.png"
     }
 }

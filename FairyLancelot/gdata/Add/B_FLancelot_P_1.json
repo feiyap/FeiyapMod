@@ -3,9 +3,10 @@
         "_gdeSchema": "Buff",
         "IsFieldBuff": false,
         "Cantdisable": true,
-        "ClassName": "",
+        "ClassName": "FairyLancelot.B_FLancelot_P_1",
         "BuffTag": "null",
         "Name": "狂化",
-        "Description": "当前体力值小于等于最大体力值的50%。"
+        "Description": "当前体力值小于等于最大体力值的50%。",
+        "Icon": "B_FLancelot_P_1\\B_FLancelot_P_1_Icon.png"
     }
 }

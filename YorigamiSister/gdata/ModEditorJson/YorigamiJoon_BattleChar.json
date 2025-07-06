@@ -4,16 +4,16 @@
     "myValues": {
         "path": "YorigamiJoon\\YorigamiJoonBattleChar.png",
         "pivot": {
-            "x": 0.4039219,
-            "y": 0.542992532
+            "x": 0.596065462,
+            "y": 0.7648273
         },
         "offsetMin": {
-            "x": -413.4787,
-            "y": -498.021881
+            "x": -606.69574,
+            "y": -1167.701
         },
         "offsetMax": {
-            "x": 610.1813,
-            "y": 419.1581
+            "x": 411.138336,
+            "y": 359.0502
         }
     },
     "MyChangeType": "BattleChar",

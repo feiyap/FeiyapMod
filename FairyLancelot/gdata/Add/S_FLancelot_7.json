@@ -1,0 +1,18 @@
+{
+    "S_FLancelot_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S_TheLight_4",
+        "Target": "enemy",
+        "Name": "光之地平线",
+        "UseAp": 4,
+        "Counting": 2,
+        "Except": true,
+        "Effect_Target": "SE_T_S_FLancelot_7",
+        "User": "FairyLancelot",
+        "Description": "骑士 - 移除所有“舞者”增益。\n恢复 4 点法力值，获得 1 次等待次数和交换次数，抽取 1 个技能。\n\n邪龙 - 移除所有“龙之心”增益。\n额外造成 &a 伤害(攻击力的300%)。自身受到<color=purple>20 点痛苦伤害</color>，获得“保护体力极限”，持续 1 回合。",
+        "SkillExtended": [
+            "FairyLancelot.S_FLancelot_7"
+        ]
+    }
+}

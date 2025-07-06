@@ -3,14 +3,18 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>FairyLancelot2025622102417</AssemblyName>
+    <AssemblyName>FairyLancelot20257700145</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <ReferencePath>H:/SteamLibrary/steamapps/common/Chrono Ark/ChronoArk_Data/Managed</ReferencePath>
+    <ProjectGuid>{7AE65375-5EFF-40AB-8F50-BFAB06C2AC10}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>I:\11\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Accessibility">
       <Private>False</Private>
     </Reference>
@@ -26,8 +30,26 @@
     <Reference Include="DOTween">
       <Private>False</Private>
     </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Security">
       <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>I:\11\Assemblies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>I:\11\Assemblies\MonoMod.Utils.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <Private>False</Private>
@@ -381,24 +403,76 @@
       <Private>False</Private>
     </Reference>
     <!-- Extra Reference Start-->
+    <Reference Include="0Harmony">
+      <HintPath>..\..\FairyLancelot\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\FairyLancelot\Assemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>..\..\FairyLancelot\Assemblies\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>..\..\FairyLancelot\Assemblies\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>..\..\FairyLancelot\Assemblies\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\FairyLancelot\Assemblies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\FairyLancelot\Assemblies\MonoMod.Utils.dll</HintPath>
+    </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-  
-                                                <!-- Compile ItemGroup Start-->
+                                                                                            <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="FairyLancelot_ModDefinition.cs" />
     <Compile Include="FairyLancelot_ModItemKeys.cs" />
     <Compile Include="FairyLancelot_Plugin.cs" />
+    <Compile Include="Buff\B_FLancelot_0.cs" />
+    <Compile Include="Buff\B_FLancelot_0_1.cs" />
+    <Compile Include="Buff\B_FLancelot_0_2.cs" />
+    <Compile Include="Buff\B_FLancelot_1.cs" />
     <Compile Include="Buff\B_FLancelot_2.cs" />
+    <Compile Include="Buff\B_FLancelot_3.cs" />
+    <Compile Include="Buff\B_FLancelot_3_0.cs" />
+    <Compile Include="Buff\B_FLancelot_4.cs" />
+    <Compile Include="Buff\B_FLancelot_4_0.cs" />
+    <Compile Include="Buff\B_FLancelot_5.cs" />
+    <Compile Include="Buff\B_FLancelot_5_1.cs" />
+    <Compile Include="Buff\B_FLancelot_6.cs" />
+    <Compile Include="Buff\B_FLancelot_6_0.cs" />
+    <Compile Include="Buff\B_FLancelot_7.cs" />
+    <Compile Include="Buff\B_FLancelot_8.cs" />
+    <Compile Include="Buff\B_FLancelot_8_0.cs" />
+    <Compile Include="Buff\B_FLancelot_Barrier.cs" />
+    <Compile Include="Buff\B_FLancelot_C_1.cs" />
     <Compile Include="Buff\B_FLancelot_C_2.cs" />
     <Compile Include="Buff\B_FLancelot_P.cs" />
     <Compile Include="Buff\B_FLancelot_P_1.cs" />
+    <Compile Include="Buff\B_FLancelot_P_2.cs" />
     <Compile Include="Buff\B_FLancelot_P_3.cs" />
     <Compile Include="Buff\B_FLancelot_P_4.cs" />
+    <Compile Include="Buff\B_FLancelot_Rare_1.cs" />
+    <Compile Include="Buff\B_FLancelot_Rare_2.cs" />
+    <Compile Include="Buff\B_FLancelot_Rare_2_0.cs" />
     <Compile Include="Character\P_FairyLancelot.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Skill\S_FLancelot_0.cs" />
     <Compile Include="Skill\S_FLancelot_1.cs" />
     <Compile Include="Skill\S_FLancelot_2.cs" />
+    <Compile Include="Skill\S_FLancelot_3.cs" />
+    <Compile Include="Skill\S_FLancelot_4.cs" />
+    <Compile Include="Skill\S_FLancelot_5.cs" />
+    <Compile Include="Skill\S_FLancelot_6.cs" />
+    <Compile Include="Skill\S_FLancelot_7.cs" />
+    <Compile Include="Skill\S_FLancelot_8.cs" />
+    <Compile Include="Skill\S_FLancelot_Rare_1.cs" />
+    <Compile Include="Skill\S_FLancelot_Rare_2.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

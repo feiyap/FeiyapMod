@@ -1,0 +1,19 @@
+{
+    "S_Joon_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Public/Public_5",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "朱莉安娜羽扇回旋镖",
+        "Description": "倒计时期间，自身对这个技能指向的目标始终暴击。\n这个技能暴击时，以倒计时2重复释放 1 次，不会再次重复释放。",
+        "User": "YorigamiJoon",
+        "UseAp": 1,
+        "Counting": 1,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Joon_5",
+        "Image_0": "S_Joon_5\\S_Joon_5_Image_0.png",
+        "Image_1": "S_Joon_5\\S_Joon_5_Image_1.png",
+        "Image_2": "S_Joon_5\\S_Joon_5_Image_2.png"
+    }
+}

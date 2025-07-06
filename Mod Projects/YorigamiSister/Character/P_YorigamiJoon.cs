@@ -26,12 +26,24 @@ namespace YorigamiSister
     public class P_YorigamiJoon:Passive_Char
     {
         public static int costGold = 0;
+        public static bool isListen = false;
 
         public override void Init()
         {
             base.Init();
             costGold = 0;
-            EOSManager.AddListener(new GoldChangeListener());
+            if (!isListen)
+            {
+                isListen = true;
+                EOSManager.AddListener(new GoldChangeListener());
+            }
+        }
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            this.PlusStat.cri = P_YorigamiJoon.costGold / 100;
+            this.PlusStat.PlusCriDmg = P_YorigamiJoon.costGold / 200;
         }
     }
 
@@ -48,13 +60,10 @@ namespace YorigamiSister
     {
         public override void GoldChange(int num)
         {
-            Debug.Log(num);
             if (num < 0)
             {
                 P_YorigamiJoon.costGold -= num;
             }
-            Debug.Log("costGold=");
-            Debug.Log(P_YorigamiJoon.costGold);
         }
     }
 }

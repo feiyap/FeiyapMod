@@ -1,0 +1,13 @@
+{
+    "B_FLancelot_Rare_2_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "FairyLancelot.B_FLancelot_Rare_2_0",
+        "BuffTag": "null",
+        "Name": "幻想破灭",
+        "Description": "",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
+        "MaxStack": 99,
+        "LifeTime": 3
+    }
+}

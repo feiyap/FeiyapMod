@@ -2,9 +2,17 @@
     "S_FLancelot_3": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Buff",
         "Target": "enemy",
         "Name": "你已无法离开我",
-        "UseAp": 1
+        "UseAp": 1,
+        "NotCount": false,
+        "Track": false,
+        "NoDrop": false,
+        "Description": "<color=#FF69B4><i>*兰斯洛特等级大于等于4且好感度达到30时自动学会*</i></color>\n若目标持有“你已深陷于我”，将“舞者”、“龙之心”提升至满层。",
+        "Effect_Target": "SE_T_S_FLancelot_3",
+        "SkillExtended": [
+            "FairyLancelot.S_FLancelot_3"
+        ]
     }
 }

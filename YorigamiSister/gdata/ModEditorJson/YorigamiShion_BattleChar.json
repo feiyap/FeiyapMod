@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "YorigamiShion\\YorigamiShionBattleChar.png",
-        "offsetMax": {
-            "x": 335.054657,
-            "y": 350.0414
+        "pivot": {
+            "x": 0.486351132,
+            "y": 0.7314346
         },
         "offsetMin": {
-            "x": -597.9764,
-            "y": -578.9966
+            "x": -544.5273,
+            "y": -1228.3905
         },
-        "pivot": {
-            "x": 0.640896559,
-            "y": 0.623221636
+        "offsetMax": {
+            "x": 575.0903,
+            "y": 451.035858
         }
     },
     "MyChangeType": "BattleChar",

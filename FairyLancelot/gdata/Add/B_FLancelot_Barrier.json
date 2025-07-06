@@ -1,0 +1,11 @@
+{
+    "B_FLancelot_Barrier": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FairyLancelot.B_FLancelot_Barrier",
+        "BuffTag": "null",
+        "Name": "保护罩",
+        "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_03",
+        "LifeTime": 2
+    }
+}

@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "YorigamiJoon\\YorigamiJoonFaceOriginChar.png",
-        "pivot": {
-            "x": 0.369391859,
-            "y": 0.622018635
+        "offsetMax": {
+            "x": 459.251678,
+            "y": 276.682068
         },
         "offsetMin": {
-            "x": -379.531677,
-            "y": -575.877136
+            "x": -603.6851,
+            "y": -1317.723
         },
-        "offsetMax": {
-            "x": 644.128357,
-            "y": 341.302856
+        "pivot": {
+            "x": 0.5666236,
+            "y": 0.8230963
         }
     },
     "MyChangeType": "FaceOriginChar",

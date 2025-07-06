@@ -1,0 +1,11 @@
+{
+    "B_FLancelot_6_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_6_0",
+        "BuffTag": "null",
+        "Name": "妖精湖的加护（伪）",
+        "Description": "根据当前回合数，提升1倍的防御力、最大体力值和5倍的减益成功率。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_02",
+        "LifeTime": 3
+    }
+}

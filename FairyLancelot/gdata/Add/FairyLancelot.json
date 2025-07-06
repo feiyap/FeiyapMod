@@ -2,26 +2,68 @@
     "FairyLancelot": {
         "_gdeSchema": "Character",
         "Role": "Role_DPS",
-        "PassiveClassName": "",
+        "PassiveClassName": "FairyLancelot.P_FairyLancelot",
         "PassiveUnlockLV1": false,
         "name": "兰斯洛特",
         "Gender": 1,
         "MAXHP": {
-            "x": 40,
-            "y": 40
+            "x": 20,
+            "y": 35
         },
         "ATK": {
-            "x": 15,
-            "y": 15
+            "x": 13,
+            "y": 24
         },
         "HIT": {
-            "x": 100,
-            "y": 120
+            "x": 96,
+            "y": 114
         },
-        "PassiveDes": "进入战斗回合开始时根据当前生命值变化状态。\n每当体力值小于等于最大体力值50%时，获得“狂化”；\n体力值大于最大体力值50%时，获得“理智”。\n\n每回合开始时，从“骑士”和“邪龙”中选择1项作为自己的形态。\n\n无法违背的誓约：进入战斗时，从5种“誓言”中选择1项。若在战斗中违背“誓言”，则好感度清0。若遵守“誓言”完成战斗，增加4点好感度。\n到达100好感度时，解锁这个被动，不再需要“誓言”。\n<b>兰斯洛特的部分技能只有当等级和好感度达到条件时才能学习。</b>",
+        "PassiveDes": "最大法力值提升 1 点。\n\n体力值小于等于最大体力值50%时，获得“狂化”；否则获得“理智”。\n\n每回合开始时，从“骑士”和“邪龙”中选择1项作为自己的形态。\n\n无法违背的誓约：进入战斗时，从 5 种“誓言”中选择 2 项。\n若在战斗中违背“誓言”，则好感度清零。\n若遵守“誓言”完成战斗，增加对应的好感度。\n到达100好感度时，解锁这个被动，不再需要“誓言”。",
         "PassiveName": "妖精骑士",
         "StatView_Atk": 3,
         "face": "FairyLancelot\\FairyLancelotBattleFace.png",
-        "CollectionSprite_SkillFace": "FairyLancelot\\FairyLancelotCollectionSprite_SkillFace.png"
+        "CollectionSprite_SkillFace": "FairyLancelot\\FairyLancelotCollectionSprite_SkillFace.png",
+        "CollectionSprite_Cover": "FairyLancelot\\FairyLancelotCollectionSprite_Cover.png",
+        "StatView_Difficult": 2,
+        "StatView_Debuff": 3,
+        "StatView_CC": 2,
+        "PassiveIcon": "FairyLancelot\\FairyLancelotPassiveIcon.png",
+        "FirstSkill": "S_FLancelot_0",
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 7,
+            "y": 14
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        }
     }
 }

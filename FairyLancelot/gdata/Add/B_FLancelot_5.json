@@ -1,0 +1,14 @@
+{
+    "B_FLancelot_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_5",
+        "BuffTag": "Debuff",
+        "Name": "易伤",
+        "Description": "",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (7)",
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 100,
+        "Cantdisable": false
+    }
+}

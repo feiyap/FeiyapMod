@@ -1,1 +1,6 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+S_FLancelot_H_1,Text,,,,,兰斯洛特没有阵亡过；,
+S_FLancelot_H_2,Text,,,,,兰斯洛特至少击杀 1 名敌人；,
+S_FLancelot_H_3,Text,,,,,兰斯洛特不能使用原始费用为 3 的技能；,
+S_FLancelot_H_4,Text,,,,,兰斯洛特不能恢复超过 40 点体力值；,
+S_FLancelot_H_5,Text,,,,,兰斯洛特不能使用原始费用为 2 的技能；,

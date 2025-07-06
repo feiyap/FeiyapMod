@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "YorigamiShion\\YorigamiShionFaceSmallChar.png",
-        "offsetMax": {
-            "x": 167.591431,
-            "y": 116.462029
+        "pivot": {
+            "x": 0.417245746,
+            "y": 0.793109953
         },
         "offsetMin": {
-            "x": -267.674316,
-            "y": -316.94104
+            "x": -208.930756,
+            "y": -595.5062
         },
-        "pivot": {
-            "x": 0.610299051,
-            "y": 0.7183874
+        "offsetMax": {
+            "x": 286.936981,
+            "y": 148.295441
         }
     },
     "MyChangeType": "FaceSmallChar",

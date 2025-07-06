@@ -1,0 +1,13 @@
+{
+    "B_FLancelot_4": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "FairyLancelot.B_FLancelot_4",
+        "BuffTag": "null",
+        "Name": "你已完全属于我",
+        "Debuff": true,
+        "TagPer": 0,
+        "LifeTime": 5,
+        "Description": "无法对&user施加减益效果。\n无法恢复体力值。"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "SE_T_S_FLancelot_Rare_2": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_FLancelot_Rare_2",
+            "B_FLancelot_P_3",
+            "B_FLancelot_P_3",
+            "B_FLancelot_P_3"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0,
+            0
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "B_FLancelot_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FairyLancelot.B_FLancelot_1",
+        "BuffTag": "null",
+        "Name": "妖精剑舞",
+        "Description": "下 1 次使用技能时恢复 1 点法力值。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_51/1_51Buff (3)"
+    }
+}

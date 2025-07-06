@@ -2,10 +2,11 @@
     "B_FLancelot_P_2": {
         "_gdeSchema": "Buff",
         "IsFieldBuff": false,
-        "Cantdisable": false,
-        "ClassName": "",
+        "Cantdisable": true,
+        "ClassName": "FairyLancelot.B_FLancelot_P_2",
         "BuffTag": "null",
         "Name": "理性",
-        "Description": "当前体力值大于最大体力值的50%。"
+        "Description": "当前体力值大于最大体力值的50%。",
+        "Icon": "B_FLancelot_P_2\\B_FLancelot_P_2_Icon.png"
     }
 }

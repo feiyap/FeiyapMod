@@ -11,7 +11,7 @@
             "S_Ilya_1",
             "S_Azar_5",
             "S_TW_Blue_5",
-            "S_LucyC_2"
+            "S_FLancelot_0"
         ],
         "PartySkills": [
             [
@@ -25,7 +25,15 @@
             ],
             [
                 "S_FLancelot_0",
-                "S_FLancelot_1"
+                "S_FLancelot_1",
+                "S_FLancelot_2",
+                "S_FLancelot_3",
+                "S_FLancelot_4",
+                "S_FLancelot_5",
+                "S_FLancelot_6",
+                "S_FLancelot_7",
+                "S_FLancelot_8",
+                "S_FLancelot_Rare_1"
             ]
         ],
         "PartyEquip": [
@@ -41,6 +49,7 @@
             [
                 
             ]
-        ]
+        ],
+        "AP": 7
     }
 }

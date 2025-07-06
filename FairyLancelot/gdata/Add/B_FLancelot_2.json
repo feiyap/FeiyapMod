@@ -2,12 +2,16 @@
     "B_FLancelot_2": {
         "_gdeSchema": "Buff",
         "Cantdisable": true,
-        "ClassName": "",
+        "ClassName": "FairyLancelot.B_FLancelot_2",
         "BuffTag": "null",
         "Name": "你已深陷于我",
-        "Description": "只能指定&user为目标。\n受到&user以外的伤害减少50%；受到来自&user的伤害提高50%。\n若被&user击杀，获得100金币，好感度+2。",
+        "Description": "只能指定&user为目标。\n受到&user以外的伤害减少50%；受到来自&user的伤害提高50%。\n被&user击杀时，获得100金币，增加 2 点好感度。",
         "Debuff": true,
         "TagPer": 0,
-        "LifeTime": 5
+        "LifeTime": 5,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

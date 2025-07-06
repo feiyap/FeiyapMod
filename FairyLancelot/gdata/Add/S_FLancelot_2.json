@@ -7,9 +7,13 @@
         "NotCount": false,
         "Basic": false,
         "Name": "你已深陷于我",
-        "Description": "<color=#FF69B4><i>*兰斯洛特等级大于等于3且好感度达到30才可学习*</i></color>",
+        "Description": "<color=#FF69B4><i>*兰斯洛特等级大于等于3且好感度达到30时自动学会*</i></color>",
         "UseAp": 1,
         "Effect_Target": "SE_T_S_FLancelot_2",
-        "User": "FairyLancelot"
+        "NoDrop": true,
+        "Track": false,
+        "SkillExtended": [
+            "FairyLancelot.S_FLancelot_2"
+        ]
     }
 }

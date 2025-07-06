@@ -26,11 +26,7 @@ namespace YorigamiSister
     {
         public static void Prefix(int value)
         {
-            Debug.Log("SETGOLD");
-            Debug.Log(value);
             int gold = PlayData.TSavedata._Gold;
-            Debug.Log(gold);
-            Debug.Log(value - gold);
             EOSManager.BroadCast<Gold_Event>(value - gold);
         }
     }

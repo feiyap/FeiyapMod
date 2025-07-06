@@ -1,11 +1,12 @@
 {
     "B_FLancelot_P": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "FairyLancelot.B_FLancelot_P",
         "BuffTag": "null",
         "Name": "好感度",
-        "Description": "每10点好感度提高0.5攻击力，每10点好感度提升2点最大体力。\n部分技能根据好感度获得不同强化。\n\n当前誓约：&a\n当前状态：&b",
+        "Description": "每 10 点好感度提高 0.5 攻击力和 2 点最大体力。\n部分技能根据好感度获得不同强化。\n\n当前誓约：&a\n当前状态：&b",
         "Cantdisable": true,
-        "IsFieldBuff": true
+        "IsFieldBuff": true,
+        "Icon": "B_FLancelot_P\\B_FLancelot_P_Icon.png"
     }
 }

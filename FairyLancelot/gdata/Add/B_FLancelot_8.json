@@ -1,0 +1,15 @@
+{
+    "B_FLancelot_8": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "FairyLancelot.B_FLancelot_8",
+        "BuffTag": "Debuff",
+        "Name": "苍穹的试炼",
+        "Description": "",
+        "MaxStack": 2,
+        "Debuff": true,
+        "TagPer": 120,
+        "LifeTime": 3,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (9)"
+    }
+}

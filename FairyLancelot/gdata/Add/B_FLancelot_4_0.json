@@ -1,0 +1,10 @@
+{
+    "B_FLancelot_4_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_4_0",
+        "BuffTag": "null",
+        "Name": "你已完全属于我",
+        "Description": "",
+        "Hide": true
+    }
+}

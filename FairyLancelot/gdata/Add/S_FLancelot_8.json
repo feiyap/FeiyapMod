@@ -1,0 +1,21 @@
+{
+    "S_FLancelot_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_4",
+        "Target": "enemy",
+        "Except": false,
+        "Name": "苍穹的试炼",
+        "User": "FairyLancelot",
+        "Effect_Target": "SE_T_S_FLancelot_8",
+        "IgnoreTaunt": true,
+        "UseAp": 2,
+        "Description": "骑士 - 额外施加 1 层“苍穹的试炼”。\n\n邪龙 - 额外造成 &a 伤害(攻击力的40%)。\n\n理性 - 自身获得“+10%闪避率”，持续 3 回合。\n\n狂化 - 必定暴击。",
+        "Rare": false,
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "SkillExtended": [
+            "FairyLancelot.S_FLancelot_8"
+        ]
+    }
+}

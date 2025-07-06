@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "FairyLancelot\\FairyLancelotFaceSmallChar.png",
-        "offsetMax": {
-            "x": 285.236816,
-            "y": 127.24099
+        "pivot": {
+            "x": 0.5027566,
+            "y": 0.8010584
         },
         "offsetMin": {
-            "x": -236.337036,
-            "y": -655.1198
+            "x": -285.759735,
+            "y": -645.315
         },
-        "pivot": {
-            "x": 0.4492269,
-            "y": 0.8302181
+        "offsetMax": {
+            "x": 278.58432,
+            "y": 153.285034
         }
     },
     "MyChangeType": "FaceSmallChar",

@@ -19,6 +19,10 @@ namespace FairyLancelot
 	/// </summary>
     public class B_FLancelot_P_3:Buff
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.atk = StackNum;
+        }
     }
 }

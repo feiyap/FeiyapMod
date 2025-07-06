@@ -1,0 +1,14 @@
+{
+    "SE_T_S_Joon_4": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Joon_4",
+            "B_Joon_4"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

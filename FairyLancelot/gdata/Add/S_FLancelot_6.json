@@ -1,0 +1,18 @@
+{
+    "S_FLancelot_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": false,
+        "Track": false,
+        "Name": "妖精湖的加护",
+        "UseAp": 2,
+        "Description": "如果目标为自身，其他队友获得一半数值的增益。",
+        "User": "FairyLancelot",
+        "SkillExtended": [
+            "FairyLancelot.S_FLancelot_6"
+        ],
+        "Effect_Target": "SE_T_S_FLancelot_6"
+    }
+}

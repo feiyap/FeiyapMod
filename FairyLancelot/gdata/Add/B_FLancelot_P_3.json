@@ -1,11 +1,12 @@
 {
     "B_FLancelot_P_3": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "FairyLancelot.B_FLancelot_P_3",
         "BuffTag": "null",
         "Name": "龙之心",
-        "Description": "持有“舞者”时无法获得。",
+        "Description": "",
         "Cantdisable": true,
-        "MaxStack": 3
+        "MaxStack": 3,
+        "Icon": "B_FLancelot_P_3\\B_FLancelot_P_3_Icon.png"
     }
 }

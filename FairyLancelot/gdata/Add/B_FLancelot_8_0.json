@@ -1,0 +1,10 @@
+{
+    "B_FLancelot_8_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_8_0",
+        "BuffTag": "null",
+        "Name": "闪避率提升",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (23)",
+        "LifeTime": 3
+    }
+}

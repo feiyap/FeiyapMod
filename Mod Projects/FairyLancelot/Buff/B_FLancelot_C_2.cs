@@ -18,8 +18,26 @@ namespace FairyLancelot
 	/// 特殊形态。
 	/// 每次使用自身技能时，获得 1 层“舞者”。
 	/// </summary>
-    public class B_FLancelot_C_2:Buff
+    public class B_FLancelot_C_2:Buff, IP_SkillUseHand_Team, IP_PlayerTurn
     {
+        public override void Init()
+        {
+            base.Init();
+            this.PlusPerStat.MaxHP = 20;
+            this.OnePassive = true;
+        }
 
+        public void SKillUseHand_Team(Skill skill)
+        {
+            if (skill.Master == this.BChar)
+            {
+                this.BChar.BuffAdd("B_FLancelot_P_4", this.BChar);
+            }
+        }
+
+        public void Turn()
+        {
+            this.BChar.MyTeam.WaitCount++;
+        }
     }
 }

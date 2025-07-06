@@ -86,7 +86,14 @@ namespace PatchouliKnowledge
             "B_Pachi_4_5"
         };
 
-        public static Dictionary<Buff, int> buffList = new Dictionary<Buff, int> { };
+        public class BuffInfo
+        {
+            public string CharacterId { get; set; }
+            public string BuffId { get; set; }
+            public int StackCount { get; set; }
+        }
+
+        public static List<BuffInfo> buffList = new List<BuffInfo> { };
 
         [HarmonyPrefix]
         public static void NextStage_Prefix(FieldSystem __instance)
@@ -98,7 +105,7 @@ namespace PatchouliKnowledge
                 {
                     if (BuffIDList.Exists(t => t == buff.BuffData.Key))
                     {
-                        buffList.Add(buff, buff.StackNum);
+                        buffList.Add(new BuffInfo{ CharacterId = character.KeyData, BuffId = buff.BuffData.Key, StackCount = buff.StackNum });
                     }
                 }
             }
@@ -109,13 +116,16 @@ namespace PatchouliKnowledge
         {
             foreach (Character character in PlayData.TSavedata.Party)
             {
-                foreach (KeyValuePair<Buff, int> kvp in buffList)
+                foreach (BuffInfo kvp in buffList)
                 {
-                    Buff buff = kvp.Key;
-                    int value = kvp.Value;
-                    for (int i = 0; i < value; i++)
+                    if (character.KeyData == kvp.CharacterId)
                     {
-                        character.Buff_FieldAdd(buff.BuffData.Key);
+                        string buff = kvp.BuffId;
+                        int stack = kvp.StackCount;
+                        for (int i = 0; i < stack; i++)
+                        {
+                            character.Buff_FieldAdd(buff);
+                        }
                     }
                 }
             }

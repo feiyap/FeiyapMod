@@ -1,0 +1,34 @@
+{
+    "S_FLancelot_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Except": true,
+        "Name": "无垢湖光",
+        "UseAp": 5,
+        "User": "FairyLancelot",
+        "Rare": true,
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_FLancelot_Rare_1",
+        "Description": "移除自身所有减益。\n展示牌库中所有自己的技能，选择其中 3 个加入手中，并使其费用变为 0。\n\n<b><color=red>切换为“邪龙”形态时，这个技能变为“无垢搏动”。</color></b>",
+        "SkillExtended": [
+            "FairyLancelot.S_FLancelot_Rare_1"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_FLancelot_Rare_1\\S_FLancelot_Rare_1_Image_0.png",
+        "Image_1": "S_FLancelot_Rare_1\\S_FLancelot_Rare_1_Image_1.png",
+        "Image_2": "S_FLancelot_Rare_1\\S_FLancelot_Rare_1_Image_2.png"
+    }
+}

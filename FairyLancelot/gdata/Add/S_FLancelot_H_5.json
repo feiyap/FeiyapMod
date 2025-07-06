@@ -1,0 +1,10 @@
+{
+    "S_FLancelot_H_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "无法违背的誓约",
+        "Description": "兰斯洛特不能使用原始费用为 2 的技能。\n完成誓约时，获得 4 点好感度。"
+    }
+}
