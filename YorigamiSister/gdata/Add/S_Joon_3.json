@@ -1,0 +1,15 @@
+{
+    "S_Joon_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Lucy/MoneyPower",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "香奈儿的手包",
+        "UseAp": 3,
+        "Description": "随机生成 3 个自己的专属技能，使它们附带放逐。\n这个技能暴击时，还会额外使生成的技能费用降低为 0。",
+        "User": "YorigamiJoon",
+        "Effect_Target": "SE_T_S_Joon_3",
+        "NoBasicSkill": true
+    }
+}

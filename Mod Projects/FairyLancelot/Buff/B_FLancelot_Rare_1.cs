@@ -14,13 +14,15 @@ using Debug = UnityEngine.Debug;
 namespace FairyLancelot
 {
 	/// <summary>
-	/// 无垢湖光
+	/// 湖光骑士
 	/// </summary>
     public class B_FLancelot_Rare_1:Buff, IP_Kill, IP_DamageTakeChange, IP_SkillUseHand_Team
     {
         public override void Init()
         {
             base.Init();
+            this.PlusStat.dod = 50;
+            this.PlusPerStat.MaxHP = -20;
             this.OnePassive = true;
         }
 
@@ -29,6 +31,7 @@ namespace FairyLancelot
             if (SP.SkillData.Master == this.BChar)
             {
                 this.BChar.MyTeam.AP += 2;
+                this.PlusStat.dod = 70;
             }
         }
 

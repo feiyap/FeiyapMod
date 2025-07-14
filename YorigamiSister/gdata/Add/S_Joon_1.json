@@ -13,6 +13,19 @@
         "Effect_Target": "SE_T_S_Joon_1",
         "Image_0": "S_Joon_1\\S_Joon_1_Image_0.png",
         "Image_1": "S_Joon_1\\S_Joon_1_Image_1.png",
-        "Image_2": "S_Joon_1\\S_Joon_1_Image_2.png"
+        "Image_2": "S_Joon_1\\S_Joon_1_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

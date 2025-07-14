@@ -1,0 +1,11 @@
+{
+    "B_Joon_8": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "即将破裂的泡沫",
+        "Description": "保护罩解除时，对所有敌人造成 &c 伤害（消耗金币的5%）。依据命中敌人的个数，使&user获得相同层数的“拜金主义”。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_03",
+        "LifeTime": 2
+    }
+}

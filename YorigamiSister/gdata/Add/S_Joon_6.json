@@ -1,0 +1,16 @@
+{
+    "S_Joon_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impactYellowWeak",
+        "Target": "enemy",
+        "IgnoreTaunt": true,
+        "Name": "珠光指虎",
+        "Description": "这个技能暴击时，如果金币不低于 50，则消耗 50 金币，追加一次 &a 伤害的攻击(攻击力的100%)。",
+        "User": "YorigamiJoon",
+        "UseAp": 2,
+        "NotCount": false,
+        "Track": true,
+        "Effect_Target": "SE_T_S_Joon_6"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "SE_T_S_Joon_7": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Joon_7",
+            "B_Joon_7",
+            "B_Joon_7",
+            "B_Joon_7"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0,
+            0
+        ]
+    }
+}

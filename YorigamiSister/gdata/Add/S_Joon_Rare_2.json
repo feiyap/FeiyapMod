@@ -1,0 +1,20 @@
+{
+    "S_Joon_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Name": "「Queen of Bubble」",
+        "Description": "本场战斗中，获得 1 个额外装备栏。\n那之后，依据自身装备的平均品质，将随机装备填满自身装备栏，直到战斗结束。",
+        "UseAp": 1,
+        "User": "YorigamiJoon",
+        "NotCount": true,
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_Joon_Rare_2",
+        "Basic": false
+    }
+}

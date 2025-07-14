@@ -143,13 +143,13 @@ namespace FairyLancelot
                 this.BChar.Info.UseSoulStone(skill);
             }
 
-            if (this.BChar.Info.LV >= 4 && P_FairyLancelot.heartPoint >= 30 && !this.BChar.Info.SkillDatas.Exists(t => t.SkillInfo.KeyID == "S_FLancelot_3"))
+            if (this.BChar.Info.LV >= 4 && P_FairyLancelot.heartPoint >= 50 && !this.BChar.Info.SkillDatas.Exists(t => t.SkillInfo.KeyID == "S_FLancelot_3"))
             {
                 Skill skill = Skill.TempSkill("S_FLancelot_3", this.BChar, BattleSystem.instance.AllyTeam);
                 this.BChar.Info.UseSoulStone(skill);
             }
 
-            if (this.BChar.Info.LV >= 5 && P_FairyLancelot.heartPoint >= 100 && !this.BChar.Info.SkillDatas.Exists(t => t.SkillInfo.KeyID == "S_FLancelot_4"))
+            if (this.BChar.Info.LV >= 5 && P_FairyLancelot.heartPoint >= 80 && !this.BChar.Info.SkillDatas.Exists(t => t.SkillInfo.KeyID == "S_FLancelot_4"))
             {
                 Skill skill = Skill.TempSkill("S_FLancelot_4", this.BChar, BattleSystem.instance.AllyTeam);
                 this.BChar.Info.UseSoulStone(skill);

@@ -1,0 +1,11 @@
+{
+    "B_Joon_Rare_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "泡沫经济",
+        "Description": "每个回合开始时，消耗 100 金币，获得 2 层“拜金主义”。",
+        "Icon": "B_Joon_Rare_2\\B_Joon_Rare_2_Icon.png",
+        "Cantdisable": true
+    }
+}

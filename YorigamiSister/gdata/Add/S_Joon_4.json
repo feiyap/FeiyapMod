@@ -3,7 +3,7 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Buff",
-        "Target": "self",
+        "Target": "ally",
         "NotCount": true,
         "Fatal": false,
         "Name": "名流燃烧",
@@ -13,6 +13,8 @@
         "Effect_Target": "SE_T_S_Joon_4",
         "Image_0": "S_Joon_4\\S_Joon_4_Image_0.png",
         "Image_1": "S_Joon_4\\S_Joon_4_Image_1.png",
-        "Image_2": "S_Joon_4\\S_Joon_4_Image_2.png"
+        "Image_2": "S_Joon_4\\S_Joon_4_Image_2.png",
+        "NoBasicSkill": false,
+        "IgnoreTaunt": false
     }
 }

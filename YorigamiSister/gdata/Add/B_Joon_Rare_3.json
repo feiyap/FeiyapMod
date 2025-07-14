@@ -1,0 +1,12 @@
+{
+    "B_Joon_Rare_3": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "凭依！疫病神",
+        "Debuff": true,
+        "TagPer": 0,
+        "Description": "自身的属性提升&user对应的数值；\n造成伤害时消耗等量的金币；\n进入濒死状态时解除凭依。"
+    }
+}

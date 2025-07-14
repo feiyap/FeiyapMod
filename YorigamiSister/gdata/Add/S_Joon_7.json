@@ -1,0 +1,15 @@
+{
+    "S_Joon_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Name": "90%off！",
+        "User": "YorigamiJoon",
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Joon_7",
+        "Description": ""
+    }
+}
