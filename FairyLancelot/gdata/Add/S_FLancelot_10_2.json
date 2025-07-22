@@ -1,0 +1,13 @@
+{
+    "S_FLancelot_10_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NoDrop": false,
+        "Name": "阿尔比昂的遗骸",
+        "Description": "什么都不做。",
+        "Except": false,
+        "Image_0": "S_FLancelot_10_2\\S_FLancelot_10_2_Image_0.png"
+    }
+}

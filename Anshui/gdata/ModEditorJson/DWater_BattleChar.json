@@ -1,0 +1,23 @@
+{
+    "myKey": "DWater",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "DWater\\DWaterBattleChar.png",
+        "pivot": {
+            "x": 0.500000238,
+            "y": 0.8307663
+        },
+        "offsetMin": {
+            "x": -600.0003,
+            "y": -1495.37939
+        },
+        "offsetMax": {
+            "x": 599.9997,
+            "y": 304.620636
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

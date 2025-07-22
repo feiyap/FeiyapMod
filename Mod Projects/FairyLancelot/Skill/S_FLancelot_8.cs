@@ -30,7 +30,10 @@ namespace FairyLancelot
             }
             if (this.BChar.BuffFind("B_FLancelot_P_2"))
             {
-                this.BChar.BuffAdd("B_FLancelot_8_0", this.BChar);
+                foreach (BattleChar bc in BattleSystem.instance.AllyList)
+                {
+                    bc.BuffAdd("B_FLancelot_8_0", this.BChar);
+                }
             }
             if (this.BChar.BuffFind("B_FLancelot_P_1"))
             {

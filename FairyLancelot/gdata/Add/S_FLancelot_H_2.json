@@ -5,6 +5,7 @@
         "Particle": "Particle/impact",
         "Target": "Misc",
         "Description": "兰斯洛特至少击杀 1 名敌人。\n完成誓约时，增加 2 点好感度。",
-        "Name": "无法违背的誓约"
+        "Name": "无法违背的誓约",
+        "Image_0": "S_FLancelot_H_2\\S_FLancelot_H_2_Image_0.png"
     }
 }

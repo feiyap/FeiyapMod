@@ -5,6 +5,10 @@
         "ClassName": "FairyLancelot.B_FLancelot_Rare_2",
         "BuffTag": "null",
         "Name": "幻想种",
-        "Description": "每次造成伤害后，移除 10 点体力值，获得“+5攻击力”，持续 3 回合。"
+        "Description": "从好感度中获得的基础属性翻倍。\n所有技能的伤害提升 &a (攻击力的110%)。\n回合结束时，根据剩余法力值获得对应攻击力提升。\n每次造成不低于 20 点伤害时，使所有队友获得 5 点保护罩。",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

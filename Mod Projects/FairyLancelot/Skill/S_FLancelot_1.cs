@@ -26,7 +26,7 @@ namespace FairyLancelot
             }
             if (this.BChar.BuffFind("B_FLancelot_C_1"))
             {
-                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.7);
+                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.5);
                 this.BChar.BuffAdd("B_FLancelot_P_3", this.BChar);
             }
             if (P_FairyLancelot.heartPoint >= 30)
@@ -37,7 +37,7 @@ namespace FairyLancelot
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.7f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.5f)).ToString());
         }
     }
 }

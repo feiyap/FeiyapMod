@@ -1,0 +1,23 @@
+{
+    "myKey": "IzayoiSakuya15th",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Sakuya_15th\\Sakuya_15thFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1052.7052,
+            "y": 549.0585
+        },
+        "offsetMin": {
+            "x": -981.0472,
+            "y": -1484.69409
+        },
+        "pivot": {
+            "x": 0.4816944,
+            "y": 0.727384448
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

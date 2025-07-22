@@ -1,0 +1,23 @@
+{
+    "myKey": "HakureiReimuSwim",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Reimu_Swim\\Reimu_SwimBattleChar.png",
+        "offsetMax": {
+            "x": 995.107239,
+            "y": 629.79
+        },
+        "offsetMin": {
+            "x": -1009.71759,
+            "y": -1375.03479
+        },
+        "pivot": {
+            "x": 0.5036438,
+            "y": 0.685862839
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

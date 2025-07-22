@@ -1,0 +1,23 @@
+{
+    "myKey": "HakureiReimuSwim",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Reimu_Swim\\Reimu_SwimFaceSmallChar.png",
+        "offsetMax": {
+            "x": 547.581848,
+            "y": 278.2294
+        },
+        "offsetMin": {
+            "x": -481.210175,
+            "y": -750.562561
+        },
+        "pivot": {
+            "x": 0.465767741,
+            "y": 0.7241239
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "S_FAlice_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Disposable": true,
+        "Name": "战操「玩偶战争」",
+        "UseAp": 1,
+        "User": "FAlice",
+        "Rare": true,
+        "NotCount": true,
+        "Image_0": "S_FAlice_Rare_1\\S_FAlice_Rare_1_Image_0.png",
+        "Image_1": "S_FAlice_Rare_1\\S_FAlice_Rare_1_Image_1.png",
+        "Image_2": "S_FAlice_Rare_1\\S_FAlice_Rare_1_Image_2.png",
+        "Effect_Target": "SE_T_S_FAlice_Rare_1"
+    }
+}

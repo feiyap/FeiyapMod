@@ -1,0 +1,17 @@
+{
+    "S_FAlice_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "choiceskill",
+        "NotCount": true,
+        "NoBasicSkill": false,
+        "Name": "人偶「未来文乐」",
+        "Description": "选择：\n- 选择 1 个「人形」技能，立即触发 2 次。\n- 选择 1 个「人形」技能，立即强化触发 1 次。",
+        "User": "FAlice",
+        "UseAp": 2,
+        "Image_0": "S_FAlice_6\\S_FAlice_6_Image_0.png",
+        "Image_1": "S_FAlice_6\\S_FAlice_6_Image_1.png",
+        "Image_2": "S_FAlice_6\\S_FAlice_6_Image_2.png"
+    }
+}

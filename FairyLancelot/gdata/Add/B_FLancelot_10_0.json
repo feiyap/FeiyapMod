@@ -1,0 +1,14 @@
+{
+    "B_FLancelot_10_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_10_0",
+        "BuffTag": "DOT",
+        "Name": "龙泪",
+        "Description": "每次行动时受到 2% 最大体力值的伤害。",
+        "Debuff": true,
+        "TagPer": 120,
+        "MaxStack": 3,
+        "LifeTime": 3,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newicons (10)"
+    }
+}

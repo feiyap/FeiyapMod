@@ -5,14 +5,31 @@
         "Particle": "Particle/Enemy/S_TheLight_4",
         "Target": "enemy",
         "Name": "光之地平线",
-        "UseAp": 4,
+        "UseAp": 3,
         "Counting": 2,
-        "Except": true,
+        "Except": false,
         "Effect_Target": "SE_T_S_FLancelot_7",
         "User": "FairyLancelot",
-        "Description": "骑士 - 移除所有“舞者”增益。\n恢复 4 点法力值，获得 1 次等待次数和交换次数，抽取 1 个技能。\n\n邪龙 - 移除所有“龙之心”增益。\n额外造成 &a 伤害(攻击力的300%)。自身受到<color=purple>20 点痛苦伤害</color>，获得“保护体力极限”，持续 1 回合。",
+        "Description": "骑士 - 移除所有“舞者”增益。\n依据移除的“舞者”层数 X，恢复 X 点法力值，获得 X 次等待次数和交换次数，抽取 X 个技能。\n\n邪龙 - 移除所有“龙之心”增益。\n额外造成 &a 伤害(攻击力的200%)。获得“暴击率+5%”，持续 3 回合。",
         "SkillExtended": [
             "FairyLancelot.S_FLancelot_7"
-        ]
+        ],
+        "Rare": false,
+        "IgnoreTaunt": false,
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_FLancelot_7\\S_FLancelot_7_Image_0.png",
+        "Image_1": "S_FLancelot_7\\S_FLancelot_7_Image_1.png",
+        "Image_2": "S_FLancelot_7\\S_FLancelot_7_Image_2.png"
     }
 }

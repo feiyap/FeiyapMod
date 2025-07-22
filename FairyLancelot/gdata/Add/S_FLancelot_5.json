@@ -5,17 +5,20 @@
         "Particle": "Particle/Ilya/Ilya_1",
         "Target": "enemy",
         "Name": "龙之枪",
-        "UseAp": 3,
+        "UseAp": 2,
         "User": "FairyLancelot",
-        "NotCount": true,
+        "NotCount": false,
         "Basic": false,
         "Effect_Target": "SE_T_S_FLancelot_5",
         "Counting": 1,
         "Track": true,
-        "Description": "骑士 - 击杀敌人时，溢出的伤害会分摊给其他敌人。\n\n邪龙 - 施加“-10%防御力、+10%受到的伤害”，持续 3 回合。\n丢弃手中最上方的技能，依据那个技能的原本费用：\n0 - 抽取 1 个技能。\n1 - 额外造成 &a 伤害(攻击力的90%)。\n2及以上 - 自身获得“+20%暴击率”，持续 3 回合。\n\n好感度50 - 随机生成 1 个露西稀有技能。",
+        "Description": "骑士 - 对目标两侧的敌人造成 &a 伤害(攻击力的32%)。\n\n邪龙 - 施加“-10%防御力、+10%受到的伤害”，持续 3 回合。\n丢弃手中最上方的技能，依据那个技能的原本费用：\n0 - 抽取 1 个技能。\n1 - 额外造成 &b 伤害(攻击力的50%)。\n2及以上 - 自身获得“+20%暴击率”，持续 3 回合。\n\n好感度50 - 从牌库展示并选择 1 个露西技能加入手中。",
         "SkillExtended": [
             "FairyLancelot.S_FLancelot_5"
         ],
-        "NoDrop": false
+        "NoDrop": false,
+        "Image_0": "S_FLancelot_5\\S_FLancelot_5_Image_0.png",
+        "Image_1": "S_FLancelot_5\\S_FLancelot_5_Image_1.png",
+        "Image_2": "S_FLancelot_5\\S_FLancelot_5_Image_2.png"
     }
 }

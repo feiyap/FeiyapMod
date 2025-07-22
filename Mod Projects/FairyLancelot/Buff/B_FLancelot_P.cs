@@ -28,8 +28,11 @@ namespace FairyLancelot
         public override void Init()
         {
             base.Init();
-            this.PlusStat.atk = P_FairyLancelot.heartPoint / 20;
-            this.PlusStat.maxhp = P_FairyLancelot.heartPoint / 5;
+
+            int baseCount = this.BChar.BuffFind("B_FLancelot_Rare_2") ? 2 : 1;
+
+            this.PlusStat.atk = P_FairyLancelot.heartPoint / 20 * baseCount;
+            this.PlusStat.maxhp = P_FairyLancelot.heartPoint / 5 * baseCount;
 
             killnum = 0;
             skill3usenum = 0;
@@ -39,11 +42,21 @@ namespace FairyLancelot
             this.OnePassive = true;
         }
 
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+
+            int baseCount = this.BChar.BuffFind("B_FLancelot_Rare_2") ? 2 : 1;
+
+            this.PlusStat.atk = P_FairyLancelot.heartPoint / 20 * baseCount;
+            this.PlusStat.maxhp = P_FairyLancelot.heartPoint / 5 * baseCount;
+        }
+
         public void Dead()
         {
             if (P_FairyLancelot.heartList.Contains("S_FLancelot_H_1"))
             {
-                P_FairyLancelot.heartPoint = 0;
+                P_FairyLancelot.heartPoint -= 2;
             }
         }
 
@@ -59,10 +72,7 @@ namespace FairyLancelot
         {
             if (skill.Master == this.BChar)
             {
-                if (skill._AP == 3)
-                {
-                    skill3usenum++;
-                }
+                skill3usenum++;
                 if (skill._AP == 2)
                 {
                     skill2usenum++;
@@ -94,19 +104,19 @@ namespace FairyLancelot
                             }
                             else
                             {
-                                P_FairyLancelot.heartPoint = 0;
+                                P_FairyLancelot.heartPoint -= 2;
                             }
                         }
                         break;
                     case "S_FLancelot_H_3":
                         {
-                            if (skill3usenum < 1)
+                            if (skill3usenum >= 1)
                             {
-                                P_FairyLancelot.heartPoint += 4;
+                                P_FairyLancelot.heartPoint += 3;
                             }
                             else
                             {
-                                P_FairyLancelot.heartPoint = 0;
+                                P_FairyLancelot.heartPoint -= 2;
                             }
                         }
                         break;
@@ -118,7 +128,7 @@ namespace FairyLancelot
                             }
                             else
                             {
-                                P_FairyLancelot.heartPoint = 0;
+                                P_FairyLancelot.heartPoint -= 2;
                             }
                         }
                         break;
@@ -130,7 +140,7 @@ namespace FairyLancelot
                             }
                             else
                             {
-                                P_FairyLancelot.heartPoint = 0;
+                                P_FairyLancelot.heartPoint -= 2;
                             }
                         }
                         break;

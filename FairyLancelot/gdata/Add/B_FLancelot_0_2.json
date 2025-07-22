@@ -5,6 +5,7 @@
         "BuffTag": "null",
         "Name": "群体回血",
         "Hide": true,
-        "LifeTime": 0
+        "LifeTime": 0,
+        "Cantdisable": false
     }
 }

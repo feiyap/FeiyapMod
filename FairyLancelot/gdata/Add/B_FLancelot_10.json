@@ -1,0 +1,9 @@
+{
+    "B_FLancelot_10": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_10",
+        "BuffTag": "null",
+        "Name": "阿尔比昂的遗骸",
+        "Description": "使用技能时，依据技能的指向：\n指向敌人 - 对其他敌人造成该技能40%的伤害。\n所有敌人 - 额外施加持续 3 回合的“每次行动时受到 2% 最大体力值的伤害”。\n自身 - 额外施加“防御力+2”，并恢复 1 点法力值。"
+    }
+}

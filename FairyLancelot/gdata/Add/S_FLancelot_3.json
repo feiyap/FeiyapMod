@@ -6,13 +6,16 @@
         "Target": "enemy",
         "Name": "你已无法离开我",
         "UseAp": 1,
-        "NotCount": false,
+        "NotCount": true,
         "Track": false,
         "NoDrop": false,
-        "Description": "<color=#FF69B4><i>*兰斯洛特等级大于等于4且好感度达到30时自动学会*</i></color>\n若目标持有“你已深陷于我”，将“舞者”、“龙之心”提升至满层。",
+        "Description": "<color=#FF69B4><i>*兰斯洛特等级大于等于4且好感度达到50时自动学会*</i></color>\n第 3 回合开始时，置于牌堆顶。\n若目标持有“你已深陷于我”，将“舞者”、“龙之心”提升至满层。",
         "Effect_Target": "SE_T_S_FLancelot_3",
         "SkillExtended": [
             "FairyLancelot.S_FLancelot_3"
-        ]
+        ],
+        "Image_0": "S_FLancelot_3\\S_FLancelot_3_Image_0.png",
+        "Image_1": "S_FLancelot_3\\S_FLancelot_3_Image_1.png",
+        "Image_2": "S_FLancelot_3\\S_FLancelot_3_Image_2.png"
     }
 }

@@ -1,0 +1,13 @@
+{
+    "S_FLancelot_10_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Except": false,
+        "Name": "阿尔比昂的遗骸",
+        "Description": "消耗所有友军 5 点体力值，将“阿尔比昂的遗骸”抽取到手中。",
+        "NoDrop": true,
+        "Image_0": "S_FLancelot_10_1\\S_FLancelot_10_1_Image_0.png"
+    }
+}

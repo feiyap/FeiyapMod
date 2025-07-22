@@ -1,0 +1,15 @@
+{
+    "B_FLancelot_9": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "FairyLancelot.B_FLancelot_9",
+        "BuffTag": "Debuff",
+        "Name": "防御力降低",
+        "Description": "",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (13)",
+        "LifeTime": 2,
+        "Debuff": true,
+        "TagPer": 120
+    }
+}

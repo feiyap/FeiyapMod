@@ -26,24 +26,24 @@ namespace FairyLancelot
         {
             if (this.BChar.BuffFind("B_FLancelot_C_2"))
             {
+                int stacknum = this.BChar.BuffReturn("B_FLancelot_P_4")?.StackNum ?? 0;
                 this.BChar.BuffReturn("B_FLancelot_P_4")?.SelfDestroy();
-                this.BChar.MyTeam.AP += 4;
-                this.BChar.MyTeam.WaitCount++;
-                this.BChar.MyTeam.DiscardCount++;
-                this.BChar.MyTeam.Draw();
+                this.BChar.MyTeam.AP += stacknum;
+                this.BChar.MyTeam.WaitCount += stacknum;
+                this.BChar.MyTeam.DiscardCount += stacknum;
+                this.BChar.MyTeam.Draw(stacknum);
             }
             if (this.BChar.BuffFind("B_FLancelot_C_1"))
             {
                 this.BChar.BuffReturn("B_FLancelot_P_3")?.SelfDestroy();
-                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 3);
-                this.BChar.Damage(this.BChar, 20, false, true);
+                this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 2);
                 this.BChar.BuffAdd("B_FLancelot_7", this.BChar);
             }
         }
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 3.0f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 2.0f)).ToString());
         }
     }
 }

@@ -20,9 +20,26 @@ namespace FairyLancelot
     {
         public int flag = 0;
 
+        public List<Skill> list = new List<Skill>();
+
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             this.BChar.HP = this.BChar.GetStat.maxhp;
+
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck.FindAll(t => t.MySkill.KeyID != "S_FLancelot_Rare_1"));
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Master.IsLucyNoC || list[i].Master != this.BChar)
+                {
+                    list.RemoveAt(i);
+                    i--;
+                }
+            }
+
+            for (int i = 0; i < 3; i++)
+            {
+                BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
+            }
         }
 
         public override void FixedUpdate()
@@ -73,6 +90,13 @@ namespace FairyLancelot
 
                 BattleSystem.instance.StartCoroutine(BattleSystem.instance.ActWindow.Window.SkillInstantiate(BattleSystem.instance.AllyTeam, true));
             }
+        }
+
+        public void Del(SkillButton Mybutton)
+        {
+            Mybutton.Myskill.Master.MyTeam.ForceDraw(Mybutton.Myskill);
+            Mybutton.Myskill.APChange = -99;
+            list.Remove(Mybutton.Myskill);
         }
     }
 }

@@ -25,15 +25,15 @@ namespace FairyLancelot
             this.PlusStat.atk = -1 * StackNum;
             this.PlusStat.cri = 5 * StackNum;
 
-            if (BattleSystem.instance != null)
-            {
-                if (BattleSystem.instance.AllyList.Any((BattleAlly i) => i.BuffFind("B_FLancelot_Rare_1", false)))
-                {
-                    this.BuffData.MaxStack = 5;
-                    return;
-                }
-            }
-            this.BuffData.MaxStack = 3;
+            //if (BattleSystem.instance != null)
+            //{
+            //    if (BattleSystem.instance.AllyList.Any((BattleAlly i) => i.BuffFind("B_FLancelot_Rare_1", false)))
+            //    {
+            //        this.BuffData.MaxStack = 5;
+            //        return;
+            //    }
+            //}
+            //this.BuffData.MaxStack = 3;
         }
     }
 }

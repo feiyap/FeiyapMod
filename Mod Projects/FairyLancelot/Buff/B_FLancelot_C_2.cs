@@ -23,7 +23,7 @@ namespace FairyLancelot
         public override void Init()
         {
             base.Init();
-            this.PlusPerStat.MaxHP = 20;
+            this.PlusStat.dod = 10;
             this.OnePassive = true;
         }
 

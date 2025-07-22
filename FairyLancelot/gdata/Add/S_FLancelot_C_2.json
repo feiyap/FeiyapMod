@@ -6,6 +6,7 @@
         "Target": "self",
         "NoDrop": true,
         "Name": "骑士",
-        "Description": "切换至“骑士”形态。"
+        "Description": "切换至“骑士”形态。",
+        "Image_0": "S_FLancelot_C_2\\S_FLancelot_C_2_Image_0.png"
     }
 }

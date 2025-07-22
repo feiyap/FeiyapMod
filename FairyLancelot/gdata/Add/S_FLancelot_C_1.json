@@ -20,6 +20,7 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "Image_0": "S_FLancelot_C_1\\S_FLancelot_C_1_Image_0.png"
     }
 }

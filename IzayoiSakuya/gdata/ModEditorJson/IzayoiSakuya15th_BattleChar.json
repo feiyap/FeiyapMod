@@ -1,0 +1,23 @@
+{
+    "myKey": "IzayoiSakuya15th",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Sakuya_15th\\Sakuya_15thBattleChar.png",
+        "offsetMax": {
+            "x": 937.4692,
+            "y": 582.8367
+        },
+        "offsetMin": {
+            "x": -911.3966,
+            "y": -1266.029
+        },
+        "pivot": {
+            "x": 0.492949039,
+            "y": 0.684759855
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

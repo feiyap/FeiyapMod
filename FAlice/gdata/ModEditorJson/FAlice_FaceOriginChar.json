@@ -1,0 +1,23 @@
+{
+    "myKey": "FAlice",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "FAlice\\FAliceFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1173.73242,
+            "y": 703.761536
+        },
+        "offsetMin": {
+            "x": -1252.10571,
+            "y": -1722.07666
+        },
+        "pivot": {
+            "x": 0.5155767,
+            "y": 0.707673967
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

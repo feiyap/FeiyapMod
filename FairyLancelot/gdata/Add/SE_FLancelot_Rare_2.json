@@ -1,0 +1,9 @@
+{
+    "SE_FLancelot_Rare_2": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "幻想种",
+        "ClassName": "FairyLancelot.SE_FLancelot_Rare_2"
+    }
+}

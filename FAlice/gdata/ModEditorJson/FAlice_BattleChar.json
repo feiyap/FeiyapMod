@@ -1,0 +1,23 @@
+{
+    "myKey": "FAlice",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "FAlice\\FAliceBattleChar.png",
+        "offsetMax": {
+            "x": 1041.27417,
+            "y": 732.467834
+        },
+        "offsetMin": {
+            "x": -1164.0332,
+            "y": -1472.8396
+        },
+        "pivot": {
+            "x": 0.5278326,
+            "y": 0.667861342
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

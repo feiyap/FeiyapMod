@@ -112,18 +112,62 @@ namespace FairyLancelot
 
         public void Turn()
         {
-            if (this.BChar.BuffFind("B_FLancelot_Rare_1") || this.BChar.BuffFind("B_FLancelot_Rare_2"))
+            //好感度
+            if (BattleSystem.instance.TurnNum == 3)
+            {
+                var haogan1 = BattleSystem.instance.AllyTeam.Skills_Deck.Where(s => s.MySkill.KeyID == "S_FLancelot_2").ToList();
+                if (haogan1.Count != 0)
+                {
+                    BattleSystem.instance.AllyTeam.Skills_Deck.Remove(haogan1[0]);
+                    BattleSystem.instance.AllyTeam.Skills_Deck.Insert(0, haogan1[0]);
+                }
+
+                var haogan2 = BattleSystem.instance.AllyTeam.Skills_Deck.Where(s => s.MySkill.KeyID == "S_FLancelot_3").ToList();
+                if (haogan2.Count != 0)
+                {
+                    BattleSystem.instance.AllyTeam.Skills_Deck.Remove(haogan2[0]);
+                    BattleSystem.instance.AllyTeam.Skills_Deck.Insert(0, haogan2[0]);
+                }
+
+                var haogan3 = BattleSystem.instance.AllyTeam.Skills_Deck.Where(s => s.MySkill.KeyID == "S_FLancelot_4").ToList();
+                if (haogan3.Count != 0)
+                {
+                    BattleSystem.instance.AllyTeam.Skills_Deck.Remove(haogan3[0]);
+                    BattleSystem.instance.AllyTeam.Skills_Deck.Insert(0, haogan3[0]);
+                }
+            }
+
+            if (! (this.BChar.BuffFind("B_FLancelot_Rare_1") || this.BChar.BuffFind("B_FLancelot_Rare_2")))
+            {
+                List<Skill> list = new List<Skill>();
+                list.Add(Skill.TempSkill("S_FLancelot_C_1", this.BChar, this.BChar.MyTeam));
+                list.Add(Skill.TempSkill("S_FLancelot_C_2", this.BChar, this.BChar.MyTeam));
+                foreach (Skill skill in list)
+                {
+                    skill.DelObj = this.BChar;
+                }
+                BattleSystem.DelayInputAfter(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del2), ScriptLocalization.System_SkillSelect.EffectSelect, false, true, true, false, true));
+
+            }
+
+            //遗骸
+            var matchingSkills = BattleSystem.instance.AllyTeam.Skills_Deck.Where(s => s.MySkill.KeyID == "S_FLancelot_10").ToList();
+
+            if (matchingSkills.Count == 0)
             {
                 return;
             }
-            List<Skill> list = new List<Skill>();
-            list.Add(Skill.TempSkill("S_FLancelot_C_1", this.BChar, this.BChar.MyTeam));
-            list.Add(Skill.TempSkill("S_FLancelot_C_2", this.BChar, this.BChar.MyTeam));
-            foreach (Skill skill in list)
+
+            new List<Skill>();
+            List<Skill> list2 = new List<Skill>();
+            list2.Add(Skill.TempSkill("S_FLancelot_10_1", this.BChar, this.BChar.MyTeam));
+            list2.Add(Skill.TempSkill("S_FLancelot_10_2", this.BChar, this.BChar.MyTeam));
+            foreach (Skill skill in list2)
             {
                 skill.DelObj = this.BChar;
             }
-            BattleSystem.DelayInputAfter(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del2), ScriptLocalization.System_SkillSelect.CreateSkill, false, true, true, false, true));
+
+            BattleSystem.DelayInputAfter(BattleSystem.I_OtherSkillSelect(list2, new SkillButton.SkillClickDel(this.Del3), ScriptLocalization.System_SkillSelect.EffectSelect, false, true, true, false, true));
         }
 
         public void Del2(SkillButton Mybutton)
@@ -140,6 +184,41 @@ namespace FairyLancelot
                 this.BChar.BuffAdd("B_FLancelot_C_2", this.BChar);
                 this.BChar.BuffReturn("B_FLancelot_C_1")?.SelfDestroy();
                 this.BChar.BuffReturn("B_FLancelot_P_3")?.SelfDestroy();
+                return;
+            }
+        }
+
+        public void Del3(SkillButton Mybutton)
+        {
+            if (Mybutton.Myskill.MySkill.KeyID == "S_FLancelot_10_1")
+            {
+                var matchingSkills = BattleSystem.instance.AllyTeam.Skills_Deck.Where(s => s.MySkill.KeyID == "S_FLancelot_10").ToList();
+
+                if (matchingSkills.Count == 0)
+                {
+                    return;
+                }
+
+                if (matchingSkills.Count == 1)
+                {
+                    this.BChar.MyTeam.ForceDraw(matchingSkills[0]);
+                    return;
+                }
+
+                // 有多个匹配项，随机返回其中一个
+                System.Random rnd = new System.Random();
+                int randomIndex = rnd.Next(0, matchingSkills.Count);
+                this.BChar.MyTeam.ForceDraw(matchingSkills[randomIndex]);
+
+                foreach (BattleChar bc in BattleSystem.instance.AllyList)
+                {
+                    bc.Damage(this.BChar, 5, false, true);
+                }
+
+                return;
+            }
+            if (Mybutton.Myskill.MySkill.KeyID == "S_FLancelot_10_2")
+            {
                 return;
             }
         }

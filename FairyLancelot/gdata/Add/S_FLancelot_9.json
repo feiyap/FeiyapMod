@@ -1,0 +1,22 @@
+{
+    "S_FLancelot_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S_TheLight_4",
+        "Target": "all_enemy",
+        "Name": "终焉",
+        "Description": "湖光骑士 - 使用该技能后，记录本回合使用的技能次数。回合结束时，每使用 1 个技能，对随机敌人造成 5 点伤害。\n\n幻想种 - 额外造成 &a 伤害(攻击力的30%)。击杀敌人时，使所有友军获得持续 3 回合的“攻击力+1”。",
+        "UseAp": 2,
+        "User": "FairyLancelot",
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_FLancelot_9",
+        "Except": false,
+        "SkillExtended": [
+            "FairyLancelot.S_FLancelot_9"
+        ],
+        "IgnoreTaunt": false,
+        "Image_0": "S_FLancelot_9\\S_FLancelot_9_Image_0.png",
+        "Image_1": "S_FLancelot_9\\S_FLancelot_9_Image_1.png",
+        "Image_2": "S_FLancelot_9\\S_FLancelot_9_Image_2.png"
+    }
+}

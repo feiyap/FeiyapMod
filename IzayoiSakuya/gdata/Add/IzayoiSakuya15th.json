@@ -1,0 +1,15 @@
+{
+    "IzayoiSakuya15th": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "幻雾的杀人鬼",
+        "Character": "IzayoiSakuya",
+        "SkinDesc": "今天该泡什么红茶好呢？\n宴会的收拾工作要悄无声息，不让人操心。\n我可不需要什么赞美或感谢哦。",
+        "CampSD": [
+            "Sakuya_15th\\Sakuya_15thCampSD0.png",
+            "Sakuya_15th\\Sakuya_15thCampSD1.png",
+            "Sakuya_15th\\Sakuya_15thCampSD2.png",
+            "Sakuya_15th\\Sakuya_15thCampSD3.png"
+        ],
+        "FaceSprite": "Sakuya_15th\\Sakuya_15thBattleFace.png"
+    }
+}

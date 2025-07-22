@@ -4,7 +4,7 @@ namespace FairyLancelot
     public static class ModItemKeys
     {
 		/// <summary>
-		/// 攻击力提升
+		/// 最大体力值提升
 		/// </summary>
         public static string Buff_B_FLancelot_0 = "B_FLancelot_0";
 		/// <summary>
@@ -16,10 +16,31 @@ namespace FairyLancelot
 		/// </summary>
         public static string Buff_B_FLancelot_0_2 = "B_FLancelot_0_2";
 		/// <summary>
+		/// 闪避率提升
+		/// </summary>
+        public static string Buff_B_FLancelot_0_3 = "B_FLancelot_0_3";
+		/// <summary>
 		/// 妖精剑舞
 		/// 下 1 次使用技能时恢复 1 点法力值。
 		/// </summary>
         public static string Buff_B_FLancelot_1 = "B_FLancelot_1";
+		/// <summary>
+		/// 阿尔比昂的遗骸
+		/// 使用技能时，依据技能的指向：
+		/// 指向敌人 - 对其他敌人造成该技能40%的伤害。
+		/// 所有敌人 - 额外施加持续 3 回合的“每次行动时受到 2% 最大体力值的伤害”。
+		/// 自身 - 额外施加“防御力+2”，并恢复 1 点法力值。
+		/// </summary>
+        public static string Buff_B_FLancelot_10 = "B_FLancelot_10";
+		/// <summary>
+		/// 龙泪
+		/// 每次行动时受到 2% 最大体力值的伤害。
+		/// </summary>
+        public static string Buff_B_FLancelot_10_0 = "B_FLancelot_10_0";
+		/// <summary>
+		/// 防御力提升
+		/// </summary>
+        public static string Buff_B_FLancelot_10_1 = "B_FLancelot_10_1";
 		/// <summary>
 		/// 你已深陷于我
 		/// 只能指定&user为目标。
@@ -67,7 +88,7 @@ namespace FairyLancelot
 		/// </summary>
         public static string Buff_B_FLancelot_6_0 = "B_FLancelot_6_0";
 		/// <summary>
-		/// 保护体力极限
+		/// 暴击率提升
 		/// </summary>
         public static string Buff_B_FLancelot_7 = "B_FLancelot_7";
 		/// <summary>
@@ -75,9 +96,21 @@ namespace FairyLancelot
 		/// </summary>
         public static string Buff_B_FLancelot_8 = "B_FLancelot_8";
 		/// <summary>
-		/// 闪避率提升
+		/// 最大体力值提升
 		/// </summary>
         public static string Buff_B_FLancelot_8_0 = "B_FLancelot_8_0";
+		/// <summary>
+		/// 防御力降低
+		/// </summary>
+        public static string Buff_B_FLancelot_9 = "B_FLancelot_9";
+		/// <summary>
+		/// 终焉
+		/// </summary>
+        public static string Buff_B_FLancelot_9_0 = "B_FLancelot_9_0";
+		/// <summary>
+		/// 攻击力提升
+		/// </summary>
+        public static string Buff_B_FLancelot_9_1 = "B_FLancelot_9_1";
 		/// <summary>
 		/// 保护罩
 		/// </summary>
@@ -95,6 +128,14 @@ namespace FairyLancelot
 		/// 每次使用自身技能时，获得 1 层“舞者”。
 		/// </summary>
         public static string Buff_B_FLancelot_C_2 = "B_FLancelot_C_2";
+		/// <summary>
+		/// 保护体力极限
+		/// </summary>
+        public static string Buff_B_FLancelot_LucyD = "B_FLancelot_LucyD";
+		/// <summary>
+		/// 每回合抽牌
+		/// </summary>
+        public static string Buff_B_FLancelot_LucyD_0 = "B_FLancelot_LucyD_0";
 		/// <summary>
 		/// 好感度
 		/// 每 10 点好感度提高 0.5 攻击力和 2 点最大体力。
@@ -123,16 +164,17 @@ namespace FairyLancelot
         public static string Buff_B_FLancelot_P_4 = "B_FLancelot_P_4";
 		/// <summary>
 		/// 湖光骑士
-		/// “舞者”上限改变为 5 层。
-		/// 释放技能时，重复释放 3 次。
-		/// 击杀敌人时，恢复 2 点法力值。
-		/// 受到 20 点以上的伤害时，转变为受到<color=purple> 15 点痛苦伤害</color>。
+		/// 释放技能时，重复释放 5 次，每次降低10%伤害。
+		/// 击杀敌人时，恢复 1 点法力值，闪避率加成变为70%。
 		/// <b><color=#87CEFA>无法切换为“邪龙”。</color></b>
 		/// </summary>
         public static string Buff_B_FLancelot_Rare_1 = "B_FLancelot_Rare_1";
 		/// <summary>
 		/// 幻想种
-		/// 每次造成伤害后，移除 10 点体力值，获得“+5攻击力”，持续 3 回合。
+		/// 从好感度中获得的基础属性翻倍。
+		/// 所有技能的伤害提升 &a (攻击力的110%)。
+		/// 回合结束时，根据剩余法力值获得对应攻击力提升。
+		/// 每次造成不低于 20 点伤害时，使所有队友获得 5 点保护罩。
 		/// </summary>
         public static string Buff_B_FLancelot_Rare_2 = "B_FLancelot_Rare_2";
 		/// <summary>
@@ -146,56 +188,78 @@ namespace FairyLancelot
 		/// 体力值小于等于最大体力值50%时，获得“狂化”；否则获得“理智”。
 		/// 每回合开始时，从“骑士”和“邪龙”中选择1项作为自己的形态。
 		/// 无法违背的誓约：进入战斗时，从 5 种“誓言”中选择 2 项。
-		/// 若在战斗中违背“誓言”，则好感度清零。
+		/// 若在战斗中违背“誓言”，则好感度降低 2 点。
 		/// 若遵守“誓言”完成战斗，增加对应的好感度。
 		/// 到达100好感度时，解锁这个被动，不再需要“誓言”。
 		/// </summary>
         public static string Character_FairyLancelot = "FairyLancelot";
         public static string SkillEffect_SE_T_S_FLancelot_0 = "SE_T_S_FLancelot_0";
         public static string SkillEffect_SE_T_S_FLancelot_1 = "SE_T_S_FLancelot_1";
+        public static string SkillEffect_SE_T_S_FLancelot_10 = "SE_T_S_FLancelot_10";
         public static string SkillEffect_SE_T_S_FLancelot_2 = "SE_T_S_FLancelot_2";
         public static string SkillEffect_SE_T_S_FLancelot_3 = "SE_T_S_FLancelot_3";
         public static string SkillEffect_SE_T_S_FLancelot_4 = "SE_T_S_FLancelot_4";
         public static string SkillEffect_SE_T_S_FLancelot_5 = "SE_T_S_FLancelot_5";
+        public static string SkillEffect_SE_T_S_FLancelot_5_0 = "SE_T_S_FLancelot_5_0";
         public static string SkillEffect_SE_T_S_FLancelot_6 = "SE_T_S_FLancelot_6";
         public static string SkillEffect_SE_T_S_FLancelot_7 = "SE_T_S_FLancelot_7";
         public static string SkillEffect_SE_T_S_FLancelot_8 = "SE_T_S_FLancelot_8";
+        public static string SkillEffect_SE_T_S_FLancelot_9 = "SE_T_S_FLancelot_9";
+        public static string SkillEffect_SE_T_S_FLancelot_9_0 = "SE_T_S_FLancelot_9_0";
         public static string SkillEffect_SE_T_S_FLancelot_Rare_1 = "SE_T_S_FLancelot_Rare_1";
         public static string SkillEffect_SE_T_S_FLancelot_Rare_2 = "SE_T_S_FLancelot_Rare_2";
 		/// <summary>
 		/// 最后的妖精
 		/// 骑士 - 获得 1 层“舞者”。抽取 1 个技能。依据“舞者”的层数：
-		/// ①恢复 5 点体力值；
+		/// ①额外获得持续 3 回合的“闪避率+5%”；
 		/// ②使抽取到的技能费用降低 1 点；
-		/// ③选择并生成 1 个自己的专属技能。
+		/// ③从牌库选择并抽取 1 个自己的技能。
 		/// 邪龙 - 获得 1 层“龙之心”。获得持续 1 回合的“攻击力+1”。依据“龙之心”的层数：
-		/// ①额外获得持续 1 回合的“攻击力+1”；
-		/// ②额外获得持续 1 回合的“防御穿透+10%”；
-		/// ③选择并生成 1 个自己的专属技能。
-		/// 好感度10 - 若自身为“理智”：本回合结束时恢复所有友方单位 5 点体力值。
+		/// ①额外获得持续 3 回合的“最大体力值+10%”；
+		/// ②额外获得持续 3 回合的“防御穿透+10%”；
+		/// ③从牌库选择并抽取 1 个自己的技能。
+		/// 好感度10 - 本回合结束时恢复所有友方单位 8 点体力值。
 		/// </summary>
         public static string Skill_S_FLancelot_0 = "S_FLancelot_0";
 		/// <summary>
 		/// 妖精剑舞
 		/// 骑士 - 获得 1 层“舞者”。
-		/// 邪龙 - 获得 1 层“龙之心”。额外造成 &a 伤害(攻击力的70%)。
+		/// 邪龙 - 获得 1 层“龙之心”。额外造成 &a 伤害(攻击力的50%)。
 		/// 好感度30 - 获得“下 1 次使用技能时恢复 1 点法力值”。
 		/// </summary>
         public static string Skill_S_FLancelot_1 = "S_FLancelot_1";
 		/// <summary>
+		/// 阿尔比昂的遗骸
+		/// 回合开始时，若该技能不在手中，可以消耗所有友军 5 点体力值，将这个技能抽取到手中。
+		/// </summary>
+        public static string Skill_S_FLancelot_10 = "S_FLancelot_10";
+		/// <summary>
+		/// 阿尔比昂的遗骸
+		/// 消耗所有友军 5 点体力值，将“阿尔比昂的遗骸”抽取到手中。
+		/// </summary>
+        public static string Skill_S_FLancelot_10_1 = "S_FLancelot_10_1";
+		/// <summary>
+		/// 阿尔比昂的遗骸
+		/// 什么都不做。
+		/// </summary>
+        public static string Skill_S_FLancelot_10_2 = "S_FLancelot_10_2";
+		/// <summary>
 		/// 你已深陷于我
 		/// <color=#FF69B4><i>*兰斯洛特等级大于等于3且好感度达到30时自动学会*</i></color>
+		/// 第 3 回合开始时，置于牌堆顶。
 		/// </summary>
         public static string Skill_S_FLancelot_2 = "S_FLancelot_2";
 		/// <summary>
 		/// 你已无法离开我
-		/// <color=#FF69B4><i>*兰斯洛特等级大于等于4且好感度达到30时自动学会*</i></color>
+		/// <color=#FF69B4><i>*兰斯洛特等级大于等于4且好感度达到50时自动学会*</i></color>
+		/// 第 3 回合开始时，置于牌堆顶。
 		/// 若目标持有“你已深陷于我”，将“舞者”、“龙之心”提升至满层。
 		/// </summary>
         public static string Skill_S_FLancelot_3 = "S_FLancelot_3";
 		/// <summary>
 		/// 你已完全属于我
-		/// <color=#FF69B4><i>*兰斯洛特等级大于等于5且好感度达到100时自动学会*</i></color>
+		/// <color=#FF69B4><i>*兰斯洛特等级大于等于5且好感度达到80时自动学会*</i></color>
+		/// 第 3 回合开始时，置于牌堆顶。
 		/// 若目标持有“你已深陷于我”、“你已无法离开我”，则从本局游戏中放逐“你已深陷于我”、“你已无法离开我”、“你已完全属于我”，使这三个减益的持续时间改变为“永久”。
 		/// 那之后，丢弃所有手中的技能，恢复 5 点法力值，抽取技能直到手牌上限。
 		/// 那之后，自身获得“+100%目标攻击力，+100%对目标伤害，+20%防御穿透”。
@@ -203,15 +267,16 @@ namespace FairyLancelot
         public static string Skill_S_FLancelot_4 = "S_FLancelot_4";
 		/// <summary>
 		/// 龙之枪
-		/// 骑士 - 击杀敌人时，溢出的伤害会分摊给其他敌人。
+		/// 骑士 - 对目标两侧的敌人造成 &a 伤害(攻击力的32%)。
 		/// 邪龙 - 施加“-10%防御力、+10%受到的伤害”，持续 3 回合。
 		/// 丢弃手中最上方的技能，依据那个技能的原本费用：
 		/// 0 - 抽取 1 个技能。
-		/// 1 - 额外造成 &a 伤害(攻击力的90%)。
+		/// 1 - 额外造成 &b 伤害(攻击力的50%)。
 		/// 2及以上 - 自身获得“+20%暴击率”，持续 3 回合。
-		/// 好感度50 - 随机生成 1 个露西稀有技能。
+		/// 好感度50 - 从牌库展示并选择 1 个露西技能加入手中。
 		/// </summary>
         public static string Skill_S_FLancelot_5 = "S_FLancelot_5";
+        public static string Skill_S_FLancelot_5_0 = "S_FLancelot_5_0";
 		/// <summary>
 		/// 妖精湖的加护
 		/// 如果目标为自身，其他队友获得一半数值的增益。
@@ -220,19 +285,26 @@ namespace FairyLancelot
 		/// <summary>
 		/// 光之地平线
 		/// 骑士 - 移除所有“舞者”增益。
-		/// 恢复 4 点法力值，获得 1 次等待次数和交换次数，抽取 1 个技能。
+		/// 依据移除的“舞者”层数 X，恢复 X 点法力值，获得 X 次等待次数和交换次数，抽取 X 个技能。
 		/// 邪龙 - 移除所有“龙之心”增益。
-		/// 额外造成 &a 伤害(攻击力的300%)。自身受到<color=purple>20 点痛苦伤害</color>，获得“保护体力极限”，持续 1 回合。
+		/// 额外造成 &a 伤害(攻击力的200%)。获得“暴击率+5%”，持续 3 回合。
 		/// </summary>
         public static string Skill_S_FLancelot_7 = "S_FLancelot_7";
 		/// <summary>
 		/// 苍穹的试炼
 		/// 骑士 - 额外施加 1 层“苍穹的试炼”。
 		/// 邪龙 - 额外造成 &a 伤害(攻击力的40%)。
-		/// 理性 - 自身获得“+10%闪避率”，持续 3 回合。
+		/// 理性 - 所有友军获得“最大体力值+10%”，持续 3 回合。
 		/// 狂化 - 必定暴击。
 		/// </summary>
         public static string Skill_S_FLancelot_8 = "S_FLancelot_8";
+		/// <summary>
+		/// 终焉
+		/// 湖光骑士 - 使用该技能后，记录本回合使用的技能次数。回合结束时，每使用 1 个技能，对随机敌人造成 5 点伤害。
+		/// 幻想种 - 额外造成 &a 伤害(攻击力的30%)。击杀敌人时，使所有友军获得持续 3 回合的“攻击力+1”。
+		/// </summary>
+        public static string Skill_S_FLancelot_9 = "S_FLancelot_9";
+        public static string Skill_S_FLancelot_9_0 = "S_FLancelot_9_0";
 		/// <summary>
 		/// 邪龙
 		/// 切换至“邪龙”形态。
@@ -257,8 +329,8 @@ namespace FairyLancelot
         public static string Skill_S_FLancelot_H_2 = "S_FLancelot_H_2";
 		/// <summary>
 		/// 无法违背的誓约
-		/// 兰斯洛特不能使用原始费用为 3 的技能。
-		/// 完成誓约时，增加 4 点好感度。
+		/// 兰斯洛特使用技能次数大于 5 次。
+		/// 完成誓约时，增加 3 点好感度。
 		/// </summary>
         public static string Skill_S_FLancelot_H_3 = "S_FLancelot_H_3";
 		/// <summary>
@@ -274,7 +346,15 @@ namespace FairyLancelot
 		/// </summary>
         public static string Skill_S_FLancelot_H_5 = "S_FLancelot_H_5";
 		/// <summary>
+		/// 我对你的爱
+		/// 抽取 2 个技能。
+		/// 若兰斯洛特存活，则使其获得 2 点好感度。
+		/// 若兰斯洛特的好感度不低于 50，额外抽取 1 个技能。
+		/// </summary>
+        public static string Skill_S_FLancelot_LucyD = "S_FLancelot_LucyD";
+		/// <summary>
 		/// 无垢湖光
+		/// 每次使用手中的、自己的技能时，费用降低 1 点。
 		/// 移除自身所有减益。
 		/// 展示牌库中所有自己的技能，选择其中 3 个加入手中，并使其费用变为 0。
 		/// <b><color=red>切换为“邪龙”形态时，这个技能变为“无垢搏动”。</color></b>
@@ -283,9 +363,14 @@ namespace FairyLancelot
 		/// <summary>
 		/// 无垢搏动
 		/// 恢复全部体力值。
+		/// 展示牌库中所有自己的技能，选择其中 3 个加入手中，并使其费用变为 0。
 		/// <b><color=#87CEFA>切换为“骑士”形态时，这个技能变为“无垢湖光”。</color></b>
 		/// </summary>
         public static string Skill_S_FLancelot_Rare_2 = "S_FLancelot_Rare_2";
+		/// <summary>
+		/// 幻想种
+		/// </summary>
+        public static string SkillExtended_SE_FLancelot_Rare_2 = "SE_FLancelot_Rare_2";
 
     }
 
@@ -314,7 +399,7 @@ namespace FairyLancelot
 		/// English:
 		/// Japanese:
 		/// Chinese:
-		/// 兰斯洛特不能使用原始费用为 3 的技能；
+		/// 兰斯洛特使用技能次数大于 5 次；
 		/// Chinese-TW:
 		/// </summary>
         public static string S_FLancelot_H_3 => ModManager.getModInfo("FairyLancelot").localizationInfo.SystemLocalizationUpdate("S_FLancelot_H_3");

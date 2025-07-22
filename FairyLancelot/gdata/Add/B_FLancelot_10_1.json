@@ -1,0 +1,11 @@
+{
+    "B_FLancelot_10_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_10_1",
+        "BuffTag": "null",
+        "Name": "防御力提升",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (12)",
+        "MaxStack": 5,
+        "LifeTime": 0
+    }
+}

@@ -5,7 +5,9 @@
         "Particle": "Particle/impact",
         "Target": "Misc",
         "Name": "无法违背的誓约",
-        "Description": "兰斯洛特不能使用原始费用为 3 的技能。\n完成誓约时，增加 4 点好感度。",
-        "Effect_Target": "null"
+        "Description": "兰斯洛特使用技能次数大于 5 次。\n完成誓约时，增加 3 点好感度。",
+        "Effect_Target": "null",
+        "IgnoreTaunt": false,
+        "Image_0": "S_FLancelot_H_3\\S_FLancelot_H_3_Image_0.png"
     }
 }

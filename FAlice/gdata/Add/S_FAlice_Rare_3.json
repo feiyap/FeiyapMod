@@ -1,0 +1,22 @@
+{
+    "S_FAlice_Rare_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "Misc",
+        "Name": "终符「猎奇剧团座流星雨」",
+        "User": "FAlice",
+        "Description": "将所有倒计时中的「人形」技能置入弃牌库。\n将 1 个“试验中「歌莉娅人形」”加入倒计时栏。",
+        "UseAp": 3,
+        "Disposable": false,
+        "NotCount": true,
+        "Image_0": "S_FAlice_Rare_3\\S_FAlice_Rare_3_Image_0.png",
+        "Image_1": "S_FAlice_Rare_3\\S_FAlice_Rare_3_Image_1.png",
+        "Image_2": "S_FAlice_Rare_3\\S_FAlice_Rare_3_Image_2.png",
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "PlusSkillView": "S_FAlice_Rare_3_0"
+    }
+}

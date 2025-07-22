@@ -16,7 +16,7 @@ namespace FairyLancelot
 	/// <summary>
 	/// 无垢湖光
 	/// </summary>
-    public class S_FLancelot_Rare_1:Skill_Extended
+    public class S_FLancelot_Rare_1:Skill_Extended, IP_SkillUse_Team
     {
         public int flag = 0;
 
@@ -50,6 +50,14 @@ namespace FairyLancelot
             for (int i = 0; i < 3; i++)
             {
                 BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
+            }
+        }
+
+        public void SkillUseTeam(Skill skill)
+        {
+            if (skill.Master == this.BChar)
+            {
+                this.APChange--;
             }
         }
 
@@ -106,6 +114,7 @@ namespace FairyLancelot
         public void Del(SkillButton Mybutton)
         {
             Mybutton.Myskill.Master.MyTeam.ForceDraw(Mybutton.Myskill);
+            Mybutton.Myskill.APChange = -99;
             list.Remove(Mybutton.Myskill);
         }
     }

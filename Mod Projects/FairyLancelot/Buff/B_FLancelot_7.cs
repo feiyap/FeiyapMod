@@ -21,7 +21,7 @@ namespace FairyLancelot
         public override void Init()
         {
             base.Init();
-            this.PlusStat.Strength = true;
+            this.PlusStat.cri = 5;
         }
     }
 }

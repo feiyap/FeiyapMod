@@ -1,0 +1,23 @@
+{
+    "myKey": "DWater",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "DWater\\DWaterFaceOriginChar.png",
+        "offsetMax": {
+            "x": 642.4111,
+            "y": 222.13176
+        },
+        "offsetMin": {
+            "x": -557.5889,
+            "y": -1577.86829
+        },
+        "pivot": {
+            "x": 0.464657426,
+            "y": 0.8765935
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

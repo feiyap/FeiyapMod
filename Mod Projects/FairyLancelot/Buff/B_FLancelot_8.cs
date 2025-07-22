@@ -21,7 +21,7 @@ namespace FairyLancelot
         public override void Init()
         {
             base.Init();
-            this.PlusStat.DMGTaken = 10 * StackNum;
+            this.PlusStat.DMGTaken = 5 * StackNum;
         }
     }
 }

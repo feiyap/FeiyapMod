@@ -1,0 +1,20 @@
+{
+    "S_FAlice_Rare_3_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "Misc",
+        "NotCount": true,
+        "Name": "试验中「歌莉娅人形」",
+        "UseAp": 9,
+        "Description": "这个技能处于倒计时中时，为&user提供“+5攻击力，+5治疗力，+10最大体力值，+25%暴击率，+25%闪避率，+40%无法战斗抵抗”。\n这个技能处于倒计时中时，使其他「人形」技能的效果变为：恢复 1 点法力值并抽取 1 个技能。\n触发时，对所有敌人造成一次伤害。\n每触发 3 次后，下 1 次触发改为对所有敌人造成 &a 伤害(攻击力的450%)。然后将这个技能放逐。",
+        "NoBasicSkill": true,
+        "Except": true,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_FAlice_Rare_3_0",
+        "Image_0": "S_FAlice_Rare_3_0\\S_FAlice_Rare_3_0_Image_0.png",
+        "Image_1": "S_FAlice_Rare_3_0\\S_FAlice_Rare_3_0_Image_1.png",
+        "Image_2": "S_FAlice_Rare_3_0\\S_FAlice_Rare_3_0_Image_2.png"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "S_FAlice_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "choiceskill",
+        "Name": "聚焦「绊线」",
+        "Description": "选择：\n- 选择 1 个「人形」技能，将其置入弃牌库。\n- 随机丢弃手中 2 个技能。",
+        "User": "FAlice",
+        "UseAp": 2,
+        "Disposable": true,
+        "Image_0": "S_FAlice_8\\S_FAlice_8_Image_0.png",
+        "Image_1": "S_FAlice_8\\S_FAlice_8_Image_1.png",
+        "Image_2": "S_FAlice_8\\S_FAlice_8_Image_2.png"
+    }
+}

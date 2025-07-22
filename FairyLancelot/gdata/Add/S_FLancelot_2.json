@@ -4,16 +4,30 @@
         "Category": "null",
         "Particle": "Particle/Buff",
         "Target": "enemy",
-        "NotCount": false,
+        "NotCount": true,
         "Basic": false,
         "Name": "你已深陷于我",
-        "Description": "<color=#FF69B4><i>*兰斯洛特等级大于等于3且好感度达到30时自动学会*</i></color>",
+        "Description": "<color=#FF69B4><i>*兰斯洛特等级大于等于3且好感度达到30时自动学会*</i></color>\n第 3 回合开始时，置于牌堆顶。",
         "UseAp": 1,
         "Effect_Target": "SE_T_S_FLancelot_2",
         "NoDrop": true,
         "Track": false,
         "SkillExtended": [
             "FairyLancelot.S_FLancelot_2"
-        ]
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_FLancelot_2\\S_FLancelot_2_Image_0.png",
+        "Image_1": "S_FLancelot_2\\S_FLancelot_2_Image_1.png",
+        "Image_2": "S_FLancelot_2\\S_FLancelot_2_Image_2.png"
     }
 }

@@ -21,7 +21,7 @@ namespace FairyLancelot
         public override void Init()
         {
             base.Init();
-            this.PlusStat.atk = StackNum;
+            this.PlusPerStat.MaxHP = 10;
         }
     }
 }

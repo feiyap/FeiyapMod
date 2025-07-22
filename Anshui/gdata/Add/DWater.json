@@ -1,0 +1,15 @@
+{
+    "DWater": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "name": "暗水",
+        "face": "DWater\\DWaterBattleFace.png",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 20,
+            "y": 40
+        }
+    }
+}

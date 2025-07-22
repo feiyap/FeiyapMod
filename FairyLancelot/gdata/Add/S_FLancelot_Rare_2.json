@@ -8,16 +8,17 @@
         "NotCount": true,
         "Except": true,
         "Name": "无垢搏动",
-        "UseAp": 5,
+        "UseAp": 1,
         "User": "FairyLancelot",
         "Effect_Target": "SE_T_S_FLancelot_Rare_2",
-        "Description": "恢复全部体力值。\n\n<b><color=#87CEFA>切换为“骑士”形态时，这个技能变为“无垢湖光”。</color></b>",
+        "Description": "恢复全部体力值。\n展示牌库中所有自己的技能，选择其中 3 个加入手中，并使其费用变为 0。\n\n<b><color=#87CEFA>切换为“骑士”形态时，这个技能变为“无垢湖光”。</color></b>",
         "SkillExtended": [
             "FairyLancelot.S_FLancelot_Rare_2"
         ],
         "NoBasicSkill": true,
         "Image_0": "S_FLancelot_Rare_2\\S_FLancelot_Rare_2_Image_0.png",
         "Image_1": "S_FLancelot_Rare_2\\S_FLancelot_Rare_2_Image_1.png",
-        "Image_2": "S_FLancelot_Rare_2\\S_FLancelot_Rare_2_Image_2.png"
+        "Image_2": "S_FLancelot_Rare_2\\S_FLancelot_Rare_2_Image_2.png",
+        "NoDrop": false
     }
 }

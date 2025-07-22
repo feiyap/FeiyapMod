@@ -7,6 +7,7 @@
         "Track": false,
         "Name": "无法违背的誓约",
         "Description": "兰斯洛特没有阵亡过。\n完成誓约时，增加 1 点好感度。",
-        "NoDrop": false
+        "NoDrop": false,
+        "Image_0": "S_FLancelot_H_1\\S_FLancelot_H_1_Image_0.png"
     }
 }

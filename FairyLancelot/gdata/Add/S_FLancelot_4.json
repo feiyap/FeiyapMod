@@ -8,12 +8,15 @@
         "UseAp": 1,
         "NoDrop": true,
         "Effect_Target": "SE_T_S_FLancelot_4",
-        "Description": "<color=#FF69B4><i>*兰斯洛特等级大于等于5且好感度达到100时自动学会*</i></color>\n若目标持有“你已深陷于我”、“你已无法离开我”，则从本局游戏中放逐“你已深陷于我”、“你已无法离开我”、“你已完全属于我”，使这三个减益的持续时间改变为“永久”。\n那之后，丢弃所有手中的技能，恢复 5 点法力值，抽取技能直到手牌上限。\n那之后，自身获得“+100%目标攻击力，+100%对目标伤害，+20%防御穿透”。",
+        "Description": "<color=#FF69B4><i>*兰斯洛特等级大于等于5且好感度达到80时自动学会*</i></color>\n第 3 回合开始时，置于牌堆顶。\n若目标持有“你已深陷于我”、“你已无法离开我”，则从本局游戏中放逐“你已深陷于我”、“你已无法离开我”、“你已完全属于我”，使这三个减益的持续时间改变为“永久”。\n那之后，丢弃所有手中的技能，恢复 5 点法力值，抽取技能直到手牌上限。\n那之后，自身获得“+100%目标攻击力，+100%对目标伤害，+20%防御穿透”。",
         "Rare": false,
-        "NotCount": false,
+        "NotCount": true,
         "Except": false,
         "SkillExtended": [
             "FairyLancelot.S_FLancelot_4"
-        ]
+        ],
+        "Image_0": "S_FLancelot_4\\S_FLancelot_4_Image_0.png",
+        "Image_1": "S_FLancelot_4\\S_FLancelot_4_Image_1.png",
+        "Image_2": "S_FLancelot_4\\S_FLancelot_4_Image_2.png"
     }
 }

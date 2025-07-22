@@ -31,7 +31,8 @@ namespace FairyLancelot
         {
             if (this.BChar.BuffFind("B_FLancelot_C_2"))
             {
-                
+                BattleSystem.DelayInput(this.Damage1(Targets[0].MyLeftCharReturn()));
+                BattleSystem.DelayInput(this.Damage1(Targets[0].MyRightCharReturn()));
             }
             if (this.BChar.BuffFind("B_FLancelot_C_1"))
             {
@@ -50,7 +51,7 @@ namespace FairyLancelot
                         break;
                     case 1:
                         {
-                            this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.9);
+                            this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.5);
                         }
                         break;
                     case 2:
@@ -71,40 +72,71 @@ namespace FairyLancelot
             }
         }
 
-        public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
+        public IEnumerator Damage1(BattleChar Target)
         {
-            if (this.BChar.BuffFind("B_FLancelot_C_2"))
-            {
-                if (DMG > hit.HP)
-                {
-                    foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
-                    {
-                        if (be != hit)
-                        {
-                            be.Damage(this.BChar, DMG - hit.HP, false);
-                        }
-                    }
-                }
-            }
+            Skill skill = Skill.TempSkill("S_FLancelot_5_0", this.BChar, this.BChar.MyTeam);
+            this.BChar.ParticleOut(skill, Target);
+            yield break;
         }
+
+        //public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
+        //{
+        //    if (this.BChar.BuffFind("B_FLancelot_C_2"))
+        //    {
+        //        if (DMG > hit.HP)
+        //        {
+        //            foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
+        //            {
+        //                if (be != hit)
+        //                {
+        //                    be.Damage(this.BChar, DMG - hit.HP, false);
+        //                }
+        //            }
+        //        }
+        //    }
+        //}
 
         public void CreateSkill()
         {
+            //List<Skill> list = new List<Skill>();
+            //List<GDESkillData> list2 = new List<GDESkillData>();
+            //using (List<GDESkillData>.Enumerator enumerator = PlayData.ALLSKILLLIST.GetEnumerator())
+            //{
+            //    while (enumerator.MoveNext())
+            //    {
+            //        GDESkillData i = enumerator.Current;
+            //        if (i.Category.Key == GDEItemKeys.SkillCategory_LucySkill && i.User == "Lucy")
+            //        {
+            //            list2.Add(i);
+            //        }
+            //    }
+            //}
+            //GDESkillData gdeskillData = list2.Random(this.BChar.GetRandomClass().Main);
+            //BattleSystem.instance.AllyTeam.Add(Skill.TempSkill(gdeskillData.Key, PlayData.TempBattleTeam.DummyChar, PlayData.TempBattleTeam).CloneSkill(false, null, null, false), true);
+
+            new List<Skill>();
             List<Skill> list = new List<Skill>();
-            List<GDESkillData> list2 = new List<GDESkillData>();
-            using (List<GDESkillData>.Enumerator enumerator = PlayData.ALLSKILLLIST.GetEnumerator())
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck.FindAll(t => t.MySkill.KeyID != "S_Feiyap_3"));
+            for (int i = 0; i < list.Count; i++)
             {
-                while (enumerator.MoveNext())
+                if (list[i].MySkill.Category.Key != GDEItemKeys.SkillCategory_LucySkill)
                 {
-                    GDESkillData i = enumerator.Current;
-                    if (i.Category.Key == GDEItemKeys.SkillCategory_LucySkill && i.User == "Lucy")
-                    {
-                        list2.Add(i);
-                    }
+                    list.RemoveAt(i);
+                    i--;
                 }
             }
-            GDESkillData gdeskillData = list2.Random(this.BChar.GetRandomClass().Main);
-            BattleSystem.instance.AllyTeam.Add(Skill.TempSkill(gdeskillData.Key, PlayData.TempBattleTeam.DummyChar, PlayData.TempBattleTeam).CloneSkill(false, null, null, false), true);
+            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.CreateSkill, false, true, true, false, true));
+        }
+
+        public void Del(SkillButton Mybutton)
+        {
+            Mybutton.Myskill.Master.MyTeam.ForceDraw(Mybutton.Myskill);
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.32f)).ToString())
+                                          .Replace("&b", ((int)(this.BChar.GetStat.atk * 0.5f)).ToString());
         }
     }
 }

@@ -31,19 +31,19 @@ namespace FairyLancelot
                     case 1:
                         {
                             this.BChar.MyTeam.Draw();
-                            this.BChar.Heal(this.BChar, 5, false, false, null);
+                            this.BChar.BuffAdd("B_FLancelot_0_3", this.BChar);
                         }
                         break;
                     case 2:
                         {
                             this.BChar.MyTeam.Draw(new BattleTeam.DrawInput(this.Drawinput));
-                            this.BChar.Heal(this.BChar, 5, false, false, null);
+                            this.BChar.BuffAdd("B_FLancelot_0_3", this.BChar);
                         }
                         break;
                     case 3:
                         {
                             this.BChar.MyTeam.Draw(new BattleTeam.DrawInput(this.Drawinput));
-                            this.BChar.Heal(this.BChar, 5, false, false, null);
+                            this.BChar.BuffAdd("B_FLancelot_0_3", this.BChar);
 
                             CreateSkill();
                         }
@@ -78,31 +78,21 @@ namespace FairyLancelot
             }
             if (P_FairyLancelot.heartPoint >= 10)
             {
-                if (this.BChar.BuffFind("B_FLancelot_P_2"))
-                {
-                    this.BChar.BuffAdd("B_FLancelot_0_2", this.BChar);
-                }
+                this.BChar.BuffAdd("B_FLancelot_0_2", this.BChar);
             }
         }
 
         public void CreateSkill()
         {
+            new List<Skill>();
             List<Skill> list = new List<Skill>();
-            List<GDESkillData> list2 = new List<GDESkillData>();
-            foreach (GDESkillData gdeskillData in PlayData.ALLSKILLLIST)
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck.FindAll(t => t.MySkill.KeyID != "S_Feiyap_3"));
+            for (int i = 0; i < list.Count; i++)
             {
-                if (gdeskillData.User == this.BChar.Info.KeyData)
+                if (list[i].Master.IsLucyNoC || list[i].Master != this.BChar)
                 {
-                    list2.Add(gdeskillData);
-                }
-            }
-            foreach (GDESkillData gdeskillData2 in list2)
-            {
-                if (gdeskillData2 != null && !gdeskillData2.KeyID.IsNullOrEmpty())
-                {
-                    Skill skill = Skill.TempSkill(gdeskillData2.KeyID, this.BChar, BattleSystem.instance.AllyTeam).CloneSkill(false, null, null, false);
-                    skill.isExcept = true;
-                    list.Add(skill);
+                    list.RemoveAt(i);
+                    i--;
                 }
             }
             BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.CreateSkill, false, true, true, false, true));
@@ -115,7 +105,7 @@ namespace FairyLancelot
 
         public void Del(SkillButton Mybutton)
         {
-            BattleSystem.instance.AllyTeam.Add(Mybutton.Myskill, true);
+            Mybutton.Myskill.Master.MyTeam.ForceDraw(Mybutton.Myskill);
         }
     }
 }

@@ -1,0 +1,23 @@
+{
+    "S_FLancelot_10": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Name": "阿尔比昂的遗骸",
+        "UseAp": 2,
+        "User": "FairyLancelot",
+        "NotCount": false,
+        "Except": true,
+        "Description": "回合开始时，若该技能不在手中，可以消耗所有友军 5 点体力值，将这个技能抽取到手中。",
+        "Effect_Target": "SE_T_S_FLancelot_10",
+        "SkillExtended": [
+            "FairyLancelot.S_FLancelot_10"
+        ],
+        "Basic": false,
+        "Image_0": "S_FLancelot_10\\S_FLancelot_10_Image_0.png",
+        "Image_1": "S_FLancelot_10\\S_FLancelot_10_Image_1.png",
+        "Image_2": "S_FLancelot_10\\S_FLancelot_10_Image_2.png",
+        "NoDrop": false
+    }
+}

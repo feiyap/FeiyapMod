@@ -13,6 +13,9 @@
         "SkillExtended": [
             "FairyLancelot.S_FLancelot_6"
         ],
-        "Effect_Target": "SE_T_S_FLancelot_6"
+        "Effect_Target": "SE_T_S_FLancelot_6",
+        "Image_0": "S_FLancelot_6\\S_FLancelot_6_Image_0.png",
+        "Image_1": "S_FLancelot_6\\S_FLancelot_6_Image_1.png",
+        "Image_2": "S_FLancelot_6\\S_FLancelot_6_Image_2.png"
     }
 }

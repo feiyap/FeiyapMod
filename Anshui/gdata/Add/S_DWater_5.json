@@ -1,0 +1,14 @@
+{
+    "S_DWater_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "self",
+        "Name": "二刀流",
+        "UseAp": 0,
+        "User": "DWater",
+        "Image_0": "S_DWater_5\\S_DWater_5_Image_0.png",
+        "Image_1": "S_DWater_5\\S_DWater_5_Image_1.png",
+        "Image_2": "S_DWater_5\\S_DWater_5_Image_2.png"
+    }
+}

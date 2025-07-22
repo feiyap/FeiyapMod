@@ -29,7 +29,8 @@ namespace PatchouliKnowledge
             }
             if (P_PatchouliKnowledge.firstskill == null)
             {
-                return P_PatchouliKnowledge.isMoonCanUsed();
+                //return P_PatchouliKnowledge.isMoonCanUsed();
+                return true;
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_0")
             {

@@ -6,12 +6,12 @@
         "Target": "self",
         "Except": true,
         "Name": "无垢湖光",
-        "UseAp": 5,
+        "UseAp": 1,
         "User": "FairyLancelot",
         "Rare": true,
         "NotCount": true,
         "Effect_Target": "SE_T_S_FLancelot_Rare_1",
-        "Description": "移除自身所有减益。\n展示牌库中所有自己的技能，选择其中 3 个加入手中，并使其费用变为 0。\n\n<b><color=red>切换为“邪龙”形态时，这个技能变为“无垢搏动”。</color></b>",
+        "Description": "每次使用手中的、自己的技能时，费用降低 1 点。\n移除自身所有减益。\n展示牌库中所有自己的技能，选择其中 3 个加入手中，并使其费用变为 0。\n\n<b><color=red>切换为“邪龙”形态时，这个技能变为“无垢搏动”。</color></b>",
         "SkillExtended": [
             "FairyLancelot.S_FLancelot_Rare_1"
         ],

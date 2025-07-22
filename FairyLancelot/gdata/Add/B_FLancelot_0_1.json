@@ -6,6 +6,7 @@
         "Name": "防御穿透",
         "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
         "MaxStack": 1,
-        "LifeTime": 1
+        "LifeTime": 3,
+        "Hide": false
     }
 }

@@ -1,0 +1,9 @@
+{
+    "B_FLancelot_9_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_9_0",
+        "BuffTag": "null",
+        "Name": "终焉",
+        "Hide": true
+    }
+}

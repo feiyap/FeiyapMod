@@ -3,6 +3,13 @@
     "Uploader": "Feiyap",
     "Visibility": "Public",
     "Title": "【CN】妖精骑士兰斯洛特",
-    "Author": "绯夜氏",
-    "Version": "v1.0"
+    "Author": "莲",
+    "Version": "v1.0",
+    "Cover": "FairyLancelotCover.png",
+    "Description": "一位来自妖精国的骑士。",
+    "TagList": [
+        "Characters"
+    ],
+    "ChangeNote": "",
+    "WorkShopId": "3530013692"
 }

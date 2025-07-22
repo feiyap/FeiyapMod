@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>FairyLancelot20257700145</AssemblyName>
+    <AssemblyName>FairyLancelot2025719230958</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -426,7 +426,7 @@
     </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                            <!-- Compile ItemGroup Start-->
+                                                                                                                                                                              <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="FairyLancelot_ModDefinition.cs" />
     <Compile Include="FairyLancelot_ModItemKeys.cs" />
@@ -434,7 +434,11 @@
     <Compile Include="Buff\B_FLancelot_0.cs" />
     <Compile Include="Buff\B_FLancelot_0_1.cs" />
     <Compile Include="Buff\B_FLancelot_0_2.cs" />
+    <Compile Include="Buff\B_FLancelot_0_3.cs" />
     <Compile Include="Buff\B_FLancelot_1.cs" />
+    <Compile Include="Buff\B_FLancelot_10.cs" />
+    <Compile Include="Buff\B_FLancelot_10_0.cs" />
+    <Compile Include="Buff\B_FLancelot_10_1.cs" />
     <Compile Include="Buff\B_FLancelot_2.cs" />
     <Compile Include="Buff\B_FLancelot_3.cs" />
     <Compile Include="Buff\B_FLancelot_3_0.cs" />
@@ -447,9 +451,14 @@
     <Compile Include="Buff\B_FLancelot_7.cs" />
     <Compile Include="Buff\B_FLancelot_8.cs" />
     <Compile Include="Buff\B_FLancelot_8_0.cs" />
+    <Compile Include="Buff\B_FLancelot_9.cs" />
+    <Compile Include="Buff\B_FLancelot_9_0.cs" />
+    <Compile Include="Buff\B_FLancelot_9_1.cs" />
     <Compile Include="Buff\B_FLancelot_Barrier.cs" />
     <Compile Include="Buff\B_FLancelot_C_1.cs" />
     <Compile Include="Buff\B_FLancelot_C_2.cs" />
+    <Compile Include="Buff\B_FLancelot_LucyD.cs" />
+    <Compile Include="Buff\B_FLancelot_LucyD_0.cs" />
     <Compile Include="Buff\B_FLancelot_P.cs" />
     <Compile Include="Buff\B_FLancelot_P_1.cs" />
     <Compile Include="Buff\B_FLancelot_P_2.cs" />
@@ -464,6 +473,7 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Skill\S_FLancelot_0.cs" />
     <Compile Include="Skill\S_FLancelot_1.cs" />
+    <Compile Include="Skill\S_FLancelot_10.cs" />
     <Compile Include="Skill\S_FLancelot_2.cs" />
     <Compile Include="Skill\S_FLancelot_3.cs" />
     <Compile Include="Skill\S_FLancelot_4.cs" />
@@ -471,8 +481,11 @@
     <Compile Include="Skill\S_FLancelot_6.cs" />
     <Compile Include="Skill\S_FLancelot_7.cs" />
     <Compile Include="Skill\S_FLancelot_8.cs" />
+    <Compile Include="Skill\S_FLancelot_9.cs" />
+    <Compile Include="Skill\S_FLancelot_LucyD.cs" />
     <Compile Include="Skill\S_FLancelot_Rare_1.cs" />
     <Compile Include="Skill\S_FLancelot_Rare_2.cs" />
+    <Compile Include="SkillExtended\SE_FLancelot_Rare_2.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

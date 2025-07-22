@@ -3,9 +3,9 @@
         "_gdeSchema": "Buff",
         "ClassName": "FairyLancelot.B_FLancelot_7",
         "BuffTag": "null",
-        "Name": "保护体力极限",
+        "Name": "暴击率提升",
         "Description": "",
-        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_20",
-        "LifeTime": 1
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (19)",
+        "LifeTime": 3
     }
 }

@@ -1,0 +1,10 @@
+{
+    "B_FLancelot_LucyD_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FairyLancelot.B_FLancelot_LucyD_0",
+        "BuffTag": "null",
+        "Name": "每回合抽牌",
+        "Description": "",
+        "Hide": true
+    }
+}

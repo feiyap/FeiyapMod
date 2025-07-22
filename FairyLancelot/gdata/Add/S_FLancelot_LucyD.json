@@ -1,0 +1,34 @@
+{
+    "S_FLancelot_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "Name": "我对你的爱",
+        "UseAp": 0,
+        "Description": "抽取 2 个技能。\n若兰斯洛特存活，则使其获得 2 点好感度。\n若兰斯洛特的好感度不低于 50，额外抽取 1 个技能。",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "FairyLancelot",
+        "NotCount": false,
+        "SkillExtended": [
+            "FairyLancelot.S_FLancelot_LucyD"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_FLancelot_LucyD\\S_FLancelot_LucyD_Image_0.png",
+        "Image_1": "S_FLancelot_LucyD\\S_FLancelot_LucyD_Image_1.png",
+        "Image_2": "S_FLancelot_LucyD\\S_FLancelot_LucyD_Image_2.png"
+    }
+}

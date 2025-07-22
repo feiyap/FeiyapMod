@@ -1,0 +1,16 @@
+{
+    "B_FLancelot_LucyD": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "FairyLancelot.B_FLancelot_LucyD",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Description": "",
+        "Name": "保护体力极限",
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_20",
+        "LifeTime": 1
+    }
+}

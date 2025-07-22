@@ -1,0 +1,18 @@
+{
+    "S_FAlice_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Name": "诅咒「魔彩光的上海人形」",
+        "Description": "这个技能处于倒计时中时，为&user提供“+1攻击力”。\n触发时，对随机敌人造成一次伤害。\n每触发 3 次后，下 1 次触发改为对所有敌人造成伤害。",
+        "User": "FAlice",
+        "UseAp": 1,
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_FAlice_1",
+        "Image_0": "S_FAlice_1\\S_FAlice_1_Image_0.png",
+        "Image_1": "S_FAlice_1\\S_FAlice_1_Image_1.png",
+        "Image_2": "S_FAlice_1\\S_FAlice_1_Image_2.png"
+    }
+}

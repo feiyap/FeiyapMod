@@ -1,0 +1,11 @@
+{
+    "S_FLancelot_5_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_1",
+        "Target": "enemy",
+        "Track": false,
+        "Effect_Target": "SE_T_S_FLancelot_5_0",
+        "Image_0": "S_FLancelot_5_0\\S_FLancelot_5_0_Image_0.png"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "S_FLancelot_9_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S_TheLight_4",
+        "Target": "random_enemy",
+        "NotCount": false,
+        "Effect_Target": "SE_T_S_FLancelot_9_0"
+    }
+}

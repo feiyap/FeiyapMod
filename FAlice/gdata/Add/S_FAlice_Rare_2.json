@@ -1,0 +1,18 @@
+{
+    "S_FAlice_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": true,
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "枪符「萌萌大千枪」",
+        "Description": "使所有「人形」技能立即触发 3 次、强化触发 1 次。\n那之后，将所有倒计时中的「人形」技能置入弃牌库。",
+        "User": "FAlice",
+        "UseAp": 3,
+        "Image_0": "S_FAlice_Rare_2\\S_FAlice_Rare_2_Image_0.png",
+        "Image_1": "S_FAlice_Rare_2\\S_FAlice_Rare_2_Image_1.png",
+        "Image_2": "S_FAlice_Rare_2\\S_FAlice_Rare_2_Image_2.png"
+    }
+}

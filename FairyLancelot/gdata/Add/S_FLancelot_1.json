@@ -4,14 +4,14 @@
         "Category": "null",
         "Particle": "Particle/Ilya/Ilya_0",
         "Target": "enemy",
-        "NotCount": false,
+        "NotCount": true,
         "Basic": false,
         "Name": "妖精剑舞",
         "UseAp": 2,
         "Track": true,
         "Effect_Target": "SE_T_S_FLancelot_1",
         "User": "FairyLancelot",
-        "Description": "骑士 - 获得 1 层“舞者”。\n\n邪龙 - 获得 1 层“龙之心”。额外造成 &a 伤害(攻击力的70%)。\n\n好感度30 - 获得“下 1 次使用技能时恢复 1 点法力值”。",
+        "Description": "骑士 - 获得 1 层“舞者”。\n\n邪龙 - 获得 1 层“龙之心”。额外造成 &a 伤害(攻击力的50%)。\n\n好感度30 - 获得“下 1 次使用技能时恢复 1 点法力值”。",
         "Rare": false,
         "NODOD": false,
         "NotChuck": false,
@@ -26,6 +26,9 @@
         "UnknownTarget": false,
         "SkillExtended": [
             "FairyLancelot.S_FLancelot_1"
-        ]
+        ],
+        "Image_0": "S_FLancelot_1\\S_FLancelot_1_Image_0.png",
+        "Image_1": "S_FLancelot_1\\S_FLancelot_1_Image_1.png",
+        "Image_2": "S_FLancelot_1\\S_FLancelot_1_Image_2.png"
     }
 }

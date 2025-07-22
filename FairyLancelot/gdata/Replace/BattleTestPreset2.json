@@ -33,7 +33,9 @@
                 "S_FLancelot_6",
                 "S_FLancelot_7",
                 "S_FLancelot_8",
-                "S_FLancelot_Rare_1"
+                "S_FLancelot_Rare_1",
+                "S_FLancelot_9",
+                "S_FLancelot_10"
             ]
         ],
         "PartyEquip": [
@@ -50,6 +52,10 @@
                 
             ]
         ],
-        "AP": 7
+        "AP": 10,
+        "Level": 6,
+        "LucySkill": [
+            "S_FLancelot_LucyD"
+        ]
     }
 }

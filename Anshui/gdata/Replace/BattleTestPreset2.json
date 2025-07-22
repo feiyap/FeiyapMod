@@ -1,0 +1,52 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Feiyap",
+            "DWater"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_DWater_0",
+                "S_DWater_1",
+                "S_DWater_2",
+                "S_DWater_3",
+                "S_DWater_4",
+                "S_DWater_5"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "AP": 10,
+        "Level": 6
+    }
+}

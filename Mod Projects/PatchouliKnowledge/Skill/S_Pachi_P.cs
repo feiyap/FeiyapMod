@@ -49,7 +49,10 @@ namespace PatchouliKnowledge
                 int rareIndex = i - 5; // 转换为稀有元素列表的索引
                 if (BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[i] != 0 && rareIndex < P_PatchouliKnowledge.RareElement.Count)
                 {
-                    activeElements.Add(P_PatchouliKnowledge.RareElement[rareIndex]);
+                    if ((rareIndex == 0 && P_PatchouliKnowledge.isSunCanUsed()) || (rareIndex == 1 && P_PatchouliKnowledge.isMoonCanUsed()))
+                    {
+                        activeElements.Add(P_PatchouliKnowledge.RareElement[rareIndex]);
+                    }
                 }
             }
 

@@ -22,7 +22,7 @@ namespace FairyLancelot
         {
             foreach (BattleChar bc in BattleSystem.instance.AllyList)
             {
-                bc.Heal(this.BChar, 5, false, false, null);
+                bc.Heal(this.BChar, 8, false, false, null);
             }
             this.SelfDestroy();
         }

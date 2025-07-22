@@ -2,7 +2,7 @@
     "SE_T_S_FLancelot_8": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 90,
+        "DMG_Per": 75,
         "Buffs": [
             "B_FLancelot_8"
         ],

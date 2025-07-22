@@ -1,0 +1,14 @@
+{
+    "B_FAlice_Rare_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "虹彩的人形使",
+        "Description": "每个回合开始时，额外生成 1 个“操符「操纵人形」”。\n移除「人形」技能数量上限。"
+    }
+}
