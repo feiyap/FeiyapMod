@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FAlice\bin\Debug\FAlice202572311508.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FAlice\bin\Debug\FAlice202572311508.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FAlice\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FAlice\obj\Debug\FAlice.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FAlice\obj\Debug\FAlice.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FAlice\obj\Debug\FAlice.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FAlice\obj\Debug\FAlice202572311508.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FAlice\obj\Debug\FAlice202572311508.pdb

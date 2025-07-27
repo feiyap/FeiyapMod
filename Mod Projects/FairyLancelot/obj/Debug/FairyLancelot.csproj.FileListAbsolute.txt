@@ -9,7 +9,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\bin\D
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\bin\Debug\Mono.Cecil.Rocks.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\bin\Debug\MonoMod.RuntimeDetour.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\bin\Debug\MonoMod.Utils.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\bin\Debug\FairyLancelot2025719230958.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\bin\Debug\FairyLancelot2025719230958.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\obj\Debug\FairyLancelot2025719230958.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\obj\Debug\FairyLancelot2025719230958.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\bin\Debug\FairyLancelot202572305127.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\bin\Debug\FairyLancelot202572305127.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\obj\Debug\FairyLancelot202572305127.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FairyLancelot\obj\Debug\FairyLancelot202572305127.pdb

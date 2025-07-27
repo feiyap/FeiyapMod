@@ -1,11 +1,12 @@
 {
     "B_Joon_P": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "YorigamiSister.B_Joon_P",
         "BuffTag": "null",
-        "Description": "每消耗100金币，使自身永久提升1%暴击率和0.5%暴击伤害。",
+        "Description": "每消耗100金币，使自身永久提升1%暴击率和0.5%暴击伤害。\n\n当前消耗金币：<color=yellow>&a</color>",
         "Name": "豪掷千金",
         "Icon": "Image/Buff/Skill_Icon_Pack/Casino/GambleBattle",
-        "Cantdisable": true
+        "Cantdisable": true,
+        "IsFieldBuff": true
     }
 }

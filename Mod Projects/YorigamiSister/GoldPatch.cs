@@ -20,6 +20,7 @@ using EOS.Attributes;
 using EOS.Tools;
 namespace YorigamiSister
 {
+    //金币修改后分发事件
     [HarmonyPatch(typeof(PlayData))]
     [HarmonyPatch("Gold", MethodType.Setter)]
     public static class GoldPatch
@@ -35,6 +36,27 @@ namespace YorigamiSister
     {
         [EventCodeMethod]
         public void GoldChangeEvent(int num)
+        {
+
+        }
+    }
+
+    //点金卷轴后分发事件
+    [HarmonyPatch(typeof(UI_Midas))]
+    [HarmonyPatch("ItemUse")]
+    public static class UI_MidasPatch
+    {
+        public static void Postfix(ItemObject select)
+        {
+            int gold = select.Item.Price();
+            EOSManager.BroadCast<Midas_Event>(gold);
+        }
+    }
+
+    public class Midas_Event : IEventCode
+    {
+        [EventCodeMethod]
+        public void MidasEvent(int num)
         {
 
         }

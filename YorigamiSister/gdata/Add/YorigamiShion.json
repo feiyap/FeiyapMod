@@ -9,6 +9,11 @@
         "MAXHP": {
             "x": 40,
             "y": 40
-        }
+        },
+        "PassiveUnlockLV1": false,
+        "PassiveName": "1",
+        "PassiveDes": "1",
+        "CollectionSprite_Cover": "YorigamiShion\\YorigamiShionCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "YorigamiShion\\YorigamiShionCollectionSprite_SkillFace.png"
     }
 }

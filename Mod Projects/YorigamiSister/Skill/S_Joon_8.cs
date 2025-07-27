@@ -20,6 +20,22 @@ namespace YorigamiSister
 	/// </summary>
     public class S_Joon_8:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
 
+            int goldnum = PlayData.Gold > (int)(this.BChar.GetStat.atk * 20) ? (int)(this.BChar.GetStat.atk * 20) : PlayData.Gold;
+
+            PlayData.Gold -= goldnum;
+            MasterAudio.PlaySound("SilverStein_Coin", 1f, null, 0f, null, null, false, false);
+
+            this.BChar.BuffAdd("B_Joon_8", this.BChar).BarrierHP += (int)(goldnum * 0.1);
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 20f)).ToString())
+                                          .Replace("&b", ((int)(this.BChar.GetStat.atk * 2f)).ToString());
+        }
     }
 }

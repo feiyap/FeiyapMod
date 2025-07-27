@@ -3,13 +3,32 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Buff",
-        "Target": "self",
-        "IgnoreTaunt": false,
+        "Target": "enemy",
+        "IgnoreTaunt": true,
         "Track": false,
         "Name": "90%off！",
         "User": "YorigamiJoon",
-        "NotCount": true,
+        "NotCount": false,
         "Effect_Target": "SE_T_S_Joon_7",
-        "Description": ""
+        "Description": "",
+        "SkillExtended": [
+            "YorigamiSister.S_Joon_7"
+        ],
+        "Disposable": true,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "UseAp": 1,
+        "Image_0": "S_Joon_7\\S_Joon_7_Image_0.png",
+        "Image_1": "S_Joon_7\\S_Joon_7_Image_1.png",
+        "Image_2": "S_Joon_7\\S_Joon_7_Image_2.png"
     }
 }

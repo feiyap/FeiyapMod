@@ -1,0 +1,12 @@
+{
+    "B_Joon_5": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "YorigamiSister.B_Joon_5",
+        "BuffTag": "null",
+        "Name": "朱莉安娜羽扇回旋镖",
+        "Description": "",
+        "Hide": true
+    }
+}

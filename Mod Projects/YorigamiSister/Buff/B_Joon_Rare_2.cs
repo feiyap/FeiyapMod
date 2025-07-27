@@ -17,8 +17,11 @@ namespace YorigamiSister
 	/// 泡沫经济
 	/// 每个回合开始时，消耗 100 金币，获得 2 层“拜金主义”。
 	/// </summary>
-    public class B_Joon_Rare_2:Buff
+    public class B_Joon_Rare_2:Buff, IP_PlayerTurn
     {
+        public void Turn()
+        {
 
+        }
     }
 }

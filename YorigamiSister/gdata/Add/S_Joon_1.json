@@ -26,6 +26,9 @@
         "Basic": false,
         "Track": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "YorigamiSister.S_Joon_1"
+        ]
     }
 }

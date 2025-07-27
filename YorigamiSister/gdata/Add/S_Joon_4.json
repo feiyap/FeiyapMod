@@ -7,7 +7,7 @@
         "NotCount": true,
         "Fatal": false,
         "Name": "名流燃烧",
-        "Description": "如果自身装备栏已满，则额外获得 2 层“拜金主义”。\n否则会根据自身装备的平均品质，展示 3 件随机装备。那之后，可以消耗 200 金币选择并装备其中 1 件装备，直到战斗结束。",
+        "Description": "如果目标装备栏已满，则额外施加 2 层“拜金主义”。\n否则会根据目标装备的平均品质，展示 3 件随机装备。那之后，可以选择并装备其中 1 件装备，直到战斗结束。",
         "User": "YorigamiJoon",
         "UseAp": 1,
         "Effect_Target": "SE_T_S_Joon_4",
@@ -15,6 +15,9 @@
         "Image_1": "S_Joon_4\\S_Joon_4_Image_1.png",
         "Image_2": "S_Joon_4\\S_Joon_4_Image_2.png",
         "NoBasicSkill": false,
-        "IgnoreTaunt": false
+        "IgnoreTaunt": false,
+        "SkillExtended": [
+            "YorigamiSister.S_Joon_4"
+        ]
     }
 }

@@ -4,12 +4,13 @@
     "Visibility": "Public",
     "Title": "【CN】妖精骑士兰斯洛特",
     "Author": "莲",
-    "Version": "v1.0",
+    "Version": "v1.1",
     "Cover": "FairyLancelotCover.png",
     "Description": "一位来自妖精国的骑士。",
     "TagList": [
         "Characters"
     ],
-    "ChangeNote": "",
-    "WorkShopId": "3530013692"
+    "ChangeNote": "2025/7/23\nv1.1\n修复 - [阿尔比昂的遗骸]不消耗体力值的BUG。",
+    "WorkShopId": "3530013692",
+    "OnlyUploadFiles": true
 }

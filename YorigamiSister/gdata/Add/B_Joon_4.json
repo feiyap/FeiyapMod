@@ -4,12 +4,12 @@
         "Hide": false,
         "IsFieldBuff": true,
         "Cantdisable": false,
-        "ClassName": "",
+        "ClassName": "YorigamiSister.B_Joon_4",
         "BuffTag": "null",
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "拜金主义",
-        "Description": "攻击力随着“自己身上所有装备品质之和”提升（每点品质提升10%）。\n造成伤害后移除 1 层。",
+        "Description": "攻击力随着“自己身上所有装备品质之和”提升（每点品质提升10%）。\n使用技能后移除 1 层。",
         "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
         "MaxStack": 8
     }

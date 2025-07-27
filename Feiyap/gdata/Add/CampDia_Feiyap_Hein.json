@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_Hein": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Hein",
+        "Dialogues": [
+            "[B]……",
+            "[A]为什么这么安静？难道不想互相厮杀一场吗？",
+            "[B]……不了，我不跟疯子打架……",
+            "[A]？"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "S_Joon_8_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Lucy/MoneyPower",
+        "Target": "Misc",
+        "NotCount": false,
+        "Disposable": false,
+        "Effect_Target": "null"
+    }
+}

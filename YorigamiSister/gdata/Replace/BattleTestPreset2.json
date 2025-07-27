@@ -22,7 +22,16 @@
             ],
             [
                 "S_Joon_0",
-                "S_Joon_1"
+                "S_Joon_1",
+                "S_Joon_2",
+                "S_Joon_3",
+                "S_Joon_4",
+                "S_Joon_5",
+                "S_Joon_6",
+                "S_Joon_7",
+                "S_Joon_8",
+                "S_Joon_Rare_1",
+                "S_Joon_Rare_2"
             ],
             [
                 
@@ -36,11 +45,14 @@
                 
             ],
             [
-                
+                "HolySwordKarsaga",
+                "HolySwordKarsaga"
             ],
             [
                 
             ]
-        ]
+        ],
+        "AP": 10,
+        "Level": 6
     }
 }

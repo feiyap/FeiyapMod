@@ -202,6 +202,12 @@ namespace FairyLancelot
                 if (matchingSkills.Count == 1)
                 {
                     this.BChar.MyTeam.ForceDraw(matchingSkills[0]);
+
+                    foreach (BattleChar bc in BattleSystem.instance.AllyList)
+                    {
+                        bc.Damage(this.BChar, 5, false, true);
+                    }
+
                     return;
                 }
 

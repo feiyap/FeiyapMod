@@ -7,10 +7,13 @@
         "NotCount": true,
         "Name": "凭依剥夺「Slave Robber」",
         "Description": "",
-        "User": "YorigamiJoon",
         "Rare": true,
         "Basic": true,
         "Effect_Target": "SE_T_S_Joon_Rare_3",
-        "Effect_Self": "SE_S_S_Joon_Rare_3"
+        "Effect_Self": "SE_S_S_Joon_Rare_3",
+        "Disposable": false,
+        "SkillExtended": [
+            "YorigamiSister.S_Joon_Rare_3"
+        ]
     }
 }

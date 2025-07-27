@@ -193,6 +193,10 @@ namespace FairyLancelot
 		/// 到达100好感度时，解锁这个被动，不再需要“誓言”。
 		/// </summary>
         public static string Character_FairyLancelot = "FairyLancelot";
+		/// <summary>
+		/// 幻想种
+		/// </summary>
+        public static string SkillExtended_SE_FLancelot_Rare_2 = "SE_FLancelot_Rare_2";
         public static string SkillEffect_SE_T_S_FLancelot_0 = "SE_T_S_FLancelot_0";
         public static string SkillEffect_SE_T_S_FLancelot_1 = "SE_T_S_FLancelot_1";
         public static string SkillEffect_SE_T_S_FLancelot_10 = "SE_T_S_FLancelot_10";
@@ -367,10 +371,6 @@ namespace FairyLancelot
 		/// <b><color=#87CEFA>切换为“骑士”形态时，这个技能变为“无垢湖光”。</color></b>
 		/// </summary>
         public static string Skill_S_FLancelot_Rare_2 = "S_FLancelot_Rare_2";
-		/// <summary>
-		/// 幻想种
-		/// </summary>
-        public static string SkillExtended_SE_FLancelot_Rare_2 = "SE_FLancelot_Rare_2";
 
     }
 

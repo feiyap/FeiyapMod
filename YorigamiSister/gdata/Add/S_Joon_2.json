@@ -10,6 +10,25 @@
         "UseAp": 2,
         "User": "YorigamiJoon",
         "Description": "若只有 1 个目标，以暴击形式命中。\n这个技能暴击时，消耗 &a 金币(攻击力的135%)。",
-        "Effect_Target": "SE_T_S_Joon_2"
+        "Effect_Target": "SE_T_S_Joon_2",
+        "SkillExtended": [
+            "YorigamiSister.S_Joon_2"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_Joon_2\\S_Joon_2_Image_0.png",
+        "Image_1": "S_Joon_2\\S_Joon_2_Image_1.png",
+        "Image_2": "S_Joon_2\\S_Joon_2_Image_2.png"
     }
 }

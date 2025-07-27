@@ -15,6 +15,12 @@
         "NotCount": true,
         "Disposable": true,
         "Effect_Target": "SE_T_S_Joon_Rare_2",
-        "Basic": false
+        "Basic": false,
+        "SkillExtended": [
+            "YorigamiSister.S_Joon_Rare_2"
+        ],
+        "Image_0": "S_Joon_Rare_2\\S_Joon_Rare_2_Image_0.png",
+        "Image_1": "S_Joon_Rare_2\\S_Joon_Rare_2_Image_1.png",
+        "Image_2": "S_Joon_Rare_2\\S_Joon_Rare_2_Image_2.png"
     }
 }

@@ -6,10 +6,29 @@
         "Target": "ally",
         "NotCount": true,
         "Name": "即将破裂的泡沫",
-        "Description": "至多消耗 &a 金币(攻击力的2000%)，获得 &b 保护罩(消耗金币的10%)，持续 2 回合。\n保护罩解除时，对所有敌人造成 &c 伤害（消耗金币的5%）。依据命中敌人的个数，获得相同层数的“拜金主义”。",
+        "Description": "至多消耗 &a 金币(攻击力的2000%)，施加 &b 保护罩(消耗金币的10%)，持续 2 回合。",
         "UseAp": 1,
         "User": "YorigamiJoon",
         "Disposable": true,
-        "Effect_Target": "SE_T_S_Joon_8"
+        "Effect_Target": "SE_T_S_Joon_8",
+        "SkillExtended": [
+            "YorigamiSister.S_Joon_8"
+        ],
+        "Rare": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_Joon_8\\S_Joon_8_Image_0.png",
+        "Image_1": "S_Joon_8\\S_Joon_8_Image_1.png",
+        "Image_2": "S_Joon_8\\S_Joon_8_Image_2.png"
     }
 }

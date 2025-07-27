@@ -25,6 +25,9 @@
         "AutoDelete": 10,
         "Image_0": "S_Joon_0\\S_Joon_0_Image_0.png",
         "Image_1": "S_Joon_0\\S_Joon_0_Image_1.png",
-        "Image_2": "S_Joon_0\\S_Joon_0_Image_2.png"
+        "Image_2": "S_Joon_0\\S_Joon_0_Image_2.png",
+        "SkillExtended": [
+            "YorigamiSister.S_Joon_0"
+        ]
     }
 }

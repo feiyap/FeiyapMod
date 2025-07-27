@@ -19,6 +19,41 @@ namespace YorigamiSister
 	/// </summary>
     public class B_Joon_P:Buff
     {
+        public override void Init()
+        {
+            base.Init();
 
+            if (PlayData.TSavedata.GetCustomValue<CV_Gold>() == null)
+            {
+                PlayData.TSavedata.AddCustomValue(new CV_Gold());
+            }
+
+            CV_Gold customValue = PlayData.TSavedata.GetCustomValue<CV_Gold>();
+
+            this.PlusStat.cri = customValue.costGold / 100;
+            this.PlusStat.PlusCriDmg = customValue.costGold / 200;
+        }
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+
+            if (PlayData.TSavedata.GetCustomValue<CV_Gold>() == null)
+            {
+                PlayData.TSavedata.AddCustomValue(new CV_Gold());
+            }
+
+            CV_Gold customValue = PlayData.TSavedata.GetCustomValue<CV_Gold>();
+
+            this.PlusStat.cri = customValue.costGold / 100;
+            this.PlusStat.PlusCriDmg = customValue.costGold / 200;
+        }
+
+        public override string DescExtended()
+        {
+            CV_Gold customValue = PlayData.TSavedata.GetCustomValue<CV_Gold>();
+
+            return this.BuffData.Description.Replace("&a", ((int)(customValue.costGold)).ToString());
+        }
     }
 }

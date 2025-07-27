@@ -18,8 +18,20 @@ namespace YorigamiSister
 	/// 攻击力随着“自己身上所有装备品质之和”提升（每点品质提升10%）。
 	/// 造成伤害后移除 1 层。
 	/// </summary>
-    public class B_Joon_4:Buff
+    public class B_Joon_4:Buff, IP_SkillUse_Team
     {
+        public override void Init()
+        {
+            base.Init();
+            this.PlusPerStat.Damage = P_YorigamiJoon.calculateTotalEquipQuality(this.BChar) * 10;
+        }
 
+        public void SkillUseTeam(Skill skill)
+        {
+            if (skill.Master == this.BChar)
+            {
+                this.SelfStackDestroy();
+            }
+        }
     }
 }

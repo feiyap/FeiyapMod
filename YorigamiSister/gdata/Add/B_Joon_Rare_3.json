@@ -2,7 +2,7 @@
     "B_Joon_Rare_3": {
         "_gdeSchema": "Buff",
         "Cantdisable": true,
-        "ClassName": "",
+        "ClassName": "YorigamiSister.B_Joon_Rare_3",
         "BuffTag": "null",
         "Name": "凭依！疫病神",
         "Debuff": true,

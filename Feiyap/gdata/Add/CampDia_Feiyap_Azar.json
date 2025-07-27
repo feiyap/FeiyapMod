@@ -1,0 +1,11 @@
+{
+    "CampDia_Feiyap_Azar": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Azar",
+        "Dialogues": [
+            "[A]为什么你能生成幻影剑？那到底是什么原理？",
+            "[B]幻影之刃的事情，你不需要搞得太清楚。"
+        ]
+    }
+}

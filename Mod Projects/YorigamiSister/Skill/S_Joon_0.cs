@@ -18,8 +18,37 @@ namespace YorigamiSister
 	/// 这个技能握在手中时，每次使用其他技能获得 25 金币，此技能的 X 回合后弃牌的回合计数将减少 1 。
 	/// 这个技能的效果只在黑雾回合到来前有效。
 	/// </summary>
-    public class S_Joon_0:Skill_Extended
+    public class S_Joon_0:Skill_Extended, IP_SkillUse_Team
     {
+        public override void Init()
+        {
+            base.Init();
+            //this.OnePassive = true;
+        }
+        
+        public void SkillUseTeam(Skill skill)
+        {
+            if (BattleSystem.instance.TurnNum > BattleSystem.instance.FogTurn)
+            {
+                return;
+            }
 
+            PlayData.Gold += 25;
+            //MasterAudio.PlaySound("SilverStein_Coin", 1f, null, 0f, null, null, false, false);
+            MasterAudio.PlaySound("CasinoNarhan_Gameover", 1f, null, 0f, null, null, false, false);
+
+            if (this.MySkill.AutoDelete == 1)
+            {
+                BattleSystem.DelayInputAfter(this.Del(this.MySkill));
+                return;
+            }
+            this.MySkill.AutoDelete--;
+        }
+
+        private IEnumerator Del(Skill skill)
+        {
+            skill.Delete(false);
+            yield break;
+        }
     }
 }

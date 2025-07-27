@@ -19,6 +19,29 @@ namespace YorigamiSister
 	/// </summary>
     public class B_Joon_8:Buff
     {
+        public override string DescExtended()
+        {
+            return this.BuffData.Description.Replace("&c", ((int)(this.Usestate_F.GetStat.atk * 1f)).ToString())
+                                            .Replace("&user", this.Usestate_F.Info.Name);
+        }
 
+        public override void SelfdestroyPlus()
+        {
+            base.SelfdestroyPlus();
+
+            foreach (BattleChar bc in BattleSystem.instance.EnemyList)
+            {
+                Skill skill = Skill.TempSkill("S_Joon_8_0", this.Usestate_F, this.Usestate_F.MyTeam);
+                skill.PlusHit = true;
+                skill.FreeUse = true;
+                skill.isExcept = true;
+
+                this.Usestate_F.ParticleOut(skill, bc);
+
+                bc.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1f), false);
+
+                this.Usestate_F.BuffAdd("B_Joon_4", this.Usestate_F);
+            }
+        }
     }
 }

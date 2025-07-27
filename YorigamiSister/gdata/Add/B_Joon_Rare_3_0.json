@@ -2,7 +2,7 @@
     "B_Joon_Rare_3_0": {
         "_gdeSchema": "Buff",
         "Cantdisable": true,
-        "ClassName": "",
+        "ClassName": "YorigamiSister.B_Joon_Rare_3_0",
         "BuffTag": "null",
         "Description": "<b>隐匿</b>\n打出手中的技能时，或是金币低于100时解除凭依。",
         "Name": "正在凭依",

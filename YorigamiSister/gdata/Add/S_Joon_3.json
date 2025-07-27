@@ -10,6 +10,12 @@
         "Description": "随机生成 3 个自己的专属技能，使它们附带放逐。\n这个技能暴击时，还会额外使生成的技能费用降低为 0。",
         "User": "YorigamiJoon",
         "Effect_Target": "SE_T_S_Joon_3",
-        "NoBasicSkill": true
+        "NoBasicSkill": true,
+        "SkillExtended": [
+            "YorigamiSister.S_Joon_3"
+        ],
+        "Image_0": "S_Joon_3\\S_Joon_3_Image_0.png",
+        "Image_1": "S_Joon_3\\S_Joon_3_Image_1.png",
+        "Image_2": "S_Joon_3\\S_Joon_3_Image_2.png"
     }
 }

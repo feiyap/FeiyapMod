@@ -20,6 +20,53 @@ namespace YorigamiSister
 	/// </summary>
     public class S_Joon_Rare_2:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
 
+            Targets[0].Info.Equip.Add(null);
+
+            int aveQuaility = P_YorigamiJoon.calculateAveEquipQuality(Targets[0]);
+
+            List<ItemBase> list = new List<ItemBase>();
+            foreach (ItemBase itemBase in PlayData.ALLITEMLIST)
+            {
+                if (itemBase is Item_Equip && (itemBase as Item_Equip).ItemClassNum == aveQuaility && !itemBase.GetNoDrop && itemBase.itemkey != GDEItemKeys.Item_Equip_Morph && itemBase.itemkey != GDEItemKeys.Item_Equip_Replica && (!itemBase.GetLock || SaveManager.NowData.unlockList.UnlockItems.Contains(itemBase.itemkey)))
+                {
+                    string key = (itemBase as Item_Equip).MyData.Key;
+                    list.Add(ItemBase.GetItem(key));
+                }
+            }
+
+            int emptySlotCount = Targets[0].Info.Equip.Count(item => item == null);
+
+            for (int i = 0; i < emptySlotCount; i++)
+            {
+                BattleSystem.DelayInputAfter(this.After(list[i], Targets[0]));
+            }
+            
+        }
+
+        private IEnumerator After(ItemBase item, BattleChar targetBC)
+        {
+            yield return new WaitForFixedUpdate();
+
+            int emptyIndex = targetBC.Info.Equip.FindIndex(e => e == null);
+
+            if (emptyIndex != -1)
+            {
+                targetBC.Info.Equip[emptyIndex] = item;
+
+                if (BattleSystem.instance.GetBattleValue<BV_Joon_TempEquip>() == null)
+                {
+                    BattleSystem.instance.BattleValues.Add(new BV_Joon_TempEquip());
+                }
+
+                BattleSystem.instance.GetBattleValue<BV_Joon_TempEquip>().tempEquipList.Add(targetBC.Info, emptyIndex);
+                BattleSystem.instance.GetBattleValue<BV_Joon_TempEquip>().tempSlotList.Add(targetBC.Info, (Item_Equip)item);
+            }
+
+            yield break;
+        }
     }
 }

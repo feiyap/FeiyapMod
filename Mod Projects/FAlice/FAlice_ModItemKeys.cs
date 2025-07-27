@@ -4,6 +4,12 @@ namespace FAlice
     public static class ModItemKeys
     {
 		/// <summary>
+		/// 虹彩的人形使
+		/// 每个回合开始时，额外生成 1 个“操符「操纵人形」”。
+		/// 移除「人形」技能数量上限。
+		/// </summary>
+        public static string Buff_B_FAlice_Rare_1 = "B_FAlice_Rare_1";
+		/// <summary>
 		/// 爱丽丝
 		/// Passive:
 		/// 操控人偶程度的能力 - 爱丽丝的「人形」技能在使用后会以倒计时∞的形式加入倒计时栏中。这些技能不会因回合结束而释放。
@@ -11,6 +17,10 @@ namespace FAlice
 		/// 布加勒斯特的人偶师 - 每个回合开始时，生成 1 个费用为 1 的“操符「操纵人形」”，附带放逐和 1 回合后弃牌。
 		/// </summary>
         public static string Character_FAlice = "FAlice";
+        public static string SkillEffect_SE_T_S_FAlice_1 = "SE_T_S_FAlice_1";
+        public static string SkillEffect_SE_T_S_FAlice_2 = "SE_T_S_FAlice_2";
+        public static string SkillEffect_SE_T_S_FAlice_Rare_1 = "SE_T_S_FAlice_Rare_1";
+        public static string SkillEffect_SE_T_S_FAlice_Rare_3_0 = "SE_T_S_FAlice_Rare_3_0";
 		/// <summary>
 		/// 操符「操纵人形」
 		/// 选择：
@@ -27,7 +37,6 @@ namespace FAlice
 		/// 每触发 3 次后，下 1 次触发改为对所有敌人造成伤害。
 		/// </summary>
         public static string Skill_S_FAlice_1 = "S_FAlice_1";
-        public static string SkillEffect_SE_T_S_FAlice_1 = "SE_T_S_FAlice_1";
 		/// <summary>
 		/// 苍符「博爱的奥尔良人形」
 		/// 这个技能处于倒计时中时，为&user提供“+1治疗力”。
@@ -35,9 +44,8 @@ namespace FAlice
 		/// 每触发 3 次后，下 1 次触发改为对所有友军造成治疗。
 		/// </summary>
         public static string Skill_S_FAlice_2 = "S_FAlice_2";
-        public static string SkillEffect_SE_T_S_FAlice_2 = "SE_T_S_FAlice_2";
 		/// <summary>
-		/// 白符「白垩的俄罗斯人偶」
+		/// 白符「白垩的俄罗斯人形」
 		/// 这个技能处于倒计时中时，为&user提供“+4%防御力”。
 		/// 触发时，获得 &a 防护墙(60%防御力)。
 		/// 每触发 3 次后，下 1 次触发还会使所有友军获得“保护体力极限”，持续 2 回合。
@@ -51,7 +59,7 @@ namespace FAlice
 		/// </summary>
         public static string Skill_S_FAlice_4 = "S_FAlice_4";
 		/// <summary>
-		/// 暗符「雾之伦敦人偶」
+		/// 暗符「雾之伦敦人形」
 		/// 这个技能处于倒计时中时，为&user提供“+1速度”。
 		/// 触发时，使所有友军获得“+25%闪避率、+25%减益抵抗率”，持续 1 回合。
 		/// 每触发 3 次后，下 1 次触发还会使所有友军获得“下 1 个固定能力费用降低 1 点”。
@@ -83,13 +91,6 @@ namespace FAlice
 		/// </summary>
         public static string Skill_S_FAlice_Rare_1 = "S_FAlice_Rare_1";
 		/// <summary>
-		/// 虹彩的人形使
-		/// 每个回合开始时，额外生成 1 个“操符「操纵人形」”。
-		/// 移除「人形」技能数量上限。
-		/// </summary>
-        public static string Buff_B_FAlice_Rare_1 = "B_FAlice_Rare_1";
-        public static string SkillEffect_SE_T_S_FAlice_Rare_1 = "SE_T_S_FAlice_Rare_1";
-		/// <summary>
 		/// 枪符「萌萌大千枪」
 		/// 使所有「人形」技能立即触发 3 次、强化触发 1 次。
 		/// 那之后，将所有倒计时中的「人形」技能置入弃牌库。
@@ -109,7 +110,6 @@ namespace FAlice
 		/// 每触发 3 次后，下 1 次触发改为对所有敌人造成 &a 伤害(攻击力的450%)。然后将这个技能放逐。
 		/// </summary>
         public static string Skill_S_FAlice_Rare_3_0 = "S_FAlice_Rare_3_0";
-        public static string SkillEffect_SE_T_S_FAlice_Rare_3_0 = "SE_T_S_FAlice_Rare_3_0";
 
     }
 

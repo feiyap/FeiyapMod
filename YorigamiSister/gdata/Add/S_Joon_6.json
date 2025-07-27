@@ -6,11 +6,29 @@
         "Target": "enemy",
         "IgnoreTaunt": true,
         "Name": "珠光指虎",
-        "Description": "这个技能暴击时，如果金币不低于 50，则消耗 50 金币，追加一次 &a 伤害的攻击(攻击力的100%)。",
+        "Description": "这个技能的伤害按照“自己身上所有装备品质之和”百分比增加（每点品质提升10%）。",
         "User": "YorigamiJoon",
         "UseAp": 2,
         "NotCount": false,
         "Track": true,
-        "Effect_Target": "SE_T_S_Joon_6"
+        "Effect_Target": "SE_T_S_Joon_6",
+        "SkillExtended": [
+            "YorigamiSister.S_Joon_6"
+        ],
+        "Image_0": "S_Joon_6\\S_Joon_6_Image_0.png",
+        "Image_1": "S_Joon_6\\S_Joon_6_Image_1.png",
+        "Image_2": "S_Joon_6\\S_Joon_6_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

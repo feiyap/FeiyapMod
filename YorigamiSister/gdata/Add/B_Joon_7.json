@@ -2,11 +2,18 @@
     "B_Joon_7": {
         "_gdeSchema": "Buff",
         "IsFieldBuff": false,
-        "ClassName": "",
-        "BuffTag": "null",
+        "ClassName": "YorigamiSister.B_Joon_7",
+        "BuffTag": "Debuff",
         "Name": "夏季促销",
-        "Description": "在战斗中消耗金币时，每次消耗金币移除 1 层“夏季促销”，然后获得 50 金币，并获得 1 层“拜金主义”。\n战斗结束时，剩余的“夏季促销”转化为金币（每层 25 金币）。",
+        "Description": "受到的伤害转化为等量的金币。\n这个减益的效果只在黑雾回合到来前有效。",
         "Icon": "B_Joon_7\\B_Joon_7_Icon.png",
-        "MaxStack": 8
+        "MaxStack": 1,
+        "Hide": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "LifeTime": 2,
+        "Debuff": true,
+        "TagPer": 135
     }
 }
