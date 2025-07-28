@@ -49,7 +49,7 @@ namespace YorigamiSister
             if (Cri)
             {
                 Skill skill = Skill.TempSkill("S_Joon_5_0", this.BChar, this.BChar.MyTeam);
-                skill.Counting = 1;
+                skill.Counting = 2;
                 BattleSystem.DelayInput(BattleSystem.instance.ForceAction(skill, targetBC, false, false, false, null));
             }
 

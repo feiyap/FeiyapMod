@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -409,12 +409,13 @@
       <Private>False</Private>
     </Reference>
     <!-- Extra Reference Start-->
-<!-- Extra Reference End-->
+    <!-- Extra Reference End-->
   </ItemGroup>
-                                              <!-- Compile ItemGroup Start-->
+  <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BV_Joon_TempEquip.cs" />
     <Compile Include="CV_Gold.cs" />
+    <Compile Include="CampfireEquipPatch.cs" />
     <Compile Include="GoldPatch.cs" />
     <Compile Include="YorigamiSister_ModDefinition.cs" />
     <Compile Include="YorigamiSister_ModItemKeys.cs" />

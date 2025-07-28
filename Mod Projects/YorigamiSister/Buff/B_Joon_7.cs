@@ -13,13 +13,18 @@ using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 namespace YorigamiSister
 {
-	/// <summary>
-	/// 夏季促销
-	/// 在战斗中消耗金币时，每次消耗金币移除 1 层“夏季促销”，然后获得 50 金币，并获得 1 层“拜金主义”。
-	/// 战斗结束时，剩余的“夏季促销”转化为金币（每层 25 金币）。
-	/// </summary>
-    public class B_Joon_7:Buff
+    /// <summary>
+    /// 夏季促销
+    /// 受到的伤害转化为等量的金币。这个减益的效果只在黑雾回合到来前有效。
+    /// </summary>
+    public class B_Joon_7:Buff, IP_DamageTake
     {
-
+        public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
+        {
+            if (Target == this.BChar && BattleSystem.instance.TurnNum <= BattleSystem.instance.FogTurn)
+            {
+                PlayData.Gold += Dmg;
+            }
+        }
     }
 }
