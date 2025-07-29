@@ -30,8 +30,8 @@ namespace YorigamiSister
 
             CV_Gold customValue = PlayData.TSavedata.GetCustomValue<CV_Gold>();
 
-            this.PlusStat.cri = customValue.costGold / 100;
-            this.PlusStat.PlusCriDmg = customValue.costGold / 200;
+            this.PlusStat.cri = customValue.costGold / 200;
+            this.PlusStat.PlusCriDmg = customValue.costGold / 400;
         }
 
         public override void FixedUpdate()
@@ -45,8 +45,8 @@ namespace YorigamiSister
 
             CV_Gold customValue = PlayData.TSavedata.GetCustomValue<CV_Gold>();
 
-            this.PlusStat.cri = customValue.costGold / 100;
-            this.PlusStat.PlusCriDmg = customValue.costGold / 200;
+            this.PlusStat.cri = customValue.costGold / 200;
+            this.PlusStat.PlusCriDmg = customValue.costGold / 400;
         }
 
         public override string DescExtended()

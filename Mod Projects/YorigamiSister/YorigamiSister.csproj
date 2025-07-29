@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>YorigamiSister202572813002</AssemblyName>
+    <AssemblyName>YorigamiSister202572901318</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -409,13 +409,13 @@
       <Private>False</Private>
     </Reference>
     <!-- Extra Reference Start-->
-    <!-- Extra Reference End-->
+<!-- Extra Reference End-->
   </ItemGroup>
-  <!-- Compile ItemGroup Start-->
+        <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BV_Joon_TempEquip.cs" />
-    <Compile Include="CV_Gold.cs" />
     <Compile Include="CampfireEquipPatch.cs" />
+    <Compile Include="CV_Gold.cs" />
     <Compile Include="GoldPatch.cs" />
     <Compile Include="YorigamiSister_ModDefinition.cs" />
     <Compile Include="YorigamiSister_ModItemKeys.cs" />

@@ -20,14 +20,14 @@ using EOS.Attributes;
 using EOS.Tools;
 namespace YorigamiSister
 {
-    //修改篝火UI
-    [HarmonyPatch(typeof(CampUI))]
-    [HarmonyPatch("Update")]
-    public static class CampUIPatch
-    {
-        public static void Postfix(int value)
-        {
+    ////修改篝火UI
+    //[HarmonyPatch(typeof(CampUI))]
+    //[HarmonyPatch("Update")]
+    //public static class CampUIPatch
+    //{
+    //    public static void Postfix(int value)
+    //    {
 
-        }
-    }
+    //    }
+    //}
 }

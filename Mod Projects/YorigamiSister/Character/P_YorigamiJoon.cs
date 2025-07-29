@@ -34,14 +34,10 @@ namespace YorigamiSister
             base.Init();
             this.OnePassive = true;
 
-            Debug.Log(PlayData.TSavedata.GetCustomValue<CV_Gold>().costGold);
-
             if (PlayData.TSavedata.GetCustomValue<CV_Gold>() == null)
             {
                 PlayData.TSavedata.AddCustomValue(new CV_Gold());
             }
-
-            Debug.Log(PlayData.TSavedata.GetCustomValue<CV_Gold>().costGold);
 
             //PlayData.TSavedata.GetCustomValue<CV_Gold>().costGold = 0;
 
