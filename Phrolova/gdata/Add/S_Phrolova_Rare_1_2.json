@@ -1,0 +1,21 @@
+{
+    "S_Phrolova_Rare_1_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/Hein_new_2",
+        "Target": "all_enemy",
+        "NotCount": true,
+        "NoDrop": true,
+        "Fatal": true,
+        "Name": "彼世与彼岸",
+        "Description": "造成<color=purple>痛苦伤害</color>。使自身受到<color=purple>&a痛苦伤害</color><color=#FF7A33>(自身最大体力值的100%)</color>。",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Phrolova_Rare_1_2",
+        "Image_0": "S_Phrolova_Rare_1_2\\S_Phrolova_Rare_1_2_Image_0.png",
+        "Image_1": "S_Phrolova_Rare_1_2\\S_Phrolova_Rare_1_2_Image_1.png",
+        "Image_2": "S_Phrolova_Rare_1_2\\S_Phrolova_Rare_1_2_Image_2.png",
+        "SkillExtended": [
+            "Phrolova.S_Phrolova_Rare_1_2"
+        ]
+    }
+}

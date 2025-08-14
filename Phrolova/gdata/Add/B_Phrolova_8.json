@@ -1,0 +1,12 @@
+{
+    "B_Phrolova_8": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Phrolova.B_Phrolova_8",
+        "BuffTag": "null",
+        "Name": "遗失的提琴声",
+        "Description": "下 1 个对&user释放的单体技能伤害量/治疗量提升100%，抽取 1 个目标的技能，然后解除该增益。\n回合结束时，对&user释放 1 次“基础攻击”。",
+        "LifeTime": 1,
+        "Icon": "B_Phrolova_8\\B_Phrolova_8_Icon.png",
+        "Cantdisable": false
+    }
+}

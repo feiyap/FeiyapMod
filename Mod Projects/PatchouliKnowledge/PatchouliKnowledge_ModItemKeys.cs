@@ -437,7 +437,7 @@ namespace PatchouliKnowledge
     {
 		/// <summary>
 		/// Korean:
-		/// Mage
+		/// 마녀
 		/// English:
 		/// Mage
 		/// Japanese:
@@ -450,7 +450,7 @@ namespace PatchouliKnowledge
         public static string SystemCharacterRoleRole_Mage => ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("System/Character/Role/Role_Mage");
 		/// <summary>
 		/// Korean:
-		/// Choose a skill return to your hand from the exclude deck:
+		/// 소멸된 덱에서 카드를 1장 손으로 가져옵니다
 		/// English:
 		/// Choose a skill return to your hand from the exclude deck:
 		/// Japanese:
@@ -463,7 +463,7 @@ namespace PatchouliKnowledge
         public static string exceptSkillSelect => ModManager.getModInfo("PatchouliKnowledge").localizationInfo.SystemLocalizationUpdate("exceptSkillSelect");
 		/// <summary>
 		/// Korean:
-		/// Choose elements to fuse:
+		/// 융합할 원소 선택:
 		/// English:
 		/// Choose elements to fuse:
 		/// Japanese:

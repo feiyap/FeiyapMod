@@ -76,7 +76,7 @@ namespace FairyLancelot
                         break;
                 }
             }
-            if (P_FairyLancelot.heartPoint >= 10)
+            if (PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint >= 10)
             {
                 this.BChar.BuffAdd("B_FLancelot_0_2", this.BChar);
             }

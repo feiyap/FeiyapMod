@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Phrolova_P": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Phrolova_P_2"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

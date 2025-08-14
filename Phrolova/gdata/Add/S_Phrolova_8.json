@@ -1,0 +1,21 @@
+{
+    "S_Phrolova_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "otherally",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "Description": "这个技能被交换或丢弃时，受到<color=purple>6痛苦伤害</color>。",
+        "User": "Phrolova",
+        "Name": "《终焉沉落》",
+        "AutoDelete": 1,
+        "Effect_Target": "SE_T_S_Phrolova_8",
+        "Image_0": "S_Phrolova_8\\S_Phrolova_8_Image_0.png",
+        "Image_1": "S_Phrolova_8\\S_Phrolova_8_Image_1.png",
+        "Image_2": "S_Phrolova_8\\S_Phrolova_8_Image_2.png",
+        "SkillExtended": [
+            "Phrolova.S_Phrolova_8"
+        ]
+    }
+}

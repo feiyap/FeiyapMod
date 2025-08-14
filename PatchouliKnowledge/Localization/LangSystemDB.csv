@@ -1,4 +1,4 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-System/Character/Role/Role_Mage,Text,,Mage,Mage,魔女,魔女,魔女
-exceptSkillSelect,Text,,Choose a skill return to your hand from the exclude deck:,Choose a skill return to your hand from the exclude deck:,Choose a skill return to your hand from the exclude deck:,选择要从放逐牌库中拿回的技能：,選擇要從放逐牌庫中取回的技能：
-selectElement,Text,,Choose elements to fuse:,Choose elements to fuse:,Choose elements to fuse:,选择想要组合的元素：,選擇想要組合的元素：
+System/Character/Role/Role_Mage,Text,,마녀,Mage,魔女,魔女,魔女
+exceptSkillSelect,Text,,소멸된 덱에서 카드를 1장 손으로 가져옵니다,Choose a skill return to your hand from the exclude deck:,Choose a skill return to your hand from the exclude deck:,选择要从放逐牌库中拿回的技能：,選擇要從放逐牌庫中取回的技能：
+selectElement,Text,,융합할 원소 선택:,Choose elements to fuse:,Choose elements to fuse:,选择想要组合的元素：,選擇想要組合的元素：

@@ -44,7 +44,7 @@ namespace FairyLancelot
             if (User == this.Usestate_L && Dmg >= this.BarrierHP)
             {
                 InventoryManager.Reward(ItemBase.GetItem(GDEItemKeys.Item_Misc_Soul, 2));
-                P_FairyLancelot.heartPoint += 2;
+                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint += 2;
             }
         }
 

@@ -1,0 +1,36 @@
+{
+    "S_Phrolova_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/Hein_new_1",
+        "Target": "all_enemy",
+        "NotCount": true,
+        "Name": "往日深渊的圆舞曲",
+        "Description": "仅在持有“定音”增益时才可释放。\n移除“定音”增益。",
+        "User": "Phrolova",
+        "Rare": true,
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Phrolova_Rare_1",
+        "Image_0": "S_Phrolova_Rare_1\\S_Phrolova_Rare_1_Image_0.png",
+        "Image_1": "S_Phrolova_Rare_1\\S_Phrolova_Rare_1_Image_1.png",
+        "Image_2": "S_Phrolova_Rare_1\\S_Phrolova_Rare_1_Image_2.png",
+        "Effect_Self": "SE_S_S_Phrolova_Rare_1",
+        "NoDrop": false,
+        "Fatal": false,
+        "PlusSkillView": "S_Phrolova_Rare_1_1",
+        "SkillExtended": [
+            "Phrolova.S_Phrolova_Rare_1"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

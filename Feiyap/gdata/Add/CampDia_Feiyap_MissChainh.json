@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_MissChainh": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "MissChain",
+        "Dialogues": [
+            "[A]用链锯战斗的话，不觉得很危险吗？",
+            "[B]就是这样所以才刺激呀！你不这么觉得吗？",
+            "[A]武士应当死于敌手，而并非……"
+        ]
+    }
+}

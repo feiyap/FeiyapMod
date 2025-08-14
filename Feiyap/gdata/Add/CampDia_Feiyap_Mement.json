@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_Mement": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Mement",
+        "Dialogues": [
+            "[A]弓箭吗……真是令人怀念的武器啊。",
+            "[B]怎么，你也曾学过弓箭吗？",
+            "[A]在我们那个乱世，不精通所有武器的话马上就会死掉的哦。"
+        ]
+    }
+}

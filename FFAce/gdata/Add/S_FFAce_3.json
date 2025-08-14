@@ -6,7 +6,7 @@
         "Target": "ally",
         "NotCount": false,
         "Name": "零式预判",
-        "Description": "抽到这张牌时，使用这张牌的[翻开]效果。\r\n翻开：从弃牌库中选择1张调查员的普通技能置入手中并减少1费。1个回合中最多触发2次该效果。",
+        "Description": "翻开：从弃牌库中选择 1 个自己的普通技能置入手中，并使其减少 1 点费用。1 个回合中最多触发 2 次该效果。",
         "UseAp": 1,
         "User": "FFAce",
         "Effect_Target": "SE_T_S_FFAce_3",

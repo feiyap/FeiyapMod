@@ -5,7 +5,7 @@
         "BuffTag": "null",
         "MaxStack": 3,
         "Icon": "Image/Buff/Skill_Icon_Pack/Buff",
-        "Description": "下次使用固定能力时可额外查看&a个技能，并触发相应的[翻开]效果。",
+        "Description": "下次使用固定能力时可额外查看&a个技能。",
         "Name": "翻牌强化"
     }
 }

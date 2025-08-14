@@ -23,6 +23,10 @@ namespace HatsuneMiku
 		/// </summary>
         public static string Buff_B_HatsuneMiku_7 = "B_HatsuneMiku_7";
 		/// <summary>
+		/// 无敌
+		/// </summary>
+        public static string Buff_B_HatsuneMiku_9 = "B_HatsuneMiku_9";
+		/// <summary>
 		/// <color=#7FFFD4>未来之音</color>
 		/// 回合结束时，恢复等量于层数的体力。
 		/// 那之后，消耗1层<color=#7FFFD4>未来之音</color>。
@@ -159,10 +163,6 @@ namespace HatsuneMiku
 		/// <color=#54FF9F>音弦1</color> - 额外施加1层<color=#7FFFD4>未来之音</color>。
 		/// </summary>
         public static string Skill_S_HatsuneMiku_P = "S_HatsuneMiku_P";
-		/// <summary>
-		/// 无敌
-		/// </summary>
-        public static string Buff_B_HatsuneMiku_9 = "B_HatsuneMiku_9";
 
     }
 

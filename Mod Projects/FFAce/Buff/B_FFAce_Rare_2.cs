@@ -15,17 +15,16 @@ namespace FFAce
 {
 	/// <summary>
 	/// 朱雀刻印
-	/// 每个回合首次使用固定能力时，额外翻开一张牌并获得相应的[翻开]效果。
-	/// 每个回合开始时，额外获得2层[赤红之炎]。
-	/// 使用[红焰轮舞]和[赤红之炎]时，额外造成[艾斯100%攻击力]点伤害的追加攻击。
+	/// 使用固定能力时，额外翻开一张牌。
+	/// 使用[红焰轮舞]和[赤红之炎]时，以暴击形式命中。
 	/// </summary>
-    public class B_FFAce_Rare_2:Buff, IP_PlayerTurn, IP_SkillUse_Team_Target
+    public class B_FFAce_Rare_2:Buff, IP_CriPerChange
     {
-        public void Turn()
-        {
-            this.BChar.BuffAdd("B_FFAce_0", this.BChar);
-            this.BChar.BuffAdd("B_FFAce_LucyD", this.BChar);
-        }
+        //public void Turn()
+        //{
+        //    this.BChar.BuffAdd("B_FFAce_0", this.BChar);
+        //    this.BChar.BuffAdd("B_FFAce_LucyD", this.BChar);
+        //}
 
         public override string DescExtended()
         {
@@ -33,14 +32,22 @@ namespace FFAce
                                       .Replace("&a", ((int)(this.Usestate_F.GetStat.atk * 1.0f)).ToString());
         }
 
-        public void SkillUseTeam_Target(Skill skill, List<BattleChar> Targets)
+        //public void SkillUseTeam_Target(Skill skill, List<BattleChar> Targets)
+        //{
+        //    if (!skill.FreeUse && !Targets[0].Info.Ally && skill.Master == this.BChar && skill.MySkill.KeyID == "S_FFAce_0" || skill.MySkill.KeyID == "S_FFAce_0_Ex")
+        //    {
+        //        foreach (BattleChar target in Targets)
+        //        {
+        //            BattleSystem.DelayInput(this.Effect(target));
+        //        }
+        //    }
+        //}
+
+        public void CriPerChange(Skill skill, BattleChar Target, ref float CriPer)
         {
-            if (!skill.FreeUse && !Targets[0].Info.Ally && skill.MySkill.KeyID == "S_FFAce_0" || skill.MySkill.KeyID == "S_FFAce_0_Ex")
+            if (!skill.FreeUse && !Target.Info.Ally && skill.Master == this.BChar && skill.MySkill.KeyID == "S_FFAce_0" || skill.MySkill.KeyID == "S_FFAce_0_Ex")
             {
-                foreach (BattleChar target in Targets)
-                {
-                    BattleSystem.DelayInput(this.Effect(target));
-                }
+                CriPer += 100;
             }
         }
 

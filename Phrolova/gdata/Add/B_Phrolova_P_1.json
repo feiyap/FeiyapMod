@@ -1,0 +1,16 @@
+{
+    "B_Phrolova_P_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "Phrolova.B_Phrolova_P_1",
+        "BuffTag": "DOT",
+        "Name": "“来生”",
+        "Description": "死亡时，对所有敌人造成<color=purple>&a痛苦伤害</color><color=#FF7A33>(&user攻击力的33%/每层)</color>。",
+        "MaxStack": 5,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 105,
+        "Icon": "B_Phrolova_P_1\\B_Phrolova_P_1_Icon.png",
+        "Tick": "SE_Tick_B_Phrolova_P_1"
+    }
+}

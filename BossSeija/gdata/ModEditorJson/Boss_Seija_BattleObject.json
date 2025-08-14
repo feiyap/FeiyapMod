@@ -1,0 +1,28 @@
+{
+    "myKey": "Boss_Seija",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Boss_Seija\\Boss_SeijaMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.50760746,
+            "y": 0.137361974
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.5051207,
+            "y": 0.123096108
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

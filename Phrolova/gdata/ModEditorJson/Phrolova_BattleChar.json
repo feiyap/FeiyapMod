@@ -1,0 +1,23 @@
+{
+    "myKey": "Phrolova",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Phrolova\\PhrolovaBattleChar.png",
+        "offsetMax": {
+            "x": 807.4044,
+            "y": 312.550354
+        },
+        "offsetMin": {
+            "x": -814.5956,
+            "y": -1765.44958
+        },
+        "pivot": {
+            "x": 0.502216756,
+            "y": 0.8495908
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

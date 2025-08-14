@@ -1,0 +1,16 @@
+{
+    "B_Phrolova_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Phrolova.B_Phrolova_5",
+        "BuffTag": "null",
+        "Name": "八重奏",
+        "Description": "暴击率提升&a%<color=#FF7A33>(&user攻击力的100%)</color>。\n自己造成的<color=purple>痛苦伤害</color>可以暴击。",
+        "LifeTime": 2,
+        "Icon": "B_Phrolova_5\\B_Phrolova_5_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

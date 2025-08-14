@@ -1,0 +1,11 @@
+{
+    "CampDia_Feiyap_Momori": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Momori",
+        "Dialogues": [
+            "[A]桃梨妹妹，你这样战斗可是很危险的哦？",
+            "[B]唯独不想被你这家伙这么说耶……"
+        ]
+    }
+}

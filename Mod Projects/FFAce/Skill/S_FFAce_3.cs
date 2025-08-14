@@ -20,24 +20,24 @@ namespace FFAce
 	/// </summary>
     public class S_FFAce_3: SkillBase_Ace
     {
-        public override IEnumerator DrawAction()
-        {
-            this.AceDraw();
-            return base.DrawAction();
-        }
+        //public override IEnumerator DrawAction()
+        //{
+        //    this.AceDraw();
+        //    return base.DrawAction();
+        //}
 
         public override void AceDraw()
         {
             base.AceDraw();
 
-            if (this.BChar.BuffReturn("B_FFAce_3_Count")?.StackNum >= 2)
+            if ((this.BChar.BuffReturn("B_FFAce_3_Count")?.StackNum ?? 0) < 2)
             {
                 new List<Skill>();
                 List<Skill> list = new List<Skill>();
                 list.AddRange(BattleSystem.instance.AllyTeam.Skills_UsedDeck);
                 for (int i = 0; i < list.Count; i++)
                 {
-                    if (list[i].Master.IsLucyNoC || list[i].MySkill.Rare)
+                    if (list[i].Master.IsLucyNoC || list[i].MySkill.Rare || list[i].Master != this.BChar)
                     {
                         list.RemoveAt(i);
                         i--;

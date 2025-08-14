@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_Ilya": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Ilya",
+        "Dialogues": [
+            "[B]你……你别过来，你想干什么？！",
+            "[A]在下听说您是役使太刀的高手。特此前来向您发起死斗挑战……",
+            "[B]噫噫——不要靠近我啊啊啊！！！"
+        ]
+    }
+}

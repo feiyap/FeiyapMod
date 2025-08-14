@@ -2,9 +2,9 @@
     "id": "Feiyap",
     "Uploader": "Feiyap",
     "Visibility": "Public",
-    "Title": "【CN/EN/TW】绯夜氏 Feiyap Character Mod",
+    "Title": "【CN/EN/KR】绯夜氏 Feiyap Character Mod",
     "Author": "绯夜氏",
-    "Version": "v2.5",
+    "Version": "v2.7",
     "Cover": "FeiyapCover.png",
     "Description": "于万千碎裂的世界破片中，选择成为了方舟调查员的那一个“绯夜氏”。\n绯夜氏是役使着一柄名为“绯生一文字”的太刀的我流武士。太刀上寄宿着的死气与魔力给予了她操纵苍蓝色火焰的能力，不仅能够灼伤敌人，还能够幻形成为另一柄太刀、供她驱使。对她而言，扭曲之地只不过是奔赴另一个砍下头颅的野原战场而已。\n\n只是偶尔，于万千碎裂的世界破片中的一瞥，似乎得以窥见“另一种可能性”的“绯夜氏”。\n\n包含1个角色，拥有9个基础技能，2个稀有技能，2个露西抽牌技能，2个协同强化。\n包含1个金色装备。",
     "TagList": [
@@ -12,5 +12,5 @@
     ],
     "WorkShopId": "3457671175",
     "OnlyUploadFiles": true,
-    "ChangeNote": "2025/6/27\nv2.5\n新增 - 喜爱的礼物。"
+    "ChangeNote": "2025/8/11\nv2.7\n新增 - KR翻译。感谢@모드 번역하기。"
 }

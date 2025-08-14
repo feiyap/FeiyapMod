@@ -30,7 +30,7 @@ namespace FFAce
         {
             if (!NODEF)
             {
-                this.BChar.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.7), true, true);
+                this.BChar.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.7), RandomManager.RandomPer(Usestate_F.GetRandomClass().DamageCri, 100, (int)(Usestate_F.GetStat.cri + (float)BChar.GetStat.crihit)), true);
                 base.SelfDestroy(false);
             }
         }

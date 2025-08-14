@@ -1,0 +1,11 @@
+{
+    "CampDia_Feiyap_Leryn": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Leryn",
+        "Dialogues": [
+            "[A]研究所的吗……放心吧，我会保护你的。",
+            "[B]不用你这个进攻职业来啦！"
+        ]
+    }
+}

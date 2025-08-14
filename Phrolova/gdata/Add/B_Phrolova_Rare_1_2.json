@@ -1,0 +1,14 @@
+{
+    "B_Phrolova_Rare_1_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Phrolova.B_Phrolova_Rare_1_2",
+        "BuffTag": "DOT",
+        "Name": "失亡彼岸",
+        "Icon": "B_Phrolova_Rare_1_2\\B_Phrolova_Rare_1_2_Icon.png",
+        "Description": "这个增益的“每回合伤害量”等于目标持有的所有减益“每回合伤害量”之和。",
+        "Tick": "null",
+        "Debuff": true,
+        "TagPer": 135,
+        "Cantdisable": false
+    }
+}

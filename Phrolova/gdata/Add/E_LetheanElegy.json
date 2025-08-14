@@ -1,0 +1,10 @@
+{
+    "E_LetheanElegy": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "name": "幽冥的忘忧章",
+        "Description": "固定能力造成的伤害提升64%。\n释放固定能力后，下 1 个从手中释放的技能造成的伤害提升64%。\n\n<i><color=#919191>我不在那里，也没有死去。\n我将追随死亡，用享受掩盖恐惧，以未来换回过去。</color></i>",
+        "image": "Item\\E_LetheanElegy_image.png",
+        "Equip_Script": "Phrolova.E_LetheanElegy"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_Phoenix": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Phoenix",
+        "Dialogues": [
+            "[A]不死的凤凰啊……",
+            "[B]没错没错！尽管膜拜我、尊敬我，为我献上面包吧！",
+            "[A]但是不死鸟和凤凰不是两种东西吗？",
+            "[B]……咦耶？"
+        ]
+    }
+}

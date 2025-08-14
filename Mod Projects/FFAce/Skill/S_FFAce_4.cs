@@ -64,7 +64,7 @@ namespace FFAce
         {
             base.AceDraw();
 
-            if (this.BChar.BuffReturn("B_FFAce_4_Count")?.StackNum >= 2)
+            if ((this.BChar.BuffReturn("B_FFAce_4_Count")?.StackNum ?? 0) < 2)
             {
                 new List<Skill>();
                 List<Skill> list = new List<Skill>();

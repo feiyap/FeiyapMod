@@ -1,0 +1,23 @@
+{
+    "myKey": "Boss_Seija",
+    "myField": "Face",
+    "myValues": {
+        "path": "Boss_Seija\\Boss_SeijaFace.png",
+        "offsetMax": {
+            "x": 1239.68848,
+            "y": 1805.38965
+        },
+        "offsetMin": {
+            "x": -1293.644,
+            "y": -727.9429
+        },
+        "pivot": {
+            "x": 0.509847,
+            "y": 0.2851395
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

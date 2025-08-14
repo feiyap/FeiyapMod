@@ -1,0 +1,15 @@
+{
+    "B_Phrolova_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Phrolova.B_Phrolova_2",
+        "BuffTag": "null",
+        "Name": "重世",
+        "Description": "强化自己的下 1 个技能，使其造成的伤害增加&a%<color=#FF7A33>(&user攻击力的200%)</color>。",
+        "Icon": "B_Phrolova_2\\B_Phrolova_2_Icon.png",
+        "Cantdisable": false,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

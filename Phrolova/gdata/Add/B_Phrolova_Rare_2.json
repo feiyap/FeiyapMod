@@ -1,0 +1,11 @@
+{
+    "B_Phrolova_Rare_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Phrolova.B_Phrolova_Rare_2",
+        "BuffTag": "null",
+        "Name": "醒来后发现",
+        "Description": "自身不再受到“定音”影响。",
+        "Icon": "B_Phrolova_Rare_2\\B_Phrolova_Rare_2_Icon.png"
+    }
+}

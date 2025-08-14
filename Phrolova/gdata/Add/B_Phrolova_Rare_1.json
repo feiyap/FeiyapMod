@@ -1,0 +1,16 @@
+{
+    "B_Phrolova_Rare_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Phrolova.B_Phrolova_Rare_1",
+        "BuffTag": "null",
+        "Name": "我或曾梦见",
+        "Description": "手中的自己的技能全部变为“红与黑的歌”。\n进入濒死状态时，解除该增益。",
+        "MaxStack": 0,
+        "Icon": "B_Phrolova_Rare_1\\B_Phrolova_Rare_1_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "SE_E_LetheanElegy": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "安魂曲",
+        "Des": "造成的伤害提升64%。",
+        "ClassName": "Phrolova.SE_E_LetheanElegy",
+        "IsIcon": ""
+    }
+}

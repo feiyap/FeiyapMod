@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_Control": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Control",
+        "Dialogues": [
+            "[A]心理术士？听起来真时髦啊。",
+            "[B]呵呵，沽名钓誉罢了。比不上你们这些武士啊。",
+            "[A]呵呵……如今只是一介无处可去的浪人罢了。"
+        ]
+    }
+}

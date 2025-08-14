@@ -23,29 +23,33 @@ namespace FFAce
         public override void DiscardSingle(bool Click)
         {
             base.DiscardSingle(Click);
-            Skill tmpSkill = Skill.TempSkill("S_FFAce_5", this.BChar, this.BChar.MyTeam);
-            tmpSkill.isExcept = true;
-            BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
+
+            BattleSystem.instance.EnemyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main).BuffAdd("B_FFAce_7", this.BChar);
         }
 
         public override void AceDraw()
         {
             base.AceDraw();
 
-            new List<Skill>();
-            List<Skill> list = new List<Skill>();
-            list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill y) => y != this.MySkill && y.Master == this.BChar && y.MySkill.User == this.BChar.Info.KeyData));
-            list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck.FindAll((Skill y) => y != this.MySkill && y.Master == this.BChar && y.MySkill.User == this.BChar.Info.KeyData));
-            for (int i = 0; i < list.Count; i++)
-            {
-                if (list[i].Master.IsLucyNoC || list[i].MySkill.Rare || list[i].Master != this.BChar || list[i] == this.MySkill)
-                {
-                    list.RemoveAt(i);
-                    i--;
-                }
-            }
+            Skill tmpSkill = Skill.TempSkill("S_FFAce_5", this.BChar, this.BChar.MyTeam);
+            tmpSkill.isExcept = true;
+            tmpSkill.AutoDelete = 1;
+            BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
 
-            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true));
+            //new List<Skill>();
+            //List<Skill> list = new List<Skill>();
+            //list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill y) => y != this.MySkill && y.Master == this.BChar && y.MySkill.User == this.BChar.Info.KeyData));
+            //list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck.FindAll((Skill y) => y != this.MySkill && y.Master == this.BChar && y.MySkill.User == this.BChar.Info.KeyData));
+            //for (int i = 0; i < list.Count; i++)
+            //{
+            //    if (list[i].Master.IsLucyNoC || list[i].MySkill.Rare || list[i].Master != this.BChar || list[i] == this.MySkill)
+            //    {
+            //        list.RemoveAt(i);
+            //        i--;
+            //    }
+            //}
+
+            //BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, false, true, true, false, true));
         }
 
         public void Del(SkillButton Mybutton)

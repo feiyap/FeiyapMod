@@ -1,0 +1,11 @@
+{
+    "CampDia_Feiyap_Prime": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Prime",
+        "Dialogues": [
+            "[B]放心吧！有我在，你们绝对不会受伤！",
+            "[A]倒是让我受点伤啊……"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_Sizz": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Sizz",
+        "Dialogues": [
+            "[B]前辈！请你不要再故意受伤了好吗？！",
+            "[A]血肉被割开的感觉……难道不觉得令人着迷吗，西斯？",
+            "[B]那种事，有什么好着迷的……？",
+            "[A]没有这种被切开的觉悟的话，是没法轻易地拔刀斩人的喔？"
+        ]
+    }
+}

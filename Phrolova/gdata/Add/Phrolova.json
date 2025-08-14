@@ -1,0 +1,124 @@
+{
+    "Phrolova": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "Phrolova.P_Phrolova",
+        "PassiveUnlockLV1": false,
+        "face": "Phrolova\\PhrolovaBattleFace.png",
+        "PassiveIcon": "Phrolova\\PhrolovaPassiveIcon.png",
+        "PassiveDes": "每次释放自己的技能时，获得 1 层“乐声”。\n“乐声”叠加至 6 层后，固定能力会替换为“谱曲终末”。\n\n受到来自队友的伤害提升100%。\n队伍中每有 1 个角色阵亡，弗洛洛就会永久持有 1 层“乐声”。",
+        "PassiveName": "重世的交响乐",
+        "CollectionSprite_Cover": "Phrolova\\PhrolovaCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Phrolova\\PhrolovaCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Debuff": 1,
+        "StatView_CC": 1,
+        "StatView_Dot": 3,
+        "StatView_Difficult": 2,
+        "name": "弗洛洛",
+        "SelectInfo": "游走于生死之间的残星会会监，神秘而危险的指挥家…… 她沉默地挥舞指挥棒，手中调律频率演奏出的“灵魂”旋律，既可塑造美好的世界，也可唤来千军万马。",
+        "Gender": 1,
+        "FirstSkill": "S_Phrolova_0",
+        "MAXHP": {
+            "x": 22,
+            "y": 34
+        },
+        "ATK": {
+            "x": 14,
+            "y": 24
+        },
+        "CRI": {
+            "x": 0,
+            "y": 0
+        },
+        "DODGE": {
+            "x": 5,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 8,
+            "y": 18
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "HIT_DOT": {
+            "x": 3,
+            "y": 44
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": -10,
+            "y": 30
+        },
+        "RES_DOT": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_CC": {
+            "x": -10,
+            "y": 30
+        },
+        "Text_Battle_Idle": [
+            "别急着离开，这场演出还没有结束。",
+            "小心了，我可能会在任意时刻，将指挥棒抛掷出来。"
+        ],
+        "Text_Battle_ND": [
+            "失败的次数足够多时，就会失去面对失败的情感，也就不再拥有烦恼。",
+            "……没关系，都一样。"
+        ],
+        "Text_Field_Idle": [
+            "为领悟生生不息，一次次经历。"
+        ],
+        "Text_Battle_Start": [
+            "来吧，让我们一起，完成这场万众期待的演奏。",
+            "与我合奏？你确定？",
+            "即将到来的声音，是否足够美妙……"
+        ],
+        "Text_Battle_Kill": [
+            "温馨而伤感的第一乐章隐藏在暗夜中，孤独、寂寞。",
+            "阴暗、悲戚的第二乐章深藏着不安与险恶。",
+            "明快又活泼的第三乐章拥有了幻想中的谐谑气氛。",
+            "果断而有力的第四乐章降下酣畅淋漓的战斗颂歌。",
+            "这是……最后的华彩。"
+        ],
+        "Text_Battle_Cri": [
+            "一切就都不过是昙花一现。",
+            "一同干枯……",
+            "完美的徒劳……",
+            "哀嚎，欢唱！"
+        ],
+        "Text_Battle_AllyND": [
+            "瞧，人是活在安全之下的生物，被恐惧威胁着，依附一切而苟存，拒绝死亡。"
+        ],
+        "Text_PharosLeader": [
+            "心知肚明的互相利用，反而会让人心安，不是吗？",
+            "可我们，应掌握活着和死亡后去活着。",
+            "不害怕吗，它将有力地举起匕首，刺破生与死的面纱。"
+        ],
+        "Text_Witch": [
+            "失败的次数足够多时，就会失去面对失败的情感，也就不再拥有烦恼。",
+            "心灵，不可化为坟墓。"
+        ],
+        "Text_MasterTarget": "大家……我回来了……",
+        "Text_Battle_Healed": [
+            "美妙的音色。"
+        ],
+        "Text_Field_GetItem": [
+            "不可或缺。",
+            "你将赋予它们什么意义？"
+        ]
+    }
+}

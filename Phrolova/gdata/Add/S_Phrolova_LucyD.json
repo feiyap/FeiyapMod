@@ -1,0 +1,22 @@
+{
+    "S_Phrolova_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Azar_4",
+        "Rare": false,
+        "Target": "ally",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "Wonderful U",
+        "Description": "造成<color=purple>12痛苦伤害</color>。\n抽取 3 个技能。",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "Phrolova",
+        "Effect_Target": "SE_T_S_Phrolova_LucyD",
+        "Image_0": "S_Phrolova_LucyD\\S_Phrolova_LucyD_Image_0.png",
+        "Image_1": "S_Phrolova_LucyD\\S_Phrolova_LucyD_Image_1.png",
+        "Image_2": "S_Phrolova_LucyD\\S_Phrolova_LucyD_Image_2.png",
+        "SkillExtended": [
+            "Phrolova.S_Phrolova_LucyD"
+        ]
+    }
+}

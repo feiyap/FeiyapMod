@@ -1,0 +1,62 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Ilya_4",
+                "S_Ilya_5",
+                "S_Ilya_6"
+            ],
+            [
+                "S_Phrolova_0",
+                "S_Phrolova_1",
+                "S_Phrolova_2",
+                "S_Phrolova_3",
+                "S_Phrolova_4",
+                "S_Phrolova_5",
+                "S_Phrolova_6",
+                "S_Phrolova_7",
+                "S_Phrolova_8",
+                "S_Phrolova_Rare_1",
+                "S_Phrolova_Rare_2"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "E_LetheanElegy"
+            ]
+        ],
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "Phrolova"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_Phrolova_P"
+        ],
+        "LucySkill": [
+            "S_Phrolova_LucyD"
+        ],
+        "AP": 10,
+        "Level": 2
+    }
+}

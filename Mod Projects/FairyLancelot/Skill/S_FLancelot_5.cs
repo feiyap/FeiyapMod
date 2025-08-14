@@ -66,7 +66,7 @@ namespace FairyLancelot
                         break;
                 }
             }
-            if (P_FairyLancelot.heartPoint >= 50)
+            if (PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint >= 50)
             {
                 CreateSkill();
             }

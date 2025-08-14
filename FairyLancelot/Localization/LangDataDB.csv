@@ -1,0 +1,282 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_FLancelot_0_1_Name,Text,,,,,防御穿透,防禦穿透
+Buff/B_FLancelot_0_2_Name,Text,,,,,群体回血,群體回血
+Buff/B_FLancelot_0_3_Name,Text,,,,,闪避率提升,閃避率提升
+Buff/B_FLancelot_0_Description,Text,,,,,,
+Buff/B_FLancelot_0_Name,Text,,,,,最大体力值提升,最大體力值提升
+Buff/B_FLancelot_10_0_Description,Text,,,,,每次行动时受到 2% 最大体力值的伤害。,行動時，受到等同於最大體力值2%的傷害。
+Buff/B_FLancelot_10_0_Name,Text,,,,,龙泪,龍淚
+Buff/B_FLancelot_10_1_Name,Text,,,,,防御力提升,防禦力提升
+Buff/B_FLancelot_10_Description,Text,,,,,"使用技能时，依据技能的指向：
+指向敌人 - 对其他敌人造成该技能40%的伤害。
+所有敌人 - 额外施加持续 3 回合的“每次行动时受到 2% 最大体力值的伤害”。
+自身 - 额外施加“防御力+2”，并恢复 1 点法力值。","使用技能時，根據指向觸發對應效果：
+指向敵人 - 對目標以外的所有敵人造成相當於該技能傷害量40%的傷害。
+所有敵人 - 額外施加 3 回合的「行動時，受到等同於最大體力值2%的傷害」。
+自身 - 使自身防禦力增加 2 點，並恢復 1 點法力值。"
+Buff/B_FLancelot_10_Name,Text,,,,,阿尔比昂的遗骸,阿爾比昂的遺骸
+Buff/B_FLancelot_1_Description,Text,,,,,下 1 次使用技能时恢复 1 点法力值。,下 1 次使用技能時恢復 1 點法力值。
+Buff/B_FLancelot_1_Name,Text,,,,,妖精剑舞,妖精劍舞
+Buff/B_FLancelot_2_Description,Text,,,,,"只能指定&user为目标。
+受到&user以外的伤害减少50%；受到来自&user的伤害提高50%。
+被&user击杀时，获得100金币，增加 2 点好感度。","只能指定&user為目標。
+受到來自&user的傷害增加50%，其他傷害則減少50%。
+被&user擊殺時，獲得100金幣，增加 2 點好感度。"
+Buff/B_FLancelot_2_Name,Text,,,,,你已深陷于我,你已深陷於我
+Buff/B_FLancelot_3_0_Name,Text,,,,,攻击力提升,攻擊力提升
+Buff/B_FLancelot_3_Description,Text,,,,,"&user获得自身一半的攻击力。
+回合结束时，若本回合&user受到过自身伤害，获得伤害量40%的保护罩。
+被&user击杀时，获得 2 灵魂石，增加 2 点好感度。","&user獲得相當於自身攻擊力50%的攻擊力。
+回合結束時，若本回合自身對&user造成過傷害，則&user獲得等同於傷害量之和40%的保護罩。
+被&user擊殺時，獲得 2 個靈魂石，增加 2 點好感度。"
+Buff/B_FLancelot_3_Name,Text,,,,,你已无法离开我,你已無法離開我
+Buff/B_FLancelot_4_0_Description,Text,,,,,,
+Buff/B_FLancelot_4_0_Name,Text,,,,,你已完全属于我,你已完全屬於我
+Buff/B_FLancelot_4_Description,Text,,,,,"无法对&user施加减益效果。
+无法恢复体力值。","無法對&user施加減益效果。
+無法恢復體力值。"
+Buff/B_FLancelot_4_Name,Text,,,,,你已完全属于我,你已完全屬於我
+Buff/B_FLancelot_5_1_Description,Text,,,,,,
+Buff/B_FLancelot_5_1_Name,Text,,,,,暴击率提升,暴擊率提升
+Buff/B_FLancelot_5_Description,Text,,,,,,
+Buff/B_FLancelot_5_Name,Text,,,,,易伤,易傷
+Buff/B_FLancelot_6_0_Description,Text,,,,,根据当前回合数，提升1倍的防御力、最大体力值和5倍的减益成功率。,獲得當前回合數 1 倍的防禦力、 1 倍的最大體力值、5倍的減益成功率提升。
+Buff/B_FLancelot_6_0_Name,Text,,,,,妖精湖的加护（伪）,妖精湖的加護（偽）
+Buff/B_FLancelot_6_Description,Text,,,,,根据当前回合数，提升2倍的防御力、最大体力值和10倍的减益成功率。,獲得當前回合數 2 倍的防禦力、 2 倍的最大體力值、10倍的減益成功率提升。
+Buff/B_FLancelot_6_Name,Text,,,,,妖精湖的加护,妖精湖的加護
+Buff/B_FLancelot_7_Description,Text,,,,,,
+Buff/B_FLancelot_7_Name,Text,,,,,暴击率提升,暴擊率提升
+Buff/B_FLancelot_8_0_Name,Text,,,,,最大体力值提升,最大體力值提升
+Buff/B_FLancelot_8_Description,Text,,,,,,
+Buff/B_FLancelot_8_Name,Text,,,,,苍穹的试炼,蒼穹的試煉
+Buff/B_FLancelot_9_0_Name,Text,,,,,终焉,終焉
+Buff/B_FLancelot_9_1_Name,Text,,,,,攻击力提升,攻擊力提升
+Buff/B_FLancelot_9_Description,Text,,,,,,
+Buff/B_FLancelot_9_Name,Text,,,,,防御力降低,防禦力降低
+Buff/B_FLancelot_Barrier_Name,Text,,,,,保护罩,保護罩
+Buff/B_FLancelot_C_1_Description,Text,,,,,"特殊形态。
+每次使用自身技能时，获得 1 层“龙之心”。","特殊型態。
+使用自身的技能時，獲得 1 層龍之心。"
+Buff/B_FLancelot_C_1_Name,Text,,,,,邪龙,邪龍
+Buff/B_FLancelot_C_2_Description,Text,,,,,"特殊形态。
+每个回合开始时，获得 1 次等待次数。
+每次使用自身技能时，获得 1 层“舞者”。","特殊型態。
+回合開始時，若上回合為「騎士」型態，則獲得 1 次等待次數。
+使用自身的技能時，獲得 1 層舞者。"
+Buff/B_FLancelot_C_2_Name,Text,,,,,骑士,騎士
+Buff/B_FLancelot_LucyD_0_Description,Text,,,,,,
+Buff/B_FLancelot_LucyD_0_Name,Text,,,,,每回合抽牌,每回合抽牌
+Buff/B_FLancelot_LucyD_Description,Text,,,,,,
+Buff/B_FLancelot_LucyD_Name,Text,,,,,保护体力极限,保護體力極限
+Buff/B_FLancelot_P_1_Description,Text,,,,,当前体力值小于等于最大体力值的50%。,若體力值高於50%，則將此增益轉化為理性。
+Buff/B_FLancelot_P_1_Name,Text,,,,,狂化,狂化
+Buff/B_FLancelot_P_2_Description,Text,,,,,当前体力值大于最大体力值的50%。,若體力值不高於50%，則將此增益轉化為狂化。
+Buff/B_FLancelot_P_2_Name,Text,,,,,理性,理性
+Buff/B_FLancelot_P_3_Description,Text,,,,,,
+Buff/B_FLancelot_P_3_Name,Text,,,,,龙之心,龍之心
+Buff/B_FLancelot_P_4_Description,Text,,,,,,
+Buff/B_FLancelot_P_4_Name,Text,,,,,舞者,舞者
+Buff/B_FLancelot_P_Description,Text,,,,,"每 10 点好感度提高 0.5 攻击力和 2 点最大体力。
+部分技能根据好感度获得不同强化。
+
+当前誓约：&a
+当前状态：&b","每 10 點好感度提高 0.5 攻擊力和 2 點最大體力值。
+部分技能根據好感度獲得不同強化。
+
+目前誓約：&a
+目前誓約的狀態：&b"
+Buff/B_FLancelot_P_Name,Text,,,,,好感度,好感度
+Buff/B_FLancelot_Rare_1_Description,Text,,,,,"释放技能时，重复释放 5 次，每次降低10%伤害。
+击杀敌人时，恢复 1 点法力值，闪避率加成变为70%。
+<b><color=#87CEFA>无法切换为“邪龙”。</color></b>","使用技能時，重複生效 5 次，但傷害量分別降低為90%/80%/70%/60%/50%。
+擊殺敵人時，恢復 1 點法力值，並使此增益的閃避率變為+70%。
+<b><color=#87CEFA>本場戰鬥中不再切換「型態」。</color></b>"
+Buff/B_FLancelot_Rare_1_Name,Text,,,,,湖光骑士,湖光騎士
+Buff/B_FLancelot_Rare_2_0_Description,Text,,,,,,
+Buff/B_FLancelot_Rare_2_0_Name,Text,,,,,幻想破灭,幻想破滅
+Buff/B_FLancelot_Rare_2_Description,Text,,,,,"从好感度中获得的基础属性翻倍。
+所有技能的伤害提升 &a (攻击力的110%)。
+回合结束时，根据剩余法力值获得对应攻击力提升。
+每次造成不低于 20 点伤害时，使所有队友获得 5 点保护罩。","好感度提供的能力值翻倍。
+自身的所有技能造成 &a 點額外傷害(攻擊力的110%)。
+回合結束時，每剩餘 1 點法力值，便使自身的攻擊力在本場戰鬥中增加 1 點。
+每當自身造成不低於 20 點的傷害，便對所有友軍施加 5 點保護罩。
+<b><color=red>本場戰鬥中不再切換「型態」。</color></b>"
+Buff/B_FLancelot_Rare_2_Name,Text,,,,,幻想种,幻想種
+Character/FairyLancelot_PassiveDes,Text,,,,,"最大法力值提升 1 点。
+
+体力值小于等于最大体力值50%时，获得“狂化”；否则获得“理智”。
+
+每回合开始时，从“骑士”和“邪龙”中选择1项作为自己的形态。
+
+无法违背的誓约：进入战斗时，从 5 种“誓言”中选择 2 项。
+若在战斗中违背“誓言”，则好感度降低 2 点。
+若遵守“誓言”完成战斗，增加对应的好感度。
+到达100好感度时，解锁这个被动，不再需要“誓言”。","使最大法力值增加 1 點。
+
+體力值不高於最大值的50%時，獲得狂化；高於50%，獲得理智。
+回合開始時，選擇將自己的型態轉換為「騎士」或「邪龍」。
+
+無法違背的誓約：戰鬥開始時，若蘭斯洛特的好感度低於100，則從 5 種「誓言」中選擇 2 項，在本場戰鬥中生效。
+每有 1 條選擇的誓約無法遵守，則減少 2 點好感度；否則，依據「誓言」內容增加好感度。"
+Character/FairyLancelot_PassiveName,Text,,,,,妖精骑士,妖精騎士
+Character/FairyLancelot_name,Text,,,,,兰斯洛特,蘭斯洛特
+Skill/S_FLancelot_0_Description,Text,,,,,"骑士 - 获得 1 层“舞者”。抽取 1 个技能。依据“舞者”的层数：
+①额外获得持续 3 回合的“闪避率+5%”；
+②使抽取到的技能费用降低 1 点；
+③从牌库选择并抽取 1 个自己的技能。
+
+邪龙 - 获得 1 层“龙之心”。获得持续 1 回合的“攻击力+1”。依据“龙之心”的层数：
+①额外获得持续 3 回合的“最大体力值+10%”；
+②额外获得持续 3 回合的“防御穿透+10%”；
+③从牌库选择并抽取 1 个自己的技能。
+
+好感度10 - 本回合结束时恢复所有友方单位 8 点体力值。","騎士 - 獲得 1 層舞者。抽取 1 個技能。若舞者層數：
+不少於 1 ：閃避率增加5%，持續 3 回合。
+不少於 2 ：使因此抽取的技能費用減少 1 點。
+不少於 3 ：確認牌庫中自身的技能，選擇 1 個加入手中。
+
+邪龍 - 獲得 1 層龍之心。攻擊力增加 1 點，持續 1 回合。若龍之心層数：
+不少於 1 ：最大體力值增加10%，持續 3 回合。
+不少於 2 ：防禦穿透增加10%，持續 3 回合。
+不少於 3 ：確認牌庫中自身的技能，選擇 1 個加入手中。
+
+若自身的好感度不少於10點，則本回合結束時，恢復所有友軍 8 點體力值。"
+Skill/S_FLancelot_0_Name,Text,,,,,最后的妖精,最後的妖精
+Skill/S_FLancelot_10_1_Description,Text,,,,,消耗所有友军 5 点体力值，将“阿尔比昂的遗骸”抽取到手中。,使所有友軍受到 5 點痛苦傷害，並將「阿爾比昂的遺骸」抽取到手中。
+Skill/S_FLancelot_10_1_Name,Text,,,,,阿尔比昂的遗骸,阿爾比昂的遺骸
+Skill/S_FLancelot_10_2_Description,Text,,,,,什么都不做。,什麼都不做。
+Skill/S_FLancelot_10_2_Name,Text,,,,,阿尔比昂的遗骸,阿爾比昂的遺骸
+Skill/S_FLancelot_10_Description,Text,,,,,回合开始时，若该技能不在手中，可以消耗所有友军 5 点体力值，将这个技能抽取到手中。,回合開始時，若此技能不在手中，則可以對所有友軍造成 5 點痛苦傷害，並抽取此技能。
+Skill/S_FLancelot_10_Name,Text,,,,,阿尔比昂的遗骸,阿爾比昂的遺骸
+Skill/S_FLancelot_1_Description,Text,,,,,"骑士 - 获得 1 层“舞者”。
+
+邪龙 - 获得 1 层“龙之心”。额外造成 &a 伤害(攻击力的50%)。
+
+好感度30 - 获得“下 1 次使用技能时恢复 1 点法力值”。","騎士 - 獲得 1 層舞者。
+
+邪龍 - 獲得 1 層龍之心。造成 &a 點額外傷害(攻擊力的50%)。
+
+若自身的好感度不少於30點，則獲得「下 1 次使用技能時，恢復 1 點法力值」。"
+Skill/S_FLancelot_1_Name,Text,,,,,妖精剑舞,妖精劍舞
+Skill/S_FLancelot_2_Description,Text,,,,,"<color=#FF69B4><i>*兰斯洛特等级大于等于3且好感度达到30时自动学会*</i></color>
+第 3 回合开始时，置于牌堆顶。","<color=#FF69B4><i>*蘭斯洛特不低於 3 級且好感度達到30時，自動學習此技能。*</i></color>
+第 3 回合開始時，將此技能置於牌庫頂。"
+Skill/S_FLancelot_2_Name,Text,,,,,你已深陷于我,你已深陷於我
+Skill/S_FLancelot_3_Description,Text,,,,,"<color=#FF69B4><i>*兰斯洛特等级大于等于4且好感度达到50时自动学会*</i></color>
+第 3 回合开始时，置于牌堆顶。
+若目标持有“你已深陷于我”，将“舞者”、“龙之心”提升至满层。","<color=#FF69B4><i>*蘭斯洛特不低於 4 級且好感度達到50時，自動學習此技能。*</i></color>
+第 3 回合開始時，將此技能置於牌庫頂。
+若目標持有「你已深陷於我」，則使自身獲得 3 層舞者和 3 層龍之心。"
+Skill/S_FLancelot_3_Name,Text,,,,,你已无法离开我,你已無法離開我
+Skill/S_FLancelot_4_Description,Text,,,,,"<color=#FF69B4><i>*兰斯洛特等级大于等于5且好感度达到80时自动学会*</i></color>
+第 3 回合开始时，置于牌堆顶。
+若目标持有“你已深陷于我”、“你已无法离开我”，则从本局游戏中放逐“你已深陷于我”、“你已无法离开我”、“你已完全属于我”，使这三个减益的持续时间改变为“永久”。
+那之后，丢弃所有手中的技能，恢复 5 点法力值，抽取技能直到手牌上限。
+那之后，自身获得“+100%目标攻击力，+100%对目标伤害，+20%防御穿透”。","<color=#FF69B4><i>*蘭斯洛特不低於 5 級且好感度達到80時，自動學習此技能。*</i></color>
+第 3 回合開始時，將此技能置於牌庫頂。
+若目標同時持有「你已深陷於我」和「你已無法離開我」，則觸發以下效果：
+ - <b>從牌庫中放逐</b>「你已深陷於我」、「你已無法離開我」、「你已完全屬於我」，並使這些技能的對應減益的持續時間變為無限回合。
+ - 丢棄手中的所有技能。恢復 5 點法力值，抽取技能直到手牌補滿。
+ - 自身獲得「增加相當於目標攻擊力100%的攻擊力，對目標的傷害增加100%，防禦穿透增加20%」。"
+Skill/S_FLancelot_4_Name,Text,,,,,你已完全属于我,你已完全屬於我
+Skill/S_FLancelot_5_Description,Text,,,,,"骑士 - 对目标两侧的敌人造成 &a 伤害(攻击力的32%)。
+
+邪龙 - 施加“-10%防御力、+10%受到的伤害”，持续 3 回合。
+丢弃手中最上方的技能，依据那个技能的原本费用：
+0 - 抽取 1 个技能。
+1 - 额外造成 &b 伤害(攻击力的50%)。
+2及以上 - 自身获得“+20%暴击率”，持续 3 回合。
+
+好感度50 - 从牌库展示并选择 1 个露西技能加入手中。","騎士 - 對目標的相鄰敵人造成 &a 點傷害(攻擊力的32%)。
+
+邪龍 - 施加「防禦力減少10%，受到傷害量增加10%」，持續 3 回合。
+丢棄手中最上方的技能，並根據其基礎費用觸發：
+ 0 點 - 抽取 1 個技能。
+ 1 點 - 造成 &b 點額外傷害(攻擊力的50%)。
+不少於 2 點 - 自身的暴擊率增加20%，持續 3 回合。
+
+若自身的好感度不少於50點，則展示牌庫的所有露西技能，選擇 1 個加入手中。"
+Skill/S_FLancelot_5_Name,Text,,,,,龙之枪,龍之槍
+Skill/S_FLancelot_6_Description,Text,,,,,如果目标为自身，其他队友获得一半数值的增益。,對自身使用時，使自身以外的所有友軍獲得加成量減半的此增益。
+Skill/S_FLancelot_6_Name,Text,,,,,妖精湖的加护,妖精湖的加護
+Skill/S_FLancelot_7_Description,Text,,,,,"骑士 - 移除所有“舞者”增益。
+依据移除的“舞者”层数 X，恢复 X 点法力值，获得 X 次等待次数和交换次数，抽取 X 个技能。
+
+邪龙 - 移除所有“龙之心”增益。
+额外造成 &a 伤害(攻击力的200%)。获得“暴击率+5%”，持续 3 回合。","騎士 - 移除自身的舞者增益。
+每移除 1 層舞者，恢復 1 點法力值，獲得 1 次等待次数和交換次数，抽取 1 個技能。
+
+邪龍 - 移除龍之心增益。
+造成&a點額外傷害(攻擊力的200%)。暴擊率增加5%，持續 3 回合。"
+Skill/S_FLancelot_7_Name,Text,,,,,光之地平线,光之地平線
+Skill/S_FLancelot_8_Description,Text,,,,,"骑士 - 额外施加 1 层“苍穹的试炼”。
+
+邪龙 - 额外造成 &a 伤害(攻击力的40%)。
+
+理性 - 所有友军获得“最大体力值+10%”，持续 3 回合。
+
+狂化 - 必定暴击。","騎士 - 額外施加 1 層<sprite=0>蒼穹的試煉。
+
+邪龍 - 造成 &a 點額外傷害(攻擊力的40%)。
+
+理性 - 所有友軍的最大體力值增加10%，持續 3 回合。
+
+狂化 - 以暴擊形式命中。"
+Skill/S_FLancelot_8_Name,Text,,,,,苍穹的试炼,蒼穹的試煉
+Skill/S_FLancelot_9_Description,Text,,,,,"湖光骑士 - 使用该技能后，记录本回合使用的技能次数。回合结束时，每使用 1 个技能，对随机敌人造成 5 点伤害。
+
+幻想种 - 额外造成 &a 伤害(攻击力的30%)。击杀敌人时，使所有友军获得持续 3 回合的“攻击力+1”。","湖光騎士 - 使用後，記錄本回合使用的技能次數。回合結束時觸發：每記錄 1 次，便對隨機敵人造成 5 點傷害。
+
+幻想種 - 造成 &a 點額外傷害(攻擊力的30%)。擊殺敵人時，使所有友軍攻擊力增加 1 點，持續 3 回合。"
+Skill/S_FLancelot_9_Name,Text,,,,,终焉,終焉
+Skill/S_FLancelot_C_1_Description,Text,,,,,切换至“邪龙”形态。,變為「邪龍」型態：增加攻擊力和防禦穿透。
+Skill/S_FLancelot_C_1_Name,Text,,,,,邪龙,邪龍
+Skill/S_FLancelot_C_2_Description,Text,,,,,切换至“骑士”形态。,變為「騎士」型態：增加閃避率；從下回合開始，每回合獲得 1 次等待次數（直到轉換為「邪龍」狀態）。
+Skill/S_FLancelot_C_2_Name,Text,,,,,骑士,騎士
+Skill/S_FLancelot_H_1_Description,Text,,,,,"兰斯洛特没有阵亡过。
+完成誓约时，增加 1 点好感度。","蘭斯洛特未陷入過無法戰鬥狀態。
+達成時，戰鬥結束後，增加 1 點好感度。"
+Skill/S_FLancelot_H_1_Name,Text,,,,,无法违背的誓约,無法違背的誓約
+Skill/S_FLancelot_H_2_Description,Text,,,,,"兰斯洛特至少击杀 1 名敌人。
+完成誓约时，增加 2 点好感度。","蘭斯洛特擊殺了至少 1 個敵人。
+達成時，戰鬥結束後，增加 2 點好感度。"
+Skill/S_FLancelot_H_2_Name,Text,,,,,无法违背的誓约,無法違背的誓約
+Skill/S_FLancelot_H_3_Description,Text,,,,,"兰斯洛特使用技能次数大于 5 次。
+完成誓约时，增加 3 点好感度。","蘭斯洛特使用了不少於 6 個技能。
+達成時，戰鬥結束後，增加 3 點好感度。"
+Skill/S_FLancelot_H_3_Name,Text,,,,,无法违背的誓约,無法違背的誓約
+Skill/S_FLancelot_H_4_Description,Text,,,,,"兰斯洛特不能恢复超过 40 点体力值。
+完成誓约时，增加 3 点好感度。","蘭斯洛特恢復的體力值總額不超過40點。
+達成時，戰鬥結束後，增加 3 點好感度。"
+Skill/S_FLancelot_H_4_Name,Text,,,,,无法违背的誓约,無法違背的誓約
+Skill/S_FLancelot_H_5_Description,Text,,,,,"兰斯洛特不能使用原始费用为 2 的技能。
+完成誓约时，获得 4 点好感度。","不能使用蘭斯洛特的基礎費用為 2 點的技能。
+達成時，戰鬥結束後，增加 4 點好感度。"
+Skill/S_FLancelot_H_5_Name,Text,,,,,无法违背的誓约,無法違背的誓約
+Skill/S_FLancelot_LucyD_Description,Text,,,,,"抽取 2 个技能。
+若兰斯洛特存活，则使其获得 2 点好感度。
+若兰斯洛特的好感度不低于 50，额外抽取 1 个技能。","抽取 2 個技能。
+若蘭斯洛特存活，則使其獲得 2 點好感度。
+若蘭斯洛特的好感度不低於 50，額外抽取 1 個技能。"
+Skill/S_FLancelot_LucyD_Name,Text,,,,,我对你的爱,我對你的愛
+Skill/S_FLancelot_Rare_1_Description,Text,,,,,"每次使用手中的、自己的技能时，费用降低 1 点。
+移除自身所有减益。
+展示牌库中所有自己的技能，选择其中 3 个加入手中，并使其费用变为 0。
+
+<b><color=red>切换为“邪龙”形态时，这个技能变为“无垢搏动”。</color></b>","每當使用手中自身的技能時，此技能的費用減少 1 點。
+
+移除自身所有减益。
+展示牌庫中自身的所有技能，選擇其中 3 個加入手中，費用變為 0 點。
+
+<b><color=red>切換為「邪龍」型態時，此技能轉變為「無垢搏動」。</color></b>"
+Skill/S_FLancelot_Rare_1_Name,Text,,,,,无垢湖光,無垢湖光
+Skill/S_FLancelot_Rare_2_Description,Text,,,,,"恢复全部体力值。
+展示牌库中所有自己的技能，选择其中 3 个加入手中，并使其费用变为 0。
+
+<b><color=#87CEFA>切换为“骑士”形态时，这个技能变为“无垢湖光”。</color></b>","恢復自身所有體力值。
+展示牌庫中自身的所有技能，選擇其中 3 個加入手中，費用變為 0 點。
+
+<b><color=#87CEFA>切換為「騎士」型態時，此技能轉變為「無垢湖光」。</color></b>"
+Skill/S_FLancelot_Rare_2_Name,Text,,,,,无垢搏动,無垢搏動
+SkillExtended/SE_FLancelot_Rare_2_Name,Text,,,,,幻想种,幻想種

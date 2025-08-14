@@ -1,0 +1,26 @@
+{
+    "S_Phrolova_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "NoDrop": false,
+        "Fatal": false,
+        "Name": "新世界狂想曲",
+        "Description": "",
+        "IgnoreTaunt": false,
+        "User": "Phrolova",
+        "UseAp": 0,
+        "Effect_Target": "SE_T_S_Phrolova_2",
+        "Image_0": "S_Phrolova_2\\S_Phrolova_2_Image_0.png",
+        "Image_1": "S_Phrolova_2\\S_Phrolova_2_Image_1.png",
+        "Image_2": "S_Phrolova_2\\S_Phrolova_2_Image_2.png",
+        "SkillExtended": [
+            "Phrolova.S_Phrolova_2"
+        ],
+        "Rare": false,
+        "Disposable": false,
+        "NoBasicSkill": false
+    }
+}

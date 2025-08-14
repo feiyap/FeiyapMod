@@ -1,0 +1,146 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_LetheanElegy_Description,Text,,,The next skill cast from hand deals 64% increased damage.,,下 1 个从手中释放的技能造成的伤害提升64%。,
+Buff/B_LetheanElegy_Name,Text,,,Underworld Requiem,,安魂曲,
+Buff/B_Phrolova_2_Description,Text,,,"Empowers your next skill, increasing its damage by &a% <color=#FF7A33>(200% of &user's ATK)</color>.",,强化自己的下 1 个技能，使其造成的伤害增加&a%<color=#FF7A33>(&user攻击力的200%)</color>。,
+Buff/B_Phrolova_2_Name,Text,,,Reincarnation,,重世,
+Buff/B_Phrolova_3_Description,Text,,,Increases <color=purple>Pain damage</color> taken by &a% <color=#FF7A33>(200% of &user's ATK)</color>.,,受到的<color=purple>痛苦伤害</color>提升&a%<color=#FF7A33>(&user攻击力的200%)</color>。,
+Buff/B_Phrolova_3_Name,Text,,,Overture of the Dead,,亡灵序曲,
+Buff/B_Phrolova_4_Description,Text,,,Fixed Ability damage increased by &a% <color=#FF7A33>(200% of &user's ATK)</color>.,,固定能力造成的伤害提升&a%<color=#FF7A33>(&user攻击力的200%)</color>。,
+Buff/B_Phrolova_4_Name,Text,,,Altered Note,,变音符,
+Buff/B_Phrolova_5_Description,Text,,,"Critical Rate increased by &a% <color=#FF7A33>(100% of &user's ATK)</color>.
+<color=purple>Pain damage</color> you deal can now crit.",,"暴击率提升&a%<color=#FF7A33>(&user攻击力的100%)</color>。
+自己造成的<color=purple>痛苦伤害</color>可以暴击。",
+Buff/B_Phrolova_5_Name,Text,,,Octet,,八重奏,
+Buff/B_Phrolova_8_Description,Text,,,"The next single-target skill used on &user deals/heals 100% more. Draw 1 skill from a target, then remove this buff.
+At the end of the turn, perform a 'Basic Attack' on &user once.",,"下 1 个对&user释放的单体技能伤害量/治疗量提升100%，抽取 1 个目标的技能，然后解除该增益。
+回合结束时，对&user释放 1 次“基础攻击”。",
+Buff/B_Phrolova_8_Name,Text,,,Lost Violin Tone,,遗失的提琴声,
+Buff/B_Phrolova_P_1_Description,Text,,,"Upon death, deals <color=purple>&a Pain Damage</color> to all enemies <color=#FF7A33>(33% of &user's ATK per stack)</color>.",,死亡时，对所有敌人造成<color=purple>&a痛苦伤害</color><color=#FF7A33>(&user攻击力的33%/每层)</color>。,
+Buff/B_Phrolova_P_1_Name,Text,,,"""Afterlife""",,“来生”,
+Buff/B_Phrolova_P_2_Description,Text,,,Cannot use Fixed Abilities.,,无法使用固定能力。,
+Buff/B_Phrolova_P_2_Name,Text,,,Tuning,,定音,
+Buff/B_Phrolova_P_Description,Text,,,"After reaching 6 stacks, the Fixed Ability is replaced with ""Finale of the Score.""",,叠加至 6 层后，固定能力会替换为“谱曲终末”。,
+Buff/B_Phrolova_P_Name,Text,,,Melody,,乐声,
+Buff/B_Phrolova_Rare_1_1_Description,Text,,,"Whenever an ally uses a skill, gain 1 stack of 'Melody.'
+At 6 stacks, the Fixed Ability becomes 'This Side and the Other.'
+This buff is instantly removed when the character reaches Death's Door.",,"其他队友释放技能时，自身也会获得 1 层“乐声”。
+“乐声”叠加至 6 层时，改为使固定能力变为“彼世与彼岸”。
+进入濒死状态时，解除该增益。",
+Buff/B_Phrolova_Rare_1_1_Name,Text,,,Intimate with You,,与你亲密无间,
+Buff/B_Phrolova_Rare_1_2_Description,Text,,,This buff's "Damage per Turn" equals the sum of all debuffs' "Damage per Turn" on the target.,,这个增益的“每回合伤害量”等于目标持有的所有减益“每回合伤害量”之和。,
+Buff/B_Phrolova_Rare_1_2_Name,Text,,,Lost in the Afterlife,,失亡彼岸,
+Buff/B_Phrolova_Rare_1_Description,Text,,,"All your skills in hand become 'Song of Red and Black.'
+Removed when entering Near-Death status.",,"手中的自己的技能全部变为“红与黑的歌”。
+进入濒死状态时，解除该增益。",
+Buff/B_Phrolova_Rare_1_Name,Text,,,Did I Ever Dream,,我或曾梦见,
+Buff/B_Phrolova_Rare_2_1_Description,Text,,,"After using a Fixed Ability, clear all Overload on self.
+Heal 20% of all damage dealt.",,"使用固定能力后，清除自身过载。
+每当造成伤害时，将伤害的20%转换为体力值。",
+Buff/B_Phrolova_Rare_2_1_Name,Text,,,Strangers Like Us,,你我形同陌路,
+Buff/B_Phrolova_Rare_2_Description,Text,,,You are no longer affected by "Tuning.",,自身不再受到“定音”影响。,
+Buff/B_Phrolova_Rare_2_Name,Text,,,Waking to Find,,醒来后发现,
+Character/Phrolova_PassiveDes,Text,,,"Each time using own skill, gain 1 stack of 'Melody.'
+At 6 stacks, the Fixed Ability is replaced with 'Finale of the Score.'
+
+Takes 100% increased damage from allies.
+For each fallen ally, Phrolova permanently gains 1 stack of 'Melody.'",,"每次释放自己的技能时，获得 1 层“乐声”。
+“乐声”叠加至 6 层后，固定能力会替换为“谱曲终末”。
+
+受到来自队友的伤害提升100%。
+队伍中每有 1 个角色阵亡，弗洛洛就会永久持有 1 层“乐声”。",
+Character/Phrolova_PassiveName,Text,,,Symphony of Reincarnation,,重世的交响乐,
+Character/Phrolova_SelectInfo,Text,,,,,游走于生死之间的残星会会监，神秘而危险的指挥家…… 她沉默地挥舞指挥棒，手中调律频率演奏出的“灵魂”旋律，既可塑造美好的世界，也可唤来千军万马。,
+Character/Phrolova_Text_Battle_AllyND_0,Text,,,"Look, humans are creatures who live under the illusion of safety, clinging to life in fear, dependent on everything, resisting death.",,瞧，人是活在安全之下的生物，被恐惧威胁着，依附一切而苟存，拒绝死亡。,
+Character/Phrolova_Text_Battle_Cri_0,Text,,,All is but a fleeting bloom.,,一切就都不过是昙花一现。,
+Character/Phrolova_Text_Battle_Cri_1,Text,,,Wither together...,,一同干枯……,
+Character/Phrolova_Text_Battle_Cri_2,Text,,,A perfect futility...,,完美的徒劳……,
+Character/Phrolova_Text_Battle_Cri_3,Text,,,"Scream, sing!",,哀嚎，欢唱！,
+Character/Phrolova_Text_Battle_Healed_0,Text,,,Such beautiful tones.,,美妙的音色。,
+Character/Phrolova_Text_Battle_Idle_0,Text,,,Don't leave yet—the performance isn't over.,,别急着离开，这场演出还没有结束。,
+Character/Phrolova_Text_Battle_Idle_1,Text,,,"Be careful, I might toss my baton at any moment.",,小心了，我可能会在任意时刻，将指挥棒抛掷出来。,
+Character/Phrolova_Text_Battle_Kill_0,Text,,,"The warm yet melancholic first movement hides in the dark night, lonely and desolate.",,温馨而伤感的第一乐章隐藏在暗夜中，孤独、寂寞。,
+Character/Phrolova_Text_Battle_Kill_1,Text,,,"The gloomy, mournful second movement conceals unease and malice.",,阴暗、悲戚的第二乐章深藏着不安与险恶。,
+Character/Phrolova_Text_Battle_Kill_2,Text,,,"The lively third movement carries a playful, fantastical air.",,明快又活泼的第三乐章拥有了幻想中的谐谑气氛。,
+Character/Phrolova_Text_Battle_Kill_3,Text,,,The decisive and powerful fourth movement heralds a battle hymn in full swing.,,果断而有力的第四乐章降下酣畅淋漓的战斗颂歌。,
+Character/Phrolova_Text_Battle_Kill_4,Text,,,This... is the final cadenza.,,这是……最后的华彩。,
+Character/Phrolova_Text_Battle_ND_0,Text,,,"When you fail enough times, you lose the emotions tied to failure—and thus, no more worries.",,失败的次数足够多时，就会失去面对失败的情感，也就不再拥有烦恼。,
+Character/Phrolova_Text_Battle_ND_1,Text,,,"...It's fine, all the same.",,……没关系，都一样。,
+Character/Phrolova_Text_Battle_Start_0,Text,,,"Come, let us complete this long-awaited performance together.",,来吧，让我们一起，完成这场万众期待的演奏。,
+Character/Phrolova_Text_Battle_Start_1,Text,,,A duet with me? Are you sure?,,与我合奏？你确定？,
+Character/Phrolova_Text_Battle_Start_2,Text,,,Will the coming notes be beautiful enough...?,,即将到来的声音，是否足够美妙……,
+Character/Phrolova_Text_Field_GetItem_0,Text,,,Indispensable.,,不可或缺。,
+Character/Phrolova_Text_Field_GetItem_1,Text,,,What meaning will you give them?,,你将赋予它们什么意义？,
+Character/Phrolova_Text_Field_Idle_0,Text,,,"To understand the cycle of life, we must experience it again and again.",,为领悟生生不息，一次次经历。,
+Character/Phrolova_Text_MasterTarget,Text,,,Everyone... I'm back...,,大家……我回来了……,
+Character/Phrolova_Text_PharosLeader_0,Text,,,"A relationship built on mutual understanding is reassuring, isn't it?",,心知肚明的互相利用，反而会让人心安，不是吗？,
+Character/Phrolova_Text_PharosLeader_1,Text,,,But we must master both life and what comes after.,,可我们，应掌握活着和死亡后去活着。,
+Character/Phrolova_Text_PharosLeader_2,Text,,,Aren't you afraid? It will raise its dagger and pierce the veil between life and death.,,不害怕吗，它将有力地举起匕首，刺破生与死的面纱。,
+Character/Phrolova_Text_Witch_0,Text,,,"When you fail enough times, you lose the emotions tied to failure—and thus, no more worries.",,失败的次数足够多时，就会失去面对失败的情感，也就不再拥有烦恼。,
+Character/Phrolova_Text_Witch_1,Text,,,The heart must not become a tomb.,,心灵，不可化为坟墓。,
+Character/Phrolova_name,Text,,,Phrolova,,弗洛洛,
+Item_Equip/E_LetheanElegy_Description,Text,,,"Fixed Ability damage increased by 64%.
+After using a Fixed Ability, the next skill cast from hand deals 64% increased damage.
+
+<i><color=#919191>I am not there, nor have I died.
+I will follow death, masking fear with pleasure, trading the future for the past.</color></i>",,"固定能力造成的伤害提升64%。
+释放固定能力后，下 1 个从手中释放的技能造成的伤害提升64%。
+
+<i><color=#919191>我不在那里，也没有死去。
+我将追随死亡，用享受掩盖恐惧，以未来换回过去。</color></i>",
+Item_Equip/E_LetheanElegy_name,Text,,,Lethean Elegy,,幽冥的忘忧章,
+Skill/S_Phrolova_0_1_Name,Text,,,Movement of Life and Death,,生与死的乐章,
+Skill/S_Phrolova_0_Description,Text,,,"Cast twice, dealing <color=purple>Pain damage</color>.
+Draw 1 'New World Rhapsody' from the deck or discard pile.
+If 'Reincarnation' is active, also inflict 1-turn Stun (<sprite=2>80%).",,"重复释放 2 次，并造成<color=purple>痛苦伤害</color>。
+从牌库或弃牌库中抽取 1 个“新世界狂想曲”。
+持有“重世”增益时，还会使目标(<sprite=2>80%)眩晕 1 回合。",
+Skill/S_Phrolova_0_Name,Text,,,Movement of Life and Death,,生与死的乐章,
+Skill/S_Phrolova_1_Description,Text,,,"Draw 1 'New World Rhapsody' from the deck or discard pile.
+If 'Reincarnation' is active, also prioritize drawing 1 of your own skills.",,"从牌库或弃牌库中抽取 1 个“新世界狂想曲”。
+持有“重世”增益时，还会额外优先抽取 1 个自己的技能。",
+Skill/S_Phrolova_1_Name,Text,,,Fleeting Whispers,,稍纵即逝的梦呓,
+Skill/S_Phrolova_2_Description,Text,,,,,,
+Skill/S_Phrolova_2_Name,Text,,,New World Rhapsody,,新世界狂想曲,
+Skill/S_Phrolova_3_Description,Text,,,,,,
+Skill/S_Phrolova_3_Name,Text,,,Fatal Suite,,致命组歌,
+Skill/S_Phrolova_4_Description,Text,,,,,,
+Skill/S_Phrolova_4_Name,Text,,,Eternal Suite,,永生组歌,
+Skill/S_Phrolova_5_Description,Text,,,Prioritize drawing 1 of your own skills.,,优先抽取 1 个自身的技能。,
+Skill/S_Phrolova_5_Name,Text,,,Unfinished Composition,,未完成的曲目,
+Skill/S_Phrolova_6_Description,Text,,,"Can only be used while <color=red>at Death's Door</color>.
+Deals <color=purple>Pain damage</color>.",,"仅在<color=red>处于濒死状态</color>时才可释放。
+造成<color=purple>痛苦伤害</color>。",
+Skill/S_Phrolova_6_Name,Text,,,Slumber in Crimson Depths,,酣梦于彼岸深红,
+Skill/S_Phrolova_7_Description,Text,,,Generate 1 rare skill you haven't learned in hand.,,在手中生成 1 个自己未学会的稀有技能。,
+Skill/S_Phrolova_7_Name,Text,,,Undying Lullaby,,生命不灭的轻歌,
+Skill/S_Phrolova_8_0_Name,Text,,,Basic Attack,,基础攻击,
+Skill/S_Phrolova_8_Description,Text,,,"When this skill is exchanged or discarded, take <color=purple>6 Pain damage</color>.",,这个技能被交换或丢弃时，受到<color=purple>6痛苦伤害</color>。,
+Skill/S_Phrolova_8_Name,Text,,,"""Final Descent""",,《终焉沉落》,
+Skill/S_Phrolova_LucyD_Description,Text,,,"Deals <color=purple>12 Pain damage</color>.
+Draw 3 skills.",,"造成<color=purple>12痛苦伤害</color>。
+抽取 3 个技能。",
+Skill/S_Phrolova_LucyD_Name,Text,,,Wonderful U,,Wonderful U,
+Skill/S_Phrolova_P_Description,Text,,,Deals <color=purple>Pain damage</color>.,,造成<color=purple>痛苦伤害</color>。,
+Skill/S_Phrolova_P_Name,Text,,,Finale of the Score,,谱曲终末,
+Skill/S_Phrolova_Rare_1_1_Description,Text,,,,,,
+Skill/S_Phrolova_Rare_1_1_Name,Text,,,Song of Red and Black,,红与黑的歌,
+Skill/S_Phrolova_Rare_1_2_Description,Text,,,"Deals <color=purple>Pain damage</color>. Then, take <color=purple>&a Pain damage</color>聽<color=#FF7A33>(100% of max HP)</color>.",,造成<color=purple>痛苦伤害</color>。使自身受到<color=purple>&a痛苦伤害</color><color=#FF7A33>(自身最大体力值的100%)</color>。,
+Skill/S_Phrolova_Rare_1_2_Name,Text,,,This Side and the Other,,彼世与彼岸,
+Skill/S_Phrolova_Rare_1_Description,Text,,,"Can only be used with 'Tuning' active.
+Removes 'Tuning.'",,"仅在持有“定音”增益时才可释放。
+移除“定音”增益。",
+Skill/S_Phrolova_Rare_1_Name,Text,,,Waltz of the Abyss Past,,往日深渊的圆舞曲,
+Skill/S_Phrolova_Rare_2_Description,Text,,,"Kills all allies except yourself.
+Then, add all skills from ally decks to your deck, changing their owner to yourself.
+Fully recharge 'Lucy's Necklace' to 3 stacks.",,"使自身以外的所有友军阵亡。
+那之后，向牌库中添加所有友军牌组中的技能，并使持有者改为自身。
+使“露西的项链”充能次数填充至 3 层。",
+Skill/S_Phrolova_Rare_2_Name,Text,,,"""I won't wait any longer.""",,“我不会再等了。”,
+SkillExtended/SE_E_LetheanElegy_1_Des,Text,,,The next skill cast from hand deals 64% increased damage.,,下 1 个从手中释放的技能造成的伤害提升64%。,
+SkillExtended/SE_E_LetheanElegy_1_Name,Text,,,Underworld Requiem,,安魂曲,
+SkillExtended/SE_E_LetheanElegy_Des,Text,,,"Empowers your next skill, increasing its damage by &a% <color=#FF7A33>(200% of &user's ATK)</color>.",,造成的伤害提升64%。,
+SkillExtended/SE_E_LetheanElegy_Name,Text,,,Reincarnation,,安魂曲,
+SkillExtended/SE_Phrolova_2_Des,Text,,,Increases <color=purple>Pain damage</color> taken by &a% <color=#FF7A33>(200% of &user's ATK)</color>.,,下 1 个技能造成的伤害增加&a%<color=#FF7A33>(&user攻击力的100%)</color>。,
+SkillExtended/SE_Phrolova_2_Name,Text,,,Overture of the Dead,,重世,
+SkillExtended/SE_Phrolova_4_Des,Text,,,Fixed Ability damage increased by &a% <color=#FF7A33>(200% of &user's ATK)</color>.,,固定能力造成的伤害提升&a%<color=#FF7A33>(&user攻击力的100%)</color>。,
+SkillExtended/SE_Phrolova_4_Name,Text,,,Altered Note,,变音符,

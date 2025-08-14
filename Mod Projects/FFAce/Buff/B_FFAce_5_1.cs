@@ -50,9 +50,9 @@ namespace FFAce
                     }
                     foreach (BattleChar bc in list2)
                     {
-                        bc.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.2), true, true);
+                        bc.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.2), RandomManager.RandomPer(Usestate_F.GetRandomClass().DamageCri, 100, (int)(Usestate_F.GetStat.cri + (float)bc.GetStat.crihit)), true);
                     }
-                    this.BChar.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.2), true, true);
+                    this.BChar.Damage(this.Usestate_F, (int)(this.Usestate_F.GetStat.atk * 1.2), RandomManager.RandomPer(Usestate_F.GetRandomClass().DamageCri, 100, (int)(Usestate_F.GetStat.cri + (float)BChar.GetStat.crihit)), true);
                 }
 
                 this.SelfDestroy();

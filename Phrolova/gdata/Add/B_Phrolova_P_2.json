@@ -1,0 +1,13 @@
+{
+    "B_Phrolova_P_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Phrolova.B_Phrolova_P_2",
+        "BuffTag": "null",
+        "Name": "定音",
+        "Description": "无法使用固定能力。",
+        "Icon": "B_Phrolova_P_2\\B_Phrolova_P_2_Icon.png",
+        "MaxStack": 0,
+        "Cantdisable": true,
+        "LifeTime": 1
+    }
+}

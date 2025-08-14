@@ -1,0 +1,23 @@
+{
+    "Boss_Seija": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "name": "鬼人正邪",
+        "Boss": true,
+        "NotCursed": true,
+        "atk": 12,
+        "reg": 0,
+        "maxhp": 260,
+        "spd": 2,
+        "Skills": [
+            "S_LBossFirst_Blast",
+            "S_LBossFirst_Blast",
+            "S_LBossFirst_Blast"
+        ],
+        "Passives": [
+            "B_Outlaw_P_0",
+            "B_Outlaw_P_1",
+            "B_Outlaw_P_2"
+        ]
+    }
+}

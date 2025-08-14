@@ -7,7 +7,7 @@
         "NotCount": false,
         "Basic": false,
         "Name": "红焰轮舞",
-        "Description": "翻开：不将本技能将放回原位，而是置入手中，并获得1层[赤红之炎]。",
+        "Description": "翻开：不将本技能将放回原位，而是置入手中，并获得1层“赤红之炎”。",
         "UseAp": 1,
         "User": "FFAce",
         "Image_0": "S_FFAce_0\\S_FFAce_0_Image_0.png",

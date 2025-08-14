@@ -4,7 +4,7 @@
         "ClassName": "FFAce.B_FFAce_Rare_2_0",
         "BuffTag": "null",
         "Name": "固定能力费用减少",
-        "Description": "固定能力的费用减少1点。",
+        "Description": "固定能力的费用减少 1 点。",
         "Icon": "Image/Buff/Skill_Icon_Pack/1_51/1_51Buff (3)",
         "LifeTime": 0,
         "MaxStack": 0

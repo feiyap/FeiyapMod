@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_Lian": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Lian",
+        "Dialogues": [
+            "[B]喂！你那种战斗方式很危险！",
+            "[A]啊啊……教官为了保护队友而奋不顾身的耀眼身姿……",
+            "[B]喂，你有在听吗？！"
+        ]
+    }
+}

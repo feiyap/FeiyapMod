@@ -31,8 +31,8 @@ namespace FairyLancelot
 
             int baseCount = this.BChar.BuffFind("B_FLancelot_Rare_2") ? 2 : 1;
 
-            this.PlusStat.atk = P_FairyLancelot.heartPoint / 20 * baseCount;
-            this.PlusStat.maxhp = P_FairyLancelot.heartPoint / 5 * baseCount;
+            this.PlusStat.atk = PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint / 20 * baseCount;
+            this.PlusStat.maxhp = PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint / 5 * baseCount;
 
             killnum = 0;
             skill3usenum = 0;
@@ -48,15 +48,15 @@ namespace FairyLancelot
 
             int baseCount = this.BChar.BuffFind("B_FLancelot_Rare_2") ? 2 : 1;
 
-            this.PlusStat.atk = P_FairyLancelot.heartPoint / 20 * baseCount;
-            this.PlusStat.maxhp = P_FairyLancelot.heartPoint / 5 * baseCount;
+            this.PlusStat.atk = PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint / 20 * baseCount;
+            this.PlusStat.maxhp = PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint / 5 * baseCount;
         }
 
         public void Dead()
         {
             if (P_FairyLancelot.heartList.Contains("S_FLancelot_H_1"))
             {
-                P_FairyLancelot.heartPoint -= 2;
+                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint -= 2;
             }
         }
 
@@ -100,11 +100,11 @@ namespace FairyLancelot
                         {
                             if (killnum >= 1)
                             {
-                                P_FairyLancelot.heartPoint += 2;
+                                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint += 2;
                             }
                             else
                             {
-                                P_FairyLancelot.heartPoint -= 2;
+                                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint -= 2;
                             }
                         }
                         break;
@@ -112,11 +112,11 @@ namespace FairyLancelot
                         {
                             if (skill3usenum >= 1)
                             {
-                                P_FairyLancelot.heartPoint += 3;
+                                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint += 3;
                             }
                             else
                             {
-                                P_FairyLancelot.heartPoint -= 2;
+                                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint -= 2;
                             }
                         }
                         break;
@@ -124,11 +124,11 @@ namespace FairyLancelot
                         {
                             if (healnum < 40)
                             {
-                                P_FairyLancelot.heartPoint += 3;
+                                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint += 3;
                             }
                             else
                             {
-                                P_FairyLancelot.heartPoint -= 2;
+                                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint -= 2;
                             }
                         }
                         break;
@@ -136,30 +136,30 @@ namespace FairyLancelot
                         {
                             if (skill2usenum < 1)
                             {
-                                P_FairyLancelot.heartPoint += 4;
+                                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint += 4;
                             }
                             else
                             {
-                                P_FairyLancelot.heartPoint -= 2;
+                                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint -= 2;
                             }
                         }
                         break;
                 }
             }
 
-            if (this.BChar.Info.LV >= 3 && P_FairyLancelot.heartPoint >= 30 && !this.BChar.Info.SkillDatas.Exists(t => t.SkillInfo.KeyID == "S_FLancelot_2"))
+            if (this.BChar.Info.LV >= 3 && PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint >= 30 && !this.BChar.Info.SkillDatas.Exists(t => t.SkillInfo.KeyID == "S_FLancelot_2"))
             {
                 Skill skill = Skill.TempSkill("S_FLancelot_2", this.BChar, BattleSystem.instance.AllyTeam);
                 this.BChar.Info.UseSoulStone(skill);
             }
 
-            if (this.BChar.Info.LV >= 4 && P_FairyLancelot.heartPoint >= 50 && !this.BChar.Info.SkillDatas.Exists(t => t.SkillInfo.KeyID == "S_FLancelot_3"))
+            if (this.BChar.Info.LV >= 4 && PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint >= 50 && !this.BChar.Info.SkillDatas.Exists(t => t.SkillInfo.KeyID == "S_FLancelot_3"))
             {
                 Skill skill = Skill.TempSkill("S_FLancelot_3", this.BChar, BattleSystem.instance.AllyTeam);
                 this.BChar.Info.UseSoulStone(skill);
             }
 
-            if (this.BChar.Info.LV >= 5 && P_FairyLancelot.heartPoint >= 80 && !this.BChar.Info.SkillDatas.Exists(t => t.SkillInfo.KeyID == "S_FLancelot_4"))
+            if (this.BChar.Info.LV >= 5 && PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint >= 80 && !this.BChar.Info.SkillDatas.Exists(t => t.SkillInfo.KeyID == "S_FLancelot_4"))
             {
                 Skill skill = Skill.TempSkill("S_FLancelot_4", this.BChar, BattleSystem.instance.AllyTeam);
                 this.BChar.Info.UseSoulStone(skill);

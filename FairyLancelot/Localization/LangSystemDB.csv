@@ -1,6 +1,6 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-S_FLancelot_H_1,Text,,,,,兰斯洛特没有阵亡过；,
-S_FLancelot_H_2,Text,,,,,兰斯洛特至少击杀 1 名敌人；,
-S_FLancelot_H_3,Text,,,,,兰斯洛特使用技能次数大于 5 次；,
-S_FLancelot_H_4,Text,,,,,兰斯洛特不能恢复超过 40 点体力值；,
-S_FLancelot_H_5,Text,,,,,兰斯洛特不能使用原始费用为 2 的技能；,
+S_FLancelot_H_1,Text,,랜슬롯은 전투에서 죽은 적이 없어야 합니다;,Lancelot must not have been defeated in battle;,ランスロットは戦闘で死亡したことがないこと;,兰斯洛特没有阵亡过；,蘭斯洛特沒有陣亡過；
+S_FLancelot_H_2,Text,,랜슬롯은 적어도 1명의 적을 처치해야 합니다;,Lancelot must defeat at least 1 enemy;,ランスロットは少なくとも1人の敵を撃破すること;,兰斯洛特至少击杀 1 名敌人；,蘭斯洛特至少擊殺 1 名敵人；
+S_FLancelot_H_3,Text,,랜슬롯은 스킬을 5회 이상 사용해야 합니다;,Lancelot must use skills more than 5 times;,ランスロットはスキルを5回以上使用すること;,兰斯洛特使用技能次数大于 5 次；,蘭斯洛特使用技能次數大於 5 次；
+S_FLancelot_H_4,Text,,랜슬롯은 체력을 40점 이상 회복할 수 없습니다;,Lancelot cannot recover more than 40 HP;,ランスロットは40以上の体力を回復できないこと;,兰斯洛特不能恢复超过 40 点体力值；,蘭斯洛特不能恢復超過 40 點體力值；
+S_FLancelot_H_5,Text,,랜슬롯은 원래 비용이 2인 스킬을 사용할 수 없습니다;,Lancelot cannot use skills with an original cost of 2;,ランスロットは元のコストが2のスキルを使用できないこと;,兰斯洛特不能使用原始费用为 2 的技能；,蘭斯洛特不能使用原始費用為 2 的技能；

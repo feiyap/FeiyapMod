@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_TWBlue": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "TW_Blue",
+        "Dialogues": [
+            "[B]那、那个，你的刀，很好看……",
+            "[A]真的吗？谢谢你，小蓝！",
+            "[B]（……小蓝？！）"
+        ]
+    }
+}

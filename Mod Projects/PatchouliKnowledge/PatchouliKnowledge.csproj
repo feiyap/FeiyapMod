@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>PatchouliKnowledge202571600226</AssemblyName>
+    <AssemblyName>PatchouliKnowledge202581414121</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -429,7 +429,7 @@
     </Reference>
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <!-- Compile ItemGroup Start-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BV_Pachi_P.cs" />
     <Compile Include="PatchouliKnowledge_ModDefinition.cs" />

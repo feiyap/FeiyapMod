@@ -1,0 +1,13 @@
+{
+    "SE_T_S_Phrolova_6": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 135,
+        "Buffs": [
+            "B_Phrolova_Rare_1_2"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

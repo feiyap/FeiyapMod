@@ -1,0 +1,15 @@
+{
+    "B_Phrolova_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Phrolova.B_Phrolova_3",
+        "BuffTag": "Debuff",
+        "Name": "亡灵序曲",
+        "Debuff": true,
+        "TagPer": 115,
+        "Description": "受到的<color=purple>痛苦伤害</color>提升&a%<color=#FF7A33>(&user攻击力的200%)</color>。",
+        "MaxStack": 0,
+        "LifeTime": 6,
+        "Icon": "B_Phrolova_3\\B_Phrolova_3_Icon.png",
+        "Cantdisable": false
+    }
+}

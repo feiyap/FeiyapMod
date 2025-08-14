@@ -22,7 +22,7 @@ namespace FFAce
         public override void Init()
         {
             base.Init();
-            this.PlusStat.def = 15;
+            this.PlusStat.def = 5;
         }
 
         public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)

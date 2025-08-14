@@ -1,0 +1,11 @@
+{
+    "CampDia_Feiyap_SilverStein": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "SilverStein",
+        "Dialogues": [
+            "[B]你要自顾自往前冲我管不着，可别把我们一起害死了。",
+            "[A]呵呵呵……放心，我是不会轻易倒下的……"
+        ]
+    }
+}

@@ -2,7 +2,7 @@
     "SE_T_S_FFAce_Rare_1": {
         "_gdeSchema": "SkillEffect",
         "HIT": 105,
-        "DMG_Per": 250,
+        "DMG_Per": 200,
         "DMG_Base": 0,
         "Buffs": [
             "B_FFAce_Rare_1"

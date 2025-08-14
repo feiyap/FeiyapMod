@@ -1,0 +1,11 @@
+{
+    "B_Phrolova_Rare_2_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Phrolova.B_Phrolova_Rare_2_1",
+        "BuffTag": "null",
+        "Name": "你我形同陌路",
+        "Description": "使用固定能力后，清除自身过载。\n每当造成伤害时，将伤害的20%转换为体力值。",
+        "Icon": "B_Phrolova_Rare_2_1\\B_Phrolova_Rare_2_1_Icon.png"
+    }
+}

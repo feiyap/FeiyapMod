@@ -61,7 +61,7 @@ namespace HatsuneMiku
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.BuffReturn("B_HatsuneMiku_P", false).StackNum * (int)(this.BChar.GetStat.reg))).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.BuffReturn("B_HatsuneMiku_P", false)?.StackNum ?? 0 * (int)(this.BChar.GetStat.reg))).ToString());
         }
     }
 }

@@ -1,0 +1,15 @@
+{
+    "B_Phrolova_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Phrolova.B_Phrolova_4",
+        "BuffTag": "null",
+        "Name": "变音符",
+        "MaxStack": 0,
+        "LifeTime": 2,
+        "Debuff": false,
+        "TagPer": 0,
+        "Description": "固定能力造成的伤害提升&a%<color=#FF7A33>(&user攻击力的200%)</color>。",
+        "Icon": "B_Phrolova_4\\B_Phrolova_4_Icon.png",
+        "Cantdisable": false
+    }
+}

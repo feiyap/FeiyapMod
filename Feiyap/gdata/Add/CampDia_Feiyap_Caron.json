@@ -1,0 +1,11 @@
+{
+    "CampDia_Feiyap_Caron": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "ShadowPriest",
+        "Dialogues": [
+            "[A]没错，卡伦，就是这样，用暗黑魔法侵蚀我的性命……",
+            "[B]……总感觉，非常让人提不起劲啊。"
+        ]
+    }
+}

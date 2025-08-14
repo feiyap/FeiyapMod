@@ -1,0 +1,12 @@
+{
+    "B_Phrolova_Rare_1_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Phrolova.B_Phrolova_Rare_1_1",
+        "BuffTag": "null",
+        "Name": "与你亲密无间",
+        "Description": "其他队友释放技能时，自身也会获得 1 层“乐声”。\n“乐声”叠加至 6 层时，改为使固定能力变为“彼世与彼岸”。\n进入濒死状态时，解除该增益。",
+        "Icon": "B_Phrolova_Rare_1_1\\B_Phrolova_Rare_1_1_Icon.png",
+        "MaxStack": 0
+    }
+}

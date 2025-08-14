@@ -36,14 +36,19 @@ namespace FairyLancelot
         [XmlIgnore]
         public List<Skill> heartSkills = new List<Skill>();
 
-        static public int heartPoint = 0;
+        //static public int heartPoint = 0;
 
         public override void Init()
         {
             base.Init();
             this.OnePassive = true;
             this.PlusStat.MPR = 1;
-            heartPoint = 0;
+            //heartPoint = 0;
+
+            if (PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>() == null)
+            {
+                PlayData.TSavedata.AddCustomValue(new CV_FairyLancelotGood());
+            }
         }
 
         public void BattleStart(BattleSystem Ins)
@@ -61,7 +66,12 @@ namespace FairyLancelot
                 this.BChar.BuffAdd("B_FLancelot_P_2", this.BChar);
             }
 
-            if (heartPoint < 100)
+            if (PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>() == null)
+            {
+                PlayData.TSavedata.AddCustomValue(new CV_FairyLancelotGood());
+            }
+
+            if (PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint < 100)
             {
                 heartSkills = new List<Skill>();
                 heartSkills.Add(Skill.TempSkill("S_FLancelot_H_1", this.BChar, this.BChar.MyTeam));

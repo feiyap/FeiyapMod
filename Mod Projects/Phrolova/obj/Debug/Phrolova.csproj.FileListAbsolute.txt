@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Phrolova\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Phrolova\obj\Debug\Phrolova.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Phrolova\obj\Debug\Phrolova.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Phrolova\obj\Debug\Phrolova.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Phrolova\bin\Debug\Phrolova202581413551.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Phrolova\bin\Debug\Phrolova202581413551.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Phrolova\obj\Debug\Phrolova202581413551.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Phrolova\obj\Debug\Phrolova202581413551.pdb

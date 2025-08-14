@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_Trisha": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Trisha",
+        "Dialogues": [
+            "[B]你身上好重的血腥味。你到底是……",
+            "[A]啊，特丽莎，我刚刚宰了只兔子，要不要一起来吃？",
+            "[B]……算了。没什么。"
+        ]
+    }
+}

@@ -50,7 +50,7 @@ namespace PatchouliKnowledge
             }
             return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.reg * 0.45f)).ToString())
                                           .Replace("&b", ((int)(this.BChar.GetStat.atk * 0.05f)).ToString())
-                                          .Replace("&d", ((int)(this.BChar.GetStat.reg * 0.05f)).ToString());
+                                          .Replace("&c", ((int)(this.BChar.GetStat.reg * 0.05f)).ToString());
         }
 
         public override void Init()

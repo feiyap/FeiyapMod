@@ -378,47 +378,67 @@ namespace FairyLancelot
     {
 		/// <summary>
 		/// Korean:
+		/// 랜슬롯은 전투에서 죽은 적이 없어야 합니다;
 		/// English:
+		/// Lancelot must not have been defeated in battle;
 		/// Japanese:
+		/// ランスロットは戦闘で死亡したことがないこと;
 		/// Chinese:
 		/// 兰斯洛特没有阵亡过；
 		/// Chinese-TW:
+		/// 蘭斯洛特沒有陣亡過；
 		/// </summary>
         public static string S_FLancelot_H_1 => ModManager.getModInfo("FairyLancelot").localizationInfo.SystemLocalizationUpdate("S_FLancelot_H_1");
 		/// <summary>
 		/// Korean:
+		/// 랜슬롯은 적어도 1명의 적을 처치해야 합니다;
 		/// English:
+		/// Lancelot must defeat at least 1 enemy;
 		/// Japanese:
+		/// ランスロットは少なくとも1人の敵を撃破すること;
 		/// Chinese:
 		/// 兰斯洛特至少击杀 1 名敌人；
 		/// Chinese-TW:
+		/// 蘭斯洛特至少擊殺 1 名敵人；
 		/// </summary>
         public static string S_FLancelot_H_2 => ModManager.getModInfo("FairyLancelot").localizationInfo.SystemLocalizationUpdate("S_FLancelot_H_2");
 		/// <summary>
 		/// Korean:
+		/// 랜슬롯은 스킬을 5회 이상 사용해야 합니다;
 		/// English:
+		/// Lancelot must use skills more than 5 times;
 		/// Japanese:
+		/// ランスロットはスキルを5回以上使用すること;
 		/// Chinese:
 		/// 兰斯洛特使用技能次数大于 5 次；
 		/// Chinese-TW:
+		/// 蘭斯洛特使用技能次數大於 5 次；
 		/// </summary>
         public static string S_FLancelot_H_3 => ModManager.getModInfo("FairyLancelot").localizationInfo.SystemLocalizationUpdate("S_FLancelot_H_3");
 		/// <summary>
 		/// Korean:
+		/// 랜슬롯은 체력을 40점 이상 회복할 수 없습니다;
 		/// English:
+		/// Lancelot cannot recover more than 40 HP;
 		/// Japanese:
+		/// ランスロットは40以上の体力を回復できないこと;
 		/// Chinese:
 		/// 兰斯洛特不能恢复超过 40 点体力值；
 		/// Chinese-TW:
+		/// 蘭斯洛特不能恢復超過 40 點體力值；
 		/// </summary>
         public static string S_FLancelot_H_4 => ModManager.getModInfo("FairyLancelot").localizationInfo.SystemLocalizationUpdate("S_FLancelot_H_4");
 		/// <summary>
 		/// Korean:
+		/// 랜슬롯은 원래 비용이 2인 스킬을 사용할 수 없습니다;
 		/// English:
+		/// Lancelot cannot use skills with an original cost of 2;
 		/// Japanese:
+		/// ランスロットは元のコストが2のスキルを使用できないこと;
 		/// Chinese:
 		/// 兰斯洛特不能使用原始费用为 2 的技能；
 		/// Chinese-TW:
+		/// 蘭斯洛特不能使用原始費用為 2 的技能；
 		/// </summary>
         public static string S_FLancelot_H_5 => ModManager.getModInfo("FairyLancelot").localizationInfo.SystemLocalizationUpdate("S_FLancelot_H_5");
 

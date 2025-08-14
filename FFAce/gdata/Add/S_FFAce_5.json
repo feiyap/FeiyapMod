@@ -6,7 +6,7 @@
         "Target": "enemy",
         "NotCount": true,
         "Name": "霜月轮转",
-        "Description": "翻开：不再将本技能放回原位置，而是置入手中，并获得1层[苍蓝之冰]。\n可以选择丢弃手中的1个技能并抽取1个技能。",
+        "Description": "可以选择并丢弃手中的 1 个技能，那之后，抽取 1 个技能。\n翻开：不再将本技能放回原位置，而是置入手中，并获得 1 层“苍蓝之冰”。",
         "User": "FFAce",
         "UseAp": 1,
         "Effect_Target": "SE_T_S_FFAce_5",

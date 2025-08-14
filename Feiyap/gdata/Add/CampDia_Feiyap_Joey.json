@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_Joey": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Joey",
+        "Dialogues": [
+            "[B]……粗鲁的家伙……",
+            "[A]嗯？乔师傅，你刚刚说了什么吗？",
+            "[B]乔、乔师傅？！……嗯，你人还挺不错的嘛！",
+            "[A]……？是……这样吗……？"
+        ]
+    }
+}

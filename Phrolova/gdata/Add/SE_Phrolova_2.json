@@ -1,0 +1,11 @@
+{
+    "SE_Phrolova_2": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "重世",
+        "Des": "下 1 个技能造成的伤害增加&a%<color=#FF7A33>(&user攻击力的100%)</color>。",
+        "IsIcon": "SE_Phrolova_2\\SE_Phrolova_2_Icon.png",
+        "ClassName": "Phrolova.SE_Phrolova_2"
+    }
+}

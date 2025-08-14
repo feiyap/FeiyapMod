@@ -1,0 +1,23 @@
+{
+    "myKey": "Phrolova",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Phrolova\\PhrolovaFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1012.82892,
+            "y": 259.62677
+        },
+        "offsetMin": {
+            "x": -949.7912,
+            "y": -2254.753
+        },
+        "pivot": {
+            "x": 0.483227074,
+            "y": 0.8946059
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

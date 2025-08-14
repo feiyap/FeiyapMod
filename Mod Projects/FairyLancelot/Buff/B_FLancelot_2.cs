@@ -54,7 +54,7 @@ namespace FairyLancelot
         {
             if (User == this.Usestate_L && Dmg >= this.BChar.HP)
             {
-                P_FairyLancelot.heartPoint += 2;
+                PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint += 2;
                 this.SelfDestroy();
             }
         }

@@ -44,7 +44,7 @@ namespace FairyLancelot
         {
             if (__instance.MyBuff != null && __instance.MyBuff.BuffData.Key == "B_FLancelot_P")
             {
-                __instance.StackText.text = P_FairyLancelot.heartPoint.ToString();
+                __instance.StackText.text = PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint.ToString();
             }
         }
     }

@@ -16,16 +16,15 @@ using EOS.Attributes;
 using EOS.Tools;
 namespace YorigamiSister
 {
-	/// <summary>
-	/// 依神女苑
-	/// Passive:
-	/// 使人消耗财产程度的能力 - 每消耗100金币，使自身永久提升1%暴击率和0.5%暴击伤害。
-	/// 在篝火处可以消耗1200金币为依神女苑购买额外的装备栏。
-	/// 今宵是飘逸的利己主义者 - 使用点金卷轴时，额外获得50%金币。
-	/// </summary>
-    public class P_YorigamiJoon:Passive_Char, IP_BattleEnd, IP_BattleStart_Ones
+    /// <summary>
+    /// 依神女苑
+    /// Passive:
+    /// 使人消耗财产程度的能力 - 每消耗100金币，使自身永久提升1%暴击率和0.5%暴击伤害。
+    /// 每场战斗开始时，消耗所有金币。每场战斗结束时，获得 1 个点金术卷轴。
+    /// 今宵是飘逸的利己主义者 - 使用点金卷轴时，额外获得50%金币。
+    /// </summary>
+    public class P_YorigamiJoon:Passive_Char, IP_BattleEnd, IP_BattleStart_Ones, IP_LevelUp
     {
-        //public static int costGold = 0;
         public static bool isListen = false;
 
         //初始化，生成CustomValue和Listener
@@ -38,9 +37,11 @@ namespace YorigamiSister
             {
                 PlayData.TSavedata.AddCustomValue(new CV_Gold());
             }
+        }
 
-            //PlayData.TSavedata.GetCustomValue<CV_Gold>().costGold = 0;
-
+        //升级时挂载Listener
+        public void LevelUp()
+        {
             if (!isListen)
             {
                 isListen = true;
@@ -49,15 +50,20 @@ namespace YorigamiSister
             }
         }
 
-        //战斗开始给自己上暴击率BUFF
+        //战斗开始给自己上暴击率BUFF，消耗所有金币
         public void BattleStart(BattleSystem Ins)
         {
+            PlayData.Gold = 0;
             this.BChar.BuffAdd("B_Joon_P", this.BChar);
         }
 
-        //战斗结束释放所有临时装备格
+        //战斗结束释放所有临时装备格，获得1个点金卷轴
         public void BattleEnd()
         {
+            List<ItemBase> list = new List<ItemBase>();
+            list.Add(ItemBase.GetItem(GDEItemKeys.Item_Scroll_Scroll_Midas, 1));
+            InventoryManager.Reward(list);
+
             if (BattleSystem.instance.GetBattleValue<BV_Joon_TempEquip>() != null)
             {
                 Dictionary<Character, Item_Equip> list2 = BattleSystem.instance.GetBattleValue<BV_Joon_TempEquip>().tempSlotList;
@@ -67,11 +73,11 @@ namespace YorigamiSister
                     character.Equip.Remove(list2[character]);
                 }
 
-                Dictionary<Character, int> list = BattleSystem.instance.GetBattleValue<BV_Joon_TempEquip>().tempEquipList;
+                Dictionary<Character, int> list3 = BattleSystem.instance.GetBattleValue<BV_Joon_TempEquip>().tempEquipList;
 
-                foreach (Character character in list.Keys)
+                foreach (Character character in list3.Keys)
                 {
-                    character.Equip[list[character]] = null;
+                    character.Equip[list3[character]] = null;
                 }
 
                 BattleSystem.instance.GetBattleValue<BV_Joon_TempEquip>().tempEquipList.Clear();
@@ -140,7 +146,6 @@ namespace YorigamiSister
                     PlayData.TSavedata.AddCustomValue(new CV_Gold());
                 }
                 PlayData.TSavedata.GetCustomValue<CV_Gold>().costGold -= num;
-                //P_YorigamiJoon.costGold -= num;
             }
         }
     }

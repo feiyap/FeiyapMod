@@ -24,17 +24,17 @@ namespace FFAce
         public int count;
         private List<Skill> list;
 
-        public override IEnumerator DrawAction()
-        {
-            this.AceDraw();
-            return base.DrawAction();
-        }
+        //public override IEnumerator DrawAction()
+        //{
+        //    this.AceDraw();
+        //    return base.DrawAction();
+        //}
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             list = new List<Skill>();
-            list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill y) => y != this.MySkill && y.Master == this.BChar && y.MySkill.User == this.BChar.Info.KeyData));
-            list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck.FindAll((Skill y) => y != this.MySkill && y.Master == this.BChar && y.MySkill.User == this.BChar.Info.KeyData));
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills.FindAll((Skill y) => y != this.MySkill && y.Master == this.BChar && y.MySkill.User == this.BChar.Info.KeyData && !y.MySkill.Rare));
+            list.AddRange(BattleSystem.instance.AllyTeam.Skills_Deck.FindAll((Skill y) => y != this.MySkill && y.Master == this.BChar && y.MySkill.User == this.BChar.Info.KeyData && !y.MySkill.Rare));
             for (int i = 0; i < 3; i++)
             {
                 BattleSystem.DelayInputAfter(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, true, true, true, false, true));

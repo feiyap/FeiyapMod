@@ -54,15 +54,24 @@ namespace FFAce
         {
             this.BChar.BuffReturn("B_FFAce_LucyD")?.SelfDestroy();
 
-            foreach (Skill drawskill in P_FFAce.DrawList)
+            bool isExist = false;
+
+            //foreach (Skill drawskill in P_FFAce.DrawList)
+
             {
-                foreach (Skill_Extended se in drawskill.AllExtendeds)
+                foreach (Skill_Extended se in Mybutton.Myskill.AllExtendeds)
                 {
-                    if (se.Name == drawskill.MySkill.KeyID)
+                    if (se.Name == Mybutton.Myskill.MySkill.KeyID)
                     {
                         (se as SkillBase_Ace).AceDraw();
+                        isExist = true;
                     }
                 }
+            }
+
+            if (!isExist)
+            {
+                BattleSystem.instance.AllyTeam.ForceDraw(Mybutton.Myskill);
             }
         }
     }

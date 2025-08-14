@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_TWRed": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "TW_Red",
+        "Dialogues": [
+            "[B]不要总是拿着那种废铁挥来挥去的啦！来试试魔法吧，怎么样？！",
+            "[A]你说……这是……废铁？",
+            "[B]（呜哇……好恐怖……她的眼神好恐怖……！）"
+        ]
+    }
+}

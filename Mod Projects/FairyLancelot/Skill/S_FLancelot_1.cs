@@ -29,7 +29,7 @@ namespace FairyLancelot
                 this.SkillBasePlus.Target_BaseDMG = (int)(this.BChar.GetStat.atk * 0.5);
                 this.BChar.BuffAdd("B_FLancelot_P_3", this.BChar);
             }
-            if (P_FairyLancelot.heartPoint >= 30)
+            if (PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint >= 30)
             {
                 this.BChar.BuffAdd("B_FLancelot_1", this.BChar);
             }

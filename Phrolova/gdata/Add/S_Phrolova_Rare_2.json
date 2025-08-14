@@ -1,0 +1,23 @@
+{
+    "S_Phrolova_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/S_Hein_0",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "Name": "“我不会再等了。”",
+        "Description": "使自身以外的所有友军阵亡。\n那之后，向牌库中添加所有友军牌组中的技能，并使持有者改为自身。\n使“露西的项链”充能次数填充至 3 层。",
+        "User": "Phrolova",
+        "Disposable": true,
+        "Effect_Target": "SE_T_S_Phrolova_Rare_2",
+        "Image_0": "S_Phrolova_Rare_2\\S_Phrolova_Rare_2_Image_0.png",
+        "Image_1": "S_Phrolova_Rare_2\\S_Phrolova_Rare_2_Image_1.png",
+        "Image_2": "S_Phrolova_Rare_2\\S_Phrolova_Rare_2_Image_2.png",
+        "SkillExtended": [
+            "Phrolova.S_Phrolova_Rare_2"
+        ],
+        "NoBasicSkill": true,
+        "Effect_Self": "SE_S_S_Phrolova_Rare_2"
+    }
+}

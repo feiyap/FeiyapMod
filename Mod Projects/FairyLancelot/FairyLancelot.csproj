@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -424,10 +424,11 @@
     <Reference Include="MonoMod.Utils">
       <HintPath>..\..\FairyLancelot\Assemblies\MonoMod.Utils.dll</HintPath>
     </Reference>
-<!-- Extra Reference End-->
+    <!-- Extra Reference End-->
   </ItemGroup>
-                                                                                                                                                                                  <!-- Compile ItemGroup Start-->
+  <!-- Compile ItemGroup Start-->
   <ItemGroup>
+    <Compile Include="CV_FairyLancelotGood.cs" />
     <Compile Include="FairyLancelot_ModDefinition.cs" />
     <Compile Include="FairyLancelot_ModItemKeys.cs" />
     <Compile Include="FairyLancelot_Plugin.cs" />

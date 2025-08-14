@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_Huz": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Queen",
+        "Dialogues": [
+            "[A]哈啊……卉子小姐，就是那边，请再用力一点……",
+            "[B]我只是在帮你治疗而已耶？！",
+            "[A]这种让人快要窒息过去的治疗真是太美妙了……"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "B_LetheanElegy": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Phrolova.B_LetheanElegy",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "安魂曲",
+        "Icon": "B_LetheanElegy\\B_LetheanElegy_Icon.png",
+        "Description": "下 1 个从手中释放的技能造成的伤害提升64%。"
+    }
+}

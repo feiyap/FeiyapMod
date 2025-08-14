@@ -20,13 +20,8 @@ namespace FFAce
 	/// </summary>
     public class S_FFAce_5: SkillBase_Ace
     {
-        public override void AceDraw()
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            base.AceDraw();
-
-            BattleSystem.DelayInput(this.Draw());
-            this.BChar.BuffAdd("B_FFAce_5", this.BChar);
-
             new List<Skill>();
             List<Skill> list = new List<Skill>();
             list.AddRange(BattleSystem.instance.AllyTeam.Skills);
@@ -39,7 +34,15 @@ namespace FFAce
                 }
             }
 
-            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.DrawSkill, true, true, true, false, true));
+            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.WasteSkill, true, true, true, false, true));
+        }
+
+        public override void AceDraw()
+        {
+            base.AceDraw();
+
+            BattleSystem.DelayInput(this.Draw());
+            this.BChar.BuffAdd("B_FFAce_5", this.BChar);
         }
 
         public void Del(SkillButton Mybutton)

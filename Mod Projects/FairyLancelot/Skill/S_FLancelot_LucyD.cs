@@ -31,8 +31,8 @@ namespace FairyLancelot
                 {
                     if (enumerator.Current.Info.KeyData == "FairyLancelot")
                     {
-                        P_FairyLancelot.heartPoint += 2;
-                        if (P_FairyLancelot.heartPoint >= 50)
+                        PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint += 2;
+                        if (PlayData.TSavedata.GetCustomValue<CV_FairyLancelotGood>().heartPoint >= 50)
                         {
                             BattleSystem.instance.AllyTeam.Draw();
                         }

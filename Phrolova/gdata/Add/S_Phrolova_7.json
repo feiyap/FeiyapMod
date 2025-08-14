@@ -1,0 +1,22 @@
+{
+    "S_Phrolova_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": true,
+        "NoDrop": false,
+        "Fatal": false,
+        "Name": "生命不灭的轻歌",
+        "UseAp": 3,
+        "User": "Phrolova",
+        "Description": "在手中生成 1 个自己未学会的稀有技能。",
+        "Disposable": true,
+        "Image_0": "S_Phrolova_7\\S_Phrolova_7_Image_0.png",
+        "Image_1": "S_Phrolova_7\\S_Phrolova_7_Image_1.png",
+        "Image_2": "S_Phrolova_7\\S_Phrolova_7_Image_2.png",
+        "SkillExtended": [
+            "Phrolova.S_Phrolova_7"
+        ]
+    }
+}

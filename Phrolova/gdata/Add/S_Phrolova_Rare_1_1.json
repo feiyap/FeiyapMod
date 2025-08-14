@@ -1,0 +1,24 @@
+{
+    "S_Phrolova_Rare_1_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Hein/S_Hein_0",
+        "Target": "enemy",
+        "UseAp": 1,
+        "Name": "红与黑的歌",
+        "Description": "",
+        "Image_0": "S_Phrolova_Rare_1_1\\S_Phrolova_Rare_1_1_Image_0.png",
+        "Image_1": "S_Phrolova_Rare_1_1\\S_Phrolova_Rare_1_1_Image_1.png",
+        "Image_2": "S_Phrolova_Rare_1_1\\S_Phrolova_Rare_1_1_Image_2.png",
+        "Effect_Target": "SE_T_S_Phrolova_Rare_1_1",
+        "NotCount": true,
+        "Fatal": true,
+        "NoDrop": true,
+        "Rare": false,
+        "PlusSkillView": "S_Phrolova_Rare_1_2",
+        "Disposable": false,
+        "SkillExtended": [
+            "Phrolova.S_Phrolova_Rare_1_1"
+        ]
+    }
+}

@@ -9,7 +9,7 @@
         "IgnoreTaunt": true,
         "Except": false,
         "Name": "灼魂刻印",
-        "Description": "使用后，在手中生成1张[红焰轮舞]。\n翻开：不将本技能将放回原位，而是置入手中。可再次使用固定能力。",
+        "Description": "使用后，在手中生成1张“红焰轮舞”。\n翻开：不将本技能将放回原位，而是置入手中。可再次使用固定能力。",
         "User": "FFAce",
         "Disposable": true,
         "Effect_Target": "SE_T_S_FFAce_1",
