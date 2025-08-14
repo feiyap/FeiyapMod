@@ -45,9 +45,12 @@ namespace FFAce
 
         public void CriPerChange(Skill skill, BattleChar Target, ref float CriPer)
         {
-            if (!skill.FreeUse && !Target.Info.Ally && skill.Master == this.BChar && skill.MySkill.KeyID == "S_FFAce_0" || skill.MySkill.KeyID == "S_FFAce_0_Ex")
+            if (skill?.MySkill?.KeyID == "S_FFAce_0" || skill?.MySkill?.KeyID == "S_FFAce_0_Ex")
             {
-                CriPer += 100;
+                if (!skill.FreeUse && !Target.Info.Ally && skill.Master == this.BChar)
+                {
+                    CriPer += 100;
+                }
             }
         }
 
