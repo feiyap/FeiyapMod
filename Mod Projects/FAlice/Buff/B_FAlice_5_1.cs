@@ -14,10 +14,13 @@ using Debug = UnityEngine.Debug;
 namespace FAlice
 {
 	/// <summary>
-	/// 战操「玩偶战争」
+	/// 闪避增加
 	/// </summary>
-    public class S_FAlice_Rare_1:Skill_Extended
+    public class B_FAlice_5_1 : Buff
     {
-
+        public override void Init()
+        {
+            base.Init();
+        }
     }
 }

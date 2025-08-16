@@ -1,19 +1,115 @@
 {
     "FAlice": {
         "_gdeSchema": "Character",
-        "Role": "Role_DPS",
-        "PassiveClassName": "",
+        "Role": "Role_Mage",
+        "PassiveClassName": "FAlice.P_FAlice",
         "PassiveUnlockLV1": false,
         "name": "爱丽丝",
         "face": "FAlice\\FAliceBattleFace.png",
-        "SelectInfo": "",
+        "SelectInfo": "爱丽丝·玛格特罗伊德是全才全能的魔女，不论是进攻、治疗、辅助、削弱或是保护都能胜任。\n\n爱丽丝拥有5种独特的“人偶”，通过役使这些人偶，爱丽丝能施展各种不同的能力，也能获得不同的属性加成。在战斗中，爱丽丝需要积攒手中的人偶，然后对人偶们下达指令——是执行行动、还是蓄势强化、亦或是转换资源。不过，对人偶们下达指令的机会有限，所以每一步都需要精打细算。\n\n在精密的计算之下，使用引以为豪的人偶们控制战场、成为战斗的核心吧！",
         "Gender": 1,
         "MAXHP": {
-            "x": 20,
+            "x": 23,
+            "y": 43
+        },
+        "PassiveDes": "操控人偶程度的能力 - 爱丽丝的「人形」技能在使用后会以倒计时∞的形式加入倒计时栏中。这些技能不会因回合结束而释放。\n场上最多只能存在“爱丽丝等级 + 1”数量的「人形」技能。\n\n布加勒斯特的人偶师 - 每个回合开始时，生成 1 个费用为 1 的“操符「操纵人形」”，附带放逐和 1 回合后弃牌。",
+        "PassiveName": "七色的人形使",
+        "PassiveIcon": "FAlice\\FAlicePassiveIcon.png",
+        "ATK": {
+            "x": 12,
+            "y": 23
+        },
+        "HIT_CC": {
+            "x": 0,
             "y": 40
         },
-        "PassiveDes": "操控人偶程度的能力 - 爱丽丝的「人形」技能在使用后会以倒计时∞的形式加入倒计时栏中。这些技能不会因回合结束而释放。\n场上最多只能存在“等同于爱丽丝等级”数量的「人形」技能。\n\n布加勒斯特的人偶师 - 每个回合开始时，生成 1 个费用为 1 的“操符「操纵人形」”，附带放逐和 1 回合后弃牌。",
-        "PassiveName": "七色的人形使",
-        "PassiveIcon": "FAlice\\FAlicePassiveIcon.png"
+        "HIT": {
+            "x": 100,
+            "y": 120
+        },
+        "REG": {
+            "x": 11,
+            "y": 21
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "DODGE": {
+            "x": 5,
+            "y": 15
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_CC": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_DEBUFF": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_DOT": {
+            "x": 10,
+            "y": 50
+        },
+        "CollectionSprite_Cover": "FAlice\\FAliceCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "FAlice\\FAliceCollectionSprite_SkillFace.png",
+        "StatView_Atk": 2,
+        "StatView_Def": 2,
+        "StatView_Heal": 2,
+        "StatView_Sup": 2,
+        "StatView_CC": 2,
+        "StatView_Difficult": 3,
+        "StatView_Debuff": 2,
+        "StatView_Dot": 2,
+        "CampSD": [
+            "FAlice\\FAliceCampSD0.png",
+            "FAlice\\FAliceCampSD1.png",
+            "FAlice\\FAliceCampSD2.png",
+            "FAlice\\FAliceCampSD3.png"
+        ],
+        "CampSelectWord": "诶？希望让我一起？……没办法呐，既然都被这样拜托了的话……",
+        "FirstSkill": "S_FAlice_0",
+        "Text_Battle_ND": [
+            "呜……早知道就不留手了……"
+        ],
+        "Text_Battle_Kill": [
+            "这种事，对我来说是轻而易举啦。"
+        ],
+        "Text_Battle_Idle": [
+            "在盘算下一步怎么做吗？",
+            "每一步都需要精密计算才行……"
+        ],
+        "Text_PharosLeader": [
+            "不，不要，手指不听使唤……",
+            "……指尖的感觉，回来了……",
+            "上海！蓬莱！不行！！"
+        ],
+        "Text_Witch": [
+            "唉，这年头真是什么人都能自称是“魔女”了。",
+            "诅咒我吗？看来你是不知道“人偶”的厉害……"
+        ],
+        "Text_MasterTarget": "人偶有几只行踪不明了，究竟去哪了呢……",
+        "Text_Field_Idle": [
+            "啊，担任斥候的人偶们带回消息了。走这边唷。"
+        ],
+        "Text_Battle_Cri": [
+            "发现弱点了！",
+            "从死角发起攻击！"
+        ],
+        "Text_Battle_Start": [
+            "人偶秀要开始了唷。千万不要眨眼睛。"
+        ]
     }
 }

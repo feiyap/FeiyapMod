@@ -19,8 +19,14 @@ namespace FAlice
 	/// - 选择 1 个「人形」技能，立即触发 2 次。
 	/// - 选择 1 个「人形」技能，立即强化触发 1 次。
 	/// </summary>
-    public class S_FAlice_6:Skill_Extended
+    public class S_FAlice_6 : Skill_Extended
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.ChoiceSkillList = new List<string>();
+            this.ChoiceSkillList.Add(ModItemKeys.Skill_S_FAlice_6_0);
+            this.ChoiceSkillList.Add(ModItemKeys.Skill_S_FAlice_6_1);
+        }
     }
 }

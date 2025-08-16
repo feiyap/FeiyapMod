@@ -1,0 +1,12 @@
+{
+    "B_FAlice_8_S": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FAlice.B_FAlice_8_S",
+        "BuffTag": "null",
+        "Icon": "Image/Buff/Skill_Icon_Pack/green/green_15",
+        "Description": "使下一个行动的敌人取消行动并眩晕。",
+        "Name": "绊线",
+        "LifeTime": 2,
+        "Hide": false
+    }
+}

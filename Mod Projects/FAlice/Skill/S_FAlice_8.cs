@@ -19,8 +19,14 @@ namespace FAlice
 	/// - 选择 1 个「人形」技能，将其置入弃牌库。
 	/// - 随机丢弃手中 2 个技能。
 	/// </summary>
-    public class S_FAlice_8:Skill_Extended
+    public class S_FAlice_8 : Skill_Extended
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.ChoiceSkillList = new List<string>();
+            this.ChoiceSkillList.Add(ModItemKeys.Skill_S_FAlice_8_0);
+            this.ChoiceSkillList.Add(ModItemKeys.Skill_S_FAlice_8_1);
+        }
     }
 }

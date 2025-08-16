@@ -3,14 +3,19 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>FAlice202572311508</AssemblyName>
+    <AssemblyName>FAlice2025816190927</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <ReferencePath>H:/SteamLibrary/steamapps/common/Chrono Ark/ChronoArk_Data/Managed</ReferencePath>
+    <ProjectGuid>{E5722FB8-A434-4CA1-BDD2-46B8376A162B}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\inferno\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Accessibility">
       <Private>False</Private>
     </Reference>
@@ -20,11 +25,24 @@
     <Reference Include="Assembly-CSharp">
       <Private>False</Private>
     </Reference>
+    <Reference Include="BasicMethods">
+      <HintPath>..\..\..\..\..\workshop\content\1188930\3345774100\Assemblies\BasicMethods.dll</HintPath>
+    </Reference>
     <Reference Include="Beardy.BeardsGridLayoutGroup.Runtime">
       <Private>False</Private>
     </Reference>
     <Reference Include="DOTween">
       <Private>False</Private>
+    </Reference>
+    <Reference Include="EOS, Version=1.1.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\workshop\content\1188930\3345774100\Assemblies\EOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Security">
       <Private>False</Private>
@@ -383,23 +401,51 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-  
-                                                            <!-- Compile ItemGroup Start-->
+                          <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="FAlice_ModDefinition.cs" />
     <Compile Include="FAlice_ModItemKeys.cs" />
     <Compile Include="FAlice_Plugin.cs" />
+    <Compile Include="Buff\B_FAlice_1.cs" />
+    <Compile Include="Buff\B_FAlice_2.cs" />
+    <Compile Include="Buff\B_FAlice_3_0.cs" />
+    <Compile Include="Buff\B_FAlice_3_1.cs" />
+    <Compile Include="Buff\B_FAlice_3_2.cs" />
+    <Compile Include="Buff\B_FAlice_4_0.cs" />
+    <Compile Include="Buff\B_FAlice_4_1.cs" />
+    <Compile Include="Buff\B_FAlice_4_2.cs" />
+    <Compile Include="Buff\B_FAlice_5_0.cs" />
+    <Compile Include="Buff\B_FAlice_5_1.cs" />
+    <Compile Include="Buff\B_FAlice_8_Hidden.cs" />
+    <Compile Include="Buff\B_FAlice_8_S.cs" />
     <Compile Include="Buff\B_FAlice_Rare_1.cs" />
+    <Compile Include="Buff\B_FAlice_Rare_3_0.cs" />
     <Compile Include="Character\P_FAlice.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Skill\SkillExtended_FAlice.cs" />
+    <Compile Include="Skill\S_FAlice_0.cs" />
+    <Compile Include="Skill\S_FAlice_0_0.cs" />
+    <Compile Include="Skill\S_FAlice_0_1.cs" />
+    <Compile Include="Skill\S_FAlice_0_2.cs" />
+    <Compile Include="Skill\S_FAlice_0_3.cs" />
     <Compile Include="Skill\S_FAlice_1.cs" />
     <Compile Include="Skill\S_FAlice_2.cs" />
     <Compile Include="Skill\S_FAlice_3.cs" />
     <Compile Include="Skill\S_FAlice_4.cs" />
     <Compile Include="Skill\S_FAlice_5.cs" />
     <Compile Include="Skill\S_FAlice_6.cs" />
+    <Compile Include="Skill\S_FAlice_6_0.cs" />
+    <Compile Include="Skill\S_FAlice_6_1.cs" />
     <Compile Include="Skill\S_FAlice_7.cs" />
+    <Compile Include="Skill\S_FAlice_7_0.cs" />
+    <Compile Include="Skill\S_FAlice_7_1.cs" />
     <Compile Include="Skill\S_FAlice_8.cs" />
-    <Compile Include="Skill\S_FAlice_Rare_1.cs" />
+    <Compile Include="Skill\S_FAlice_8_0.cs" />
+    <Compile Include="Skill\S_FAlice_8_1.cs" />
+    <Compile Include="Skill\S_FAlice_LucyDraw.cs" />
     <Compile Include="Skill\S_FAlice_Rare_2.cs" />
     <Compile Include="Skill\S_FAlice_Rare_3.cs" />
     <Compile Include="Skill\S_FAlice_Rare_3_0.cs" />

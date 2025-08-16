@@ -1,0 +1,11 @@
+{
+    "B_FAlice_4_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FAlice.B_FAlice_4_2",
+        "BuffTag": "null",
+        "Name": "攻击力增加",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
+        "LifeTime": 0,
+        "MaxStack": 7
+    }
+}

@@ -17,6 +17,9 @@
         "NoDrop": false,
         "Except": false,
         "NoBasicSkill": false,
-        "PlusSkillView": "S_FAlice_Rare_3_0"
+        "PlusSkillView": "S_FAlice_Rare_3_0",
+        "SkillExtended": [
+            "FAlice.S_FAlice_Rare_3"
+        ]
     }
 }

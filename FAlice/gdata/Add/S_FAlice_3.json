@@ -2,16 +2,21 @@
     "S_FAlice_3": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Enemy/Wilderness/Samurai_0",
         "Target": "Misc",
         "NotCount": true,
         "NoBasicSkill": true,
         "Name": "白符「白垩的俄罗斯人形」",
-        "Description": "这个技能处于倒计时中时，为&user提供“+4%防御力”。\n触发时，获得 &a 防护墙(60%防御力)。\n每触发 3 次后，下 1 次触发还会使所有友军获得“保护体力极限”，持续 2 回合。",
+        "Description": "这个技能处于倒计时中时，为&user提供“防御力 +4%”。\n触发时，对随机敌人施加<sprite=0>“人偶阻碍”减益(100%<sprite=0>成功率)，持续 5 回合。\n每触发 3 次后，下 1 次触发还会获得&a防护墙(60%防御力)，并使所有友军获得“保护体力极限”，持续 2 回合。",
         "User": "FAlice",
         "UseAp": 1,
         "Image_0": "S_FAlice_3\\S_FAlice_3_Image_0.png",
         "Image_1": "S_FAlice_3\\S_FAlice_3_Image_1.png",
-        "Image_2": "S_FAlice_3\\S_FAlice_3_Image_2.png"
+        "Image_2": "S_FAlice_3\\S_FAlice_3_Image_2.png",
+        "SkillExtended": [
+            "FAlice.S_FAlice_3"
+        ],
+        "NoDrop": false,
+        "Effect_Target": "SE_T_S_FAlice_3"
     }
 }

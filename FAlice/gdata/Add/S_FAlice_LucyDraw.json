@@ -1,0 +1,33 @@
+{
+    "S_FAlice_LucyDraw": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NotCount": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Name": "人偶「半自主人偶」",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "FAlice",
+        "Description": "抽取 2 个技能。\n在手中随机生成 1 个「人形」技能，并使其费用转变为 0。",
+        "SkillExtended": [
+            "FAlice.S_FAlice_LucyDraw"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_0": "S_FAlice_LucyDraw\\S_FAlice_LucyDraw_Image_0.png",
+        "Image_1": "S_FAlice_LucyDraw\\S_FAlice_LucyDraw_Image_1.png",
+        "Image_2": "S_FAlice_LucyDraw\\S_FAlice_LucyDraw_Image_2.png"
+    }
+}

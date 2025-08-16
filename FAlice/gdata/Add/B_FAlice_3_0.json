@@ -1,0 +1,11 @@
+{
+    "B_FAlice_3_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FAlice.B_FAlice_3_0",
+        "BuffTag": "null",
+        "Name": "白符「白垩的俄罗斯人形」",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (12)",
+        "Description": "",
+        "MaxStack": 7
+    }
+}

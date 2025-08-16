@@ -1,0 +1,16 @@
+{
+    "B_FAlice_4_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "FAlice.B_FAlice_4_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "红符「红发的荷兰人形」",
+        "Icon": "Image/Buff/Skill_Icon_Pack/Debuff",
+        "Description": "",
+        "MaxStack": 7
+    }
+}

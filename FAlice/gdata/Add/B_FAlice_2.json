@@ -1,0 +1,15 @@
+{
+    "B_FAlice_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "FAlice.B_FAlice_2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (21)",
+        "Name": "苍符「博爱的奥尔良人形」",
+        "MaxStack": 7
+    }
+}

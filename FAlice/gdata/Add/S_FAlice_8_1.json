@@ -1,0 +1,19 @@
+{
+    "S_FAlice_8_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Disposable": false,
+        "Description": "随机丢弃手中 2 个技能。",
+        "NoDrop": true,
+        "Effect_Self": "SE_S_S_FAlice_8_1",
+        "SkillExtended": [
+            "FAlice.S_FAlice_8_1"
+        ],
+        "Name": "丢弃手牌",
+        "Image_0": "S_FAlice_8\\S_FAlice_8_Image_0.png",
+        "Image_1": "S_FAlice_8\\S_FAlice_8_Image_1.png",
+        "Image_2": "S_FAlice_8\\S_FAlice_8_Image_2.png"
+    }
+}

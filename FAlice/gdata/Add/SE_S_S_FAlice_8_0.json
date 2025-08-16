@@ -1,0 +1,11 @@
+{
+    "SE_S_S_FAlice_8_0": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_FAlice_8_S"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

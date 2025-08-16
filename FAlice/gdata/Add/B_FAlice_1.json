@@ -1,0 +1,15 @@
+{
+    "B_FAlice_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "FAlice.B_FAlice_1",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "诅咒「魔彩光的上海人形」",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
+        "MaxStack": 7
+    }
+}

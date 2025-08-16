@@ -51,6 +51,11 @@
             [
                 
             ]
-        ]
+        ],
+        "LucySkill": [
+            "S_FAlice_LucyDraw"
+        ],
+        "AP": 10,
+        "Level": 6
     }
 }

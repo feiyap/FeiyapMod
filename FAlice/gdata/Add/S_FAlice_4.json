@@ -7,12 +7,16 @@
         "NotCount": true,
         "NoBasicSkill": true,
         "Name": "红符「红发的荷兰人形」",
-        "Description": "这个技能处于倒计时中时，为&user提供“-1速度”。\n触发时，使所有友军获得“+25%暴击率、+25%暴击伤害”，持续 1 回合。\n每触发 3 次后，下 1 次触发还会使所有友军获得“+1攻击力”。",
+        "Description": "这个技能处于倒计时中时，为&user提供“速度 -1”。\n触发时，使所有友军获得“暴击率 +25%、暴击伤害 +25%”，持续 1 回合。\n每触发 3 次后，下 1 次触发还会使所有友军获得“攻击力 +1”。",
         "User": "FAlice",
         "UseAp": 1,
         "IgnoreTaunt": false,
         "Image_0": "S_FAlice_4\\S_FAlice_4_Image_0.png",
         "Image_1": "S_FAlice_4\\S_FAlice_4_Image_1.png",
-        "Image_2": "S_FAlice_4\\S_FAlice_4_Image_2.png"
+        "Image_2": "S_FAlice_4\\S_FAlice_4_Image_2.png",
+        "NoDrop": false,
+        "SkillExtended": [
+            "FAlice.S_FAlice_4"
+        ]
     }
 }

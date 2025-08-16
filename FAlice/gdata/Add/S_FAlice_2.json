@@ -2,18 +2,33 @@
     "S_FAlice_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/flare_lv1",
         "Target": "Misc",
         "NotCount": true,
         "NoBasicSkill": true,
         "Name": "苍符「博爱的奥尔良人形」",
-        "Description": "这个技能处于倒计时中时，为&user提供“+1治疗力”。\n触发时，对体力值最低的、已受伤的友军治疗一次。\n每触发 3 次后，下 1 次触发改为对所有友军造成治疗。",
+        "Description": "这个技能处于倒计时中时，为&user提供“治疗力 +1”。\n触发时，对体力值最低的、已受伤的友军治疗一次。\n每触发 3 次后，下 1 次触发改为对所有友军造成治疗。",
         "User": "FAlice",
         "UseAp": 1,
         "Effect_Target": "SE_T_S_FAlice_2",
         "Image_0": "S_FAlice_2\\S_FAlice_2_Image_0.png",
         "Image_1": "S_FAlice_2\\S_FAlice_2_Image_1.png",
         "Image_2": "S_FAlice_2\\S_FAlice_2_Image_2.png",
-        "Rare": false
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "FAlice.S_FAlice_2"
+        ]
     }
 }

@@ -1,0 +1,17 @@
+{
+    "S_FAlice_0_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NoDrop": true,
+        "Description": "选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 1 个技能、恢复 2 点法力值。",
+        "SkillExtended": [
+            "FAlice.S_FAlice_0_2"
+        ],
+        "Name": "回收",
+        "Image_0": "S_FAlice_0\\S_FAlice_0_Image_0.png",
+        "Image_1": "S_FAlice_0\\S_FAlice_0_Image_1.png",
+        "Image_2": "S_FAlice_0\\S_FAlice_0_Image_2.png"
+    }
+}

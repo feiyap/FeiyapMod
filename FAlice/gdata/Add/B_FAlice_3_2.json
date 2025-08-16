@@ -1,0 +1,14 @@
+{
+    "B_FAlice_3_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FAlice.B_FAlice_3_2",
+        "BuffTag": "Debuff",
+        "Name": "人偶阻碍",
+        "Debuff": true,
+        "TagPer": 100,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (13)",
+        "Description": "",
+        "LifeTime": 5,
+        "MaxStack": 7
+    }
+}

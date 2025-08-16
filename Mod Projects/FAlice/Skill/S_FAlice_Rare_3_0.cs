@@ -20,8 +20,45 @@ namespace FAlice
 	/// 触发时，对所有敌人造成一次伤害。
 	/// 每触发 3 次后，下 1 次触发改为对所有敌人造成 &a 伤害(攻击力的450%)。然后将这个技能放逐。
 	/// </summary>
-    public class S_FAlice_Rare_3_0:Skill_Extended
+    public class S_FAlice_Rare_3_0 : SkillExtended_FAlice, IP_SkillCastingStart, IP_SkillCastingQuit
     {
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&user", this.BChar.Info.Name).
+                Replace("&a", ((int)(this.BChar.GetStat.atk * (4.5f + this.PlusPerATK / 100f))).ToString());
+        }
 
+        public override void NormalEffect()
+        {
+            base.NormalEffect();
+            Skill skill = this.MySkill.CloneSkill(true, this.BChar);
+            skill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
+            BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
+        }
+
+        public override void EnhancedEffect()
+        {
+            base.EnhancedEffect();
+            Skill skill = this.MySkill.CloneSkill(true, this.BChar);
+            skill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
+            S_FAlice_Rare_3_0 se = skill.ExtendedFind<S_FAlice_Rare_3_0>();
+            if (se != null)
+            {
+                se.PlusSkillPerStat.Damage = 300;
+            }
+            BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
+            this.CastingWaste();
+        }
+
+        public new void SkillCasting(CastingSkill ThisSkill)
+        {
+            base.SkillCasting(ThisSkill);
+            this.BChar.BuffAdd(ModItemKeys.Buff_B_FAlice_Rare_3_0, this.BChar);
+        }
+
+        public void SkillCastingQuit(CastingSkill ThisSkill)
+        {
+            this.BChar.BuffRemove(ModItemKeys.Buff_B_FAlice_Rare_3_0, true);
+        }
     }
 }

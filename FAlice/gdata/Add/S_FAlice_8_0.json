@@ -1,0 +1,19 @@
+{
+    "S_FAlice_8_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Disposable": false,
+        "Description": "选择 1 个「人形」技能，将其置入弃牌库。",
+        "NoDrop": true,
+        "Effect_Self": "SE_S_S_FAlice_8_0",
+        "SkillExtended": [
+            "FAlice.S_FAlice_8_0"
+        ],
+        "Name": "丢弃人偶",
+        "Image_0": "S_FAlice_8\\S_FAlice_8_Image_0.png",
+        "Image_1": "S_FAlice_8\\S_FAlice_8_Image_1.png",
+        "Image_2": "S_FAlice_8\\S_FAlice_8_Image_2.png"
+    }
+}

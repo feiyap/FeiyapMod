@@ -1,0 +1,11 @@
+{
+    "B_FAlice_5_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FAlice.B_FAlice_5_0",
+        "BuffTag": "null",
+        "Name": "暗符「雾之伦敦人形」",
+        "Hide": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/Buff",
+        "MaxStack": 7
+    }
+}

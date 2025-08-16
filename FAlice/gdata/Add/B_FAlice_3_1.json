@@ -1,0 +1,11 @@
+{
+    "B_FAlice_3_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FAlice.B_FAlice_3_1",
+        "BuffTag": "null",
+        "Name": "保护体力极限",
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_20",
+        "LifeTime": 2,
+        "MaxStack": 0
+    }
+}

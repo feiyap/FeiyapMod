@@ -1,0 +1,17 @@
+{
+    "S_FAlice_6_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NoDrop": true,
+        "Description": "选择 1 个「人形」技能，立即强化触发 1 次。",
+        "SkillExtended": [
+            "FAlice.S_FAlice_6_1"
+        ],
+        "Name": "强化触发",
+        "Image_0": "S_FAlice_6\\S_FAlice_6_Image_0.png",
+        "Image_1": "S_FAlice_6\\S_FAlice_6_Image_1.png",
+        "Image_2": "S_FAlice_6\\S_FAlice_6_Image_2.png"
+    }
+}

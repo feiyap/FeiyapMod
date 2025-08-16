@@ -4,11 +4,12 @@
         "Hide": false,
         "IsFieldBuff": false,
         "Cantdisable": true,
-        "ClassName": "",
+        "ClassName": "FAlice.B_FAlice_Rare_1",
         "BuffTag": "null",
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "虹彩的人形使",
-        "Description": "每个回合开始时，额外生成 1 个“操符「操纵人形」”。\n移除「人形」技能数量上限。"
+        "Description": "每个回合开始时，额外生成 1 个“操符「操纵人形」”。\n「人形」技能数量上限变为“爱丽丝等级 x 2”。",
+        "Icon": "B_FAlice_Rare_1\\B_FAlice_Rare_1_Icon.png"
     }
 }

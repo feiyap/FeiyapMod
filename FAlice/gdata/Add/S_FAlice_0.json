@@ -21,10 +21,13 @@
         "UnknownTarget": false,
         "UseAp": 0,
         "Name": "操符「操纵人形」",
-        "Description": "选择：\n- 使所有倒计时中的「人形」触发一次效果。\n- 额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的25%)或&b(治疗力的40%)或&c(防御力的20%)。\n- 选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 1 个技能、恢复 2 点法力值。\n- 在手中随机生成 1 个「人形」。",
+        "Description": "选择：\n- 使所有倒计时中的「人形」触发一次效果。\n- 额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)。\n- 选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 1 个技能、恢复 2 点法力值。\n- 在手中随机生成 1 个「人形」。",
         "User": "FAlice",
         "Image_0": "S_FAlice_0\\S_FAlice_0_Image_0.png",
         "Image_1": "S_FAlice_0\\S_FAlice_0_Image_1.png",
-        "Image_2": "S_FAlice_0\\S_FAlice_0_Image_2.png"
+        "Image_2": "S_FAlice_0\\S_FAlice_0_Image_2.png",
+        "SkillExtended": [
+            "FAlice.S_FAlice_0"
+        ]
     }
 }

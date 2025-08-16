@@ -19,8 +19,14 @@ namespace FAlice
 	/// - 在手中随机生成 2 个不同的「人形」技能。
 	/// - 在手中生成 1 个指定的「人形」技能。
 	/// </summary>
-    public class S_FAlice_7:Skill_Extended
+    public class S_FAlice_7 : Skill_Extended
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.ChoiceSkillList = new List<string>();
+            this.ChoiceSkillList.Add(ModItemKeys.Skill_S_FAlice_7_0);
+            this.ChoiceSkillList.Add(ModItemKeys.Skill_S_FAlice_7_1);
+        }
     }
 }
