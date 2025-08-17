@@ -22,6 +22,7 @@ namespace FAlice
         {
             base.SkillUseSingle(SkillD, Targets);
             Skill skill = Skill.TempSkill(P_FAlice.Dolls.Random(this.BChar.GetRandomClass().Main), this.BChar, this.BChar.MyTeam);
+            skill.isExcept = true;
             BattleSystem.instance.AllyTeam.Add(skill, true);
         }
     }

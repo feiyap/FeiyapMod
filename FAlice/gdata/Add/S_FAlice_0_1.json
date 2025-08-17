@@ -5,7 +5,7 @@
         "Particle": "Particle/impact",
         "Target": "Misc",
         "NoDrop": true,
-        "Description": "额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)。",
+        "Description": "额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)，或使叠加的减益增加 1 层。",
         "SkillExtended": [
             "FAlice.S_FAlice_0_1"
         ],

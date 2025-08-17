@@ -25,19 +25,17 @@ namespace FAlice
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            List<SkillExtended_FAlice> dolls = new List<SkillExtended_FAlice>();
-            foreach (CastingSkill castingSkill in BattleSystem.instance.CastSkills)
+            foreach (CastingSkill castingSkill in SkillExtended_FAlice.AllDollsInCounting)
             {
-                SkillExtended_FAlice se = castingSkill.skill.ExtendedFind<SkillExtended_FAlice>();
-                if (se != null) dolls.Add(se);
-            }
-            foreach (SkillExtended_FAlice doll in dolls)
-            {
-                doll.TriggerEffect(false);
-                doll.TriggerEffect(false);
-                doll.TriggerEffect(false);
-                doll.TriggerEffect(true);
-                doll.CastingWaste();
+                SkillExtended_FAlice doll = castingSkill.skill.ExtendedFind<SkillExtended_FAlice>();
+                if (doll != null)
+                {
+                    doll.TriggerEffect(false);
+                    doll.TriggerEffect(false);
+                    doll.TriggerEffect(false);
+                    doll.TriggerEffect(true);
+                    //doll.CastingWaste();
+                }
             }
         }
     }

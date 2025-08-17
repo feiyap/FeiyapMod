@@ -23,7 +23,8 @@ namespace FAlice
     {
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&user", this.BChar.Info.Name);
+            return base.DescExtended(desc).Replace("&user", this.BChar.Info.Name)
+                                          .Replace("&d", ((int)(this.PlusBuff)).ToString());
         }
 
         public override void NormalEffect()
@@ -32,7 +33,10 @@ namespace FAlice
 
             Skill skill = this.MySkill.CloneSkill(true, this.BChar);
             skill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
-            BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
+            for (int i = 0; i < PlusBuff; i++)
+            {
+                BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
+            }
         }
 
         public override void EnhancedEffect()
@@ -41,7 +45,10 @@ namespace FAlice
 
             Skill skill = this.MySkill.CloneSkill(true, this.BChar);
             skill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
-            BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
+            for (int i = 0; i < PlusBuff; i++)
+            {
+                BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
+            }
 
             foreach (BattleChar battleChar in BattleSystem.instance.AllyTeam.AliveChars)
             {

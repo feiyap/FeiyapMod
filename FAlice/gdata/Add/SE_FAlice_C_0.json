@@ -1,0 +1,12 @@
+{
+    "SE_FAlice_C_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "若爱丽丝存活，在手中随机生成 1 个「人形」技能，并使其费用转变为 0。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "FAlice",
+        "ClassName": "FAlice.SE_FAlice_C_0"
+    }
+}

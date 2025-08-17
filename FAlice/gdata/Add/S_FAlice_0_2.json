@@ -5,7 +5,7 @@
         "Particle": "Particle/impact",
         "Target": "Misc",
         "NoDrop": true,
-        "Description": "选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 1 个技能、恢复 2 点法力值。",
+        "Description": "选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 2 个技能、恢复 3 点法力值。",
         "SkillExtended": [
             "FAlice.S_FAlice_0_2"
         ],

@@ -1,7 +1,7 @@
 {
     "FAlice": {
         "_gdeSchema": "Character",
-        "Role": "Role_Mage",
+        "Role": "Role_DPS",
         "PassiveClassName": "FAlice.P_FAlice",
         "PassiveUnlockLV1": false,
         "name": "爱丽丝",
@@ -12,7 +12,7 @@
             "x": 23,
             "y": 43
         },
-        "PassiveDes": "操控人偶程度的能力 - 爱丽丝的「人形」技能在使用后会以倒计时∞的形式加入倒计时栏中。这些技能不会因回合结束而释放。\n场上最多只能存在“爱丽丝等级 + 1”数量的「人形」技能。\n\n布加勒斯特的人偶师 - 每个回合开始时，生成 1 个费用为 1 的“操符「操纵人形」”，附带放逐和 1 回合后弃牌。",
+        "PassiveDes": "操控人偶程度的能力 - 爱丽丝的「人形」技能在使用后会以倒计时∞的形式加入倒计时栏中。这些技能不会因回合结束而释放。\n场上最多只能存在“爱丽丝等级 + 1”数量的「人形」技能。\n\n布加勒斯特的人偶师 - 每个回合开始时，生成 1 个费用为 1 的“操符「操纵人形」”，附带迅速、放逐和 1 回合后弃牌。",
         "PassiveName": "七色的人形使",
         "PassiveIcon": "FAlice\\FAlicePassiveIcon.png",
         "ATK": {

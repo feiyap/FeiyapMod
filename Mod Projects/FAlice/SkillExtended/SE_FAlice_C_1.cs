@@ -11,15 +11,19 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
-using BasicMethods;
-
 namespace FAlice
 {
 	/// <summary>
-	/// 额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的25%)或&b(治疗力的40%)或&c(防御力的20%)。
+	/// 使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)，或使叠加的减益增加 1 层。
+	/// 费用 >= 2
 	/// </summary>
-    public class S_FAlice_0_1 : Skill_Extended
+    public class SE_FAlice_C_1:Skill_Extended
     {
+        public override bool CanSkillEnforce(Skill MainSkill)
+        {
+            return MainSkill._AP >= 2;
+        }
+
         public override string DescExtended(string desc)
         {
             return base.DescExtended(desc)
@@ -28,15 +32,9 @@ namespace FAlice
                 .Replace("&c", ((int)(this.BChar.GetStat.def * 0.2f)).ToString());
         }
 
-        public override bool ButtonSelectTerms()
-        {
-            return BattleSystem.instance.AllyTeam.AP > (BattleSystem.instance.SelectedSkill?.AP ?? 0);
-        }
-
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            BattleSystem.instance.AllyTeam.AP--;
             foreach (CastingSkill castingSkill in SkillExtended_FAlice.AllDollsInCounting)
             {
                 castingSkill.skill.ExtendedFind<SkillExtended_FAlice>()?.PlusPerNum(20, 20, 20, 1);

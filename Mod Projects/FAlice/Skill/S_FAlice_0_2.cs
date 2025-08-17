@@ -23,7 +23,7 @@ namespace FAlice
     {
         public override bool ButtonSelectTerms()
         {
-            return BattleSystem.instance.CastSkills.Any(cs => cs.skill.ExtendedFind<SkillExtended_FAlice>() != null);
+            return SkillExtended_FAlice.AllDollsInCounting.Any(cs => cs.skill.ExtendedFind<SkillExtended_FAlice>() != null);
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
@@ -32,8 +32,8 @@ namespace FAlice
             SkillExtended_FAlice.ChooseDollAndEffect((doll) =>
             {
                 doll.CastingWaste();
-                BattleSystem.instance.AllyTeam.Draw(1);
-                BattleSystem.instance.AllyTeam.AP += 2;
+                BattleSystem.instance.AllyTeam.Draw(2);
+                BattleSystem.instance.AllyTeam.AP += 3;
             }, ScriptLocalization.System_SkillSelect.WasteSkill);
         }
     }

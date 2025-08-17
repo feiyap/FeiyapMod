@@ -23,7 +23,7 @@ namespace FAlice
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            foreach (CastingSkill castingSkill in BattleSystem.instance.CastSkills)
+            foreach (CastingSkill castingSkill in SkillExtended_FAlice.AllDollsInCounting)
             {
                 castingSkill.skill.ExtendedFind<SkillExtended_FAlice>()?.TriggerEffect(false);
             }

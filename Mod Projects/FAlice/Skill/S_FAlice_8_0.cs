@@ -20,7 +20,7 @@ namespace FAlice
     {
         public override bool ButtonSelectTerms()
         {
-            return BattleSystem.instance.CastSkills.Any(cs => cs.skill.ExtendedFind<SkillExtended_FAlice>() != null);
+            return SkillExtended_FAlice.AllDollsInCounting.Any(cs => cs.skill.ExtendedFind<SkillExtended_FAlice>() != null);
         }
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)

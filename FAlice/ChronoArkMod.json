@@ -4,7 +4,7 @@
     "Visibility": "Public",
     "Title": "【CN/EN】爱丽丝·玛格特罗伊德 ~ 东方妖妖梦",
     "Author": "绯夜氏",
-    "Version": "v1.0",
+    "Version": "v1.2",
     "Dependencies": [
         "BasicMethods"
     ],
@@ -13,5 +13,7 @@
     "TagList": [
         "Characters"
     ],
-    "WorkShopId": "3549792901"
+    "WorkShopId": "3549792901",
+    "ChangeNote": "2025/8/17\nv1.2\n新增 - 两个协同强化。\n加强 - 被动生成的“操符「操纵人形」”额外附带迅速。\n加强 - 三系人偶基础倍率：60%→80%。\n加强 - 减益系人偶现在可以被强化叠层数量。\n加强 - “枪符「萌萌大千枪」”不再移除所有人偶。",
+    "OnlyUploadFiles": true
 }

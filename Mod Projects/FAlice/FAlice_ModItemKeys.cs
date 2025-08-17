@@ -64,10 +64,19 @@ namespace FAlice
 		/// Passive:
 		/// 操控人偶程度的能力 - 爱丽丝的「人形」技能在使用后会以倒计时∞的形式加入倒计时栏中。这些技能不会因回合结束而释放。
 		/// 场上最多只能存在“爱丽丝等级 + 1”数量的「人形」技能。
-		/// 布加勒斯特的人偶师 - 每个回合开始时，生成 1 个费用为 1 的“操符「操纵人形」”，附带放逐和 1 回合后弃牌。
+		/// 布加勒斯特的人偶师 - 每个回合开始时，生成 1 个费用为 1 的“操符「操纵人形」”，附带迅速、放逐和 1 回合后弃牌。
 		/// </summary>
         public static string Character_FAlice = "FAlice";
         public static string CharRole_Role_Mage = "Role_Mage";
+		/// <summary>
+		/// 若爱丽丝存活，在手中随机生成 1 个「人形」技能，并使其费用转变为 0。
+		/// </summary>
+        public static string SkillExtended_SE_FAlice_C_0 = "SE_FAlice_C_0";
+		/// <summary>
+		/// 使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)，或使叠加的减益增加 1 层。
+		/// <sprite name="비용2"><sprite name="이상">
+		/// </summary>
+        public static string SkillExtended_SE_FAlice_C_1 = "SE_FAlice_C_1";
         public static string SkillEffect_SE_S_S_FAlice_8 = "SE_S_S_FAlice_8";
         public static string SkillEffect_SE_S_S_FAlice_8_0 = "SE_S_S_FAlice_8_0";
         public static string SkillEffect_SE_S_S_FAlice_8_1 = "SE_S_S_FAlice_8_1";
@@ -82,8 +91,8 @@ namespace FAlice
 		/// 操符「操纵人形」
 		/// 选择：
 		/// - 使所有倒计时中的「人形」触发一次效果。
-		/// - 额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)。
-		/// - 选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 1 个技能、恢复 2 点法力值。
+		/// - 额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)，或使叠加的减益增加 1 层。
+		/// - 选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 2 个技能、恢复 3 点法力值。
 		/// - 在手中随机生成 1 个「人形」。
 		/// </summary>
         public static string Skill_S_FAlice_0 = "S_FAlice_0";
@@ -94,12 +103,12 @@ namespace FAlice
         public static string Skill_S_FAlice_0_0 = "S_FAlice_0_0";
 		/// <summary>
 		/// 强化
-		/// 额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)。
+		/// 额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)，或使叠加的减益增加 1 层。
 		/// </summary>
         public static string Skill_S_FAlice_0_1 = "S_FAlice_0_1";
 		/// <summary>
 		/// 回收
-		/// 选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 1 个技能、恢复 2 点法力值。
+		/// 选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 2 个技能、恢复 3 点法力值。
 		/// </summary>
         public static string Skill_S_FAlice_0_2 = "S_FAlice_0_2";
 		/// <summary>
@@ -124,8 +133,8 @@ namespace FAlice
 		/// <summary>
 		/// 白符「白垩的俄罗斯人形」
 		/// 这个技能处于倒计时中时，为&user提供“防御力 +4%”。
-		/// 触发时，对随机敌人施加<sprite=0>“人偶阻碍”减益(100%<sprite=0>成功率)，持续 5 回合。
-		/// 每触发 3 次后，下 1 次触发还会获得&a防护墙(60%防御力)，并使所有友军获得“保护体力极限”，持续 2 回合。
+		/// 触发时，对随机敌人施加 &d 层<sprite=0>“人偶阻碍”减益(100%<sprite=0>成功率)，持续 5 回合。
+		/// 每触发 3 次后，下 1 次触发还会获得&a防护墙(80%防御力)，并使所有友军获得“保护体力极限”，持续 2 回合。
 		/// </summary>
         public static string Skill_S_FAlice_3 = "S_FAlice_3";
 		/// <summary>
@@ -138,7 +147,7 @@ namespace FAlice
 		/// <summary>
 		/// 暗符「雾之伦敦人形」
 		/// 这个技能处于倒计时中时，为&user提供“速度 +1”。
-		/// 触发时，对随机敌人施加<sprite=1>“人偶刺伤”减益(100%<sprite=1>成功率)，持续 5 回合。
+		/// 触发时，对随机敌人施加 &d 层<sprite=1>“人偶刺伤”减益(100%<sprite=1>成功率)，持续 5 回合。
 		/// 每触发 3 次后，下 1 次触发还会使所有友军获得“下 1 个固定能力费用降低 1 点”。
 		/// </summary>
         public static string Skill_S_FAlice_5 = "S_FAlice_5";
@@ -206,7 +215,6 @@ namespace FAlice
 		/// <summary>
 		/// 枪符「萌萌大千枪」
 		/// 使所有「人形」技能立即触发 3 次、强化触发 1 次。
-		/// 那之后，将所有倒计时中的「人形」技能置入弃牌库。
 		/// </summary>
         public static string Skill_S_FAlice_Rare_2 = "S_FAlice_Rare_2";
 		/// <summary>

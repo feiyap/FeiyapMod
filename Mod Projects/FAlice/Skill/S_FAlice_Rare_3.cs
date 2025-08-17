@@ -23,17 +23,11 @@ namespace FAlice
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            List<SkillExtended_FAlice> dolls = new List<SkillExtended_FAlice>();
-            foreach (CastingSkill castingSkill in BattleSystem.instance.CastSkills)
+            int num = SkillExtended_FAlice.AllDollsInCounting.Count;
+            foreach (CastingSkill castingSkill in SkillExtended_FAlice.AllDollsInCounting)
             {
-                SkillExtended_FAlice se = castingSkill.skill.ExtendedFind<SkillExtended_FAlice>();
-                if (se != null) dolls.Add(se);
+                castingSkill.skill.ExtendedFind<SkillExtended_FAlice>()?.CastingWaste();
             }
-            foreach (SkillExtended_FAlice doll in dolls)
-            {
-                doll.CastingWaste();
-            }
-
             Skill skill = Skill.TempSkill(ModItemKeys.Skill_S_FAlice_Rare_3_0, this.BChar, this.BChar.MyTeam);
             BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
         }

@@ -24,7 +24,8 @@ namespace FAlice
         public override string DescExtended(string desc)
         {
             return base.DescExtended(desc).Replace("&user", this.BChar.Info.Name)
-                .Replace("&a", ((int)(this.BChar.GetStat.def * (0.6f + this.PlusPerDEF / 100f))).ToString());
+                .Replace("&a", ((int)(this.BChar.GetStat.def * (0.6f + this.PlusPerDEF / 100f))).ToString())
+                .Replace("&d", ((int)(this.PlusBuff)).ToString());
         }
 
         public override void NormalEffect()
@@ -32,7 +33,11 @@ namespace FAlice
             base.NormalEffect();
             Skill skill = this.MySkill.CloneSkill(true, this.BChar);
             skill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
-            BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
+            
+            for (int i = 0; i < PlusBuff; i++)
+            {
+                BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
+            }
         }
 
         public override void EnhancedEffect()
@@ -41,7 +46,10 @@ namespace FAlice
 
             Skill skill = this.MySkill.CloneSkill(true, this.BChar);
             skill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
-            BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
+            for (int i = 0; i < PlusBuff; i++)
+            {
+                BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
+            }
 
             int barrier = (int)(this.BChar.GetStat.def * (0.6f + this.PlusPerDEF / 100f));
             BattleSystem.instance.AllyTeam.partybarrier.BarrierHP += barrier;

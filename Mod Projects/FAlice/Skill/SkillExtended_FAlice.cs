@@ -28,23 +28,21 @@ namespace FAlice
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            if (BattleSystem.instance.CastSkills.Any(s => s.skill.MySkill.KeyID == ModItemKeys.Skill_S_FAlice_Rare_3_0)
+            if (AllDollsInCounting.Any(s => s.skill.MySkill.KeyID == ModItemKeys.Skill_S_FAlice_Rare_3_0)
                 && SkillD.MySkill.KeyID != ModItemKeys.Skill_S_FAlice_Rare_3_0)
             {
                 this.GoliathEffect();
                 return;
             }
+
             int dollMax = this.BChar.BuffFind(ModItemKeys.Buff_B_FAlice_Rare_1) ? (this.BChar.Info.LV * 2) : (this.BChar.Info.LV + 1);
-            Debug.Log(dollMax);
-            Debug.Log(BattleSystem.instance.CastSkills.FindAll(cs => cs.skill.ExtendedFind<SkillExtended_FAlice>() != null).Count);
-            if (this.MySkill.TargetTypeKey == GDEItemKeys.s_targettype_Misc
-                && BattleSystem.instance.CastSkills.FindAll(cs => cs.skill.ExtendedFind<SkillExtended_FAlice>() != null).Count < dollMax)
+            if (this.MySkill.TargetTypeKey == GDEItemKeys.s_targettype_Misc && AllDollsInCounting.Count < dollMax)
             {
                 if (SkillD.IsNowCasting)
                 {
                     SkillD.GetType()?.GetField("isCounting", BindingFlags.NonPublic | BindingFlags.Instance)?.SetValue(SkillD, false);
                 }
-                SkillD.Counting = 9999;
+                this.Counting = 9999;
                 BattleSystem.DelayInput(BattleSystem.instance.ForceAction(SkillD, null, false, false, true));
                 BattleSystem.DelayInput(saveUsedSkill());
                 IEnumerator saveUsedSkill()
@@ -62,6 +60,7 @@ namespace FAlice
             this.PlusPerATK = 0;
             this.PlusPerREG = 0;
             this.PlusPerDEF = 0;
+            this.PlusBuff = 1;
             this.PlusSkillPerStat.Damage = 0;
             this.PlusSkillPerStat.Heal = 0;
             if (ThisSkill.skill.Counting > 1000)
@@ -69,6 +68,7 @@ namespace FAlice
                 ThisSkill.CastSpeed = Math.Max(ThisSkill.skill.Counting, 9999) + BattleSystem.instance.AllyTeam.TurnActionNum;
                 ThisSkill.skill.GetType()?.GetField("isCounting", BindingFlags.NonPublic | BindingFlags.Instance)?.SetValue(ThisSkill.skill, false);
                 ThisSkill.skill.Counting = 0;
+                this.Counting = 0;
                 ThisSkill.skill.UseCountSkill();
                 BasicMethods.CustomMethods.CountingSkillNotUseTurnEnd(ThisSkill.skill);
                 if (BattleSystem.instance.NowEndedTurn)
@@ -114,13 +114,14 @@ namespace FAlice
             BattleSystem.instance.AllyTeam.Draw(1);
         }
 
-        public void PlusPerNum(int atk, int reg, int def)
+        public void PlusPerNum(int atk, int reg, int def, int buff)
         {
             this.PlusPerATK += atk;
             this.PlusPerREG += reg;
             this.PlusPerDEF += def;
             this.PlusSkillPerStat.Damage = this.PlusPerATK;
             this.PlusSkillPerStat.Heal = this.PlusPerREG;
+            this.PlusBuff += buff;
         }
 
         public void CastingWaste()
@@ -131,6 +132,10 @@ namespace FAlice
                 BattleSystem.instance.ActWindow.CastingWaste(castingSkill);
                 BattleSystem.instance.CastSkills.Remove(castingSkill);
                 BattleSystem.instance.SaveSkill.Remove(castingSkill);
+                if (BattleSystem.instance.NowEndedTurn)
+                {
+                    BasicMethods.ModData.NoUseSkills_Ally.Remove(castingSkill);
+                }
                 if (this.saveSkill != null)
                 {
                     BattleSystem.instance.AllyTeam.Skills_UsedDeck.Add(this.saveSkill);
@@ -170,19 +175,17 @@ namespace FAlice
         public int PlusPerATK;
         public int PlusPerREG;
         public int PlusPerDEF;
+        public int PlusBuff = 1;
         private Skill saveSkill;
 
         public static void ChooseDollAndEffect(Action<SkillExtended_FAlice> effect, string chooseDesc)
         {
-            List<Skill> list = BattleSystem.instance.CastSkills
-                    .FindAll(cs => cs.skill.ExtendedFind<SkillExtended_FAlice>() != null)
-                    .Select(cs => cs.skill.CloneSkill(true, cs.skill.Master))
-                    .ToList();
+            List<Skill> list = AllDollsInCounting.Select(cs => cs.skill.CloneSkill(true, cs.skill.Master)).ToList();
             if (list.Count > 0)
             {
                 if (list.Count == 1)
                 {
-                    CastingSkill castingSkill = BattleSystem.instance.CastSkills.Find(cs => cs.skill.CharinfoSkilldata.Seed == list.First().CharinfoSkilldata.Seed);
+                    CastingSkill castingSkill = AllDollsInCounting.Find(cs => cs.skill.CharinfoSkilldata.Seed == list.First().CharinfoSkilldata.Seed);
                     SkillExtended_FAlice se = castingSkill?.skill?.ExtendedFind<SkillExtended_FAlice>();
                     if (se != null)
                     {
@@ -194,7 +197,7 @@ namespace FAlice
                     BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list,
                         button =>
                         {
-                            CastingSkill castingSkill = BattleSystem.instance.CastSkills.Find(cs => cs.skill.CharinfoSkilldata.Seed == button.Myskill.CharinfoSkilldata.Seed);
+                            CastingSkill castingSkill = AllDollsInCounting.Find(cs => cs.skill.CharinfoSkilldata.Seed == button.Myskill.CharinfoSkilldata.Seed);
                             SkillExtended_FAlice se = castingSkill?.skill?.ExtendedFind<SkillExtended_FAlice>();
                             if (se != null)
                             {
@@ -202,6 +205,19 @@ namespace FAlice
                             }
                         }, chooseDesc, false, false, true, false, true));
                 }
+            }
+        }
+
+        public static List<CastingSkill> AllDollsInCounting
+        {
+            get
+            {
+                List<CastingSkill> list = BattleSystem.instance.CastSkills.FindAll(cs => cs.skill.ExtendedFind<SkillExtended_FAlice>() != null);
+                if (BattleSystem.instance.NowEndedTurn)
+                {
+                    list.AddRange(BasicMethods.ModData.NoUseSkills_Ally.FindAll(cs => cs.skill.ExtendedFind<SkillExtended_FAlice>() != null));
+                }
+                return list;
             }
         }
     }

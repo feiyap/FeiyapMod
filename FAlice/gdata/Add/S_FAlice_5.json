@@ -7,7 +7,7 @@
         "NotCount": true,
         "NoBasicSkill": true,
         "Name": "暗符「雾之伦敦人形」",
-        "Description": "这个技能处于倒计时中时，为&user提供“速度 +1”。\n触发时，对随机敌人施加<sprite=1>“人偶刺伤”减益(100%<sprite=1>成功率)，持续 5 回合。\n每触发 3 次后，下 1 次触发还会使所有友军获得“下 1 个固定能力费用降低 1 点”。",
+        "Description": "这个技能处于倒计时中时，为&user提供“速度 +1”。\n触发时，对随机敌人施加 &d 层<sprite=1>“人偶刺伤”减益(100%<sprite=1>成功率)，持续 5 回合。\n每触发 3 次后，下 1 次触发还会使所有友军获得“下 1 个固定能力费用降低 1 点”。",
         "UseAp": 1,
         "User": "FAlice",
         "Effect_Target": "SE_T_S_FAlice_5",

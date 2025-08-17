@@ -1,0 +1,11 @@
+{
+    "SE_FAlice_C_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)，或使叠加的减益增加 1 层。",
+        "Des": "",
+        "Drop": true,
+        "EnforceString": "<sprite name=\"비용2\"><sprite name=\"이상\">",
+        "NeedCharacter": "FAlice",
+        "ClassName": "FAlice.SE_FAlice_C_1"
+    }
+}

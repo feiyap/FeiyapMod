@@ -23,10 +23,10 @@ Character/FAlice_CampSelectWord,Text,,,"Huh? You want me to join you?… Well, f
 Character/FAlice_PassiveDes,Text,,,"Capable of handling dolls - Alice's ""Doll"" skills are added to the timer bar with an ∞ countdown upon use. These skills are not released at the end of a turn.
 A maximum of ""Alice's Level + 1"" ""Doll"" skills can exist on the field.
 
-The Doll Maker of București – At the start of each turn, generate 1 'Puppeteer Sign ""Manipulate Puppet""' with cost 1,Except and Discarded after 1 turn.",,"操控人偶程度的能力 - 爱丽丝的「人形」技能在使用后会以倒计时∞的形式加入倒计时栏中。这些技能不会因回合结束而释放。
+The Doll Maker of București – At the start of each turn, generate 1 'Puppeteer Sign ""Manipulate Puppet""' with cost 1, Swiftness, Except and Discarded after 1 turn.",,"操控人偶程度的能力 - 爱丽丝的「人形」技能在使用后会以倒计时∞的形式加入倒计时栏中。这些技能不会因回合结束而释放。
 场上最多只能存在“爱丽丝等级 + 1”数量的「人形」技能。
 
-布加勒斯特的人偶师 - 每个回合开始时，生成 1 个费用为 1 的“操符「操纵人形」”，附带放逐和 1 回合后弃牌。",
+布加勒斯特的人偶师 - 每个回合开始时，生成 1 个费用为 1 的“操符「操纵人形」”，附带迅速、放逐和 1 回合后弃牌。",
 Character/FAlice_PassiveName,Text,,,Seven-Colored Puppeteer,,七色的人形使,
 Character/FAlice_SelectInfo,Text,,,"Alice Margatroid is an all-around witch, capable of offense, healing, support, debuffing, and protection.
 
@@ -54,9 +54,9 @@ Character/FAlice_Text_Witch_1,Text,,,Cursing me? Seems you don't know the power 
 Character/FAlice_name,Text,,,Alice,,爱丽丝,
 Skill/S_FAlice_0_0_Description,Text,,,Trigger all countdown "Doll" effects once.,,使所有倒计时中的「人形」触发一次效果。,
 Skill/S_FAlice_0_0_Name,Text,,,Trigger,,触发,
-Skill/S_FAlice_0_1_Description,Text,,,"Spend 1 additional cost to increase all countdown ""Doll"" multipliers by &a (20% of Attack Power), &b (20% of Healing Power), or &c (20% of DEF).",,额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)。,
+Skill/S_FAlice_0_1_Description,Text,,,"Spend 1 additional cost to increase all countdown ""Doll"" multipliers by &a (20% of Attack Power), &b (20% of Healing Power), or &c (20% of DEF), or inflicts 1 more stack of debuffs.",,额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)，或使叠加的减益增加 1 层。,
 Skill/S_FAlice_0_1_Name,Text,,,Enhance,,强化,
-Skill/S_FAlice_0_2_Description,Text,,,"Select 1 countdown ""Doll,"" move it to the discard pile, draw 1 skill, and recover 2 MP.",,选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 1 个技能、恢复 2 点法力值。,
+Skill/S_FAlice_0_2_Description,Text,,,"Select 1 countdown ""Doll"", move it to the discard pile, draw 2 skills, and recover 3 Mana.",,选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 2 个技能、恢复 3 点法力值。,
 Skill/S_FAlice_0_2_Name,Text,,,Recycle,,回收,
 Skill/S_FAlice_0_3_Description,Text,,,Randomly generate 1 "Doll" in hand.,,在手中随机生成 1 个「人形」。,
 Skill/S_FAlice_0_3_Name,Text,,,Craft,,制作,
@@ -64,14 +64,14 @@ Skill/S_FAlice_0_Description,Text,,,"Choose:
 
 - Trigger all countdown 'Doll' effects once.
 
-- Spend 1 additional cost to increase all countdown 'Doll' multipliers by &a (20% of Attack Power), &b (20% of Healing Power), or &c (20% of DEF).
+- Spend 1 additional cost to increase all countdown 'Doll' multipliers by &a (20% of Attack Power), &b (20% of Healing Power), or &c (20% of DEF), or inflicts 1 more stack of debuffs.
 
-- Select 1 countdown 'Doll', move it to the discard pile, draw 1 skill, and recover 2 Mana.
+- Select 1 countdown 'Doll', move it to the discard pile, draw 2 skills, and recover 3 Mana.
 
 - Randomly generate 1 'Doll' in hand.",,"选择：
 - 使所有倒计时中的「人形」触发一次效果。
-- 额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)。
-- 选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 1 个技能、恢复 2 点法力值。
+- 额外消耗 1 点费用，使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)，或使叠加的减益增加 1 层。
+- 选择 1 个倒计时中的「人形」，将其置入弃牌库，并抽取 2 个技能、恢复 3 点法力值。
 - 在手中随机生成 1 个「人形」。",
 Skill/S_FAlice_0_Name,Text,,,Puppeteer Sign "Manipulate Puppet",,操符「操纵人形」,
 Skill/S_FAlice_1_Description,Text,,,"While this skill is in countdown, grants &user '+1 Attack Power'.
@@ -87,10 +87,10 @@ Every 3 triggers, the next trigger heals all allies instead.",,"这个技能处�
 每触发 3 次后，下 1 次触发改为对所有友军造成治疗。",
 Skill/S_FAlice_2_Name,Text,,,Blue Sign "Fraternal French Dolls",,苍符「博爱的奥尔良人形」,
 Skill/S_FAlice_3_Description,Text,,,"While this skill is in countdown, grants &user '+4% DEF'.
-On trigger, inflicts <sprite=0> 'Doll Obstruction' debuff (100% <sprite=0> success rate) on a random enemy for 5 turns.
+On trigger, inflicts &d stacks of <sprite=0> 'Doll Obstruction' debuff (100% <sprite=0> success rate) on a random enemy for 5 turns.
 Every 3 triggers, the next trigger also grants &user a Party Barrier (60% DEF) and gives all allies 'Healing Gauge Protected' for 2 turns.",,"这个技能处于倒计时中时，为&user提供“防御力 +4%”。
-触发时，对随机敌人施加<sprite=0>“人偶阻碍”减益(100%<sprite=0>成功率)，持续 5 回合。
-每触发 3 次后，下 1 次触发还会获得&a防护墙(60%防御力)，并使所有友军获得“保护体力极限”，持续 2 回合。",
+触发时，对随机敌人施加 &d 层<sprite=0>“人偶阻碍”减益(100%<sprite=0>成功率)，持续 5 回合。
+每触发 3 次后，下 1 次触发还会获得&a防护墙(80%防御力)，并使所有友军获得“保护体力极限”，持续 2 回合。",
 Skill/S_FAlice_3_Name,Text,,,White Sign "Chalk-White Russian Dolls",,白符「白垩的俄罗斯人形」,
 Skill/S_FAlice_4_Description,Text,,,"While this skill is in countdown, grants &user '-1 Speed'.
 On trigger, grants all allies '+25% Critical Hit Chance, +25% Critical Damage' for 1 turn.
@@ -99,9 +99,9 @@ Every 3 triggers, the next trigger also grants all allies '+1 Attack Power.'",,"
 每触发 3 次后，下 1 次触发还会使所有友军获得“攻击力 +1”。",
 Skill/S_FAlice_4_Name,Text,,,Scarlet Sign "Red-Haired Dutch Dolls",,红符「红发的荷兰人形」,
 Skill/S_FAlice_5_Description,Text,,,"While this skill is in countdown, grants &user '+1 Speed'.
-On trigger, inflicts <sprite=1> 'Doll Stab' debuff (100% <sprite=1> success rate) on a random enemy for 5 turns.
+On trigger, inflicts &d stacks of <sprite=1> 'Doll Stab' debuff (100% <sprite=1> success rate) on a random enemy for 5 turns.
 Every 3 triggers, the next trigger also reduces the cost of the next fixed ability by 1 for all allies.",,"这个技能处于倒计时中时，为&user提供“速度 +1”。
-触发时，对随机敌人施加<sprite=1>“人偶刺伤”减益(100%<sprite=1>成功率)，持续 5 回合。
+触发时，对随机敌人施加 &d 层<sprite=1>“人偶刺伤”减益(100%<sprite=1>成功率)，持续 5 回合。
 每触发 3 次后，下 1 次触发还会使所有友军获得“下 1 个固定能力费用降低 1 点”。",
 Skill/S_FAlice_5_Name,Text,,,Darkness Sign "Foggy London Dolls",,暗符「雾之伦敦人形」,
 Skill/S_FAlice_6_0_Description,Text,,,Select 1 "Doll" skill and trigger it twice immediately.,,选择 1 个「人形」技能，立即触发 2 次。,
@@ -145,9 +145,7 @@ Randomly generate 1 'Doll' skill in hand and reduce its cost to 0.",,"抽取 2 �
 在手中随机生成 1 个「人形」技能，并使其费用转变为 0。",
 Skill/S_FAlice_LucyDraw_Name,Text,,,Doll "Semi-Automaton",,人偶「半自主人偶」,
 Skill/S_FAlice_Rare_1_Name,Text,,,War Command "Dolls' War",,战操「玩偶战争」,
-Skill/S_FAlice_Rare_2_Description,Text,,,"Triggers all 'Doll' skills 3 times and enhance-triggers them once.
-Afterwards, move all countdown 'Doll' skills to the discard pile.",,"使所有「人形」技能立即触发 3 次、强化触发 1 次。
-那之后，将所有倒计时中的「人形」技能置入弃牌库。",
+Skill/S_FAlice_Rare_2_Description,Text,,,Triggers all 'Doll' skills 3 times and enhance-triggers them once.,,使所有「人形」技能立即触发 3 次、强化触发 1 次。,
 Skill/S_FAlice_Rare_2_Name,Text,,,Lance Sign "Cutie Phalanx",,枪符「萌萌大千枪」,
 Skill/S_FAlice_Rare_3_0_Description,Text,,,"While this skill is in countdown, grants &user '+5 Attack Power, +5 Healing Power, +10 max HP, +40% Critical Hit Chance, +40% Evade, +80% Faint Resist'.
 While this skill is in countdown, other 'Doll' skills instead restore 1 Mana and draw 1 skill.
@@ -161,3 +159,8 @@ Skill/S_FAlice_Rare_3_Description,Text,,,"Move all countdown 'Doll' skills to th
 Add 1 'Experiment ""Goliath Doll""' into Counting.",,"将所有倒计时中的「人形」技能置入弃牌库。
 将 1 个“试验中「歌莉娅人形」”加入倒计时栏。",
 Skill/S_FAlice_Rare_3_Name,Text,,,Last Sign "Bizarre Puppet Theater Meteor Shower",,终符「猎奇剧团座流星雨」,
+SkillExtended/SE_FAlice_C_0_EnforceString,Text,,,,,,
+SkillExtended/SE_FAlice_C_0_Name,Text,,,Randomly generate 1 'Doll' skill in hand and reduce its cost to 0.,,若爱丽丝存活，在手中随机生成 1 个「人形」技能，并使其费用转变为 0。,
+SkillExtended/SE_FAlice_C_1_Des,Text,,,,,,
+SkillExtended/SE_FAlice_C_1_EnforceString,Text,,,<sprite name="비용2"><sprite name="이상">,,<sprite name="비용2"><sprite name="이상">,
+SkillExtended/SE_FAlice_C_1_Name,Text,,,"Increase all countdown ""Doll"" multipliers by &a (20% of Attack Power), &b (20% of Healing Power), or &c (20% of DEF).",,使所有倒计时中的「人形」倍率提升&a (攻击力的20%)或&b(治疗力的20%)或&c(防御力的20%)，或使叠加的减益增加 1 层。,

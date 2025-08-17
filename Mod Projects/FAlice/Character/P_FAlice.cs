@@ -34,6 +34,7 @@ namespace FAlice
             skill.AP = 1;
             skill.isExcept = true;
             skill.AutoDelete = 1;
+            skill.NotCount = true;
             BattleSystem.instance.AllyTeam.Add(skill, true);
         }
 
