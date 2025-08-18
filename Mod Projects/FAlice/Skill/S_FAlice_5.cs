@@ -27,16 +27,26 @@ namespace FAlice
                                           .Replace("&d", ((int)(this.PlusBuff)).ToString());
         }
 
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
+            if (Targets.Count <= 0)
+            {
+                return;
+            }
+            for (int i = 1; i < this.PlusBuff; i++)
+            {
+                Targets[0].BuffAdd(ModItemKeys.Buff_B_FAlice_5_1, this.BChar);
+            }
+        }
+
         public override void NormalEffect()
         {
             base.NormalEffect();
 
             Skill skill = this.MySkill.CloneSkill(true, this.BChar);
             skill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
-            for (int i = 0; i < PlusBuff; i++)
-            {
-                BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
-            }
+            BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
         }
 
         public override void EnhancedEffect()
@@ -45,10 +55,7 @@ namespace FAlice
 
             Skill skill = this.MySkill.CloneSkill(true, this.BChar);
             skill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
-            for (int i = 0; i < PlusBuff; i++)
-            {
-                BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
-            }
+            BattleSystem.DelayInput(BattleSystem.instance.SkillRandomUseIenum(this.BChar, skill, false, true, false));
 
             foreach (BattleChar battleChar in BattleSystem.instance.AllyTeam.AliveChars)
             {

@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>FAlice202581800054</AssemblyName>
+    <AssemblyName>FAlice202581873340</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
 <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <OutputPath>bin\Debug\</OutputPath>
@@ -401,7 +401,7 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                    <!-- Compile ItemGroup Start-->
+                                                            <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="FAlice_ModDefinition.cs" />
     <Compile Include="FAlice_ModItemKeys.cs" />

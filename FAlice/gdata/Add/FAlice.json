@@ -1,7 +1,7 @@
 {
     "FAlice": {
         "_gdeSchema": "Character",
-        "Role": "Role_DPS",
+        "Role": "Role_Mage",
         "PassiveClassName": "FAlice.P_FAlice",
         "PassiveUnlockLV1": false,
         "name": "爱丽丝",
