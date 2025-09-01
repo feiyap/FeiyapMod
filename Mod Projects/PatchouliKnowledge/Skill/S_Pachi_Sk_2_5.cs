@@ -17,28 +17,43 @@ namespace PatchouliKnowledge
 	/// <summary>
 	/// 日水符「氢化日珥」
 	/// </summary>
-    public class S_Pachi_Sk_2_5:Skill_Extended, IP_SkillCastingStart, IP_DamageTake
+    public class S_Pachi_Sk_2_5:Skill_Extended, IP_SkillCastingStart, IP_SkillCastingQuit, IP_DamageTake
     {
+        public bool isCast = false;
+
         public override void Init()
         {
             base.Init();
             this.CountingExtedned = true;
+            isCast = false;
         }
 
         public void SkillCasting(CastingSkill ThisSkill)
         {
             BasicMethods.CustomMethods.CountingSkillNotUseTurnEnd(ThisSkill, -1);
+            isCast = true;
+        }
+
+        public void SkillCastingQuit(CastingSkill ThisSkill)
+        {
+            isCast = false;
         }
 
         public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
         {
+            if (!isCast)
+            {
+                return;
+            }
+
             if (Target.Info.Ally)
             {
                 this.SkillBasePlus.Target_BaseHeal -= Dmg;
-                Target.Heal(this.BChar, Dmg, false, false, null);
+                //Target.Heal(this.BChar, Dmg, false, false, null);
+                BattleSystem.instance.StartCoroutine(this.Heal(Target, Dmg));
             }
 
-            if (this.BChar.GetStat.atk * 3 + this.SkillBasePlus.Target_BaseHeal <= 0)
+            if (this.BChar.GetStat.reg * 3 + this.SkillBasePlus.Target_BaseHeal <= 0)
             {
                 foreach (CastingSkill castingSkill in BattleSystem.instance.CastSkills)
                 {
@@ -50,6 +65,13 @@ namespace PatchouliKnowledge
                     }
                 }
             }
+        }
+
+        public IEnumerator Heal(BattleChar Char, int Dmg)
+        {
+            yield return new WaitForSecondsRealtime(0.1f);
+            Char.Heal(this.BChar, Dmg, false, false, null);
+            yield break;
         }
     }
 }

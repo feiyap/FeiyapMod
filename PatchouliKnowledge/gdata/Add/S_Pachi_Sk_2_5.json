@@ -4,7 +4,7 @@
         "Category": "null",
         "Particle": "Particle/flare_lv1",
         "Rare": true,
-        "Target": "ally",
+        "Target": "all_ally",
         "NoDrop": true,
         "Name": "日水符「氢化日珥」",
         "UseAp": 2,
