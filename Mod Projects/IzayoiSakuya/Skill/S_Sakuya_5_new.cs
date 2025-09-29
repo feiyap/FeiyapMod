@@ -29,11 +29,12 @@ namespace IzayoiSakuya
                 {
                     BattleSystem.instance.BattleValues.Add(new BV_Sakuya_TKnife());
                 }
-                
-                int count = BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar];
+
+                int count = BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList.ContainsKey(this.BChar) ? BattleSystem.instance.GetBattleValue<BV_Sakuya_TKnife>().KnifeList[this.BChar] : 0;
                 P_IzayoiSakuya.getTimeKnife(this.BChar, -count);
                 P_IzayoiSakuya.getTimeKnife(Targets[0], count);
 
+                (Targets[0] as BattleAlly).MyBasicSkill.CoolDownNum = 0;
                 Targets[0].MyTeam.BasicSkillRefill(Targets[0], Targets[0].BattleBasicskillRefill);
             }
         }

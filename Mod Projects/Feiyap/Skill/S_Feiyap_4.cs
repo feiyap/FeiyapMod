@@ -26,7 +26,7 @@ namespace Feiyap
                 {
                     return 0;
                 }
-                return (int)((float)(0 + (this.BChar.Recovery - this.BChar.HP) * 2));
+                return (int)((float)(0 + (this.BChar.Recovery - this.BChar.HP) * ((int)(this.BChar.GetStat.atk * 0.1))));
             }
         }
 
@@ -74,7 +74,7 @@ namespace Feiyap
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", (this.PlusDmg).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.1)).ToString());
         }
     }
 }

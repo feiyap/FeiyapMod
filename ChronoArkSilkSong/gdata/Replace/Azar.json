@@ -1,0 +1,8 @@
+{
+    "Azar": {
+        "_gdeSchema": "Character",
+        "PassiveUnlockLV1": false,
+        "PassiveName": "凝影",
+        "PassiveDes": "回合伊始，淬锋顶刃。\r\n若已淬锋，则次第而下。\r\n释弃淬锋之技时，影锋凝于掌。"
+    }
+}

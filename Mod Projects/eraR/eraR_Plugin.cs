@@ -14,6 +14,7 @@ using Debug = UnityEngine.Debug;
 using ChronoArkMod.ModData;
 using HarmonyLib;
 using System.Diagnostics;
+using UseItem;
 namespace eraR
 {
     public class eraR_Plugin: ChronoArkPlugin
@@ -36,11 +37,12 @@ namespace eraR
         private Harmony harmony;
     }
 
-    [HarmonyPatch(typeof(GDESkillData), "Rare", MethodType.Getter)]
+    [HarmonyPatch(typeof(GDESkillData))]
     public static class GDESkillData_statPatch
     {
         [HarmonyPostfix]
-        public static void Postfix(GDESkillData __instance, ref bool __result)
+        [HarmonyPatch("Rare", MethodType.Getter)]
+        public static void Rare_Postfix(GDESkillData __instance, ref bool __result)
         {
             if (ShouldInvertRare(__instance))
             {
@@ -54,6 +56,32 @@ namespace eraR
                 skillData.Category.Key != GDEItemKeys.SkillCategory_DefultSkill && skillData.User != GDEItemKeys.Character_LucyC);
         }
     }
+
+    //[HarmonyPatch(typeof(Character))]
+    //public static class Character_statPatch
+    //{
+    //    [HarmonyPostfix]
+    //    [HarmonyPatch("SavePassing_Load")]
+    //    public static void SavePassing_Load_Postfix(Character __instance, Character LoadChar)
+    //    {
+    //        foreach (CharInfoSkillData skill in __instance.SkillDatas)
+    //        {
+    //            if (ShouldInvertRare(skill.SkillInfo))
+    //            {
+    //                Debug.Log("A");
+    //                Debug.Log(skill.SkillInfo.Name);
+    //                Debug.Log(skill.SkillInfo.Rare);
+    //                //skill.SkillInfo.Rare = skill.SkillInfo.Rare;
+    //            }
+    //        }
+    //    }
+
+    //    private static bool ShouldInvertRare(GDESkillData skillData)
+    //    {
+    //        return (skillData.User != "" && skillData.Category.Key != GDEItemKeys.SkillCategory_LucySkill &&
+    //            skillData.Category.Key != GDEItemKeys.SkillCategory_DefultSkill && skillData.User != GDEItemKeys.Character_LucyC);
+    //    }
+    //}
 
     [HarmonyPatch(typeof(CharFace))]
     public static class CharFacePatch
@@ -69,7 +97,7 @@ namespace eraR
             {
                 GDESkillData gdeskillData = characterSkillNoOverLap.RandomSkill(__instance.AllyCharacter.Info);
                 characterSkillNoOverLap.Remove(gdeskillData);
-                list.Add(Skill.TempSkill(gdeskillData.Key, __instance.AllyCharacter, PlayData.TempBattleTeam).CloneSkill(false, null, null, false));
+                list.Add(Skill.TempSkill(gdeskillData.Key, __instance.AllyCharacter, PlayData.TempBattleTeam));
                 if (!SaveManager.IsUnlock(gdeskillData.Key, SaveManager.NowData.unlockList.SkillPreView))
                 {
                     SaveManager.NowData.unlockList.SkillPreView.Add(gdeskillData.Key);
@@ -100,6 +128,74 @@ namespace eraR
                 list.AddRange(list4);
             }
             __result = list;
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(SkillBookCharacter_Rare))]
+    public static class SkillBookCharacter_RarePatch
+    {
+        [HarmonyPrefix]
+        [HarmonyPatch("Use")]
+        public static bool Use_Prefix(SkillBookCharacter_Rare __instance)
+        {
+            List<Skill> list = new List<Skill>();
+            List<BattleAlly> battleallys = PlayData.Battleallys;
+            BattleTeam tempBattleTeam = PlayData.TempBattleTeam;
+            for (int i = 0; i < PlayData.TSavedata.Party.Count; i++)
+            {
+                bool flag = false;
+                if (PlayData.TSavedata.SpRule == null || !PlayData.TSavedata.SpRule.RuleChange.CharacterRareSkillInfinityGet)
+                {
+                    using (List<CharInfoSkillData>.Enumerator enumerator = PlayData.TSavedata.Party[i].SkillDatas.GetEnumerator())
+                    {
+                        while (enumerator.MoveNext())
+                        {
+                            Debug.Log("A");
+                            Debug.Log(enumerator.Current.SkillInfo.Name);
+                            Debug.Log(enumerator.Current.SkillInfo.Rare);
+                            if (enumerator.Current.SkillInfo.Rare)
+                            {
+                                Debug.Log("A1");
+                                flag = true;
+                            }
+                        }
+                    }
+                    if (PlayData.TSavedata.Party[i].BasicSkill.SkillInfo.Rare)
+                    {
+                        Debug.Log("A2");
+                        flag = true;
+                    }
+                }
+                Debug.Log("AA");
+                Debug.Log(flag);
+                if (!flag)
+                {
+                    Debug.Log("B");
+                    GDESkillData gdeskillData = PlayData.GetMySkills(PlayData.TSavedata.Party[i].KeyData, true).Random(RandomClassKey.Skill(i));
+                    if (gdeskillData != null)
+                    {
+                        Debug.Log("C");
+                        list.Add(Skill.TempSkill(gdeskillData.KeyID, battleallys[i], tempBattleTeam));
+                    }
+                }
+            }
+            if (list.Count == 0)
+            {
+                EffectView.SimpleTextout(FieldSystem.instance.TopWindow.transform, ScriptLocalization.System.CantRareSkill, 1f, false, 1f);
+                return false;
+            }
+            foreach (Skill skill in list)
+            {
+                if (!SaveManager.IsUnlock(skill.MySkill.KeyID, SaveManager.NowData.unlockList.SkillPreView))
+                {
+                    SaveManager.NowData.unlockList.SkillPreView.Add(skill.MySkill.KeyID);
+                }
+            }
+            PlayData.TSavedata.UseItemKeys.Add(GDEItemKeys.Item_Consume_SkillBookCharacter_Rare);
+            MasterAudio.PlaySound("BookFlip", 1f, null, 0f, null, null, false, false);
+            FieldSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(__instance.SkillAdd), ScriptLocalization.System_Item.SkillAdd, false, true, true, true, true));
+
             return false;
         }
     }

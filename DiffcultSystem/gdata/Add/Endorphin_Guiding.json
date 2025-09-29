@@ -1,0 +1,12 @@
+{
+    "Endorphin_Guiding": {
+        "_gdeSchema": "Item_Passive",
+        "name": "循循善诱",
+        "image": "Item\\Endorphin_Guiding_image.png",
+        "Off": true,
+        "NoDrop": true,
+        "LastAreaNoDrop": true,
+        "LastBattleNoDrop": true,
+        "Description": "<color=#98F5FF><b>+ 协调</b></color>\n+ 每经过一个区域，战斗开始时获得1点法力值。\n\n<color=#FFDEAD><b>- 拮抗</b></color>\n- 除去BOSS战斗外，所有战斗改为发生在事件格。"
+    }
+}

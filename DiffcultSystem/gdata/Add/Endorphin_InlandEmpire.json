@@ -1,0 +1,12 @@
+{
+    "Endorphin_InlandEmpire": {
+        "_gdeSchema": "Item_Passive",
+        "name": "内陆帝国",
+        "image": "Item\\Endorphin_InlandEmpire_image.png",
+        "Off": true,
+        "NoDrop": true,
+        "LastAreaNoDrop": true,
+        "LastBattleNoDrop": true,
+        "Description": "<color=#98F5FF><b>+ 协调</b></color>\n+ 战斗时结束获得4个额外的战利品。\n\n<color=#FFDEAD><b>- 拮抗</b></color>\n- 背包格子数-3。"
+    }
+}

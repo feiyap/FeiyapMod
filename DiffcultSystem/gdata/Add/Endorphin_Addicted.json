@@ -1,0 +1,13 @@
+{
+    "Endorphin_Addicted": {
+        "_gdeSchema": "Item_Passive",
+        "name": "食髓知味",
+        "Description": "<color=#98F5FF><b>+ 协调</b></color>\n+ 速度+2。\r\n+ 每回合抽取6个技能，回合结束时丢弃所有技能。\n\n<color=#FFDEAD><b>- 拮抗</b></color>\n- 速度小于3时，回合结束所有队员获得一层盐疫。",
+        "Off": true,
+        "NoDrop": true,
+        "LastAreaNoDrop": true,
+        "LastBattleNoDrop": true,
+        "image": "Item\\Endorphin_Addicted_image.png",
+        "passive_script": "DiffcultSystem.Endorphin_Addicted"
+    }
+}

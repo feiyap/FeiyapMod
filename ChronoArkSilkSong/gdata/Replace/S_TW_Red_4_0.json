@@ -1,0 +1,9 @@
+{
+    "S_TW_Red_4_0": {
+        "_gdeSchema": "Skill",
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Name": "灼环化炎",
+        "Description": "赋以<b>“日炎”</b>。"
+    }
+}

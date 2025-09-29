@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapGyaru",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "FeiyapJK\\FeiyapJKFaceSmallChar.png",
+        "offsetMax": {
+            "x": 304.17627,
+            "y": 112.787323
+        },
+        "offsetMin": {
+            "x": -311.6134,
+            "y": -810.8973
+        },
+        "pivot": {
+            "x": 0.5027388,
+            "y": 0.871842563
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

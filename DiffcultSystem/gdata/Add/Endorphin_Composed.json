@@ -1,0 +1,12 @@
+{
+    "Endorphin_Composed": {
+        "_gdeSchema": "Item_Passive",
+        "name": "平心定气",
+        "image": "Item\\Endorphin_Composed_image.png",
+        "Off": true,
+        "NoDrop": true,
+        "LastAreaNoDrop": true,
+        "LastBattleNoDrop": true,
+        "Description": "<color=#98F5FF><b>+ 协调</b></color>\n+ 过载值不会影响技能法力值变动。\n\n<color=#FFDEAD><b>- 拮抗</b></color>\n- 迅速技能将同时影响倒计时。"
+    }
+}

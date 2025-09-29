@@ -137,10 +137,6 @@
             <exception cref="T:System.ArgumentNullException"/>
             <exception cref="T:System.InvalidOperationException"/>
         </member>
-        <member name="M:EOS.EOSControler.AddListener``1(``0)">
-            <inheritdoc cref="M:EOS.EOSControler.AddListener(System.Type,System.Object)"/>
-            <typeparam name="T">泛型必须是继承了<see cref="T:EOS.IEventListener"/>的类型。</typeparam>
-        </member>
         <member name="M:EOS.EOSControler.AddListener(System.Object)">
             <inheritdoc cref="M:EOS.EOSControler.AddListener(System.Type,System.Object)"/>
             <param name="notNullInstance">对象实例，不能为空。</param>
@@ -151,10 +147,6 @@
             <param name="instance">对象实例。如果为<see langword="null"/>，则类型必须是静态类型。</param>
             <exception cref="T:System.ArgumentNullException"/>
             <exception cref="T:System.InvalidOperationException"/>
-        </member>
-        <member name="M:EOS.EOSControler.RemoveListener``1(``0)">
-            \<inheritdoc cref="M:EOS.EOSControler.RemoveListener(System.Type,System.Object)"/>
-             <typeparam name="T">泛型必须是继承了<see cref="T:EOS.IEventListener"/>的类型。</typeparam>
         </member>
         <member name="M:EOS.EOSControler.RemoveListener(System.Object)">
             <inheritdoc cref="M:EOS.EOSControler.RemoveListener(System.Type,System.Object)"/>
@@ -259,6 +251,11 @@
         <member name="P:EOS.EOSManager.AssemblyControlerDic">
             <summary></summary>
         </member>
+        <member name="P:EOS.EOSManager.NowBroadCastParams">
+            <summary>
+            当前单例控制器的当前触发事件的事件信息
+            </summary>
+        </member>
         <member name="M:EOS.EOSManager.MergeToSingleton">
             <inheritdoc cref="M:EOS.EOSManager.MergeToSingleton(System.Reflection.Assembly)"/>
             <remarks>无参数时使用调用该函数的域所处程序集。</remarks>
@@ -309,12 +306,6 @@
             <para>此静态方法不会抛出异常。</para>
             </remarks>
         </member>
-        <member name="M:EOS.EOSManager.AddListener``1(``0)">
-            <inheritdoc cref="M:EOS.EOSControler.AddListener``1(``0)" path="member/summary"/>
-            <inheritdoc cref="M:EOS.EOSControler.AddListener``1(``0)" path="member/param"/>
-            <inheritdoc cref="M:EOS.EOSControler.AddListener``1(``0)" path="member/typeparam"/>
-            <inheritdoc cref="M:EOS.EOSManager.AddListener(System.Type,System.Object)" path="member/remarks"/>
-        </member>
         <member name="M:EOS.EOSManager.AddListener(System.Object)">
             <inheritdoc cref="M:EOS.EOSControler.AddListener(System.Object)" path="member/summary"/>
             <inheritdoc cref="M:EOS.EOSControler.AddListener(System.Object)" path="member/param"/>
@@ -327,12 +318,6 @@
             此方法从<see cref="T:EOS.EOSManager"/>中的<see cref="P:EOS.EOSManager.SingleControler"/>移除对象。
             <para>此静态方法不会抛出异常。</para>
             </remarks>
-        </member>
-        <member name="M:EOS.EOSManager.RemoveListener``1(``0)">
-            <inheritdoc cref="M:EOS.EOSControler.RemoveListener``1(``0)" path="member/summary"/>
-            <inheritdoc cref="M:EOS.EOSControler.RemoveListener``1(``0)" path="member/param"/>
-            <inheritdoc cref="M:EOS.EOSControler.RemoveListener``1(``0)" path="member/typeparam"/>
-            <inheritdoc cref="M:EOS.EOSManager.RemoveListener(System.Type,System.Object)" path="member/remarks"/>
         </member>
         <member name="M:EOS.EOSManager.RemoveListener(System.Object)">
             <inheritdoc cref="M:EOS.EOSControler.RemoveListener(System.Object)" path="member/summary"/>
@@ -387,7 +372,7 @@
             <summary>继承该接口的类等效继承了<see cref="T:EOS.Attributes.EventCodeAttribute"/>特性，并可用作<see cref="M:EOS.EOSControler.AddNewCode``1"/>中的泛型。</summary>
         </member>
         <member name="T:EOS.IEventListener">
-            <summary>继承该接口的类等效继承了<see cref="T:EOS.Attributes.EventListenerAttribute"/>特性，并可用作<see cref="M:EOS.EOSControler.AddListener``1(``0)"/>中的泛型。</summary>
+            <summary>继承该接口的类等效继承了<see cref="T:EOS.Attributes.EventListenerAttribute"/>特性，并可用作<see cref="!:EOSControler.AddListener&lt;T&gt;(T)"/>中的泛型。</summary>
         </member>
         <member name="T:EOS.Tiles.EOSDelegate">
             <summary>

@@ -1,0 +1,12 @@
+{
+    "Endorphin_Unified": {
+        "_gdeSchema": "Item_Passive",
+        "name": "同舟共济",
+        "Off": true,
+        "NoDrop": true,
+        "LastAreaNoDrop": true,
+        "LastBattleNoDrop": true,
+        "image": "Item\\Endorphin_Unified_image.png",
+        "Description": "<color=#98F5FF><b>+ 协调</b></color>\n+ 队员最大体力值+5。\r\n+ 濒死状态队员每受到攻击时抽取1个技能。\n\n<color=#FFDEAD><b>- 拮抗</b></color>\n- 回合开始时，敌人极大概率以体力值最低的队员作为技能对象。"
+    }
+}

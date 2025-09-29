@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "HatsuneMiku\\HatsuneMikuBattleChar.png",
-        "offsetMax": {
-            "x": 722.3502,
-            "y": 604.901062
+        "pivot": {
+            "x": 0.5066192,
+            "y": 0.8246538
         },
         "offsetMin": {
-            "x": -970.2117,
-            "y": -1087.66089
+            "x": -607.943054,
+            "y": -1484.37683
         },
-        "pivot": {
-            "x": 0.5732208,
-            "y": 0.642612159
+        "offsetMax": {
+            "x": 592.056946,
+            "y": 315.623138
         }
     },
     "MyChangeType": "BattleChar",

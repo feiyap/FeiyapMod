@@ -1,0 +1,12 @@
+{
+    "Endorphin_Mystical": {
+        "_gdeSchema": "Item_Passive",
+        "name": "天人感应",
+        "image": "Item\\Endorphin_Mystical_image.png",
+        "Off": true,
+        "NoDrop": true,
+        "LastAreaNoDrop": true,
+        "LastBattleNoDrop": true,
+        "Description": "<color=#98F5FF><b>+ 协调</b></color>\n+ 可选事件数+1。\r\n+ 可选选项数+1。\n\n<color=#FFDEAD><b>- 拮抗</b></color>"
+    }
+}

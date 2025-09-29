@@ -1,0 +1,8 @@
+{
+    "S_Leryn_Draw": {
+        "_gdeSchema": "Skill",
+        "Particle": "Particle/impact",
+        "Name": "灵光之式",
+        "Description": "攫二，友之护壁皆增以八。"
+    }
+}

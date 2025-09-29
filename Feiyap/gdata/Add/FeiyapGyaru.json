@@ -1,0 +1,20 @@
+{
+    "FeiyapGyaru": {
+        "_gdeSchema": "Character_Skin",
+        "SkinName": "班长",
+        "SkinDesc": "于万千碎裂的世界破片中，仍只是学生的那一个“绯夜氏”。\n尽管稍显稚嫩，但其剑术毋庸置疑，乃是货真价实的。\n“好麻烦啊……能快点结束吗？”",
+        "Character": "Feiyap",
+        "FaceSprite": "FeiyapJK\\FeiyapJKBattleFace.png",
+        "CampSD": [
+            "FeiyapJK\\FeiyapJKCampSD0.png",
+            "FeiyapJK\\FeiyapJKCampSD1.png",
+            "FeiyapJK\\FeiyapJKCampSD2.png",
+            "FeiyapJK\\FeiyapJKCampSD3.png"
+        ],
+        "VFXChangeSkill": [
+            "S_FeiyapGyaru_0_Skin",
+            "S_FeiyapGyaru_1_Skin",
+            "S_FeiyapGyaru_7_Skin"
+        ]
+    }
+}

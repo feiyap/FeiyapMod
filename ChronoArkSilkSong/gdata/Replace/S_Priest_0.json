@@ -1,0 +1,10 @@
+{
+    "S_Priest_0": {
+        "_gdeSchema": "Skill",
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Description": "神谕：施予友人，手留半愈。",
+        "Name": "环愈"
+    }
+}

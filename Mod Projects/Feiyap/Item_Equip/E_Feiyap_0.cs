@@ -22,7 +22,7 @@ namespace Feiyap
         public override void Init()
         {
             base.Init();
-            this.PlusStat.atk = 3;
+            this.PlusStat.atk = 4;
             this.PlusStat.HIT_DOT = 40;
             this.PlusStat.Strength = true;
         }

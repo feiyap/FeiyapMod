@@ -1,0 +1,8 @@
+{
+    "S_TW_Blue_R1": {
+        "_gdeSchema": "Skill",
+        "HealSkill": false,
+        "Name": "星月横陈",
+        "Description": "按序呈现牌库之技，择一置于首位。\r\n复择数次，以存活之友之数计。"
+    }
+}

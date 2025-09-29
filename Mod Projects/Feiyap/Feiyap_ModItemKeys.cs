@@ -43,9 +43,42 @@ namespace Feiyap
 		/// </summary>
         public static string Buff_B_Feiyap_Rare_2 = "B_Feiyap_Rare_2";
 		/// <summary>
+		/// 神之力量
+		/// 根据已损失的体力值百分比，获得攻击力提升。最多提升300%。
+		/// <color=#919191><i>向无冕之王致敬。</i></color>
+		/// </summary>
+        public static string Buff_B_Feiyap_Rare_3 = "B_Feiyap_Rare_3";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Azar = "CampDia_Feiyap_Azar";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Caron = "CampDia_Feiyap_Caron";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Control = "CampDia_Feiyap_Control";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Hein = "CampDia_Feiyap_Hein";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Huz = "CampDia_Feiyap_Huz";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Ilya = "CampDia_Feiyap_Ilya";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Joey = "CampDia_Feiyap_Joey";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Leryn = "CampDia_Feiyap_Leryn";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Lian = "CampDia_Feiyap_Lian";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Mement = "CampDia_Feiyap_Mement";
+        public static string SimpleCampDialogue_CampDia_Feiyap_MissChainh = "CampDia_Feiyap_MissChainh";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Momori = "CampDia_Feiyap_Momori";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Phoenix = "CampDia_Feiyap_Phoenix";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Priest = "CampDia_Feiyap_Priest";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Prime = "CampDia_Feiyap_Prime";
+        public static string SimpleCampDialogue_CampDia_Feiyap_SilverStein = "CampDia_Feiyap_SilverStein";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Sizz = "CampDia_Feiyap_Sizz";
+        public static string SimpleCampDialogue_CampDia_Feiyap_Trisha = "CampDia_Feiyap_Trisha";
+        public static string SimpleCampDialogue_CampDia_Feiyap_TWBlue = "CampDia_Feiyap_TWBlue";
+        public static string SimpleCampDialogue_CampDia_Feiyap_TWRed = "CampDia_Feiyap_TWRed";
+		/// <summary>
 		/// 绯生一文字
 		/// </summary>
         public static string Item_Equip_E_Feiyap_0 = "E_Feiyap_0";
+		/// <summary>
+		/// 镇魂石
+		/// 每个回合结束时，该装备提供的属性-5%/-5%/-5%。
+		/// 黑雾回合到来时，装备属性重置。
+		/// <color=#919191><i>再次鼓起失去的勇气。</i></color>
+		/// </summary>
+        public static string Item_Equip_E_Feiyap_1 = "E_Feiyap_1";
 		/// <summary>
 		/// 绯夜氏
 		/// Passive:
@@ -91,6 +124,7 @@ namespace Feiyap
         public static string SkillEffect_SE_T_S_Feiyap_Rare_1_0 = "SE_T_S_Feiyap_Rare_1_0";
         public static string SkillEffect_SE_T_S_Feiyap_Rare_2 = "SE_T_S_Feiyap_Rare_2";
         public static string SkillEffect_SE_T_S_Feiyap_Rare_2_0 = "SE_T_S_Feiyap_Rare_2_0";
+        public static string SkillEffect_SE_T_S_Feiyap_Rare_3 = "SE_T_S_Feiyap_Rare_3";
         public static string VFXSkill_S_FeiyapCoffee_6_Skin = "S_FeiyapCoffee_6_Skin";
         public static string VFXSkill_S_FeiyapMaid_0_Skin = "S_FeiyapMaid_0_Skin";
         public static string VFXSkill_S_FeiyapMaid_5_Skin = "S_FeiyapMaid_5_Skin";
@@ -105,7 +139,7 @@ namespace Feiyap
         public static string Skill_S_Feiyap_0 = "S_Feiyap_0";
 		/// <summary>
 		/// 里绯夜流·逆鳞斩
-		/// 若自身拥有保护体力极限，对目标造成 1 次痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。
+		/// 若自身拥有保护体力极限，对目标造成 2 次痛苦伤害，伤害量等于目标持有的减益的每回合伤害量。
 		/// 否则额外施加 1 层“体内灼烧”。
 		/// </summary>
         public static string Skill_S_Feiyap_1 = "S_Feiyap_1";
@@ -130,7 +164,7 @@ namespace Feiyap
         public static string Skill_S_Feiyap_3 = "S_Feiyap_3";
 		/// <summary>
 		/// 幽壑千灯
-		/// 自身每有 1 点体力损伤（绿血），这个技能额外造成 2 点伤害。
+		/// 自身每有 1 点体力损伤（绿血），这个技能额外造成 &a 点伤害<color=#FF7A33>(攻击力的10%)</color>。
 		/// 目标每有 1 层痛苦减益，这个技能额外造成10%伤害。
 		/// </summary>
         public static string Skill_S_Feiyap_4 = "S_Feiyap_4";
@@ -187,7 +221,8 @@ namespace Feiyap
 		/// </summary>
         public static string Skill_S_Feiyap_Rare_2_0 = "S_Feiyap_Rare_2_0";
 		/// <summary>
-		/// 秘奥义·绯樱狱华落
+		/// 神之力量
+		/// 抽取 1 个自己的技能。
 		/// </summary>
         public static string Skill_S_Feiyap_Rare_3 = "S_Feiyap_Rare_3";
 

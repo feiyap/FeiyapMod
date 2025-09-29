@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "HatsuneMiku\\HatsuneMikuFaceOriginChar.png",
-        "offsetMax": {
-            "x": 537.7074,
-            "y": 418.7603
+        "pivot": {
+            "x": 0.4979572,
+            "y": 0.85893327
         },
         "offsetMin": {
-            "x": -588.6926,
-            "y": -707.6397
+            "x": -658.703552,
+            "y": -1706.062
         },
-        "pivot": {
-            "x": 0.521389,
-            "y": 0.623460233
+        "offsetMax": {
+            "x": 661.296448,
+            "y": 273.938049
         }
     },
     "MyChangeType": "FaceOriginChar",

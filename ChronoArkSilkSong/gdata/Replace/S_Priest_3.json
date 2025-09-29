@@ -1,0 +1,8 @@
+{
+    "S_Priest_3": {
+        "_gdeSchema": "Skill",
+        "Fatal": false,
+        "Name": "赎罪",
+        "Description": "神谕：攻伐他敌。"
+    }
+}

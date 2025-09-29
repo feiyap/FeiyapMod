@@ -2,16 +2,33 @@
     "S_Feiyap_Rare_3": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
-        "Rare": false,
-        "Target": "enemy",
-        "Name": "秘奥义·绯樱狱华落",
-        "UseAp": 3,
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "self",
+        "Name": "神之力量",
+        "UseAp": 0,
         "Image_0": "S_Feiyap_Rare_3\\S_Feiyap_Rare_3_Image_0.png",
         "Image_1": "S_Feiyap_Rare_3\\S_Feiyap_Rare_3_Image_1.png",
         "Image_2": "S_Feiyap_Rare_3\\S_Feiyap_Rare_3_Image_2.png",
-        "NotCount": false,
+        "NotCount": true,
         "NoDrop": false,
-        "IgnoreTaunt": false
+        "IgnoreTaunt": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Description": "抽取 1 个自己的技能。",
+        "User": "Feiyap",
+        "Effect_Target": "SE_T_S_Feiyap_Rare_3",
+        "SkillExtended": [
+            "Feiyap.S_Feiyap_Rare_3"
+        ]
     }
 }

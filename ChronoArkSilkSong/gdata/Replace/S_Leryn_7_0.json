@@ -1,0 +1,10 @@
+{
+    "S_Leryn_7_0": {
+        "_gdeSchema": "Skill",
+        "Rare": false,
+        "NotCount": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoBasicSkill": false
+    }
+}

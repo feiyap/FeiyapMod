@@ -1,0 +1,8 @@
+{
+    "Priest": {
+        "_gdeSchema": "Character",
+        "PassiveUnlockLV1": false,
+        "PassiveName": "神谕",
+        "PassiveDes": "抽技之始，诏见神谕。\n窥见其二，择一而归。\n晋升三级，见三择一。\n晋升四级，见四择一。"
+    }
+}

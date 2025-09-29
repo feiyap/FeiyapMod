@@ -1,0 +1,7 @@
+{
+    "SkillEn_TW_Blue_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "此技身处牌库或弃牌库，则耗增以二。",
+        "EnforceString": "不得附于赛琳娜、海拉之技"
+    }
+}

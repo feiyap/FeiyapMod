@@ -1,0 +1,12 @@
+{
+    "B_TW_Blue_2_T": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "月幕",
+        "Description": "敌覆减益，月幕之护壁增以&a。（总不逾&b）\r\n敌覆“日炎”，则月幕削所受必杀之伤以35%。"
+    }
+}

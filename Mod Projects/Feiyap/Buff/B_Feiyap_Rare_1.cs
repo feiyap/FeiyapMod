@@ -29,6 +29,7 @@ namespace Feiyap
             base.Init();
             count = 0;
             this.PlusStat.Strength = true;
+            this.PlusStat.DeadImmune = 60;
         }
 
         public IEnumerator Targeted(BattleChar Attacker, List<BattleChar> SaveTargets, Skill skill)

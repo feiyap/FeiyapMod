@@ -71,6 +71,7 @@ namespace IzayoiSakuya
 		/// <b><color=#4169E1>月魔术</color></b> - 咲夜的部分技能在位于手中最上方或最下方被打出时，能够触发额外效果。
 		/// </summary>
         public static string Character_IzayoiSakuya = "IzayoiSakuya";
+        public static string Character_Skin_IzayoiSakuya15th = "IzayoiSakuya15th";
         public static string Character_Skin_IzayoiSakuyaBunny = "IzayoiSakuyaBunny";
 		/// <summary>
 		/// <color=#4169E1>月魔术</color>

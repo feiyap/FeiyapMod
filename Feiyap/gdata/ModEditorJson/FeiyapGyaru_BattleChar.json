@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapGyaru",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "FeiyapJK\\FeiyapJKBattleChar.png",
+        "offsetMax": {
+            "x": 559.9787,
+            "y": 320.807
+        },
+        "offsetMin": {
+            "x": -640.0213,
+            "y": -1479.193
+        },
+        "pivot": {
+            "x": 0.533351064,
+            "y": 0.8217739
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

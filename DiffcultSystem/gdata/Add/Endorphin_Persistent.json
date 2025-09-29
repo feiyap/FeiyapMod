@@ -1,0 +1,12 @@
+{
+    "Endorphin_Persistent": {
+        "_gdeSchema": "Item_Passive",
+        "name": "坚韧不拔",
+        "image": "Item\\Endorphin_Persistent_image.png",
+        "Off": true,
+        "NoDrop": true,
+        "LastAreaNoDrop": true,
+        "LastBattleNoDrop": true,
+        "Description": "<color=#98F5FF><b>+ 协调</b></color>\n+ 队伍受到伤害-10%\r\n+ 场上有3个及以上敌人时获得保护体力极限。\n\n<color=#FFDEAD><b>- 拮抗</b></color>\n- 敌人拥有30%濒死抵抗。"
+    }
+}

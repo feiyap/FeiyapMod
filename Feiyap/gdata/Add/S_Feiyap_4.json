@@ -12,7 +12,7 @@
         "Image_0": "S_Feiyap_4\\S_Feiyap_4_Image_0.png",
         "Image_1": "S_Feiyap_4\\S_Feiyap_4_Image_1.png",
         "Image_2": "S_Feiyap_4\\S_Feiyap_4_Image_2.png",
-        "Description": "自身每有 1 点体力损伤（绿血），这个技能额外造成 2 点伤害。\n目标每有 1 层痛苦减益，这个技能额外造成10%伤害。",
+        "Description": "自身每有 1 点体力损伤（绿血），这个技能额外造成 &a 点伤害<color=#FF7A33>(攻击力的10%)</color>。\n目标每有 1 层痛苦减益，这个技能额外造成10%伤害。",
         "Track": true,
         "IgnoreTaunt": true,
         "NoBasicSkill": false,

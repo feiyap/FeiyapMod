@@ -1,0 +1,10 @@
+{
+    "S_TW_Red_R0": {
+        "_gdeSchema": "Skill",
+        "NoDrop": false,
+        "Except": false,
+        "Track": false,
+        "Name": "孤日垂泪",
+        "Description": "在握之际，与“孤月垂泪”为邻，则放逐二者，而显化“日月同坠”于牌库首位，凡存活之友，一人一技。"
+    }
+}

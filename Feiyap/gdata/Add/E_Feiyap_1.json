@@ -1,0 +1,10 @@
+{
+    "E_Feiyap_1": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Unique",
+        "name": "镇魂石",
+        "Description": "每个回合结束时，该装备提供的属性-5%/-5%/-5%。\n黑雾回合到来时，装备属性重置。\n\n<color=#919191><i>再次鼓起失去的勇气。</i></color>",
+        "image": "Item\\E_Feiyap_1_image.png",
+        "Equip_Script": "Feiyap.E_Feiyap_1"
+    }
+}

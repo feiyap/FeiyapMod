@@ -33,7 +33,8 @@
                 "S_Feiyap_0",
                 "S_Feiyap_0",
                 "S_Feiyap_7",
-                "S_Feiyap_4"
+                "S_Feiyap_4",
+                "S_Feiyap_Rare_3"
             ]
         ],
         "PartyEquip": [
@@ -47,7 +48,8 @@
                 
             ],
             [
-                
+                "E_Feiyap_0",
+                "E_Feiyap_1"
             ]
         ],
         "AP": 10,

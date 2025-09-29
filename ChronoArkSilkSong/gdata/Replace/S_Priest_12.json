@@ -1,0 +1,10 @@
+{
+    "S_Priest_12": {
+        "_gdeSchema": "Skill",
+        "Rare": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "Name": "圣执",
+        "Description": "寻回“罪人，当觐见主”，\n诏见神谕。"
+    }
+}

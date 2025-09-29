@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "HatsuneMiku\\HatsuneMikuFaceSmallChar.png",
-        "pivot": {
-            "x": 0.5152189,
-            "y": 0.6253713
+        "offsetMax": {
+            "x": 309.4216,
+            "y": 121.426743
         },
         "offsetMin": {
-            "x": -248.153931,
-            "y": -304.331726
+            "x": -306.368073,
+            "y": -802.257751
         },
-        "offsetMax": {
-            "x": 229.549561,
-            "y": 173.3717
+        "pivot": {
+            "x": 0.494220763,
+            "y": 0.862489343
         }
     },
     "MyChangeType": "FaceSmallChar",

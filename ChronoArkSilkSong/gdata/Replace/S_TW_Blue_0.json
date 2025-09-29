@@ -1,0 +1,10 @@
+{
+    "S_TW_Blue_0": {
+        "_gdeSchema": "Skill",
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "璧月汇灵",
+        "Description": "能复以弃牌库首技之耗。总不逾三。"
+    }
+}

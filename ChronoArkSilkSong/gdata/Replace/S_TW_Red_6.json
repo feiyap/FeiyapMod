@@ -1,0 +1,8 @@
+{
+    "S_TW_Red_6": {
+        "_gdeSchema": "Skill",
+        "NoBasicSkill": false,
+        "Name": "黯日蚀灵",
+        "Description": "此技之伤增以弃牌库首技之耗，其之一耗，增之以&a。"
+    }
+}

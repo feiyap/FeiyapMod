@@ -1,0 +1,10 @@
+{
+    "S_Leryn_0": {
+        "_gdeSchema": "Skill",
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Description": "与左位共享。",
+        "Name": "护御双轮"
+    }
+}

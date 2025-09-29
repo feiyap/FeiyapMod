@@ -1,0 +1,10 @@
+{
+    "S_TW_Red_2": {
+        "_gdeSchema": "Skill",
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "瑞星降福",
+        "Description": "此技身处牌库或弃牌库，则耗增以四。\r\n现将抽之三技，择其之一。\r\n其技身处牌库或弃牌库，则耗增以二。"
+    }
+}

@@ -52,6 +52,7 @@ namespace Feiyap
                     if (num > 0)
                     {
                         battleChar.Damage(this.BChar, num, false, true, false, 0, false, false, false);
+                        battleChar.Damage(this.BChar, num, false, true, false, 0, false, false, false);
                     }
                 }
             }

@@ -1,0 +1,12 @@
+{
+    "Endorphin_Sly": {
+        "_gdeSchema": "Item_Passive",
+        "name": "鬼祟玲珑",
+        "image": "Item\\Endorphin_Sly_image.png",
+        "Off": true,
+        "NoDrop": true,
+        "LastAreaNoDrop": true,
+        "LastBattleNoDrop": true,
+        "Description": "<color=#98F5FF><b>+ 协调</b></color>\n+ 露西技能法力值消耗-1。\r\n+ 露西技能获得迅速。\n\n<color=#FFDEAD><b>- 拮抗</b></color>\n- 法力值上限为3。\r\n- 攻击时，随机获得法力值。\r\n- 技能法力值随机重置。"
+    }
+}

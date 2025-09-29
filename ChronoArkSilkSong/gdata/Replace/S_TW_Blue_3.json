@@ -1,0 +1,8 @@
+{
+    "S_TW_Blue_3": {
+        "_gdeSchema": "Skill",
+        "NotCount": false,
+        "Name": "瑞月降福",
+        "Description": "此技身处牌库或弃牌库，则耗增以三。\r\n现将抽之三技，择其之一。\r\n其技之耗增以二，再次驱役于驱役之际。"
+    }
+}

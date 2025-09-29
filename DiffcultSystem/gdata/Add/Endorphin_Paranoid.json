@@ -1,0 +1,12 @@
+{
+    "Endorphin_Paranoid": {
+        "_gdeSchema": "Item_Passive",
+        "name": "疑神疑鬼",
+        "image": "Item\\Endorphin_Paranoid_image.png",
+        "Off": true,
+        "NoDrop": true,
+        "LastAreaNoDrop": true,
+        "LastBattleNoDrop": true,
+        "Description": "<color=#98F5FF><b>+ 协调</b></color>\n+ 战斗开始时，在抽牌堆中随机加入一张露西技能。\n\n<color=#FFDEAD><b>- 拮抗</b></color>\n- 战斗部分的数字信息均不可视。"
+    }
+}

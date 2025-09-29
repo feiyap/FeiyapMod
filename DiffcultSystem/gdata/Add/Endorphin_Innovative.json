@@ -1,0 +1,12 @@
+{
+    "Endorphin_Innovative": {
+        "_gdeSchema": "Item_Passive",
+        "name": "标新立异",
+        "image": "Item\\Endorphin_Innovative_image.png",
+        "LastAreaNoDrop": true,
+        "Off": true,
+        "NoDrop": true,
+        "LastBattleNoDrop": true,
+        "Description": "<color=#98F5FF><b>+ 协调</b></color>\n+ 队员升级时，额外选择一次技能。\n\n<color=#FFDEAD><b>- 拮抗</b></color>\n- 战斗开始时，只会抽取1名队员的技能。"
+    }
+}

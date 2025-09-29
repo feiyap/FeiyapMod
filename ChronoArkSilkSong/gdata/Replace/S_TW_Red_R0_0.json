@@ -1,0 +1,9 @@
+{
+    "S_TW_Red_R0_0": {
+        "_gdeSchema": "Skill",
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Name": "日月同坠",
+        "Description": "此技身处牌库或弃牌库，则耗增以八。\r\n驱役之际，攫一。"
+    }
+}

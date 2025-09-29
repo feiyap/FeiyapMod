@@ -21,6 +21,15 @@
         "IgnoreTaunt": false,
         "Track": false,
         "NoBasicSkill": true,
-        "NoDrop": false
+        "NoDrop": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

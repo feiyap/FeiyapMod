@@ -1,0 +1,15 @@
+{
+    "S_FeiyapGyaru_1_Skin": {
+        "_gdeSchema": "VFXSkill",
+        "MySkill": "S_Feiyap_1",
+        "Particle": "Particle/Ilya/Ilya_1",
+        "Image_0": "S_FeiyapGyaru_1_Skin\\S_FeiyapGyaru_1_Skin_Image_0.png",
+        "SkillImage": [
+            "S_FeiyapGyaru_1_Skin\\S_FeiyapGyaru_1_Skin_Image_0.png",
+            "S_FeiyapGyaru_1_Skin\\S_FeiyapGyaru_1_Skin_Image_1.png",
+            "S_FeiyapGyaru_1_Skin\\S_FeiyapGyaru_1_Skin_Image_2.png"
+        ],
+        "Image_1": "S_FeiyapGyaru_1_Skin\\S_FeiyapGyaru_1_Skin_Image_1.png",
+        "Image_2": "S_FeiyapGyaru_1_Skin\\S_FeiyapGyaru_1_Skin_Image_2.png"
+    }
+}

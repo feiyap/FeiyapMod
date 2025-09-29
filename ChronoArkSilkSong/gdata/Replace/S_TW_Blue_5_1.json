@@ -1,0 +1,12 @@
+{
+    "S_TW_Blue_5_1": {
+        "_gdeSchema": "Skill",
+        "NotCount": false,
+        "Except": false,
+        "Description": "择一而行：\r\n-显化“愈月化霖”以二。\r\n-择一在握之技，置之于牌库首位，显化“愈月化霖”；其技之耗多于二，则添<b>“月幕”</b>于“愈月化霖”。",
+        "Name": "璨月降霖",
+        "Rare": false,
+        "Disposable": false,
+        "NoBasicSkill": false
+    }
+}

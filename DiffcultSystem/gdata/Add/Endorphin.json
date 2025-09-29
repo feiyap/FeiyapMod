@@ -1,0 +1,14 @@
+{
+    "Endorphin": {
+        "_gdeSchema": "Item_Passive",
+        "name": "内啡肽",
+        "Description": "已激活的内啡肽：\n&a",
+        "Off": true,
+        "NoDrop": true,
+        "LastAreaNoDrop": true,
+        "LastBattleNoDrop": true,
+        "Unchangeable": true,
+        "image": "Item\\Endorphin_image.png",
+        "passive_script": "DiffcultSystem.Endorphin"
+    }
+}
