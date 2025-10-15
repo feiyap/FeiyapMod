@@ -1,0 +1,33 @@
+{
+    "S_Letty_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/impact",
+        "Target": "skill",
+        "NotCount": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Name": "寒符「霜打蔬菜分外甜」",
+        "Description": "使目标技能无法使用。\r\n抽取 2 个技能，恢复 2 点法力值。",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "Letty",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "Letty.S_Letty_LucyD"
+        ],
+        "Image_0": "S_Letty_LucyD\\S_Letty_LucyD_Image_0.png",
+        "Image_1": "S_Letty_LucyD\\S_Letty_LucyD_Image_1.png",
+        "Image_2": "S_Letty_LucyD\\S_Letty_LucyD_Image_2.png"
+    }
+}

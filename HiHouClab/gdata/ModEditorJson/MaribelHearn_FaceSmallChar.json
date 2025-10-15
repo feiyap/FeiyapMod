@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "MaribelHearn\\MaribelHearnFaceSmallChar.png",
-        "offsetMax": {
-            "x": 362.6028,
-            "y": 158.1424
+        "pivot": {
+            "x": 0.4706554,
+            "y": 0.879121244
         },
         "offsetMin": {
-            "x": -425.608,
-            "y": -892.805359
+            "x": -309.4219,
+            "y": -743.799438
         },
-        "pivot": {
-            "x": 0.537389159,
-            "y": 0.84420526
+        "offsetMax": {
+            "x": 343.6883,
+            "y": 95.91376
         }
     },
     "MyChangeType": "FaceSmallChar",

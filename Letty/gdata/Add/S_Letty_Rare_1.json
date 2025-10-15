@@ -1,0 +1,23 @@
+{
+    "S_Letty_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all_enemy",
+        "Name": "狂冬「暴风雪山庄」",
+        "Description": "将总计 4 个回合的“冻僵”效果平均分配给所有敌人。",
+        "UseAp": 2,
+        "User": "Letty",
+        "Rare": true,
+        "NotCount": true,
+        "Disposable": true,
+        "Effect_Target": "null",
+        "IgnoreTaunt": false,
+        "SkillExtended": [
+            "Letty.S_Letty_Rare_1"
+        ],
+        "Image_0": "S_Letty_Rare_1\\S_Letty_Rare_1_Image_0.png",
+        "Image_1": "S_Letty_Rare_1\\S_Letty_Rare_1_Image_1.png",
+        "Image_2": "S_Letty_Rare_1\\S_Letty_Rare_1_Image_2.png"
+    }
+}

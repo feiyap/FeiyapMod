@@ -1,0 +1,9 @@
+{
+    "S_Lian_2": {
+        "_gdeSchema": "Skill",
+        "Name": "队友的贴身高手",
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

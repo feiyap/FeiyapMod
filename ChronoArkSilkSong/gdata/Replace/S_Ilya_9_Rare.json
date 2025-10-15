@@ -1,0 +1,9 @@
+{
+    "S_Ilya_9_Rare": {
+        "_gdeSchema": "Skill",
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Name": "籁特狞刀术-狂霆",
+        "Description": "目标护甲无效，此技重复释放根据纳刀次数。\r\n纳刀：此技回手。"
+    }
+}

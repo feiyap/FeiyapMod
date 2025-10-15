@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "UsamiRenko\\UsamiRenkoFaceOriginChar.png",
-        "pivot": {
-            "x": 0.492067039,
-            "y": 0.848361433
+        "offsetMax": {
+            "x": 641.573,
+            "y": 242.721146
         },
         "offsetMin": {
-            "x": -688.5046,
-            "y": -1584.86877
+            "x": -758.427,
+            "y": -1557.27881
         },
-        "offsetMax": {
-            "x": 707.8591,
-            "y": 276.949341
+        "pivot": {
+            "x": 0.541733563,
+            "y": 0.8651549
         }
     },
     "MyChangeType": "FaceOriginChar",

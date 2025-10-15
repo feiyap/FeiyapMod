@@ -1,0 +1,17 @@
+{
+    "B_Letty_8": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Letty.B_Letty_8",
+        "BuffTag": "null",
+        "Name": "新雪",
+        "Description": "受到伤害量降低 &a% (&user的防御力的100%)。",
+        "MaxStack": 0,
+        "LifeTime": 2,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_Letty_8\\B_Letty_8_Icon.png"
+    }
+}

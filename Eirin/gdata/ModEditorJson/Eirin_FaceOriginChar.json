@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "Eirin\\EirinFaceOriginChar.png",
-        "offsetMax": {
-            "x": 785.9846,
-            "y": 236.607651
+        "pivot": {
+            "x": 0.53956753,
+            "y": 0.870276034
         },
         "offsetMin": {
-            "x": -333.642059,
-            "y": -1534.95337
+            "x": -832.334045,
+            "y": -1728.52075
         },
-        "pivot": {
-            "x": 0.2967436,
-            "y": 0.8634076
+        "offsetMax": {
+            "x": 707.665955,
+            "y": 251.479355
         }
     },
     "MyChangeType": "FaceOriginChar",

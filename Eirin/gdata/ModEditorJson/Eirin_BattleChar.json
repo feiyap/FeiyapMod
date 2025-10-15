@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "Eirin\\EirinBattleChar.png",
-        "offsetMax": {
-            "x": 687.24884,
-            "y": 292.490479
+        "pivot": {
+            "x": 0.561619163,
+            "y": 0.825232446
         },
         "offsetMin": {
-            "x": -330.5936,
-            "y": -1318.01953
+            "x": -786.266846,
+            "y": -1485.41846
         },
-        "pivot": {
-            "x": 0.3247984,
-            "y": 0.818386436
+        "offsetMax": {
+            "x": 613.733154,
+            "y": 314.5816
         }
     },
     "MyChangeType": "BattleChar",

@@ -2,6 +2,7 @@
     "SE_T_S_Inaba_P_5_0": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Base": 40
+        "DMG_Base": 0,
+        "DMG_Per": 200
     }
 }

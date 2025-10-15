@@ -1,0 +1,12 @@
+{
+    "S_Ilya_Draw": {
+        "_gdeSchema": "Skill",
+        "Rare": false,
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "抵死插具",
+        "Description": "牌抓一。\r\n纳刀：牌抓二，法力回一。"
+    }
+}

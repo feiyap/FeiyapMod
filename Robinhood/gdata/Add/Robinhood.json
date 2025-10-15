@@ -1,0 +1,9 @@
+{
+    "Robinhood": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "name": "罗宾汉"
+    }
+}

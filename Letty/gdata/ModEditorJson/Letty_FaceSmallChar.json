@@ -1,0 +1,23 @@
+{
+    "myKey": "Letty",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Letty\\LettyFaceSmallChar.png",
+        "offsetMax": {
+            "x": 376.1587,
+            "y": 98.48704
+        },
+        "offsetMin": {
+            "x": -342.2626,
+            "y": -825.197449
+        },
+        "pivot": {
+            "x": 0.473580867,
+            "y": 0.887324333
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

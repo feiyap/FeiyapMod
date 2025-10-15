@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "Feiyap\\FeiyapFaceOriginChar.png",
-        "offsetMax": {
-            "x": 578.9894,
-            "y": 236.136719
+        "pivot": {
+            "x": 0.377645344,
+            "y": 0.879425
         },
         "offsetMin": {
-            "x": -775.7479,
-            "y": -1795.96924
+            "x": -582.9739,
+            "y": -1746.63562
         },
-        "pivot": {
-            "x": 0.5715853,
-            "y": 0.881152451
+        "offsetMax": {
+            "x": 957.0261,
+            "y": 233.364426
         }
     },
     "MyChangeType": "FaceOriginChar",

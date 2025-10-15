@@ -1,0 +1,21 @@
+{
+    "S_Letty_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/ST4/Guard_2_0",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "寒符「寒冰刺骨」",
+        "User": "Letty",
+        "Disposable": true,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Letty_9",
+        "Description": "只能指向“无法行动”的敌人。",
+        "SkillExtended": [
+            "Letty.S_Letty_9"
+        ],
+        "Image_0": "S_Letty_9\\S_Letty_9_Image_0.png",
+        "Image_1": "S_Letty_9\\S_Letty_9_Image_1.png",
+        "Image_2": "S_Letty_9\\S_Letty_9_Image_2.png"
+    }
+}

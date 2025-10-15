@@ -1,0 +1,15 @@
+{
+    "B_Letty_P_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Letty.B_Letty_P_1",
+        "BuffTag": "CrowdControl",
+        "Name": "冻僵",
+        "Description": "无法行动。\n可被延长持续回合。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_26",
+        "Debuff": true,
+        "TagPer": 150,
+        "LifeTime": 1,
+        "Cantdisable": false,
+        "EnemyBuffEffect": "BuffEffect/Enemy/Frozen"
+    }
+}

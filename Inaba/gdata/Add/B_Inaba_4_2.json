@@ -5,8 +5,8 @@
         "BuffTag": "Debuff",
         "Name": "因幡/魅惑",
         "Description": "",
-        "MaxStack": 1,
-        "LifeTime": 3,
+        "MaxStack": 3,
+        "LifeTime": 4,
         "Debuff": true,
         "TagPer": 130,
         "Icon": "B_Inaba_4_2\\B_Inaba_4_2_Icon.png"

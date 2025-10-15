@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "Reisen\\ReisenBattleChar.png",
-        "offsetMax": {
-            "x": 374.561035,
-            "y": 489.868164
+        "pivot": {
+            "x": 0.5590865,
+            "y": 0.807975769
         },
         "offsetMin": {
-            "x": -455.9831,
-            "y": -1240.43188
+            "x": -670.9038,
+            "y": -1454.35645
         },
-        "pivot": {
-            "x": 0.5490173,
-            "y": 0.7168883
+        "offsetMax": {
+            "x": 529.0962,
+            "y": 345.643616
         }
     },
     "MyChangeType": "BattleChar",

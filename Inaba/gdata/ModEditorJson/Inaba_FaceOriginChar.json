@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "Inaba\\InabaFaceOriginChar.png",
-        "offsetMax": {
-            "x": 351.438,
-            "y": 258.3747
+        "pivot": {
+            "x": 0.3716735,
+            "y": 0.79226476
         },
         "offsetMin": {
-            "x": -322.0481,
-            "y": -1139.17542
+            "x": -324.491974,
+            "y": -890.8554
         },
-        "pivot": {
-            "x": 0.476102054,
-            "y": 0.811277747
+        "offsetMax": {
+            "x": 544.7978,
+            "y": 226.802917
         }
     },
     "MyChangeType": "FaceOriginChar",

@@ -21,10 +21,45 @@ namespace Inaba
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            Skill skill = Skill.TempSkill("S_Inaba_7_0", this.BChar, this.BChar.MyTeam);
-            skill.isExcept = true;
-            skill.AutoDelete = 1;
-            this.BChar.MyTeam.Add(skill, true);
+            foreach (BattleEnemy be in Targets)
+            {
+                be.BuffAdd("B_Inaba_P_5", this.BChar);
+            }
+
+            BattleSystem.DelayInputAfter(this.EffectAllBomb());
+            //EffectAllBomb();
+        }
+
+        public IEnumerator EffectAllBomb()
+        {
+            yield return new WaitForSeconds(0.05f);
+
+            foreach (BattleChar bc in BattleSystem.instance.AllyList)
+            {
+                if (bc.BuffFind("B_Inaba_P_5"))
+                {
+                    bc.BuffReturn("B_Inaba_P_5")?.SelfDestroy();
+                    Skill skill = Skill.TempSkill("S_Inaba_P_5_0", this.BChar, this.BChar.MyTeam);
+                    skill.PlusHit = true;
+                    skill.FreeUse = true;
+                    this.BChar.ParticleOut(this.MySkill, skill, bc);
+                }
+            }
+
+            foreach (BattleChar bc in BattleSystem.instance.EnemyList)
+            {
+                if (bc.BuffFind("B_Inaba_P_5"))
+                {
+                    bc.BuffReturn("B_Inaba_P_5")?.SelfDestroy();
+                    Skill skill = Skill.TempSkill("S_Inaba_P_5_0", this.BChar, this.BChar.MyTeam);
+                    skill.PlusHit = true;
+                    skill.FreeUse = true;
+                    this.BChar.ParticleOut(this.MySkill, skill, bc);
+                }
+            }
+
+            yield return null;
+            yield break;
         }
     }
 }

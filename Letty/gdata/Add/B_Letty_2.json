@@ -1,0 +1,12 @@
+{
+    "B_Letty_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Letty.B_Letty_2",
+        "BuffTag": "Debuff",
+        "Name": "暖阳",
+        "Debuff": true,
+        "TagPer": 105,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/Helia",
+        "LifeTime": 3
+    }
+}

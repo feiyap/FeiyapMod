@@ -78,6 +78,7 @@ namespace RemiliaScarlet
         public static string Character_RemiliaScarlet = "RemiliaScarlet";
         public static string Character_Skin_RemiliaScarletEclipse = "RemiliaScarletEclipse";
         public static string Character_Skin_RemiliaScarletLord = "RemiliaScarletLord";
+        public static string Character_Skin_RemiliaScarletRedhot = "RemiliaScarletRedhot";
         public static string Character_Skin_RemiliaScarletSpring = "RemiliaScarletSpring";
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Hein = "CampDial_RemiliaScarlet_Hein";
         public static string SimpleCampDialogue_CampDial_RemiliaScarlet_Joey = "CampDial_RemiliaScarlet_Joey";

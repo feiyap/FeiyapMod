@@ -4,10 +4,11 @@
         "ClassName": "Inaba.B_Inaba_4_1",
         "BuffTag": "Debuff",
         "Name": "因幡/诡骗",
-        "LifeTime": 3,
+        "LifeTime": 4,
         "Debuff": true,
         "TagPer": 130,
         "Icon": "B_Inaba_4_1\\B_Inaba_4_1_Icon.png",
-        "Description": ""
+        "Description": "",
+        "MaxStack": 3
     }
 }

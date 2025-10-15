@@ -1,0 +1,7 @@
+{
+    "S_Lian_6": {
+        "_gdeSchema": "Skill",
+        "Name": "沉锋洗净",
+        "Description": "此技在手，每当同伴承受<color=purple>痛苦伤害</color>，本回合消耗减一。"
+    }
+}

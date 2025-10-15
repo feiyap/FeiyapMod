@@ -20,8 +20,9 @@ namespace Inaba
     {
         public override void Init()
         {
-            this.PlusStat.HIT_DEBUFF = -30;
-            this.PlusStat.HIT_DOT = -30;
+            this.PlusStat.hit = -30 * StackNum;
+            this.PlusStat.HIT_DEBUFF = -30 * StackNum;
+            this.PlusStat.HIT_DOT = -30 * StackNum;
         }
     }
 }

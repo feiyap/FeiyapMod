@@ -14,7 +14,7 @@
         "CollectionSprite_SkillFace": "FlandreScarlet\\FlandreScarletCollectionSprite_SkillFace.png",
         "StatView_Atk": 3,
         "StatView_Heal": 0,
-        "StatView_Dot": 1,
+        "StatView_Dot": 0,
         "StatView_Debuff": 1,
         "StatView_Difficult": 2,
         "MAXHP": {
@@ -119,6 +119,6 @@
         "_gdeType_Text_Witch": "String",
         "_gdeIsList_Text_Witch": 1,
         "Text_MasterTarget": "不要，芙兰不想死——",
-        "StatView_CC": 1
+        "StatView_CC": 0
     }
 }

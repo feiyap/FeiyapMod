@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "MaribelHearn\\MaribelHearnBattleChar.png",
-        "pivot": {
-            "x": 0.5588784,
-            "y": 0.793612957
+        "offsetMax": {
+            "x": 713.452759,
+            "y": 299.673676
         },
         "offsetMin": {
-            "x": -780.3975,
-            "y": -1477.563
+            "x": -686.547241,
+            "y": -1500.32629
         },
-        "offsetMax": {
-            "x": 615.9661,
-            "y": 384.255127
+        "pivot": {
+            "x": 0.490390867,
+            "y": 0.833514631
         }
     },
     "MyChangeType": "BattleChar",

@@ -27,6 +27,9 @@
         "Track": false,
         "EnemyPreview": false,
         "UnknownTarget": false,
-        "Effect_Self": "SE_S_S_Reisen_8"
+        "Effect_Self": "SE_S_S_Reisen_8",
+        "SkillExtended": [
+            "Reisen.S_Reisen_8"
+        ]
     }
 }

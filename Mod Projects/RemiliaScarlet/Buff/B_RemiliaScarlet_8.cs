@@ -27,7 +27,7 @@ namespace RemiliaScarlet
         
         public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
         {
-            if (!View && Damage > 0)
+            if (!View && Damage > 0 && !Target.Info.Ally)
             {
                 Target.Damage(this.BChar, (int)(Damage / 2 + this.Usestate_F.GetStat.maxhp * 0.25f), Cri, true, false, 0, false, false, false);
                 Damage = Damage * 50 / 100;

@@ -1,0 +1,10 @@
+{
+    "SE_Letty_C_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "使 1 个随机敌人冻僵 1 回合。",
+        "Drop": true,
+        "EnforceString": "一次性技能",
+        "NeedCharacter": "Letty",
+        "ClassName": "Letty.SE_Letty_C_1"
+    }
+}

@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "MaribelHearn\\MaribelHearnFaceOriginChar.png",
-        "offsetMax": {
-            "x": 705.5821,
-            "y": 331.8941
+        "pivot": {
+            "x": 0.466246665,
+            "y": 0.8773519
         },
         "offsetMin": {
-            "x": -830.4179,
-            "y": -1716.106
+            "x": -652.7453,
+            "y": -1579.2334
         },
-        "pivot": {
-            "x": 0.5397252,
-            "y": 0.835318267
+        "offsetMax": {
+            "x": 747.2547,
+            "y": 220.766617
         }
     },
     "MyChangeType": "FaceOriginChar",

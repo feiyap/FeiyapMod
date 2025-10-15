@@ -17,28 +17,20 @@ namespace Inaba
 	/// 因幡/兔运
 	/// 命中时消耗1层，使目标防御力-4%，闪避率-4%。最多叠加5次。
 	/// </summary>
-    public class B_Inaba_8:Buff, IP_SkillUse_Target
+    public class B_Inaba_8:Buff, IP_DamageChange
     {
         public override void Init()
         {
-            this.PlusPerStat.Damage = 2 * StackNum;
-            this.PlusStat.hit = 4 * StackNum;
-            this.isStackDestroy = true;
+            this.PlusStat.cri = 25;
         }
 
-        public override void BuffStat()
+        public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
         {
-            this.PlusPerStat.Damage = 2 * StackNum;
-            this.PlusStat.hit = 4 * StackNum;
-        }
-
-        public void AttackEffect(BattleChar hit, SkillParticle SP, int DMG, bool Cri)
-        {
-            if (hit.HP >= 1 && base.StackNum >= 1 && SP.SkillData.IsDamage)
+            if (SkillD.PlusHit && SkillD.Master == this.BChar && Cri && !View)
             {
-                hit.BuffAdd("B_Inaba_8_0", base.Usestate_F, false, 0, false, -1, false);
-                base.StackDestroy();
+                this.PlusStat.PlusCriDmg += 10;
             }
+            return Damage;
         }
     }
 }

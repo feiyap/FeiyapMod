@@ -20,7 +20,7 @@
         "EnemyPreview": false,
         "UnknownTarget": false,
         "Name": "速符「高速的白影」",
-        "Description": "如果目标身上有2个以上弱化减益，额外追加攻击2次，每次造成&a(30%)伤害。",
+        "Description": "如果目标持有 2 个以上的弱化减益，将 1 个“炸弹？！”施加给目标。",
         "User": "Inaba",
         "UseAp": 2,
         "Effect_Target": "SE_T_S_Inaba_0",

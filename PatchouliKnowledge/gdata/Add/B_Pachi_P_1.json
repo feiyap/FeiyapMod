@@ -6,7 +6,12 @@
         "Name": "元素充盈",
         "Description": "释放「元素祈唤」时重置冷却时间。\n触发后减少 1 层。",
         "Icon": "B_Pachi_P_1\\B_Pachi_P_1_Icon.png",
-        "LifeTime": 0,
-        "MaxStack": 2
+        "LifeTime": 1,
+        "MaxStack": 5,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

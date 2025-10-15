@@ -25,10 +25,10 @@ namespace Inaba
 
             InabaDraw();
 
-            Skill skill = Skill.TempSkill("S_Inaba_5", this.BChar, this.BChar.MyTeam);
-            skill.isExcept = true;
-            skill.AutoDelete = 1;
-            this.BChar.MyTeam.Add(skill, true);
+            //Skill skill = Skill.TempSkill("S_Inaba_5", this.BChar, this.BChar.MyTeam);
+            //skill.isExcept = true;
+            //skill.AutoDelete = 1;
+            //this.BChar.MyTeam.Add(skill, true);
         }
     }
 }

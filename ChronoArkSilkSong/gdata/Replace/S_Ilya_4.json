@@ -1,0 +1,8 @@
+{
+    "S_Ilya_4": {
+        "_gdeSchema": "Skill",
+        "NoBasicSkill": false,
+        "Name": "浮粒子刀术-初斩",
+        "Description": "若目标持有痛苦减益存在，此技暴击。"
+    }
+}

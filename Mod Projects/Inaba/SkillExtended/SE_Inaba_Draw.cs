@@ -20,6 +20,11 @@ namespace Inaba
     {
         public void InabaDraw(int count = 1, bool isLucyD = false)
         {
+            if (BattleSystem.instance.EnemyList.Count < 1)
+            {
+                return;
+            }
+
             BattleChar usingChar = this.BChar;
             if (isLucyD)
             {
@@ -87,6 +92,10 @@ namespace Inaba
         public IEnumerator InabaAttack(Skill AttackSkill, BattleChar Target)
         {
             yield return new WaitForSeconds(0.2f);
+            if (Target == null)
+            {
+                yield break;
+            }
             if (!Target.IsDead)
             {
                 yield return BattleSystem.instance.ForceAction(AttackSkill, Target, false, false, true, null);

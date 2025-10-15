@@ -1,0 +1,11 @@
+{
+    "B_Letty_Rare_3": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Letty.B_Letty_Rare_3",
+        "BuffTag": "null",
+        "Name": "冬至",
+        "Description": "回合开始时，获得 &a 保护罩(&user最大体力值的25%)。",
+        "Icon": "B_Letty_Rare_3\\B_Letty_Rare_3_Icon.png"
+    }
+}

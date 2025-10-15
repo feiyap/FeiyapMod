@@ -1,0 +1,7 @@
+{
+    "B_Lian_10_S": {
+        "_gdeSchema": "Buff",
+        "Name": "倚剑护阵",
+        "Description": "若有敌来犯，<b>抢剑于前</b>，施以&a点伤害。\r\n触发则减少1层。"
+    }
+}

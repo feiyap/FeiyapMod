@@ -1,0 +1,6 @@
+{
+    "SkillEn_IlyaPassive": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "减少此技の消耗1点。\r\n出手时，手中顶牌或底牌丢弃。"
+    }
+}

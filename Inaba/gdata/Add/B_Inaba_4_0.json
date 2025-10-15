@@ -8,6 +8,7 @@
         "Debuff": true,
         "TagPer": 130,
         "Icon": "Image/Buff/Skill_Icon_Pack/Debuff",
-        "LifeTime": 3
+        "LifeTime": 4,
+        "MaxStack": 3
     }
 }

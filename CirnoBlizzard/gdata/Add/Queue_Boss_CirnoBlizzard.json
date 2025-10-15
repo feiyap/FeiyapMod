@@ -1,0 +1,18 @@
+{
+    "Queue_Boss_CirnoBlizzard": {
+        "_gdeSchema": "EnemyQueue",
+        "CustomBGM": false,
+        "UseCustomPosition": false,
+        "Pos": [
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        ],
+        "CustomeFogTurn": 99,
+        "Enemys": [
+            "Boss_CirnoBlizzard"
+        ]
+    }
+}

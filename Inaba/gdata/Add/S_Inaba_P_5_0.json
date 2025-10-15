@@ -3,7 +3,7 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Enemy/Boss/BombClown_0",
-        "Target": "self",
+        "Target": "enemy",
         "NoDrop": true,
         "Except": true,
         "Name": "炸弹爆炸",

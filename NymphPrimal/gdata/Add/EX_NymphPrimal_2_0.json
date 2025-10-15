@@ -1,9 +1,0 @@
-{
-    "EX_NymphPrimal_2_0": {
-        "_gdeSchema": "SkillExtended",
-        "ClassName": "NymphPrimal.EX_NymphPrimal_2_0",
-        "AlwaysParticle": false,
-        "IsOnesInit": false,
-        "IsIcon": ""
-    }
-}

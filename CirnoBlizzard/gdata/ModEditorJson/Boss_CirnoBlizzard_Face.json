@@ -1,0 +1,23 @@
+{
+    "myKey": "Boss_CirnoBlizzard",
+    "myField": "Face",
+    "myValues": {
+        "path": "Boss_CirnoBlizzard\\Boss_CirnoBlizzardFace.png",
+        "offsetMax": {
+            "x": 768.9722,
+            "y": 247.889923
+        },
+        "offsetMin": {
+            "x": -721.747864,
+            "y": -1668.75012
+        },
+        "pivot": {
+            "x": 0.482797444,
+            "y": 0.8677479
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

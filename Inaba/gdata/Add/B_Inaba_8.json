@@ -5,10 +5,10 @@
         "ClassName": "Inaba.B_Inaba_8",
         "BuffTag": "null",
         "Name": "因幡/兔运",
-        "Description": "命中时消耗1层，使目标防御力-4%，闪避率-4%。最多叠加5次。",
-        "LifeTime": 0,
-        "IsFieldBuff": true,
+        "Description": "追加攻击/反击触发暴击时，获得“暴击伤害+10%”。",
+        "LifeTime": 3,
+        "IsFieldBuff": false,
         "Icon": "B_Inaba_8\\B_Inaba_8_Icon.png",
-        "MaxStack": 5
+        "MaxStack": 0
     }
 }

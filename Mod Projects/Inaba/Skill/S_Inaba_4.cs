@@ -19,13 +19,41 @@ namespace Inaba
 	/// </summary>
     public class S_Inaba_4: SE_Inaba_Draw
     {
+        public override bool CanIgnoreTauntTarget(BattleChar IgnoreTauntTarget)
+        {
+            return IgnoreTauntTarget.GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false, false).Count != 0 || base.CanIgnoreTauntTarget(IgnoreTauntTarget);
+        }
+
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            int num = Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false, false).Count;
-            if (num >= 2)
+            
+            foreach (BattleChar bc in Targets)
             {
-                InabaDraw(2);
+                foreach (Buff buff in bc.GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false))
+                {
+                    buff.AddBuffEx(new S_Inaba_4_BuffEx());
+                    bc.Damage(this.BChar, (int)(this.BChar.GetStat.atk * 0.1 * buff.StackNum), false, true);
+                    foreach (StackBuff stackBuff in buff.StackInfo)
+                    {
+                        stackBuff.RemainTime++;
+                        stackBuff.RemainTime++;
+                    }
+                    buff.BuffStatUpdate();
+                }
+            }
+        }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", (this.plusHit).ToString());
+        }
+
+        public int plusHit
+        {
+            get
+            {
+                return (int)((float)(this.BChar.GetStat.atk * 0.1));
             }
         }
     }

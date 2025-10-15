@@ -21,8 +21,8 @@ namespace Inaba
         public override void Init()
         {
             base.Init();
-            this.PlusStat.cri = 25;
-            this.PlusStat.crihit = 25;
+            this.PlusStat.cri = 25 * StackNum;
+            this.PlusStat.crihit = 25 * StackNum;
         }
     }
 }

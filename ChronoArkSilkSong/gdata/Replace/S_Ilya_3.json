@@ -1,0 +1,8 @@
+{
+    "S_Ilya_3": {
+        "_gdeSchema": "Skill",
+        "IgnoreTaunt": false,
+        "Name": "籁特狞刀术-坠地",
+        "Description": "释放后手中技能仅1个属于自己，那个技能丢弃。\r\n纳刀：牌抓一，减其耗3。"
+    }
+}

@@ -41,13 +41,11 @@ namespace DiffcultSystem
                 {
                     if (__instance.gameObject?.GetComponent<Button>() == null)
                     {
-                        Debug.Log("A");
                         Button button = __instance.gameObject.AddComponent<Button>();
                         button.onClick.AddListener(new UnityAction(EndorphinRelic.Call));
                     }
                     else
                     {
-                        Debug.Log("B");
                         Button button = __instance.gameObject.GetComponent<Button>();
                         button.onClick.RemoveAllListeners();
                         button.onClick.AddListener(new UnityAction(EndorphinRelic.Call));

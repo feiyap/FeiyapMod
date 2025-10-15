@@ -1,4 +1,4 @@
-Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
 Buff/B_KirisameMarisa_0_Description,Text,,,,,,
 Buff/B_KirisameMarisa_0_Name,Text,,,Perilous Starry Sky,デンジャラススタースカイ,危险星空,
 Buff/B_KirisameMarisa_1_Description,Text,,,,,,
@@ -126,9 +126,9 @@ RandomEvent/RE_KirisameMarisa_0_EventDetails,Text,,,"Rinnosuke: ""Oh? Isn't this
 RandomEvent/RE_KirisameMarisa_0_Name,Text,,,Encounter with Rinnosuke,霖之助との偶然の出会い,偶遇霖之助,
 RandomEvent/RE_KirisameMarisa_0_OrderStrings_0,Text,,,Rinnosuke continued with his commission...,霖之助は依頼された仕事を続けたるため去った……,霖之助继续他的委托去了……,
 RandomEvent/RE_KirisameMarisa_0_UseButtonTooltip_0,Text,,,"Rinnosuke: ""I can't use this, so I'll just give it to you for free.""",これは使えないから、タダであげよう。,霖之助：“这东西我留着用不了，就免费送你吧。”,
-RandomEvent/RE_KirisameMarisa_0_UseButtonTooltip_1,Text,,,"Rinnosuke: ""This seems like it would suit Marisa perfectly...""",これは魔理沙にとても合うと思うよ……,霖之助：“这东西好像很契合魔理沙的样子……”,
+RandomEvent/RE_KirisameMarisa_0_UseButtonTooltip_1,Text,,,Rinnosuke: "This seems like it would suit Marisa perfectly...",これは魔理沙にとても合うと思うよ……,霖之助：“这东西好像很契合魔理沙的样子……”,
 RandomEvent/RE_KirisameMarisa_0_UseButton_0,Text,,,"You have obtained Lucy's rare skill book, ""All-Out Attack!""",ルシーのレアスキルブック「総攻撃！」を獲得。,获得露西稀有技能书“总攻！”。,
-RandomEvent/RE_KirisameMarisa_0_UseButton_1,Text,,,"Spend 2000 gold to purchase ""Perilous Trigger.""","金貨を2,000支払って「デンジャラストリガー」を購入する。",花费2000金币，购买“危险扳机”。,
+RandomEvent/RE_KirisameMarisa_0_UseButton_1,Text,,,Spend 2000 gold to purchase "Perilous Trigger.","金貨を2,000支払って「デンジャラストリガー」を購入する。",花费2000金币，购买“危险扳机”。,
 Skill/S_KirisameMarisa_0_4_Description,Text,,,<color=#00BFFF>Peril 4</color> – This skill can be used one more time.,<color=#00BFFF>デンジャラスレベル4</color> - このターン中、もう1度使用できる。,<color=#00BFFF>危险等级4</color> - 本回合内可重复释放 1 次。,
 Skill/S_KirisameMarisa_0_4_Name,Text,,,Polaris Unique,星符「ポラリスユニーク」,星符「Polaris Unique」,
 Skill/S_KirisameMarisa_0_Description,Text,,,This skill can be used one more time.,このターン中、もう1度使用できる。,本回合内可重复释放 1 次。,
@@ -139,11 +139,11 @@ Skill/S_KirisameMarisa_1_3_Description,Text,,,<color=#00BFFF>Peril 3</color> –
 Skill/S_KirisameMarisa_1_3_Name,Text,,,Dragon Meteor,星符「ドラゴンメテオ」,星符「Dragon Meteor」,
 Skill/S_KirisameMarisa_1_Description,Text,,,Guaranteed Critical. Effect removed upon taking damage this turn.,このターン中、ダメージを受けていない場合はクリティカルする。,如果本回合没有受到伤害，以暴击形式命中。,
 Skill/S_KirisameMarisa_1_Name,Text,,,Escape Velocity,星符「エスケープベロシティ」,星符「Escape Velocity」,
-Skill/S_KirisameMarisa_2_2_Description,Text,,,"<color=#00BFFF>Peril 2</color> – For each point of enemy Action Count (up to 7), increase this skill's damage by &a, equal to 25% of the user's Attack Power.",<color=#00BFFF>デンジャラスレベル2</color> - 対象が持つ行動カウント1ごとに(最大で7)、&a<color=#FF7A33>(攻撃力の25%)</color>のダメージを追加で与える。,<color=#00BFFF>危险等级2</color> - 目标每有1点行动倒计时(最多计算7点)，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的25%)</color>。,
+Skill/S_KirisameMarisa_2_2_Description,Text,,,"<color=#00BFFF>Peril 2</color> – For each point of enemy Action Count (up to 11), increase this skill's damage by &a, equal to 35% of the user's Attack Power.",<color=#00BFFF>デンジャラスレベル2</color> - 対象が持つ行動カウント1ごとに(最大で11)、&a<color=#FF7A33>(攻撃力の35%)</color>のダメージを追加で与える。,<color=#00BFFF>危险等级2</color> - 目标每有1点行动倒计时(最多计算11点)，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的35%)</color>。,
 Skill/S_KirisameMarisa_2_2_Name,Text,,,Illusion Star,魔符「イリュージョンスター」,魔符「Illusion Star」,
-Skill/S_KirisameMarisa_2_4_Description,Text,,,"<color=#00BFFF>Peril 4</color> – For each point of enemy Action Count (up to 9), increase this skill's damage by &a, equal to 30% of the user's Attack Power.",<color=#00BFFF>デンジャラスレベル4</color> -  対象が持つ行動カウント1ごとに(最大で9)、&a<color=#FF7A33>(攻撃力の30%)</color>のダメージを追加で与える。,<color=#00BFFF>危险等级4</color> - 目标每有1点行动倒计时(最多计算9点)，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的30%)</color>。,
+Skill/S_KirisameMarisa_2_4_Description,Text,,,"<color=#00BFFF>Peril 4</color> – For each point of enemy Action Count (up to 19), increase this skill's damage by &a, equal to 40% of the user's Attack Power.",<color=#00BFFF>デンジャラスレベル4</color> -  対象が持つ行動カウント1ごとに(最大で19)、&a<color=#FF7A33>(攻撃力の40%)</color>のダメージを追加で与える。,<color=#00BFFF>危险等级4</color> - 目标每有1点行动倒计时(最多计算19点)，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的40%)</color>。,
 Skill/S_KirisameMarisa_2_4_Name,Text,,,Event Horizon,黒魔「イベントホライズン」,黑魔「Event Horizon」,
-Skill/S_KirisameMarisa_2_Description,Text,,,"For each point of enemy Action Count (up to 5), increase this skill's damage by &a, equal to 20% of the user's Attack Power.",対象が持つ行動カウント1ごとに(最大で5)、&a<color=#FF7A33>(攻撃力の20%)</color>のダメージを追加で与える。,目标每有1点行动倒计时(最多计算5点)，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的20%)</color>。,
+Skill/S_KirisameMarisa_2_Description,Text,,,"For each point of enemy Action Count (up to 5), increase this skill's damage by &a, equal to 30% of the user's Attack Power.",対象が持つ行動カウント1ごとに(最大で5)、&a<color=#FF7A33>(攻撃力の30%)</color>のダメージを追加で与える。,目标每有1点行动倒计时(最多计算5点)，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的30%)</color>。,
 Skill/S_KirisameMarisa_2_Name,Text,,,Stardust Reverie,魔符「スターダストレヴァリエ」,魔符「Stardust Reverie」,
 Skill/S_KirisameMarisa_3_2_Description,Text,,,"<color=#00BFFF>Peril 2</color> – Cast this skill 2 times on a random enemy.
 For each point of negative speed, cast this skill an additional time on a random enemy (Max 2).","<color=#00BFFF>デンジャラスレベル2</color> - ランダムな敵に対して2回繰り返し発動する。
@@ -266,9 +266,9 @@ For each point of cost reduction, this skill's damage is halved.","手札に1タ
 每减少1点费用，该技能造成的伤害减少一半。",
 Skill/S_KirisameMarisa_Rare_10_Name,Text,,,Final Master Spark,魔砲「ファイナルマスタースパーク」,魔炮「Final Master Spark」,
 Skill/S_KirisameMarisa_Rare_11_Description,Text,,,"Become invincible but unable to use skills while this skill is on countdown.
-For each point of positive Speed, increase this skill's damage by &a, equal to 50% of the user's Attack Power.","カウントダウン中、自身は[無敵]を得るが行動不能になる。
-発動時、スピードが0より大きい場合、1増加するごとに&a<color=#FF7A33>(攻撃力の50%)</color>ダメージを追加で与える。","倒计时期间，自身处于无敌状态，但无法行动。
-释放时，速度大于0时，每有1点速度，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的50%)</color>。",
+For each point of positive Speed, increase this skill's damage by &a, equal to 100% of the user's Attack Power.","カウントダウン中、自身は[無敵]を得るが行動不能になる。
+発動時、スピードが0より大きい場合、1増加するごとに&a<color=#FF7A33>(攻撃力の100%)</color>ダメージを追加で与える。","倒计时期间，自身处于无敌状态，但无法行动。
+释放时，速度大于0时，每有1点速度，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的100%)</color>。",
 Skill/S_KirisameMarisa_Rare_11_Name,Text,,,Blazing Star,彗星「ブレイジングスター」,彗星「Blazing Star」,
 Skill/S_KirisameMarisa_Rare_12_Description,Text,,,"Draw 1 skill.
 <i><color=#696969>It seems to resonate with other spells, unleashing a more unique power...</color></i>","スキルを1枚引く。
@@ -293,7 +293,7 @@ Repeat the process until the hand limit is reached.
 <i><color=#00BFFF>上啊灵梦！让他们见识一下我们的厉害！</color></i>
 <i><color=#FF4500>啊啊！可不能在这里输了！</color></i>
 <i><color=#00BFFF>为</color><color=#FF4500>了</color><b><color=#FFD700>辉光闪耀的幻想乡！</color></b></i>",
-Skill/S_Satellite_Reimu_Name,Text,,,"Chrono-Space ""Our Gensokyo!""",超時空「私の幻想郷！」,超时空「我们的幻想乡！」,
+Skill/S_Satellite_Reimu_Name,Text,,,Chrono-Space "Our Gensokyo!",超時空「私の幻想郷！」,超时空「我们的幻想乡！」,
 SkillExtended/SE_KirisameMarisa_7_Name,Text,,,Ignore armor and double the damage dealt.,防御力を無視し、与えるダメージが2倍になる。,无视防御，造成的伤害翻倍。,
 SkillExtended/SE_KirisameMarisa_8_Des,Text,,,"This attack will target all enemies.
 If facing a single enemy, the attack will gain Guaranteed Critical.",すべての敵を同時に攻撃し、対象が1体の場合はクリティカルする,同时攻击所有敌人；且若目标只有一个，以暴击形式命中。,

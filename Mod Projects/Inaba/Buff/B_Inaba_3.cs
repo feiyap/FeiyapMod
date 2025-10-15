@@ -34,9 +34,9 @@ namespace Inaba
             if (SP.SkillData.PlusHit)
             {
                 count++;
-                this.PlusStat.RES_CC = -5 * count;
-                this.PlusStat.RES_DEBUFF = -5 * count;
-                this.PlusStat.RES_DOT = -5 * count;
+                this.PlusStat.RES_CC = -5 * count * StackNum;
+                this.PlusStat.RES_DEBUFF = -5 * count * StackNum;
+                this.PlusStat.RES_DOT = -5 * count * StackNum;
             }
         }
     }

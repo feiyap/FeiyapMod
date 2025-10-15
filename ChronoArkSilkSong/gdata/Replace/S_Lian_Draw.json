@@ -1,0 +1,9 @@
+{
+    "S_Lian_Draw": {
+        "_gdeSchema": "Skill",
+        "Rare": false,
+        "NoBasicSkill": false,
+        "Name": "宵小退散！",
+        "Description": "由牌库取二技。\r\n净除所选敌人之嘲讽。"
+    }
+}

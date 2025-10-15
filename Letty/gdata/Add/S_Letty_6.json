@@ -1,0 +1,21 @@
+{
+    "S_Letty_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/SnowGiant_1",
+        "Target": "all_enemy",
+        "NotCount": false,
+        "Name": "寒符「寒潮」",
+        "User": "Letty",
+        "UseAp": 1,
+        "Disposable": true,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_Letty_6",
+        "SkillExtended": [
+            "Letty.S_Letty_6"
+        ],
+        "Image_0": "S_Letty_6\\S_Letty_6_Image_0.png",
+        "Image_1": "S_Letty_6\\S_Letty_6_Image_1.png",
+        "Image_2": "S_Letty_6\\S_Letty_6_Image_2.png"
+    }
+}

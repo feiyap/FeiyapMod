@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "Feiyap\\FeiyapFaceSmallChar.png",
-        "pivot": {
-            "x": 0.5634959,
-            "y": 0.884427369
+        "offsetMax": {
+            "x": 446.87265,
+            "y": 101.562622
         },
         "offsetMin": {
-            "x": -325.783356,
-            "y": -767.7991
+            "x": -271.548645,
+            "y": -822.1219
         },
-        "offsetMax": {
-            "x": 248.757324,
-            "y": 94.01205
+        "pivot": {
+            "x": 0.3751512,
+            "y": 0.883994639
         }
     },
     "MyChangeType": "FaceSmallChar",

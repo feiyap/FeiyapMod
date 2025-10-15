@@ -9,26 +9,25 @@ Buff/B_Inaba_4_1_Description,Text,,,,,,
 Buff/B_Inaba_4_1_Name,Text,,이나바/기만,Inaba/Trickery,因幡/欺瞞,因幡/诡骗,
 Buff/B_Inaba_4_2_Description,Text,,,,,,
 Buff/B_Inaba_4_2_Name,Text,,이나바/매료,Inaba/Allure,因幡/魅惑,因幡/魅惑,
-Buff/B_Inaba_7_0_Description,Text,,[이나바/도피]를 가진 유닛이 대신 피해를 입습니다.,Takes damage on behalf of ally with [Inaba/Escape].,[因幡/逃走]を持つ者がダメージを受けるとき、代わりにそのダメージを苦痛ダメージとして受ける。,代替拥有[因幡/逃逸]的单位受到伤害。,
-Buff/B_Inaba_7_0_Name,Text,,이나바/오도,Inaba/Misdirection,因幡/誤導,因幡/误导,
-Buff/B_Inaba_7_Description,Text,,"피해를 받으면 [이나바/오도]를 가진 아군에게 이전됩니다.
-제거 시 자신의 스킬을 우선으로 1장 뽑습니다.","When receiving damage, transfer it to a unit with [Inaba/Misdirection].
-Upon removal, prioritize drawing one of your own skills.","ダメージを受けるとき、[因幡/誤導]を持つ者にそのダメージを移す。
-これが除去されたとき、自身のスキルを優先して1枚引く。","受到伤害时，转移给拥有[因幡/误导]的单位；
-解除时优先抽取1个自己的技能。",
 Buff/B_Inaba_7_Name,Text,,이나바/도피,Inaba/Escape,因幡/逃走,因幡/逃逸,
 Buff/B_Inaba_8_0_Description,Text,,,,,,
 Buff/B_Inaba_8_0_Name,Text,,이나바/토끼분노,Inaba/Rabbit Fury,因幡/兎怒,因幡/兔怒,
-Buff/B_Inaba_8_Description,Text,,"공격 시 1중첩을 소모하여 대상의 방어력을 -4%, 회피율을 -4%로 만듭니다.
-최대 5중첩까지 가능합니다.","When hitting, consume 1 stack to reduce the target’s defense by 4% and dodge rate by 4%. Can stack up to 5 times.",命中時ストックを1消費して、対象の防御力と回避率を4%減少させる。ストックの上限は5。,命中时消耗1层，使目标防御力-4%，闪避率-4%。最多叠加5次。,
+Buff/B_Inaba_8_Description,Text,,추가 공격/반격 시 발동되는 치명타 시 "치명타 피해+10%"를 획득합니다.,"When a additional attacks or counterattacks Crit, gain ""CRIT DMG +10%"".",追加攻撃/反撃がクリティカルを発動した時、「クリティカルダメージ+10%」を獲得する。,追加攻击/反击触发暴击时，获得“暴击伤害+10%”。,
 Buff/B_Inaba_8_Name,Text,,이나바/토끼운송,Inaba/Rabbit Luck,因幡/兎運,因幡/兔运,
 Buff/B_Inaba_9_Description,Text,,"추가 공격/반격 발동 시 &target은 대상에게 &a(30%)피해량의 추가 공격을 합니다.
-([카구야/꿈의고향]은 발동되지 않습니다.)","When triggering additional attacks or counterattacks, &target will simultaneously deal an additional attack to the target for &a (30%) damage (does not trigger [Kaguya/Dreamland]).",追加攻撃/反撃を発動させたとき、&targetは同時に対象に&a(30%)のダメージを与える追撃を行う(この追撃では[輝夜/夢郷]は発動しない)。,触发追加攻击/反击时，&target会同时对目标进行一次&a(30%)伤害的追加攻击（不会触发[辉夜/梦乡]）。,
+([카구야/꿈의고향]은 발동되지 않습니다.)","When triggering additional attacks or counterattacks, &target will simultaneously deal an additional attack to the target for &a (30%) damage (does not trigger [Kaguya/Dreamland]).",追加攻撃/反撃を発動させたとき、&targetは同時に対象に&a(30%)のダメージを与える追撃を行う(この追撃では[輝夜/夢郷]は発動しない)。,触发追加攻击/反击时，&target会同时对目标进行一次 &a 伤害的追加攻击(&target攻击力的30%)（不会触发[辉夜/梦乡]）。,
 Buff/B_Inaba_9_Name,Text,,환상/이나바,Illusion/Inaba,幻影/因幡,幻象/因幡,
 Buff/B_Inaba_P_1_Description,Text,,,,,,
 Buff/B_Inaba_P_1_Name,Text,,이나바/지운,Inaba/Earth Luck,因幡/地運,因幡/地运,
-Buff/B_Inaba_P_5_Description,Text,,"턴 종료 시 40피해를 입습니다. 
-공격 후 대상에게 이 디버프를 전달합니다.","At the end of the turn, deal 40 damage. After attacking, transfer this debuff to the target.",攻撃や回復後、対象にこれを移す。ターン終了時に40のダメージを与える。,回合结束时，造成40伤害。攻击后将此减益转移至目标身上。,
+Buff/B_Inaba_P_5_Description,Text,,"턴 종료 시 &a의 피해(공격력의 200%)를 입힙니다.
+공격 후 이 약화 효과는 대상에게 전이됩니다.
+중복으로 폭탄이 부여될 경우, 이전 폭탄을 즉시 폭발시킵니다.","At the end of the turn, deal &a DMG (200% of &user's ATK).
+After attacking, transfer this debuff to the target.
+When a Bomb is repeatedly applied, immediately detonate the previous Bomb.","ターン終了時、&aのダメージ(&user攻撃力の200%)を与える。
+攻撃後、このデバフは対象に移る。
+重複して爆弾が付与された場合、直前の爆弾を即座に爆発させる。","回合结束时，造成 &a 伤害(&user攻击力的200%)。
+攻击后将此减益转移至目标身上。
+被重复施加炸弹时，立即引爆上一个炸弹。",
 Buff/B_Inaba_P_5_Name,Text,,폭탄?!,Bomb?!,爆弾？！,炸弹？！,
 Buff/B_Inaba_Rare11_0_Description,Text,,"행동불가.
 다음 턴 시작 시 제거됩니다.
@@ -90,6 +89,8 @@ Character/Inaba_Text_PharosLeader_2,Text,,,Let's trade your life for mine!,私�
 Character/Inaba_Text_Witch_0,Text,,,"You’ll finish quickly, right, right?",すぐに終わりますよね？ ,你会速战速决的，对吧，对吧？,
 Character/Inaba_Text_Witch_1,Text,,"아니, 우린 여기서 죽고싶지 않아....","Please, please, no...",お願い、やめて... ,求求你、不要……,
 Character/Inaba_name,Text,,이나바 테위,Inaba Tewi,因幡てゐ,因幡帝,
+Character_Skin/InabaEclipse_SkinDesc,Text,,"어떤 경기라도 타이밍이 중요하지, 나는 행운의 토끼니까!","Timing is everything in any competition, and I'm the lucky rabbit!",どんな勝負もタイミングが大事で、私は幸運のウサギだから！,无论什么比赛都看时机，而我是幸运之兔！,
+Character_Skin/InabaEclipse_SkinName,Text,,환상향에서 가장 똑똑하고 귀여운 토끼,The smartest and cutest rabbit in Gensokyo,幻想郷で一番賢くて可愛いウサギ,幻想乡最聪明可爱的兔子,
 Item_Passive/R_Inaba_0_Description,Text,,"금화를 100개 보유할 때 마다, 추가 공격/반격의 피해량이 1%증가합니다.","For every 100 gold you have, additional attack/counterattack damage is increased by 1%.",所持している金貨100枚ごとに、追加攻撃/反撃のダメージが1%増加する。,每拥有100金币，追加攻击/反击的伤害+1%。,
 Item_Passive/R_Inaba_0_name,Text,,흰토끼의 네잎클로버,Rabbit's Four-Leaf Clover,白兎のクローバー,白兔的四叶草,
 SimpleCampDialogue/CampDial_Inaba_Cirno_Dialogues_0,Text,,"[A]오오, 치르노, 오랜만이야!",,[A]呀呀，琪露诺，可是好久不见！,[A]呀呀，琪露诺，可是好久不见！,
@@ -136,33 +137,34 @@ SimpleCampDialogue/CampDial_Inaba_Youmu_Dialogues_1,Text,,[B]음... 그렇게 �
 SimpleCampDialogue/CampDial_Inaba_Youmu_Dialogues_2,Text,,[A]걱정 마! 여기 모든 것이 구비되어있으니까! 지금 구매하면 기간한정혜택이 이렇게나!,,[A]放心！咱这里可是应有尽有！现在购买还有限时优惠哟！,[A]放心！咱这里可是应有尽有！现在购买还有限时优惠哟！,
 SimpleCampDialogue/CampDial_Inaba_Youmu_Dialogues_3,Text,,[B]설마 제 숫돌을 당신이 훔쳐간건 아니겠죠....,,[B]我的磨刀石不会是被你偷走了吧……,[B]我的磨刀石不会是被你偷走了吧……,
 Skill/S_Inaba_0_0_Name,Text,,신속의 흰그림자,Speedy White Shadow,高速の白い影,高速的白影,
-Skill/S_Inaba_0_Description,Text,,"대상에게 '약화' 디버프가 2개 이상 있을 경우, 
-&a(30%)의 피해량으로 추가 공격을 2회 시전합니다.","If the target has 2 or more weakening debuffs, trigger two additional attacks, each dealing &a (30%) damage.",対象が衰弱デバフを2つ以上持つ場合、&a(30%)のダメージの追加攻撃を2回行う。,如果目标身上有2个以上弱化减益，额外追加攻击2次，每次造成&a(30%)伤害。,
+Skill/S_Inaba_0_Description,Text,,"대상이 2개 이상의 약화 효과를 보유 중일 경우, 대상에게 ""폭탄?!"" 1개를 부여합니다.","When the target has 2 or more Weakness Debuffs, apply 1 ""Bomb?!"" to the target.",対象が2つ以上の弱体デバフを所持している場合、対象に「爆弾？！」を1つ付与する。,如果目标持有 2 个以上的弱化减益，将 1 个“炸弹？！”施加给目标。,
 Skill/S_Inaba_0_Name,Text,,속부「신속의 흰그림자」,Speed Spell「Speedy White Shadow」,速符「高速の白い影」,速符「高速的白影」,
 Skill/S_Inaba_1_Description,Text,,대상의 도발 상태를 변경합니다.,Changes the target's taunt status.,対象の持つ挑発状態を変更する。,改变目标的嘲讽状态。,
 Skill/S_Inaba_1_Name,Text,,순부「순간의 섬광」,Instant Spell「Instant Flash」,瞬符「一瞬の閃光」,瞬符「瞬间的闪光」,
 Skill/S_Inaba_2_Description,Text,,<color=#FFD700>테위의 럭셔리 보너스</color>의 효과 중 1개를 무작위로 발동합니다.,Randomly triggers one effect from <color=#FFD700>Tewi's Luxurious Jackpot</color>.,<color=#FFD700>てゐの豪華商品</color>の中からランダムに1つ発動させる。,从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。,
 Skill/S_Inaba_2_Name,Text,,토부「이나바의 흰토끼」,Rabbit Spell「Bare White Rabbit of Inaba」,兎符「因幡の素兎」,兔符「因幡的白兔」,
-Skill/S_Inaba_3_Description,Text,,"대상에게 '약화' 디버프가 2개 이상 있을 경우, 
-다른 무작위 적을 동시에 공격합니다.","If the target has 2 or more weakening debuffs, attack another random enemy simultaneously.",対象が衰弱デバフを2つ以上持つ場合、ランダムな他の敵を同時に攻撃する。,如果目标身上有2个以上弱化减益，同时攻击其他随机敌人。,
+Skill/S_Inaba_3_Description,Text,,"대상에게 '약화' 디버프가 1개 이상 있을 경우, 
+다른 무작위 적을 동시에 공격합니다.","If the target has 1 or more weakening debuffs, attack other enemy simultaneously.",対象が衰弱デバフを1つ以上持つ場合、他の敵を同時に攻撃する。,如果目标身上持有 1 个以上的弱化减益，同时攻击其他所有敌人。,
 Skill/S_Inaba_3_Name,Text,,토부「토끼 대개화!」,Rabbit Spell「Rabbit Bloom!」,兎符「兎の大開花！」,兔符「兔子大开花！」,
-Skill/S_Inaba_4_Description,Text,,"대상에게 '약화' 디버프가 2개 이상 있을 경우, 
-<color=#FFD700>테위의 럭셔리 보너스</color>의 효과 중 2개를 무작위로 발동합니다.","If the target has 2 or more weakening debuffs, randomly trigger two effects from <color=#FFD700>Tewi's Luxurious Jackpot</color>.",対象が衰弱デバフを2つ以上持つ場合、<color=#FFD700>てゐの豪華商品</color>の中からランダムに2つ発動させる。,如果目标身上有2个以上弱化减益，从<color=#FFD700>帝的豪华奖池</color>中随机触发2个效果。,
+Skill/S_Inaba_4_Description,Text,,"도발을 무시하고 약화 효과를 보유한 적을 지정할 수 있습니다.
+대상이 보유한 약화 효과 1개당: &a의 고통 피해(공격력의 10%)를 입힙니다; ""매 턴 &a의 고통 피해(공격력의 10%)를 입힘"" 효과를 획득합니다; 지속 시간을 2턴 연장합니다.","Can ignore Taunt to designate enemies with Weakness Debuffs.
+For each stack of Weakness Debuff the target has: Deal &a Pain Damage (10% of ATK); Gain the effect ""Deal &a Pain Damage (10% of ATK) per turn""; Extend duration by 2 turns.","挑発を無視して弱体デバフを所持している敵を指定できる。
+対象が所持する弱体デバフ1層につき：&aの苦痛ダメージ(攻撃力の10%)を与える；「毎ターン&aの苦痛ダメージ(攻撃力の10%)を与える」効果を獲得する；持続時間を2ターン延長する。","可以无视嘲讽指向持有弱化减益的敌人。
+使目标持有的每层弱化减益：造成 &a 痛苦伤害(攻击力的10%)；获得“每回合造成 &a 点痛苦伤害(攻击力的10%)”的效果；延长 2 回合持续时间。",
 Skill/S_Inaba_4_Name,Text,,「에인션트 듀퍼」,「Ancient Duper」,「エンシェントデューパー」,「远古的骗术」,
 Skill/S_Inaba_5_Description,Text,,"<color=#FFD700>테위의 럭셔리 보너스</color>의 효과 중 1개를 무작위로 발동합니다.
 이번 턴, 다시 사용할 수 있습니다.","Randomly triggers one effect from <color=#FFD700>Tewi's Luxurious Jackpot</color>.
 Can be used again this turn.","<color=#FFD700>てゐの豪華商品</color>の中からランダムに1つ発動させる。
-このターン中、再使用できる。","从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。
-可在本回合内再次使用。",
+このターン中、再使用できる。",从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。,
 Skill/S_Inaba_5_Name,Text,,토부「운이 트이는 큰 무늬」,Rabbit Spell「Great Fortune Crest」,兎符「開運大紋」,兔符「开运大纹」,
-Skill/S_Inaba_6_Description,Text,,"이번 전투에서 단 1회, 선택한 스킬의 치명타 적중률이 50%추가됩니다.
-시전 시 <color=#FFD700>테위의 럭셔리 보너스</color>의 효과 중 1개를 무작위로 발동합니다.","Increases the critical rate of the target’s skill by 50%, and randomly triggers one effect from <color=#FFD700>Tewi’s Luxurious Jackpot</color> when used.
-Only affect once.",この戦闘中に1度のみ、対象のスキルの「クリティカル率を50%増加し使用時に<color=#FFD700>てゐの豪華商品</color>の中からランダムに1つ発動させる」を与える。,这场战斗中仅有一次，目标技能的暴击率+50%，并在释放时从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。,
-Skill/S_Inaba_6_Name,Text,,행부「행운의 백마법」,Lucky Spell「Lucky White Magic」,幸符「幸運を呼ぶ白魔法」,幸符「幸运的白色魔法」,
-Skill/S_Inaba_7_0_Description,Text,,,,,,
-Skill/S_Inaba_7_0_Name,Text,,영부「흐릿한 달밤의 그릇된인도」,Shadow Spell「Mislead Under the Dark Moon」,影符「月下の欺瞞」,影符「暗月下的误导」,
-Skill/S_Inaba_7_Description,Text,,[영부「흐릿한 달밤의 그릇된인도」]를 1장 생성합니다.,Create a [Shadow Spell「Mislead Under the Dark Moon」] card.,「影符-月下の欺瞞」を1枚生成する。,生成1张[影符「暗月下的误导」]。,
-Skill/S_Inaba_7_Name,Text,,영부「흐릿한 달밤의 탈출」,Shadow Spell「Escape Under the Dark Moon」,影符「月下の逃走」,影符「暗月下的逃逸」,
+Skill/S_Inaba_6_Description,Text,,,,,,
+Skill/S_Inaba_6_Name,Text,,행부「행운의 백마법」,Lucky Spell「Lucky White Magic」,幸符「幸運を呼ぶ白魔法」,炸符「狂乱之兔」,
+Skill/S_Inaba_7_Description,Text,,"대상에게 ""폭탄?!"" 1개를 부여합니다.
+그 후, 대상이 보유한 모든 ""폭탄?!"" 약화 효과를 즉시 폭발시킵니다.","Apply 1 ""Bomb?!"" to the target.
+After that, immediately detonate all ""Bomb?!"" debuffs.","対象に「爆弾？！」を1つ付与する。
+その後、対象が所持する全ての「爆弾？！」デバフを即座に爆発させる。","将 1 个“炸弹？！”施加给目标。
+那之后，立即引爆所有目标持有的“炸弹？！”减益。",
+Skill/S_Inaba_7_Name,Text,,영부「흐릿한 달밤의 탈출」,Shadow Spell「Escape Under the Dark Moon」,影符「月下の逃走」,炸弹「起爆按钮」,
 Skill/S_Inaba_8_Name,Text,,토부「행운의 토끼발자국」,Rabbit Spell「Lucky Rabbit's Footprint」,兔符「幸運兎の足跡」,兔符「幸运的兔足印」,
 Skill/S_Inaba_9_0_Name,Text,,구조 토끼,Rescue Rabbit,救援兔,救援兔,
 Skill/S_Inaba_9_Description,Text,,,,,,
@@ -175,7 +177,7 @@ If Inaba Tewi is alive, randomly trigger one effect from <color=#FFD700>Tewi's L
 Skill/S_Inaba_LucyD_Name,Text,,행부「네잎의 수호」,Lucky Spell「Four-Leaf Clover Protection」,幸符「四葉の守護者」,幸符「四叶的守护」,
 Skill/S_Inaba_P_0_Description,Text,,,,,,
 Skill/S_Inaba_P_0_Name,Text,,토끼돌격!,Rabbit Swarm Charge,ラビットチャージ,兔群冲锋,
-Skill/S_Inaba_P_1_Description,Text,,체력이 가장 낮은 아군의 체력을 소량 회복합니다.,Restore a small amount of HP to the random ally.,味方を少し回復する。,恢复随机友军少量体力。,
+Skill/S_Inaba_P_1_Description,Text,,체력이 가장 낮은 아군의 체력을 소량 회복합니다.,Restore a small amount of HP to the random ally.,味方を少し回復する。,恢复体力最低的友军少量体力。,
 Skill/S_Inaba_P_1_Name,Text,,새해떡,Mochi,寒餅,年糕,
 Skill/S_Inaba_P_2_Description,Text,,,,,,
 Skill/S_Inaba_P_2_Name,Text,,작은 토끼,Little Bunny,小さな兎,小兔叽,

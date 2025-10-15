@@ -1,0 +1,22 @@
+{
+    "S_Letty_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/SnowGiant_1",
+        "Target": "enemy",
+        "NotCount": false,
+        "NoBasicSkill": true,
+        "Name": "冬符「花之凋零」",
+        "Description": "若目标持有弱化减益，施加“冻僵”。\r\n若目标持有干扰减益，则使自身获得“雪花”。",
+        "User": "Letty",
+        "UseAp": 2,
+        "Track": true,
+        "Effect_Target": "SE_T_S_Letty_4",
+        "SkillExtended": [
+            "Letty.S_Letty_4"
+        ],
+        "Image_0": "S_Letty_4\\S_Letty_4_Image_0.png",
+        "Image_1": "S_Letty_4\\S_Letty_4_Image_1.png",
+        "Image_2": "S_Letty_4\\S_Letty_4_Image_2.png"
+    }
+}

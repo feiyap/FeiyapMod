@@ -22,12 +22,17 @@ namespace Inaba
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-            int num = Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false, false).Count;
-            if (num >= 2)
+            foreach (BattleEnemy be in Targets)
             {
-                BattleSystem.DelayInputAfter(this.Ienum(Targets));
-                BattleSystem.DelayInputAfter(this.Ienum(Targets));
+                int num = be.GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false, false).Count;
+                if (num >= 2)
+                {
+                    //BattleSystem.DelayInputAfter(this.Ienum(Targets));
+                    //BattleSystem.DelayInputAfter(this.Ienum(Targets));
+                    be.BuffAdd("B_Inaba_P_5", this.BChar);
+                }
             }
+            
         }
 
         public IEnumerator Ienum(List<BattleChar> Targets)

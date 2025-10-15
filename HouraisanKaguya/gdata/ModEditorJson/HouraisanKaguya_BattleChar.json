@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "HouraisanKaguya\\HouraisanKaguyaBattleChar.png",
-        "pivot": {
-            "x": 0.471913368,
-            "y": 0.813811
+        "offsetMax": {
+            "x": 627.4715,
+            "y": 299.33432
         },
         "offsetMin": {
-            "x": -552.7427,
-            "y": -1131.92578
+            "x": -772.5285,
+            "y": -1500.66565
         },
-        "offsetMax": {
-            "x": 618.537354,
-            "y": 258.96936
+        "pivot": {
+            "x": 0.5518061,
+            "y": 0.83370316
         }
     },
     "MyChangeType": "BattleChar",

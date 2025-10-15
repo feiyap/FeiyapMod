@@ -1,0 +1,15 @@
+{
+    "SE_T_S_Letty_Rare_2": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 40,
+        "Buffs": [
+            "B_Letty_P",
+            "B_Letty_P"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

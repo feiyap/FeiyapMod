@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "UsamiRenko\\UsamiRenkoBattleChar.png",
-        "pivot": {
-            "x": 0.499260634,
-            "y": 0.7974545
+        "offsetMax": {
+            "x": 617.1186,
+            "y": 320.5773
         },
         "offsetMin": {
-            "x": -697.1494,
-            "y": -1484.71521
+            "x": -782.8814,
+            "y": -1479.42273
         },
-        "offsetMax": {
-            "x": 699.214233,
-            "y": 377.102936
+        "pivot": {
+            "x": 0.559201,
+            "y": 0.8219015
         }
     },
     "MyChangeType": "BattleChar",

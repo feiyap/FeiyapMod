@@ -4,16 +4,16 @@
     "myValues": {
         "path": "UsamiRenko\\UsamiRenkoFaceSmallChar.png",
         "pivot": {
-            "x": 0.487926364,
-            "y": 0.847872138
+            "x": 0.536524951,
+            "y": 0.86708945
         },
         "offsetMin": {
-            "x": -351.658264,
-            "y": -815.652649
+            "x": -387.482971,
+            "y": -806.5068
         },
         "offsetMax": {
-            "x": 364.897034,
-            "y": 139.754272
+            "x": 330.9383,
+            "y": 117.177681
         }
     },
     "MyChangeType": "FaceSmallChar",

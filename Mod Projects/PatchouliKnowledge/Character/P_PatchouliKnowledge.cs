@@ -215,6 +215,13 @@ namespace PatchouliKnowledge
             {
                 this.BChar.BuffAdd("B_Pachi_P_1", this.BChar);
             }
+
+            if (this.BChar.Info.LV >= 7)
+            {
+                this.BChar.BuffAdd("B_Pachi_P_1", this.BChar);
+                this.BChar.BuffAdd("B_Pachi_P_1", this.BChar);
+                this.BChar.BuffAdd("B_Pachi_P_1", this.BChar);
+            }
         }
 
         //检测日是否可用

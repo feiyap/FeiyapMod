@@ -7,7 +7,7 @@
         "Description": "",
         "Icon": "B_KirisameMarisa_0\\B_KirisameMarisa_0_Icon.png",
         "MaxStack": 4,
-        "LifeTime": 1,
+        "LifeTime": 3,
         "IsFieldBuff": false,
         "Hide": false,
         "Cantdisable": false,

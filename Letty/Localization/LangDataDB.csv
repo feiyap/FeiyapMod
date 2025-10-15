@@ -1,0 +1,75 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Letty_0_Description,Text,,,"Damage taken reduced to 1.
+Removed after triggering.",,"受到的伤害降低为 1 。
+触发后解除。",
+Buff/B_Letty_0_Name,Text,,,Snowflake,,雪花,
+Buff/B_Letty_1_Description,Text,,,"When attacked by an enemy, grants the attacker 1 stack of ""Frostbite"".",,受到敌人攻击时，使攻击者获得 1 层“严寒”。,
+Buff/B_Letty_1_Name,Text,,,Winter Night,,冬夜,
+Buff/B_Letty_2_Name,Text,,,Warm Sun,,暖阳,
+Buff/B_Letty_5_Name,Text,,,Snowstorm,,雪灾,
+Buff/B_Letty_6_Description,Text,,,Duration of debuffs received is extended by 1 turn.,,受到的减益效果延长 1 回合。,
+Buff/B_Letty_6_Name,Text,,,Cold Wave,,寒潮,
+Buff/B_Letty_8_Description,Text,,,Damage taken reduced by &a% (100% of &user's Defense).,,受到伤害量降低 &a% (&user的防御力的100%)。,
+Buff/B_Letty_8_Name,Text,,,Fresh Snow,,新雪,
+Buff/B_Letty_Barrier_Description,Text,,,,,,
+Buff/B_Letty_Barrier_Name,Text,,,Protection Shield,,保护罩,
+Buff/B_Letty_P_1_Description,Text,,,"Unable to act.
+Duration can be extended.",,"无法行动。
+可被延长持续回合。",
+Buff/B_Letty_P_1_Name,Text,,,Frozen Stiff,,冻僵,
+Buff/B_Letty_P_Description,Text,,,Transforms into "Frozen Stiff" when stacked to max.,,叠加至满层时，转变为“冻僵”。,
+Buff/B_Letty_P_Name,Text,,,Frostbite,,严寒,
+Buff/B_Letty_Rare_2_Description,Text,,,The maximum stack count of "Frostbite" is reduced to 4.,,“严寒”的层数上限降低为4。,
+Buff/B_Letty_Rare_2_Name,Text,,,Severe Winter,,凛冬,
+Buff/B_Letty_Rare_3_Description,Text,,,"At the start of the turn, gain &a Barrier (25% of &user's max HP).",,回合开始时，获得 &a 保护罩(&user最大体力值的25%)。,
+Buff/B_Letty_Rare_3_Name,Text,,,Winter Solstice,,冬至,
+Character/Letty_CampSelectWord,Text,,,"This winter is very long, huh...",,今年的冬季很长啊……,
+Character/Letty_PassiveDes,Text,,,"Ability to manipulate the degree of cold - When an enemy acts, apply 1 stack of 'Frostbite' to them. When stacked to max, transforms into 'Frozen Stiff'.
+Frozen Stiff: Unable to act, lasts for 1 turn. Duration can be extended.
+
+Crystallize Silver - Letty can use skills while under the 'Unable to Act' debuff.",,"操纵寒冷程度的能力 - 敌人行动时，对其施加 1 层“严寒”：叠加至满层时，转变为“冻僵”。
+冻僵：无法行动，持续 1 回合。可被延长持续回合。
+
+Crystallize Silver - 蕾蒂可在持有“无法行动”减益时使用技能。",
+Character/Letty_PassiveName,Text,,,Things Forgotten in Winter,,冬天的遗忘之物,
+Character/Letty_SelectInfo,Text,,,"Letty is an interference-type tank skilled at restricting enemy actions.
+
+Through the abilities of her passives and skills, Letty can frequently freeze enemies in front of her and interrupt their actions. Enemy actions continuously stack the 'Frozen Stiff' progress. When the 'Frozen Stiff' progress is fully stacked, the enemy will enter a stunned state. The more frequently an enemy acts, the easier it is for them to fall into the quagmire of being frozen stiff.",,"蕾蒂是擅长限制敌人行动的干扰型坦克。
+
+藉由被动和技能的能力，蕾蒂可以频繁地冻结面前的敌人、打断敌人的行动。敌人的行动会不断堆叠“冻僵”的进度，当“冻僵”的进度叠满时，敌人将会陷入眩晕状态。行动越是频繁的敌人，就越是容易陷入冻僵的泥沼之中。",
+Character/Letty_Text_MasterTarget,Text,,,"When the next winter comes, I will return. So, please don't forget me...",,等到下个冬季来临，我还会再回来的。所以，千万不要忘了我哦……,
+Character/Letty_Text_PharosLeader_0,Text,,,,,,
+Character/Letty_Text_PharosLeader_1,Text,,,,,,
+Character/Letty_Text_PharosLeader_2,Text,,,,,,
+Character/Letty_Text_Witch_0,Text,,,"Alright, leave it to me.",,嗯，交给我吧。,
+Character/Letty_Text_Witch_1,Text,,,"Alright, leave it to me...",,嗯，交给我吧……,
+Character/Letty_name,Text,,,Letty,,蕾蒂,
+Skill/S_Letty_0_Name,Text,,,Snow Sign 「Perfect Ice Crystal Shard」,,雪符「完美的冰晶片」,
+Skill/S_Letty_1_Name,Text,,,Cold Sign 「Long Winter Night」,,寒符「冬雪的长夜」,
+Skill/S_Letty_2_Name,Text,,,Winter Sign 「Yuki-Onna's Sigh」,,冬符「雪女的叹息」,
+Skill/S_Letty_3_Description,Text,,,Extends the duration of all targets' buffs and debuffs by 1 turn.,,使所有目标的增益和减益的持续时间延长 1 回合。,
+Skill/S_Letty_3_Name,Text,,,Cold Sign 「Extended Winter」,,寒符「延长的冬日」,
+Skill/S_Letty_4_Description,Text,,,"If the target has a Weakening debuff, apply 'Frozen Stiff'.
+If the target has an CC debuff, gain 'Snowflake'.",,"若目标持有弱化减益，施加“冻僵”。
+若目标持有干扰减益，则使自身获得“雪花”。",
+Skill/S_Letty_4_Name,Text,,,Winter Sign 「Withering Flowers」,,冬符「花之凋零」,
+Skill/S_Letty_5_Description,Text,,,"If there is only 1 target, recast once.",,若只有 1 个目标，重复释放 1 次。,
+Skill/S_Letty_5_Name,Text,,,White Sign 「Undulating Light」,,白符「波状光」,
+Skill/S_Letty_6_Name,Text,,,Cold Sign 「Cold Wave」,,寒符「寒潮」,
+Skill/S_Letty_7_Description,Text,,,"For every 1% of CC-Res the target has, this skill's damage increases by 1%.",,目标每有1%干扰抵抗率，这个技能增加1%伤害。,
+Skill/S_Letty_7_Name,Text,,,Winter Sign 「Victor of the Arctic」,,冬符「北极的胜利者」,
+Skill/S_Letty_8_Name,Text,,,Snow Sign 「Fresh Snow」,,雪符「新雪」,
+Skill/S_Letty_9_Description,Text,,,Can only target enemies who are "Unable to Act".,,只能指向“无法行动”的敌人。,
+Skill/S_Letty_9_Name,Text,,,Cold Sign 「Biting Cold」,,寒符「寒冰刺骨」,
+Skill/S_Letty_LucyD_Description,Text,,,"Make target skill to be cannot used.
+Draw 2 skills, restore 2 mana.",,"使目标技能无法使用。
+抽取 2 个技能，恢复 2 点法力值。",
+Skill/S_Letty_LucyD_Name,Text,,,Cold Sign 「Frost-Touched Vegetables are Extra Sweet」,,寒符「霜打蔬菜分外甜」,
+Skill/S_Letty_Rare_1_Description,Text,,,Distributes a total of 4 turns of "Frozen Stiff" evenly among all enemies.,,将总计 4 个回合的“冻僵”效果平均分配给所有敌人。,
+Skill/S_Letty_Rare_1_Name,Text,,,Furious Winter 「The Snowbound Villa」,,狂冬「暴风雪山庄」,
+Skill/S_Letty_Rare_2_Name,Text,,,「Winter is Coming」,,「凛冬将至」,
+Skill/S_Letty_Rare_3_Name,Text,,,Deeply Winter 「A World Clad in Silver」,,冬彻「银装素裹的世界」,
+SkillExtended/SE_Letty_C_0_EnforceString,Text,,,Attack Skill,,攻击技能,
+SkillExtended/SE_Letty_C_0_Name,Text,,,Damage dealt to enemies unable to act is increased by 40%.,,对无法行动的敌人造成的伤害提升40%。,
+SkillExtended/SE_Letty_C_1_EnforceString,Text,,,Once Skill,,一次性技能,
+SkillExtended/SE_Letty_C_1_Name,Text,,,Frozen Stiff 1 random enemy for 1 turn.,,使 1 个随机敌人冻僵 1 回合。,

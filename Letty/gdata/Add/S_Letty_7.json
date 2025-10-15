@@ -1,0 +1,22 @@
+{
+    "S_Letty_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_5",
+        "Target": "enemy",
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "Name": "冬符「北极的胜利者」",
+        "User": "Letty",
+        "UseAp": 2,
+        "Description": "目标每有1%干扰抵抗率，这个技能增加1%伤害。",
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Letty_7",
+        "SkillExtended": [
+            "Letty.S_Letty_7"
+        ],
+        "Image_0": "S_Letty_7\\S_Letty_7_Image_0.png",
+        "Image_1": "S_Letty_7\\S_Letty_7_Image_1.png",
+        "Image_2": "S_Letty_7\\S_Letty_7_Image_2.png"
+    }
+}

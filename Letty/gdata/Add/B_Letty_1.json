@@ -1,0 +1,11 @@
+{
+    "B_Letty_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Letty.B_Letty_1",
+        "BuffTag": "null",
+        "Name": "冬夜",
+        "Icon": "B_Letty_1\\B_Letty_1_Icon.png",
+        "Description": "受到敌人攻击时，使攻击者获得 1 层“严寒”。",
+        "LifeTime": 1
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "S_Ilya_0": {
+        "_gdeSchema": "Skill",
+        "Rare": false,
+        "NODOD": false,
+        "NotCount": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "籁特狞刀术-抓合",
+        "Description": "入手后立即释放，此技附带复苏且暴击。\r\n纳刀：对随机敌人释放，此技回手。"
+    }
+}

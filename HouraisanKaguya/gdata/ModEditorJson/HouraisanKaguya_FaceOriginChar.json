@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "HouraisanKaguya\\HouraisanKaguyaFaceOriginChar.png",
-        "offsetMax": {
-            "x": 714.26,
-            "y": 200.229324
+        "pivot": {
+            "x": 0.533989,
+            "y": 0.876322031
         },
         "offsetMin": {
-            "x": -566.162231,
-            "y": -1357.04089
+            "x": -747.5846,
+            "y": -1577.37964
         },
-        "pivot": {
-            "x": 0.441075,
-            "y": 0.8679719
+        "offsetMax": {
+            "x": 652.4154,
+            "y": 222.620346
         }
     },
     "MyChangeType": "FaceOriginChar",

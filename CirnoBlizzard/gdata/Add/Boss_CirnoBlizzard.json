@@ -1,0 +1,23 @@
+{
+    "Boss_CirnoBlizzard": {
+        "_gdeSchema": "Enemy",
+        "hit": 99,
+        "name": "琪露诺=暴风雪",
+        "Skills": [
+            "S_Azar_0",
+            "S_Azar_0"
+        ],
+        "Boss": true,
+        "NotCursed": true,
+        "atk": 19,
+        "reg": 9,
+        "def": 19,
+        "cri": 19,
+        "dodge": 9,
+        "RES_CC": 49,
+        "RES_DEBUFF": 29,
+        "RES_DOT": 29,
+        "maxhp": 1999,
+        "spd": 9
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "S_Letty_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_6",
+        "Target": "all_enemy",
+        "NoBasicSkill": false,
+        "Track": false,
+        "Name": "白符「波状光」",
+        "UseAp": 1,
+        "User": "Letty",
+        "Description": "若只有 1 个目标，重复释放 1 次。",
+        "NotCount": true,
+        "Effect_Target": "SE_T_S_Letty_5",
+        "SkillExtended": [
+            "Letty.S_Letty_5"
+        ],
+        "Image_0": "S_Letty_5\\S_Letty_5_Image_0.png",
+        "Image_1": "S_Letty_5\\S_Letty_5_Image_1.png",
+        "Image_2": "S_Letty_5\\S_Letty_5_Image_2.png"
+    }
+}

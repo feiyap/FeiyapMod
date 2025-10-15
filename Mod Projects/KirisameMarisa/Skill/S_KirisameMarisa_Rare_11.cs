@@ -36,7 +36,7 @@ namespace KirisameMarisa
                     count = 0;
                 }
 
-                return (int)((float)(this.BChar.GetStat.atk * 0.5 * count));
+                return (int)((float)(this.BChar.GetStat.atk * 1 * count));
             }
         }
 
@@ -61,7 +61,7 @@ namespace KirisameMarisa
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)((float)(this.BChar.GetStat.atk * 0.5))).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)((float)(this.BChar.GetStat.atk * 1))).ToString());
         }
 
         public void SkillCasting(CastingSkill ThisSkill)

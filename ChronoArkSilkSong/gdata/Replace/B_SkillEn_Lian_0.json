@@ -1,0 +1,11 @@
+{
+    "B_SkillEn_Lian_0": {
+        "_gdeSchema": "Buff",
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "引剑以待",
+        "Description": "此回合下一倒计时之技消耗减少2。"
+    }
+}

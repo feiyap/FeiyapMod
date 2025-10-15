@@ -22,15 +22,12 @@ namespace Inaba
         {
             base.SkillUseSingle(SkillD, Targets);
             int num = Targets[0].GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false, false).Count;
-            if (num >= 2)
+            if (num >= 1)
             {
                 List<BattleChar> list = new List<BattleChar>();
                 list.AddRange(BattleSystem.instance.EnemyTeam.AliveChars);
                 list.Remove(Targets[0]);
-                if (list.Count >= 1)
-                {
-                    Targets.Add(list.Random(this.BChar.GetRandomClass().Main));
-                }
+                Targets.AddRange(list);
             }
         }
     }

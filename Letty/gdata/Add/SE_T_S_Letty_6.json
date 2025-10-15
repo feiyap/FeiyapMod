@@ -1,0 +1,19 @@
+{
+    "SE_T_S_Letty_6": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "Buffs": [
+            "B_Letty_6",
+            "B_Letty_P",
+            "B_Letty_P",
+            "B_Letty_P"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "DMG_Per": 65
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "myKey": "Boss_CirnoBlizzard",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Boss_CirnoBlizzard\\Boss_CirnoBlizzardMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.523784459,
+            "y": 0.00685194135
+        },
+        "Head": {
+            "x": 0.4732437,
+            "y": 0.8310078
+        },
+        "Center": {
+            "x": 0.485136122,
+            "y": 0.7083894
+        },
+        "UI": {
+            "x": 0.5208119,
+            "y": 0.0278631449
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

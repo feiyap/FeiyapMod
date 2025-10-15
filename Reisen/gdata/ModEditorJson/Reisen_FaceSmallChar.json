@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "Reisen\\ReisenFaceSmallChar.png",
-        "offsetMax": {
-            "x": 164.612457,
-            "y": 179.784271
+        "pivot": {
+            "x": 0.5329275,
+            "y": 0.856089532
         },
         "offsetMin": {
-            "x": -187.619232,
-            "y": -554.03186
+            "x": -330.2033,
+            "y": -796.3464
         },
-        "pivot": {
-            "x": 0.5268895,
-            "y": 0.7473836
+        "offsetMax": {
+            "x": 285.586365,
+            "y": 127.338142
         }
     },
     "MyChangeType": "FaceSmallChar",

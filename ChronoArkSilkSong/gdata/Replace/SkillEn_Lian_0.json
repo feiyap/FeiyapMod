@@ -1,0 +1,8 @@
+{
+    "SkillEn_Lian_0": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "此回合下一倒计时之技消耗减少2。"
+    }
+}

@@ -11,7 +11,7 @@
         "Name": "因幡/遮眼",
         "Icon": "Image/Buff/Skill_Icon_Pack/Debuff",
         "Description": "",
-        "MaxStack": 1,
+        "MaxStack": 3,
         "LifeTime": 3,
         "Debuff": true,
         "TagPer": 100

@@ -1,0 +1,8 @@
+{
+    "SkillEn_IlyaPassive2": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "出手时，手中底牌丢弃，牌抓一。"
+    }
+}

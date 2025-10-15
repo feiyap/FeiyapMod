@@ -1,0 +1,12 @@
+{
+    "B_Ilya_4_T": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "冻疮",
+        "Description": "减益被施加，痛苦伤害&a点受到。"
+    }
+}

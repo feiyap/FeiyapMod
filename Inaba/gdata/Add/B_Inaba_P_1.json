@@ -7,6 +7,10 @@
         "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
         "Description": "",
         "LifeTime": 3,
-        "Cantdisable": false
+        "Cantdisable": false,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

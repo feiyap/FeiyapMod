@@ -1,0 +1,11 @@
+{
+    "B_Letty_Rare_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Letty.B_Letty_Rare_2",
+        "BuffTag": "null",
+        "Description": "“严寒”的层数上限降低为4。",
+        "Name": "凛冬",
+        "Cantdisable": true,
+        "Icon": "B_Letty_Rare_2\\B_Letty_Rare_2_Icon.png"
+    }
+}

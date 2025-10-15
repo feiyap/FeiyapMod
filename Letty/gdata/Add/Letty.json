@@ -1,0 +1,93 @@
+{
+    "Letty": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Tank",
+        "PassiveClassName": "Letty.P_Letty",
+        "PassiveUnlockLV1": false,
+        "face": "Letty\\LettyBattleFace.png",
+        "name": "蕾蒂",
+        "SelectInfo": "蕾蒂是擅长限制敌人行动的干扰型坦克。\r\n\r\n藉由被动和技能的能力，蕾蒂可以频繁地冻结面前的敌人、打断敌人的行动。敌人的行动会不断堆叠“冻僵”的进度，当“冻僵”的进度叠满时，敌人将会陷入眩晕状态。行动越是频繁的敌人，就越是容易陷入冻僵的泥沼之中。",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 27,
+            "y": 47
+        },
+        "ATK": {
+            "x": 14,
+            "y": 23
+        },
+        "REG": {
+            "x": 7,
+            "y": 14
+        },
+        "DODGE": {
+            "x": -3,
+            "y": 7
+        },
+        "DEF": {
+            "x": 10,
+            "y": 20
+        },
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "HIT": {
+            "x": 97,
+            "y": 115
+        },
+        "RES_CC": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 20,
+            "y": 60
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "PassiveName": "冬天的遗忘之物",
+        "PassiveDes": "操纵寒冷程度的能力 - 敌人行动时，对其施加 1 层“严寒”：叠加至满层时，转变为“冻僵”。\r\n冻僵：无法行动，持续 1 回合。可被延长持续回合。\r\n\r\nCrystallize Silver - 蕾蒂可在持有“无法行动”减益时使用技能。",
+        "CollectionSprite_Cover": "Letty\\LettyCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Letty\\LettyCollectionSprite_SkillFace.png",
+        "StatView_Atk": 1,
+        "StatView_Def": 2,
+        "StatView_Sup": 0,
+        "StatView_Debuff": 3,
+        "StatView_CC": 3,
+        "StatView_Difficult": 1,
+        "CampSelectWord": "今年的冬季很长啊……",
+        "FirstSkill": "S_Letty_0",
+        "PassiveIcon": "Letty\\LettyPassiveIcon.png",
+        "CampSD": [
+            "Letty\\LettyCampSD0.png",
+            "Letty\\LettyCampSD1.png",
+            "Letty\\LettyCampSD2.png",
+            "Letty\\LettyCampSD3.png"
+        ],
+        "Text_MasterTarget": "等到下个冬季来临，我还会再回来的。所以，千万不要忘了我哦……",
+        "Text_PharosLeader": [
+            "",
+            "",
+            ""
+        ],
+        "Text_Witch": [
+            "嗯，交给我吧。",
+            "嗯，交给我吧……"
+        ]
+    }
+}

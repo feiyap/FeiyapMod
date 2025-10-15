@@ -5,7 +5,7 @@
         "BuffTag": "null",
         "Name": "炸弹？！",
         "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (65)",
-        "Description": "回合结束时，造成40伤害。攻击后将此减益转移至目标身上。",
+        "Description": "回合结束时，造成 &a 伤害(&user攻击力的200%)。\n攻击后将此减益转移至目标身上。\n被重复施加炸弹时，立即引爆上一个炸弹。",
         "Cantdisable": true,
         "LifeTime": 0,
         "Debuff": true,

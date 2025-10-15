@@ -1,0 +1,14 @@
+{
+    "B_Letty_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Letty.B_Letty_P",
+        "BuffTag": "Debuff",
+        "Name": "严寒",
+        "Description": "叠加至满层时，转变为“冻僵”。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (76)",
+        "Debuff": true,
+        "TagPer": 115,
+        "LifeTime": 0,
+        "MaxStack": 6
+    }
+}

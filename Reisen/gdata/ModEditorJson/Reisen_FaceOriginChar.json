@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "Reisen\\ReisenFaceOriginChar.png",
-        "offsetMax": {
-            "x": 400.803467,
-            "y": 430.800781
+        "pivot": {
+            "x": 0.5384826,
+            "y": 0.8521468
         },
         "offsetMin": {
-            "x": -429.7406,
-            "y": -1299.49927
+            "x": -646.179138,
+            "y": -1533.86426
         },
-        "pivot": {
-            "x": 0.515735,
-            "y": 0.7479195
+        "offsetMax": {
+            "x": 553.820862,
+            "y": 266.135742
         }
     },
     "MyChangeType": "FaceOriginChar",

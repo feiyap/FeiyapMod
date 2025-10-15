@@ -1,0 +1,8 @@
+{
+    "S_Ilya_10": {
+        "_gdeSchema": "Skill",
+        "IgnoreTaunt": false,
+        "Name": "装磕内斯",
+        "Description": "牌抓一。\r\n纳刀：上一个出手的技能立即释放。"
+    }
+}

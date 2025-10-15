@@ -17,6 +17,7 @@
         "Image_2": "S_Inaba_2\\S_Inaba_2_Image_2.png",
         "SkillExtended": [
             "Inaba.S_Inaba_2"
-        ]
+        ],
+        "NoBasicSkill": false
     }
 }

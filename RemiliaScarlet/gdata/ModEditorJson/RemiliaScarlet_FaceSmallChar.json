@@ -4,16 +4,16 @@
     "myValues": {
         "path": "RemiliaScarlet\\RemiliaScarletFaceSmallChar.png",
         "offsetMax": {
-            "x": 303.861145,
-            "y": 276.951782
+            "x": 369.117859,
+            "y": 118.216179
         },
         "offsetMin": {
-            "x": -343.85144,
-            "y": -740.8823
+            "x": -421.14563,
+            "y": -784.94165
         },
         "pivot": {
-            "x": 0.527733147,
-            "y": 0.72240907
+            "x": 0.530346632,
+            "y": 0.862918854
         }
     },
     "MyChangeType": "FaceSmallChar",

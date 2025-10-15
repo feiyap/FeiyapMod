@@ -19,21 +19,21 @@ namespace Inaba
 	/// </summary>
     public class S_Inaba_6:Skill_Extended
     {
-        public override void SkillTargetSingle(List<Skill> Targets)
-        {
-            base.SkillTargetSingle(Targets);
+        //public override void SkillTargetSingle(List<Skill> Targets)
+        //{
+        //    base.SkillTargetSingle(Targets);
 
-            Targets[0].ExtendedAdd("SE_Inaba_6");
-        }
+        //    Targets[0].ExtendedAdd("SE_Inaba_6");
+        //}
 
-        public override bool SkillTargetSelectExcept(Skill ExceptSkill)
-        {
-            bool isLucyD = false;
-            if (ExceptSkill.Master.IsLucyNoC || ExceptSkill == this.MySkill)
-            {
-                isLucyD = true;
-            }
-            return isLucyD;
-        }
+        //public override bool SkillTargetSelectExcept(Skill ExceptSkill)
+        //{
+        //    bool isLucyD = false;
+        //    if (ExceptSkill.Master.IsLucyNoC || ExceptSkill == this.MySkill)
+        //    {
+        //        isLucyD = true;
+        //    }
+        //    return isLucyD;
+        //}
     }
 }

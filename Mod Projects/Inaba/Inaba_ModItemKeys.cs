@@ -25,28 +25,13 @@ namespace Inaba
 		/// </summary>
         public static string Buff_B_Inaba_4_2 = "B_Inaba_4_2";
 		/// <summary>
-		/// 因幡/逃逸
-		/// 受到伤害时，转移给拥有[因幡/误导]的单位；
-		/// 解除时优先抽取1个自己的技能。
-		/// </summary>
-        public static string Buff_B_Inaba_7 = "B_Inaba_7";
-		/// <summary>
-		/// 因幡/误导
-		/// 代替拥有[因幡/逃逸]的单位受到伤害。
-		/// </summary>
-        public static string Buff_B_Inaba_7_0 = "B_Inaba_7_0";
-		/// <summary>
 		/// 因幡/兔运
-		/// 命中时消耗1层，使目标防御力-4%，闪避率-4%。最多叠加5次。
+		/// 追加攻击/反击触发暴击时，获得“暴击伤害+10%”。
 		/// </summary>
         public static string Buff_B_Inaba_8 = "B_Inaba_8";
 		/// <summary>
-		/// 因幡/兔怒
-		/// </summary>
-        public static string Buff_B_Inaba_8_0 = "B_Inaba_8_0";
-		/// <summary>
 		/// 幻象/因幡
-		/// 触发追加攻击/反击时，&target会同时对目标进行一次&a(30%)伤害的追加攻击（不会触发[辉夜/梦乡]）。
+		/// 触发追加攻击/反击时，&target会同时对目标进行一次 &a 伤害的追加攻击(&target攻击力的30%)（不会触发[辉夜/梦乡]）。
 		/// </summary>
         public static string Buff_B_Inaba_9 = "B_Inaba_9";
 		/// <summary>
@@ -55,7 +40,9 @@ namespace Inaba
         public static string Buff_B_Inaba_P_1 = "B_Inaba_P_1";
 		/// <summary>
 		/// 炸弹？！
-		/// 回合结束时，造成40伤害。攻击后将此减益转移至目标身上。
+		/// 回合结束时，造成 &a 伤害(&user攻击力的200%)。
+		/// 攻击后将此减益转移至目标身上。
+		/// 被重复施加炸弹时，立即引爆上一个炸弹。
 		/// </summary>
         public static string Buff_B_Inaba_P_5 = "B_Inaba_P_5";
 		/// <summary>
@@ -123,6 +110,7 @@ namespace Inaba
         public static string SkillEffect_SE_T_S_Inaba_2 = "SE_T_S_Inaba_2";
         public static string SkillEffect_SE_T_S_Inaba_3 = "SE_T_S_Inaba_3";
         public static string SkillEffect_SE_T_S_Inaba_4 = "SE_T_S_Inaba_4";
+        public static string SkillEffect_SE_T_S_Inaba_6 = "SE_T_S_Inaba_6";
         public static string SkillEffect_SE_T_S_Inaba_7 = "SE_T_S_Inaba_7";
         public static string SkillEffect_SE_T_S_Inaba_7_0 = "SE_T_S_Inaba_7_0";
         public static string SkillEffect_SE_T_S_Inaba_8 = "SE_T_S_Inaba_8";
@@ -140,7 +128,7 @@ namespace Inaba
         public static string SkillEffect_SE_T_S_Inaba_Rare12_0 = "SE_T_S_Inaba_Rare12_0";
 		/// <summary>
 		/// 速符「高速的白影」
-		/// 如果目标身上有2个以上弱化减益，额外追加攻击2次，每次造成&a(30%)伤害。
+		/// 如果目标持有 2 个以上的弱化减益，将 1 个“炸弹？！”施加给目标。
 		/// </summary>
         public static string Skill_S_Inaba_0 = "S_Inaba_0";
 		/// <summary>
@@ -159,34 +147,30 @@ namespace Inaba
         public static string Skill_S_Inaba_2 = "S_Inaba_2";
 		/// <summary>
 		/// 兔符「兔子大开花！」
-		/// 如果目标身上有2个以上弱化减益，同时攻击其他随机敌人。
+		/// 如果目标身上持有 1 个以上的弱化减益，同时攻击其他所有敌人。
 		/// </summary>
         public static string Skill_S_Inaba_3 = "S_Inaba_3";
 		/// <summary>
 		/// 「远古的骗术」
-		/// 如果目标身上有2个以上弱化减益，从<color=#FFD700>帝的豪华奖池</color>中随机触发2个效果。
+		/// 可以无视嘲讽指向持有弱化减益的敌人。
+		/// 使目标持有的每层弱化减益：造成 &a 痛苦伤害(攻击力的10%)；获得“每回合造成 &a 点痛苦伤害(攻击力的10%)”的效果；延长 2 回合持续时间。
 		/// </summary>
         public static string Skill_S_Inaba_4 = "S_Inaba_4";
 		/// <summary>
 		/// 兔符「开运大纹」
 		/// 从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。
-		/// 可在本回合内再次使用。
 		/// </summary>
         public static string Skill_S_Inaba_5 = "S_Inaba_5";
 		/// <summary>
-		/// 幸符「幸运的白色魔法」
-		/// 这场战斗中仅有一次，目标技能的暴击率+50%，并在释放时从<color=#FFD700>帝的豪华奖池</color>中随机触发1个效果。
+		/// 炸符「狂乱之兔」
 		/// </summary>
         public static string Skill_S_Inaba_6 = "S_Inaba_6";
 		/// <summary>
-		/// 影符「暗月下的逃逸」
-		/// 生成1张[影符「暗月下的误导」]。
+		/// 炸弹「起爆按钮」
+		/// 将 1 个“炸弹？！”施加给目标。
+		/// 那之后，立即引爆所有目标持有的“炸弹？！”减益。
 		/// </summary>
         public static string Skill_S_Inaba_7 = "S_Inaba_7";
-		/// <summary>
-		/// 影符「暗月下的误导」
-		/// </summary>
-        public static string Skill_S_Inaba_7_0 = "S_Inaba_7_0";
 		/// <summary>
 		/// 兔符「幸运的兔足印」
 		/// </summary>

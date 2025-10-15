@@ -1,0 +1,21 @@
+{
+    "S_Letty_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Shield",
+        "Target": "all",
+        "IgnoreTaunt": false,
+        "Name": "寒符「延长的冬日」",
+        "User": "Letty",
+        "Description": "使所有目标的增益和减益的持续时间延长 1 回合。",
+        "UseAp": 1,
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "SkillExtended": [
+            "Letty.S_Letty_3"
+        ],
+        "Image_0": "S_Letty_3\\S_Letty_3_Image_0.png",
+        "Image_1": "S_Letty_3\\S_Letty_3_Image_1.png",
+        "Image_2": "S_Letty_3\\S_Letty_3_Image_2.png"
+    }
+}

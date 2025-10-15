@@ -26,7 +26,7 @@ namespace KirisameMarisa
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.3f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.4f)).ToString());
         }
 
         public void DamageChange_sumoperation(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View, ref int PlusDamage)
@@ -44,12 +44,12 @@ namespace KirisameMarisa
                 }
             }
 
-            if (count > 9)
+            if (count > 19)
             {
-                count = 9;
+                count = 19;
             }
 
-            PlusDamage = (int)(this.BChar.GetStat.atk * 0.3f) * count;
+            PlusDamage = (int)(this.BChar.GetStat.atk * 0.4f) * count;
         }
     }
 }

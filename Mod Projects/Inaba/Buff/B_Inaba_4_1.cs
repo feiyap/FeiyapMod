@@ -21,7 +21,7 @@ namespace Inaba
         public override void Init()
         {
             base.Init();
-            this.PlusStat.DMGTaken = 15;
+            this.PlusStat.DMGTaken = 15 * StackNum;
         }
     }
 }

@@ -1,0 +1,65 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "Letty"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Letty_0",
+                "S_Letty_1",
+                "S_Letty_2",
+                "S_Letty_3",
+                "S_Letty_4",
+                "S_Letty_5",
+                "S_Letty_6",
+                "S_Letty_7",
+                "S_Letty_8",
+                "S_Letty_9",
+                "S_Letty_Rare_1",
+                "S_Letty_Rare_2",
+                "S_Letty_Rare_3"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            
+        ],
+        "ConsumeItems": [
+            
+        ],
+        "AP": 10,
+        "Level": 6
+    }
+}

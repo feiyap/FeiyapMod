@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "FlandreScarlet\\FlandreScarletFaceOriginChar.png",
-        "offsetMax": {
-            "x": 289.779572,
-            "y": 279.739868
+        "pivot": {
+            "x": 0.44548887,
+            "y": 0.842690051
         },
         "offsetMin": {
-            "x": -580.6945,
-            "y": -1144.4303
+            "x": -427.384827,
+            "y": -1041.39771
         },
-        "pivot": {
-            "x": 0.665493131,
-            "y": 0.799803436
+        "offsetMax": {
+            "x": 528.8339,
+            "y": 188.026566
         }
     },
     "MyChangeType": "FaceOriginChar",

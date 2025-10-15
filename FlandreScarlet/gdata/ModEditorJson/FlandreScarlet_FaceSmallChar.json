@@ -4,16 +4,16 @@
     "myValues": {
         "path": "FlandreScarlet\\FlandreScarletFaceSmallChar.png",
         "offsetMax": {
-            "x": 139.099731,
-            "y": 124.911736
+            "x": 303.646057,
+            "y": 93.84194
         },
         "offsetMin": {
-            "x": -266.982758,
-            "y": -539.474
+            "x": -236.114471,
+            "y": -600.135864
         },
         "pivot": {
-            "x": 0.6524554,
-            "y": 0.803575754
+            "x": 0.4336783,
+            "y": 0.8567221
         }
     },
     "MyChangeType": "FaceSmallChar",

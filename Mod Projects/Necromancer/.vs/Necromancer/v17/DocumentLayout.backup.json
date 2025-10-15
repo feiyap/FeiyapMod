@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|d:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\necromancer\\skill\\s_necromancer_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:skill\\s_necromancer_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|d:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\necromancer\\skill\\s_necromancer_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:skill\\s_necromancer_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|d:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\necromancer\\skill\\s_necromancer_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:skill\\s_necromancer_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|d:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\necromancer\\skill\\s_necromancer_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:skill\\s_necromancer_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\buff\\b_necromancer_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:buff\\b_necromancer_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\buff\\b_necromancer_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:buff\\b_necromancer_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\buff\\b_necromancer_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:buff\\b_necromancer_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\buff\\b_necromancer_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:buff\\b_necromancer_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\buff\\b_necromancer_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:buff\\b_necromancer_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\buff\\b_necromancer_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:buff\\b_necromancer_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\buff\\b_necromancer_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37708E98-B35D-475C-B0CD-5E5F61637DB4}|Necromancer.csproj|solutionrelative:buff\\b_necromancer_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "S_Necromancer_7.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Skill\\S_Necromancer_7.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Necromancer_7.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Skill\\S_Necromancer_7.cs",
+              "RelativeToolTip": "Skill\\S_Necromancer_7.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:29:32.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "S_Necromancer_5.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Skill\\S_Necromancer_5.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Necromancer_5.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Skill\\S_Necromancer_5.cs",
+              "RelativeToolTip": "Skill\\S_Necromancer_5.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:29:25.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "S_Necromancer_6.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Skill\\S_Necromancer_6.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Necromancer_6.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Skill\\S_Necromancer_6.cs",
+              "RelativeToolTip": "Skill\\S_Necromancer_6.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:29:23.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "B_Necromancer_1.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Necromancer_1.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_1.cs",
+              "RelativeToolTip": "Buff\\B_Necromancer_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:22:22.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "B_Necromancer_3.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_3.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Necromancer_3.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_3.cs",
+              "RelativeToolTip": "Buff\\B_Necromancer_3.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:13:59.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "B_Necromancer_8.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_8.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Necromancer_8.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_8.cs",
+              "RelativeToolTip": "Buff\\B_Necromancer_8.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:13:55.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "B_Necromancer_7.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_7.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Necromancer_7.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_7.cs",
+              "RelativeToolTip": "Buff\\B_Necromancer_7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:13:54.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "B_Necromancer_6.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_6.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Necromancer_6.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_6.cs",
+              "RelativeToolTip": "Buff\\B_Necromancer_6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:13:53.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "B_Necromancer_5.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_5.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Necromancer_5.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_5.cs",
+              "RelativeToolTip": "Buff\\B_Necromancer_5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:13:51.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "B_Necromancer_4.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_4.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Necromancer_4.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Buff\\B_Necromancer_4.cs",
+              "RelativeToolTip": "Buff\\B_Necromancer_4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:13:46.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "S_Necromancer_4.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Skill\\S_Necromancer_4.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Necromancer_4.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Necromancer\\Skill\\S_Necromancer_4.cs",
+              "RelativeToolTip": "Skill\\S_Necromancer_4.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:12:49.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

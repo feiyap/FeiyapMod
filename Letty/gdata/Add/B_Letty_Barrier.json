@@ -1,0 +1,12 @@
+{
+    "B_Letty_Barrier": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Letty.B_Letty_Barrier",
+        "BuffTag": "null",
+        "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_03",
+        "Name": "保护罩",
+        "Description": "",
+        "MaxStack": 0,
+        "LifeTime": 1
+    }
+}

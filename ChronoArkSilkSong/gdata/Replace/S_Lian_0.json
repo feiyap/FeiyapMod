@@ -1,0 +1,10 @@
+{
+    "S_Lian_0": {
+        "_gdeSchema": "Skill",
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "力劈华山",
+        "Description": "护甲贯穿。"
+    }
+}

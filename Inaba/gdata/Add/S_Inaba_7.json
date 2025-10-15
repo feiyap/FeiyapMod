@@ -3,12 +3,12 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Buff",
-        "Target": "ally",
+        "Target": "enemy",
         "NotCount": false,
-        "Disposable": true,
-        "Name": "影符「暗月下的逃逸」",
-        "Description": "生成1张[影符「暗月下的误导」]。",
-        "UseAp": 1,
+        "Disposable": false,
+        "Name": "炸弹「起爆按钮」",
+        "Description": "将 1 个“炸弹？！”施加给目标。\r\n那之后，立即引爆所有目标持有的“炸弹？！”减益。",
+        "UseAp": 2,
         "IgnoreTaunt": true,
         "NoBasicSkill": true,
         "Effect_Target": "SE_T_S_Inaba_7",
@@ -30,7 +30,6 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false,
-        "PlusSkillView": "S_Inaba_7_0"
+        "UnknownTarget": false
     }
 }

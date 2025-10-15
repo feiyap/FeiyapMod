@@ -1,0 +1,13 @@
+{
+    "B_Letty_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Letty.B_Letty_6",
+        "BuffTag": "Debuff",
+        "Name": "寒潮",
+        "Description": "受到的减益效果延长 1 回合。",
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 105,
+        "Icon": "B_Letty_6\\B_Letty_6_Icon.png"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "B_Letty_5": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Letty.B_Letty_5",
+        "BuffTag": "Debuff",
+        "Name": "雪灾",
+        "Debuff": true,
+        "TagPer": 120,
+        "LifeTime": 4,
+        "MaxStack": 2,
+        "Icon": "B_Letty_5\\B_Letty_5_Icon.png"
+    }
+}

@@ -37,7 +37,7 @@ namespace KirisameMarisa
         public static string Buff_B_KirisameMarisa_7_1 = "B_KirisameMarisa_7_1";
 		/// <summary>
 		/// 危险改装
-		/// 下一个“指向敌人”的技能获得“同时攻击所有敌人；且若目标只有一个，以暴击形式命中”的效果。
+		/// 下一个“指向敌人”的技能获得“同时攻击所有敌人；且若目标只有一个，以暴击形式命中”的效果。触发后移除该增益。
 		/// </summary>
         public static string Buff_B_KirisameMarisa_8 = "B_KirisameMarisa_8";
 		/// <summary>
@@ -203,17 +203,17 @@ namespace KirisameMarisa
         public static string Skill_S_KirisameMarisa_1_3 = "S_KirisameMarisa_1_3";
 		/// <summary>
 		/// 魔符「Stardust Reverie」
-		/// 目标每有1点行动倒计时（最多计算5点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的20%)</color>。
+		/// 目标每有1点行动倒计时（最多计算5点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的30%)</color>。
 		/// </summary>
         public static string Skill_S_KirisameMarisa_2 = "S_KirisameMarisa_2";
 		/// <summary>
 		/// 魔符「Illusion Star」
-		/// <color=#00BFFF>危险等级2</color> - 目标每有1点行动倒计时（最多计算7点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的25%)</color>。
+		/// <color=#00BFFF>危险等级2</color> - 目标每有1点行动倒计时（最多计算11点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的35%)</color>。
 		/// </summary>
         public static string Skill_S_KirisameMarisa_2_2 = "S_KirisameMarisa_2_2";
 		/// <summary>
 		/// 黑魔「Event Horizon」
-		/// <color=#00BFFF>危险等级4</color> - 目标每有1点行动倒计时（最多计算9点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的30%)</color>。
+		/// <color=#00BFFF>危险等级4</color> - 目标每有1点行动倒计时（最多计算19点），这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的40%)</color>。
 		/// </summary>
         public static string Skill_S_KirisameMarisa_2_4 = "S_KirisameMarisa_2_4";
 		/// <summary>
@@ -365,7 +365,7 @@ namespace KirisameMarisa
 		/// <summary>
 		/// 彗星「Blazing Star」
 		/// 倒计时期间，自身处于无敌状态，但无法行动。
-		/// 释放时，速度大于0时，每有1点速度，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的50%)</color>。
+		/// 释放时，速度大于0时，每有1点速度，这个技能造成&a点额外伤害<color=#FF7A33>(攻击力的100%)</color>。
 		/// </summary>
         public static string Skill_S_KirisameMarisa_Rare_11 = "S_KirisameMarisa_Rare_11";
 		/// <summary>
