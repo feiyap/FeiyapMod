@@ -1,0 +1,23 @@
+{
+    "myKey": "Skin_Jhin_Empyrean",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Jhin_Empyrean\\Jhin_EmpyreanFaceSmallChar.png",
+        "pivot": {
+            "x": 0.6972468,
+            "y": 0.8503495
+        },
+        "offsetMin": {
+            "x": -392.011627,
+            "y": -273.148132
+        },
+        "offsetMax": {
+            "x": 167.30191,
+            "y": 41.4970932
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

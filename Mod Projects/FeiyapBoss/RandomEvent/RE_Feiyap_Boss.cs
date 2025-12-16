@@ -36,23 +36,18 @@ namespace FeiyapBoss
             
             if (this.m == null)
             {
-                Debug.Log("A");
                 this.m = UnityEngine.Object.FindObjectOfType<MiniBossObject>();
             }
             if (this.s == null)
             {
-                Debug.Log("B");
                 this.s = UnityEngine.Object.FindObjectOfType<Stage1Events>();
             }
             if (this.m?.BossClear ?? false)
             {
-                Debug.Log("C");
                 base.ChangeDesc(this.MyUI.MainEventData.OrderStrings[0], true);
                 return;
             }
-            Debug.Log("D");
             base.ChangeDesc(this.MyUI.MainEventData.EventDetails, false);
-            Debug.Log("E");
         }
 
         public override void UseButton1()

@@ -1,0 +1,19 @@
+{
+    "B_Morichika_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Morichika.B_Morichika_0",
+        "BuffTag": "Debuff",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Description": "",
+        "Name": "发现弱点",
+        "LifeTime": 6,
+        "Debuff": true,
+        "TagPer": 115,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newicons (4)",
+        "MaxStack": 4
+    }
+}

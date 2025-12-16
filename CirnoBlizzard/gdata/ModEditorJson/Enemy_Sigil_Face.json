@@ -1,0 +1,23 @@
+{
+    "myKey": "Enemy_Sigil",
+    "myField": "Face",
+    "myValues": {
+        "path": "Enemy_Sigil\\Enemy_SigilFace.png",
+        "offsetMax": {
+            "x": 264.2929,
+            "y": 121.245033
+        },
+        "offsetMin": {
+            "x": -175.7071,
+            "y": -158.754974
+        },
+        "pivot": {
+            "x": 0.399334341,
+            "y": 0.566982031
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

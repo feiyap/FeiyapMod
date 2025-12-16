@@ -1,0 +1,29 @@
+{
+    "S_Morichika_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": true,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "鉴识眼",
+        "User": "Morichika",
+        "Effect_Target": "SE_T_S_Morichika_0",
+        "SkillExtended": [
+            "Morichika.S_Morichika_0"
+        ]
+    }
+}

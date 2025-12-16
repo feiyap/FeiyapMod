@@ -1,0 +1,12 @@
+{
+    "S_Boss_Cirno_P1_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Target": "self",
+        "EnemyPreview": true,
+        "UnknownTarget": true,
+        "Name": "思念",
+        "Description": "什么都不做……。",
+        "Particle": "Particle/Buff"
+    }
+}

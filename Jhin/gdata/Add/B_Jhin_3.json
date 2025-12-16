@@ -1,0 +1,19 @@
+{
+    "B_Jhin_3": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Jhin.B_Jhin_3",
+        "BuffTag": "Debuff",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "碾香入尘",
+        "MaxStack": 0,
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 144,
+        "Icon": "B_Jhin_3\\B_Jhin_3_Icon.png",
+        "Description": ""
+    }
+}

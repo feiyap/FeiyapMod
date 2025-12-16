@@ -1,0 +1,17 @@
+{
+    "S_Boss_Cirno_P2_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_6",
+        "Target": "all_enemy",
+        "EnemyPreview": true,
+        "UnknownTarget": false,
+        "Name": "绝对零度",
+        "Description": "这个技能造成痛苦伤害。",
+        "Effect_Target": "SE_T_S_Boss_Cirno_P2_0",
+        "UseAp": 0,
+        "SkillExtended": [
+            "CirnoBlizzard.S_Boss_Cirno_P2_0"
+        ]
+    }
+}

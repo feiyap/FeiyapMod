@@ -1,0 +1,13 @@
+{
+    "B_Boss_Cirno_P2_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P2_7",
+        "BuffTag": "Debuff",
+        "Name": "附骨之疽",
+        "MaxStack": 0,
+        "Debuff": true,
+        "TagPer": 125,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (10)",
+        "Description": "受到治疗后解除。"
+    }
+}

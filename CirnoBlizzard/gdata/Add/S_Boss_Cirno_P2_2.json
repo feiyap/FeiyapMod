@@ -1,0 +1,16 @@
+{
+    "S_Boss_Cirno_P2_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_4",
+        "Target": "all_enemy",
+        "EnemyPreview": true,
+        "Name": "烈冰之斩",
+        "Description": "无视防御。",
+        "UseAp": 0,
+        "Effect_Target": "SE_T_S_Boss_Cirno_P2_2",
+        "SkillExtended": [
+            "CirnoBlizzard.S_Boss_Cirno_P2_2"
+        ]
+    }
+}

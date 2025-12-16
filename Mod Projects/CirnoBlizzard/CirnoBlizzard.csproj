@@ -3,14 +3,18 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>CirnoBlizzard2025101295059</AssemblyName>
+    <AssemblyName>CirnoBlizzard2025101903141</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <ReferencePath>H:/SteamLibrary/steamapps/common/Chrono Ark/ChronoArk_Data/Managed</ReferencePath>
+    <ProjectGuid>{C2553FB6-213F-4D83-850E-A23C0948A49C}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>I:\11\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Accessibility">
       <Private>False</Private>
     </Reference>
@@ -26,8 +30,26 @@
     <Reference Include="DOTween">
       <Private>False</Private>
     </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>I:\11\Assemblies\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Security">
       <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>I:\11\Assemblies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>I:\11\Assemblies\MonoMod.Utils.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <Private>False</Private>
@@ -383,13 +405,48 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-  
-      <!-- Compile ItemGroup Start-->
+                      <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="CirnoBlizzard_ModDefinition.cs" />
     <Compile Include="CirnoBlizzard_ModItemKeys.cs" />
     <Compile Include="CirnoBlizzard_Plugin.cs" />
+    <Compile Include="FreezeAP.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_Freeze.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P1_2.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P2_0.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P2_7.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P3_0.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P3_0_1.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P3_0_2.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P3_0_3.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P_1.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P_2.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P_3.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P_3_0.cs" />
+    <Compile Include="Buff\B_Boss_Cirno_P_3_1.cs" />
+    <Compile Include="Buff\B_Sigil_P.cs" />
+    <Compile Include="Enemy\BattleEvent_CirnoBlizzard.cs" />
     <Compile Include="Enemy\Boss_CirnoBlizzard.cs" />
+    <Compile Include="Enemy\Enemy_Sigil.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_Lucy_0.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P2_0.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P2_1.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P2_2.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P2_3.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P2_5.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P2_6.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P2_7.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P3_0.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P3_1.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P3_2.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P3_3.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P3_4.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P3_5.cs" />
+    <Compile Include="Skill\S_Boss_Cirno_P3_S.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

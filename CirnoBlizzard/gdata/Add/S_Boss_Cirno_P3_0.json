@@ -1,0 +1,12 @@
+{
+    "S_Boss_Cirno_P3_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "EnemyPreview": true,
+        "Name": "圣洁之心",
+        "Description": "使所有非“输出”职业的调查员获得“圣洁之心”。\r\n使所有“输出”职业的调查员获得“污秽之心”。",
+        "Effect_Target": "SE_T_S_Boss_Cirno_P3_0"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "S_Jhin_Rare_1_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunman_2",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "Name": "完美谢幕 - 入场曲",
+        "Description": "生成“完美谢幕 - 渐起曲”。\r\n目标每损失1%体力值，这个技能的伤害提升1%。\r\n对处于“无法行动”的敌人造成的伤害翻倍。",
+        "Except": true,
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_Jhin_Rare_1_1",
+        "Image_0": "S_Jhin_Rare_1_1\\S_Jhin_Rare_1_1_Image_0.png",
+        "Image_1": "S_Jhin_Rare_1_1\\S_Jhin_Rare_1_1_Image_1.png",
+        "Image_2": "S_Jhin_Rare_1_1\\S_Jhin_Rare_1_1_Image_2.png",
+        "PlusSkillView": "S_Jhin_Rare_1_2",
+        "UseAp": -9,
+        "SkillExtended": [
+            "Jhin.S_Jhin_Rare_1_1"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

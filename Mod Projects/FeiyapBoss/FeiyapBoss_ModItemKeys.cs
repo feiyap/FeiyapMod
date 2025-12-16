@@ -37,6 +37,7 @@ namespace FeiyapBoss
 		/// <summary>
 		/// 烤全鸭
 		/// 恢复友军100%的体力值，同时解除无法战斗状态。
+		/// 持有“手提便当”时，在战斗中可使用：效果变为全体友军。
 		/// </summary>
         public static string Item_Consume_Item_BurnFullDuck = "Item_BurnFullDuck";
         public static string EnemyQueue_Queue_Boss_Feiyap = "Queue_Boss_Feiyap";
@@ -47,7 +48,9 @@ namespace FeiyapBoss
 		/// 在她背后，破碎的星球残片化作沉默的王冕高悬于空，昭示着你们所有人的结局。
 		/// 「胜利，否则毁灭。」——少女如此宣告道。
 		/// Button
+		/// 与之一战！
 		/// ButtonToolTip
+		/// 迎战事件Boss“绯夜氏”。
 		/// </summary>
         public static string RandomEvent_RE_Feiyap_Boss = "RE_Feiyap_Boss";
         public static string SkillEffect_SE_Tick_B_Feiyap_Boss_1 = "SE_Tick_B_Feiyap_Boss_1";

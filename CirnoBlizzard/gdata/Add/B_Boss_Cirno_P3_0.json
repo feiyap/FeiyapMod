@@ -1,0 +1,14 @@
+{
+    "B_Boss_Cirno_P3_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P3_0",
+        "BuffTag": "DOT",
+        "Name": "圣洁之心",
+        "LifeTime": 1,
+        "Debuff": true,
+        "TagPer": 135,
+        "Icon": "Image/Buff/Skill_Icon_Pack/4",
+        "Description": "回合结束时，体力值变为0，失去所有体力极限，并抽取 1 个自己的技能。\n使用自己的技能时解除，并获得持续 1 回合的“治疗力+10%，防御力+10%”。"
+    }
+}

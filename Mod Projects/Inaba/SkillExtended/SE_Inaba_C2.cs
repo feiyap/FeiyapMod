@@ -28,7 +28,7 @@ namespace Inaba
 
         public override bool CanSkillEnforce(Skill MainSkill)
         {
-            return MainSkill.AP <= 1;
+            return MainSkill.AP <= 1 && MainSkill.IsDamage;
         }
     }
 }

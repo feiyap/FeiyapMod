@@ -1,7 +1,7 @@
 {
     "BattleTestPreset2": {
         "_gdeSchema": "Preset",
-        "AP": 7,
+        "AP": 10,
         "Level": 4,
         "Party": [
             "Trisha",

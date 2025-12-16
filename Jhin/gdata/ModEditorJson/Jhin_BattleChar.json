@@ -1,0 +1,23 @@
+{
+    "myKey": "Jhin",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Jhin\\JhinBattleChar.png",
+        "offsetMax": {
+            "x": 895.113831,
+            "y": 351.923157
+        },
+        "offsetMin": {
+            "x": -1428.08618,
+            "y": -1071.03687
+        },
+        "pivot": {
+            "x": 0.6147065,
+            "y": 0.7526823
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

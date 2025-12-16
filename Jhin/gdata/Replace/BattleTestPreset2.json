@@ -1,0 +1,60 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "AP": 5,
+        "Level": 6,
+        "Party": [
+            "Phoenix",
+            "MissChain",
+            "Hein",
+            "Jhin"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_Jhin_P"
+        ],
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Jhin_6",
+                "S_Jhin_0",
+                "S_Jhin_1",
+                "S_Jhin_2",
+                "S_Jhin_3",
+                "S_Jhin_4",
+                "S_Jhin_5",
+                "S_Jhin_7"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            "S_Jhin_LucyD"
+        ],
+        "ConsumeItems": [
+            
+        ]
+    }
+}

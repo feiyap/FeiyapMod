@@ -1,0 +1,28 @@
+{
+    "Sett": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "face": "Sett\\SettBattleFace.png",
+        "name": "腕豪",
+        "SelectInfo": "",
+        "MAXHP": {
+            "x": 25,
+            "y": 45
+        },
+        "ATK": {
+            "x": 15,
+            "y": 35
+        },
+        "PassiveIcon": "Sett\\SettPassiveIcon.png",
+        "PassiveName": "半兽之心",
+        "PassiveDes": "每个回合开始时，瑟提恢复自身所有体力极限。",
+        "CollectionSprite_Cover": "Sett\\SettCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Sett\\SettCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_CC": 1,
+        "StatView_Difficult": 1,
+        "CampSelectWord": "那必须是我了！"
+    }
+}

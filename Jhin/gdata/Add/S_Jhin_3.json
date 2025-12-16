@@ -1,0 +1,26 @@
+{
+    "S_Jhin_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/S2_MBoss0_0",
+        "Target": "all_enemy",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "Fatal": false,
+        "Name": "万众倾倒",
+        "Description": "仅能对持有干扰减益的敌人造成伤害和施加减益。",
+        "User": "Jhin",
+        "UseAp": 1,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_Jhin_3",
+        "Image_0": "S_Jhin_3\\S_Jhin_3_Image_0.png",
+        "Image_1": "S_Jhin_3\\S_Jhin_3_Image_1.png",
+        "Image_2": "S_Jhin_3\\S_Jhin_3_Image_2.png",
+        "Rare": false,
+        "NoDrop": false,
+        "Except": false,
+        "SkillExtended": [
+            "Jhin.S_Jhin_3"
+        ]
+    }
+}

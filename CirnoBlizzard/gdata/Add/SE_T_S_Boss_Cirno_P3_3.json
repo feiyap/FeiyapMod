@@ -1,0 +1,7 @@
+{
+    "SE_T_S_Boss_Cirno_P3_3": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 100
+    }
+}

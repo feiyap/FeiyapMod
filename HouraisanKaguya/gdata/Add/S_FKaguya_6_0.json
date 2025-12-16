@@ -6,7 +6,7 @@
         "Target": "enemy",
         "NotCount": true,
         "NoDrop": true,
-        "IgnoreTaunt": false,
+        "IgnoreTaunt": true,
         "Description": "本回合内可重复释放一次。\n\n<color=purple>难题</color> - 这个回合自身受到的伤害大于自身最大生命值的20%(&a)。",
         "Name": "难题「燕的子安贝　-永命线-」",
         "Rare": false,

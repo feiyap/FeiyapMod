@@ -1,0 +1,14 @@
+{
+    "S_Sett_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/IronHeart/IronHeart_new_2",
+        "Target": "all_enemy",
+        "NotCount": false,
+        "Name": "蓄意轰拳",
+        "Description": "获得 &a 保护罩(剩余体力极限的100%)。\r\n额外造成 &b 伤害(剩余体力极限的100% x 攻击力的10%)。\r\n对眩晕状态的敌人造成的伤害翻倍。",
+        "UseAp": 3,
+        "User": "Sett",
+        "Effect_Target": "SE_T_S_Sett_3"
+    }
+}

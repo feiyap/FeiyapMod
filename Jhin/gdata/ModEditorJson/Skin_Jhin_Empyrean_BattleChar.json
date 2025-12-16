@@ -1,0 +1,23 @@
+{
+    "myKey": "Skin_Jhin_Empyrean",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Jhin_Empyrean\\Jhin_EmpyreanBattleChar.png",
+        "pivot": {
+            "x": 0.7152897,
+            "y": 0.774537444
+        },
+        "offsetMin": {
+            "x": -2022.14844,
+            "y": -1231.79773
+        },
+        "offsetMax": {
+            "x": 804.885742,
+            "y": 358.5679
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

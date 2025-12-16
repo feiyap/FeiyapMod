@@ -1,0 +1,11 @@
+{
+    "B_Boss_Cirno_P_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P_2",
+        "BuffTag": "null",
+        "Name": "刺痛流泪之心",
+        "Description": "每受到125伤害，生成 1 个“破碎的心”。每回合最多触发 3 次。\r\n触发 3 次后，这个增益的“攻击力+50%”会转变为“受到伤害量+20%”，持续到回合结束。\n\r\n仅有一次，体力值不会低于999。触发时，转变为“爱与妖精之心”。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (76)"
+    }
+}

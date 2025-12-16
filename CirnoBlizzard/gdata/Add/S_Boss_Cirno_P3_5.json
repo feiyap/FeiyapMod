@@ -1,0 +1,12 @@
+{
+    "S_Boss_Cirno_P3_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/SnowGiant_1",
+        "Target": "enemy",
+        "EnemyPreview": true,
+        "Name": "深冬",
+        "Description": "攻击目标以外的所有调查员。",
+        "Effect_Target": "SE_T_S_Boss_Cirno_P3_5"
+    }
+}

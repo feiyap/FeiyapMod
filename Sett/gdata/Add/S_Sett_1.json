@@ -1,0 +1,16 @@
+{
+    "S_Sett_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "NoDrop": false,
+        "Except": false,
+        "Name": "沙场豪情",
+        "Description": "生成 1 个“左重拳”。",
+        "User": "Sett",
+        "Effect_Target": "null",
+        "Effect_Self": "SE_S_S_Sett_1"
+    }
+}

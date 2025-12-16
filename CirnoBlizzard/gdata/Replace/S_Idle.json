@@ -1,0 +1,7 @@
+{
+    "S_Idle": {
+        "_gdeSchema": "Skill",
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

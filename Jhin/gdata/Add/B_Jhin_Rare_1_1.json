@@ -1,0 +1,14 @@
+{
+    "B_Jhin_Rare_1_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "Jhin.B_Jhin_Rare_1_1",
+        "BuffTag": "Debuff",
+        "Name": "怯场",
+        "MaxStack": 4,
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 144,
+        "Icon": "B_Jhin_Rare_1_1\\B_Jhin_Rare_1_1_Icon.png"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "SE_Jhin_P_4": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "非凡",
+        "IsIcon": "SE_Jhin_P_4\\SE_Jhin_P_4_Icon.png",
+        "ClassName": "Jhin.SE_Jhin_P_4"
+    }
+}

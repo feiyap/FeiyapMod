@@ -1,0 +1,23 @@
+{
+    "myKey": "Sett",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Sett\\SettBattleChar.png",
+        "offsetMax": {
+            "x": 1362.28735,
+            "y": 266.580444
+        },
+        "offsetMin": {
+            "x": -1369.76636,
+            "y": -1302.98425
+        },
+        "pivot": {
+            "x": 0.501368761,
+            "y": 0.830156446
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

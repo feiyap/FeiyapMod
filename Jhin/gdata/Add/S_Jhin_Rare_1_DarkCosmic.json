@@ -1,0 +1,14 @@
+{
+    "S_Jhin_Rare_1_DarkCosmic": {
+        "_gdeSchema": "VFXSkill",
+        "MySkill": "S_Jhin_Rare_1",
+        "Image_0": "S_Jhin_Rare_1_DarkCosmic\\S_Jhin_Rare_1_DarkCosmic_Image_0.png",
+        "SkillImage": [
+            "S_Jhin_Rare_1_DarkCosmic\\S_Jhin_Rare_1_DarkCosmic_Image_0.png",
+            "S_Jhin_Rare_1_DarkCosmic\\S_Jhin_Rare_1_DarkCosmic_Image_1.png",
+            "S_Jhin_Rare_1_DarkCosmic\\S_Jhin_Rare_1_DarkCosmic_Image_2.png"
+        ],
+        "Image_1": "S_Jhin_Rare_1_DarkCosmic\\S_Jhin_Rare_1_DarkCosmic_Image_1.png",
+        "Image_2": "S_Jhin_Rare_1_DarkCosmic\\S_Jhin_Rare_1_DarkCosmic_Image_2.png"
+    }
+}

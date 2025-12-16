@@ -1,0 +1,14 @@
+{
+    "B_Jhin_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Jhin.B_Jhin_4",
+        "BuffTag": "CrowdControl",
+        "Name": "穿帮",
+        "Debuff": true,
+        "TagPer": 144,
+        "LifeTime": 4,
+        "Icon": "B_Jhin_4\\B_Jhin_4_Icon.png",
+        "Description": "无法指定其他角色。",
+        "TauntStat": true
+    }
+}

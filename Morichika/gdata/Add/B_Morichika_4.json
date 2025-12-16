@@ -1,0 +1,14 @@
+{
+    "B_Morichika_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Morichika.B_Morichika_4",
+        "BuffTag": "CrowdControl",
+        "Description": "攻击改为指向随机其他怪物。\n触发后解除。",
+        "Name": "受骗",
+        "MaxStack": 0,
+        "Debuff": true,
+        "TagPer": 110,
+        "LifeTime": 0,
+        "Icon": "Image/Buff/Skill_Icon_Pack/yellow/yellow_01"
+    }
+}

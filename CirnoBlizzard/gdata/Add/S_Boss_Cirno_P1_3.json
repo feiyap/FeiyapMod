@@ -1,0 +1,11 @@
+{
+    "S_Boss_Cirno_P1_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/PharosDPS_1",
+        "Target": "enemy",
+        "EnemyPreview": false,
+        "Name": "反击",
+        "Effect_Target": "SE_T_S_Boss_Cirno_P1_3"
+    }
+}

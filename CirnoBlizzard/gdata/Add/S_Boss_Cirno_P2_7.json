@@ -1,0 +1,15 @@
+{
+    "S_Boss_Cirno_P2_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Twins/Hel_2",
+        "Target": "enemy",
+        "EnemyPreview": true,
+        "Name": "破败冰霜之心",
+        "Description": "优先攻击未持有“完美冻结”的敌人。\r\n若目标未持有“完美冻结”，则施加“完美冻结”。",
+        "Effect_Target": "SE_T_S_Boss_Cirno_P2_7",
+        "SkillExtended": [
+            "CirnoBlizzard.S_Boss_Cirno_P2_7"
+        ]
+    }
+}

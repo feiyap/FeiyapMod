@@ -1,5 +1,38 @@
 {
     "BattleTestPreset2": {
-        "_gdeSchema": "Preset"
+        "_gdeSchema": "Preset",
+        "PartySkills": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "S_Hein_0",
+                "S_Hein_0",
+                "S_Hein_0",
+                "S_Hein_0",
+                "S_Hein_0",
+                "S_Hein_0"
+            ]
+        ],
+        "LucySkill": [
+            "S_Lucy_0"
+        ],
+        "PartyEquip": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                "BlackMoonSword",
+                "WoodenSword13"
+            ]
+        ],
+        "AP": 10,
+        "Level": 6
     }
 }

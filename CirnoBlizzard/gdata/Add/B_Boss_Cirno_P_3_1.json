@@ -1,0 +1,11 @@
+{
+    "B_Boss_Cirno_P_3_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P_3_1",
+        "BuffTag": "null",
+        "Name": "恸哭与冰之心",
+        "Description": "每个回合开始时，冻结最后 1 颗可用的法力水晶：这颗法力水晶不再可用。\r\n每个回合中，最多能恢复 9 点法力值。超出时，清空所有法力值，并在本回合内暂时冻结所有法力水晶。\n本回合还能恢复的法力值：&a",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (7)"
+    }
+}

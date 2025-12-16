@@ -1,0 +1,11 @@
+{
+    "B_Sigil_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "CirnoBlizzard.B_Sigil_P",
+        "BuffTag": "null",
+        "Name": "冰封魔印",
+        "Description": "琪露诺=暴风雪释放技能后，“冰封魔印”会依次以倒计时1、2、3重复释放，然后消失。\r\n被调查员击破时，在手中生成 1 个“雪符「完美的冰晶片」” （一次性的完美防御）。\r\n“冰封魔印”会优先攻击治疗力最高的单位。受到攻击后，会改为以最后一次的攻击者为优先攻击的目标。\r\n当前锁定的攻击目标：&target",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (76)",
+        "Cantdisable": true
+    }
+}

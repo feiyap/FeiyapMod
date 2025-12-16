@@ -1,0 +1,16 @@
+{
+    "S_Morichika_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "NoBasicSkill": false,
+        "Name": "门庭若市",
+        "User": "Morichika",
+        "Effect_Self": "SE_S_S_Morichika_6",
+        "SkillExtended": [
+            "Morichika.S_Morichika_6"
+        ]
+    }
+}

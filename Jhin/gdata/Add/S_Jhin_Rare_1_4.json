@@ -1,0 +1,24 @@
+{
+    "S_Jhin_Rare_1_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunman_1",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": false,
+        "NoDrop": true,
+        "Except": true,
+        "Name": "完美谢幕 - 谢幕曲",
+        "Description": "目标每损失1%体力值，这个技能的伤害提升4%。\r\n对处于“无法行动”的敌人造成的伤害翻倍。",
+        "Effect_Target": "SE_T_S_Jhin_Rare_1_4",
+        "Image_0": "S_Jhin_Rare_1_4\\S_Jhin_Rare_1_4_Image_0.png",
+        "Image_1": "S_Jhin_Rare_1_4\\S_Jhin_Rare_1_4_Image_1.png",
+        "Image_2": "S_Jhin_Rare_1_4\\S_Jhin_Rare_1_4_Image_2.png",
+        "Fatal": true,
+        "UseAp": -9,
+        "Effect_Self": "SE_S_S_Jhin_Rare_1_4",
+        "SkillExtended": [
+            "Jhin.S_Jhin_Rare_1_4"
+        ]
+    }
+}

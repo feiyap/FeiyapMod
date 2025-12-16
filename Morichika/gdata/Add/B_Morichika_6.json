@@ -1,0 +1,11 @@
+{
+    "B_Morichika_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Morichika.B_Morichika_6",
+        "BuffTag": "null",
+        "Name": "财源滚滚",
+        "Description": "场上每有 1 个持有“保修服务”的友军，这个增益额外提供“最大体力值+25%”。",
+        "LifeTime": 3,
+        "Icon": "Image/Buff/Skill_Icon_Pack/Buff"
+    }
+}

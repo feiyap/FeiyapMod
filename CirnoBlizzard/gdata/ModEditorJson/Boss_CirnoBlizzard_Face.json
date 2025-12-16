@@ -4,16 +4,16 @@
     "myValues": {
         "path": "Boss_CirnoBlizzard\\Boss_CirnoBlizzardFace.png",
         "offsetMax": {
-            "x": 768.9722,
-            "y": 247.889923
+            "x": 748.245,
+            "y": 281.1287
         },
         "offsetMin": {
-            "x": -721.747864,
-            "y": -1668.75012
+            "x": -888.6776,
+            "y": -1823.48608
         },
         "pivot": {
-            "x": 0.482797444,
-            "y": 0.8677479
+            "x": 0.541653931,
+            "y": 0.8637668
         }
     },
     "MyChangeType": "Face",

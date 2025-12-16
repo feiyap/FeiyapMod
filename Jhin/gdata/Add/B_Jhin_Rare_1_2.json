@@ -1,0 +1,12 @@
+{
+    "B_Jhin_Rare_1_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "Jhin.B_Jhin_Rare_1_2",
+        "BuffTag": "null",
+        "Name": "大美将至",
+        "MaxStack": 0,
+        "LifeTime": 2,
+        "Icon": "B_Jhin_Rare_1_2\\B_Jhin_Rare_1_2_Icon.png"
+    }
+}

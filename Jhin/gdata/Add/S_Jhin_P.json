@@ -1,0 +1,17 @@
+{
+    "S_Jhin_P": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "Description": "<color=#919191><i>什么？不、不不不，我不允许我的作品出现重复！我的作品必须是独一无二的……</i></color>",
+        "Name": "癫狂追求",
+        "Image_0": "S_Jhin_P\\S_Jhin_P_Image_0.png",
+        "Image_1": "S_Jhin_P\\S_Jhin_P_Image_1.png",
+        "Image_2": "S_Jhin_P\\S_Jhin_P_Image_2.png",
+        "Disposable": false,
+        "NoDrop": true
+    }
+}

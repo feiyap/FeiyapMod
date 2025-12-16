@@ -1,0 +1,13 @@
+{
+    "S_Boss_Cirno_P3_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/Master_0",
+        "Target": "Misc",
+        "EnemyPreview": true,
+        "Name": "狂冬暴风雪",
+        "Description": "选择最左侧或最右侧的调查员承受这个技能。\r\n释放之后，向右侧或左侧依次释放三次，但造成的伤害逐次降低25%。\r\n只对前两个目标施加“疯狂之冬”。",
+        "Effect_Target": "SE_T_S_Boss_Cirno_P3_3",
+        "UnknownTarget": true
+    }
+}

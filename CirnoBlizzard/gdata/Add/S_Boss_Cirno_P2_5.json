@@ -1,0 +1,15 @@
+{
+    "S_Boss_Cirno_P2_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_5",
+        "Target": "enemy",
+        "EnemyPreview": true,
+        "Name": "烈冰之环",
+        "Description": "攻击目标以外的所有调查员。",
+        "Effect_Target": "SE_T_S_Boss_Cirno_P2_5",
+        "SkillExtended": [
+            "CirnoBlizzard.S_Boss_Cirno_P2_5"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "SE_T_S_Boss_Cirno_P2_7": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 170,
+        "Buffs": [
+            "B_Boss_Cirno_P2_7"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

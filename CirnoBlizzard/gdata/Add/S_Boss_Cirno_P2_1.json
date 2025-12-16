@@ -1,0 +1,14 @@
+{
+    "S_Boss_Cirno_P2_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "EnemyPreview": true,
+        "Name": "冰封魔印",
+        "Description": "召唤三个“冰封魔印”。",
+        "SkillExtended": [
+            "CirnoBlizzard.S_Boss_Cirno_P2_1"
+        ]
+    }
+}

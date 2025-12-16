@@ -1,0 +1,105 @@
+{
+    "Jhin": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "Jhin.P_Jhin",
+        "PassiveUnlockLV1": true,
+        "face": "Jhin\\JhinBattleFace.png",
+        "name": "烬",
+        "SelectInfo": "作为一名心思缜密的癫狂杀手，烬坚信如何让人直面死亡是一门精巧的艺术。他曾在艾欧尼亚的监狱中服刑，却因执政议会里涌动的暗流得到释放，最终成为权术斗争所利用的刺客。烬将手中的枪当成画笔，尽情地挥洒他所追求的残忍艺术，让受害者肝胆俱裂，令旁观者震悚难平。他在自己制作的阴森剧目里肆意取乐，让“恐怖”二字有了最合适不过的定义。",
+        "MAXHP": {
+            "x": 24,
+            "y": 44
+        },
+        "ATK": {
+            "x": 14,
+            "y": 24
+        },
+        "CRI": {
+            "x": 4,
+            "y": 14
+        },
+        "DODGE": {
+            "x": 4,
+            "y": 14
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "REG": {
+            "x": 4,
+            "y": 14
+        },
+        "HIT": {
+            "x": 104,
+            "y": 114
+        },
+        "RES_CC": {
+            "x": 4,
+            "y": 68
+        },
+        "RES_DEBUFF": {
+            "x": 4,
+            "y": 44
+        },
+        "RES_DOT": {
+            "x": 4,
+            "y": 44
+        },
+        "HIT_CC": {
+            "x": 4,
+            "y": 44
+        },
+        "HIT_DEBUFF": {
+            "x": 4,
+            "y": 44
+        },
+        "HIT_DOT": {
+            "x": 4,
+            "y": 44
+        },
+        "PassiveIcon": "Jhin\\JhinPassiveIcon.png",
+        "PassiveName": "低语",
+        "PassiveDes": "烬每个回合只能使用 4 个非稀有技能，且技能的费用固定为1、2、3、4。如果该次技能暴击，则恢复0、1、2、3点法力值，并获得(14% + 额外命中率的44%)的闪避率，持续 1 回合。\r\n\n第 4 个技能总是会产生暴击，并造成相当于目标已损失生命值的44%的额外伤害。\n\n<color=#919191>- 此被动从1级开始生效。</color>\r\n<color=#919191>- 烬不再拥有固定能力。</color>",
+        "CollectionSprite_Cover": "Jhin\\JhinCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Jhin\\JhinCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Difficult": 3,
+        "CampSelectWord": "我于杀戮之中盛放，亦如黎明中的花朵。",
+        "Text_Battle_Start": [
+            "我们的演出开始了。",
+            "让我们开场吧。",
+            "我的观众，已经入场。"
+        ],
+        "Text_Battle_Kill": [
+            "死是必然，但杀戮并不一定丑陋。",
+            "死亡不是匆匆过场，而是一部歌剧。",
+            "他们会跳，他们会唱，他们会死。"
+        ],
+        "Text_Battle_Cri": [
+            "微笑各位，微笑。",
+            "优秀不值一提，我必须达到完美。"
+        ],
+        "Text_Field_Idle": [
+            "我与杀戮之中盛放，亦如黎明中的花朵。"
+        ],
+        "Text_Battle_Idle": [
+            "简而言之，我扣扳机，他们跳舞。"
+        ],
+        "Text_PharosLeader": [
+            "他们叫我疯子，艺术家都是疯子。",
+            "一身戏服，几点浓妆，一泼鲜血。",
+            "笑一个吧，大家都在看着呢。"
+        ],
+        "Text_Witch": [
+            "我热爱表演，但我讨厌人群。",
+            "此等丑陋，我无法忍受。"
+        ],
+        "Text_MasterTarget": "这个舞台被我的才华踩在了脚下，但我也把它，带到了新的高度。",
+        "FixedBasicSkill": "S_Jhin_P",
+        "FirstSkill": "S_Jhin_0",
+        "StatView_CC": 2,
+        "StatView_Debuff": 2
+    }
+}

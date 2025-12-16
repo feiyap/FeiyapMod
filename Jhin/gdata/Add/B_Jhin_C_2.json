@@ -1,0 +1,15 @@
+{
+    "B_Jhin_C_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Jhin.B_Jhin_C_2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "暴击率提升",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (19)",
+        "LifeTime": 1
+    }
+}

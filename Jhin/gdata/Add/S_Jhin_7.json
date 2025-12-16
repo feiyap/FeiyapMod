@@ -1,0 +1,33 @@
+{
+    "S_Jhin_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "Name": "再等等…",
+        "Description": "丢弃手中所有自己的技能。\n那之后，优先抽取那个数量+X的自己的技能。X为这个技能的费用。\r\n本回合内，自己无法再使用技能。",
+        "User": "Jhin",
+        "Effect_Target": "SE_T_S_Jhin_7",
+        "Image_0": "S_Jhin_7\\S_Jhin_7_Image_0.png",
+        "Image_1": "S_Jhin_7\\S_Jhin_7_Image_1.png",
+        "Image_2": "S_Jhin_7\\S_Jhin_7_Image_2.png",
+        "SkillExtended": [
+            "Jhin.S_Jhin_7"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

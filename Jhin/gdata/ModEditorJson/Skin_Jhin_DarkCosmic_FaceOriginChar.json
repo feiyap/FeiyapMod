@@ -1,0 +1,23 @@
+{
+    "myKey": "Skin_Jhin_DarkCosmic",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Jhin_DarkCosmic\\Jhin_DarkCosmicFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1050.56812,
+            "y": 218.28215
+        },
+        "offsetMin": {
+            "x": -1207.32739,
+            "y": -1113.87634
+        },
+        "pivot": {
+            "x": 0.5340935,
+            "y": 0.832109869
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

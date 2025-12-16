@@ -1,0 +1,23 @@
+{
+    "myKey": "Morichika",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Morichika\\MorichikaFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1061.12061,
+            "y": 282.66272
+        },
+        "offsetMin": {
+            "x": -1068.63135,
+            "y": -1782.62634
+        },
+        "pivot": {
+            "x": 0.5011059,
+            "y": 0.86053437
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

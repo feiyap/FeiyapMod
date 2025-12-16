@@ -1,0 +1,23 @@
+{
+    "myKey": "Skin_Jhin_PROJECT",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Jhin_PROJECT\\Jhin_PROJECTBattleChar.png",
+        "offsetMax": {
+            "x": 1060.94214,
+            "y": 304.727966
+        },
+        "offsetMin": {
+            "x": -1392.5144,
+            "y": -1122.1322
+        },
+        "pivot": {
+            "x": 0.5675725,
+            "y": 0.7864346
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

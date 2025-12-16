@@ -1,0 +1,16 @@
+{
+    "B_Sett_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_Sett_1\\B_Sett_1_Icon.png",
+        "Name": "沙场豪情",
+        "Description": "释放“右重拳”时，生成 1 个“左重拳”。",
+        "LifeTime": 2
+    }
+}

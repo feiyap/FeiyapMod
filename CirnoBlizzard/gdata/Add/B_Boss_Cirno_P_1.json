@@ -1,0 +1,13 @@
+{
+    "B_Boss_Cirno_P_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P_1",
+        "BuffTag": "null",
+        "Name": "枯萎冻结之心",
+        "Description": "受到攻击时，进行一次 &a 伤害的反击(攻击力的25%)。\r\n回合结束时，对所有单位造成 &b 痛苦伤害(攻击力的50%)。\r\n\n仅有一次，体力值不会低于&c。触发时，转变为“刺痛流泪之心”。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_26",
+        "Cantdisable": true,
+        "Debuff": false,
+        "TagPer": 0
+    }
+}

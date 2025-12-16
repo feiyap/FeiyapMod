@@ -1,0 +1,15 @@
+{
+    "S_Sett_0_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impactYellowWeak",
+        "Target": "enemy",
+        "Name": "右重拳",
+        "UseAp": 1,
+        "Description": "",
+        "Effect_Target": "SE_T_S_Sett_0_1",
+        "NotCount": true,
+        "Except": true,
+        "NoDrop": true
+    }
+}

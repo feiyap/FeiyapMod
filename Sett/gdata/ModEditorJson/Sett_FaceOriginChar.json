@@ -1,0 +1,23 @@
+{
+    "myKey": "Sett",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Sett\\SettFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1412.66,
+            "y": 175.94632
+        },
+        "offsetMin": {
+            "x": -1319.39368,
+            "y": -1393.61841
+        },
+        "pivot": {
+            "x": 0.482418656,
+            "y": 0.884477258
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

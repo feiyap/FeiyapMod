@@ -1,0 +1,23 @@
+{
+    "myKey": "Jhin",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Jhin\\JhinFaceOriginChar.png",
+        "offsetMax": {
+            "x": 801.2233,
+            "y": 286.0193
+        },
+        "offsetMin": {
+            "x": -1118.77661,
+            "y": -889.9808
+        },
+        "pivot": {
+            "x": 0.581967,
+            "y": 0.7522165
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

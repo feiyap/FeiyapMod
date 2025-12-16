@@ -102,7 +102,7 @@ namespace FeiyapBoss
                     List<BattleChar> list = new List<BattleChar>();
                     Skill skill = Skill.TempSkill("S_Feiyap_Boss_5", this.BChar, this.BChar.MyTeam);
                     list.AddRange((this.BChar as BattleEnemy).Ai.TargetSelect(skill));
-                    BattleSystem.instance.EnemyCastEnqueue(this.BChar as BattleEnemy, skill, list, lastAct + 2, false);
+                    BattleSystem.instance.EnemyCastEnqueue(this.BChar as BattleEnemy, skill, list, lastAct + 2 + BattleSystem.instance.AllyTeam.TurnActionNum, false);
 
                     (this.BChar as BattleEnemy).ChangeSprite(this.getSprite("FeiyapStarFallen"));
                 }

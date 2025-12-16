@@ -1,0 +1,17 @@
+{
+    "S_Morichika_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": true,
+        "Name": "抵押",
+        "Description": "展示牌库中的所有技能。选择并放逐其中 1 个，并恢复 2 点法力值。\r\n下个回合开始时，将那个技能拿回手中，但失去 1 点法力值。\r\n使目标技能的持有者获得“保修服务”。",
+        "User": "Morichika",
+        "UseAp": 0,
+        "Effect_Target": "SE_T_S_Morichika_3",
+        "SkillExtended": [
+            "Morichika.S_Morichika_3"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "S_Boss_Cirno_P2_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Ilya/Ilya_5",
+        "Target": "enemy",
+        "EnemyPreview": true,
+        "Name": "烈冰之刺",
+        "Effect_Target": "SE_T_S_Boss_Cirno_P2_3",
+        "SkillExtended": [
+            "CirnoBlizzard.S_Boss_Cirno_P2_3"
+        ]
+    }
+}

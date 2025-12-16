@@ -1,0 +1,19 @@
+{
+    "S_Morichika_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Lian/Lian_7",
+        "Target": "enemy",
+        "NotCount": true,
+        "Name": "快速谈判",
+        "Description": "只能指向体力值百分比低于自身（当前为：&a%）的敌人。",
+        "User": "Morichika",
+        "UseAp": 2,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Morichika_4",
+        "Effect_Self": "SE_S_S_Morichika_4",
+        "SkillExtended": [
+            "Morichika.S_Morichika_4"
+        ]
+    }
+}

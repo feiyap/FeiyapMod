@@ -1,0 +1,18 @@
+{
+    "S_Morichika_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": true,
+        "NoBasicSkill": false,
+        "Name": "资产重组",
+        "Description": "展示所有弃牌库中持有者为目标的技能。\r\n从牌库最上方将那个数量的技能送入弃牌库。\r\n将展示的技能放回牌库随机位置。",
+        "UseAp": 1,
+        "User": "Morichika",
+        "Effect_Target": "SE_T_S_Morichika_8",
+        "SkillExtended": [
+            "Morichika.S_Morichika_8"
+        ]
+    }
+}

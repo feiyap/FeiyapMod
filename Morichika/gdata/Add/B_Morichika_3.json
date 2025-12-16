@@ -1,0 +1,12 @@
+{
+    "B_Morichika_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Morichika.B_Morichika_3",
+        "BuffTag": "null",
+        "Name": "抵押",
+        "Description": "当前抵押的技能是：&skill",
+        "LifeTime": 0,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_82/6",
+        "Cantdisable": true
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "B_Jhin_7": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Jhin.B_Jhin_7",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "要耐心…",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_99/18",
+        "Description": "艺术需要精心雕琢…",
+        "Debuff": true,
+        "TagPer": 0,
+        "LifeTime": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "S_Morichika_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": true,
+        "Name": "开源节流",
+        "Description": "移除所有友军的“保修服务”增益。\r\n每有 1 个“保修服务”被移除，超额治疗自身 &a (最大体力值的34%)，对所有敌人施加 1 层“发现弱点”，优先抽取 1 个自己的技能，恢复 1 点法力值。",
+        "User": "Morichika",
+        "UseAp": 3,
+        "NoBasicSkill": true,
+        "SkillExtended": [
+            "Morichika.S_Morichika_7"
+        ]
+    }
+}

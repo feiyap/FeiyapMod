@@ -13,16 +13,33 @@ using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 namespace Morichika
 {
-	/// <summary>
-	/// 奇物「魔法剑」
-	/// 只能选择“指向敌人”的技能。
-	/// 获得[改装]时，费用降低1点。
-	/// 使目标技能额外造成&a伤害(持有者攻击力的100%)。
-	/// <i><color=#00BFFF>啊！终于不装了吗？连名字也懒得重新取一个了吗？！——雾雨魔理沙</color></i>
-	/// <i><color=#FF4500>嘘——小声点啦你！——博丽灵梦</color></i>
-	/// </summary>
+    /// <summary>
+    /// 售后服务
+    /// 使所有友军的“保修服务”增益的持续时间延长 2 回合，并获得“保护体力极限”。
+    /// 每有 1 个未持有“保修服务”增益的友军，恢复 1 点法力值。
+    /// </summary>
     public class S_Morichika_5:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
 
+            foreach (BattleChar battleChar in Targets)
+            {
+                if (battleChar.BuffFind("B_Morichika_P"))
+                {
+                    foreach (StackBuff stackBuff in battleChar.BuffReturn("B_Morichika_P")?.StackInfo)
+                    {
+                        stackBuff.RemainTime++;
+                        stackBuff.RemainTime++;
+                    }
+                    battleChar.BuffReturn("B_Morichika_P")?.AddBuffEx(new B_Morichika_B_BuffEx());
+                }
+                else
+                {
+                    BattleSystem.instance.AllyTeam.AP++;
+                }
+            }
+        }
     }
 }

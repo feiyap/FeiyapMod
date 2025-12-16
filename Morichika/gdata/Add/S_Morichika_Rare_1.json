@@ -1,0 +1,16 @@
+{
+    "S_Morichika_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": true,
+        "Name": "再利用",
+        "Description": "展示背包中的所有卷轴。选择并消耗其中 1 个卷轴（能够触发被动效果），并生成对应效果。\n（按Shift查看）",
+        "Rare": true,
+        "Basic": true,
+        "SkillExtended": [
+            "Morichika.S_Morichika_Rare_1"
+        ]
+    }
+}

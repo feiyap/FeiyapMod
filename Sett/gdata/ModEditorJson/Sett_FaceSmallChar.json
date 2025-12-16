@@ -1,0 +1,23 @@
+{
+    "myKey": "Sett",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "Sett\\SettFaceSmallChar.png",
+        "offsetMax": {
+            "x": 595.524658,
+            "y": 70.82795
+        },
+        "offsetMin": {
+            "x": -563.1327,
+            "y": -594.8207
+        },
+        "pivot": {
+            "x": 0.48426795,
+            "y": 0.8851982
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

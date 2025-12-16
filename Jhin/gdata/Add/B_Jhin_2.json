@@ -1,0 +1,17 @@
+{
+    "B_Jhin_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Jhin.B_Jhin_2",
+        "BuffTag": "null",
+        "Name": "露出破绽",
+        "Description": "这个目标本回合内受过伤，已经被标记了！",
+        "Icon": "B_Jhin_2\\B_Jhin_2_Icon.png",
+        "Debuff": false,
+        "TagPer": 0,
+        "Cantdisable": true,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

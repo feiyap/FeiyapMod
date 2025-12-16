@@ -1,0 +1,13 @@
+{
+    "S_Boss_Cirno_P2_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/ST4/Guard_2_0",
+        "Target": "all_enemy",
+        "EnemyPreview": true,
+        "Name": "钻石星辰",
+        "Description": "",
+        "Effect_Target": "SE_T_S_Boss_Cirno_P2_4",
+        "EnemySkillSpeed": 99
+    }
+}

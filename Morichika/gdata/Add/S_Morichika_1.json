@@ -1,0 +1,20 @@
+{
+    "S_Morichika_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "Basic": false,
+        "Name": "奇货可居",
+        "Description": "战斗开始时，放在牌库最上方。\r\n展示牌库中的所有技能。选择并抽取其中 1 个。\r\n使目标技能的持有者获得“保修服务”。",
+        "Effect_Target": "SE_T_S_Morichika_1",
+        "UseAp": 1,
+        "User": "Morichika",
+        "Disposable": true,
+        "SkillExtended": [
+            "Morichika.S_Morichika_1"
+        ]
+    }
+}

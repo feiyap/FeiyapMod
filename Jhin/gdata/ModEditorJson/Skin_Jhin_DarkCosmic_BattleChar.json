@@ -1,0 +1,23 @@
+{
+    "myKey": "Skin_Jhin_DarkCosmic",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Jhin_DarkCosmic\\Jhin_DarkCosmicBattleChar.png",
+        "offsetMax": {
+            "x": 1246.58313,
+            "y": 388.573059
+        },
+        "offsetMin": {
+            "x": -1485.47058,
+            "y": -1223.33875
+        },
+        "pivot": {
+            "x": 0.5437194,
+            "y": 0.7589365
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

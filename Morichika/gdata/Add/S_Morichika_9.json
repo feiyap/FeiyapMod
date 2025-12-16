@@ -1,0 +1,16 @@
+{
+    "S_Morichika_9": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "ally",
+        "NotCount": true,
+        "Name": "无中生有",
+        "Description": "在所选友军的所有技能中选择 1 个，在牌库中和手中各生成 1 个。",
+        "User": "Morichika",
+        "UseAp": 1,
+        "SkillExtended": [
+            "Morichika.S_Morichika_9"
+        ]
+    }
+}

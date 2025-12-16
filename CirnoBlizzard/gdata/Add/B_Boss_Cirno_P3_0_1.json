@@ -1,0 +1,15 @@
+{
+    "B_Boss_Cirno_P3_0_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P3_0_1",
+        "BuffTag": "DOT",
+        "Name": "污秽之心",
+        "Icon": "Image/Buff/Skill_Icon_Pack/2",
+        "MaxStack": 0,
+        "LifeTime": 1,
+        "Debuff": true,
+        "TagPer": 135,
+        "Description": "回合结束时，体力值变为0，失去所有体力极限，并抽取 1 个自己的技能。\n受到自身以外的治疗时解除，并获得持续 1 回合的“攻击力+10%”。",
+        "Cantdisable": false
+    }
+}

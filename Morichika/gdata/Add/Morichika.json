@@ -1,0 +1,72 @@
+{
+    "Morichika": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Tank",
+        "PassiveClassName": "Morichika.P_Morichika",
+        "PassiveUnlockLV1": true,
+        "name": "森近霖之助",
+        "face": "Morichika\\MorichikaBattleFace.png",
+        "SelectInfo": "",
+        "MAXHP": {
+            "x": 25,
+            "y": 47
+        },
+        "ATK": {
+            "x": 0,
+            "y": 0
+        },
+        "CRI": {
+            "x": 0,
+            "y": 0
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 5
+        },
+        "REG": {
+            "x": 0,
+            "y": 0
+        },
+        "HIT": {
+            "x": 100,
+            "y": 116
+        },
+        "RES_CC": {
+            "x": 15,
+            "y": 55
+        },
+        "RES_DEBUFF": {
+            "x": -10,
+            "y": 30
+        },
+        "RES_DOT": {
+            "x": -15,
+            "y": 25
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 50
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "PassiveDes": "<b>知足不辱的旧货店</b> - 每当使用卷轴时，自身最大体力值 + 1。\r\n\r\n<b>判别物品名字和用途程度的能力</b> - 所有卷轴不再需要鉴定。每个区域开始时，获得 1 个“地图制作卷轴”、1 个“鉴定卷轴”、1 个“点金术卷轴”和 1 个“诅咒解除卷轴”。",
+        "PassiveName": "不动的旧货店",
+        "CollectionSprite_Cover": "Morichika\\MorichikaCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "Morichika\\MorichikaCollectionSprite_SkillFace.png",
+        "StatView_Def": 1,
+        "StatView_Sup": 3,
+        "StatView_Debuff": 1,
+        "StatView_CC": 1,
+        "StatView_Difficult": 1
+    }
+}

@@ -4,7 +4,7 @@
     "Visibility": "Public",
     "Title": "【CN】Boss - 绯夜氏",
     "Author": "绯夜氏",
-    "Version": "v1.2",
+    "Version": "v1.3",
     "Cover": "FeiyapBossCover.png",
     "ModSettingEntries": [
         {
@@ -24,5 +24,5 @@
     "Description": "在2-2血色公园2添加了一个稀有事件：无名剑冢。触发后可与事件Boss“绯夜氏”进行对战。\n战胜“绯夜氏”后，能获得黄金技能书x1和专属消耗品“烤全鸭”x1。\nMOD内置一个选项，开启后会在2-2必定出现事件“无名剑冢”。",
     "WorkShopId": "3505256205",
     "OnlyUploadFiles": true,
-    "ChangeNote": "2025/6/22\nv1.2\n优化 - 现在[烤全鸭]可以在拥有[手提便当]时在战斗中使用。"
+    "ChangeNote": "2025/11/5\nv1.3\n修复 - BOSS会出现在随机池的BUG。\n优化 - 转阶段技能现在会有额外倒计时。"
 }

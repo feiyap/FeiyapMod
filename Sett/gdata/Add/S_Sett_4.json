@@ -1,0 +1,15 @@
+{
+    "S_Sett_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Lian/Lian_7",
+        "Target": "enemy",
+        "Name": "强手裂颅",
+        "User": "Sett",
+        "Description": "选取 1 个与目标相邻的敌人（优先寻找右边）：\r\n若两者嘲讽状态不同，则同时施加(<sprite=2>120%)“眩晕”；\r\n否则施加(<sprite=2>40%)“眩晕”。",
+        "UseAp": 2,
+        "Effect_Target": "SE_T_S_Sett_4",
+        "NotCount": true,
+        "IgnoreTaunt": true
+    }
+}

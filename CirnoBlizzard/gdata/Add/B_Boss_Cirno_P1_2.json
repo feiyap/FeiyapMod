@@ -1,0 +1,12 @@
+{
+    "B_Boss_Cirno_P1_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "Debuff",
+        "Name": "冻疮",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (3)",
+        "Debuff": true,
+        "TagPer": 135,
+        "LifeTime": 2
+    }
+}

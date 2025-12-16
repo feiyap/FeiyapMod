@@ -1,0 +1,28 @@
+{
+    "S_Sett_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "self",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "屈人之威",
+        "Description": "生成 1 个附带迅速的“左重拳”。",
+        "UseAp": 1,
+        "User": "Sett",
+        "Effect_Self": "SE_S_S_Sett_2"
+    }
+}

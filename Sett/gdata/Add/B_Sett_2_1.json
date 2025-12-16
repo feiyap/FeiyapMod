@@ -1,0 +1,12 @@
+{
+    "B_Sett_2_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "渴望打架",
+        "Description": "下 1 个“右重拳”造成额外 &a 伤害(攻击力的100%)。",
+        "Icon": "B_Sett_2_1\\B_Sett_2_1_Icon.png",
+        "MaxStack": 0,
+        "LifeTime": 1
+    }
+}

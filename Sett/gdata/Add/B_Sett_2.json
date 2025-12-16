@@ -1,0 +1,16 @@
+{
+    "B_Sett_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "手痒难耐",
+        "Description": "下 1 个“左重拳”造成额外 &a 伤害(攻击力的100%)。",
+        "Icon": "B_Sett_2\\B_Sett_2_Icon.png",
+        "LifeTime": 1
+    }
+}

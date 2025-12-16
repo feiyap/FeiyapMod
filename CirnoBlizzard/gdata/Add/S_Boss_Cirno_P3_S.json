@@ -1,0 +1,12 @@
+{
+    "S_Boss_Cirno_P3_S": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "EnemyPreview": true,
+        "Name": "冰花恋曲",
+        "Description": "使手中第 9 个技能添加“九连环”。\r\n每次推进倒计时，都会使“九连环”爆炸，对技能的持有者造成 12 痛苦伤害，并向上移动 1 个技能位置。\r\n按下回合结束按钮时，立即结算剩余所有的“九连环”效果和伤害。",
+        "Counting": 0
+    }
+}

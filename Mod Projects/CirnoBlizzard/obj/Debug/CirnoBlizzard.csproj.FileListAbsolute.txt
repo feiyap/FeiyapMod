@@ -1,0 +1,15 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\obj\Debug\CirnoBlizzard.csprojAssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\obj\Debug\CirnoBlizzard.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\obj\Debug\CirnoBlizzard.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\bin\Debug\0Harmony.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\bin\Debug\Mono.Cecil.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\bin\Debug\Mono.Cecil.Mdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\bin\Debug\Mono.Cecil.Pdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\bin\Debug\Mono.Cecil.Rocks.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\bin\Debug\MonoMod.RuntimeDetour.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\bin\Debug\MonoMod.Utils.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\bin\Debug\CirnoBlizzard20251018174124.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\bin\Debug\CirnoBlizzard20251018174124.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\obj\Debug\CirnoBlizzard20251018174124.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\CirnoBlizzard\obj\Debug\CirnoBlizzard20251018174124.pdb

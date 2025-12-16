@@ -1,0 +1,18 @@
+{
+    "S_Morichika_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "ally",
+        "NotCount": false,
+        "Basic": false,
+        "Name": "赠品",
+        "User": "Morichika",
+        "Description": "",
+        "Effect_Target": "SE_T_S_Morichika_Rare_2",
+        "SkillExtended": [
+            "Morichika.S_Morichika_Rare_2"
+        ]
+    }
+}

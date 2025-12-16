@@ -1,0 +1,10 @@
+{
+    "SE_Jhin_C_2": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "施加“暴击率提升44%”，持续 1 回合。",
+        "Drop": true,
+        "EnforceString": "指向单体的治疗技能",
+        "NeedCharacter": "Jhin",
+        "ClassName": "Jhin.SE_Jhin_C_2"
+    }
+}

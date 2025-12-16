@@ -1,0 +1,10 @@
+{
+    "SE_Morichika_2": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "费用提升 1 点、造成的伤害量/治疗量提升80%。",
+        "IsIcon": "SE_Morichika_2\\SE_Morichika_2_Icon.png",
+        "ClassName": "Morichika.SE_Morichika_2"
+    }
+}

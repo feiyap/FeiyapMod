@@ -1,0 +1,12 @@
+{
+    "B_Jhin_P_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "Jhin.B_Jhin_P_1",
+        "BuffTag": "null",
+        "Name": "完美",
+        "Icon": "B_Jhin_P_1\\B_Jhin_P_1_Icon.png",
+        "Description": "动静有时，大音希声。",
+        "LifeTime": 1
+    }
+}

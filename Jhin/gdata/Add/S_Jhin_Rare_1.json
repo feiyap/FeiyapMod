@@ -1,0 +1,35 @@
+{
+    "S_Jhin_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": true,
+        "Name": "完美谢幕",
+        "Description": "生成“完美谢幕 - 入场曲”。\n立即重置烬的可使用技能次数。",
+        "User": "Jhin",
+        "Rare": true,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_Jhin_Rare_1",
+        "Image_0": "S_Jhin_Rare_1\\S_Jhin_Rare_1_Image_0.png",
+        "Image_1": "S_Jhin_Rare_1\\S_Jhin_Rare_1_Image_1.png",
+        "Image_2": "S_Jhin_Rare_1\\S_Jhin_Rare_1_Image_2.png",
+        "NoDrop": false,
+        "Except": false,
+        "PlusSkillView": "S_Jhin_Rare_1_1",
+        "SkillExtended": [
+            "Jhin.S_Jhin_Rare_1"
+        ],
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "UseAp": 1
+    }
+}

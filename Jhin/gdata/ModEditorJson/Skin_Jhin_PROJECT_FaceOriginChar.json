@@ -1,0 +1,23 @@
+{
+    "myKey": "Skin_Jhin_PROJECT",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "Jhin_PROJECT\\Jhin_PROJECTFaceOriginChar.png",
+        "offsetMax": {
+            "x": 806.8431,
+            "y": 195.2508
+        },
+        "offsetMin": {
+            "x": -1036.475,
+            "y": -876.7702
+        },
+        "pivot": {
+            "x": 0.561528146,
+            "y": 0.8128536
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

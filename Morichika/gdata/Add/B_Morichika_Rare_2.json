@@ -1,0 +1,11 @@
+{
+    "B_Morichika_Rare_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Morichika.B_Morichika_Rare_2",
+        "BuffTag": "null",
+        "Description": "每次从&user处获得“保修服务”增益时，都会额外获得 1 个随机增益效果（不会出现持续时间为∞的增益）。",
+        "Name": "常客",
+        "Cantdisable": true,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (21)"
+    }
+}

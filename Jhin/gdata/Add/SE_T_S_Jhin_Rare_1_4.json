@@ -1,0 +1,13 @@
+{
+    "SE_T_S_Jhin_Rare_1_4": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 50,
+        "Buffs": [
+            "B_Jhin_Rare_1_1"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

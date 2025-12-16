@@ -1,0 +1,15 @@
+{
+    "S_Jhin_0_PROJECT": {
+        "_gdeSchema": "VFXSkill",
+        "MySkill": "S_Jhin_0",
+        "Particle": "Particle/Enemy/Wilderness/Gunman_0",
+        "Image_0": "S_Jhin_0_PROJECT\\S_Jhin_0_PROJECT_Image_0.png",
+        "SkillImage": [
+            "S_Jhin_0_PROJECT\\S_Jhin_0_PROJECT_Image_0.png",
+            "S_Jhin_0_PROJECT\\S_Jhin_0_PROJECT_Image_1.png",
+            "S_Jhin_0_PROJECT\\S_Jhin_0_PROJECT_Image_2.png"
+        ],
+        "Image_1": "S_Jhin_0_PROJECT\\S_Jhin_0_PROJECT_Image_1.png",
+        "Image_2": "S_Jhin_0_PROJECT\\S_Jhin_0_PROJECT_Image_2.png"
+    }
+}

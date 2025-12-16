@@ -1,0 +1,11 @@
+{
+    "B_Jhin_P_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "Jhin.B_Jhin_P_0",
+        "BuffTag": "null",
+        "Name": "终章",
+        "Icon": "B_Jhin_P_0\\B_Jhin_P_0_Icon.png",
+        "Description": "第 4 个技能总是会产生暴击，并造成相当于目标已损失生命值的44%的额外伤害。"
+    }
+}

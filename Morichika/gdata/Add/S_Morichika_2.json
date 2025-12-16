@@ -1,0 +1,18 @@
+{
+    "S_Morichika_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "skill",
+        "NotCount": true,
+        "Disposable": false,
+        "Name": "溢价",
+        "Description": "使目标技能在本场战斗中费用提升 1 点、造成的伤害量/治疗量提升80%。\r\n使目标技能的持有者获得“保修服务”。",
+        "User": "Morichika",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Morichika_2",
+        "SkillExtended": [
+            "Morichika.S_Morichika_2"
+        ]
+    }
+}

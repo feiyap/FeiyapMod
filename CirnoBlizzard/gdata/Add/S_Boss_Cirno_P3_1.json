@@ -1,0 +1,12 @@
+{
+    "S_Boss_Cirno_P3_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/ProgramMaster/ProgramMaster_Attack",
+        "Target": "all_enemy",
+        "EnemyPreview": true,
+        "Name": "冰花之舞",
+        "Description": "<b>无法闪避</b>\r\n将伤害分摊给非濒死状态的所有调查员。\r\n若全部处于濒死状态，则击杀所有调查员。",
+        "Effect_Target": "SE_T_S_Boss_Cirno_P3_1"
+    }
+}

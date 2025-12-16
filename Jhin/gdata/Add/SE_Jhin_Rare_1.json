@@ -1,0 +1,9 @@
+{
+    "SE_Jhin_Rare_1": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "大幕渐起",
+        "ClassName": "Jhin.SE_Jhin_Rare_1"
+    }
+}

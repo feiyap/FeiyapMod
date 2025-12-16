@@ -1,0 +1,28 @@
+{
+    "myKey": "Enemy_Sigil",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Enemy_Sigil\\Enemy_SigilMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "UI": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

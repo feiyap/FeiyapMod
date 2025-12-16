@@ -1,0 +1,18 @@
+{
+    "B_Jhin_5": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "Jhin.B_Jhin_5",
+        "BuffTag": "CrowdControl",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "盛装登场",
+        "Description": "这个减益解除时，(444%<sprite=2>)眩晕。",
+        "Icon": "B_Jhin_5\\B_Jhin_5_Icon.png",
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 144
+    }
+}

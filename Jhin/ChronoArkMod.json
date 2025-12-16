@@ -1,0 +1,19 @@
+{
+    "id": "Jhin",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "【CN/EN】烬 ~ 英雄联盟",
+    "Author": "绯夜氏",
+    "Version": "v1.2",
+    "Cover": "JhinCover.png",
+    "Description": "作为一名心思缜密的癫狂杀手，烬坚信如何让人直面死亡是一门精巧的艺术。他曾在艾欧尼亚的监狱中服刑，却因执政议会里涌动的暗流得到释放，最终成为权术斗争所利用的刺客。烬将手中的枪当成画笔，尽情地挥洒他所追求的残忍艺术，让受害者肝胆俱裂，令旁观者震悚难平。他在自己制作的阴森剧目里肆意取乐，让“恐怖”二字有了最合适不过的定义。\n\n包含1个角色。拥有8个基础技能，1个稀有技能和1个露西抽牌技能。",
+    "TagList": [
+        "Characters"
+    ],
+    "Dependencies": [
+        "BasicMethods"
+    ],
+    "WorkShopId": "3598518087",
+    "ChangeNote": "2025/11/9\nv1.2\n修复 - 启用“烬”的时候会导致伊利亚的“冰霜”无限触发的问题。",
+    "OnlyUploadFiles": true
+}

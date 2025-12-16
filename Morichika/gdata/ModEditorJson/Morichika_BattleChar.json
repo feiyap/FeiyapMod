@@ -1,0 +1,23 @@
+{
+    "myKey": "Morichika",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "Morichika\\MorichikaBattleChar.png",
+        "offsetMax": {
+            "x": 1033.11877,
+            "y": 376.844
+        },
+        "offsetMin": {
+            "x": -1096.63318,
+            "y": -1688.44507
+        },
+        "pivot": {
+            "x": 0.514911234,
+            "y": 0.8175345
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

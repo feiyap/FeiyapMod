@@ -1,0 +1,11 @@
+{
+    "B_Jhin_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Jhin.B_Jhin_P",
+        "BuffTag": "null",
+        "Name": "死之四章",
+        "Description": "每个回合只能使用 4 个技能。当前使用的技能数：<color=orange>&a</color>/4\n",
+        "Icon": "B_Jhin_P\\B_Jhin_P_Icon.png",
+        "Cantdisable": true
+    }
+}

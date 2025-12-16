@@ -1,0 +1,23 @@
+{
+    "S_Jhin_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NoBasicSkill": false,
+        "Name": "绚葬之华",
+        "Description": "<color=red>无法使用。</color>\r\n握在手中时，每次敌人行动，对其施加“穿帮”减益，此技能的 X 回合后弃牌的回合计数将减少 1 。\r\n这个技能被丢弃时，生成 1 个“万众倾倒”。",
+        "User": "Jhin",
+        "UseAp": 4,
+        "AutoDelete": 4,
+        "Effect_Target": "SE_T_S_Jhin_4",
+        "Image_0": "S_Jhin_4\\S_Jhin_4_Image_0.png",
+        "Image_1": "S_Jhin_4\\S_Jhin_4_Image_1.png",
+        "Image_2": "S_Jhin_4\\S_Jhin_4_Image_2.png",
+        "PlusSkillView": "S_Jhin_3",
+        "SkillExtended": [
+            "Jhin.S_Jhin_4"
+        ],
+        "NotCount": false
+    }
+}

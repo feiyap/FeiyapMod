@@ -1,0 +1,13 @@
+{
+    "SE_S_S_Sett_2": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Sett_2",
+            "B_Sett_2_1"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

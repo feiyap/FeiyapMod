@@ -1,0 +1,12 @@
+{
+    "S_Boss_Cirno_P3_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "EnemyPreview": true,
+        "Name": "冰封魔印",
+        "Description": "召唤一个“冰封魔印”。",
+        "Effect_Target": "null"
+    }
+}

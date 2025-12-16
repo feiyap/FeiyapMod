@@ -1,0 +1,16 @@
+{
+    "S_Sett_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Golem_2",
+        "Target": "enemy",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "Name": "过肩摔",
+        "Description": "改变目标的嘲讽状态。",
+        "User": "Sett",
+        "Fatal": true,
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Sett_5"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "B_Boss_Cirno_P2_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P2_0",
+        "BuffTag": "DOT",
+        "Name": "冰霜",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (76)",
+        "Description": "每当自身被施加减益时，受到 &a 点痛苦伤害(攻击力的25%/每层)。",
+        "Tick": "SE_Tick_B_Boss_Cirno_P2_0",
+        "MaxStack": 0,
+        "LifeTime": 2,
+        "Debuff": true,
+        "TagPer": 105,
+        "UseSkillDebuff": false
+    }
+}

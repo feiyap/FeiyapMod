@@ -1,0 +1,15 @@
+{
+    "B_Boss_Cirno_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "渐强的暴风雪",
+        "Description": "回合开始时，获得“攻击力+9%”。\n每释放 6 个非生成技能，琪露诺=暴风雪会追加释放一次“冰冻新星”。每回合仅会触发 1 次。\n剩余技能次数：&a",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)"
+    }
+}

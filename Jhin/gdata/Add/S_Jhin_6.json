@@ -1,0 +1,34 @@
+{
+    "S_Jhin_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunman_2",
+        "Target": "enemy",
+        "NotCount": true,
+        "NoBasicSkill": false,
+        "Name": "华丽收场",
+        "UseAp": 4,
+        "Description": "<color=red>仅能在法力值消耗为 4 时打出。</color>\r\n若剩余法力值为 4，改为指向最多 4 个敌人。\r\n若牌库剩余数量为 4，这个技能的伤害变为 &a (攻击力的1234%)。",
+        "User": "Jhin",
+        "IgnoreTaunt": true,
+        "Disposable": false,
+        "Effect_Target": "SE_T_S_Jhin_6",
+        "Image_0": "S_Jhin_6\\S_Jhin_6_Image_0.png",
+        "Image_1": "S_Jhin_6\\S_Jhin_6_Image_1.png",
+        "Image_2": "S_Jhin_6\\S_Jhin_6_Image_2.png",
+        "SkillExtended": [
+            "Jhin.S_Jhin_6"
+        ],
+        "Track": false,
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -12,18 +12,28 @@ using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 using ChronoArkMod.ModData;
+using HarmonyLib;
+
 namespace CirnoBlizzard
 {
     public class CirnoBlizzard_Plugin: ChronoArkPlugin
     {
+        private Harmony harmony;
         public override void Dispose()
         {
-            
+            this.harmony.UnpatchSelf();
         }
 
         public override void Initialize()
         {
-            
+            this.harmony = new Harmony(base.GetGuid());
+            this.harmony.PatchAll();
+        }
+
+        public override void OnModLoaded()
+        {
+            base.OnModLoaded();
+            this.OnModSettingUpdate();
         }
     }
 }

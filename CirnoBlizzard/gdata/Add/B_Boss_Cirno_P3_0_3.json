@@ -1,0 +1,10 @@
+{
+    "B_Boss_Cirno_P3_0_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P3_0_3",
+        "BuffTag": "null",
+        "Name": "攻击力上升",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (4)",
+        "LifeTime": 1
+    }
+}

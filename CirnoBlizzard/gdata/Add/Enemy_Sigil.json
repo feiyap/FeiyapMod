@@ -1,0 +1,30 @@
+{
+    "Enemy_Sigil": {
+        "_gdeSchema": "Enemy",
+        "hit": 99,
+        "name": "冰封魔印",
+        "Passives": [
+            "B_Sigil_P"
+        ],
+        "Skills": [
+            "S_Boss_Cirno_P2_2",
+            "S_Boss_Cirno_P2_3",
+            "S_Boss_Cirno_P2_5",
+            "S_Boss_Cirno_P2_6",
+            "S_Boss_Cirno_P3_3",
+            "S_Boss_Cirno_P2_7"
+        ],
+        "NotCursed": true,
+        "atk": 19,
+        "spd": 9,
+        "reg": 39,
+        "def": 29,
+        "cri": 19,
+        "dodge": 9,
+        "RES_CC": 49,
+        "RES_DEBUFF": 29,
+        "RES_DOT": 29,
+        "maxhp": 99,
+        "AI": "CirnoBlizzard.Enemy_Sigil"
+    }
+}

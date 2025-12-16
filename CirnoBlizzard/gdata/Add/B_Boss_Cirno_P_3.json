@@ -1,0 +1,11 @@
+{
+    "B_Boss_Cirno_P_3": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P_3",
+        "BuffTag": "null",
+        "Name": "爱与妖精之心",
+        "Description": "受到攻击时，恢复自身 &a 体力值(治疗力的39%)。\r\n每次受到治疗时，获得“受到治疗量-5%”。\r\n当自身受到治疗量低于0%时，追加释放“冰花恋曲”，并移除“受到治疗量降低”的效果。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (21)"
+    }
+}

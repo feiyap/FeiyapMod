@@ -1,0 +1,136 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Jhin_2_Description,Text,,,This target has been injured this turn and is already marked!,,这个目标本回合内受过伤，已经被标记了！,
+Buff/B_Jhin_2_Name,Text,,,Revealing a Flaw,,露出破绽,
+Buff/B_Jhin_3_Description,Text,,,,,,
+Buff/B_Jhin_3_Name,Text,,,Grinding Incense to Dust,,碾香入尘,
+Buff/B_Jhin_4_Description,Text,,,Cannot target other characters.,,无法指定其他角色。,
+Buff/B_Jhin_4_Name,Text,,,Exposed Flaw,,穿帮,
+Buff/B_Jhin_5_1_Description,Text,,,Excess Critical Rate beyond 100% is converted into Critical Damage.,,自身超过100%的暴击率转化为暴击伤害。,
+Buff/B_Jhin_5_1_Name,Text,,,By the Book,,一板一眼,
+Buff/B_Jhin_5_Description,Text,,,"When this debuff is removed, (444% <sprite=2>) Stun.",,这个减益解除时，(444%<sprite=2>)眩晕。,
+Buff/B_Jhin_5_Name,Text,,,Grand Entrance,,盛装登场,
+Buff/B_Jhin_7_Description,Text,,,Art requires meticulous crafting...,,艺术需要精心雕琢…,
+Buff/B_Jhin_7_Name,Text,,,Patience is key...,,要耐心…,
+Buff/B_Jhin_C_2_Name,Text,,,Critical Rate increased,,暴击率提升,
+Buff/B_Jhin_P_0_Description,Text,,,The 4th skill used will always be Critical and deals additional damage equal to 44% of the target's lost HP.,,第 4 个技能总是会产生暴击，并造成相当于目标已损失生命值的44%的额外伤害。,
+Buff/B_Jhin_P_0_Name,Text,,,Final Chapter,,终章,
+Buff/B_Jhin_P_1_Description,Text,,,There is a time for movement and stillness; the greatest sound is faint and rare.,,动静有时，大音希声。,
+Buff/B_Jhin_P_1_Name,Text,,,Perfection,,完美,
+Buff/B_Jhin_P_Description,Text,,,Only 4 skills can be used per turn. Skills used this turn: <color=orange>&a</color>/4,,每个回合只能使用 4 个技能。当前使用的技能数：<color=orange>&a</color>/4,
+Buff/B_Jhin_P_Name,Text,,,Four Acts of Death,,死之四章,
+Buff/B_Jhin_Rare_1_1_Name,Text,,,Stage Fright,,怯场,
+Buff/B_Jhin_Rare_1_2_Name,Text,,,Grand Beauty Approaches,,大美将至,
+Buff/B_Jhin_Rare_1_Description,Text,,,"<color=red>Cannot use skills other than 'Curtain Call'.</color>
+Removed at turn end or when 'Curtain Call - Finale' is played.",,"<color=red>无法使用“完美谢幕”以外的技能。</color>
+回合结束时解除，或在打出“完美谢幕 - 谢幕曲”时解除。",
+Buff/B_Jhin_Rare_1_Name,Text,,,The Curtain Rises Slowly,,大幕渐起,
+Character/Jhin_CampSelectWord,Text,,,"In carnage, I bloom, like a flower in the dawn.",,我于杀戮之中盛放，亦如黎明中的花朵。,
+Character/Jhin_PassiveDes,Text,,,"Jhin can only use 4 non-Rare skills per turn, and his skill costs are fixed at 1, 2, 3, and 4. If the skill crits, restore 0/1/2/3 Mana and gain (14% + 44% of Bonus Hit Rate) as Dodge Rate for 1 turn.
+
+The 4th skill used will always be Critical and deals additional damage equal to 44% of the target's lost HP.
+
+<color=#919191>- This passive is applied from level 1.</color>
+<color=#919191>- Jhin no longer has a Fixed Ability.</color>",,"烬每个回合只能使用 4 个非稀有技能，且技能的费用固定为1、2、3、4。如果该次技能暴击，则恢复0、1、2、3点法力值，并获得(14% + 额外命中率的44%)的闪避率，持续 1 回合。
+
+第 4 个技能总是会产生暴击，并造成相当于目标已损失生命值的44%的额外伤害。
+
+<color=#919191>- 此被动从1级开始生效。</color>
+<color=#919191>- 烬不再拥有固定能力。</color>",
+Character/Jhin_PassiveName,Text,,,Whisper,,低语,
+Character/Jhin_SelectInfo,Text,,,"Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionia’s ruling council, the serial killer now works as their cabal's assassin. Using his gun as his paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror.",,作为一名心思缜密的癫狂杀手，烬坚信如何让人直面死亡是一门精巧的艺术。他曾在艾欧尼亚的监狱中服刑，却因执政议会里涌动的暗流得到释放，最终成为权术斗争所利用的刺客。烬将手中的枪当成画笔，尽情地挥洒他所追求的残忍艺术，让受害者肝胆俱裂，令旁观者震悚难平。他在自己制作的阴森剧目里肆意取乐，让“恐怖”二字有了最合适不过的定义。,
+Character/Jhin_Text_Battle_Cri_0,Text,,,"Smiles, everyone, smiles!",,微笑各位，微笑。,
+Character/Jhin_Text_Battle_Cri_1,Text,,,I cannot be good. I must be perfection.,,优秀不值一提，我必须达到完美。,
+Character/Jhin_Text_Battle_Idle_0,Text,,,"They're puppets. I pull their strings, and then they dance.",,简而言之，我扣扳机，他们跳舞。,
+Character/Jhin_Text_Battle_Kill_0,Text,,,"Death is certain, but killing doesn't have to be ugly.",,死是必然，但杀戮并不一定丑陋。,
+Character/Jhin_Text_Battle_Kill_1,Text,,,Death should never be quick. It should be an opera.,,死亡不是匆匆过场，而是一部歌剧。,
+Character/Jhin_Text_Battle_Kill_2,Text,,,"They will dance, they will sing, they will die!",,他们会跳，他们会唱，他们会死。,
+Character/Jhin_Text_Battle_Start_0,Text,,,Our performance begins.,,我们的演出开始了。,
+Character/Jhin_Text_Battle_Start_1,Text,,,Let's start the show.,,让我们开场吧。,
+Character/Jhin_Text_Battle_Start_2,Text,,,My audience awaits.,,我的观众，已经入场。,
+Character/Jhin_Text_Field_Idle_0,Text,,,"In carnage, I bloom, like a flower in the dawn.",,我与杀戮之中盛放，亦如黎明中的花朵。,
+Character/Jhin_Text_MasterTarget,Text,,,"This stage is beneath my talent, but I shall elevate it.",,这个舞台被我的才华踩在了脚下，但我也把它，带到了新的高度。,
+Character/Jhin_Text_PharosLeader_0,Text,,,They call me mad. All artists are mad.,,他们叫我疯子，艺术家都是疯子。,
+Character/Jhin_Text_PharosLeader_1,Text,,,"A costume, some makeup, a spray of blood.",,一身戏服，几点浓妆，一泼鲜血。,
+Character/Jhin_Text_PharosLeader_2,Text,,,Smile! Everyone is watching!,,笑一个吧，大家都在看着呢。,
+Character/Jhin_Text_Witch_0,Text,,,"I love to perform, but I hate crowds.",,我热爱表演，但我讨厌人群。,
+Character/Jhin_Text_Witch_1,Text,,,This art is a compulsion. I cannot resist it.,,此等丑陋，我无法忍受。,
+Character/Jhin_name,Text,,,Jhin,,烬,
+Character_Skin/Skin_Jhin_DarkCosmic_SkinDesc,Text,,,"Jhin was an interstellar entity, consumed by the Dark Star and given new purpose. Now his ageless mind is infected by visions of omnipotence, and consumed by an insatiable hunger. He scours entire regions of space seemingly on a whim, using the remnants to create bizarre, silent objets d'art.",,烬曾是一个星间实体，被暗星吞噬并赋予了新的目标。现在，他不老的意志已被全能之力的幻觉所浸染，并被一种永不满足的饥饿所吞噬。他似乎因一时兴起就洗劫着整个太空领域，来用残余物创造奇异、寂静的艺术品。,
+Character_Skin/Skin_Jhin_DarkCosmic_SkinName,Text,,,Dark Cosmic,,暗星尊,
+Character_Skin/Skin_Jhin_Empyrean_SkinDesc,Text,,,"Jhin woke as an Empyrean with a sensation he'd never known before: true warmth. Exhilarated by the power, he set innocents ablaze with a flick of his hand. Finally, a muse worthy of him! The realization that “she” is slowly killing him only charms him more. Now if only he could find her source…",,烬以一位至高天的身份醒来时，正处在一种他从未体验过的感觉中：一种真正的温暖。他被这股力量所鼓舞，单手轻弹一下，就在无辜者们的身上燃起火焰。终于，有了一个配得上他的灵感女神！意识到“她”正在慢慢杀死他，只会让他更加着迷。现在，只要他能找到她的源头……,
+Character_Skin/Skin_Jhin_Empyrean_SkinName,Text,,,Empyrean,,至高天,
+Character_Skin/Skin_Jhin_PROJECT_SkinDesc,Text,,,"After a botched surgery, Jhin went from being a black-market augment hacker to a notorious mechanized killer for hire. Still programmed with a taste for high-clearance upgrades, the tech Jhin takes from his victims has left him with a severe personality fragmentation, and a dark vision for the future of PROJECT... and humanity.",,一次拙劣的手术过后，烬从一个黑市增强体黑客变为一个机械化雇佣杀手。他的程序依然嗜好高权限升级组件。但烬从猎物身上得来的部件让他出现严重的人格分裂。而且对源计划和整个人类的未来产生了一种黑暗愿景。,
+Character_Skin/Skin_Jhin_PROJECT_SkinName,Text,,,PROJECT: Jhin,,源计划：升华,
+Skill/S_Jhin_0_Description,Text,,,Can be recast this turn.,,本回合内可重复释放。,
+Skill/S_Jhin_0_Name,Text,,,Last Whisper,,最后轻语,
+Skill/S_Jhin_1_Description,Text,,,"When an enemy is killed, create a copy of this skill. The copy's damage is increased by 44% and gain Once, Discarded after 1 turn..",,击杀敌人时，生成 1 个该技能的复制，并使其伤害提升44%，附带一次性、1回合后弃牌。,
+Skill/S_Jhin_1_Name,Text,,,Dancing Grenade,,曼舞手雷,
+Skill/S_Jhin_2_Description,Text,,,"When used on an enemy injured this turn, applies (144% <sprite=2>) Stun.
+Deals 4x damage to enemies under 'Cannot Act'.",,"对本回合内受到过伤害的敌人释放时，施加(144%<sprite=2>)眩晕。
+对处于“无法行动”的敌人释放时，造成 4 倍伤害。",
+Skill/S_Jhin_2_Name,Text,,,Deadly Flourish,,致命华彩,
+Skill/S_Jhin_3_Description,Text,,,Can only deal damage and apply debuffs to enemies with CC debuffs.,,仅能对持有干扰减益的敌人造成伤害和施加减益。,
+Skill/S_Jhin_3_Name,Text,,,Captive Audience,,万众倾倒,
+Skill/S_Jhin_4_Description,Text,,,"<color=red>Unusable.</color>
+While held in hand, applies the 'Exposed Flaw' debuff to an enemy each time they act. The 'Discard After X' count for this skill is reduced by 1.
+When this skill is discarded, create 1 'Captive Audience'.",,"<color=red>无法使用。</color>
+握在手中时，每次敌人行动，对其施加“穿帮”减益，此技能的 X 回合后弃牌的回合计数将减少 1 。
+这个技能被丢弃时，生成 1 个“万众倾倒”。",
+Skill/S_Jhin_4_Name,Text,,,Brilliant Burial,,绚葬之华,
+Skill/S_Jhin_5_Description,Text,,,,,,
+Skill/S_Jhin_5_Name,Text,,,Setting the Stage,,布置舞台,
+Skill/S_Jhin_6_Description,Text,,,"<color=red>Can only be played when Cost is 4.</color>
+If remaining Mana is 4, instead targets up to 4 enemies.
+If the number of cards remaining in the deck is 4, this skill's damage becomes &a (1234% of Attack Power).",,"<color=red>仅能在法力值消耗为 4 时打出。</color>
+若剩余法力值为 4，改为指向最多 4 个敌人。
+若牌库剩余数量为 4，这个技能的伤害变为 &a (攻击力的1234%)。",
+Skill/S_Jhin_6_Name,Text,,,Grand Finale,,华丽收场,
+Skill/S_Jhin_7_Description,Text,,,"Discard all own Skills in hand.
+Then, prioritize drawing that many + X of your own skills. X is this skill's cost.
+You cannot use skills for the rest of this turn.",,"丢弃手中所有自己的技能。
+那之后，优先抽取那个数量+X的自己的技能。X为这个技能的费用。
+本回合内，自己无法再使用技能。",
+Skill/S_Jhin_7_Name,Text,,,Wait...,,再等等…,
+Skill/S_Jhin_LucyD_Description,Text,,,,,抽取 2 个技能。,
+,,,,,,,
+Skill/S_Jhin_LucyD_Name,Text,,,Witness,,见证,
+Skill/S_Jhin_P_Description,Text,,,"<color=#919191><i>What? No, no no no, I won't allow repetition in my work! My creations must be unique...</i></color>",,<color=#919191><i>什么？不、不不不，我不允许我的作品出现重复！我的作品必须是独一无二的……</i></color>,
+Skill/S_Jhin_P_Name,Text,,,Delusional Pursuit,,癫狂追求,
+Skill/S_Jhin_Rare_1_1_Description,Text,,,"Create 'Curtain Call - Overture'.
+This skill's damage increases by 1% for every 1% of the target's lost HP.
+Damage is doubled against enemies under 'Cannot Act'.",,"生成“完美谢幕 - 渐起曲”。
+目标每损失1%体力值，这个技能的伤害提升1%。
+对处于“无法行动”的敌人造成的伤害翻倍。",
+Skill/S_Jhin_Rare_1_1_Name,Text,,,Curtain Call - Entrance,,完美谢幕 - 入场曲,
+Skill/S_Jhin_Rare_1_2_Description,Text,,,"Create 'Curtain Call - Climax'.
+This skill's damage increases by 1% for every 1% of the target's lost HP.
+Damage is doubled against enemies under 'Cannot Act'.",,"生成“完美谢幕 - 高潮曲”。
+目标每损失1%体力值，这个技能的伤害提升1%。
+对处于“无法行动”的敌人造成的伤害翻倍。",
+Skill/S_Jhin_Rare_1_2_Name,Text,,,Curtain Call - Overture,,完美谢幕 - 渐起曲,
+Skill/S_Jhin_Rare_1_3_Description,Text,,,"Create 'Curtain Call - Finale'.
+This skill's damage increases by 1% for every 1% of the target's lost HP.
+Damage is doubled against enemies under 'Cannot Act'.",,"生成“完美谢幕 - 谢幕曲”。
+目标每损失1%体力值，这个技能的伤害提升1%。
+对处于“无法行动”的敌人造成的伤害翻倍。",
+Skill/S_Jhin_Rare_1_3_Name,Text,,,Curtain Call - Climax,,完美谢幕 - 高潮曲,
+Skill/S_Jhin_Rare_1_4_Description,Text,,,"This skill's damage increases by 4% for every 1% of the target's lost HP.
+Damage is doubled against enemies under 'Cannot Act'.",,"目标每损失1%体力值，这个技能的伤害提升4%。
+对处于“无法行动”的敌人造成的伤害翻倍。",
+Skill/S_Jhin_Rare_1_4_Name,Text,,,Curtain Call - Finale,,完美谢幕 - 谢幕曲,
+Skill/S_Jhin_Rare_1_Description,Text,,,"Create 'Curtain Call - Entrance'.
+Immediately reset the number of usable skills for Jhin.",,"生成“完美谢幕 - 入场曲”。
+立即重置烬的可使用技能次数。",
+Skill/S_Jhin_Rare_1_Name,Text,,,Curtain Call,,完美谢幕,
+SkillExtended/SE_Jhin_1_Name,Text,,,Grenade Kill,,手雷击杀,
+SkillExtended/SE_Jhin_C_1_EnforceString,Text,,,Attack Skill,,攻击技能,
+SkillExtended/SE_Jhin_C_1_Name,Text,,,Ignores Taunt. Applies (144% <sprite=2>) "Exposed Flaw".,,无视嘲讽。施加(144%<sprite=2>)“穿帮”。,
+SkillExtended/SE_Jhin_C_2_EnforceString,Text,,,Single-Target Healing Skill,,指向单体的治疗技能,
+SkillExtended/SE_Jhin_C_2_Name,Text,,,Applies "Critical Rate increased by 44%" for 1 turn.,,施加“暴击率提升44%”，持续 1 回合。,
+SkillExtended/SE_Jhin_P_1_Des,Text,,,,,,
+SkillExtended/SE_Jhin_P_1_Name,Text,,,Brilliant,,精彩,
+SkillExtended/SE_Jhin_P_2_Name,Text,,,Marvelous,,绝妙,
+SkillExtended/SE_Jhin_P_3_Name,Text,,,Excellent,,卓越,
+SkillExtended/SE_Jhin_P_4_Name,Text,,,Extraordinary,,非凡,
+SkillExtended/SE_Jhin_P_5_Name,Text,,,Cannot Act,,无法行动,
+SkillExtended/SE_Jhin_Rare_1_Name,Text,,,The Curtain Rises Slowly,,大幕渐起,

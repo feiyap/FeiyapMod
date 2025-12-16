@@ -1,0 +1,11 @@
+{
+    "B_Morichika_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "Morichika.B_Morichika_P",
+        "BuffTag": "null",
+        "Name": "保修服务",
+        "Description": "攻击力、防御力、治疗力提升 &a% (&user最大体力值的25%)。",
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (41)"
+    }
+}

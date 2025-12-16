@@ -1,0 +1,18 @@
+{
+    "S_Boss_Cirno_Lucy_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "ally",
+        "EnemyPreview": false,
+        "Name": "破碎的心",
+        "Description": "优先抽取 1 个目标的技能。",
+        "NotCount": true,
+        "Disposable": false,
+        "Except": true,
+        "NoDrop": true,
+        "SkillExtended": [
+            "CirnoBlizzard.S_Boss_Cirno_Lucy_0"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "B_Boss_Cirno_P_3_0": {
+        "_gdeSchema": "Buff",
+        "ClassName": "CirnoBlizzard.B_Boss_Cirno_P_3_0",
+        "BuffTag": "null",
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_26",
+        "Debuff": true,
+        "TagPer": 0,
+        "Description": "暂时冻结所有法力水晶。",
+        "Name": "暂时冻结",
+        "LifeTime": 1,
+        "Cantdisable": true
+    }
+}

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirnoBlizzard", "CirnoBlizzard.csproj", "{C2553FB6-213F-4D83-850E-A23C0948A49C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2553FB6-213F-4D83-850E-A23C0948A49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2553FB6-213F-4D83-850E-A23C0948A49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70872A0D-18FD-4976-839E-FC6453B4E30A}
+	EndGlobalSection
+EndGlobal

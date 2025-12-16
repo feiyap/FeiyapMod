@@ -1,0 +1,24 @@
+{
+    "S_Jhin_Rare_1_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunman_2",
+        "Rare": true,
+        "Target": "enemy",
+        "NotCount": false,
+        "NoDrop": true,
+        "Except": true,
+        "Description": "生成“完美谢幕 - 谢幕曲”。\r\n目标每损失1%体力值，这个技能的伤害提升1%。\r\n对处于“无法行动”的敌人造成的伤害翻倍。",
+        "Name": "完美谢幕 - 高潮曲",
+        "Effect_Target": "SE_T_S_Jhin_Rare_1_3",
+        "Image_0": "S_Jhin_Rare_1_3\\S_Jhin_Rare_1_3_Image_0.png",
+        "Image_1": "S_Jhin_Rare_1_3\\S_Jhin_Rare_1_3_Image_1.png",
+        "Image_2": "S_Jhin_Rare_1_3\\S_Jhin_Rare_1_3_Image_2.png",
+        "PlusSkillView": "S_Jhin_Rare_1_4",
+        "UseAp": -9,
+        "Fatal": false,
+        "SkillExtended": [
+            "Jhin.S_Jhin_Rare_1_3"
+        ]
+    }
+}
