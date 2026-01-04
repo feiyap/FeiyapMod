@@ -173,7 +173,7 @@ namespace HiHouClab
     public class BattleActWindowPatch
     {
         [HarmonyPostfix]
-        [HarmonyPatch("Init")]
+        [HarmonyPatch("Init")]  
         private static void Init_Postfix(BattleActWindow __instance, BattleTeam Team)
         {
             __instance.MP.text = (Team.AP + Planck.PlanckAP).ToString();

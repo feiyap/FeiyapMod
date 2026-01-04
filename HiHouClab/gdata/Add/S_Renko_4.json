@@ -1,0 +1,24 @@
+{
+    "S_Renko_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunner_0",
+        "Target": "enemy",
+        "Name": "卫星鸟船",
+        "Description": "命中时，使目标的行动向后推进 2 个倒计时。",
+        "Image_0": "S_Renko_4\\S_Renko_4_Image_0.png",
+        "Image_1": "S_Renko_4\\S_Renko_4_Image_1.png",
+        "Image_2": "S_Renko_4\\S_Renko_4_Image_2.png",
+        "Rare": false,
+        "NotCount": true,
+        "User": "UsamiRenko",
+        "NoBasicSkill": false,
+        "UseAp": 1,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Renko_4",
+        "SkillExtended": [
+            "HiHouClab.S_Renko_4"
+        ],
+        "Effect_Self": "SE_S_S_Renko_4"
+    }
+}

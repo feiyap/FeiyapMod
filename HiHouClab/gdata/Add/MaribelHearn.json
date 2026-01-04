@@ -2,17 +2,74 @@
     "MaribelHearn": {
         "_gdeSchema": "Character",
         "Role": "Role_Support",
-        "PassiveClassName": "",
-        "PassiveUnlockLV1": false,
+        "PassiveClassName": "HiHouClab.P_MaribelHearn",
+        "PassiveUnlockLV1": true,
         "name": "玛艾露贝莉·赫恩",
         "face": "MaribelHearn\\MaribelHearnBattleFace.png",
         "Gender": 1,
         "MAXHP": {
-            "x": 40,
-            "y": 80
+            "x": 21,
+            "y": 40
         },
         "CollectionSprite_Cover": "MaribelHearn\\MaribelHearnCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "MaribelHearn\\MaribelHearnCollectionSprite_SkillFace.png",
-        "FirstSkill": "null"
+        "FirstSkill": "null",
+        "PassiveName": "梦违科学世纪",
+        "PassiveDes": "看得见结界的能力 - 玛艾露贝莉·赫恩的治疗技能处于倒计时期间时，指向的目标获得“保护体力极限”；并且目标在受到量子伤害时，会获得相同数值的保护罩。\r\n\r\n少女秘封俱乐部 - 玛艾露贝莉·赫恩与宇佐见莲子同时在场时，战斗开始时从牌库抽取 1 个“伊奘诺物质”。\n\n<color=#919191>- 此被动从1级开始生效。</color>",
+        "ATK": {
+            "x": 13,
+            "y": 25
+        },
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "REG": {
+            "x": 11,
+            "y": 22
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "HIT": {
+            "x": 100,
+            "y": 110
+        },
+        "RES_CC": {
+            "x": 20,
+            "y": 60
+        },
+        "RES_DEBUFF": {
+            "x": 10,
+            "y": 50
+        },
+        "RES_DOT": {
+            "x": 10,
+            "y": 50
+        },
+        "HIT_CC": {
+            "x": 10,
+            "y": 50
+        },
+        "HIT_DEBUFF": {
+            "x": 10,
+            "y": 50
+        },
+        "HIT_DOT": {
+            "x": 10,
+            "y": 50
+        },
+        "PassiveIcon": "MaribelHearn\\MaribelHearnPassiveIcon.png",
+        "StatView_Atk": 1,
+        "StatView_Heal": 2,
+        "StatView_Def": 1,
+        "StatView_Sup": 1,
+        "StatView_Debuff": 1,
+        "StatView_Difficult": 3
     }
 }

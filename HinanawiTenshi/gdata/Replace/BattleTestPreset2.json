@@ -10,66 +10,54 @@
         ],
         "PartySkills": [
             [
-                "S_SilverStein_7",
-                "S_SilverStein_7",
-                "S_SilverStein_7",
-                "S_SilverStein_10",
-                "S_SilverStein_10",
-                "S_SilverStein_10"
+                
             ],
             [
-                "S_Priest_0",
-                "S_Priest_0",
-                "S_Priest_11",
-                "S_Priest_1",
-                "S_Priest_6",
-                "S_Priest_8",
-                "S_Priest_8"
+                
             ],
             [
-                "S_Control_6",
-                "S_Control_4",
-                "S_Control_4",
-                "S_Control_2",
-                "S_Control_11",
-                "S_Control_11"
+                
             ],
             [
-                "S_Azar_10",
-                "S_Azar_13",
-                "S_Azar_3",
-                "S_Azar_9",
-                "S_Azar_9",
-                "S_Azar_13"
+                "S_Tenshi_0",
+                "S_Tenshi_1",
+                "S_Tenshi_2",
+                "S_Tenshi_3",
+                "S_Tenshi_4",
+                "S_Tenshi_5",
+                "S_Tenshi_6",
+                "S_Tenshi_7",
+                "S_Tenshi_8",
+                "S_Tenshi_Rare_1",
+                "S_Tenshi_Rare_2",
+                "S_Tenshi_Rare_3"
             ]
         ],
         "PartyEquip": [
             [
-                "Deadeye",
-                "HolySwordKarsaga"
+                
             ],
             [
-                "BloodyMary",
-                "WaterMelon_SwimDLC"
+                
             ],
             [
-                "SweetPotato_1"
+                
             ],
             [
-                "Swimsuit_SwimDLC"
+                
             ]
         ],
         "Party": [
             "SilverStein",
             "Priest",
             "Control",
-            "Azar"
+            "HinanawiTenshi"
         ],
         "PartyBasicSkill": [
             "S_SilverStein_6",
             "S_Priest_4",
             "S_Control_8",
-            "S_Tenshi_Rare_4"
+            "S_LucyC_2"
         ],
         "AP": 10,
         "Level": 6

@@ -7,7 +7,7 @@
         "IgnoreTaunt": true,
         "Name": "南风灵",
         "UseAp": 0,
-        "Description": "<color=#008B45>旋回</color> - 放逐这个技能。",
+        "Description": "<color=#008B45>旋回</color> - 放逐这个技能，恢复 1 点法力值。",
         "NotCount": true,
         "Disposable": false,
         "AutoDelete": 1,
@@ -24,6 +24,7 @@
         ],
         "NoBasicSkill": false,
         "Except": true,
-        "Fatal": false
+        "Fatal": false,
+        "Track": false
     }
 }

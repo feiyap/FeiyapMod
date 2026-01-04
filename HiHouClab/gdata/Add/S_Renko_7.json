@@ -1,0 +1,23 @@
+{
+    "S_Renko_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all_enemy",
+        "NotCount": true,
+        "Name": "Bar·Old Adam",
+        "Description": "战斗开始时，放在牌库最上方。\r\n对所有敌人施加持续 2 回合的“量子纠缠”。",
+        "User": "UsamiRenko",
+        "UseAp": 1,
+        "Disposable": true,
+        "Effect_Target": "null",
+        "Image_0": "S_Renko_7\\S_Renko_7_Image_0.png",
+        "Image_1": "S_Renko_7\\S_Renko_7_Image_1.png",
+        "Image_2": "S_Renko_7\\S_Renko_7_Image_2.png",
+        "NoBasicSkill": false,
+        "Effect_Self": "SE_S_S_Renko_7",
+        "SkillExtended": [
+            "HiHouClab.S_Renko_7"
+        ]
+    }
+}

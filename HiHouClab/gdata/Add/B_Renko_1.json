@@ -1,0 +1,19 @@
+{
+    "B_Renko_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HiHouClab.B_Renko_1",
+        "BuffTag": "Debuff",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "量子隧穿",
+        "Description": "每层使受到倒计时技能的伤害提升6%，受到量子伤害提升6%。",
+        "MaxStack": 4,
+        "LifeTime": 6,
+        "Debuff": true,
+        "TagPer": 100,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (22)"
+    }
+}

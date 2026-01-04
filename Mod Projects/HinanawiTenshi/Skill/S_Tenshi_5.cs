@@ -47,15 +47,25 @@ namespace HinanawiTenshi
 
             AddTenki(Targets[0], 1);
 
-            if (CheckTenki(false))
-            {
-                AddTenki(Targets[0], 1);
-            }
-
             if (CheckKishi(1, false))
             {
                 AddTenki(Targets[0], 1);
             }
+
+            if (this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.DOT, false, false).Count != 0)
+            {
+                return;
+            }
+            if (this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.CC, false, false).Count != 0)
+            {
+                return;
+            }
+            if (this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false, false).Count != 0)
+            {
+                return;
+            }
+
+            AddTenki(Targets[0], 1);
         }
     }
 }

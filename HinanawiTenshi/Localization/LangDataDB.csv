@@ -49,7 +49,8 @@ Buff/B_Tenshi_8_Description,Text,,,,,,
 Buff/B_Tenshi_8_Name,Text,,기염만장,Blazing Arrogance,気炎万丈,气焰万丈,
 Buff/B_Tenshi_LucyD_Description,Text,,버프를 얻을 때마다 스킬을 1장 뽑는다(최대 4장).,Draw 1 skill whenever this character gains a buff. (Up to 4 times),バフを得るたび、スキルを1枚引く。(最大で4枚),获得增益时抽取1个技能（最多触发4次）。,
 Buff/B_Tenshi_LucyD_Name,Text,,용기 늠름,Overflowing Courage,勇気凛々,勇气凛凛,
-Buff/B_Tenshi_P_Description,Text,,현재 <color=#97FFFF>기질</color>: &a,Current <color=#97FFFF>Qi</color> : &a,現在の<color=#97FFFF>気質</color>：&a,当前拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>：&a,
+Buff/B_Tenshi_P_Description,Text,,현재 <color=#97FFFF>기질</color>: &a,Current <color=#97FFFF>Qi</color> : &a,現在の<color=#97FFFF>気質</color>：&a,"当前拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>：&a
+当前已触发过的<color=#97FFFF>天启</color>种类：&b",
 Buff/B_Tenshi_P_Name,Text,,천인의 몸,Celestial Body,天人の体,天人之体,
 Buff/B_Tenshi_Rare_3_1_Description,Text,,"매 턴 시작 시, 모든 아군에게 랜덤 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color>를 부여합니다","At the start of each turn, apply a random <color=#FFD700>Weather Buff</color> to all allies.",毎ターン開始時、すべての味方にランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を与える。,每个回合开始时，为所有友军施加随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。,
 Buff/B_Tenshi_Rare_3_1_Name,Text,,비상천,Scarlet Heaven,緋想天,绯想天,
@@ -97,7 +98,7 @@ When shuffling the deck in battle, if the number of skills to be shuffled is 20 
 在战斗中牌库洗牌时，若需要洗牌的技能数为20及以上，则使当前回合数+1。",
 Buff/Boss_B_Tenshi_Phase_2_Name,Text,,천인지상,Celestial Form,天人之姿,天人之姿,
 Character/HinanawiTenshi_CampSelectWord,Text,,나는 하늘! 환상의 하늘이다!,I am the sky! The sky of illusions!,私は天！幻想の天なり！,吾乃天！幻想之天！,
-Character/HinanawiTenshi_PassiveDes,Text,,"<b>어린 마음의 우쵸텐</b> – 자신이 디버프가 없을 때 주는 피해가 10% 증가한다.
+Character/HinanawiTenshi_PassiveDes,Text,,"<b>어린 유정천</b> - 자신이 <sprite=0><sprite=1><sprite=2>을 보유하고 있지 않을 때, 받는 피해가 50% 감소합니다.
 
 <b>대지를 조종하는 정도의 능력</b> – 자신이 버프를 받을 때 <color=#97FFFF>기질</color>을 1스택 얻는다.
 
@@ -105,7 +106,7 @@ Character/HinanawiTenshi_PassiveDes,Text,,"<b>어린 마음의 우쵸텐</b> –
 
 <b><color=#97FFFF>천계X</color></b> – 자신이 가진 <color=#97FFFF>기질</color> 스택이 X 이상일 때, X만큼 소비해 추가 효과를 발동한다.
 
-<b><color=#B22222>십</color><color=#00BFFF>지</color><color=#00FF7F>권</color><color=#FFD700>능</color></b> – 히나나이 텐시는 아직 수련 중이라 진정한 힘을 해방하지 않았다...","<b>Child Who Reigns at the Pinnacle of Heaven</b> - If there are no debuffs on self, increase damage dealt by 10%. 
+<b><color=#B22222>십</color><color=#00BFFF>지</color><color=#00FF7F>권</color><color=#FFD700>능</color></b> – 히나나이 텐시는 아직 수련 중이라 진정한 힘을 해방하지 않았다...","<b>Child Who Reigns at the Pinnacle of Heaven</b> - If there is no <sprite=0><sprite=1><sprite=2>, damage taken is reduced by 50%.
 
 <b>Power to Manipulate the Earth</b> - Whenever a buff is applied to self, gain 1 Qi.
 
@@ -113,7 +114,7 @@ Character/HinanawiTenshi_PassiveDes,Text,,"<b>어린 마음의 우쵸텐</b> –
 
 <b><color=#97FFFF>Apocalypse X</color></b> - When the <color=#97FFFF>Qi</color> possessed by self reaches X points, casting a skill will consume X points of <color=#97FFFF>Qi</color> and trigger an additional effect.
 
-<b>Power of the Ten</b> - Hinanawi Tenshi is in the process of training, and her true power has not yet been realized...","<b>幼心地の有頂天</b> – 自身がデバフを持たないとき、与えるダメージが10%増加する。
+<b>Power of the Ten</b> - Hinanawi Tenshi is in the process of training, and her true power has not yet been realized...","<b>幼心地の有頂天</b> – 自身が<sprite=0><sprite=1><sprite=2>を所持していない時、受けるダメージが50%減少する。
 
 <b>大地を操る程度の能力</b> – 自身にバフが与えられたとき、<color=#97FFFF>気質</color>を1ストック得る。
 
@@ -121,7 +122,7 @@ Character/HinanawiTenshi_PassiveDes,Text,,"<b>어린 마음의 우쵸텐</b> –
 
 <b><color=#97FFFF>天啓X</color></b> – 自身が持つ<color=#97FFFF>気質</color>のストック数がX以上のとき、<color=#97FFFF>気質</color>のストックをX消費して、追加効果が発動する。
 
-<b><color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>権</color><color=#FFD700>能</color></b> – 比那名居天子はまだ修行中で、真の力を解放していない……","<b>幼小的有顶天</b> - 当自己身上没有减益效果时，造成的伤害提升10%。
+<b><color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>権</color><color=#FFD700>能</color></b> – 比那名居天子はまだ修行中で、真の力を解放していない……","<b>幼小的有顶天</b> - 当自身未持有任何<sprite=0><sprite=1><sprite=2>时，受到伤害降低50%。
 
 <b>操纵大地程度的能力</b> - 自身被施加增益效果时，比那名居天子会获得1点<color=#97FFFF><color=#97FFFF>气质</color></color>。
 
@@ -180,14 +181,14 @@ RandomEvent/RE_Tenshi_Boss_Desc_3Stage,Text,,"하쿠레이 신사'에 도착했�
 As you ponder this mystery, you spot a lone girl standing beneath the torii gate of the shrine.
 —According to the unspoken rules of Gensokyo, a fierce battle seems inevitable.","”博麗神社”に着いた......いや、”博麗神社”に似た場所としか言いようがない。 博麗神社がアークの中に存在するわけがないのだから、ここは一体何なのだろうか？ 
 ちょうどそんなことを考えていたとき、神社の鳥居の下に1人の少女が立っているのが見えた。
-—— 幻想郷のルールに従うなら、激戦は避けられないようだ。 ","你们来到了“博丽神社”……不，只能说形似“博丽神社”的地方。方舟中不可能真的存在博丽神社，那这里究竟是什么地方？
+—— 幻想郷のルールに従うなら、激戦は避けられないようだ。","你们来到了“博丽神社”……不，只能说形似“博丽神社”的地方。方舟中不可能真的存在博丽神社，那这里究竟是什么地方？
 就在你们思考的时候，在神社中看到了一位独自屹立在鸟居之下的少女。
 ——按照幻想乡的默认规则，一场恶战看来是无法避免了。",
 RandomEvent/RE_Tenshi_Boss_EventDetails,Text,,"하쿠레이 신사'에 도착했다……아니, 하쿠레이 신사와 비슷한 장소라고밖에 할 수 없다. 하쿠레이 신사가 아크 안에 있을 리 없으니, 여긴 도대체 뭐지? 그런 생각을 하고 있을 때, 신사 도리이 아래에 한 소녀가 서 있는 것이 보였다. —— 환상향의 규칙에 따르면, 치열한 전투는 피할 수 없을 것 같다.","You've arrived at the 'Hakurei Shrine'... or rather, a place merely resembling it. There's no way the real Hakurei Shrine could exist within the Ark. So then, what is this place really?
 As you ponder this mystery, you spot a lone girl standing beneath the torii gate of the shrine.
 —According to the unspoken rules of Gensokyo, a fierce battle seems inevitable.","”博麗神社”に着いた......いや、”博麗神社”に似た場所としか言いようがない。 博麗神社がアークの中に存在するわけがないのだから、ここは一体何なのだろうか？ 
 ちょうどそんなことを考えていたとき、神社の鳥居の下に1人の少女が立っているのが見えた。
-—— 幻想郷のルールに従うなら、激戦は避けられないようだ。 ","你们来到了“博丽神社”……不，只能说形似“博丽神社”的地方。方舟中不可能真的存在博丽神社，那这里究竟是什么地方？
+—— 幻想郷のルールに従うなら、激戦は避けられないようだ。","你们来到了“博丽神社”……不，只能说形似“博丽神社”的地方。方舟中不可能真的存在博丽神社，那这里究竟是什么地方？
 就在你们思考的时候，在神社中看到了一位独自屹立在鸟居之下的少女。
 ——按照幻想乡的默认规则，一场恶战看来是无法避免了。",
 RandomEvent/RE_Tenshi_Boss_Name,Text,,기묘한 하쿠레이 신사,The Mysterious Hakurei Shrine,奇妙な博麗神社,奇怪的博丽神社,
@@ -252,15 +253,15 @@ Skill/S_Tenshi_0_Description,Text,,"자신에게 랜덤 <color=#B22222>날</colo
 
 <color=#97FFFF>天启8</color> - 使所有队友获得3个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
 Skill/S_Tenshi_0_Name,Text,,천부 「천도시비의 검」,Heavenly Seal : Sword of Justice,天符「天道是非の剣」,天符「天道是非之剑」,
-Skill/S_Tenshi_1_Description,Text,,"자신이 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color>를 가지고 있을 경우, <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color> 1개를 소모해 대상에게 '3턴간 받는 피해 15% 증가'를 부여한다. 
+Skill/S_Tenshi_1_Description,Text,,"발동한 '<color=#97FFFF>천계</color>' 종류에 따라 추가 공격을 가합니다. 매번 &a 피해<color=#FF7A33>(공격력의 35%)</color>를 줍니다.
 
-<color=#97FFFF>천계5</color> – 1회 반복 발동한다.","If the user has a <color=#FFD700>Weather Buff</color>, consume 1 <color=#FFD700>Weather Buff</color> to grant the target ""Receiving Damage +15%"" for 3 turns.
+<color=#97FFFF>천계 5</color> - 추가 공격의 피해량을 &b <color=#FF7A33>(공격력의 50%)</color>로 증가시킵니다.","Perform additional attacks based on the types of '<color=#97FFFF>Apocalypse</color>' triggered. Each deals &a damage<color=#FF7A33>(35% of ATK)</color>.
 
-<color=#97FFFF>Apocalypse 5</color> - Recast once.","自身が<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を持つ場合、<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ消費して対象に「3ターンの間、受けるダメージが15%増加するを」与える。
+<color=#97FFFF>Apocalypse 5</color> - Increases the damage of additional attacks to &b <color=#FF7A33>(50% of ATK)</color>.","発動した「<color=#97FFFF>天啓</color>」の種類に応じて、追加攻撃を行う。毎回 &a ダメージ<color=#FF7A33>(攻撃力の35%)</color>を与える。
 
-<color=#97FFFF>天啓5</color> – 1回繰り返し発動する。","如果自己身上有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，消耗1个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，使目标获得“受到伤害量+15%”，持续3回合。
+<color=#97FFFF>天啓5</color> - 追加攻撃のダメージを &b <color=#FF7A33>(攻撃力の50%)</color>にアップさせる。","根据已触发过的“<color=#97FFFF>天启</color>”种类，额外进行追加攻击。每次造成 &a 伤害<color=#FF7A33>(攻击力的35%)</color>。
 
-<color=#97FFFF>天启5</color> - 重复释放1次。",
+<color=#97FFFF>天启5</color> - 使追加攻击的伤害提升至 &b <color=#FF7A33>(攻击力的50%)</color>。",
 Skill/S_Tenshi_1_Name,Text,,지부 「불양토양의 검」,Earth Seal : Sword of the Unyielding Soil,地符「不譲土壌の剣」,地符「不让土壤之剑」,
 Skill/S_Tenshi_2_Description,Text,,"자신이 가진 <color=#97FFFF>기질</color>을 모두 소모한다. 
 소모한 <color=#97FFFF>기질</color> 1스택마다 이 스킬 피해가 1.1배가 된다. 
@@ -275,16 +276,16 @@ Current damge dealt: &b","自身が持つ<color=#97FFFF>気質</color>をすべ�
 当前造成的伤害为：&b",
 Skill/S_Tenshi_2_Name,Text,,비상 「비상비비상의 검」,Imaginary Thought : Formless Sword,非想「非想非非想の剣」,非想「非想非非想之剑」,
 Skill/S_Tenshi_3_Description,Text,,"대상의 좌우 적을 절반 피해로 동시에 공격한다. 명중 시 자신에게 랜덤 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color> 1개를 부여한다. 
-<color=#97FFFF>천계7</color> – 적이 1명 이상 있을 경우, 대상을 모든 적으로 변경한다.","Attacks enemies on either side of the target for halved damage.
+<color=#97FFFF>천계7</color> – 다른 모든 적에게도 추가로 공격합니다.","Attacks enemies on either side of the target for halved damage.
 On hit, grant a random <color=#FFD700>Weather Buff</color> on self.
 
-<color=#97FFFF>Apocalypse 7</color> - If there is more than 1 enemy on the field, change target to ""all enemies"".","対象の左右の敵を半分のダメージで同時に攻撃する。
+<color=#97FFFF>Apocalypse 7</color> - Additionally targets on all other enemies.","対象の左右の敵を半分のダメージで同時に攻撃する。
 命中時、自身にランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。
 
-<color=#97FFFF>天啓7</color> – 敵が1体以上いる場合、対象をすべての敵に変更する。","同时对目标左右的单位释放，造成一半的伤害。
+<color=#97FFFF>天啓7</color> – 他の全ての敵にも追加で攻撃する。","同时对目标左右的单位释放，造成一半的伤害。
 命中时，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 
-<color=#97FFFF>天启7</color> - 如果场上的敌人数量大于1，改为指向“所有敌人”。",
+<color=#97FFFF>天启7</color> - 追加对其他所有敌人释放。",
 Skill/S_Tenshi_3_Name,Text,,천기 「비상천촉」,Weather : Scarlet Heaven,天気「緋想天促」,天气「绯想天促」,
 Skill/S_Tenshi_4_Description,Text,,"모든 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color>가 제시되고, 하나를 선택해 얻는다. 
 
@@ -298,25 +299,28 @@ Skill/S_Tenshi_4_Description,Text,,"모든 <color=#B22222>날</color><color=#00B
 <color=#97FFFF>天启4</color> - 下个回合开始时，展示所有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，选择并获得其中一个。",
 Skill/S_Tenshi_4_Name,Text,,기부 「천계기상의 검」,Spirit Seal : Sword of Divine Revelation,気符「天啓気象の剣」,气符「天启气象之剑」,
 Skill/S_Tenshi_5_Description,Text,,"랜덤 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color> 1개를 부여한다. 
-자신이 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color>를 가지고 있을 경우, 1개를 소모하고 추가로 랜덤 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color> 1개를 부여한다. 
+자신이 <sprite=0><sprite=1><sprite=2>을 보유하고 있지 않으면, 추가로 무작위 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color> 1개를 부여합니다.
 
-<color=#97FFFF>천계1</color> – 추가로 랜덤 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color> 1개를 부여한다.","Apply 1 random <color=#FFD700>Weather Buff</color>. If the user has a <color=#FFD700>Weather Buff</color>, consume 1 <color=#FFD700>Weather Buff</color> and apply 1 additional <color=#FFD700>Weather Buff</color>.","ランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。
-自身が<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を持つ場合、<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ消費し、さらにランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。
+<color=#97FFFF>천계1</color> – 추가로 랜덤 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color> 1개를 부여한다.","Apply 1 random <color=#FFD700>Weather Buff</color>. 
+If there is no <sprite=0><sprite=1><sprite=2>, apply an additional 1 random <color=#FFD700>Weather Buff</color>.
+
+<color=#97FFFF>Apocalypse 1</color> - Apply an additional 1 random <color=#FFD700>Weather Buff</color>.","ランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。
+自身が<sprite=0><sprite=1><sprite=2>を所持していない場合、追加でランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1個付与する。
 
 <color=#97FFFF>天啓1</color> – さらにランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。","施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
-如果自己身上有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，消耗1个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+若自身未持有任何<sprite=0><sprite=1><sprite=2>，额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 
 <color=#97FFFF>天启1</color> - 额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
 Skill/S_Tenshi_5_Name,Text,,요석 「천공의 영석」,Keystone : Celestial Spirit Gem,要石「天空の霊石」,要石「天空之灵石」,
-Skill/S_Tenshi_6_Description,Text,,"자신이 가진 버프 1개마다 치명타 확률이 10% 증가한다. 
+Skill/S_Tenshi_6_Description,Text,,"자신이 보유한 <color=#B22222>날</color><color=#00BFFF>씨</color><color=#00FF7F>버</color><color=#FFD700>프</color> 수에 따라, 보너스 1개당 이 스킬이 추가로 &a 피해<color=#FF7A33>(공격력의 10%)</color>를 줍니다.
 
-<color=#97FFFF>천계6</color> – &a<color=#FF7A33>(공격력의 70%)</color> 피해를 추가로 준다.","Boost Critical Chance by 10% per buff on the user.
+<color=#97FFFF>천계 6</color> - (150%<sprite=2>) 기절을 부여합니다.","Based on the number of <color=#FFD700>Weather Buff</color>, for each bonus this skill deals an additional &a damage<color=#FF7A33>(10% of ATK)</color>.
 
-<color=#97FFFF>Apocalypse 6</color> - Deal &a additional damage <color=#FF7A33>(70% of Attack Power)</color>.","自身が持つバフ1つにつき、クリティカル率が10%増加する。
+<color=#97FFFF>Apocalypse 6</color> - Apply (150%<sprite=2>) Stun.","自身が所持する<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>の数に応じて、ボーナス1個につきこのスキルが追加で &a ダメージ<color=#FF7A33>(攻撃力の10%)</color>を与える。
 
-<color=#97FFFF>天啓6</color> – &a<color=#FF7A33>(攻撃力の70%)</color>のダメージを追加で与える。","依据自身持有的增益数量，每个提升10%暴击率。
+<color=#97FFFF>天啓6</color> - (150%<sprite=2>)気絶を付与する。","依据自身持有的<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>数量，每个增益使这个技能额外造成 &a 伤害<color=#FF7A33>(攻击力的10%)</color>。
 
-<color=#97FFFF>天启6</color> - 额外造成&a点伤害<color=#FF7A33>(攻击力的70%)</color>。",
+<color=#97FFFF>天启6</color> - 施加(150%<sprite=2>)眩晕。",
 Skill/S_Tenshi_6_Name,Text,,지부 「일격진건곤」,Earth Seal : One Strike to Tremble the World,地符「一撃震乾坤」,地符「一击震乾坤」,
 Skill/S_Tenshi_7_Description,Text,,"자신이 가진 버프 수만큼 <color=#97FFFF>기질</color> 스택을 얻는다. 
 
@@ -337,7 +341,15 @@ For each cast, grant a random <color=#FFD700>Weather Buff</color> on self.","自
 繰り返し発動するたび、自身にランダムな<color=#B22222>天</color><color=#00BFFF>気</color><color=#00FF7F>バ</color><color=#FFD700>フ</color>を1つ与える。","消耗所有<color=#97FFFF>气质</color>，每点消耗的<color=#97FFFF>气质</color>使这个技能向随机敌人重复释放 1 次。
 每次释放，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。",
 Skill/S_Tenshi_Rare_1_Name,Text,,「전 인류의 비상천」,Scarlet Heaven of All Mankind,「全人類の緋想天」,「全人类的绯想天」,
-Skill/S_Tenshi_Rare_2_Description,Text,,<color=#97FFFF>천계9</color> – 대상을 모든 적으로 변경한다.,<color=#97FFFF>Apocalypse 9</color> - Targets all enemies.,<color=#97FFFF>天启9</color> – 対象をすべての敵に変更する。,<color=#97FFFF>天启9</color> - 改为指向所有敌人。,
+Skill/S_Tenshi_Rare_2_Description,Text,,"자신의 모든 스킬 중 2개를 선택하여 생성합니다.
+
+<color=#97FFFF>천계 9</color> - 자신의 모든 강화 효과의 지속 시간을 9턴 연장합니다.","Choose 2 skills from among all of self's skills to generate.
+
+<color=#97FFFF>Apocalypse 9</color> - Extend the duration of all of self's buffs by 9 turns.","自身の全てのスキルの中から2つを選択して生成する。
+
+<color=#97FFFF>天啓9</color> - 自身の全ての強化効果の持続時間を 9 ターン延長する。","在自己的所有技能中选择 2 个生成。
+
+<color=#97FFFF>天启9</color> - 使自身所有增益的持续时间延长 9 回合。",
 Skill/S_Tenshi_Rare_2_Name,Text,,지진「선우후락의 검」,Earthquake : Sword of Early Worries and Late Pleasures,地震「先憂後楽の剣」,地震「先忧后乐之剑」,
 Skill/S_Tenshi_Rare_3_Description,Text,,전투 시작 시 덱 맨 위에 놓는다.,Move this skill to the top of the deck at the start of battle.,戦闘開始時、デッキの一番上に置く。,战斗开始时，放在牌库最上方。,
 Skill/S_Tenshi_Rare_3_Name,Text,,천지「세계를 내려다보는 아득한 대지여」,Heaven and Earth : The Faraway Land Overlooking the World,天地「世界を見下ろす遥かなる大地よ」,天地「俯瞰世界的遥远的大地啊」,

@@ -1,0 +1,14 @@
+{
+    "S_Maribel_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all_enemy",
+        "User": "MaribelHearn",
+        "Name": "旧世界的冒险酒馆",
+        "UseAp": 2,
+        "Image_0": "S_Maribel_7\\S_Maribel_7_Image_0.png",
+        "Image_1": "S_Maribel_7\\S_Maribel_7_Image_1.png",
+        "Image_2": "S_Maribel_7\\S_Maribel_7_Image_2.png"
+    }
+}

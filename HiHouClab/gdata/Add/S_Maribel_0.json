@@ -1,0 +1,25 @@
+{
+    "S_Maribel_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Joey/Joey_0",
+        "Target": "enemy",
+        "Name": "魔术师梅莉",
+        "Description": "倒计时期间，这个技能指向的目标获得“可被无视嘲讽选中，无法破坏体力极限，受到的量子伤害提升30%”。",
+        "User": "MaribelHearn",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Maribel_0",
+        "Image_0": "S_Maribel_0\\S_Maribel_0_Image_0.png",
+        "Image_1": "S_Maribel_0\\S_Maribel_0_Image_1.png",
+        "Image_2": "S_Maribel_0\\S_Maribel_0_Image_2.png",
+        "NotCount": false,
+        "Counting": 3,
+        "Rare": false,
+        "IgnoreTaunt": true,
+        "Disposable": false,
+        "NoDrop": false,
+        "SkillExtended": [
+            "HiHouClab.S_Maribel_0"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "S_Tenshi_1_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/LastBoss/S_LBoss_Summons_0_0",
+        "Target": "enemy",
+        "NoDrop": false,
+        "Effect_Target": "SE_T_S_Tenshi_1_1"
+    }
+}

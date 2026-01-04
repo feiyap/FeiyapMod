@@ -1,0 +1,10 @@
+{
+    "B_Renko_8": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "HiHouClab.B_Renko_8",
+        "BuffTag": "null",
+        "Name": "登天吞云",
+        "Hide": false
+    }
+}

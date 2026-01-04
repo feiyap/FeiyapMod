@@ -1,0 +1,581 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hihouclab\\skill\\s_renko_rare_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_rare_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skillextended\\se_renko_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skillextended\\se_renko_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\quantumdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:quantumdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_rare_2_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_rare_2_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\character\\p_usamirenko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:character\\p_usamirenko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\hihouclab_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:hihouclab_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skillextended\\se_renko_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skillextended\\se_renko_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\item_equip\\e_renko_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:item_equip\\e_renko_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_p_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_p_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_rare_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_rare_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\planckap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:planckap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\character\\p_maribelhearn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:character\\p_maribelhearn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_rare_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_rare_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_rare_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_rare_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_maribel_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_maribel_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_maribel_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_maribel_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_renko_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "S_Renko_8.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_8.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_8.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_8.cs",
+              "RelativeToolTip": "Skill\\S_Renko_8.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwEUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:21:40.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "B_Renko_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_1.cs",
+              "RelativeToolTip": "Buff\\B_Renko_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:17:59.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "B_Renko_2.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_2.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_2.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_2.cs",
+              "RelativeToolTip": "Buff\\B_Renko_2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:16:01.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "B_Renko_P.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_P.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_P.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_P.cs",
+              "RelativeToolTip": "Buff\\B_Renko_P.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:45:18.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "B_Renko_6.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_6.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_6.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_6.cs",
+              "RelativeToolTip": "Buff\\B_Renko_6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:10:00.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "B_Renko_5.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_5.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_5.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_5.cs",
+              "RelativeToolTip": "Buff\\B_Renko_5.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:06:09.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "S_Renko_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_1.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_1.cs",
+              "RelativeToolTip": "Skill\\S_Renko_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T13:59:17.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "S_Renko_Rare_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_Rare_1.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_Rare_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_Rare_1.cs",
+              "RelativeToolTip": "Skill\\S_Renko_Rare_1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:51:22.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "P_UsamiRenko.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Character\\P_UsamiRenko.cs",
+              "RelativeDocumentMoniker": "Character\\P_UsamiRenko.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Character\\P_UsamiRenko.cs",
+              "RelativeToolTip": "Character\\P_UsamiRenko.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:40:27.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SE_Renko_6.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\SkillExtended\\SE_Renko_6.cs",
+              "RelativeDocumentMoniker": "SkillExtended\\SE_Renko_6.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\SkillExtended\\SE_Renko_6.cs",
+              "RelativeToolTip": "SkillExtended\\SE_Renko_6.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:13:28.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SE_Renko_P.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\SkillExtended\\SE_Renko_P.cs",
+              "RelativeDocumentMoniker": "SkillExtended\\SE_Renko_P.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\SkillExtended\\SE_Renko_P.cs",
+              "RelativeToolTip": "SkillExtended\\SE_Renko_P.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:52:02.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "S_Renko_0.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_0.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_0.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_0.cs",
+              "RelativeToolTip": "Skill\\S_Renko_0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T13:59:16.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "S_Renko_2.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_2.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_2.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_2.cs",
+              "RelativeToolTip": "Skill\\S_Renko_2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:26:12.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "S_Renko_7.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_7.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_7.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_7.cs",
+              "RelativeToolTip": "Skill\\S_Renko_7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:51:14.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "S_Renko_6.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_6.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_6.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_6.cs",
+              "RelativeToolTip": "Skill\\S_Renko_6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:51:00.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuantumDamage.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\QuantumDamage.cs",
+              "RelativeDocumentMoniker": "QuantumDamage.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\QuantumDamage.cs",
+              "RelativeToolTip": "QuantumDamage.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAowK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:19:05.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "B_Renko_8.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_8.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_8.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_8.cs",
+              "RelativeToolTip": "Buff\\B_Renko_8.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:19:22.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "B_Renko_Rare_2_0.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_Rare_2_0.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_Rare_2_0.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_Rare_2_0.cs",
+              "RelativeToolTip": "Buff\\B_Renko_Rare_2_0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:32:46.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "S_Maribel_0.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_0.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Maribel_0.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_0.cs",
+              "RelativeToolTip": "Skill\\S_Maribel_0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:26:30.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "B_Maribel_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Maribel_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_1.cs",
+              "RelativeToolTip": "Buff\\B_Maribel_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:26:35.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HiHouClab_Plugin.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\HiHouClab_Plugin.cs",
+              "RelativeDocumentMoniker": "HiHouClab_Plugin.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\HiHouClab_Plugin.cs",
+              "RelativeToolTip": "HiHouClab_Plugin.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T04:42:36.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "B_Renko_Rare_2.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_Rare_2.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_Rare_2.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_Rare_2.cs",
+              "RelativeToolTip": "Buff\\B_Renko_Rare_2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:26:45.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "E_Renko_0.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Item_Equip\\E_Renko_0.cs",
+              "RelativeDocumentMoniker": "Item_Equip\\E_Renko_0.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Item_Equip\\E_Renko_0.cs",
+              "RelativeToolTip": "Item_Equip\\E_Renko_0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T04:34:50.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "S_Renko_3.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_3.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_3.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_3.cs",
+              "RelativeToolTip": "Skill\\S_Renko_3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:57:44.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "S_Renko_4.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_4.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_4.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_4.cs",
+              "RelativeToolTip": "Skill\\S_Renko_4.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:58:46.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "B_Renko_Rare_3.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_Rare_3.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_Rare_3.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_Rare_3.cs",
+              "RelativeToolTip": "Buff\\B_Renko_Rare_3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:36:06.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "B_Renko_P_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_P_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_P_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_P_1.cs",
+              "RelativeToolTip": "Buff\\B_Renko_P_1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowC4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:47:55.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PlanckAP.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\PlanckAP.cs",
+              "RelativeDocumentMoniker": "PlanckAP.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\PlanckAP.cs",
+              "RelativeToolTip": "PlanckAP.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAALQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T03:08:46.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "S_Renko_Rare_3.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_Rare_3.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_Rare_3.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_Rare_3.cs",
+              "RelativeToolTip": "Skill\\S_Renko_Rare_3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:36:10.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "P_MaribelHearn.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Character\\P_MaribelHearn.cs",
+              "RelativeDocumentMoniker": "Character\\P_MaribelHearn.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Character\\P_MaribelHearn.cs",
+              "RelativeToolTip": "Character\\P_MaribelHearn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:40:24.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "B_Renko_3.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_3.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_3.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_3.cs",
+              "RelativeToolTip": "Buff\\B_Renko_3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:15:18.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "B_Renko_7.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_7.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_7.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_7.cs",
+              "RelativeToolTip": "Buff\\B_Renko_7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:15:15.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "S_Renko_Rare_2.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_Rare_2.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_Rare_2.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_Rare_2.cs",
+              "RelativeToolTip": "Skill\\S_Renko_Rare_2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:51:24.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "B_Renko_Rare_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_Rare_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_Rare_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_Rare_1.cs",
+              "RelativeToolTip": "Buff\\B_Renko_Rare_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:26:43.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "S_Renko_5.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_5.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Renko_5.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_5.cs",
+              "RelativeToolTip": "Skill\\S_Renko_5.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:26:37.648Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

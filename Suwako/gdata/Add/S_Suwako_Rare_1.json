@@ -3,11 +3,11 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Ilya/Ilya_9_First",
-        "Target": "enemy",
+        "Target": "Misc",
         "Name": "蛙狩「蛙以口鸣，方致蛇祸」",
-        "Description": "使所有其他技能返回牌库。那之后，每个返回牌库的技能使这个技能造成额外&a(100%)伤害。",
+        "Description": "将弃牌库中的所有技能放回牌库，抽取 1 个技能。\n\r\n<color=#008B45>旋回</color> - 将弃牌库中的所有技能放回牌库。",
         "Rare": true,
-        "UseAp": 3,
+        "UseAp": 0,
         "NotCount": true,
         "Image_0": "S_Suwako_Rare_1\\S_Suwako_Rare_1_Image_0.png",
         "Image_1": "S_Suwako_Rare_1\\S_Suwako_Rare_1_Image_1.png",
@@ -31,7 +31,7 @@
         "PlusKeyWords": [
             "Keyword_Return"
         ],
-        "Effect_Target": "SE_T_S_Suwako_Rare_1",
+        "Effect_Target": "null",
         "User": "Suwako"
     }
 }

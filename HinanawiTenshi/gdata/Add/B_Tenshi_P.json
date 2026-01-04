@@ -9,7 +9,7 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "天人之体",
-        "Description": "当前拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>：&a",
+        "Description": "当前拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>：&a\n当前已触发过的<color=#97FFFF>天启</color>种类：&b",
         "Icon": "B_Tenshi_P\\B_Tenshi_P_Icon.png"
     }
 }

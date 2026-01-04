@@ -1,11 +1,14 @@
 ﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-Buff/B_Suwako_3_Description,Text,,,"Each turn, after using 4 skills, add a 0 cost [Native God ""Mishaguji-sama""] to your hand.",毎ターンスキルを4回使用したとき、コストが0の「土着神-御射軍神さま」を手札に1枚加える。,每个回合使用第4个技能时，将1个0费的[土著神「御射军神大人」]加入手中。,
+Buff/B_Suwako_3_Description,Text,,,"Each turn, after using 4 skills, add a 0 cost [Native God ""Mishaguji-sama""] to your hand.",毎ターンスキルを4回使用したとき、コストが0の「土着神-御射軍神さま」を手札に1枚加える。,每个回合使用第 4 个技能时，将 1 个费用为 0 的“土著神「御射军神大人」”加入手中。,
 Buff/B_Suwako_3_Name,Text,,,Growing Storm,風雨の祈祷,风雨御射,
-Buff/B_Suwako_8_Description,Text,,,"The next time the <color=#008B45>Cycle</color> effect is triggered, the <color=#008B45>Cycled</color> skill's damage will be increased by &a(80%) or healing by &b(130%) for this battle.",次に<color=#008B45>連環</color>が発動したとき、<color=#008B45>連環</color>を発動したスキルはこの戦闘中、ダメージが&a(80%)、回復量が&b(130%)増加する。効果発動後、除去する。,下次触发<color=#008B45>旋回</color>效果时，使被<color=#008B45>旋回</color>的技能在本场战斗中增加&a(80%)伤害或&b(130%)治疗量。触发后解除。,
+Buff/B_Suwako_8_Description,Text,,,"Each time <color=#008B45>Cycle</color> is triggered, generate 1 ""Southern Wind Spirit"".",<color=#008B45>連環</color>が発動するたび、「南風の精霊」を1つ生成する。,每次触发<color=#008B45>旋回</color>时，生成 1 个“南风灵”。,
 Buff/B_Suwako_8_Name,Text,,,Approaching Storm,風雨よ来い,风雨欲来,
-Buff/B_Suwako_Dot_Description,Text,,,"Each time <color=#008B45>Cycle</color> is triggered or a 0 cost skill is used, this debuff's damage will be increased by 1.",<color=#008B45>連環</color>が発動するかコストが0のスキルを使用するたび、このデバフのダメージが1増加する。,每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加1点。,
+Buff/B_Suwako_Dot_Description,Text,,,"Each time <color=#008B45>Cycle</color> is triggered, this debuff's damage will be increased by 4.
+Each time a 0 cost skill is used, this debuff's damage will be increased by 1.","<color=#008B45>連環</color>が発動するたび、このデバフのダメージを<color=purple>4</color>上昇させる。
+コスト0のスキルを使用するたび、このデバフのダメージを<color=purple>1</color>上昇させる。","每次触发<color=#008B45>旋回</color>时，使该减益的伤害增加 <color=purple>4</color> 点。
+每次使用费用为 0 的技能时，使该减益的伤害增加 <color=purple>1</color> 点。",
 Buff/B_Suwako_Dot_Name,Text,,,Raging Storm,風雨の到来,风雨已至,
-Buff/B_Suwako_Rare2_Description,Text,,,"When <color=#008B45>Cycle</color> is triggered, or when any teammate plays a 0 cost skill from your hand, the damage of [Raging Storm] will be triggered immediately, but only half of the damage will be dealt.",<color=#008B45>連環</color>が発動するかコストが0のスキルを使用したとき、[風雨の到来]のダメージを50%のダメージで1回発動する。,触发<color=#008B45>旋回</color>或释放手中的0费技能时，立即触发1次自己施加的[风雨已至]的伤害，但只造成50%的伤害量。,
+Buff/B_Suwako_Rare2_Description,Text,,,"When <color=#008B45>Cycle</color> is triggered, the damage of <color=purple>Raging Storm</color> will be triggered immediately.",<color=#008B45>連環</color>が発動する時、<color=purple>「風雨至りなば」</color>のダメージを1回発動する。,触发<color=#008B45>旋回</color>时，立即触发 1 次<color=purple>“风雨已至”</color>的伤害。,
 Buff/B_Suwako_Rare2_Name,Text,,,Eye of the Storm,風雨の終わり,风雨皆息,
 Character/Suwako_CampSelectWord,Text,,,"Pay more respect to the earth. Otherwise, you might find yourself cursed. Heh heh.",もっと大地を敬おうよ。呪われても知らないよ？へへ。,更加地敬畏大地吧。不然被诅咒也说不定哟？嘿嘿。,
 Character/Suwako_PassiveDes,Text,,,"<b>Tomorrow Will Be Special, Yesterday Was Not</b> - When the battle begins, put one of Suwako's skill at the top of your hand.
@@ -74,8 +77,12 @@ Be in awe.","一見すると可愛らしい女の子のようで、無邪気な�
 「神」不懂何为欢笑。
 「神」不懂何为人类。
 敬畏吧。",
-Character_Skin/SuwakoEclips_SkinName,Text,,,"Pinnacle of Native Gods
-",土着神の頂点,土著神的顶点,
+Character_Skin/SuwakoEclips_SkinName,Text,,,Pinnacle of Native Gods,土着神の頂点,土著神的顶点,
+Character_Skin/SuwakoRedhot_SkinDesc,Text,,,,,"吸血鬼们在准备夏天的祭典！
+这么好玩的事情，神明怎么能够错过呢？
+反正家里有早苗和神奈子看着，
+让本神亲自去收集一下信仰也没什么吧~？",
+Character_Skin/SuwakoRedhot_SkinName,Text,,,,,超炎蛙姬！,
 Skill/S_FSL_Common_Description,Text,,,"When targeting an enemy, deals &a(40%) damage. When targeting an ally, restore &b(65%) health.
 
 <b><color=green>Combo 2</color></b> - Grants Once.","敵を対象とする場合、&a(40%)のダメージを与え、味方を対象とする場合、体力を&b(65%)回復する。
@@ -84,66 +91,83 @@ Skill/S_FSL_Common_Description,Text,,,"When targeting an enemy, deals &a(40%) da
 
 <b><color=green>连击2</color></b> - 获得一次性。",
 Skill/S_FSL_Common_Name,Text,,,Wind Spirit,風の精霊,风灵,
-Skill/S_Suwako_0_Description,Text,,,"<color=green>Combo 2</color> - Returns to the deck upon being played.
-<color=#008B45>Cycle</color> - The damage of all [Divine Tool ""Moriya's Iron Ring""] during this battle is increased by &a(30%).","<color=green>コンボ2</color>：発動後、デッキに戻る。
-<color=#008B45>連環</color>：この戦闘中、「神具-洩矢の鉄の輪」のダメージが&a(30%)増加する。","<color=green>连击2</color> - 释放后返回牌组。
-<color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(30%)点。",
+Skill/S_Suwako_0_Description,Text,,,"<color=green>Combo 2</color> - Returns to deck after use.
+<color=green>Combo 4</color> - Damage of all 'Divine Tool ""Moriya's Iron Ring""' during this battle increases by &a <color=#FF7A33>(30% of ATK)</color>.
+<color=green>Combo 8</color> - Damage of all 'Divine Tool ""Moriya's Iron Ring""' during this battle increases by &b <color=#FF7A33>(60% of ATK)</color>. (Stacks with Combo 4)
+<color=#008B45>Cycle</color> - Damage of all 'Divine Tool ""Moriya's Iron Ring""' during this battle increases by &a <color=#FF7A33>(30% of ATK)</color>. (Stacks with Combo 4, Combo 8)","<color=green>コンボ2</color> - 使用後、デッキに戻る。
+<color=green>コンボ4</color> - この戦闘中の全ての「神具「洩矢の鉄の輪」」のダメージが &a 点上昇<color=#FF7A33>(攻撃力の30%)</color>。
+<color=green>コンボ8</color> - この戦闘中の全ての「神具「洩矢の鉄の輪」」のダメージが &b 点上昇<color=#FF7A33>(攻撃力の60%)</color>。（コンボ4と重複）
+<color=#008B45>連環</color> - この戦闘中の全ての「神具「洩矢の鉄の輪」」のダメージが &a 点上昇<color=#FF7A33>(攻撃力の30%)</color>。（コンボ4、コンボ8と重複）","<color=green>连击2</color> - 释放后返回牌组。
+<color=green>连击4</color> - 本次战斗期间的所有“神具「洩矢的铁轮」”的伤害增加 &a 点<color=#FF7A33>(攻击力的30%)</color>。
+<color=green>连击8</color> - 本次战斗期间的所有“神具「洩矢的铁轮」”的伤害增加 &b 点<color=#FF7A33>(攻击力的60%)</color>。（与连击4叠加）
+<color=#008B45>旋回</color> - 本次战斗期间的所有“神具「洩矢的铁轮」”的伤害增加 &a 点<color=#FF7A33>(攻击力的30%)</color>。（与连击4、连击8叠加）",
 Skill/S_Suwako_0_Name,Text,,,Divine Tool "Moriya's Iron Ring",神具「洩矢の鉄の輪」,神具「洩矢的铁轮」,
 Skill/S_Suwako_1_Description,Text,,,"<color=green>Combo 4</color> - Guaranteed critical hit.
 <color=#008B45>Cycle</color> - Will be cast on a random enemy then draw 1 skill.","<color=green>コンボ4</color>：クリティカルする。
 <color=#008B45>連環</color>：ランダムな敵に発動し、スキルを1枚引く。","<color=green>连击4</color> - 必定暴击。
-<color=#008B45>旋回</color> - 对随机敌人释放后抽取1个技能。",
+<color=#008B45>旋回</color> - 对随机敌人释放后抽取 1 个技能。",
 Skill/S_Suwako_1_Name,Text,,,Spring Sign "Suwa Clear Water",源符「諏訪清水」,源符「诹访清水」,
 Skill/S_Suwako_2_Description,Text,,,"Create 2 [Southern Wind Spirits].
 
 <color=#008B45>Cycle</color> - Create 2 [Wind Spirits].","「南風の精霊」を手札に2枚生成する。
 
-<color=#008B45>連環</color>：「風の精霊」を手札に2枚生成する。","生成2个[南风灵]。
+<color=#008B45>連環</color>：「風の精霊」を手札に2枚生成する。","生成2个“南风灵”。
 
-<color=#008B45>旋回</color> - 生成2个[风灵]。",
+<color=#008B45>旋回</color> - 生成2个“风灵”。",
 Skill/S_Suwako_2_Name,Text,,,Spring Sign "Jade of the Horrid River",源符「厭い川の翡翠」,源符「厌川的翡翠」,
 Skill/S_Suwako_3_Description,Text,,,<color=#008B45>Cycle</color> - Exclude this skill and restore 2 mana.,<color=#008B45>連環</color>：このスキルを除外し、マナを2回復する。,<color=#008B45>旋回</color> - 放逐这个技能，恢复2点法力值。,
 Skill/S_Suwako_3_Name,Text,,,Native God "Mishaguji-sama",土着神「御射軍神さま」,土著神「御射军神大人」,
-Skill/S_Suwako_4_Description,Text,,,<color=#008B45>Cycle</color> - Apply 2 stacks of [Raging Storm] to random enemies.,<color=#008B45>連環</color>：ランダムな敵に[風雨の到来]を2ストック与える。,<color=#008B45>旋回</color> - 对随机敌人施加2层[风雨已至]。,
+Skill/S_Suwako_4_Description,Text,,,<color=#008B45>Cycle</color> - Apply 1 stacks of <color=purple>Raging Storm</color> to random enemies.,<color=#008B45>連環</color>：ランダムな敵に[風雨の到来]を1ストック与える。,<color=#008B45>旋回</color> - 对随机敌人施加 1 层<color=purple>“风雨已至”</color>。,
 Skill/S_Suwako_4_Name,Text,,,Native God "Red Frogs of Houei 4",土着神「宝永四年の赤蛙」,土著神「宝永四年的赤蛙」,
-Skill/S_Suwako_5_Description,Text,,,"When played, return the bottom skill in your hand to the deck. After that, draw 1 skill.
+Skill/S_Suwako_5_Description,Text,,,"When played, return the bottom skill 1 skill in hand to the deck.
+Then, draw 1 skill.
 
-<color=green>Combo 4</color> - The effect becomes ""When played, return the bottom skill in your hand to the deck. Then, select 1 skill from the deck to draw."".
-<color=#008B45>Cycle</color> - Display the 3 skills at the bottom of the deck, choose 1 to add to your hand. The chosen skill gains swiftness and critical.","手札から使用時、手札の一番下のスキルを1枚デッキに戻す。その後、スキルを1枚引く。
+<color=green>Combo 4</color> - The draw effect changes to 'Choose 1 skill from the deck to draw'.
+<color=#008B45>Cycle</color> - Reveal the 3 lowest-cost skills in the deck, choose 1 to add to hand. Grant the chosen skill 'Swiftness' and 'Fatal'.","使用時、手札の一番下のスキル1枚をデッキに戻す。
+その後、スキルを1枚引く。
 
-<color=green>コンボ4</color>：効果を「手札から使用時、手札の一番下のスキルを1枚デッキに戻す。その後、デッキからスキルを1つ選んで引く」に変更する。
-<color=#008B45>連環</color>：デッキの一番下から3枚のスキルを提示し、1枚選んで迅速と致命を与えて手札に加える。","打出时，将手中最下方的1个技能放回牌库。那之后，抽取1个技能。
+<color=green>コンボ4</color>：引く効果が「デッキからスキルを1枚選択して引く」に変化する。
+<color=#008B45>連環</color>：デッキの一番下から3枚のスキルを提示し、1枚選んで迅速と致命を与えて手札に加える。","打出时，将手中最下方的 1 个技能放回牌库。
+那之后，抽取 1 个技能。
 
-<color=green>连击4</color> - 效果变为“打出时，将手中最下方的1个技能放回牌库。那之后，从牌库中选择1个技能抽取。”。
-<color=#008B45>旋回</color> - 展示牌堆最下方的3个技能，选择1个加入手中。使选择的技能获得迅速、致命。",
+<color=green>连击4</color> - 抽牌效果变为“从牌库中选择 1 个技能抽取”。
+<color=#008B45>旋回</color> - 展示牌堆中费用最低的 3 个技能，选择 1 个加入手中。使选择的技能附带迅速、致命。",
 Skill/S_Suwako_5_Name,Text,,,Native God "Lord Long-Arm and Lord Long-Leg",開宴「二拝二拍一拝」,土著神「手长足长大人」,
+Skill/S_Suwako_6_0_Description,Text,,,Return the top skill in your hand to the top of the deck and draw 1 skill.,手札の一番上のスキルを1枚デッキに戻し、スキルを1枚引く。,将手中最上方的技能放回牌库，抽取1个技能。,
+Skill/S_Suwako_6_0_Name,Text,,,Native God "Moriya God",土着神「洩矢神」,土著神「洩矢神」,
 Skill/S_Suwako_6_Description,Text,,,"Return the top skill in your hand to the top of the deck and draw 1 skill.
 
 <color=green>Combo 4</color> - Create a 1 cost [Native God ""Moriya God""].","手札の一番上のスキルを1枚デッキに戻し、スキルを1枚引く。
 
-<color=green>コンボ4</color>：コストが1の「土着神-洩矢神」を手札に1枚生成する。","将手中最上方的技能放回牌库，抽取1个技能。
+<color=green>コンボ4</color>：コストが1の「土着神-洩矢神」を手札に1枚生成する。","将手中最上方的技能放回牌库，抽取 1 个技能。
 
-<color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。",
+<color=green>连击4</color> - 生成 1 个费用为 1 的“土著神「洩矢神」”，附带放逐、1回合后弃牌。",
 Skill/S_Suwako_6_Name,Text,,,Native God "Moriya God",土着神「洩矢神」,土著神「洩矢神」,
 Skill/S_Suwako_7_Description,Text,,,"Generate 1 [Wind Spirit] and 1 [Southern Wind Spirit].
 
 <color=#008B45>Cycle</color> - Choose 1 skill in your hand to put back into the deck, and draw 1 skill.","「風の精霊」と「南風の精霊」を手札に1枚生成する。
 
-<color=#008B45>連環</color>：手札からスキルを1つ選び、それをデッキに戻してスキルを1枚引く。","生成1个[风灵]和1个[南风灵]。
+<color=#008B45>連環</color>：手札からスキルを1つ選び、それをデッキに戻してスキルを1枚引く。","生成1个“风灵”和1个“南风灵”。
 
-<color=#008B45>旋回</color> - 选择手中1个技能放回牌库，抽取1个技能。",
+<color=#008B45>旋回</color> - 选择手中 1 个技能放回牌库，抽取 1 个技能。",
 Skill/S_Suwako_7_Name,Text,,,Native God "Seven Stones and Seven Trees",土着神「七つの石と七つの木」,土著神「七石七木」,
 Skill/S_Suwako_8_Description,Text,,,,,,
 Skill/S_Suwako_8_Name,Text,,,Native God "Froggy Braves the Wind and Rain",土着神「ケロちゃん風雨に負けず」,土著神「小小青蛙不输风雨」,
-Skill/S_Suwako_9_Description,Text,,,<color=green>Combo 4</color> - Guaranteed critical hit.,<color=green>コンボ4</color>：クリティカルする。,<color=green>连击4</color> - 必定暴击。,
+Skill/S_Suwako_9_Description,Text,,,"<color=green>Combo 4</color> - Guaranteed critical hit, generate 1 'Southern Wind Spirit'.",<color=green>コンボ4</color>：クリティカル，「南風の精霊」を手札に1枚生成する。,<color=green>连击4</color> - 必定暴击，生成 1 个“南风灵”。,
 Skill/S_Suwako_9_Name,Text,,,Scourge Sign "Mishaguji-sama",祟符「ミシャグジさま」,祟符「御社宫司大人」,
-Skill/S_Suwako_LucyD_Description,Text,,,Return the bottom skill in your hand to the deck and draw 3 skills.,手札の一番下のスキルを1枚デッキに戻し、スキルを3枚引く。,将手中最下面的技能放回牌库，抽取3个技能。,
+Skill/S_Suwako_LucyD_Description,Text,,,Return the bottom skill in your hand to the deck and draw 3 skills.,手札の一番下のスキルを1枚デッキに戻し、スキルを3枚引く。,将手中最下面的技能放回牌库，抽取 3 个技能。,
 Skill/S_Suwako_LucyD_Name,Text,,,"Party Start ""Two Bows, Two Claps, and One Bow""",開宴「二拝二拍一拝」,开宴「二拜二拍一拜」,
-Skill/S_Suwako_P_Description,Text,,,<color=#008B45>Cycle</color> - Exclude this skill.,<color=#008B45>連環</color>：このスキルを除外する。,<color=#008B45>旋回</color> - 放逐这个技能。,
+Skill/S_Suwako_P_Description,Text,,,"<color=#008B45>Cycle</color> - Exclude this skill, restore 1 Mana.",<color=#008B45>連環</color>：このスキルを除外する，MPを1回復する。,<color=#008B45>旋回</color> - 放逐这个技能，恢复 1 点法力值。,
 Skill/S_Suwako_P_Name,Text,,,Southern Wind Spirit,南風の精霊,南风灵,
-Skill/S_Suwako_Rare_1_Description,Text,,,"Returns all other skills to the deck. After that, each skill returned to the deck causes the selected skill to deal an additional (100%) damage.",手札にある他のすべてのスキルをデッキに戻す。その後、戻したスキル1枚ごとに、このスキルのダメージが&a(100%)増加する。,使所有其他技能返回牌库。那之后，每个返回牌库的技能使这个技能造成额外&a(100%)伤害。,
+Skill/S_Suwako_Rare_1_Description,Text,,,"Return all skills in the discard pile to the deck, draw 1 skill.
+
+<color=#008B45>Cycle</color> - Return all skills in the discard pile to the deck.","捨て札置き場の全てのスキルをデッキに戻し、スキルを1枚引く。
+
+<color=#008B45>連環</color> - 捨て札置き場の全てのスキルをデッキに戻す。","将弃牌库中的所有技能放回牌库，抽取 1 个技能。
+
+<color=#008B45>旋回</color> - 将弃牌库中的所有技能放回牌库。",
 Skill/S_Suwako_Rare_1_Name,Text,,,Frog Hunt "The Snake Eats the Croaking Frog",蛙狩「蛙は口ゆえ蛇に呑まるる」,蛙狩「蛙以口鸣，方致蛇祸」,
-Skill/S_Suwako_Rare_2_Description,Text,,,"If no enemy has [Raging Storm] when cast, a random enemy will gain 1 stack of [Raging Storm].",使用したとき、場に[風雨の到来]を持つ者がいない場合、ランダムな敵1体に[風雨の到来]を1ストック与える。,释放时如果场上没有[风雨已至]，使随机敌人获得1层[风雨已至]。,
+Skill/S_Suwako_Rare_2_Description,Text,,,"If no enemy has <color=purple>Raging Storm</color> when cast, a random enemy will gain 1 stack of <color=purple>Raging Storm</color>.",使用したとき、場に[風雨の到来]を持つ者がいない場合、ランダムな敵1体に[風雨の到来]を1ストック与える。,释放时如果场上没有<color=purple>“风雨已至”</color>，使随机敌人获得 1 层<color=purple>“风雨已至”</color>。,
 Skill/S_Suwako_Rare_2_Name,Text,,,Frog Nap "Can Always Hibernate",蛙休「オールウェイズ冬眠できます」,蛙休「总是能够冬眠」,
 Skill/S_Suwako_Rare_3_0_Description,Text,,,This skill is guaranteed to hit and ignores armor.,このスキルは必ず命中し、クリティカルする。,这个技能必定命中，无视防御。,
 Skill/S_Suwako_Rare_3_0_Name,Text,,,Scourge God "Mishaguchi-sama",祟り神「赤口(ミシャグチ)さま」,祟神「赤口大人」,
@@ -179,6 +203,10 @@ Current stacks of <color=#FF0000>Awakening</color>: &a
 当前<color=#FF0000>苏醒</color>层数：&a
 &b",
 Skill/S_Suwako_Rare_3_Name,Text,,,Frog Sign "Bloody Mound of Red Frogs",蛙符「血塗られた赤蛙塚」,蛙符「涂有鲜血的赤蛙塚」,
+SkillExtended/SE_Suwako_C_1_EnforceString,Text,,,,,,
+SkillExtended/SE_Suwako_C_1_Name,Text,,,"<color=#008B45>Cycle</color> - Restore 1 Mana, draw 1 skill.",<color=#008B45>連環</color> - MPを1回復する、スキルを1枚ドローする。,<color=#008B45>旋回</color> - 恢复 1 点法力值，抽取 1 个技能。,
+SkillExtended/SE_Suwako_C_2_EnforceString,Text,,,,,,
+SkillExtended/SE_Suwako_C_2_Name,Text,,,Generates "Southern Wind Spirits" in hand based on the cost paid.,支払ったコストに応じて、手札に相当する数の「南風の精霊」を生成する。,根据支付的费用，在手中生成相应数量的“南风灵”。,
 SkillExtended/SE_Suwako_Rare2_Des,Text,,,,,,
 SkillExtended/SE_Suwako_Rare2_Name,Text,,,Deals &a(40%) extra damage or &b(65%) extra healing.,追加で&a(40%)のダメージを与えるか、体力を追加で&b(65%)回復する。,造成&a(40%)额外伤害或&b(65%)额外治疗。,
 SkillExtended/SkillExtend_Suwako_Name,Text,,,Suwako's base skill,諏訪子の基本スキル,诹访子基类,

@@ -121,6 +121,21 @@ namespace HinanawiTenshi
             return count;
         }
 
+        public int CheckTenkiBuffNum()
+        {
+            int count = 0;
+
+            foreach (String str in tenkiList)
+            {
+                if (this.BChar.BuffFind(str))
+                {
+                    count++;
+                }
+            }
+
+            return count;
+        }
+
         public List<String> tenkiList = new List<string>
         {
             "B_Tenki_1",

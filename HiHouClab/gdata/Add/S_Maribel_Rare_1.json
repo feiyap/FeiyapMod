@@ -1,0 +1,14 @@
+{
+    "S_Maribel_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "User": "MaribelHearn",
+        "Rare": true,
+        "Name": "少女秘封俱乐部",
+        "Image_0": "S_Maribel_Rare_1\\S_Maribel_Rare_1_Image_0.png",
+        "Image_1": "S_Maribel_Rare_1\\S_Maribel_Rare_1_Image_1.png",
+        "Image_2": "S_Maribel_Rare_1\\S_Maribel_Rare_1_Image_2.png"
+    }
+}

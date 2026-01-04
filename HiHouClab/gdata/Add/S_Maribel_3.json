@@ -1,0 +1,16 @@
+{
+    "S_Maribel_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all_ally",
+        "NotCount": true,
+        "Name": "卫星露天咖啡座",
+        "Description": "抽取 1 个技能。\r\n恢复所有友军的体力极限。",
+        "User": "MaribelHearn",
+        "UseAp": 2,
+        "Image_0": "S_Maribel_3\\S_Maribel_3_Image_0.png",
+        "Image_1": "S_Maribel_3\\S_Maribel_3_Image_1.png",
+        "Image_2": "S_Maribel_3\\S_Maribel_3_Image_2.png"
+    }
+}

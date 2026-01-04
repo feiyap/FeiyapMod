@@ -21,7 +21,7 @@ namespace HinanawiTenshi
 	/// 天人之姿 - 受到的伤害降低1点。
 	/// <color=#97FFFF>天启X</color> - 比那名居天子身上拥有的<color=#97FFFF>气质</color>超过X点时，释放技能会消耗X点<color=#97FFFF>气质</color>，触发额外效果。
 	/// </summary>
-    public class P_HinanawiTenshi:Passive_Char, IP_DamageChange, IP_BattleStart_Ones, IP_BuffAdd, IP_DamageTakeChange_sumoperation, IP_BattleEnd, IP_SkillUseHand_Team
+    public class P_HinanawiTenshi:Passive_Char, IP_DamageTakeChange, IP_BattleStart_Ones, IP_BuffAdd, IP_DamageTakeChange_sumoperation, IP_BattleEnd, IP_SkillUseHand_Team
     {
         public bool isPerfect = false;
 
@@ -31,13 +31,30 @@ namespace HinanawiTenshi
             this.OnePassive = true;
         }
 
-        public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
+        //public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
+        //{
+        //    if (this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.ALLDEBUFF, false, false).Count == 0)
+        //    {
+        //        return (int)(Damage * 1.1);
+        //    }
+        //    return Damage;
+        //}
+
+        public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
         {
-            if (this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.ALLDEBUFF, false, false).Count == 0)
+            if (this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.DOT, false, false).Count != 0)
             {
-                return (int)(Damage * 1.1);
+                return Dmg;
             }
-            return Damage;
+            if (this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.CC, false, false).Count != 0)
+            {
+                return Dmg;
+            }
+            if (this.BChar.GetBuffs(BattleChar.GETBUFFTYPE.DEBUFF, false, false).Count != 0)
+            {
+                return Dmg;
+            }
+            return Dmg / 2;
         }
 
         public void BattleStart(BattleSystem Ins)

@@ -8,7 +8,7 @@
         "IgnoreTaunt": false,
         "Except": false,
         "Name": "土著神「宝永四年的赤蛙」",
-        "Description": "<color=#008B45>旋回</color> - 对随机敌人施加2层[风雨已至]。",
+        "Description": "<color=#008B45>旋回</color> - 对随机敌人施加 1 层<color=purple>“风雨已至”</color>。",
         "UseAp": 2,
         "Track": true,
         "PlusKeyWords": [

@@ -4,10 +4,10 @@
         "Category": "null",
         "Particle": "Particle/Ilya/Ilya_5",
         "Target": "enemy",
-        "NotCount": false,
+        "NotCount": true,
         "NoBasicSkill": false,
         "Name": "祟符「御社宫司大人」",
-        "Description": "<color=green>连击4</color> - 必定暴击。",
+        "Description": "<color=green>连击4</color> - 必定暴击，生成 1 个“南风灵”。",
         "UseAp": 1,
         "Disposable": false,
         "PlusKeyWords": [
@@ -32,6 +32,7 @@
         "EnemyPreview": false,
         "UnknownTarget": false,
         "User": "Suwako",
-        "Effect_Target": "SE_T_S_Suwako_9"
+        "Effect_Target": "SE_T_S_Suwako_9",
+        "PlusSkillView": "S_Suwako_P"
     }
 }

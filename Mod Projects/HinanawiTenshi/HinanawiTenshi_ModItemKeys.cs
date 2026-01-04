@@ -187,6 +187,7 @@ namespace HinanawiTenshi
 		/// <summary>
 		/// 天人之体
 		/// 当前拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>：&a
+		/// 当前已触发过的<color=#97FFFF>天启</color>种类：&b
 		/// </summary>
         public static string Buff_B_Tenshi_P = "B_Tenshi_P";
 		/// <summary>
@@ -207,7 +208,7 @@ namespace HinanawiTenshi
 		/// <summary>
 		/// 比那名居天子
 		/// Passive:
-		/// <b>幼小的有顶天</b> - 当自己身上没有减益效果时，造成的伤害提升10%。
+		/// <b>幼小的有顶天</b> - 当自身未持有任何<sprite=0><sprite=1><sprite=2>时，受到伤害降低50%。
 		/// <b>操纵大地程度的能力</b> - 自身被施加增益效果时，比那名居天子会获得1点<color=#97FFFF><color=#97FFFF>气质</color></color>。
 		/// <b>天人之姿</b> - 受到的伤害降低1点。
 		/// <b><color=#97FFFF>天启X</color></b> - 比那名居天子身上拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>超过X点时，释放技能会消耗X点<color=#97FFFF><color=#97FFFF>气质</color></color>，触发额外效果。
@@ -378,8 +379,8 @@ namespace HinanawiTenshi
         public static string Skill_S_Tenshi_0 = "S_Tenshi_0";
 		/// <summary>
 		/// 地符「不让土壤之剑」
-		/// 如果自己身上有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，消耗1个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，使目标获得“受到伤害量+15%”，持续3回合。
-		/// <color=#97FFFF>天启5</color> - 重复释放1次。
+		/// 根据已触发过的“<color=#97FFFF>天启</color>”种类，额外进行追加攻击。每次造成 &a 伤害<color=#FF7A33>(攻击力的35%)</color>。
+		/// <color=#97FFFF>天启5</color> - 使追加攻击的伤害提升至 &b <color=#FF7A33>(攻击力的50%)</color>。
 		/// </summary>
         public static string Skill_S_Tenshi_1 = "S_Tenshi_1";
 		/// <summary>
@@ -393,7 +394,7 @@ namespace HinanawiTenshi
 		/// 天气「绯想天促」
 		/// 同时对目标左右的单位释放，造成一半的伤害。
 		/// 命中时，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
-		/// <color=#97FFFF>天启7</color> - 如果场上的敌人数量大于1，改为指向“所有敌人”。
+		/// <color=#97FFFF>天启7</color> - 追加对其他所有敌人释放。
 		/// </summary>
         public static string Skill_S_Tenshi_3 = "S_Tenshi_3";
 		/// <summary>
@@ -405,14 +406,14 @@ namespace HinanawiTenshi
 		/// <summary>
 		/// 要石「天空之灵石」
 		/// 施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
-		/// 如果自己身上有<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，消耗1个<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>，额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
+		/// 若自身未持有任何<sprite=0><sprite=1><sprite=2>，额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 		/// <color=#97FFFF>天启1</color> - 额外施加1个随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。
 		/// </summary>
         public static string Skill_S_Tenshi_5 = "S_Tenshi_5";
 		/// <summary>
 		/// 地符「一击震乾坤」
-		/// 依据自身持有的增益数量，每个提升10%暴击率。
-		/// <color=#97FFFF>天启6</color> - 额外造成&a点伤害<color=#FF7A33>(攻击力的70%)</color>。
+		/// 依据自身持有的<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>数量，每个增益使这个技能额外造成 &a 伤害<color=#FF7A33>(攻击力的10%)</color>。
+		/// <color=#97FFFF>天启6</color> - 施加(150%<sprite=2>)眩晕。
 		/// </summary>
         public static string Skill_S_Tenshi_6 = "S_Tenshi_6";
 		/// <summary>
@@ -438,7 +439,8 @@ namespace HinanawiTenshi
         public static string Skill_S_Tenshi_Rare_1 = "S_Tenshi_Rare_1";
 		/// <summary>
 		/// 地震「先忧后乐之剑」
-		/// <color=#97FFFF>天启9</color> - 改为指向所有敌人。
+		/// 在自己的所有技能中选择 2 个生成。
+		/// <color=#97FFFF>天启9</color> - 使自身所有增益的持续时间延长 9 回合。
 		/// </summary>
         public static string Skill_S_Tenshi_Rare_2 = "S_Tenshi_Rare_2";
 		/// <summary>
@@ -458,6 +460,10 @@ namespace HinanawiTenshi
 		/// </summary>
         public static string Skill_S_Tenshi_Rare_4 = "S_Tenshi_Rare_4";
         public static string UnlockWindow_Unlock_HinanawiTenshi = "Unlock_HinanawiTenshi";
+        public static string Skill_S_Tenshi_1_0 = "S_Tenshi_1_0";
+        public static string SkillEffect_SE_T_S_Tenshi_1_0 = "SE_T_S_Tenshi_1_0";
+        public static string Skill_S_Tenshi_1_1 = "S_Tenshi_1_1";
+        public static string SkillEffect_SE_T_S_Tenshi_1_1 = "SE_T_S_Tenshi_1_1";
 
     }
 
@@ -465,11 +471,11 @@ namespace HinanawiTenshi
     {
 		/// <summary>
 		/// Korean:
-		/// 哦呀，居然还有人能顺利到达这里。
+		/// 오, 여기까지 무사히 도착한 사람이 있네.
 		/// English:
-		/// 哦呀，居然还有人能顺利到达这里。
+		/// Oh, I didn't expect anyone to reach this place so easily.
 		/// Japanese:
-		/// おや、ここまで来る人がいるなんて。 
+		/// おや、ここまで来る人がいるなんて。
 		/// Chinese:
 		/// 哦呀，居然还有人能顺利到达这里。
 		/// Chinese-TW:
@@ -477,11 +483,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText1 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text1");
 		/// <summary>
 		/// Korean:
-		/// 正好！吾在这里停留得也有些闷了。
+		/// 잘 됐어! 여기 머무르느라 좀 지루했거든.
 		/// English:
-		/// 正好！吾在这里停留得也有些闷了。
+		/// Perfect! I’ve been stuck here for a while, and it was starting to get boring.
 		/// Japanese:
-		/// ちょうどいいわ！ここに居るのは少し飽きてきたのよ。 
+		/// ちょうどいいわ！ここに居るのは少し飽きてきたのよ。
 		/// Chinese:
 		/// 正好！吾在这里停留得也有些闷了。
 		/// Chinese-TW:
@@ -489,11 +495,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText2 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text2");
 		/// <summary>
 		/// Korean:
-		/// 就用你们来解解闷吧！
+		/// 너희들로 심심함을 달래볼까!
 		/// English:
-		/// 就用你们来解解闷吧！
+		/// I'll have you all entertain me!
 		/// Japanese:
-		/// 退屈しのぎにあなた達にも付き合ってもらうわ！ 
+		/// 退屈しのぎにあなた達にも付き合ってもらうわ！
 		/// Chinese:
 		/// 就用你们来解解闷吧！
 		/// Chinese-TW:
@@ -501,9 +507,9 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText3 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text3");
 		/// <summary>
 		/// Korean:
-		/// 雕虫小技！就凭这种歪门邪道也想战胜吾？
+		/// 하찮은 잔재주로! 이런 잔꾀로 나를 이길 수 있다고 생각해?
 		/// English:
-		/// 雕虫小技！就凭这种歪门邪道也想战胜吾？
+		/// A petty trick! Do you think you can beat me with such crooked tactics?
 		/// Japanese:
 		/// この程度で！ こんな小細工で私に勝てると思っているのですか？
 		/// Chinese:
@@ -513,11 +519,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText4 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text4");
 		/// <summary>
 		/// Korean:
-		/// 脚踏实地一决胜负吧！
+		/// 정정당당하게 승부하자!
 		/// English:
-		/// 脚踏实地一决胜负吧！
+		/// Let’s settle this with a fair fight!
 		/// Japanese:
-		/// 地に足をつけて戦おうじゃないか！ 
+		/// 地に足をつけて戦おうじゃないか！
 		/// Chinese:
 		/// 脚踏实地一决胜负吧！
 		/// Chinese-TW:
@@ -525,9 +531,9 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText5 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text5");
 		/// <summary>
 		/// Korean:
-		/// 秒杀抵抗！
+		/// 즉사 저항!
 		/// English:
-		/// 秒杀抵抗！
+		/// Instakill Resist!
 		/// Japanese:
 		/// 即死レジスト！
 		/// Chinese:
@@ -537,11 +543,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_TenshiText6 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi/Text6");
 		/// <summary>
 		/// Korean:
-		/// 灵梦！总算等到你了哇。你来的也太慢了！
+		/// 레이무! 드디어 기다렸어. 너무 늦게 왔잖아!
 		/// English:
-		/// 灵梦！总算等到你了哇。你来的也太慢了！
+		/// Reimu! Took you long enough to get here!
 		/// Japanese:
-		/// 霊夢！待ってたわ。遅すぎる！ 
+		/// 霊夢！待ってたわ。遅すぎる！
 		/// Chinese:
 		/// 灵梦！总算等到你了哇。你来的也太慢了！
 		/// Chinese-TW:
@@ -549,11 +555,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText1 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text1");
 		/// <summary>
 		/// Korean:
-		/// ——啊哈哈！什么呀，灵梦！你明明知道答案的不对吗？！
+		/// ——아하하! 뭐야, 레이무! 정답이 아니라는 거 알잖아?!
 		/// English:
-		/// ——啊哈哈！什么呀，灵梦！你明明知道答案的不对吗？！
+		/// Ahaha! What’s this, Reimu? Don’t you know this answer is wrong?!
 		/// Japanese:
-		/// あははは！何だこれ、霊夢！答えが間違っていることはわかってるよね？ 
+		/// あははは！何だこれ、霊夢！答えが間違っていることはわかってるよね？
 		/// Chinese:
 		/// ——啊哈哈！什么呀，灵梦！你明明知道答案的不对吗？！
 		/// Chinese-TW:
@@ -561,11 +567,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText10 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text10");
 		/// <summary>
 		/// Korean:
-		/// 想要从吾这里得到这个，就先战胜吾吧！
+		/// 이걸 원한다면 먼저 나를 쓰러뜨려 봐!
 		/// English:
-		/// 想要从吾这里得到这个，就先战胜吾吧！
+		/// If you want this, you'll need to beat me first!
 		/// Japanese:
-		/// これを望むのならば、まず私を倒してみなさい！ 
+		/// これを望むのならば、まず私を倒してみなさい！
 		/// Chinese:
 		/// 想要从吾这里得到这个，就先战胜吾吧！
 		/// Chinese-TW:
@@ -573,11 +579,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText11 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text11");
 		/// <summary>
 		/// Korean:
-		/// …………唉，我就知道会是这样啊……
+		/// ...하, 이럴 줄 알았어...
 		/// English:
-		/// …………唉，我就知道会是这样啊……
+		/// Sigh... I had a feeling it would end up like this...
 		/// Japanese:
-		/// …………ああ、こうなるとは思っていた…… 
+		/// …………ああ、こうなるとは思っていた……
 		/// Chinese:
 		/// …………唉，我就知道会是这样啊……
 		/// Chinese-TW:
@@ -585,11 +591,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText12 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text12");
 		/// <summary>
 		/// Korean:
-		/// 露西，我们要应战了！
+		/// 루시, 우리 싸울 준비 하자!
 		/// English:
-		/// 露西，我们要应战了！
+		/// Lucy, it's time to fight!
 		/// Japanese:
-		/// ルシー、戦う準備はできています！ 
+		/// ルシー、戦う準備はできています！
 		/// Chinese:
 		/// 露西，我们要应战了！
 		/// Chinese-TW:
@@ -597,9 +603,9 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText13 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text13");
 		/// <summary>
 		/// Korean:
-		/// 什么……？天子？为什么你会在这里……
+		/// ......? 텐시? 왜 여기 있는 거야...
 		/// English:
-		/// 什么……？天子？为什么你会在这里……
+		/// What...? Tenshi? Why are you here...
 		/// Japanese:
 		/// あれ……？天子？どうしてここにいるの……
 		/// Chinese:
@@ -609,11 +615,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText2 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text2");
 		/// <summary>
 		/// Korean:
-		/// 吾在这里看到了很像博丽神社的地方，想着幻想乡的同伴会不会也来这里，于是一直在这里等着呢。
+		/// 여기서 하쿠레이 신사랑 비슷한 곳을 봐서, 환상향 친구들도 올까 봐 계속 기다리고 있었어.
 		/// English:
-		/// 吾在这里看到了很像博丽神社的地方，想着幻想乡的同伴会不会也来这里，于是一直在这里等着呢。
+		/// I found a spot that looks just like the Hakurei Shrine, and I thought maybe my companions from Gensokyo would come, so I’ve been waiting here.
 		/// Japanese:
-		/// 博麗神社によく似た場所があったので、幻想郷の仲間もここに来ると思い、待っていました。 
+		/// 博麗神社によく似た場所があったので、幻想郷の仲間もここに来ると思い、待っていました。
 		/// Chinese:
 		/// 吾在这里看到了很像博丽神社的地方，想着幻想乡的同伴会不会也来这里，于是一直在这里等着呢。
 		/// Chinese-TW:
@@ -621,9 +627,9 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText3 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text3");
 		/// <summary>
 		/// Korean:
-		/// 跟在你后边的这个小女孩是……？
+		/// 네 뒤에 따라오는 이 소녀는……?
 		/// English:
-		/// 跟在你后边的这个小女孩是……？
+		/// Who is this little girl behind you?
 		/// Japanese:
 		/// あなたについてくる少女は誰......？
 		/// Chinese:
@@ -633,9 +639,9 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText4 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text4");
 		/// <summary>
 		/// Korean:
-		/// 她是我的朋友，露西。我们正在寻找时光之影，你有什么头绪吗？
+		/// 내 친구 루시야. 우리는 시간의 그림자를 찾고 있는데, 단서가 있어?
 		/// English:
-		/// 她是我的朋友，露西。我们正在寻找时光之影，你有什么头绪吗？
+		/// This is my friend, Lucy. We're looking for the Time Shade. Do you have any leads?
 		/// Japanese:
 		/// 彼女は友達のルシー。タイムシェイドを探しているのだけど、手がかりはない？
 		/// Chinese:
@@ -645,11 +651,11 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText5 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text5");
 		/// <summary>
 		/// Korean:
-		/// 时光之影……不会是这个东西吧？吾在神社里捡到的怪东西呢。
+		/// 시간의 그림자…… 혹시 이거야? 내가 신사에서 주운 이상한 물건인데.
 		/// English:
-		/// 时光之影……不会是这个东西吧？吾在神社里捡到的怪东西呢。
+		/// Shadows of Time... Could it be this thing? The strange object I found in the shrine.
 		/// Japanese:
-		/// タイムシェイド……もしかしてこれだろうか？神社で見つけた不思議なものです。 
+		/// タイムシェイド……もしかしてこれだろうか？神社で見つけた不思議なものです。
 		/// Chinese:
 		/// 时光之影……不会是这个东西吧？吾在神社里捡到的怪东西呢。
 		/// Chinese-TW:
@@ -657,7 +663,7 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText6 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text6");
 		/// <summary>
 		/// Korean:
-		/// ………………
+		/// ... ... ...
 		/// English:
 		/// ………………
 		/// Japanese:
@@ -669,9 +675,9 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText7 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text7");
 		/// <summary>
 		/// Korean:
-		/// ……虽然很多余，但还是容我询问一下。天子，你能把那个东西给我吗？
+		/// ... ...쓸데없는 질문이지만, 텐시, 그거 줄 수 있어?
 		/// English:
-		/// ……虽然很多余，但还是容我询问一下。天子，你能把那个东西给我吗？
+		/// ...The Time Shade... Could it be this? I found it at the shrine.
 		/// Japanese:
 		/// ……余計なお世話だと思うけど一応聞くわ。 天子、それを渡して？
 		/// Chinese:
@@ -681,7 +687,7 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText8 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text8");
 		/// <summary>
 		/// Korean:
-		/// ……
+		/// ... ....
 		/// English:
 		/// ……
 		/// Japanese:
@@ -693,9 +699,9 @@ namespace HinanawiTenshi
         public static string BattleDiaBoss_Tenshi_ReimuText9 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Tenshi_Reimu/Text9");
 		/// <summary>
 		/// Korean:
-		/// 自一至十，吾已完美！
+		/// 하나에서 열까지, 나는 완벽하다!
 		/// English:
-		/// 自一至十，吾已完美！
+		/// From one to ten, I am perfect!
 		/// Japanese:
 		/// 一にして全、私は完璧！
 		/// Chinese:
@@ -705,9 +711,9 @@ namespace HinanawiTenshi
         public static string BattleDiaS_Tenshi_Rare_4Text1 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/S_Tenshi_Rare_4/Text1");
 		/// <summary>
 		/// Korean:
-		/// 吾即剑，吾即天，吾即是十全十美之天人！
+		/// 나는 곧 검, 나는 곧 하늘, 나는 완전무결한 천인이다!
 		/// English:
-		/// 吾即剑，吾即天，吾即是十全十美之天人！
+		/// I am the sword, I am the sky, I am the perfect celestial being!
 		/// Japanese:
 		/// 我は剣、我は天、我は十全十美の天人なり！
 		/// Chinese:
@@ -717,9 +723,9 @@ namespace HinanawiTenshi
         public static string BattleDiaS_Tenshi_Rare_4Text2 => ModManager.getModInfo("HinanawiTenshi").localizationInfo.SystemLocalizationUpdate("BattleDia/S_Tenshi_Rare_4/Text2");
 		/// <summary>
 		/// Korean:
-		/// 迎接天光闪耀的力量吧！
+		/// 하늘의 빛나는 힘을 받아라!
 		/// English:
-		/// 迎接天光闪耀的力量吧！
+		/// Embrace the shining power of the heavens!
 		/// Japanese:
 		/// 輝く天の力を受けなさい！
 		/// Chinese:

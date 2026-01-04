@@ -1,0 +1,22 @@
+{
+    "S_Maribel_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "all_ally",
+        "NotCount": true,
+        "Name": "阿加尔塔之风",
+        "Description": "这个技能不会因为回合结束而被释放。\r\n倒计时期间，目标受到的量子伤害降低为0。",
+        "User": "MaribelHearn",
+        "UseAp": 2,
+        "Counting": 6,
+        "Effect_Target": "SE_T_S_Maribel_5",
+        "Image_0": "S_Maribel_5\\S_Maribel_5_Image_0.png",
+        "Image_1": "S_Maribel_5\\S_Maribel_5_Image_1.png",
+        "Image_2": "S_Maribel_5\\S_Maribel_5_Image_2.png",
+        "Rare": false,
+        "Disposable": false,
+        "IgnoreTaunt": false,
+        "Track": false
+    }
+}

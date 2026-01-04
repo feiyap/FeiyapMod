@@ -27,6 +27,8 @@ namespace Suwako
             {
                 BattleSystem.instance.AllyTeam.Skills_Deck.Remove(BattleSystem.instance.AllyTeam.Skills_Deck.Find((Skill a) => a.CharinfoSkilldata == this.MySkill.CharinfoSkilldata));
             }
+
+            BattleSystem.instance.AllyTeam.AP++;
         }
     }
 }

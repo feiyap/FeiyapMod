@@ -1,0 +1,11 @@
+{
+    "B_Renko_6": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "HiHouClab.B_Renko_6",
+        "BuffTag": "null",
+        "Name": "须臾之见",
+        "Description": "自身的下 1 个技能附带迅速。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (18)"
+    }
+}

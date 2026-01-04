@@ -25,7 +25,6 @@ namespace Suwako
         {
             BattleEnemy be = BattleSystem.instance.EnemyList.Random(BChar.GetRandomClass().Main);
             be.BuffAdd("B_Suwako_Dot", this.BChar);
-            be.BuffAdd("B_Suwako_Dot", this.BChar);
         }
     }
 }

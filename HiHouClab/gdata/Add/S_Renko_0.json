@@ -1,0 +1,35 @@
+{
+    "S_Renko_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunman_0",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": true,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "走在夜晚的莲台野",
+        "Description": "可以无视嘲讽指向持有“量子纠缠”的敌人。\r\n目标的剩余体力值百分比越高，这个技能的伤害越高(最多提升100%)。",
+        "UseAp": 2,
+        "User": "UsamiRenko",
+        "Effect_Target": "SE_T_S_Renko_0",
+        "Image_0": "S_Renko_0\\S_Renko_0_Image_0.png",
+        "Image_1": "S_Renko_0\\S_Renko_0_Image_1.png",
+        "Image_2": "S_Renko_0\\S_Renko_0_Image_2.png",
+        "Counting": 2,
+        "SkillExtended": [
+            "HiHouClab.S_Renko_0"
+        ]
+    }
+}

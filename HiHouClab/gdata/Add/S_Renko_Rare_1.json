@@ -1,0 +1,27 @@
+{
+    "S_Renko_Rare_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/SilverStein/SilverStein_0",
+        "Target": "enemy",
+        "Name": "最澄澈的空与海",
+        "UseAp": 3,
+        "Description": "无视防御。\n对体力值不低于90%的敌人造成额外 &a 伤害(攻击力的200%)。\r\n这个技能暴击时，额外造成150%伤害。",
+        "User": "UsamiRenko",
+        "Rare": true,
+        "Effect_Self": "null",
+        "Image_0": "S_Renko_Rare_1\\S_Renko_Rare_1_Image_0.png",
+        "Image_1": "S_Renko_Rare_1\\S_Renko_Rare_1_Image_1.png",
+        "Image_2": "S_Renko_Rare_1\\S_Renko_Rare_1_Image_2.png",
+        "NotCount": false,
+        "Disposable": false,
+        "IgnoreTaunt": true,
+        "Track": false,
+        "Effect_Target": "SE_T_S_Renko_Rare_1",
+        "SkillExtended": [
+            "HiHouClab.S_Renko_Rare_1"
+        ],
+        "NoBasicSkill": false,
+        "Counting": 3
+    }
+}

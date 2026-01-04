@@ -21,7 +21,7 @@
         "StatView_Debuff": 0,
         "StatView_Difficult": 1,
         "CampSelectWord": "吾乃天！幻想之天！",
-        "PassiveDes": "<b>幼小的有顶天</b> - 当自己身上没有减益效果时，造成的伤害提升10%。\n\n<b>操纵大地程度的能力</b> - 自身被施加增益效果时，比那名居天子会获得1点<color=#97FFFF><color=#97FFFF>气质</color></color>。\n\n<b>天人之姿</b> - 受到的伤害降低1点。\n\n<b><color=#97FFFF>天启X</color></b> - 比那名居天子身上拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>超过X点时，释放技能会消耗X点<color=#97FFFF><color=#97FFFF>气质</color></color>，触发额外效果。\n\n<b><color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>权</color><color=#FFD700>能</color></b> - 比那名居天子仍然在修行之中，尚未解放真正的力量……",
+        "PassiveDes": "<b>幼小的有顶天</b> - 当自身未持有任何<sprite=0><sprite=1><sprite=2>时，受到伤害降低50%。\n\n<b>操纵大地程度的能力</b> - 自身被施加增益效果时，比那名居天子会获得1点<color=#97FFFF><color=#97FFFF>气质</color></color>。\n\n<b>天人之姿</b> - 受到的伤害降低1点。\n\n<b><color=#97FFFF>天启X</color></b> - 比那名居天子身上拥有的<color=#97FFFF><color=#97FFFF>气质</color></color>超过X点时，释放技能会消耗X点<color=#97FFFF><color=#97FFFF>气质</color></color>，触发额外效果。\n\n<b><color=#B22222>十</color><color=#00BFFF>之</color><color=#00FF7F>权</color><color=#FFD700>能</color></b> - 比那名居天子仍然在修行之中，尚未解放真正的力量……",
         "ATK": {
             "x": 14,
             "y": 25

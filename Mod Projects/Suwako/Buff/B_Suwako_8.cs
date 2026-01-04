@@ -28,20 +28,11 @@ namespace Suwako
 
         public IEnumerator OnSkillAddToDeck(Dictionary<Skill, SkillLocation> AddToDeck_Skills)
         {
-            foreach (KeyValuePair<Skill, SkillLocation> pair in AddToDeck_Skills)
-            {
-                pair.Key.ExtendedAdd_Battle(Skill_Extended.DataToExtended("SE_Suwako_Rare2"));
-            }
-
-            this.SelfDestroy();
+            Skill tmpSkill = Skill.TempSkill("S_Suwako_P", this.BChar, this.BChar.MyTeam);
+            BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
 
             yield return null;
             yield break;
-        }
-
-        public override string DescExtended()
-        {
-            return base.DescExtended().Replace("&a", ((int)(base.Usestate_L.GetStat.atk * 0.8f)).ToString()).Replace("&b", ((int)(base.Usestate_L.GetStat.reg * 1.3f)).ToString());
         }
     }
 }

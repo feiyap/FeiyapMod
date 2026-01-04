@@ -1,0 +1,12 @@
+{
+    "B_Renko_P": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "HiHouClab.B_Renko_P",
+        "BuffTag": "null",
+        "Name": "重新装填",
+        "Hide": false,
+        "Description": "立即打出迅速技能时，会恢复 1 点法力值，并获得“专注模式”增益。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/Silver_2"
+    }
+}

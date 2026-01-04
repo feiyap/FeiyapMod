@@ -1,0 +1,7 @@
+{
+    "Keyword_QuantumDamage": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "量子伤害",
+        "Desc": "移除等量的体力值。不会触发任何常规伤害相关的判定。"
+    }
+}

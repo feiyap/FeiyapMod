@@ -2,6 +2,6 @@
     "SE_T_S_Tenshi_6": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 170
+        "DMG_Per": 150
     }
 }

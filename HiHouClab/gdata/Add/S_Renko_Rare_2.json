@@ -1,0 +1,34 @@
+{
+    "S_Renko_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunman_0_2",
+        "Rare": true,
+        "Target": "enemy",
+        "Name": "G Free",
+        "Description": "生成 1 个目标的复制体。复制体不会进行等待以外的行为。\r\n对目标和复制体施加“量子纠缠”。",
+        "User": "UsamiRenko",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_Renko_Rare_2",
+        "Image_0": "S_Renko_Rare_2\\S_Renko_Rare_2_Image_0.png",
+        "Image_1": "S_Renko_Rare_2\\S_Renko_Rare_2_Image_1.png",
+        "Image_2": "S_Renko_Rare_2\\S_Renko_Rare_2_Image_2.png",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": true,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "HiHouClab.S_Renko_Rare_2"
+        ]
+    }
+}

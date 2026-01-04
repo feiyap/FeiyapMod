@@ -8,6 +8,8 @@
         "Name": "天气 - 雹",
         "Image_0": "S_Tenki_5\\S_Tenki_5_Image_0.png",
         "Effect_Self": "SE_S_S_Tenki_5",
-        "PlusSkillView": "S_Tenki_6"
+        "PlusSkillView": "S_Tenki_6",
+        "NotCount": false,
+        "IgnoreTaunt": false
     }
 }

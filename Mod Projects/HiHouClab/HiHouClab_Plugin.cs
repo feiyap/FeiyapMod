@@ -34,4 +34,23 @@ namespace HiHouClab
 
         private Harmony harmony;
     }
+
+    //莲子被动：暴击率转化为暴击伤害
+    [HarmonyPatch(typeof(Character))]
+    class Character_Patch
+    {
+        [HarmonyPostfix]
+        [HarmonyPatch("get_get_stat")]
+        public static void get_stat_Postfix(ref Stat __result, Character __instance)
+        {
+            if (__instance.KeyData == "UsamiRenko")
+            {
+                if (__result.cri > 0)
+                {
+                    __result.PlusCriDmg += __result.cri; // 将 cri 值加到 PlusCriDmg
+                }
+                __result.cri = 0; // 将 cri 设为 0
+            }
+        }
+    }
 }

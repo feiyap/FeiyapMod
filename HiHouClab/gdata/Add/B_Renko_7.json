@@ -1,0 +1,10 @@
+{
+    "B_Renko_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HiHouClab.B_Renko_7",
+        "BuffTag": "null",
+        "Name": "黄昏酒馆",
+        "Description": "",
+        "LifeTime": 2
+    }
+}

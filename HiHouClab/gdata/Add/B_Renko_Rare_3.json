@@ -3,13 +3,13 @@
         "_gdeSchema": "Buff",
         "Hide": false,
         "IsFieldBuff": false,
-        "Cantdisable": false,
-        "ClassName": "",
+        "Cantdisable": true,
+        "ClassName": "HiHouClab.B_Renko_Rare_3",
         "BuffTag": "null",
         "UseSkillDebuff": false,
         "Caution": false,
-        "Name": "粒子的偏振",
-        "Description": "",
+        "Name": "心的不等式",
+        "Description": "以&user为目标打出技能时，会同样以自身为目标打出其复制。",
         "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (1)"
     }
 }

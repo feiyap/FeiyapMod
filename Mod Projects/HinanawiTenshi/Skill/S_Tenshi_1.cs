@@ -42,33 +42,92 @@ namespace HinanawiTenshi
 
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            if (CheckTenki(false))
-            {
-                Targets[0].BuffAdd("B_Tenshi_1", this.BChar);
-            }
+            int count = BattleSystem.instance.GetBattleValue<BV_Tenshi_P>().list.Count;
+
             
+
             if (CheckKishi(5, false))
             {
-                BattleSystem.DelayInput(this.PlusAttack(Targets[0]));
+                BattleSystem.DelayInput(this.Effect2(Targets[0], count));
+            }
+            else
+            {
+                BattleSystem.DelayInput(this.Effect(Targets[0], count));
             }
         }
 
-        public IEnumerator PlusAttack(BattleChar hit)
+        public IEnumerator Effect(BattleChar Target, int Count)
         {
-            yield return new WaitForSecondsRealtime(0.3f);
-            Skill skill = Skill.TempSkill("S_Tenshi_1", this.BChar, this.BChar.MyTeam);
-            if (this.BChar != null && !this.BChar.Dummy && !this.BChar.IsDead)
+            yield return new WaitForSeconds(0.15f);
+            int num;
+            for (int i = 0; i < Count; i = num + 1)
             {
-                if (!hit.IsDead)
+                if (BattleSystem.instance.EnemyTeam.AliveChar_GetInstance().Count != 0)
                 {
-                    this.BChar.ParticleOut(this.MySkill, skill, hit);
+                    Skill skill = Skill.TempSkill("S_Tenshi_1_0", this.BChar, this.BChar.MyTeam);
+                    skill.PlusHit = true;
+                    if (Target.IsDead && BattleSystem.instance.EnemyTeam.AliveChars.Count != 0)
+                    {
+                        this.BChar.ParticleOut(this.MySkill, skill, BattleSystem.instance.EnemyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main));
+                    }
+                    else
+                    {
+                        this.BChar.ParticleOut(this.MySkill, skill, Target);
+                    }
                 }
-                else if (BattleSystem.instance.EnemyList.Count > 0)
-                {
-                    this.BChar.ParticleOut(this.MySkill, skill, this.BChar.BattleInfo.EnemyList.Random(this.BChar.GetRandomClass().Main));
-                }
+                yield return new WaitForSeconds(0.1f);
+                num = i;
             }
             yield break;
+        }
+
+        public IEnumerator Effect2(BattleChar Target, int Count)
+        {
+            yield return new WaitForSeconds(0.15f);
+            int num;
+            for (int i = 0; i < Count; i = num + 1)
+            {
+                if (BattleSystem.instance.EnemyTeam.AliveChar_GetInstance().Count != 0)
+                {
+                    Skill skill = Skill.TempSkill("S_Tenshi_1_1", this.BChar, this.BChar.MyTeam);
+                    skill.PlusHit = true;
+                    if (Target.IsDead && BattleSystem.instance.EnemyTeam.AliveChars.Count != 0)
+                    {
+                        this.BChar.ParticleOut(this.MySkill, skill, BattleSystem.instance.EnemyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main));
+                    }
+                    else
+                    {
+                        this.BChar.ParticleOut(this.MySkill, skill, Target);
+                    }
+                }
+                yield return new WaitForSeconds(0.1f);
+                num = i;
+            }
+            yield break;
+        }
+
+        //public IEnumerator PlusAttack(BattleChar hit)
+        //{
+        //    yield return new WaitForSecondsRealtime(0.3f);
+        //    Skill skill = Skill.TempSkill("S_Tenshi_1", this.BChar, this.BChar.MyTeam);
+        //    if (this.BChar != null && !this.BChar.Dummy && !this.BChar.IsDead)
+        //    {
+        //        if (!hit.IsDead)
+        //        {
+        //            this.BChar.ParticleOut(this.MySkill, skill, hit);
+        //        }
+        //        else if (BattleSystem.instance.EnemyList.Count > 0)
+        //        {
+        //            this.BChar.ParticleOut(this.MySkill, skill, this.BChar.BattleInfo.EnemyList.Random(this.BChar.GetRandomClass().Main));
+        //        }
+        //    }
+        //    yield break;
+        //}
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.35f)).ToString())
+                                          .Replace("&b", ((int)(this.BChar.GetStat.atk * 0.5f)).ToString());
         }
     }
 }

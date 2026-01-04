@@ -1,0 +1,25 @@
+{
+    "S_Renko_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "all_onetarget",
+        "Name": "伊奘诺物质",
+        "Description": "在本回合内可重复释放。\r\n根据场上持有“量子纠缠”的敌方单位的数量，提升这个技能的费用；\r\n根据场上持有“量子纠缠”的我方单位的数量，降低这个技能的费用。",
+        "User": "UsamiRenko",
+        "UseAp": 0,
+        "NotCount": true,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Renko_5",
+        "Image_0": "S_Renko_5\\S_Renko_5_Image_0.png",
+        "Image_1": "S_Renko_5\\S_Renko_5_Image_1.png",
+        "Image_2": "S_Renko_5\\S_Renko_5_Image_2.png",
+        "NoBasicSkill": false,
+        "SkillExtended": [
+            "HiHouClab.S_Renko_5"
+        ],
+        "PlusKeyWords": [
+            "Keyword_QuantumDamage"
+        ]
+    }
+}

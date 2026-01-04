@@ -1,0 +1,11 @@
+{
+    "B_Maribel_Barrier": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "结界保护罩",
+        "Description": "",
+        "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_03",
+        "LifeTime": 1
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "S_Renko_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Gunman_1",
+        "Target": "enemy",
+        "Track": false,
+        "Name": "科学世纪的少年少女",
+        "Description": "同时攻击除该目标外 1 个持有“量子纠缠”的敌人；否则生成 1 个“伊奘诺物质”。",
+        "UseAp": 2,
+        "User": "UsamiRenko",
+        "NotCount": false,
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_Renko_1",
+        "Image_0": "S_Renko_1\\S_Renko_1_Image_0.png",
+        "Image_1": "S_Renko_1\\S_Renko_1_Image_1.png",
+        "Image_2": "S_Renko_1\\S_Renko_1_Image_2.png",
+        "PlusSkillView": "S_Renko_5",
+        "Counting": 1,
+        "Rare": false,
+        "SkillExtended": [
+            "HiHouClab.S_Renko_1"
+        ]
+    }
+}

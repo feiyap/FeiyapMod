@@ -16,13 +16,40 @@ namespace HiHouClab
 	/// <summary>
 	/// 宇佐见莲子
 	/// Passive:
-	/// <b>莲台野夜行</b> - 宇佐见莲子尝试使用科学解析一切看到的事物。
-	/// 每次造成伤害会对目标施加1层<b><color=#4169E1>科学解析</color></b>，降低目标的随机属性值。
-	/// 场上的每层<b><color=#4169E1>科学解析</color></b>为宇佐见莲子提供5%暴击率。
-	/// 当宇佐见莲子的暴击率超过100%时，获得<b><color=#4169E1>经典力学的尽头</color></b>：自身暴击伤害始终为100%，溢出的暴击伤害转化为等量的攻击力加成。
+	/// 宇佐见莲子无法通过常规手段暴击。获得的暴击率全部转化为暴击伤害。
+	/// 技能对行动倒计时1的敌人必定暴击。
+	/// 此外，每次使用宇佐见莲子的非迅速技能后，立即打出迅速技能时，会恢复 1 点法力值，并使宇佐见莲子获得“专注模式”增益：下 1 个非迅速的攻击技能造成等量于攻击力的100%的额外伤害。
 	/// </summary>
-    public class P_UsamiRenko:Passive_Char
+    public class P_UsamiRenko:Passive_Char, IP_DamageChange, IP_SkillUseHand_Team
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+        }
 
+        public int DamageChange(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View)
+        {
+            Cri = false;
+
+            if (Target is BattleEnemy)
+            {
+                BattleEnemy battleEnemy = Target as BattleEnemy;
+                if (battleEnemy.SkillQueue.Count != 0 && battleEnemy.SkillQueue[0].CastSpeed == 1)
+                {
+                    Cri = true;
+                }
+            }
+
+            return Damage;
+        }
+
+        public void SKillUseHand_Team(Skill skill)
+        {
+            if (!skill.NotCount)
+            {
+                this.BChar.BuffAdd("B_Renko_P", this.BChar);
+            }
+        }
     }
 }

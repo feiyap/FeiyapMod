@@ -1,0 +1,13 @@
+{
+    "B_Renko_Rare_2": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "HiHouClab.B_Renko_Rare_2",
+        "BuffTag": "null",
+        "Name": "统一理论",
+        "Description": "代替复制体承受所有伤害。",
+        "Debuff": true,
+        "TagPer": 0,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_99/19"
+    }
+}

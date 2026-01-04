@@ -2,23 +2,74 @@
     "UsamiRenko": {
         "_gdeSchema": "Character",
         "Role": "Role_DPS",
-        "PassiveClassName": "",
+        "PassiveClassName": "HiHouClab.P_UsamiRenko",
         "face": "UsamiRenko\\UsamiRenkoBattleFace.png",
         "name": "宇佐见莲子",
         "Gender": 1,
         "MAXHP": {
-            "x": 24,
-            "y": 24
+            "x": 25,
+            "y": 45
         },
         "CollectionSprite_Cover": "UsamiRenko\\UsamiRenkoCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "UsamiRenko\\UsamiRenkoCollectionSprite_SkillFace.png",
-        "PassiveUnlockLV1": false,
+        "PassiveUnlockLV1": true,
         "PassiveName": "大空魔术",
-        "PassiveDes": "<b>莲台野夜行</b> - 宇佐见莲子尝试使用科学解析一切看到的事物。\n每次造成伤害会对目标施加1层<color=#4169E1>科学解析</color>，降低目标的随机属性值。\n场上的每层<color=#4169E1>科学解析</color>为宇佐见莲子提供5%暴击率。\n当宇佐见莲子的暴击率超过100%时，获得<color=#4169E1>经典力学的尽头</color>：自身暴击伤害始终为100%，溢出的暴击伤害转化为等量的攻击力加成。",
+        "PassiveDes": "宇佐见莲子无法通过常规手段暴击。获得的暴击率全部转化为暴击伤害。\r\n\n技能对行动倒计时1的敌人必定暴击。\r\n\n此外，每次使用宇佐见莲子的非迅速技能后，立即打出迅速技能时，会恢复 1 点法力值，并使宇佐见莲子获得“专注模式”增益：下 1 个非迅速的攻击技能造成等量于攻击力的100%的额外伤害。\n\n<color=#919191>- 此被动从1级开始生效。</color>",
         "StatView_Difficult": 3,
         "StatView_Atk": 3,
-        "StatView_Heal": 1,
+        "StatView_Heal": 0,
         "StatView_Sup": 1,
-        "StatView_Debuff": 2
+        "StatView_Debuff": 2,
+        "PassiveIcon": "UsamiRenko\\UsamiRenkoPassiveIcon.png",
+        "StatView_Dot": 1,
+        "ATK": {
+            "x": 15,
+            "y": 27
+        },
+        "CRI": {
+            "x": 1,
+            "y": 10
+        },
+        "REG": {
+            "x": 7,
+            "y": 11
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "DODGE": {
+            "x": 1,
+            "y": 10
+        },
+        "HIT": {
+            "x": 94,
+            "y": 110
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 35
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 35
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 35
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 35
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 35
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 35
+        },
+        "SelectInfo": ""
     }
 }

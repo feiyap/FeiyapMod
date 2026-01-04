@@ -33,12 +33,10 @@ namespace HinanawiTenshi
                 if (CheckKishi(7, true))
                 {
                     base.SkillParticleOn();
-                    this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_all_enemy);
                 }
                 else
                 {
                     base.SkillParticleOff();
-                    this.MySkill.MySkill.Target = new GDEs_targettypeData(GDEItemKeys.s_targettype_enemy);
                 }
             }
         }
@@ -47,17 +45,22 @@ namespace HinanawiTenshi
         {
             base.SkillUseSingle(SkillD, Targets);
 
-            if (BattleSystem.instance.EnemyList.Count > 1 && CheckKishi(7, false))
+            if (CheckKishi(7, false))
             {
-                if (!BattleSystem.instance.GetBattleValue<BV_Tenshi_P>().list.Exists(count => count == 7))
+                foreach (BattleEnemy be in BattleSystem.instance.EnemyList)
                 {
-
+                    if (be != Targets[0])
+                    {
+                        Targets.Add(be);
+                    }
                 }
             }
-            else
+            
+
+            foreach (BattleChar bc in Targets)
             {
-                BattleSystem.DelayInput(this.Damage1(Targets[0].MyLeftCharReturn()));
-                BattleSystem.DelayInput(this.Damage1(Targets[0].MyRightCharReturn()));
+                BattleSystem.DelayInput(this.Damage1(bc.MyLeftCharReturn()));
+                BattleSystem.DelayInput(this.Damage1(bc.MyRightCharReturn()));
             }
         }
 

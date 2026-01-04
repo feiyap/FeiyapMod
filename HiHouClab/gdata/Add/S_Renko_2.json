@@ -1,0 +1,34 @@
+{
+    "S_Renko_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "IgnoreTaunt": false,
+        "Name": "广重36号",
+        "Description": "",
+        "User": "UsamiRenko",
+        "Effect_Target": "SE_T_S_Renko_2",
+        "Image_0": "S_Renko_2\\S_Renko_2_Image_0.png",
+        "Image_1": "S_Renko_2\\S_Renko_2_Image_1.png",
+        "Image_2": "S_Renko_2\\S_Renko_2_Image_2.png",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "SkillExtended": [
+            "HiHouClab.S_Renko_2"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "UseAp": 1
+    }
+}

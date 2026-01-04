@@ -1,0 +1,17 @@
+{
+    "B_Renko_Rare_2_0": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "HiHouClab.B_Renko_Rare_2_0",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "复制体",
+        "Description": "被投影出来的复制体。受到的伤害将由本体代为承担。",
+        "Debuff": true,
+        "TagPer": 0,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_99/6"
+    }
+}

@@ -1,7 +1,5 @@
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\System.Core.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csproj.CoreCompileInputs.cache
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csproj.CopyComplete
 F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\HiHouClab20253820032.dll
 F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\HiHouClab20253820032.pdb
 F:\FeiyapMod\Mod Projects\HiHouClab\bin\Debug\0Harmony.dll
@@ -17,7 +15,13 @@ F:\FeiyapMod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csproj.CoreCompileInputs
 F:\FeiyapMod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csproj.CopyComplete
 F:\FeiyapMod\Mod Projects\HiHouClab\obj\Debug\HiHouClab20253820032.dll
 F:\FeiyapMod\Mod Projects\HiHouClab\obj\Debug\HiHouClab20253820032.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\HiHouClab202539202935.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\HiHouClab202539202935.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab202539202935.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab202539202935.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab.csproj.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\BasicMethods.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\EOS.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\DynamicEmitAPI.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\EOS.xml
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\HiHouClab202613174504.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\HiHouClab202613174504.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab202613174504.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab202613174504.pdb

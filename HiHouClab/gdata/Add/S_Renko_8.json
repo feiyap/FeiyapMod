@@ -1,0 +1,23 @@
+{
+    "S_Renko_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Enemy/Wilderness/Sniper_0",
+        "Target": "enemy",
+        "NotCount": false,
+        "Disposable": false,
+        "Name": "七石之狼、登天吞云",
+        "Description": "倒计时期间，目标受到的伤害降低为0，并记录减免的伤害值。\r\n这个技能造成的伤害增加记录的伤害值。\r\n这个技能从倒计时栏离开时，这个技能立即释放。\r\n当前记录伤害值：&a",
+        "UseAp": 3,
+        "Image_0": "S_Renko_8\\S_Renko_8_Image_0.png",
+        "Image_1": "S_Renko_8\\S_Renko_8_Image_1.png",
+        "Image_2": "S_Renko_8\\S_Renko_8_Image_2.png",
+        "User": "UsamiRenko",
+        "Counting": 4,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_Renko_8",
+        "SkillExtended": [
+            "HiHouClab.S_Renko_8"
+        ]
+    }
+}

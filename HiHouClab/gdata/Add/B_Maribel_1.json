@@ -1,0 +1,16 @@
+{
+    "B_Maribel_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "HiHouClab.B_Maribel_1",
+        "BuffTag": "null",
+        "Name": "无光之境界",
+        "Description": "保护罩破裂时对所有敌人造成 &a 量子伤害(&user治疗力的160%)。",
+        "LifeTime": 2,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "B_Maribel_1\\B_Maribel_1_Icon.png"
+    }
+}

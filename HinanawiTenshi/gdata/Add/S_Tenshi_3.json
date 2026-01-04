@@ -7,7 +7,7 @@
         "NoBasicSkill": false,
         "Track": false,
         "Name": "天气「绯想天促」",
-        "Description": "同时对目标左右的单位释放，造成一半的伤害。\n命中时，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。\n\n<color=#97FFFF>天启7</color> - 如果场上的敌人数量大于1，改为指向“所有敌人”。",
+        "Description": "同时对目标左右的单位释放，造成一半的伤害。\n命中时，自身获得随机<color=#B22222>天</color><color=#00BFFF>气</color><color=#00FF7F>增</color><color=#FFD700>益</color>。\n\n<color=#97FFFF>天启7</color> - 追加对其他所有敌人释放。",
         "User": "HinanawiTenshi",
         "UseAp": 2,
         "NotCount": true,

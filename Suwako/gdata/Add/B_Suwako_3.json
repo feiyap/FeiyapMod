@@ -9,7 +9,7 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "风雨御射",
-        "Description": "每个回合使用第4个技能时，将1个0费的[土著神「御射军神大人」]加入手中。",
+        "Description": "每个回合使用第 4 个技能时，将 1 个费用为 0 的“土著神「御射军神大人」”加入手中。",
         "Tick": "null",
         "Icon": "B_Suwako_3\\B_Suwako_3_Icon.png",
         "MaxStack": 0

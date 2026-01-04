@@ -5,22 +5,23 @@ namespace Suwako
     {
 		/// <summary>
 		/// 风雨御射
-		/// 每个回合使用第4个技能时，将1个0费的[土著神「御射军神大人」]加入手中。
+		/// 每个回合使用第 4 个技能时，将 1 个费用为 0 的“土著神「御射军神大人」”加入手中。
 		/// </summary>
         public static string Buff_B_Suwako_3 = "B_Suwako_3";
 		/// <summary>
 		/// 风雨欲来
-		/// 下次触发<color=#008B45>旋回</color>效果时，使被<color=#008B45>旋回</color>的技能在本场战斗中增加&a(80%)伤害或&b(130%)治疗量。触发后解除。
+		/// 每次触发<color=#008B45>旋回</color>时，生成 1 个“南风灵”。
 		/// </summary>
         public static string Buff_B_Suwako_8 = "B_Suwako_8";
 		/// <summary>
 		/// 风雨已至
-		/// 每次触发<color=#008B45>旋回</color>或使用0费技能时，使该减益的伤害增加1点。
+		/// 每次触发<color=#008B45>旋回</color>时，使该减益的伤害增加 <color=purple>4</color> 点。
+		/// 每次使用费用为 0 的技能时，使该减益的伤害增加 <color=purple>1</color> 点。
 		/// </summary>
         public static string Buff_B_Suwako_Dot = "B_Suwako_Dot";
 		/// <summary>
 		/// 风雨皆息
-		/// 触发<color=#008B45>旋回</color>或释放手中的0费技能时，立即触发1次自己施加的[风雨已至]的伤害，但只造成50%的伤害量。
+		/// 触发<color=#008B45>旋回</color>时，立即触发 1 次<color=purple>“风雨已至”</color>的伤害。
 		/// </summary>
         public static string Buff_B_Suwako_Rare2 = "B_Suwako_Rare2";
 		/// <summary>
@@ -33,6 +34,14 @@ namespace Suwako
 		/// 技能加入牌库时，会触发额外效果。
 		/// </summary>
         public static string SkillKeyword_Keyword_Return = "Keyword_Return";
+		/// <summary>
+		/// <color=#008B45>旋回</color> - 恢复 1 点法力值，抽取 1 个技能。
+		/// </summary>
+        public static string SkillExtended_SE_Suwako_C_1 = "SE_Suwako_C_1";
+		/// <summary>
+		/// 根据支付的费用，在手中生成相应数量的“南风灵”。
+		/// </summary>
+        public static string SkillExtended_SE_Suwako_C_2 = "SE_Suwako_C_2";
 		/// <summary>
 		/// 造成&a(40%)额外伤害或&b(65%)额外治疗。
 		/// </summary>
@@ -51,7 +60,6 @@ namespace Suwako
         public static string SkillEffect_SE_T_S_Suwako_5 = "SE_T_S_Suwako_5";
         public static string SkillEffect_SE_T_S_Suwako_9 = "SE_T_S_Suwako_9";
         public static string SkillEffect_SE_T_S_Suwako_P = "SE_T_S_Suwako_P";
-        public static string SkillEffect_SE_T_S_Suwako_Rare_1 = "SE_T_S_Suwako_Rare_1";
         public static string SkillEffect_SE_T_S_Suwako_Rare_2 = "SE_T_S_Suwako_Rare_2";
         public static string SkillEffect_SE_T_S_Suwako_Rare_3_0 = "SE_T_S_Suwako_Rare_3_0";
 		/// <summary>
@@ -93,19 +101,21 @@ namespace Suwako
 		/// <summary>
 		/// 神具「洩矢的铁轮」
 		/// <color=green>连击2</color> - 释放后返回牌组。
-		/// <color=#008B45>旋回</color> - 本次战斗期间的所有[神具「洩矢的铁轮」]的伤害增加&a(30%)点。
+		/// <color=green>连击4</color> - 本次战斗期间的所有“神具「洩矢的铁轮」”的伤害增加 &a 点<color=#FF7A33>(攻击力的30%)</color>。
+		/// <color=green>连击8</color> - 本次战斗期间的所有“神具「洩矢的铁轮」”的伤害增加 &b 点<color=#FF7A33>(攻击力的60%)</color>。（与连击4叠加）
+		/// <color=#008B45>旋回</color> - 本次战斗期间的所有“神具「洩矢的铁轮」”的伤害增加 &a 点<color=#FF7A33>(攻击力的30%)</color>。（与连击4、连击8叠加）
 		/// </summary>
         public static string Skill_S_Suwako_0 = "S_Suwako_0";
 		/// <summary>
 		/// 源符「诹访清水」
 		/// <color=green>连击4</color> - 必定暴击。
-		/// <color=#008B45>旋回</color> - 对随机敌人释放后抽取1个技能。
+		/// <color=#008B45>旋回</color> - 对随机敌人释放后抽取 1 个技能。
 		/// </summary>
         public static string Skill_S_Suwako_1 = "S_Suwako_1";
 		/// <summary>
 		/// 源符「厌川的翡翠」
-		/// 生成2个[南风灵]。
-		/// <color=#008B45>旋回</color> - 生成2个[风灵]。
+		/// 生成2个“南风灵”。
+		/// <color=#008B45>旋回</color> - 生成2个“风灵”。
 		/// </summary>
         public static string Skill_S_Suwako_2 = "S_Suwako_2";
 		/// <summary>
@@ -115,20 +125,21 @@ namespace Suwako
         public static string Skill_S_Suwako_3 = "S_Suwako_3";
 		/// <summary>
 		/// 土著神「宝永四年的赤蛙」
-		/// <color=#008B45>旋回</color> - 对随机敌人施加2层[风雨已至]。
+		/// <color=#008B45>旋回</color> - 对随机敌人施加 1 层<color=purple>“风雨已至”</color>。
 		/// </summary>
         public static string Skill_S_Suwako_4 = "S_Suwako_4";
 		/// <summary>
 		/// 土著神「手长足长大人」
-		/// 打出时，将手中最下方的1个技能放回牌库。那之后，抽取1个技能。
-		/// <color=green>连击4</color> - 效果变为“打出时，将手中最下方的1个技能放回牌库。那之后，从牌库中选择1个技能抽取。”。
-		/// <color=#008B45>旋回</color> - 展示牌堆最下方的3个技能，选择1个加入手中。使选择的技能获得迅速、致命。
+		/// 打出时，将手中最下方的 1 个技能放回牌库。
+		/// 那之后，抽取 1 个技能。
+		/// <color=green>连击4</color> - 抽牌效果变为“从牌库中选择 1 个技能抽取”。
+		/// <color=#008B45>旋回</color> - 展示牌堆中费用最低的 3 个技能，选择 1 个加入手中。使选择的技能附带迅速、致命。
 		/// </summary>
         public static string Skill_S_Suwako_5 = "S_Suwako_5";
 		/// <summary>
 		/// 土著神「洩矢神」
-		/// 将手中最上方的技能放回牌库，抽取1个技能。
-		/// <color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。
+		/// 将手中最上方的技能放回牌库，抽取 1 个技能。
+		/// <color=green>连击4</color> - 生成 1 个费用为 1 的“土著神「洩矢神」”，附带放逐、1回合后弃牌。
 		/// </summary>
         public static string Skill_S_Suwako_6 = "S_Suwako_6";
 		/// <summary>
@@ -138,8 +149,8 @@ namespace Suwako
         public static string Skill_S_Suwako_6_0 = "S_Suwako_6_0";
 		/// <summary>
 		/// 土著神「七石七木」
-		/// 生成1个[风灵]和1个[南风灵]。
-		/// <color=#008B45>旋回</color> - 选择手中1个技能放回牌库，抽取1个技能。
+		/// 生成1个“风灵”和1个“南风灵”。
+		/// <color=#008B45>旋回</color> - 选择手中 1 个技能放回牌库，抽取 1 个技能。
 		/// </summary>
         public static string Skill_S_Suwako_7 = "S_Suwako_7";
 		/// <summary>
@@ -148,27 +159,28 @@ namespace Suwako
         public static string Skill_S_Suwako_8 = "S_Suwako_8";
 		/// <summary>
 		/// 祟符「御社宫司大人」
-		/// <color=green>连击4</color> - 必定暴击。
+		/// <color=green>连击4</color> - 必定暴击，生成 1 个“南风灵”。
 		/// </summary>
         public static string Skill_S_Suwako_9 = "S_Suwako_9";
 		/// <summary>
 		/// 开宴「二拜二拍一拜」
-		/// 将手中最下面的技能放回牌库，抽取3个技能。
+		/// 将手中最下面的技能放回牌库，抽取 3 个技能。
 		/// </summary>
         public static string Skill_S_Suwako_LucyD = "S_Suwako_LucyD";
 		/// <summary>
 		/// 南风灵
-		/// <color=#008B45>旋回</color> - 放逐这个技能。
+		/// <color=#008B45>旋回</color> - 放逐这个技能，恢复 1 点法力值。
 		/// </summary>
         public static string Skill_S_Suwako_P = "S_Suwako_P";
 		/// <summary>
 		/// 蛙狩「蛙以口鸣，方致蛇祸」
-		/// 使所有其他技能返回牌库。那之后，每个返回牌库的技能使这个技能造成额外&a(100%)伤害。
+		/// 将弃牌库中的所有技能放回牌库，抽取 1 个技能。
+		/// <color=#008B45>旋回</color> - 将弃牌库中的所有技能放回牌库。
 		/// </summary>
         public static string Skill_S_Suwako_Rare_1 = "S_Suwako_Rare_1";
 		/// <summary>
 		/// 蛙休「总是能够冬眠」
-		/// 释放时如果场上没有[风雨已至]，使随机敌人获得1层[风雨已至]。
+		/// 释放时如果场上没有<color=purple>“风雨已至”</color>，使随机敌人获得 1 层<color=purple>“风雨已至”</color>。
 		/// </summary>
         public static string Skill_S_Suwako_Rare_2 = "S_Suwako_Rare_2";
 		/// <summary>

@@ -1,0 +1,10 @@
+{
+    "B_Renko_Rare_3_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "HiHouClab.B_Renko_Rare_3_0",
+        "BuffTag": "null",
+        "Description": "自身攻击命中没有行动倒计时、或是行动倒计时大于9的敌人时，也会产生暴击。",
+        "Name": "伟大之路"
+    }
+}

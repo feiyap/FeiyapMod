@@ -28,7 +28,7 @@ namespace HinanawiTenshi
                 {
                     return 0;
                 }
-                return (int)(this.BChar.GetStat.atk * 0.7);
+                return (int)(this.BChar.GetStat.atk * 0.1);
             }
         }
 
@@ -41,17 +41,15 @@ namespace HinanawiTenshi
             {
                 Fixed_count = 0;
 
-                this.PlusSkillStat.cri = CheckBuffNum() * 10f;
+                this.SkillBasePlus.Target_BaseDMG = this.PlusDmg * CheckTenkiBuffNum();
 
                 if (CheckKishi(6, true))
                 {
                     base.SkillParticleOn();
-                    this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
                 }
                 else
                 {
                     base.SkillParticleOff();
-                    this.SkillBasePlus.Target_BaseDMG = 0;
                 }
             }
         }
@@ -60,17 +58,17 @@ namespace HinanawiTenshi
         {
             base.SkillUseSingle(SkillD, Targets);
 
-            this.PlusSkillStat.cri = CheckBuffNum() * 10f;
+            this.SkillBasePlus.Target_BaseDMG = this.PlusDmg * CheckTenkiBuffNum();
 
             if (CheckKishi(6, false))
             {
-                this.SkillBasePlus.Target_BaseDMG = this.PlusDmg;
+                Targets[0].BuffAdd(GDEItemKeys.Buff_B_Common_Rest, this.BChar, false, 150, false, -1, false);
             }
         }
 
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.7f)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.1f)).ToString());
         }
     }
 }

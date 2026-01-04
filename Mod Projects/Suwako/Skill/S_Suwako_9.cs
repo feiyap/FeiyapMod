@@ -13,11 +13,10 @@ using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 namespace Suwako
 {
-	/// <summary>
-	/// 神樱「湛樱花吹雪」
-	/// 从手牌和弃牌库中各选择1个技能，将它们放回牌堆，再抽取到手中。
-	/// <color=#008B45>旋回</color> - 将弃牌库中最上面的1个技能放回牌堆，再抽取到手中。
-	/// </summary>
+    /// <summary>
+    /// 祟符「御社宫司大人」
+    /// <color=green>连击4</color> - 必定暴击，生成 1 个“南风灵”。
+    /// </summary>
     public class S_Suwako_9: SkillExtend_Suwako
     {
         public override void Init()
@@ -46,6 +45,17 @@ namespace Suwako
                     base.SkillParticleOff();
                     this.PlusSkillStat.cri = 0;
                 }
+            }
+        }
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
+
+            if (CheckUsedSkills(4))
+            {
+                Skill tmpSkill = Skill.TempSkill("S_Suwako_P", this.BChar, this.BChar.MyTeam);
+                BattleSystem.instance.AllyTeam.Add(tmpSkill, true);
             }
         }
     }

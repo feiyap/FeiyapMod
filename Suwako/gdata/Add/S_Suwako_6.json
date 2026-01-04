@@ -6,7 +6,7 @@
         "Target": "Misc",
         "IgnoreTaunt": false,
         "Name": "土著神「洩矢神」",
-        "Description": "将手中最上方的技能放回牌库，抽取1个技能。\n\n<color=green>连击4</color> - 生成1个1费的[土著神「洩矢神」]。",
+        "Description": "将手中最上方的技能放回牌库，抽取 1 个技能。\n\r\n<color=green>连击4</color> - 生成 1 个费用为 1 的“土著神「洩矢神」”，附带放逐、1回合后弃牌。",
         "User": "Suwako",
         "NotCount": true,
         "NoBasicSkill": true,

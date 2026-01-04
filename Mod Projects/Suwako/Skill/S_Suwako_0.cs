@@ -23,7 +23,8 @@ namespace Suwako
     {
         public override string DescExtended(string desc)
         {
-            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.3)).ToString());
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 0.3)).ToString())
+                                          .Replace("&b", ((int)(this.BChar.GetStat.atk * 0.6)).ToString());
         }
 
         public override void Init()
@@ -66,6 +67,15 @@ namespace Suwako
             if (CheckUsedSkills(2))
             {
                 this.MySkill.isExcept = true;
+            }
+            if (CheckUsedSkills(4))
+            {
+                BattleSystem.instance.GetBattleValue<BV_Suwako_0>().UseNum++;
+            }
+            if (CheckUsedSkills(8))
+            {
+                BattleSystem.instance.GetBattleValue<BV_Suwako_0>().UseNum++;
+                BattleSystem.instance.GetBattleValue<BV_Suwako_0>().UseNum++;
             }
         }
 

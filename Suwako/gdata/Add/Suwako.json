@@ -8,16 +8,16 @@
         "face": "Suwako\\SuwakoBattleFace.png",
         "Gender": 1,
         "MAXHP": {
-            "x": 20,
-            "y": 32
+            "x": 22,
+            "y": 34
         },
         "ATK": {
-            "x": 14,
-            "y": 24
+            "x": 15,
+            "y": 25
         },
         "CRI": {
-            "x": 0,
-            "y": 5
+            "x": 10,
+            "y": 15
         },
         "REG": {
             "x": 7,
@@ -64,7 +64,7 @@
         "CollectionSprite_Cover": "Suwako\\SuwakoCollectionSprite_Cover.png",
         "CollectionSprite_SkillFace": "Suwako\\SuwakoCollectionSprite_SkillFace.png",
         "StatView_Atk": 2,
-        "StatView_Sup": 0,
+        "StatView_Sup": 3,
         "StatView_Debuff": 0,
         "StatView_Difficult": 3,
         "SelectInfo": "洩矢诹访子是拥有独特玩法“旋回”的连击型输出。\n\n洩矢诹访子不仅拥有能从“连击”中获益的能力，还拥有“旋回”能力：藉由不断返回牌库，她手中的铁轮能够无限积累伤害，逐渐成长为可怕的怪物；而附着在敌人身上的“某种东西”，也会逐渐积累成一种诅咒。\n\n试着结合风灵系的调查员，在扭曲之地刮起旋回的风吧！",

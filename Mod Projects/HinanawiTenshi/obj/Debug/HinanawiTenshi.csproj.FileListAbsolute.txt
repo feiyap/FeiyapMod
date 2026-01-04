@@ -10,7 +10,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\Debug\Mono.Cecil.Rocks.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\Debug\MonoMod.RuntimeDetour.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\Debug\MonoMod.Utils.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\Debug\HinanawiTenshi2025315135903.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\Debug\HinanawiTenshi2025315135903.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\obj\Debug\HinanawiTenshi2025315135903.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\obj\Debug\HinanawiTenshi2025315135903.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\Debug\HinanawiTenshi20251224224415.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\bin\Debug\HinanawiTenshi20251224224415.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\obj\Debug\HinanawiTenshi20251224224415.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HinanawiTenshi\obj\Debug\HinanawiTenshi20251224224415.pdb

@@ -12,6 +12,7 @@
         "PlusSkillView": "S_Tenki_7",
         "NoBasicSkill": false,
         "Track": false,
-        "Description": ""
+        "Description": "",
+        "NotCount": false
     }
 }

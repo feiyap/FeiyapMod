@@ -1,0 +1,12 @@
+{
+    "B_Renko_P_1": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "HiHouClab.B_Renko_P_1",
+        "BuffTag": "null",
+        "Name": "专注模式",
+        "Description": "下 1 个非迅速的攻击技能造成 &a 额外伤害(攻击力的100%)。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (22)",
+        "Cantdisable": true
+    }
+}

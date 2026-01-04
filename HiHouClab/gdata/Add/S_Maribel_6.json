@@ -1,0 +1,18 @@
+{
+    "S_Maribel_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "NotCount": false,
+        "Name": "禁忌的膜壁",
+        "Description": "这个技能不会因为回合结束而被释放。\r\n倒计时期间，目标受到的伤害转变为量子伤害。",
+        "UseAp": 1,
+        "User": "MaribelHearn",
+        "Counting": 8,
+        "Effect_Target": "SE_T_S_Maribel_6",
+        "Image_0": "S_Maribel_6\\S_Maribel_6_Image_0.png",
+        "Image_1": "S_Maribel_6\\S_Maribel_6_Image_1.png",
+        "Image_2": "S_Maribel_6\\S_Maribel_6_Image_2.png"
+    }
+}

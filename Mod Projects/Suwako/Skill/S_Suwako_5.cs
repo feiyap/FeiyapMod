@@ -98,13 +98,9 @@ namespace Suwako
         public void Del(SkillButton Mybutton)
         {
             Mybutton.Myskill.Master.MyTeam.ForceDraw(Mybutton.Myskill);
-            Skill_Extended se = new Skill_Extended();
-            se.Fatal = true;
-            se.NotCount = true;
-            Mybutton.Myskill.ExtendedAdd(se);
         }
 
-        public void SelfAddToDeck(SkillLocation skillLoaction)
+        public IEnumerator Del2()
         {
             List<Skill> list = new List<Skill>();
             List<Skill> list2 = new List<Skill>();
@@ -118,7 +114,24 @@ namespace Suwako
                 num++;
                 num2++;
             }
-            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
+            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(this.Del3), ScriptLocalization.System_SkillSelect.DrawSkill, false, true, true, false, true));
+
+            yield return null;
+            yield break;
+        }
+
+        public void Del3(SkillButton Mybutton)
+        {
+            Mybutton.Myskill.Master.MyTeam.ForceDraw(Mybutton.Myskill);
+            Skill_Extended se = new Skill_Extended();
+            se.Fatal = true;
+            se.NotCount = true;
+            Mybutton.Myskill.ExtendedAdd(se);
+        }
+
+        public void SelfAddToDeck(SkillLocation skillLoaction)
+        {
+            BattleSystem.DelayInputAfter(this.Del2());
         }
     }
 }

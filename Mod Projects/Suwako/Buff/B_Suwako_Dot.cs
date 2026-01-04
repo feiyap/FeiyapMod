@@ -31,7 +31,7 @@ namespace Suwako
         {
             yield return null;
 
-            count++;
+            count += 4;
             this.PlusDamageTick = count;
 
             if (Usestate_F.BuffFind("B_Suwako_Rare2"))
@@ -52,7 +52,7 @@ namespace Suwako
 
                 if (Usestate_F.BuffFind("B_Suwako_Rare2"))
                 {
-                    BattleSystem.DelayInput(this.Damage());
+                    //BattleSystem.DelayInput(this.Damage());
                 }
             }
         }
@@ -61,7 +61,7 @@ namespace Suwako
         {
             yield return new WaitForSeconds(0.07f);
             AddressableLoadManager.Instantiate(new GDEGameobjectDatasData(GDEItemKeys.GameobjectDatas_StigmaExplosion).Gameobject_Path, AddressableLoadManager.ManageType.Character).transform.position = this.BChar.GetTopPos();
-            this.BChar.Damage(base.Usestate_F, (int)((base.Usestate_F.GetStat.atk * 0.2 + count) * this.StackNum / 2), false, true);
+            this.BChar.Damage(base.Usestate_F, (int)((base.Usestate_F.GetStat.atk * 0.2 + count) * this.StackNum * 1), false, true);
             yield break;
         }
     }

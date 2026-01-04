@@ -1,0 +1,10 @@
+{
+    "E_Renko_0": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Unique",
+        "name": "物理学圣剑",
+        "Description": "对体力值不低于90%的敌人造成的伤害提升75%。",
+        "image": "Item\\E_Renko_0_image.png",
+        "Equip_Script": "HiHouClab.E_Renko_0"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "S_Maribel_8": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "Name": "未知之花、魅知之旅",
+        "UseAp": 3,
+        "User": "MaribelHearn",
+        "Image_0": "S_Maribel_8\\S_Maribel_8_Image_0.png",
+        "Image_1": "S_Maribel_8\\S_Maribel_8_Image_1.png",
+        "Image_2": "S_Maribel_8\\S_Maribel_8_Image_2.png"
+    }
+}

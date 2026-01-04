@@ -25,7 +25,11 @@ namespace HinanawiTenshi
             {
                 BattleSystem.instance.BattleValues.Add(new BV_Tenshi_P());
             }
-            return base.DescExtended().Replace("&a", (BattleSystem.instance.GetBattleValue<BV_Tenshi_P>().Kishi).ToString());
+            var sortedList = BattleSystem.instance.GetBattleValue<BV_Tenshi_P>().list.OrderBy(x => x).ToList();
+            string result = string.Join(", ", sortedList);
+
+            return base.DescExtended().Replace("&a", (BattleSystem.instance.GetBattleValue<BV_Tenshi_P>().Kishi).ToString())
+                                      .Replace("&b", result);
         }
     }
 }
