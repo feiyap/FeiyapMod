@@ -28,6 +28,10 @@ namespace HiHouClab
 
         public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
         {
+            if (Dmg <= 0)
+            {
+                return;
+            }
             foreach (BattleChar bc in BattleSystem.instance.AllyList)
             {
                 if (bc != this.BChar && bc.BuffFind("B_Renko_5"))

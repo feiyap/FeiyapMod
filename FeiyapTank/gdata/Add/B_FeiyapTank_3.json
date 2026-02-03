@@ -1,0 +1,13 @@
+{
+    "B_FeiyapTank_3": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "Debuff",
+        "Name": "神罚",
+        "Debuff": true,
+        "TagPer": 105,
+        "Icon": "Image/Buff/Skill_Icon_Pack/Debuff",
+        "MaxStack": 3,
+        "LifeTime": 4
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "B_Maribel_Rare_2": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HiHouClab.B_Maribel_Rare_2",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_35",
+        "Name": "无敌"
+    }
+}

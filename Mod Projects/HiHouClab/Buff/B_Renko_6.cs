@@ -11,31 +11,39 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
+using BasicMethods;
 namespace HiHouClab
 {
-	/// <summary>
-	/// 须臾之见
-	/// 自身的下 1 个技能附带迅速。
-	/// </summary>
-    public class B_Renko_6:Buff, IP_SkillUse_User_After
+    /// <summary>
+    /// 永恒的须臾
+    /// 根据处于倒计时中的调查员技能的个数，增加自身的攻击力。
+    /// </summary>
+    public class B_Renko_6:Buff
     {
         public override void Init()
         {
             base.Init();
-            this.LucySkillExBuff = (Skill_Extended.DataToExtended("SE_Renko_6") as BuffSkillExHand);
         }
 
-        public override bool CanSkillBuffAdd(Skill AddedSkill, int Index)
+        public override void FixedUpdate()
         {
-            return AddedSkill.Master == this.BChar && AddedSkill.ExtendedFind_DataName("SE_Renko_6") == null;
-        }
-
-        public void SkillUseAfter(Skill SkillD)
-        {
-            if (SkillD.Master == this.BChar)
+            base.FixedUpdate();
+            int count = 0;
+            foreach (CastingSkill cs in BattleSystem.instance.CastSkills)
             {
-                base.SelfDestroy(false);
+                if (cs.skill.Master.Info.Ally)
+                {
+                    count++;
+                }
             }
+            foreach (CastingSkill cs in BattleSystem.instance.SaveSkill)
+            {
+                if (cs.skill.Master.Info.Ally)
+                {
+                    count++;
+                }
+            }
+            this.PlusStat.atk = count;
         }
     }
 }

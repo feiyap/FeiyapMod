@@ -1,0 +1,13 @@
+{
+    "SE_Suwako_C_1": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "<color=#008B45>旋回</color> - 恢复 1 点法力值，抽取 1 个技能。",
+        "Debuff": false,
+        "NeedCharacter": "Suwako",
+        "Drop": true,
+        "EnforceString": "",
+        "ClassName": "Suwako.SE_Suwako_C_1"
+    }
+}

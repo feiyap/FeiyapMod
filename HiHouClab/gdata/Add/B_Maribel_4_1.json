@@ -1,0 +1,10 @@
+{
+    "B_Maribel_4_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HiHouClab.B_Maribel_4_1",
+        "BuffTag": "null",
+        "Name": "暴击率提升",
+        "Description": "",
+        "Hide": true
+    }
+}

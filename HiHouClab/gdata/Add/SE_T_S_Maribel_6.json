@@ -2,6 +2,12 @@
     "SE_T_S_Maribel_6": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "HEAL_Per": 130
+        "HEAL_Per": 130,
+        "Buffs": [
+            "B_Maribel_6"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
     }
 }

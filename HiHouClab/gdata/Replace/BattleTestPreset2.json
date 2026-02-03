@@ -10,31 +10,21 @@
         "PartyBasicSkill": [
             "S_Ilya_1",
             "S_Azar_5",
-            "S_TW_Blue_5",
-            "S_Renko_Rare_1"
+            "S_Maribel_Rare_1",
+            "S_Renko_Rare_2"
         ],
         "PartySkills": [
             [
-                
+                "S_Hein_0"
             ],
             [
                 
             ],
             [
-                "S_Maribel_Rare_3"
+                
             ],
             [
-                "S_Renko_0",
-                "S_Renko_1",
-                "S_Renko_2",
-                "S_Renko_3",
-                "S_Renko_4",
-                "S_Renko_5",
-                "S_Renko_6",
-                "S_Renko_7",
-                "S_Renko_8",
-                "S_Renko_Rare_1",
-                "S_Renko_Rare_2"
+                
             ]
         ],
         "PartyEquip": [
@@ -48,13 +38,13 @@
                 
             ],
             [
-                "E_Renko_0"
+                
             ]
         ],
-        "AP": 10,
         "Level": 6,
         "LucySkill": [
             
-        ]
+        ],
+        "AP": 10
     }
 }

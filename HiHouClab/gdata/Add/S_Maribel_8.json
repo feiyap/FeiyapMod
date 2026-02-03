@@ -2,13 +2,19 @@
     "S_Maribel_8": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/flare_lv1",
-        "Target": "ally",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
         "Name": "未知之花、魅知之旅",
-        "UseAp": 3,
+        "UseAp": 1,
         "User": "MaribelHearn",
         "Image_0": "S_Maribel_8\\S_Maribel_8_Image_0.png",
         "Image_1": "S_Maribel_8\\S_Maribel_8_Image_1.png",
-        "Image_2": "S_Maribel_8\\S_Maribel_8_Image_2.png"
+        "Image_2": "S_Maribel_8\\S_Maribel_8_Image_2.png",
+        "NotCount": true,
+        "Description": "展示倒计时栏中所有调查员的非稀有技能。\r\n选择其中 1 个，使其从倒计时栏中移除，并生成 2 个完美复制，放回牌库随机位置。被放回牌库的技能的费用变为0。\r\n那之后，抽取 2 个技能。",
+        "NoBasicSkill": true,
+        "SkillExtended": [
+            "HiHouClab.S_Maribel_8"
+        ]
     }
 }

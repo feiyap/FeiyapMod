@@ -1,0 +1,16 @@
+{
+    "S_Maribel_7_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Description": "选择 1 个倒计时中的技能，使其倒计时-2。",
+        "Name": "倒计时-2",
+        "Image_0": "S_Maribel_7_3\\S_Maribel_7_3_Image_0.png",
+        "Image_1": "S_Maribel_7_3\\S_Maribel_7_3_Image_1.png",
+        "Image_2": "S_Maribel_7_3\\S_Maribel_7_3_Image_2.png",
+        "SkillExtended": [
+            "HiHouClab.S_Maribel_7_3"
+        ]
+    }
+}

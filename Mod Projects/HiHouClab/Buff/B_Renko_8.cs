@@ -1,3 +1,4 @@
+using BasicMethods;
 using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
@@ -43,6 +44,26 @@ namespace HiHouClab
             }
 
             return Dmg;
+        }
+
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            foreach (CastingSkill cs in BattleSystem.instance.CastSkills)
+            {
+                if (cs.skill.MySkill.KeyID == "S_Renko_8" && cs.TargetReturn().Contains(this.BChar))
+                {
+                    return;
+                }
+            }
+            foreach (CastingSkill cs in BattleSystem.instance.SaveSkill)
+            {
+                if (cs.skill.MySkill.KeyID == "S_Renko_8" && cs.TargetReturn().Contains(this.BChar))
+                {
+                    return;
+                }
+            }
+            SelfDestroy();
         }
     }
 

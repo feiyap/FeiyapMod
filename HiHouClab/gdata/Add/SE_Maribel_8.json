@@ -1,0 +1,9 @@
+{
+    "SE_Maribel_8": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "费用为0，附带放逐",
+        "ClassName": "HiHouClab.SE_Maribel_8"
+    }
+}

@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "Suwako\\SuwakoFaceOriginChar.png",
-        "offsetMax": {
-            "x": 396.9354,
-            "y": 355.3708
+        "pivot": {
+            "x": 0.497292757,
+            "y": 0.6353861
         },
         "offsetMin": {
-            "x": -356.410675,
-            "y": -1108.72925
+            "x": -1026.54565,
+            "y": -1315.19263
         },
-        "pivot": {
-            "x": 0.47124517,
-            "y": 0.7536064
+        "offsetMax": {
+            "x": 1034.90723,
+            "y": 746.260254
         }
     },
     "MyChangeType": "FaceOriginChar",

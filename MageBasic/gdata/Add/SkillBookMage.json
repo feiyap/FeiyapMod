@@ -1,0 +1,15 @@
+{
+    "SkillBookMage": {
+        "_gdeSchema": "Item_Consume",
+        "itemClass": "Rare",
+        "active_battle": false,
+        "active_field": true,
+        "name": "技能书 - 魔女定式",
+        "Description": "只能对魔女型角色使用。\n从所选友军的 5 个专属技能中选择 1 个学习。\n再重复 1 次。",
+        "Stack": 10,
+        "Price": 500,
+        "image": "Item\\SkillBookMage_image.png",
+        "FieldUse": "MageBasic.SkillBookMage",
+        "Target": "ally"
+    }
+}

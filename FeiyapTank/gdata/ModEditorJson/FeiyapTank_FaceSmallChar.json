@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapTank",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "FeiyapTank\\FeiyapTankFaceSmallChar.png",
+        "offsetMax": {
+            "x": 328.2944,
+            "y": 98.04197
+        },
+        "offsetMin": {
+            "x": -287.49527,
+            "y": -825.6425
+        },
+        "pivot": {
+            "x": 0.4635726,
+            "y": 0.8878062
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

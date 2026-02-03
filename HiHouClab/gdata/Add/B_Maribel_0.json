@@ -1,0 +1,14 @@
+{
+    "B_Maribel_0": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": false,
+        "ClassName": "HiHouClab.B_Maribel_0",
+        "BuffTag": "Debuff",
+        "Name": "结界的一滴",
+        "Description": "可无视嘲讽指定为目标。\n受到的量子伤害提升30%。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (12)",
+        "LifeTime": 0,
+        "Debuff": true,
+        "TagPer": 500
+    }
+}

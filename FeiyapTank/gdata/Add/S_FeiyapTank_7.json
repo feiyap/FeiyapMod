@@ -1,0 +1,16 @@
+{
+    "S_FeiyapTank_7": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "skill",
+        "NotCount": true,
+        "Name": "踏影步",
+        "Description": "丢弃目标技能。",
+        "User": "FeiyapTank",
+        "NoBasicSkill": true,
+        "Image_0": "S_FeiyapTank_7\\S_FeiyapTank_7_Image_0.png",
+        "Image_1": "S_FeiyapTank_7\\S_FeiyapTank_7_Image_1.png",
+        "Image_2": "S_FeiyapTank_7\\S_FeiyapTank_7_Image_2.png"
+    }
+}

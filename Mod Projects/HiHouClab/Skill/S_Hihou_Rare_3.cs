@@ -29,10 +29,6 @@ namespace HiHouClab
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-
-            Planck.PlanckAP += 3;
-            Debug.Log("SKILL");
-            Debug.Log(this.MySkill.MySkill.Effect_Self.AP);
         }
     }
 }

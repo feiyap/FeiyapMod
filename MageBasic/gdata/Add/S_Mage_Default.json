@@ -1,0 +1,35 @@
+{
+    "S_Mage_Default": {
+        "_gdeSchema": "Skill",
+        "Category": "DefultSkill",
+        "Particle": "Particle/Charon/ShadowPriest_0",
+        "Rare": false,
+        "Target": "all_onetarget",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "基础法术",
+        "User": "",
+        "LucyPartyDraw": "",
+        "UseAp": 1,
+        "Description": "无法弱化或强化。\n指向敌人时，造成 &a 伤害<color=#FF7A33>(攻击力的90%)</color>；\r\n指向友军时，治疗 &b 体力<color=#48D1CC>(治疗力的80%)</color>并给予 &b 保护罩<color=#48D1CC>(治疗力的80%)</color>。",
+        "Effect_Target": "SE_T_S_Mage_Default",
+        "Image_0": "S_Mage_Default\\S_Mage_Default_Image_0.png",
+        "Image_1": "S_Mage_Default\\S_Mage_Default_Image_1.png",
+        "Image_2": "S_Mage_Default\\S_Mage_Default_Image_2.png",
+        "SkillExtended": [
+            "MageBasic.S_Mage_Default"
+        ]
+    }
+}

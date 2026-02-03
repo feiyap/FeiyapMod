@@ -1,0 +1,16 @@
+{
+    "S_FeiyapTank_4": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "Name": "哭血",
+        "Description": "居合 - 对所有敌人施加<sprite=1><color=purple>哭血</color>。",
+        "User": "FeiyapTank",
+        "UseAp": 1,
+        "Effect_Target": "SE_T_S_FeiyapTank_4",
+        "Image_0": "S_FeiyapTank_4\\S_FeiyapTank_4_Image_0.png",
+        "Image_1": "S_FeiyapTank_4\\S_FeiyapTank_4_Image_1.png",
+        "Image_2": "S_FeiyapTank_4\\S_FeiyapTank_4_Image_2.png"
+    }
+}

@@ -1,0 +1,25 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Mage_Barrier_Description,Text,,,,,,
+Buff/B_Mage_Barrier_Name,Text,,,Mage Barrier,,魔女保护罩,魔女保護罩
+Item_Consume/SkillBookMage_Description,Text,,,"Can be used on mage characters.
+View 5 random class skills and learn one.
+Repeat once.",,"只能对魔女型角色使用。
+从所选友军的 5 个专属技能中选择 1 个学习。
+再重复 1 次。","只能對魔女型角色使用。
+從所選友軍的 5 個專屬技能中選擇 1 個學習。
+再重複 1 次。"
+Item_Consume/SkillBookMage_name,Text,,,Skill Book - Mage Patterns,,技能书 - 魔女定式,技能書 - 魔女定式
+Item_Potions/Potion_Mage_Description,Text,,,"Can be used on Mage Role Characters.
+View all class skills of a selected ally and choose 1 to create in hand.",,"只能对魔女型角色使用。
+出示所选友军的所有专属技能，选择其中的1个技能生成。","只能對魔女型角色使用。
+出示所選友軍的所有專屬技能，選擇其中的1個技能生成。"
+Item_Potions/Potion_Mage_name,Text,,,Mage's Potion,,魔女的药水,魔女的藥水
+Skill/S_Mage_Default_Description,Text,,,"Cannot be upgraded or downgraded.
+Deal &a damage if cast on an enemy<color=#FF7A33>(90% of Attack Power)</color>.
+Heal &b and give &b barrier if cast on an ally<color=#48D1CC>(80% of Healing Power)</color>.",,"无法弱化或强化。
+指向敌人时，造成 &a 伤害<color=#FF7A33>(攻击力的90%)</color>；
+指向友军时，治疗 &b 体力<color=#48D1CC>(治疗力的80%)</color>并给予 &b 保护罩<color=#48D1CC>(治疗力的80%)</color>。","無法弱化或強化。
+指向敵人時，造成 &a 傷害<color=#FF7A33>(攻擊力的90%)</color>；
+指向友軍時，治療 &b 體力<color=#48D1CC>(治療力的80%)</color>並給予 &b 保護罩<color=#48D1CC>(治療力的80%)</color>。"
+Skill/S_Mage_Default_Name,Text,,,Basic Spell,,基础法术,基礎法術
+Skill/S_Mage_Potion_Name,Text,,,Mage's Potion,,魔女的药水,魔女的藥水

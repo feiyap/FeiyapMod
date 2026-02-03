@@ -6,13 +6,30 @@
         "Target": "ally",
         "NotCount": false,
         "Name": "禁忌的膜壁",
-        "Description": "这个技能不会因为回合结束而被释放。\r\n倒计时期间，目标受到的伤害转变为量子伤害。",
+        "Description": "这个技能不会因为回合结束而被释放。\r\n倒计时期间，当目标受到伤害时，消耗这个技能的剩余治疗量，立即治疗目标。\r\n这个技能的治疗量不大于0时立即释放。",
         "UseAp": 1,
         "User": "MaribelHearn",
         "Counting": 8,
         "Effect_Target": "SE_T_S_Maribel_6",
         "Image_0": "S_Maribel_6\\S_Maribel_6_Image_0.png",
         "Image_1": "S_Maribel_6\\S_Maribel_6_Image_1.png",
-        "Image_2": "S_Maribel_6\\S_Maribel_6_Image_2.png"
+        "Image_2": "S_Maribel_6\\S_Maribel_6_Image_2.png",
+        "SkillExtended": [
+            "HiHouClab.S_Maribel_6"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

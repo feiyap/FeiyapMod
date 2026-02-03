@@ -1,0 +1,7 @@
+{
+    "Priest": {
+        "_gdeSchema": "Character",
+        "PassiveUnlockLV1": false,
+        "Role": "Role_Mage"
+    }
+}

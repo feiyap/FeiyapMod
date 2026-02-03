@@ -13,6 +13,11 @@
         "Counting": 2,
         "Image_0": "S_Maribel_4\\S_Maribel_4_Image_0.png",
         "Image_1": "S_Maribel_4\\S_Maribel_4_Image_1.png",
-        "Image_2": "S_Maribel_4\\S_Maribel_4_Image_2.png"
+        "Image_2": "S_Maribel_4\\S_Maribel_4_Image_2.png",
+        "Disposable": false,
+        "NoBasicSkill": false,
+        "SkillExtended": [
+            "HiHouClab.S_Maribel_4"
+        ]
     }
 }

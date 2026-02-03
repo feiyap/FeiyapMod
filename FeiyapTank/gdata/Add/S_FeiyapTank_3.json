@@ -1,0 +1,18 @@
+{
+    "S_FeiyapTank_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "all_enemy",
+        "Fatal": false,
+        "Name": "天五月",
+        "Description": "自己受到伤害时，这个技能的费用降低 1 点。\r\n居合 - 以倒计时5释放。",
+        "User": "FeiyapTank",
+        "UseAp": 5,
+        "NotCount": false,
+        "Effect_Target": "SE_T_S_FeiyapTank_3",
+        "Image_0": "S_FeiyapTank_3\\S_FeiyapTank_3_Image_0.png",
+        "Image_1": "S_FeiyapTank_3\\S_FeiyapTank_3_Image_1.png",
+        "Image_2": "S_FeiyapTank_3\\S_FeiyapTank_3_Image_2.png"
+    }
+}

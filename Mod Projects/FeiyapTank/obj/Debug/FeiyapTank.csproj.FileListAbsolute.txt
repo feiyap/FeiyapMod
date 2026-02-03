@@ -1,0 +1,8 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FeiyapTank\bin\Debug\FeiyapTank20262414516.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FeiyapTank\bin\Debug\FeiyapTank20262414516.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FeiyapTank\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FeiyapTank\obj\Debug\FeiyapTank.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FeiyapTank\obj\Debug\FeiyapTank.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FeiyapTank\obj\Debug\FeiyapTank.csproj.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FeiyapTank\obj\Debug\FeiyapTank20262414516.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FeiyapTank\obj\Debug\FeiyapTank20262414516.pdb

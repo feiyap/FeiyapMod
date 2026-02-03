@@ -1,0 +1,11 @@
+{
+    "SE_S_S_Maribel_Rare_3": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_Maribel_Rare_3"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

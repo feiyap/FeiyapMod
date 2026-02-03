@@ -46,7 +46,7 @@ namespace HiHouClab
 
         public void SKillUseHand_Team(Skill skill)
         {
-            if (!skill.NotCount)
+            if (!skill.NotCount && skill.Master == this.BChar)
             {
                 this.BChar.BuffAdd("B_Renko_P", this.BChar);
             }

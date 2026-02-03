@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "KochiyaSanae\\KochiyaSanaeFaceSmallChar.png",
-        "offsetMax": {
-            "x": 192.374023,
-            "y": 71.9739151
+        "pivot": {
+            "x": 0.420653522,
+            "y": 0.797713459
         },
         "offsetMin": {
-            "x": -229.441833,
-            "y": -533.5526
+            "x": -381.975769,
+            "y": -704.2941
         },
-        "pivot": {
-            "x": 0.539121,
-            "y": 0.8719071
+        "offsetMax": {
+            "x": 521.246765,
+            "y": 171.589813
         }
     },
     "MyChangeType": "FaceSmallChar",

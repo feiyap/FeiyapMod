@@ -1,0 +1,11 @@
+{
+    "B_Maribel_6": {
+        "_gdeSchema": "Buff",
+        "ClassName": "HiHouClab.B_Maribel_6",
+        "BuffTag": "null",
+        "Name": "禁忌保护罩",
+        "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_03",
+        "Description": "",
+        "LifeTime": 2
+    }
+}

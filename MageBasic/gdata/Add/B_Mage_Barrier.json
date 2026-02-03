@@ -1,0 +1,16 @@
+{
+    "B_Mage_Barrier": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "MageBasic.B_Mage_Barrier",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "魔女保护罩",
+        "Icon": "Image/Buff/Skill_Icon_Pack/emerald/emerald_03",
+        "Description": "",
+        "LifeTime": 2
+    }
+}

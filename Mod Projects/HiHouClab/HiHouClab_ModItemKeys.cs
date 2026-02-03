@@ -14,13 +14,45 @@ namespace HiHouClab
 		/// </summary>
         public static string Buff_B_HouRaiHiHou_Rare_3_0 = "B_HouRaiHiHou_Rare_3_0";
 		/// <summary>
+		/// 结界的一滴
+		/// 可无视嘲讽指定为目标。
+		/// 受到的量子伤害提升30%。
+		/// </summary>
+        public static string Buff_B_Maribel_0 = "B_Maribel_0";
+		/// <summary>
 		/// 无光之境界
 		/// 保护罩破裂时对所有敌人造成 &a 量子伤害(&user治疗力的160%)。
 		/// </summary>
         public static string Buff_B_Maribel_1 = "B_Maribel_1";
 		/// <summary>
-		/// 第九十九扇门
-		/// 代替其他队友承受伤害。每次受到伤害时，自身获得1~&a的随机数值的治疗(最大值为自身防御力)。
+		/// 幻透的错觉
+		/// 调查员使用倒计时技能时，每点倒计时为该增益提供“暴击率+10%，暴击伤害+10%，暴击治疗+10%”（每个技能最多计算&a点，不超过&user当前等级）。
+		/// </summary>
+        public static string Buff_B_Maribel_4 = "B_Maribel_4";
+		/// <summary>
+		/// 暴击率提升
+		/// </summary>
+        public static string Buff_B_Maribel_4_1 = "B_Maribel_4_1";
+		/// <summary>
+		/// 禁忌保护罩
+		/// </summary>
+        public static string Buff_B_Maribel_6 = "B_Maribel_6";
+		/// <summary>
+		/// 结界保护罩
+		/// </summary>
+        public static string Buff_B_Maribel_Barrier = "B_Maribel_Barrier";
+		/// <summary>
+		/// 哑光之境界
+		/// 受到量子伤害时，会获得相同数值的保护罩。
+		/// </summary>
+        public static string Buff_B_Maribel_P = "B_Maribel_P";
+		/// <summary>
+		/// 无敌
+		/// </summary>
+        public static string Buff_B_Maribel_Rare_2 = "B_Maribel_Rare_2";
+		/// <summary>
+		/// 七夕坂的爱
+		/// 持有的保护罩增益效果结束时，获得剩余保护罩100%的治疗。
 		/// </summary>
         public static string Buff_B_Maribel_Rare_3 = "B_Maribel_Rare_3";
 		/// <summary>
@@ -44,8 +76,8 @@ namespace HiHouClab
 		/// </summary>
         public static string Buff_B_Renko_5 = "B_Renko_5";
 		/// <summary>
-		/// 须臾之见
-		/// 自身的下 1 个技能附带迅速。
+		/// 永恒的须臾
+		/// 根据处于倒计时中的调查员技能的个数，增加自身的攻击力。
 		/// </summary>
         public static string Buff_B_Renko_6 = "B_Renko_6";
 		/// <summary>
@@ -87,6 +119,11 @@ namespace HiHouClab
 		/// </summary>
         public static string Buff_B_Renko_Rare_3_0 = "B_Renko_Rare_3_0";
 		/// <summary>
+		/// 结界发生器
+		/// 持有保护罩时，防御力+30%。
+		/// </summary>
+        public static string Item_Equip_E_Maribel_0 = "E_Maribel_0";
+		/// <summary>
 		/// 物理学圣剑
 		/// 对体力值不低于90%的敌人造成的伤害提升75%。
 		/// </summary>
@@ -100,10 +137,14 @@ namespace HiHouClab
 		/// 玛艾露贝莉·赫恩
 		/// Passive:
 		/// 看得见结界的能力 - 玛艾露贝莉·赫恩的治疗技能处于倒计时期间时，指向的目标获得“保护体力极限”；并且目标在受到量子伤害时，会获得相同数值的保护罩。
-		/// 少女秘封俱乐部 - 玛艾露贝莉·赫恩与宇佐见莲子同时在场时，战斗开始时从牌库抽取 1 个“伊奘诺物质”。
+		/// 少女秘封俱乐部 - 玛艾露贝莉·赫恩与宇佐见莲子同时在场时，每回合额外获得 2 次等待次数。
 		/// <color=#919191>- 此被动从1级开始生效。</color>
 		/// </summary>
         public static string Character_MaribelHearn = "MaribelHearn";
+		/// <summary>
+		/// 费用为0，附带放逐
+		/// </summary>
+        public static string SkillExtended_SE_Maribel_8 = "SE_Maribel_8";
 		/// <summary>
 		/// 附带迅速
 		/// </summary>
@@ -113,9 +154,10 @@ namespace HiHouClab
 		/// 造成的伤害提升&a。
 		/// </summary>
         public static string SkillExtended_SE_Renko_P = "SE_Renko_P";
+        public static string SkillEffect_SE_S_S_Maribel_Rare_3 = "SE_S_S_Maribel_Rare_3";
         public static string SkillEffect_SE_S_S_Renko_3 = "SE_S_S_Renko_3";
         public static string SkillEffect_SE_S_S_Renko_4 = "SE_S_S_Renko_4";
-        public static string SkillEffect_SE_S_S_Renko_6 = "SE_S_S_Renko_6";
+        public static string SkillEffect_SE_S_S_Renko_7 = "SE_S_S_Renko_7";
         public static string SkillEffect_SE_S_S_Renko_Rare_3 = "SE_S_S_Renko_Rare_3";
         public static string SkillEffect_SE_T_S_Hihou_Rare_3 = "SE_T_S_Hihou_Rare_3";
         public static string SkillEffect_SE_T_S_HouRaiHihou_Rare_3 = "SE_T_S_HouRaiHihou_Rare_3";
@@ -131,6 +173,7 @@ namespace HiHouClab
         public static string SkillEffect_SE_T_S_Renko_3 = "SE_T_S_Renko_3";
         public static string SkillEffect_SE_T_S_Renko_4 = "SE_T_S_Renko_4";
         public static string SkillEffect_SE_T_S_Renko_5 = "SE_T_S_Renko_5";
+        public static string SkillEffect_SE_T_S_Renko_6 = "SE_T_S_Renko_6";
         public static string SkillEffect_SE_T_S_Renko_8 = "SE_T_S_Renko_8";
         public static string SkillEffect_SE_T_S_Renko_Rare_1 = "SE_T_S_Renko_Rare_1";
         public static string SkillEffect_SE_T_S_Renko_Rare_2 = "SE_T_S_Renko_Rare_2";
@@ -158,7 +201,9 @@ namespace HiHouClab
         public static string Skill_S_HouRaiHihou_Rare_3 = "S_HouRaiHihou_Rare_3";
 		/// <summary>
 		/// 魔术师梅莉
-		/// 倒计时期间，这个技能指向的目标获得“可被无视嘲讽选中，无法破坏体力极限，受到的量子伤害提升30%”。
+		/// 这个技能不会因为回合结束而被释放。
+		/// 倒计时期间，这个技能指向的目标获得“可无视嘲讽指定为目标，无法破坏体力极限，受到的量子伤害提升30%”。
+		/// 敌人的体力值低于 &a 时(攻击力的140%)，立即释放。
 		/// </summary>
         public static string Skill_S_Maribel_0 = "S_Maribel_0";
 		/// <summary>
@@ -168,16 +213,15 @@ namespace HiHouClab
         public static string Skill_S_Maribel_1 = "S_Maribel_1";
 		/// <summary>
 		/// 53分钟的蓝色大海
-		/// 若此技能为固定能力，则释放后恢复 1 点法力值。
-		/// 选择：
-		/// - 选择 1 个倒计时中的技能，使其立即释放。
-		/// - 使自己下 1 个倒计时技能立即释放。
+		/// 展示倒计时栏中所有调查员的非稀有技能。
+		/// 选择其中 1 个，复制并立即释放。
 		/// </summary>
         public static string Skill_S_Maribel_2 = "S_Maribel_2";
 		/// <summary>
 		/// 卫星露天咖啡座
-		/// 抽取 1 个技能。
-		/// 恢复所有友军的体力极限。
+		/// 这个技能不会因为回合结束而被释放。
+		/// 倒计时期间，目标每次受到伤害时（包括量子伤害），超额治疗 &a 体力值(治疗力的20%)。
+		/// 这个技能从倒计时栏离开时，恢复所有目标的体力极限。
 		/// </summary>
         public static string Skill_S_Maribel_3 = "S_Maribel_3";
 		/// <summary>
@@ -194,21 +238,52 @@ namespace HiHouClab
 		/// <summary>
 		/// 禁忌的膜壁
 		/// 这个技能不会因为回合结束而被释放。
-		/// 倒计时期间，目标受到的伤害转变为量子伤害。
+		/// 倒计时期间，当目标受到伤害时，消耗这个技能的剩余治疗量，立即治疗目标。
+		/// 这个技能的治疗量不大于0时立即释放。
 		/// </summary>
         public static string Skill_S_Maribel_6 = "S_Maribel_6";
 		/// <summary>
 		/// 旧世界的冒险酒馆
+		/// 选择：
+		/// - 选择 1 个倒计时中的技能，使其立即释放。
+		/// - 选择 1 个倒计时中的技能，使其倒计时+2。
+		/// - 选择 1 个倒计时中的技能，使其倒计时-2。
 		/// </summary>
         public static string Skill_S_Maribel_7 = "S_Maribel_7";
 		/// <summary>
+		/// 立即释放
+		/// 选择 1 个倒计时中的技能，使其立即释放。
+		/// </summary>
+        public static string Skill_S_Maribel_7_1 = "S_Maribel_7_1";
+		/// <summary>
+		/// 倒计时+2
+		/// 选择 1 个倒计时中的技能，使其倒计时+2。
+		/// </summary>
+        public static string Skill_S_Maribel_7_2 = "S_Maribel_7_2";
+		/// <summary>
+		/// 倒计时-2
+		/// 选择 1 个倒计时中的技能，使其倒计时-2。
+		/// </summary>
+        public static string Skill_S_Maribel_7_3 = "S_Maribel_7_3";
+		/// <summary>
 		/// 未知之花、魅知之旅
+		/// 展示倒计时栏中所有调查员的非稀有技能。
+		/// 选择其中 1 个，使其从倒计时栏中移除，并生成 2 个完美复制，放回牌库随机位置。被放回牌库的技能的费用变为0。
+		/// 那之后，抽取 2 个技能。
 		/// </summary>
         public static string Skill_S_Maribel_8 = "S_Maribel_8";
 		/// <summary>
 		/// 少女秘封俱乐部
+		/// 打出时，使所有目标的体力恢复至体力上限。
+		/// 这个技能从倒计时栏离开时，使所有敌人受到等量于治疗量的量子伤害。
 		/// </summary>
         public static string Skill_S_Maribel_Rare_1 = "S_Maribel_Rare_1";
+		/// <summary>
+		/// 轮椅上的未来宇宙
+		/// 这个技能不会因为回合结束而被释放。
+		/// 倒计时期间，所有目标获得“无敌”增益。回合开始时，这个技能的倒计时减少 1 点。
+		/// </summary>
+        public static string Skill_S_Maribel_Rare_2 = "S_Maribel_Rare_2";
 		/// <summary>
 		/// 日出七夕坂
 		/// <color=#7B68EE><i>「还有30分钟……！
@@ -250,8 +325,7 @@ namespace HiHouClab
         public static string Skill_S_Renko_5 = "S_Renko_5";
 		/// <summary>
 		/// 比普朗克更短的须臾
-		/// 获得 3 点“普朗克法力值”。进行一次切换。
-		/// “普朗克法力值”能且仅能用于迅速技能的消耗，回合结束时清空。
+		/// 恢复 1 点法力值。
 		/// </summary>
         public static string Skill_S_Renko_6 = "S_Renko_6";
 		/// <summary>
@@ -295,15 +369,6 @@ namespace HiHouClab
 		/// <color=#919191>- 此被动从1级开始生效。</color>
 		/// </summary>
         public static string Character_UsamiRenko = "UsamiRenko";
-        public static string SkillEffect_SE_S_S_Renko_7 = "SE_S_S_Renko_7";
-		/// <summary>
-		/// 结界保护罩
-		/// </summary>
-        public static string Buff_B_Maribel_Barrier = "B_Maribel_Barrier";
-		/// <summary>
-		/// 哑光之境界
-		/// </summary>
-        public static string Buff_B_Maribel_P = "B_Maribel_P";
 
     }
 

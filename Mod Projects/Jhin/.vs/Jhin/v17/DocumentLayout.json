@@ -3,19 +3,39 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\jhin\\buff\\b_jhin_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|solutionrelative:buff\\b_jhin_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\jhin\\jhin_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|solutionrelative:jhin_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\jhin\\buff\\b_jhin_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|solutionrelative:buff\\b_jhin_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\jhin\\buff\\b_jhin_5_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|solutionrelative:buff\\b_jhin_5_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\jhin\\buff\\b_jhin_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|solutionrelative:buff\\b_jhin_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\jhin\\buff\\b_jhin_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|solutionrelative:buff\\b_jhin_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\jhin\\skillextended\\se_jhin_p_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\skillextended\\se_jhin_p_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|solutionrelative:skillextended\\se_jhin_p_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\jhin\\skillextended\\se_jhin_p_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\skillextended\\se_jhin_p_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|solutionrelative:skillextended\\se_jhin_p_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\jhin\\skillextended\\se_jhin_p_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\skillextended\\se_jhin_p_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEF7AC85-9F1C-43BB-BA43-5087B85E2ABE}|Jhin.csproj|solutionrelative:skillextended\\se_jhin_p_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,11 +46,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Jhin_Plugin.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Jhin_Plugin.cs",
+              "RelativeDocumentMoniker": "Jhin_Plugin.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Jhin_Plugin.cs",
+              "RelativeToolTip": "Jhin_Plugin.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T14:35:58.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "B_Jhin_4.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Buff\\B_Jhin_4.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Jhin_4.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Buff\\B_Jhin_4.cs",
+              "RelativeToolTip": "Buff\\B_Jhin_4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T14:35:52.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "B_Jhin_5_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Buff\\B_Jhin_5_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Jhin_5_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Buff\\B_Jhin_5_1.cs",
+              "RelativeToolTip": "Buff\\B_Jhin_5_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T14:35:49.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "B_Jhin_5.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Buff\\B_Jhin_5.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Jhin_5.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Buff\\B_Jhin_5.cs",
+              "RelativeToolTip": "Buff\\B_Jhin_5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T14:35:48.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "B_Jhin_7.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Buff\\B_Jhin_7.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Jhin_7.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Buff\\B_Jhin_7.cs",
+              "RelativeToolTip": "Buff\\B_Jhin_7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T14:35:47.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SE_Jhin_P_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\SkillExtended\\SE_Jhin_P_3.cs",
               "RelativeDocumentMoniker": "SkillExtended\\SE_Jhin_P_3.cs",
@@ -38,12 +123,11 @@
               "RelativeToolTip": "SkillExtended\\SE_Jhin_P_3.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:52:56.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T02:52:56.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "SE_Jhin_P_4.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\SkillExtended\\SE_Jhin_P_4.cs",
               "RelativeDocumentMoniker": "SkillExtended\\SE_Jhin_P_4.cs",
@@ -51,12 +135,11 @@
               "RelativeToolTip": "SkillExtended\\SE_Jhin_P_4.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:52:31.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T02:52:31.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "SE_Jhin_P_5.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\SkillExtended\\SE_Jhin_P_5.cs",
               "RelativeDocumentMoniker": "SkillExtended\\SE_Jhin_P_5.cs",
@@ -64,12 +147,11 @@
               "RelativeToolTip": "SkillExtended\\SE_Jhin_P_5.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:52:30.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T02:52:30.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "B_Jhin_P.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Jhin\\Buff\\B_Jhin_P.cs",
               "RelativeDocumentMoniker": "Buff\\B_Jhin_P.cs",

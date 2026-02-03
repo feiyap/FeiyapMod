@@ -5,10 +5,16 @@
         "DMG_Per": 0,
         "DMG_Base": 0,
         "HEAL_MaxHpPer": 0,
-        "HEAL_Per": 140,
+        "HEAL_Per": 160,
         "HEAL_Base": 0,
         "CRI": 0,
         "ForceHeal": false,
-        "ChainHeal": true
+        "ChainHeal": true,
+        "Buffs": [
+            "B_Maribel_4"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
     }
 }

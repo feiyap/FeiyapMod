@@ -1,0 +1,17 @@
+{
+    "id": "MageRoleChange",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "Mage Pressel/Charon/Leryn",
+    "Cover": "MageRoleChangeCover.png",
+    "Author": "绯夜氏",
+    "Version": "v1.0",
+    "Description": "Change Pressel/Charon/Leryn's Role to Mage.",
+    "Dependencies": [
+        "MageBasic"
+    ],
+    "TagList": [
+        "GamePlay"
+    ],
+    "WorkShopId": "3647688384"
+}

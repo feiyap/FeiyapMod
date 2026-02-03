@@ -25,7 +25,6 @@
         "Name": "不等式的廷克·贝尔",
         "UseAp": 0,
         "Description": "<color=#4169E1><i>「玛艾露贝莉·赫恩！你不会还在坚信发现异界是自己的特权吧！」</i></color>",
-        "User": "UsamiRenko",
         "Effect_Target": "SE_T_S_Renko_Rare_3",
         "Effect_Self": "SE_S_S_Renko_Rare_3",
         "SkillExtended": [

@@ -2,13 +2,21 @@
     "S_Maribel_Rare_1": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
-        "Target": "Misc",
-        "User": "MaribelHearn",
+        "Particle": "Particle/flare_lv1",
+        "Target": "all",
         "Rare": true,
         "Name": "少女秘封俱乐部",
         "Image_0": "S_Maribel_Rare_1\\S_Maribel_Rare_1_Image_0.png",
         "Image_1": "S_Maribel_Rare_1\\S_Maribel_Rare_1_Image_1.png",
-        "Image_2": "S_Maribel_Rare_1\\S_Maribel_Rare_1_Image_2.png"
+        "Image_2": "S_Maribel_Rare_1\\S_Maribel_Rare_1_Image_2.png",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Description": "打出时，使所有目标的体力恢复至体力上限。\r\n这个技能从倒计时栏离开时，使所有敌人受到等量于治疗量的量子伤害。",
+        "UseAp": 3,
+        "Counting": 9,
+        "SkillExtended": [
+            "HiHouClab.S_Maribel_Rare_1"
+        ],
+        "User": "MaribelHearn"
     }
 }

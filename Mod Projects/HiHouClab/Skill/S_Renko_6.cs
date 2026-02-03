@@ -23,8 +23,7 @@ namespace HiHouClab
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
             base.SkillUseSingle(SkillD, Targets);
-
-            Planck.PlanckAP += 3;
+            this.BChar.MyTeam.AP++;
         }
     }
 }

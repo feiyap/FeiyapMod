@@ -1,0 +1,19 @@
+{
+    "S_FeiyapTank_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "Track": false,
+        "Name": "朔风切",
+        "Description": "自身体力值低于 1 时才可使用。\r\n释放时，所有调查员每失去 1 体力值，这个技能的伤害增加2%。",
+        "User": "FeiyapTank",
+        "UseAp": 3,
+        "NotCount": false,
+        "Fatal": true,
+        "Effect_Target": "SE_T_S_FeiyapTank_2",
+        "Image_0": "S_FeiyapTank_2\\S_FeiyapTank_2_Image_0.png",
+        "Image_1": "S_FeiyapTank_2\\S_FeiyapTank_2_Image_1.png",
+        "Image_2": "S_FeiyapTank_2\\S_FeiyapTank_2_Image_2.png"
+    }
+}

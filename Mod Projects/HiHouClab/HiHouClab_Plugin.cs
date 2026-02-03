@@ -1,18 +1,20 @@
-using UnityEngine;
-using UnityEngine.UI;
-using System;
-using System.Linq;
-using System.Collections;
-using System.Collections.Generic;
-using GameDataEditor;
-using I2.Loc;
-using DarkTonic.MasterAudio;
 using ChronoArkMod;
+using ChronoArkMod.ModData;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
-using Debug = UnityEngine.Debug;
-using ChronoArkMod.ModData;
+using DarkTonic.MasterAudio;
+using GameDataEditor;
 using HarmonyLib;
+using I2.Loc;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using UnityEngine;
+using UnityEngine.UI;
+using Debug = UnityEngine.Debug;
 namespace HiHouClab
 {
     public class HiHouClab_Plugin: ChronoArkPlugin
@@ -49,8 +51,25 @@ namespace HiHouClab
                 {
                     __result.PlusCriDmg += __result.cri; // 将 cri 值加到 PlusCriDmg
                 }
-                __result.cri = 0; // 将 cri 设为 0
+                //__result.cri = 0; // 将 cri 设为 0
             }
+        }
+    }
+
+    //复制体：不再进行SkillSelect
+    [HarmonyPatch(typeof(BattleEnemy))]
+    class BattleEnemy_Patch
+    {
+        [HarmonyPrefix]
+        [HarmonyPatch("NewTurn")]
+        public static bool NewTurnPrefix(BattleEnemy __instance)
+        {
+            if (__instance.BuffFind("B_Renko_Rare_2_0"))
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }

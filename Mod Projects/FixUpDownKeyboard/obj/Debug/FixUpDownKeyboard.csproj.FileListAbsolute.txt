@@ -1,0 +1,16 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\obj\Debug\FixUpDownKeyboard.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\obj\Debug\FixUpDownKeyboard.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\obj\Debug\FixUpDow.CC0480AC.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\FixUpDownKeyboard2026118115259.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\FixUpDownKeyboard2026118115259.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\0Harmony.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\DynamicEmitAPI.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\Mono.Cecil.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\Mono.Cecil.Mdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\Mono.Cecil.Pdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\Mono.Cecil.Rocks.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\MonoMod.RuntimeDetour.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\bin\Debug\MonoMod.Utils.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\obj\Debug\FixUpDownKeyboard2026118115259.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\FixUpDownKeyboard\obj\Debug\FixUpDownKeyboard2026118115259.pdb

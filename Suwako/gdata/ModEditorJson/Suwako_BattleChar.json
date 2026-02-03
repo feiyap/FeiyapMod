@@ -3,17 +3,17 @@
     "myField": "BattleChar",
     "myValues": {
         "path": "Suwako\\SuwakoBattleChar.png",
-        "pivot": {
-            "x": 0.494027257,
-            "y": 0.738742352
+        "offsetMax": {
+            "x": 1013.50922,
+            "y": 829.213
         },
         "offsetMin": {
-            "x": -571.4112,
-            "y": -1189.752
+            "x": -1047.9436,
+            "y": -1232.23987
         },
-        "offsetMax": {
-            "x": 585.227844,
-            "y": 420.758057
+        "pivot": {
+            "x": 0.508352,
+            "y": 0.5977531
         }
     },
     "MyChangeType": "BattleChar",

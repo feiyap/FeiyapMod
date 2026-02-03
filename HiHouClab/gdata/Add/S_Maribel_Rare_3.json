@@ -4,17 +4,22 @@
         "Category": "null",
         "Particle": "Particle/Buff",
         "Rare": true,
-        "Target": "self",
+        "Target": "otherally",
         "NotCount": true,
         "Name": "日出七夕坂",
         "Description": "<color=#7B68EE><i>「还有30分钟……！\n上午10点，异界之门一定会在这里打开。\n我将证明异界的存在！」</i></color>",
-        "UseAp": 1,
-        "User": "MaribelHearn",
+        "UseAp": 0,
         "Effect_Target": "SE_T_S_Maribel_Rare_3",
         "Image_0": "S_Maribel_Rare_3\\S_Maribel_Rare_3_Image_0.png",
         "Image_1": "S_Maribel_Rare_3\\S_Maribel_Rare_3_Image_1.png",
         "Image_2": "S_Maribel_Rare_3\\S_Maribel_Rare_3_Image_2.png",
-        "Disposable": false,
-        "NoDrop": false
+        "Disposable": true,
+        "NoDrop": false,
+        "NoBasicSkill": false,
+        "Counting": 1,
+        "Effect_Self": "SE_S_S_Maribel_Rare_3",
+        "SkillExtended": [
+            "HiHouClab.S_Maribel_Rare_3"
+        ]
     }
 }

@@ -1,0 +1,11 @@
+{
+    "B_FeiyapTank_Rare_1_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "雨曾为紫",
+        "Description": "自身每失去 10 点体力值，攻击力+1%；受到痛苦伤害时，最大体力值增加那个伤害的值。\n不会因为受到痛苦伤害导致无法战斗。",
+        "MaxStack": 0,
+        "Cantdisable": true
+    }
+}

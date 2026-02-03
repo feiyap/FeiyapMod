@@ -3,17 +3,17 @@
     "myField": "FaceOriginChar",
     "myValues": {
         "path": "YasakaKanano\\YasakaKananoFaceOriginChar.png",
-        "offsetMax": {
-            "x": 448.577026,
-            "y": 365.2002
+        "pivot": {
+            "x": 0.485583365,
+            "y": 0.6584422
         },
         "offsetMin": {
-            "x": -431.422974,
-            "y": -1174.7998
+            "x": -1212.61877,
+            "y": -1651.614
         },
-        "pivot": {
-            "x": 0.488662481,
-            "y": 0.759367347
+        "offsetMax": {
+            "x": 1281.73914,
+            "y": 848.590149
         }
     },
     "MyChangeType": "FaceOriginChar",

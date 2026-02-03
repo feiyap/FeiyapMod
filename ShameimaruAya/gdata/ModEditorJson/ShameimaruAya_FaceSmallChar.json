@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "ShameimaruAya\\ShameimaruAyaFaceSmallChar.png",
-        "offsetMax": {
-            "x": 112.984726,
-            "y": 87.3048
+        "pivot": {
+            "x": 0.5311302,
+            "y": 0.765432239
         },
         "offsetMin": {
-            "x": -172.84433,
-            "y": -518.2218
+            "x": -583.08844,
+            "y": -842.9725
         },
-        "pivot": {
-            "x": 0.5976029,
-            "y": 0.84658885
+        "offsetMax": {
+            "x": 510.911438,
+            "y": 251.027374
         }
     },
     "MyChangeType": "FaceSmallChar",

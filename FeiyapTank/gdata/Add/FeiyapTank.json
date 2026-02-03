@@ -1,0 +1,66 @@
+{
+    "FeiyapTank": {
+        "_gdeSchema": "Character",
+        "Role": "Role_Tank",
+        "PassiveClassName": "",
+        "PassiveUnlockLV1": false,
+        "face": "FeiyapTank\\FeiyapTankBattleFace.png",
+        "name": "剑圣·绯夜氏",
+        "SelectInfo": "",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 10,
+            "y": 10
+        },
+        "ATK": {
+            "x": 1,
+            "y": 1
+        },
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "DODGE": {
+            "x": 0,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 10
+        },
+        "REG": {
+            "x": 7,
+            "y": 14
+        },
+        "HIT": {
+            "x": 100,
+            "y": 114
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 20,
+            "y": 60
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 5,
+            "y": 45
+        },
+        "PassiveDes": "受到伤害时，若自身有技能处于倒计时期间，本回合内攻击力提升那个伤害的值。",
+        "PassiveName": "切舍御免"
+    }
+}

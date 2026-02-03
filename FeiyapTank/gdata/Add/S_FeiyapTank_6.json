@@ -1,0 +1,16 @@
+{
+    "S_FeiyapTank_6": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "skill",
+        "NotCount": true,
+        "Name": "断舍离",
+        "Description": "丢弃目标技能。优先抽取 2 个自己的技能。",
+        "User": "FeiyapTank",
+        "UseAp": 0,
+        "Image_0": "S_FeiyapTank_6\\S_FeiyapTank_6_Image_0.png",
+        "Image_1": "S_FeiyapTank_6\\S_FeiyapTank_6_Image_1.png",
+        "Image_2": "S_FeiyapTank_6\\S_FeiyapTank_6_Image_2.png"
+    }
+}

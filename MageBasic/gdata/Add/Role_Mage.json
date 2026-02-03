@@ -1,0 +1,16 @@
+{
+    "Role_Mage": {
+        "_gdeSchema": "CharRole",
+        "RoleName": "魔女",
+        "RoleImage": "Images/Role_Mage.png",
+        "DefultBasicSkill": "S_Mage_Default",
+        "BloodyMistAdd": "S_Mage_Default",
+        "DefaultSkillsList": [
+            "S_Mage_Default",
+            "S_Mage_Default",
+            "S_Mage_Default",
+            "S_Mage_Default",
+            "S_Mage_Default"
+        ]
+    }
+}

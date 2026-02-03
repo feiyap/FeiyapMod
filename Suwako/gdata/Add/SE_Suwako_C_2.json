@@ -1,0 +1,10 @@
+{
+    "SE_Suwako_C_2": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "根据支付的费用，在手中生成相应数量的“南风灵”。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "Suwako",
+        "ClassName": "Suwako.SE_Suwako_C_2"
+    }
+}

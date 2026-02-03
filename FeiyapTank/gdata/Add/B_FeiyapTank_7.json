@@ -1,0 +1,10 @@
+{
+    "B_FeiyapTank_7": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "神速",
+        "MaxStack": 4,
+        "Description": "其他调查员受到攻击时，自身代为承受。\n触发时减少 1 层。"
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FixUpDownKeyboard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED9EFC4-5D3E-89DE-5BA9-962ABD91DF83}|FixUpDownKeyboard.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\fixupdownkeyboard\\fixupdownkeyboard_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED9EFC4-5D3E-89DE-5BA9-962ABD91DF83}|FixUpDownKeyboard.csproj|solutionrelative:fixupdownkeyboard_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FixUpDownKeyboard_Plugin.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FixUpDownKeyboard\\FixUpDownKeyboard_Plugin.cs",
+              "RelativeDocumentMoniker": "FixUpDownKeyboard_Plugin.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FixUpDownKeyboard\\FixUpDownKeyboard_Plugin.cs",
+              "RelativeToolTip": "FixUpDownKeyboard_Plugin.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T03:51:44.778Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

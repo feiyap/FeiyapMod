@@ -3,17 +3,17 @@
     "myField": "FaceSmallChar",
     "myValues": {
         "path": "Suwako\\SuwakoFaceSmallChar.png",
-        "pivot": {
-            "x": 0.4700552,
-            "y": 0.7735675
+        "offsetMax": {
+            "x": 641.351746,
+            "y": 452.0158
         },
         "offsetMin": {
-            "x": -165.1795,
-            "y": -402.552124
+            "x": -638.648254,
+            "y": -827.9842
         },
-        "offsetMax": {
-            "x": 181.901947,
-            "y": 110.605942
+        "pivot": {
+            "x": 0.4973564,
+            "y": 0.6424957
         }
     },
     "MyChangeType": "FaceSmallChar",

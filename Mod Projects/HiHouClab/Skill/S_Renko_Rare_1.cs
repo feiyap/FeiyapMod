@@ -52,5 +52,10 @@ namespace HiHouClab
                 return Damage;
             }
         }
+
+        public override string DescExtended(string desc)
+        {
+            return base.DescExtended(desc).Replace("&a", ((int)(this.BChar.GetStat.atk * 2.0)).ToString());
+        }
     }
 }

@@ -17,6 +17,9 @@
         "Rare": false,
         "Disposable": false,
         "IgnoreTaunt": false,
-        "Track": false
+        "Track": false,
+        "SkillExtended": [
+            "HiHouClab.S_Maribel_5"
+        ]
     }
 }

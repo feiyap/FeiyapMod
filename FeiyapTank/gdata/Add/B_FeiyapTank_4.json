@@ -1,0 +1,12 @@
+{
+    "B_FeiyapTank_4": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "DOT",
+        "Name": "哭血",
+        "Description": "&user受到伤害时，自身受到相同数值的痛苦伤害。",
+        "Debuff": true,
+        "TagPer": 120,
+        "LifeTime": 5
+    }
+}

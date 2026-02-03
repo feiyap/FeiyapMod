@@ -1,0 +1,22 @@
+{
+    "S_Maribel_Rare_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Rare": true,
+        "Target": "all_ally",
+        "NotCount": true,
+        "NoBasicSkill": true,
+        "Name": "轮椅上的未来宇宙",
+        "Description": "这个技能不会因为回合结束而被释放。\r\n倒计时期间，所有目标获得“无敌”增益。回合开始时，这个技能的倒计时减少 1 点。",
+        "UseAp": 1,
+        "User": "MaribelHearn",
+        "Counting": 7,
+        "Image_0": "S_Maribel_Rare_2\\S_Maribel_Rare_2_Image_0.png",
+        "Image_1": "S_Maribel_Rare_2\\S_Maribel_Rare_2_Image_1.png",
+        "Image_2": "S_Maribel_Rare_2\\S_Maribel_Rare_2_Image_2.png",
+        "SkillExtended": [
+            "HiHouClab.S_Maribel_Rare_2"
+        ]
+    }
+}

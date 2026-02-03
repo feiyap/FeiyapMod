@@ -1,0 +1,9 @@
+{
+    "Potion_Mage": {
+        "_gdeSchema": "Item_Potions",
+        "name": "魔女的药水",
+        "Description": "只能对魔女型角色使用。\n出示所选友军的所有专属技能，选择其中的1个技能生成。",
+        "image": "Item\\Potion_Mage_image.png",
+        "BattleUse": "S_Mage_Potion"
+    }
+}

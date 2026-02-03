@@ -1,7 +1,7 @@
 {
     "B_Maribel_Barrier": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "HiHouClab.B_Maribel_Barrier",
         "BuffTag": "null",
         "Name": "结界保护罩",
         "Description": "",

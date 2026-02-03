@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\IzayoiSakuya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1643C6-40C6-4518-9CE2-9F025FE6CCAE}|IzayoiSakuya.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\izayoisakuya\\skill\\s_sakuya_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1643C6-40C6-4518-9CE2-9F025FE6CCAE}|IzayoiSakuya.csproj|solutionrelative:skill\\s_sakuya_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1643C6-40C6-4518-9CE2-9F025FE6CCAE}|IzayoiSakuya.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\izayoisakuya\\character\\p_izayoisakuya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1643C6-40C6-4518-9CE2-9F025FE6CCAE}|IzayoiSakuya.csproj|solutionrelative:character\\p_izayoisakuya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "S_Sakuya_7.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\IzayoiSakuya\\Skill\\S_Sakuya_7.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Sakuya_7.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\IzayoiSakuya\\Skill\\S_Sakuya_7.cs",
+              "RelativeToolTip": "Skill\\S_Sakuya_7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:18:32.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "P_IzayoiSakuya.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\IzayoiSakuya\\Character\\P_IzayoiSakuya.cs",
+              "RelativeDocumentMoniker": "Character\\P_IzayoiSakuya.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\IzayoiSakuya\\Character\\P_IzayoiSakuya.cs",
+              "RelativeToolTip": "Character\\P_IzayoiSakuya.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowGkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T17:27:51.446Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

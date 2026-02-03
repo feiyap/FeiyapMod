@@ -4,16 +4,16 @@
     "myValues": {
         "path": "SuwakoEclipse\\SuwakoEclipseBattleChar.png",
         "offsetMax": {
-            "x": 1014.76495,
-            "y": 826.867737
+            "x": 1316.06946,
+            "y": 1014.55707
         },
         "offsetMin": {
-            "x": -1046.68787,
-            "y": -1234.58508
+            "x": -1352.35266,
+            "y": -1653.865
         },
         "pivot": {
-            "x": 0.5077428,
-            "y": 0.5988908
+            "x": 0.5067986,
+            "y": 0.6197914
         }
     },
     "MyChangeType": "BattleChar",

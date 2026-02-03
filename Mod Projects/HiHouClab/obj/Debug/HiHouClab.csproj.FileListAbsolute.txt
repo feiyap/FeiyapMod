@@ -21,7 +21,7 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\EOS.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\DynamicEmitAPI.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\EOS.xml
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\HiHouClab202613174504.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\HiHouClab202613174504.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab202613174504.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab202613174504.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\HiHouClab2026111124420.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\bin\Debug\HiHouClab2026111124420.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab2026111124420.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HiHouClab\obj\Debug\HiHouClab2026111124420.pdb

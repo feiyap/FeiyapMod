@@ -55,9 +55,20 @@ namespace HiHouClab
                 ThisSkill.Use();
             }
 
-            saveTarget.BuffReturn("B_Renko_8").SelfDestroy();
+            //saveTarget.BuffReturn("B_Renko_8").SelfDestroy();
+            //BattleSystem.DelayInputAfter(this.Del(ThisSkill));
             saveTarget = null;
             isFlag = false;
+        }
+
+        private IEnumerator Del(CastingSkill ThisSkill)
+        {
+            yield return new WaitForFixedUpdate();
+            if (!BattleSystem.instance.CastSkills.Any((CastingSkill i) => i != ThisSkill && i.skill.MySkill.KeyID == "S_Renko_8" && i.TargetReturn() == ThisSkill.TargetReturn()) && !BattleSystem.instance.SaveSkill.Any((CastingSkill i) => i != ThisSkill && i.skill.MySkill.KeyID == "S_Renko_8" && i.TargetReturn() == ThisSkill.TargetReturn()))
+            {
+                ThisSkill.Target.BuffRemove("B_Renko_8");
+            }
+            yield break;
         }
 
         public override string DescExtended(string desc)
@@ -67,8 +78,6 @@ namespace HiHouClab
 
         public void DamageTakeChange_Renko8(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
         {
-            Debug.Log("DamageTakeChange_Renko8");
-            Debug.Log(Dmg);
             if (saveTarget == null || !isFlag || Preview) {  return; }
 
             saveDamage += Dmg;

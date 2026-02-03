@@ -1,0 +1,10 @@
+{
+    "B_FeiyapTank_1": {
+        "_gdeSchema": "Buff",
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "哑光",
+        "Description": "叠加至 2 层时，自身从手中打出的下 1 个的攻击技能会消耗所有“哑光”层数并施加(100%干扰)眩晕。",
+        "MaxStack": 2
+    }
+}

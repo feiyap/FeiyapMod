@@ -1,0 +1,16 @@
+{
+    "B_Maribel_4": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "HiHouClab.B_Maribel_4",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "幻透的错觉",
+        "Description": "调查员使用倒计时技能时，每点倒计时为该增益提供“暴击率+10%，暴击伤害+10%，暴击治疗+10%”（每个技能最多计算&a点，不超过&user当前等级）。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7_buff (19)",
+        "LifeTime": 2
+    }
+}

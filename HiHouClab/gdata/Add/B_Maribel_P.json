@@ -1,10 +1,15 @@
 {
     "B_Maribel_P": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "HiHouClab.B_Maribel_P",
         "BuffTag": "null",
         "Name": "哑光之境界",
-        "Description": "",
-        "Icon": "B_Maribel_P\\B_Maribel_P_Icon.png"
+        "Description": "受到量子伤害时，会获得相同数值的保护罩。",
+        "Icon": "B_Maribel_P\\B_Maribel_P_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

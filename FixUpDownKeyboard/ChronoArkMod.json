@@ -1,0 +1,14 @@
+{
+    "id": "FixUpDownKeyboard",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "FixUp&DownKeyboard",
+    "Author": "绯夜氏",
+    "Version": "v1.0",
+    "Cover": "FixUpDownKeyboardCover.png",
+    "Description": "Fixed a bug that prevented using the keyboard's Up and Down keys (or W and S) to switch between enemies and allies when selecting the target for the single-target skill (Light's Judgement).",
+    "TagList": [
+        "GamePlay"
+    ],
+    "WorkShopId": "3648807376"
+}

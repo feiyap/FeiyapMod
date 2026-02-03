@@ -1,0 +1,18 @@
+{
+    "S_FeiyapTank_5": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "enemy",
+        "Name": "诀别",
+        "Description": "释放时，恢复自己的体力极限。",
+        "User": "FeiyapTank",
+        "UseAp": 2,
+        "NotCount": true,
+        "Counting": 3,
+        "Effect_Target": "SE_T_S_FeiyapTank_5",
+        "Image_0": "S_FeiyapTank_5\\S_FeiyapTank_5_Image_0.png",
+        "Image_1": "S_FeiyapTank_5\\S_FeiyapTank_5_Image_1.png",
+        "Image_2": "S_FeiyapTank_5\\S_FeiyapTank_5_Image_2.png"
+    }
+}

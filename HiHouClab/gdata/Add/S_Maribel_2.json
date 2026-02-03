@@ -3,14 +3,31 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Buff",
-        "Target": "choiceskill",
+        "Target": "Misc",
         "Name": "53分钟的蓝色大海",
-        "Description": "若此技能为固定能力，则释放后恢复 1 点法力值。\r\n选择：\r\n- 选择 1 个倒计时中的技能，使其立即释放。\r\n- 使自己下 1 个倒计时技能立即释放。",
+        "Description": "展示倒计时栏中所有调查员的非稀有技能。\r\n选择其中 1 个，复制并立即释放。",
         "User": "MaribelHearn",
-        "UseAp": 0,
+        "UseAp": 1,
         "NotCount": true,
         "Image_0": "S_Maribel_2\\S_Maribel_2_Image_0.png",
         "Image_1": "S_Maribel_2\\S_Maribel_2_Image_1.png",
-        "Image_2": "S_Maribel_2\\S_Maribel_2_Image_2.png"
+        "Image_2": "S_Maribel_2\\S_Maribel_2_Image_2.png",
+        "SkillExtended": [
+            "HiHouClab.S_Maribel_2"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

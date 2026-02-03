@@ -1,0 +1,23 @@
+{
+    "S_FeiyapTank_Rare_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": true,
+        "Target": "ally",
+        "NotCount": true,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": true,
+        "Track": false,
+        "Fatal": false,
+        "Name": "雨与夜的舞者",
+        "Description": "恢复自己和目标的体力极限。",
+        "UseAp": 1,
+        "User": "FeiyapTank",
+        "Effect_Target": "null",
+        "Image_0": "S_FeiyapTank_Rare_3\\S_FeiyapTank_Rare_3_Image_0.png",
+        "Image_1": "S_FeiyapTank_Rare_3\\S_FeiyapTank_Rare_3_Image_1.png",
+        "Image_2": "S_FeiyapTank_Rare_3\\S_FeiyapTank_Rare_3_Image_2.png",
+        "Basic": false
+    }
+}

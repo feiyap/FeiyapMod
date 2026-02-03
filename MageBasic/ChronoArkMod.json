@@ -1,0 +1,19 @@
+{
+    "id": "MageBasic",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "MageRoleBasic",
+    "Author": "绯夜氏",
+    "Version": "v1.1",
+    "Cover": "MageBasicCover.png",
+    "TagList": [
+        "Modding Tools"
+    ],
+    "Dependencies": [
+        "BasicMethods"
+    ],
+    "ChangeNote": "2026/1/18\nv1.1\n新增 - 荒野的旋律现在可以被魔女型角色装备。\n修复 - 万花筒属性计算不正确的问题。\n修复 - 基础法术添加了“无法被强化或弱化”的文本。\n优化 - 修改了基础法术的动画，降低动画时间。",
+    "Description": "Added the unique Role \"Mage\".\r\nMages are not content with specializing in a single function but aspire to become more powerful \"all-around characters.\" Typically, a Mage-type character possesses the abilities to deal damage, heal teammates, and protect allies simultaneously.\r\nThe base skills of a Mage-type character are replaced with 6x basic spells. These spells can target allies for healing and shields or target enemies for damage.\r\nThe Mage-type Class gains the attributes of all professions in the Kaleidoscope.\r\nAdditionally, brand-new \"Mage's Potion\" and \"Skillbook - Mage Patterns\" have been introduced for Mage-type characters.\r\n\r\nUsage Instructions:\r\nPlease place this mod below the \"BasicMethods\" mod and above other Mage Role character mods, then enable it.\r\n\r\nFor Modders:\r\nIf you need to use the Mage Role, after adding this mod as a dependency, change the \"Role\" entry in the character's .json file to \"RoleMage\".",
+    "WorkShopId": "3647684658",
+    "OnlyUploadFiles": true
+}

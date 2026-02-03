@@ -1,0 +1,15 @@
+{
+    "id": "FeiyapTank",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "【CN】剑圣·绯夜氏 FeiyapMaster Character Mod",
+    "Author": "绯夜氏",
+    "Version": "v1.0",
+    "Cover": "FeiyapTankCover.png",
+    "TagList": [
+        "Characters"
+    ],
+    "Dependencies": [
+        "BasicMethods"
+    ]
+}

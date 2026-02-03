@@ -19,6 +19,27 @@ namespace HiHouClab
 	/// </summary>
     public class B_Maribel_1:Buff
     {
+        public override void Init()
+        {
+            base.Init();
+            this.BarrierHP += (int)Misc.PerToNum(base.Usestate_L.GetStat.reg, 160f);
+        }
 
+        public override void SelfdestroyPlus()
+        {
+            base.SelfdestroyPlus();
+            foreach (BattleChar be in BattleSystem.instance.EnemyList)
+            {
+                int dmg = (int)Misc.PerToNum(base.Usestate_L.GetStat.reg, 160f);
+                AddressableLoadManager.Instantiate(new GDEGameobjectDatasData(GDEItemKeys.GameobjectDatas_StigmaExplosion).Gameobject_Path, AddressableLoadManager.ManageType.Character).transform.position = be.GetTopPos();
+                be.QuantumDamage(this.Usestate_F, dmg, false);
+            }
+        }
+
+        public override string DescInit()
+        {
+            return base.DescInit().Replace("&a", ((int)(this.BChar.GetStat.reg * 1.6)).ToString())
+                                  .Replace("&user", this.BChar.Info.Name);
+        }
     }
 }

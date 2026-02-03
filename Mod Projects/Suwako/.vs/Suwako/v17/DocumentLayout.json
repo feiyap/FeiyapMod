@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\suwako\\skill\\s_suwako_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|solutionrelative:skill\\s_suwako_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\suwako\\skill\\s_suwako_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|solutionrelative:skill\\s_suwako_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\suwako\\skill\\s_suwako_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|solutionrelative:skill\\s_suwako_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\suwako\\skill\\s_suwako_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|solutionrelative:skill\\s_suwako_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\suwako\\skill\\s_suwako_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|solutionrelative:skill\\s_suwako_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\suwako\\skill\\s_suwako_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|solutionrelative:skill\\s_suwako_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\suwako\\buff\\b_suwako_dot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8F6DFAC-DA52-4AA1-9EEC-82E06BE19663}|Suwako.csproj|solutionrelative:buff\\b_suwako_dot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +43,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "S_Suwako_5.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_5.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Suwako_5.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_5.cs",
+              "RelativeToolTip": "Skill\\S_Suwako_5.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwFAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T15:45:34.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "S_Suwako_4.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_4.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Suwako_4.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_4.cs",
+              "RelativeToolTip": "Skill\\S_Suwako_4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T15:45:32.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "S_Suwako_3.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_3.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Suwako_3.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_3.cs",
+              "RelativeToolTip": "Skill\\S_Suwako_3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T15:45:31.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "S_Suwako_2.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_2.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Suwako_2.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_2.cs",
+              "RelativeToolTip": "Skill\\S_Suwako_2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T15:45:29.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "S_Suwako_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_1.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Suwako_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_1.cs",
+              "RelativeToolTip": "Skill\\S_Suwako_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T15:45:27.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "S_Suwako_9.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_9.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Suwako_9.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Skill\\S_Suwako_9.cs",
+              "RelativeToolTip": "Skill\\S_Suwako_9.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T15:45:25.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "B_Suwako_Dot.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Suwako\\Buff\\B_Suwako_Dot.cs",
               "RelativeDocumentMoniker": "Buff\\B_Suwako_Dot.cs",
