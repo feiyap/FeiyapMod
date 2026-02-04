@@ -16,8 +16,21 @@ namespace FeiyapTank
 	/// <summary>
 	/// 交手
 	/// </summary>
-    public class B_FeiyapTank_Taunt:Buff
+    public class B_FeiyapTank_Taunt: B_Taunt, IP_Awake, IP_SkillUse_User
     {
+        public override void Init()
+        {
+            base.Init();
+        }
 
+        public override void SkillUse(Skill SkillD, List<BattleChar> Targets)
+        {
+            if (Targets[0].Info.Ally != this.BChar.Info.Ally)
+            {
+                Targets.Clear();
+                Targets.Add(base.Usestate_L);
+            }
+            base.SkillUse(SkillD, Targets);
+        }
     }
 }

@@ -19,6 +19,18 @@ namespace FeiyapTank
 	/// </summary>
     public class B_FeiyapTank_1:Buff
     {
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            if (this.BChar.BuffReturn("B_FeiyapTank_1").StackNum >= 2)
+            {
+                this.LucySkillExBuff = (BuffSkillExHand)Skill_Extended.DataToExtended("SE_FeiyapTank_1");
+            }
+        }
 
+        public override bool CanSkillBuffAdd(Skill AddedSkill, int Index)
+        {
+            return AddedSkill.Master == this.BChar && AddedSkill.IsDamage && AddedSkill.ExtendedFind_DataName("SE_FeiyapTank_1") == null;
+        }
     }
 }

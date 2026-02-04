@@ -13,12 +13,18 @@ using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 namespace FeiyapTank
 {
-	/// <summary>
-	/// 哭血
-	/// &user受到伤害时，自身受到相同数值的痛苦伤害。
-	/// </summary>
-    public class B_FeiyapTank_4:Buff
+    /// <summary>
+    /// 哭血
+    /// &user受到伤害时，自身受到相同数值的痛苦伤害。
+    /// </summary>
+    public class B_FeiyapTank_4 : Buff, IP_DamageTake
     {
-
+        public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
+        {
+            if (Target == this.Usestate_L)
+            {
+                this.BChar.Damage(this.Usestate_L, Dmg, Cri, true);
+            }
+        }
     }
 }

@@ -19,6 +19,11 @@ namespace FeiyapTank
 	/// </summary>
     public class S_FeiyapTank_7:Skill_Extended
     {
+        public override void SkillTargetSingle(List<Skill> Targets)
+        {
+            base.SkillTargetSingle(Targets);
 
+            Targets[0].Delete(false);
+        }
     }
 }

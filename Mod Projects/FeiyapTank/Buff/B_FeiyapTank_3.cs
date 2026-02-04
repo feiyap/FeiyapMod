@@ -18,6 +18,10 @@ namespace FeiyapTank
 	/// </summary>
     public class B_FeiyapTank_3:Buff
     {
-
+        public override void Init()
+        {
+            base.Init();
+            this.PlusStat.DMGTaken = 15 * StackNum;
+        }
     }
 }

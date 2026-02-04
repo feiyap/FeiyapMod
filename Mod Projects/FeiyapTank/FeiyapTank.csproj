@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -9,6 +9,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <ReferencePath>H:/SteamLibrary/steamapps/common/Chrono Ark/ChronoArk_Data/Managed</ReferencePath>
+    <ProjectGuid>{27401058-F141-5962-FF6A-9853CE0BC8F3}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accessibility">
@@ -19,6 +20,9 @@
     </Reference>
     <Reference Include="Assembly-CSharp">
       <Private>False</Private>
+    </Reference>
+    <Reference Include="BasicMethods">
+      <HintPath>E:\steam\steamapps\workshop\content\1188930\3345774100\Assemblies\BasicMethods.dll</HintPath>
     </Reference>
     <Reference Include="Beardy.BeardsGridLayoutGroup.Runtime">
       <Private>False</Private>
@@ -381,10 +385,9 @@
       <Private>False</Private>
     </Reference>
     <!-- Extra Reference Start-->
-<!-- Extra Reference End-->
+    <!-- Extra Reference End-->
   </ItemGroup>
-  
-                                                                                                      <!-- Compile ItemGroup Start-->
+  <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="FeiyapTank_ModDefinition.cs" />
     <Compile Include="FeiyapTank_ModItemKeys.cs" />

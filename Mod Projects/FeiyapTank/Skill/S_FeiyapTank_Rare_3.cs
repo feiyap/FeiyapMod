@@ -19,6 +19,15 @@ namespace FeiyapTank
 	/// </summary>
     public class S_FeiyapTank_Rare_3:Skill_Extended
     {
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
 
+            int num = Targets[0].Recovery - Targets[0].HP;
+            Targets[0].Heal(Targets[0], (float)num, false, false, null);
+
+            int num2 = this.BChar.Recovery - this.BChar.HP;
+            this.BChar.Heal(this.BChar, (float)num2, false, false, null);
+        }
     }
 }

@@ -11,14 +11,26 @@ using ChronoArkMod;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
+using BasicMethods;
 namespace FeiyapTank
 {
 	/// <summary>
 	/// 切舍御免
 	/// 受到伤害时，若自身有技能处于倒计时期间，本回合内攻击力提升那个伤害的值。
 	/// </summary>
-    public class B_FeiyapTank_P:Buff
+    public class B_FeiyapTank_P:Buff, IP_DamageTake, IP_PlayerTurn
     {
+        public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
+        {
+            if (CustomMethods.GetCastingSkills(this.BChar).Count > 0)
+            {
+                this.PlusStat.atk += Dmg;
+            }
+        }
 
+        public void Turn()
+        {
+            this.PlusStat.atk = 0;
+        }
     }
 }

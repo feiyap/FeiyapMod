@@ -18,8 +18,32 @@ namespace FeiyapTank
 	/// 自身每失去 10 点体力值，攻击力+1%；受到痛苦伤害时，最大体力值增加那个伤害的值。
 	/// 不会因为受到痛苦伤害导致无法战斗。
 	/// </summary>
-    public class B_FeiyapTank_Rare_1_1:Buff
+    public class B_FeiyapTank_Rare_1_1:Buff, IP_DamageTake, IP_HPChange
     {
+        public override void Init()
+        {
+            base.Init();
+        }
 
+        public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
+        {
+            if (Target == this.BChar)
+            {
+                if (NODEF)
+                {
+                    int now = this.BChar.HP;
+                    this.PlusStat.maxhp += Dmg;
+                    this.BChar.HP = now;
+                }
+            }
+        }
+
+        public void HPChange(BattleChar Char, bool Healed)
+        {
+            if (Char == this.BChar)
+            {
+                this.PlusPerStat.Damage = (this.BChar.GetStat.maxhp - this.BChar.HP) / 10;
+            }
+        }
     }
 }

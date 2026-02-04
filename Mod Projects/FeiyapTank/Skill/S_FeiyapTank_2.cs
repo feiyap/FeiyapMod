@@ -18,8 +18,21 @@ namespace FeiyapTank
 	/// 自身体力值低于 1 时才可使用。
 	/// 释放时，所有调查员每失去 1 体力值，这个技能的伤害增加2%。
 	/// </summary>
-    public class S_FeiyapTank_2:Skill_Extended
+    public class S_FeiyapTank_2:Skill_Extended, IP_DamageChange_sumoperation
     {
+        public void DamageChange_sumoperation(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View, ref int PlusDamage)
+        {
+            int count = 0;
+            foreach (BattleChar bc in BattleSystem.instance.AllyList)
+            {
+                count += bc.GetStat.maxhp - bc.HP;
+            }
+            PlusDamage = BattleChar.CalculationResult((float)Damage, count * 2, 0);
+        }
 
+        public override bool Terms()
+        {
+            return base.Terms() && this.BChar.HP < 1;
+        }
     }
 }
