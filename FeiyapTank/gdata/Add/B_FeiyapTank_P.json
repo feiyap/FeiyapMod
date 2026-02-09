@@ -4,7 +4,7 @@
         "Hide": false,
         "IsFieldBuff": false,
         "Cantdisable": true,
-        "ClassName": "",
+        "ClassName": "FeiyapTank.B_FeiyapTank_P",
         "BuffTag": "null",
         "UseSkillDebuff": false,
         "Caution": false,

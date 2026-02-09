@@ -1,7 +1,7 @@
 {
     "B_FeiyapTank_7": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "FeiyapTank.B_FeiyapTank_7",
         "BuffTag": "null",
         "Name": "神速",
         "MaxStack": 4,

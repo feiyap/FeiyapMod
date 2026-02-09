@@ -1,12 +1,13 @@
 {
     "B_FeiyapTank_Taunt": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "FeiyapTank.B_FeiyapTank_Taunt",
         "BuffTag": "CrowdControl",
         "Name": "交手",
         "Description": "",
         "Icon": "Image/Buff/Skill_Icon_Pack/red/red_07",
         "Debuff": true,
-        "TagPer": 115
+        "TagPer": 115,
+        "Cantdisable": false
     }
 }

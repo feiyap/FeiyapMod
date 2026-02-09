@@ -17,9 +17,9 @@ namespace FeiyapTank
 	/// 哭血
 	/// 居合 - 对所有敌人施加<sprite=1><color=purple>哭血</color>。
 	/// </summary>
-    public class S_FeiyapTank_4:Skill_Extended, IP_Discard
+    public class S_FeiyapTank_4:Skill_Extended, IP_DiscardBefore
     {
-        public void Discard(bool Click, Skill skill, bool HandFullWaste)
+        public void DiscardBefore(bool Click, Skill skill, bool HandFullWaste)
         {
             if (!HandFullWaste && skill == this.MySkill)
             {

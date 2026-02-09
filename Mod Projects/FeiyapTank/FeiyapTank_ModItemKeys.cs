@@ -56,9 +56,16 @@ namespace FeiyapTank
 		/// <summary>
 		/// 剑圣·绯夜氏
 		/// Passive:
-		/// 受到伤害时，若自身有技能处于倒计时期间，本回合内攻击力提升那个伤害的值。
+		/// 受到伤害时，本回合内攻击力提升那个伤害的值。
 		/// </summary>
         public static string Character_FeiyapTank = "FeiyapTank";
+        public static string SkillEffect_SE_S_S_FeiyapTank_0 = "SE_S_S_FeiyapTank_0";
+        public static string SkillEffect_SE_S_S_FeiyapTank_2 = "SE_S_S_FeiyapTank_2";
+        public static string SkillEffect_SE_S_S_FeiyapTank_4 = "SE_S_S_FeiyapTank_4";
+        public static string SkillEffect_SE_S_S_FeiyapTank_5 = "SE_S_S_FeiyapTank_5";
+        public static string SkillEffect_SE_S_S_FeiyapTank_7 = "SE_S_S_FeiyapTank_7";
+        public static string SkillEffect_SE_S_S_FeiyapTank_Rare_1 = "SE_S_S_FeiyapTank_Rare_1";
+        public static string SkillEffect_SE_S_S_FeiyapTank_Rare_3 = "SE_S_S_FeiyapTank_Rare_3";
         public static string SkillEffect_SE_Tick_B_FeiyapTank_4_1 = "SE_Tick_B_FeiyapTank_4_1";
         public static string SkillEffect_SE_Tick_B_FeiyapTank_Rare_1 = "SE_Tick_B_FeiyapTank_Rare_1";
         public static string SkillEffect_SE_T_S_FeiyapTank_0 = "SE_T_S_FeiyapTank_0";
@@ -67,7 +74,9 @@ namespace FeiyapTank
         public static string SkillEffect_SE_T_S_FeiyapTank_3 = "SE_T_S_FeiyapTank_3";
         public static string SkillEffect_SE_T_S_FeiyapTank_4 = "SE_T_S_FeiyapTank_4";
         public static string SkillEffect_SE_T_S_FeiyapTank_5 = "SE_T_S_FeiyapTank_5";
+        public static string SkillEffect_SE_T_S_FeiyapTank_Rare_1 = "SE_T_S_FeiyapTank_Rare_1";
         public static string SkillEffect_SE_T_S_FeiyapTank_Rare_2 = "SE_T_S_FeiyapTank_Rare_2";
+        public static string SkillEffect_SE_T_S_FeiyapTank_Rare_3 = "SE_T_S_FeiyapTank_Rare_3";
 		/// <summary>
 		/// 胧影
 		/// 居合 - 以倒计时2对随机敌人释放。

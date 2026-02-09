@@ -2,7 +2,7 @@
     "S_FeiyapTank_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Hein/Hein_new_2",
         "Target": "enemy",
         "Track": false,
         "Name": "朔风切",
@@ -14,6 +14,11 @@
         "Effect_Target": "SE_T_S_FeiyapTank_2",
         "Image_0": "S_FeiyapTank_2\\S_FeiyapTank_2_Image_0.png",
         "Image_1": "S_FeiyapTank_2\\S_FeiyapTank_2_Image_1.png",
-        "Image_2": "S_FeiyapTank_2\\S_FeiyapTank_2_Image_2.png"
+        "Image_2": "S_FeiyapTank_2\\S_FeiyapTank_2_Image_2.png",
+        "IgnoreTaunt": false,
+        "Effect_Self": "SE_S_S_FeiyapTank_2",
+        "SkillExtended": [
+            "FeiyapTank.S_FeiyapTank_2"
+        ]
     }
 }

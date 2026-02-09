@@ -1,0 +1,13 @@
+{
+    "SE_S_S_FeiyapTank_Rare_1": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_FeiyapTank_Rare_1",
+            "B_FeiyapTank_Rare_1_1"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0
+        ]
+    }
+}

@@ -11,6 +11,23 @@
         "UseAp": 0,
         "Image_0": "S_FeiyapTank_6\\S_FeiyapTank_6_Image_0.png",
         "Image_1": "S_FeiyapTank_6\\S_FeiyapTank_6_Image_1.png",
-        "Image_2": "S_FeiyapTank_6\\S_FeiyapTank_6_Image_2.png"
+        "Image_2": "S_FeiyapTank_6\\S_FeiyapTank_6_Image_2.png",
+        "SkillExtended": [
+            "FeiyapTank.S_FeiyapTank_6"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

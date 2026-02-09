@@ -17,11 +17,11 @@ namespace FeiyapTank
     /// 胧影
     /// 居合 - 以倒计时2对随机敌人释放。
     /// </summary>
-    public class S_FeiyapTank_0 : Skill_Extended, IP_Discard
+    public class S_FeiyapTank_0 : Skill_Extended, IP_DiscardBefore
     {
-        public void Discard(bool Click, Skill skill, bool HandFullWaste)
+        public void DiscardBefore(bool Click, Skill skill, bool HandFullWaste)
         {
-            if (!HandFullWaste && skill == this.MySkill)
+            if (!HandFullWaste && skill == this.MySkill && !this.MySkill.isExcept)
             {
                 Skill tempSkill = skill.CloneSkill(true, skill.Master, null, false);
                 tempSkill.Counting = 2;

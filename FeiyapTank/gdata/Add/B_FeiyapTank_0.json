@@ -2,11 +2,15 @@
     "B_FeiyapTank_0": {
         "_gdeSchema": "Buff",
         "Cantdisable": false,
-        "ClassName": "",
+        "ClassName": "FeiyapTank.B_FeiyapTank_0",
         "BuffTag": "null",
         "Name": "错身",
         "Description": "不会因为受到伤害导致无法战斗。\n回合开始时解除 1 层。",
         "LifeTime": 0,
-        "MaxStack": 2
+        "MaxStack": 2,
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

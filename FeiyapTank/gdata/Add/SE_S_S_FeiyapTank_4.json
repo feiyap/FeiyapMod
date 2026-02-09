@@ -1,0 +1,11 @@
+{
+    "SE_S_S_FeiyapTank_4": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_FeiyapTank_4_1"
+        ],
+        "BuffPlusTagPer": [
+            0
+        ]
+    }
+}

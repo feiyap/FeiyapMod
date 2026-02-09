@@ -1,12 +1,13 @@
 {
     "B_FeiyapTank_Rare_1": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "FeiyapTank.B_FeiyapTank_Rare_1",
         "BuffTag": "DOT",
         "Name": "紫雨",
         "Description": "每次被施加痛苦减益时，触发 1 次该减益的伤害。",
         "Tick": "SE_Tick_B_FeiyapTank_Rare_1",
         "Debuff": true,
-        "TagPer": 200
+        "TagPer": 200,
+        "Cantdisable": false
     }
 }

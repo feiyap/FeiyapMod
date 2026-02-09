@@ -18,7 +18,7 @@ namespace FeiyapTank
     /// 自己受到伤害时，这个技能的费用降低 1 点。
     /// 居合 - 以倒计时5释放。
     /// </summary>
-    public class S_FeiyapTank_3 : Skill_Extended, IP_DamageTake, IP_Discard
+    public class S_FeiyapTank_3 : Skill_Extended, IP_DamageTake, IP_DiscardBefore
     {
         public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
         {
@@ -28,7 +28,7 @@ namespace FeiyapTank
             }
         }
 
-        public void Discard(bool Click, Skill skill, bool HandFullWaste)
+        public void DiscardBefore(bool Click, Skill skill, bool HandFullWaste)
         {
             if (!HandFullWaste && skill == this.MySkill)
             {

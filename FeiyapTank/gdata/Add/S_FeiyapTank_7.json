@@ -11,6 +11,10 @@
         "NoBasicSkill": true,
         "Image_0": "S_FeiyapTank_7\\S_FeiyapTank_7_Image_0.png",
         "Image_1": "S_FeiyapTank_7\\S_FeiyapTank_7_Image_1.png",
-        "Image_2": "S_FeiyapTank_7\\S_FeiyapTank_7_Image_2.png"
+        "Image_2": "S_FeiyapTank_7\\S_FeiyapTank_7_Image_2.png",
+        "SkillExtended": [
+            "FeiyapTank.S_FeiyapTank_7"
+        ],
+        "Effect_Self": "SE_S_S_FeiyapTank_7"
     }
 }

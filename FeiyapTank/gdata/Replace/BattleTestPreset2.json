@@ -1,5 +1,30 @@
 {
     "BattleTestPreset2": {
-        "_gdeSchema": "Preset"
+        "_gdeSchema": "Preset",
+        "AP": 10,
+        "Party": [
+            "FeiyapTank"
+        ],
+        "PartySkills": [
+            [
+                "S_FeiyapTank_0",
+                "S_FeiyapTank_1",
+                "S_FeiyapTank_2",
+                "S_FeiyapTank_3",
+                "S_FeiyapTank_4",
+                "S_FeiyapTank_5",
+                "S_FeiyapTank_6",
+                "S_FeiyapTank_7"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ]
+        ],
+        "Level": 6,
+        "PartyBasicSkill": [
+            "S_TW_Blue_5"
+        ]
     }
 }

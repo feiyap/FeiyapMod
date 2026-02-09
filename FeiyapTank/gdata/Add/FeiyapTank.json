@@ -2,7 +2,7 @@
     "FeiyapTank": {
         "_gdeSchema": "Character",
         "Role": "Role_Tank",
-        "PassiveClassName": "",
+        "PassiveClassName": "FeiyapTank.P_FeiyapTank",
         "PassiveUnlockLV1": false,
         "face": "FeiyapTank\\FeiyapTankBattleFace.png",
         "name": "剑圣·绯夜氏",
@@ -60,7 +60,17 @@
             "x": 5,
             "y": 45
         },
-        "PassiveDes": "受到伤害时，若自身有技能处于倒计时期间，本回合内攻击力提升那个伤害的值。",
-        "PassiveName": "切舍御免"
+        "PassiveDes": "受到伤害时，本回合内攻击力提升那个伤害的值。",
+        "PassiveName": "切舍御免",
+        "CollectionSprite_Cover": "FeiyapTank\\FeiyapTankCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "FeiyapTank\\FeiyapTankCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Def": 2,
+        "StatView_Sup": 1,
+        "StatView_Debuff": 1,
+        "StatView_CC": 1,
+        "StatView_Dot": 1,
+        "StatView_Difficult": 2,
+        "PassiveIcon": "FeiyapTank\\FeiyapTankPassiveIcon.png"
     }
 }

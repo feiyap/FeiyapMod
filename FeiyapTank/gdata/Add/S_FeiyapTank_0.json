@@ -2,7 +2,7 @@
     "S_FeiyapTank_0": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/slash1",
         "Rare": false,
         "Target": "enemy",
         "NODOD": false,
@@ -26,6 +26,10 @@
         "Effect_Target": "SE_T_S_FeiyapTank_0",
         "Image_0": "S_FeiyapTank_0\\S_FeiyapTank_0_Image_0.png",
         "Image_1": "S_FeiyapTank_0\\S_FeiyapTank_0_Image_1.png",
-        "Image_2": "S_FeiyapTank_0\\S_FeiyapTank_0_Image_2.png"
+        "Image_2": "S_FeiyapTank_0\\S_FeiyapTank_0_Image_2.png",
+        "SkillExtended": [
+            "FeiyapTank.S_FeiyapTank_0"
+        ],
+        "Effect_Self": "SE_S_S_FeiyapTank_0"
     }
 }
