@@ -22,6 +22,7 @@ namespace FeiyapTank
         {
             base.Init();
             this.PlusStat.DMGTaken = 50;
+            this.PlusStat.Strength = true;
         }
     }
 }

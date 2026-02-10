@@ -6,7 +6,7 @@
         "Target": "all_enemy",
         "Fatal": false,
         "Name": "天五月",
-        "Description": "自己受到伤害时，这个技能的费用降低 1 点。\r\n居合 - 以倒计时5释放。",
+        "Description": "握在手中时，每当队友受到伤害，这个技能的费用降低 1 点。\r\n居合 - 对所有敌人施加<sprite=2><color=yellow>发怒！</color>。",
         "User": "FeiyapTank",
         "UseAp": 5,
         "NotCount": false,
@@ -16,6 +16,22 @@
         "Image_2": "S_FeiyapTank_3\\S_FeiyapTank_3_Image_2.png",
         "SkillExtended": [
             "FeiyapTank.S_FeiyapTank_3"
-        ]
+        ],
+        "PlusKeyWords": [
+            "Keyword_Iaido"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
     }
 }

@@ -19,27 +19,27 @@ namespace FeiyapTank
     /// Passive:
     /// 受到伤害时，若自身有技能处于倒计时期间，本回合内攻击力提升那个伤害的值。
     /// </summary>
-    public class P_FeiyapTank : Passive_Char, IP_PlayerTurn, IP_DamageTake
+    public class P_FeiyapTank : Passive_Char, IP_PlayerTurn
     {
-        //public void Turn()
-        //{
-        //    if (!this.BChar.BuffFind("B_FeiyapTank_P"))
-        //    {
-        //        this.BChar.BuffAdd("B_FeiyapTank_P", this.BChar);
-        //    }
-        //}
-
-        public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
+        public void Turn()
         {
-            //if (CustomMethods.GetCastingSkills(this.BChar).Count > 0)
+            if (!this.BChar.BuffFind("B_FeiyapTank_P"))
             {
-                this.PlusStat.atk += Dmg;
+                this.BChar.BuffAdd("B_FeiyapTank_P", this.BChar);
             }
         }
 
-        public void Turn()
-        {
-            this.PlusStat.atk = 0;
-        }
+        //public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
+        //{
+        //    //if (CustomMethods.GetCastingSkills(this.BChar).Count > 0)
+        //    {
+        //        this.PlusStat.atk += Dmg;
+        //    }
+        //}
+
+        //public void Turn()
+        //{
+        //    this.PlusStat.atk = 0;
+        //}
     }
 }

@@ -2,9 +2,13 @@
     "B_FeiyapTank_1": {
         "_gdeSchema": "Buff",
         "ClassName": "FeiyapTank.B_FeiyapTank_1",
-        "BuffTag": "null",
-        "Name": "哑光",
-        "Description": "叠加至 2 层时，自身从手中打出的下 1 个的攻击技能会消耗所有“哑光”层数并施加(100%干扰)眩晕。",
-        "MaxStack": 2
+        "BuffTag": "Debuff",
+        "Name": "皮开肉绽",
+        "Description": "受到痛苦伤害提升40%。",
+        "MaxStack": 1,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (12)",
+        "LifeTime": 4,
+        "Debuff": true,
+        "TagPer": 110
     }
 }

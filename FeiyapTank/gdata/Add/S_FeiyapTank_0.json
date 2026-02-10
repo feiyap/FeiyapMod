@@ -4,7 +4,7 @@
         "Category": "null",
         "Particle": "Particle/slash1",
         "Rare": false,
-        "Target": "enemy",
+        "Target": "enemy_PlusRandom",
         "NODOD": false,
         "NotCount": false,
         "NotChuck": false,
@@ -20,7 +20,7 @@
         "EnemyPreview": false,
         "UnknownTarget": false,
         "Name": "胧影",
-        "Description": "居合 - 以倒计时2对随机敌人释放。",
+        "Description": "同时指向 1 个随机敌人。\r\n居合 - 以倒计时3对随机敌人释放。",
         "UseAp": 1,
         "User": "FeiyapTank",
         "Effect_Target": "SE_T_S_FeiyapTank_0",
@@ -30,6 +30,9 @@
         "SkillExtended": [
             "FeiyapTank.S_FeiyapTank_0"
         ],
-        "Effect_Self": "SE_S_S_FeiyapTank_0"
+        "Effect_Self": "SE_S_S_FeiyapTank_0",
+        "PlusKeyWords": [
+            "Keyword_Iaido"
+        ]
     }
 }

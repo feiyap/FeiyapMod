@@ -17,14 +17,11 @@ namespace FeiyapTank
     /// 哭血
     /// &user受到伤害时，自身受到相同数值的痛苦伤害。
     /// </summary>
-    public class B_FeiyapTank_4 : Buff, IP_DamageTake
+    public class B_FeiyapTank_4 : Buff
     {
-        public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
+        public override string DescExtended()
         {
-            if (Target == this.Usestate_L)
-            {
-                this.BChar.Damage(this.Usestate_L, Dmg, Cri, true);
-            }
+            return this.BuffData.Description.Replace("&user", this.Usestate_L.Info.Name);
         }
     }
 }

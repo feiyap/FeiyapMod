@@ -22,7 +22,7 @@ namespace FeiyapTank
     {
         public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
         {
-            if (Dmg > 0 && Target == this.BChar)
+            if (Dmg > 0 && Target.Info.Ally)
             {
                 this.APChange -= 1;
             }
@@ -32,9 +32,10 @@ namespace FeiyapTank
         {
             if (!HandFullWaste && skill == this.MySkill)
             {
-                Skill tempSkill = skill.CloneSkill(true, skill.Master, null, false);
-                tempSkill.Counting = 5;
-                BattleSystem.DelayInputAfter(BattleSystem.instance.SkillRandomUseIenum(tempSkill.Master, tempSkill, false, false, false));
+                foreach (BattleChar be in BattleSystem.instance.EnemyList)
+                {
+                    be.BuffAdd("B_Taunt", this.BChar, false, 100);
+                }
             }
         }
     }

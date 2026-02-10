@@ -1,11 +1,12 @@
 {
     "B_FeiyapTank_4_1": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "FeiyapTank.B_FeiyapTank_4_1",
         "BuffTag": "null",
         "Name": "血泣成溪",
         "Description": "",
         "Tick": "SE_Tick_B_FeiyapTank_4_1",
-        "LifeTime": 2
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/blue/blue_20"
     }
 }

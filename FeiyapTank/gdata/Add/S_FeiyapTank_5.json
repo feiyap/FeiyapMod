@@ -17,7 +17,7 @@
         "SkillExtended": [
             "FeiyapTank.S_FeiyapTank_5"
         ],
-        "Effect_Self": "SE_S_S_FeiyapTank_5",
+        "Effect_Self": "null",
         "NoBasicSkill": false
     }
 }

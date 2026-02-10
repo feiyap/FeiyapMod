@@ -8,6 +8,7 @@
         "Tick": "SE_Tick_B_FeiyapTank_Rare_1",
         "Debuff": true,
         "TagPer": 200,
-        "Cantdisable": false
+        "Cantdisable": false,
+        "Icon": "B_FeiyapTank_Rare_1\\B_FeiyapTank_Rare_1_Icon.png"
     }
 }

@@ -1,12 +1,18 @@
 {
     "B_FeiyapTank_4": {
         "_gdeSchema": "Buff",
-        "ClassName": "",
+        "ClassName": "FeiyapTank.B_FeiyapTank_4",
         "BuffTag": "DOT",
         "Name": "哭血",
-        "Description": "&user受到伤害时，自身受到相同数值的痛苦伤害。",
+        "Description": "&user受到伤害时，自身受到相同数值的<color=purple>痛苦伤害</color>。",
         "Debuff": true,
         "TagPer": 120,
-        "LifeTime": 5
+        "LifeTime": 5,
+        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_21",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "UseSkillDebuff": false,
+        "Caution": false
     }
 }

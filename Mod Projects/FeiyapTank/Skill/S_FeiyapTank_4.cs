@@ -27,7 +27,14 @@ namespace FeiyapTank
                 {
                     be.BuffAdd("B_FeiyapTank_4", this.BChar);
                 }
+                this.BChar.BuffAdd("B_FeiyapTank_4_2", this.BChar);
             }
+        }
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+        {
+            base.SkillUseSingle(SkillD, Targets);
+            this.BChar.BuffAdd("B_FeiyapTank_4_2", this.BChar);
         }
     }
 }

@@ -4,8 +4,8 @@
         "ClassName": "FeiyapTank.B_FeiyapTank_Taunt",
         "BuffTag": "CrowdControl",
         "Name": "交手",
-        "Description": "",
-        "Icon": "Image/Buff/Skill_Icon_Pack/red/red_07",
+        "Description": "无法攻击&target以外的目标。\r\n攻击目标时解除。",
+        "Icon": "B_FeiyapTank_Taunt\\B_FeiyapTank_Taunt_Icon.png",
         "Debuff": true,
         "TagPer": 115,
         "Cantdisable": false

@@ -24,6 +24,9 @@ namespace FeiyapTank
             base.SkillTargetSingle(Targets);
 
             Targets[0].Delete(false);
+
+            BattleSystem.instance.AllyTeam.DiscardCount += 1;
+            BattleSystem.instance.AllyTeam.WaitCount += 1;
         }
     }
 }

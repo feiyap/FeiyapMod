@@ -1,0 +1,7 @@
+{
+    "Keyword_Iaido": {
+        "_gdeSchema": "SkillKeyword",
+        "Name": "居合",
+        "Desc": "通过包含交换在内的手段丢弃技能时，触发居合效果。"
+    }
+}

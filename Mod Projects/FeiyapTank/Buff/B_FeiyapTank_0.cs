@@ -18,16 +18,12 @@ namespace FeiyapTank
     /// 不会因为受到伤害导致无法战斗。
     /// 回合开始时解除 1 层。
     /// </summary>
-    public class B_FeiyapTank_0 : Buff, IP_DeadResist, IP_PlayerTurn
+    public class B_FeiyapTank_0 : Buff
     {
-        public bool DeadResist()
+        public override void Init()
         {
-            return true;
-        }
-
-        public void Turn()
-        {
-            this.SelfStackDestroy();
+            base.Init();
+            this.PlusStat.DMGTaken = 5 * StackNum;
         }
     }
 }

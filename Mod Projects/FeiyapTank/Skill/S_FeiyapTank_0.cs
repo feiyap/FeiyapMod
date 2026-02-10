@@ -24,7 +24,7 @@ namespace FeiyapTank
             if (!HandFullWaste && skill == this.MySkill && !this.MySkill.isExcept)
             {
                 Skill tempSkill = skill.CloneSkill(true, skill.Master, null, false);
-                tempSkill.Counting = 2;
+                tempSkill.Counting = 3;
                 BattleSystem.DelayInputAfter(BattleSystem.instance.SkillRandomUseIenum(tempSkill.Master, tempSkill, false, false, false));
             }
         }

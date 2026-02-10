@@ -3,14 +3,17 @@
         "_gdeSchema": "Buff",
         "Cantdisable": false,
         "ClassName": "FeiyapTank.B_FeiyapTank_0",
-        "BuffTag": "null",
-        "Name": "错身",
-        "Description": "不会因为受到伤害导致无法战斗。\n回合开始时解除 1 层。",
-        "LifeTime": 0,
-        "MaxStack": 2,
+        "BuffTag": "Debuff",
+        "Name": "碎甲",
+        "Description": "",
+        "LifeTime": 4,
+        "MaxStack": 5,
         "Hide": false,
         "IsFieldBuff": false,
         "UseSkillDebuff": false,
-        "Caution": false
+        "Caution": false,
+        "Debuff": true,
+        "TagPer": 105,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_2Newicons/EA_1_2newicons (2)"
     }
 }

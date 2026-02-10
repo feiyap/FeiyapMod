@@ -2,10 +2,10 @@
     "S_FeiyapTank_1": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Ilya/Ilya_1",
         "Target": "enemy",
         "Name": "离群别舞",
-        "Description": "释放时，若目标没有行动倒计时，恢复 2 点法力值。\r\n居合 - 选择 1 个敌人，对其施加“交手”，然后以倒计时3释放。",
+        "Description": "释放时，若目标没有行动倒计时，恢复 2 点法力值。\r\n居合 - 以倒计时2对随机敌人释放。",
         "UseAp": 2,
         "IgnoreTaunt": true,
         "Effect_Target": "SE_T_S_FeiyapTank_1",
@@ -14,6 +14,24 @@
         "Image_2": "S_FeiyapTank_1\\S_FeiyapTank_1_Image_2.png",
         "Track": false,
         "NotCount": false,
-        "NoBasicSkill": false
+        "NoBasicSkill": false,
+        "SkillExtended": [
+            "FeiyapTank.S_FeiyapTank_1"
+        ],
+        "PlusKeyWords": [
+            "Keyword_Iaido"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "User": "FeiyapTank"
     }
 }

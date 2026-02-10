@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>FeiyapTank20262910409</AssemblyName>
+    <AssemblyName>FeiyapTank202621110117</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -416,7 +416,7 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-                <!-- Compile ItemGroup Start-->
+                                              <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="DiscardPatch.cs" />
     <Compile Include="FeiyapTank_ModDefinition.cs" />
@@ -424,9 +424,12 @@
     <Compile Include="FeiyapTank_Plugin.cs" />
     <Compile Include="Buff\B_FeiyapTank_0.cs" />
     <Compile Include="Buff\B_FeiyapTank_1.cs" />
+    <Compile Include="Buff\B_FeiyapTank_2.cs" />
     <Compile Include="Buff\B_FeiyapTank_3.cs" />
     <Compile Include="Buff\B_FeiyapTank_4.cs" />
     <Compile Include="Buff\B_FeiyapTank_4_1.cs" />
+    <Compile Include="Buff\B_FeiyapTank_4_2.cs" />
+    <Compile Include="Buff\B_FeiyapTank_6.cs" />
     <Compile Include="Buff\B_FeiyapTank_7.cs" />
     <Compile Include="Buff\B_FeiyapTank_P.cs" />
     <Compile Include="Buff\B_FeiyapTank_Rare_1.cs" />

@@ -27,12 +27,7 @@ namespace FeiyapTank
             {
                 count += bc.GetStat.maxhp - bc.HP;
             }
-            PlusDamage = BattleChar.CalculationResult((float)Damage, count * 2, 0);
-        }
-
-        public override bool Terms()
-        {
-            return base.Terms() && this.BChar.HP < 1;
+            PlusDamage = BattleChar.CalculationResult((float)Damage, count * 5, 0);
         }
     }
 }

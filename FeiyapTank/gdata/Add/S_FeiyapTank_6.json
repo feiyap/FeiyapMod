@@ -28,6 +28,7 @@
         "Track": false,
         "Fatal": false,
         "EnemyPreview": false,
-        "UnknownTarget": false
+        "UnknownTarget": false,
+        "Effect_Self": "SE_S_S_FeiyapTank_6"
     }
 }

@@ -4,29 +4,38 @@ namespace FeiyapTank
     public static class ModItemKeys
     {
 		/// <summary>
-		/// 错身
-		/// 不会因为受到伤害导致无法战斗。
-		/// 回合开始时解除 1 层。
+		/// 碎甲
 		/// </summary>
         public static string Buff_B_FeiyapTank_0 = "B_FeiyapTank_0";
 		/// <summary>
-		/// 哑光
-		/// 叠加至 2 层时，自身从手中打出的下 1 个的攻击技能会消耗所有“哑光”层数并施加(100%干扰)眩晕。
+		/// 皮开肉绽
+		/// 受到痛苦伤害提升40%。
 		/// </summary>
         public static string Buff_B_FeiyapTank_1 = "B_FeiyapTank_1";
 		/// <summary>
-		/// 神罚
+		/// 错身
+		/// 不会因为受到伤害导致无法战斗。
+		/// 回合结束时移除 1 层。
 		/// </summary>
-        public static string Buff_B_FeiyapTank_3 = "B_FeiyapTank_3";
+        public static string Buff_B_FeiyapTank_2 = "B_FeiyapTank_2";
 		/// <summary>
 		/// 哭血
-		/// &user受到伤害时，自身受到相同数值的痛苦伤害。
+		/// &user受到伤害时，自身受到相同数值的<color=purple>痛苦伤害</color>。
 		/// </summary>
         public static string Buff_B_FeiyapTank_4 = "B_FeiyapTank_4";
 		/// <summary>
 		/// 血泣成溪
 		/// </summary>
         public static string Buff_B_FeiyapTank_4_1 = "B_FeiyapTank_4_1";
+		/// <summary>
+		/// 红血
+		/// </summary>
+        public static string Buff_B_FeiyapTank_4_2 = "B_FeiyapTank_4_2";
+		/// <summary>
+		/// 剑吻
+		/// 受到伤害时，对随机敌人发起反击，造成 &a 伤害(攻击力的75%)。
+		/// </summary>
+        public static string Buff_B_FeiyapTank_6 = "B_FeiyapTank_6";
 		/// <summary>
 		/// 神速
 		/// 其他调查员受到攻击时，自身代为承受。
@@ -51,18 +60,25 @@ namespace FeiyapTank
         public static string Buff_B_FeiyapTank_Rare_1_1 = "B_FeiyapTank_Rare_1_1";
 		/// <summary>
 		/// 交手
+		/// 无法攻击&target以外的目标。
+		/// 攻击目标时解除。
 		/// </summary>
         public static string Buff_B_FeiyapTank_Taunt = "B_FeiyapTank_Taunt";
 		/// <summary>
 		/// 剑圣·绯夜氏
 		/// Passive:
-		/// 受到伤害时，本回合内攻击力提升那个伤害的值。
+		/// 受到伤害时，若有自己的技能处于倒计时，本回合内攻击力提升那个伤害的值。
 		/// </summary>
         public static string Character_FeiyapTank = "FeiyapTank";
+		/// <summary>
+		/// 居合
+		/// 通过包含交换在内的手段丢弃技能时，触发居合效果。
+		/// </summary>
+        public static string SkillKeyword_Keyword_Iaido = "Keyword_Iaido";
         public static string SkillEffect_SE_S_S_FeiyapTank_0 = "SE_S_S_FeiyapTank_0";
         public static string SkillEffect_SE_S_S_FeiyapTank_2 = "SE_S_S_FeiyapTank_2";
         public static string SkillEffect_SE_S_S_FeiyapTank_4 = "SE_S_S_FeiyapTank_4";
-        public static string SkillEffect_SE_S_S_FeiyapTank_5 = "SE_S_S_FeiyapTank_5";
+        public static string SkillEffect_SE_S_S_FeiyapTank_6 = "SE_S_S_FeiyapTank_6";
         public static string SkillEffect_SE_S_S_FeiyapTank_7 = "SE_S_S_FeiyapTank_7";
         public static string SkillEffect_SE_S_S_FeiyapTank_Rare_1 = "SE_S_S_FeiyapTank_Rare_1";
         public static string SkillEffect_SE_S_S_FeiyapTank_Rare_3 = "SE_S_S_FeiyapTank_Rare_3";
@@ -74,30 +90,31 @@ namespace FeiyapTank
         public static string SkillEffect_SE_T_S_FeiyapTank_3 = "SE_T_S_FeiyapTank_3";
         public static string SkillEffect_SE_T_S_FeiyapTank_4 = "SE_T_S_FeiyapTank_4";
         public static string SkillEffect_SE_T_S_FeiyapTank_5 = "SE_T_S_FeiyapTank_5";
+        public static string SkillEffect_SE_T_S_FeiyapTank_6_0 = "SE_T_S_FeiyapTank_6_0";
         public static string SkillEffect_SE_T_S_FeiyapTank_Rare_1 = "SE_T_S_FeiyapTank_Rare_1";
         public static string SkillEffect_SE_T_S_FeiyapTank_Rare_2 = "SE_T_S_FeiyapTank_Rare_2";
         public static string SkillEffect_SE_T_S_FeiyapTank_Rare_3 = "SE_T_S_FeiyapTank_Rare_3";
 		/// <summary>
 		/// 胧影
-		/// 居合 - 以倒计时2对随机敌人释放。
+		/// 同时指向 1 个随机敌人。
+		/// 居合 - 以倒计时3对随机敌人释放。
 		/// </summary>
         public static string Skill_S_FeiyapTank_0 = "S_FeiyapTank_0";
 		/// <summary>
 		/// 离群别舞
 		/// 释放时，若目标没有行动倒计时，恢复 2 点法力值。
-		/// 居合 - 选择 1 个敌人，对其施加“交手”，然后以倒计时3释放。
+		/// 居合 - 以倒计时2对随机敌人释放。
 		/// </summary>
         public static string Skill_S_FeiyapTank_1 = "S_FeiyapTank_1";
 		/// <summary>
 		/// 朔风切
-		/// 自身体力值低于 1 时才可使用。
-		/// 释放时，所有调查员每失去 1 体力值，这个技能的伤害增加2%。
+		/// 释放时，所有调查员每失去 1 体力值，这个技能的伤害增加5%。
 		/// </summary>
         public static string Skill_S_FeiyapTank_2 = "S_FeiyapTank_2";
 		/// <summary>
 		/// 天五月
-		/// 自己受到伤害时，这个技能的费用降低 1 点。
-		/// 居合 - 以倒计时5释放。
+		/// 握在手中时，每当队友受到伤害，这个技能的费用降低 1 点。
+		/// 居合 - 对所有敌人施加<sprite=2><color=yellow>发怒！</color>。
 		/// </summary>
         public static string Skill_S_FeiyapTank_3 = "S_FeiyapTank_3";
 		/// <summary>
@@ -116,8 +133,12 @@ namespace FeiyapTank
 		/// </summary>
         public static string Skill_S_FeiyapTank_6 = "S_FeiyapTank_6";
 		/// <summary>
+		/// 斩立决
+		/// </summary>
+        public static string Skill_S_FeiyapTank_6_0 = "S_FeiyapTank_6_0";
+		/// <summary>
 		/// 踏影步
-		/// 丢弃目标技能。
+		/// 丢弃目标技能。获得 1 次等待次数和 1 次交换次数。
 		/// </summary>
         public static string Skill_S_FeiyapTank_7 = "S_FeiyapTank_7";
 		/// <summary>

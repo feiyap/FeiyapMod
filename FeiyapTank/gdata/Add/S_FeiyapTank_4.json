@@ -16,6 +16,10 @@
             "FeiyapTank.S_FeiyapTank_4"
         ],
         "Effect_Self": "SE_S_S_FeiyapTank_4",
-        "NotCount": false
+        "NotCount": false,
+        "NoBasicSkill": false,
+        "PlusKeyWords": [
+            "Keyword_Iaido"
+        ]
     }
 }

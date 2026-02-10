@@ -1,0 +1,11 @@
+{
+    "B_FeiyapTank_2": {
+        "_gdeSchema": "Buff",
+        "ClassName": "FeiyapTank.B_FeiyapTank_2",
+        "BuffTag": "null",
+        "Name": "错身",
+        "Description": "不会因为受到伤害导致无法战斗。\n回合结束时移除 1 层。",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (30)",
+        "MaxStack": 2
+    }
+}

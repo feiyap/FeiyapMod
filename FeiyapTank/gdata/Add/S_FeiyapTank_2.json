@@ -6,7 +6,7 @@
         "Target": "enemy",
         "Track": false,
         "Name": "朔风切",
-        "Description": "自身体力值低于 1 时才可使用。\r\n释放时，所有调查员每失去 1 体力值，这个技能的伤害增加2%。",
+        "Description": "释放时，所有调查员每失去 1 体力值，这个技能的伤害增加5%。",
         "User": "FeiyapTank",
         "UseAp": 3,
         "NotCount": false,
@@ -19,6 +19,8 @@
         "Effect_Self": "SE_S_S_FeiyapTank_2",
         "SkillExtended": [
             "FeiyapTank.S_FeiyapTank_2"
-        ]
+        ],
+        "Rare": false,
+        "NoBasicSkill": false
     }
 }

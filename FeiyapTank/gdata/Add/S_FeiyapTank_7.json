@@ -6,7 +6,7 @@
         "Target": "skill",
         "NotCount": true,
         "Name": "踏影步",
-        "Description": "丢弃目标技能。",
+        "Description": "丢弃目标技能。获得 1 次等待次数和 1 次交换次数。",
         "User": "FeiyapTank",
         "NoBasicSkill": true,
         "Image_0": "S_FeiyapTank_7\\S_FeiyapTank_7_Image_0.png",

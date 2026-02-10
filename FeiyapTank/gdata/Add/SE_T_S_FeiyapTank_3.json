@@ -4,7 +4,7 @@
         "HIT": 100,
         "DMG_Per": 80,
         "Buffs": [
-            "B_FeiyapTank_3",
+            "B_FeiyapTank_0",
             "B_Taunt"
         ],
         "BuffPlusTagPer": [

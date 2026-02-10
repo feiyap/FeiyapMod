@@ -2,8 +2,8 @@
     "SE_S_S_FeiyapTank_Rare_3": {
         "_gdeSchema": "SkillEffect",
         "Buffs": [
-            "B_FeiyapTank_0",
-            "B_FeiyapTank_0"
+            "B_FeiyapTank_2",
+            "B_FeiyapTank_2"
         ],
         "BuffPlusTagPer": [
             0,

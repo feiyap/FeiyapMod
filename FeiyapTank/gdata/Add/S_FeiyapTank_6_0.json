@@ -1,0 +1,13 @@
+{
+    "S_FeiyapTank_6_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_0_new",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "斩立决",
+        "Description": "",
+        "NoDrop": true,
+        "Effect_Target": "SE_T_S_FeiyapTank_6_0"
+    }
+}

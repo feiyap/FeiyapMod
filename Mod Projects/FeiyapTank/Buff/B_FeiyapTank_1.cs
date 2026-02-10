@@ -13,24 +13,28 @@ using ChronoArkMod.Template;
 using Debug = UnityEngine.Debug;
 namespace FeiyapTank
 {
-	/// <summary>
-	/// 哑光
-	/// 叠加至 2 层时，自身从手中打出的下 1 个的攻击技能会消耗所有“哑光”层数并施加(100%干扰)眩晕。
-	/// </summary>
-    public class B_FeiyapTank_1:Buff
+    /// <summary>
+    /// 皮开肉绽
+    /// 受到痛苦伤害提升40%。
+    /// </summary>
+    public class B_FeiyapTank_1:Buff, IP_DamageTakeChange
     {
-        public override void FixedUpdate()
+        public int DamageTakeChange(BattleChar Hit, BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, bool Preview = false)
         {
-            base.FixedUpdate();
-            if (this.BChar.BuffReturn("B_FeiyapTank_1").StackNum >= 2)
+            if (!NODEF)
             {
-                this.LucySkillExBuff = (BuffSkillExHand)Skill_Extended.DataToExtended("SE_FeiyapTank_1");
+                return Dmg;
+            }
+            else
+            {
+                return (int)(Dmg * 1.4f);
             }
         }
 
-        public override bool CanSkillBuffAdd(Skill AddedSkill, int Index)
+        public override void Init()
         {
-            return AddedSkill.Master == this.BChar && AddedSkill.IsDamage && AddedSkill.ExtendedFind_DataName("SE_FeiyapTank_1") == null;
+            base.Init();
+            this.OnePassive = true;
         }
     }
 }
