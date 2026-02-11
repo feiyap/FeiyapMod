@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_Reisen": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Reisen",
+        "Dialogues": [
+            "[B]绯夜小姐~今天的药送来了哦。",
+            "[A]谢谢你，铃仙小姐。抱歉，背上的伤口能帮我涂一下药吗？",
+            "[B]药都是师傅配的，我只不过是搬运过来而已啦。怎么样，还疼吗？",
+            "[A]多亏了你的福，已经没事了。"
+        ]
+    }
+}

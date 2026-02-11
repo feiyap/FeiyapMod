@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_HouraisanKaguya": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "HouraisanKaguya",
+        "Dialogues": [
+            "[B]为、为什么直勾勾地看着我？",
+            "[A]果然是如传闻中一样美丽，辉夜姬大人。",
+            "[A]果然是如传闻中一样美丽，辉夜姬大人。",
+            "[B]噫——！永琳！！有变态啊！！！"
+        ]
+    }
+}

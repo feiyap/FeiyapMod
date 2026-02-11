@@ -6,7 +6,7 @@
         "Target": "enemy",
         "Track": false,
         "Name": "朔风切",
-        "Description": "释放时，所有调查员每失去 1 体力值，这个技能的伤害增加5%。",
+        "Description": "释放时，所有调查员每失去 1 体力值，这个技能的伤害增加5%。\n居合 - 自身获得 2 层<color=green>错身</color>。",
         "User": "FeiyapTank",
         "UseAp": 3,
         "NotCount": false,
@@ -21,6 +21,18 @@
             "FeiyapTank.S_FeiyapTank_2"
         ],
         "Rare": false,
-        "NoBasicSkill": false
+        "NoBasicSkill": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "PlusKeyWords": [
+            "Keyword_Iaido"
+        ]
     }
 }

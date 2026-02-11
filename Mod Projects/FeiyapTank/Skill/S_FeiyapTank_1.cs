@@ -20,17 +20,17 @@ namespace FeiyapTank
 	/// </summary>
     public class S_FeiyapTank_1:Skill_Extended, IP_DiscardBefore
     {
-        public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
-        {
-            if (hit is BattleEnemy)
-            {
-                BattleEnemy battleEnemy = hit as BattleEnemy;
-                if (battleEnemy.SkillQueue.Count == 0)
-                {
-                    BattleSystem.instance.AllyTeam.AP += 2;
-                }
-            }
-        }
+        //public override void AttackEffectSingle(BattleChar hit, SkillParticle SP, int DMG, int Heal)
+        //{
+        //    if (hit is BattleEnemy)
+        //    {
+        //        BattleEnemy battleEnemy = hit as BattleEnemy;
+        //        if (battleEnemy.SkillQueue.Count == 0)
+        //        {
+        //            BattleSystem.instance.AllyTeam.AP += 2;
+        //        }
+        //    }
+        //}
 
         public void DiscardBefore(bool Click, Skill skill, bool HandFullWaste)
         {

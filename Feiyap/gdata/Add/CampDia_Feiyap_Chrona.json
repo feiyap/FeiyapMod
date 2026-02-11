@@ -1,0 +1,14 @@
+{
+    "CampDia_Feiyap_Chrona": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharB": "Chrona",
+        "CharA": "Feiyap",
+        "Dialogues": [
+            "[B]你身上的可能性……远比其他人密集得多。",
+            "[A]恐怕你看到的是万千种平行世界的「我」吧。",
+            "[B]这样吗？这就不奇怪了……",
+            "[B]不过现在的您又是怎样的存在呢，绯夜氏小姐？",
+            "[A]……只是个路过的武士罢了。"
+        ]
+    }
+}

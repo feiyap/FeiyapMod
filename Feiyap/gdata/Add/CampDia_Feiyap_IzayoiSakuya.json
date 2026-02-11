@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_IzayoiSakuya": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "IzayoiSakuya",
+        "Dialogues": [
+            "[A]抱歉啊，咲夜大人，又得麻烦您来帮我处理伤口。",
+            "[B]从伤口都能看到骨头了……真担心你会不会突然死掉啊。",
+            "[A]没关系的，区区致命伤，睡一觉就好了哦。",
+            "[B]……你这家伙真的还算是人类吗？"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_Suwako": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Suwako",
+        "Dialogues": [
+            "[B]信仰♪信仰♪绯夜要不要来信仰我呀？",
+            "[A]唔嗯……说不定会哦？",
+            "[B]那我就等你死之前的一瞬间，再来强制征收你的信仰吧♪",
+            "[A]……听起来好邪恶的样子……"
+        ]
+    }
+}

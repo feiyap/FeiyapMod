@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_Inaba": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Inaba",
+        "Dialogues": [
+            "[B]呀、呀，大姐头，今天要去砍谁呢？",
+            "[A]大姐头？我看起来很像那种人设吗？",
+            "[B]咱的眼光绝对没错啦！大姐头肯定会保护咱的对吧！",
+            "[A]唉，既然你都这么说了……"
+        ]
+    }
+}

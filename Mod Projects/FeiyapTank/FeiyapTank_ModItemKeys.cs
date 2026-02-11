@@ -33,7 +33,7 @@ namespace FeiyapTank
         public static string Buff_B_FeiyapTank_4_2 = "B_FeiyapTank_4_2";
 		/// <summary>
 		/// 剑吻
-		/// 受到伤害时，对随机敌人发起反击，造成 &a 伤害(攻击力的75%)。
+		/// 每失去1%体力值，防御力提升0.5%。
 		/// </summary>
         public static string Buff_B_FeiyapTank_6 = "B_FeiyapTank_6";
 		/// <summary>
@@ -76,8 +76,8 @@ namespace FeiyapTank
 		/// </summary>
         public static string SkillKeyword_Keyword_Iaido = "Keyword_Iaido";
         public static string SkillEffect_SE_S_S_FeiyapTank_0 = "SE_S_S_FeiyapTank_0";
+        public static string SkillEffect_SE_S_S_FeiyapTank_1 = "SE_S_S_FeiyapTank_1";
         public static string SkillEffect_SE_S_S_FeiyapTank_2 = "SE_S_S_FeiyapTank_2";
-        public static string SkillEffect_SE_S_S_FeiyapTank_4 = "SE_S_S_FeiyapTank_4";
         public static string SkillEffect_SE_S_S_FeiyapTank_6 = "SE_S_S_FeiyapTank_6";
         public static string SkillEffect_SE_S_S_FeiyapTank_7 = "SE_S_S_FeiyapTank_7";
         public static string SkillEffect_SE_S_S_FeiyapTank_Rare_1 = "SE_S_S_FeiyapTank_Rare_1";
@@ -102,13 +102,13 @@ namespace FeiyapTank
         public static string Skill_S_FeiyapTank_0 = "S_FeiyapTank_0";
 		/// <summary>
 		/// 离群别舞
-		/// 释放时，若目标没有行动倒计时，恢复 2 点法力值。
 		/// 居合 - 以倒计时2对随机敌人释放。
 		/// </summary>
         public static string Skill_S_FeiyapTank_1 = "S_FeiyapTank_1";
 		/// <summary>
 		/// 朔风切
 		/// 释放时，所有调查员每失去 1 体力值，这个技能的伤害增加5%。
+		/// 居合 - 自身获得 2 层<color=green>错身</color>。
 		/// </summary>
         public static string Skill_S_FeiyapTank_2 = "S_FeiyapTank_2";
 		/// <summary>

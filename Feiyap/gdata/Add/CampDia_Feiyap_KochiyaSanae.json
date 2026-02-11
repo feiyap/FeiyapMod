@@ -1,0 +1,14 @@
+{
+    "CampDia_Feiyap_KochiyaSanae": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "KochiyaSanae",
+        "Dialogues": [
+            "[B]绯夜的年龄跟我很近耶。你在外界应该也是JK吧？是哪所学校的？！",
+            "[A]我在的年代只有战争，小孩只能被迫拿起武器砍人哦。",
+            "[B]啊……抱歉……对不起……",
+            "[A]嘿嘿，其实是骗你的。",
+            "[B]啊——！真是的——！！绯夜——！！！"
+        ]
+    }
+}

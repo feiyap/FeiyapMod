@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_FlandreScarlet": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "FlandreScarlet",
+        "Dialogues": [
+            "[B]绯夜姐姐~今天也会陪芙兰玩吗？",
+            "[A]好呀。今天想玩些什么？",
+            "[B]那就来玩弹幕游戏吧！千万不要一不小心死掉了哦？",
+            "[A]哈哈，真是强人所难呢。那我就尽力而为吧。"
+        ]
+    }
+}

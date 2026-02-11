@@ -1,0 +1,14 @@
+{
+    "CampDia_Feiyap_FAlice": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "FAlice",
+        "Dialogues": [
+            "[A]如果有一天我死了的话，能把我的身体做成人偶吗？",
+            "[A]自己的身体被别人当成随意操纵的素材，想想就让人兴奋……",
+            "[B]喂……就算我是魔法使，也不会做出这种有悖人伦的事情。",
+            "[A]跪下来求你也不行吗？",
+            "[B]不行。"
+        ]
+    }
+}

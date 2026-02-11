@@ -1,0 +1,14 @@
+{
+    "CampDia_Feiyap_HakureiReimu": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "HakureiReimu",
+        "Dialogues": [
+            "[B]啊，绯夜。今天晚饭吃什么？",
+            "[A]我想想……烤鱼怎么样？",
+            "[B]自从和你组队以来，只要乖乖坐着就会有各种好吃的端上来。",
+            "[B]啊~啊~这样的日子再久一点的话，感觉就要被你养废了呢。",
+            "[A]只是粗茶淡饭而已。要是灵梦小姐愿意的话，我可以一直做下去。"
+        ]
+    }
+}

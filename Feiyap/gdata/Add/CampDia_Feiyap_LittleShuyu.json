@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_LittleShuyu": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "LittleShuyu",
+        "Dialogues": [
+            "[A]好疼……你不是坦克吗，为什么没有掉过血？",
+            "[B]因为人家全部躲掉了喵~",
+            "[A]躲掉的攻击全部打在我身上了啊。",
+            "[B]n(*≧▽≦*)n"
+        ]
+    }
+}

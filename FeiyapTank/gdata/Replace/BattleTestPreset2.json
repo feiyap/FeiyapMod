@@ -3,8 +3,7 @@
         "_gdeSchema": "Preset",
         "AP": 10,
         "Party": [
-            "FeiyapTank",
-            "Hein"
+            "FeiyapTank"
         ],
         "PartySkills": [
             [
@@ -18,23 +17,16 @@
                 "S_FeiyapTank_7",
                 "S_FeiyapTank_Rare_1",
                 "S_FeiyapTank_Rare_3"
-            ],
-            [
-                
             ]
         ],
         "PartyEquip": [
-            [
-                
-            ],
             [
                 
             ]
         ],
         "Level": 6,
         "PartyBasicSkill": [
-            "S_TW_Blue_5",
-            "S_LucyC_2"
+            "S_TW_Blue_5"
         ]
     }
 }

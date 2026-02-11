@@ -17,7 +17,7 @@ namespace FeiyapTank
 	/// 剑吻
 	/// 受到伤害时，对随机敌人发起反击，造成 &a 伤害(攻击力的75%)。
 	/// </summary>
-    public class B_FeiyapTank_6:Buff, IP_DamageTake
+    public class B_FeiyapTank_6:Buff
     {
         public override void Init()
         {
@@ -25,34 +25,40 @@ namespace FeiyapTank
             this.OnePassive = true;
         }
 
-        public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
+        public override void FixedUpdate()
         {
-            if (Target == this.BChar)
-            {
-                BattleSystem.DelayInputAfter(this.Attack());
-            }
+            base.FixedUpdate();
+            this.PlusStat.def = (this.BChar.GetStat.maxhp - this.BChar.HP) * 100 / this.BChar.GetStat.maxhp / 2;
         }
 
-        public IEnumerator Attack()
-        {
-            yield return new WaitForSecondsRealtime(0.25f);
+        //public void DamageTake(BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = null)
+        //{
+        //    if (Target == this.BChar)
+        //    {
+        //        BattleSystem.DelayInputAfter(this.Attack());
+        //    }
+        //}
 
-            Skill skill = Skill.TempSkill("S_FeiyapTank_6_0", this.BChar, this.BChar.MyTeam);
-            skill.isExcept = true;
-            skill.FreeUse = true;
-            skill.PlusHit = true;
+        //public IEnumerator Attack()
+        //{
+        //    yield return new WaitForSecondsRealtime(0.25f);
 
-            if (BattleSystem.instance.EnemyTeam.AliveChars.Count != 0)
-            {
-                this.BChar.ParticleOut(skill, BattleSystem.instance.EnemyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main));
-            }
+        //    Skill skill = Skill.TempSkill("S_FeiyapTank_6_0", this.BChar, this.BChar.MyTeam);
+        //    skill.isExcept = true;
+        //    skill.FreeUse = true;
+        //    skill.PlusHit = true;
 
-            yield break;
-        }
+        //    if (BattleSystem.instance.EnemyTeam.AliveChars.Count != 0)
+        //    {
+        //        this.BChar.ParticleOut(skill, BattleSystem.instance.EnemyTeam.AliveChars.Random(this.BChar.GetRandomClass().Main));
+        //    }
 
-        public override string DescExtended()
-        {
-            return this.BuffData.Description.Replace("&a", ((int)(this.BChar.GetStat.atk * 0.75f)).ToString());
-        }
+        //    yield break;
+        //}
+
+        //public override string DescExtended()
+        //{
+        //    return this.BuffData.Description.Replace("&a", ((int)(this.BChar.GetStat.atk * 0.75f)).ToString());
+        //}
     }
 }

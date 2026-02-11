@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\feiyaptank\\skill\\s_feiyaptank_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:skill\\s_feiyaptank_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\skill\\s_feiyaptank_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:skill\\s_feiyaptank_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\skill\\s_feiyaptank_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:skill\\s_feiyaptank_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_4_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_4_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,24 +47,12 @@
       "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:skill\\s_feiyaptank_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\feiyaptank\\skill\\s_feiyaptank_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\skill\\s_feiyaptank_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:skill\\s_feiyaptank_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\skill\\s_feiyaptank_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:skill\\s_feiyaptank_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,24 +63,12 @@
       "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\skill\\s_feiyaptank_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:skill\\s_feiyaptank_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\skill\\s_feiyaptank_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:skill\\s_feiyaptank_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\skill\\s_feiyaptank_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:skill\\s_feiyaptank_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\character\\p_feiyaptank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_rare_1_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\buff\\b_feiyaptank_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:buff\\b_feiyaptank_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\skill\\s_feiyaptank_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27401058-F141-5962-FF6A-9853CE0BC8F3}|FeiyapTank.csproj|solutionrelative:skill\\s_feiyaptank_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,61 +114,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "S_FeiyapTank_4.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_4.cs",
-              "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_4.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_4.cs",
-              "RelativeToolTip": "Skill\\S_FeiyapTank_4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T16:45:10.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "B_FeiyapTank_4_1.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_4_1.cs",
-              "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_4_1.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_4_1.cs",
-              "RelativeToolTip": "Buff\\B_FeiyapTank_4_1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T12:56:22.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "B_FeiyapTank_7.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_7.cs",
-              "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_7.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_7.cs",
-              "RelativeToolTip": "Buff\\B_FeiyapTank_7.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T12:52:43.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "B_FeiyapTank_4.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_4.cs",
-              "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_4.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_4.cs",
-              "RelativeToolTip": "Buff\\B_FeiyapTank_4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T12:52:34.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "S_FeiyapTank_6.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_6.cs",
               "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_6.cs",
@@ -180,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "S_FeiyapTank_5.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_5.cs",
               "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_5.cs",
@@ -188,12 +138,11 @@
               "RelativeToolTip": "Skill\\S_FeiyapTank_5.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T13:56:56.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T13:56:56.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "B_FeiyapTank_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_1.cs",
               "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_1.cs",
@@ -205,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "B_FeiyapTank_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_3.cs",
               "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_3.cs",
@@ -217,13 +166,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "B_FeiyapTank_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_2.cs",
               "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_2.cs",
               "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_2.cs",
               "RelativeToolTip": "Buff\\B_FeiyapTank_2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T12:35:10.827Z"
             },
@@ -241,19 +190,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "S_FeiyapTank_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_2.cs",
               "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_2.cs",
               "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_2.cs",
               "RelativeToolTip": "Skill\\S_FeiyapTank_2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T14:01:36.095Z"
+              "WhenOpened": "2026-02-10T14:01:36.095Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "S_FeiyapTank_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_3.cs",
               "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_3.cs",
@@ -261,12 +211,11 @@
               "RelativeToolTip": "Skill\\S_FeiyapTank_3.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwCQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T16:45:08.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-08T16:45:08.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "B_FeiyapTank_4_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_4_2.cs",
               "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_4_2.cs",
@@ -274,48 +223,107 @@
               "RelativeToolTip": "Buff\\B_FeiyapTank_4_2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T14:10:41.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T14:10:41.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "B_FeiyapTank_6.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_6.cs",
-              "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_6.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_6.cs",
-              "RelativeToolTip": "Buff\\B_FeiyapTank_6.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwC8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T12:52:42.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "S_FeiyapTank_0.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_0.cs",
-              "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_0.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_0.cs",
-              "RelativeToolTip": "Skill\\S_FeiyapTank_0.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T13:12:16.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "S_FeiyapTank_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_1.cs",
               "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_1.cs",
               "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_1.cs",
               "RelativeToolTip": "Skill\\S_FeiyapTank_1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T16:55:08.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 3,
+              "Title": "B_FeiyapTank_6.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_6.cs",
+              "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_6.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_6.cs",
+              "RelativeToolTip": "Buff\\B_FeiyapTank_6.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwB4AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:52:42.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "B_FeiyapTank_P.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_P.cs",
+              "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_P.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_P.cs",
+              "RelativeToolTip": "Buff\\B_FeiyapTank_P.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T17:03:28.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "S_FeiyapTank_0.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_0.cs",
+              "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_0.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_0.cs",
+              "RelativeToolTip": "Skill\\S_FeiyapTank_0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T13:12:16.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "B_FeiyapTank_4.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_4.cs",
+              "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_4.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_4.cs",
+              "RelativeToolTip": "Buff\\B_FeiyapTank_4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:52:34.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "B_FeiyapTank_7.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_7.cs",
+              "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_7.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_7.cs",
+              "RelativeToolTip": "Buff\\B_FeiyapTank_7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:52:43.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "B_FeiyapTank_4_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_4_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_4_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_4_1.cs",
+              "RelativeToolTip": "Buff\\B_FeiyapTank_4_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:56:22.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "S_FeiyapTank_4.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_4.cs",
+              "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_4.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_4.cs",
+              "RelativeToolTip": "Skill\\S_FeiyapTank_4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T16:45:10.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "S_FeiyapTank_7.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_7.cs",
               "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_7.cs",
@@ -327,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "S_FeiyapTank_Rare_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_Rare_3.cs",
               "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_Rare_3.cs",
@@ -339,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "S_FeiyapTank_Rare_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Skill\\S_FeiyapTank_Rare_1.cs",
               "RelativeDocumentMoniker": "Skill\\S_FeiyapTank_Rare_1.cs",
@@ -351,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "P_FeiyapTank.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Character\\P_FeiyapTank.cs",
               "RelativeDocumentMoniker": "Character\\P_FeiyapTank.cs",
@@ -363,19 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "B_FeiyapTank_P.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_P.cs",
-              "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_P.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_P.cs",
-              "RelativeToolTip": "Buff\\B_FeiyapTank_P.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T17:03:28.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "B_FeiyapTank_Rare_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_Rare_1.cs",
               "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_Rare_1.cs",
@@ -387,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "B_FeiyapTank_Rare_1_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\FeiyapTank\\Buff\\B_FeiyapTank_Rare_1_1.cs",
               "RelativeDocumentMoniker": "Buff\\B_FeiyapTank_Rare_1_1.cs",

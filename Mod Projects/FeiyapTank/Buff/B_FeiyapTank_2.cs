@@ -20,6 +20,15 @@ namespace FeiyapTank
     /// </summary>
     public class B_FeiyapTank_2 : Buff, IP_DeadResist, IP_PlayerTurn
     {
+        public override void FixedUpdate()
+        {
+            base.FixedUpdate();
+            if (this.BChar.Recovery < 1)
+            {
+                this.BChar.Recovery = 1;
+            }
+        }
+
         public bool DeadResist()
         {
             return true;

@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_RemiliaScarlet": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "RemiliaScarlet",
+        "Dialogues": [
+            "[B]绯夜，人类如果总是弄得一身伤的话，可是很快就会死掉的。",
+            "[A]如果能够为了大小姐而死的话，我……",
+            "[B]你的“命运”是属于我的东西。我可不允许你就这么死掉。明白了吗？",
+            "[A]……悉听尊命。"
+        ]
+    }
+}

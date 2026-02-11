@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_Shuyu": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Shuyu",
+        "Dialogues": [
+            "[A]好疼……你不是治疗吗，为什么没有奶过人？",
+            "[B]不是梳雨害了你，是这法杖害了你喵……",
+            "[A]怎么了，难道法杖出问题了吗？对不起，我不该质疑你……",
+            "[B]法杖自己在指向敌人喵~"
+        ]
+    }
+}

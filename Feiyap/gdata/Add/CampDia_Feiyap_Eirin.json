@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_Eirin": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "Eirin",
+        "Dialogues": [
+            "[B]除了妹红，我还是第一次见到有人类能把自己的身体搞的这么乱七八糟的。",
+            "[A]抱歉，永琳大人，还要劳烦你替我疗伤。",
+            "[B]嘛，对我来说只是顺手而已。说起来，要不要考虑下禁忌的药……",
+            "[A]那就免了。我还渴求着永久的安宁呢。"
+        ]
+    }
+}

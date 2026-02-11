@@ -2,13 +2,11 @@
     "SE_T_S_FeiyapTank_1": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 130,
+        "DMG_Per": 175,
         "Buffs": [
-            "B_FeiyapTank_Taunt",
             "B_FeiyapTank_1"
         ],
         "BuffPlusTagPer": [
-            0,
             0
         ]
     }

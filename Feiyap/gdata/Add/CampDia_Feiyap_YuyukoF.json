@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_YuyukoF": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "YuyukoF",
+        "Dialogues": [
+            "[B]看着自己生命逐渐走向凋零的样子，这样让你很开心吗？真是个奇怪的人呢。",
+            "[A]据说将尸体埋在樱花树下，来年就会开出很美丽的花朵。",
+            "[A]要是能从我的尸体上绽放绚丽的花，不也很美吗？"
+        ]
+    }
+}

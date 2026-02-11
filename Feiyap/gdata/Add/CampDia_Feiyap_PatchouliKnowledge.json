@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_PatchouliKnowledge": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharB": "PatchouliKnowledge",
+        "CharA": "Feiyap",
+        "Dialogues": [
+            "[B]啊。绯夜君。帮我拿下那本书，谢谢。",
+            "[A]帕秋莉大人还真是努力。即使是外出期间也要读书。",
+            "[B]只是打发时间的通俗小说而已，你也要看吗？",
+            "[A]那真是太遗憾了，我不识字。"
+        ]
+    }
+}

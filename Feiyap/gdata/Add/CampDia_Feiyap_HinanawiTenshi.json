@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_HinanawiTenshi": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharB": "HinanawiTenshi",
+        "CharA": "Feiyap",
+        "Dialogues": [
+            "[B]哦！人类武士！正好，来陪吾解闷吧！",
+            "[A]在天人眼中，我们人类只是解闷的工具吗……",
+            "[B]吾、吾不是那个意思啦……喂，你笑什么？！",
+            "[A]抱歉抱歉。捉弄天子大人实在太有意思了。"
+        ]
+    }
+}

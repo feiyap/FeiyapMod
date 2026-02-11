@@ -1,0 +1,12 @@
+{
+    "CampDia_Feiyap_SatsukiRin": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "SatsukiRin",
+        "Dialogues": [
+            "[A]幻想乡的神兽大人啊……就算是我这种外来人也能享受恩赐吗？",
+            "[B]英勇奋战的武士啊，纵使梦想早已破碎，也请成为无冕之王吧。",
+            "[A]那就承您吉言，冴月麟大人。"
+        ]
+    }
+}

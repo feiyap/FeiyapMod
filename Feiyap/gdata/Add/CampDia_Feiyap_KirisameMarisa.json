@@ -1,0 +1,13 @@
+{
+    "CampDia_Feiyap_KirisameMarisa": {
+        "_gdeSchema": "SimpleCampDialogue",
+        "CharA": "Feiyap",
+        "CharB": "KirisameMarisa",
+        "Dialogues": [
+            "[B]哦！是绯夜啊！我采了好多蘑菇，晚上要不要炖汤喝？",
+            "[A]不愧是魔理沙，居然没有一株有毒的呢。",
+            "[B]嘿嘿，我可是蘑菇专家，这点本事还是有的。",
+            "[A]不会是每个种类都亲自尝过了吧……"
+        ]
+    }
+}

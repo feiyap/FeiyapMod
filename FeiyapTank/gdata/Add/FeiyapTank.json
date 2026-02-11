@@ -6,15 +6,15 @@
         "PassiveUnlockLV1": false,
         "face": "FeiyapTank\\FeiyapTankBattleFace.png",
         "name": "剑圣·绯夜氏",
-        "SelectInfo": "",
+        "SelectInfo": "于万千碎裂的世界破片中，选择成为了「剑圣」的那一个“绯夜氏”。\r\n绯夜氏是精进磨炼技艺、终于抵达登峰造极境界的剑客。任何武器在她手中都会变为锐利的锋刃，从敌人的死角发起攻击、击穿盔甲的缝隙、割断敌人的咽喉。然而，在她抵达顶峰的同时，时代也发生了剧变——曾经的战场如今变为熙攘的集市，曾经的敌人如今变为谈酒的密友。而曾经最锐利的刀锋——武士，也沦落为了阶下鹰犬罢了。\r\n如今的绯夜氏，空有一身技艺，却被“禁刀令”死死束缚。她的血液在渴求着有人主动挑事，便有“正当防卫”的理由将其斩杀。然而，这种机会总是不多得，她的意志在漫长的和平中逐渐癫狂——\r\n\r\n——终于，于万千碎裂的世界破片中的一瞥，似乎得以窥见“另一种可能性”的“绯夜氏”。",
         "Gender": 1,
         "MAXHP": {
             "x": 27,
             "y": 45
         },
         "ATK": {
-            "x": 14,
-            "y": 23
+            "x": 13,
+            "y": 22
         },
         "CRI": {
             "x": 0,
@@ -72,6 +72,42 @@
         "StatView_Dot": 1,
         "StatView_Difficult": 2,
         "PassiveIcon": "FeiyapTank\\FeiyapTankPassiveIcon.png",
-        "CampSelectWord": "麻烦死了……反正把那些家伙杀光就行了吧？"
+        "CampSelectWord": "麻烦死了……反正把那些家伙杀光就行了吧？",
+        "CampSD": [
+            "FeiyapTank\\FeiyapTankCampSD0.png",
+            "FeiyapTank\\FeiyapTankCampSD1.png",
+            "FeiyapTank\\FeiyapTankCampSD2.png",
+            "FeiyapTank\\FeiyapTankCampSD3.png"
+        ],
+        "Text_MasterTarget": "死不可怕，死是凉爽的夏夜，可供人无忧地安眠。",
+        "Text_Battle_ND": [
+            "佩服、佩服……"
+        ],
+        "Text_Battle_Start": [
+            "战场啊，真是令人怀念的故乡。"
+        ],
+        "Text_Battle_Kill": [
+            "已经斩下。"
+        ],
+        "Text_Battle_Cri": [
+            "战斗就在我之剑下终结！",
+            "一刀、两断！"
+        ],
+        "Text_Battle_Idle": [
+            "自名为和平的剑鞘中，感谢您让我拔出此刀。",
+            "正因手持白刃，方可切舍御免。"
+        ],
+        "Text_Field_Idle": [
+            "所谓活着，就是寻获得以斩杀之事。"
+        ],
+        "Text_PharosLeader": [
+            "何处是战场？！此处即是战场！",
+            "往昔的时光，竟然重复眼前……",
+            "敌将之头颅，已被我斩获！"
+        ],
+        "Text_Witch": [
+            "无聊至极……",
+            "有何惧哉？！"
+        ]
     }
 }
