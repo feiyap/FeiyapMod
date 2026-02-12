@@ -1,0 +1,10 @@
+{
+    "SE_FeiyapTank_C_2": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "处于濒死状态时，费用降低 2 点，伤害提升40%。",
+        "Drop": true,
+        "EnforceString": "2费以上的攻击技能：",
+        "NeedCharacter": "FeiyapTank",
+        "ClassName": "FeiyapTank.SE_FeiyapTank_C_2"
+    }
+}

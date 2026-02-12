@@ -35,6 +35,7 @@ namespace FeiyapTank
             if (!HandFullWaste && skill == this.MySkill && !this.MySkill.isExcept)
             {
                 this.BChar.BuffAdd("B_FeiyapTank_2", this.BChar);
+                this.BChar.BuffAdd("B_FeiyapTank_2", this.BChar);
             }
         }
     }

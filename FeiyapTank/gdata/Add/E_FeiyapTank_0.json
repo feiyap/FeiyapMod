@@ -1,0 +1,10 @@
+{
+    "E_FeiyapTank_0": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "image": "Item\\E_FeiyapTank_0_image.png",
+        "name": "无铭刃",
+        "Description": "体力值低于 1 时，这件装备的属性提升200%。",
+        "Equip_Script": "FeiyapTank.E_FeiyapTank_0"
+    }
+}

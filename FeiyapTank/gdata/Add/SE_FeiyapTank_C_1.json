@@ -1,0 +1,12 @@
+{
+    "SE_FeiyapTank_C_1": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "居合 - 优先抽取 1 个自己的技能。获得 1 层“错身”。",
+        "Drop": true,
+        "EnforceString": "",
+        "NeedCharacter": "FeiyapTank",
+        "ClassName": "FeiyapTank.SE_FeiyapTank_C_1"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Boss_FeiyapMage": {
+        "_gdeSchema": "Enemy",
+        "hit": 100,
+        "Boss": true,
+        "NotCursed": true,
+        "CollactionEnemy": 1,
+        "atk": 5,
+        "maxhp": 50,
+        "reg": 0,
+        "PlusActCount": [
+            
+        ],
+        "name": "嬉笑魔女",
+        "CollactionSprite_Cover": "Boss_FeiyapMage\\Boss_FeiyapMageCollactionSprite_Cover.png",
+        "SubName": "嬉笑魔女",
+        "EnemyStory": ""
+    }
+}

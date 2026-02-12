@@ -1,0 +1,28 @@
+{
+    "myKey": "Boss_FeiyapMage",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Boss_FeiyapMage\\Boss_FeiyapMageMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.4833502,
+            "y": 0.0147800148
+        },
+        "Head": {
+            "x": 0.507133245,
+            "y": 0.775906444
+        },
+        "Center": {
+            "x": 0.490486354,
+            "y": 0.7611084
+        },
+        "UI": {
+            "x": 0.492863834,
+            "y": 0.105584145
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

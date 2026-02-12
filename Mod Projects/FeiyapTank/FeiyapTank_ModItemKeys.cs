@@ -154,6 +154,25 @@ namespace FeiyapTank
 		/// 恢复自己和目标的体力极限。
 		/// </summary>
         public static string Skill_S_FeiyapTank_Rare_3 = "S_FeiyapTank_Rare_3";
+		/// <summary>
+		/// 嬉笑魔女
+		/// </summary>
+        public static string Enemy_Boss_FeiyapMage = "Boss_FeiyapMage";
+        public static string EnemyQueue_Queue_Boss_FeiyapMage = "Queue_Boss_FeiyapMage";
+		/// <summary>
+		/// 居合 - 优先抽取 1 个自己的技能。获得 1 层“错身”。
+		/// </summary>
+        public static string SkillExtended_SE_FeiyapTank_C_1 = "SE_FeiyapTank_C_1";
+		/// <summary>
+		/// 无铭刃
+		/// 体力值低于 1 时，这件装备的属性提升200%。
+		/// </summary>
+        public static string Item_Equip_E_FeiyapTank_0 = "E_FeiyapTank_0";
+		/// <summary>
+		/// 处于濒死状态时，费用降低 2 点，伤害提升40%。
+		/// 2费以上的攻击技能：
+		/// </summary>
+        public static string SkillExtended_SE_FeiyapTank_C_2 = "SE_FeiyapTank_C_2";
 
     }
 
