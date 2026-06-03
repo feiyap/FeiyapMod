@@ -151,7 +151,6 @@ namespace PatchouliKnowledge
 		/// <color=#919191>- 帕秋莉的普通技能学习不再拥有上限。</color>
 		/// </summary>
         public static string Character_PatchouliKnowledge = "PatchouliKnowledge";
-        public static string CharRole_Role_Mage = "Role_Mage";
 		/// <summary>
 		/// 展示放逐牌库中所有“基本元素”技能，选择其中 1 个，在手中生成其复制。
 		/// </summary>

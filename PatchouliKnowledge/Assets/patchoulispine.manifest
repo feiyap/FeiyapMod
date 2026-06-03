@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 2967404472
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b8dbc91b4ba2e766e30d97c0d1729d20
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d1d08812c463a88e3b750c256beec80
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Patchouli/Standing/Shock.png
+- Assets/Patchouli/Standing/Angry.png
+- Assets/Patchouli/Standing/Shock_Red.png
+- Assets/Patchouli/Standing/Serious.png
+- Assets/Patchouli/Standing/Serious_Red.png
+- Assets/Patchouli/Standing/Cry.png
+- Assets/Patchouli/Standing/Bad.png
+- Assets/Patchouli/Spine/skeleton_Atlas.asset
+- Assets/Patchouli/Standing/Han.png
+- Assets/Patchouli/Standing/Hurt.png
+- Assets/Patchouli/Standing/Happy_Red.png
+- Assets/Patchouli/Spine/skeleton.json
+- Assets/Patchouli/Standing/Hurt_Red.png
+- Assets/Patchouli/Standing/Smug.png
+- Assets/Patchouli/Standing/Happy.png
+- Assets/Patchouli/Standing/Angry_Red.png
+- Assets/Patchouli/Spine/skeleton.png
+- Assets/Patchouli/Standing/Normal.png
+- Assets/Patchouli/Standing/Han_Red.png
+- Assets/Patchouli/Standing/Smug_Red.png
+- Assets/Patchouli/Spine/skeleton_Material.mat
+- Assets/Patchouli/Standing/Cry_Red.png
+- Assets/Patchouli/Spine/skeleton.atlas.txt
+- Assets/Patchouli/Spine/skeleton_SkeletonData.asset
+Dependencies: []

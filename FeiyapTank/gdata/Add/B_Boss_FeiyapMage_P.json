@@ -1,0 +1,15 @@
+{
+    "B_Boss_FeiyapMage_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "FeiyapTank.B_Boss_FeiyapMage_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "嬉笑魔女",
+        "Description": "调查员交替使用攻击技能和治疗技能时，获得 1 层“百巧手”。每层“百巧手”提供“攻击力+1，治疗力+1”。",
+        "Icon": "B_Boss_FeiyapMage_P\\B_Boss_FeiyapMage_P_Icon.png"
+    }
+}

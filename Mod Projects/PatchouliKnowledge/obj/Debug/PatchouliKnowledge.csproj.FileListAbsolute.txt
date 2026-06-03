@@ -1,7 +1,5 @@
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\System.Core.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge.csproj.CoreCompileInputs.cache
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge.csproj.CopyComplete
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\0Harmony.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\BasicMethods.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\Mono.Cecil.dll
@@ -32,7 +30,9 @@ E:\steam\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Deb
 E:\steam\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\PatchouliKnowledge202563175824.pdb
 E:\steam\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge202563175824.dll
 E:\steam\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge202563175824.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\PatchouliKnowledge2025103234650.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\PatchouliKnowledge2025103234650.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge2025103234650.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge2025103234650.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\Patchoul.AD05B616.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\PatchouliKnowledge20266213138.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\bin\Debug\PatchouliKnowledge20266213138.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge20266213138.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\PatchouliKnowledge\obj\Debug\PatchouliKnowledge20266213138.pdb

@@ -2,7 +2,7 @@
     "S_FeiyapTank_Rare_2": {
         "_gdeSchema": "Skill",
         "Category": "null",
-        "Particle": "Particle/impact",
+        "Particle": "Particle/Hein/Hein_new_1",
         "Rare": true,
         "Target": "enemy",
         "Name": "绯樱狱华落",
@@ -15,6 +15,20 @@
         "Effect_Target": "SE_T_S_FeiyapTank_Rare_2",
         "Image_0": "S_FeiyapTank_Rare_2\\S_FeiyapTank_Rare_2_Image_0.png",
         "Image_1": "S_FeiyapTank_Rare_2\\S_FeiyapTank_Rare_2_Image_1.png",
-        "Image_2": "S_FeiyapTank_Rare_2\\S_FeiyapTank_Rare_2_Image_2.png"
+        "Image_2": "S_FeiyapTank_Rare_2\\S_FeiyapTank_Rare_2_Image_2.png",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "Basic": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Description": "自身体力值低于 1 时才可使用。\r\n额外造成 &a 伤害([1-当前体力值]² x 攻击力 x 1%)。",
+        "User": "FeiyapTank",
+        "SkillExtended": [
+            "FeiyapTank.S_FeiyapTank_Rare_2"
+        ]
     }
 }

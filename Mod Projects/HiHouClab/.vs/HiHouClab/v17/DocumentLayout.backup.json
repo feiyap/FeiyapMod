@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\hihouclab_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_maribel_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_maribel_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_maribel_rare_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_maribel_rare_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hihouclab\\hihouclab_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:hihouclab_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hihouclab\\buff\\b_renko_rare_2_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\buff\\b_renko_rare_2_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:buff\\b_renko_rare_2_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -99,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_maribel_7_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_maribel_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_maribel_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_maribel_rare_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_maribel_rare_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -133,10 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_maribel_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_maribel_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_maribel_rare_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|solutionrelative:skill\\s_maribel_rare_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC50CA75-53C3-42C2-B3B6-B9B1A58F95F8}|HiHouClab.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\skill\\s_renko_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -238,35 +238,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "B_Renko_5.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_5.cs",
-              "RelativeDocumentMoniker": "Buff\\B_Renko_5.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_5.cs",
-              "RelativeToolTip": "Buff\\B_Renko_5.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:06:09.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "B_Maribel_4_1.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_4_1.cs",
-              "RelativeDocumentMoniker": "Buff\\B_Maribel_4_1.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_4_1.cs",
-              "RelativeToolTip": "Buff\\B_Maribel_4_1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T15:24:17.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "B_Maribel_6.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_6.cs",
               "RelativeDocumentMoniker": "Buff\\B_Maribel_6.cs",
@@ -278,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "B_Maribel_4.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_4.cs",
               "RelativeDocumentMoniker": "Buff\\B_Maribel_4.cs",
@@ -290,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "B_Maribel_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_1.cs",
               "RelativeDocumentMoniker": "Buff\\B_Maribel_1.cs",
@@ -302,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PlanckAP.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\PlanckAP.cs",
               "RelativeDocumentMoniker": "PlanckAP.cs",
@@ -314,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HiHouClab_Plugin.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\HiHouClab_Plugin.cs",
               "RelativeDocumentMoniker": "HiHouClab_Plugin.cs",
@@ -327,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "P_MaribelHearn.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Character\\P_MaribelHearn.cs",
               "RelativeDocumentMoniker": "Character\\P_MaribelHearn.cs",
@@ -339,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "P_UsamiRenko.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Character\\P_UsamiRenko.cs",
               "RelativeDocumentMoniker": "Character\\P_UsamiRenko.cs",
@@ -351,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "S_Maribel_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_1.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_1.cs",
@@ -363,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "S_Maribel_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_2.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_2.cs",
@@ -375,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "S_Renko_7.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_7.cs",
               "RelativeDocumentMoniker": "Skill\\S_Renko_7.cs",
@@ -387,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "B_Renko_Rare_2_0.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_Rare_2_0.cs",
               "RelativeDocumentMoniker": "Buff\\B_Renko_Rare_2_0.cs",
@@ -395,12 +371,11 @@
               "RelativeToolTip": "Buff\\B_Renko_Rare_2_0.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:32:46.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T02:32:46.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "B_Renko_Rare_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_Rare_2.cs",
               "RelativeDocumentMoniker": "Buff\\B_Renko_Rare_2.cs",
@@ -412,7 +387,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
+              "Title": "S_Maribel_Rare_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_Rare_1.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Maribel_Rare_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_Rare_1.cs",
+              "RelativeToolTip": "Skill\\S_Maribel_Rare_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T14:36:44.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "S_Maribel_Rare_2.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_Rare_2.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Maribel_Rare_2.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_Rare_2.cs",
+              "RelativeToolTip": "Skill\\S_Maribel_Rare_2.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvyQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T14:37:08.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "B_Maribel_4_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_4_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Maribel_4_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_4_1.cs",
+              "RelativeToolTip": "Buff\\B_Maribel_4_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:24:17.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "B_Renko_5.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_5.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Renko_5.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_5.cs",
+              "RelativeToolTip": "Buff\\B_Renko_5.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:06:09.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "S_Maribel_4.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_4.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_4.cs",
@@ -424,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "S_Renko_8.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Renko_8.cs",
               "RelativeDocumentMoniker": "Skill\\S_Renko_8.cs",
@@ -436,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "S_Maribel_7_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_7_3.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_7_3.cs",
@@ -448,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "B_Renko_8.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_8.cs",
               "RelativeDocumentMoniker": "Buff\\B_Renko_8.cs",
@@ -460,19 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "S_Maribel_Rare_2.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_Rare_2.cs",
-              "RelativeDocumentMoniker": "Skill\\S_Maribel_Rare_2.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_Rare_2.cs",
-              "RelativeToolTip": "Skill\\S_Maribel_Rare_2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T14:37:08.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "S_Maribel_8.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_8.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_8.cs",
@@ -484,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "S_Maribel_Rare_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_Rare_3.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_Rare_3.cs",
@@ -496,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "B_Maribel_Barrier.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_Barrier.cs",
               "RelativeDocumentMoniker": "Buff\\B_Maribel_Barrier.cs",
@@ -508,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "B_Maribel_P.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_P.cs",
               "RelativeDocumentMoniker": "Buff\\B_Maribel_P.cs",
@@ -532,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "SE_Maribel_8.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\SkillExtended\\SE_Maribel_8.cs",
               "RelativeDocumentMoniker": "SkillExtended\\SE_Maribel_8.cs",
@@ -544,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "S_Maribel_7_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_7_1.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_7_1.cs",
@@ -556,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "S_Maribel_7_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_7_2.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_7_2.cs",
@@ -568,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "B_Renko_6.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Renko_6.cs",
               "RelativeDocumentMoniker": "Buff\\B_Renko_6.cs",
@@ -580,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "B_Maribel_Rare_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_Rare_2.cs",
               "RelativeDocumentMoniker": "Buff\\B_Maribel_Rare_2.cs",
@@ -592,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "B_Maribel_Rare_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_Rare_3.cs",
               "RelativeDocumentMoniker": "Buff\\B_Maribel_Rare_3.cs",
@@ -604,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "B_Maribel_0.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Buff\\B_Maribel_0.cs",
               "RelativeDocumentMoniker": "Buff\\B_Maribel_0.cs",
@@ -616,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "S_Maribel_7.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_7.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_7.cs",
@@ -641,18 +654,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "S_Maribel_Rare_1.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_Rare_1.cs",
-              "RelativeDocumentMoniker": "Skill\\S_Maribel_Rare_1.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_Rare_1.cs",
-              "RelativeToolTip": "Skill\\S_Maribel_Rare_1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T14:36:44.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
               "Title": "S_Maribel_0.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_0.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_0.cs",
@@ -664,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "S_Maribel_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HiHouClab\\Skill\\S_Maribel_3.cs",
               "RelativeDocumentMoniker": "Skill\\S_Maribel_3.cs",

@@ -21,7 +21,8 @@ namespace DiffcultSystem
         public override void Init()
         {
             base.Init();
-
+            base.APChange = -1;
+            base.NotCount = true;
         }
     }
 }

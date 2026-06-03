@@ -1,0 +1,8 @@
+{
+    "SE_B_R_Boss_FeiyapMage_1": {
+        "_gdeSchema": "SkillExtended",
+        "Name": "伤害量提升33%",
+        "IsIcon": "SE_B_R_Boss_FeiyapMage_1\\SE_B_R_Boss_FeiyapMage_1_Icon.png",
+        "ClassName": "FeiyapTank.SE_B_R_Boss_FeiyapMage_1"
+    }
+}

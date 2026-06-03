@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\ShameimaruAya\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC15C73A-3995-40C0-B75A-B98431EEB504}|ShameimaruAya.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\shameimaruaya\\buff\\b_shameimaru_p_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC15C73A-3995-40C0-B75A-B98431EEB504}|ShameimaruAya.csproj|solutionrelative:buff\\b_shameimaru_p_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC15C73A-3995-40C0-B75A-B98431EEB504}|ShameimaruAya.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\shameimaruaya\\character\\p_shameimaruaya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC15C73A-3995-40C0-B75A-B98431EEB504}|ShameimaruAya.csproj|solutionrelative:character\\p_shameimaruaya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "B_Shameimaru_P_0.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\ShameimaruAya\\Buff\\B_Shameimaru_P_0.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Shameimaru_P_0.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\ShameimaruAya\\Buff\\B_Shameimaru_P_0.cs",
+              "RelativeToolTip": "Buff\\B_Shameimaru_P_0.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T02:05:49.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "P_ShameimaruAya.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\ShameimaruAya\\Character\\P_ShameimaruAya.cs",
               "RelativeDocumentMoniker": "Character\\P_ShameimaruAya.cs",

@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{48D35C97-D954-447E-9601-0A55A675B3C8}|KochiyaSanae.csproj|solutionrelative:skillextended\\se_sanae_rare10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D35C97-D954-447E-9601-0A55A675B3C8}|KochiyaSanae.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\kochiyasanae\\skillextended\\se_sanae_combo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48D35C97-D954-447E-9601-0A55A675B3C8}|KochiyaSanae.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\KochiyaSanae\\skillextended\\se_sanae_combo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D35C97-D954-447E-9601-0A55A675B3C8}|KochiyaSanae.csproj|solutionrelative:skillextended\\se_sanae_combo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D35C97-D954-447E-9601-0A55A675B3C8}|KochiyaSanae.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\kochiyasanae\\skillextended\\se_sanae_e_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48D35C97-D954-447E-9601-0A55A675B3C8}|KochiyaSanae.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\KochiyaSanae\\skillextended\\se_sanae_e_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D35C97-D954-447E-9601-0A55A675B3C8}|KochiyaSanae.csproj|solutionrelative:skillextended\\se_sanae_e_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -47,8 +47,7 @@
               "RelativeToolTip": "SkillExtended\\SE_Sanae_Combo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:51:54.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T02:51:54.581Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "SkillExtended\\SE_Sanae_E_0.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:51:52.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T02:51:52.288Z"
             }
           ]
         }

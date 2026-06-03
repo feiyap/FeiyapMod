@@ -1,0 +1,24 @@
+{
+    "S_FeiyapTank_LucyD": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Joey/Joey_0",
+        "Rare": false,
+        "Target": "ally",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "NoBasicSkill": false,
+        "Track": false,
+        "Fatal": false,
+        "Name": "无归的旅途",
+        "User": "LucyDraw",
+        "LucyPartyDraw": "FeiyapTank",
+        "Description": "抽取 3 个技能。\r\n对目标友军造成<color=purple> 12 点痛苦伤害</color>。\r\n若目标友军因此技能的伤害进入濒死状态，恢复 2 点法力值。",
+        "Image_0": "S_FeiyapTank_LucyD\\S_FeiyapTank_LucyD_Image_0.png",
+        "Image_1": "S_FeiyapTank_LucyD\\S_FeiyapTank_LucyD_Image_1.png",
+        "Image_2": "S_FeiyapTank_LucyD\\S_FeiyapTank_LucyD_Image_2.png",
+        "SkillExtended": [
+            "FeiyapTank.S_FeiyapTank_LucyD"
+        ]
+    }
+}

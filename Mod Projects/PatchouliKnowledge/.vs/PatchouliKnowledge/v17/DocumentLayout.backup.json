@@ -3,15 +3,55 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\patchouliknowledge\\skill\\s_pachi_sk_2_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\patchouliknowledge_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:patchouliknowledge_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\patchouliknowledge\\dialogue\\dia_city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:dialogue\\dia_city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\buff\\b_pachi_0_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:buff\\b_pachi_0_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\buff\\b_pachi_0_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:buff\\b_pachi_0_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\buff\\b_pachi_0_1_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:buff\\b_pachi_0_1_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\buff\\b_pachi_0_1_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:buff\\b_pachi_0_1_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\buff\\b_pachi_0_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:buff\\b_pachi_0_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\buff\\b_pachi_0_0_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:buff\\b_pachi_0_0_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\buff\\b_pachi_0_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:buff\\b_pachi_0_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\buff\\b_infernal_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:buff\\b_infernal_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\skill\\s_pachi_sk_2_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:skill\\s_pachi_sk_2_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\patchouliknowledge\\skill\\s_pachi_sk_2_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\skill\\s_pachi_sk_2_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:skill\\s_pachi_sk_2_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\patchouliknowledge\\skill\\s_pachi_sk_3_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\skill\\s_pachi_sk_3_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:skill\\s_pachi_sk_3_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,11 +86,133 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dia_City.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Dialogue\\Dia_City.cs",
+              "RelativeDocumentMoniker": "Dialogue\\Dia_City.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Dialogue\\Dia_City.cs",
+              "RelativeToolTip": "Dialogue\\Dia_City.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T16:04:49.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PatchouliKnowledge_Plugin.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\PatchouliKnowledge_Plugin.cs",
+              "RelativeDocumentMoniker": "PatchouliKnowledge_Plugin.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\PatchouliKnowledge_Plugin.cs",
+              "RelativeToolTip": "PatchouliKnowledge_Plugin.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAuwKMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T14:43:54.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "B_Pachi_0_4.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_4.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Pachi_0_4.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_4.cs",
+              "RelativeToolTip": "Buff\\B_Pachi_0_4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:56:12.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "B_Pachi_0_2.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_2.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Pachi_0_2.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_2.cs",
+              "RelativeToolTip": "Buff\\B_Pachi_0_2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:56:12.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "B_Pachi_0_1_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_1_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Pachi_0_1_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_1_1.cs",
+              "RelativeToolTip": "Buff\\B_Pachi_0_1_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:56:08.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "B_Pachi_0_1_2.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_1_2.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Pachi_0_1_2.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_1_2.cs",
+              "RelativeToolTip": "Buff\\B_Pachi_0_1_2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:56:07.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "B_Pachi_0_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Pachi_0_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_1.cs",
+              "RelativeToolTip": "Buff\\B_Pachi_0_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:56:06.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "B_Pachi_0_0_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_0_1.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Pachi_0_0_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_0_1.cs",
+              "RelativeToolTip": "Buff\\B_Pachi_0_0_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:56:06.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "B_Pachi_0_0.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_0.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Pachi_0_0.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Pachi_0_0.cs",
+              "RelativeToolTip": "Buff\\B_Pachi_0_0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:56:03.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "B_Infernal_P.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Infernal_P.cs",
+              "RelativeDocumentMoniker": "Buff\\B_Infernal_P.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Buff\\B_Infernal_P.cs",
+              "RelativeToolTip": "Buff\\B_Infernal_P.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:55:13.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "S_Pachi_Sk_2_5.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Skill\\S_Pachi_Sk_2_5.cs",
               "RelativeDocumentMoniker": "Skill\\S_Pachi_Sk_2_5.cs",
@@ -58,12 +220,11 @@
               "RelativeToolTip": "Skill\\S_Pachi_Sk_2_5.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAAwDkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T15:32:47.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T15:32:47.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "S_Pachi_Sk_2_6.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Skill\\S_Pachi_Sk_2_6.cs",
               "RelativeDocumentMoniker": "Skill\\S_Pachi_Sk_2_6.cs",
@@ -71,12 +232,11 @@
               "RelativeToolTip": "Skill\\S_Pachi_Sk_2_6.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T15:32:47.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T15:32:47.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "S_Pachi_Sk_3_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Skill\\S_Pachi_Sk_3_3.cs",
               "RelativeDocumentMoniker": "Skill\\S_Pachi_Sk_3_3.cs",
@@ -84,12 +244,11 @@
               "RelativeToolTip": "Skill\\S_Pachi_Sk_3_3.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T09:43:06.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T09:43:06.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "S_Pachi_Sk_2_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Skill\\S_Pachi_Sk_2_2.cs",
               "RelativeDocumentMoniker": "Skill\\S_Pachi_Sk_2_2.cs",
@@ -101,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "S_Pachi_Sk_3_5.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Skill\\S_Pachi_Sk_3_5.cs",
               "RelativeDocumentMoniker": "Skill\\S_Pachi_Sk_3_5.cs",
@@ -113,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "S_Pachi_Sk_0_5.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Skill\\S_Pachi_Sk_0_5.cs",
               "RelativeDocumentMoniker": "Skill\\S_Pachi_Sk_0_5.cs",
@@ -125,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "S_Pachi_Sk_0_6.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Skill\\S_Pachi_Sk_0_6.cs",
               "RelativeDocumentMoniker": "Skill\\S_Pachi_Sk_0_6.cs",
@@ -137,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "S_Pachi_Sk_1_6.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Skill\\S_Pachi_Sk_1_6.cs",
               "RelativeDocumentMoniker": "Skill\\S_Pachi_Sk_1_6.cs",
@@ -149,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "P_PatchouliKnowledge.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\Character\\P_PatchouliKnowledge.cs",
               "RelativeDocumentMoniker": "Character\\P_PatchouliKnowledge.cs",

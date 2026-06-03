@@ -1,0 +1,13 @@
+{
+    "S_Boss_FeiyapMage_2": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/flare_lv1",
+        "Target": "ally",
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "恢复术",
+        "Effect_Target": "SE_T_S_Boss_FeiyapMage_2",
+        "NotCount": false
+    }
+}

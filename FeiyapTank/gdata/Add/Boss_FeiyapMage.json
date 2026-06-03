@@ -5,15 +5,33 @@
         "Boss": true,
         "NotCursed": true,
         "CollactionEnemy": 1,
-        "atk": 5,
-        "maxhp": 50,
-        "reg": 0,
+        "atk": 16,
+        "maxhp": 166,
+        "reg": 13,
         "PlusActCount": [
-            
+            1,
+            1
         ],
         "name": "嬉笑魔女",
         "CollactionSprite_Cover": "Boss_FeiyapMage\\Boss_FeiyapMageCollactionSprite_Cover.png",
         "SubName": "嬉笑魔女",
-        "EnemyStory": ""
+        "EnemyStory": "于万千碎裂的世界破片中，选择成为了魔女的那一个“绯夜氏”。\r\n被称作“嬉笑魔女”的她，肆意操纵和玩弄着世间的一切，并以此取乐。跨越无数位面，浪费掉无数时间，穷究了各种各样的技术和魔法后，于是，她终于感到厌倦。\r\n「不如把我的力量封印，从头再开始吧？」\r\n就这样，魔女以好奇的目光踏上了前所未有的道路。",
+        "Passives": [
+            "B_Boss_FeiyapMage_P",
+            "B_Boss_FeiyapMage_P_1"
+        ],
+        "cri": 2,
+        "dodge": 5,
+        "RES_CC": 10,
+        "RES_DEBUFF": 10,
+        "RES_DOT": 10,
+        "spd": 2,
+        "AI": "FeiyapTank.Boss_FeiyapMage",
+        "Skills": [
+            "S_Boss_FeiyapMage_0",
+            "S_Boss_FeiyapMage_1",
+            "S_Boss_FeiyapMage_2",
+            "S_Boss_FeiyapMage_3"
+        ]
     }
 }

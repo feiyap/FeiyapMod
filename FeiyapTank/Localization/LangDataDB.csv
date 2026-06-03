@@ -1,0 +1,160 @@
+﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_Boss_FeiyapMage_P_1_Description,Text,,,Current Stacks: &a,,当前层数：&a,
+Buff/B_Boss_FeiyapMage_P_1_Name,Text,,,Ambidexterity,,百巧手,
+Buff/B_Boss_FeiyapMage_P_Description,Text,,,"When an investigator alternates between using attack skills and healing skills, gain 1 stack of ""Ambidexterity"". Each stack of ""Ambidexterity"" grants ""Attack Power +1, Healing Power +1"".",,调查员交替使用攻击技能和治疗技能时，获得 1 层“百巧手”。每层“百巧手”提供“攻击力+1，治疗力+1”。,
+Buff/B_Boss_FeiyapMage_P_Name,Text,,,Giggling Witch,,嬉笑魔女,
+Buff/B_FeiyapTank_0_Description,Text,,,,,,
+Buff/B_FeiyapTank_0_Name,Text,,,Shattered Armor,,碎甲,
+Buff/B_FeiyapTank_1_Description,Text,,,Increases <color=purple>Pain damage</color> received by 40%.,,受到<color=purple>痛苦伤害</color>提升40%。,
+Buff/B_FeiyapTank_1_Name,Text,,,Ripped Open,,皮开肉绽,
+Buff/B_FeiyapTank_2_Description,Text,,,"Cannot faint due to damage.
+Removes 1 stack at the end of the turn.",,"不会因为受到伤害导致无法战斗。
+回合结束时移除 1 层。",
+Buff/B_FeiyapTank_2_Name,Text,,,Passing By,,错身,
+Buff/B_FeiyapTank_4_1_Description,Text,,,,,,
+Buff/B_FeiyapTank_4_1_Name,Text,,,Bloody Stream,,血泣成溪,
+Buff/B_FeiyapTank_4_2_Description,Text,,,,,,
+Buff/B_FeiyapTank_4_2_Name,Text,,,Red Blood,,红血,
+Buff/B_FeiyapTank_4_Description,Text,,,"When &user takes damage, take <color=purple>Pain damage</color> equal to that amount.",,&user受到伤害时，自身受到相同数值的<color=purple>痛苦伤害</color>。,
+Buff/B_FeiyapTank_4_Name,Text,,,Crying Blood,,哭血,
+Buff/B_FeiyapTank_6_Description,Text,,,"For every 1% of HP lost, DEF increases by 0.5%.",,每失去1%体力值，防御力提升0.5%。,
+Buff/B_FeiyapTank_6_Name,Text,,,Kissing Sword,,剑吻,
+Buff/B_FeiyapTank_7_Description,Text,,,"When other investigators are attacked, take the damage instead.
+When triggering, reduce 1 stack.",,"其他调查员受到攻击时，自身代为承受。
+触发时减少 1 层。",
+Buff/B_FeiyapTank_7_Name,Text,,,Godspeed,,神速,
+Buff/B_FeiyapTank_P_Description,Text,,,"When taking damage while own skill is counting, increase Attack Power by same value until the end of the turn.",,受到伤害时，若自身有技能处于倒计时期间，本回合内攻击力提升那个伤害的值。,
+Buff/B_FeiyapTank_P_Name,Text,,,Cutting Mercy,,切舍御免,
+Buff/B_FeiyapTank_Rare_1_1_Description,Text,,,"When taking <color=purple>Pain damage</color>, increase MAXHP by same value.
+For every 10 HP lost, gain '+1% Attack Power'.
+Cannot faint due to <color=purple>Pain damage</color>.",,"自身每失去 10 点体力值，攻击力+1%；受到<color=purple>痛苦伤害</color>时，最大体力值增加那个伤害的值。
+不会因为受到<color=purple>痛苦伤害</color>导致无法战斗。",
+Buff/B_FeiyapTank_Rare_1_1_Name,Text,,,The Rain Formerly Known as Purple,,雨曾为紫,
+Buff/B_FeiyapTank_Rare_1_Description,Text,,,"Whenever a debuff is applied to it, trigger that debuff's damage once.",,每次被施加痛苦减益时，触发 1 次该减益的伤害。,
+Buff/B_FeiyapTank_Rare_1_Name,Text,,,Purple Rain,,紫雨,
+Buff/B_FeiyapTank_Taunt_Description,Text,,,,,"无法攻击&target以外的目标。
+攻击目标时解除。",
+Buff/B_FeiyapTank_Taunt_Name,Text,,,,,交手,
+Buff/B_R_Boss_FeiyapMage_0_Name,Text,,,Giggling Witch's Favor,,嬉笑魔女的宠爱,
+Buff/B_R_Boss_FeiyapMage_1_Name,Text,,,Giggling Witch's Adoration,,嬉笑魔女的溺爱,
+Character/FeiyapTank_CampSelectWord,Text,,,"What a pain... Just kill them all, right?",,麻烦死了……反正把那些家伙杀光就行了吧？,
+Character/FeiyapTank_PassiveDes,Text,,,"When taking damage while own skill is counting, increase Attack Power by same value until the end of the turn.",,受到伤害时，若有自己的技能处于倒计时，本回合内攻击力提升那个伤害的值。,
+Character/FeiyapTank_PassiveName,Text,,,Cutting Mercy,,切舍御免,
+Character/FeiyapTank_SelectInfo,Text,,,"Among countless shattered fragments of worlds, she chose to become the 'Feiyap' who is a Blade Master.
+Feiyap is a swordswoman who honed her skills and finally reached the pinnacle. Any weapon in her hands becomes a sharp blade, attacking from the enemy's blind spots, piercing through armor gaps, and severing throats. However, just as she reached the peak, the era underwent a dramatic change—the battlefields of the past are now bustling markets, and former enemies are now drinking buddies. And the once-sharpest blade—the samurai—has been reduced to a dog under the steps of power.
+Now, Feiyap, despite her unparalleled skills, is tightly bound by the 'Sword Ban'. Her blood thirsts for someone to pick a fight, giving her a 'justifiable defense' to cut them down. But such opportunities are rare, and her spirit gradually descends into madness amidst the long peace—
+
+—Finally, within the countless shattered fragments of worlds, a glimpse reveals a 'Feiyap' who might have embraced 'Another Possibility'.",,"于万千碎裂的世界破片中，选择成为了「剑圣」的那一个“绯夜氏”。
+绯夜氏是精进磨炼技艺、终于抵达登峰造极境界的剑客。任何武器在她手中都会变为锐利的锋刃，从敌人的死角发起攻击、击穿盔甲的缝隙、割断敌人的咽喉。然而，在她抵达顶峰的同时，时代也发生了剧变——曾经的战场如今变为熙攘的集市，曾经的敌人如今变为谈酒的密友。而曾经最锐利的刀锋——武士，也沦落为了阶下鹰犬罢了。
+如今的绯夜氏，空有一身技艺，却被“禁刀令”死死束缚。她的血液在渴求着有人主动挑事，便有“正当防卫”的理由将其斩杀。然而，这种机会总是不多得，她的意志在漫长的和平中逐渐癫狂——
+
+——终于，于万千碎裂的世界破片中的一瞥，似乎得以窥见“另一种可能性”的“绯夜氏”。",
+Character/FeiyapTank_Text_Battle_Cri_0,Text,,,The battle ends under my blade!,,战斗就在我之剑下终结！,
+Character/FeiyapTank_Text_Battle_Cri_1,Text,,,"One slash, cleave in two!",,一刀、两断！,
+Character/FeiyapTank_Text_Battle_Idle_0,Text,,,"From the scabbard named 'peace,' thank you for letting me draw this blade.",,自名为和平的剑鞘中，感谢您让我拔出此刀。,
+Character/FeiyapTank_Text_Battle_Idle_1,Text,,,"Because I hold a naked blade, I can execute free slash and grace.",,正因手持白刃，方可切舍御免。,
+Character/FeiyapTank_Text_Battle_Kill_0,Text,,,Already severed.,,已经斩下。,
+Character/FeiyapTank_Text_Battle_ND_0,Text,,,"Admirable, admirable...",,佩服、佩服……,
+Character/FeiyapTank_Text_Battle_Start_0,Text,,,"The battlefield, ah, such a nostalgic hometown.",,战场啊，真是令人怀念的故乡。,
+Character/FeiyapTank_Text_Field_Idle_0,Text,,,Living means seeking something to kill.,,所谓活着，就是寻获得以斩杀之事。,
+Character/FeiyapTank_Text_MasterTarget,Text,,,"Death is not fearsome; it is a cool summer night, where one can rest without worry.",,死不可怕，死是凉爽的夏夜，可供人无忧地安眠。,
+Character/FeiyapTank_Text_PharosLeader_0,Text,,,Where is the battlefield?! Here is the battlefield!,,何处是战场？！此处即是战场！,
+Character/FeiyapTank_Text_PharosLeader_1,Text,,,"The days of old, unfolding before my eyes...",,往昔的时光，竟然重复眼前……,
+Character/FeiyapTank_Text_PharosLeader_2,Text,,,"The enemy general's head, I have claimed it!",,敌将之头颅，已被我斩获！,
+Character/FeiyapTank_Text_Witch_0,Text,,,Utterly boring...,,无聊至极……,
+Character/FeiyapTank_Text_Witch_1,Text,,,What is there to fear?!,,有何惧哉？！,
+Character/FeiyapTank_name,Text,,,Master Feiyap,,剑圣·绯夜氏,
+Enemy/Boss_FeiyapMage_EnemyStory,Text,,,"Among countless shattered fragments of worlds, she chose to become the 'Feiyap' who is a Mage.
+Called the 'Giggling Witch', she arbitrarily manipulates and toys with everything in the world for her amusement. After crossing countless planes, wasting immeasurable time, and mastering various techniques and magics, she finally grew tired.
+'How about sealing my power and starting over from scratch?'
+And so, the witch set foot on an unprecedented path with curious eyes.",,"于万千碎裂的世界破片中，选择成为了魔女的那一个“绯夜氏”。
+被称作“嬉笑魔女”的她，肆意操纵和玩弄着世间的一切，并以此取乐。跨越无数位面，浪费掉无数时间，穷究了各种各样的技术和魔法后，于是，她终于感到厌倦。
+「不如把我的力量封印，从头再开始吧？」
+就这样，魔女以好奇的目光踏上了前所未有的道路。",
+Enemy/Boss_FeiyapMage_SubName,Text,,,Giggling Witch,,嬉笑魔女,
+Enemy/Boss_FeiyapMage_name,Text,,,Giggling Witch,,嬉笑魔女,
+Item_Equip/E_Boss_FeiyapMage_0_Description,Text,,,"The investigation team increases the count by alternately using attack and healing skills in sequence. After a total of 33 times, this equipment upgrades to 'Mask of the Cackling Witch'.
+Current Count: &a",,"调查团按顺序交替使用攻击技能和治疗技能时增加计数。合计33次后，该装备升级为“狂笑魔女的面具”。
+当前次数：&a",
+Item_Equip/E_Boss_FeiyapMage_0_name,Text,,,Mask of the Giggling Witch,,嬉笑魔女的面具,
+Item_Equip/E_Boss_FeiyapMage_1_Description,Text,,,"Once per turn, when using your own attack skill, reduce the cost of a random healing skill in hand by 1.
+Once per turn, when using your own healing skill, reduce the cost of a random attack skill in hand by 1.",,"每回合 1 次，使用自己的攻击技能时，手中随机治疗技能费用降低 1 点。
+每回合 1 次，使用自己的治疗技能时，手中随机攻击技能费用降低 1 点。",
+Item_Equip/E_Boss_FeiyapMage_1_name,Text,,,Mask of the Cackling Witch,,狂笑魔女的面具,
+Item_Equip/E_FeiyapTank_0_Description,Text,,,"When HP is below 1, this equipment's stats increase by 200%.",,体力值低于 1 时，这件装备的属性提升200%。,
+Item_Equip/E_FeiyapTank_0_name,Text,,,Nameless Blade,,无铭刃,
+Item_Passive/R_Boss_FeiyapMage_0_Description,Text,,,"After using an attack skill, increase the healing amount of the next skill by 33%.
+After using a healing skill, increase the damage amount of the next skill by 33%.",,"使用攻击技能后，下 1 个技能的治疗量提升33%。
+使用治疗技能后，下 1 个技能的伤害量提升33%。",
+Item_Passive/R_Boss_FeiyapMage_0_name,Text,,,Giggling Witch's Universal Love,,嬉笑魔女的博爱,
+RandomEvent/RE_FeiyapMage_0_Desc,Text,,,"The scenery before my eyes shifts rapidly, from forests, from seas, from the universe, from the dreams of sleepers—
+After devouring all the pleasures within sight, still unsatisfied.
+Thus, the seeker of fun becomes an eternal nightmare.
+And you will become her next nourishment.",,"眼前的景色飞速变换着，从森林，从大海，从宇宙，从沉眠者的梦——
+吞噬掉目所能及的所有的一切的乐趣之后，仍旧不知满足。
+于是，追寻乐趣者其自身成为了永恒的梦魇。
+而你，将成为她的下一份养料。",
+RandomEvent/RE_FeiyapMage_0_EventDetails,Text,,,"The scenery before my eyes shifts rapidly, from forests, from seas, from the universe, from the dreams of sleepers—
+After devouring all the pleasures within sight, still unsatisfied.
+Thus, the seeker of fun becomes an eternal nightmare.
+And you will become her next nourishment.",,"眼前的景色飞速变换着，从森林，从大海，从宇宙，从沉眠者的梦——
+吞噬掉目所能及的所有的一切的乐趣之后，仍旧不知满足。
+于是，追寻乐趣者其自身成为了永恒的梦魇。
+而你，将成为她的下一份养料。",
+RandomEvent/RE_FeiyapMage_0_Name,Text,,,Nightmare of the Fun Seeker,,追寻乐趣者的噩梦,
+RandomEvent/RE_FeiyapMage_0_OrderStrings_0,Text,,,"Amidst laughter and taunts, the witch's figure wavers and vanishes.",,嬉笑怒骂间，魔女的身影飘摇不见。,
+RandomEvent/RE_FeiyapMage_0_UseButtonTooltip_0,Text,,,Face the event Boss "Giggling Witch".,,迎战事件Boss“嬉笑魔女”。,
+RandomEvent/RE_FeiyapMage_0_UseButton_0,Text,,,Fight her!,,与其一战！,
+Skill/S_Boss_FeiyapMage_0_Description,Text,,,"Repeat cast, number of times equals current turn count.",,重复释放，次数等同于当前回合数。,
+Skill/S_Boss_FeiyapMage_0_Name,Text,,,Magic Missile,,魔法飞弹,
+Skill/S_Boss_FeiyapMage_1_Name,Text,,,Tasha's Hideous Laughter,,塔莎狂笑术,
+Skill/S_Boss_FeiyapMage_2_Name,Text,,,Healing Spell,,恢复术,
+Skill/S_Boss_FeiyapMage_3_Description,Text,,,,,,
+Skill/S_Boss_FeiyapMage_3_Name,Text,,,Time Skip,,时间飞跃,
+Skill/S_FeiyapTank_0_Description,Text,,,"Attack an additional enemy randomly.
+Iaido - Cast this skill on a random enemy with Countdown 3.",,"同时指向 1 个随机敌人。
+居合 - 以倒计时3对随机敌人释放。",
+Skill/S_FeiyapTank_0_Name,Text,,,Hazy Shadow,,胧影,
+Skill/S_FeiyapTank_1_Description,Text,,,Iaido - Cast this skill on a random enemy with Countdown 2.,,居合 - 以倒计时2对随机敌人释放。,
+Skill/S_FeiyapTank_1_Name,Text,,,Dancing Alone,,离群别舞,
+Skill/S_FeiyapTank_2_Description,Text,,,"For every 1 HP lost by all investigators, this skill's damage increases by 2%.
+Iaido - Gains 2 stacks of <color=green>Passing By</color>.",,"释放时，所有调查员每失去 1 体力值，这个技能的伤害增加2%。
+居合 - 自身获得 2 层<color=green>错身</color>。",
+Skill/S_FeiyapTank_2_Name,Text,,,Cutting Wind,,朔风切,
+Skill/S_FeiyapTank_3_Description,Text,,,"Cost reduced by 1 if an ally takes damage while this skill is in hand.
+Iaido - Applies <sprite=2><color=yellow>Taunted!</color> to all enemies.",,"握在手中时，每当队友受到伤害，这个技能的费用降低 1 点。
+居合 - 对所有敌人施加<sprite=2><color=yellow>发怒！</color>。",
+Skill/S_FeiyapTank_3_Name,Text,,,Amasatsuki,,天五月,
+Skill/S_FeiyapTank_4_Description,Text,,,Iaido - Applies <sprite=1><color=purple>Crying Blood</color> to all enemies.,,居合 - 对所有敌人施加<sprite=1><color=purple>哭血</color>。,
+Skill/S_FeiyapTank_4_Name,Text,,,Crying Blood,,哭血,
+Skill/S_FeiyapTank_5_Description,Text,,,Restore healing gauge.,,释放时，恢复自己的体力极限。,
+Skill/S_FeiyapTank_5_Name,Text,,,Farewell,,诀别,
+Skill/S_FeiyapTank_6_0_Description,Text,,,,,,
+Skill/S_FeiyapTank_6_0_Name,Text,,,Immediate Execution,,斩立决,
+Skill/S_FeiyapTank_6_Description,Text,,,"Discard target skill. Draw 2 skills from the deck, prioritizing the user's skills.",,丢弃目标技能。优先抽取 2 个自己的技能。,
+Skill/S_FeiyapTank_6_Name,Text,,,Severance,,断舍离,
+Skill/S_FeiyapTank_7_Description,Text,,,Discard target skill. Gain 1 Standby and 1 Exchange.,,丢弃目标技能。获得 1 次等待次数和 1 次交换次数。,
+Skill/S_FeiyapTank_7_Name,Text,,,Shadow Step,,踏影步,
+Skill/S_FeiyapTank_LucyD_Description,Text,,,"Draw 3 skills.
+Deal <color=purple>12 Pain Damage</color> to target.
+If the ally reached <b>Death's Door</b> due to the damage, recover 2 Mana.",,"抽取 3 个技能。
+对目标友军造成<color=purple> 12 点痛苦伤害</color>。
+若目标友军因此技能的伤害进入濒死状态，恢复 2 点法力值。",
+Skill/S_FeiyapTank_LucyD_Name,Text,,,Journey of No Return,,无归的旅途,
+Skill/S_FeiyapTank_Rare_1_Description,Text,,,,,,
+Skill/S_FeiyapTank_Rare_1_Name,Text,,,The Rain Formerly Known as Purple,,雨曾为紫,
+Skill/S_FeiyapTank_Rare_2_Description,Text,,,"Can only cast when HP is below 1.
+Deals an additional &a damage ([1 - current HP]² x Attack Power x 1%).",,"自身体力值低于 1 时才可使用。
+额外造成 &a 伤害([1-当前体力值]² x 攻击力 x 1%)。",
+Skill/S_FeiyapTank_Rare_2_Name,Text,,,Crimson Cherry Blossom Fall,,绯樱狱华落,
+Skill/S_FeiyapTank_Rare_3_Description,Text,,,Restore healing gauge of self and target.,,恢复自己和目标的体力极限。,
+Skill/S_FeiyapTank_Rare_3_Name,Text,,,Dancer of Rain and Night,,雨与夜的舞者,
+SkillExtended/SE_B_R_Boss_FeiyapMage_0_Name,Text,,,Healing amount increased by 33%,,治疗量提升33%,
+SkillExtended/SE_B_R_Boss_FeiyapMage_1_Name,Text,,,Damage amount increased by 33%,,伤害量提升33%,
+SkillExtended/SE_FeiyapTank_C_1_EnforceString,Text,,,,,,
+SkillExtended/SE_FeiyapTank_C_1_Name,Text,,,"Iaido - Draw 2 skills from the deck, prioritizing the user's skills. Gain 1 stack of ""Passing By"".",,居合 - 优先抽取 1 个自己的技能。获得 1 层“错身”。,
+SkillExtended/SE_FeiyapTank_C_2_EnforceString,Text,,,"<sprite name=""비용2""><sprite name=""이상"">, Attack Skills",,<sprite name="비용2"><sprite name="이상">，攻击技能,
+SkillExtended/SE_FeiyapTank_C_2_Name,Text,,,Cost is reduced by 2 and increase damage by 40% if at Death's Door.,,处于濒死状态时，费用降低 2 点，伤害提升40%。,
+SkillKeyword/Keyword_Iaido_Desc,Text,,,"Activated when this skill is <b>discarded</b> or <b>Exchanged</b>.
+(Exclude and Hand Overflow cannot trigger Iaido)",,通过包含交换在内的手段丢弃技能时，触发居合效果。,
+SkillKeyword/Keyword_Iaido_Name,Text,,,Iaido,,居合,

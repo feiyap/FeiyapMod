@@ -1,4 +1,3 @@
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\obj\Debug\Letty.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\obj\Debug\Letty.csproj.CoreCompileInputs.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\bin\Debug\0Harmony.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\bin\Debug\BasicMethods.dll
@@ -12,8 +11,9 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\bin\Debug\Sys
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\bin\Debug\EOS.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\bin\Debug\DynamicEmitAPI.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\bin\Debug\EOS.xml
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\obj\Debug\Letty.csproj.CopyComplete
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\bin\Debug\Letty2025107123111.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\bin\Debug\Letty2025107123111.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\obj\Debug\Letty2025107123111.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\obj\Debug\Letty2025107123111.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\bin\Debug\Letty20266214431.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\bin\Debug\Letty20266214431.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\obj\Debug\Letty.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\obj\Debug\Letty.csproj.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\obj\Debug\Letty20266214431.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Letty\obj\Debug\Letty20266214431.pdb

@@ -4,7 +4,7 @@
     "Visibility": "Public",
     "Title": "【CN/EN】蕾蒂·霍瓦特洛克 ~ 东方妖妖梦",
     "Author": "绯夜氏",
-    "Version": "v1.2",
+    "Version": "v1.3",
     "Description": "蕾蒂是擅长限制敌人行动的干扰型坦克。\r\n\r\n藉由被动和技能的能力，蕾蒂可以频繁地冻结面前的敌人、打断敌人的行动。敌人的行动会不断堆叠“冻僵”的进度，当“冻僵”的进度叠满时，敌人将会陷入眩晕状态。行动越是频繁的敌人，就越是容易陷入冻僵的泥沼之中。\r\n\r\n包含1个角色。拥有10个基础技能，3个稀有技能和1个露西抽牌技能。",
     "TagList": [
         "Characters"
@@ -14,6 +14,6 @@
     ],
     "Cover": "LettyCover.png",
     "WorkShopId": "3578913198",
-    "ChangeNote": "2025/10/3\nv1.2\n修复 - [ 冬至 ] 给予的保护罩实际与描述不符的问题。",
+    "ChangeNote": "2026/6/2\nv1.3\n修复 - 无法启用的BUG。",
     "OnlyUploadFiles": true
 }

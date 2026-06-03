@@ -1,0 +1,9 @@
+{
+    "B_R_Boss_FeiyapMage_1": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "ClassName": "FeiyapTank.B_R_Boss_FeiyapMage_1",
+        "BuffTag": "null",
+        "Name": "嬉笑魔女的溺爱"
+    }
+}

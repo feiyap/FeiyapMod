@@ -1,0 +1,17 @@
+{
+    "B_UnifiedDebuff": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "同舟共济",
+        "Icon": "B_UnifiedDebuff\\B_UnifiedDebuff_Icon.png",
+        "Description": "",
+        "Debuff": true,
+        "TagPer": 0
+    }
+}

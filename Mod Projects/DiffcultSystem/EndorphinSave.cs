@@ -8,6 +8,7 @@ namespace DiffcultSystem
 {
     public class EndorphinSave : CustomValue
     {
+        //实例化
         public static EndorphinSave Instance
         {
             get
@@ -22,13 +23,15 @@ namespace DiffcultSystem
             }
         }
         
+        //获取内啡肽
         public static ItemBase GetEndorphinPassive()
         {
             ItemBase result;
             result = ItemBase.GetItem("Endorphin".ToString());
             return result;
         }
-        
+
+        //设置内啡肽
         public static void SetEndorphinPassive()
         {
             if (UIManager.NowActiveUI is ArkPartsUI)
@@ -66,6 +69,27 @@ namespace DiffcultSystem
                 {
                     PlayData.TSavedata.Passive_Itembase[num] = item_Passive;
                 }
+            }
+        }
+
+        //处理部分启用时效果
+        public void updateEndorphin(string keyid, bool isAdd)
+        {
+            switch (keyid)
+            {
+                //内陆帝国：-背包格子数-3。
+                case "Endorphin_InlandEmpire":
+                    {
+                        if (isAdd)
+                        {
+                            PartyInventory.InvenM.ChangeMaxInventoryNum(-3);
+                        }
+                        else
+                        {
+                            PartyInventory.InvenM.ChangeMaxInventoryNum(3);
+                        }
+                    }
+                    break;
             }
         }
 

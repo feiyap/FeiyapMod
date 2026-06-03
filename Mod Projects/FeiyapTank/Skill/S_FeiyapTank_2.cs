@@ -20,6 +20,12 @@ namespace FeiyapTank
 	/// </summary>
     public class S_FeiyapTank_2:Skill_Extended, IP_DamageChange_sumoperation, IP_DiscardBefore
     {
+        public override void Init()
+        {
+            base.Init();
+            this.OnePassive = true;
+        }
+
         public void DamageChange_sumoperation(Skill SkillD, BattleChar Target, int Damage, ref bool Cri, bool View, ref int PlusDamage)
         {
             int count = 0;
@@ -27,7 +33,7 @@ namespace FeiyapTank
             {
                 count += bc.GetStat.maxhp - bc.HP;
             }
-            PlusDamage = BattleChar.CalculationResult((float)Damage, count * 5, 0);
+            PlusDamage = BattleChar.CalculationResult((float)Damage, count * 2, 0);
         }
 
         public void DiscardBefore(bool Click, Skill skill, bool HandFullWaste)

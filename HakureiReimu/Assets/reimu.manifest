@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 3516945919
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 42f08e08cb1aa0a0a6632339d9ba5df3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d1d08812c463a88e3b750c256beec80
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Reimu/Spine/skeleton_Material.mat
+- Assets/Reimu/Spine/skeleton.json
+- Assets/Reimu/Spine/skeleton_SkeletonData.asset
+- Assets/Reimu/Spine/skeleton.atlas.txt
+- Assets/Reimu/Spine/skeleton_Atlas.asset
+- Assets/Reimu/Spine/skeleton.png
+Dependencies: []

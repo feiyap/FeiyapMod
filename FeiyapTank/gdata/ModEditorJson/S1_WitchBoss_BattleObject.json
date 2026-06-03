@@ -1,0 +1,12 @@
+{
+    "myKey": "S1_WitchBoss",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "",
+        "Animation": "None"
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}

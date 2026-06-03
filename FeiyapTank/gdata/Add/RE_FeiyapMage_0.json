@@ -1,0 +1,24 @@
+{
+    "RE_FeiyapMage_0": {
+        "_gdeSchema": "RandomEvent",
+        "Script": "FeiyapTank.RE_FeiyapMage_0",
+        "RareEvent": true,
+        "SpecialAppearance": false,
+        "ItemSlotView": false,
+        "Name": "追寻乐趣者的噩梦",
+        "Desc": "眼前的景色飞速变换着，从森林，从大海，从宇宙，从沉眠者的梦——\r\n吞噬掉目所能及的所有的一切的乐趣之后，仍旧不知满足。\r\n于是，追寻乐趣者其自身成为了永恒的梦魇。\r\n而你，将成为她的下一份养料。",
+        "EventDetails": "眼前的景色飞速变换着，从森林，从大海，从宇宙，从沉眠者的梦——\r\n吞噬掉目所能及的所有的一切的乐趣之后，仍旧不知满足。\r\n于是，追寻乐趣者其自身成为了永恒的梦魇。\r\n而你，将成为她的下一份养料。",
+        "UseButton": [
+            "与其一战！"
+        ],
+        "UseButtonTooltip": [
+            "迎战事件Boss“嬉笑魔女”。"
+        ],
+        "OrderStrings": [
+            "嬉笑怒骂间，魔女的身影飘摇不见。"
+        ],
+        "MainImage": "RE_FeiyapMage_0\\RE_FeiyapMage_0MainImage.png",
+        "MainImage_2Stage": "RE_FeiyapMage_0\\RE_FeiyapMage_0MainImage_2Stage.png",
+        "MainImage_3Stage": "RE_FeiyapMage_0\\RE_FeiyapMage_0MainImage_3Stage.png"
+    }
+}

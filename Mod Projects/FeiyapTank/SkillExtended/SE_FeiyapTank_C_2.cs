@@ -19,6 +19,11 @@ namespace FeiyapTank
     /// </summary>
     public class SE_FeiyapTank_C_2 : Skill_Extended, IP_HPChange, IP_DamageChange_sumoperation
     {
+        public override bool CanSkillEnforce(Skill MainSkill)
+        {
+            return MainSkill.IsDamage && MainSkill._AP >= 2;
+        }
+
         public void HPChange(BattleChar Char, bool Healed)
         {
             if (this.BChar.HP < 1)

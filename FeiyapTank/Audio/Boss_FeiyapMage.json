@@ -1,0 +1,7 @@
+{
+    "Name": "Boss_FeiyapMage",
+    "path": "AudioFiles\\Boss_FeiyapMage.mp3",
+    "AssetBundlePath": "",
+    "Loop": true,
+    "Bus": "BGM"
+}

@@ -96,9 +96,9 @@ namespace DiffcultSystem
 		/// </summary>
         public static string Item_Passive_Endorphin_Unified = "Endorphin_Unified";
 		/// <summary>
-		/// 鬼祟玲珑
+		/// 同舟共济
 		/// </summary>
-        public static string SkillExtended_SE_Sly_0 = "SE_Sly_0";
+        public static string Buff_B_UnifiedDebuff = "B_UnifiedDebuff";
 
     }
 

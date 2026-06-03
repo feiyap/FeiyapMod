@@ -1,8 +1,8 @@
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\bin\Debug\System.Core.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\obj\Debug\HouraisanKaguya.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\obj\Debug\HouraisanKaguya.csproj.CoreCompileInputs.cache
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\obj\Debug\HouraisanKaguya.csproj.CopyComplete
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\bin\Debug\HouraisanKaguya2024123002831.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\bin\Debug\HouraisanKaguya2024123002831.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\obj\Debug\HouraisanKaguya2024123002831.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\obj\Debug\HouraisanKaguya2024123002831.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\bin\Debug\HouraisanKaguya2026219174817.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\bin\Debug\HouraisanKaguya2026219174817.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\obj\Debug\HouraisanKaguya.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\obj\Debug\Houraisa.4EEB63C8.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\obj\Debug\HouraisanKaguya2026219174817.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HouraisanKaguya\obj\Debug\HouraisanKaguya2026219174817.pdb

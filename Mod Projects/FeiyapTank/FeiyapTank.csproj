@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>FeiyapTank202621300318</AssemblyName>
+    <AssemblyName>FeiyapTank202631122006</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -416,7 +416,7 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                    <!-- Compile ItemGroup Start-->
+              <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="DiscardPatch.cs" />
     <Compile Include="FeiyapTank_ModDefinition.cs" />
@@ -436,6 +436,22 @@
     <Compile Include="Buff\B_FeiyapTank_Rare_1_1.cs" />
     <Compile Include="Buff\B_FeiyapTank_Taunt.cs" />
     <Compile Include="Character\P_FeiyapTank.cs" />
+    <Compile Include="Enemy\BattleEvent_FeiyapMage.cs" />
+    <Compile Include="Enemy\Boss_FeiyapMage.cs" />
+    <Compile Include="Enemy\Buff\B_Boss_FeiyapMage_P.cs" />
+    <Compile Include="Enemy\Buff\B_Boss_FeiyapMage_P_1.cs" />
+    <Compile Include="Enemy\Item_Equip\E_Boss_FeiyapMage_0.cs" />
+    <Compile Include="Enemy\Item_Equip\E_Boss_FeiyapMage_1.cs" />
+    <Compile Include="Enemy\Item_Passive\B_R_Boss_FeiyapMage_0.cs" />
+    <Compile Include="Enemy\Item_Passive\B_R_Boss_FeiyapMage_1.cs" />
+    <Compile Include="Enemy\Item_Passive\R_Boss_FeiyapMage_0.cs" />
+    <Compile Include="Enemy\Item_Passive\SE_B_R_Boss_FeiyapMage_0.cs" />
+    <Compile Include="Enemy\Item_Passive\SE_B_R_Boss_FeiyapMage_1.cs" />
+    <Compile Include="Enemy\RandomEvent\RE_FeiyapMage_0.cs" />
+    <Compile Include="Enemy\Skill\S_Boss_FeiyapMage_0.cs" />
+    <Compile Include="Enemy\Skill\S_Boss_FeiyapMage_1.cs" />
+    <Compile Include="Enemy\Skill\S_Boss_FeiyapMage_2.cs" />
+    <Compile Include="Enemy\Skill\S_Boss_FeiyapMage_3.cs" />
     <Compile Include="Item_Equip\E_FeiyapTank_0.cs" />
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -449,6 +465,7 @@
     <Compile Include="Skill\S_FeiyapTank_5.cs" />
     <Compile Include="Skill\S_FeiyapTank_6.cs" />
     <Compile Include="Skill\S_FeiyapTank_7.cs" />
+    <Compile Include="Skill\S_FeiyapTank_LucyD.cs" />
     <Compile Include="Skill\S_FeiyapTank_Rare_1.cs" />
     <Compile Include="Skill\S_FeiyapTank_Rare_2.cs" />
     <Compile Include="Skill\S_FeiyapTank_Rare_3.cs" />

@@ -1,0 +1,16 @@
+{
+    "S_Boss_FeiyapMage_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Trisha/Trisha_new_3",
+        "Target": "all_enemy",
+        "Name": "时间飞跃",
+        "Description": "",
+        "Effect_Target": "SE_T_S_Boss_FeiyapMage_3",
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "FeiyapTank.S_Boss_FeiyapMage_3"
+        ]
+    }
+}

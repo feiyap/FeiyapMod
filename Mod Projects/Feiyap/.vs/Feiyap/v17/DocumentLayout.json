@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\feiyap\\skill\\s_feiyap_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\feiyap\\feiyap_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|solutionrelative:feiyap_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\feiyap\\skillextended\\se_feiyap_c_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|solutionrelative:skillextended\\se_feiyap_c_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\skill\\s_feiyap_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|solutionrelative:skill\\s_feiyap_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\skill\\s_feiyap_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|solutionrelative:skill\\s_feiyap_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\skill\\s_feiyap_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|solutionrelative:skill\\s_feiyap_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\feiyap\\buff\\b_feiyap_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\buff\\b_feiyap_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|solutionrelative:buff\\b_feiyap_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\feiyap\\buff\\b_feiyap_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\buff\\b_feiyap_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{531A093D-B59F-48B8-9A32-7F7576800917}|Feiyap.csproj|solutionrelative:buff\\b_feiyap_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,6 +43,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Feiyap_Plugin.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\Feiyap_Plugin.cs",
+              "RelativeDocumentMoniker": "Feiyap_Plugin.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\Feiyap_Plugin.cs",
+              "RelativeToolTip": "Feiyap_Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T04:42:11.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SE_Feiyap_C_0.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\SkillExtended\\SE_Feiyap_C_0.cs",
+              "RelativeDocumentMoniker": "SkillExtended\\SE_Feiyap_C_0.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\SkillExtended\\SE_Feiyap_C_0.cs",
+              "RelativeToolTip": "SkillExtended\\SE_Feiyap_C_0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:01:25.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "S_Feiyap_0.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\Skill\\S_Feiyap_0.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Feiyap_0.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\Skill\\S_Feiyap_0.cs",
+              "RelativeToolTip": "Skill\\S_Feiyap_0.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwv0EAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T13:52:44.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "S_Feiyap_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\Skill\\S_Feiyap_1.cs",
+              "RelativeDocumentMoniker": "Skill\\S_Feiyap_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\Skill\\S_Feiyap_1.cs",
+              "RelativeToolTip": "Skill\\S_Feiyap_1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T13:52:32.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "S_Feiyap_5.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\Skill\\S_Feiyap_5.cs",
               "RelativeDocumentMoniker": "Skill\\S_Feiyap_5.cs",
@@ -34,12 +100,11 @@
               "RelativeToolTip": "Skill\\S_Feiyap_5.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T14:40:33.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T14:40:33.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "B_Feiyap_7.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\Buff\\B_Feiyap_7.cs",
               "RelativeDocumentMoniker": "Buff\\B_Feiyap_7.cs",
@@ -47,12 +112,11 @@
               "RelativeToolTip": "Buff\\B_Feiyap_7.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T14:19:10.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T14:19:10.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "B_Feiyap_6.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Feiyap\\Buff\\B_Feiyap_6.cs",
               "RelativeDocumentMoniker": "Buff\\B_Feiyap_6.cs",
@@ -60,8 +124,7 @@
               "RelativeToolTip": "Buff\\B_Feiyap_6.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T14:19:09.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T14:19:09.014Z"
             }
           ]
         }

@@ -19,6 +19,7 @@ namespace DiffcultSystem
 {
     class EndorphinRelic
     {
+        //游戏开始时添加内啡肽
         [HarmonyPatch(typeof(FieldSystem))]
         class FieldSystem_Patch
         {
@@ -30,6 +31,7 @@ namespace DiffcultSystem
             }
         }
 
+        //注册点击事件
         [HarmonyPatch(typeof(ArkItemView))]
         class ArkItemView_Patch
         {
@@ -54,6 +56,7 @@ namespace DiffcultSystem
             }
         }
 
+        //点击事件
         public static void Call()
         {
             SelectItemUI component = UIManager.InstantiateActive(UIManager.inst.SelectItemUI).GetComponent<SelectItemUI>();
@@ -65,16 +68,20 @@ namespace DiffcultSystem
             component.Init(list, new RandomItemBtn.SelectItemClickDel(setEndorphinUpdate), true);
         }
 
+        //更新内啡肽状态
         public static void setEndorphinUpdate(ItemBase item)
         {
             if (EndorphinSave.Instance.endorphinActiveList.Find(a => a == item.itemkey) != null)
             {
                 EndorphinSave.Instance.endorphinActiveList.Remove(item.itemkey);
+                EndorphinSave.Instance.updateEndorphin(item.itemkey, false);
             }
             else
             {
                 EndorphinSave.Instance.endorphinActiveList.Add(item.itemkey);
+                EndorphinSave.Instance.updateEndorphin(item.itemkey, true);
             }
+            
         }
 
         public static List<string> endorphinList = new List<string>

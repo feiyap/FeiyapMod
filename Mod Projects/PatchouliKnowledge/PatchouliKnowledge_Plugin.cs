@@ -1,18 +1,21 @@
-using UnityEngine;
-using UnityEngine.UI;
-using System;
-using System.Linq;
-using System.Collections;
-using System.Collections.Generic;
-using GameDataEditor;
-using I2.Loc;
-using DarkTonic.MasterAudio;
 using ChronoArkMod;
+using ChronoArkMod.ModData;
 using ChronoArkMod.Plugin;
 using ChronoArkMod.Template;
-using Debug = UnityEngine.Debug;
-using ChronoArkMod.ModData;
+using DarkTonic.MasterAudio;
+using Dialogical;
+using GameDataEditor;
 using HarmonyLib;
+using I2.Loc;
+using Spine.Unity;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Markup;
+using UnityEngine;
+using UnityEngine.UI;
+using Debug = UnityEngine.Debug;
 namespace PatchouliKnowledge
 {
     public class PatchouliKnowledge_Plugin: ChronoArkPlugin
@@ -128,6 +131,37 @@ namespace PatchouliKnowledge
                         }
                     }
                 }
+            }
+        }
+    }
+
+    //城镇小人
+    public static class Patchouli_FriendShipPlugin
+    {
+        // Token: 0x02000128 RID: 296
+        [HarmonyPatch(typeof(ArkCode))]
+        private class ArkCode_Plugin
+        {
+            // Token: 0x060004ED RID: 1261 RVA: 0x000159E0 File Offset: 0x00013BE0
+            [HarmonyPatch("Start")]
+            [HarmonyPostfix]
+            public static void ArkCode_Start_Patch(ArkCode __instance)
+            {
+                GameObject gameObject = Enumerable.FirstOrDefault<GameObject>(__instance.UnlockMainNPCList, (GameObject target) => target.name == "PatchouliKnowledge");
+                if (gameObject == null)
+                {
+                    GameObject gameObject2 = __instance.UnlockMainNPCList[0];
+                    gameObject = UnityEngine.Object.Instantiate<GameObject>(gameObject2, gameObject2.transform.parent);
+                    gameObject.GetComponentInChildren<SkeletonAnimation>().skeletonDataAsset = AddressableLoadManager.LoadAsyncCompletion<SkeletonDataAsset>(ModManager.getModInfo("PatchouliKnowledge").assetInfo.ObjectFromAsset<SkeletonDataAsset>("patchoulispine", "Assets/Patchouli/Spine/skeleton_SkeletonData.asset"), 0);
+                    gameObject.GetComponentInChildren<SkeletonAnimation>().Initialize(true);
+                    gameObject.GetComponentInChildren<SkeletonAnimation>().AnimationName = "animation";
+                    gameObject.GetComponent<Dialogue>().tree = AddressableLoadManager.LoadAsyncCompletion<DialogueTree>(Dia_City.DialogueTreePath_Patchouli_Ark, 0);
+                    gameObject.transform.position = new Vector3(-5.50f, 8.21f, 0f);
+                    gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
+                    gameObject.name = "PatchouliKnowledge";
+                    __instance.UnlockMainNPCList.Add(gameObject);
+                }
+                gameObject.SetActive(true);
             }
         }
     }

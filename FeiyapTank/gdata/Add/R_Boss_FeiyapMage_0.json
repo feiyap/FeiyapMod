@@ -1,0 +1,10 @@
+{
+    "R_Boss_FeiyapMage_0": {
+        "_gdeSchema": "Item_Passive",
+        "name": "嬉笑魔女的博爱",
+        "Description": "使用攻击技能后，下 1 个技能的治疗量提升33%。\r\n使用治疗技能后，下 1 个技能的伤害量提升33%。",
+        "NoDrop": true,
+        "image": "Item\\R_Boss_FeiyapMage_0_image.png",
+        "passive_script": "FeiyapTank.R_Boss_FeiyapMage_0"
+    }
+}

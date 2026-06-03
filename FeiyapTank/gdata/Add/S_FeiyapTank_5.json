@@ -18,6 +18,7 @@
             "FeiyapTank.S_FeiyapTank_5"
         ],
         "Effect_Self": "null",
-        "NoBasicSkill": false
+        "NoBasicSkill": false,
+        "IgnoreTaunt": false
     }
 }

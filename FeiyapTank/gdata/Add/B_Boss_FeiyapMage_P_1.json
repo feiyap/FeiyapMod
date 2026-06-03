@@ -1,0 +1,15 @@
+{
+    "B_Boss_FeiyapMage_P_1": {
+        "_gdeSchema": "Buff",
+        "Cantdisable": true,
+        "ClassName": "FeiyapTank.B_Boss_FeiyapMage_P_1",
+        "BuffTag": "null",
+        "Name": "百巧手",
+        "Description": "当前层数：&a",
+        "Icon": "B_Boss_FeiyapMage_P_1\\B_Boss_FeiyapMage_P_1_Icon.png",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "UseSkillDebuff": false,
+        "Caution": false
+    }
+}

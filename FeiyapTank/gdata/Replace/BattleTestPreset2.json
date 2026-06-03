@@ -3,30 +3,40 @@
         "_gdeSchema": "Preset",
         "AP": 10,
         "Party": [
-            "FeiyapTank"
+            "FeiyapTank",
+            "Sizz"
         ],
         "PartySkills": [
             [
                 "S_FeiyapTank_0",
                 "S_FeiyapTank_1",
-                "S_FeiyapTank_2",
-                "S_FeiyapTank_3",
-                "S_FeiyapTank_4",
-                "S_FeiyapTank_5",
-                "S_FeiyapTank_6",
-                "S_FeiyapTank_7",
-                "S_FeiyapTank_Rare_1",
-                "S_FeiyapTank_Rare_3"
+                "S_FeiyapTank_2"
+            ],
+            [
+                
             ]
         ],
         "PartyEquip": [
+            [
+                "E_Boss_FeiyapMage_0",
+                "E_Boss_FeiyapMage_1"
+            ],
             [
                 
             ]
         ],
         "Level": 6,
         "PartyBasicSkill": [
-            "S_TW_Blue_5"
+            "S_FeiyapTank_Rare_1",
+            "S_LucyC_2"
+        ],
+        "LucySkill": [
+            "S_FeiyapTank_LucyD",
+            "S_FeiyapTank_LucyD",
+            "S_FeiyapTank_LucyD"
+        ],
+        "Passive": [
+            "R_Boss_FeiyapMage_0"
         ]
     }
 }

@@ -1,0 +1,12 @@
+{
+    "E_Boss_FeiyapMage_1": {
+        "_gdeSchema": "Item_Equip",
+        "Itemclass": "Legendary",
+        "name": "狂笑魔女的面具",
+        "Description": "每回合 1 次，使用自己的攻击技能时，手中随机治疗技能费用降低 1 点。\r\n每回合 1 次，使用自己的治疗技能时，手中随机攻击技能费用降低 1 点。",
+        "Off": true,
+        "NoDrop": true,
+        "image": "Item\\E_Boss_FeiyapMage_1_image.png",
+        "Equip_Script": "FeiyapTank.E_Boss_FeiyapMage_1"
+    }
+}

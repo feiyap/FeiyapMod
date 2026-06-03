@@ -1,7 +1,5 @@
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\System.Core.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall.csproj.CoreCompileInputs.cache
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall.csproj.CopyComplete
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\0Harmony.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\Mono.Cecil.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\Mono.Cecil.Mdb.dll
@@ -9,7 +7,9 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\Mo
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\Mono.Cecil.Rocks.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\MonoMod.RuntimeDetour.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\MonoMod.Utils.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\Squall202533232535.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\Squall202533232535.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall202533232535.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall202533232535.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\Squall20266214823.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\bin\Debug\Squall20266214823.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall.csproj.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall20266214823.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\Squall\obj\Debug\Squall20266214823.pdb

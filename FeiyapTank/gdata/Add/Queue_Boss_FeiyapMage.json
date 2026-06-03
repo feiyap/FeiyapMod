@@ -8,28 +8,10 @@
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0
-            },
-            {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
             }
         ],
         "Enemys": [
-            "S1_Pharos_Tanker",
-            "Boss_FeiyapMage",
-            "S1_Pharos_Warrior",
-            "S1_Pharos_Healer"
+            "Boss_FeiyapMage"
         ],
         "CustomeFogTurn": 13
     }

@@ -53,7 +53,7 @@ namespace HouraisanKaguya
             if (this.BChar.BuffFind("B_FKaguya_Sinnpou"))
             {
                 this.BChar.BuffReturn("B_FKaguya_Sinnpou").SelfDestroy();
-                Targets[0].BuffAdd("B_FKaguya_9", this.BChar, false, 0, false, 3, false);
+                Targets[0].BuffAdd("B_FKaguya_9", this.BChar);
             }
         }
         

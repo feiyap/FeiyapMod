@@ -16,7 +16,7 @@ namespace Squall
         public static string Buff_B_Squall_0 = "B_Squall_0";
 		/// <summary>
 		/// 狮子奋起
-		/// 回合开始时，额外获得一层[刃甲]。
+		/// 回合开始时，额外获得一层<color=#4876FF>刃甲</color>。
 		/// </summary>
         public static string Buff_B_Squall_1 = "B_Squall_1";
 		/// <summary>
@@ -46,8 +46,8 @@ namespace Squall
         public static string Buff_B_Squall_Rare_1_0 = "B_Squall_Rare_1_0";
 		/// <summary>
 		/// 狮子之心
-		/// [刃甲]的最高层数增加到15。
-		/// 每获得一层[刃甲]，增加2%攻击力。
+		/// <color=#4876FF>刃甲</color>的最高层数增加到15。
+		/// 每获得一层<color=#4876FF>刃甲</color>，增加2%攻击力。
 		/// 追加攻击和反击的伤害增加&a点(攻击力的20%)。
 		/// </summary>
         public static string Buff_B_Squall_Rare_2 = "B_Squall_Rare_2";
@@ -59,7 +59,7 @@ namespace Squall
 		/// </summary>
         public static string Buff_B_Squall_Taunt = "B_Squall_Taunt";
 		/// <summary>
-		/// 斯考尔拥有[刃甲]时，造成的伤害提升30%。
+		/// 斯考尔拥有<color=#4876FF>刃甲</color>时，造成的伤害提升30%。
 		/// 攻击技能
 		/// </summary>
         public static string SkillExtended_SE_Squall_C_0 = "SE_Squall_C_0";
@@ -84,7 +84,7 @@ namespace Squall
 		/// <summary>
 		/// 斯考尔
 		/// Passive:
-		/// 回合开始时获得一层[刃甲]。每当斯考尔替队友承受攻击时，获得一层[刃甲]。
+		/// 回合开始时获得一层<color=#4876FF>刃甲</color>。每当斯考尔替队友承受攻击时，获得一层<color=#4876FF>刃甲</color>。
 		/// 在一个回合内累计承受超过最大生命值25%的物理伤害后，对随机敌人进行4段30%攻击力的反击。
 		/// <b>斯考尔从装备中获取的防御力加成转化为等量的百分比最大体力值加成。</b>
 		/// <color=#919191>- 此被动从1级开始生效。</color>
@@ -104,8 +104,8 @@ namespace Squall
         public static string Skill_S_Squall_1 = "S_Squall_1";
 		/// <summary>
 		/// 连续剑•狮子奋迅
-		/// 若[刃甲]超过2层，则消耗2层[刃甲]，进行2次追加攻击。
-		/// 若[刃甲]超过3层，则额外消耗1层[刃甲]，使追加攻击以暴击形式命中。
+		/// 若<color=#4876FF>刃甲</color>超过2层，则消耗2层<color=#4876FF>刃甲</color>，进行2次追加攻击。
+		/// 若<color=#4876FF>刃甲</color>超过3层，则额外消耗1层<color=#4876FF>刃甲</color>，使追加攻击以暴击形式命中。
 		/// </summary>
         public static string Skill_S_Squall_2 = "S_Squall_2";
 		/// <summary>
@@ -118,8 +118,8 @@ namespace Squall
         public static string Skill_S_Squall_3 = "S_Squall_3";
 		/// <summary>
 		/// 残月轨迹
-		/// 消耗最多6层[刃甲]。
-		/// 每消耗1层[刃甲]使伤害增加4%，并重复释放1次。
+		/// 消耗最多6层<color=#4876FF>刃甲</color>。
+		/// 每消耗1层<color=#4876FF>刃甲</color>使伤害增加4%，并重复释放1次。
 		/// </summary>
         public static string Skill_S_Squall_4 = "S_Squall_4";
 		/// <summary>
@@ -128,14 +128,14 @@ namespace Squall
         public static string Skill_S_Squall_4_0 = "S_Squall_4_0";
 		/// <summary>
 		/// G.F.
-		/// 丢弃目标技能，获得那个技能费用+1的[刃甲]层数。
+		/// 丢弃目标技能，获得那个技能费用+1的<color=#4876FF>刃甲</color>层数。
 		/// 那之后，优先抽取1个自己的技能。
 		/// </summary>
         public static string Skill_S_Squall_5 = "S_Squall_5";
 		/// <summary>
 		/// 静寂裁决
-		/// 消耗1层[刃甲]，使目标最先释放的攻击技能立即释放。
-		/// 斯考尔替友军承受此技能的总伤害量。
+		/// 消耗1层<color=#4876FF>刃甲</color>，使目标最先释放的攻击技能立即释放。
+		/// 若该次攻击为单体攻击，斯考尔替友军承受此技能的总伤害量。
 		/// </summary>
         public static string Skill_S_Squall_6 = "S_Squall_6";
 		/// <summary>
@@ -185,6 +185,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// I’ll provide cover!
 		/// Japanese:
 		/// Chinese:
 		/// 我来掩护！
@@ -194,6 +195,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// Fall before me!
 		/// Japanese:
 		/// Chinese:
 		/// 给我倒下！
@@ -203,6 +205,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// Block them!
 		/// Japanese:
 		/// Chinese:
 		/// 阻断！
@@ -212,6 +215,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// I owe you one.
 		/// Japanese:
 		/// Chinese:
 		/// 我欠你一次。
@@ -221,6 +225,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// Sorry...
 		/// Japanese:
 		/// Chinese:
 		/// 抱歉......
@@ -230,6 +235,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// He’s my prey.
 		/// Japanese:
 		/// Chinese:
 		/// 他是我的猎物。
@@ -239,6 +245,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// Get ready, here it comes!
 		/// Japanese:
 		/// Chinese:
 		/// 准备好，要来了！
@@ -248,6 +255,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// Kill confirmed!
 		/// Japanese:
 		/// Chinese:
 		/// 击杀！
@@ -257,6 +265,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// This ends here!
 		/// Japanese:
 		/// Chinese:
 		/// 到此为止！
@@ -266,6 +275,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// No mercy!
 		/// Japanese:
 		/// Chinese:
 		/// 绝不姑息！
@@ -275,6 +285,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// Ugh, requesting backup...
 		/// Japanese:
 		/// Chinese:
 		/// 唔，请求支援......
@@ -284,6 +295,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// Is this all I’m capable of...?
 		/// Japanese:
 		/// Chinese:
 		/// 我就只有这点程度吗......
@@ -293,6 +305,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// Sorry, everyone...
 		/// Japanese:
 		/// Chinese:
 		/// 抱歉了，各位……
@@ -302,6 +315,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// Let’s go, the mission begins.
 		/// Japanese:
 		/// Chinese:
 		/// 上吧，任务开始。
@@ -311,6 +325,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// I’ll end this fight quickly.
 		/// Japanese:
 		/// Chinese:
 		/// 我会迅速结束这场战斗。
@@ -320,6 +335,7 @@ namespace Squall
 		/// <summary>
 		/// Korean:
 		/// English:
+		/// Let’s take out all the enemies in front of us.
 		/// Japanese:
 		/// Chinese:
 		/// 把眼前的敌人统统解决。
