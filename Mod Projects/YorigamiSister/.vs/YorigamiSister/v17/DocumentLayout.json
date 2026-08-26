@@ -3,51 +3,71 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\cv_gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:cv_gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\bv_joon_tempequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:bv_joon_tempequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\yorigamisister_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:yorigamisister_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\goldpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:goldpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\campfireequippatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:campfireequippatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_rare_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_rare_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_rare_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_rare_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_rare_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_rare_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yorigamisister\\skill\\s_joon_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\skill\\s_joon_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E30321C-81F2-43A3-A9BA-C70378605366}|YorigamiSister.csproj|solutionrelative:skill\\s_joon_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,11 +78,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BV_Joon_TempEquip.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\BV_Joon_TempEquip.cs",
+              "RelativeDocumentMoniker": "BV_Joon_TempEquip.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\BV_Joon_TempEquip.cs",
+              "RelativeToolTip": "BV_Joon_TempEquip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T00:47:33.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CampfireEquipPatch.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\CampfireEquipPatch.cs",
+              "RelativeDocumentMoniker": "CampfireEquipPatch.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\CampfireEquipPatch.cs",
+              "RelativeToolTip": "CampfireEquipPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T00:47:31.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CV_Gold.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\CV_Gold.cs",
+              "RelativeDocumentMoniker": "CV_Gold.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\CV_Gold.cs",
+              "RelativeToolTip": "CV_Gold.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T00:47:26.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GoldPatch.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\GoldPatch.cs",
+              "RelativeDocumentMoniker": "GoldPatch.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\GoldPatch.cs",
+              "RelativeToolTip": "GoldPatch.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T00:47:25.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YorigamiSister_Plugin.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\YorigamiSister_Plugin.cs",
+              "RelativeDocumentMoniker": "YorigamiSister_Plugin.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\YorigamiSister_Plugin.cs",
+              "RelativeToolTip": "YorigamiSister_Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T00:47:24.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "S_Joon_Rare_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_Rare_3.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_Rare_3.cs",
@@ -70,12 +155,11 @@
               "RelativeToolTip": "Skill\\S_Joon_Rare_3.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:22.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:22.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "S_Joon_Rare_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_Rare_2.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_Rare_2.cs",
@@ -83,12 +167,11 @@
               "RelativeToolTip": "Skill\\S_Joon_Rare_2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:21.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:21.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "S_Joon_8.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_8.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_8.cs",
@@ -96,12 +179,11 @@
               "RelativeToolTip": "Skill\\S_Joon_8.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:20.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:20.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "S_Joon_7.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_7.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_7.cs",
@@ -109,12 +191,11 @@
               "RelativeToolTip": "Skill\\S_Joon_7.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:19.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:19.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "S_Joon_6.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_6.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_6.cs",
@@ -122,12 +203,11 @@
               "RelativeToolTip": "Skill\\S_Joon_6.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:16.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:16.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "S_Joon_5.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_5.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_5.cs",
@@ -135,12 +215,11 @@
               "RelativeToolTip": "Skill\\S_Joon_5.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:15.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:15.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "S_Joon_4.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_4.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_4.cs",
@@ -148,12 +227,11 @@
               "RelativeToolTip": "Skill\\S_Joon_4.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:14.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:14.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "S_Joon_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_3.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_3.cs",
@@ -161,12 +239,11 @@
               "RelativeToolTip": "Skill\\S_Joon_3.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:13.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:13.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "S_Joon_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_2.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_2.cs",
@@ -174,12 +251,11 @@
               "RelativeToolTip": "Skill\\S_Joon_2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:12.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:12.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "S_Joon_0.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_0.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_0.cs",
@@ -187,12 +263,11 @@
               "RelativeToolTip": "Skill\\S_Joon_0.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:10.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:10.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "S_Joon_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_1.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_1.cs",
@@ -200,12 +275,11 @@
               "RelativeToolTip": "Skill\\S_Joon_1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T04:14:09.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T04:14:09.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "S_Joon_Rare_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YorigamiSister\\Skill\\S_Joon_Rare_1.cs",
               "RelativeDocumentMoniker": "Skill\\S_Joon_Rare_1.cs",

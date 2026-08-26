@@ -6,10 +6,10 @@
         "SkinDesc": "为回应人类村落中幻想大泳池的超高人气，博丽巫女挺身而出主持泳池开放活动。\r\n她请香霖堂店主精心设计，将平日穿的巫女服稍加改良，打造成既适合戏水又可爱俏丽的造型...\r\n经过香霖堂店主事无巨细地按照要求制作，最终完成了这套服装。",
         "FaceSprite": "Reimu_Swim\\Reimu_SwimBattleFace.png",
         "CampSD": [
-            "Reimu_Swim\\Reimu_SwimCampSD0.png",
-            "Reimu_Swim\\Reimu_SwimCampSD1.png",
-            "Reimu_Swim\\Reimu_SwimCampSD2.png",
-            "Reimu_Swim\\Reimu_SwimCampSD3.png"
+            "HakureiReimu\\HakureiReimuCampSD0.png",
+            "HakureiReimu\\HakureiReimuCampSD1.png",
+            "HakureiReimu\\HakureiReimuCampSD2.png",
+            "HakureiReimu\\HakureiReimuCampSD3.png"
         ]
     }
 }

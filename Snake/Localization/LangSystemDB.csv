@@ -1,0 +1,6 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+SnakeGame/Close,Text,,,OK,,确定,
+SnakeGame/Hint,Text,,,"Arrow keys / WASD to move, Esc to end",,方向键 / WASD 移动，Esc 结束,
+SnakeGame/Result,Text,,,Game Over|Score: {0}|Gold: {1},,游戏结束|得分：{0}|获得金币：{1},
+SnakeGame/Score,Text,,,Score: {0},,得分：{0},
+SnakeGame/Title,Text,,,Snake,,贪吃蛇,

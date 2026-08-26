@@ -2,9 +2,9 @@
     "id": "FeiyapTank",
     "Uploader": "Feiyap",
     "Visibility": "Public",
-    "Title": "【CN/EN】剑圣·绯夜氏 FeiyapMaster Character Mod",
+    "Title": "【CN/EN/JP/KR】剑圣·绯夜氏 FeiyapMaster Character Mod",
     "Author": "绯夜氏",
-    "Version": "v1.4",
+    "Version": "v1.5",
     "Cover": "FeiyapTankCover.png",
     "TagList": [
         "Characters"
@@ -24,5 +24,5 @@
     ],
     "WorkShopId": "3667574277",
     "OnlyUploadFiles": true,
-    "ChangeNote": "2026/3/1\nv1.4\n削弱 - Boss嬉笑魔女：时间飞跃从5回合→3回合。"
+    "ChangeNote": "2026/8/1\nv1.5\n新增 - JP和KR翻译。"
 }

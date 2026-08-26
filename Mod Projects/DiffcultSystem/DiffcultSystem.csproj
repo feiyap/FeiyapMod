@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>DiffcultSystem2026516120806</AssemblyName>
+    <AssemblyName>DiffcultSystem20266690149</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -405,13 +405,17 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-                                                                            <!-- Compile ItemGroup Start-->
+                                                                                                    <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="DiffcultSystem_ModDefinition.cs" />
     <Compile Include="DiffcultSystem_ModItemKeys.cs" />
     <Compile Include="DiffcultSystem_Plugin.cs" />
+    <Compile Include="EndorphinGuidingBattleRedirect.cs" />
+    <Compile Include="EndorphinInlandEmpireLoot.cs" />
+    <Compile Include="EndorphinParanoidView.cs" />
     <Compile Include="EndorphinRelic.cs" />
     <Compile Include="EndorphinSave.cs" />
+    <Compile Include="Buff\B_Endorphin_PersistentResist.cs" />
     <Compile Include="Buff\B_UnifiedDebuff.cs" />
     <Compile Include="Item_Passive\Endorphin.cs" />
     <Compile Include="Item_Passive\Endorphin_Addicted.cs" />

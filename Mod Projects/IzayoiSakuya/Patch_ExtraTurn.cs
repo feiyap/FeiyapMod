@@ -1,107 +1,64 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
-using UnityEngine.UI;
-using I2.Loc;
-using ChronoArkMod;
-using ChronoArkMod.Plugin;
-using ChronoArkMod.Template;
-using HarmonyLib;
-using GameDataEditor;
 using System.Collections;
+using HarmonyLib;
 
 namespace IzayoiSakuya
 {
+    /// <summary>
+    /// 额外回合：包装原版 MyTurn，并在设置期间跳过 EnemyTeam.NewTurn。
+    /// </summary>
     [HarmonyPatch(typeof(BattleSystem))]
-    [HarmonyPatch("MyTurn")]
-    public static class MyTurn_Plugin
+    public static class Sakuya_MyTurnPlugin
     {
-        [HarmonyPrefix]
-        public static bool MyTurn_Prefix(ref IEnumerator __result, BattleSystem __instance)
+        private static int ExtraTurnSetupDepth;
+
+        public static bool IsExtraTurnSetup
+        {
+            get
+            {
+                return ExtraTurnSetupDepth > 0;
+            }
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch("MyTurn")]
+        public static void Sakuya_MyTurnPostfix(ref IEnumerator __result, BattleSystem __instance)
         {
             foreach (BattleChar bc in __instance.AllyList)
             {
                 if (bc.BuffFind("B_Sakuya_10Rare"))
                 {
                     bc.BuffReturn("B_Sakuya_10Rare").SelfStackDestroy();
-                    __result = ExtraTurn(__instance);
-
-                    return false;
+                    __result = Sakuya_ExtraTurn(__result);
+                    break;
                 }
             }
-
-            return true;
         }
 
-        private static IEnumerator ExtraTurn(BattleSystem __instance)
+        private static IEnumerator Sakuya_ExtraTurn(IEnumerator original)
         {
-            yield return new WaitForSeconds(0.25f);
-            if (__instance.BattleEndBool)
+            ExtraTurnSetupDepth++;
+            try
             {
-                for (; ; )
+                while (original.MoveNext())
                 {
-                    yield return null;
+                    yield return original.Current;
                 }
             }
-            else
+            finally
             {
-                __instance.AllyTeam.HandTurnCheck();
-                while (__instance.ListWait || __instance.DelayWait)
-                {
-                    yield return new WaitForSeconds(0.1f);
-                }
-                __instance.AllyTeam.MyTurn();
-                while (__instance.ListWait || __instance.DelayWait)
-                {
-                    yield return new WaitForSeconds(0.1f);
-                }
-                yield return new WaitForSeconds(0.15f);
-                __instance.EffectDelays.Enqueue(__instance.TurnUpdate());
-                while (__instance.ListWait || __instance.DelayWait)
-                {
-                    yield return new WaitForSeconds(0.1f);
-                }
-                Camera.main.GetComponent<SmoothMove>().Rotate(__instance.CamInit);
-                __instance.AllyTeam.OneUpdate();
-                __instance.AllyTeam.NewTurn();
-                __instance.TurnSpacialCharacterParticleUseList.Clear();
-                while (__instance.ListWait || __instance.DelayWait)
-                {
-                    yield return new WaitForSeconds(0.1f);
-                }
-                __instance.ActWindow.Draw(__instance.AllyTeam, true);
-                while (__instance.ListWait || __instance.DelayWait)
-                {
-                    yield return new WaitForSeconds(0.1f);
-                }
-                foreach (IP_PlayerTurn ip_PlayerTurn in __instance.IReturn<IP_PlayerTurn>())
-                {
-                    if (ip_PlayerTurn != null)
-                    {
-                        ip_PlayerTurn.Turn();
-                    }
-                }
-                while (__instance.ListWait || __instance.DelayWait)
-                {
-                    yield return new WaitForSeconds(0.1f);
-                }
-                using (List<IP_PlayerTurn_1>.Enumerator enumerator2 = __instance.IReturn<IP_PlayerTurn_1>().GetEnumerator())
-                {
-                    while (enumerator2.MoveNext())
-                    {
-                        IP_PlayerTurn_1 ip_PlayerTurn_ = enumerator2.Current;
-                        if (ip_PlayerTurn_ != null)
-                        {
-                            ip_PlayerTurn_.Turn1();
-                        }
-                    }
-                }
+                ExtraTurnSetupDepth--;
+            }
+        }
+    }
 
-                yield return new WaitForSeconds(0.1f);
-            }
+    [HarmonyPatch(typeof(EnemyTeam))]
+    public static class Sakuya_EnemyTeamPlugin
+    {
+        [HarmonyPrefix]
+        [HarmonyPatch("NewTurn")]
+        public static bool Sakuya_EnemyTeamNewTurnPrefix()
+        {
+            return !Sakuya_MyTurnPlugin.IsExtraTurnSetup;
         }
     }
 }

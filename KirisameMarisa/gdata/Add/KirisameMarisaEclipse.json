@@ -6,10 +6,10 @@
         "SkinDesc": "我会让你见识到地狱的见面礼……\n我特别准备了超强火力！",
         "FaceSprite": "KirisameMarisaEclis\\KirisameMarisaEclisBattleFace.png",
         "CampSD": [
-            "KirisameMarisaEclis\\KirisameMarisaEclisCampSD0.png",
-            "KirisameMarisaEclis\\KirisameMarisaEclisCampSD1.png",
-            "KirisameMarisaEclis\\KirisameMarisaEclisCampSD2.png",
-            "KirisameMarisaEclis\\KirisameMarisaEclisCampSD3.png"
+            "KirisameMarisa\\KirisameMarisaCampSD0.png",
+            "KirisameMarisa\\KirisameMarisaCampSD1.png",
+            "KirisameMarisa\\KirisameMarisaCampSD2.png",
+            "KirisameMarisa\\KirisameMarisaCampSD3.png"
         ]
     }
 }

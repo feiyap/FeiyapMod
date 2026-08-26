@@ -41,8 +41,29 @@ namespace PatchouliKnowledge
             "S_Pachi_E_6"
         };
 
-        public static Skill firstskill = new Skill();
-        public static Skill secondskill = new Skill();
+        public static Skill firstskill = null;
+        public static Skill secondskill = null;
+
+        /// <summary>
+        /// 是否处于「元素祈唤」已选定第一枚元素的二次选择。
+        /// 装备/遗物生成元素时 firstskill 为空或未初始化，必须视为不可用，避免 ButtonSelectTerms 空引用卡死。
+        /// </summary>
+        public static bool HasValidFirstElement()
+        {
+            return firstskill != null && firstskill.MySkill != null && !string.IsNullOrEmpty(firstskill.MySkill.KeyID);
+        }
+
+        /// <summary>
+        /// 取本次战斗的元素进度。营地技能书或战斗值尚未建立时返回 null。
+        /// </summary>
+        internal static BV_Pachi_P GetElementBattleValue()
+        {
+            if (BattleSystem.instance == null)
+            {
+                return null;
+            }
+            return BattleSystem.instance.GetBattleValue<BV_Pachi_P>();
+        }
 
         public static Dictionary<(int, int), string> GenerateSkillMap()
         {

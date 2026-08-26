@@ -450,6 +450,7 @@
     <Compile Include="Buff\B_Musoutensei_Youmu_0.cs" />
     <Compile Include="Buff\B_RE_HakureiReimu_0.cs" />
     <Compile Include="Character\P_HakureiReimu.cs" />
+    <Compile Include="Dialogue\Dia_City.cs" />
     <Compile Include="Dialogue\DiaNormal.cs" />
     <Compile Include="Dialogue\Dia_Cake.cs" />
     <Compile Include="Dialogue\Dia_FishingRod.cs" />

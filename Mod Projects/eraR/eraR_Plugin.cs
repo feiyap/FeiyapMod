@@ -37,6 +37,56 @@ namespace eraR
         private Harmony harmony;
     }
 
+    /// <summary>
+    /// 角色技能稀有度倒转：普通技能视为稀有、稀有技能视为普通。
+    /// 露西技能、默认技能等不参与倒转。
+    /// </summary>
+    public static class SkillRareInvert
+    {
+        public static bool ShouldInvert(GDESkillData skillData)
+        {
+            return skillData.User != "" && skillData.Category.Key != GDEItemKeys.SkillCategory_LucySkill &&
+                skillData.Category.Key != GDEItemKeys.SkillCategory_DefultSkill && skillData.User != GDEItemKeys.Character_LucyC;
+        }
+
+        public static bool ShouldInvertForCharacter(string charID)
+        {
+            if (charID == GDEItemKeys.Character_LucyC)
+            {
+                return false;
+            }
+            foreach (GDESkillData skill in PlayData.ALLSKILLLIST)
+            {
+                if (skill.User == charID)
+                {
+                    return ShouldInvert(skill);
+                }
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// 倒转后视为「稀有」的技能池 = 原本不在 ALLRARESKILLLIST 中的角色技能。
+        /// </summary>
+        public static List<GDESkillData> GetInvertedRareSkills(string charID)
+        {
+            List<GDESkillData> result = new List<GDESkillData>();
+            HashSet<string> originallyRareKeys = new HashSet<string>();
+            foreach (GDESkillData skill in PlayData.ALLRARESKILLLIST)
+            {
+                originallyRareKeys.Add(skill.KeyID);
+            }
+            foreach (GDESkillData skill in PlayData.ALLSKILLLIST)
+            {
+                if (skill.User == charID && !originallyRareKeys.Contains(skill.KeyID))
+                {
+                    result.Add(skill);
+                }
+            }
+            return result;
+        }
+    }
+
     [HarmonyPatch(typeof(GDESkillData))]
     public static class GDESkillData_statPatch
     {
@@ -44,159 +94,30 @@ namespace eraR
         [HarmonyPatch("Rare", MethodType.Getter)]
         public static void Rare_Postfix(GDESkillData __instance, ref bool __result)
         {
-            if (ShouldInvertRare(__instance))
+            if (SkillRareInvert.ShouldInvert(__instance))
             {
                 __result = !__result;
             }
         }
-
-        private static bool ShouldInvertRare(GDESkillData skillData)
-        {
-            return (skillData.User != "" && skillData.Category.Key != GDEItemKeys.SkillCategory_LucySkill &&
-                skillData.Category.Key != GDEItemKeys.SkillCategory_DefultSkill && skillData.User != GDEItemKeys.Character_LucyC);
-        }
     }
 
-    //[HarmonyPatch(typeof(Character))]
-    //public static class Character_statPatch
-    //{
-    //    [HarmonyPostfix]
-    //    [HarmonyPatch("SavePassing_Load")]
-    //    public static void SavePassing_Load_Postfix(Character __instance, Character LoadChar)
-    //    {
-    //        foreach (CharInfoSkillData skill in __instance.SkillDatas)
-    //        {
-    //            if (ShouldInvertRare(skill.SkillInfo))
-    //            {
-    //                Debug.Log("A");
-    //                Debug.Log(skill.SkillInfo.Name);
-    //                Debug.Log(skill.SkillInfo.Rare);
-    //                //skill.SkillInfo.Rare = skill.SkillInfo.Rare;
-    //            }
-    //        }
-    //    }
-
-    //    private static bool ShouldInvertRare(GDESkillData skillData)
-    //    {
-    //        return (skillData.User != "" && skillData.Category.Key != GDEItemKeys.SkillCategory_LucySkill &&
-    //            skillData.Category.Key != GDEItemKeys.SkillCategory_DefultSkill && skillData.User != GDEItemKeys.Character_LucyC);
-    //    }
-    //}
-
-    [HarmonyPatch(typeof(CharFace))]
-    public static class CharFacePatch
+    [HarmonyPatch(typeof(PlayData))]
+    public static class PlayData_GetMySkillsPatch
     {
+        /// <summary>
+        /// 稀有技能书、黑市、特殊规则等通过 GetMySkills(true) 获取稀有技能池，倒转后改为返回原本的普通技能。
+        /// GetMySkills(false) 仍走原逻辑（升级/普通技能书从全技能池抽取，重叠判定由 Rare getter 倒转处理）。
+        /// </summary>
         [HarmonyPrefix]
-        [HarmonyPatch("GetRandomSkill")]
-        public static bool GetRandomSkill_Prefix(CharFace __instance, ref List<Skill> __result, int num = 3)
+        [HarmonyPatch("GetMySkills")]
+        public static bool GetMySkills_Prefix(string CharID, bool Rare, ref List<GDESkillData> __result)
         {
-            List<Skill> list = new List<Skill>();
-            List<GDESkillData> characterSkillNoOverLap = PlayData.GetCharacterSkillNoOverLap(__instance.AllyCharacter.Info, false, null);
-            int num2 = 0;
-            while (num2 < num && characterSkillNoOverLap.Count != 0)
+            if (Rare && SkillRareInvert.ShouldInvertForCharacter(CharID))
             {
-                GDESkillData gdeskillData = characterSkillNoOverLap.RandomSkill(__instance.AllyCharacter.Info);
-                characterSkillNoOverLap.Remove(gdeskillData);
-                list.Add(Skill.TempSkill(gdeskillData.Key, __instance.AllyCharacter, PlayData.TempBattleTeam));
-                if (!SaveManager.IsUnlock(gdeskillData.Key, SaveManager.NowData.unlockList.SkillPreView))
-                {
-                    SaveManager.NowData.unlockList.SkillPreView.Add(gdeskillData.Key);
-                }
-                num2++;
-            }
-            if (PlayData.Passive.Find((Item_Passive a) => a.itemkey == GDEItemKeys.Item_Passive_505Error) != null)
-            {
-                List<GDESkillData> list2 = new List<GDESkillData>();
-                foreach (GDESkillData gdeskillData2 in PlayData.ALLSKILLLIST)
-                {
-                    if (gdeskillData2.User != "" && gdeskillData2.Category.Key != GDEItemKeys.SkillCategory_LucySkill && gdeskillData2.Category.Key != GDEItemKeys.SkillCategory_DefultSkill && gdeskillData2.User != GDEItemKeys.Character_LucyC && !gdeskillData2.NoDrop && !gdeskillData2.Lock && gdeskillData2.User != __instance.AllyCharacter.Info.KeyData)
-                    {
-                        GDECharacterData gdecharacterData = new GDECharacterData(gdeskillData2.User);
-                        if (!(gdeskillData2.KeyID == GDEItemKeys.Skill_S_Phoenix_6) && !(gdeskillData2.Key == GDEItemKeys.Skill_S_Phoenix_6) && gdecharacterData != null && Misc.IsUseableCharacter(gdecharacterData.Key))
-                        {
-                            list2.Add(gdeskillData2);
-                        }
-                    }
-                }
-                List<GDESkillData> list3 = new List<GDESkillData>();
-                List<Skill> list4 = new List<Skill>();
-                list3.AddRange(list2.Random(RandomClassKey.AllSkill, 3));
-                foreach (GDESkillData gdeskillData3 in list3)
-                {
-                    list4.Add(Skill.TempSkill(gdeskillData3.Key, __instance.AllyCharacter, __instance.AllyCharacter.MyTeam));
-                }
-                list.AddRange(list4);
-            }
-            __result = list;
-            return false;
-        }
-    }
-
-    [HarmonyPatch(typeof(SkillBookCharacter_Rare))]
-    public static class SkillBookCharacter_RarePatch
-    {
-        [HarmonyPrefix]
-        [HarmonyPatch("Use")]
-        public static bool Use_Prefix(SkillBookCharacter_Rare __instance)
-        {
-            List<Skill> list = new List<Skill>();
-            List<BattleAlly> battleallys = PlayData.Battleallys;
-            BattleTeam tempBattleTeam = PlayData.TempBattleTeam;
-            for (int i = 0; i < PlayData.TSavedata.Party.Count; i++)
-            {
-                bool flag = false;
-                if (PlayData.TSavedata.SpRule == null || !PlayData.TSavedata.SpRule.RuleChange.CharacterRareSkillInfinityGet)
-                {
-                    using (List<CharInfoSkillData>.Enumerator enumerator = PlayData.TSavedata.Party[i].SkillDatas.GetEnumerator())
-                    {
-                        while (enumerator.MoveNext())
-                        {
-                            Debug.Log("A");
-                            Debug.Log(enumerator.Current.SkillInfo.Name);
-                            Debug.Log(enumerator.Current.SkillInfo.Rare);
-                            if (enumerator.Current.SkillInfo.Rare)
-                            {
-                                Debug.Log("A1");
-                                flag = true;
-                            }
-                        }
-                    }
-                    if (PlayData.TSavedata.Party[i].BasicSkill.SkillInfo.Rare)
-                    {
-                        Debug.Log("A2");
-                        flag = true;
-                    }
-                }
-                Debug.Log("AA");
-                Debug.Log(flag);
-                if (!flag)
-                {
-                    Debug.Log("B");
-                    GDESkillData gdeskillData = PlayData.GetMySkills(PlayData.TSavedata.Party[i].KeyData, true).Random(RandomClassKey.Skill(i));
-                    if (gdeskillData != null)
-                    {
-                        Debug.Log("C");
-                        list.Add(Skill.TempSkill(gdeskillData.KeyID, battleallys[i], tempBattleTeam));
-                    }
-                }
-            }
-            if (list.Count == 0)
-            {
-                EffectView.SimpleTextout(FieldSystem.instance.TopWindow.transform, ScriptLocalization.System.CantRareSkill, 1f, false, 1f);
+                __result = SkillRareInvert.GetInvertedRareSkills(CharID);
                 return false;
             }
-            foreach (Skill skill in list)
-            {
-                if (!SaveManager.IsUnlock(skill.MySkill.KeyID, SaveManager.NowData.unlockList.SkillPreView))
-                {
-                    SaveManager.NowData.unlockList.SkillPreView.Add(skill.MySkill.KeyID);
-                }
-            }
-            PlayData.TSavedata.UseItemKeys.Add(GDEItemKeys.Item_Consume_SkillBookCharacter_Rare);
-            MasterAudio.PlaySound("BookFlip", 1f, null, 0f, null, null, false, false);
-            FieldSystem.DelayInput(BattleSystem.I_OtherSkillSelect(list, new SkillButton.SkillClickDel(__instance.SkillAdd), ScriptLocalization.System_Item.SkillAdd, false, true, true, true, true));
-
-            return false;
+            return true;
         }
     }
 }

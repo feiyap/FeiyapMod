@@ -1,7 +1,5 @@
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\System.Core.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya.csproj.CoreCompileInputs.cache
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya.csproj.CopyComplete
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\0Harmony.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\Mono.Cecil.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\Mono.Cecil.Mdb.dll
@@ -13,7 +11,9 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\De
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\EOS.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\DynamicEmitAPI.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\EOS.xml
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya202592900356.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya202592900356.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya202592900356.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya202592900356.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya202681210504.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\bin\Debug\IzayoiSakuya202681210504.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSa.FAAE008A.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya202681210504.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\IzayoiSakuya\obj\Debug\IzayoiSakuya202681210504.pdb

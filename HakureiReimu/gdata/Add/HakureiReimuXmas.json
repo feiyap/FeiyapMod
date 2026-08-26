@@ -26,10 +26,10 @@
         ],
         "FaceSprite": "HakureiReimuSD\\HakureiReimuSDBattleFace.png",
         "CampSD": [
-            "HakureiReimuSD\\HakureiReimuSDCampSD0.png",
-            "HakureiReimuSD\\HakureiReimuSDCampSD1.png",
-            "HakureiReimuSD\\HakureiReimuSDCampSD2.png",
-            "HakureiReimuSD\\HakureiReimuSDCampSD3.png"
+            "HakureiReimu\\HakureiReimuCampSD0.png",
+            "HakureiReimu\\HakureiReimuCampSD1.png",
+            "HakureiReimu\\HakureiReimuCampSD2.png",
+            "HakureiReimu\\HakureiReimuCampSD3.png"
         ]
     }
 }

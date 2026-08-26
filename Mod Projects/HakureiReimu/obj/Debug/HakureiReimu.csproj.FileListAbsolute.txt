@@ -1,7 +1,5 @@
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\System.Core.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu.csproj.CoreCompileInputs.cache
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu.csproj.CopyComplete
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\0Harmony.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\Mono.Cecil.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\Mono.Cecil.Mdb.dll
@@ -13,3 +11,5 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\De
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\bin\Debug\HakureiReimu2025315130448.pdb
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu2025315130448.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu2025315130448.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\HakureiReimu\obj\Debug\HakureiReimu.csproj.CopyComplete

@@ -20,7 +20,7 @@ namespace DiffcultSystem
 	/// 已激活的内啡肽：
 	/// &a
 	/// </summary>
-    public class Endorphin:PassiveItemBase, IP_TurnEnd, IP_PlayerTurn, IP_Draw, IP_SkillUse_Target, IP_HPChange, IP_DamageTake, IP_DrawNumChange
+    public class Endorphin:PassiveItemBase, IP_TurnEnd, IP_PlayerTurn, IP_Draw, IP_SkillUse_Target, IP_HPChange, IP_DamageTake, IP_DrawNumChange, IP_BattleEndRewardChange, IP_BattleStart_Ones
     {
         public override string DescExtended(string desc)
         {
@@ -82,58 +82,75 @@ namespace DiffcultSystem
                 //同舟共济：+队员最大体力值+5。
                 if (EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Unified"))
                 {
-                    this.PlusStat.maxhp = 6;
+                    this.PlusStat.maxhp = 5;
                 }
                 else
                 {
                     this.PlusStat.maxhp = 0;
                 }
                 //坚韧不拔：+队伍受到伤害-10%
-                //坚韧不拔：+场上有3个及以上敌人时获得保护体力极限。
-                if (EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Unified"))
+                if (EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Persistent"))
                 {
                     this.PlusStat.DMGTaken = -10;
-                    if (BattleSystem.instance.EnemyList.Count >= 3)
-                    {
-                        this.PlusStat.Strength = true;
-                    }
-                    else
-                    {
-                        this.PlusStat.Strength = false;
-                    }
                 }
                 else
                 {
                     this.PlusStat.DMGTaken = 0;
-                    this.PlusStat.Strength = false;
+                }
+            }
+        }
+
+        public void BattleStart(BattleSystem Ins)
+        {
+            //坚韧不拔：-敌人拥有30%濒死抵抗。
+            if (!EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Persistent"))
+            {
+                return;
+            }
+
+            foreach (BattleEnemy enemy in Ins.EnemyList)
+            {
+                if (enemy != null && !enemy.IsDead)
+                {
+                    enemy.BuffAdd("B_Endorphin_PersistentResist", enemy, true);
                 }
             }
         }
 
         public void Turn()
         {
+            //坚韧不拔：+场上有3个及以上敌人时获得保护体力极限。
+            if (EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Persistent"))
+            {
+                int aliveEnemyCount = BattleSystem.instance.EnemyList.Count(enemy => enemy != null && !enemy.IsDead);
+                this.PlusStat.Strength = aliveEnemyCount >= 3;
+            }
+            else
+            {
+                this.PlusStat.Strength = false;
+            }
+
             //疑神疑鬼：+战斗开始时，在抽牌堆中随机加入一张露西技能。
             if (EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Paranoid"))
             {
-                if (BattleSystem.instance.TurnNum == 1)
+                if (BattleSystem.instance.TurnNum == 1 && PlayData.TSavedata.LucySkills != null && PlayData.TSavedata.LucySkills.Count > 0)
                 {
-                    List<GDESkillData> list = new List<GDESkillData>();
-                    List<Skill> list2 = new List<Skill>();
-
-                    GDESkillData gdeskillData2 = list.Random(BattleSystem.instance.AllyTeam.LucyChar.GetRandomClass().Main);
-                    list2.Add(Skill.TempSkill(gdeskillData2.KeyID, BattleSystem.instance.AllyTeam.LucyChar, BattleSystem.instance.AllyTeam));
-                    if (list.Count > 0)
-                    {
-                        BattleSystem.instance.AllyTeam.Skills_Deck.Add(list2.Random<Skill>());
-                    }
+                    string lucySkillKey = PlayData.TSavedata.LucySkills.Random(BattleSystem.instance.AllyTeam.LucyChar.GetRandomClass().Main);
+                    Skill lucySkill = Skill.TempSkill(lucySkillKey, BattleSystem.instance.AllyTeam.LucyChar, BattleSystem.instance.AllyTeam);
+                    BattleSystem.instance.AllyTeam.Skills_Deck.Add(lucySkill);
                 }
             }
             //循循善诱：+每经过一个区域，战斗开始时获得1点法力值。
             if (EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Guiding"))
             {
-                if (BattleSystem.instance.TurnNum == 1 && !EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Sly"))
+                if (BattleSystem.instance.TurnNum == 1)
                 {
                     BattleSystem.instance.AllyTeam.AP += PlayData.TSavedata.StageNum;
+                    // 不能超过鬼祟玲珑的拮抗上限
+                    if (BattleSystem.instance.AllyTeam.AP > BattleSystem.instance.AllyTeam.MAXAP)
+                    {
+                        BattleSystem.instance.AllyTeam.AP = BattleSystem.instance.AllyTeam.MAXAP;
+                    }
                 }
             }
         }
@@ -197,6 +214,10 @@ namespace DiffcultSystem
             if (EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Unified"))
             {
                 BattleAlly ba = BattleSystem.instance.AllyList.OrderBy(bab => bab.HP).FirstOrDefault();
+                if (ba == null)
+                {
+                    return;
+                }
                 if (!ba.BuffFind("B_UnifiedDebuff"))
                 {
                     foreach (BattleAlly ba2 in BattleSystem.instance.AllyList)
@@ -236,6 +257,17 @@ namespace DiffcultSystem
             {
                 OutNum = DrawNum;
             }
+        }
+
+        //内陆帝国：+战斗结束时获得4个额外的随机战利品。
+        public void BattleEndRewardChange()
+        {
+            if (!EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_InlandEmpire"))
+            {
+                return;
+            }
+
+            EndorphinInlandEmpireLoot.AddExtraBattleRewards(4);
         }
     }
 }

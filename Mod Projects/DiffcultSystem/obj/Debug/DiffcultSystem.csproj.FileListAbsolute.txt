@@ -7,9 +7,9 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\bin\
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\bin\Debug\Mono.Cecil.Rocks.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\bin\Debug\MonoMod.RuntimeDetour.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\bin\Debug\MonoMod.Utils.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\bin\Debug\DiffcultSystem2026516120806.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\bin\Debug\DiffcultSystem2026516120806.pdb
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\obj\Debug\DiffcultSystem.csproj.AssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\obj\Debug\Diffcult.6CFC0268.Up2Date
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\obj\Debug\DiffcultSystem2026516120806.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\obj\Debug\DiffcultSystem2026516120806.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\bin\Debug\DiffcultSystem20266690149.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\bin\Debug\DiffcultSystem20266690149.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\obj\Debug\DiffcultSystem20266690149.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\DiffcultSystem\obj\Debug\DiffcultSystem20266690149.pdb

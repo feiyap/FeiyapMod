@@ -22,17 +22,22 @@ namespace PatchouliKnowledge
     {
         public override bool ButtonSelectTerms()
         {
-            if (P_PatchouliKnowledge.firstskill == null)
+            if (!P_PatchouliKnowledge.HasValidFirstElement())
+            {
+                return true;
+            }
+            BV_Pachi_P bv = P_PatchouliKnowledge.GetElementBattleValue();
+            if (bv == null)
             {
                 return true;
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_5")
             {
-                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[4] == 0;
+                return bv.sunUsed[4] == 0;
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_6")
             {
-                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().moonUsed[4] == 0;
+                return bv.moonUsed[4] == 0;
             }
             return true;
         }

@@ -78,7 +78,7 @@ namespace PatchouliKnowledge
         }
     }
 
-    //ÇÐ»»ÇøÓòºóÖØÐÂÊ©¼ÓÇøÓòBUFF
+    //ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½BUFF
     [HarmonyPatch(typeof(FieldSystem))]
     [HarmonyPatch("NextStage")]
     public static class NextStage_Plugin
@@ -135,7 +135,7 @@ namespace PatchouliKnowledge
         }
     }
 
-    //³ÇÕòÐ¡ÈË
+    //ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½
     public static class Patchouli_FriendShipPlugin
     {
         // Token: 0x02000128 RID: 296
@@ -156,8 +156,8 @@ namespace PatchouliKnowledge
                     gameObject.GetComponentInChildren<SkeletonAnimation>().Initialize(true);
                     gameObject.GetComponentInChildren<SkeletonAnimation>().AnimationName = "animation";
                     gameObject.GetComponent<Dialogue>().tree = AddressableLoadManager.LoadAsyncCompletion<DialogueTree>(Dia_City.DialogueTreePath_Patchouli_Ark, 0);
-                    gameObject.transform.position = new Vector3(-5.50f, 8.21f, 0f);
-                    gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
+                    gameObject.transform.position = new Vector3(-2.55f, 6.85f, 0);
+                    gameObject.transform.localScale = new Vector3(-1f, 1f, 1f);
                     gameObject.name = "PatchouliKnowledge";
                     __instance.UnlockMainNPCList.Add(gameObject);
                 }

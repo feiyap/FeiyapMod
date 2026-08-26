@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\patchouliknowledge_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\patchouliknowledge\\patchouliknowledge_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:patchouliknowledge_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\patchouliknowledge\\dialogue\\dia_city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\dialogue\\dia_city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424329AE-79B6-4D15-8303-8DEE50590FFA}|PatchouliKnowledge.csproj|solutionrelative:dialogue\\dia_city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -98,8 +98,7 @@
               "RelativeToolTip": "Dialogue\\Dia_City.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAowAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T16:04:49.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-01T16:04:49.651Z"
             },
             {
               "$type": "Document",
@@ -109,7 +108,7 @@
               "RelativeDocumentMoniker": "PatchouliKnowledge_Plugin.cs",
               "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\PatchouliKnowledge\\PatchouliKnowledge_Plugin.cs",
               "RelativeToolTip": "PatchouliKnowledge_Plugin.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAuwKMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAuwJ8AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T14:43:54.004Z",
               "EditorCaption": ""

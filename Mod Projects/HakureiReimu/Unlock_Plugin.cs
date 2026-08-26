@@ -1,14 +1,16 @@
-﻿using System;
+﻿using ChronoArkMod;
+using ChronoArkMod.Plugin;
+using ChronoArkMod.Template;
+using Dialogical;
+using HarmonyLib;
+using Spine.Unity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
-using ChronoArkMod;
-using ChronoArkMod.Plugin;
-using ChronoArkMod.Template;
-using HarmonyLib;
 
 namespace HakureiReimu
 {
@@ -100,6 +102,43 @@ namespace HakureiReimu
                         SaveManager.NowData.unlockList.UnlockItems.Add("HakureiReimuEclipse");
                     }
                     return;
+                }
+            }
+        }
+    }
+
+    public static class Reimu_FriendShipPlugin
+    {
+        // Token: 0x02000128 RID: 296
+        [HarmonyPatch(typeof(ArkCode))]
+        private class ArkCode_Plugin
+        {
+            // Token: 0x060004ED RID: 1261 RVA: 0x000159E0 File Offset: 0x00013BE0
+            [HarmonyPatch("Start")]
+            [HarmonyPostfix]
+            public static void ArkCode_Start_Patch(ArkCode __instance)
+            {
+                try
+                {
+                    GameObject gameObject = Enumerable.FirstOrDefault<GameObject>(__instance.UnlockMainNPCList, (GameObject target) => target.name == "HakureiReimu");
+                    if (gameObject == null)
+                    {
+                        GameObject gameObject2 = __instance.UnlockMainNPCList[0];
+                        gameObject = UnityEngine.Object.Instantiate<GameObject>(gameObject2, gameObject2.transform.parent);
+                        gameObject.GetComponentInChildren<SkeletonAnimation>().skeletonDataAsset = AddressableLoadManager.LoadAsyncCompletion<SkeletonDataAsset>(ModManager.getModInfo("HakureiReimu").assetInfo.ObjectFromAsset<SkeletonDataAsset>("reimu", "Assets/Reimu/Spine/skeleton_SkeletonData.asset"), 0);
+                        gameObject.GetComponentInChildren<SkeletonAnimation>().Initialize(true);
+                        gameObject.GetComponentInChildren<SkeletonAnimation>().AnimationName = "animation";
+                        gameObject.GetComponent<Dialogue>().tree = AddressableLoadManager.LoadAsyncCompletion<DialogueTree>(Dia_City.DialogueTreePath_HakureiReimu_Ark, 0);
+                        gameObject.transform.position = new Vector3(-2.55f, 6.85f, 0);
+                        gameObject.transform.localScale = new Vector3(-1f, 1f, 1f);
+                        gameObject.name = "HakureiReimu";
+                        __instance.UnlockMainNPCList.Add(gameObject);
+                    }
+                    gameObject.SetActive(true);
+                }
+                catch (System.Exception ex)
+                {
+                    Debug.LogError("[HakureiReimu] 方舟 NPC 挂载失败: " + ex);
                 }
             }
         }

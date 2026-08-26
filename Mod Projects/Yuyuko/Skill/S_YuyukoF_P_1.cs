@@ -42,10 +42,11 @@ namespace Yuyuko
         {
             base.SkillTargetSingle(Targets);
 
-            //BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setFanhun(-50 * Targets[0].AP);
-
-            //Targets[0].Except();
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_S = Targets[0];
+
+            Skill fixedSkill = this.MySkill;
+            fixedSkill.IsNowCasting = true;
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().pendingFixedSkill = fixedSkill;
 
             BattleSystem.instance.TargetSelecting = true;
             BattleSystem.instance.SelectedSkill = this.MySkill;
@@ -57,14 +58,22 @@ namespace Yuyuko
                 Skill skill = Skill.TempSkill(key, this.BChar, this.BChar.MyTeam);
                 choiceSkillList.Add(skill);
             }
-            
-            BattleSystem.DelayInput(BattleSystem.I_OtherSkillSelect(choiceSkillList, new SkillButton.SkillClickDel(this.Del), ScriptLocalization.System_SkillSelect.EffectSelect, true, false, true, false, true));
+
+            BattleSystem.instance.EffectDelays.Enqueue(BattleSystem.I_OtherSkillSelect(
+                choiceSkillList,
+                new SkillButton.SkillClickDel(this.Del),
+                ScriptLocalization.System_SkillSelect.EffectSelect,
+                false, true, true, false, true));
         }
 
         public void Del(SkillButton Mybutton)
         {
-            Skill skill = new Skill();
-            skill = Mybutton.Myskill.CloneSkill(true, null, null, true);
+            BattleSystem.DelayInputAfter(this.DelTargetSelect(Mybutton));
+        }
+
+        private IEnumerator DelTargetSelect(SkillButton Mybutton)
+        {
+            Skill skill = Mybutton.Myskill.CloneSkill(true, null, null, true);
             skill.FreeUse = true;
             ChildClear.Clear(BattleSystem.instance.ActWindow.ItemSkillView);
             GameObject gameObject = ToolTipWindow.SkillToolTip(BattleSystem.instance.ActWindow.ItemSkillView, skill, skill.Master, 0, 1, true, false, false);
@@ -76,6 +85,7 @@ namespace Yuyuko
             ToolTipWindow.ToolTip = null;
             BattleSystem.instance.ItemSelect = true;
             BattleSystem.instance.TargetSelect(skill, skill.Master);
+            yield break;
         }
     }
 }

@@ -1,66 +1,94 @@
 ﻿Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
 Buff/B_Feiyap_Boss_1_Description,Text,,,,,,
-Buff/B_Feiyap_Boss_1_Name,Text,,,Burning Within,,体内灼烧,
-Buff/B_Feiyap_Boss_5_Description,Text,,,Increases the Per-Turn Damage of this debuff by 5 points.,,每次触发时，使这个减益的每回合伤害量提升5点。,
-Buff/B_Feiyap_Boss_5_Name,Text,,,Heat Death,,热寂,
-Buff/B_Feiyap_Boss_P_1_Description,Text,,,"At the start of each turn, restore HP equal to the highest single-instance damage you took in the previous turn.
+Buff/B_Feiyap_Boss_1_Name,Text,,내면의 불꽃,Burning Within,体内灼焼,体内灼烧,
+Buff/B_Feiyap_Boss_5_Description,Text,,발동할 때마다 이 디버프의 턴당 피해량이 5 증가한다.,Increases the Per-Turn Damage of this debuff by 5 points.,発動するたび、このデバフの毎ターンダメージが5上昇する。,每次触发时，使这个减益的每回合伤害量提升5点。,
+Buff/B_Feiyap_Boss_5_Name,Text,,열적사,Heat Death,熱寂,热寂,
+Buff/B_Feiyap_Boss_P_1_Description,Text,,"매 턴 시작 시, 「이전 턴에 자신이 받은 최고 단일 피해」만큼 체력을 회복한다.
+현재 턴에 받은 최고 피해: <color=#FFA500>&a</color>
+이전 턴에 받은 최고 피해: <color=#FFA500>&b</color>","At the start of each turn, restore HP equal to the highest single-instance damage you took in the previous turn.
 Highest damage taken this turn: <color=#FFA500>&a</color>
-Highest damage taken last turn: <color=#FFA500>&b</color>",,"每个回合开始时，恢复「上个回合中，自己受到过的最高的单次伤害值」的体力。
+Highest damage taken last turn: <color=#FFA500>&b</color>","毎ターン開始時、「前のターンに自身が受けた最高の単発ダメージ」分の体力を回復する。
+現在のターンで受けた最高ダメージ：<color=#FFA500>&a</color>
+前のターンで受けた最高ダメージ：<color=#FFA500>&b</color>","每个回合开始时，恢复「上个回合中，自己受到过的最高的单次伤害值」的体力。
 当前回合受到过的最高伤害：<color=#FFA500>&a</color>
 上个回合受到过的最高伤害：<color=#FFA500>&b</color>",
-Buff/B_Feiyap_Boss_P_1_Name,Text,,,Healing Gauge Protection,,保护体力极限,
-Buff/B_Feiyap_Boss_P_2_Description,Text,,,"When taking Pain Damage, increase MAXHP by same value.
-For every 6 HP lost, gain '+1% Attack Power'.",,"受到痛苦伤害时，提升等量的最大体力值。
+Buff/B_Feiyap_Boss_P_1_Name,Text,,치유 게이지 보호,Healing Gauge Protection,回復ゲージ保護,保护体力极限,
+Buff/B_Feiyap_Boss_P_2_Description,Text,,"고통 피해를 받을 때, 동일한 수치만큼 최대 체력을 증가시킨다.
+체력을 6 잃을 때마다 ‘공격력 +1%’를 얻는다.","When taking Pain Damage, increase MAXHP by same value.
+For every 6 HP lost, gain '+1% Attack Power'.","苦痛ダメージを受けたとき、同量の最大体力を上昇させる。
+体力を6失うごとに、「攻撃力+1%」を得る。","受到痛苦伤害时，提升等量的最大体力值。
 每失去6体力值，自身获得“+1%攻击力”。",
-Buff/B_Feiyap_Boss_P_2_Name,Text,,,The Rain Formerly Known as Purple,,雨曾为紫,
-Buff/B_Feiyap_Boss_P_Description,Text,,,"When taking damage, increase Attack Power by same value until the end of the turn.",,受到伤害时，直到回合结束前，攻击力增加那个数值的值。,
-Buff/B_Feiyap_Boss_P_Name,Text,,,Cutting Mercy,,切舍御免,
-Enemy/Boss_Feiyap_EnemyStory,Text,,,"Among countless shattered fragments of worlds, she chose to become the 'Feiyap' who is a Star Killer.
+Buff/B_Feiyap_Boss_P_2_Name,Text,,한때 보라였던 비,The Rain Formerly Known as Purple,かつて紫だった雨,雨曾为紫,
+Buff/B_Feiyap_Boss_P_Description,Text,,"피해를 받을 때, 턴 종료까지 공격력이 그 수치만큼 증가한다.","When taking damage, increase Attack Power by same value until the end of the turn.",ダメージを受けたとき、ターン終了まで攻撃力がその数値分上昇する。,受到伤害时，直到回合结束前，攻击力增加那个数值的值。,
+Buff/B_Feiyap_Boss_P_Name,Text,,절사어면,Cutting Mercy,切捨御免,切舍御免,
+Enemy/Boss_Feiyap_EnemyStory,Text,,"무수히 부서진 세계의 파편 속에서, 참성관이 된 그 「비야씨」를 선택했다.
+성계의 만물만상의 「죽음」을 주관하며, 성계 사이를 떠돌며 멸망이 정해진 행성들을 가차 없이 집어삼킨다.
+그 칼날이 베어 지나간 곳에서는 부서진 공간이 블랙홀이 되어 눈앞의 모든 것을 갈기갈기 찢는다. 그녀의 무정함과 잔인함은 생명이 있는 행성들에게 두려움의 대상이 되어 「고요한 별의 낙하」라는 칭호를 얻었다.
+「빛조차 내 손아귀에서 벗어날 수 없는데——하물며 너 따위가?」","Among countless shattered fragments of worlds, she chose to become the 'Feiyap' who is a Star Killer.
 Wielding dominion over the 'Death' of all things in the astral realm, she drifts between the stars, mercilessly devouring planets fated to perish.
 Where her Katana cuts, fractured space collapses into black holes, tearing apart everything before her. Her ruthlessness and cruelty have earned her the fearful title Silent Starfall among living worlds.
-'Not even light can escape my grasp—let alone you.'",,"于万千碎裂的世界破片中，选择成为了斩星官的那一个“绯夜氏”。
+'Not even light can escape my grasp—let alone you.'","無数に砕け散った世界の破片の中から、斬星官となった「緋夜氏」を選び取った。
+星界の森羅万象の「死」を司り、星々の間を流浪し、滅び運命づけられた惑星を容赦なく貪り尽くす。
+その太刀が切り裂けた先では、砕けた空間がブラックホールと化し、眼前のすべてを引き裂く。その無情と残忍さは、生命ある惑星たちに恐れられ、「無声星隕」の称号を冠された。
+「光すら私の掌中から逃れられない——ましてやあなたなど。」","于万千碎裂的世界破片中，选择成为了斩星官的那一个“绯夜氏”。
 掌管着星界万事万物的“死亡”，流浪在星际之间，毫不留情地吞噬着那些命定逝去的星球。
 其太刀划过的地方，破碎的空间化作黑洞，撕碎面前的一切事物。她的无情与残忍，被那些有生命的星球们恐惧地冠以「无声星陨」的称号。
 「就连光也无法逃脱我的掌控，更何况是你呢？」",
-Enemy/Boss_Feiyap_SubName,Text,,,Star Killer,,斩星官,
-Enemy/Boss_Feiyap_name,Text,,,Feiyap,,绯夜氏,
-Item_Consume/Item_BurnFullDuck_Description,Text,,,Restores an ally's HP to 100% and revives them if they are incapacitated.,,恢复友军100%的体力值，同时解除无法战斗状态。,
+Enemy/Boss_Feiyap_SubName,Text,,참성관,Star Killer,斬星官,斩星官,
+Enemy/Boss_Feiyap_name,Text,,비야씨,Feiyap,緋夜氏,绯夜氏,
+Item_Consume/Item_BurnFullDuck_Description,Text,,아군의 체력을 100% 회복하고 전투 불능 상태를 해제한다.,Restores an ally's HP to 100% and revives them if they are incapacitated.,味方の体力を100%回復し、戦闘不能状態も解除する。,恢复友军100%的体力值，同时解除无法战斗状态。,
 ,,,,,,,
-Item_Consume/Item_BurnFullDuck_name,Text,,,Burn Full Duck,,烤全鸭,
-RandomEvent/RE_Feiyap_Boss_Desc_2Stage,Text,,,"On a plain so vast its end cannot be seen, stand the corpses of countless swords and the tombstones of the blacksmiths who forged them.
+Item_Consume/Item_BurnFullDuck_name,Text,,통구이 오리,Burn Full Duck,丸焼きダック,烤全鸭,
+RandomEvent/RE_Feiyap_Boss_Desc_2Stage,Text,,"끝이 보이지 않을 만큼 광활한 평원 위에, 무수한 「검」의 시체와 그것들을 벼려 낸 대장장이들의 묘비가 서 있다.
+무명의 검총 한가운데, 한 소녀가 우뚝 서 있다.
+그 뒤에는 부서진 행성의 파편이 침묵의 왕관처럼 하늘에 걸려, 너희 모두의 결말을 예고한다.
+「승리…… 아니면 파멸.」——소녀는 그렇게 선고했다.","On a plain so vast its end cannot be seen, stand the corpses of countless swords and the tombstones of the blacksmiths who forged them.
 At the center of this nameless Sword Graveyard, a lone girl stands.
 Behind her, fragments of shattered planets hover like a silent crown, foretelling the fate of all who stand before her.
-'Victory... or annihilation.'—thus declares the girl.",,"在漫长到看不见尽头的平原之上，立着无数「剑」的尸体，以及铸造它们的铁匠的墓碑。
+'Victory... or annihilation.'—thus declares the girl.","見渡す限りの果てしない平原に、無数の「剣」の亡骸と、それらを鍛えし鍛冶師たちの墓碑が立っている。
+名もなき剣塚の中央に、ひとりの少女が佇んでいる。
+その背後では、砕けた惑星の破片が沈黙の王冠のように空に懸かり、お前たちすべての結末を告げている。
+「勝利——さもなくば滅び。」——少女はそう宣告した。","在漫长到看不见尽头的平原之上，立着无数「剑」的尸体，以及铸造它们的铁匠的墓碑。
 无名的剑冢中央，伫立着一名少女。
 在她背后，破碎的星球残片化作沉默的王冕高悬于空，昭示着你们所有人的结局。
 「胜利，否则毁灭。」——少女如此宣告道。",
 RandomEvent/RE_Feiyap_Boss_Desc_3Stage,Text,,,,,,
-RandomEvent/RE_Feiyap_Boss_EventDetails,Text,,,"On a plain so vast its end cannot be seen, stand the corpses of countless swords and the tombstones of the blacksmiths who forged them.
+RandomEvent/RE_Feiyap_Boss_EventDetails,Text,,"끝이 보이지 않을 만큼 광활한 평원 위에, 무수한 「검」의 시체와 그것들을 벼려 낸 대장장이들의 묘비가 서 있다.
+무명의 검총 한가운데, 한 소녀가 우뚝 서 있다.
+그 뒤에는 부서진 행성의 파편이 침묵의 왕관처럼 하늘에 걸려, 너희 모두의 결말을 예고한다.
+「승리…… 아니면 파멸.」——소녀는 그렇게 선고했다.","On a plain so vast its end cannot be seen, stand the corpses of countless swords and the tombstones of the blacksmiths who forged them.
 At the center of this nameless Sword Graveyard, a lone girl stands.
 Behind her, fragments of shattered planets hover like a silent crown, foretelling the fate of all who stand before her.
-'Victory... or annihilation.'—thus declares the girl.",,"在漫长到看不见尽头的平原之上，立着无数「剑」的尸体，以及铸造它们的铁匠的墓碑。
+'Victory... or annihilation.'—thus declares the girl.","見渡す限りの果てしない平原に、無数の「剣」の亡骸と、それらを鍛えし鍛冶師たちの墓碑が立っている。
+名もなき剣塚の中央に、ひとりの少女が佇んでいる。
+その背後では、砕けた惑星の破片が沈黙の王冠のように空に懸かり、お前たちすべての結末を告げている。
+「勝利——さもなくば滅び。」——少女はそう宣告した。","在漫长到看不见尽头的平原之上，立着无数「剑」的尸体，以及铸造它们的铁匠的墓碑。
 无名的剑冢中央，伫立着一名少女。
 在她背后，破碎的星球残片化作沉默的王冕高悬于空，昭示着你们所有人的结局。
 「胜利，否则毁灭。」——少女如此宣告道。",
-RandomEvent/RE_Feiyap_Boss_Name,Text,,,Nameless Sword Graveyard,,无名剑冢,
-RandomEvent/RE_Feiyap_Boss_OrderStrings_0,Text,,,"Upon the nameless graveyard, only an unmarked sword remains.",,无名的剑冢上，唯余无铭之剑。,
-RandomEvent/RE_Feiyap_Boss_UseButtonTooltip_0,Text,,,Engage the event boss Feiyap.,,迎战事件Boss“绯夜氏”。,
-RandomEvent/RE_Feiyap_Boss_UseButtonTooltip_1,Text,,,Leave.,,离开。,
-RandomEvent/RE_Feiyap_Boss_UseButton_0,Text,,,Fight her!,,与之一战！,
-RandomEvent/RE_Feiyap_Boss_UseButton_1,Text,,,Leave.,,离开。,
-Skill/S_Feiyap_Boss_0_Description,Text,,,"If the target has Healing Gauge Protection, deals additional &a damage (50% of Attack Power).
-Otherwise, immediately restore HP equal to the highest single-instance damage you took in the previous turn.",,"若目标拥有保护体力极限，额外造成 &a 伤害(攻击力的50%)。
+RandomEvent/RE_Feiyap_Boss_Name,Text,,무명의 검총,Nameless Sword Graveyard,無名の剣塚,无名剑冢,
+RandomEvent/RE_Feiyap_Boss_OrderStrings_0,Text,,"무명의 검총 위에는, 이름 없는 검만이 남아 있다.",Upon the nameless graveyard, only an unmarked sword remains.,名もなき剣塚に残るは、銘なき剣のみ。,无名的剑冢上，唯余无铭之剑。,
+RandomEvent/RE_Feiyap_Boss_UseButtonTooltip_0,Text,,이벤트 보스 「비야씨」와 전투한다.,Engage the event boss Feiyap.,イベントボス「緋夜氏」と交戦する。,迎战事件Boss“绯夜氏”。,
+RandomEvent/RE_Feiyap_Boss_UseButtonTooltip_1,Text,,떠난다.,Leave.,離れる。,离开。,
+RandomEvent/RE_Feiyap_Boss_UseButton_0,Text,,그녀와 싸워라!,Fight her!,彼女と戦え！,与之一战！,
+RandomEvent/RE_Feiyap_Boss_UseButton_1,Text,,떠난다.,Leave.,離れる。,离开。,
+Skill/S_Feiyap_Boss_0_Description,Text,,"대상이 치유 게이지 보호를 보유한 경우, 추가로 &a 피해를 입힌다(공격력의 50%).
+그렇지 않으면 「이전 턴에 자신이 받은 최고 단일 피해」만큼 체력을 즉시 회복한다.","If the target has Healing Gauge Protection, deals additional &a damage (50% of Attack Power).
+Otherwise, immediately restore HP equal to the highest single-instance damage you took in the previous turn.","対象が回復ゲージ保護を所持している場合、追加で &a ダメージを与える（攻撃力の50%）。
+そうでない場合、「前のターンに自身が受けた最高の単発ダメージ」分の体力を直ちに回復する。","若目标拥有保护体力极限，额外造成 &a 伤害(攻击力的50%)。
 否则立即恢复「上个回合中，自己受到过的最高的单次伤害值」的体力。",
-Skill/S_Feiyap_Boss_0_Name,Text,,,Feiyap Style - First Form,,绯夜流·一式,
-Skill/S_Feiyap_Boss_1_Description,Text,,,"If the target has Healing Gauge Protection, set target's HP to 1.
-Otherwise, applies 1 additional stack of 'Burning Within'.",,"若目标拥有保护体力极限，使目标体力值变为 1。
+Skill/S_Feiyap_Boss_0_Name,Text,,비야 유파 - 일식,Feiyap Style - First Form,緋夜流・壱の型,绯夜流·一式,
+Skill/S_Feiyap_Boss_1_Description,Text,,"대상이 치유 게이지 보호를 보유한 경우, 대상의 체력을 1로 만든다.
+그렇지 않으면 ‘내면의 불꽃’을 1중첩 추가로 부여한다.","If the target has Healing Gauge Protection, set target's HP to 1.
+Otherwise, applies 1 additional stack of 'Burning Within'.","対象が回復ゲージ保護を所持している場合、対象の体力を1にする。
+そうでない場合、さらに「体内灼焼」を1層付与する。","若目标拥有保护体力极限，使目标体力值变为 1。
 否则额外施加 1 层“体内灼烧”。",
-Skill/S_Feiyap_Boss_1_Name,Text,,,Inner Feiyap Style - Reverse Scale Slash,,里绯夜流·逆鳞斩,
-Skill/S_Feiyap_Boss_2_Description,Text,,,View all Target's skills in the hand and select 1 to Except.,,展示手牌中目标的所有技能。选择其中 1 个放逐。,
-Skill/S_Feiyap_Boss_2_Name,Text,,,Unukalhai,,天市右垣七,
-Skill/S_Feiyap_Boss_3_Description,Text,,,This skill deals additional damage equal to half of the highest single-instance damage you took in the previous turn.,,这个技能额外造成「上个回合中，自己受到过的最高的单次伤害值」的一半的伤害。,
-Skill/S_Feiyap_Boss_3_Name,Text,,,Abyss of a Thousand Lanterns,,幽壑千灯,
-Skill/S_Feiyap_Boss_4_Description,Text,,,"Removes all <sprite=1> Pain Debuffs. Then, take Pain Damage equal to the remaining damage of those debuffs.",,解除自身所有<sprite=1>痛苦减益。受到那些减益的剩余伤害量的痛苦伤害。,
-Skill/S_Feiyap_Boss_4_Name,Text,,,Clear Mind,,明镜止水,
-Skill/S_Feiyap_Boss_5_Description,Text,,,Immediately restore HP equal to the highest single-instance damage you took in the previous turn.,,立即恢复「上个回合中，自己受到过的最高的单次伤害值」的体力。,
-Skill/S_Feiyap_Boss_5_Name,Text,,,Falling Star’s Descent,,星天陨辍,
+Skill/S_Feiyap_Boss_1_Name,Text,,내면의 비야 유파 - 역린참,Inner Feiyap Style - Reverse Scale Slash,裏緋夜流・逆鱗斬,里绯夜流·逆鳞斩,
+Skill/S_Feiyap_Boss_2_Description,Text,,"손패에 있는 대상의 모든 스킬을 확인하고, 그중 1개를 선택해 추방한다.",View all Target's skills in the hand and select 1 to Except.,手札にある対象の全スキルを公開し、1つ選択して除外する。,展示手牌中目标的所有技能。选择其中 1 个放逐。,
+Skill/S_Feiyap_Boss_2_Name,Text,,우누칼하이,Unukalhai,ウヌク,天市右垣七,
+Skill/S_Feiyap_Boss_3_Description,Text,,이 스킬은 「이전 턴에 자신이 받은 최고 단일 피해」의 절반만큼 추가 피해를 입힌다.,This skill deals additional damage equal to half of the highest single-instance damage you took in the previous turn.,このスキルは「前のターンに自身が受けた最高の単発ダメージ」の半分を追加ダメージとして与える。,这个技能额外造成「上个回合中，自己受到过的最高的单次伤害值」的一半的伤害。,
+Skill/S_Feiyap_Boss_3_Name,Text,,천등의 심연,Abyss of a Thousand Lanterns,幽壑千灯,幽壑千灯,
+Skill/S_Feiyap_Boss_4_Description,Text,,"자신의 모든 <sprite=1> 고통 디버프를 해제한다. 해당 디버프들의 남은 피해량만큼 고통 피해를 받는다.","Removes all <sprite=1> Pain Debuffs. Then, take Pain Damage equal to the remaining damage of those debuffs.",自身のすべての<sprite=1>苦痛デバフを解除する。それらのデバフの残りダメージ量に等しい苦痛ダメージを受ける。,解除自身所有<sprite=1>痛苦减益。受到那些减益的剩余伤害量的痛苦伤害。,
+Skill/S_Feiyap_Boss_4_Name,Text,,맑은 정신,Clear Mind,明鏡止水,明镜止水,
+Skill/S_Feiyap_Boss_5_Description,Text,,「이전 턴에 자신이 받은 최고 단일 피해」만큼 체력을 즉시 회복한다.,Immediately restore HP equal to the highest single-instance damage you took in the previous turn.,「前のターンに自身が受けた最高の単発ダメージ」分の体力を直ちに回復する。,立即恢复「上个回合中，自己受到过的最高的单次伤害值」的体力。,
+Skill/S_Feiyap_Boss_5_Name,Text,,낙성의 강림,Falling Star’s Descent,星天隕辍,星天陨辍,

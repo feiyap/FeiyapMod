@@ -15,6 +15,16 @@ namespace Yuyuko
         public Skill str_S = new Skill(); //亡乡被放逐的技能存储
         public string str_M = ""; //幽冥蝶对应
         public string str_R = ""; //人魂蝶对应
+        public Skill pendingFixedSkill = null; //亡乡多段流程中的固定技能引用
+
+        public void ClearPendingFixedSkill()
+        {
+            if (this.pendingFixedSkill != null)
+            {
+                this.pendingFixedSkill.IsNowCasting = false;
+                this.pendingFixedSkill = null;
+            }
+        }
         
         //设置返魂值，isInit控制是否为初始化（直接设定），number决定增加数值
         public void setFanhun(int number, bool isInit = false)

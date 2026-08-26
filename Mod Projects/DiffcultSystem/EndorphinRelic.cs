@@ -31,6 +31,22 @@ namespace DiffcultSystem
             }
         }
 
+        // 内啡肽按钮仅在领地（ArkPartsUI）可用
+        static bool CanUseEndorphinButton()
+        {
+            return BattleSystem.instance == null;
+        }
+
+        static void RefreshEndorphinButton(ArkItemView view)
+        {
+            if (view?.Item?.itemkey != "Endorphin")
+                return;
+
+            Button button = view.gameObject?.GetComponent<Button>();
+            if (button != null)
+                button.interactable = CanUseEndorphinButton();
+        }
+
         //注册点击事件
         [HarmonyPatch(typeof(ArkItemView))]
         class ArkItemView_Patch
@@ -41,17 +57,18 @@ namespace DiffcultSystem
             {
                 if (__instance.Item.itemkey == "Endorphin")
                 {
-                    if (__instance.gameObject?.GetComponent<Button>() == null)
+                    Button button = __instance.gameObject?.GetComponent<Button>();
+                    if (button == null)
                     {
-                        Button button = __instance.gameObject.AddComponent<Button>();
+                        button = __instance.gameObject.AddComponent<Button>();
                         button.onClick.AddListener(new UnityAction(EndorphinRelic.Call));
                     }
                     else
                     {
-                        Button button = __instance.gameObject.GetComponent<Button>();
                         button.onClick.RemoveAllListeners();
                         button.onClick.AddListener(new UnityAction(EndorphinRelic.Call));
                     }
+                    RefreshEndorphinButton(__instance);
                 }
             }
         }
@@ -59,6 +76,9 @@ namespace DiffcultSystem
         //点击事件
         public static void Call()
         {
+            if (!CanUseEndorphinButton())
+                return;
+
             SelectItemUI component = UIManager.InstantiateActive(UIManager.inst.SelectItemUI).GetComponent<SelectItemUI>();
             List<ItemBase> list = new List<ItemBase>();
             foreach (string str in endorphinList)
@@ -66,6 +86,10 @@ namespace DiffcultSystem
                 list.Add(ItemBase.GetItem(str, 1));
             }
             component.Init(list, new RandomItemBtn.SelectItemClickDel(setEndorphinUpdate), true);
+
+            Action<UI> close = ui => ui.SelfDestroy();
+            component.BackButtonFunc = close;
+            component.BackButton.GetComponent<Button>().onClick.AddListener(() => close(component));
         }
 
         //更新内啡肽状态

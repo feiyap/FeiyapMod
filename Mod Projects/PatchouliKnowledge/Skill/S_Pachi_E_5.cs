@@ -23,42 +23,42 @@ namespace PatchouliKnowledge
     {
         public override bool ButtonSelectTerms()
         {
-            if (BattleSystem.instance == null)
+            if (!P_PatchouliKnowledge.HasValidFirstElement())
             {
                 return true;
             }
-            if (P_PatchouliKnowledge.firstskill == null)
+            BV_Pachi_P bv = P_PatchouliKnowledge.GetElementBattleValue();
+            if (bv == null)
             {
-                //return P_PatchouliKnowledge.isSunCanUsed();
                 return true;
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_0")
             {
-                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[0] == 0;
+                return bv.sunUsed[0] == 0;
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_1")
             {
-                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[1] == 0;
+                return bv.sunUsed[1] == 0;
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_2")
             {
-                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[2] == 0;
+                return bv.sunUsed[2] == 0;
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_3")
             {
-                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[3] == 0;
+                return bv.sunUsed[3] == 0;
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_4")
             {
-                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[4] == 0;
+                return bv.sunUsed[4] == 0;
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_5")
             {
-                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().sunUsed[5] == 0;
+                return bv.sunUsed[5] == 0;
             }
             if (P_PatchouliKnowledge.firstskill.MySkill.KeyID == "S_Pachi_E_6")
             {
-                return BattleSystem.instance.GetBattleValue<BV_Pachi_P>().moonUsed[5] == 0;
+                return bv.moonUsed[5] == 0;
             }
             return true;
         }

@@ -23,7 +23,7 @@ namespace PatchouliKnowledge
     {
         public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
         {
-            int num = (int)this.BChar.GetStat.def * (int)(0.5 + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.1);
+            int num = (int)(this.BChar.GetStat.def * (0.5f + BattleSystem.instance.GetBattleValue<BV_Pachi_P>().elementLevel[4] * 0.1f));
             
             foreach (BattleChar bc in Targets)
             {

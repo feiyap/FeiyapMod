@@ -1,0 +1,14 @@
+{
+    "Item_Snake": {
+        "_gdeSchema": "Item_Consume",
+        "itemClass": "Legendary",
+        "active_battle": false,
+        "active_field": true,
+        "Description": "使用后打开一局贪吃蛇游戏。游戏结束后，获得“得分 x 100”的金币。",
+        "name": "贪吃蛇硬币",
+        "Stack": 3,
+        "image": "Image/ItemIcon/NewIcons/Lock",
+        "FieldUse": "Snake.Item_Snake",
+        "Target": "null"
+    }
+}

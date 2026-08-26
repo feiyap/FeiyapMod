@@ -3,23 +3,35 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yuyuko\\buff\\b_youmuf_p_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yuyuko\\skill\\s_yuyukof_p_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|solutionrelative:skill\\s_yuyukof_p_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\buff\\b_yuyukof_butterfly_m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|solutionrelative:buff\\b_yuyukof_butterfly_m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\bv_yuyukof_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|solutionrelative:bv_yuyukof_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\buff\\b_youmuf_p_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|solutionrelative:buff\\b_youmuf_p_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yuyuko\\buff\\b_youmuf_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\buff\\b_youmuf_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|solutionrelative:buff\\b_youmuf_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yuyuko\\buff\\b_youmuf_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\buff\\b_youmuf_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|solutionrelative:buff\\b_youmuf_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yuyuko\\buff\\b_ghostf_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\buff\\b_ghostf_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|solutionrelative:buff\\b_ghostf_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yuyuko\\buff\\b_ghostf_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\buff\\b_ghostf_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0ACECD2-652B-4A95-8837-708F677ADEAE}|Yuyuko.csproj|solutionrelative:buff\\b_ghostf_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,19 +47,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "B_YoumuF_P_0.cs",
-              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Buff\\B_YoumuF_P_0.cs",
-              "RelativeDocumentMoniker": "Buff\\B_YoumuF_P_0.cs",
-              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Buff\\B_YoumuF_P_0.cs",
-              "RelativeToolTip": "Buff\\B_YoumuF_P_0.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAQwMIAAAAVAAAAAAAAAA==",
+              "Title": "S_YuyukoF_P_1.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Skill\\S_YuyukoF_P_1.cs",
+              "RelativeDocumentMoniker": "Skill\\S_YuyukoF_P_1.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Skill\\S_YuyukoF_P_1.cs",
+              "RelativeToolTip": "Skill\\S_YuyukoF_P_1.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwBQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:28:17.718Z",
+              "WhenOpened": "2026-06-10T15:00:23.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "B_YuyukoF_Butterfly_M.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Buff\\B_YuyukoF_Butterfly_M.cs",
+              "RelativeDocumentMoniker": "Buff\\B_YuyukoF_Butterfly_M.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Buff\\B_YuyukoF_Butterfly_M.cs",
+              "RelativeToolTip": "Buff\\B_YuyukoF_Butterfly_M.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:00:00.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BV_YuyukoF_P.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\BV_YuyukoF_P.cs",
+              "RelativeDocumentMoniker": "BV_YuyukoF_P.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\BV_YuyukoF_P.cs",
+              "RelativeToolTip": "BV_YuyukoF_P.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:23:20.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "B_YoumuF_P_0.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Buff\\B_YoumuF_P_0.cs",
+              "RelativeDocumentMoniker": "Buff\\B_YoumuF_P_0.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Buff\\B_YoumuF_P_0.cs",
+              "RelativeToolTip": "Buff\\B_YoumuF_P_0.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA7wMIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T02:28:17.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "B_YoumuF_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Buff\\B_YoumuF_2.cs",
               "RelativeDocumentMoniker": "Buff\\B_YoumuF_2.cs",
@@ -55,12 +103,11 @@
               "RelativeToolTip": "Buff\\B_YoumuF_2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:28:15.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T02:28:15.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "B_YoumuF_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Buff\\B_YoumuF_1.cs",
               "RelativeDocumentMoniker": "Buff\\B_YoumuF_1.cs",
@@ -68,12 +115,11 @@
               "RelativeToolTip": "Buff\\B_YoumuF_1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:28:14.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T02:28:14.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "B_GhostF_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Buff\\B_GhostF_2.cs",
               "RelativeDocumentMoniker": "Buff\\B_GhostF_2.cs",
@@ -81,12 +127,11 @@
               "RelativeToolTip": "Buff\\B_GhostF_2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:28:04.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T02:28:04.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "B_GhostF_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\Yuyuko\\Buff\\B_GhostF_1.cs",
               "RelativeDocumentMoniker": "Buff\\B_GhostF_1.cs",
@@ -94,8 +139,7 @@
               "RelativeToolTip": "Buff\\B_GhostF_1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:28:01.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T02:28:01.106Z"
             }
           ]
         }

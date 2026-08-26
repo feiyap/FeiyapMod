@@ -4,6 +4,14 @@ namespace DiffcultSystem
     public static class ModItemKeys
     {
 		/// <summary>
+		/// 坚韧不拔
+		/// </summary>
+        public static string Buff_B_Endorphin_PersistentResist = "B_Endorphin_PersistentResist";
+		/// <summary>
+		/// 同舟共济
+		/// </summary>
+        public static string Buff_B_UnifiedDebuff = "B_UnifiedDebuff";
+		/// <summary>
 		/// 内啡肽
 		/// 已激活的内啡肽：
 		/// &a
@@ -95,10 +103,6 @@ namespace DiffcultSystem
 		/// - 回合开始时，敌人极大概率以体力值最低的队员作为技能对象。
 		/// </summary>
         public static string Item_Passive_Endorphin_Unified = "Endorphin_Unified";
-		/// <summary>
-		/// 同舟共济
-		/// </summary>
-        public static string Buff_B_UnifiedDebuff = "B_UnifiedDebuff";
 
     }
 

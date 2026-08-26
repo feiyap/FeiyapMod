@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\diffcultsystem\\item_passive\\endorphin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|solutionrelative:item_passive\\endorphin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\diffcultsystem_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|solutionrelative:diffcultsystem_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\diffcultsystem\\endorphinsave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|solutionrelative:endorphinsave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\endorphinrelic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|solutionrelative:endorphinrelic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\endorphinsave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|solutionrelative:endorphinsave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\endorphinguidingbattleredirect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|solutionrelative:endorphinguidingbattleredirect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\diffcultsystem\\buff\\b_unifieddebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\endorphininlandempireloot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|solutionrelative:endorphininlandempireloot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\diffcultsystem_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|solutionrelative:diffcultsystem_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\buff\\b_unifieddebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|solutionrelative:buff\\b_unifieddebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\item_passive\\endorphin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|solutionrelative:item_passive\\endorphin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97B415C8-12E0-4347-B117-52B5CD645EF4}|DiffcultSystem.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\skillextended\\se_sly_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,20 +54,43 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "EndorphinGuidingBattleRedirect.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\EndorphinGuidingBattleRedirect.cs",
+              "RelativeDocumentMoniker": "EndorphinGuidingBattleRedirect.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\EndorphinGuidingBattleRedirect.cs",
+              "RelativeToolTip": "EndorphinGuidingBattleRedirect.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T13:57:50.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EndorphinInlandEmpireLoot.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\EndorphinInlandEmpireLoot.cs",
+              "RelativeDocumentMoniker": "EndorphinInlandEmpireLoot.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\EndorphinInlandEmpireLoot.cs",
+              "RelativeToolTip": "EndorphinInlandEmpireLoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T00:07:19.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "B_UnifiedDebuff.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\Buff\\B_UnifiedDebuff.cs",
               "RelativeDocumentMoniker": "Buff\\B_UnifiedDebuff.cs",
               "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\Buff\\B_UnifiedDebuff.cs",
               "RelativeToolTip": "Buff\\B_UnifiedDebuff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T03:18:21.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-16T03:18:21.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DiffcultSystem_ModDefinition.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\DiffcultSystem_ModDefinition.cs",
               "RelativeDocumentMoniker": "DiffcultSystem_ModDefinition.cs",
@@ -71,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "DiffcultSystem_ModItemKeys.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\DiffcultSystem_ModItemKeys.cs",
               "RelativeDocumentMoniker": "DiffcultSystem_ModItemKeys.cs",
@@ -83,59 +114,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "EndorphinRelic.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\EndorphinRelic.cs",
               "RelativeDocumentMoniker": "EndorphinRelic.cs",
               "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\EndorphinRelic.cs",
               "RelativeToolTip": "EndorphinRelic.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAYwGAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwGkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T01:45:27.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-16T01:45:27.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "EndorphinSave.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\EndorphinSave.cs",
               "RelativeDocumentMoniker": "EndorphinSave.cs",
               "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\EndorphinSave.cs",
               "RelativeToolTip": "EndorphinSave.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAmwFsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwEsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T01:45:25.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DiffcultSystem_Plugin.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\DiffcultSystem_Plugin.cs",
               "RelativeDocumentMoniker": "DiffcultSystem_Plugin.cs",
               "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\DiffcultSystem_Plugin.cs",
               "RelativeToolTip": "DiffcultSystem_Plugin.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA2wC0AAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAcwFAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T01:45:21.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-16T01:45:21.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Endorphin.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\Item_Passive\\Endorphin.cs",
               "RelativeDocumentMoniker": "Item_Passive\\Endorphin.cs",
               "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\Item_Passive\\Endorphin.cs",
               "RelativeToolTip": "Item_Passive\\Endorphin.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAowGoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwCAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T01:40:20.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-16T01:40:20.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SE_Sly_0.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\DiffcultSystem\\SkillExtended\\SE_Sly_0.cs",
               "RelativeDocumentMoniker": "SkillExtended\\SE_Sly_0.cs",

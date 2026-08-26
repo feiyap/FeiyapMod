@@ -1,7 +1,7 @@
 Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
-BattleDia/Boss_Feiyap/Text1,Text,,,Oh? Isn't this Lucy?,,哦呀？这不是露西吗？,
-BattleDia/Boss_Feiyap/Text2,Text,,,Hm? You mean the Time Shade? I’ve already defeated this stage’s boss—of course I have it.,,嗯？你说时光之影？我已经干掉这关的BOSS了，当然在我手上。,
-BattleDia/Boss_Feiyap/Text3,Text,,,If you want it… then you have to take it!,,如果你想要……那就自己来拿吧！,
-BattleDia/Boss_Feiyap/Text4,Text,,,Star Killer… This is the power of a version of me from a parallel world.,,「斩星官」……这就是某个平行世界的我的力量。,
-BattleDia/Boss_Feiyap/Text5,Text,,,"If you can’t even surpass me, you’ll never defeat the bosses that lie ahead.",,如果连我都无法跨越的话，是无法击败之后的BOSS的。,
-BattleDia/Boss_Feiyap/Text6,Text,,,"A trial… is about overcoming your past, weaker self! Come at me, Lucy!",,所谓「试炼」……就是战胜过去不成熟的自己！来吧，露西！,
+BattleDia/Boss_Feiyap/Text1,Text,,어라? 루시 아닌가?,Oh? Isn't this Lucy?,おや？これはルーシーじゃないか？,哦呀？这不是露西吗？,
+BattleDia/Boss_Feiyap/Text2,Text,,응? 시간의 그림자 말이야? 이 스테이지의 보스는 이미 쓰러뜨렸지——당연히 내 손에 있어.,Hm? You mean the Time Shade? I’ve already defeated this stage’s boss—of course I have it.,ん？タイムシェイドのこと？このステージのボスはもう倒したよ——当然持ってるさ。,嗯？你说时光之影？我已经干掉这关的BOSS了，当然在我手上。,
+BattleDia/Boss_Feiyap/Text3,Text,,갖고 싶다면…… 직접 가져가 봐!,If you want it… then you have to take it!,欲しいなら……自分で取りに来い！,如果你想要……那就自己来拿吧！,
+BattleDia/Boss_Feiyap/Text4,Text,,「참성관」…… 이것이 평행 세계의 나의 힘이야.,Star Killer… This is the power of a version of me from a parallel world.,「斬星官」……これは並行世界の私の力だ。,「斩星官」……这就是某个平行世界的我的力量。,
+BattleDia/Boss_Feiyap/Text5,Text,,"나조차 넘지 못한다면, 앞의 보스들은 절대 쓰러뜨리지 못해.","If you can’t even surpass me, you’ll never defeat the bosses that lie ahead.",私すら超えられないようなら、この先のボスには勝てないよ。,如果连我都无法跨越的话，是无法击败之后的BOSS的。,
+BattleDia/Boss_Feiyap/Text6,Text,,"「시련」이란…… 미숙했던 과거의 자신을 이겨 내는 것! 덤벼 봐, 루시!","A trial… is about overcoming your past, weaker self! Come at me, Lucy!",「試練」とは……未熟だった過去の自分を乗り越えることだ！さあ来い、ルーシー！,所谓「试炼」……就是战胜过去不成熟的自己！来吧，露西！,

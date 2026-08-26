@@ -3,19 +3,43 @@
   "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hakureireimu\\skill\\s_hakureireimu_f_9_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hakureireimu\\unlock_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|solutionrelative:unlock_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hakureireimu\\lockskin_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|solutionrelative:lockskin_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hakureireimu\\hakureireimu_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|solutionrelative:hakureireimu_plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hakureireimu\\dialogue\\reimucharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|solutionrelative:dialogue\\reimucharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\dialogue\\dianormal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|solutionrelative:dialogue\\dianormal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\dialogue\\reimudialogue_def.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|solutionrelative:dialogue\\reimudialogue_def.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\skill\\s_hakureireimu_f_9_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|solutionrelative:skill\\s_hakureireimu_f_9_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hakureireimu\\skill\\s_hakureireimu_f_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\skill\\s_hakureireimu_f_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|solutionrelative:skill\\s_hakureireimu_f_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hakureireimu\\skill\\s_hakureireimu_f_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\skill\\s_hakureireimu_f_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|solutionrelative:skill\\s_hakureireimu_f_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\hakureireimu\\skill\\s_hakureireimu_f_1_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\skill\\s_hakureireimu_f_1_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE6D741-FB68-47E0-81DF-6662D40CB566}|HakureiReimu.csproj|solutionrelative:skill\\s_hakureireimu_f_1_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,6 +91,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Unlock_Plugin.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Unlock_Plugin.cs",
+              "RelativeDocumentMoniker": "Unlock_Plugin.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Unlock_Plugin.cs",
+              "RelativeToolTip": "Unlock_Plugin.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T12:43:21.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LockSkin_Plugin.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\LockSkin_Plugin.cs",
+              "RelativeDocumentMoniker": "LockSkin_Plugin.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\LockSkin_Plugin.cs",
+              "RelativeToolTip": "LockSkin_Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T12:43:20.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HakureiReimu_Plugin.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\HakureiReimu_Plugin.cs",
+              "RelativeDocumentMoniker": "HakureiReimu_Plugin.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\HakureiReimu_Plugin.cs",
+              "RelativeToolTip": "HakureiReimu_Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T12:43:18.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DiaNormal.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Dialogue\\DiaNormal.cs",
+              "RelativeDocumentMoniker": "Dialogue\\DiaNormal.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Dialogue\\DiaNormal.cs",
+              "RelativeToolTip": "Dialogue\\DiaNormal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T15:53:20.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReimuDialogue_Def.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Dialogue\\ReimuDialogue_Def.cs",
+              "RelativeDocumentMoniker": "Dialogue\\ReimuDialogue_Def.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Dialogue\\ReimuDialogue_Def.cs",
+              "RelativeToolTip": "Dialogue\\ReimuDialogue_Def.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T15:46:24.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReimuCharacter.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Dialogue\\ReimuCharacter.cs",
+              "RelativeDocumentMoniker": "Dialogue\\ReimuCharacter.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Dialogue\\ReimuCharacter.cs",
+              "RelativeToolTip": "Dialogue\\ReimuCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T15:46:03.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "S_HakureiReimu_F_9_5.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_9_5.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_9_5.cs",
@@ -74,12 +174,11 @@
               "RelativeToolTip": "Skill\\S_HakureiReimu_F_9_5.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T14:47:48.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T14:47:48.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "S_HakureiReimu_F_9.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_9.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_9.cs",
@@ -87,12 +186,11 @@
               "RelativeToolTip": "Skill\\S_HakureiReimu_F_9.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAFAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T14:47:42.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T14:47:42.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "S_HakureiReimu_F_8.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_8.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_8.cs",
@@ -100,12 +198,11 @@
               "RelativeToolTip": "Skill\\S_HakureiReimu_F_8.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAEIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T14:44:52.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T14:44:52.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "S_HakureiReimu_F_1_2.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_1_2.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_1_2.cs",
@@ -113,12 +210,11 @@
               "RelativeToolTip": "Skill\\S_HakureiReimu_F_1_2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T09:23:06.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T09:23:06.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "S_HakureiReimu_F_0_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_0_1.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_0_1.cs",
@@ -130,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "S_HakureiReimu_F_0.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_0.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_0.cs",
@@ -142,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "S_HakureiReimu_F_11Rare.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_11Rare.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_11Rare.cs",
@@ -154,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "S_HakureiReimu_F_10Rare.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_10Rare.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_10Rare.cs",
@@ -166,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "S_HakureiReimu_F_4.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_4.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_4.cs",
@@ -178,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "S_HakureiReimu_F_4_3.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_4_3.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_4_3.cs",
@@ -190,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "S_HakureiReimu_F_4_5.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_4_5.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_4_5.cs",
@@ -202,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "S_HakureiReimu_F_5.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_5.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_5.cs",
@@ -214,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "S_HakureiReimu_F_1.cs",
               "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\HakureiReimu\\Skill\\S_HakureiReimu_F_1.cs",
               "RelativeDocumentMoniker": "Skill\\S_HakureiReimu_F_1.cs",

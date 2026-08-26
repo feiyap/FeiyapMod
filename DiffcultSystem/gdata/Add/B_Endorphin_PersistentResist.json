@@ -1,0 +1,17 @@
+{
+    "B_Endorphin_PersistentResist": {
+        "_gdeSchema": "Buff",
+        "Hide": true,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "DiffcultSystem.B_Endorphin_PersistentResist",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "坚韧不拔",
+        "Icon": "B_UnifiedDebuff\\B_UnifiedDebuff_Icon.png",
+        "Description": "",
+        "Debuff": false,
+        "TagPer": 0
+    }
+}

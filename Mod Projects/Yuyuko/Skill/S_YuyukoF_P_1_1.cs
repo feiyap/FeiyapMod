@@ -41,6 +41,7 @@ namespace Yuyuko
 
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().str_S.Except();
             BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().setButterfly(true);
+            BattleSystem.instance.GetBattleValue<BV_YuyukoF_P>().ClearPendingFixedSkill();
         }
     }
 }

@@ -5,5 +5,8 @@
     "Title": "【CN】难度系统",
     "Author": "RainLyric",
     "Version": "v1.0",
-    "Description": ""
+    "Description": "",
+    "Dependencies": [
+        "StageFishingVillage"
+    ]
 }

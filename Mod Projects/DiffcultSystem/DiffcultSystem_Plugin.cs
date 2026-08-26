@@ -36,7 +36,7 @@ namespace DiffcultSystem
         private Harmony harmony;
     }
 
-    //¹íËîÁáçç£º-·¨Á¦ÖµÉÏÏÞÎª3¡£
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç£º-ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½Îª3ï¿½ï¿½
     [HarmonyPatch(typeof(BattleTeam))]
     [HarmonyPatch(nameof(BattleTeam.MAXAP), MethodType.Getter)]
     public static class BattleTeam_MAXAP_Patch
@@ -50,13 +50,18 @@ namespace DiffcultSystem
         }
     }
 
-    //ÌìÈË¸ÐÓ¦£º+¿ÉÑ¡ÊÂ¼þÊý+1¡£+¿ÉÑ¡Ñ¡ÏîÊý+1¡£
+    //ï¿½ï¿½ï¿½Ë¸ï¿½Ó¦ï¿½ï¿½+ï¿½ï¿½Ñ¡ï¿½Â¼ï¿½ï¿½ï¿½+1ï¿½ï¿½+ï¿½ï¿½Ñ¡Ñ¡ï¿½ï¿½ï¿½ï¿½+1ï¿½ï¿½
     [HarmonyPatch(typeof(RandomEventObject))]
     [HarmonyPatch(nameof(RandomEventObject.Event))]
     public static class RandomEventObject_Event_Patch
     {
         public static bool Prefix(RandomEventObject __instance)
         {
+            if (!EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Mystical"))
+            {
+                return true;
+            }
+
             if (__instance.EventList == null)
             {
                 __instance.EventList = new List<string>();
@@ -70,7 +75,7 @@ namespace DiffcultSystem
                 optionCount = 3;
             }
 
-            // Èç¹û¼¤»îÁË Endorphin_Mystical£¬Ôö¼Ó1¸öÑ¡Ïî
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Endorphin_Mysticalï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½Ñ¡ï¿½ï¿½
             if (EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Mystical"))
             {
                 optionCount++;
@@ -90,7 +95,7 @@ namespace DiffcultSystem
         }
     }
 
-    //±êÐÂÁ¢Òì£º+¶ÓÔ±Éý¼¶Ê±£¬¶îÍâÑ¡ÔñÒ»´Î¼¼ÄÜ¡£
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì£º+ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½Ò»ï¿½Î¼ï¿½ï¿½Ü¡ï¿½
     [HarmonyPatch(typeof(CharacterWindow))]
     [HarmonyPatch(nameof(CharacterWindow.Upgrade))]
     public static class CharacterWindow_Upgrade_Patch
@@ -106,7 +111,7 @@ namespace DiffcultSystem
         }
     }
 
-    //Æ½ÐÄ¶¨Æø£º+¹ýÔØÖµ²»»áÓ°Ïì¼¼ÄÜ·¨Á¦Öµ±ä¶¯¡£
+    //Æ½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½+ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½Ó°ï¿½ì¼¼ï¿½Ü·ï¿½ï¿½ï¿½Öµï¿½ä¶¯ï¿½ï¿½
     [HarmonyPatch(typeof(Skill))]
     public static class Skill_AP_Patch
     {
@@ -116,7 +121,7 @@ namespace DiffcultSystem
         {
             if (EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Composed"))
             {
-                // ¼õÈ¥ Overload µÄÓ°Ïì
+                // ï¿½ï¿½È¥ Overload ï¿½ï¿½Ó°ï¿½ï¿½
                 if (!__instance.NotCount && __instance.Master != null)
                 {
                     int overload = __instance.Master.Overload;
@@ -133,7 +138,11 @@ namespace DiffcultSystem
         [HarmonyPostfix]
         public static void AP_OverloadViewOnly_Postfix(Skill __instance, ref int __result)
         {
-            // ¼õÈ¥ Overload µÄÓ°Ïì£¨×¢ÒâÕâ¸öÊôÐÔÔÚ BattleSystem ´æÔÚÊ±Ò²»á¼Ó Overload£©
+            if (!EndorphinSave.Instance.endorphinActiveList.Exists(a => a == "Endorphin_Composed"))
+            {
+                return;
+            }
+
             if (BattleSystem.instance != null && !__instance.NotCount && __instance.Master != null)
             {
                 int overload = __instance.Master.Overload;
@@ -146,7 +155,7 @@ namespace DiffcultSystem
         }
     }
 
-    //Æ½ÐÄ¶¨Æø£º-Ñ¸ËÙ¼¼ÄÜ½«Í¬Ê±Ó°Ïìµ¹¼ÆÊ±¡£
+    //Æ½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½-Ñ¸ï¿½Ù¼ï¿½ï¿½Ü½ï¿½Í¬Ê±Ó°ï¿½ìµ¹ï¿½ï¿½Ê±ï¿½ï¿½
     [HarmonyPatch(typeof(BattleAlly))]
     [HarmonyPatch(nameof(BattleAlly.UseSkillAfter))]
     public static class BattleAlly_UseSkillAfter_Patch

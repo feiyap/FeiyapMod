@@ -16,7 +16,9 @@
         "PartySkills": [
             [
                 "S_Sakuya_0",
-                "S_Sakuya_5_new"
+                "S_Sakuya_5_new",
+                "S_Sakuya_10Rare",
+                "S_Sakuya_12Rare"
             ],
             [
                 
@@ -44,6 +46,8 @@
         ],
         "LucySkill": [
             "S_Sakuya_LucyD"
-        ]
+        ],
+        "AP": 10,
+        "Level": 6
     }
 }

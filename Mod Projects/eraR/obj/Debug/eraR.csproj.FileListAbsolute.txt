@@ -1,7 +1,5 @@
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\bin\Debug\System.Core.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\obj\Debug\eraR.csprojAssemblyReference.cache
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\obj\Debug\eraR.csproj.CoreCompileInputs.cache
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\obj\Debug\eraR.csproj.CopyComplete
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\bin\Debug\0Harmony.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\bin\Debug\Mono.Cecil.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\bin\Debug\Mono.Cecil.Mdb.dll
@@ -13,3 +11,5 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\bin\Debug\eraR
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\bin\Debug\eraR202592223532.pdb
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\obj\Debug\eraR202592223532.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\obj\Debug\eraR202592223532.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\obj\Debug\eraR.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\eraR\obj\Debug\eraR.csproj.Up2Date

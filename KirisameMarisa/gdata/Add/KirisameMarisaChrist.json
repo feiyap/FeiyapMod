@@ -6,10 +6,10 @@
         "Character": "KirisameMarisa",
         "FaceSprite": "KirisameMarisaShengdan\\KirisameMarisaShengdanBattleFace.png",
         "CampSD": [
-            "KirisameMarisaShengdan\\KirisameMarisaShengdanCampSD0.png",
-            "KirisameMarisaShengdan\\KirisameMarisaShengdanCampSD1.png",
-            "KirisameMarisaShengdan\\KirisameMarisaShengdanCampSD2.png",
-            "KirisameMarisaShengdan\\KirisameMarisaShengdanCampSD3.png"
+            "KirisameMarisa\\KirisameMarisaCampSD0.png",
+            "KirisameMarisa\\KirisameMarisaCampSD1.png",
+            "KirisameMarisa\\KirisameMarisaCampSD2.png",
+            "KirisameMarisa\\KirisameMarisaCampSD3.png"
         ]
     }
 }

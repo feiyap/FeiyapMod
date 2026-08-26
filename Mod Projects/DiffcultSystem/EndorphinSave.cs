@@ -79,17 +79,31 @@ namespace DiffcultSystem
             {
                 //内陆帝国：-背包格子数-3。
                 case "Endorphin_InlandEmpire":
-                    {
-                        if (isAdd)
-                        {
-                            PartyInventory.InvenM.ChangeMaxInventoryNum(-3);
-                        }
-                        else
-                        {
-                            PartyInventory.InvenM.ChangeMaxInventoryNum(3);
-                        }
-                    }
+                    ApplyInlandEmpireInventoryChange(isAdd);
                     break;
+            }
+        }
+
+        // 内陆帝国：调整背包上限。原版 ChangeMaxInventoryNum 在增加格数时不会刷新 UI。
+        static void ApplyInlandEmpireInventoryChange(bool isAdd)
+        {
+            int delta = isAdd ? -3 : 3;
+            if (PartyInventory.InvenM != null)
+            {
+                PartyInventory.InvenM.ChangeMaxInventoryNum(delta);
+            }
+            else
+            {
+                PlayData.TSavedata.MaxinventoryNumPlus += delta;
+            }
+
+            if (!isAdd)
+            {
+                PartyInventory.Init();
+                if (PartyInventory.Ins != null)
+                {
+                    PartyInventory.Ins.UpdateInvenUI();
+                }
             }
         }
 
