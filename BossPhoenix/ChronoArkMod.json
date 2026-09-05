@@ -1,0 +1,27 @@
+{
+    "id": "BossPhoenix",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "【CN/EN】Boss - 凤凰",
+    "Author": "BossPhoenix",
+    "Version": "v1.0",
+    "Cover": "BossPhoenixCover.png",
+    "ModSettingEntries": [
+        {
+            "SettingType": "ToggleSetting",
+            "SettingKey": "BossPhoenix_Event",
+            "DisplayName": "必定出现凤凰",
+            "Description": "在“血色公园1”必定出现“拦路的凤凰”事件。",
+            "InitValue": false
+        }
+    ],
+    "TagList": [
+        "Enemy"
+    ],
+    "Dependencies": [
+        
+    ],
+    "Description": "在2-1血色公园1添加了一个稀有事件：拦路的凤凰。触发后可与事件Boss“凤凰”进行对战。\n战胜“凤凰”后，能获得黄金技能书x1和露西技能书“小世界现象”x1。\nMOD内置一个选项，开启后会在2-1必定出现事件“拦路的凤凰”。",
+    "OnlyUploadFiles": true,
+    "ChangeNote": "v1.0\n新增 - 血色公园1事件Boss“凤凰”。"
+}

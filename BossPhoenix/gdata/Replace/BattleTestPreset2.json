@@ -1,0 +1,47 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "AP": 10,
+        "Level": 6,
+        "Party": [
+            "Trisha",
+            "MissChain",
+            "Hein",
+            "SilverStein"
+        ],
+        "PartyBasicSkill": [
+            "S_Ilya_1",
+            "S_Azar_5",
+            "S_TW_Blue_5",
+            "S_LucyC_2"
+        ],
+        "PartySkills": [
+            [
+                "S_Trisha_0",
+                "S_Trisha_1",
+                "S_Trisha_2"
+            ],
+            [
+                "S_MissChain_3",
+                "S_MissChain_4",
+                "S_MissChain_7"
+            ],
+            [
+                "S_Hein_0",
+                "S_Hein_1",
+                "S_Hein_2"
+            ],
+            [
+                "S_SilverStein_0",
+                "S_SilverStein_1"
+            ]
+        ],
+        "ConsumeItems": [
+            "Bread"
+        ],
+        "LucySkill": [
+            "S_Lucy_0",
+            "S_BossPhoenix_SmallWorld"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "Boss_Phoenix",
+    "myField": "Face",
+    "myValues": {
+        "path": "Boss_Phoenix\\Boss_PhoenixFace.png",
+        "pivot": {
+            "x": 0.5,
+            "y": 0.85
+        },
+        "offsetMin": {
+            "x": -400,
+            "y": -1200
+        },
+        "offsetMax": {
+            "x": 400,
+            "y": 200
+        }
+    },
+    "MyChangeType": "Face",
+    "myKeys": [
+        
+    ]
+}

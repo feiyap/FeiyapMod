@@ -1,0 +1,13 @@
+{
+    "SE_T_S_BossPhoenix_2": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 60,
+        "Buffs": [
+            "B_BossPhoenix_Pain"
+        ],
+        "BuffPlusTagPer": [
+            80
+        ]
+    }
+}

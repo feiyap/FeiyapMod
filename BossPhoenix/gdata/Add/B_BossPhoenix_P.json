@@ -1,0 +1,11 @@
+{
+    "B_BossPhoenix_P": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BossPhoenix.B_BossPhoenix_P",
+        "BuffTag": "null",
+        "Name": "耍赖皮",
+        "Description": "凤凰就算被打至1血也会耍性子赖着不死……\n聪明的露西有没有办法哄好它呢？",
+        "Icon": "B_BossPhoenix_P\\B_BossPhoenix_P_Icon.png",
+        "Cantdisable": true
+    }
+}

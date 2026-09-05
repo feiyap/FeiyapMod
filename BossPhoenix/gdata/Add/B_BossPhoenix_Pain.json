@@ -1,0 +1,14 @@
+{
+    "B_BossPhoenix_Pain": {
+        "_gdeSchema": "Buff",
+        "ClassName": "BossPhoenix.B_BossPhoenix_Pain",
+        "BuffTag": "Debuff",
+        "Name": "好疼…",
+        "Description": "受到痛苦伤害增加100%。",
+        "MaxStack": 1,
+        "Icon": "B_BossPhoenix_Pain\\B_BossPhoenix_Pain_Icon.png",
+        "LifeTime": 2,
+        "Debuff": true,
+        "TagPer": 80
+    }
+}

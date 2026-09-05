@@ -1,0 +1,20 @@
+{
+    "S_BossPhoenix_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Phoenix/Phoenix_3",
+        "Rare": false,
+        "Target": "all_enemy",
+        "Name": "猜谜游戏",
+        "Description": "伟大的凤凰大人在心中想象一个技能！请在8次机会之内猜中凤凰大人想的那个技能。\n若是猜错，则全队受到当前猜错次数的痛苦伤害；\n但是，仁慈的凤凰大人会仁慈地告诉你一些有关的信息。\n若是成功猜对，仁慈的凤凰大人会仁慈地将这个技能送给你（若没有对应持有者，则随机选择持有者）。\n若是输掉3局猜谜游戏，凤凰大人会觉得你在敷衍它，立刻结束战斗并把你打回床上！",
+        "Effect_Target": "SE_T_S_BossPhoenix_0",
+        "Image_0": "S_BossPhoenix_0\\S_BossPhoenix_0_Image_0.png",
+        "Image_1": "S_BossPhoenix_0\\S_BossPhoenix_0_Image_1.png",
+        "Image_2": "S_BossPhoenix_0\\S_BossPhoenix_0_Image_2.png",
+        "EnemyPreview": true,
+        "UnknownTarget": false,
+        "SkillExtended": [
+            "BossPhoenix.S_BossPhoenix_0"
+        ]
+    }
+}

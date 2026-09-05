@@ -1,0 +1,14 @@
+{
+    "myKey": "RE_BossPhoenix",
+    "myField": "MainImage_2Stage",
+    "myValues": {
+        "pivot01": {
+            "x": 0.5,
+            "y": 0.05
+        }
+    },
+    "MyChangeType": "RandomEventImage",
+    "myKeys": [
+        
+    ]
+}

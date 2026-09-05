@@ -1,0 +1,24 @@
+{
+    "S_BossPhoenix_FindBread": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "Name": "找面包（很急！）",
+        "Description": "获得1个面包。",
+        "UseAp": 0,
+        "User": "Lucy",
+        "Rare": true,
+        "NotCount": true,
+        "Disposable": true,
+        "NoDrop": true,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_BossPhoenix_FindBread",
+        "Image_0": "S_BossPhoenix_FindBread\\S_BossPhoenix_FindBread_Image_0.png",
+        "Image_1": "S_BossPhoenix_FindBread\\S_BossPhoenix_FindBread_Image_1.png",
+        "Image_2": "S_BossPhoenix_FindBread\\S_BossPhoenix_FindBread_Image_2.png",
+        "SkillExtended": [
+            "BossPhoenix.S_Lucy_FindBreadUrgent"
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "SE_T_S_BossPhoenix_FindBread": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 0
+    }
+}

@@ -1,0 +1,104 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Buff/B_BossPhoenix_P_Name,Text,,생떼,Playing Dirty,わがまま,耍赖皮,耍賴皮
+Buff/B_BossPhoenix_P_Description,Text,,"체력이 1이 되어도 죽지 않고 생떼를 부린다…
+똑똑한 루시라면 달랠 방법을 찾을 수 있을까?","Even at 1 HP, Phoenix throws a tantrum and refuses to die...
+Can clever Lucy find a way to coax it?","体力1になってもだだをこねて死なない……
+賢いルーシーなら、なだめる方法を見つけられる？","凤凰就算被打至1血也会耍性子赖着不死……
+聪明的露西有没有办法哄好它呢？","鳳凰就算被打至1血也會耍性子賴著不死……
+聰明的露西有沒有辦法哄好它呢？"
+Buff/B_BossPhoenix_Pain_Name,Text,,아야…,Oww...,痛い…,好疼…,好疼…
+Buff/B_BossPhoenix_Pain_Description,Text,,받는 고통 피해가 100% 증가한다.,Pain Damage taken is increased by 100%.,受ける苦痛ダメージが100%増加する。,受到痛苦伤害增加100%。,受到痛苦傷害增加100%。
+Enemy/Boss_Phoenix_name,Text,,봉황,Phoenix,鳳凰,凤凰,鳳凰
+Enemy/Boss_Phoenix_SubName,Text,,길을 막는 자,The Blocker,行く手を阻む者,拦路者,攔路者
+Enemy/Boss_Phoenix_EnemyStory,Text,,"어디선가 나타난 봉황이 길을 막았다.
+심심하다며 수수께끼 놀이를 강요한다. 이기면 보상, 지면 벌.
+숨이 붙어 있는 한 생떼를 부리며 쓰러지지 않는다. 똑똑한 루시, 달랠 수 있을까?","A phoenix appeared from nowhere and blocked your path.
+It claims to be bored and insists on a riddle game — win for a reward, lose for a punishment.
+Even at its last breath, it throws a tantrum and refuses to fall. Can clever Lucy coax it?","どこからともなく現れた鳳凰が行く手を阻んだ。
+退屈だからクイズをしろと言う。勝てば褒美、負ければ罰。
+息があってもだだをこねて倒れない。賢いルーシー、なだめられる？","不知从何处出现的凤凰拦住了你们。
+它声称自己很无聊，非要拉着你们玩猜谜游戏——赢了有奖励，输了有惩罚。
+就算被打到只剩一口气，它也会耍性子赖着不死。聪明的露西，有没有办法哄好它呢？","不知從何處出現的鳳凰攔住了你們。
+它聲稱自己很無聊，非要拉著你們玩猜謎遊戲——贏了有獎勵，輸了有懲罰。
+就算被打到只剩一口氣，它也會耍性子賴著不死。聰明的露西，有沒有辦法哄好它呢？"
+RandomEvent/RE_BossPhoenix_Name,Text,,길을 막는 봉황,The Blocking Phoenix,行く手を阻む鳳凰,拦路的凤凰,攔路的鳳凰
+RandomEvent/RE_BossPhoenix_Desc_2Stage,Text,,"심심해!
+그러니까 수수께끼 놀이 하자?
+이기면 보상, 지면 벌!
+「어디선가 나타난 봉황이 너희를 가로막았다……」","I'm so bored!
+That's why we should play a riddle game, right?
+Win and get a reward, lose and get a punishment!
+「A phoenix appeared from nowhere and blocked your path...」","つまんない！
+だからクイズしよう？
+勝てば褒美、負ければ罰！
+「どこからともなく現れた鳳凰がお前たちを阻んだ……」","好无聊啊！
+正因如此，我们来玩猜谜游戏吧？
+赢了的话有奖励，输了的话有惩罚！
+「不知从何处出现的凤凰拦住了你们……」","好無聊啊！
+正因如此，我們來玩猜謎遊戲吧？
+贏了的話有獎勵，輸了的話有懲罰！
+「不知從何處出現的鳳凰攔住了你們……」"
+RandomEvent/RE_BossPhoenix_Desc_3Stage,Text,,,,,,
+RandomEvent/RE_BossPhoenix_EventDetails,Text,,"심심해!
+그러니까 수수께끼 놀이 하자?
+이기면 보상, 지면 벌!
+「어디선가 나타난 봉황이 너희를 가로막았다……」","I'm so bored!
+That's why we should play a riddle game, right?
+Win and get a reward, lose and get a punishment!
+「A phoenix appeared from nowhere and blocked your path...」","つまんない！
+だからクイズしよう？
+勝てば褒美、負ければ罰！
+「どこからともなく現れた鳳凰がお前たちを阻んだ……」","好无聊啊！
+正因如此，我们来玩猜谜游戏吧？
+赢了的话有奖励，输了的话有惩罚！
+「不知从何处出现的凤凰拦住了你们……」","好無聊啊！
+正因如此，我們來玩猜謎遊戲吧？
+贏了的話有獎勵，輸了的話有懲罰！
+「不知從何處出現的鳳凰攔住了你們……」"
+RandomEvent/RE_BossPhoenix_OrderStrings_0,Text,,봉황은 날개를 치고 떠나갔다…,The phoenix flapped its wings and left...,鳳凰は羽ばたいて去っていった…,凤凰拍拍翅膀离开了……这里已经没有东西了。,鳳凰拍拍翅膀離開了……這裡已經沒有東西了。
+RandomEvent/RE_BossPhoenix_UseButton_0,Text,,맞서 싸워라!,Fight!,戦おう！,与之一战！,與之一戰！
+RandomEvent/RE_BossPhoenix_UseButton_1,Text,,떠난다.,Leave.,離れる。,离开,離開
+RandomEvent/RE_BossPhoenix_UseButtonTooltip_0,Text,,이벤트 보스 「봉황」과 전투한다.,Engage the event boss Phoenix.,イベントボス「鳳凰」と交戦する。,迎战事件Boss“凤凰”。,迎戰事件Boss「鳳凰」。
+RandomEvent/RE_BossPhoenix_UseButtonTooltip_1,Text,,이곳을 떠난다.,Leave this place.,ここを離れる。,离开此处。,離開此處。
+Skill/S_BossPhoenix_0_Name,Text,,수수께끼 놀이,Riddle Game,クイズ遊び,猜谜游戏,猜謎遊戲
+Skill/S_BossPhoenix_0_Description,Text,,"위대한 봉황 님께서 마음속으로 스킬을 하나 상상한다! 8번 안에 맞춰라.
+틀리면 현재 틀린 횟수만큼 전체 아군이 고통 피해를 받는다.
+자비로운 봉황 님께서 관련된 정보를 알려 주신다.
+맞히면 그 스킬을 선물한다(대응 소유자가 없으면 무작위).
+퀴즈를 3번 지면 대충 한다고 여겨 전투를 즉시 끝내고 침대로 돌려보낸다!","The great Phoenix imagines a skill! Guess it within 8 tries.
+A wrong guess deals Pain Damage equal to the current miss count to the whole party.
+Merciful Phoenix will mercifully share some related information.
+Guess correctly, and Phoenix gifts you that skill (a random owner if none matches).
+Lose 3 riddle games, and Phoenix decides you're brushing it off, ends the battle at once, and sends you back to bed!","偉大なる鳳凰様が心の中でスキルを1つ思い浮かべる！8回以内に当てなさい。
+外すと、現在の失敗回数分の苦痛ダメージを味方全体が受ける。
+慈悲深い鳳凰様が関連情報を教えてくれる。
+当てればそのスキルをくれる（対応する所有者がいなければランダム）。
+クイズに3回負ければ、適当にしていると判断して戦闘を直ちに終了し、ベッドに叩き返す！","伟大的凤凰大人在心中想象一个技能！请在8次机会之内猜中凤凰大人想的那个技能。
+若是猜错，则全队受到当前猜错次数的痛苦伤害；
+但是，仁慈的凤凰大人会仁慈地告诉你一些有关的信息。
+若是成功猜对，仁慈的凤凰大人会仁慈地将这个技能送给你（若没有对应持有者，则随机选择持有者）。
+若是输掉3局猜谜游戏，凤凰大人会觉得你在敷衍它，立刻结束战斗并把你打回床上！","偉大的鳳凰大人在心中想像一個技能！請在8次機會之內猜中鳳凰大人想的那個技能。
+若是猜錯，則全隊受到當前猜錯次數的痛苦傷害；
+但是，仁慈的鳳凰大人會仁慈地告訴你一些有關的資訊。
+若是成功猜對，仁慈的鳳凰大人會仁慈地將這個技能送給你（若沒有對應持有者，則隨機選擇持有者）。
+若是輸掉3局猜謎遊戲，鳳凰大人會覺得你在敷衍它，立刻結束戰鬥並把你打回床上！"
+Skill/S_BossPhoenix_1_Name,Text,,쪼기,Peck,ついばむ,啄,啄
+Skill/S_BossPhoenix_1_Description,Text,,「기절」을 부여한다: 100% 방해 성공률.,Apply Stun: 100% Interference success rate.,「スタン」を付与：妨害成功率100%。,施加“眩晕”：100%干扰成功率。,施加「眩暈」：100%干擾成功率。
+Skill/S_BossPhoenix_2_Name,Text,,짜증,Tantrum,かんしゃく,发脾气,發脾氣
+Skill/S_BossPhoenix_2_Description,Text,,「아야…」를 부여한다: 80% 약화 성공률; 2턴; 받는 고통 피해 100% 증가.,Apply "Oww...": 80% Weakening success rate; 2 turns; Pain Damage taken +100%.,「痛い…」を付与：弱化成功率80%；2ターン；受ける苦痛ダメージ+100%。,施加“好疼…”：80%弱化成功率；2回合；受到痛苦伤害增加100%。,施加「好疼…」：80%弱化成功率；2回合；受到痛苦傷害增加100%。
+Skill/S_BossPhoenix_FindBread_Name,Text,,빵 찾기 (급함!),Find Bread (Urgent!),パン探し（超急ぎ！）,找面包（很急！）,找麵包（很急！）
+Skill/S_BossPhoenix_FindBread_Description,Text,,빵을 1개 얻는다.,Gain 1 Bread.,パンを1つ得る。,获得1个面包。,獲得1個麵包。
+Skill/S_BossPhoenix_ThrowBread_Name,Text,,빵 던지기 (급함!),Throw Bread (Urgent!),パン投げ（超急ぎ！）,扔面包（很急！）,扔麵包（很急！）
+Skill/S_BossPhoenix_ThrowBread_Description,Text,,빵을 1개 소비한다.,Consume 1 Bread.,パンを1つ消費する。,消耗1个面包。,消耗1個麵包。
+Skill/S_BossPhoenix_SmallWorld_Name,Text,,小さな世界現象,Small-World Phenomenon,小さな世界現象,小世界现象,小世界現象
+Skill/S_BossPhoenix_SmallWorld_Description,Text,,"대상 스킬을 추방한다.
+그 후 드로우 더미와 버린 더미에서 다음 조건을 만족하는 스킬을 공개한다. 1개를 선택해 추방한다(이때 조건의 추방된 스킬이 바뀐다). 그 후 다시 덱에서 조건을 만족하는 스킬을 공개한다. 1개를 선택해 손으로 가져온다:
+코스트, 대상, 소유자, 배율 중 추방된 스킬과 같은 항목이 정확히 하나.","Exile the targeted skill.
+Then reveal skills in the draw pile and discard pile that meet the following condition. Choose and exile 1 (the exiled skill in the condition then changes). Then again reveal skills in the deck that meet the condition. Choose 1 and add it to your hand:
+Among Cost, Target, Owner, and Multiplier, exactly one matches the exiled skill.","対象スキルを除外する。
+その後、山札と捨て札から次の条件を満たすスキルを公開する。1つ選んで除外する（このとき条件の除外スキルが変わる）。その後、再びデッキから条件を満たすスキルを公開する。1つ選んで手札に加える：
+コスト・対象・所有者・倍率のうち、除外されたスキルと同じ項目がちょうど1つ。","放逐目标技能。
+那之后，展示牌堆和弃牌堆中、满足以下条件的技能。选择并放逐其中 1 个技能（此时，条件中被放逐的技能改变），那之后，再次展示牌库中、满足以下条件的技能。选择并将其中 1 个技能拿到手中：
+在“费用”、“指向”、“持有者”、“倍率”中仅有一项与被放逐的技能相同。","放逐目標技能。
+那之後，展示牌堆和棄牌堆中、滿足以下條件的技能。選擇並放逐其中 1 個技能（此時，條件中被放逐的技能改變），那之後，再次展示牌庫中、滿足以下條件的技能。選擇並將其中 1 個技能拿到手中：
+在「費用」、「指向」、「持有者」、「倍率」中僅有一項與被放逐的技能相同。"

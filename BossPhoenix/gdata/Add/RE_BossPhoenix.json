@@ -1,0 +1,26 @@
+{
+    "RE_BossPhoenix": {
+        "_gdeSchema": "RandomEvent",
+        "Script": "BossPhoenix.RE_BossPhoenix",
+        "RareEvent": true,
+        "SpecialAppearance": false,
+        "ItemSlotView": false,
+        "Name": "拦路的凤凰",
+        "Desc_3Stage": "",
+        "Desc_2Stage": "好无聊啊！\n正因如此，我们来玩猜谜游戏吧？\n赢了的话有奖励，输了的话有惩罚！\n「不知从何处出现的凤凰拦住了你们……」",
+        "EventDetails": "好无聊啊！\n正因如此，我们来玩猜谜游戏吧？\n赢了的话有奖励，输了的话有惩罚！\n「不知从何处出现的凤凰拦住了你们……」",
+        "UseButton": [
+            "与之一战！",
+            "离开"
+        ],
+        "UseButtonTooltip": [
+            "迎战事件Boss“凤凰”。",
+            "离开此处。"
+        ],
+        "OrderStrings": [
+            "凤凰拍拍翅膀离开了……这里已经没有东西了。"
+        ],
+        "UseItemSlot": 0,
+        "MainImage_2Stage": "RE_BossPhoenix\\RE_BossPhoenixMainImage_2Stage.png"
+    }
+}

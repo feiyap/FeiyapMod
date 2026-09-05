@@ -1,0 +1,24 @@
+{
+    "S_BossPhoenix_SmallWorld": {
+        "_gdeSchema": "Skill",
+        "Category": "LucySkill",
+        "Particle": "Particle/Buff",
+        "Target": "skill",
+        "Name": "小世界现象",
+        "Description": "放逐目标技能。\n那之后，展示牌堆和弃牌堆中、满足以下条件的技能。选择并放逐其中 1 个技能（此时，条件中被放逐的技能改变），那之后，再次展示牌库中、满足以下条件的技能。选择并将其中 1 个技能拿到手中：\n在“费用”、“指向”、“持有者”、“倍率”中仅有一项与被放逐的技能相同。",
+        "UseAp": 0,
+        "User": "Lucy",
+        "Rare": true,
+        "NotCount": true,
+        "Disposable": false,
+        "NoDrop": false,
+        "NoBasicSkill": true,
+        "Effect_Target": "SE_T_S_BossPhoenix_SmallWorld",
+        "Image_0": "S_BossPhoenix_SmallWorld\\S_BossPhoenix_SmallWorld_Image_0.png",
+        "Image_1": "S_BossPhoenix_SmallWorld\\S_BossPhoenix_SmallWorld_Image_1.png",
+        "Image_2": "S_BossPhoenix_SmallWorld\\S_BossPhoenix_SmallWorld_Image_2.png",
+        "SkillExtended": [
+            "BossPhoenix.S_Lucy_SmallWorld"
+        ]
+    }
+}

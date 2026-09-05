@@ -1,0 +1,28 @@
+{
+    "myKey": "Boss_Phoenix",
+    "myField": "BattleObject",
+    "myValues": {
+        "path": "Boss_Phoenix\\Boss_PhoenixMainImage.png",
+        "Animation": "None",
+        "Pivot": {
+            "x": 0.5032528,
+            "y": 0.0224614739
+        },
+        "Head": {
+            "x": 0.5,
+            "y": 0.88
+        },
+        "Center": {
+            "x": 0.5,
+            "y": 0.55
+        },
+        "UI": {
+            "x": 0.5,
+            "y": 0.15
+        }
+    },
+    "MyChangeType": "EnemyBattleObject",
+    "myKeys": [
+        
+    ]
+}
