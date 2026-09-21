@@ -3,17 +3,17 @@
     "myField": "Face",
     "myValues": {
         "path": "Boss_Phoenix\\Boss_PhoenixFace.png",
-        "pivot": {
-            "x": 0.5,
-            "y": 0.85
+        "offsetMax": {
+            "x": 517.331238,
+            "y": 537.213562
         },
         "offsetMin": {
-            "x": -400,
-            "y": -1200
+            "x": -321.668762,
+            "y": -682.786438
         },
-        "offsetMax": {
-            "x": 400,
-            "y": 200
+        "pivot": {
+            "x": 0.383395433,
+            "y": 0.559661031
         }
     },
     "MyChangeType": "Face",

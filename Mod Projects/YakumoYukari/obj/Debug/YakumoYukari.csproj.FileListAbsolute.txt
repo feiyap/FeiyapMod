@@ -1,0 +1,17 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\0Harmony.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\BasicMethods.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\DynamicEmitAPI.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\Mono.Cecil.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\Mono.Cecil.Mdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\Mono.Cecil.Pdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\Mono.Cecil.Rocks.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\MonoMod.RuntimeDetour.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\MonoMod.Utils.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\obj\Debug\YakumoYukari.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\obj\Debug\YakumoYukari.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\obj\Debug\YakumoYu.0F970790.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\YakumoYukari2026826230508.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\bin\Debug\YakumoYukari2026826230508.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\obj\Debug\YakumoYukari2026826230508.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\YakumoYukari\obj\Debug\YakumoYukari2026826230508.pdb

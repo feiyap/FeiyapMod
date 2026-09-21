@@ -78,7 +78,7 @@ namespace BossPhoenix
         [HarmonyPrefix]
         public static bool HPToZero_Prefix(BattleChar __instance)
         {
-            if (__instance.Info.KeyData != ModItemKeys.Enemy_Boss_Phoenix)
+            if (__instance == null || __instance.Info == null || __instance.Info.KeyData != ModItemKeys.Enemy_Boss_Phoenix)
             {
                 return true;
             }
@@ -89,12 +89,8 @@ namespace BossPhoenix
                 return true;
             }
 
-            if (__instance.HP < 1)
-            {
-                __instance.HP = 1;
-            }
             __instance.IsDead = false;
-            passive.TriggerStubborn();
+            passive.SurviveAtOne();
             return false;
         }
     }

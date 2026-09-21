@@ -1,0 +1,24 @@
+{
+    "S_YakumoYukari_3": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "self",
+        "NotCount": false,
+        "NoDrop": true,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Name": "静观其变之眼",
+        "Description": "迅捷动作。自身。\n推进一次倒计时。获得1点【境界力】。",
+        "UseAp": -1,
+        "User": "YakumoYukari",
+        "Image_0": "S_YakumoYukari_3\\S_YakumoYukari_3_Image_0.png",
+        "Image_1": "S_YakumoYukari_3\\S_YakumoYukari_3_Image_1.png",
+        "Image_2": "S_YakumoYukari_3\\S_YakumoYukari_3_Image_2.png",
+        "SkillExtended": [
+            "YakumoYukari.S_YakumoYukari_3"
+        ]
+    }
+}

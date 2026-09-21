@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\BossPhoenix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DE2026-0905-4B05-9B05-B0550000E11C}|BossPhoenix.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\bossphoenix\\bossphoenix_moditemkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DE2026-0905-4B05-9B05-B0550000E11C}|BossPhoenix.csproj|solutionrelative:bossphoenix_moditemkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DE2026-0905-4B05-9B05-B0550000E11C}|BossPhoenix.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\bossphoenix\\bossphoenix_moddefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DE2026-0905-4B05-9B05-B0550000E11C}|BossPhoenix.csproj|solutionrelative:bossphoenix_moddefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DE2026-0905-4B05-9B05-B0550000E11C}|BossPhoenix.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\bossphoenix\\skill\\phoenixskillutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DE2026-0905-4B05-9B05-B0550000E11C}|BossPhoenix.csproj|solutionrelative:skill\\phoenixskillutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BossPhoenix_ModItemKeys.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\BossPhoenix\\BossPhoenix_ModItemKeys.cs",
+              "RelativeDocumentMoniker": "BossPhoenix_ModItemKeys.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\BossPhoenix\\BossPhoenix_ModItemKeys.cs",
+              "RelativeToolTip": "BossPhoenix_ModItemKeys.cs",
+              "ViewState": "AgIAAKACAAAAAAAAAAAAABQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T04:59:30.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BossPhoenix_ModDefinition.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\BossPhoenix\\BossPhoenix_ModDefinition.cs",
+              "RelativeDocumentMoniker": "BossPhoenix_ModDefinition.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\BossPhoenix\\BossPhoenix_ModDefinition.cs",
+              "RelativeToolTip": "BossPhoenix_ModDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T04:59:27.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhoenixSkillUtil.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\BossPhoenix\\Skill\\PhoenixSkillUtil.cs",
+              "RelativeDocumentMoniker": "Skill\\PhoenixSkillUtil.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\BossPhoenix\\Skill\\PhoenixSkillUtil.cs",
+              "RelativeToolTip": "Skill\\PhoenixSkillUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T04:58:32.982Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

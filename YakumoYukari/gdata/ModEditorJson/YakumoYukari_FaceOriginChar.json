@@ -1,0 +1,23 @@
+{
+    "myKey": "YakumoYukari",
+    "myField": "FaceOriginChar",
+    "myValues": {
+        "path": "YakumoYukari\\YakumoYukariFaceOriginChar.png",
+        "offsetMax": {
+            "x": 1267.33838,
+            "y": 825.7478
+        },
+        "offsetMin": {
+            "x": -1309.66162,
+            "y": -1673.2522
+        },
+        "pivot": {
+            "x": 0.508211732,
+            "y": 0.6695687
+        }
+    },
+    "MyChangeType": "FaceOriginChar",
+    "myKeys": [
+        
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "myKey": "YakumoYukari",
+    "myField": "BattleChar",
+    "myValues": {
+        "path": "YakumoYukari\\YakumoYukariBattleChar.png",
+        "offsetMax": {
+            "x": 1039.54871,
+            "y": 762.0368
+        },
+        "offsetMin": {
+            "x": -1090.20325,
+            "y": -1303.25232
+        },
+        "pivot": {
+            "x": 0.51189214,
+            "y": 0.631026566
+        }
+    },
+    "MyChangeType": "BattleChar",
+    "myKeys": [
+        
+    ]
+}

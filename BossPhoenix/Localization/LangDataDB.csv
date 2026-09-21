@@ -92,13 +92,13 @@ Skill/S_BossPhoenix_ThrowBread_Name,Text,,빵 던지기 (급함!),Throw Bread (U
 Skill/S_BossPhoenix_ThrowBread_Description,Text,,빵을 1개 소비한다.,Consume 1 Bread.,パンを1つ消費する。,消耗1个面包。,消耗1個麵包。
 Skill/S_BossPhoenix_SmallWorld_Name,Text,,小さな世界現象,Small-World Phenomenon,小さな世界現象,小世界现象,小世界現象
 Skill/S_BossPhoenix_SmallWorld_Description,Text,,"대상 스킬을 추방한다.
-그 후 드로우 더미와 버린 더미에서 다음 조건을 만족하는 스킬을 공개한다. 1개를 선택해 추방한다(이때 조건의 추방된 스킬이 바뀐다). 그 후 다시 덱에서 조건을 만족하는 스킬을 공개한다. 1개를 선택해 손으로 가져온다:
-코스트, 대상, 소유자, 배율 중 추방된 스킬과 같은 항목이 정확히 하나.","Exile the targeted skill.
-Then reveal skills in the draw pile and discard pile that meet the following condition. Choose and exile 1 (the exiled skill in the condition then changes). Then again reveal skills in the deck that meet the condition. Choose 1 and add it to your hand:
-Among Cost, Target, Owner, and Multiplier, exactly one matches the exiled skill.","対象スキルを除外する。
-その後、山札と捨て札から次の条件を満たすスキルを公開する。1つ選んで除外する（このとき条件の除外スキルが変わる）。その後、再びデッキから条件を満たすスキルを公開する。1つ選んで手札に加える：
-コスト・対象・所有者・倍率のうち、除外されたスキルと同じ項目がちょうど1つ。","放逐目标技能。
-那之后，展示牌堆和弃牌堆中、满足以下条件的技能。选择并放逐其中 1 个技能（此时，条件中被放逐的技能改变），那之后，再次展示牌库中、满足以下条件的技能。选择并将其中 1 个技能拿到手中：
-在“费用”、“指向”、“持有者”、“倍率”中仅有一项与被放逐的技能相同。","放逐目標技能。
-那之後，展示牌堆和棄牌堆中、滿足以下條件的技能。選擇並放逐其中 1 個技能（此時，條件中被放逐的技能改變），那之後，再次展示牌庫中、滿足以下條件的技能。選擇並將其中 1 個技能拿到手中：
-在「費用」、「指向」、「持有者」、「倍率」中僅有一項與被放逐的技能相同。"
+드로우 더미와 버린 더미에서 그 스킬과 속성이 정확히 1개만 같은 스킬을 공개한다(비교: 코스트, 대상, 소유자, 배율). 1개를 선택해 추방한다.
+방금 추방한 스킬을 기준으로 같은 방식으로 다시 공개하고, 1개를 선택해 손으로 가져온다.","Exile the targeted skill.
+Reveal skills in your draw pile and discard pile that share exactly 1 trait with it (Cost, Target, Owner, or Multiplier). Choose 1 to exile.
+Then search again using the newly exiled skill, and add 1 matching skill to your hand.","対象スキルを除外する。
+山札と捨て札から、そのスキルと属性がちょうど1つだけ同じスキルを公開する（比較：コスト・対象・所有者・倍率）。1つ選んで除外する。
+続けて、今除外したスキルを基準に同じ条件で再び公開し、1つ選んで手札に加える。","放逐目标技能。
+从牌库和弃牌堆中展示与该技能恰好只有 1 项相同的技能（比较费用、指向、持有者、倍率），选择 1 个放逐。
+再以刚放逐的技能为基准同样检索，选择 1 个拿到手中。","放逐目標技能。
+從牌庫和棄牌堆中展示與該技能恰好只有 1 項相同的技能（比較費用、指向、持有者、倍率），選擇 1 個放逐。
+再以剛放逐的技能為基準同樣檢索，選擇 1 個拿到手中。"

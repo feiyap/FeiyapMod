@@ -1,0 +1,16 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoenix.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoenix.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\0Harmony.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\DynamicEmitAPI.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\Mono.Cecil.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\Mono.Cecil.Mdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\Mono.Cecil.Pdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\Mono.Cecil.Rocks.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\MonoMod.RuntimeDetour.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\MonoMod.Utils.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\BossPhoenix202695175531.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\BossPhoenix202695175531.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoenix202695175531.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoenix202695175531.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoenix.csproj.CopyComplete

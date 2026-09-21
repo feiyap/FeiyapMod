@@ -17,6 +17,10 @@ namespace BossPhoenix
     {
         public const int MaxGuess = 8;
         public const int MaxRiddleLoss = 3;
+        /// <summary>原版找面包</summary>
+        public const string VanillaFindBread = "S_Phoenix_10_0";
+        /// <summary>原版扔面包</summary>
+        public const string VanillaThrowBread = "S_Phoenix_10_1";
 
         private static List<GDESkillData> cachedCatalog;
 
@@ -204,9 +208,8 @@ namespace BossPhoenix
                 }
             }
 
-            AddTempIfNew(result, seen, GDEItemKeys.Skill_S_Phoenix_Draw, team);
-            AddTempIfNew(result, seen, GDEItemKeys.Skill_S_Phoenix_Draw_0, team);
-            AddTempIfNew(result, seen, GDEItemKeys.Skill_S_Phoenix_Draw_1, team);
+            AddTempIfNew(result, seen, VanillaFindBread, team);
+            AddTempIfNew(result, seen, VanillaThrowBread, team);
             return result;
         }
 
@@ -221,8 +224,23 @@ namespace BossPhoenix
             HashSet<string> seen = new HashSet<string>();
             AppendCatalog(list, seen, PlayData.ALLSKILLLIST);
             AppendCatalog(list, seen, PlayData.ALLRARESKILLLIST);
+            AppendSkillByKey(list, seen, VanillaFindBread);
+            AppendSkillByKey(list, seen, VanillaThrowBread);
             cachedCatalog = list;
             return cachedCatalog;
+        }
+
+        public static bool HasSkillOwner(GDESkillData data)
+        {
+            return !string.IsNullOrEmpty(NormalizeOwnerKey(data));
+        }
+
+        public static bool CanImagine(GDESkillData data)
+        {
+            return data != null
+                && !IsBannedTarget(data.KeyID)
+                && !IsLucyDrawSkill(data)
+                && HasSkillOwner(data);
         }
 
         public static string PickRandomImaginedKey()
@@ -231,7 +249,7 @@ namespace BossPhoenix
             List<GDESkillData> catalog = GetSkillCatalog();
             for (int i = 0; i < catalog.Count; i++)
             {
-                if (IsBannedTarget(catalog[i].KeyID))
+                if (!CanImagine(catalog[i]))
                 {
                     continue;
                 }
@@ -239,7 +257,7 @@ namespace BossPhoenix
             }
             if (pool.Count == 0)
             {
-                return GDEItemKeys.Skill_S_Phoenix_Draw_1;
+                return VanillaFindBread;
             }
             return pool[UnityEngine.Random.Range(0, pool.Count)].KeyID;
         }
@@ -250,7 +268,7 @@ namespace BossPhoenix
             List<GDESkillData> catalog = GetSkillCatalog();
             for (int i = 0; i < catalog.Count; i++)
             {
-                if (IsBannedTarget(catalog[i].KeyID) || catalog[i].KeyID == exceptKey)
+                if (!CanImagine(catalog[i]) || catalog[i].KeyID == exceptKey)
                 {
                     continue;
                 }
@@ -277,6 +295,10 @@ namespace BossPhoenix
             for (int i = 0; i < catalog.Count; i++)
             {
                 GDESkillData data = catalog[i];
+                if (IsHiddenFromSearch(data))
+                {
+                    continue;
+                }
                 if (string.Equals(GetSkillName(data), trimmed, StringComparison.OrdinalIgnoreCase)
                     || string.Equals(data.KeyID, trimmed, StringComparison.OrdinalIgnoreCase))
                 {
@@ -302,6 +324,10 @@ namespace BossPhoenix
             for (int i = 0; i < catalog.Count; i++)
             {
                 GDESkillData data = catalog[i];
+                if (IsHiddenFromSearch(data))
+                {
+                    continue;
+                }
                 string name = GetSkillName(data);
                 if ((!string.IsNullOrEmpty(name) && regex.IsMatch(name))
                     || (!string.IsNullOrEmpty(data.KeyID) && regex.IsMatch(data.KeyID)))
@@ -349,12 +375,30 @@ namespace BossPhoenix
             return data.KeyID;
         }
 
+        public static string FormatSkillOption(GDESkillData data)
+        {
+            if (data == null)
+            {
+                return "";
+            }
+            string name = GetSkillName(data);
+            if (string.IsNullOrEmpty(data.KeyID) || data.KeyID == name)
+            {
+                return name;
+            }
+            return name + "  [" + data.KeyID + "]";
+        }
+
         public static string GetOwnerName(GDESkillData data)
         {
-            string user = GetOwnerKey(data);
-            if (string.IsNullOrEmpty(user) || user == "Lucy" || user == "LucyDraw" || user == "LucyRare" || user == GDEItemKeys.Character_LucyC)
+            string user = NormalizeOwnerKey(data);
+            if (string.IsNullOrEmpty(user))
             {
-                return ModLocalization.Loc("Riddle/OwnerLucy");
+                return PhoenixLoc.Loc("Riddle/OwnerNone");
+            }
+            if (user == "Lucy")
+            {
+                return PhoenixLoc.Loc("Riddle/OwnerLucy");
             }
             try
             {
@@ -372,27 +416,24 @@ namespace BossPhoenix
 
         public static string GetTargetName(GDESkillData data)
         {
-            string key = GetTargetKey(data);
-            string loc = ModLocalization.Loc("Riddle/Target/" + key);
-            if (!string.IsNullOrEmpty(loc) && loc != "Riddle/Target/" + key)
+            string key = NormalizeTargetKey(GetTargetKey(data));
+            string locKey = "Riddle/Target/" + key;
+            string loc = PhoenixLoc.Loc(locKey);
+            if (!string.IsNullOrEmpty(loc) && loc != locKey)
             {
                 return loc;
             }
-            if (string.IsNullOrEmpty(key) || key == "null")
-            {
-                return ModLocalization.Loc("Riddle/Target/Misc");
-            }
-            return key;
+            return PhoenixLoc.Loc("Riddle/Target/Misc");
         }
 
         public static string GetSkillTypeName(GDESkillData data)
         {
-            return ModLocalization.Loc("Riddle/Type/" + GetSkillTypeKey(data));
+            return PhoenixLoc.Loc("Riddle/Type/" + GetSkillTypeKey(data));
         }
 
         public static string GetTimingName(GDESkillData data)
         {
-            return ModLocalization.Loc("Riddle/Timing/" + GetTimingKey(data));
+            return PhoenixLoc.Loc("Riddle/Timing/" + GetTimingKey(data));
         }
 
         public static string FormatCost(int cost)
@@ -408,9 +449,9 @@ namespace BossPhoenix
         {
             if (count <= 0)
             {
-                return ModLocalization.Loc("Riddle/BuffNone");
+                return PhoenixLoc.Loc("Riddle/BuffNone");
             }
-            return string.Format(ModLocalization.Loc("Riddle/BuffYes"), count);
+            return string.Format(PhoenixLoc.Loc("Riddle/BuffYes"), count);
         }
 
         public static RiddleMatch CompareName(GDESkillData guess, GDESkillData target)
@@ -430,15 +471,94 @@ namespace BossPhoenix
 
         public static RiddleMatch CompareOwner(GDESkillData guess, GDESkillData target)
         {
-            string a = GetOwnerKey(guess);
-            string b = GetOwnerKey(target);
-            if (a == b)
+            if (NormalizeOwnerKey(guess) == NormalizeOwnerKey(target))
             {
                 return RiddleMatch.Exact;
             }
-            if (IsLucyUser(a) && IsLucyUser(b))
+            int ga = GetOwnerGender(guess);
+            int gb = GetOwnerGender(target);
+            if (ga >= 0 && ga == gb)
             {
                 return RiddleMatch.Close;
+            }
+            return RiddleMatch.None;
+        }
+
+        /// <summary>
+        /// 0 男，1 女，-1 未知（无持有者等）。
+        /// </summary>
+        public static int GetOwnerGender(GDESkillData data)
+        {
+            string user = NormalizeOwnerKey(data);
+            if (string.IsNullOrEmpty(user))
+            {
+                return -1;
+            }
+            if (user == "Lucy")
+            {
+                user = GDEItemKeys.Character_LucyC;
+            }
+            try
+            {
+                GDECharacterData ch = new GDECharacterData(user);
+                if (ch != null && !string.IsNullOrEmpty(ch.name))
+                {
+                    return ch.Gender;
+                }
+            }
+            catch
+            {
+            }
+            return -1;
+        }
+
+        public static string GetOwnerRoleKey(GDESkillData data)
+        {
+            string user = NormalizeOwnerKey(data);
+            if (string.IsNullOrEmpty(user))
+            {
+                return "None";
+            }
+            if (user == "Lucy")
+            {
+                user = GDEItemKeys.Character_LucyC;
+            }
+            try
+            {
+                GDECharacterData ch = new GDECharacterData(user);
+                if (ch != null && ch.Role != null && !string.IsNullOrEmpty(ch.Role.Key))
+                {
+                    string role = ch.Role.Key;
+                    if (role == "Role_DPS" || role == GDEItemKeys.CharRole_Role_DPS)
+                    {
+                        return "DPS";
+                    }
+                    if (role == "Role_Support" || role == GDEItemKeys.CharRole_Role_Support)
+                    {
+                        return "Support";
+                    }
+                    if (role == "Role_Tank" || role == GDEItemKeys.CharRole_Role_Tank)
+                    {
+                        return "Tank";
+                    }
+                }
+            }
+            catch
+            {
+            }
+            return "None";
+        }
+
+        public static string GetOwnerRoleName(GDESkillData data)
+        {
+            return PhoenixLoc.Loc("Riddle/Role/" + GetOwnerRoleKey(data));
+        }
+
+        public static RiddleMatch CompareRole(GDESkillData guess, GDESkillData target)
+        {
+            if (GetOwnerRoleKey(guess) == GetOwnerRoleKey(target))
+            {
+                return RiddleMatch.Exact;
             }
             return RiddleMatch.None;
         }
@@ -458,11 +578,15 @@ namespace BossPhoenix
 
         public static RiddleMatch CompareTarget(GDESkillData guess, GDESkillData target)
         {
-            string a = GetTargetKey(guess);
-            string b = GetTargetKey(target);
+            string a = NormalizeTargetKey(GetTargetKey(guess));
+            string b = NormalizeTargetKey(GetTargetKey(target));
             if (a == b)
             {
                 return RiddleMatch.Exact;
+            }
+            if (IsNoYellowTarget(a) || IsNoYellowTarget(b))
+            {
+                return RiddleMatch.None;
             }
             if (GetTargetFamily(a) == GetTargetFamily(b))
             {
@@ -491,15 +615,9 @@ namespace BossPhoenix
 
         public static RiddleMatch CompareType(GDESkillData guess, GDESkillData target)
         {
-            string a = GetSkillTypeKey(guess);
-            string b = GetSkillTypeKey(target);
-            if (a == b)
+            if (GetSkillTypeKey(guess) == GetSkillTypeKey(target))
             {
                 return RiddleMatch.Exact;
-            }
-            if ((a == "Normal" || a == "Rare") && (b == "Normal" || b == "Rare"))
-            {
-                return RiddleMatch.Close;
             }
             return RiddleMatch.None;
         }
@@ -576,6 +694,8 @@ namespace BossPhoenix
             }
 
             Skill gift = Skill.TempSkill(key, owner, owner.MyTeam);
+            gift.ExtendedAdd(new SE_PhoenixGift());
+            gift.isExcept = true;
             BattleSystem.instance.AllyTeam.Add(gift, true);
         }
 
@@ -586,7 +706,7 @@ namespace BossPhoenix
                 return null;
             }
 
-            if (IsLucyUser(userKey))
+            if (IsLucyUser(userKey) || IsLucyDrawUser(userKey))
             {
                 return BattleSystem.instance.AllyTeam.LucyChar;
             }
@@ -624,7 +744,92 @@ namespace BossPhoenix
 
         public static bool IsLucyUser(string user)
         {
-            return user == "Lucy" || user == "LucyDraw" || user == "LucyRare" || user == GDEItemKeys.Character_LucyC;
+            return user == "Lucy" || user == "LucyRare" || user == GDEItemKeys.Character_LucyC;
+        }
+
+        /// <summary>
+        /// 露西抽牌技能：User 为 LucyDraw / LucyDraw3 等。
+        /// </summary>
+        public static bool IsLucyDrawUser(string user)
+        {
+            return !string.IsNullOrEmpty(user) && user.StartsWith("LucyDraw", StringComparison.Ordinal);
+        }
+
+        public static bool IsLucyDrawSkill(GDESkillData data)
+        {
+            if (data == null)
+            {
+                return false;
+            }
+            if (IsLucyDrawUser(GetOwnerKey(data)))
+            {
+                return true;
+            }
+            string key = data.KeyID ?? "";
+            return key.IndexOf("_LucyDraw", StringComparison.OrdinalIgnoreCase) >= 0
+                || key.IndexOf("LucyDraw", StringComparison.OrdinalIgnoreCase) >= 0;
+        }
+
+        public static string NormalizeOwnerKey(GDESkillData data)
+        {
+            if (data == null || GetSkillTypeKey(data) == "Public")
+            {
+                return "";
+            }
+            string user = GetOwnerKey(data);
+            if (string.IsNullOrEmpty(user) || user == "null" || IsLucyDrawUser(user))
+            {
+                return "";
+            }
+            if (IsLucyUser(user))
+            {
+                return "Lucy";
+            }
+            return user;
+        }
+
+        public static string NormalizeTargetKey(string key)
+        {
+            if (string.IsNullOrEmpty(key) || key == "null" || key == "Misc")
+            {
+                return "Misc";
+            }
+            if (key == "choiceskill")
+            {
+                return "skill";
+            }
+            if (key == "all_allyorenemy")
+            {
+                return "all";
+            }
+            return key;
+        }
+
+        public static bool IsNoYellowTarget(string key)
+        {
+            string n = NormalizeTargetKey(key);
+            return n == "Misc" || n == "skill";
+        }
+
+        /// <summary>
+        /// 很急版只作猜对奖励，不进搜索下拉。
+        /// </summary>
+        private static bool IsHiddenFromSearch(GDESkillData data)
+        {
+            if (data == null)
+            {
+                return true;
+            }
+            string key = data.KeyID ?? "";
+            if (key == ModItemKeys.Skill_S_BossPhoenix_FindBread
+                || key == ModItemKeys.Skill_S_BossPhoenix_ThrowBread)
+            {
+                return true;
+            }
+            string name = GetSkillName(data);
+            return !string.IsNullOrEmpty(name)
+                && (name.IndexOf("很急", StringComparison.Ordinal) >= 0
+                    || name.IndexOf("Urgent", StringComparison.OrdinalIgnoreCase) >= 0);
         }
 
         private static bool IsBannedTarget(string key)
@@ -633,7 +838,32 @@ namespace BossPhoenix
                 || key == ModItemKeys.Skill_S_BossPhoenix_1
                 || key == ModItemKeys.Skill_S_BossPhoenix_2
                 || key == ModItemKeys.Skill_S_BossPhoenix_FindBread
-                || key == ModItemKeys.Skill_S_BossPhoenix_ThrowBread;
+                || key == ModItemKeys.Skill_S_BossPhoenix_ThrowBread
+                || key == VanillaFindBread
+                || key == VanillaThrowBread
+                || key == "S_Phoenix_10"
+                || key == GDEItemKeys.Skill_S_Phoenix_Draw
+                || key == GDEItemKeys.Skill_S_Phoenix_Draw_0
+                || key == GDEItemKeys.Skill_S_Phoenix_Draw_1;
+        }
+
+        private static void AppendSkillByKey(List<GDESkillData> list, HashSet<string> seen, string key)
+        {
+            if (string.IsNullOrEmpty(key) || !seen.Add(key))
+            {
+                return;
+            }
+            try
+            {
+                GDESkillData data = new GDESkillData(key);
+                if (data != null)
+                {
+                    list.Add(data);
+                }
+            }
+            catch
+            {
+            }
         }
 
         private static void AppendCatalog(List<GDESkillData> list, HashSet<string> seen, List<GDESkillData> source)
@@ -645,7 +875,7 @@ namespace BossPhoenix
             for (int i = 0; i < source.Count; i++)
             {
                 GDESkillData data = source[i];
-                if (data == null || string.IsNullOrEmpty(data.KeyID) || !seen.Add(data.KeyID))
+                if (data == null || string.IsNullOrEmpty(data.KeyID) || !seen.Add(data.KeyID) || IsHiddenFromSearch(data))
                 {
                     continue;
                 }
@@ -683,19 +913,20 @@ namespace BossPhoenix
 
         private static string GetTargetFamily(string key)
         {
-            if (key == "enemy" || key == "all_enemy" || key == "random_enemy" || key == "enemy_PlusRandom" || key == "all_onetarget")
+            string n = NormalizeTargetKey(key);
+            if (n == "enemy" || n == "all_enemy")
             {
                 return "enemy";
             }
-            if (key == "ally" || key == "all_ally" || key == "otherally" || key == "self" || key == "deathally")
+            if (n == "ally" || n == "all_ally")
             {
                 return "ally";
             }
-            if (key == "skill" || key == "allskill" || key == "choiceskill")
+            if (n == "all_onetarget" || n == "all")
             {
-                return "skill";
+                return "any";
             }
-            return "misc";
+            return n;
         }
 
         private static void AddRangeUnique(List<Skill> result, HashSet<string> seen, List<Skill> source)

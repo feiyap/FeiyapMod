@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YakumoYukari\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-B123-456789ABCDEF}|YakumoYukari.csproj|h:\\steamlibrary\\steamapps\\common\\chrono ark\\mod\\mod projects\\yakumoyukari\\skill\\s_yakumoyukari_act.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-B123-456789ABCDEF}|YakumoYukari.csproj|solutionrelative:skill\\s_yakumoyukari_act.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-B123-456789ABCDEF}|YakumoYukari.csproj|H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YakumoYukari\\character\\p_yakumoyukari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-B123-456789ABCDEF}|YakumoYukari.csproj|solutionrelative:character\\p_yakumoyukari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "S_YakumoYukari_Act.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YakumoYukari\\Skill\\S_YakumoYukari_Act.cs",
+              "RelativeDocumentMoniker": "Skill\\S_YakumoYukari_Act.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YakumoYukari\\Skill\\S_YakumoYukari_Act.cs",
+              "RelativeToolTip": "Skill\\S_YakumoYukari_Act.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwDUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T15:25:57.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "P_YakumoYukari.cs",
+              "DocumentMoniker": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YakumoYukari\\Character\\P_YakumoYukari.cs",
+              "RelativeDocumentMoniker": "Character\\P_YakumoYukari.cs",
+              "ToolTip": "H:\\SteamLibrary\\steamapps\\common\\Chrono Ark\\Mod\\Mod Projects\\YakumoYukari\\Character\\P_YakumoYukari.cs",
+              "RelativeToolTip": "Character\\P_YakumoYukari.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T15:25:57.803Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

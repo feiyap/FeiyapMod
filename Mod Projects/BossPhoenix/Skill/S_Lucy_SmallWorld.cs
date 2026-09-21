@@ -40,7 +40,7 @@ namespace BossPhoenix
                 yield return BattleSystem.I_OtherSkillSelect(firstMatches, delegate (SkillButton btn)
                 {
                     second = btn.Myskill;
-                }, ModLocalization.SmallWorldExile, false, true, true, false, true);
+                }, PhoenixLoc.SmallWorldExile, false, true, true, false, true);
             }
 
             if (second == null)
@@ -63,7 +63,7 @@ namespace BossPhoenix
             yield return BattleSystem.I_OtherSkillSelect(secondMatches, delegate (SkillButton btn)
             {
                 drawn = btn.Myskill;
-            }, ModLocalization.SmallWorldDraw, false, true, true, false, true);
+            }, PhoenixLoc.SmallWorldDraw, false, true, true, false, true);
 
             if (drawn != null)
             {

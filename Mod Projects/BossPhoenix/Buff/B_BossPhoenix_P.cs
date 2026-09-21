@@ -15,17 +15,22 @@ namespace BossPhoenix
         public bool Stubborn;
         public bool Soothed;
         public bool stubbornTalked;
+        private bool hpLock;
         public string ImaginedKey = "";
         public int WrongGuesses;
         public int LostRiddleCount;
 
         public static B_BossPhoenix_P Get(BattleChar bchar)
         {
-            if (bchar == null)
+            if (bchar != null)
             {
-                return BattleEvent_Phoenix.MainP;
+                B_BossPhoenix_P p = bchar.BuffReturn(ModItemKeys.Buff_B_BossPhoenix_P, false) as B_BossPhoenix_P;
+                if (p != null)
+                {
+                    return p;
+                }
             }
-            return bchar.BuffReturn(ModItemKeys.Buff_B_BossPhoenix_P, false) as B_BossPhoenix_P;
+            return BattleEvent_Phoenix.MainP;
         }
 
         public static bool IsStubborn(BattleChar bchar)
@@ -68,23 +73,49 @@ namespace BossPhoenix
             MasterAudio.FadeBusToVolume("BGM", 1f, 1f, null, false, false);
             MasterAudio.FadeBusToVolume("BattleBGM", 0f, 0.5f, null, false, false);
 
-            yield return BattleText.InstBattleText_Co(this.BChar, ModLocalization.BattleStart1, true, 0, 0f);
-            yield return BattleText.InstBattleText_Co(this.BChar, ModLocalization.BattleStart2, true, 0, 0f);
-            yield return BattleText.InstBattleText_Co(this.BChar, ModLocalization.BattleStart3, true, 0, 0f);
+            yield return BattleText.InstBattleText_Co(this.BChar, PhoenixLoc.BattleStart1, true, 0, 0f);
+            yield return BattleText.InstBattleText_Co(this.BChar, PhoenixLoc.BattleStart2, true, 0, 0f);
+            yield return BattleText.InstBattleText_Co(this.BChar, PhoenixLoc.BattleStart3, true, 0, 0f);
             yield break;
         }
 
         public void HPChange(BattleChar Char, bool Healed)
         {
-            if (Char != this.BChar || this.Soothed)
+            if (this.hpLock || Char != this.BChar || this.Soothed)
             {
                 return;
             }
-            if (this.BChar.HP <= 1)
+            if (this.BChar != null && this.BChar.HP <= 1)
             {
-                this.BChar.HP = 1;
-                this.BChar.IsDead = false;
+                this.SurviveAtOne();
+            }
+        }
+
+        /// <summary>
+        /// 夹到 1 血并进入耍赖皮。设 HP 会再进 HPChange，必须加锁避免闪退。
+        /// </summary>
+        public void SurviveAtOne()
+        {
+            if (this.Soothed || this.hpLock)
+            {
+                return;
+            }
+            this.hpLock = true;
+            try
+            {
+                if (this.BChar != null)
+                {
+                    if (this.BChar.HP < 1)
+                    {
+                        this.BChar.HP = 1;
+                    }
+                    this.BChar.IsDead = false;
+                }
                 this.TriggerStubborn();
+            }
+            finally
+            {
+                this.hpLock = false;
             }
         }
 
@@ -94,23 +125,30 @@ namespace BossPhoenix
             {
                 return;
             }
+            bool first = !this.Stubborn;
             this.Stubborn = true;
-            if (this.BChar.HP < 1)
+            if (this.BChar != null)
             {
-                this.BChar.HP = 1;
+                this.BChar.IsDead = false;
             }
-            this.BChar.IsDead = false;
+            if (!first)
+            {
+                return;
+            }
             this.ResetRiddle();
             if (!this.stubbornTalked)
             {
                 this.stubbornTalked = true;
-                BattleSystem.DelayInput(this.Co_StubbornTalk());
+                if (BattleSystem.instance != null)
+                {
+                    BattleSystem.DelayInput(this.Co_StubbornTalk());
+                }
             }
         }
 
         private IEnumerator Co_StubbornTalk()
         {
-            yield return BattleText.InstBattleText_Co(this.BChar, ModLocalization.Stubborn, true, 0, 0f);
+            yield return BattleText.InstBattleText_Co(this.BChar, PhoenixLoc.Stubborn, true, 0, 0f);
             yield break;
         }
 
@@ -136,18 +174,17 @@ namespace BossPhoenix
 
         public void EnsureImagined()
         {
-            if (!string.IsNullOrEmpty(this.ImaginedKey))
+            if (this.Stubborn && !this.Soothed)
             {
-                if (this.Stubborn && !this.Soothed)
-                {
-                    this.ImaginedKey = this.HasBread() ? GDEItemKeys.Skill_S_Phoenix_Draw_0 : GDEItemKeys.Skill_S_Phoenix_Draw_1;
-                }
+                // 想象原版找面包 / 扔面包，猜对再发很急版
+                this.ImaginedKey = this.HasBread()
+                    ? PhoenixSkillUtil.VanillaThrowBread
+                    : PhoenixSkillUtil.VanillaFindBread;
                 return;
             }
 
-            if (this.Stubborn && !this.Soothed)
+            if (!string.IsNullOrEmpty(this.ImaginedKey))
             {
-                this.ImaginedKey = this.HasBread() ? GDEItemKeys.Skill_S_Phoenix_Draw_0 : GDEItemKeys.Skill_S_Phoenix_Draw_1;
                 return;
             }
 
@@ -158,11 +195,11 @@ namespace BossPhoenix
         {
             if (this.Stubborn && !this.Soothed)
             {
-                if (this.ImaginedKey == GDEItemKeys.Skill_S_Phoenix_Draw_1)
+                if (this.ImaginedKey == PhoenixSkillUtil.VanillaFindBread)
                 {
                     return ModItemKeys.Skill_S_BossPhoenix_FindBread;
                 }
-                if (this.ImaginedKey == GDEItemKeys.Skill_S_Phoenix_Draw_0)
+                if (this.ImaginedKey == PhoenixSkillUtil.VanillaThrowBread)
                 {
                     return ModItemKeys.Skill_S_BossPhoenix_ThrowBread;
                 }
@@ -179,7 +216,7 @@ namespace BossPhoenix
 
         private IEnumerator Co_Soothe()
         {
-            yield return BattleText.InstBattleText_Co(this.BChar, ModLocalization.Soothe, true, 0, 0f);
+            yield return BattleText.InstBattleText_Co(this.BChar, PhoenixLoc.Soothe, true, 0, 0f);
             if (this.BChar != null && !this.BChar.IsDead)
             {
                 this.BChar.Dead();

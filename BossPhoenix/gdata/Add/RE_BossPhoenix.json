@@ -21,6 +21,8 @@
             "凤凰拍拍翅膀离开了……这里已经没有东西了。"
         ],
         "UseItemSlot": 0,
-        "MainImage_2Stage": "RE_BossPhoenix\\RE_BossPhoenixMainImage_2Stage.png"
+        "MainImage_2Stage": "RE_BossPhoenix\\RE_BossPhoenixMainImage_2Stage.png",
+        "MainImage_3Stage": "RE_BossPhoenix\\RE_BossPhoenixMainImage_3Stage.png",
+        "MainImage": "RE_BossPhoenix\\RE_BossPhoenixMainImage.png"
     }
 }

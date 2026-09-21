@@ -1,0 +1,35 @@
+{
+    "S_Sage_Default": {
+        "_gdeSchema": "Skill",
+        "Category": "DefultSkill",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "基础术",
+        "User": "",
+        "LucyPartyDraw": "",
+        "UseAp": 1,
+        "Description": "贤者职业的占位默认技能。",
+        "Effect_Target": "SE_T_S_Sage_Default",
+        "Image_0": "S_Sage_Default\\S_Sage_Default_Image_0.png",
+        "Image_1": "S_Sage_Default\\S_Sage_Default_Image_1.png",
+        "Image_2": "S_Sage_Default\\S_Sage_Default_Image_2.png",
+        "SkillExtended": [
+            "TouhouBasic.S_Sage_Default"
+        ]
+    }
+}

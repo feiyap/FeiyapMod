@@ -1,0 +1,9 @@
+{
+    "TestQueue": {
+        "_gdeSchema": "EnemyQueue",
+        "Enemys": [
+            "S1_Pharos_Tanker",
+            "S1_Pharos_Tanker"
+        ]
+    }
+}

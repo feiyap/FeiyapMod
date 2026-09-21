@@ -1,0 +1,16 @@
+{
+    "id": "TouhouBasic",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "【CN/EN/JP/KR】东方模组前置",
+    "Author": "绯夜氏",
+    "Version": "v1.0",
+    "Cover": "TouhouBasicCover.png",
+    "TagList": [
+        "Modding Tools"
+    ],
+    "Dependencies": [
+        "BasicMethods"
+    ],
+    "Description": "东方Project角色模组的前置。\r\n新增职业「贤者」(Role_Sage)。\r\n\r\n使用说明：\r\n请将本模组放在 BasicMethods 之下、东方角色模组之上并启用。\r\n\r\nFor Modders:\r\nAdd this mod as a dependency, then set the character JSON \"Role\" field to \"Role_Sage\"."
+}

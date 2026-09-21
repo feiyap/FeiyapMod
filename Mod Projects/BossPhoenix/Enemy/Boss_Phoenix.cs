@@ -11,12 +11,6 @@ namespace BossPhoenix
                 return base.SkillSelect(ActionCount);
             }
 
-            bool stubborn = B_BossPhoenix_P.IsStubborn(this.BChar);
-            if (stubborn)
-            {
-                return this.BChar.Skills[0];
-            }
-
             if (ActionCount == 0)
             {
                 return this.BChar.Skills[0];

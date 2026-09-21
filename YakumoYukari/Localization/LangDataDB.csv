@@ -1,0 +1,21 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Character/YakumoYukari_name,Text,,야쿠모 유카리,Yakumo Yukari,八雲紫,八云紫,八雲紫
+Character/YakumoYukari_PassiveName,Text,,환상의 경계,Boundary of Fantasy,幻想の境界,幻想的境界,幻想的境界
+Buff/B_YakumoYukari_P_Name,Text,,환상의 경계,Boundary of Fantasy,幻想の境界,幻想的境界,幻想的境界
+Buff/B_YakumoYukari_P_Description,Text,,신속 행동：&a\n이동 행동：&b\n표준 행동：&c\n경계력：&d/&e,Swift: &a\nMove: &b\nStandard: &c\nBoundary Power: &d/&e,迅速：&a\n移動：&b\n標準：&c\n境界力：&d/&e,迅捷动作：&a\n移动动作：&b\n标准动作：&c\n境界力：&d/&e,迅捷動作：&a\n移動動作：&b\n標準動作：&c\n境界力：&d/&e
+Skill/S_YakumoYukari_Act_Name,Text,,행동 실행,Perform Action,行動を実行,执行动作,執行動作
+Skill/S_YakumoYukari_Act_Description,Text,,행동 유형을 고른 뒤 구체적인 행동을 실행한다.,Choose an action type then perform a specific action.,行動タイプを選んでから具体的な行動を実行する。,选择动作类型，再选择并执行一个具体动作。,選擇動作類型，再選擇並執行一個具體動作。
+Skill/S_YakumoYukari_Act_Swift_Name,Text,,신속 행동,Swift Action,迅速アクション,迅捷动作,迅捷動作
+Skill/S_YakumoYukari_Act_Swift_Description,Text,,신속 행동을 선택하고 실행한다.,Choose and perform a Swift action.,迅速アクションを選んで実行する。,选择并执行一个迅捷动作。,選擇並執行一個迅捷動作。
+Skill/S_YakumoYukari_Act_Move_Name,Text,,이동 행동,Move Action,移動アクション,移动动作,移動動作
+Skill/S_YakumoYukari_Act_Move_Description,Text,,이동 행동을 선택하고 실행한다. 카운트다운이 1 진행된다.,Choose and perform a Move action. Advance the countdown once.,移動アクションを選んで実行する。カウントが1進む。,选择并执行一个移动动作。会推进一次倒计时。,選擇並執行一個移動動作。會推進一次倒計時。
+Skill/S_YakumoYukari_Act_Standard_Name,Text,,표준 행동,Standard Action,標準アクション,标准动作,標準動作
+Skill/S_YakumoYukari_Act_Standard_Description,Text,,표준 행동을 선택하고 실행한다. 카운트다운이 1 진행된다.,Choose and perform a Standard action. Advance the countdown once.,標準アクションを選んで実行する。カウントが1進む。,选择并执行一个标准动作。会推进一次倒计时。,選擇並執行一個標準動作。會推進一次倒計時。
+Skill/S_YakumoYukari_0_Name,Text,,행동 실행,Perform Action,行動を実行,执行动作,執行動作
+Skill/S_YakumoYukari_0_Description,Text,,대상 없음.\n선택한 행동 유형에 해당하는 슬롯을 소모한다.,No target. Spend the slot of the chosen action type.,対象なし。選んだ行動タイプのスロットを消費する。,无指向。\n消耗所选动作类型对应的槽：迅捷、移动或标准。,無指向。\n消耗所選動作類型對應的槽：迅捷、移動或標準。
+Skill/S_YakumoYukari_1_Name,Text,,열어서는 안 될 옥함,The Casket You Shouldn't Have Opened,開けてはならない玉匣,后悔打开的玉匣,後悔打開的玉匣
+Skill/S_YakumoYukari_1_Description,Text,,표준 행동. 적 지정.\n&a 피해<color=#FF7A33>(공격력의 100%)</color>.,Standard action. Enemy.\nDeal &a damage<color=#FF7A33>(100% of Attack)</color>.,標準アクション。敵指定。\n&aダメージ<color=#FF7A33>(攻撃力の100%)</color>。,标准动作。指向敌人。\n造成 &a 伤害<color=#FF7A33>(攻击力的100%)</color>。,標準動作。指向敵人。\n造成 &a 傷害<color=#FF7A33>(攻擊力的100%)</color>。
+Skill/S_YakumoYukari_2_Name,Text,,선사에 숨은 요호,Youkai Butterfly Hidden in the Temple,禅寺に潜む妖蝶,潜藏于禅寺的妖蝶,潛藏於禪寺的妖蝶
+Skill/S_YakumoYukari_2_Description,Text,,전력 행동. 적 지정.\n이동 1과 표준 1을 소모한다.\n&a 피해<color=#FF7A33>(공격력의 180%)</color>.,Full-round action. Enemy.\nSpend 1 Move and 1 Standard.\nDeal &a damage<color=#FF7A33>(180% of Attack)</color>.,全力アクション。敵指定。\n移動1と標準1を消費。\n&aダメージ<color=#FF7A33>(攻撃力の180%)</color>。,整轮动作。指向敌人。\n消耗1个移动动作和1个标准动作。\n造成 &a 伤害<color=#FF7A33>(攻击力的180%)</color>。,整輪動作。指向敵人。\n消耗1個移動動作和1個標準動作。\n造成 &a 傷害<color=#FF7A33>(攻擊力的180%)</color>。
+Skill/S_YakumoYukari_3_Name,Text,,정관기변의 눈,The Eye That Watches,静観其変の眼,静观其变之眼,靜觀其變之眼
+Skill/S_YakumoYukari_3_Description,Text,,신속 행동. 자신.\n카운트다운이 1 진행된다. 경계력 1을 얻는다.,Swift action. Self.\nAdvance the countdown once. Gain 1 Boundary Power.,迅速アクション。自身。\nカウントが1進む。境界力を1得る。,迅捷动作。自身。\n推进一次倒计时。获得1点【境界力】。,迅捷動作。自身。\n推進一次倒計時。獲得1點【境界力】。

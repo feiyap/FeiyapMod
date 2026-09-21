@@ -1,0 +1,21 @@
+{
+    "S_YakumoYukari_Act_Standard": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "NotCount": true,
+        "Except": false,
+        "Name": "标准动作",
+        "UseAp": -1,
+        "Description": "选择并执行一个标准动作。会推进一次倒计时。",
+        "Basic": false,
+        "NoDrop": true,
+        "Image_0": "S_YakumoYukari_Act_Standard\\S_YakumoYukari_Act_Standard_Image_0.png",
+        "Image_1": "S_YakumoYukari_Act_Standard\\S_YakumoYukari_Act_Standard_Image_1.png",
+        "Image_2": "S_YakumoYukari_Act_Standard\\S_YakumoYukari_Act_Standard_Image_2.png",
+        "SkillExtended": [
+            "YakumoYukari.S_YakumoYukari_Act"
+        ]
+    }
+}

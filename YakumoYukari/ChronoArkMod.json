@@ -1,0 +1,17 @@
+{
+    "id": "YakumoYukari",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "【CN\\EN\\JP\\KR】八云紫 ~ 东方妖妖梦",
+    "Author": "绯夜氏",
+    "Version": "v0.1",
+    "Cover": "YakumoYukariCover.png",
+    "TagList": [
+        "Characters"
+    ],
+    "Dependencies": [
+        "BasicMethods",
+        "TouhouBasic"
+    ],
+    "Description": "[h1]本Mod基于“BasicMethods”与“TouhouBasic”（东方模组前置）制作。\n应用本Mod之前，请先订阅上述前置Mod，并将它们置于本Mod上方。[/h1]\n\n八云紫是东方Project中的贤者，不再遵循卡牌游戏方式：牌组将转化为动作。"
+}

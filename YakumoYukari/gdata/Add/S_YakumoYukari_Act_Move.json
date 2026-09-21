@@ -1,0 +1,21 @@
+{
+    "S_YakumoYukari_Act_Move": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "NotCount": true,
+        "Except": false,
+        "Name": "移动动作",
+        "UseAp": -1,
+        "Description": "选择并执行一个移动动作。会推进一次倒计时。",
+        "Basic": false,
+        "NoDrop": true,
+        "Image_0": "S_YakumoYukari_Act_Move\\S_YakumoYukari_Act_Move_Image_0.png",
+        "Image_1": "S_YakumoYukari_Act_Move\\S_YakumoYukari_Act_Move_Image_1.png",
+        "Image_2": "S_YakumoYukari_Act_Move\\S_YakumoYukari_Act_Move_Image_2.png",
+        "SkillExtended": [
+            "YakumoYukari.S_YakumoYukari_Act"
+        ]
+    }
+}

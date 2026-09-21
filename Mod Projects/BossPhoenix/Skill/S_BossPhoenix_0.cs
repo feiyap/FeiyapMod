@@ -37,14 +37,14 @@ namespace BossPhoenix
             {
                 string rewardKey = state.RewardKeyForGuess();
                 PhoenixSkillUtil.GiveSkillToOwner(rewardKey);
-                yield return BattleText.InstBattleText_Co(this.BChar, ModLocalization.RiddleCorrect, true, 0, 0f);
+                yield return BattleText.InstBattleText_Co(this.BChar, PhoenixLoc.RiddleCorrect, true, 0, 0f);
                 state.ResetRiddle();
                 yield break;
             }
 
             if (state.LostRiddleCount < PhoenixSkillUtil.MaxRiddleLoss)
             {
-                yield return BattleText.InstBattleText_Co(this.BChar, string.Format(ModLocalization.Loc("Riddle/RoundLost"), state.LostRiddleCount, PhoenixSkillUtil.MaxRiddleLoss), true, 0, 0f);
+                yield return BattleText.InstBattleText_Co(this.BChar, string.Format(PhoenixLoc.Loc("Riddle/RoundLost"), state.LostRiddleCount, PhoenixSkillUtil.MaxRiddleLoss), true, 0, 0f);
                 state.ResetRiddle();
                 yield break;
             }

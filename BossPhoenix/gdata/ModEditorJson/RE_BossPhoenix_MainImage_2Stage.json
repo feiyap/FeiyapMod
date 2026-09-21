@@ -3,8 +3,8 @@
     "myField": "MainImage_2Stage",
     "myValues": {
         "pivot01": {
-            "x": 0.5,
-            "y": 0.05
+            "x": 0.5029794,
+            "y": 0.274586141
         }
     },
     "MyChangeType": "RandomEventImage",

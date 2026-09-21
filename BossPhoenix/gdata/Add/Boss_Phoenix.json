@@ -10,7 +10,7 @@
         "Boss": true,
         "NotCursed": true,
         "name": "凤凰",
-        "atk": 15,
+        "atk": 10,
         "def": 15,
         "cri": 5,
         "dodge": 5,
@@ -20,10 +20,10 @@
         "spd": 3,
         "PlusActCount": [
             2,
-            2
+            1
         ],
         "CollactionSprite_Cover": "Boss_Phoenix\\Boss_PhoenixCollactionSprite_Cover.png",
-        "SubName": "拦路者",
+        "SubName": "凤凰",
         "reg": 0,
         "RES_DOT": 30,
         "EnemyStory": "不知从何处出现的凤凰拦住了你们。\n它声称自己很无聊，非要拉着你们玩猜谜游戏——赢了有奖励，输了有惩罚。\n就算被打到只剩一口气，它也会耍性子赖着不死。聪明的露西，有没有办法哄好它呢？",

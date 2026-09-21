@@ -1,0 +1,21 @@
+{
+    "S_YakumoYukari_Act": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "NotCount": true,
+        "Except": false,
+        "Name": "执行动作",
+        "UseAp": -1,
+        "Description": "选择动作类型，再选择并执行一个具体动作。",
+        "Basic": true,
+        "User": "YakumoYukari",
+        "Image_0": "S_YakumoYukari_Act_Swift\\S_YakumoYukari_Act_Swift_Image_0.png",
+        "Image_1": "S_YakumoYukari_Act_Swift\\S_YakumoYukari_Act_Swift_Image_1.png",
+        "Image_2": "S_YakumoYukari_Act_Swift\\S_YakumoYukari_Act_Swift_Image_2.png",
+        "SkillExtended": [
+            "YakumoYukari.S_YakumoYukari_Act"
+        ]
+    }
+}

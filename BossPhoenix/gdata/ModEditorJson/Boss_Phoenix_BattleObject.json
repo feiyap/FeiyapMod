@@ -3,22 +3,22 @@
     "myField": "BattleObject",
     "myValues": {
         "path": "Boss_Phoenix\\Boss_PhoenixMainImage.png",
-        "Animation": "None",
+        "Animation": "Move Up and Down",
         "Pivot": {
-            "x": 0.5032528,
-            "y": 0.0224614739
+            "x": 0.459595084,
+            "y": 0.303834558
         },
         "Head": {
-            "x": 0.5,
-            "y": 0.88
+            "x": 0.388755977,
+            "y": 0.573984563
         },
         "Center": {
-            "x": 0.5,
-            "y": 0.55
+            "x": 0.44829303,
+            "y": 0.5554573
         },
         "UI": {
-            "x": 0.5,
-            "y": 0.15
+            "x": 0.464163125,
+            "y": 0.08449644
         }
     },
     "MyChangeType": "EnemyBattleObject",

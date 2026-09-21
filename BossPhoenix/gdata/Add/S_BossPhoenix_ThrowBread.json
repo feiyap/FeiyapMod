@@ -2,7 +2,7 @@
     "S_BossPhoenix_ThrowBread": {
         "_gdeSchema": "Skill",
         "Category": "LucySkill",
-        "Particle": "Particle/Phoenix/Phoenix_0",
+        "Particle": "Particle/Phoenix/Phoenix_new_3",
         "Target": "enemy",
         "Name": "扔面包（很急！）",
         "Description": "消耗1个面包。",
@@ -20,6 +20,7 @@
         "Image_2": "S_BossPhoenix_ThrowBread\\S_BossPhoenix_ThrowBread_Image_2.png",
         "SkillExtended": [
             "BossPhoenix.S_Lucy_ThrowBreadUrgent"
-        ]
+        ],
+        "EnemyPreview": false
     }
 }

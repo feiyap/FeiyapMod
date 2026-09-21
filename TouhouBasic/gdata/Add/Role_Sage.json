@@ -1,0 +1,16 @@
+{
+    "Role_Sage": {
+        "_gdeSchema": "CharRole",
+        "RoleName": "贤者",
+        "RoleImage": "Images/Role_Sage.png",
+        "DefultBasicSkill": "S_Sage_Default",
+        "BloodyMistAdd": "S_Sage_Default",
+        "DefaultSkillsList": [
+            "S_Sage_Default",
+            "S_Sage_Default",
+            "S_Sage_Default",
+            "S_Sage_Default",
+            "S_Sage_Default"
+        ]
+    }
+}

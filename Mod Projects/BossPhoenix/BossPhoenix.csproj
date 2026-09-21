@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyName>BossPhoenix202695130119</AssemblyName>
+    <AssemblyName>BossPhoenix202695175531</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -408,7 +408,7 @@
     <!-- Extra Reference Start-->
 <!-- Extra Reference End-->
   </ItemGroup>
-        <!-- Compile ItemGroup Start-->
+                                        <!-- Compile ItemGroup Start-->
   <ItemGroup>
     <Compile Include="BossPhoenix_ModDefinition.cs" />
     <Compile Include="BossPhoenix_ModItemKeys.cs" />
@@ -425,7 +425,8 @@
     <Compile Include="Skill\S_BossPhoenix_0.cs" />
     <Compile Include="Skill\S_Lucy_FindBreadUrgent.cs" />
     <Compile Include="Skill\S_Lucy_SmallWorld.cs" />
-    <Compile Include="Skill\S_Lucy_ThrowBreadUrgent.cs" />
+            <Compile Include="Skill\S_Lucy_ThrowBreadUrgent.cs" />
+            <Compile Include="Skill\SE_PhoenixGift.cs" />
   </ItemGroup>
   <!-- Compile ItemGroup End-->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

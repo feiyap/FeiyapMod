@@ -1,0 +1,119 @@
+{
+    "YakumoYukari": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "YakumoYukari.P_YakumoYukari",
+        "PassiveUnlockLV1": true,
+        "name": "八云紫",
+        "SelectInfo": "八云紫是制定框架的妖怪大贤者。她不再遵循卡牌游戏方式：战斗开始时，牌组会全部转化为动作。\n\n使用固定技能「执行动作」选择迅捷、移动或标准动作并执行，并以【境界力】驱动部分能力。\n\n<color=#c62c2c>“境界，由我来操纵。”</color>",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 22,
+            "y": 40
+        },
+        "ATK": {
+            "x": 14,
+            "y": 22
+        },
+        "CRI": {
+            "x": 0,
+            "y": 5
+        },
+        "DODGE": {
+            "x": 5,
+            "y": 12
+        },
+        "DEF": {
+            "x": 1,
+            "y": 8
+        },
+        "REG": {
+            "x": 10,
+            "y": 16
+        },
+        "HIT": {
+            "x": 95,
+            "y": 110
+        },
+        "RES_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "RES_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 40
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 40
+        },
+        "Lock": false,
+        "UnlockString": "",
+        "PassiveName": "幻想的境界",
+        "PassiveDes": "妖怪大贤者 - 身为贤者，八云紫能够超脱条理、制定框架。她不再遵循卡牌游戏方式。\r\n战斗开始时，八云紫的牌组将不会加入到牌库中，而是全部转化为动作。重复的卡牌将会提升动作的等级。\r\n回合开始时，八云紫会获得1个迅捷动作、1个移动动作、1个标准动作。此外，移动动作可以向下转化为迅捷动作、标准动作可以向下转化为移动动作。\r\n此外，八云紫不再拥有固定能力，取而代之的是动作按钮：点击动作按钮后，可以宣言并执行对应的动作。\r\n\r\n操纵境界程度的能力 - 八云紫拥有特殊能量池【境界力】，并且八云紫每提升1级，【境界力】的上限便提升10点。部分动作需要消耗【境界力】才能执行。\r\n每个回合开始时、或是成功对敌人造成伤害时，获得1点【境界力】。战斗结束时，清空所有【境界力】。\r\n\r\n<color=#919191>- 此被动从1级开始生效。</color>",
+        "StatView_Atk": 3,
+        "StatView_Def": 3,
+        "StatView_Heal": 0,
+        "StatView_Sup": 3,
+        "StatView_Debuff": 3,
+        "StatView_CC": 3,
+        "StatView_Dot": 3,
+        "StatView_Difficult": 4,
+        "face": "YakumoYukari\\YakumoYukariBattleFace.png",
+        "CollectionSprite_Cover": "YakumoYukari\\YakumoYukariCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "YakumoYukari\\YakumoYukariCollectionSprite_SkillFace.png",
+        "PassiveIcon": "YakumoYukari\\YakumoYukariPassiveIcon.png",
+        "FirstSkill": "S_YakumoYukari_0",
+        "FixedBasicSkill": "S_YakumoYukari_Act",
+        "CampSelectWord": "",
+        "CampSD": [
+            "YakumoYukari\\YakumoYukariCampSD0.png",
+            "YakumoYukari\\YakumoYukariCampSD1.png",
+            "YakumoYukari\\YakumoYukariCampSD2.png",
+            "YakumoYukari\\YakumoYukariCampSD3.png"
+        ],
+        "CanFriendShip": false,
+        "Text_Battle_Idle": [
+            "境界的缝隙正在颤动呢。"
+        ],
+        "Text_Battle_ND": [
+            "……稍微有点越界了。"
+        ],
+        "Text_Battle_Kill": [
+            "请回到你该在的一侧。"
+        ],
+        "Text_Battle_Start": [
+            "那么，开始制定规则吧。"
+        ],
+        "Text_Battle_Cri": [
+            "隙间！"
+        ],
+        "Text_Field_Idle": [
+            "从这里到那里，不过一步。"
+        ],
+        "Text_Field_GetItem": [
+            "有趣的东西。"
+        ],
+        "Text_Field_Potion_P": [
+            "嗯哼。"
+        ],
+        "Text_Battle_Healed": [
+            "多谢。"
+        ],
+        "Text_Battle_AllyND": [
+            "可别在境界里迷路了。"
+        ]
+    }
+}

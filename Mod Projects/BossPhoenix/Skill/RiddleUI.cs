@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using GameDataEditor;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace BossPhoenix
@@ -18,9 +19,13 @@ namespace BossPhoenix
         }
 
         private const int PreviewLimit = 8;
-        private const int ColCount = 8;
-        private const float CellWidth = 148f;
+        private const int ColCount = 9;
+        private const float CellWidth = 136f;
         private const float CellHeight = 42f;
+        private const float DropdownRowHeight = 36f;
+        private const float DropdownRowGap = 2f;
+        private const float DropdownPad = 6f;
+        private const float DropdownBottom = 84f;
 
         private static readonly Color ColorExact = new Color(0.35f, 0.72f, 0.38f, 1f);
         private static readonly Color ColorClose = new Color(0.93f, 0.78f, 0.28f, 1f);
@@ -46,8 +51,12 @@ namespace BossPhoenix
 
         private InputField input;
         private Text statusText;
+        private Button giveUpButton;
         private RectTransform tableRoot;
         private RectTransform dropdownRoot;
+        private RectTransform tipPanel;
+        private Text tipText;
+        private bool waitingConfirm;
         private readonly List<GDESkillData> previewHits = new List<GDESkillData>();
         private readonly List<Image> dropdownRows = new List<Image>();
         private readonly List<Text> dropdownLabels = new List<Text>();
@@ -90,7 +99,7 @@ namespace BossPhoenix
             overlay.raycastTarget = true;
             StretchFull(overlay.rectTransform);
 
-            Text title = CreateText(this.transform, "Title", ModLocalization.Loc("Riddle/UiTitle"), 34, TextAnchor.MiddleCenter);
+            Text title = CreateText(this.transform, "Title", PhoenixLoc.Loc("Riddle/UiTitle"), 34, TextAnchor.MiddleCenter);
             title.color = Color.white;
             RectTransform titleRt = title.rectTransform;
             titleRt.anchorMin = new Vector2(0.5f, 1f);
@@ -118,13 +127,13 @@ namespace BossPhoenix
 
             this.AddRow(this.tableRoot, true, null, null);
 
-            this.statusText = CreateText(this.transform, "Status", ModLocalization.Loc("Riddle/InputHint"), 20, TextAnchor.MiddleCenter);
+            this.statusText = CreateText(this.transform, "Status", PhoenixLoc.Loc("Riddle/InputHint"), 20, TextAnchor.MiddleCenter);
             this.statusText.color = new Color(0.85f, 0.85f, 0.85f, 1f);
             RectTransform statusRt = this.statusText.rectTransform;
             statusRt.anchorMin = new Vector2(0.5f, 0f);
             statusRt.anchorMax = new Vector2(0.5f, 0f);
             statusRt.pivot = new Vector2(0.5f, 0f);
-            statusRt.anchoredPosition = new Vector2(0f, 86f);
+            statusRt.anchoredPosition = new Vector2(0f, DropdownBottom);
             statusRt.sizeDelta = new Vector2(1400f, 28f);
 
             this.BuildDropdown();
@@ -133,7 +142,7 @@ namespace BossPhoenix
             this.input.onValueChanged.AddListener(this.OnInputChanged);
             this.input.onEndEdit.AddListener(this.OnEndEdit);
 
-            Button ok = CreateButton(this.transform, "OkButton", ModLocalization.Loc("Riddle/Confirm"), this.OnConfirmClicked);
+            Button ok = CreateButton(this.transform, "OkButton", PhoenixLoc.Loc("Riddle/Confirm"), this.OnConfirmClicked);
             RectTransform okRt = ok.GetComponent<RectTransform>();
             okRt.anchorMin = new Vector2(0.5f, 0f);
             okRt.anchorMax = new Vector2(0.5f, 0f);
@@ -141,25 +150,35 @@ namespace BossPhoenix
             okRt.anchoredPosition = new Vector2(370f, 28f);
             okRt.sizeDelta = new Vector2(140f, 48f);
 
-            Button giveUp = CreateButton(this.transform, "GiveUpButton", ModLocalization.Loc("Riddle/GiveUp"), this.OnGiveUpClicked);
-            Image giveUpImg = giveUp.GetComponent<Image>();
+            this.giveUpButton = CreateButton(this.transform, "GiveUpButton", PhoenixLoc.Loc("Riddle/GiveUp"), this.OnGiveUpClicked);
+            Image giveUpImg = this.giveUpButton.GetComponent<Image>();
             if (giveUpImg != null)
             {
                 giveUpImg.color = new Color(0.72f, 0.28f, 0.26f, 1f);
             }
-            RectTransform giveUpRt = giveUp.GetComponent<RectTransform>();
+            RectTransform giveUpRt = this.giveUpButton.GetComponent<RectTransform>();
             giveUpRt.anchorMin = new Vector2(0.5f, 0f);
             giveUpRt.anchorMax = new Vector2(0.5f, 0f);
             giveUpRt.pivot = new Vector2(0.5f, 0f);
             giveUpRt.anchoredPosition = new Vector2(530f, 28f);
             giveUpRt.sizeDelta = new Vector2(140f, 48f);
 
+            this.BuildTip();
             this.input.ActivateInputField();
             this.input.Select();
         }
 
         private void Update()
         {
+            this.MoveTipToMouse();
+            if (this.waitingConfirm)
+            {
+                if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+                {
+                    this.CloseAfterWait();
+                }
+                return;
+            }
             if (this.finished)
             {
                 return;
@@ -216,6 +235,11 @@ namespace BossPhoenix
 
         private void OnConfirmClicked()
         {
+            if (this.waitingConfirm)
+            {
+                this.CloseAfterWait();
+                return;
+            }
             if (this.previewHits.Count > 0 && this.dropdownIndex >= 0 && this.dropdownIndex < this.previewHits.Count)
             {
                 this.AcceptGuess(this.previewHits[this.dropdownIndex]);
@@ -230,7 +254,7 @@ namespace BossPhoenix
             {
                 return;
             }
-            this.Finish(Result.Lost);
+            this.RevealAnswer();
         }
 
         private void OnInputChanged(string value)
@@ -257,16 +281,8 @@ namespace BossPhoenix
             this.dropdownRoot.anchorMin = new Vector2(0.5f, 0f);
             this.dropdownRoot.anchorMax = new Vector2(0.5f, 0f);
             this.dropdownRoot.pivot = new Vector2(0.5f, 0f);
-            this.dropdownRoot.anchoredPosition = new Vector2(-60f, 80f);
-            this.dropdownRoot.sizeDelta = new Vector2(720f, PreviewLimit * 36f);
-
-            VerticalLayoutGroup vlg = go.AddComponent<VerticalLayoutGroup>();
-            vlg.spacing = 2f;
-            vlg.childAlignment = TextAnchor.LowerCenter;
-            vlg.childControlHeight = false;
-            vlg.childControlWidth = true;
-            vlg.childForceExpandHeight = false;
-            vlg.childForceExpandWidth = true;
+            this.dropdownRoot.anchoredPosition = new Vector2(-60f, DropdownBottom);
+            this.dropdownRoot.sizeDelta = new Vector2(720f, DropdownHeight(PreviewLimit));
 
             Image bg = go.AddComponent<Image>();
             bg.sprite = WhiteSprite();
@@ -277,9 +293,11 @@ namespace BossPhoenix
             {
                 int captured = i;
                 Image row = CreateImage(go.transform, "Opt_" + i, new Color(0.16f, 0.18f, 0.22f, 1f));
-                LayoutElement le = row.gameObject.AddComponent<LayoutElement>();
-                le.preferredHeight = 34f;
-                le.minHeight = 34f;
+                RectTransform rowRt = row.rectTransform;
+                rowRt.anchorMin = new Vector2(0.5f, 1f);
+                rowRt.anchorMax = new Vector2(0.5f, 1f);
+                rowRt.pivot = new Vector2(0.5f, 1f);
+                rowRt.sizeDelta = new Vector2(720f - DropdownPad * 2f, DropdownRowHeight);
                 Button btn = row.gameObject.AddComponent<Button>();
                 btn.onClick.AddListener(delegate
                 {
@@ -288,10 +306,12 @@ namespace BossPhoenix
                         this.AcceptGuess(this.previewHits[captured]);
                     }
                 });
-                Text label = CreateText(row.transform, "Label", "", 20, TextAnchor.MiddleLeft);
-                RectTransform labelRt = label.rectTransform;
-                labelRt.offsetMin = new Vector2(12f, 0f);
-                labelRt.offsetMax = new Vector2(-8f, 0f);
+                Text label = CreateText(row.transform, "Label", "", 18, TextAnchor.MiddleLeft);
+                label.raycastTarget = false;
+                label.color = Color.white;
+                StretchFull(label.rectTransform);
+                label.rectTransform.offsetMin = new Vector2(12f, 2f);
+                label.rectTransform.offsetMax = new Vector2(-8f, -2f);
                 this.dropdownRows.Add(row);
                 this.dropdownLabels.Add(label);
                 row.gameObject.SetActive(false);
@@ -305,6 +325,7 @@ namespace BossPhoenix
             if (string.IsNullOrEmpty(value) || value.Trim().Length == 0)
             {
                 this.dropdownRoot.gameObject.SetActive(false);
+                this.PlaceStatus(false, 0);
                 return;
             }
 
@@ -318,17 +339,20 @@ namespace BossPhoenix
             if (this.previewHits.Count == 0)
             {
                 this.dropdownRoot.gameObject.SetActive(false);
+                this.PlaceStatus(false, 0);
                 this.statusText.color = new Color(1f, 0.55f, 0.45f, 1f);
-                this.statusText.text = ModLocalization.Loc("Riddle/NoMatch");
+                this.statusText.text = PhoenixLoc.Loc("Riddle/NoMatch");
                 return;
             }
 
             this.statusText.color = new Color(0.85f, 0.85f, 0.85f, 1f);
             this.statusText.text = hits.Count > shown
-                ? string.Format(ModLocalization.Loc("Riddle/MoreMatches"), hits.Count)
-                : ModLocalization.Loc("Riddle/InputHint");
+                ? string.Format(PhoenixLoc.Loc("Riddle/MoreMatches"), hits.Count)
+                : PhoenixLoc.Loc("Riddle/InputHint");
 
             this.dropdownIndex = 0;
+            this.dropdownRoot.sizeDelta = new Vector2(720f, DropdownHeight(this.previewHits.Count));
+            this.PlaceStatus(true, this.previewHits.Count);
             this.dropdownRoot.gameObject.SetActive(true);
             for (int i = 0; i < PreviewLimit; i++)
             {
@@ -336,10 +360,37 @@ namespace BossPhoenix
                 this.dropdownRows[i].gameObject.SetActive(on);
                 if (on)
                 {
-                    this.dropdownLabels[i].text = PhoenixSkillUtil.GetSkillName(this.previewHits[i]);
+                    RectTransform rowRt = this.dropdownRows[i].rectTransform;
+                    rowRt.anchoredPosition = new Vector2(0f, -DropdownPad - i * (DropdownRowHeight + DropdownRowGap));
+                    rowRt.sizeDelta = new Vector2(720f - DropdownPad * 2f, DropdownRowHeight);
+                    this.dropdownLabels[i].text = PhoenixSkillUtil.FormatSkillOption(this.previewHits[i]);
+                    this.dropdownLabels[i].color = Color.white;
                 }
             }
             this.RefreshDropdownHighlight();
+        }
+
+        private static float DropdownHeight(int count)
+        {
+            if (count <= 0)
+            {
+                return DropdownPad * 2f;
+            }
+            return DropdownPad * 2f + count * DropdownRowHeight + (count - 1) * DropdownRowGap;
+        }
+
+        private void PlaceStatus(bool dropdownOpen, int count)
+        {
+            if (this.statusText == null)
+            {
+                return;
+            }
+            float y = DropdownBottom;
+            if (dropdownOpen)
+            {
+                y = DropdownBottom + DropdownHeight(count) + 8f;
+            }
+            this.statusText.rectTransform.anchoredPosition = new Vector2(0f, y);
         }
 
         private void RefreshDropdownHighlight()
@@ -370,8 +421,8 @@ namespace BossPhoenix
             {
                 this.statusText.color = new Color(1f, 0.55f, 0.45f, 1f);
                 this.statusText.text = hits.Count == 0
-                    ? ModLocalization.Loc("Riddle/NotExist")
-                    : string.Format(ModLocalization.Loc("Riddle/NotUnique"), hits.Count);
+                    ? PhoenixLoc.Loc("Riddle/NotExist")
+                    : string.Format(PhoenixLoc.Loc("Riddle/NotUnique"), hits.Count);
                 if (this.input != null)
                 {
                     this.input.ActivateInputField();
@@ -395,14 +446,14 @@ namespace BossPhoenix
             GDESkillData target = PhoenixSkillUtil.FindSkill(this.state.ImaginedKey);
             if (target == null)
             {
-                this.statusText.text = ModLocalization.Loc("Riddle/NotExist");
+                this.statusText.text = PhoenixLoc.Loc("Riddle/NotExist");
                 return;
             }
 
             if (guess.KeyID == this.state.ImaginedKey)
             {
                 this.AddRow(this.tableRoot, false, guess, target);
-                this.Finish(Result.Won);
+                this.WaitForConfirm();
                 return;
             }
 
@@ -410,7 +461,7 @@ namespace BossPhoenix
             this.DealWrongPain(this.state.WrongGuesses);
             this.AddRow(this.tableRoot, false, guess, target);
             this.statusText.color = new Color(0.85f, 0.85f, 0.85f, 1f);
-            this.statusText.text = string.Format(ModLocalization.Loc("Riddle/WrongCount"), this.state.WrongGuesses, PhoenixSkillUtil.MaxGuess);
+            this.statusText.text = string.Format(PhoenixLoc.Loc("Riddle/WrongCount"), this.state.WrongGuesses, PhoenixSkillUtil.MaxGuess);
 
             if (this.input != null)
             {
@@ -437,6 +488,83 @@ namespace BossPhoenix
             for (int i = 0; i < alives.Count; i++)
             {
                 alives[i].Damage(this.phoenix, amount, false, true, false, 0, false, false, false);
+            }
+        }
+
+        private void RevealAnswer()
+        {
+            if (this.state == null)
+            {
+                this.Finish(Result.Lost);
+                return;
+            }
+            this.state.EnsureImagined();
+            GDESkillData target = PhoenixSkillUtil.FindSkill(this.state.ImaginedKey);
+            if (target != null)
+            {
+                this.AddRow(this.tableRoot, false, target, target);
+                this.statusText.color = new Color(1f, 0.78f, 0.35f, 1f);
+                this.statusText.text = string.Format(PhoenixLoc.Loc("Riddle/GiveUpReveal"), PhoenixSkillUtil.FormatSkillOption(target));
+            }
+            else
+            {
+                this.statusText.color = new Color(1f, 0.78f, 0.35f, 1f);
+                this.statusText.text = PhoenixLoc.Loc("Riddle/GiveUpRevealEmpty");
+            }
+            this.finished = true;
+            this.waitingConfirm = true;
+            LastResult = Result.Lost;
+            if (this.input != null)
+            {
+                this.input.interactable = false;
+            }
+            if (this.giveUpButton != null)
+            {
+                this.giveUpButton.gameObject.SetActive(false);
+            }
+            if (this.dropdownRoot != null)
+            {
+                this.dropdownRoot.gameObject.SetActive(false);
+            }
+            this.previewHits.Clear();
+        }
+
+        private void CloseAfterWait()
+        {
+            if (!this.waitingConfirm)
+            {
+                return;
+            }
+            this.waitingConfirm = false;
+            if (LastResult == Result.Lost && this.state != null && this.state.RegisterRiddleLoss())
+            {
+                this.EndBattleNow();
+            }
+            this.CloseSelf();
+        }
+
+        private void WaitForConfirm()
+        {
+            this.finished = true;
+            this.waitingConfirm = true;
+            LastResult = Result.Won;
+            if (this.input != null)
+            {
+                this.input.interactable = false;
+            }
+            if (this.giveUpButton != null)
+            {
+                this.giveUpButton.gameObject.SetActive(false);
+            }
+            if (this.dropdownRoot != null)
+            {
+                this.dropdownRoot.gameObject.SetActive(false);
+            }
+            this.previewHits.Clear();
+            if (this.statusText != null)
+            {
+                this.statusText.color = new Color(0.55f, 0.92f, 0.58f, 1f);
+                this.statusText.text = PhoenixLoc.Loc("Riddle/WonHint");
             }
         }
 
@@ -494,14 +622,15 @@ namespace BossPhoenix
 
             if (header)
             {
-                this.AddCell(row.transform, ModLocalization.Loc("Riddle/ColName"), ColorHeader, Color.white);
-                this.AddCell(row.transform, ModLocalization.Loc("Riddle/ColOwner"), ColorHeader, Color.white);
-                this.AddCell(row.transform, ModLocalization.Loc("Riddle/ColCost"), ColorHeader, Color.white);
-                this.AddCell(row.transform, ModLocalization.Loc("Riddle/ColTarget"), ColorHeader, Color.white);
-                this.AddCell(row.transform, ModLocalization.Loc("Riddle/ColMult"), ColorHeader, Color.white);
-                this.AddCell(row.transform, ModLocalization.Loc("Riddle/ColType"), ColorHeader, Color.white);
-                this.AddCell(row.transform, ModLocalization.Loc("Riddle/ColTiming"), ColorHeader, Color.white);
-                this.AddCell(row.transform, ModLocalization.Loc("Riddle/ColBuff"), ColorHeader, Color.white);
+                this.AddHeaderCell(row.transform, PhoenixLoc.Loc("Riddle/ColName"), "Riddle/Tip/Name");
+                this.AddHeaderCell(row.transform, PhoenixLoc.Loc("Riddle/ColOwner"), "Riddle/Tip/Owner");
+                this.AddHeaderCell(row.transform, PhoenixLoc.Loc("Riddle/ColRole"), "Riddle/Tip/Role");
+                this.AddHeaderCell(row.transform, PhoenixLoc.Loc("Riddle/ColCost"), "Riddle/Tip/Cost");
+                this.AddHeaderCell(row.transform, PhoenixLoc.Loc("Riddle/ColTarget"), "Riddle/Tip/Target");
+                this.AddHeaderCell(row.transform, PhoenixLoc.Loc("Riddle/ColMult"), "Riddle/Tip/Mult");
+                this.AddHeaderCell(row.transform, PhoenixLoc.Loc("Riddle/ColType"), "Riddle/Tip/Type");
+                this.AddHeaderCell(row.transform, PhoenixLoc.Loc("Riddle/ColTiming"), "Riddle/Tip/Timing");
+                this.AddHeaderCell(row.transform, PhoenixLoc.Loc("Riddle/ColBuff"), "Riddle/Tip/Buff");
                 return;
             }
 
@@ -514,6 +643,7 @@ namespace BossPhoenix
 
             this.AddCell(row.transform, PhoenixSkillUtil.GetSkillName(guess), ColorOf(PhoenixSkillUtil.CompareName(guess, target)), ColorTextDark);
             this.AddCell(row.transform, PhoenixSkillUtil.GetOwnerName(guess), ColorOf(PhoenixSkillUtil.CompareOwner(guess, target)), ColorTextDark);
+            this.AddCell(row.transform, PhoenixSkillUtil.GetOwnerRoleName(guess), ColorOf(PhoenixSkillUtil.CompareRole(guess, target)), ColorTextDark);
             this.AddCell(row.transform, PhoenixSkillUtil.FormatCost(guessCost) + PhoenixSkillUtil.Arrow(guessCost, targetCost), ColorOf(PhoenixSkillUtil.CompareCost(guessCost, targetCost)), ColorTextDark);
             this.AddCell(row.transform, PhoenixSkillUtil.GetTargetName(guess), ColorOf(PhoenixSkillUtil.CompareTarget(guess, target)), ColorTextDark);
             this.AddCell(row.transform, guessMult.ToString() + "%" + PhoenixSkillUtil.Arrow(guessMult, targetMult), ColorOf(PhoenixSkillUtil.CompareMultiplier(guessMult, targetMult)), ColorTextDark);
@@ -522,7 +652,16 @@ namespace BossPhoenix
             this.AddCell(row.transform, PhoenixSkillUtil.FormatBuff(guessBuff) + PhoenixSkillUtil.Arrow(guessBuff, targetBuff), ColorOf(PhoenixSkillUtil.CompareBuff(guessBuff, targetBuff)), ColorTextDark);
         }
 
-        private void AddCell(Transform parent, string content, Color bg, Color fg)
+        private void AddHeaderCell(Transform parent, string content, string tipKey)
+        {
+            Image img = this.AddCell(parent, content, ColorHeader, Color.white);
+            img.raycastTarget = true;
+            HeaderTip tip = img.gameObject.AddComponent<HeaderTip>();
+            tip.ui = this;
+            tip.tipKey = tipKey;
+        }
+
+        private Image AddCell(Transform parent, string content, Color bg, Color fg)
         {
             Image img = CreateImage(parent, "Cell", bg);
             img.raycastTarget = false;
@@ -532,8 +671,92 @@ namespace BossPhoenix
             le.preferredHeight = CellHeight;
             Text text = CreateText(img.transform, "Label", content, 16, TextAnchor.MiddleCenter);
             text.color = fg;
+            text.raycastTarget = false;
             text.horizontalOverflow = HorizontalWrapMode.Wrap;
             StretchFull(text.rectTransform);
+            return img;
+        }
+
+        private void BuildTip()
+        {
+            Image bg = CreateImage(this.transform, "Tip", new Color(0.08f, 0.10f, 0.14f, 0.96f));
+            bg.raycastTarget = false;
+            this.tipPanel = bg.rectTransform;
+            this.tipPanel.anchorMin = new Vector2(0.5f, 0.5f);
+            this.tipPanel.anchorMax = new Vector2(0.5f, 0.5f);
+            this.tipPanel.pivot = new Vector2(0f, 1f);
+            this.tipPanel.sizeDelta = new Vector2(420f, 160f);
+            this.tipText = CreateText(bg.transform, "Text", "", 16, TextAnchor.UpperLeft);
+            this.tipText.color = Color.white;
+            this.tipText.raycastTarget = false;
+            this.tipText.horizontalOverflow = HorizontalWrapMode.Wrap;
+            this.tipText.verticalOverflow = VerticalWrapMode.Overflow;
+            StretchFull(this.tipText.rectTransform);
+            this.tipText.rectTransform.offsetMin = new Vector2(12f, 10f);
+            this.tipText.rectTransform.offsetMax = new Vector2(-12f, -10f);
+            bg.gameObject.SetActive(false);
+        }
+
+        public void ShowTip(string tipKey)
+        {
+            if (this.tipPanel == null || this.tipText == null)
+            {
+                return;
+            }
+            this.tipText.text = PhoenixLoc.Loc(tipKey);
+            int lines = 1;
+            if (!string.IsNullOrEmpty(this.tipText.text))
+            {
+                lines = this.tipText.text.Split('\n').Length;
+            }
+            this.tipPanel.sizeDelta = new Vector2(420f, 20f + lines * 22f);
+            this.tipPanel.gameObject.SetActive(true);
+            this.tipPanel.SetAsLastSibling();
+            this.MoveTipToMouse();
+        }
+
+        public void HideTip()
+        {
+            if (this.tipPanel != null)
+            {
+                this.tipPanel.gameObject.SetActive(false);
+            }
+        }
+
+        private void MoveTipToMouse()
+        {
+            if (this.tipPanel == null || !this.tipPanel.gameObject.activeSelf)
+            {
+                return;
+            }
+            RectTransform canvasRt = this.transform as RectTransform;
+            Vector2 local;
+            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRt, Input.mousePosition, null, out local))
+            {
+                this.tipPanel.anchoredPosition = local + new Vector2(16f, -12f);
+            }
+        }
+
+        private class HeaderTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+        {
+            public RiddleUI ui;
+            public string tipKey;
+
+            public void OnPointerEnter(PointerEventData eventData)
+            {
+                if (this.ui != null)
+                {
+                    this.ui.ShowTip(this.tipKey);
+                }
+            }
+
+            public void OnPointerExit(PointerEventData eventData)
+            {
+                if (this.ui != null)
+                {
+                    this.ui.HideTip();
+                }
+            }
         }
 
         private static Color ColorOf(RiddleMatch match)
@@ -568,7 +791,7 @@ namespace BossPhoenix
             textRt.offsetMin = new Vector2(12f, 4f);
             textRt.offsetMax = new Vector2(-12f, -4f);
 
-            Text placeholder = CreateText(bg.transform, "Placeholder", ModLocalization.Loc("Riddle/Placeholder"), 20, TextAnchor.MiddleLeft);
+            Text placeholder = CreateText(bg.transform, "Placeholder", PhoenixLoc.Loc("Riddle/Placeholder"), 20, TextAnchor.MiddleLeft);
             placeholder.color = new Color(0.5f, 0.5f, 0.52f, 0.85f);
             placeholder.fontStyle = FontStyle.Italic;
             RectTransform phRt = placeholder.rectTransform;

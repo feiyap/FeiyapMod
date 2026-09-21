@@ -1,0 +1,15 @@
+{
+    "B_YakumoYukari_P": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": true,
+        "ClassName": "YakumoYukari.B_YakumoYukari_P",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Name": "幻想的境界",
+        "Icon": "B_YakumoYukari_P\\B_YakumoYukari_P_Icon.png",
+        "Description": "迅捷动作：&a\n移动动作：&b\n标准动作：&c\n境界力：&d/&e"
+    }
+}

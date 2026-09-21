@@ -37,7 +37,7 @@ namespace BossPhoenix
             if (target != null && target.Info.KeyData == ModItemKeys.Enemy_Boss_Phoenix)
             {
                 B_BossPhoenix_P passive = B_BossPhoenix_P.Get(target);
-                if (passive != null && !passive.Soothed)
+                if (passive != null && B_BossPhoenix_P.IsStubborn(target))
                 {
                     passive.SootheAndDefeat();
                 }

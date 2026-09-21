@@ -91,15 +91,15 @@ namespace BossPhoenix
         public static string BattleDiaBoss_PhoenixCorrect => ModManager.getModInfo("BossPhoenix").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Phoenix/Correct");
 		/// <summary>
 		/// Korean:
-		/// 대충 하는 거지? 침대로 돌아가!
+		/// 대충 하는 거지?
 		/// English:
-		/// You're just brushing me off? Back to bed!
+		/// You're just brushing me off?
 		/// Japanese:
-		/// 適当にしてるでしょ？ベッドに戻りなさい!
+		/// 適当にしてるでしょ？
 		/// Chinese:
-		/// 你这是在敷衍我吧？一气之下把你打回床上！
+		/// 你这是在敷衍我吧？
 		/// Chinese-TW:
-		/// 你這是在敷衍我吧？一氣之下把你打回床上！
+		/// 你這是在敷衍我吧？
 		/// </summary>
         public static string BattleDiaBoss_PhoenixFail => ModManager.getModInfo("BossPhoenix").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Phoenix/Fail");
 		/// <summary>
@@ -117,15 +117,15 @@ namespace BossPhoenix
         public static string BattleDiaBoss_PhoenixSoothe => ModManager.getModInfo("BossPhoenix").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Phoenix/Soothe");
 		/// <summary>
 		/// Korean:
-		/// 1 남았다고 죽지 않아! 빵으로 달래보라고!
+		/// 1 남았다고 죽지 않아! 
 		/// English:
-		/// I won't die at 1 HP! Try coaxing me with bread!
+		/// I won't die at 1 HP! 
 		/// Japanese:
-		/// 1残っても死なないよ！パンでなだめなさい!
+		/// 1残っても死なないよ！
 		/// Chinese:
-		/// 才1血我才不倒下呢！有本事用面包来哄我啊！
+		/// 才1血我才不倒下呢！
 		/// Chinese-TW:
-		/// 才1血我才不倒下呢！有本事用麵包來哄我啊！
+		/// 才1血我才不倒下呢！
 		/// </summary>
         public static string BattleDiaBoss_PhoenixStubborn => ModManager.getModInfo("BossPhoenix").localizationInfo.SystemLocalizationUpdate("BattleDia/Boss_Phoenix/Stubborn");
 		/// <summary>

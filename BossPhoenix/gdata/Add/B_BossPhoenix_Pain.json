@@ -6,9 +6,10 @@
         "Name": "好疼…",
         "Description": "受到痛苦伤害增加100%。",
         "MaxStack": 1,
-        "Icon": "B_BossPhoenix_Pain\\B_BossPhoenix_Pain_Icon.png",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_7icon/1_7 (12)",
         "LifeTime": 2,
         "Debuff": true,
-        "TagPer": 80
+        "TagPer": 80,
+        "Cantdisable": false
     }
 }

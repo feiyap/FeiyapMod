@@ -1,0 +1,24 @@
+{
+    "S_YakumoYukari_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Rare": false,
+        "Target": "Misc",
+        "NotCount": true,
+        "NoDrop": true,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Name": "执行动作",
+        "Description": "无指向。\n消耗所选动作类型对应的槽：迅捷、移动或标准。",
+        "UseAp": -1,
+        "User": "YakumoYukari",
+        "Image_0": "S_YakumoYukari_0\\S_YakumoYukari_0_Image_0.png",
+        "Image_1": "S_YakumoYukari_0\\S_YakumoYukari_0_Image_1.png",
+        "Image_2": "S_YakumoYukari_0\\S_YakumoYukari_0_Image_2.png",
+        "SkillExtended": [
+            "YakumoYukari.S_YakumoYukari_0"
+        ]
+    }
+}

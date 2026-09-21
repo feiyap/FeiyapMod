@@ -1,0 +1,17 @@
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\obj\Debug\TouhouBasic.csproj.AssemblyReference.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\obj\Debug\TouhouBasic.csproj.CoreCompileInputs.cache
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\TouhouBasic20260826214700.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\TouhouBasic20260826214700.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\0Harmony.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\BasicMethods.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\DynamicEmitAPI.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\Mono.Cecil.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\Mono.Cecil.Mdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\Mono.Cecil.Pdb.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\Mono.Cecil.Rocks.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\MonoMod.RuntimeDetour.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\MonoMod.Utils.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\bin\Debug\System.Core.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\obj\Debug\TouhouBa.E7746CDE.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\obj\Debug\TouhouBasic20260826214700.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\TouhouBasic\obj\Debug\TouhouBasic20260826214700.pdb

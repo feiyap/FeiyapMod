@@ -1,0 +1,21 @@
+{
+    "S_YakumoYukari_Act_Swift": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "Misc",
+        "NotCount": true,
+        "Except": false,
+        "Name": "迅捷动作",
+        "UseAp": -1,
+        "Description": "选择并执行一个迅捷动作。",
+        "Basic": false,
+        "NoDrop": true,
+        "Image_0": "S_YakumoYukari_Act_Swift\\S_YakumoYukari_Act_Swift_Image_0.png",
+        "Image_1": "S_YakumoYukari_Act_Swift\\S_YakumoYukari_Act_Swift_Image_1.png",
+        "Image_2": "S_YakumoYukari_Act_Swift\\S_YakumoYukari_Act_Swift_Image_2.png",
+        "SkillExtended": [
+            "YakumoYukari.S_YakumoYukari_Act"
+        ]
+    }
+}

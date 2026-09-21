@@ -19,6 +19,7 @@
         "Image_2": "S_BossPhoenix_FindBread\\S_BossPhoenix_FindBread_Image_2.png",
         "SkillExtended": [
             "BossPhoenix.S_Lucy_FindBreadUrgent"
-        ]
+        ],
+        "EnemyPreview": false
     }
 }
