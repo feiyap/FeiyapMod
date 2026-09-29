@@ -1,0 +1,13 @@
+{
+    "B_FeiyapDestination_Inherit_Mage": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FeiyapDestination.B_FeiyapDestination_Inherit_Mage",
+        "BuffTag": "null",
+        "Name": "你的法术如过时玩具般无聊透顶",
+        "MaxStack": 1,
+        "LifeTime": 0,
+        "Description": "交替使用攻击与治疗技能时获得百巧手。每场战斗一次濒死抵消伤害。弱化抵抗率+80%。",
+        "Icon": "B_FeiyapDestination_Inherit_Mage\\B_FeiyapDestination_Inherit_Mage_Icon.png"
+    }
+}

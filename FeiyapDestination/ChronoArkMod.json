@@ -1,0 +1,15 @@
+{
+    "id": "FeiyapDestination",
+    "Uploader": "Feiyap",
+    "Visibility": "Public",
+    "Title": "【CN】超时空方舟 终点·绯夜氏 FeiyapDestination",
+    "Author": "绯夜氏",
+    "Version": "v0.1",
+    "Cover": "FeiyapDestinationCover.png",
+    "Description": "于万千碎裂的世界破片中，抵达终点的那一个“绯夜氏”。\n\n本版本仅包含角色被动与核心机制；技能组与立绘后续补全。",
+    "TagList": [
+        "Characters"
+    ],
+    "OnlyUploadFiles": true,
+    "ChangeNote": "v0.1\n初版：角色壳 + 全被动/核心机制（技能组占位）。"
+}

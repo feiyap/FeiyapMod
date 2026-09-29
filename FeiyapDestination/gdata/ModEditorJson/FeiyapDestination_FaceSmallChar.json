@@ -1,0 +1,23 @@
+{
+    "myKey": "FeiyapDestination",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "FeiyapDestination\\FeiyapDestinationFaceSmallChar.png",
+        "offsetMax": {
+            "x": 445.633484,
+            "y": 100.5142
+        },
+        "offsetMin": {
+            "x": -272.78775,
+            "y": -823.1703
+        },
+        "pivot": {
+            "x": 0.376875967,
+            "y": 0.8851297
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

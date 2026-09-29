@@ -1,0 +1,13 @@
+{
+    "B_FeiyapDestination_Baiqiao": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FeiyapDestination.B_FeiyapDestination_Baiqiao",
+        "BuffTag": "null",
+        "Name": "百巧手",
+        "MaxStack": 999,
+        "LifeTime": 0,
+        "Description": "每层：攻击力+1，治疗力+1。",
+        "Icon": "B_FeiyapDestination_Baiqiao\\B_FeiyapDestination_Baiqiao_Icon.png"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "B_FeiyapDestination_Inherit_Tank": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FeiyapDestination.B_FeiyapDestination_Inherit_Tank",
+        "BuffTag": "null",
+        "Name": "你的刀如樱花般凋零消散",
+        "MaxStack": 1,
+        "LifeTime": 0,
+        "Description": "受到伤害时若有自己的技能处于倒计时，本回合攻击力提升该伤害值。每回合一次，丢弃技能时抽 1。干扰抵抗率+80%。",
+        "Icon": "B_FeiyapDestination_Inherit_Tank\\B_FeiyapDestination_Inherit_Tank_Icon.png"
+    }
+}

@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using ChronoArkMod;
+using ChronoArkMod.ModData;
 using GameDataEditor;
 using UnityEngine;
 
@@ -111,11 +113,28 @@ namespace BossPhoenix
 
         public static int GetBuffCount(GDESkillData data)
         {
-            if (data == null || data.Effect_Target == null || data.Effect_Target.Buffs == null)
+            if (data == null)
             {
                 return 0;
             }
-            return data.Effect_Target.Buffs.Count;
+            return CountEffectBuffs(data.Effect_Target) + CountEffectBuffs(data.Effect_Self);
+        }
+
+        private static int CountEffectBuffs(GDESkillEffectData effect)
+        {
+            if (effect == null || effect.Buffs == null)
+            {
+                return 0;
+            }
+            int n = 0;
+            for (int i = 0; i < effect.Buffs.Count; i++)
+            {
+                if (effect.Buffs[i] != null)
+                {
+                    n++;
+                }
+            }
+            return n;
         }
 
         public static string GetSkillTypeKey(GDESkillData data)
@@ -237,10 +256,16 @@ namespace BossPhoenix
 
         public static bool CanImagine(GDESkillData data)
         {
-            return data != null
-                && !IsBannedTarget(data.KeyID)
-                && !IsLucyDrawSkill(data)
-                && HasSkillOwner(data);
+            if (data == null || IsBannedTarget(data.KeyID) || IsLucyDrawSkill(data) || !HasSkillOwner(data))
+            {
+                return false;
+            }
+            // 不想象露西技能，除非职业为输出
+            if (NormalizeOwnerKey(data) == "Lucy" && GetOwnerRoleKey(data) != "DPS")
+            {
+                return false;
+            }
+            return true;
         }
 
         public static string PickRandomImaginedKey()
@@ -512,6 +537,16 @@ namespace BossPhoenix
             return -1;
         }
 
+        public static bool IsLucyCategorySkill(GDESkillData data)
+        {
+            if (data == null || data.Category == null)
+            {
+                return false;
+            }
+            string cat = data.Category.Key;
+            return cat == "LucySkill" || cat == GDEItemKeys.SkillCategory_LucySkill;
+        }
+
         public static string GetOwnerRoleKey(GDESkillData data)
         {
             string user = NormalizeOwnerKey(data);
@@ -521,25 +556,34 @@ namespace BossPhoenix
             }
             if (user == "Lucy")
             {
+                if (IsLucyCategorySkill(data))
+                {
+                    return "None";
+                }
                 user = GDEItemKeys.Character_LucyC;
             }
             try
             {
                 GDECharacterData ch = new GDECharacterData(user);
-                if (ch != null && ch.Role != null && !string.IsNullOrEmpty(ch.Role.Key))
+                if (ch != null && ch.Role != null)
                 {
-                    string role = ch.Role.Key;
-                    if (role == "Role_DPS" || role == GDEItemKeys.CharRole_Role_DPS)
+                    string role = ch.Role.Key ?? "";
+                    if (role.IndexOf("DPS", StringComparison.OrdinalIgnoreCase) >= 0)
                     {
                         return "DPS";
                     }
-                    if (role == "Role_Support" || role == GDEItemKeys.CharRole_Role_Support)
+                    if (role.IndexOf("Support", StringComparison.OrdinalIgnoreCase) >= 0)
                     {
                         return "Support";
                     }
-                    if (role == "Role_Tank" || role == GDEItemKeys.CharRole_Role_Tank)
+                    if (role.IndexOf("Tank", StringComparison.OrdinalIgnoreCase) >= 0)
                     {
                         return "Tank";
+                    }
+                    // 模组职业（Role_Mage 等）保留 GDE Key，对照时按 Key 相等判断
+                    if (!string.IsNullOrEmpty(role))
+                    {
+                        return role;
                     }
                 }
             }
@@ -551,7 +595,68 @@ namespace BossPhoenix
 
         public static string GetOwnerRoleName(GDESkillData data)
         {
-            return PhoenixLoc.Loc("Riddle/Role/" + GetOwnerRoleKey(data));
+            string key = GetOwnerRoleKey(data);
+            if (key == "DPS" || key == "Support" || key == "Tank" || key == "None")
+            {
+                return PhoenixLoc.Loc("Riddle/Role/" + key);
+            }
+            return ResolveRoleNameFromLangSystem(key);
+        }
+
+        /// <summary>
+        /// 用职业 GDE Key（如 Role_Mage）读各模组 LangSystem：System/Character/Role/{Key}。
+        /// </summary>
+        private static string ResolveRoleNameFromLangSystem(string roleKey)
+        {
+            if (string.IsNullOrEmpty(roleKey))
+            {
+                return PhoenixLoc.Loc("Riddle/Role/None");
+            }
+            string locKey = "System/Character/Role/" + roleKey;
+            try
+            {
+                string i2 = I2.Loc.LocalizationManager.GetTranslation(locKey);
+                if (IsResolvedLoc(i2, locKey))
+                {
+                    return i2;
+                }
+            }
+            catch
+            {
+            }
+            try
+            {
+                List<string> ids = ModManager.LoadedMods;
+                if (ids == null || ids.Count == 0)
+                {
+                    ids = ModManager.AllModIDs;
+                }
+                if (ids != null)
+                {
+                    for (int i = 0; i < ids.Count; i++)
+                    {
+                        ModInfo mod = ModManager.getModInfo(ids[i]);
+                        if (mod == null || mod.localizationInfo == null)
+                        {
+                            continue;
+                        }
+                        string text = mod.localizationInfo.SystemLocalizationUpdate(locKey);
+                        if (IsResolvedLoc(text, locKey))
+                        {
+                            return text;
+                        }
+                    }
+                }
+            }
+            catch
+            {
+            }
+            return PhoenixLoc.Loc("Riddle/Role/None");
+        }
+
+        private static bool IsResolvedLoc(string text, string locKey)
+        {
+            return !string.IsNullOrEmpty(text) && text != locKey;
         }
 
         public static RiddleMatch CompareRole(GDESkillData guess, GDESkillData target)
@@ -601,12 +706,7 @@ namespace BossPhoenix
             {
                 return RiddleMatch.Exact;
             }
-            int denom = Math.Max(Math.Abs(guess), Math.Abs(target));
-            if (denom <= 0)
-            {
-                return RiddleMatch.None;
-            }
-            if ((float)Math.Abs(guess - target) / denom <= 0.5f)
+            if (Math.Abs(guess - target) <= 50)
             {
                 return RiddleMatch.Close;
             }
@@ -794,10 +894,6 @@ namespace BossPhoenix
             {
                 return "Misc";
             }
-            if (key == "choiceskill")
-            {
-                return "skill";
-            }
             if (key == "all_allyorenemy")
             {
                 return "all";
@@ -808,7 +904,7 @@ namespace BossPhoenix
         public static bool IsNoYellowTarget(string key)
         {
             string n = NormalizeTargetKey(key);
-            return n == "Misc" || n == "skill";
+            return n == "Misc" || n == "skill" || n == "choiceskill";
         }
 
         /// <summary>
@@ -893,6 +989,10 @@ namespace BossPhoenix
             {
                 return false;
             }
+            if (SharePunctuation(a, b))
+            {
+                return true;
+            }
             if (a.Contains(b) || b.Contains(a))
             {
                 return a.Length >= 2 && b.Length >= 2;
@@ -911,10 +1011,31 @@ namespace BossPhoenix
             return false;
         }
 
+        private static bool SharePunctuation(string a, string b)
+        {
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (IsNamePunctuation(a[i]) && b.IndexOf(a[i]) >= 0)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        private static bool IsNamePunctuation(char c)
+        {
+            if (char.IsPunctuation(c))
+            {
+                return true;
+            }
+            return "·～~《》〈〉、".IndexOf(c) >= 0;
+        }
+
         private static string GetTargetFamily(string key)
         {
             string n = NormalizeTargetKey(key);
-            if (n == "enemy" || n == "all_enemy")
+            if (n == "enemy" || n == "all_enemy" || n == "random_enemy")
             {
                 return "enemy";
             }

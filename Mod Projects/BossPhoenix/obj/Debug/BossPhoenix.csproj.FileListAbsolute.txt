@@ -9,8 +9,8 @@ H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Deb
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\MonoMod.RuntimeDetour.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\MonoMod.Utils.dll
 H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\System.Core.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\BossPhoenix202695175531.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\BossPhoenix202695175531.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoenix202695175531.dll
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoenix202695175531.pdb
-H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoenix.csproj.CopyComplete
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\BossPhoenix202692301223.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\bin\Debug\BossPhoenix202692301223.pdb
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoe.D52FB080.Up2Date
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoenix202692301223.dll
+H:\SteamLibrary\steamapps\common\Chrono Ark\Mod\Mod Projects\BossPhoenix\obj\Debug\BossPhoenix202692301223.pdb

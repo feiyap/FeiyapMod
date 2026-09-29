@@ -1,0 +1,6 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+UI/JobSwitch_Button,Text,,전직,Switch Job,転職,转职,轉職
+UI/JobSwitch_Defense,Text,,유풍유운·종점,Ryufu Defense,流風遺韻・終点,流风遗韵·终点·绯夜氏,流風遺韻·終點·緋夜氏
+UI/JobSwitch_Offense,Text,,면역개전·종점,Menkyo Offense,免許皆伝・終点,免许皆传·终点·绯夜氏,免許皆傳·終點·緋夜氏
+UI/PassivePage_Next,Text,,다음,Next,次へ,下一页,下一頁
+UI/PassivePage_Prev,Text,,이전,Prev,前へ,上一页,上一頁

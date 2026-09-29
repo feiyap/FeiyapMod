@@ -1,0 +1,13 @@
+{
+    "B_FeiyapDestination_Yuanqi": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FeiyapDestination.B_FeiyapDestination_Yuanqi",
+        "BuffTag": "null",
+        "Name": "缘起",
+        "MaxStack": 999,
+        "LifeTime": 0,
+        "Description": "每层提供 1% 暴击率提升。",
+        "Icon": "B_FeiyapDestination_Yuanqi\\B_FeiyapDestination_Yuanqi_Icon.png"
+    }
+}

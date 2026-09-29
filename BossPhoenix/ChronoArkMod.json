@@ -4,7 +4,7 @@
     "Visibility": "Public",
     "Title": "【CN/EN】Boss - 凤凰",
     "Author": "绯夜氏",
-    "Version": "v1.1",
+    "Version": "v1.3",
     "Cover": "BossPhoenixCover.png",
     "ModSettingEntries": [
         {
@@ -23,6 +23,6 @@
     ],
     "Description": "在2-1血色公园1添加了一个稀有事件：拦路的凤凰。触发后可与事件Boss“凤凰”进行对战。\n战胜“凤凰”后，能获得黄金技能书x1和露西技能书“小世界现象”x1。\nMOD内置一个选项，开启后会在2-1必定出现事件“拦路的凤凰”。",
     "OnlyUploadFiles": true,
-    "ChangeNote": "v1.1\n削弱 - 攻击力：15→10。\n新增 - 凤凰送的牌变为免费释放。\n修复 - 不再想象持有者为LucyDraw3的技能。",
+    "ChangeNote": "v1.3\n修复：\n1.按下ENTER提交谜底时，若猜对了，会直接退出猜谜界面。\n2.“提议”、“耍赖”等技能会被算作“露西（输出）”的技能。\n3.技能名含有相同标点符号时，没有被计入技能名标黄的逻辑。\n4.“目标”类型缺少“指向技能”、“随机敌人”的类型。\n5.附加BUFF不会计算指向自身的BUFF。",
     "WorkShopId": "3796101194"
 }

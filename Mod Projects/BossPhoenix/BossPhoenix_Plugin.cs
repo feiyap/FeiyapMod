@@ -1,9 +1,12 @@
+using System;
 using System.Collections.Generic;
 using ChronoArkMod;
 using ChronoArkMod.ModData.Settings;
 using ChronoArkMod.Plugin;
+using Dialogical;
 using GameDataEditor;
 using HarmonyLib;
+using UnityEngine;
 
 namespace BossPhoenix
 {
@@ -92,6 +95,190 @@ namespace BossPhoenix
             __instance.IsDead = false;
             passive.SurviveAtOne();
             return false;
+        }
+    }
+
+    /// <summary>
+    /// 城镇凤凰：先邀请猜谜，选「是」开 8 次闲聊猜谜，选「否」走原版对话。
+    /// </summary>
+    [HarmonyPatch(typeof(ArkCode))]
+    [HarmonyPatch("Start")]
+    public static class PhoenixTownArk_Plugin
+    {
+        [HarmonyPostfix]
+        public static void Start_Postfix(ArkCode __instance)
+        {
+            PhoenixTownRiddle.BindFromArk(__instance);
+        }
+    }
+
+    [HarmonyPatch(typeof(Dialogue))]
+    [HarmonyPatch("Activate")]
+    public static class PhoenixTownDialogue_Plugin
+    {
+        [HarmonyPrefix]
+        public static bool Activate_Prefix(Dialogue __instance)
+        {
+            return PhoenixTownRiddle.HandleActivate(__instance);
+        }
+    }
+
+    [HarmonyPatch(typeof(Dialogue))]
+    [HarmonyPatch("CallOption")]
+    public static class PhoenixTownOption_Plugin
+    {
+        [HarmonyPrefix]
+        public static bool CallOption_Prefix(Dialogue __instance, ConversationOption option)
+        {
+            return PhoenixTownRiddle.HandleOption(__instance, option);
+        }
+    }
+
+    [HarmonyPatch(typeof(Dialogue))]
+    [HarmonyPatch("set_conversationIsOver")]
+    public static class PhoenixTownOver_Plugin
+    {
+        [HarmonyPostfix]
+        public static void SetOver_Postfix(Dialogue __instance, bool value)
+        {
+            PhoenixTownRiddle.HandleConversationOver(__instance, value);
+        }
+    }
+
+    public static class PhoenixTownRiddle
+    {
+        private static Dialogue bound;
+        private static DialogueTree originalTree;
+        private static DialogueTree inviteTree;
+        private static bool playingInvite;
+        private static bool passthroughOriginal;
+        private static bool choseYes;
+        private static bool handlingOver;
+
+        public static void BindFromArk(ArkCode ark)
+        {
+            bound = null;
+            originalTree = null;
+            playingInvite = false;
+            passthroughOriginal = false;
+            if (ark == null || ark.UnlockMainNPCList == null)
+            {
+                return;
+            }
+
+            GameObject npc = null;
+            for (int i = 0; i < ark.UnlockMainNPCList.Count; i++)
+            {
+                GameObject go = ark.UnlockMainNPCList[i];
+                if (go != null && string.Equals(go.name, "Phoenix", StringComparison.OrdinalIgnoreCase))
+                {
+                    npc = go;
+                    break;
+                }
+            }
+            if (npc == null && ark.UnlockMainNPCList.Count > 0)
+            {
+                npc = ark.UnlockMainNPCList[0];
+            }
+            if (npc == null)
+            {
+                return;
+            }
+
+            bound = npc.GetComponent<Dialogue>();
+            if (bound == null)
+            {
+                bound = npc.GetComponentInChildren<Dialogue>(true);
+            }
+            if (bound != null)
+            {
+                originalTree = bound.tree;
+            }
+        }
+
+        public static bool HandleActivate(Dialogue dialogue)
+        {
+            if (dialogue == null || dialogue != bound)
+            {
+                return true;
+            }
+            if (passthroughOriginal)
+            {
+                return true;
+            }
+            if (playingInvite)
+            {
+                return true;
+            }
+            if (RiddleUI.IsOpen)
+            {
+                return false;
+            }
+
+            if (inviteTree == null)
+            {
+                inviteTree = AddressableLoadManager.LoadAsyncCompletion<DialogueTree>(Dia_City.DialogueTreePath_Phoenix_Ark, 0);
+            }
+            if (originalTree == null)
+            {
+                originalTree = dialogue.tree;
+            }
+            if (inviteTree == null)
+            {
+                return true;
+            }
+
+            dialogue.tree = inviteTree;
+            playingInvite = true;
+            choseYes = false;
+            return true;
+        }
+
+        public static bool HandleOption(Dialogue dialogue, ConversationOption option)
+        {
+            if (!playingInvite || dialogue == null || dialogue != bound || option == null)
+            {
+                return true;
+            }
+
+            choseYes = option.id == 0;
+            AccessTools.Property(typeof(Dialogue), "conversationIsOver").SetValue(dialogue, true, null);
+            return false;
+        }
+
+        public static void HandleConversationOver(Dialogue dialogue, bool value)
+        {
+            if (!value || !playingInvite || handlingOver || dialogue == null || dialogue != bound)
+            {
+                return;
+            }
+
+            handlingOver = true;
+            playingInvite = false;
+            if (originalTree != null)
+            {
+                dialogue.tree = originalTree;
+            }
+
+            bool yes = choseYes;
+            choseYes = false;
+            handlingOver = false;
+
+            if (yes)
+            {
+                RiddleUI.OpenCasual();
+                return;
+            }
+
+            passthroughOriginal = true;
+            try
+            {
+                dialogue.Activate();
+            }
+            finally
+            {
+                passthroughOriginal = false;
+            }
         }
     }
 }

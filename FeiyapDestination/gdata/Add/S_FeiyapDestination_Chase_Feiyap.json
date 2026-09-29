@@ -1,0 +1,18 @@
+{
+    "S_FeiyapDestination_Chase_Feiyap": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_S_0",
+        "Rare": false,
+        "Target": "enemy",
+        "Name": "绯夜氏追击",
+        "UseAp": 0,
+        "NoDrop": true,
+        "Except": true,
+        "Effect_Target": "SE_T_S_FeiyapDestination_Chase_Feiyap",
+        "Description": "诸我回响：35%倍率。施加1层体内灼烧。",
+        "SkillExtended": [
+            "FeiyapDestination.S_FeiyapDestination_Chase_Feiyap"
+        ]
+    }
+}

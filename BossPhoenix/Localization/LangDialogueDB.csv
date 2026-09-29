@@ -1,0 +1,11 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Dialogue/Phoenix_Ark/001,Text,,"*피닉스
+수수께끼 놀이 하자!","*Phoenix
+Let's play a riddle game!","*フェニックス
+クイズしよう！","*凤凰
+来玩猜谜游戏吧！","*鳳凰
+來玩猜謎遊戲吧！"
+Dialogue/Phoenix_Ark/001_Option1,Text,,예,Yes,はい,是,是
+Dialogue/Phoenix_Ark/001_Option2,Text,,아니요,No,いいえ,否,否
+Dialogue/Phoenix_Ark/002,Text,, , , , , 
+Dialogue/Phoenix_Ark/003,Text,, , , , , 

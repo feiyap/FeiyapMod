@@ -1,0 +1,11 @@
+Key,Type,Desc,Korean,English,Japanese,Chinese,Chinese-TW [zh-tw]
+Character/FeiyapDestination_Name,Text,,종점·히야시,Destination Feiyap,終点・緋夜氏,终点·绯夜氏,終點·緋夜氏
+Character/FeiyapDestination_PassiveName,Text,,무사 동방에서 오다,Samurai From the East,武士は東方より来たる,武士自东方来,武士自東方來
+Skill/S_FeiyapDestination_0_Name,Text,,비생자리표시,Placeholder Slash,緋生プレースホルダ,绯生占位,緋生佔位
+Skill/S_FeiyapDestination_0_Description,Text,,(플레이스홀더),(Placeholder skill.),（プレースホルダ）,（占位技能。完整技能组后续补全。）,（佔位技能）
+Buff/B_FeiyapDestination_Lianxin_Name,Text,,연심,Lotus Heart,蓮心,莲心,蓮心
+Buff/B_FeiyapDestination_Yuanqi_Name,Text,,연기,Fate Bond,縁起,缘起,緣起
+Buff/B_FeiyapDestination_Mark_Name,Text,,황금동공표시,Golden Eye Mark,黄金瞳の印,黄金瞳标记,黃金瞳標記
+Buff/B_FeiyapDestination_Zhuzi_Name,Text,,제아자재,All-Self Freedom,諸我自在,诸我自在,諸我自在
+Buff/B_FeiyapDestination_Baiqiao_Name,Text,,백교수,Hundred Crafts,百巧手,百巧手,百巧手
+Buff/B_FeiyapDestination_Burn_Name,Text,,체내연소,Burning Within,体内灼焼,体内灼烧,體內灼燒

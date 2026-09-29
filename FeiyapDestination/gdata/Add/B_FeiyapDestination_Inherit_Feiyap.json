@@ -1,0 +1,13 @@
+{
+    "B_FeiyapDestination_Inherit_Feiyap": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FeiyapDestination.B_FeiyapDestination_Inherit_Feiyap",
+        "BuffTag": "null",
+        "Name": "你的血如泪水般涓涓流下",
+        "MaxStack": 1,
+        "LifeTime": 0,
+        "Description": "拥有保护体力极限时，攻击伤害的25%转化为治疗。回合开始时获得最大体力20%的保护罩。痛苦抵抗率+80%。",
+        "Icon": "B_FeiyapDestination_Inherit_Feiyap\\B_FeiyapDestination_Inherit_Feiyap_Icon.png"
+    }
+}

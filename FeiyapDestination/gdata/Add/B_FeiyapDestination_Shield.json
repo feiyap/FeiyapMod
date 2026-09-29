@@ -1,0 +1,13 @@
+{
+    "B_FeiyapDestination_Shield": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "",
+        "BuffTag": "null",
+        "Name": "终点护盾",
+        "MaxStack": 1,
+        "LifeTime": 1,
+        "Description": "保护罩。",
+        "Icon": "B_FeiyapDestination_Shield\\B_FeiyapDestination_Shield_Icon.png"
+    }
+}

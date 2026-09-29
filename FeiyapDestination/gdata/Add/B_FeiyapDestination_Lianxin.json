@@ -1,0 +1,13 @@
+{
+    "B_FeiyapDestination_Lianxin": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FeiyapDestination.B_FeiyapDestination_Lianxin",
+        "BuffTag": "null",
+        "Name": "莲心",
+        "MaxStack": 999,
+        "LifeTime": 2,
+        "Description": "消耗真法力时获得。输出模式下每层提供 10% 暴击伤害；防御模式下可消耗以拦截友军受到的攻击。",
+        "Icon": "B_FeiyapDestination_Lianxin\\B_FeiyapDestination_Lianxin_Icon.png"
+    }
+}

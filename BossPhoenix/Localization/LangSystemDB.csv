@@ -53,6 +53,7 @@ Riddle/Target/all_ally,Text,,아군 전체,All Allies,味方全体,全体友军,
 Riddle/Target/all_enemy,Text,,적 전체,All Enemies,敵全体,全体敌人,全體敵人
 Riddle/Target/allskill,Text,,모든 스킬,All Skills,全スキル,全体技能,全體技能
 Riddle/Target/ally,Text,,아군 하나,Single Ally,味方単体,指向友军,指向友軍
+Riddle/Target/choiceskill,Text,,선택,Option,選択,选项,選項
 Riddle/Target/deathally,Text,,전투불능 아군,Downed Ally,戦闘不能の味方,无法战斗的友军,無法戰鬥的友軍
 Riddle/Target/enemy,Text,,적 하나,Single Enemy,敵単体,指向敌人,指向敵人
 Riddle/Target/otherally,Text,,다른 아군,Other Ally,他の味方,其他友军,其他友軍

@@ -1,0 +1,132 @@
+{
+    "FeiyapDestination": {
+        "_gdeSchema": "Character",
+        "Role": "Role_DPS",
+        "PassiveClassName": "FeiyapDestination.P_FeiyapDestination",
+        "PassiveUnlockLV1": false,
+        "face": "FeiyapDestination\\FeiyapDestinationBattleFace.png",
+        "name": "终点·绯夜氏",
+        "SelectInfo": "于万千碎裂的世界破片中，抵达终点的那一个“绯夜氏”。\n武士自东方来——真法力、莲心、转职、缘起与诸我回响。\n\n（技能组与立绘待补；立绘暂用绯夜氏）",
+        "Gender": 1,
+        "CollectionSprite_Cover": "FeiyapDestination\\FeiyapDestinationCollectionSprite_Cover.png",
+        "CollectionSprite_SkillFace": "FeiyapDestination\\FeiyapDestinationCollectionSprite_SkillFace.png",
+        "StatView_Atk": 3,
+        "StatView_Difficult": 1,
+        "MAXHP": {
+            "x": 24,
+            "y": 44
+        },
+        "ATK": {
+            "x": 15,
+            "y": 27
+        },
+        "REG": {
+            "x": 7,
+            "y": 11
+        },
+        "DODGE": {
+            "x": -5,
+            "y": 10
+        },
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "HIT": {
+            "x": 94,
+            "y": 114
+        },
+        "CRI": {
+            "x": 1,
+            "y": 10
+        },
+        "RES_DEBUFF": {
+            "x": -5,
+            "y": 30
+        },
+        "RES_DOT": {
+            "x": -5,
+            "y": 30
+        },
+        "HIT_CC": {
+            "x": 0,
+            "y": 30
+        },
+        "RES_CC": {
+            "x": -5,
+            "y": 30
+        },
+        "HIT_DEBUFF": {
+            "x": 0,
+            "y": 30
+        },
+        "HIT_DOT": {
+            "x": 0,
+            "y": 30
+        },
+        "PassiveName": "武士自东方来",
+        "PassiveIcon": "FeiyapDestination\\FeiyapDestinationPassiveIcon.png",
+        "PassiveDes": "<<Any>>\n<b>莲心守月</b>\n每个回合开始时，将 1 点法力值变为<color=#00BFFF>真</color>法力值。<color=#00BFFF>真</color>法力值在回合结束时保留，且于普通法力值之后被使用、消耗。每当有 1 点<color=#00BFFF>真</color>法力值被消耗时，绯夜氏获得 1 层<color=#00BFFF>莲心</color>，持续 2 回合。\n<</Any>>\n<<Offense>>\n<b>免许皆传</b>\n每层<color=#00BFFF>莲心</color>还会提供 10% 暴击伤害提升。\n<</Offense>>\n<<Defense>>\n<b>流风遗韵</b>\n当其他角色受到攻击时，消耗 1 层<color=#00BFFF>莲心</color>，绯夜氏拦截此次攻击、使该伤害降低（5x自身等级）点。\n<</Defense>>\n<<PAGE>>\n<<Any>>\n<b>立処皆真</b>\n绯夜氏在命中、暴击、闪避上始终持有优势。\n<</Any>>\n<<Any>>\n<b>活殺自在</b>\n在角色界面新增转职按钮：在{OffenseJob}和{DefenseJob}中来回切换。切换时，会生效对应职业的被动能力、而另一个会失效。\n<</Any>>\n<<Any>>\n<b>东方侍缘起</b>\n绯夜氏每与一名角色并肩作战、并完成过循环，战斗开始时获得 1 层“缘起”。每层“缘起”提供 1% 暴击率提升。\n<</Any>>\n<<PAGE>>\n<<Any>>\n<b>诸我回响的黄金瞳</b>\n队伍中每有 1 名除自己以外的“绯夜氏”，回合开始时，标记 1 个敌人。所有“绯夜氏”对被标记的敌人发起攻击时，消耗标记，其他“绯夜氏”会对该敌人发起追击。\n<</Any>>\n<<EighthLocked>>\n<b>秘而不宣的第八个文字</b>\n绯夜氏的身上似乎隐藏着更多秘密……（获得金信物时解锁详情。）\n<</EighthLocked>>\n<<EighthUnlocked>>\n<b>第八个绯生之文字</b>\n使用法力进行“等待”时，若手牌最上方的技能持有者为除自己外的“绯夜氏”，立即杀死她。\n杀死其他“绯夜氏”时，或是战斗开始时每有 1 名已死亡的“绯夜氏”，都将获得 1 层“诸我自在”，并且所有持有者为那个“绯夜氏”的技能转移给自己。每有 1 层“诸我自在”，回合开始时过载减少 2 点（可以为负）。\n绯夜氏 / 剑圣·绯夜氏 / 魔女·绯夜氏：分别继承对应的诸我回响效果。\n<</EighthUnlocked>>",
+        "FirstSkill": "S_FeiyapDestination_0",
+        "StatView_Dot": 2,
+        "CampSelectWord": "您好。在下——终点的绯夜氏。",
+        "Text_PharosLeader": [
+            "终点……亦是起点。",
+            "诸我回响。",
+            "斩尽。"
+        ],
+        "Text_Witch": [
+            "诅咒？无所谓。",
+            "来吧。"
+        ],
+        "Text_MasterTarget": "能够抵达此处，便已足够。",
+        "Text_Battle_Idle": [
+            "还要等多久？",
+            "去砍人吧。"
+        ],
+        "Text_Battle_ND": [
+            "我会……凋零吗……？"
+        ],
+        "Text_Battle_AllyND": [
+            "可别死在我之前。"
+        ],
+        "Text_Battle_Kill": [
+            "你的血、我收下了。"
+        ],
+        "Text_Battle_Start": [
+            "您好。在下终点·绯夜氏。",
+            "无名亦无为，绯生之文字。"
+        ],
+        "Text_Battle_Cri": [
+            "接招！",
+            "有破绽！"
+        ],
+        "Text_Field_Idle": [
+            "怎么了？"
+        ],
+        "Text_Battle_Healed": [
+            "诚惶诚恐。"
+        ],
+        "Text_Field_GetItem": [
+            "哦哦。"
+        ],
+        "CampSD": [
+            "FeiyapDestination\\FeiyapDestinationCampSD0.png",
+            "FeiyapDestination\\FeiyapDestinationCampSD1.png",
+            "FeiyapDestination\\FeiyapDestinationCampSD2.png",
+            "FeiyapDestination\\FeiyapDestinationCampSD3.png"
+        ],
+        "GoodGift": [
+            "Drink_Sa",
+            "Drink_Be",
+            "Gift_Cartoon",
+            "Gift_Fan"
+        ],
+        "CanFriendShip": true,
+        "_gdeType_GoodGift": "Item_Friendship",
+        "_gdeIsList_GoodGift": 1,
+        "Dialogue_FriendShipLVTalks": [
+            
+        ]
+    }
+}

@@ -46,12 +46,10 @@ namespace BossPhoenix
         public static string Skill_S_BossPhoenix_0 = "S_BossPhoenix_0";
 		/// <summary>
 		/// 啄
-		/// 施加“眩晕”：100%干扰成功率。
 		/// </summary>
         public static string Skill_S_BossPhoenix_1 = "S_BossPhoenix_1";
 		/// <summary>
 		/// 发脾气
-		/// 施加“好疼…”：80%弱化成功率；2回合；受到痛苦伤害增加100%。
 		/// </summary>
         public static string Skill_S_BossPhoenix_2 = "S_BossPhoenix_2";
 		/// <summary>
@@ -62,8 +60,8 @@ namespace BossPhoenix
 		/// <summary>
 		/// 小世界现象
 		/// 放逐目标技能。
-		/// 那之后，展示牌堆和弃牌堆中、满足以下条件的技能。选择并放逐其中 1 个技能（此时，条件中被放逐的技能改变），那之后，再次展示牌库中、满足以下条件的技能。选择并将其中 1 个技能拿到手中：
-		/// 在“费用”、“指向”、“持有者”、“倍率”中仅有一项与被放逐的技能相同。
+		/// 从牌库和弃牌堆中展示与该技能恰好只有 1 项相同的技能（比较费用、指向、持有者、倍率），选择 1 个放逐。
+		/// 再以刚放逐的技能为基准同样检索，选择 1 个拿到手中。
 		/// </summary>
         public static string Skill_S_BossPhoenix_SmallWorld = "S_BossPhoenix_SmallWorld";
 		/// <summary>
@@ -538,6 +536,19 @@ namespace BossPhoenix
 		/// 指向友軍
 		/// </summary>
         public static string RiddleTargetally => ModManager.getModInfo("BossPhoenix").localizationInfo.SystemLocalizationUpdate("Riddle/Target/ally");
+		/// <summary>
+		/// Korean:
+		/// 선택
+		/// English:
+		/// Option
+		/// Japanese:
+		/// 選択
+		/// Chinese:
+		/// 选项
+		/// Chinese-TW:
+		/// 選項
+		/// </summary>
+        public static string RiddleTargetchoiceskill => ModManager.getModInfo("BossPhoenix").localizationInfo.SystemLocalizationUpdate("Riddle/Target/choiceskill");
 		/// <summary>
 		/// Korean:
 		/// 전투불능 아군

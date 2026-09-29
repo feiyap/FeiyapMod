@@ -1,0 +1,16 @@
+{
+    "B_FeiyapDestination_Burn": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "",
+        "BuffTag": "DOT",
+        "Name": "体内灼烧",
+        "MaxStack": 3,
+        "LifeTime": 3,
+        "Debuff": true,
+        "TagPer": 120,
+        "Description": "每回合受到痛苦伤害。",
+        "Tick": "SE_Tick_B_FeiyapDestination_Burn",
+        "Icon": "B_FeiyapDestination_Burn\\B_FeiyapDestination_Burn_Icon.png"
+    }
+}

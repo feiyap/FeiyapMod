@@ -1,0 +1,13 @@
+{
+    "B_FeiyapDestination_Zhuzi": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FeiyapDestination.B_FeiyapDestination_Zhuzi",
+        "BuffTag": "null",
+        "Name": "诸我自在",
+        "MaxStack": 999,
+        "LifeTime": 0,
+        "Description": "每层使回合开始时过载减少 2 点（可为负）。",
+        "Icon": "B_FeiyapDestination_Zhuzi\\B_FeiyapDestination_Zhuzi_Icon.png"
+    }
+}

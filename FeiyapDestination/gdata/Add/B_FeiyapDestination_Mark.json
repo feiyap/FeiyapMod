@@ -1,0 +1,13 @@
+{
+    "B_FeiyapDestination_Mark": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "ClassName": "FeiyapDestination.B_FeiyapDestination_Mark",
+        "BuffTag": "null",
+        "Name": "黄金瞳标记",
+        "MaxStack": 1,
+        "LifeTime": 1,
+        "Description": "被标记的敌人受到任意绯夜氏攻击时，消耗标记，其他绯夜氏发起追击。",
+        "Icon": "B_FeiyapDestination_Mark\\B_FeiyapDestination_Mark_Icon.png"
+    }
+}

@@ -46,8 +46,12 @@ namespace BossPhoenix
 
         private B_BossPhoenix_P state;
         private BattleChar phoenix;
+        private bool casual;
+        private string casualImaginedKey = "";
+        private int casualWrong;
         private bool submitted;
         private bool finished;
+        private bool ignoreConfirmKey;
 
         private InputField input;
         private Text statusText;
@@ -63,6 +67,19 @@ namespace BossPhoenix
         private int dropdownIndex;
 
         public static void Open(B_BossPhoenix_P state, BattleChar phoenix)
+        {
+            Spawn(state, phoenix, false);
+        }
+
+        /// <summary>
+        /// 城镇闲聊：只猜 1 次，无奖励无惩罚。
+        /// </summary>
+        public static void OpenCasual()
+        {
+            Spawn(null, null, true);
+        }
+
+        private static void Spawn(B_BossPhoenix_P state, BattleChar phoenix, bool casual)
         {
             if (instance != null)
             {
@@ -89,6 +106,12 @@ namespace BossPhoenix
             instance = root.AddComponent<RiddleUI>();
             instance.state = state;
             instance.phoenix = phoenix;
+            instance.casual = casual;
+            if (casual)
+            {
+                instance.casualImaginedKey = PhoenixSkillUtil.PickRandomImaginedKey();
+                instance.casualWrong = 0;
+            }
             instance.BuildUI();
             Object.DontDestroyOnLoad(root);
         }
@@ -173,6 +196,14 @@ namespace BossPhoenix
             this.MoveTipToMouse();
             if (this.waitingConfirm)
             {
+                if (this.ignoreConfirmKey)
+                {
+                    if (!Input.GetKey(KeyCode.Return) && !Input.GetKey(KeyCode.KeypadEnter))
+                    {
+                        this.ignoreConfirmKey = false;
+                    }
+                    return;
+                }
                 if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
                 {
                     this.CloseAfterWait();
@@ -409,9 +440,78 @@ namespace BossPhoenix
             }
         }
 
+        private int MaxGuessNow
+        {
+            get { return PhoenixSkillUtil.MaxGuess; }
+        }
+
+        private void EnsureImaginedNow()
+        {
+            if (this.casual)
+            {
+                if (string.IsNullOrEmpty(this.casualImaginedKey))
+                {
+                    this.casualImaginedKey = PhoenixSkillUtil.PickRandomImaginedKey();
+                }
+                return;
+            }
+            if (this.state != null)
+            {
+                this.state.EnsureImagined();
+            }
+        }
+
+        private string CurrentImaginedKey
+        {
+            get
+            {
+                if (this.casual)
+                {
+                    return this.casualImaginedKey;
+                }
+                return this.state != null ? this.state.ImaginedKey : "";
+            }
+            set
+            {
+                if (this.casual)
+                {
+                    this.casualImaginedKey = value;
+                    return;
+                }
+                if (this.state != null)
+                {
+                    this.state.ImaginedKey = value;
+                }
+            }
+        }
+
+        private int CurrentWrong
+        {
+            get
+            {
+                if (this.casual)
+                {
+                    return this.casualWrong;
+                }
+                return this.state != null ? this.state.WrongGuesses : 0;
+            }
+            set
+            {
+                if (this.casual)
+                {
+                    this.casualWrong = value;
+                    return;
+                }
+                if (this.state != null)
+                {
+                    this.state.WrongGuesses = value;
+                }
+            }
+        }
+
         private void TrySubmit(string raw)
         {
-            if (this.finished || this.state == null)
+            if (this.finished || (!this.casual && this.state == null))
             {
                 return;
             }
@@ -436,32 +536,35 @@ namespace BossPhoenix
 
         private void AcceptGuess(GDESkillData guess)
         {
-            this.state.EnsureImagined();
-            bool firstTry = this.state.WrongGuesses == 0 && this.tableRoot.childCount <= 1;
-            if (firstTry && guess.KeyID == this.state.ImaginedKey && !B_BossPhoenix_P.IsStubborn(this.phoenix))
+            this.EnsureImaginedNow();
+            bool firstTry = this.CurrentWrong == 0 && this.tableRoot.childCount <= 1;
+            if (firstTry && !this.casual && guess.KeyID == this.CurrentImaginedKey && !B_BossPhoenix_P.IsStubborn(this.phoenix))
             {
-                this.state.ImaginedKey = PhoenixSkillUtil.PickRandomImaginedKeyExcept(guess.KeyID);
+                this.CurrentImaginedKey = PhoenixSkillUtil.PickRandomImaginedKeyExcept(guess.KeyID);
             }
 
-            GDESkillData target = PhoenixSkillUtil.FindSkill(this.state.ImaginedKey);
+            GDESkillData target = PhoenixSkillUtil.FindSkill(this.CurrentImaginedKey);
             if (target == null)
             {
                 this.statusText.text = PhoenixLoc.Loc("Riddle/NotExist");
                 return;
             }
 
-            if (guess.KeyID == this.state.ImaginedKey)
+            if (guess.KeyID == this.CurrentImaginedKey)
             {
                 this.AddRow(this.tableRoot, false, guess, target);
                 this.WaitForConfirm();
                 return;
             }
 
-            this.state.WrongGuesses++;
-            this.DealWrongPain(this.state.WrongGuesses);
+            this.CurrentWrong = this.CurrentWrong + 1;
+            if (!this.casual)
+            {
+                this.DealWrongPain(this.CurrentWrong);
+            }
             this.AddRow(this.tableRoot, false, guess, target);
             this.statusText.color = new Color(0.85f, 0.85f, 0.85f, 1f);
-            this.statusText.text = string.Format(PhoenixLoc.Loc("Riddle/WrongCount"), this.state.WrongGuesses, PhoenixSkillUtil.MaxGuess);
+            this.statusText.text = string.Format(PhoenixLoc.Loc("Riddle/WrongCount"), this.CurrentWrong, this.MaxGuessNow);
 
             if (this.input != null)
             {
@@ -472,15 +575,20 @@ namespace BossPhoenix
             this.dropdownRoot.gameObject.SetActive(false);
             this.previewHits.Clear();
 
-            if (this.state.WrongGuesses >= PhoenixSkillUtil.MaxGuess)
+            if (this.CurrentWrong >= this.MaxGuessNow)
             {
+                if (this.casual)
+                {
+                    this.RevealAnswer();
+                    return;
+                }
                 this.Finish(Result.Lost);
             }
         }
 
         private void DealWrongPain(int amount)
         {
-            if (BattleSystem.instance == null || BattleSystem.instance.AllyTeam == null)
+            if (this.casual || BattleSystem.instance == null || BattleSystem.instance.AllyTeam == null)
             {
                 return;
             }
@@ -493,13 +601,8 @@ namespace BossPhoenix
 
         private void RevealAnswer()
         {
-            if (this.state == null)
-            {
-                this.Finish(Result.Lost);
-                return;
-            }
-            this.state.EnsureImagined();
-            GDESkillData target = PhoenixSkillUtil.FindSkill(this.state.ImaginedKey);
+            this.EnsureImaginedNow();
+            GDESkillData target = PhoenixSkillUtil.FindSkill(this.CurrentImaginedKey);
             if (target != null)
             {
                 this.AddRow(this.tableRoot, false, target, target);
@@ -513,6 +616,7 @@ namespace BossPhoenix
             }
             this.finished = true;
             this.waitingConfirm = true;
+            this.ignoreConfirmKey = true;
             LastResult = Result.Lost;
             if (this.input != null)
             {
@@ -536,7 +640,7 @@ namespace BossPhoenix
                 return;
             }
             this.waitingConfirm = false;
-            if (LastResult == Result.Lost && this.state != null && this.state.RegisterRiddleLoss())
+            if (!this.casual && LastResult == Result.Lost && this.state != null && this.state.RegisterRiddleLoss())
             {
                 this.EndBattleNow();
             }
@@ -547,6 +651,7 @@ namespace BossPhoenix
         {
             this.finished = true;
             this.waitingConfirm = true;
+            this.ignoreConfirmKey = true;
             LastResult = Result.Won;
             if (this.input != null)
             {
@@ -576,7 +681,7 @@ namespace BossPhoenix
             {
                 this.input.interactable = false;
             }
-            if (result == Result.Lost && this.state != null && this.state.RegisterRiddleLoss())
+            if (result == Result.Lost && !this.casual && this.state != null && this.state.RegisterRiddleLoss())
             {
                 this.EndBattleNow();
             }
